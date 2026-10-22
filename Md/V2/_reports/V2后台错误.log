@@ -1,0 +1,74 @@
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 178, in <module>
+    judge = proof_root / f"{doc_id}.judge.jsonl"
+    ^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 151, in main
+    docs = []
+            ^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 48, in run
+    print("RUN", " ".join(command), flush=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['C:\\Python314\\python.exe', 'C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\v2_adjudicate_document.py', 'D:\\×³Îå¸£\\·çË®ÏîÄ¿\\Md\\V2\\_reports\\proof\\doc001.proof.jsonl', 'C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc001.pdf', 'D:\\×³Îå¸£\\·çË®ÏîÄ¿\\Md\\V2\\_reports\\proof\\doc001.judge.jsonl', 'D:\\×³Îå¸£\\·çË®ÏîÄ¿\\Md\\V2\\_reports\\proof\\doc001.judge.status.json', '--doc-id', 'doc001', '--workers', '3', '--dpi', '120']' returned non-zero exit status 2.
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 276, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 236, in main
+    run_resilient([sys.executable, str(WORK / "v2_proofread_document.py"), str(doc["middle"]), str(doc["pdf"]), str(proof), str(proof_status), "--doc-id", doc_id, "--ranges", ranges_arg, "--workers", str(args.workers), "--dpi", str(args.dpi)], blocker_path=blocker_path, doc_id=doc_id, stage="ÖðÒ³ÊÓ¾õ³õÉó")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 94, in run_resilient
+    raise RuntimeError(f"{doc_id} {stage} failed after {attempts} attempts")
+RuntimeError: doc003 ÖðÒ³ÊÓ¾õ³õÉó failed after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 276, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 236, in main
+    run_resilient([sys.executable, str(WORK / "v2_proofread_document.py"), str(doc["middle"]), str(doc["pdf"]), str(proof), str(proof_status), "--doc-id", doc_id, "--ranges", ranges_arg, "--workers", str(args.workers), "--dpi", str(args.dpi)], blocker_path=blocker_path, doc_id=doc_id, stage="ÖðÒ³ÊÓ¾õ³õÉó")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 94, in run_resilient
+    raise RuntimeError(f"{doc_id} {stage} failed after {attempts} attempts")
+RuntimeError: doc003 ÖðÒ³ÊÓ¾õ³õÉó failed after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 276, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 236, in main
+    run_resilient([sys.executable, str(WORK / "v2_proofread_document.py"), str(doc["middle"]), str(doc["pdf"]), str(proof), str(proof_status), "--doc-id", doc_id, "--ranges", ranges_arg, "--workers", str(args.workers), "--dpi", str(args.dpi)], blocker_path=blocker_path, doc_id=doc_id, stage="ÖðÒ³ÊÓ¾õ³õÉó")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 94, in run_resilient
+    raise RuntimeError(f"{doc_id} {stage} failed after {attempts} attempts")
+RuntimeError: doc004 ÖðÒ³ÊÓ¾õ³õÉó failed after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 287, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 247, in main
+    run_resilient([sys.executable, str(WORK / "v2_proofread_document.py"), str(doc["middle"]), str(doc["pdf"]), str(proof), str(proof_status), "--doc-id", doc_id, "--ranges", ranges_arg, "--workers", str(args.workers), "--dpi", str(args.dpi)], blocker_path=blocker_path, doc_id=doc_id, stage="ÖðÒ³ÊÓ¾õ³õÉó")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 94, in run_resilient
+    raise RuntimeError(f"{doc_id} {stage} failed after {attempts} attempts")
+RuntimeError: doc005 ÖðÒ³ÊÓ¾õ³õÉó failed after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 287, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 247, in main
+    run_resilient([sys.executable, str(WORK / "v2_proofread_document.py"), str(doc["middle"]), str(doc["pdf"]), str(proof), str(proof_status), "--doc-id", doc_id, "--ranges", ranges_arg, "--workers", str(args.workers), "--dpi", str(args.dpi)], blocker_path=blocker_path, doc_id=doc_id, stage="ÖðÒ³ÊÓ¾õ³õÉó")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 94, in run_resilient
+    raise RuntimeError(f"{doc_id} {stage} failed after {attempts} attempts")
+RuntimeError: doc005 ÖðÒ³ÊÓ¾õ³õÉó failed after 3 attempts
+Traceback (most recent call last):
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 287, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 247, in main
+    run_resilient([sys.executable, str(WORK / "v2_proofread_document.py"), str(doc["middle"]), str(doc["pdf"]), str(proof), str(proof_status), "--doc-id", doc_id, "--ranges", ranges_arg, "--workers", str(args.workers), "--dpi", str(args.dpi)], blocker_path=blocker_path, doc_id=doc_id, stage="ÖðÒ³ÊÓ¾õ³õÉó")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\QIQI\.codex\visualizations\2026\09\18\01a0b255-9285-73d3-b98d-0ebe46512e50\ocr_batch\v2_orchestrator.py", line 94, in run_resilient
+    raise RuntimeError(f"{doc_id} {stage} failed after {attempts} attempts")
+RuntimeError: doc020 ÖðÒ³ÊÓ¾õ³õÉó failed after 3 attempts

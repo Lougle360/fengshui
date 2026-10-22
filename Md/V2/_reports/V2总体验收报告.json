@@ -1,0 +1,862 @@
+{
+  "generated_at": "2026-09-22T22:52:30.826935+00:00",
+  "status": "passed",
+  "delivery_root": "D:\\壮五福\\风水项目\\Md\\V2",
+  "summary": {
+    "books": 36,
+    "logical_pages_expected": 6397,
+    "logical_pages_proofread": 6397,
+    "visually_reviewed_pages": 6391,
+    "source_damaged_pages": 6,
+    "legacy_empty_pages": 0,
+    "candidate_pages_adjudicated": 5502,
+    "correction_candidates": 29851,
+    "auto_applied": 3941,
+    "recorded_not_applied": 25910,
+    "estimated_cost_rmb": 68.5484,
+    "usage": {
+      "prompt_tokens": 27799226,
+      "completion_tokens": 7785430,
+      "total_tokens": 35584656
+    }
+  },
+  "excluded": {
+    "collection_pages": 22,
+    "duplicate_pages": 258,
+    "duplicate_document": "doc018"
+  },
+  "corrupt_source_pages": [
+    {
+      "doc_id": "doc003",
+      "source_page": 66
+    },
+    {
+      "doc_id": "doc003",
+      "source_page": 411
+    },
+    {
+      "doc_id": "doc014",
+      "source_page": 39
+    },
+    {
+      "doc_id": "doc014",
+      "source_page": 168
+    },
+    {
+      "doc_id": "doc014",
+      "source_page": 231
+    },
+    {
+      "doc_id": "doc014",
+      "source_page": 329
+    }
+  ],
+  "gates": [
+    {
+      "gate": "36本一书一MD",
+      "passed": true
+    },
+    {
+      "gate": "6397有效逻辑页逐页入账（6391页视觉初审+6页源损坏）",
+      "passed": true
+    },
+    {
+      "gate": "候选页二次独立裁决",
+      "passed": true
+    },
+    {
+      "gate": "所有候选均已采用或入账",
+      "passed": true
+    },
+    {
+      "gate": "付费预算不超过150元",
+      "passed": true
+    },
+    {
+      "gate": "图片与Markdown硬校验",
+      "passed": true
+    },
+    {
+      "gate": "单一H1",
+      "passed": true
+    },
+    {
+      "gate": "排除与损坏页单独记账",
+      "passed": true
+    }
+  ],
+  "books": [
+    {
+      "number": 1,
+      "title": "青囊海角经（郭璞著·郑同校·2017）",
+      "file": "001 青囊海角经（郭璞著·郑同校·2017）.md",
+      "logical_pages": 216,
+      "characters": 121994,
+      "h1_count": 1,
+      "applied": 112,
+      "recorded_not_applied": 816,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 3,
+        "identical": 755,
+        "length_change_too_large": 2,
+        "old_text_not_uniquely_located": 228,
+        "second_pass_evidence_not_auditable": 45,
+        "second_pass_not_high_confidence_accept": 272,
+        "similarity_below_0_92": 40,
+        "too_many_changed_characters": 3,
+        "whitespace_only": 1
+      }
+    },
+    {
+      "number": 2,
+      "title": "入地眼全书",
+      "file": "002 入地眼全书.md",
+      "logical_pages": 162,
+      "characters": 100615,
+      "h1_count": 1,
+      "applied": 37,
+      "recorded_not_applied": 703,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 34,
+        "identical": 528,
+        "length_change_too_large": 21,
+        "old_text_not_uniquely_located": 437,
+        "second_pass_evidence_not_auditable": 21,
+        "second_pass_not_high_confidence_accept": 194,
+        "similarity_below_0_92": 35,
+        "too_many_changed_characters": 25,
+        "whitespace_only": 53
+      }
+    },
+    {
+      "number": 3,
+      "title": "平砂玉尺经",
+      "file": "003 平砂玉尺经.md",
+      "logical_pages": 86,
+      "characters": 50792,
+      "h1_count": 1,
+      "applied": 43,
+      "recorded_not_applied": 550,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 38,
+        "identical": 421,
+        "length_change_too_large": 37,
+        "old_text_not_uniquely_located": 258,
+        "second_pass_evidence_not_auditable": 71,
+        "second_pass_not_high_confidence_accept": 211,
+        "similarity_below_0_92": 48,
+        "too_many_changed_characters": 39,
+        "whitespace_only": 7
+      }
+    },
+    {
+      "number": 4,
+      "title": "郭璞葬经（五经四书解义本）",
+      "file": "004 郭璞葬经（五经四书解义本）.md",
+      "logical_pages": 29,
+      "characters": 17094,
+      "h1_count": 1,
+      "applied": 8,
+      "recorded_not_applied": 107,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 9,
+        "identical": 85,
+        "length_change_too_large": 10,
+        "old_text_not_uniquely_located": 41,
+        "second_pass_evidence_not_auditable": 12,
+        "second_pass_not_high_confidence_accept": 33,
+        "similarity_below_0_92": 11,
+        "too_many_changed_characters": 8
+      }
+    },
+    {
+      "number": 5,
+      "title": "鲁班经匠家镜",
+      "file": "005 鲁班经匠家镜.md",
+      "logical_pages": 41,
+      "characters": 20261,
+      "h1_count": 1,
+      "applied": 12,
+      "recorded_not_applied": 216,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 15,
+        "identical": 174,
+        "length_change_too_large": 9,
+        "old_text_not_uniquely_located": 92,
+        "second_pass_evidence_not_auditable": 18,
+        "second_pass_not_high_confidence_accept": 86,
+        "similarity_below_0_92": 18,
+        "too_many_changed_characters": 8,
+        "whitespace_only": 6
+      }
+    },
+    {
+      "number": 6,
+      "title": "选择纪全",
+      "file": "006 选择纪全.md",
+      "logical_pages": 14,
+      "characters": 5883,
+      "h1_count": 1,
+      "applied": 10,
+      "recorded_not_applied": 106,
+      "reason_counts": {
+        "identical": 97,
+        "old_text_not_uniquely_located": 41,
+        "second_pass_evidence_not_auditable": 13,
+        "second_pass_not_high_confidence_accept": 57,
+        "similarity_below_0_92": 1
+      }
+    },
+    {
+      "number": 7,
+      "title": "秘诀仙机",
+      "file": "007 秘诀仙机.md",
+      "logical_pages": 9,
+      "characters": 5952,
+      "h1_count": 1,
+      "applied": 2,
+      "recorded_not_applied": 6,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 1,
+        "identical": 4,
+        "old_text_not_uniquely_located": 3,
+        "second_pass_not_high_confidence_accept": 1,
+        "similarity_below_0_92": 1
+      }
+    },
+    {
+      "number": 8,
+      "title": "地理正宗臆解",
+      "file": "008 地理正宗臆解.md",
+      "logical_pages": 108,
+      "characters": 194527,
+      "h1_count": 1,
+      "applied": 1,
+      "recorded_not_applied": 79,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 1,
+        "first_pass_not_high_confidence": 17,
+        "identical": 58,
+        "missing_ocr_text_block": 1,
+        "old_text_not_uniquely_located": 64,
+        "second_pass_not_high_confidence_accept": 39,
+        "too_many_changed_characters": 1,
+        "whitespace_only": 3
+      }
+    },
+    {
+      "number": 9,
+      "title": "地理指迷篇臆解",
+      "file": "009 地理指迷篇臆解.md",
+      "logical_pages": 66,
+      "characters": 107354,
+      "h1_count": 1,
+      "applied": 0,
+      "recorded_not_applied": 66,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 3,
+        "first_pass_not_high_confidence": 12,
+        "identical": 38,
+        "length_change_too_large": 12,
+        "missing_ocr_text_block": 3,
+        "old_text_not_uniquely_located": 51,
+        "second_pass_not_high_confidence_accept": 14,
+        "similarity_below_0_92": 2,
+        "too_many_changed_characters": 11
+      }
+    },
+    {
+      "number": 10,
+      "title": "地理黑囊经",
+      "file": "010 地理黑囊经.md",
+      "logical_pages": 106,
+      "characters": 76843,
+      "h1_count": 1,
+      "applied": 49,
+      "recorded_not_applied": 727,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 50,
+        "identical": 521,
+        "length_change_too_large": 23,
+        "old_text_not_uniquely_located": 323,
+        "second_pass_not_high_confidence_accept": 140,
+        "similarity_below_0_92": 76,
+        "too_many_changed_characters": 35,
+        "whitespace_only": 59
+      }
+    },
+    {
+      "number": 11,
+      "title": "青囊心印",
+      "file": "011 青囊心印.md",
+      "logical_pages": 22,
+      "characters": 12989,
+      "h1_count": 1,
+      "applied": 19,
+      "recorded_not_applied": 130,
+      "reason_counts": {
+        "identical": 66,
+        "length_change_too_large": 50,
+        "old_text_not_uniquely_located": 42,
+        "second_pass_not_high_confidence_accept": 22,
+        "similarity_below_0_92": 27,
+        "too_many_changed_characters": 38,
+        "whitespace_only": 6
+      }
+    },
+    {
+      "number": 12,
+      "title": "青囊心印续编",
+      "file": "012 青囊心印续编.md",
+      "logical_pages": 18,
+      "characters": 9252,
+      "h1_count": 1,
+      "applied": 7,
+      "recorded_not_applied": 153,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 2,
+        "identical": 126,
+        "length_change_too_large": 5,
+        "missing_ocr_text_block": 2,
+        "old_text_not_uniquely_located": 55,
+        "second_pass_not_high_confidence_accept": 11,
+        "similarity_below_0_92": 13,
+        "too_many_changed_characters": 5
+      }
+    },
+    {
+      "number": 13,
+      "title": "天玉经内传心印",
+      "file": "013 天玉经内传心印.md",
+      "logical_pages": 22,
+      "characters": 15054,
+      "h1_count": 1,
+      "applied": 9,
+      "recorded_not_applied": 131,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 1,
+        "first_pass_not_high_confidence": 1,
+        "identical": 105,
+        "length_change_too_large": 5,
+        "missing_ocr_text_block": 1,
+        "old_text_not_uniquely_located": 53,
+        "second_pass_not_high_confidence_accept": 32,
+        "similarity_below_0_92": 8,
+        "too_many_changed_characters": 11
+      }
+    },
+    {
+      "number": 14,
+      "title": "地学（沈新周）",
+      "file": "014 地学（沈新周）.md",
+      "logical_pages": 179,
+      "characters": 112053,
+      "h1_count": 1,
+      "applied": 40,
+      "recorded_not_applied": 622,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 46,
+        "first_pass_not_high_confidence": 29,
+        "identical": 398,
+        "length_change_too_large": 56,
+        "missing_ocr_text_block": 46,
+        "old_text_not_uniquely_located": 227,
+        "second_pass_evidence_not_auditable": 8,
+        "second_pass_not_high_confidence_accept": 106,
+        "similarity_below_0_92": 112,
+        "too_many_changed_characters": 81,
+        "whitespace_only": 6
+      }
+    },
+    {
+      "number": 15,
+      "title": "数と易の中国思想史―術数学とは何か",
+      "file": "015 数と易の中国思想史―術数学とは何か.md",
+      "logical_pages": 259,
+      "characters": 248683,
+      "h1_count": 1,
+      "applied": 283,
+      "recorded_not_applied": 681,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 2,
+        "first_pass_not_high_confidence": 1,
+        "identical": 485,
+        "length_change_too_large": 85,
+        "missing_ocr_text_block": 2,
+        "old_text_not_uniquely_located": 165,
+        "second_pass_evidence_not_auditable": 39,
+        "second_pass_not_high_confidence_accept": 92,
+        "similarity_below_0_92": 106,
+        "too_many_changed_characters": 94,
+        "whitespace_only": 39
+      }
+    },
+    {
+      "number": 16,
+      "title": "周易译注",
+      "file": "016 周易译注.md",
+      "logical_pages": 517,
+      "characters": 513933,
+      "h1_count": 1,
+      "applied": 1615,
+      "recorded_not_applied": 2353,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 25,
+        "first_pass_not_high_confidence": 4,
+        "identical": 1390,
+        "length_change_too_large": 70,
+        "missing_ocr_text_block": 25,
+        "old_text_not_uniquely_located": 460,
+        "second_pass_not_high_confidence_accept": 290,
+        "similarity_below_0_92": 508,
+        "too_many_changed_characters": 391,
+        "whitespace_only": 189
+      }
+    },
+    {
+      "number": 17,
+      "title": "地理辨正真诀全集（王亭之）",
+      "file": "017 地理辨正真诀全集（王亭之）.md",
+      "logical_pages": 432,
+      "characters": 121839,
+      "h1_count": 1,
+      "applied": 36,
+      "recorded_not_applied": 1580,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 9,
+        "first_pass_not_high_confidence": 42,
+        "identical": 48,
+        "length_change_too_large": 562,
+        "missing_ocr_text_block": 9,
+        "old_text_not_uniquely_located": 520,
+        "second_pass_not_high_confidence_accept": 73,
+        "similarity_below_0_92": 1494,
+        "too_many_changed_characters": 981,
+        "whitespace_only": 9
+      }
+    },
+    {
+      "number": 18,
+      "title": "地理人子须知（绘图版·2011）",
+      "file": "018 地理人子须知（绘图版·2011）.md",
+      "logical_pages": 511,
+      "characters": 581074,
+      "h1_count": 1,
+      "applied": 427,
+      "recorded_not_applied": 2046,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 77,
+        "first_pass_not_high_confidence": 2,
+        "identical": 1752,
+        "length_change_too_large": 13,
+        "missing_ocr_text_block": 77,
+        "old_text_not_uniquely_located": 509,
+        "second_pass_evidence_not_auditable": 9,
+        "second_pass_not_high_confidence_accept": 149,
+        "similarity_below_0_92": 70,
+        "too_many_changed_characters": 13,
+        "whitespace_only": 89
+      }
+    },
+    {
+      "number": 19,
+      "title": "地理人子须知（图注版·2010）",
+      "file": "019 地理人子须知（图注版·2010）.md",
+      "logical_pages": 509,
+      "characters": 410636,
+      "h1_count": 1,
+      "applied": 266,
+      "recorded_not_applied": 2126,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 15,
+        "first_pass_not_high_confidence": 8,
+        "identical": 1860,
+        "length_change_too_large": 24,
+        "missing_ocr_text_block": 15,
+        "old_text_not_uniquely_located": 637,
+        "second_pass_evidence_not_auditable": 29,
+        "second_pass_not_high_confidence_accept": 158,
+        "similarity_below_0_92": 116,
+        "too_many_changed_characters": 29,
+        "whitespace_only": 60
+      }
+    },
+    {
+      "number": 20,
+      "title": "三元玄空灵城精义",
+      "file": "020 三元玄空灵城精义.md",
+      "logical_pages": 161,
+      "characters": 55030,
+      "h1_count": 1,
+      "applied": 67,
+      "recorded_not_applied": 271,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 5,
+        "identical": 133,
+        "length_change_too_large": 72,
+        "missing_ocr_text_block": 5,
+        "old_text_not_uniquely_located": 87,
+        "second_pass_not_high_confidence_accept": 22,
+        "similarity_below_0_92": 56,
+        "too_many_changed_characters": 85,
+        "whitespace_only": 5
+      }
+    },
+    {
+      "number": 21,
+      "title": "宅经（全文注音版·2008）",
+      "file": "021 宅经（全文注音版·2008）.md",
+      "logical_pages": 29,
+      "characters": 31819,
+      "h1_count": 1,
+      "applied": 6,
+      "recorded_not_applied": 70,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 10,
+        "identical": 12,
+        "length_change_too_large": 10,
+        "missing_ocr_text_block": 10,
+        "old_text_not_uniquely_located": 36,
+        "second_pass_not_high_confidence_accept": 7,
+        "similarity_below_0_92": 16,
+        "too_many_changed_characters": 8,
+        "whitespace_only": 21
+      }
+    },
+    {
+      "number": 22,
+      "title": "灵城精义（全文注音版·2008）",
+      "file": "022 灵城精义（全文注音版·2008）.md",
+      "logical_pages": 84,
+      "characters": 121165,
+      "h1_count": 1,
+      "applied": 4,
+      "recorded_not_applied": 168,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 15,
+        "identical": 57,
+        "length_change_too_large": 46,
+        "missing_ocr_text_block": 15,
+        "old_text_not_uniquely_located": 117,
+        "second_pass_not_high_confidence_accept": 11,
+        "similarity_below_0_92": 52,
+        "too_many_changed_characters": 53,
+        "whitespace_only": 18
+      }
+    },
+    {
+      "number": 23,
+      "title": "葬书（全文注音版·2008）",
+      "file": "023 葬书（全文注音版·2008）.md",
+      "logical_pages": 53,
+      "characters": 67236,
+      "h1_count": 1,
+      "applied": 15,
+      "recorded_not_applied": 277,
+      "reason_counts": {
+        "identical": 105,
+        "length_change_too_large": 99,
+        "old_text_not_uniquely_located": 147,
+        "second_pass_not_high_confidence_accept": 33,
+        "similarity_below_0_92": 108,
+        "too_many_changed_characters": 106,
+        "whitespace_only": 30
+      }
+    },
+    {
+      "number": 24,
+      "title": "水龙经",
+      "file": "024 水龙经.md",
+      "logical_pages": 152,
+      "characters": 73021,
+      "h1_count": 1,
+      "applied": 44,
+      "recorded_not_applied": 509,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 40,
+        "first_pass_not_high_confidence": 22,
+        "identical": 260,
+        "length_change_too_large": 18,
+        "missing_ocr_text_block": 40,
+        "old_text_not_uniquely_located": 236,
+        "second_pass_evidence_not_auditable": 15,
+        "second_pass_not_high_confidence_accept": 71,
+        "similarity_below_0_92": 95,
+        "too_many_changed_characters": 20,
+        "whitespace_only": 80
+      }
+    },
+    {
+      "number": 25,
+      "title": "地理四弹子",
+      "file": "025 地理四弹子.md",
+      "logical_pages": 86,
+      "characters": 76479,
+      "h1_count": 1,
+      "applied": 27,
+      "recorded_not_applied": 313,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 6,
+        "first_pass_not_high_confidence": 18,
+        "identical": 194,
+        "length_change_too_large": 19,
+        "missing_ocr_text_block": 6,
+        "old_text_not_uniquely_located": 156,
+        "second_pass_not_high_confidence_accept": 74,
+        "similarity_below_0_92": 49,
+        "too_many_changed_characters": 35,
+        "whitespace_only": 18
+      }
+    },
+    {
+      "number": 26,
+      "title": "雪心赋直解",
+      "file": "026 雪心赋直解.md",
+      "logical_pages": 80,
+      "characters": 71203,
+      "h1_count": 1,
+      "applied": 11,
+      "recorded_not_applied": 600,
+      "reason_counts": {
+        "first_pass_not_high_confidence": 147,
+        "identical": 409,
+        "length_change_too_large": 33,
+        "old_text_not_uniquely_located": 417,
+        "second_pass_not_high_confidence_accept": 169,
+        "similarity_below_0_92": 91,
+        "too_many_changed_characters": 54,
+        "whitespace_only": 11
+      }
+    },
+    {
+      "number": 27,
+      "title": "地理碎事",
+      "file": "027 地理碎事.md",
+      "logical_pages": 18,
+      "characters": 10216,
+      "h1_count": 1,
+      "applied": 6,
+      "recorded_not_applied": 76,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 1,
+        "identical": 45,
+        "length_change_too_large": 13,
+        "missing_ocr_text_block": 1,
+        "old_text_not_uniquely_located": 47,
+        "second_pass_not_high_confidence_accept": 4,
+        "similarity_below_0_92": 14,
+        "too_many_changed_characters": 14
+      }
+    },
+    {
+      "number": 28,
+      "title": "廖公扒砂经",
+      "file": "028 廖公扒砂经.md",
+      "logical_pages": 188,
+      "characters": 120639,
+      "h1_count": 1,
+      "applied": 60,
+      "recorded_not_applied": 933,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 24,
+        "empty_old_or_new": 1,
+        "first_pass_not_high_confidence": 11,
+        "identical": 615,
+        "length_change_too_large": 104,
+        "missing_ocr_text_block": 24,
+        "old_text_not_uniquely_located": 430,
+        "second_pass_not_high_confidence_accept": 136,
+        "similarity_below_0_92": 139,
+        "too_many_changed_characters": 127,
+        "whitespace_only": 26
+      }
+    },
+    {
+      "number": 29,
+      "title": "地理参赞玄机仙婆集",
+      "file": "029 地理参赞玄机仙婆集.md",
+      "logical_pages": 293,
+      "characters": 256216,
+      "h1_count": 1,
+      "applied": 160,
+      "recorded_not_applied": 2075,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 58,
+        "empty_old_or_new": 1,
+        "first_pass_not_high_confidence": 10,
+        "identical": 1366,
+        "length_change_too_large": 111,
+        "missing_ocr_text_block": 58,
+        "old_text_not_uniquely_located": 973,
+        "second_pass_not_high_confidence_accept": 152,
+        "similarity_below_0_92": 237,
+        "too_many_changed_characters": 124,
+        "whitespace_only": 192
+      }
+    },
+    {
+      "number": 30,
+      "title": "地理琢玉斧峦头歌括（故宫珍本丛刊本）",
+      "file": "030 地理琢玉斧峦头歌括（故宫珍本丛刊本）.md",
+      "logical_pages": 160,
+      "characters": 113037,
+      "h1_count": 1,
+      "applied": 35,
+      "recorded_not_applied": 765,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 41,
+        "first_pass_not_high_confidence": 21,
+        "identical": 509,
+        "length_change_too_large": 79,
+        "missing_ocr_text_block": 41,
+        "old_text_not_uniquely_located": 266,
+        "second_pass_not_high_confidence_accept": 123,
+        "similarity_below_0_92": 98,
+        "too_many_changed_characters": 83,
+        "whitespace_only": 32
+      }
+    },
+    {
+      "number": 31,
+      "title": "地理辨正图解掌诀（戴礼台）",
+      "file": "031 地理辨正图解掌诀（戴礼台）.md",
+      "logical_pages": 53,
+      "characters": 15855,
+      "h1_count": 1,
+      "applied": 33,
+      "recorded_not_applied": 117,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 2,
+        "identical": 24,
+        "length_change_too_large": 49,
+        "missing_ocr_text_block": 2,
+        "old_text_not_uniquely_located": 38,
+        "second_pass_not_high_confidence_accept": 5,
+        "similarity_below_0_92": 59,
+        "too_many_changed_characters": 44,
+        "whitespace_only": 14
+      }
+    },
+    {
+      "number": 32,
+      "title": "地理辨正古本",
+      "file": "032 地理辨正古本.md",
+      "logical_pages": 190,
+      "characters": 63372,
+      "h1_count": 1,
+      "applied": 18,
+      "recorded_not_applied": 271,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 29,
+        "first_pass_not_high_confidence": 38,
+        "identical": 72,
+        "length_change_too_large": 89,
+        "missing_ocr_text_block": 29,
+        "old_text_not_uniquely_located": 154,
+        "second_pass_not_high_confidence_accept": 64,
+        "similarity_below_0_92": 127,
+        "too_many_changed_characters": 118,
+        "whitespace_only": 4
+      }
+    },
+    {
+      "number": 33,
+      "title": "地理人子需知（精校版）",
+      "file": "033 地理人子需知（精校版）.md",
+      "logical_pages": 258,
+      "characters": 403501,
+      "h1_count": 1,
+      "applied": 214,
+      "recorded_not_applied": 1343,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 18,
+        "first_pass_not_high_confidence": 30,
+        "identical": 939,
+        "length_change_too_large": 78,
+        "missing_ocr_text_block": 18,
+        "new_text_contains_invalid_character": 1,
+        "old_text_not_uniquely_located": 578,
+        "second_pass_not_high_confidence_accept": 72,
+        "similarity_below_0_92": 159,
+        "too_many_changed_characters": 102,
+        "whitespace_only": 46
+      }
+    },
+    {
+      "number": 34,
+      "title": "三白宝海（幕讲禅师）",
+      "file": "034 三白宝海（幕讲禅师）.md",
+      "logical_pages": 39,
+      "characters": 38851,
+      "h1_count": 1,
+      "applied": 14,
+      "recorded_not_applied": 261,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 6,
+        "first_pass_not_high_confidence": 6,
+        "identical": 199,
+        "length_change_too_large": 4,
+        "missing_ocr_text_block": 6,
+        "old_text_not_uniquely_located": 144,
+        "second_pass_not_high_confidence_accept": 26,
+        "similarity_below_0_92": 28,
+        "too_many_changed_characters": 25,
+        "whitespace_only": 1
+      }
+    },
+    {
+      "number": 35,
+      "title": "地理天机会元（上中下合订）",
+      "file": "035 地理天机会元（上中下合订）.md",
+      "logical_pages": 1167,
+      "characters": 1255759,
+      "h1_count": 1,
+      "applied": 235,
+      "recorded_not_applied": 4556,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 59,
+        "empty_old_or_new": 1,
+        "first_pass_not_high_confidence": 27,
+        "identical": 1894,
+        "length_change_too_large": 775,
+        "missing_ocr_text_block": 59,
+        "old_text_not_uniquely_located": 2327,
+        "second_pass_not_high_confidence_accept": 226,
+        "similarity_below_0_92": 1037,
+        "too_many_changed_characters": 935,
+        "whitespace_only": 1094
+      }
+    },
+    {
+      "number": 36,
+      "title": "增释地理琢玉斧峦头歌括（张九仪）",
+      "file": "036 增释地理琢玉斧峦头歌括（张九仪）.md",
+      "logical_pages": 80,
+      "characters": 25254,
+      "h1_count": 1,
+      "applied": 16,
+      "recorded_not_applied": 107,
+      "reason_counts": {
+        "automatic_full_page_insertion_forbidden": 45,
+        "first_pass_not_high_confidence": 3,
+        "identical": 30,
+        "length_change_too_large": 17,
+        "missing_ocr_text_block": 45,
+        "old_text_not_uniquely_located": 20,
+        "second_pass_not_high_confidence_accept": 13,
+        "similarity_below_0_92": 17,
+        "too_many_changed_characters": 16,
+        "whitespace_only": 2
+      }
+    }
+  ],
+  "validation": {
+    "files": 36,
+    "nonempty_files": 36,
+    "image_references": 8777,
+    "missing_images": 0,
+    "absolute_images": 0,
+    "files_with_suspicious_patterns": 0,
+    "hard_checks_passed": true
+  }
+}

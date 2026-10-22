@@ -1,0 +1,4493 @@
+{
+  "generated_at": "2026-09-22T06:56:52.266411+00:00",
+  "doc_id": "doc015",
+  "policy": "Only two-pass high-confidence, uniquely located, small source-visible corrections are auto-applied; every other candidate is recorded.",
+  "summary": {
+    "candidates": 150,
+    "applied": 33,
+    "newly_applied": 33,
+    "already_applied": 0,
+    "recorded_not_applied": 117,
+    "changed_books": 1,
+    "reason_counts": {
+      "applied": 33,
+      "automatic_full_page_insertion_forbidden": 2,
+      "identical": 24,
+      "length_change_too_large": 49,
+      "missing_ocr_text_block": 2,
+      "old_text_not_uniquely_located": 38,
+      "second_pass_not_high_confidence_accept": 5,
+      "similarity_below_0_92": 59,
+      "too_many_changed_characters": 44,
+      "whitespace_only": 14
+    }
+  },
+  "changed_books": [
+    {
+      "book_number": 31,
+      "file": "031 地理辨正图解掌诀（戴礼台）.md",
+      "applied": 33,
+      "newly_applied": 33,
+      "already_applied": 0,
+      "sha256_before": "d93f8e753d88aee2d16e55915e1bd5ccd6c15428e55437ab0c1e8b097bb0d88b",
+      "sha256_after": "ed34633d1652db35ca71f594e91c8f8a853d110507b5f3cb745188cf3866693d"
+    }
+  ],
+  "entries": [
+    {
+      "doc_id": "doc015",
+      "source_page": 1,
+      "page_zero_based": 0,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中文字为竖排，从右至左，第一列为‘新’，第二列为‘增’，第三列为‘地’，第四列为‘理’，第五列为‘辨’，第六列为‘正’，第七列为‘圖’，第八列为‘解’，第九列为‘掌’，第十列为‘訣’，共十字，排列清晰，无错漏。",
+      "issue": "无",
+      "old": "新增地理辨正圖解掌訣",
+      "new": "新增地理辨正圖解掌訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字竖排从右至左，逐字清晰可辨，依次为‘新’‘增’‘地’‘理’‘辨’‘正’‘圖’‘解’‘掌’‘訣’，共十字符合，无模糊或异体字争议，候选与旧文一致且准确。",
+      "metrics": {
+        "old_characters": 10,
+        "new_characters": 10,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 2,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 2,
+      "page_zero_based": 1,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中可见句读清晰，每句末有句号或顿号，如‘者。’‘也。’‘書。’‘之。’‘易。’‘也。’‘藏。’‘洩。’‘義。’‘也。’，与OCR文本中缺失的标点不符，且‘日用倫常經書’后有句号，‘欲盡人知之’后有句号，‘故明白顯易’后有句号，‘人皆得而解之也’后有句号，‘天地秘藏’后有句号，‘機不容洩’后有句号，‘故深文奧義’后有句号，‘不可得而解之也’后有句号，符合古籍排版习惯。",
+      "issue": "漏字",
+      "old": "書有可解者有不可解者日用倫常經書欲盡人知之故明白顯易人皆得而解之也天地秘藏機不容洩故深文奧義不可得而解之也",
+      "new": "書有可解者。有不可解者。日用倫常經書。欲盡人知之。故明白顯易。人皆得而解之也。天地秘藏。機不容洩。故深文奧義。不可得而解之也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，句读明确，每句末均有句号或顿号，如‘者。’‘也。’‘書。’‘之。’‘易。’‘藏。’‘洩。’‘義。’‘也。’，与候选新文标点一致，旧文漏标点，新文更符合古籍排版习惯。",
+      "metrics": {
+        "old_characters": 53,
+        "new_characters": 63,
+        "similarity": 0.9138,
+        "changed_characters": 10,
+        "length_delta": 10
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 2,
+      "page_zero_based": 1,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "标题文字清晰可辨，无错漏，与OCR一致。",
+      "issue": "无",
+      "old": "新增地理辨正圖解掌訣序",
+      "new": "新增地理辨正圖解掌訣序",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "标题文字清晰可辨，无错漏，与OCR一致，候选新文与旧文相同，无实质变化，但因无错误，可接受。",
+      "metrics": {
+        "old_characters": 11,
+        "new_characters": 11,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 2,
+      "page_zero_based": 1,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中文字排列清晰，句读明确，如‘者。’‘微。’‘奧。’‘機。’‘化。’‘命。’‘功。’‘秘。’‘者。’‘也。’‘經。’‘今。’‘少。’‘一。’‘誕。’‘謬。’‘害。’‘也。’‘作。’‘矣。’‘師。’‘旨。’‘解。’‘盡。’‘由。’‘恨。’‘公。’‘者。’‘噫。’‘者。’‘矣。’，与OCR文本中缺失的句读及部分错字（如‘始害’后应为‘此辨正’，OCR误作‘此辨正之書所由作也’前无‘始害’）不符，且‘不解其解’后应接‘及至心思窮盡’，OCR中‘及至’前漏‘其解’后句读，‘搜索無由’后应接‘反為蔣公恨’，OCR中‘反為’前漏‘無由’后句读，‘甚至詆毀蔣公’后应接‘而塗抹辨正者’，OCR中‘而塗抹’前漏‘公’后句读，‘噫’后应接‘若而人者’，OCR中‘若而人者’前漏‘噫’后句读，‘真可哀矣’为结尾，OCR中无句读。",
+      "issue": "漏字",
+      "old": "地理者古人察天地之微識陰陽之奧竊其生機自為造化可以改天命奪神功此造物所珍秘非通徹三教九流者不能洞察其微也故青囊天玉諸經自古迄今知者絕少而坊間刊本雜出不一盡皆妄誕未免悖謬始害此辨正之書所由作也自辨正作而青囊天玉始得有真解矣無如世人不訪真師不請秘旨而並不解其解及至心思窮盡搜索無由反為蔣公恨甚至詆毀蔣公而塗抹辨正者噫若而人者真可哀矣",
+      "new": "地理者。古人察天地之微。識陰陽之奧。竊其生機。自為造化。可以改天命。奪神功。此造物所珍秘。非通徹三教九流者。不能洞察其微也。故青囊天玉諸經。自古迄今。知者絕少。而坊間刊本雜出不一。盡皆妄誕。未免悖謬。始害。此辨正之書所由作也。自辨正作。而青囊天玉始得有真解矣。無如世人不訪真師。不請秘旨。而並不解其解。及至心思窮盡。搜索無由。反為蔣公恨。甚至詆毀蔣公。而塗抹辨正者。噫。若而人者。真可哀矣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字排列清晰，句读明确，如‘者。’‘微。’‘奧。’‘機。’‘化。’‘命。’‘功。’‘秘。’‘者。’‘也。’‘經。’‘今。’‘少。’‘一。’‘誕。’‘謬。’‘害。’‘也。’‘作。’‘矣。’‘師。’‘旨。’‘解。’‘盡。’‘由。’‘恨。’‘公。’‘者。’‘噫。’‘者。’‘矣。’，与候选新文标点一致，旧文漏标点且部分语句连接错误，新文更准确。",
+      "metrics": {
+        "old_characters": 164,
+        "new_characters": 195,
+        "similarity": 0.9136,
+        "changed_characters": 31,
+        "length_delta": 31
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 3,
+      "page_zero_based": 2,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘丁丑戊寅歲’、‘數月之間’、‘復乞予著明掌訣’、‘並圖其難知者’、‘以為隨地披閱焉’、‘予不獲已’、‘將訣旨作圖’、‘圖僅二十有八’、‘而辨正作用已盡於斯’、‘今而後可無遺忘之患矣’、‘倘猶有不可解者’、‘請披閱斯圖而重繹之’、‘則雖深文奧義，不可得而解者，亦無不可’等字句，字形清晰可辨，與OCR文本多處錯漏（如‘缺’應為‘訣’、‘少自道間’應為‘丑戊寅歲’、‘小上將生首乍圖’應為‘復乞予著明掌訣，並圖’、‘年正下朱巳盡于斯’應為‘而辨正作用已盡於斯’、‘師來丁年有青皮閱斯’應為‘今而後可無遺忘之患矣’、‘才而華前作無不可’應為‘倘猶有不可解者，請披閱斯圖而重繹之’）明顯不符，故全面修正。",
+      "issue": "错字|漏字|多字|次序",
+      "old": "予歷盡艱辛訪師多年始得其缺於丁五少自道間遊寓星子連州二三知巳以辨正索解予眷明掌訣並已盡其概乃慮其難得而易失也小上將生首乍圖圖其難知者以為隨地披麗焉曰年正下朱巳盡于斯而訣亦寓其中圗僅二十有八師來丁年有青皮閱斯今而後可無遺忘之患矣儲猶有才而華前作無不可圗而重繹之則雖深文奧義不可得而解元二之不",
+      "new": "予歷盡艱辛訪師多年，始得其訣。於丁丑戊寅歲，予遊寓星子、連州，二三知己以辨正索解於予。數月之間，已盡其概，乃慮其難得而易失也。復乞予著明掌訣，並圖其難知者，以為隨地披閱焉。予不獲已，將訣旨作圖，而訣亦寓其中。圖僅二十有八，而辨正作用已盡於斯。今而後可無遺忘之患矣。倘猶有不可解者，請披閱斯圖而重繹之。則雖深文奧義，不可得而解者，亦無不可。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘丁丑戊寅歲’、‘數月之間’、‘復乞予著明掌訣’、‘並圖其難知者’、‘以為隨地披閱焉’、‘予不獲已’、‘將訣旨作圖’、‘圖僅二十有八’、‘而辨正作用已盡於斯’、‘今而後可無遺忘之患矣’、‘倘猶有不可解者’、‘請披閱斯圖而重繹之’、‘則雖深文奧義，不可得而解者，亦無不可’等字句清晰可辨，与候选文本完全吻合，旧文多处错漏（如‘缺’误作‘訣’、‘少自道間’误作‘丑戊寅歲’等）已修正，符合图像证据。",
+      "metrics": {
+        "old_characters": 144,
+        "new_characters": 169,
+        "similarity": 0.607,
+        "changed_characters": 80,
+        "length_delta": 25
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 3,
+      "page_zero_based": 2,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘得而解之矣’、‘又何患乎’、‘青囊諸經’、‘有不了然於心目者乎’、‘願共珍之，惜之’、‘勿輕洩焉，可也’等字句，字形清晰，與OCR文本中‘青虞諸經’應為‘青囊諸經’、‘手願共珍之情之’應為‘願共珍之，惜之’、‘勿輕洩焉可也’應為‘勿輕洩焉，可也’等處不符，故修正。",
+      "issue": "错字|漏字|多字",
+      "old": "得而解之矣又何患乎青虞諸經有不了然于心目者手願共珍之情之勿輕洩焉可也",
+      "new": "得而解之矣。又何患乎？青囊諸經，有不了然於心目者乎？願共珍之，惜之。勿輕洩焉，可也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘得而解之矣’、‘又何患乎’、‘青囊諸經’、‘有不了然於心目者乎’、‘願共珍之，惜之’、‘勿輕洩焉，可也’等字句清晰可辨，与候选文本一致。旧文‘青虞諸經’误作‘青囊諸經’，‘手願共珍之情之’误作‘願共珍之，惜之’，‘勿輕洩焉可也’误作‘勿輕洩焉，可也’，均依据图像修正，无误。",
+      "metrics": {
+        "old_characters": 34,
+        "new_characters": 42,
+        "similarity": 0.7895,
+        "changed_characters": 12,
+        "length_delta": 8
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 3,
+      "page_zero_based": 2,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘合功山人桃谷戴禮臺序’與‘李榮仰重抄於名北市’兩行文字，字形清晰，與OCR文本中‘合功山人桃谷戴禮臺序李榮仰重抄於名北市’無空格分隔不符，但內容正確，僅需保留原格式，無需修改。",
+      "issue": "无",
+      "old": "合功山人桃谷戴禮臺序李榮仰重抄於名北市",
+      "new": "合功山人桃谷戴禮臺序 李榮仰重抄於名北市",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘合功山人桃谷戴禮臺序’与‘李榮仰重抄於名北市’两行文字清晰，字形完整，候选文本仅在‘序’后加空格分隔，符合实际排版，旧文无空格，但内容无误，此为格式优化，非内容错误，且图像支持。",
+      "metrics": {
+        "old_characters": 19,
+        "new_characters": 19,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 4,
+      "page_zero_based": 3,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中可见‘理氣者’、‘諸書皆僞’、‘秘傳’、‘不洩’、‘詳註’、‘掌訣’等字形清晰，‘秋’为‘秘’之误，‘哀’为‘密’之误，‘書’后有‘盡’字，‘但少’后接‘掌訣少起例耳’，句读与结构符合古籍排版。",
+      "issue": "错字",
+      "old": "一地理之書所牛光棟其言峦頭者總通套當同其言經氣者諸書皆僞惟青囊天玉經乃真正秋傳古今地師皆進哀不洩今將辨正詳註而辨明之其詞似秘實則透闢註書盡但少掌訣少起例耳",
+      "new": "一地理之書所牛光棟。其言峦頭者，總通套當同。其言理氣者，諸書皆僞。惟青囊天玉經乃真正秘傳。古今地師皆慎密不洩。今將辨正詳註而辨明之。其詞似秘，實則透闢詳盡，但少掌訣少起例耳。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘理氣者’、‘諸書皆僞’、‘秘傳’、‘不洩’、‘詳註’、‘掌訣’等字形清晰，‘秋’为‘秘’之误，‘哀’为‘密’之误，‘書’后有‘盡’字，‘但少’后接‘掌訣少起例耳’，句读与结构符合古籍排版。",
+      "metrics": {
+        "old_characters": 77,
+        "new_characters": 87,
+        "similarity": 0.8659,
+        "changed_characters": 17,
+        "length_delta": 10
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 4,
+      "page_zero_based": 3,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘胡以言乎大’后有问号结构，‘盡諸家五行’清晰，‘非若俗傳大玄空’后接‘以某干支屬木’等，‘秋’为‘秘’之误，‘議’为‘諸’之误，‘者也’后有句读，‘金’‘火土水’排列明确。",
+      "issue": "错字",
+      "old": "一玄空大五行胡以言乎大以其按盡議家五行而一以貫之者也却又並無五行非若俗傳大玄空以某干支屬木某干支屬金某干支属火土水者",
+      "new": "一玄空大五行。胡以言乎大？以其按盡諸家五行，而一以貫之者也。却又並無五行，非若俗傳大玄空，以某干支屬木，某干支屬金，某干支屬火土水者。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘胡以言乎大’后有问号结构，‘盡諸家五行’清晰，‘非若俗傳大玄空’后接‘以某干支屬木’等，‘秋’为‘秘’之误，‘議’为‘諸’之误，‘者也’后有句读，‘金’‘火土水’排列明确。",
+      "metrics": {
+        "old_characters": 58,
+        "new_characters": 67,
+        "similarity": 0.896,
+        "changed_characters": 11,
+        "length_delta": 9
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 4,
+      "page_zero_based": 3,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘實是玄空’后有逗号，‘却不是俗傳之大小玄空’完整，‘實是四經’后接‘却’字，末尾不完整，但‘灰’为‘經’之误，‘四經’后无‘灰’字，‘却’后无后续文字，符合原图断句。",
+      "issue": "错字",
+      "old": "一玄空大五行實是玄空却不是俗傳之大小玄空實是四經灰",
+      "new": "一玄空大五行。實是玄空，却不是俗傳之大小玄空。實是四經，却",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘實是玄空’后有逗号，‘却不是俗傳之大小玄空’完整，‘實是四經’后接‘却’字，末尾不完整，但‘灰’为‘經’之误，‘四經’后无‘灰’字，‘却’后无后续文字，符合原图断句。",
+      "metrics": {
+        "old_characters": 25,
+        "new_characters": 29,
+        "similarity": 0.8889,
+        "changed_characters": 5,
+        "length_delta": 4
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 4,
+      "page_zero_based": 3,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘四經’后有句读，‘實是三合’后接‘却不是俗傳之三合’，‘八卦九星’重复结构清晰，‘斗首’后有‘却不是俗傳之斗首’，‘祇此一個五行’后接‘徹上徹下’，‘舉凡諸家’‘各種五行之名’‘皆是玄空大五行’完整，‘非首’为‘斗首’之误。",
+      "issue": "错字",
+      "old": "不是俗傳之四經實是三合却不是俗傳之三合實是八卦九星却不是俗傳之八卦九星實是斗首却不是俗傳之非首祇此一個五行徹上徹下舉凡譜家各種五行之名皆是玄空大五行故一見而知其為真傳也",
+      "new": "不是俗傳之四經。實是三合，却不是俗傳之三合。實是八卦九星，却不是俗傳之八卦九星。實是斗首，却不是俗傳之斗首。祇此一個五行，徹上徹下。舉凡諸家各種五行之名，皆是玄空大五行。故一見而知其為真傳也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘四經’后有句读，‘實是三合’后接‘却不是俗傳之三合’，‘八卦九星’重复结构清晰，‘斗首’后有‘却不是俗傳之斗首’，‘祇此一個五行’后接‘徹上徹下’，‘舉凡諸家’‘各種五行之名’‘皆是玄空大五行’完整，‘非首’为‘斗首’之误。",
+      "metrics": {
+        "old_characters": 84,
+        "new_characters": 96,
+        "similarity": 0.9111,
+        "changed_characters": 14,
+        "length_delta": 12
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 4,
+      "page_zero_based": 3,
+      "candidate_id": 4,
+      "block_index": 4,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘玄空’‘廿四山’‘八卦’‘三大卦’‘玄空大五行’‘乃經又云’后列‘天卦、地卦、東卦、西卦、南卦、北卦、父母卦’，‘例何多也’后有问号，‘昧者每指’‘某為東卦’等结构完整，‘辰戌丑未’‘寅申巳亥’‘愈係作夢也’‘丹家內煉之秘’‘老子謂象妙之門者也’‘山川融結’‘格龍格水’‘下卦起星’等字形清晰，‘玄室’为‘玄空’之误，‘灰’为‘經’之误，‘戌’为‘戌’非‘戍’，‘已’为‘巳’，‘係’为‘係’非‘係’，‘區’为‘區’非‘區’，‘象妙之門’为‘象妙之門’，‘可坐而定矣’完整。",
+      "issue": "错字",
+      "old": "一玄室以廿四山分八卦八卦分三大卦名玄空大五行是矣乃經又云天卦地卦東卦西卦南卦北卦文母卦例何多也昧都每指某為東卦某為西卦某為南北卦文母卦天地卦何夢夢若是更分子午卯酉為一大卦辰戍丑未為一大卦寅申已亥為一大卦愈係作夢也玄空乃丹家內煉之秘實生生不已之區萬物交結之所老子謂象妙之門者也山川融結實有其處隨在可指其理即與易卦無不符合葬乘生氣奪造化之權正在於此知比則格龍格水下卦起星可坐而定矣",
+      "new": "一玄空以廿四山分八卦。八卦分三大卦。名玄空大五行是矣。乃經又云：天卦、地卦、東卦、西卦、南卦、北卦、父母卦。例何多也？昧者每指某為東卦，某為西卦，某為南北卦、父母卦、天地卦。何夢夢若是！更分子午卯酉為一大卦，辰戌丑未為一大卦，寅申巳亥為一大卦。愈係作夢也。玄空乃丹家內煉之秘，實生生不已之區，萬物交結之所。老子謂象妙之門者也。山川融結，實有其處，隨在可指。其理即與易卦無不符合。葬乘生氣，奪造化之權，正在於此。知此則格龍格水，下卦起星，可坐而定矣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘玄空’‘廿四山’‘八卦’‘三大卦’‘玄空大五行’‘乃經又云’后列‘天卦、地卦、東卦、西卦、南卦、北卦、父母卦’，‘例何多也’后有问号，‘昧者每指’‘某為東卦’等结构完整，‘辰戌丑未’‘寅申巳亥’‘愈係作夢也’‘丹家內煉之秘’‘老子謂象妙之門者也’‘山川融結’‘格龍格水’‘下卦起星’等字形清晰，‘玄室’为‘玄空’之误，‘灰’为‘經’之误，‘戌’为‘戌’非‘戍’，‘已’为‘巳’，‘係’为‘係’非‘係’，‘區’为‘區’非‘區’，‘象妙之門’为‘象妙之門’，‘可坐而定矣’完整。",
+      "metrics": {
+        "old_characters": 188,
+        "new_characters": 224,
+        "similarity": 0.8786,
+        "changed_characters": 43,
+        "length_delta": 36
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 5,
+      "page_zero_based": 4,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘一五星所屬’後有逗號，‘天玉未嘗言及’後有句號，‘祇云五星配出九星名一句而已’後有句號，‘謹辨正者’後有冒號，‘布一恨事’後有逗號，‘不知天玉固已言之諄諄矣’後有句號，‘讀者過目不覺耳’後有句號，‘細閱圖訣’後有逗號，‘當必有悟’後無標點。‘圗’為‘圖’之異體，掃描圖中字形為‘圖’。",
+      "issue": "标点缺失、异体字",
+      "old": "一五星所屬天玉未嘗言及祇云五星配出九星名一句而已謹辨正者布一恨事不知天玉固已言之諄諄矣讀者過自不覺耳細閱圗訣當必有悟",
+      "new": "一五星所屬，天玉未嘗言及。祇云五星配出九星名一句而已。謹辨正者：布一恨事，不知天玉固已言之諄諄矣。讀者過目不覺耳。細閱圖訣，當必有悟。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中可见‘一五星所屬’后有逗号，‘天玉未嘗言及’后有句号，‘祇云五星配出九星名一句而已’后有句号，‘謹辨正者’后有冒号，‘布一恨事’后有逗号，‘不知天玉固已言之諄諄矣’后有句号，‘讀者過目不覺耳’后有句号，‘細閱圖訣’后有逗号，‘當必有悟’后无标点。‘圗’为‘圖’之异体，扫描图中字形为‘圖’，新文标点与字形均符合图像。",
+      "metrics": {
+        "old_characters": 58,
+        "new_characters": 67,
+        "similarity": 0.896,
+        "changed_characters": 11,
+        "length_delta": 9
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 5,
+      "page_zero_based": 4,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘挨排’二字清晰可辨，非‘族排’；‘誥為’非‘誥為’；‘三匝七四位’字形完整，非‘三匝七四位’；‘一星’後有逗號，‘三匝七四位’後有句號。",
+      "issue": "错字",
+      "old": "一九星除從前錯誤者不論近日多宗古鏡歌以廿四山隔四位族排而廉貞歸中誥為蔣公秘授又有以輔弼作一星三匝七四位",
+      "new": "一九星除從前錯誤者不論。近日多宗古鏡歌，以廿四山隔四位挨排，而廉貞歸中。誥為蔣公秘授。又有以輔弼作一星，三匝七四位。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘挨排’二字清晰可辨，非‘族排’；‘誥為’字形完整，非‘誥為’；‘三匝七四位’字形完整，非‘三匝七四位’；‘一星’后有逗号，‘三匝七四位’后有句号，新文标点与字形均符合图像。",
+      "metrics": {
+        "old_characters": 51,
+        "new_characters": 58,
+        "similarity": 0.9174,
+        "changed_characters": 8,
+        "length_delta": 7
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 5,
+      "page_zero_based": 4,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘昔’字清晰，非‘荀’；‘皆不得真傳故也’字形完整；‘飛布九宮’後有逗號；‘中陽云’後有冒號；‘九星乃斷向水應驗吉凶微渺之事’後有逗號；‘則九星亦可畧其不肯輕洩也’後有句號；‘如此乎’後有問號。",
+      "issue": "错字",
+      "old": "荀又有九星為不足憑信都皆不得真傳故也不知九星之飛布九宮乃天地自然之位數不假人力安排省中陽云九星乃斷向水應驗吉凶微渺之事學者既知八卦興衰則九星亦可畧其不肯輕洩也如此乎",
+      "new": "昔又有九星為不足憑信者，皆不得真傳故也。不知九星之飛布九宮，乃天地自然之位數，不假人力安排者。中陽云：九星乃斷向水應驗吉凶微渺之事，學者既知八卦興衰，則九星亦可畧其不肯輕洩也。如此乎？",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘昔’字清晰，非‘荀’；‘皆不得真傳故也’字形完整；‘飛布九宮’后有逗号；‘中陽云’后有冒号；‘九星乃斷向水應驗吉凶微渺之事’后有逗号；‘則九星亦可畧其不肯輕洩也’后有句号；‘如此乎’后有问号，新文标点与字形均符合图像。",
+      "metrics": {
+        "old_characters": 82,
+        "new_characters": 92,
+        "similarity": 0.908,
+        "changed_characters": 13,
+        "length_delta": 10
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 5,
+      "page_zero_based": 4,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘太乙、禽奇、六壬、當霆’四者並列，有頓號分隔；‘傳橘’為‘傳橘’之異體，但圖中字形為‘傳橘’；‘合祿、合馬、合官星’三者有頓號分隔；‘其訣至秘’後有逗號；‘至神至奇、至驗、至盛’有頓號分隔；‘為世間有一無二之日課’後有句號；‘用以造葬，無不速發；用以催福，無不奇驗’有分號；‘惟得心傳口授者方知其妙’後有句號；‘今撮其要，共著數圖於後’後有句號；‘知者用之，擇日之能事畢矣’後無標點。",
+      "issue": "标点缺失、异体字",
+      "old": "一用時日最為緊要有葬吉地而不發者日時不合敬也擇日自太乙禽奇六壬當霆諸大家而外惟楊公造命傳橘極廣近日專用烏兔太陽吊照以為得蔣公秘授豈知天玉經合祿合馬合官星之句其訣至被其用至神至奇至驗至盛為世間有一無二之日課用以造葬無不速發用以催福無奇驗惟得心傳口授者方知其妙今撮其要共著數圗於後知者用之擇日之能事畢矣",
+      "new": "一用時日最為緊要。有葬吉地而不發者，日時不合故也。擇日自太乙、禽奇、六壬、當霆諸大家而外，惟楊公造命傳橘極廣。近日專用烏兔太陽吊照，以為得蔣公秘授。豈知天玉經‘合祿、合馬、合官星’之句，其訣至秘，其用至神至奇、至驗、至盛，為世間有一無二之日課。用以造葬，無不速發；用以催福，無不奇驗。惟得心傳口授者方知其妙。今撮其要，共著數圖於後。知者用之，擇日之能事畢矣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘太乙、禽奇、六壬、當霆’四者并列，有顿号分隔；‘傳橘’字形为‘傳橘’；‘合祿、合馬、合官星’三者有顿号分隔；‘其訣至秘’后有逗号；‘至神至奇、至驗、至盛’有顿号分隔；‘為世間有一無二之日課’后有句号；‘用以造葬，無不速發；用以催福，無不奇驗’有分号；‘惟得心傳口授者方知其妙’后有句号；‘今撮其要，共著數圖於後’后有句号；‘知者用之，擇日之能事畢矣’后无标点，新文标点与字形均符合图像。",
+      "metrics": {
+        "old_characters": 149,
+        "new_characters": 179,
+        "similarity": 0.8902,
+        "changed_characters": 33,
+        "length_delta": 30
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 6,
+      "page_zero_based": 5,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見「一左今地仙立一穴。葬一地，必留鈴記。預定何時興發，何時出何等人物，何等事情。此雖在龍穴、砂水上斷驗，實則莫近乎數也。此數依八卦九星，宗奇門與太乙、皇極不異。中陽六星，辰流轉要相逢之句，已發其端，在學者精而求之，推而廣之耳。」字形清晰，OCR誤識「巳」為「己」，「猶」為「推」，「戊辛木亭」為無意義殘字，應刪。",
+      "issue": "错字|多字",
+      "old": "一左今地仙立一穴葬一地必留鈴記預定何時興發何時出何等人物何等事情此雖在龍穴砂水上斷驗實則莫近乎數也此數依八卦九星宗奇門與太乙皇極不異生而廣之辰流轉要相逢之句巳發其端在學者精而求之猶而意之耳戊辛木亭",
+      "new": "一左今地仙立一穴。葬一地，必留鈴記。預定何時興發，何時出何等人物，何等事情。此雖在龍穴、砂水上斷驗，實則莫近乎數也。此數依八卦九星，宗奇門與太乙、皇極不異。中陽六星，辰流轉要相逢之句，已發其端，在學者精而求之，推而廣之耳。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，候选新文准确还原了原文标点、用字（如‘已’非‘巳’，‘推’非‘猶’），并删除了无意义残字‘戊辛木亭’，符合古籍校勘规范。",
+      "metrics": {
+        "old_characters": 98,
+        "new_characters": 111,
+        "similarity": 0.8325,
+        "changed_characters": 27,
+        "length_delta": 13
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 6,
+      "page_zero_based": 5,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「圖訣三序」四字清晰可辨，無誤。",
+      "issue": "无",
+      "old": "圖訣三序",
+      "new": "圖訣三序",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圖訣三序’四字清晰可辨，无误，候选与旧文一致，无需改动。",
+      "metrics": {
+        "old_characters": 4,
+        "new_characters": 4,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 6,
+      "page_zero_based": 5,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「戴梓林序」與「李崇仰抄」兩行文字清晰，OCR正確。",
+      "issue": "无",
+      "old": "戴梓林序李崇仰抄",
+      "new": "戴梓林序 李崇仰抄",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘戴梓林序’与‘李崇仰抄’两行文字清晰，候选与旧文一致，无误。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 6,
+      "page_zero_based": 5,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見「原著及增補、增著共五十圖。首五圖為綱領。第六至第九圖為總將。第十至十三及增著三元歌、分金掌訣為入用。第十四至第十九圖並增著坎離掌訣，乃明大卦天然交媾之理，為四十八局之準繩。第二十至第三十二圖乃挨星作用應驗。第三十三、三十四、四十四、五圖乃明生成度北之理。第三十五至四十三圖乃擇日用事。玩此以讀辨正，則辨正之秘旨見矣。閱者幸無視為河漢也可。」字形清晰，OCR誤識「圗」為「圖」（雖為異體，但古籍中「圖」為正體，應統一），且「第三十三四四四十五圖」應為「第三十三、三十四、四十四、五圖」，因原文有「第三十三、三十四、四十四、五圖」之分隔，OCR漏加標點。",
+      "issue": "错字|漏字",
+      "old": "原著及增補增著共五十圗首五圗為綱領第六至第九關為總將第十至十三及增著三元歌分金掌訣為入用第十四至第十九圗並增著坎離掌訣乃明大卦天然交媾之理為四十八局之準繩第二十至第三十二圗乃挨星作用應驗第三十三四四十四五圗乃明生成度北之理第三十五至四十三圗乃擇日用素玩此以讀辨正則辨正之秘旨見矣閱者幸無視為河漢也可",
+      "new": "原著及增補、增著共五十圖。首五圖為綱領。第六至第九圖為總將。第十至十三及增著三元歌、分金掌訣為入用。第十四至第十九圖並增著坎離掌訣，乃明大卦天然交媾之理，為四十八局之準繩。第二十至第三十二圖乃挨星作用應驗。第三十三、三十四、四十四、五圖乃明生成度北之理。第三十五至四十三圖乃擇日用事。玩此以讀辨正，則辨正之秘旨見矣。閱者幸無視為河漢也可。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，候选新文正确添加标点，修正‘圗’为‘圖’（古籍中‘圖’为正体），并补全‘第三十三、三十四、四十四、五圖’的分隔，符合原文结构。",
+      "metrics": {
+        "old_characters": 149,
+        "new_characters": 169,
+        "similarity": 0.8868,
+        "changed_characters": 28,
+        "length_delta": 20
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 6,
+      "page_zero_based": 5,
+      "candidate_id": 4,
+      "block_index": 4,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「陳鳳梧 典臣 韓補」三行文字清晰，OCR正確。",
+      "issue": "无",
+      "old": "陳鳳梧典臣韓補",
+      "new": "陳鳳梧 典臣 韓補",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘陳鳳梧 典臣 韓補’三行文字清晰，候选与旧文一致，无误。",
+      "metrics": {
+        "old_characters": 7,
+        "new_characters": 7,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 6,
+      "page_zero_based": 5,
+      "candidate_id": 5,
+      "block_index": 5,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「李崇仰編抄」字形清晰，OCR正確。",
+      "issue": "无",
+      "old": "李崇仰編抄辦正圗訣增解序",
+      "new": "李崇仰編抄",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘李崇仰編抄’字形清晰，候选与旧文一致，无误。",
+      "metrics": {
+        "old_characters": 12,
+        "new_characters": 5,
+        "similarity": 0.5882,
+        "changed_characters": 7,
+        "length_delta": -7
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 7,
+      "page_zero_based": 6,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘峦頭’、‘理氣’、‘別戶分門’、‘偽妄’、‘辨正一書’、‘梓林之哲嗣’、‘韞玉’、‘龍州’、‘口訣’、‘妙義’、‘遍闢山川’、‘覆驗名山古墓’、‘益信口訣不謬’、‘戊子歲’、‘穗垣’、‘陳君典臣’、‘談及地理’、‘終日忘倦’、‘詢其所學’、‘蓋韞玉師也’、‘同出一門’、‘辨正圖訣’、‘答未脩’、‘次序不分’、‘輯補’、‘增著、增解’、‘較前刻尤為明’等字形清晰可辨，OCR中‘岔頭’應為‘峦頭’，‘衣之’應為‘梓林之’，‘事乎旨’應為‘義頗有所見’，‘闕’應為‘闢’，‘龍王’應為‘韞玉’，‘圗詩’應為‘圖訣’，‘相旗’應為‘相視’，‘生為月’應為‘答未脩’，‘戰前刻’應為‘較前刻’。",
+      "issue": "错字|漏字|多字",
+      "old": "地學之道峦頭為體理氣為用地理之書百家雜出言出頭則大同而小異無甚差謬說理氣則别户分門皆屬偽妄惟辨正一書所言岔頭理氣兩而化者一而神獨得真傳焉所以有志地學昔人多誦讀却人多不曉以未得真師傳授故也江右戴公於衣之哲嗣號韞玉者暮年遊歷龍州余因得其口訣而於辨正之妙事乎旨頗有所見因而遍闕山川覆驗名山古墓益信口訣不說戊子崖於穗垣與陳君典臣聚首談及地理終日忘倦詢其所學蓋龍王師也乃知學習同出一門遂出戴公辨正圗詩相旗見生為月未脩次序不分遂相共轉補更為之增著增解戰前刻尤為明",
+      "new": "地學之道，峦頭為體，理氣為用。地理之書，百家雜出，言峦頭則大同而小異，無甚差謬；說理氣則別戶分門，皆屬偽妄。惟辨正一書，所言峦頭理氣兩而化者，一而神，獨得真傳焉。所以有志地學者，人多誦讀，卻人多不曉，以未得真師傳授故也。江右戴公梓林之哲嗣號韞玉者，暮年遊歷龍州，余因得其口訣，而於辨正之妙義，頗有所見。因而遍闢山川，覆驗名山古墓，益信口訣不謬。戊子歲，於穗垣與陳君典臣聚首，談及地理，終日忘倦，詢其所學，蓋韞玉師也。乃知學習同出一門。遂出戴公辨正圖訣相視，見其圖訣答未脩，次序不分，遂相共輯補，更為之增著、增解。較前刻尤為明",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘峦頭’‘理氣’‘別戶分門’‘偽妄’‘辨正一書’‘梓林之哲嗣’‘韞玉’‘龍州’‘口訣’‘妙義’‘遍闢山川’‘覆驗名山古墓’‘益信口訣不謬’‘戊子歲’‘穗垣’‘陳君典臣’‘談及地理’‘終日忘倦’‘詢其所學’‘蓋韞玉師也’‘同出一門’‘辨正圖訣’‘答未脩’‘次序不分’‘輯補’‘增著、增解’‘較前刻尤為明’等字形清晰，候选修正‘岔頭’为‘峦頭’、‘衣之’为‘梓林之’、‘事乎旨’为‘義頗有所見’、‘闕’为‘闢’、‘龍王’为‘韞玉’、‘圗詩’为‘圖訣’、‘相旗’为‘相視’、‘生為月’为‘答未脩’、‘戰前刻’为‘較前刻’，均符合图像字形，无改写或现代化。",
+      "metrics": {
+        "old_characters": 225,
+        "new_characters": 262,
+        "similarity": 0.8255,
+        "changed_characters": 62,
+        "length_delta": 37
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 7,
+      "page_zero_based": 6,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘顯。雖秘傳’、‘未敢盡洩’、‘圖訣、註解’、‘金針暗度’、‘世之讀辨正者’、‘各圖典註解’、‘細心考究’、‘往復搜尋’、‘微言奧旨’、‘豁然貫通’等字形清晰，OCR中‘辦正’應為‘辨正’，‘首’應為‘旨’，‘典’前缺‘各’字，‘細心考究’前缺‘將各圖典註解’，‘微言奧首’應為‘微言奧旨’。",
+      "issue": "错字|漏字",
+      "old": "顯雖秘傳未敢盡洩而圗訣註解己把金針暗度矣世之讀辦正者將各圗典註解細心考究往復搜尋其於辨正之微言奧首豈無豁然貫通之候乎",
+      "new": "顯。雖秘傳，未敢盡洩；而圖訣、註解，已把金針暗度矣。世之讀辨正者，將各圖典註解，細心考究，往復搜尋，其於辨正之微言奧旨，豈無豁然貫通之候乎？",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘顯。雖秘傳’‘未敢盡洩’‘圖訣、註解’‘金針暗度’‘世之讀辨正者’‘各圖典註解’‘細心考究’‘往復搜尋’‘微言奧旨’‘豁然貫通’等字形清晰，候选修正‘辦正’为‘辨正’、‘首’为‘旨’、补‘將各圖典註解’、‘細心考究’前缺字，均符合图像，无误。",
+      "metrics": {
+        "old_characters": 58,
+        "new_characters": 70,
+        "similarity": 0.8281,
+        "changed_characters": 17,
+        "length_delta": 12
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 7,
+      "page_zero_based": 6,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘上洗鳳祛臣’、‘相共序於’、‘羊城讀易草堂’等字形清晰，OCR中‘汽’應為‘洗’，‘典涇’應為‘祛臣’。",
+      "issue": "错字",
+      "old": "上汽鳳祛典涇相洪序於羊城讀易草堂",
+      "new": "上洗鳳祛臣相共序於羊城讀易草堂",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘上洗鳳祛臣’‘相共序於’‘羊城讀易草堂’字形清晰，候选修正‘汽’为‘洗’、‘典涇’为‘祛臣’，符合图像字形，无误。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 15,
+        "similarity": 0.7742,
+        "changed_characters": 4,
+        "length_delta": -1
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 7,
+      "page_zero_based": 6,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘李崇仰’、‘句讀編抄’、‘象翔大’等字形清晰，OCR中‘句’字雖有模糊但可辨，‘象翔大’完整可見，無明顯錯字。",
+      "issue": "无",
+      "old": "李崇仰句讀編抄於象翔大",
+      "new": "李崇仰句讀編抄於象翔大",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘李崇仰’‘句讀編抄’‘象翔大’字形清晰，候选与旧文一致，无错字，图像支持。",
+      "metrics": {
+        "old_characters": 11,
+        "new_characters": 11,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 8,
+      "page_zero_based": 7,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "标题清晰可见，字形完整，无错漏。",
+      "issue": "无",
+      "old": "讀辨正訣",
+      "new": "讀辨正訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "标题‘讀辨正訣’四字清晰可辨，字形完整，无错漏，新旧一致。",
+      "metrics": {
+        "old_characters": 4,
+        "new_characters": 4,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 8,
+      "page_zero_based": 7,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中可见“猜啞謎”、“青囊奧語十義”、“生成變化”、“第四何以曰奇”、“第七何以曰奧”、“圖訣細心玩之”、“秘訣也”等关键字形清晰，OCR中“晴”误为“猜”、“夏化”误为“夏化”（应为“化”）、“第曰”误为“第四”、“奠”误为“奧”、“秋訣”误为“秘訣”、“案”误为“氣”等，均据图像修正。",
+      "issue": "错字|漏字|多字",
+      "old": "凡讀辨正者多不知解若求其文句如晴啞謎即讀熟辨正終屬渺茫因不得真傳而不得訣故也不知辨正一書其文辭至淺者道理愈深其用尤重惟青囊與語十義足見詩凡作用盡在奧語十義之中起止分合生母夏化道所方方具備凡讀者宜以十義遂句索解更以逐句字字追求方為得法如第一何以曰義第二何以曰言第三何以曰法第曰何以曰奇第五何以曰妙第六何以曰秘第七何以曰奠第八何以曰裁第九何以曰神第十何以曰真再以圗詩細心號之無不了然此便是讀辨正之秋訣也所以有辨正理案",
+      "new": "凡讀辨正者。多不知解。若求其文句。如猜啞謎。即讀熟辨正。終屬渺茫。因不得真傳。而不得訣。故也不知辨正一書。其文辭至淺者。道理愈深。其用尤重。惟青囊奧語十義。足見諸凡作用。盡在奧語十義之中。起止分合。生成變化。道理無不具備。凡讀者宜以十義逐句索解。更以逐句字字追求。方為得法。如第一何以曰義。第二何以曰言。第三何以曰法。第四何以曰奇。第五何以曰妙。第六何以曰秘。第七何以曰奧。第八何以曰裁。第九何以曰神。第十何以曰真。再以圖訣細心玩之。無不了然。此便是讀辨正之秘訣也。所以有辨正理氣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中‘猜啞謎’、‘青囊奧語十義’、‘生成變化’、‘第四何以曰奇’、‘第七何以曰奧’、‘圖訣細心玩之’、‘秘訣也’、‘理氣’等关键文字字形清晰，可逐字确认。原OCR‘晴’误为‘猜’、‘夏化’误为‘夏化’（实为‘化’）、‘第曰’误为‘第四’、‘奠’误为‘奧’、‘秋訣’误为‘秘訣’、‘案’误为‘氣’等，均据图像修正，符合古籍字形与语境。",
+      "metrics": {
+        "old_characters": 206,
+        "new_characters": 241,
+        "similarity": 0.8456,
+        "changed_characters": 52,
+        "length_delta": 35
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 8,
+      "page_zero_based": 7,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中“圖解”、“圖訣”、“潘龍”、“官職榮華”、“理氣對證”等字形清晰，OCR中“圗”误为“圖”（繁体字形一致，但OCR误作“圗”）、“葬官職”误为“葬官職”（应为“葬。官職”）、“觀圖訣”误为“觀圖訣”（应为“觀。圖訣”）等，据图像修正。",
+      "issue": "错字|漏字",
+      "old": "不可無辨正圗解是有辨正圗訣方可識辨正理氣寶照經云潘龍若依圗訣葬官職榮華立可觀圖訣是理氣對證",
+      "new": "不可無辨正圖解。是有辨正圖訣方可識辨正理氣。寶照經云。潘龍若依圖訣葬。官職榮華立可觀。圖訣是理氣對證。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘圖解’、‘圖訣’、‘潘龍’、‘官職榮華’、‘理氣對證’等字形清晰，‘圗’为‘圖’之异体，但图像中实际为‘圖’；‘葬官職’应为‘葬。官職’，‘觀圖訣’应为‘觀。圖訣’，图像中可见句读分隔，新文据图像修正标点与字形，准确无误。",
+      "metrics": {
+        "old_characters": 45,
+        "new_characters": 51,
+        "similarity": 0.875,
+        "changed_characters": 9,
+        "length_delta": 6
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 9,
+      "page_zero_based": 8,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘圗’为‘圖’的异体字，但根据上下文及传统文献用字，应为‘圖’。‘圗’在古籍中常见，但此处标准字形应为‘圖’，且OCR误作‘圗’，实际图像中字形更接近‘圖’。",
+      "issue": "错字",
+      "old": "天地生成河圗圖訣",
+      "new": "天地生成河圖圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圗’字结构清晰，但与标准‘圖’字形差异明显，且上下文为‘河圖圖訣’，‘圗’为‘圖’的异体，但此处应以通行字形‘圖’为准，OCR误识，图像中字形更接近‘圖’，故修正合理。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.875,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 9,
+      "page_zero_based": 8,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘圗’应为‘圖’，‘內’应为‘内’（古籍中‘内’‘內’通用，但此处OCR作‘内外’，图像中为‘內外’，应保留‘內’）；‘個’为‘个’的异体，但古籍中常用‘個’，可保留。整体结构清晰，无漏多字。",
+      "issue": "错字",
+      "old": "河圗妙義理通天本末根苗一氣連四象中央分内外五行個裡合方圓",
+      "new": "河圖妙義理通天 本末根苗一氣連 四象中央分內外 五行個裡合方圓",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圗’应为‘圖’，‘內’字清晰可见，为‘内’的异体，古籍中常用，OCR误作‘内外’，图像中为‘內外’，应保留‘內’；‘個’字清晰，为‘个’的异体，古籍中可保留。整体结构完整，无漏多字。",
+      "metrics": {
+        "old_characters": 28,
+        "new_characters": 28,
+        "similarity": 0.9286,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 9,
+      "page_zero_based": 8,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘圗’应为‘圖’，‘氣’字清晰，‘相連’二字完整无误，OCR中‘圗’为误识，应修正为‘圖’。",
+      "issue": "错字",
+      "old": "河圗妙義地理通天根苗本末一氣相連",
+      "new": "河圖妙義地理通天 根苗本末一氣相連",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圗’应为‘圖’，‘氣’字清晰，‘相連’二字完整无误，OCR中‘圗’为误识，应修正为‘圖’，图像中字形明确支持‘圖’。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 0.9375,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 9,
+      "page_zero_based": 8,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘圗’应为‘圖’，‘乙’字清晰，‘度化’‘八卦九星’‘天心’等字形完整，无漏多字。OCR中‘圗’多次误识，应统一修正为‘圖’；‘乙’字为‘已’的异体或误写，但图像中为‘乙’，且古籍中‘乙’有时作‘已’用，此处保留‘乙’。‘干道’应为‘乾道’？但图像中为‘干’，非‘乾’，故保留‘干’。整体字形清晰，无其他明显错误。",
+      "issue": "错字",
+      "old": "未有河圗洛書之數象先有天地乾坤之理氣是有天地乾坤之理氣故有河圗洛書之數象理與氣數與象則河洛之義與乾坤天地合一而乙矣所以天地生成河圗為地理之體自有乾坤度化洛書為天文之用地理之體生成五行四象而成干道天文之用度化八卦九星以應天心此便是天地生成河圗之本末自有天地度化洛書之根苗",
+      "new": "未有河圖洛書之數象 先有天地乾坤之理氣 是有天地乾坤之理氣 故有河圖洛書之數象 理與氣 數與象 則河洛之義與乾坤天地合一而乙矣 所以天地生成河圖為地理之體 自有乾坤度化洛書為天文之用 地理之體生成五行四象而成干道 天文之用度化八卦九星以應天心 此便是天地生成河圖之本末 自有天地度化洛書之根苗",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圗’多次出现，均应为‘圖’，OCR误识；‘乙’字清晰，图像中为‘乙’，古籍中或作‘已’，但图像明确为‘乙’，故保留；‘干道’图像中为‘干’，非‘乾’，故保留‘干’。整体字形清晰，无漏多字，修正合理。",
+      "metrics": {
+        "old_characters": 134,
+        "new_characters": 134,
+        "similarity": 0.9701,
+        "changed_characters": 4,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 10,
+      "page_zero_based": 9,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行為‘河圖變化洛書圖訣’，其下分四行，分別為‘洛書本末四為根’、‘八卦中央五至尊’、‘九個星辰行日月’、‘三回天地定乾坤’，字形完整，無缺漏。",
+      "issue": "错字",
+      "old": "圗爰化洛書圖訣洛書本末四為根八卦中央五至尊九個星辰行日月三回天地定乾坤",
+      "new": "河圖變化洛書圖訣 洛書本末四為根 八卦中央五至尊 九個星辰行日月 三回天地定乾坤",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像右侧文字清晰，首行‘河圖變化洛書圖訣’可辨，其下四行文字‘洛書本末四為根’‘八卦中央五至尊’‘九個星辰行日月’‘三回天地定乾坤’字形完整，与候选新文一致，旧文‘圗爰化’明显为‘河圖變化’之误，新文准确。",
+      "metrics": {
+        "old_characters": 35,
+        "new_characters": 36,
+        "similarity": 0.9296,
+        "changed_characters": 3,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 10,
+      "page_zero_based": 9,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字第二組，上方為‘九星八卦五四為尊’，下方為‘三回天地逆滿乾坤’，字跡清晰，與OCR文本對比，‘逆滿’非‘定’，且‘逆滿’在圖中可辨。",
+      "issue": "错字",
+      "old": "九星八卦五四為尊三回天地逆滿乾坤",
+      "new": "九星八卦五四為尊 三回天地逆滿乾坤",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "reject",
+      "judge_confidence": "high",
+      "judge_reason": "图像中右侧第二组文字为‘九星八卦五四為尊’‘三回天地逆滿乾坤’，‘逆滿’二字清晰可辨，非‘定’字。候选新文将‘逆滿’改为‘定’，与图像不符，属错误修订。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "second_pass_not_high_confidence_accept",
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 10,
+      "page_zero_based": 9,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字為豎排，可逐字辨識：‘洛書即是河圖’、‘河圖便是洛書’、‘洛書化為河圖’、‘河圖變為洛書’、‘洛書合為河圖’、‘河圖分為洛書’、‘洛書是說在天成象’、‘河圖是說在地成形’、‘是有成形故有顯象’、‘是有顯象必有成形’、‘足有天地生成’、‘河圖為地理之體’、‘固有乾坤變化’、‘洛書為天文之用’、‘是有五行四象而成十道’、‘故有八卦九星’、‘以應天心’、‘此便是無窮變化之本末’、‘自有萬物生成之根苗’。OCR中‘郭’為‘即’之誤，‘慶’為‘變’之誤，‘足’非‘成’，‘比’非‘此’，‘度’非‘化’，‘比便是’應為‘此便是’，‘度化’應為‘變化’，‘十道’後有逗號，‘根苗’前有句號。",
+      "issue": "错字",
+      "old": "洛書郭是河圗河圗便是洛書洛書化為河圗河圗慶為洛書洛書合為河圗河圗分為洛書洛書是說在天成象河圗是說在地成形是有形故有顯象是有顯象必有成形足有天地生成河圗為地理之體固有乾坤度化洛書為天文之用是有五行四象而成十道故有八卦九星以應天心比便是無窮度化之本末自有萬物生成之根苗",
+      "new": "洛書即是河圖，河圖便是洛書。洛書化為河圖，河圖變為洛書。洛書合為河圖，河圖分為洛書。洛書是說在天成象，河圖是說在地成形。是有成形，故有顯象；是有顯象，必有成形。足有天地生成，河圖為地理之體，固有乾坤變化。洛書為天文之用，是有五行四象而成十道，故有八卦九星，以應天心。此便是無窮變化之本末，自有萬物生成之根苗。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像左侧竖排文字逐字可辨，‘洛書即是河圖’‘河圖便是洛書’‘洛書化為河圖’‘河圖變為洛書’等句完整，‘郭’为‘即’之误，‘慶’为‘變’之误，‘足’非‘成’，‘比’非‘此’，‘度化’应为‘變化’，‘十道’后有逗号，‘根苗’前有句号，候选新文修正了所有明显错字与标点，符合图像内容。",
+      "metrics": {
+        "old_characters": 132,
+        "new_characters": 154,
+        "similarity": 0.8322,
+        "changed_characters": 35,
+        "length_delta": 22
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 11,
+      "page_zero_based": 10,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行為‘先天八卦本象圖訣’，其下‘先天八卦說君知’，再下‘甲木逢春發葉時’，‘四象中央為正幹’，‘五行以外是旁枝’，‘是有正幹必有旁枝’（OCR誤作‘は’），‘真龍出入左右秋持’。字形完整，無模糊。",
+      "issue": "错字",
+      "old": "八天八卦本象圗訣先天八卦說君知甲木逢春發葉時四象中央為正幹五行以外是旁枝是有正幹は有旁枝真龍出入左右秋持",
+      "new": "先天八卦本象圖訣\n先天八卦說君知\n甲木逢春發葉時\n四象中央為正幹\n五行以外是旁枝\n是有正幹必有旁枝\n真龍出入左右秋持",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图右侧文字清晰，逐字可辨，新文按实际排版分段，‘は’确为‘必’之误，‘圖’字亦正，无改写或异体字问题。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.9423,
+        "changed_characters": 3,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 11,
+      "page_zero_based": 10,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側文字縱向排列，可辨識‘先天八卦是說生數’，‘生數者即太極生兩儀’，‘兩儀生三才’，‘三才生四象’，‘四象生五行’，‘五行生八卦’，‘郭如甲木萌芽漸成枝幹’（OCR誤作‘關萊’），‘幹者一直生上，乾之性也’，‘枝者橫劇八方，坤之性也’，‘所以乾卦成而坤卦隨即成矣’，‘乾坤兩卦成而八卦隨即成矣’，‘八卦成而九星隨即成矣’，‘八卦九星成而天地萬物隨即成矣’，‘此便是先天八卦生數之本末，自有後天八卦成數之根苗’。所有字形清晰，標點與句讀可依文意及字形確認。",
+      "issue": "错字",
+      "old": "先天八卦是說生數生數者即太極生兩儀兩儀生三才三才生四象四象生五行五行生八卦郭如甲木關萊漸成枝幹幹者一直生上乾之性也被者橫劇八方坤之性也所以乾卦成而坤卦隨郎成矣乾坤兩卦成而八卦隨卽成矣八卦成而九星隨即成矣八卦九星成而天地萬物隨即成矣此便是先天八卦生數之本末自有後天八卦成數之根苗",
+      "new": "先天八卦是說生數。生數者即太極生兩儀，兩儀生三才，三才生四象，四象生五行，五行生八卦。郭如甲木萌芽漸成枝幹，幹者一直生上，乾之性也；枝者橫劇八方，坤之性也。所以乾卦成而坤卦隨即成矣，乾坤兩卦成而八卦隨即成矣，八卦成而九星隨即成矣，八卦九星成而天地萬物隨即成矣。此便是先天八卦生數之本末，自有後天八卦成數之根苗。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧文字纵向排列，字迹清晰，新文修正‘關萊’为‘萌芽’，‘被者’为‘枝者’，‘劇’为‘劇’（同‘剧’），标点与句读符合古籍语义及字形，无擅自改动。",
+      "metrics": {
+        "old_characters": 138,
+        "new_characters": 155,
+        "similarity": 0.9078,
+        "changed_characters": 22,
+        "length_delta": 17
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 12,
+      "page_zero_based": 11,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，'象'字非'泉'，'爰'字非'化'，且'末'字在圖中為中心標記，與'末象圖訣'對應。'在天成象在地成形'中'象'字筆畫清晰，非'泉'。'分明八卦爰化九星'中'爰'字為古字，非'化'。",
+      "issue": "错字",
+      "old": "後天八卦末象圖訣後天八卦卽先天本末中央一氣連太極生成三極體五星配出九星垣在天成泉在地成形分明八卦爰化九星",
+      "new": "後天八卦末象圖訣\n後天八卦卽先天\n本末中央一氣連\n太極生成三極體\n五星配出九星垣\n在天成象在地成形\n分明八卦爰化九星",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中右側文字清晰，'象'字筆畫完整，非'泉'；'爰'字為古字，非'化'；'末'字在圖中居中，與'末象圖訣'對應。各句分行清晰，與新文排版一致，無改寫或異體字擅改。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.9808,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 12,
+      "page_zero_based": 11,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側文字為豎排，可逐字辨識：'節'字為'節'非'卽'，'度化'非'變化'，'終歸公'非'終歸合'，'自有'非'末自有'。'本末'後有句號，'根苗'為末句。所有字形清晰，無模糊。",
+      "issue": "错字",
+      "old": "後天八卦是說成數成數者六七八九十是也六七八九十節是一二三四五實為兩個一二三四五也一個先之一二三四五為本一個後之一二三四五為末止此兩個一二三四五度化無數個一二三四五無數個一二三四五終歸公為一個一二三四五此天機也此便是後天八卦成數之本末自有先後八卦合數之根苗",
+      "new": "後天八卦是說成數。成數者六七八九十是也。六七八九十節是一二三四五。實為兩個一二三四五也。一個先之一二三四五為本。一個後之一二三四五為末。止此兩個一二三四五度化無數個一二三四五。無數個一二三四五終歸公為一個一二三四五。此天機也。此便是後天八卦成數之本末。自有先後八卦合數之根苗。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左側豎排文字逐字清晰可辨：'節'字為'節'非'卽'，'度化'非'變化'，'終歸公'非'終歸合'，'自有'非'末自有'。句末標點如句號、句讀均與圖中一致，無語義改動或字形誤判。",
+      "metrics": {
+        "old_characters": 127,
+        "new_characters": 138,
+        "similarity": 0.9585,
+        "changed_characters": 11,
+        "length_delta": 11
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 13,
+      "page_zero_based": 12,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行為「先後八卦並體圖訣」，其下依次為「後天極數合先天」「八卦九星一氣連」「四象中央歸本位」「五行內外各還原」「先本後末同共一天」「五行四象內外相連」，字形完整，無缺漏。",
+      "issue": "错字",
+      "old": "九後八卦並體圖訣後天極數合先天八卦九星一氣連四象中央歸本位五行內外各還原先本後末同共一天王行四象內外相連",
+      "new": "先後八卦並體圖訣 後天極數合先天 八卦九星一氣連 四象中央歸本位 五行內外各還原 先本後末同共一天 五行四象內外相連",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中右側文字清晰可辨，首行為「先後八卦並體圖訣」，其下依次為「後天極數合先天」「八卦九星一氣連」「四象中央歸本位」「五行內外各還原」「先本後末同共一天」「五行四象內外相連」，字形完整，無缺漏。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.9615,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 13,
+      "page_zero_based": 12,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側文字縱向排列，可辨識「前圖先後八卦是說分數」，其後「此圖先後八卦是說合數」，「分數者一十分為二」、「五合數者二五合為一十」、「分而為二者九四九五」、「合而為一者九九八一」等句，字形清晰，標點為句讀，無明顯缺漏或錯字。",
+      "issue": "错字",
+      "old": "前圗先後八卦是說分數此圖先後八卦是說会數是有分數故有合數是有合數必有分數分數者一十分為二五合數者二五合為一十所以前之先後八卦分而為二此之先復八卦合而為一分而為二卷九四九五合而為一都九九八一九四九五是說行龍之實義九九八一是說結地之真情此便是先後八卦合數之本末自有先後八卦分數之根苗",
+      "new": "前圖先後八卦是說分數。此圖先後八卦是說合數，是有分數，故有合數；是有合數，必有分數。分數者，一十分為二；五合數者，二五合為一十。所以前之先後八卦分而為二，此之先後八卦合而為一。分而為二者，九四九五；合而為一者，九九八一。九四九五是說行龍之實義，九九八一是說結地之真情。此便是先後八卦合數之本末，自有先後八卦分數之根苗。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左側文字縱向排列，可辨識「前圖先後八卦是說分數」，其後「此圖先後八卦是說合數」，「分數者一十分為二」、「五合數者二五合為一十」、「分而為二者九四九五」、「合而為一者九九八一」等句，字形清晰，標點為句讀，無明顯缺漏或錯字。",
+      "metrics": {
+        "old_characters": 139,
+        "new_characters": 159,
+        "similarity": 0.8993,
+        "changed_characters": 25,
+        "length_delta": 20
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 14,
+      "page_zero_based": 13,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行為「八卦分為三卦圖訣」，其下「乾坤變化易門開」，「天地人通任往來」，「九直九橫分九曜」，「三經三緯合三才」，再下為「乾坤變化三緯三經」，末句「橫推直有三卦分勾」。OCR誤將「八」作「八」（雖同字但排版位置錯），且「變化」誤作「爰化」，「三緯三經」誤作「三經三緯」，「橫推直有三卦分勾」漏「橫」字，「勾」字應為「勾」（古字同）。",
+      "issue": "错字|漏字",
+      "old": "卦分為三卦圖訣乾坤爰化易門開天地人通任往來九直九橫分九曜三經三緯合三才乾坤爰化三緯三經橫推直有三卦分勾",
+      "new": "八卦分為三卦圖訣 乾坤變化易門開 天地人通任往來 九直九橫分九曜 三經三緯合三才 乾坤變化三緯三經 橫推直有三卦分勾",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中右側文字清晰可辨，首行為「八卦分為三卦圖訣」，其下「乾坤變化易門開」，「天地人通任往來」，「九直九橫分九曜」，「三經三緯合三才」，再下為「乾坤變化三緯三經」，末句「橫推直有三卦分勾」。OCR誤將「八」作「八」（雖同字但排版位置錯），且「變化」誤作「爰化」，「三緯三經」誤作「三經三緯」，「橫推直有三卦分勾」漏「橫」字，「勾」字應為「勾」（古字同）。候選文本修正了這些錯誤，符合圖像內容。",
+      "metrics": {
+        "old_characters": 51,
+        "new_characters": 52,
+        "similarity": 0.9515,
+        "changed_characters": 3,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 14,
+      "page_zero_based": 13,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側第一段文字清晰，首句「江東一卦從來吉。」，次句「八神四個一。」，句末有句號，OCR文本正確，無需修改。",
+      "issue": "无",
+      "old": "江東一卦從來吉八神四個一",
+      "new": "江東一卦從來吉。八神四個一。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左側第一段文字清晰，首句「江東一卦從來吉。」，次句「八神四個一。」，句末有句號，OCR文本正確，無需修改。候選文本僅添加句號，符合圖像中句號存在之實況。",
+      "metrics": {
+        "old_characters": 12,
+        "new_characters": 14,
+        "similarity": 0.9231,
+        "changed_characters": 2,
+        "length_delta": 2
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 14,
+      "page_zero_based": 13,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "左側第二段文字可逐字辨識：首句「江東一卦起於西。」，「乃天然位數。」，「無有不吉。」，「八神四個一者。」，「是以八卦緩四位。」，「以求同氣。」，「實為三個一也。」，「三個一者。」，「坎巽兌之一也。」，「坤中艮之一也。」，「震乾離之一也。」，「是有三個一。卽有三個二。」，「是有三個二。卽有三個三也。」，「此一氣相連。實為三個一。二三也。」，「所謂一生二。今二生三。三生萬物之玄關是也。」。OCR中「緩」誤作「綴」，「卽」誤作「即」，「二三也」後漏句號，「今二生三」中「今」字OCR未識別，但圖中可見。根據圖像，「今」字存在，且「二生三」後有句號。故修正為「今二生三。」。",
+      "issue": "错字|漏字",
+      "old": "江東一卦起於西乃天然位數無有不吉八神四個一者是以八卦緩四位以求同氣實為三個一也三個一者坎巽兌之一也坤中艮之一也震乾離之一也是有三個一卽有三個二是有三個二卽有三個三也此一氣相連實為三個一二三也所謂一生二今二生三三生萬物之玄關是也",
+      "new": "江東一卦起於西。乃天然位數。無有不吉。八神四個一者。是以八卦緩四位。以求同氣。實為三個一也。三個一者。坎巽兌之一也。坤中艮之一也。震乾離之一也。是有三個一。卽有三個二。是有三個二。卽有三個三也。此一氣相連。實為三個一。二三也。所謂一生二。今二生三。三生萬物之玄關是也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左側第二段文字可逐字辨識：首句「江東一卦起於西。」，「乃天然位數。」，「無有不吉。」，「八神四個一者。」，「是以八卦緩四位。」，「以求同氣。」，「實為三個一也。」，「三個一者。」，「坎巽兌之一也。」，「坤中艮之一也。」，「震乾離之一也。」，「是有三個一。卽有三個二。」，「是有三個二。卽有三個三也。」，「此一氣相連。實為三個一。二三也。」，「所謂一生二。今二生三。三生萬物之玄關是也。」。OCR中「緩」誤作「綴」，「卽」誤作「即」，「二三也」後漏句號，「今二生三」中「今」字OCR未識別，但圖中可見。根據圖像，「今」字存在，且「二生三」後有句號。故修正為「今二生三。」。候選文本準確反映圖像內容。",
+      "metrics": {
+        "old_characters": 113,
+        "new_characters": 134,
+        "similarity": 0.915,
+        "changed_characters": 21,
+        "length_delta": 21
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 15,
+      "page_zero_based": 14,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰可辨，'義郎'為'義郎'，'族着'為'族着'，無明顯錯漏；'真龍'二字完整，'不同骨肉却共祖宗'與'族着父母便是真龍'兩句完整可見。",
+      "issue": "无",
+      "old": "八卦分為二卦圖訣不同三極也相通兩卦終歸靠祖宗但遇此情皆吉地每逢是義郎真龍不同骨肉却共祖宗族着父母便是真龍",
+      "new": "八卦分為二卦圖訣不同三極也相通兩卦終歸靠祖宗但遇此情皆吉地每逢是義郎真龍不同骨肉却共祖宗族着父母便是真龍",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中文字清晰，'義郎'、'族着'、'真龍'、'不同骨肉却共祖宗'等字句完整可辨，與新文一致，無錯漏或異體字問題。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 15,
+      "page_zero_based": 14,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "文字清晰，'排龍位'三字完整，'八神四個二'無缺漏，與圖中標題一致。",
+      "issue": "无",
+      "old": "江西一卦排龍位八神四個二",
+      "new": "江西一卦排龍位八神四個二",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "標題文字'江西一卦排龍位八神四個二'在圖中清晰可見，字形完整，無缺漏或異體字，新文與圖完全一致。",
+      "metrics": {
+        "old_characters": 12,
+        "new_characters": 12,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 15,
+      "page_zero_based": 14,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "文字逐字可辨，'排龍位'、'八卦經四位'、'文母'、'坎坤震'、'巽中乾'、'兌艮離'、'三個一'、'三個二'、'三個三'、'一二三'、'三卦'、'八卦九星'等關鍵詞均清晰可見，無錯漏。",
+      "issue": "无",
+      "old": "江西一卦乃江東一卦之對面所謂江西龍去望江東是也八神四個二者是以八卦經四位而起文母實為三個二也三個二者坎坤震之二也巽中乾之二也兌艮離之二也是有三個一故有三個二是有三個二必有三個三實為三個一二三也所以三卦由此而分八卦九星由此而成也",
+      "new": "江西一卦乃江東一卦之對面所謂江西龍去望江東是也八神四個二者是以八卦經四位而起文母實為三個二也三個二者坎坤震之二也巽中乾之二也兌艮離之二也是有三個一故有三個二是有三個二必有三個三實為三個一二三也所以三卦由此而分八卦九星由此而成也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "正文文字逐字清晰，'八卦經四位'、'文母'、'坎坤震'、'巽中乾'、'兌艮離'、'三個一'、'三個二'、'三個三'、'一二三'、'三卦'、'八卦九星'等關鍵詞均完整可辨，新文與圖完全吻合。",
+      "metrics": {
+        "old_characters": 113,
+        "new_characters": 113,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 16,
+      "page_zero_based": 15,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中標題為「八卦統共一卦圖訣」，非「卦統共一卦圗訣」；「度化」應為「變化」，「孔星」應為「九星」，圖中文字清晰可辨；「洛書顯象八卦成形」與「三同天地化出九星」為圖旁註釋，字形清晰。",
+      "issue": "错字",
+      "old": "卦統共一卦圗訣生成度化顯方圓九個星辰任倒頭天地五行同一體乾坤大斷合三連洛書顯象八卦成形三同天地化出孔星",
+      "new": "八卦統共一卦圖訣生成變化顯方圓九個星辰任倒頭天地五行同一體乾坤大斷合三連洛書顯象八卦成形三同天地化出九星",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中標題明確為「八卦統共一卦圖訣」，非「卦統共一卦圗訣」；「度化」字形為「變」，應為「變化」；「孔星」字形為「九」，應為「九星」；圖旁註釋「洛書顯象八卦成形」與「三同天地化出九星」字跡清晰，與新文一致。",
+      "metrics": {
+        "old_characters": 51,
+        "new_characters": 52,
+        "similarity": 0.932,
+        "changed_characters": 4,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 16,
+      "page_zero_based": 15,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "文字清晰，無錯漏，與圖中文字一致。",
+      "issue": "无",
+      "old": "南北八神共一卦端的用兼差",
+      "new": "南北八神共一卦端的用兼差",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中文字「南北八神共一卦端的用兼差」字跡清晰，無錯漏，與舊文一致，新文未改，故接受。",
+      "metrics": {
+        "old_characters": 12,
+        "new_characters": 12,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 16,
+      "page_zero_based": 15,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰可辨，「豈非」非「堂非」，「無所不通」非「魚所不通」，「生成變化」非「生俄衷化」，句末有句號分隔，與圖中排版一致。",
+      "issue": "错字",
+      "old": "始云東一卦次云西一卦此云南北八神共一卦堂非三大卦乎登非云江南龍來江北望江西龍去望江東之妙義乎又曰天機妙訣本不同八卦止有一卦通黨非云此一卦乎所以惟此一卦魚所不通無所不達凡天地萬物生俄衷化道理盡在此一卦中是以為入用之極廣",
+      "new": "始云東一卦。次云西一卦。此云南北八神共一卦。豈非三大卦乎。豈非云江南龍來江北望。江西龍去望江東之妙義乎。又曰天機妙訣本不同。八卦止有一卦通。豈非云此一卦乎。所以惟此一卦。無所不通。無所不達。凡天地萬物生成變化。道理盡在此一卦中。是以為入用之極廣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中文字清晰，可辨「豈非」非「堂非」，「無所不通」非「魚所不通」，「生成變化」非「生俄衷化」，句末有句號分隔，與新文排版一致，且字形無誤。",
+      "metrics": {
+        "old_characters": 108,
+        "new_characters": 123,
+        "similarity": 0.8831,
+        "changed_characters": 21,
+        "length_delta": 15
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 17,
+      "page_zero_based": 16,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字分為五行，首行為‘廿四龍管三卦圖訣’，其下為‘解增三般卦數理通天’，再下為‘六合週流在自然’，再下為‘分配九宮知妙義’，最末為‘相生同氣亦相連’。OCR將其連成一行，且‘圗’誤作‘圗’，‘在’誤作‘佐’，‘宮’誤作‘宮’（雖同字但OCR識別有誤），‘亦’誤作‘亦’（同字），‘連’誤作‘連’（同字），但‘佐’應為‘在’，‘圗’應為‘圖’，‘宮’應為‘宮’（OCR識別正確但字形異體），‘連’應為‘連’（OCR正確）。根據圖像，‘佐’字明顯為‘在’，‘圗’為‘圖’的異體，但古籍中常作‘圗’，故保留‘圗’。但‘佐’確為‘在’之誤，需修正。",
+      "issue": "错字",
+      "old": "廿四龍管三卦圗訣解增三般卦數理通天六合週流在自然分配九宮知妙義相生同氣亦相連",
+      "new": "廿四龍管三卦圖訣\n解增三般卦數理通天\n六合週流在自然\n分配九宮知妙義\n相生同氣亦相連",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像右侧文字清晰，分五行排列，首行‘廿四龍管三卦圖訣’，‘圖’字为‘圗’之异体，古籍中常见，OCR原误作‘圗’，新文修正为‘圖’，符合图像；‘佐’字图像中明显为‘在’，新文已修正；其余‘宮’‘亦’‘連’等字图像与新文一致，无误。",
+      "metrics": {
+        "old_characters": 38,
+        "new_characters": 38,
+        "similarity": 0.9737,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 17,
+      "page_zero_based": 16,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字分為兩行，首行為‘鼓駢聞’，次行為‘二十四龍管三卦莫與時師語忽然得知便通仙代代’。OCR正確識別，無錯漏。",
+      "issue": "无",
+      "old": "鼓駢聞二十四龍管三卦莫與時師語忽然得知便通仙代代",
+      "new": "鼓駢聞\n二十四龍管三卦莫與時師語忽然得知便通仙代代",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像左侧文字分两行，首行‘鼓駢聞’，次行‘二十四龍管三卦莫與時師語忽然得知便通仙代代’，字迹清晰，新文正确分段，无错漏，与图像完全一致。",
+      "metrics": {
+        "old_characters": 24,
+        "new_characters": 24,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 17,
+      "page_zero_based": 16,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字連續，OCR識別正確，字形清晰可辨，無錯漏。‘兌’‘巽’‘眷’‘耶’‘度’等字均與圖像一致。",
+      "issue": "无",
+      "old": "次至巽是四位巽至兌亦是四位八卦皆經四位三才六秀為一例久母子息為一例兄弟子孫為一例一四七二五八三六九人皆知之矣而作用配合雖老於此眷尚在昧昧病在耶度命於先師也",
+      "new": "次至巽是四位巽至兌亦是四位八卦皆經四位三才六秀為一例久母子息為一例兄弟子孫為一例一四七二五八三六九人皆知之矣而作用配合雖老於此眷尚在昧昧病在耶度命於先師也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像左侧文字连续，字形清晰，‘兌’‘巽’‘眷’‘耶’‘度’等字均与新文一致，无错漏，OCR原文无误，新文未改动，符合图像。",
+      "metrics": {
+        "old_characters": 77,
+        "new_characters": 77,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 17,
+      "page_zero_based": 16,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側末段文字為‘此圖與上三般卦大同小異而此較為明顯’，OCR中‘圗’誤作‘圗’，但‘圗’為‘圖’之異體，古籍中常用，可接受。後半句‘分別零神正神圗訣’在圖中並未出現，OCR多出此句，應為誤識別或後續文字。根據圖像，此段僅止於‘明顯’，無後續文字。",
+      "issue": "多字",
+      "old": "此圗與上三般卦大同小異而此較為明顯分別零神正神圗訣",
+      "new": "此圖與上三般卦大同小異而此較為明顯",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像左侧末段文字止于‘明顯’，无后续‘分別零神正神圗訣’，OCR多出此句为误识，新文已删去，与图像完全一致；‘圗’字图像中为‘圖’之异体，新文作‘圖’，符合古籍用字习惯，可接受。",
+      "metrics": {
+        "old_characters": 25,
+        "new_characters": 17,
+        "similarity": 0.7619,
+        "changed_characters": 9,
+        "length_delta": -8
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 18,
+      "page_zero_based": 17,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘離宮剋入’之‘剋’字，非‘尅’；‘夫婦情真’四字清晰可辨；‘零堂合氣’與‘正向通神’分列兩行，字形完整。",
+      "issue": "错字",
+      "old": "陰陽二字兩星辰龍水相交理氣真坎位生來為正向離宮尅入是零神龍水配合夫婦情真零堂合氣正向通神",
+      "new": "陰陽二字兩星辰 龍水相交理氣真 坎位生來為正向 離宮剋入是零神 龍水配合夫婦情真 零堂合氣正向通神",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘離宮剋入’之‘剋’字笔画清晰，非‘尅’；‘夫婦情真’四字结构完整；‘零堂合氣’与‘正向通神’分列两行，字形无缺损，新文分段更符合原文排版。",
+      "metrics": {
+        "old_characters": 44,
+        "new_characters": 44,
+        "similarity": 0.9773,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 18,
+      "page_zero_based": 17,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘撥水入零堂’與‘積粟萬餘倉’字形清晰，‘認取來山腦’三字完整，‘水上排龍點位裝’無缺漏。",
+      "issue": "无",
+      "old": "陰陽二字看零正坐向須知病若遇正神正位裝撥水入零堂零堂正向須知好認取來山腦水上排龍點位裝積粟萬餘倉",
+      "new": "陰陽二字看零正 坐向須知病 若遇正神正位裝 撥水入零堂 零堂正向須知好 認取來山腦 水上排龍點位裝 積粟萬餘倉",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘撥水入零堂’‘積粟萬餘倉’‘認取來山腦’‘水上排龍點位裝’等句字形完整清晰，新文按句分段，符合原文布局，无错漏。",
+      "metrics": {
+        "old_characters": 48,
+        "new_characters": 48,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 18,
+      "page_zero_based": 17,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘正許零神入內’與‘不許零神出外’字形清晰，‘雌雄交媾’四字完整，‘陰陽差錯’與‘理氣矣’無缺漏。",
+      "issue": "无",
+      "old": "分零正兩字之義有二有局內之分零正者有局外之分零正者局外之分零正者正許零神入內局內之分舉正者不許零神出外如是則為雌雄交媾天然結地無疑矣反此則為陰陽差錯並非結地之理氣矣",
+      "new": "分零正兩字之義有二 有局內之分零正者 有局外之分零正者 局外之分零正者 正許零神入內 局內之分零正者 不許零神出外 如是則為雌雄交媾 天然結地無疑矣 反此則為陰陽差錯 並非結地之理氣矣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘正許零神入內’‘不許零神出外’‘雌雄交媾’‘陰陽差錯’等关键句字迹清晰，新文分段合理，无图像证据显示旧文更优。",
+      "metrics": {
+        "old_characters": 82,
+        "new_characters": 82,
+        "similarity": 0.9878,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 19,
+      "page_zero_based": 18,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘贊’字明顯為‘寶’之誤，‘圗’為‘圖’之異體，但古籍中常見，可保留；‘訣’字清晰可辨。",
+      "issue": "错字",
+      "old": "分別珠贊火坑圗訣",
+      "new": "分別珠寶火坑圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘贊’字明显为‘寶’之误，‘圗’为‘圖’之异体，古籍中常见，可保留；‘訣’字清晰可辨，新文更准确。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.75,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 19,
+      "page_zero_based": 18,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘贊’字為‘寶’之誤，‘火坑’與‘珠寶’對應位置清晰，‘近身邊’三字完整可辨。",
+      "issue": "错字",
+      "old": "顛顛倒倒地翻天氣運循環六十年珠寶火坑分對面火坑珠寶近身邊",
+      "new": "顛顛倒倒地翻天氣運循環六十年珠寶火坑分對面火坑珠寶近身邊",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘贊’字为‘寶’之误，‘火坑’与‘珠寶’对应位置清晰，‘近身邊’三字完整可辨，新文修正了‘贊’字错误。",
+      "metrics": {
+        "old_characters": 28,
+        "new_characters": 28,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 19,
+      "page_zero_based": 18,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中‘爰’為‘變’之誤，‘殊賢’為‘珠寶’之誤，‘云右’為‘左右’之誤，‘火玩’為‘火坑’之誤，‘明比’為‘明此’之誤，句末‘矣’字清晰。‘順逆行’與‘顛顛倒’對應位置可辨，‘近在左右’‘近在前後左右’等語句字形完整。",
+      "issue": "错字",
+      "old": "頭顛倒二十四山有珠寶順逆行二十四山有火坑顛顛倒是說爰化之次坑珠寶順逆行是說生成之大坑殊賢生成之火坑珠實近在左右度化之火坑珠實近在前後云右之火坑珠寶生成已定前後之火坑珠賢度化隨時所以為人作事總要行得正做得中便是珠寶倘有偏心不正見利忘義則陷入與火坑矣明比則火玩爰為珠寶之用矣",
+      "new": "顛顛倒二十四山有珠寶順逆行二十四山有火坑。顛顛倒是說變化之火坑珠寶。順逆行是說生成之火坑珠寶。生成之火坑珠寶近在左右。變化之火坑珠寶近在前後左右。之火坑珠寶生成已定。前後之火坑珠寶。變化隨時。所以為人作事。總要行得正做得中。便是珠寶。倘有偏心不正。見利忘義。則陷入與火坑矣。明此則火坑變為珠寶之用矣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘爰’为‘變’之误，‘殊賢’为‘珠寶’之误，‘云右’为‘左右’之误，‘火玩’为‘火坑’之误，‘明比’为‘明此’之误，句末‘矣’字清晰，新文逐字修正，符合图像。",
+      "metrics": {
+        "old_characters": 135,
+        "new_characters": 150,
+        "similarity": 0.8421,
+        "changed_characters": 30,
+        "length_delta": 15
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 20,
+      "page_zero_based": 19,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "图像中文字清晰，与OCR一致，无错漏。",
+      "issue": "无",
+      "old": "審龍定向分金圖訣",
+      "new": "審龍定向分金圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中文字清晰，与OCR一致，无错漏。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 20,
+      "page_zero_based": 19,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "图像中“工”字为“三”之误，因“工”与“三”在手写体中易混淆，但图像中笔画为三横，应为“三出”；其余文字清晰可辨，如“脈”“詳”“挨”“傍”“專”“執”等字形明确。",
+      "issue": "错字",
+      "old": "審龍出脉細心詳天地人兼左右看九個分金挨內外三回定向傍中央龍有工出脉有三來專向三取執定三才",
+      "new": "審龍出脉細心詳天地人兼左右看九個分金挨內外三回定向傍中央龍有三出脉有三來專向三取執定三才",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中‘工’字为三横，明确为‘三’，非‘工’；其余字如‘脈’‘詳’‘挨’‘傍’‘專’‘執’等字形清晰可辨。",
+      "metrics": {
+        "old_characters": 44,
+        "new_characters": 44,
+        "similarity": 0.9773,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 20,
+      "page_zero_based": 19,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "图像中“殊”为“珠”之误，因“殊”与“珠”字形相近，但图像中“珠”字结构清晰，上为“王”下为“朱”，非“殊”；“被”字在图像中为“被”而非“放”，OCR误读；“何”为“向”之误，图像中“向”字结构明确。其余字如“前”“兼”“龍”“神”“排”“陰陽”等均清晰可辨。",
+      "issue": "错字",
+      "old": "前兼龍神前兼向聯殊莫相被後兼龍神後兼何排定陰陽算",
+      "new": "前兼龍神前兼向聯珠莫相被後兼龍神後兼向排定陰陽算",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中‘殊’字结构为‘歹’+‘朱’，而‘珠’为‘王’+‘朱’，图像中上部为‘王’，应为‘珠’；‘被’字图像中为‘被’，非‘放’；‘何’字图像中为‘向’，结构清晰。",
+      "metrics": {
+        "old_characters": 24,
+        "new_characters": 24,
+        "similarity": 0.9167,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 20,
+      "page_zero_based": 19,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "图像中“乃地理家之秋要”应为“秘要”，“秋”字形为“禾”+“火”，而“秘”为“禾”+“必”，图像中明显为“必”部；“即以不葬”应为“所以有葬”，OCR误读；“解房”应为“絕房”，“解”字形为“角”+“刀”，“絕”为“纟”+“色”，图像中为“絕”；“以為”OCR漏字，图像中“以”后有“為”字；“足福”OCR为“足福”，图像中为“足福”，无误。其余如“三來”“三出”“左中右”“右中左”“乘氣”“中正”“準繩”“精微”“不發”“不均”“不發而絕”等字形均清晰可辨。",
+      "issue": "错字|漏字",
+      "old": "前兼龍神陽龍也後兼龍神陰龍也陰龍相兼有三出陽龍相兼有三來三來者左中右三出者右中左以左中右評十道以右中左定天心以定乘氣之中正以足福之準繩此葬法之精微乃地理家之秋要即以不葬吉地而不發者亦有發而不均者甚至乎不發而解房者皆乘氣不中正故也",
+      "new": "前兼龍神陽龍也後兼龍神陰龍也陰龍相兼有三出陽龍相兼有三來三來者左中右三出者右中左以左中右評十道以右中左定天心以定乘氣之中正以為足福之準繩此葬法之精微乃地理家之秘要所以有葬吉地而不發者亦有發而不均者甚至乎不發而絕房者皆乘氣不中正故也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中‘秋’字下部为‘必’，应为‘秘’；‘即以不葬’应为‘所以有葬’，图像中‘所’‘以’‘有’‘葬’字形清晰；‘解’字为‘纟’+‘色’，应为‘絕’；‘以為’二字图像中完整存在；‘足福’无误。",
+      "metrics": {
+        "old_characters": 114,
+        "new_characters": 115,
+        "similarity": 0.9607,
+        "changed_characters": 5,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 21,
+      "page_zero_based": 20,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字分五行排列，首行為‘依龍立向分金圖訣’，其下‘增解向首分金要合龍’，再下‘陰陽二氣貴相通’，再下‘先察三才觀透地’，最末‘還從天際認虛空’。OCR將其連成一整段，未按實際分行，且‘圗’為‘圖’之異體，應依圖中字形修正。",
+      "issue": "次序",
+      "old": "依龍立向分金圗訣增解向首分金要合龍陰陽二氣貴相通先察三才觀透地還從天際認虛空",
+      "new": "依龍立向分金圖訣\n增解向首分金要合龍\n陰陽二氣貴相通\n先察三才觀透地\n還從天際認虛空",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图右侧文字清晰分五行排列，首行‘依龍立向分金圖訣’，其下四行依次为‘增解向首分金要合龍’、‘陰陽二氣貴相通’、‘先察三才觀透地’、‘還從天際認虛空’。‘圗’为‘圖’之异体，图中字形确为‘圖’，候选按实际分行并修正异体字，符合图像。",
+      "metrics": {
+        "old_characters": 38,
+        "new_characters": 38,
+        "similarity": 0.9737,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 21,
+      "page_zero_based": 20,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字可辨識為：‘此格龍主向消納配合之訣法。若龍犯剝雜，則以水救之。另自有訣，以三大卦為主，以夫婦圖分金，執此亦入用矣。至入神入化，則非研究諸圖不可。’ OCR中‘被法’應為‘訣法’，‘圗’應為‘圖’，‘執’字OCR誤作‘執’但圖中清晰為‘執’，‘諸圗’應為‘諸圖’。句末有句號，OCR未保留。",
+      "issue": "错字",
+      "old": "此格龍主向消納配合之被法若龍犯剝雜則以水救之另自有訣以三大卦為主以夫婦圗分金執此亦入用矣至入神入化則非研究諸圗不可",
+      "new": "此格龍主向消納配合之訣法。若龍犯剝雜，則以水救之。另自有訣，以三大卦為主，以夫婦圖分金，執此亦入用矣。至入神入化，則非研究諸圖不可。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧文字清晰可辨，‘訣法’非‘被法’，‘夫婦圖’非‘夫婦圗’，‘執’字图像中为‘執’，非‘執’，‘諸圖’非‘諸圗’。句末有句号，候选添加标点符合图像实际。",
+      "metrics": {
+        "old_characters": 57,
+        "new_characters": 66,
+        "similarity": 0.878,
+        "changed_characters": 12,
+        "length_delta": 9
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 21,
+      "page_zero_based": 20,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字可辨識為：‘此三元配合父母，與前兼後兼盡在於此矣。雖然，亦豈易言哉？今人讀得寶照經數語，則特蔣盤而稱三元地師可矣，可恥之甚也。此圖同前較為明白。’ OCR中‘文母’應為‘父母’，‘與’字OCR誤作‘與’但圖中為‘與’，‘蔣盤’OCR作‘蔣盤’正確，‘圗’應為‘圖’，句末有句號，OCR未保留。",
+      "issue": "错字",
+      "old": "此三元配合文母與前兼後兼盡在於此矣雖然亦豈易言哉今人讀得寶照經數語則特蔣盤而稱三元地師可矣可恥之甚也此圗同前較為明白",
+      "new": "此三元配合父母，與前兼後兼盡在於此矣。雖然，亦豈易言哉？今人讀得寶照經數語，則特蔣盤而稱三元地師可矣，可恥之甚也。此圖同前較為明白。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧文字‘父母’非‘文母’，‘與’字图像中为‘與’，‘蔣盤’正确，‘圖’非‘圗’，句末有句号，候选修正错字并添加标点，与图像一致。",
+      "metrics": {
+        "old_characters": 58,
+        "new_characters": 66,
+        "similarity": 0.9032,
+        "changed_characters": 10,
+        "length_delta": 8
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 22,
+      "page_zero_based": 21,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行為「坎離水火交媾圖訣」，其下依次為「先天變化後天開」「南北東西一路來」等，OCR誤將「變」作「爰」，「既」作「旣」，且斷句錯誤，實際應為完整段落。圖中文字排列與此修正一致。",
+      "issue": "错字",
+      "old": "玖離水火交媾圖訣先天爰化後天開南北東西一路來坎離中宮通九竅乾坤逐位合三才水火既濟北去南來坎離合氣妙應三才",
+      "new": "坎離水火交媾圖訣 先天變化後天開 南北東西一路來 坎離中宮通九竅 乾坤逐位合三才 水火既濟北去南來 坎離合氣妙應三才",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图右侧文字清晰，首行确为「坎離水火交媾圖訣」，其下「先天變化後天開」等句字迹分明，OCR原误作「爰」、「旣」，实为「變」、「既」，且断句错误，新文按实际排版与字形修正，符合图像。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.9615,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 22,
+      "page_zero_based": 21,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側第一段文字清晰，為「坎離水火中天過 龍池移帝座」，OCR正確，無需修改。",
+      "issue": "无",
+      "old": "坎離水火中天過龍池移帝座",
+      "new": "坎離水火中天過 龍池移帝座",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧第一段文字「坎離水火中天過 龍池移帝座」字迹清晰，新文加空格分句符合实际排版，无错字，与图像一致。",
+      "metrics": {
+        "old_characters": 12,
+        "new_characters": 12,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 22,
+      "page_zero_based": 21,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側第二段文字清晰，可辨識「變」字非「爰」，「變化」非「爰化」，且「中天過一句」後有逗號，「皆得中五而行變化」非「行爰化」。OCR中「爰」為錯字，應為「變」；「成雌雄者也」前為「得中五而成」，非「得中五而」。圖中文字與此修正完全一致。",
+      "issue": "错字",
+      "old": "兩句上下同義其妙用在中天中天者中五也若非中五不能上行下濟若非中五不得媾合坎離所以天地萬物逢五則通逢五則達逢五則爰逢五則化逢五則生逢五則成逢五則動逢五則靜逢五則富逢五則窮此足見坎離水之中天過一句皆得中五而行爰化得中五而成雌雄者也",
+      "new": "兩句上下同義。其妙用在中天。中天者中五也。若非中五不能上行下濟。若非中五不得媾合坎離。所以天地萬物，逢五則通，逢五則達，逢五則變，逢五則化，逢五則生，逢五則成，逢五則動，逢五則靜，逢五則富，逢五則窮。此足見坎離水火中天過一句，皆得中五而行變化，得中五而成雌雄者也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧第二段文字清晰可辨，「變」字非「爰」，「變化」非「爰化」，且「得中五而成雌雄者也」前为「得中五而成」，非「得中五而」，新文准确还原图像内容，标点亦符合古籍断句习惯。",
+      "metrics": {
+        "old_characters": 113,
+        "new_characters": 132,
+        "similarity": 0.898,
+        "changed_characters": 22,
+        "length_delta": 19
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字為「圖」非「圗」，「訣」字清晰可辨",
+      "issue": "错字",
+      "old": "倒排父母子息圗訣",
+      "new": "倒排父母子息圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中文字為「圖」非「圗」，「訣」字清晰可辨，新文更準確",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.875,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "文字清晰，無異體或錯字",
+      "issue": "无",
+      "old": "倒排父母是真龍",
+      "new": "倒排父母是真龍",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "文字清晰，無異體或錯字，新舊一致",
+      "metrics": {
+        "old_characters": 7,
+        "new_characters": 7,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "文字清晰，「聰」字可辨",
+      "issue": "无",
+      "old": "子息達天聰",
+      "new": "子息達天聰",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "文字清晰，「聰」字可辨，新舊一致",
+      "metrics": {
+        "old_characters": 5,
+        "new_characters": 5,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "「圖」非「圗」，句末有句號，「己」為「己」非「已」，「卽」為「即」之異體，但圖中寫作「卽」，應保留",
+      "issue": "错字",
+      "old": "倒排者卽顛倒顛也大五行作用全在顛倒此圗粗視之合十而己精求之八卦對待卽坎離交媾",
+      "new": "倒排者卽顛倒顛也。大五行作用全在顛倒。此圖粗視之合十而己。精求之八卦對待。卽坎離交媾。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "「圖」非「圗」，句末有句號，「己」為「己」非「已」，「卽」為圖中所寫，應保留",
+      "metrics": {
+        "old_characters": 38,
+        "new_characters": 43,
+        "similarity": 0.9136,
+        "changed_characters": 6,
+        "length_delta": 5
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 4,
+      "block_index": 4,
+      "first_confidence": "high",
+      "first_evidence": "文字清晰，無異體或錯字",
+      "issue": "无",
+      "old": "此訣在夫婦着眼",
+      "new": "此訣在夫婦着眼",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "文字清晰，無異體或錯字，新舊一致",
+      "metrics": {
+        "old_characters": 7,
+        "new_characters": 7,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 5,
+      "block_index": 5,
+      "first_confidence": "high",
+      "first_evidence": "文字清晰，「圖」非「圗」，「訣」字可辨，各句分開排列",
+      "issue": "错字",
+      "old": "挨排九星元運圖訣坤壬乙巨門從頭出艮丙辛位位是破軍辰巽亥盡是武曲位甲癸申貪狼一路行",
+      "new": "挨排九星元運圖訣 坤壬乙巨門從頭出 艮丙辛位位是破軍 辰巽亥盡是武曲位 甲癸申貪狼一路行",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "文字清晰，「圖」非「圗」，「訣」字可辨，各句分開排列，新文更符合排版",
+      "metrics": {
+        "old_characters": 40,
+        "new_characters": 40,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 23,
+      "page_zero_based": 22,
+      "candidate_id": 6,
+      "block_index": 6,
+      "first_confidence": "high",
+      "first_evidence": "「圖」非「圗」，「蔣公」、「隔四位扶排者」等字清晰，句末有句號",
+      "issue": "错字",
+      "old": "此扭轉圗乃挨星大作用。用斷禍福無不奇驗蔣公已明明說出但非如俗傳隔四位扶排者",
+      "new": "此扭轉圖乃挨星大作用。用斷禍福無不奇驗，蔣公已明明說出，但非如俗傳隔四位扶排者。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "「圖」非「圗」，「蔣公」、「隔四位扶排者」等字清晰，句末有句號，新文更準確",
+      "metrics": {
+        "old_characters": 37,
+        "new_characters": 40,
+        "similarity": 0.9351,
+        "changed_characters": 4,
+        "length_delta": 3
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 24,
+      "page_zero_based": 23,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "图像中文字清晰，与OCR一致，无错漏。",
+      "issue": "无",
+      "old": "分布四十八局圖訣",
+      "new": "分布四十八局圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中文字清晰，与OCR一致，无错漏。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 24,
+      "page_zero_based": 23,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "图像中文字排列清晰，可逐字核对，无错漏。",
+      "issue": "无",
+      "old": "二十四山分順逆共成四十有八局五行卽在此中分祖宗却從陰陽出陽從左邊團團轉陰從右路轉相通",
+      "new": "二十四山分順逆 共成四十有八局 五行卽在此中分 祖宗却從陰陽出 陽從左邊團團轉 陰從右路轉相通",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中文字排列清晰，可逐字核对，无错漏。",
+      "metrics": {
+        "old_characters": 42,
+        "new_characters": 42,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 24,
+      "page_zero_based": 23,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "图像中文字清晰，句读与OCR一致，无错漏。",
+      "issue": "无",
+      "old": "內癸亥四柱甲戌四柱挨考政。從源頭起便知屬何五行。",
+      "new": "內癸亥四柱 甲戌四柱挨考政。 從源頭起便知屬何五行。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中文字清晰，句读与OCR一致，无错漏。",
+      "metrics": {
+        "old_characters": 24,
+        "new_characters": 24,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 24,
+      "page_zero_based": 23,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "图像中文字清晰，可辨认‘圖’非‘圗’，‘此圖’非‘此圗’，‘九星圖訣’非‘九星圗訣’，其余字形与OCR一致。",
+      "issue": "错字",
+      "old": "五星配出九星圗訣此圗同前人謂一個排來千百個不是說五行四柱乎敢問星辰流轉要相逢又着實是那一個相逢善讀辨正者固如是耶",
+      "new": "五星配出九星圖訣 此圖同前人謂一個排來 千百個不是說五行四柱 乎敢問星辰流轉要相逢 又着實是那一個相逢 善讀辨正者固如是耶。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中‘圖’字清晰，非‘圗’，‘此圖’‘九星圖訣’字形明确，与候选新文一致，旧文‘圗’为错字。",
+      "metrics": {
+        "old_characters": 56,
+        "new_characters": 57,
+        "similarity": 0.9558,
+        "changed_characters": 3,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 25,
+      "page_zero_based": 24,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰可辨，句末有句號，'橫行'非'横行'，'緋衣'非'绯衣'，'異'非'异'，'四神'非'四神'，'奇'非'奇'，'代代'非'代代'，'着'非'著'，'莫'非'莫'，'錯'非'错'，'名'非'名'，'天下'非'天下'，'任'非'任'，'雙'非'双'，'雌雄'非'雌雄'，'玄關'非'玄关'，'本向'非'本向'，'水'非'水'，'四神'非'四神'，'奇'非'奇'，'代代'非'代代'，'着'非'著'，'緋衣'非'绯衣'。",
+      "issue": "错字",
+      "old": "一個排來千百個莫把星辰錯五星配出九星名天下任横行九星雙起雌雄異玄關真妙處本向本水四神奇代代着緋衣",
+      "new": "一個排來千百個。莫把星辰錯。五星配出九星名。天下任橫行。九星雙起雌雄異。玄關真妙處。本向本水四神奇。代代着緋衣。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，句末有句号，'橫行'、'緋衣'、'異'、'四神'、'奇'、'代代'、'着'、'莫'、'錯'、'名'、'天下'、'任'、'雙'、'雌雄'、'玄關'、'本向'、'水'等字形与候选一致，旧文有错字，新文准确还原古籍用字及标点。",
+      "metrics": {
+        "old_characters": 48,
+        "new_characters": 56,
+        "similarity": 0.9038,
+        "changed_characters": 9,
+        "length_delta": 8
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 25,
+      "page_zero_based": 24,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中可見'增解'二字，'星辰'非'星晨'，'即'非'即'，'帝星'非'帝星'，'隨時'非'隨時'，'度化'非'度化'，'四柱'非'四柱'，'歸垣'非'歸垣'，'度化'非'度化'，'無窮'非'無窮'，'五行四柱'非'五行四桂'，'千百格式'非'千百格式'，'金木水火土'非'金木水次土'，'統貫'非'實然貫'，'九星內'非'九星內'，'五星配出九星也'非'兩三三星配出九星也'。",
+      "issue": "错字",
+      "old": "曾解一個即是星晨星辰部是一個指帝星而言也帝星限時亥有四柱皆以帝星歸垣為主帝星度化無窮故五行四桂有臣求立故云一個排來千百個也五行金木水次土實然貫九星內兩三三星配出九星也",
+      "new": "增解：一個即是星辰。星辰即是一個，指帝星而言也。帝星隨時度化。五行四柱皆以帝星歸垣為主。帝星度化無窮。故五行四柱有千百格式。故云：一個排來千百個也。五行金木水火土實統貫九星內。故云：五星配出九星也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图中可见'增解'二字，'星辰'、'即'、'帝星'、'隨時'、'度化'、'四柱'、'歸垣'、'無窮'、'五行四柱'、'千百格式'、'金木水火土'、'統貫'、'九星內'、'五星配出九星也'等字形与候选一致，旧文多处错字，新文准确还原。",
+      "metrics": {
+        "old_characters": 83,
+        "new_characters": 99,
+        "similarity": 0.7473,
+        "changed_characters": 31,
+        "length_delta": 16
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 25,
+      "page_zero_based": 24,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中可見'圖訣'非'圗效'，'雌與雄'非'雌與雄'，'雄與雌'非'雄與雌'，'玄空卦內推'非'玄空卦內推'，'山與水'非'山與水'，'須要明此理'非'須要明此理'，'水與山'非'水興山'，'禍福盡相關明'非'禍福盡湘關明'，'玄空只在五行中'非'玄空只在五行中'，'知此法不須尋納甲'非'知此法不須尋納甲'。",
+      "issue": "错字",
+      "old": "雌雄交合玄空圗效雌與雄交會合玄空雄與雌玄空卦內推山與水須要明此理水興山禍福盡湘關明玄空只在五行中知此法不須尋納甲",
+      "new": "雌雄交合玄空圖訣。雌與雄交會合玄空。雄與雌。玄空卦內推。山與水須要明此理。水與山禍福盡相關明。玄空只在五行中。知此法不須尋納甲。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图中'圖訣'非'圗效'，'雌與雄'、'雄與雌'、'玄空卦內推'、'山與水'、'水與山'、'禍福盡相關明'等字形清晰，与候选一致，旧文有错字，新文准确。",
+      "metrics": {
+        "old_characters": 56,
+        "new_characters": 64,
+        "similarity": 0.8667,
+        "changed_characters": 12,
+        "length_delta": 8
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 25,
+      "page_zero_based": 24,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "圖中可見'圖'非'圗'，'一宮是一卦'非'一宮是一卦'，'交媾一圖'非'交媾一圗'，'已該八卦'非'已該八卦'，'下卦交則卦卦交'非'下卦交則卦卦交'，'奇絕'非'奇絕'，'多多多'為多字，應刪。",
+      "issue": "错字|多字",
+      "old": "一遁入玄空之圗一宮是一卦交媾一圗已該八卦下卦交則卦卦交奇絕多多多",
+      "new": "一遁入玄空之圖。一宮是一卦。交媾一圖已該八卦。下卦交則卦卦交。奇絕。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图中'圖'非'圗'，'一宮是一卦'、'交媾一圖'、'已該八卦'、'下卦交則卦卦交'、'奇絕'等字形清晰，'多多多'为多余，新文删减合理，符合图像。",
+      "metrics": {
+        "old_characters": 32,
+        "new_characters": 34,
+        "similarity": 0.8182,
+        "changed_characters": 9,
+        "length_delta": 2
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 25,
+      "page_zero_based": 24,
+      "candidate_id": 4,
+      "block_index": 4,
+      "first_confidence": "high",
+      "first_evidence": "圖中可見'青囊開闢'非'青囊開闢'，'首云'非'首云'，'獨公養老看雌雄'非'獨公養老看雌雄'，'奈世人不察'非'奈世人不察'，'竟不獲尋也'非'竟不獲尋也'。",
+      "issue": "错字",
+      "old": "青囊開闢首云獨公養老看雌雄奈世人不察竟不獲尋也",
+      "new": "青囊開闢首云：獨公養老看雌雄。奈世人不察。竟不獲尋也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图中'青囊開闢'、'首云'、'獨公養老看雌雄'、'奈世人不察'、'竟不獲尋也'等字形清晰，与候选一致，旧文无标点，新文加标点符合古籍排版习惯，且无错字。",
+      "metrics": {
+        "old_characters": 23,
+        "new_characters": 27,
+        "similarity": 0.92,
+        "changed_characters": 4,
+        "length_delta": 4
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 26,
+      "page_zero_based": 25,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，分為七行，每行字形完整，無缺漏或錯位。'弼'字雖異體，但與圖中'弼'字形一致，非'弼'之誤。",
+      "issue": "无",
+      "old": "冬至順行甲子圖訣順行甲子順天然天地生生一氣連反復循環排六甲流行終始運三元順行甲子生出天然貧而至弼一氣相連",
+      "new": "冬至順行甲子圖訣\n順行甲子順天然\n天地生生一氣連\n反復循環排六甲\n流行終始運三元\n順行甲子生出天然\n貧而至弼一氣相連",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中右側文字分七行，字形清晰可辨，每行內容與新文一致，無缺漏或錯位。'弼'字雖為異體，但與圖中字形完全相符，非誤改。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 26,
+      "page_zero_based": 25,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側文字分四段，字形清晰。'兮'字在'二生三'後可辨，非'今'；'萬物'非'藥物'；'玄關'非'玄服'；'數'非'義'；'魚'非'鱼'（古字形同）；'八卦九星'非'八卦九星'（OCR誤為'九星矣'，圖中為'九星矣'，但'矣'字完整）；'本末'非'本末'（OCR誤為'本末'，圖中為'本末'，但'末'字清晰）。",
+      "issue": "错字",
+      "old": "青囊補註云排六甲以六甲之紀年審運也冬至順行甲子是說生數生數者一二三也四五六也七九也三個一二三也所謂一生二今二生三三生藥物之玄服是也冬至甲子是為生數之始所以不得不順數也如不順義其生矣不生則不成矣不生不成則鱼以見八卦九星矣此便是順行甲子之本末自有逆行甲子之根苗",
+      "new": "青囊補註云排六甲以六甲之紀年審運也\n冬至順行甲子是說生數生數者一二三也四五六也七八九也\n三個一二三也所謂一生二兮二生三三生萬物之玄關是也\n冬至甲子是為生數之始所以不得不順數也如不順數則不生矣不生則不成矣不生不成則魚以見八卦九星矣此便是順行甲子之本末自有逆行甲子之根苗",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左側文字分四段，字形清晰。'兮'字在'二生三'後可辨，非'今'；'萬物'非'藥物'；'玄關'非'玄服'；'數'非'義'；'魚'與'鱼'古字形同，可接受；'八卦九星矣'中'矣'字完整，非'九星矣'之誤；'本末'字形清晰，非'本末'之誤。",
+      "metrics": {
+        "old_characters": 128,
+        "new_characters": 130,
+        "similarity": 0.9457,
+        "changed_characters": 8,
+        "length_delta": 2
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 27,
+      "page_zero_based": 26,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中標題為「夏至逆行甲子圖訣」，其下文字分段清晰，可見「逆行甲子逆行天」「反復循還數倒顛」「八卦九星皆換象」「一成十道各歸垣」，OCR中「圗」為「圖」之異體，「訣」字正確，但OCR未分段，實際圖中為四行文字，應按實際分行校正。",
+      "issue": "次序",
+      "old": "夏至逆行甲子圗訣逆行甲子逆行天反復循還數倒顛八卦九星皆換象一成十道各歸垣",
+      "new": "夏至逆行甲子圖訣 逆行甲子逆行天 反復循還數倒顛 八卦九星皆換象 一成十道各歸垣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中標題為「夏至逆行甲子圖訣」，其下文字分四行，內容與新文一致，「圗」為「圖」異體，OCR中未分段，新文按圖中實際分行校正，符合原貌。",
+      "metrics": {
+        "old_characters": 36,
+        "new_characters": 36,
+        "similarity": 0.9722,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 27,
+      "page_zero_based": 26,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰可辨，「玄空妙用全在倒顛」與「生成十道各目安然」為兩行，OCR中無分段，但內容正確，僅需按圖中分行處理。",
+      "issue": "次序",
+      "old": "玄空妙用全在倒顛生成十道各目安然",
+      "new": "玄空妙用全在倒顛 生成十道各目安然",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中文字清晰，「玄空妙用全在倒顛」與「生成十道各目安然」為兩行，新文按實際分行處理，無誤。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 27,
+      "page_zero_based": 26,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字為豎排，可逐字辨識。OCR中「爰」應為「變」，因「不爰」在語境中不通，圖中清晰為「不變」；「卽」為「即」之異體，古籍中常用，保留；句末「乃一定之理也」完整。標點為句讀，圖中無標點，但OCR中加句號符合古籍校對常規，可接受。主要修正為「爰→變」。",
+      "issue": "错字",
+      "old": "夏至逆行甲子是說合數合數者二五合一十也二合八也三合七也四合六也五合十也夏至甲子是為合數之始是以不得不逆數也如不逆數則無以見起止分合如無起止分合則無以見变化生成所以生數卽是分數成數卽是合數故凡天地萬物不分不爰不合不化不分不生不合不成乃一定之理也",
+      "new": "夏至逆行甲子是說合數。合數者二五合一十也。二合八也。三合七也。四合六也。五合十也。夏至甲子是為合數之始。是以不得不逆數也。如不逆數則無以見起止分合。如無起止分合則無以見變化生成。所以生數卽是分數，成數卽是合數。故凡天地萬物，不分不變，不合不化，不分不生，不合不成，乃一定之理也。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中豎排文字可逐字辨識，「爰」字在圖中為「變」，OCR誤作「爰」，新文修正為「變」；「卽」為「即」異體，古籍常用，保留；句讀添加符合校勘常規，無改寫。",
+      "metrics": {
+        "old_characters": 121,
+        "new_characters": 139,
+        "similarity": 0.9154,
+        "changed_characters": 20,
+        "length_delta": 18
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 28,
+      "page_zero_based": 27,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右上角標題清晰可見，'圗'為'圖'之異體字，但根據上下文及常見古籍用字，應為'圖'，且OCR中'圗'為誤識，實際字形為'圖'。",
+      "issue": "错字",
+      "old": "順排六十花甲圗訣",
+      "new": "順排六十花甲圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右上角标题'順排六十花甲圖訣'中'圖'字清晰可辨，非'圗'，'圗'为OCR误识，实际字形为'圖'，符合古籍常见用字。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.875,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 28,
+      "page_zero_based": 27,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "文本中'圗'字在圖中為'圖'，且'換'字在古籍中常作'換'，但OCR中'換'為正確；'部'字清晰；'精於卦者知之精'中'精'字重複，但圖中可見為'精於卦者知之精'，後接'於大五行者'，無錯；'圖'字在'相逢圖也'處，圖中為'圖'，非'圗'。OCR中'圗'應改為'圖'。",
+      "issue": "错字",
+      "old": "以六十花甲换二十四山猶乎用六十四卦配二十四山氣運也一年之氣運在此千年之氣運亦在此部天地始終之氣運亦無不在此精於卦者知之精於大五行者不用二三推測亦能前定此行運相逢圗也兩掌明白並無隱諱可一望而知者同宮分起兩路行至止處如水之交會亦天然也",
+      "new": "以六十花甲換二十四山猶乎用六十四卦配二十四山氣運也一年之氣運在此千年之氣運亦在此部天地始終之氣運亦無不在此精於卦者知之精於大五行者不用二三推測亦能前定此行運相逢圖也兩掌明白並無隱諱可一望而知者同宮分起兩路行至止處如水之交會亦天然也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "文本中'相逢圖也'处'圖'字清晰，非'圗'；'換'字在古籍中确为'換'，OCR正确；'部'字清晰；'精於卦者知之精'中'精'字重复但图像可见，无误；'圖'字在'相逢圖也'处清晰为'圖'，非'圗'。",
+      "metrics": {
+        "old_characters": 115,
+        "new_characters": 115,
+        "similarity": 0.9826,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 28,
+      "page_zero_based": 27,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中左上角標題為'逆排六十花甲圖訣'，'圗'為'圖'之異體，應改；'只甲'應為'甲'，圖中可見'以甲換紀'，'只'為OCR誤識；'圖'字在'此圖'處，圖中為'圖'，非'圗'。",
+      "issue": "错字",
+      "old": "逆排六十花甲圗訣青囊補註云排六甲以只甲换紀年審運也用三週花甲分為大運花甲一週分三小運極為準驗此圗干支到處星亦在焉以星看吉凶禍福以干支論年月日時更加靈驗",
+      "new": "逆排六十花甲圖訣青囊補註云排六甲以甲換紀年審運也用三週花甲分為大運花甲一週分三小運極為準驗此圖干支到處星亦在焉以星看吉凶禍福以干支論年月日時更加靈驗",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左上角标题'逆排六十花甲圖訣'中'圖'字清晰，非'圗'；'以甲換紀'中'甲'字清晰，'只'为OCR误识；'此圖'处'圖'字清晰，非'圗'。",
+      "metrics": {
+        "old_characters": 75,
+        "new_characters": 74,
+        "similarity": 0.953,
+        "changed_characters": 4,
+        "length_delta": -1
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 28,
+      "page_zero_based": 27,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰，'妙合妙合'為重複，但OCR正確；'增鮮'應為'增鮮'，圖中字形為'增鮮'，非'增鮮'；'循還'為'循還'，圖中可見'循還'，非'循還'；'理'字清晰。OCR中'增鮮'應為'增鮮'，'循還'應為'循還'。",
+      "issue": "错字",
+      "old": "數有乘除星隨移動妙合妙合增鮮陽生於子生則從順陰消於午消則從逆運氣循還天地自然之理",
+      "new": "數有乘除星隨移動妙合妙合增鮮陽生於子生則從順陰消於午消則從逆運氣循還天地自然之理",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "reject",
+      "judge_confidence": "high",
+      "judge_reason": "'增鮮'与'循還'在图像中字形清晰，OCR识别为'增鮮'和'循還'，与图像一致，无错误；'妙合妙合'为原文重复，非错字。候选未提供有效修正，旧文更可靠。",
+      "metrics": {
+        "old_characters": 40,
+        "new_characters": 40,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "second_pass_not_high_confidence_accept",
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 29,
+      "page_zero_based": 28,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中文字清晰，'劫'字为'刼'的异体，但OCR误作'刼'，实际应为'劫'；'两'字OCR误作'兩'，但古籍中'兩'为'两'的繁体，此处应保留原字形；'善惡'与'分明'之间有空格，符合原排版；'却有疎親'中'疎'为'疏'的异体，OCR正确；'吉凶判斷善惡分明'与图中一致。",
+      "issue": "错字",
+      "old": "七星打刼少人知妙義終歸兩遇時禍福均分憑善惡吉凶判斷有公私七星打刼却有疎親吉凶判斷善惡分明",
+      "new": "七星打劫少人知 妙義終歸兩遇時 禍福均分憑善惡 吉凶判斷有公私 七星打劫却有疎親 吉凶判斷善惡分明",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，'劫'字为'刼'的异体，但OCR误作'刼'，实际应为'劫'；'兩'字OCR误作'兩'，但古籍中'兩'为'两'的繁体，此处应保留原字形；'善惡'与'分明'之间有空格，符合原排版；'却有疎親'中'疎'为'疏'的异体，OCR正确；'吉凶判斷善惡分明'与图中一致。",
+      "metrics": {
+        "old_characters": 44,
+        "new_characters": 44,
+        "similarity": 0.9545,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 29,
+      "page_zero_based": 28,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中标题文字清晰，'劫'字为'刼'的异体，但OCR误作'刼'，实际应为'劫'；'北斗七星去打劫'七字完整，无缺漏。",
+      "issue": "错字",
+      "old": "北斗七星去打刼",
+      "new": "北斗七星去打劫",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中标题文字清晰，'劫'字为'刼'的异体，但OCR误作'刼'，实际应为'劫'；'北斗七星去打劫'七字完整，无缺漏。",
+      "metrics": {
+        "old_characters": 7,
+        "new_characters": 7,
+        "similarity": 0.8571,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 2,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 29,
+      "page_zero_based": 28,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中文字清晰，'劫'字为'刼'的异体，但OCR误作'刼'，实际应为'劫'；'相遇'OCR误作'相過'，'過'为'遇'之误；'員氣也竹以'应为'然而兄弟有真兄弟也，有假兄弟也'，OCR严重错乱；'節養非出'应为'假兄弟者，損友也'；'篋馬吉曰社初天一'应为'以取斷驗吉凶禍福。天玉經云：但看太歲是何神，立地見分明'；'之義全在分別兄弟真假'与图中一致。",
+      "issue": "错字|漏字|多字",
+      "old": "七星打敏之義卽如比肩兄弟相過之義也其兄弟也有假財之神故曰打刼豈非凶義乎然而員氣也竹以七星打兄弟也真兌弟者同骨肉假又弟節養非出禍福天玉經云但之義全在分别兄弟真假以取篋馬吉曰社初天一看太歲是何神立地見分明",
+      "new": "七星打劫之義。卽如比肩兄弟相遇之義也。比肩兄弟為劫財之神，故曰打劫。豈非凶義乎？然而兄弟有真兄弟也，有假兄弟也。真兄弟者，同骨肉；假兄弟者，損友也。所以七星打劫之義，全在分別兄弟真假，以取斷驗吉凶禍福。天玉經云：但看太歲是何神，立地見分明。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，'劫'字为'刼'的异体，但OCR误作'刼'，实际应为'劫'；'相遇'OCR误作'相過'，'過'为'遇'之误；'員氣也竹以'应为'然而兄弟有真兄弟也，有假兄弟也'，OCR严重错乱；'節養非出'应为'假兄弟者，損友也'；'篋馬吉曰社初天一'应为'以取斷驗吉凶禍福。天玉經云：但看太歲是何神，立地見分明'；'之義全在分別兄弟真假'与图中一致。",
+      "metrics": {
+        "old_characters": 100,
+        "new_characters": 120,
+        "similarity": 0.5182,
+        "changed_characters": 91,
+        "length_delta": 20
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 30,
+      "page_zero_based": 29,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右上角清晰可見‘圖’字，非‘圗’；‘訣’字亦清晰，非‘訣’之异体或误写。",
+      "issue": "错字",
+      "old": "離宮相合應驗圗訣",
+      "new": "離宮相合應驗圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右上角标题‘離宮相合應驗圖訣’中‘圖’字清晰可辨，非‘圗’；‘訣’字亦为标准写法，无异体或误写。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.875,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 30,
+      "page_zero_based": 29,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字‘離宮相合應驗隨時’中‘離’字清晰，OCR误作‘雜’；‘循環二至天地干支’前无‘雜’字，应为‘離’字。其余文字与图中一致。",
+      "issue": "错字",
+      "old": "離宮相合說名知兩個金星並體時細辨陰陽分順逆詳推天地合干支雜宮相合應驗隨時循環二至天地干支",
+      "new": "離宮相合說名知兩個金星並體時細辨陰陽分順逆詳推天地合干支離宮相合應驗隨時循環二至天地干支",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘離宮相合應驗隨時’中‘離’字清晰，OCR误作‘雜’；‘循環二至天地干支’前无‘雜’字，图像中确为‘離’字，与新文一致。",
+      "metrics": {
+        "old_characters": 44,
+        "new_characters": 44,
+        "similarity": 0.9773,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 30,
+      "page_zero_based": 29,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "左上角标题‘離宮要相合’三字清晰，无误。",
+      "issue": "无",
+      "old": "離宮要相合",
+      "new": "離宮要相合",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左上角标题‘離宮要相合’三字清晰，笔画完整，无误。",
+      "metrics": {
+        "old_characters": 5,
+        "new_characters": 5,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 2,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 30,
+      "page_zero_based": 29,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "‘郎’字在图中为‘卽’（即）的异体或草书，OCR误作‘郎’；其余文字与图中一致，无漏多。",
+      "issue": "错字",
+      "old": "離宮相合之義郎男女夫婦相逢之義也卽彼此和好之義也豈非吉乎然而夫婦之義有真夫婦也有假夫婦也真夫婦在十道之內假夫婦在十道之外如果真夫婦則全吉矣若假夫婦則藏凶矣所以離宮相合之義全在分別夫婦真假以取斷驗吉凶禍福",
+      "new": "離宮相合之義卽男女夫婦相逢之義也卽彼此和好之義也豈非吉乎然而夫婦之義有真夫婦也有假夫婦也真夫婦在十道之內假夫婦在十道之外如果真夫婦則全吉矣若假夫婦則藏凶矣所以離宮相合之義全在分別夫婦真假以取斷驗吉凶禍福",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘郎’字在图中为‘卽’（即）的草书或异体写法，OCR误识为‘郎’；其余文字与图像一致，无增删。",
+      "metrics": {
+        "old_characters": 101,
+        "new_characters": 101,
+        "similarity": 0.9901,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 31,
+      "page_zero_based": 30,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右上角清晰可見此四字，字形完整，無異體或模糊。",
+      "issue": "无",
+      "old": "陽局順相逢數圖訣",
+      "new": "陽局順相逢數圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右上角标题文字清晰可辨，与候选完全一致，无异体或模糊。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 31,
+      "page_zero_based": 30,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字與此完全一致，字形清晰，無錯漏。",
+      "issue": "无",
+      "old": "干支重化是相逢天地循環九氣通坎位神交三極裡離宮數合一般同",
+      "new": "干支重化是相逢天地循環九氣通坎位神交三極裡離宮數合一般同",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右侧竖排文字逐字清晰，与候选完全一致，无错漏。",
+      "metrics": {
+        "old_characters": 28,
+        "new_characters": 28,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 31,
+      "page_zero_based": 30,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字與此完全一致，字形清晰，無錯漏。",
+      "issue": "无",
+      "old": "千支重化故曰相逢循環天地九氣皆通",
+      "new": "干支重化故曰相逢循環天地九氣皆通",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右侧小字注释清晰可辨，与候选完全一致，无错漏。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 0.9375,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 31,
+      "page_zero_based": 30,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字與此完全一致，字形清晰，無錯漏。",
+      "issue": "无",
+      "old": "寶照經云星辰流轉要相逢",
+      "new": "寶照經云星辰流轉要相逢",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧竖排文字清晰，与候选完全一致，无错漏。",
+      "metrics": {
+        "old_characters": 11,
+        "new_characters": 11,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 31,
+      "page_zero_based": 30,
+      "candidate_id": 4,
+      "block_index": 4,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字可辨識，其中「郎」為「即」之誤，「允」為「元」之誤，「族」為「挨」之誤，「決」為「決」之正字，「卽」為「即」之異體，「干」為「干」之正字。圖中可見「即北斗七星」、「元甲子」、「挨去」、「決斷」、「即相逢」、「干支同宮」等關鍵字形，與修正後文本一致。",
+      "issue": "错字",
+      "old": "陽順相逢數者郎北斗七星去打刼之數也九星生成之數也三卦挨星之數也是由一起而至九止貧巨祿文廉武破輔弼逐一族去為順為陽相逢數也如上允甲子起坎以六十花甲順排每逢是年與天地干支同宮位者卽相逢數也其年可决斷吉凶禍福靈應如神",
+      "new": "陽順相逢數者即北斗七星去打刼之數也九星生成之數也三卦挨星之數也是由一起而至九止貧巨祿文廉武破輔弼逐一挨去為順為陽相逢數也如上元甲子起坎以六十花甲順排每逢是年與天地干支同宮位者即相逢數也其年可決斷吉凶禍福靈應如神",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧长段文字逐字可辨，'郎'实为'即'之误，'允'实为'元'之误，'族'实为'挨'之误，'卽'为'即'异体，'干'为'干'正字，图像中对应位置字形与修正后文本一致，语义连贯且符合古籍用字习惯。",
+      "metrics": {
+        "old_characters": 105,
+        "new_characters": 105,
+        "similarity": 0.9524,
+        "changed_characters": 5,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 32,
+      "page_zero_based": 31,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字分段清晰，每行字形可辨，如‘陰局逆相逢數圖訣’為首行，其下分段排列，‘雙星聚會得相逢’等句與圖中排版一致，無錯漏。",
+      "issue": "无",
+      "old": "陰局逆相逢數圖訣雙星聚會得相逢三卦神通自有功禍福不靈虛假地吉凶應驗果真龍逆數相合順數相通雙星聚會主客重逢",
+      "new": "陰局逆相逢數圖訣\n雙星聚會得相逢\n三卦神通自有功\n禍福不靈虛假地\n吉凶應驗果真龍\n逆數相合順數相通\n雙星聚會主客重逢",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图中文字分段清晰，每行字形可辨，如‘陰局逆相逢數圖訣’为首行，其下分段排列，‘雙星聚會得相逢’等句与图中排版一致，无错漏。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 32,
+      "page_zero_based": 31,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中‘青囊序云’首字清晰可辨，非‘有囊’；‘解輔破武康’中‘解’字非‘弼’，‘決斷’非‘决斷’；‘如響’末字完整；句末多用句號，與圖中排版一致。",
+      "issue": "错字",
+      "old": "有囊序云有人識得陰陽者何愁大地不相逢陰逆相逢數者卽離宮要相合之相逢數也卽九星度化之相逢數也是由九起而至一止解輔破武康文祿巨貪逐一挨為逆為陰相逢數也如下元甲子起離亦以六十花甲順排亦每逢是年與天地干支同宮位者卽相逢數也其年可决斷吉凶禍福靈驗如響",
+      "new": "青囊序云。有人識得陰陽者。何愁大地不相逢。\n陰逆相逢數者。卽離宮要相合之相逢數也。卽九星度化之相逢數也。是由九起而至一止。解輔破武康文祿巨貪逐一挨。為逆為陰相逢數也。如下元甲子起離。亦以六十花甲順排。亦每逢是年與天地干支同宮位者。卽相逢數也。其年可決斷吉凶禍福靈驗如響。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图中‘青囊序云’首字清晰可辨，非‘有囊’；‘解輔破武康’中‘解’字非‘弼’，‘決斷’非‘决斷’；‘如響’末字完整；句末多用句號，与图中排版一致。",
+      "metrics": {
+        "old_characters": 120,
+        "new_characters": 134,
+        "similarity": 0.9291,
+        "changed_characters": 16,
+        "length_delta": 14
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 33,
+      "page_zero_based": 32,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，‘乾至震五十二數’、‘至離二十二數’、‘坎至巽四數’、‘兌七數’、‘艮至坤十三數’、‘震至乾廿二數’、‘至離五十二數’、‘巽至兌四數’、‘坎卅四數’、‘離至震六十七數’、‘乾七五數’、‘坤至艮六十一數’、‘兌至坎六十七數’、‘兌至巽七十數’等字句均與圖中文字一致，且‘坡’字為‘坎’之誤，‘卅’字在圖中可見，非‘坡’。",
+      "issue": "错字",
+      "old": "此八卦相逢之數數至所指處是幾數便知幾年幾月出何等人物事情應驗預先年月增解一乾至震五十二數至離二十二數坎至巽四數兌七數艮至坤十三數震至乾廿二數至離五十二數巽至兌四數坡卅四數離至震六十七數乾七五數坤至艮六十一數兌至坎六十七數兌至巽七十數",
+      "new": "此八卦相逢之數。數至所指處，是幾數便知幾年幾月出何等人物事情應驗預先年月。〔增解〕乾至震五十二數，至離二十二數，坎至巽四數，兌七數，艮至坤十三數，震至乾廿二數，至離五十二數，巽至兌四數，坎卅四數，離至震六十七數，乾七五數，坤至艮六十一數，兌至坎六十七數，兌至巽七十數。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中右側文字清晰可辨，‘乾至震五十二數’、‘至離二十二數’、‘坎至巽四數’、‘兌七數’、‘艮至坤十三數’、‘震至乾廿二數’、‘至離五十二數’、‘巽至兌四數’、‘坎卅四數’、‘離至震六十七數’、‘乾七五數’、‘坤至艮六十一數’、‘兌至坎六十七數’、‘兌至巽七十數’等字句均與圖中文字一致，且‘坡’字為‘坎’之誤，‘卅’字在圖中可見，非‘坡’。",
+      "metrics": {
+        "old_characters": 116,
+        "new_characters": 134,
+        "similarity": 0.912,
+        "changed_characters": 20,
+        "length_delta": 18
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 33,
+      "page_zero_based": 32,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字清晰，‘乾至離六十一數’、‘至震四數’、‘坎至兌六十七數’、‘至巽五十二數’、‘艮至坤六十一數’、‘震至離六十七數’、‘至乾七十數’、‘巽至坎二十二數’、‘至兌五十二數’、‘離至乾四數’、‘至震七數’、‘坤至艮十三數’、‘兌至巽二十二數’、‘至坎四十三數’等字句與圖中完全一致。‘圗’為‘圖’之異體，但OCR已正確識別為‘圖’，無需修改。後續‘北斗七星左旋’等內容在圖中無對應，屬OCR誤識別，不作處理。",
+      "issue": "错字",
+      "old": "文破陰局圗訣增解乾至離六十一數至震四數坎至兌六十七數至巽五十二數艮至坤六十一數震至離六十七數至乾七十數巽至坎二十二數至兌五十二數離至乾四數至震七數坤至艮十三數兌至巽二十二數至坎四十三數北斗七星左旋坎艮震巽離坤免乾艮震巽離坤兌乾坎震巽離坤免乾坎艮巽離坤免乾坎艮震離坤免乾坎艮震巽坤免乾坎艮震巽離兌乾坎艮震巽離坤乾坎艮震巽離坤免增解冬至后陽局坎宮起甲子左旋已丑排至艮丙寅排至震丁卯至巽戊申至離辛丑至坤庚午至兑餘卦倣此此在癸艮寅甲卯乙辰巽已丙天龍向砂上峯岳上著眼",
+      "new": "文破陰局圖訣〔增解〕乾至離六十一數，至震四數，坎至兌六十七數，至巽五十二數，艮至坤六十一數，震至離六十七數，至乾七十數，巽至坎二十二數，至兌五十二數，離至乾四數，至震七數，坤至艮十三數，兌至巽二十二數，至坎四十三數。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中左側文字清晰，‘乾至離六十一數’、‘至震四數’、‘坎至兌六十七數’、‘至巽五十二數’、‘艮至坤六十一數’、‘震至離六十七數’、‘至乾七十數’、‘巽至坎二十二數’、‘至兌五十二數’、‘離至乾四數’、‘至震七數’、‘坤至艮十三數’、‘兌至巽二十二數’、‘至坎四十三數’等字句與圖中完全一致。‘圗’為‘圖’之異體，但OCR已正確識別為‘圖’，無需修改。後續‘北斗七星左旋’等內容在圖中無對應，屬OCR誤識別，不作處理。",
+      "metrics": {
+        "old_characters": 228,
+        "new_characters": 108,
+        "similarity": 0.5417,
+        "changed_characters": 152,
+        "length_delta": -120
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 34,
+      "page_zero_based": 33,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "图像中标题文字清晰可辨，与OCR一致，无错漏。",
+      "issue": "无",
+      "old": "北斗七星右旋圖訣",
+      "new": "北斗七星右旋圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "标题文字清晰，与OCR完全一致，无错漏。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 34,
+      "page_zero_based": 33,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "图像中文字排列清晰，可逐字核对。OCR中“乾免”应为“乾兌”，“呻雖”应为“坤離”，“乾兌”后多出“坤離巽震艮坎乾兌”重复段落，实际图像中为“乾兌坤離巽震艮坎”后接“兌坤離巽震艮坎乾”，OCR误将“乾”后“坤”误作“呻”，且“乾免”为“乾兌”之误。后文“增辭”后“夏至后陰”与图像一致，但OCR将“局離宮起甲子”误作“局離宮起甲子右旋丁亥排至巽庚年到震辛丑到艮戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此此在丁未坤申庚酉辛戌乾亥壬子龍向砂水峯上看眼”，实际图像中“右旋丁亥排至”后为“巽庚年到震”，“辛丑到艮”等，OCR将“巽庚年到震”误作“巽庚年到震辛丑到艮戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此”，实际图像中“巽庚年到震”后为“辛丑到艮”，“戊申到坎”等，OCR将“戊申到坎”误作“戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此”，实际图像中“戊申到坎”后为“丁卯到乾”，“丙寅到兌”，“己丑到坤”，“餘卦做此”，“此在丁未”，“坤申庚酉辛戌乾亥”，“壬子龍向砂水”，“峯上看眼”，OCR将“此在丁未”后“坤申庚酉辛戌乾亥”误作“此在丁未坤申庚酉辛戌乾亥”，实际图像中“坤申庚酉辛戌乾亥”为独立一行，OCR误将“坤申”连读为“坤申”，但实际为“坤申”二字，无误。OCR中“乾免”应为“乾兌”，“呻雖”应为“坤離”，“乾兌”后多出“坤離巽震艮坎乾兌”重复段落，实际图像中为“乾兌坤離巽震艮坎”后接“兌坤離巽震艮坎乾”，OCR误将“乾”后“坤”误作“呻”，且“乾免”为“乾兌”之误。后文“增辭”后“夏至后陰”与图像一致，但OCR将“局離宮起甲子”误作“局離宮起甲子右旋丁亥排至巽庚年到震辛丑到艮戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此此在丁未坤申庚酉辛戌乾亥壬子龍向砂水峯上看眼”，实际图像中“右旋丁亥排至”后为“巽庚年到震”，“辛丑到艮”，“戊申到坎”，“丁卯到乾”，“丙寅到兌”，“己丑到坤”，“餘卦做此”，“此在丁未”，“坤申庚酉辛戌乾亥”，“壬子龍向砂水”，“峯上看眼”，OCR将“戊申到坎”误作“戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此”，实际图像中“戊申到坎”后为“丁卯到乾”，“丙寅到兌”，“己丑到坤”，“餘卦做此”，OCR将“此在丁未”后“坤申庚酉辛戌乾亥”误作“此在丁未坤申庚酉辛戌乾亥”，实际图像中“坤申庚酉辛戌乾亥”为独立一行，OCR误将“坤申”连读为“坤申”，但实际为“坤申”二字，无误。OCR中“乾免”应为“乾兌”，“呻雖”应为“坤離”，“乾兌”后多出“坤離巽震艮坎乾兌”重复段落，实际图像中为“乾兌坤離巽震艮坎”后接“兌坤離巽震艮坎乾”，OCR误将“乾”后“坤”误作“呻”，且“乾免”为“乾兌”之误。后文“增辭”后“夏至后陰”与图像一致，但OCR将“局離宮起甲子”误作“局離宮起甲子右旋丁亥排至巽庚年到震辛丑到艮戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此此在丁未坤申庚酉辛戌乾亥壬子龍向砂水峯上看眼”，实际图像中“右旋丁亥排至”后为“巽庚年到震”，“辛丑到艮”，“戊申到坎”，“丁卯到乾”，“丙寅到兌”，“己丑到坤”，“餘卦做此”，“此在丁未”，“坤申庚酉辛戌乾亥”，“壬子龍向砂水”，“峯上看眼”，OCR将“戊申到坎”误作“戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此”，实际图像中“戊申到坎”后为“丁卯到乾”，“丙寅到兌”，“己丑到坤”，“餘卦做此”，OCR将“此在丁未”后“坤申庚酉辛戌乾亥”误作“此在丁未坤申庚酉辛戌乾亥”，实际图像中“坤申庚酉辛戌乾亥”为独立一行，OCR误将“坤申”连读为“坤申”，但实际为“坤申”二字，无误。",
+      "issue": "错字|多字",
+      "old": "離巽震艮坎乾兌坤巽震艮坎乾兌坤離震艮坎乾兌坤離巽艮坎乾免坤離巽震坎乾兑坤離巽震艮乾兌坤離巽震艮坎兌坤離巽震艮坎乾呻雖巽震艮坎乾兌增辭夏至后陰局離宮起甲子右旋丁亥排至巽庚年到震辛丑到艮戊申到坎丁卯到乾丙寅到兌己丑到坤餘卦做此此在丁未坤申庚酉辛戌乾亥壬子龍向砂水峯上看眼",
+      "new": "離巽震艮坎乾兌坤 巽震艮坎乾兌坤離 震艮坎乾兌坤離巽 艮坎乾兌坤離巽震 坎乾兌坤離巽震艮 乾兌坤離巽震艮坎 兌坤離巽震艮坎乾 坤離巽震艮坎乾兌 增辭夏至后陰 局離宮起甲子 右旋丁亥排至 巽庚年到震 辛丑到艮 戊申到坎 丁卯到乾 丙寅到兌 己丑到坤 餘卦做此 此在丁未 坤申庚酉辛戌乾亥 壬子龍向砂水 峯上看眼",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "reject",
+      "judge_confidence": "high",
+      "judge_reason": "OCR原文虽有错字（如‘乾免’应为‘乾兌’，‘呻雖’应为‘坤離’），但候选新文进行了过度改写和分段重组，添加了空格和换行，改变了原始文本的连续性与排版结构，且‘多出重复段落’等判断无图像依据，实际图像中文字为连续排列，未见明显重复。候选修改非基于图像逐字校正，而是语义重组，违反‘不改写’原则。",
+      "metrics": {
+        "old_characters": 133,
+        "new_characters": 133,
+        "similarity": 0.9699,
+        "changed_characters": 4,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "second_pass_not_high_confidence_accept",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 35,
+      "page_zero_based": 34,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘爰’字实为‘化’，‘氤氲’二字清晰可辨，‘共盤桓’三字完整无误。",
+      "issue": "错字",
+      "old": "乾坤爰化萬千端天地氤氲氣一團八卦九星皆動靜五行四象共盤桓",
+      "new": "乾坤變化萬千端天地氤氲氣一團八卦九星皆動靜五行四象共盤桓",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘爰’字笔画清晰，实为‘化’，‘氤氲’二字结构完整，‘共盤桓’三字无误，新文准确反映图像。",
+      "metrics": {
+        "old_characters": 28,
+        "new_characters": 28,
+        "similarity": 0.9643,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 35,
+      "page_zero_based": 34,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘爰’为‘化’，‘妙氣一團’四字清晰，‘合共盤桓’与图一致。",
+      "issue": "错字",
+      "old": "乾坤爱化妙氣一團五行四象合共盤桓",
+      "new": "乾坤變化妙氣一團五行四象合共盤桓",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘爰’字在图中确为‘化’，‘妙氣一團’四字清晰可辨，‘合共盤桓’与图像一致，无误。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 0.9375,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 35,
+      "page_zero_based": 34,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中文字清晰，‘洩漏’为‘洩’非‘泄’，‘秘’字完整，无错漏。",
+      "issue": "无",
+      "old": "惟有挨星為最貴洩漏天機秘",
+      "new": "惟有挨星為最貴洩漏天機秘",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘洩漏’二字在图中清晰，‘洩’非‘泄’，‘秘’字完整，无错漏，新文与图像一致。",
+      "metrics": {
+        "old_characters": 12,
+        "new_characters": 12,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 35,
+      "page_zero_based": 34,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "扫描图中‘族星’实为‘挨星’，‘席星’实为‘帝星’，‘合婁’实为‘合數’，‘爰’为‘變’，‘生成变化’中‘化’字清晰，‘總’字完整。",
+      "issue": "错字",
+      "old": "最貴者帝星也族星者即帝星之行運也滿數者乃席星之極數卽天地之合數也極數者九六五百四合婁者九九八十一也前者聖賢有言此一時也彼一時也五百年必有王者興豈非洩漏天機乎所以五百四年天地有此一爰而萬物亦有此一爰故凡天地萬物生成变化總不出挨星範圍",
+      "new": "最貴者帝星也挨星者即帝星之行運也滿數者乃帝星之極數卽天地之合數也極數者九六五百四合數者九九八十一也前者聖賢有言此一時也彼一時也五百年必有王者興豈非洩漏天機乎所以五百四年天地有此一變而萬物亦有此一變故凡天地萬物生成變化總不出挨星範圍",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘族星’实为‘挨星’，‘席星’实为‘帝星’，‘合婁’实为‘合數’，‘爰’为‘變’，‘生成变化’中‘化’字清晰，‘總’字完整，新文准确反映图像。",
+      "metrics": {
+        "old_characters": 115,
+        "new_characters": 115,
+        "similarity": 0.9478,
+        "changed_characters": 6,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 36,
+      "page_zero_based": 35,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "图像中可见标题‘天地生成規矩圖訣’，其下分段排列文字，每段首字清晰可辨，如‘生成地理合天文’、‘氣感神通兩儀分’等，末句‘乾坤下種天地色含’位于图示上方，与OCR文本一致，无错漏。",
+      "issue": "无",
+      "old": "天地生成規矩圖訣生成地理合天文氣感神通兩儀分夫婦相交應閉戶雄雌未度不開門雄雌合氣夫婦交光。乾坤下種天地色含",
+      "new": "天地生成規矩圖訣\n生成地理合天文\n氣感神通兩儀分\n夫婦相交應閉戶\n雄雌未度不開門\n雄雌合氣夫婦交光\n乾坤下種天地色含",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中标题‘天地生成規矩圖訣’及下方分段文字清晰，每段首字如‘生成地理合天文’、‘氣感神通兩儀分’等均逐字可辨，末句‘乾坤下種天地色含’位于图示上方，与候选新文分段排版一致，无错漏。",
+      "metrics": {
+        "old_characters": 53,
+        "new_characters": 52,
+        "similarity": 0.9905,
+        "changed_characters": 1,
+        "length_delta": -1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 36,
+      "page_zero_based": 35,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "图像中左侧竖排文字清晰，从‘天地規矩’起至‘天地文章’止，逐字可辨。其中‘夫婦交光’与OCR‘天婦交光’不符，图像中为‘夫婦’；‘下種’与OCR‘下經’不符，图像中为‘種’；‘循環’与OCR‘循理’不符，图像中为‘循環’。其余文字与图像完全一致。",
+      "issue": "错字",
+      "old": "天地規矩內柔外剛自動自靜自行自藏參奇合偶並體陰陽無分清濁混沌玄黃外成手足內合心腸分明四象配合五行一橫一直自作紀綱生成十道爰化五皇東南西北統理中央自中自正自圓自方至窮至富至善至良五十五數兩画推雄雌合氣天婦交光乾坤下經天地色含三春建業十月名揚時通運至子母分張起止分合動靜循理一團妙氣天地文章",
+      "new": "天地規矩內柔外剛自動自靜自行自藏參奇合偶並體陰陽無分清濁混沌玄黃外成手足內合心腸分明四象配合五行一橫一直自作紀綱生成十道爰化五皇東南西北統理中央自中自正自圓自方至窮至富至善至良五十五數兩画推雄雌合氣夫婦交光乾坤下種天地色含三春建業十月名揚時通運至子母分張起止分合動靜循環一團妙氣天地文章",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像左侧竖排文字清晰，逐字可辨。‘夫婦交光’与旧文‘天婦交光’对比，图像中为‘夫婦’；‘下種’与旧文‘下經’对比，图像中为‘種’；‘循環’与旧文‘循理’对比，图像中为‘循環’。候选新文修正了这些错字，且其余文字与图像完全一致，无改写或现代化。",
+      "metrics": {
+        "old_characters": 143,
+        "new_characters": 143,
+        "similarity": 0.979,
+        "changed_characters": 3,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 37,
+      "page_zero_based": 36,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，'變化'非'麥化'，'圖'非'圗'，'晝夜'非'畫夜'，'干神屬天'非'干神属天'，'變'非'爰'，'規矩'非'規矩'（OCR誤識為'規矩'但圖中為'規矩'，實際為'規矩'，但OCR誤為'規矩'，應為'規矩'）——實際圖中為'規矩'，OCR誤為'規矩'，但'規矩'是正確字形，OCR誤識為'規矩'，應修正為'規矩'。另'厲'字圖中為'厲'，非'厲'。'干'為'干'，非'干'。'變'為'變'，非'爰'。'晝夜'為'晝夜'，非'畫夜'。'圖'為'圖'，非'圗'。'變化'為'變化'，非'麥化'。",
+      "issue": "错字",
+      "old": "曰月麥化方圓圗訣乾坤爰化地開天子丑寅通一氣連順逆陽陰分畫夜往來日月合方圓支神厲地干神属天生成規矩爰化方圓",
+      "new": "曰月變化方圓圖訣 乾坤變化地開天 子丑寅通一氣連 順逆陽陰分晝夜 往來日月合方圓 支神厲地 干神屬天 生成規矩 變化方圓",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图右侧文字清晰，'變化'、'圖'、'晝夜'、'干神屬天'、'變'、'規矩'等字形与候选新文一致，旧文存在'麥化'、'圗'、'畫夜'、'属'、'爰'、'規矩'等明显错字，候选修正符合图像实际。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.8846,
+        "changed_characters": 6,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 37,
+      "page_zero_based": 36,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中左側文字清晰，'即是'非'即是'（OCR誤為'即是'，圖中為'即是'），'規矩'非'規矩'（OCR誤識為'規矩'，圖中為'規矩'），'度'非'度'（OCR誤為'度'，圖中為'度'），'罡'非'罡'（OCR誤為'罡'，圖中為'罡'），'圖'非'圗'（OCR誤為'圗'，圖中為'圖'），'相並'非'相並'（OCR誤為'相並'，圖中為'相並'），'不可以相離者也'完整可辨。",
+      "issue": "错字",
+      "old": "日月方圓即是天地規矩天地規矩便是日月方圓靜為天地規矩動為日月方圓化為天地規矩度為日月方圓天地規矩為日月方圓之體日月方圓為天地規矩之用體在東南西北之內以成十道用在春罡秋冬之中以定天心所以吾書專謂天心十道作用盡在十道天心是以兩圗一氣相連體用相並不可以相離者也",
+      "new": "日月方圓即是天地規矩 天地規矩便是日月方圓 靜為天地規矩 動為日月方圓 化為天地規矩 度為日月方圓 天地規矩為日月方圓之體 日月方圓為天地規矩之用 體在東南西北之內以成十道 用在春罡秋冬之中以定天心 所以吾書專謂 天心十道作用盡在十道天心 是以兩圖一氣相連 體用相並 不可以相離者也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图左侧文字清晰，'即是'、'規矩'、'度'、'罡'、'圖'、'相並'等字形与候选新文一致，旧文存在'即是'、'規矩'、'度'、'罡'、'圗'、'相並'等错字，候选修正准确反映图像内容。",
+      "metrics": {
+        "old_characters": 127,
+        "new_characters": 127,
+        "similarity": 0.9921,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 38,
+      "page_zero_based": 37,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右上角文字清晰可辨，'圖'字非'圗'，'宮'字非'里'，'訣'字完整，'逆步離宮'四字清晰，'里'為明顯錯字。",
+      "issue": "错字",
+      "old": "朱雀發源挨星圗訣扶星起例乙度伸北極通天化九辰逆步離里知妙義順行坎位見精神",
+      "new": "朱雀發源挨星圖訣扶星起例乙度伸北極通天化九辰逆步離宮知妙義順行坎位見精神",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右上角标题文字清晰，'圖'字结构完整，非'圗'；'宮'字笔画清晰，非'里'；'訣'字完整无缺，'逆步離宮'四字可辨，'里'为明显错字。",
+      "metrics": {
+        "old_characters": 36,
+        "new_characters": 36,
+        "similarity": 0.9444,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 38,
+      "page_zero_based": 37,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "文字排列清晰，'始'字完整，'尅'字为'克'的异体，但扫描图中确为'尅'，'化成'二字清晰，无漏字或错字。",
+      "issue": "无",
+      "old": "順往逆來五星化始生入尅出九星化成",
+      "new": "順往逆來五星化始生入尅出九星化成",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "文字排列清晰，'始'字完整，'尅'字为'克'异体，扫描图中确为'尅'，'化成'二字清晰，无漏字或错字。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "identical"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 38,
+      "page_zero_based": 37,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "左栏文字清晰，'挨星'非'揆星'，'逆步'非'步'，'坎位順行'后'順行火金木土水'与'逆步火土金水木'对应，'配'字完整，'也'字末尾清晰。'揆'为明显错字，应为'挨'。",
+      "issue": "错字",
+      "old": "朱雀發源即是帝星起例帝星起例便是朱雀發源帝星為朱雀之體朱雀為帝星之用體在紫微垣之内用在太微垣之中所以朱雀在南其本體實在北是以紫微宮發源為揆星起例挨星者乃帝星之行運起例者即朱雀之發源也一生入一尅出生入者離宮逆步尅出者坎坎位順行順行火金木土水步火土金水木此卽帝星行運之義五星配九星之義也",
+      "new": "朱雀發源即是帝星起例帝星起例便是朱雀發源帝星為朱雀之體朱雀為帝星之用體在紫微垣之内用在太微垣之中所以朱雀在南其本體實在北是以紫微宮發源為挨星起例挨星者乃帝星之行運起例者即朱雀之發源也一生入一尅出生入者離宮逆步尅出者坎坎位順行順行火金木土水逆步火土金水木此卽帝星行運之義五星配九星之義也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左栏文字清晰，'挨星'非'揆星'，'逆步'非'步'，'坎位順行'后'順行火金木土水'与'逆步火土金水木'对应，'配'字完整，'也'字末尾清晰。'揆'为明显错字，应为'挨'。",
+      "metrics": {
+        "old_characters": 141,
+        "new_characters": 142,
+        "similarity": 0.9894,
+        "changed_characters": 2,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 39,
+      "page_zero_based": 38,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右上角題目為「合祿馬合官星圖訣」，「圗」為「圖」之異體，但掃描圖中字形為「圖」，非「圗」，故修正為「圖」。",
+      "issue": "错字",
+      "old": "合祿馬合官星圗訣",
+      "new": "合祿馬合官星圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图右上角标题字形清晰为「圖」，非「圗」，新文修正正确。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.875,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 39,
+      "page_zero_based": 38,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中文字為「合祿合馬合官星，本卦生旺尋。合凶合吉合祥瑞，何法能趨避？當看太歲是何神，立地見分明。」，OCR誤將「瑞」作「稀」，「？」作「。」，且句讀不當，但根據字形可辨識為「瑞」與問號。",
+      "issue": "错字",
+      "old": "合祿合馬合官星本卦生旺尋合凶合吉合祥稀何法能趨避當看太歲是何神立地見分明",
+      "new": "合祿合馬合官星，本卦生旺尋。合凶合吉合祥瑞，何法能趨避？當看太歲是何神，立地見分明。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰可见「祥瑞」及问号，OCR误作「稀」和句号，新文标点与字形均符合图像。",
+      "metrics": {
+        "old_characters": 36,
+        "new_characters": 42,
+        "similarity": 0.8974,
+        "changed_characters": 7,
+        "length_delta": 6
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 39,
+      "page_zero_based": 38,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「秘」字清晰可辨，非「秋」；「極」字三筆結構完整，非「極」之異體；「拳」字為「拳」，非「拳」之異體；「無」字清晰，非「無」之異體。",
+      "issue": "错字",
+      "old": "生旺乃全書之作用切勿忽過此訣最秋催福極神速極奧妙亦極容易拳凡一百二十家無過於此",
+      "new": "生旺乃全書之作用，切勿忽過。此訣最秘，催福極神速，極奧妙，亦極容易，拳凡一百二十家，無過於此。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中「秘」字结构完整，非「秋」；「極」字三笔清晰，非异体；「拳」字为「拳」，「無」字清晰，新文准确。",
+      "metrics": {
+        "old_characters": 39,
+        "new_characters": 47,
+        "similarity": 0.8837,
+        "changed_characters": 9,
+        "length_delta": 8
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 39,
+      "page_zero_based": 38,
+      "candidate_id": 3,
+      "block_index": 3,
+      "first_confidence": "high",
+      "first_evidence": "圖中左上角題目為「祿馬官星生旺圖訣」，「圗」為「圖」之異體，但掃描圖中字形為「圖」，故修正。",
+      "issue": "错字",
+      "old": "祿馬官星生旺圗訣",
+      "new": "祿馬官星生旺圖訣",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图左上角标题字形为「圖」，非「圗」，新文修正正确。",
+      "metrics": {
+        "old_characters": 8,
+        "new_characters": 8,
+        "similarity": 0.875,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 39,
+      "page_zero_based": 38,
+      "candidate_id": 4,
+      "block_index": 4,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「在生旺之位」、「得生旺之氣」、「則妙極而福應立至矣」、「另有二十四山圖」等字句清晰可辨，OCR漏加逗號與句號，但內容無錯字。",
+      "issue": "漏字",
+      "old": "用法最重生旺在生旺之位得生旺之氣則妙極而福應立至矣另有二十四山圗此期事事可用",
+      "new": "用法最重生旺。在生旺之位，得生旺之氣，則妙極而福應立至矣。另有二十四山圖，此期事事可用。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，句读缺失但无错字，新文添加标点符合原文结构。",
+      "metrics": {
+        "old_characters": 38,
+        "new_characters": 44,
+        "similarity": 0.9024,
+        "changed_characters": 7,
+        "length_delta": 6
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 39,
+      "page_zero_based": 38,
+      "candidate_id": 5,
+      "block_index": 5,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中「增解」後文字清晰，「當令者為旺」、「將來者為生」、「方去者為衰」、「去己久者為死」等句完整，OCR漏加標點與分段，但無錯字。",
+      "issue": "漏字",
+      "old": "增解當令者為旺將來者為生方去者為衰去己久者為死挨星妙合天心圗訣用法同上前刻總指一圗今分而為三原無二義但覺醒目三圗規矩全憑修者在人諸訣皆然",
+      "new": "增解：當令者為旺，將來者為生，方去者為衰，去己久者為死。挨星妙合天心圖訣，用法同上。前刻總指一圖，今分而為三，原無二義，但覺醒目。三圖規矩，全憑修者在人，諸訣皆然。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中文字清晰，OCR漏标点，新文添加标点并分段，符合图像内容。",
+      "metrics": {
+        "old_characters": 68,
+        "new_characters": 82,
+        "similarity": 0.8667,
+        "changed_characters": 17,
+        "length_delta": 14
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 40,
+      "page_zero_based": 39,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘圖訣’為‘圖’非‘圗’，‘交互配合’為‘合’非‘合’，‘至矣盡矣’後有逗號，‘蔑以加矣’後有逗號，‘得者寶之’後無句號，‘天官賜福貴人圖訣’後文‘天官起例’等字清晰可辨，且‘曰月’為‘曰’非‘日’，‘顯明時’為‘顯’非‘顯’，‘賓主有情’為‘賓’非‘賓’。",
+      "issue": "错字",
+      "old": "天帝太陽合貴圗訣此圖用處極廣日家尤要其陰陽平排交互配合妙出天然至矣盡矣蔑以加矣得者寶之天官賜福貴人圖訣天官起例諸君知十個干加十二支數至陽陰交合處還歸曰月顯明時天官上殿日月合明陽陰合氣賓主有情",
+      "new": "天帝太陽合貴圖訣 此圖用處極廣，日家尤要。其陰陽平排，交互配合，妙出天然，至矣盡矣，蔑以加矣，得者寶之。天官賜福貴人圖訣 天官起例，諸君知十個干加十二支，數至陽陰交合處，還歸曰月顯明時，天官上殿，日月合明，陽陰合氣，賓主有情。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圖訣’明确为‘圖’非‘圗’，‘交互配合’为‘合’非‘合’，‘至矣盡矣’后有逗号，‘蔑以加矣’后有逗号，‘得者寶之’后无句号，‘曰月’为‘曰’非‘日’，‘顯明時’为‘顯’非‘顯’，‘賓主有情’为‘賓’非‘賓’，且‘天官起例’等字清晰可辨，候选文本逐字符合图像，无改写或现代化。",
+      "metrics": {
+        "old_characters": 95,
+        "new_characters": 111,
+        "similarity": 0.9126,
+        "changed_characters": 17,
+        "length_delta": 16
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 41,
+      "page_zero_based": 40,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘進福’後接‘內有五福堆貴’，‘梅’字為‘福’之誤；‘拾’字為‘格’之誤；‘賜福’前‘星’字清晰可辨；‘真貴人也’末尾無缺字。",
+      "issue": "错字",
+      "old": "天官起例卽丙子乙丑甲寅癸卯壬辰辛巳庚午己未戊申丁酉丙戌乙亥如貪狼巨門用事以甲寅己未為進福破軍左輔用事以庚午乙丑為進福祿存武曲用事以丙子辛巳為進福文曲用事以壬辰丁酉為進福右弼用事以戊申癸卯為進梅內有五福堆貴最為吉格更有五福堆祿亦上吉拾也此說四垣中之天官星賜福之真貴人也",
+      "new": "天官起例卽丙子乙丑甲寅癸卯壬辰辛巳庚午己未戊申丁酉丙戌乙亥如貪狼巨門用事以甲寅己未為進福破軍左輔用事以庚午乙丑為進福祿存武曲用事以丙子辛巳為進福文曲用事以壬辰丁酉為進福右弼用事以戊申癸卯為進福內有五福堆貴最為吉格更有五福堆祿亦上吉格也此說四垣中之天官星賜福之真貴人也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘進福’后文字清晰为‘內有五福堆貴’，‘梅’字确为‘福’之误；‘拾’字在图中为‘格’之误；‘賜福’前‘星’字清晰可辨；末尾‘真貴人也’完整无缺。候选修正符合图像实际，无改写或异体字擅改。",
+      "metrics": {
+        "old_characters": 133,
+        "new_characters": 133,
+        "similarity": 0.985,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 42,
+      "page_zero_based": 41,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "首字‘加’清晰可见，‘圖’为‘圗’的异体字，但扫描图中为‘圖’；‘祿’字结构完整，‘八位’‘十分清’‘天地神通’‘自顯明’‘日月交中’‘知妙義’‘陽春到處’‘見真情’等字迹清晰可辨，无缺漏。",
+      "issue": "错字",
+      "old": "官進祿八位圗訣祿星八位十分清天地神通自顯明日月交中知妙義陽春到處見真情",
+      "new": "加官進祿八位圖訣 祿星八位十分清 天地神通自顯明 日月交中知妙義 陽春到處見真情",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "首字‘加’清晰可见，‘圖’为‘圗’的异体字，但扫描图中明确为‘圖’；‘祿’字结构完整，‘八位’‘十分清’‘天地神通’‘自顯明’‘日月交中’‘知妙義’‘陽春到處’‘見真情’等字迹清晰可辨，无缺漏。",
+      "metrics": {
+        "old_characters": 35,
+        "new_characters": 36,
+        "similarity": 0.9577,
+        "changed_characters": 2,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 42,
+      "page_zero_based": 41,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "‘祿星八位十字分清’与‘干支配合自有真情’两行文字清晰，无错漏，‘干’为‘干’字，非‘乾’，符合古籍用字习惯。",
+      "issue": "无",
+      "old": "祿星八位十字分清干支配合自有真情",
+      "new": "祿星八位十字分清 干支配合自有真情",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘祿星八位十字分清’与‘干支配合自有真情’两行文字清晰，无错漏，‘干’为‘干’字，非‘乾’，符合古籍用字习惯。",
+      "metrics": {
+        "old_characters": 16,
+        "new_characters": 16,
+        "similarity": 1.0,
+        "changed_characters": 0,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "whitespace_only"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 42,
+      "page_zero_based": 41,
+      "candidate_id": 2,
+      "block_index": 2,
+      "first_confidence": "high",
+      "first_evidence": "‘祿星名義公同’‘玄空用法却異’‘最貴者以官合祿’‘至富者以祿合馬’‘皆要合在本卦’‘謂之合祿’‘合馬合官星’‘本卦生旺尋是也’‘如貧狼巨門用事’‘以甲寅甲午為進祿’‘祿存武曲用事’‘以辛酉辛巳為進祿’‘破軍左輔用事’‘以庚申乙卯為進祿’‘文曲用事’‘以壬午丁亥為進祿’‘右弼用事’‘以癸巳戊子為進祿’‘此卽四垣中之倉庫星’‘應天心十道之真祿星也’等字迹清晰，‘溺’为‘弼’之误，扫描图中为‘右弼’，‘倉庫’为‘倉庫’，非‘倉庫’，‘卽’为‘即’之异体，符合古籍用字。",
+      "issue": "错字",
+      "old": "祿星名義公同玄空用法却異最貴者以官合祿至富者以祿合馬皆要合在本卦謂之合祿合馬合官星本卦生旺尋是也如貧狼巨門用事以甲寅甲午為進祿祿存武曲用事以辛酉辛巳為進祿破軍左輔用事以庚申乙卯為進祿文曲用事以壬午丁亥為進祿在溺用事以癸巳戊子為進祿此卽四垣中之倉庫星應天心十道之真祿星也",
+      "new": "祿星名義公同 玄空用法却異 最貴者以官合祿 至富者以祿合馬 皆要合在本卦 謂之合祿 合馬合官星 本卦生旺尋是也 如貧狼巨門用事 以甲寅甲午為進祿 祿存武曲用事 以辛酉辛巳為進祿 破軍左輔用事 以庚申乙卯為進祿 文曲用事 以壬午丁亥為進祿 右弼用事 以癸巳戊子為進祿 此卽四垣中之倉庫星 應天心十道之真祿星也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "‘祿星名義公同’‘玄空用法却異’‘最貴者以官合祿’‘至富者以祿合馬’‘皆要合在本卦’‘謂之合祿’‘合馬合官星’‘本卦生旺尋是也’‘如貧狼巨門用事’‘以甲寅甲午為進祿’‘祿存武曲用事’‘以辛酉辛巳為進祿’‘破軍左輔用事’‘以庚申乙卯為進祿’‘文曲用事’‘以壬午丁亥為進祿’‘右弼用事’‘以癸巳戊子為進祿’‘此卽四垣中之倉庫星’‘應天心十道之真祿星也’等字迹清晰，‘溺’为‘弼’之误，扫描图中为‘右弼’，‘倉庫’为‘倉庫’，非‘倉庫’，‘卽’为‘即’之异体，符合古籍用字。",
+      "metrics": {
+        "old_characters": 134,
+        "new_characters": 134,
+        "similarity": 0.9851,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 43,
+      "page_zero_based": 42,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行‘馬上金往四相圖註’，其下‘馬化龍駒天地春’，再下‘三關四路顯星辰’，‘寅申會合知虛實’，‘巳亥同參見假真’，‘馬又屬龍動性皆同’，‘金街御殿主僕相逢’。OCR漏‘圖’字，‘註’字误作‘註’（实为‘註’，但古籍中常作‘註’，此处按图像字形为‘註’，OCR误作‘註’，但实际图像中为‘註’，故修正为‘註’），且‘馬’字开头被误断。‘金街’非‘金街’，图像中为‘金街’，OCR误作‘金街’，应为‘金街’。‘主僕相逢’OCR正确。",
+      "issue": "错字|漏字",
+      "old": "上金往四相僵註馬化龍駒天地春三關四路顯星辰寅申會合知虛實巳亥同參見假真馬又屬龍動性皆同金街御殿主僕相逢",
+      "new": "馬上金往四相圖註 馬化龍駒天地春 三關四路顯星辰 寅申會合知虛實 巳亥同參見假真 馬又屬龍動性皆同 金街御殿主僕相逢",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像右侧文字清晰，首行‘馬上金往四相圖註’，‘圖’字明确可见，OCR漏‘圖’字；‘註’字图像中为‘註’，非‘註’，OCR误作‘註’，新文修正为‘註’；‘馬’字开头被误断，新文正确连贯；‘金街’图像中为‘金街’，非‘金街’，OCR误作‘金街’，新文修正为‘金街’；‘主僕相逢’图像清晰，OCR正确。所有修正均有图像依据。",
+      "metrics": {
+        "old_characters": 51,
+        "new_characters": 52,
+        "similarity": 0.9709,
+        "changed_characters": 2,
+        "length_delta": 1
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 43,
+      "page_zero_based": 42,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側文字清晰，首句‘馬郎寅申巳亥無主乃是野馬帝星升殿歸垣’，‘有主方為真馬所以四垣帝宿正是四馬主人’，‘如天市垣以辛巳為進馬’（OCR误‘已’为‘已’，图像中为‘巳’），‘少微垣以乙亥為進馬’，‘太微垣以戊申為進馬’，‘紫微垣以甲寅為進馬’，‘至於四垣分宮各自有馬 各有挨星類推自明’（OCR误‘自’为‘乍’），‘細玩本圖更為易見’（OCR误‘圖’为‘圗’，图像中为‘圖’），‘總以主人得位為真 此說四局中之複祥 五妙中之瑞氣 應天心十道之真馬也’。‘複祥’非‘複祥’，图像中为‘複祥’，OCR误作‘複祥’，应为‘複祥’。‘此說’OCR误作‘身上說’，图像中为‘此說’。‘十道’OCR正确。",
+      "issue": "错字|漏字",
+      "old": "馬郎寅申巳亥無主乃是野馬帝星升殿歸垣有主方為真馬所以四垣帝宿正是四馬主人如天市垣以辛已為進馬少微垣以乙亥為進馬太微垣以戊申為進馬紫微垣以甲寅為進馬至於四垣分宮各自有馬各有挨星類推乍明細玩本圗更為易見總以主人得位為身上說四局中之複祥五妙中之瑞氣應天心十道之真馬也",
+      "new": "馬郎寅申巳亥無主乃是野馬帝星升殿歸垣 有主方為真馬所以四垣帝宿正是四馬主人 如天市垣以辛巳為進馬 少微垣以乙亥為進馬 太微垣以戊申為進馬 紫微垣以甲寅為進馬 至於四垣分宮各自有馬 各有挨星類推自明 細玩本圖更為易見 總以主人得位為真 此說四局中之複祥 五妙中之瑞氣 應天心十道之真馬也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左侧文字逐字清晰，‘辛巳’图像中为‘巳’，OCR误作‘已’，新文修正；‘自明’图像中为‘自’，OCR误作‘乍’，新文修正；‘本圖’图像中为‘圖’，OCR误作‘圗’，新文修正；‘此說’图像中为‘此說’，OCR误作‘身上說’，新文修正；‘複祥’图像中为‘複祥’，OCR误作‘複祥’，新文修正。所有修正均有图像依据，无改写或现代化。",
+      "metrics": {
+        "old_characters": 130,
+        "new_characters": 130,
+        "similarity": 0.9615,
+        "changed_characters": 5,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 44,
+      "page_zero_based": 43,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰可辨，'圖'字非'圗'，'坎'非'坎'（OCR誤作'坎'，實為'坎'），'真情'非'真情'（OCR誤作'真情'，實為'真情'）。",
+      "issue": "错字",
+      "old": "天乙貴人上殿圗訣貴應玄空畫夜清千支配合顯聲名陰陽兩路終非據夫婦雙關最可憑官星貴宿畫夜皆清離通坎氣自有真情",
+      "new": "天乙貴人上殿圖訣 貴應玄空畫夜清 千支配合顯聲名 陰陽兩路終非據 夫婦雙關最可憑 官星貴宿畫夜皆清 離通坎氣自有真情",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "reject",
+      "judge_confidence": "high",
+      "judge_reason": "OCR候选中'圖'与'圗'、'坎'与'坎'、'真情'与'真情'等字形差异无图像依据，扫描图中文字清晰，但候选修改未提供明确图像证据，且'圗'为'圖'的异体字，'坎'与'坎'实为同一字，'真情'与'真情'亦无区别，属无必要改动。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.9808,
+        "changed_characters": 1,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "second_pass_not_high_confidence_accept"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 44,
+      "page_zero_based": 43,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "圖中文字清晰，'己'非'已'，'存'非'有'，'丁卯'非'丁卯'（OCR誤作'丁卯'，實為'丁卯'），'癸卯'非'癸卯'（OCR誤作'癸卯'，實為'癸卯'），'四垣'非'四垣'（OCR誤作'四垣'，實為'四垣'），'真貴人也'末尾無誤。",
+      "issue": "错字",
+      "old": "合天心自然進貴通月氣自顯星辰却有真偽之別並無畫夜之分如貧狼巨門星體用事甲子已丑甲申已未為進貴祿有武曲星體用事丙寅丙午辛酉辛亥為進貴破軍左輔星體用事乙丑乙未庚子庚申為進貴文曲星體用事丁巳丁酉丁卯丁亥為進貴右弼星體用事癸巳癸卯癸丑癸未為進貴此說四垣中之正官星應天心之真貴人也",
+      "new": "合天心自然進貴 通月氣自顯星辰 卻有真偽之別 並無畫夜之分 如貧狼、巨門星體用事 甲子、己丑、甲申、己未為進貴 祿存武曲星體用事 丙寅、丙午、辛酉、辛亥為進貴 破軍、左輔星體用事 乙丑、乙未、庚子、庚申為進貴 文曲星體用事 丁巳、丁酉、丁卯、丁亥為進貴 右弼星體用事 癸巳、癸卯、癸丑、癸未為進貴 此說四垣中之正官星 應天心之真貴人也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "reject",
+      "judge_confidence": "high",
+      "judge_reason": "候选中'己'与'已'、'存'与'有'、'丁卯'与'丁卯'、'癸卯'与'癸卯'、'四垣'与'四垣'等修改无图像证据支持，扫描图中文字清晰，但候选改动未体现图像实际字形，且部分为标点或语义推测，不符合逐字复核原则。",
+      "metrics": {
+        "old_characters": 135,
+        "new_characters": 152,
+        "similarity": 0.9129,
+        "changed_characters": 21,
+        "length_delta": 17
+      },
+      "markdown_occurrences": 1,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "second_pass_not_high_confidence_accept",
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 45,
+      "page_zero_based": 44,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中右側文字清晰可辨，首行‘乾坤生成洛書圖訣’，其下‘洛書滿數顯乾坤’，‘八卦圖中化九天’，‘北極生成南極體’，‘紫微爰化太微垣’，‘洛書兩個同共九天’，‘先本後末一氣相連’，字形完整，無缺漏。",
+      "issue": "错字",
+      "old": "七坤生成洛書圗訣洛書滿數顯乾坤八卦圗中化九天北極生成南極體紫微爰化太微垣洛書兩個同共九天先本後末一氣相連",
+      "new": "乾坤生成洛書圖訣 洛書滿數顯乾坤 八卦圖中化九天 北極生成南極體 紫微爰化太微垣 洛書兩個同共九天 先本後末一氣相連",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "右側文字清晰可辨，首行‘乾坤生成洛書圖訣’，其下‘洛書滿數顯乾坤’、‘八卦圖中化九天’、‘北極生成南極體’、‘紫微爰化太微垣’、‘洛書兩個同共九天’、‘先本後末一氣相連’，字形完整，無缺漏，新文正確分段且無改寫。",
+      "metrics": {
+        "old_characters": 52,
+        "new_characters": 52,
+        "similarity": 0.9423,
+        "changed_characters": 3,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 45,
+      "page_zero_based": 44,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "左側文字逐行清晰，‘洛書道理止一’起，‘吾書分而為二’，‘不知一卽是二’，‘二卽一也’，‘凡讀者知所先後’，‘則道理明矣’，‘如先之洛書’，‘乃天地變化’（OCR誤作‘亥化’），‘後之洛書是乾坤生成’，‘先之洛書是天地分用’，‘後之洛書是乾坤合體’，‘先之洛書為乾坤創業’（OCR誤作‘浴書’），‘後之洛書是天地成功’，‘先之洛書是由本而至末’，‘後之洛書是由末而復本’，‘皆出乎天理之自然’，‘未有一毫私議者也’。‘亥化’應為‘變化’，‘浴書’應為‘洛書’，圖中字形可辨。",
+      "issue": "错字",
+      "old": "洛書道理止一吾書分而為二不知一卽是二二卽一也凡讀者知所先後則道理明矣如先之洛書乃天地亥化後之洛書是乾坤生成先之浴書是天地分用後之洛書是乾坤合體光之洛書為乾坤創業後之洛書是天地成功先之浴書是由本而至末後之洛書是由末而復本皆出乎天理之自然未有一毫私議者也",
+      "new": "洛書道理止一 吾書分而為二 不知一卽是二 二卽一也 凡讀者知所先後 則道理明矣 如先之洛書 乃天地變化 後之洛書是乾坤生成 先之洛書是天地分用 後之洛書是乾坤合體 先之洛書為乾坤創業 後之洛書是天地成功 先之洛書是由本而至末 後之洛書是由末而復本 皆出乎天理之自然 未有一毫私議者也",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "左側文字逐行清晰，‘洛書道理止一’起，‘吾書分而為二’，‘不知一卽是二’，‘二卽一也’，‘凡讀者知所先後’，‘則道理明矣’，‘如先之洛書’，‘乃天地變化’（原OCR誤作‘亥化’），‘後之洛書是乾坤生成’，‘先之洛書是天地分用’，‘後之洛書是乾坤合體’，‘先之洛書為乾坤創業’（原OCR誤作‘浴書’），‘後之洛書是天地成功’，‘先之洛書是由本而至末’，‘後之洛書是由末而復本’，‘皆出乎天理之自然’，‘未有一毫私議者也’。圖中字形可辨，‘亥化’應為‘變化’，‘浴書’應為‘洛書’，新文修正符合圖像。",
+      "metrics": {
+        "old_characters": 125,
+        "new_characters": 125,
+        "similarity": 0.968,
+        "changed_characters": 4,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 47,
+      "page_zero_based": 46,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "圖中標題為「增著天元龍歌圖訣」，其下有「[增解]」，後接「天元歌云」，文句中「五吉」、「真龍」、「輔星」、「兼收輔弼」、「一元而兼兩元」、「發福愈長」、「子來脈」、「兼癸卽從癸」、「癸與巳交」、「卽在巳起貪狼」、「順揆至子宮」、「卽輔星也」、「如午丁卯乙酉辛做此」等字句均與圖中文字一致，且「巳」非「已」，「揆」非「揆」，「卽」非「即」，「做此」非「做此增著地元龍歌圗訣」，後半段「地元歌云」等內容在圖中無對應，屬OCR誤識。",
+      "issue": "多字",
+      "old": "增著天元龍歌圖訣增解一天元歌云取得輔星成五吉山中有此是真龍此從龍上取輔星以補龍也天元兼收輔弼是一元而兼兩元龍力更厚發福愈長取輔星如子來脉兼癸卽從癸倒排父母癸與巳交為夫婦又為父母卽在已起貪狼順揆至子宮卽輔星也如午丁卯乙酉辛做此增著地元龍歌圗訣增解地元歌云甲庚丙壬為正向脉取貪狼護正龍此從向上取貪狼以補龍也聚貧狼法如辰龍坐丙向壬卽從壬向倒排父母壬與辰交為夫婦又為父母即從辰起貪狼則貧狼卽在辰龍也若甲未庚丑丙戌倣此",
+      "new": "增著天元龍歌圖訣\n[增解]天元歌云：取得輔星成五吉，山中有此是真龍。此從龍上取輔星以補龍也。天元兼收輔弼，是一元而兼兩元，龍力更厚，發福愈長。取輔星如子來脈，兼癸卽從癸倒排父母，癸與巳交為夫婦，又為父母，卽在巳起貪狼，順揆至子宮，卽輔星也。如午、丁、卯、乙、酉、辛做此。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "圖中標題為「增著天元龍歌圖訣」，其下有「[增解]」，後接「天元歌云」，文句中「五吉」、「真龍」、「輔星」、「兼收輔弼」、「一元而兼兩元」、「發福愈長」、「子來脈」、「兼癸卽從癸」、「癸與巳交」、「卽在巳起貪狼」、「順揆至子宮」、「卽輔星也」、「如午丁卯乙酉辛做此」等字句均與圖中文字一致，且「巳」非「已」，「揆」非「揆」，「卽」非「即」，「做此」非「做此增著地元龍歌圗訣」，後半段「地元歌云」等內容在圖中無對應，屬OCR誤識。",
+      "metrics": {
+        "old_characters": 204,
+        "new_characters": 134,
+        "similarity": 0.645,
+        "changed_characters": 116,
+        "length_delta": -70
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 48,
+      "page_zero_based": 47,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "掃描圖中可見‘圖’字為‘圖’而非‘圗’，‘各立一圖’中‘圖’字清晰可辨，且‘實是活法’後無‘各立一圗’之‘圗’字，應為‘圖’。‘增著人元龍歌圖訣’標題完整，‘增解人元歌云’後文字與圖中一致，無漏字。",
+      "issue": "错字",
+      "old": "增著人元龍歌圖訣增解人元歌云乙辛丁癸水來催此從水上取貪狼以補龍也取貪狼法如寅龍辛水卽從辛倒排父母寅與辛交為夫婦又為父母卽在寅起貪則貪狼卽在寅龍也若乙申癸巳丁亥做此此天地人龍向水分三圗實是活法各立一圗舉一可以反三",
+      "new": "增著人元龍歌圖訣\n增解人元歌云乙辛丁癸水來催此從水上取貪狼以補龍也取貪狼法如寅龍辛水卽從辛倒排父母寅與辛交為夫婦又為父母卽在寅起貪則貪狼卽在寅龍也若乙申癸巳丁亥做此此天地人龍向水分三圖實是活法各立一圖舉一可以反三",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图中‘圖’字清晰可辨，与‘圗’字形不同，且‘各立一圖’处明确为‘圖’，非‘圗’。‘實是活法’后无‘圗’字，符合‘圖’字写法。标题及正文文字与图像一致，无漏字或错字。",
+      "metrics": {
+        "old_characters": 105,
+        "new_characters": 105,
+        "similarity": 0.981,
+        "changed_characters": 2,
+        "length_delta": 0
+      },
+      "markdown_occurrences": 1,
+      "status": "applied",
+      "reasons": [
+        "two_pass_high_confidence_and_mechanical_safety_passed"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 49,
+      "page_zero_based": 48,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "图像中可见‘增坎離交媾掌訣’为标题，其下分段有‘坎離水火中天過。’‘龍墀移帝座。又曰。’‘泥鰍落汾躍龍門。’‘渤海便翻身。’，句末均有句号，且‘龍墀’非‘龍墀’，‘汾’非‘汾’，‘渤海’非‘渤海’，OCR漏标句号且合并行文。",
+      "issue": "漏字",
+      "old": "增坎離交媾掌訣坎離水火中天過龍墀移帝座又曰泥鰍落汾躍龍門渤海便翻身",
+      "new": "增坎離交媾掌訣\n坎離水火中天過。\n龍墀移帝座。又曰。\n泥鰍落汾躍龍門。\n渤海便翻身。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中标题‘增坎離交媾掌訣’清晰，其下四句分段排列，每句末有句号，且‘龍墀’‘泥鰍’‘渤海’等字形与候选一致，OCR原合并行文且漏标句号，候选按图像分段并加句号，准确反映图像结构。",
+      "metrics": {
+        "old_characters": 33,
+        "new_characters": 38,
+        "similarity": 0.9296,
+        "changed_characters": 5,
+        "length_delta": 5
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "length_change_too_large",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 49,
+      "page_zero_based": 48,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "图像中可见‘增解’后有冒号，‘坎是坤，離是乾’等句分段清晰，‘即’非‘郎’，‘氤氳’非‘氤蓋’，‘難言’非‘葉言’，‘泥鰍’非‘坭落’，‘渤海’非‘涕海’，‘巽坤離’非‘巽坤離’，‘挨盡’后有逗号，‘逆輪轉’后有逗号，‘所謂渤海翻身也’完整，OCR存在错字、漏字、标点错误及语义误读。",
+      "issue": "错字|漏字|多字|次序",
+      "old": "增解坎是坤離是乾水是坎火是離離東坎西日月出入坎離故有取乎坎離先天之乾坤郎後天之坎離其先後陰陽配對奇極妙極粗視之是一四七二五八三六九精求之則天地氤蓋其氣化神妙實葉言立成掌訣以便易曉其法從坤起乾順輪九宮坎離一起一落點至震中艮所謂坭落汾也至巽坤離所謂躍龍門也挨盡復在離宮逆輪轉前謂涕海翻身也此舉坎卦以為例餘可類推",
+      "new": "增解：坎是坤，離是乾。水是坎，火是離。離東坎西，日月出入坎離，故有取乎坎離。先天之乾坤，即後天之坎離。其先後陰陽配對，奇極妙極。粗視之，是一四七、二五八、三六九。精求之，則天地氤氳，其氣化神妙實難言。立成掌訣，以便易曉。其法從坤起乾，順輪九宮。坎離一起一落，點至震中艮，所謂泥鰍落汾也。至巽坤離，所謂躍龍門也。挨盡，復在離宮逆輪轉，所謂渤海翻身也。此舉坎卦以為例，餘可類推。",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中‘增解’后有冒号，内容分段清晰，‘即’字可辨，‘氤氳’非‘氤蓋’，‘難言’非‘葉言’，‘泥鰍’非‘坭落’，‘渤海’非‘涕海’，‘巽坤離’非‘巽坤離’，‘挨盡’后有逗号，‘逆輪轉’后有逗号，‘所謂渤海翻身也’完整，候选修正了OCR的错字、漏字、标点及语义误读，与图像逐字一致。",
+      "metrics": {
+        "old_characters": 153,
+        "new_characters": 187,
+        "similarity": 0.8647,
+        "changed_characters": 40,
+        "length_delta": 34
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 50,
+      "page_zero_based": 49,
+      "candidate_id": 0,
+      "block_index": 0,
+      "first_confidence": "high",
+      "first_evidence": "图像中标题为“增立向分金掌訣”，其下四行文字清晰可见，分别为“陰陽配合要分明”“審定玄空認九星”“辨別三才知入氣”“交光夫婦見真情”，OCR误将“增”后“立”误作“春”，且未分段，实际应为独立标题与四行正文。",
+      "issue": "错字|次序",
+      "old": "增春立向分金掌訣陰陽配合要分明審定玄空認九星辨別三才知入氣交光夫婦見真情",
+      "new": "增立向分金掌訣\n陰陽配合要分明\n審定玄空認九星\n辨別三才知入氣\n交光夫婦見真情",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像中标题明确为“增立向分金掌訣”，非“增春”，且其下四行文字清晰可辨，分别为“陰陽配合要分明”“審定玄空認九星”“辨別三才知入氣”“交光夫婦見真情”，与候选新文分段及内容完全一致，旧文“春”为明显错字，新文正确。",
+      "metrics": {
+        "old_characters": 36,
+        "new_characters": 35,
+        "similarity": 0.9859,
+        "changed_characters": 1,
+        "length_delta": -1
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 50,
+      "page_zero_based": 49,
+      "candidate_id": 1,
+      "block_index": 1,
+      "first_confidence": "high",
+      "first_evidence": "图像左侧文字从“增解寶照經云”开始，至“或有”结束，字迹清晰，可逐字核对。OCR中“春”误为“增”，“幾”误为“幾”，“纔”误为“纔”，“剝”误为“剝”，“卽”误为“卽”，“未”误为“未”，“或有”后无后续文字，但图像中确有“或有”二字，后续文字在下一页。OCR中“幾為奔走赴朝廷”后多出“纔到朝廷帝怒形時師不曉龍何向墳頭下了剝官星此以知主向分金認龍點穴而後最為緊要地理固首重峦頭卽得吉地而向首分金或陰陽差錯未有能發福者或有發而不均發而吉凶參半甚且發而敗絕皆由立向之誤也地理家立向多從五行起長生為消納或從坐向起長生或從來水水口作某局起長生或有以辰戌丑未為四大水口如乙丙交而趨戌辛壬會而聚辰之類或有”，与图像完全一致，仅标点和分段有误，但内容无错字。",
+      "issue": "错字|次序",
+      "old": "增解寶照經云龍真穴正誤立向陰差陽錯悔各生幾為奔走赴朝廷纔到朝廷帝怒形時師不曉龍何向墳頭下了剝官星此以知主向分金認龍點穴而後最為緊要地理固首重峦頭卽得吉地而向首分金或陰陽差錯未有能發福者或有發而不均發而吉凶參半甚且發而敗絕皆由立向之誤也地理家立向多從五行起長生為消納或從坐向起長生或從來水水口作某局起長生或有以辰戌丑未為四大水口如乙丙交而趨戌辛壬會而聚辰之類或有謬難以盡述皆未曉龍何向之龍字耳所謂龍耆非以山為龍也若以山為龍則無山非龍矣夫龍也者天之陽氣也看金龍卽看此陽氣看雌雄亦看比天氣與地氣也今將看雌雄以立向分金略指而言之壬子癸甲卯乙辰巽巳未坤申是生向丙午丁庚酉辛戌乾亥丑艮寅是成向蔣公玉尺辨偽云山隴平壤皆有一定之穴生成之向卽言此河圗之生數成數也青囊補註云地有至陰之氣以招攝天之陽精是說雌雄交會之處入氣是雌金龍是雄先看出水以定入氣所謂水對三必細認蹤也次看卦掌中起中止弦起弦止輔弼仝宮以貪巨祿文藤武破輔為消納者更有與翻卦掌取方位全此吉凶爰其名目以生五延六禍天絕伏為消納者有以庚丁坤上為黃泉坎龍坤兔為八煞者又有以癸兼丑寅兼甲等類為出卦者近復有以張心言六十四卦盤定向為得真傳者不知張氏將希夷先生性理大全卦圗加於蔣盤之內已見節外生枝而其盤內麦出大爻與周易六爻爰化懸殊尤為畫蛇漆足用以覆驗名山古墓珠無確據諸書說理種種錯金音屬某方其向首分金坐某宿度年沒身方六曰蒸然可坐而定知此則天心在此十道在此而結穴亦無不在此矣今之立向牽線者果能見及此否且未用羅盤之先其分金之深淺果有定見否或問之師曰立向者皆言分金請問分金二字是何說法師曰分金二字不下片言孺婦可曉何業此道者尚昧昧也或不喻又問曰且分金在羅盤耶抑在山頭耶師曰先在山頭後用羅經蓋頭理氣合而為一者也或曰唯唯乃默喻於無言而不復問新增地理辨正圖解掌訣終陳鳳招撰",
+      "new": "增解寶照經云。龍真穴正誤立向。陰差陽錯悔各生。幾為奔走赴朝廷。纔到朝廷帝怒形。時師不曉龍何向。墳頭下了剝官星。此以知主向分金。認龍點穴而後最為緊要。地理固首重峦頭。卽得吉地而向首分金或陰陽差錯。未有能發福者。或有發而不均。發而吉凶參半。甚且發而敗絕。皆由立向之誤也。地理家立向多從五行起長生為消納。或從坐向起長生。或從來水水口作某局起長生。或有以辰戌丑未為四大水口。如乙丙交而趨戌。辛壬會而聚辰之類。或有",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "图像左侧文字从“增解寶照經云”起，至“或有”止，字迹清晰，可逐字核对。候选新文在标点和分段上更符合古籍排版习惯，且无错字，与图像内容完全一致。旧文虽无错字但未分段，且“幾”“纔”“剝”“卽”“未”等字在图像中均清晰为“幾”“纔”“剝”“卽”“未”，候选新文准确还原。",
+      "metrics": {
+        "old_characters": 742,
+        "new_characters": 202,
+        "similarity": 0.3771,
+        "changed_characters": 585,
+        "length_delta": -540
+      },
+      "markdown_occurrences": 0,
+      "status": "recorded_not_applied",
+      "reasons": [
+        "similarity_below_0_92",
+        "length_change_too_large",
+        "too_many_changed_characters",
+        "old_text_not_uniquely_located"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 51,
+      "page_zero_based": 50,
+      "candidate_id": 0,
+      "block_index": -1,
+      "first_confidence": "high",
+      "first_evidence": "页面左侧有竖排繁体汉字，字迹清晰可辨，内容为风水或易学相关论述，首句可见'卦掌中起中止弦'。",
+      "issue": "missing_ocr_page",
+      "old": "",
+      "new": "卦掌中起中止弦",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图左侧首行文字清晰可见，竖排繁体字为'卦掌中起中止弦'，与候选新文完全一致，字形无歧义，无模糊或异体字问题。",
+      "status": "recorded_not_applied",
+      "reasons": [
+        "missing_ocr_text_block",
+        "automatic_full_page_insertion_forbidden"
+      ]
+    },
+    {
+      "doc_id": "doc015",
+      "source_page": 52,
+      "page_zero_based": 51,
+      "candidate_id": 0,
+      "block_index": -1,
+      "first_confidence": "high",
+      "first_evidence": "页面右侧有竖排繁体汉字，清晰可辨，顶部可见标题‘新增地理辨正圖解掌訣終’，为可读正文。",
+      "issue": "missing_ocr_page",
+      "old": "",
+      "new": "新增地理辨正圖解掌訣終",
+      "book_number": 31,
+      "book_title": "地理辨正图解掌诀（戴礼台）",
+      "judge_decision": "accept",
+      "judge_confidence": "high",
+      "judge_reason": "扫描图右侧竖排文字清晰，顶部标题‘新增地理辨正圖解掌訣終’逐字可辨，与候选新文完全一致，无模糊或歧义。",
+      "status": "recorded_not_applied",
+      "reasons": [
+        "missing_ocr_text_block",
+        "automatic_full_page_insertion_forbidden"
+      ]
+    }
+  ],
+  "complete": true
+}

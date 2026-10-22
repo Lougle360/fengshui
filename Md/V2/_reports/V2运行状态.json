@@ -1,0 +1,1686 @@
+{
+  "started_at": "2026-09-22T15:44:18.254610+00:00",
+  "updated_at": "2026-09-22T22:48:56.222164+00:00",
+  "status": "complete",
+  "budget_rmb": 150.0,
+  "logical_pages_expected": 6397,
+  "documents_expected": 22,
+  "documents": [
+    {
+      "position": 1,
+      "doc_id": "doc001",
+      "ranges": [
+        [
+          1,
+          216
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-20T04:34:32.074757+00:00",
+        "doc_id": "doc001",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc001.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc001\\doc001\\ocr\\doc001_middle.json",
+        "selected_pages": 216,
+        "recorded_pages": 216,
+        "status_counts": {
+          "success": 216
+        },
+        "visually_reviewed_pages": 216,
+        "source_damaged_pages": 0,
+        "correction_candidates": 928,
+        "usage": {
+          "prompt_tokens": 341681,
+          "completion_tokens": 125026,
+          "total_tokens": 466707
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-20T01:26:17.017942+00:00",
+        "doc_id": "doc001",
+        "candidate_pages": 114,
+        "recorded_pages": 114,
+        "status_counts": {
+          "success": 114
+        },
+        "decisions": {
+          "accept": 656,
+          "uncertain": 5,
+          "reject": 267
+        },
+        "usage": {
+          "prompt_tokens": 309131,
+          "completion_tokens": 54708,
+          "total_tokens": 363839
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 928,
+        "applied": 112,
+        "newly_applied": 0,
+        "already_applied": 112,
+        "recorded_not_applied": 816,
+        "changed_books": 1,
+        "reason_counts": {
+          "already_applied_in_v2": 112,
+          "applied": 112,
+          "first_pass_not_high_confidence": 3,
+          "identical": 755,
+          "length_change_too_large": 2,
+          "old_text_not_uniquely_located": 228,
+          "second_pass_evidence_not_auditable": 45,
+          "second_pass_not_high_confidence_accept": 272,
+          "similarity_below_0_92": 40,
+          "too_many_changed_characters": 3,
+          "whitespace_only": 1
+        }
+      }
+    },
+    {
+      "position": 2,
+      "doc_id": "doc002",
+      "ranges": [
+        [
+          5,
+          166
+        ],
+        [
+          167,
+          252
+        ],
+        [
+          253,
+          281
+        ],
+        [
+          282,
+          322
+        ],
+        [
+          323,
+          336
+        ],
+        [
+          337,
+          345
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-20T04:40:43.871312+00:00",
+        "doc_id": "doc002",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc002.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc002\\doc002\\ocr\\doc002_middle.json",
+        "selected_pages": 341,
+        "recorded_pages": 341,
+        "status_counts": {
+          "success": 341
+        },
+        "visually_reviewed_pages": 341,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1800,
+        "usage": {
+          "prompt_tokens": 339205,
+          "completion_tokens": 348074,
+          "total_tokens": 687279
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-20T04:41:47.884216+00:00",
+        "doc_id": "doc002",
+        "candidate_pages": 256,
+        "recorded_pages": 256,
+        "status_counts": {
+          "success": 256
+        },
+        "decisions": {
+          "accept": 1287,
+          "uncertain": 137,
+          "reject": 376
+        },
+        "usage": {
+          "prompt_tokens": 584831,
+          "completion_tokens": 130148,
+          "total_tokens": 714979
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1800,
+        "applied": 112,
+        "newly_applied": 2,
+        "already_applied": 110,
+        "recorded_not_applied": 1688,
+        "changed_books": 6,
+        "reason_counts": {
+          "already_applied_in_v2": 110,
+          "applied": 112,
+          "first_pass_not_high_confidence": 97,
+          "identical": 1309,
+          "length_change_too_large": 77,
+          "old_text_not_uniquely_located": 872,
+          "second_pass_evidence_not_auditable": 135,
+          "second_pass_not_high_confidence_accept": 582,
+          "similarity_below_0_92": 114,
+          "too_many_changed_characters": 80,
+          "whitespace_only": 66
+        }
+      }
+    },
+    {
+      "position": 3,
+      "doc_id": "doc003",
+      "ranges": [
+        [
+          5,
+          112
+        ],
+        [
+          113,
+          178
+        ],
+        [
+          179,
+          284
+        ],
+        [
+          285,
+          306
+        ],
+        [
+          307,
+          324
+        ],
+        [
+          325,
+          346
+        ],
+        [
+          347,
+          525
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-20T13:26:48.842766+00:00",
+        "doc_id": "doc003",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc003.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc003\\doc003\\ocr\\doc003_middle.json",
+        "selected_pages": 521,
+        "recorded_pages": 521,
+        "status_counts": {
+          "success": 519,
+          "source_damaged": 2
+        },
+        "visually_reviewed_pages": 519,
+        "source_damaged_pages": 2,
+        "correction_candidates": 2033,
+        "usage": {
+          "prompt_tokens": 451719,
+          "completion_tokens": 435403,
+          "total_tokens": 887122
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-20T14:36:05.596093+00:00",
+        "doc_id": "doc003",
+        "candidate_pages": 349,
+        "recorded_pages": 349,
+        "status_counts": {
+          "success": 349
+        },
+        "decisions": {
+          "accept": 1666,
+          "reject": 233,
+          "uncertain": 134
+        },
+        "usage": {
+          "prompt_tokens": 711081,
+          "completion_tokens": 144243,
+          "total_tokens": 855324
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 2033,
+        "applied": 125,
+        "newly_applied": 125,
+        "already_applied": 0,
+        "recorded_not_applied": 1908,
+        "changed_books": 6,
+        "reason_counts": {
+          "applied": 125,
+          "automatic_full_page_insertion_forbidden": 53,
+          "first_pass_not_high_confidence": 109,
+          "identical": 1312,
+          "length_change_too_large": 151,
+          "missing_ocr_text_block": 53,
+          "old_text_not_uniquely_located": 815,
+          "second_pass_evidence_not_auditable": 8,
+          "second_pass_not_high_confidence_accept": 364,
+          "similarity_below_0_92": 238,
+          "too_many_changed_characters": 182,
+          "whitespace_only": 74
+        }
+      }
+    },
+    {
+      "position": 4,
+      "doc_id": "doc004",
+      "ranges": [
+        [
+          1,
+          259
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-20T15:35:39.266719+00:00",
+        "doc_id": "doc004",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc004.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc004\\doc004\\auto\\doc004_middle.json",
+        "selected_pages": 259,
+        "recorded_pages": 259,
+        "status_counts": {
+          "success": 259
+        },
+        "visually_reviewed_pages": 259,
+        "source_damaged_pages": 0,
+        "correction_candidates": 964,
+        "usage": {
+          "prompt_tokens": 374593,
+          "completion_tokens": 159887,
+          "total_tokens": 534480
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-20T16:01:58.086672+00:00",
+        "doc_id": "doc004",
+        "candidate_pages": 174,
+        "recorded_pages": 174,
+        "status_counts": {
+          "success": 174
+        },
+        "decisions": {
+          "accept": 911,
+          "reject": 51,
+          "uncertain": 2
+        },
+        "usage": {
+          "prompt_tokens": 401638,
+          "completion_tokens": 51448,
+          "total_tokens": 453086
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 964,
+        "applied": 283,
+        "newly_applied": 283,
+        "already_applied": 0,
+        "recorded_not_applied": 681,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 283,
+          "automatic_full_page_insertion_forbidden": 2,
+          "first_pass_not_high_confidence": 1,
+          "identical": 485,
+          "length_change_too_large": 85,
+          "missing_ocr_text_block": 2,
+          "old_text_not_uniquely_located": 165,
+          "second_pass_evidence_not_auditable": 39,
+          "second_pass_not_high_confidence_accept": 92,
+          "similarity_below_0_92": 106,
+          "too_many_changed_characters": 94,
+          "whitespace_only": 39
+        }
+      }
+    },
+    {
+      "position": 5,
+      "doc_id": "doc005",
+      "ranges": [
+        [
+          1,
+          517
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-20T20:35:51.191536+00:00",
+        "doc_id": "doc005",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc005.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc005\\doc005\\ocr\\doc005_middle.json",
+        "selected_pages": 517,
+        "recorded_pages": 517,
+        "status_counts": {
+          "success": 517
+        },
+        "visually_reviewed_pages": 517,
+        "source_damaged_pages": 0,
+        "correction_candidates": 3968,
+        "usage": {
+          "prompt_tokens": 1273408,
+          "completion_tokens": 698348,
+          "total_tokens": 1971756
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-20T22:17:41.001295+00:00",
+        "doc_id": "doc005",
+        "candidate_pages": 493,
+        "recorded_pages": 493,
+        "status_counts": {
+          "success": 493
+        },
+        "decisions": {
+          "accept": 3678,
+          "reject": 277,
+          "uncertain": 13
+        },
+        "usage": {
+          "prompt_tokens": 1826445,
+          "completion_tokens": 234381,
+          "total_tokens": 2060826
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 3968,
+        "applied": 1615,
+        "newly_applied": 1615,
+        "already_applied": 0,
+        "recorded_not_applied": 2353,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 1615,
+          "automatic_full_page_insertion_forbidden": 25,
+          "first_pass_not_high_confidence": 4,
+          "identical": 1390,
+          "length_change_too_large": 70,
+          "missing_ocr_text_block": 25,
+          "old_text_not_uniquely_located": 460,
+          "second_pass_not_high_confidence_accept": 290,
+          "similarity_below_0_92": 508,
+          "too_many_changed_characters": 391,
+          "whitespace_only": 189
+        }
+      }
+    },
+    {
+      "position": 6,
+      "doc_id": "doc006",
+      "ranges": [
+        [
+          1,
+          432
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-20T23:55:22.361056+00:00",
+        "doc_id": "doc006",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc006.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc006\\doc006\\ocr\\doc006_middle.json",
+        "selected_pages": 432,
+        "recorded_pages": 432,
+        "status_counts": {
+          "success": 432
+        },
+        "visually_reviewed_pages": 432,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1616,
+        "usage": {
+          "prompt_tokens": 578463,
+          "completion_tokens": 309569,
+          "total_tokens": 888032
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T16:50:41.600192+00:00",
+        "doc_id": "doc006",
+        "candidate_pages": 430,
+        "recorded_pages": 430,
+        "status_counts": {
+          "success": 430
+        },
+        "decisions": {
+          "accept": 1546,
+          "reject": 21,
+          "uncertain": 49
+        },
+        "usage": {
+          "prompt_tokens": 855134,
+          "completion_tokens": 171934,
+          "total_tokens": 1027068
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1616,
+        "applied": 36,
+        "newly_applied": 36,
+        "already_applied": 0,
+        "recorded_not_applied": 1580,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 36,
+          "automatic_full_page_insertion_forbidden": 9,
+          "first_pass_not_high_confidence": 42,
+          "identical": 48,
+          "length_change_too_large": 562,
+          "missing_ocr_text_block": 9,
+          "old_text_not_uniquely_located": 520,
+          "second_pass_not_high_confidence_accept": 73,
+          "similarity_below_0_92": 1494,
+          "too_many_changed_characters": 981,
+          "whitespace_only": 9
+        }
+      }
+    },
+    {
+      "position": 7,
+      "doc_id": "doc007",
+      "ranges": [
+        [
+          1,
+          249
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-21T17:48:41.344240+00:00",
+        "doc_id": "doc007",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc007.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc007\\doc007\\ocr\\doc007_middle.json",
+        "selected_pages": 249,
+        "recorded_pages": 249,
+        "status_counts": {
+          "success": 249
+        },
+        "visually_reviewed_pages": 249,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1147,
+        "usage": {
+          "prompt_tokens": 453016,
+          "completion_tokens": 191389,
+          "total_tokens": 644405
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T18:14:00.775522+00:00",
+        "doc_id": "doc007",
+        "candidate_pages": 221,
+        "recorded_pages": 221,
+        "status_counts": {
+          "success": 221
+        },
+        "decisions": {
+          "accept": 1071,
+          "reject": 75,
+          "uncertain": 1
+        },
+        "usage": {
+          "prompt_tokens": 573824,
+          "completion_tokens": 51598,
+          "total_tokens": 625422
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1147,
+        "applied": 172,
+        "newly_applied": 172,
+        "already_applied": 0,
+        "recorded_not_applied": 975,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 172,
+          "automatic_full_page_insertion_forbidden": 31,
+          "identical": 877,
+          "length_change_too_large": 7,
+          "missing_ocr_text_block": 31,
+          "old_text_not_uniquely_located": 217,
+          "second_pass_evidence_not_auditable": 3,
+          "second_pass_not_high_confidence_accept": 79,
+          "similarity_below_0_92": 32,
+          "too_many_changed_characters": 10,
+          "whitespace_only": 11
+        }
+      }
+    },
+    {
+      "position": 8,
+      "doc_id": "doc008",
+      "ranges": [
+        [
+          1,
+          253
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-21T19:03:11.413829+00:00",
+        "doc_id": "doc008",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc008.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc008\\doc008\\ocr\\doc008_middle.json",
+        "selected_pages": 253,
+        "recorded_pages": 253,
+        "status_counts": {
+          "success": 253
+        },
+        "visually_reviewed_pages": 253,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1222,
+        "usage": {
+          "prompt_tokens": 396354,
+          "completion_tokens": 168920,
+          "total_tokens": 565274
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T19:28:06.503773+00:00",
+        "doc_id": "doc008",
+        "candidate_pages": 230,
+        "recorded_pages": 230,
+        "status_counts": {
+          "success": 230
+        },
+        "decisions": {
+          "accept": 1167,
+          "reject": 46,
+          "uncertain": 9
+        },
+        "usage": {
+          "prompt_tokens": 525158,
+          "completion_tokens": 51694,
+          "total_tokens": 576852
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1222,
+        "applied": 134,
+        "newly_applied": 134,
+        "already_applied": 0,
+        "recorded_not_applied": 1088,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 134,
+          "automatic_full_page_insertion_forbidden": 3,
+          "first_pass_not_high_confidence": 5,
+          "identical": 1001,
+          "length_change_too_large": 13,
+          "missing_ocr_text_block": 3,
+          "old_text_not_uniquely_located": 346,
+          "second_pass_evidence_not_auditable": 5,
+          "second_pass_not_high_confidence_accept": 60,
+          "similarity_below_0_92": 35,
+          "too_many_changed_characters": 15,
+          "whitespace_only": 27
+        }
+      }
+    },
+    {
+      "position": 9,
+      "doc_id": "doc009",
+      "ranges": [
+        [
+          1,
+          262
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-21T20:26:10.756427+00:00",
+        "doc_id": "doc009",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc009.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc009\\doc009\\ocr\\doc009_middle.json",
+        "selected_pages": 262,
+        "recorded_pages": 262,
+        "status_counts": {
+          "success": 262
+        },
+        "visually_reviewed_pages": 262,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1326,
+        "usage": {
+          "prompt_tokens": 478031,
+          "completion_tokens": 207863,
+          "total_tokens": 685894
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T20:49:59.301322+00:00",
+        "doc_id": "doc009",
+        "candidate_pages": 241,
+        "recorded_pages": 241,
+        "status_counts": {
+          "success": 241
+        },
+        "decisions": {
+          "reject": 60,
+          "accept": 1262,
+          "uncertain": 4
+        },
+        "usage": {
+          "prompt_tokens": 608753,
+          "completion_tokens": 64057,
+          "total_tokens": 672810
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1326,
+        "applied": 255,
+        "newly_applied": 255,
+        "already_applied": 0,
+        "recorded_not_applied": 1071,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 255,
+          "automatic_full_page_insertion_forbidden": 46,
+          "first_pass_not_high_confidence": 2,
+          "identical": 875,
+          "length_change_too_large": 6,
+          "missing_ocr_text_block": 46,
+          "old_text_not_uniquely_located": 292,
+          "second_pass_evidence_not_auditable": 6,
+          "second_pass_not_high_confidence_accept": 70,
+          "similarity_below_0_92": 38,
+          "too_many_changed_characters": 3,
+          "whitespace_only": 78
+        }
+      }
+    },
+    {
+      "position": 10,
+      "doc_id": "doc010",
+      "ranges": [
+        [
+          1,
+          256
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-21T21:27:37.298200+00:00",
+        "doc_id": "doc010",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc010.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc010\\doc010\\ocr\\doc010_middle.json",
+        "selected_pages": 256,
+        "recorded_pages": 256,
+        "status_counts": {
+          "success": 256
+        },
+        "visually_reviewed_pages": 256,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1170,
+        "usage": {
+          "prompt_tokens": 421308,
+          "completion_tokens": 160004,
+          "total_tokens": 581312
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T21:47:22.432655+00:00",
+        "doc_id": "doc010",
+        "candidate_pages": 241,
+        "recorded_pages": 241,
+        "status_counts": {
+          "success": 241
+        },
+        "decisions": {
+          "accept": 1094,
+          "reject": 71,
+          "uncertain": 5
+        },
+        "usage": {
+          "prompt_tokens": 541229,
+          "completion_tokens": 49802,
+          "total_tokens": 591031
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1170,
+        "applied": 132,
+        "newly_applied": 132,
+        "already_applied": 0,
+        "recorded_not_applied": 1038,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 132,
+          "automatic_full_page_insertion_forbidden": 12,
+          "first_pass_not_high_confidence": 3,
+          "identical": 859,
+          "length_change_too_large": 11,
+          "missing_ocr_text_block": 12,
+          "old_text_not_uniquely_located": 291,
+          "second_pass_evidence_not_auditable": 24,
+          "second_pass_not_high_confidence_accept": 98,
+          "similarity_below_0_92": 81,
+          "too_many_changed_characters": 14,
+          "whitespace_only": 33
+        }
+      }
+    },
+    {
+      "position": 11,
+      "doc_id": "doc011",
+      "ranges": [
+        [
+          1,
+          161
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-21T22:08:37.141324+00:00",
+        "doc_id": "doc011",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc011.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc011\\doc011\\ocr\\doc011_middle.json",
+        "selected_pages": 161,
+        "recorded_pages": 161,
+        "status_counts": {
+          "success": 161
+        },
+        "visually_reviewed_pages": 161,
+        "source_damaged_pages": 0,
+        "correction_candidates": 338,
+        "usage": {
+          "prompt_tokens": 268726,
+          "completion_tokens": 86136,
+          "total_tokens": 354862
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T22:21:07.107993+00:00",
+        "doc_id": "doc011",
+        "candidate_pages": 153,
+        "recorded_pages": 153,
+        "status_counts": {
+          "success": 153
+        },
+        "decisions": {
+          "accept": 316,
+          "reject": 21,
+          "uncertain": 1
+        },
+        "usage": {
+          "prompt_tokens": 324822,
+          "completion_tokens": 28670,
+          "total_tokens": 353492
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 338,
+        "applied": 67,
+        "newly_applied": 67,
+        "already_applied": 0,
+        "recorded_not_applied": 271,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 67,
+          "automatic_full_page_insertion_forbidden": 5,
+          "identical": 133,
+          "length_change_too_large": 72,
+          "missing_ocr_text_block": 5,
+          "old_text_not_uniquely_located": 87,
+          "second_pass_not_high_confidence_accept": 22,
+          "similarity_below_0_92": 56,
+          "too_many_changed_characters": 85,
+          "whitespace_only": 5
+        }
+      }
+    },
+    {
+      "position": 12,
+      "doc_id": "doc012",
+      "ranges": [
+        [
+          1,
+          29
+        ],
+        [
+          30,
+          113
+        ],
+        [
+          114,
+          166
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-21T22:43:43.903503+00:00",
+        "doc_id": "doc012",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc012.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc012\\doc012\\ocr\\doc012_middle.json",
+        "selected_pages": 166,
+        "recorded_pages": 166,
+        "status_counts": {
+          "success": 166
+        },
+        "visually_reviewed_pages": 166,
+        "source_damaged_pages": 0,
+        "correction_candidates": 540,
+        "usage": {
+          "prompt_tokens": 260842,
+          "completion_tokens": 100192,
+          "total_tokens": 361034
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-21T22:56:13.437853+00:00",
+        "doc_id": "doc012",
+        "candidate_pages": 150,
+        "recorded_pages": 150,
+        "status_counts": {
+          "success": 150
+        },
+        "decisions": {
+          "accept": 489,
+          "reject": 48,
+          "uncertain": 3
+        },
+        "usage": {
+          "prompt_tokens": 313118,
+          "completion_tokens": 37812,
+          "total_tokens": 350930
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 540,
+        "applied": 25,
+        "newly_applied": 25,
+        "already_applied": 0,
+        "recorded_not_applied": 515,
+        "changed_books": 3,
+        "reason_counts": {
+          "applied": 25,
+          "automatic_full_page_insertion_forbidden": 25,
+          "identical": 174,
+          "length_change_too_large": 155,
+          "missing_ocr_text_block": 25,
+          "old_text_not_uniquely_located": 300,
+          "second_pass_not_high_confidence_accept": 51,
+          "similarity_below_0_92": 176,
+          "too_many_changed_characters": 167,
+          "whitespace_only": 69
+        }
+      }
+    },
+    {
+      "position": 13,
+      "doc_id": "doc013",
+      "ranges": [
+        [
+          5,
+          156
+        ],
+        [
+          157,
+          242
+        ],
+        [
+          243,
+          322
+        ],
+        [
+          323,
+          340
+        ],
+        [
+          341,
+          528
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T00:58:11.721030+00:00",
+        "doc_id": "doc013",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc013.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc013\\doc013\\ocr\\doc013_middle.json",
+        "selected_pages": 524,
+        "recorded_pages": 524,
+        "status_counts": {
+          "success": 524
+        },
+        "visually_reviewed_pages": 524,
+        "source_damaged_pages": 0,
+        "correction_candidates": 2579,
+        "usage": {
+          "prompt_tokens": 494928,
+          "completion_tokens": 563198,
+          "total_tokens": 1058126
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T02:30:46.482179+00:00",
+        "doc_id": "doc013",
+        "candidate_pages": 485,
+        "recorded_pages": 485,
+        "status_counts": {
+          "success": 485
+        },
+        "decisions": {
+          "accept": 2147,
+          "reject": 232,
+          "uncertain": 200
+        },
+        "usage": {
+          "prompt_tokens": 880158,
+          "completion_tokens": 178114,
+          "total_tokens": 1058272
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 2579,
+        "applied": 148,
+        "newly_applied": 148,
+        "already_applied": 0,
+        "recorded_not_applied": 2431,
+        "changed_books": 5,
+        "reason_counts": {
+          "applied": 148,
+          "automatic_full_page_insertion_forbidden": 71,
+          "empty_old_or_new": 1,
+          "first_pass_not_high_confidence": 198,
+          "identical": 1523,
+          "length_change_too_large": 187,
+          "missing_ocr_text_block": 71,
+          "old_text_not_uniquely_located": 1286,
+          "second_pass_evidence_not_auditable": 15,
+          "second_pass_not_high_confidence_accept": 454,
+          "similarity_below_0_92": 388,
+          "too_many_changed_characters": 250,
+          "whitespace_only": 135
+        }
+      }
+    },
+    {
+      "position": 14,
+      "doc_id": "doc014",
+      "ranges": [
+        [
+          5,
+          297
+        ],
+        [
+          298,
+          457
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T05:13:18.533250+00:00",
+        "doc_id": "doc014",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc014.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc014\\doc014\\ocr\\doc014_middle.json",
+        "selected_pages": 453,
+        "recorded_pages": 453,
+        "status_counts": {
+          "success": 449,
+          "source_damaged": 4
+        },
+        "visually_reviewed_pages": 449,
+        "source_damaged_pages": 4,
+        "correction_candidates": 3035,
+        "usage": {
+          "prompt_tokens": 430057,
+          "completion_tokens": 495791,
+          "total_tokens": 925848
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T06:38:23.507545+00:00",
+        "doc_id": "doc014",
+        "candidate_pages": 437,
+        "recorded_pages": 437,
+        "status_counts": {
+          "success": 437
+        },
+        "decisions": {
+          "accept": 2759,
+          "reject": 216,
+          "uncertain": 60
+        },
+        "usage": {
+          "prompt_tokens": 849134,
+          "completion_tokens": 186952,
+          "total_tokens": 1036086
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 3035,
+        "applied": 195,
+        "newly_applied": 195,
+        "already_applied": 0,
+        "recorded_not_applied": 2840,
+        "changed_books": 2,
+        "reason_counts": {
+          "applied": 195,
+          "automatic_full_page_insertion_forbidden": 99,
+          "empty_old_or_new": 1,
+          "first_pass_not_high_confidence": 31,
+          "identical": 1875,
+          "length_change_too_large": 190,
+          "missing_ocr_text_block": 99,
+          "old_text_not_uniquely_located": 1239,
+          "second_pass_not_high_confidence_accept": 275,
+          "similarity_below_0_92": 335,
+          "too_many_changed_characters": 207,
+          "whitespace_only": 224
+        }
+      }
+    },
+    {
+      "position": 15,
+      "doc_id": "doc015",
+      "ranges": [
+        [
+          1,
+          53
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T06:52:01.997096+00:00",
+        "doc_id": "doc015",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc015.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc015\\doc015\\ocr\\doc015_middle.json",
+        "selected_pages": 53,
+        "recorded_pages": 53,
+        "status_counts": {
+          "success": 53
+        },
+        "visually_reviewed_pages": 53,
+        "source_damaged_pages": 0,
+        "correction_candidates": 150,
+        "usage": {
+          "prompt_tokens": 95952,
+          "completion_tokens": 34224,
+          "total_tokens": 130176
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T06:56:51.639364+00:00",
+        "doc_id": "doc015",
+        "candidate_pages": 51,
+        "recorded_pages": 51,
+        "status_counts": {
+          "success": 51
+        },
+        "decisions": {
+          "accept": 145,
+          "reject": 5
+        },
+        "usage": {
+          "prompt_tokens": 120008,
+          "completion_tokens": 14178,
+          "total_tokens": 134186
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 150,
+        "applied": 33,
+        "newly_applied": 33,
+        "already_applied": 0,
+        "recorded_not_applied": 117,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 33,
+          "automatic_full_page_insertion_forbidden": 2,
+          "identical": 24,
+          "length_change_too_large": 49,
+          "missing_ocr_text_block": 2,
+          "old_text_not_uniquely_located": 38,
+          "second_pass_not_high_confidence_accept": 5,
+          "similarity_below_0_92": 59,
+          "too_many_changed_characters": 44,
+          "whitespace_only": 14
+        }
+      }
+    },
+    {
+      "position": 16,
+      "doc_id": "doc016",
+      "ranges": [
+        [
+          1,
+          190
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T07:39:21.562885+00:00",
+        "doc_id": "doc016",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc016.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc016\\doc016\\ocr\\doc016_middle.json",
+        "selected_pages": 190,
+        "recorded_pages": 190,
+        "status_counts": {
+          "success": 190
+        },
+        "visually_reviewed_pages": 190,
+        "source_damaged_pages": 0,
+        "correction_candidates": 289,
+        "usage": {
+          "prompt_tokens": 386366,
+          "completion_tokens": 120459,
+          "total_tokens": 506825
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T08:01:02.419005+00:00",
+        "doc_id": "doc016",
+        "candidate_pages": 152,
+        "recorded_pages": 152,
+        "status_counts": {
+          "success": 152
+        },
+        "decisions": {
+          "uncertain": 41,
+          "accept": 221,
+          "reject": 27
+        },
+        "usage": {
+          "prompt_tokens": 384109,
+          "completion_tokens": 34248,
+          "total_tokens": 418357
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 289,
+        "applied": 18,
+        "newly_applied": 18,
+        "already_applied": 0,
+        "recorded_not_applied": 271,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 18,
+          "automatic_full_page_insertion_forbidden": 29,
+          "first_pass_not_high_confidence": 38,
+          "identical": 72,
+          "length_change_too_large": 89,
+          "missing_ocr_text_block": 29,
+          "old_text_not_uniquely_located": 154,
+          "second_pass_not_high_confidence_accept": 64,
+          "similarity_below_0_92": 127,
+          "too_many_changed_characters": 118,
+          "whitespace_only": 4
+        }
+      }
+    },
+    {
+      "position": 17,
+      "doc_id": "doc017",
+      "ranges": [
+        [
+          1,
+          258
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T10:49:21.339112+00:00",
+        "doc_id": "doc017",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc017.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc017\\doc017\\ocr\\doc017_middle.json",
+        "selected_pages": 258,
+        "recorded_pages": 258,
+        "status_counts": {
+          "success": 258
+        },
+        "visually_reviewed_pages": 258,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1557,
+        "usage": {
+          "prompt_tokens": 667611,
+          "completion_tokens": 454668,
+          "total_tokens": 1122279
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T11:42:38.557307+00:00",
+        "doc_id": "doc017",
+        "candidate_pages": 221,
+        "recorded_pages": 221,
+        "status_counts": {
+          "success": 221
+        },
+        "decisions": {
+          "accept": 1487,
+          "reject": 40,
+          "uncertain": 30
+        },
+        "usage": {
+          "prompt_tokens": 897233,
+          "completion_tokens": 113667,
+          "total_tokens": 1010900
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1557,
+        "applied": 214,
+        "newly_applied": 214,
+        "already_applied": 0,
+        "recorded_not_applied": 1343,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 214,
+          "automatic_full_page_insertion_forbidden": 18,
+          "first_pass_not_high_confidence": 30,
+          "identical": 939,
+          "length_change_too_large": 78,
+          "missing_ocr_text_block": 18,
+          "new_text_contains_invalid_character": 1,
+          "old_text_not_uniquely_located": 578,
+          "second_pass_not_high_confidence_accept": 72,
+          "similarity_below_0_92": 159,
+          "too_many_changed_characters": 102,
+          "whitespace_only": 46
+        }
+      }
+    },
+    {
+      "position": 18,
+      "doc_id": "doc019",
+      "ranges": [
+        [
+          1,
+          39
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T12:26:52.145196+00:00",
+        "doc_id": "doc019",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc019.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc019\\doc019\\ocr\\doc019_middle.json",
+        "selected_pages": 39,
+        "recorded_pages": 39,
+        "status_counts": {
+          "success": 39
+        },
+        "visually_reviewed_pages": 39,
+        "source_damaged_pages": 0,
+        "correction_candidates": 275,
+        "usage": {
+          "prompt_tokens": 42723,
+          "completion_tokens": 49725,
+          "total_tokens": 92448
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T12:31:12.406348+00:00",
+        "doc_id": "doc019",
+        "candidate_pages": 38,
+        "recorded_pages": 38,
+        "status_counts": {
+          "success": 38
+        },
+        "decisions": {
+          "accept": 249,
+          "reject": 20,
+          "uncertain": 6
+        },
+        "usage": {
+          "prompt_tokens": 84745,
+          "completion_tokens": 17262,
+          "total_tokens": 102007
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 275,
+        "applied": 14,
+        "newly_applied": 14,
+        "already_applied": 0,
+        "recorded_not_applied": 261,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 14,
+          "automatic_full_page_insertion_forbidden": 6,
+          "first_pass_not_high_confidence": 6,
+          "identical": 199,
+          "length_change_too_large": 4,
+          "missing_ocr_text_block": 6,
+          "old_text_not_uniquely_located": 144,
+          "second_pass_not_high_confidence_accept": 26,
+          "similarity_below_0_92": 28,
+          "too_many_changed_characters": 25,
+          "whitespace_only": 1
+        }
+      }
+    },
+    {
+      "position": 19,
+      "doc_id": "doc020",
+      "ranges": [
+        [
+          1,
+          383
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T15:52:01.251364+00:00",
+        "doc_id": "doc020",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc020.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc020\\doc020\\ocr\\doc020_middle.json",
+        "selected_pages": 383,
+        "recorded_pages": 383,
+        "status_counts": {
+          "success": 383
+        },
+        "visually_reviewed_pages": 383,
+        "source_damaged_pages": 0,
+        "correction_candidates": 2052,
+        "usage": {
+          "prompt_tokens": 1898707,
+          "completion_tokens": 457579,
+          "total_tokens": 2356286
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T18:03:35.083394+00:00",
+        "doc_id": "doc020",
+        "candidate_pages": 340,
+        "recorded_pages": 340,
+        "status_counts": {
+          "success": 340
+        },
+        "decisions": {
+          "accept": 1971,
+          "reject": 74,
+          "uncertain": 7
+        },
+        "usage": {
+          "prompt_tokens": 2056358,
+          "completion_tokens": 185560,
+          "total_tokens": 2241918
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 2052,
+        "applied": 61,
+        "newly_applied": 61,
+        "already_applied": 0,
+        "recorded_not_applied": 1991,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 61,
+          "automatic_full_page_insertion_forbidden": 15,
+          "first_pass_not_high_confidence": 7,
+          "identical": 801,
+          "length_change_too_large": 509,
+          "missing_ocr_text_block": 15,
+          "old_text_not_uniquely_located": 1027,
+          "second_pass_not_high_confidence_accept": 82,
+          "similarity_below_0_92": 650,
+          "too_many_changed_characters": 603,
+          "whitespace_only": 351
+        }
+      }
+    },
+    {
+      "position": 20,
+      "doc_id": "doc021",
+      "ranges": [
+        [
+          1,
+          442
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T19:41:44.835837+00:00",
+        "doc_id": "doc021",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc021.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc021\\doc021\\ocr\\doc021_middle.json",
+        "selected_pages": 442,
+        "recorded_pages": 442,
+        "status_counts": {
+          "success": 442
+        },
+        "visually_reviewed_pages": 442,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1427,
+        "usage": {
+          "prompt_tokens": 1250540,
+          "completion_tokens": 306769,
+          "total_tokens": 1557309
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T20:33:46.668872+00:00",
+        "doc_id": "doc021",
+        "candidate_pages": 379,
+        "recorded_pages": 379,
+        "status_counts": {
+          "success": 379
+        },
+        "decisions": {
+          "accept": 1332,
+          "reject": 84,
+          "uncertain": 11
+        },
+        "usage": {
+          "prompt_tokens": 1348138,
+          "completion_tokens": 113737,
+          "total_tokens": 1461875
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1427,
+        "applied": 116,
+        "newly_applied": 116,
+        "already_applied": 0,
+        "recorded_not_applied": 1311,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 116,
+          "automatic_full_page_insertion_forbidden": 21,
+          "empty_old_or_new": 1,
+          "first_pass_not_high_confidence": 9,
+          "identical": 500,
+          "length_change_too_large": 98,
+          "missing_ocr_text_block": 21,
+          "old_text_not_uniquely_located": 619,
+          "second_pass_not_high_confidence_accept": 95,
+          "similarity_below_0_92": 151,
+          "too_many_changed_characters": 98,
+          "whitespace_only": 497
+        }
+      }
+    },
+    {
+      "position": 21,
+      "doc_id": "doc022",
+      "ranges": [
+        [
+          1,
+          342
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T21:43:02.597881+00:00",
+        "doc_id": "doc022",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc022.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc022\\doc022\\ocr\\doc022_middle.json",
+        "selected_pages": 342,
+        "recorded_pages": 342,
+        "status_counts": {
+          "success": 342
+        },
+        "visually_reviewed_pages": 342,
+        "source_damaged_pages": 0,
+        "correction_candidates": 1312,
+        "usage": {
+          "prompt_tokens": 1211479,
+          "completion_tokens": 260742,
+          "total_tokens": 1472221
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T22:34:09.849094+00:00",
+        "doc_id": "doc022",
+        "candidate_pages": 268,
+        "recorded_pages": 268,
+        "status_counts": {
+          "success": 268
+        },
+        "decisions": {
+          "accept": 1263,
+          "reject": 34,
+          "uncertain": 15
+        },
+        "usage": {
+          "prompt_tokens": 1152319,
+          "completion_tokens": 106354,
+          "total_tokens": 1258673
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 1312,
+        "applied": 58,
+        "newly_applied": 58,
+        "already_applied": 0,
+        "recorded_not_applied": 1254,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 58,
+          "automatic_full_page_insertion_forbidden": 23,
+          "first_pass_not_high_confidence": 11,
+          "identical": 593,
+          "length_change_too_large": 168,
+          "missing_ocr_text_block": 23,
+          "old_text_not_uniquely_located": 681,
+          "second_pass_not_high_confidence_accept": 49,
+          "similarity_below_0_92": 236,
+          "too_many_changed_characters": 234,
+          "whitespace_only": 246
+        }
+      }
+    },
+    {
+      "position": 22,
+      "doc_id": "doc023",
+      "ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "proof": {
+        "generated_at": "2026-09-22T22:43:06.214960+00:00",
+        "doc_id": "doc023",
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "pdf": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\doc023.pdf",
+        "middle_json": "C:\\Users\\QIQI\\.codex\\visualizations\\2026\\09\\18\\01a0b255-9285-73d3-b98d-0ebe46512e50\\ocr_batch\\full-output\\doc023\\doc023\\ocr\\doc023_middle.json",
+        "selected_pages": 80,
+        "recorded_pages": 80,
+        "status_counts": {
+          "success": 80
+        },
+        "visually_reviewed_pages": 80,
+        "source_damaged_pages": 0,
+        "correction_candidates": 123,
+        "usage": {
+          "prompt_tokens": 164987,
+          "completion_tokens": 15969,
+          "total_tokens": 180956
+        },
+        "complete": true
+      },
+      "judge": {
+        "generated_at": "2026-09-22T22:48:52.725441+00:00",
+        "doc_id": "doc023",
+        "candidate_pages": 79,
+        "recorded_pages": 79,
+        "status_counts": {
+          "success": 79
+        },
+        "decisions": {
+          "accept": 107,
+          "uncertain": 8,
+          "reject": 8
+        },
+        "usage": {
+          "prompt_tokens": 169374,
+          "completion_tokens": 8866,
+          "total_tokens": 178240
+        },
+        "complete": true
+      },
+      "apply": {
+        "candidates": 123,
+        "applied": 16,
+        "newly_applied": 16,
+        "already_applied": 0,
+        "recorded_not_applied": 107,
+        "changed_books": 1,
+        "reason_counts": {
+          "applied": 16,
+          "automatic_full_page_insertion_forbidden": 45,
+          "first_pass_not_high_confidence": 3,
+          "identical": 30,
+          "length_change_too_large": 17,
+          "missing_ocr_text_block": 45,
+          "old_text_not_uniquely_located": 20,
+          "second_pass_not_high_confidence_accept": 13,
+          "similarity_below_0_92": 17,
+          "too_many_changed_characters": 16,
+          "whitespace_only": 2
+        }
+      }
+    }
+  ],
+  "explicitly_not_processed": {
+    "duplicate_source_pages": 258,
+    "collection_excluded_pages": 22,
+    "reason": "These pages have no unique logical-book destination in the 36-book V2 set."
+  },
+  "usage": {
+    "prompt_tokens": 27799226,
+    "completion_tokens": 7785430,
+    "total_tokens": 35584656
+  },
+  "estimated_cost_rmb": 68.5484,
+  "documents_completed": 22
+}
