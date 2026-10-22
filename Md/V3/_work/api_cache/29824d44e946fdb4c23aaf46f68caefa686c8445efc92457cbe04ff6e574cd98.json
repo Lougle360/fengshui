@@ -1,0 +1,192 @@
+{
+  "created_at": "2026-09-23T09:12:27.654058+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "29824d44e946fdb4c23aaf46f68caefa686c8445efc92457cbe04ff6e574cd98",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000387-p000-2a3d62b934",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000388-p000-8ad77fbd2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000389-p000-fc7d783b7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘丙山丑艮落，庚兑落，乾亥落，辛兑落’，candidate 译为‘丙山在丑艮方落脉，庚方在兑方落脉，乾亥方落脉，辛方在兑方落脉’。‘庚兑落’和‘辛兑落’的结构与‘丙山丑艮落’一致，应理解为‘丙山在庚兑方落脉’和‘丙山在辛兑方落脉’，candidate 的译法（‘庚方在兑方落脉’）改变了原文结构，可能导致误解。‘乾亥落’也应理解为‘丙山在乾亥方落脉’，candidate 译为‘乾亥方落脉’省略了主语‘丙山’，不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000390-p000-c9020ffd55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000391-p000-76b24b0caf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000392-p000-5a2c50251f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000393-p000-e7e00148b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巽卯水入主寿者，贫而禄者夭’是一个对仗或并列结构，意为‘巽卯水入，主寿者贫而禄者夭’。candidate 译为‘巽卯水入主长寿，但贫而禄者会夭折’，将‘寿者’与‘贫而禄者’处理为转折关系，改变了原文的并列对比关系，且‘主长寿’的译法不够准确，原文是‘主寿者’（主长寿之人）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000394-p000-3fdda50c05",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000395-p000-ab5fbcc8a5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000396-p000-1bddb2a081",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000397-p000-41222ea499",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘丙龙为赦文主禄，贵旺人丁喜艮砂。水主长寿中少先，发喜回龙侧落三。阳水会累世富贵，子午水仲房军贼。申寅甲水，季子不祥。辰戌丑未水，孤寡少亡。壬癸水长生灾殃，乾水祸生不测。’是一段韵文，句式紧凑。candidate 释读时进行了拆分和补充，但部分处理可能偏离原意或不够准确：1. ‘水主长寿中少先’译为‘水主长寿，但中房先少后多’，‘中少先’的解读（中房先少后多）属于推测，原文未明确此意，可能指中房和少房，或指中年和少年。2. ‘发喜回龙侧落三’译为‘发福喜见回龙侧落三处’，‘三处’是增译，原文‘三’可能指数量、三种情况或与‘回龙侧落’构成固定术语，不宜具体化。3. ‘壬癸水长生灾殃’译为‘壬癸方位的水主长生灾殃’，‘长生’在风水术数中有特定含义（十二长生诀），此处可能指与‘长生’位相关的水带来灾殃，candidate 将其与‘灾殃’直接连读为‘长生灾殃’，可能误解了术语结构。"
+        ],
+        "uncertainty": [
+          "‘水主长寿中少先’的具体含义。",
+          "‘发喜回龙侧落三’中‘三’的具体所指。",
+          "‘壬癸水长生灾殃’中‘长生’是否为风水十二长生术语及其具体含义。"
+        ]
+      },
+      {
+        "id": "book001-b000398-p000-1a7260d119",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘艮丙水去长来远主，学问智谋，文武全才，金紫不绝。人巽辛兑丁，大富贵。先旺中小荫，亥卯未寅午戌，大发财禄。申子辰年，先进小房，其次中房。利丑寅，应二与八年。’candidate 释读存在几处问题：1. ‘艮丙水去长来远主’译为‘艮丙方位的水去势长远，主...’，将‘去长来远’合并解释为‘去势长远’，但原文可能是‘去长、来远’两种情形，或‘去长来远’作为一个短语描述水势。candidate 的译法简化了可能的结构。2. ‘人巽辛兑丁，大富贵’译为‘巽辛兑丁方位的人，可获大富贵’，增加了‘方位的人’，但原文‘人’可能指‘入’，即水流或气入于这些方位，或指‘位于’这些方位。candidate 的解读将‘人’理解为‘人丁’或‘居住者’，属于推测。3. ‘先旺中小荫’译为‘先旺中小房’，‘荫’字未译出，可能指荫庇、福荫。4. ‘亥卯未寅午戌，大发财禄’译为‘亥卯未寅午戌年份，大发财禄’，增加了‘年份’，但原文可能指这些地支对应的方位或时间，candidate 将其限定为年份，属于无依据的具体化。5. ‘利丑寅，应二与八年’译为‘利于丑寅方位，应在二与八年应验’，‘二与八年’可能指二年和八年，或泛指二、八之数，candidate 的译法可以接受，但需注意‘应’的解读。"
+        ],
+        "uncertainty": [
+          "‘艮丙水去长来远主’中‘去长来远’的具体结构及含义。",
+          "‘人巽辛兑丁’中‘人’字的确切含义（是‘入’还是指人丁）。",
+          "‘先旺中小荫’中‘荫’字的含义。",
+          "‘亥卯未寅午戌’在此处是指年份、方位还是其他。"
+        ]
+      },
+      {
+        "id": "book001-b000399-p000-4f4d559c22",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘五里以下者，非足金玉、旺财禄、骨脉清奇、魁元甲第，或因姻亲荣显。’candidate 译为‘五里以下者，若非金玉充足、财禄旺盛、骨脉清奇、科举高中，便是因姻亲而显赫。’将‘非足...或因...’结构处理为‘若非...便是...’，但原文‘非足...旺...清奇...甲第，或因...’是列举几种可能的情况，意思是‘（五里以下者，）如果不是具备金玉充足、财禄旺盛、骨脉清奇、魁元甲第这些条件，就是因为姻亲而荣显。’candidate 的‘若非...便是...’转折关系过于绝对，可能遗漏了并列多种情况的原意。"
+        ],
+        "uncertainty": [
+          "‘五里以下者’的具体所指（可能指龙脉行度距离？）。",
+          "原文列举的几种条件（金玉、财禄、骨脉、甲第）是必须全部满足还是部分满足。"
+        ]
+      },
+      {
+        "id": "book001-b000400-p000-2a729230d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000401-p000-98ee31c6ff",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文‘胃昴东二星最赤明者’译为‘胃昴二星中东方最“赤明”者’，将‘东二星’理解为‘东方最...’，但‘东二星’可能指‘胃’‘昴’二星在东方，或指‘胃’‘昴’是东方的两颗星。candidate 的译法稍显别扭。2. ‘戌乾小长皆刑’译为‘戌乾方位的小长皆受刑’，‘小长’可能指小房和长房，candidate 保留‘小长’可以，但未加说明，普通读者可能不解。3. ‘辰戌间主自刎’译为‘辰戌之间主自刎’，未明确是方位‘之间’还是时间‘之间’，但可接受。4. ‘子丑寅辰巳利卯，牛羊皆利。’译为‘子丑寅辰巳方位利卯，牛羊皆利。’后句‘牛羊皆利’未译，可能指丑（牛）未（羊）方位皆有利，或指生肖牛年和羊年有利。candidate 漏译了‘牛羊皆利’。5. 对于 opaque_term ‘赤明’，candidate 加了引号处理，符合要求。"
+        ],
+        "uncertainty": [
+          "‘胃昴东二星最赤明者’的准确断句和含义。",
+          "‘戌乾小长皆刑’中‘小长’具体指代。",
+          "‘辰戌间’具体指方位间还是时间间。",
+          "‘牛羊皆利’的具体含义（方位或年份）。"
+        ]
+      },
+      {
+        "id": "book001-b000402-p000-37e92fa5ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000403-p000-ca91bd3358",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000404-p000-5423145323",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000405-p000-1adcea86be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000406-p000-dd8b53b087",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4934,
+    "completion_tokens": 2540,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4934,
+      "completion_tokens": 2540,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-24T23:22:57.417323+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fa87e5a437b89b47018821bddd1d6333b736ff2141135da45c69caec66fd9321",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001135-p000-0e8fb969e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001136-p000-c93fe1e182",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "壯發勺、引祭的具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001138-p000-411ae234c6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "沙勤星民、一乘侯與隆的具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001139-p000-fbf2f5e72f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的日文假名「み者」被错误处理为「相关的内容」，属于无依据增译，应明确标注该部分具体所指不详"
+        ],
+        "uncertainty": [
+          "星E具体所指不详",
+          "天玉み者具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001140-p000-8ba0877e3c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“老龍朕報出平洋，百十里未吾”具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001141-p000-7dd2360e6d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001142-p000-168ac98691",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“挑祖離宗星辰出此之直龍骨有遙之出鬼除·文武脈中分”具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001143-p000-6a453bb6a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001145-p000-a62d618743",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中「B」「ま」「る」等OCR残留及日文假名未做标注，候选直接删除该类字符并顺读属于无依据调整，应明确标注存在无法识别的字符，原文语义不完整"
+        ],
+        "uncertainty": [
+          "常平扇、李源、留朋的具体所指不详",
+          "原文存在OCR识别错误字符及日文残留，整体语义不明确"
+        ]
+      },
+      {
+        "id": "book017-b001146-p000-ca8cc037dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「說っ」是日文假名残留，「时學星时而用」被简化为「學星而用」，遗漏了「时」的相关表述，属于漏译"
+        ],
+        "uncertainty": [
+          "脫報的具体所指不详",
+          "原文存在日文假名残留，语义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2159,
+    "completion_tokens": 834,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2159,
+      "completion_tokens": 834,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

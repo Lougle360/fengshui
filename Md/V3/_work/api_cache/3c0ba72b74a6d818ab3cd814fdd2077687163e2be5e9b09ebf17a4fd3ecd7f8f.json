@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-26T14:55:07.364628+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3c0ba72b74a6d818ab3cd814fdd2077687163e2be5e9b09ebf17a4fd3ecd7f8f",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000325-p000-506043f672",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 擅自改写原文开篇为白话释义，违背古籍整理保守性原则，应保留原文句式；2. 原文“也有好穴在高价”被误改为“在高处”，属于无依据修改原文内容；3. 对原文“德若深时穴明与旨扦也”擅自拆分改写，破坏原文结构；4. 无依据增译“求取”“符合要求”“平缓”“灾祸”“玄妙”“地理的奥妙”“观察”等原文未提及的内容，过度阐释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000327-p000-6d62220e45",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000328-p000-155ce81531",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6201,
+    "completion_tokens": 323,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6201,
+      "completion_tokens": 323,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

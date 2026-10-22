@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-18T02:59:41.456653+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f1ac241d8d5207165802bd1201cbc7a811909e2fffa2d7de43c53778867c014b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005224-p000-6507fb0990",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将原文的表格结构完全打乱，以叙述性文字概括，导致原文的并列、对照关系丢失，且无法判断释读是否准确对应了原文的每一部分。例如，原文表格有明确的列和行，candidate 却混为一谈。",
+          "candidate 将原文中大量因OCR或损坏导致的乱码（如'N'、'K'、'H'、'tM'、'up'、'd'、'A'等）直接当作符号或残缺符号处理，并试图解释其上下文，这超出了释读范围，应明确指出这些是原文损坏或乱码，无法释读。",
+          "candidate 对部分乱码进行了猜测性解读（如'镜'可能为'境'之误，'原日'可能为'原曰'之误，'发卡'可能为'发夹'之误），并将这些猜测写入释读文本，这属于无依据扩写。正确的做法是保留原样并说明其含义不明。",
+          "candidate 将原文中可能为术语或专有名词的乱码组合（如'左极'、'右共井'、'六紫'）直接当作确定概念使用，没有明确标注其不确定性。",
+          "candidate 的释读文本冗长且结构混乱，未能清晰区分原文的不同部分（如正文、注释、诗句），不符合'普通读者能读懂的白话释读'目标，更像是混乱原文的转述。",
+          "对于 locked_terms ('穴'、'水'、'明堂')，candidate 在释读中使用了这些词，但未确保其含义与 allowed_glossary 中的定义一致，且上下文混乱，难以判断。",
+          "candidate 的 writer_uncertainty 列表正确指出了问题点，但释读文本本身却对这些点进行了过度解释，自相矛盾。"
+        ],
+        "uncertainty": [
+          "原文表格内容因OCR损坏严重，大量字符为乱码或无法识别的符号，无法进行可靠的连贯释读。表格的原始结构和对应关系已不可考。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2751,
+    "completion_tokens": 475,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2751,
+      "completion_tokens": 475,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

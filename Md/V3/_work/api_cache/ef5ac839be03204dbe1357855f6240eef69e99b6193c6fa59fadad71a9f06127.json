@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T17:31:21.213760+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ef5ac839be03204dbe1357855f6240eef69e99b6193c6fa59fadad71a9f06127",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001004-p000-49ac93e1d1",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《彖传》说：“泰卦，柔小者往外、刚大者来内，吉祥，亨通。”这就是天地阴阳交合，万物的生养之道畅通；君臣上下交合，人们的思想意识协同。此时阳者居内、阴者居外，刚健者居内、柔弱者居外，君子居内、小人居外：所以君子之道盛昌，小人之道消亡。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001005-p000-0c14b16c6e",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《彖传》说：“通泰，柔小者往外、刚大者来内，吉祥，亨通。”这是表明天地阴阳交合、万物的生养之道畅通，君臣上下交合、人们的思想意识协同。此时阳者居内、阴者居外，刚健者居内、柔弱者居外，君子居内、小人居外：于是君子之道盛昌，小人之道消亡。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001006-p000-e691aad5dd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①天地交而万物通：天指下乾卦，地指上坤卦。这是依据上下卦象，说明天地阴阳交和、万物生养畅通的道理。《集解》引用何妥的话说：“这是阐明天道通泰的道理。泰卦的道理，原本是用来使万物得以生养的。如果天气上腾，地气下降，各自闭塞，不能相交，那么万物就没有办法生长。由此可知万物生长是因为天地交合。”按，自然现象中，比如地气受热上升为云，云气冷却下降为雨，在古人看来正属于“天地交”的道理。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001007-p000-95396c8116",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②上下交而其志同：上比喻君主，下比喻臣子。这句和前一句合起来解释卦名“泰”。《集解》引用何妥的话说：“这是阐明人事通泰的道理。上与下，就像君与臣，君臣相互感应，才能够济助养育万",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文此处残缺，仅能辨识至“济养万”"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1895,
+    "completion_tokens": 707,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1895,
+      "completion_tokens": 707,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

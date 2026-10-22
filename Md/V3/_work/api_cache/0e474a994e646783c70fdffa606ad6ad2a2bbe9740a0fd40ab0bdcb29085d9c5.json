@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-10-15T07:59:15.772352+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0e474a994e646783c70fdffa606ad6ad2a2bbe9740a0fd40ab0bdcb29085d9c5",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002130-p000-068ef48a0a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘方全寅 宜庚寅庚申’中，‘方全寅’在candidate中处理为‘原文作“方全寅”，此处“全”字含义存疑，可能为“合”或异体字，后文提及宜用庚寅、庚申。’，这属于对不确定内容的推测性解释，且将‘方全寅’与‘宜庚寅庚申’割裂。根据规则，应将含混短语原样保留并说明不确定，而非给出可能含义。candidate对‘方全寅’的处理超出了‘保留原短语并明确说“具体所指不详”“原文未明”’的边界。",
+          "candidate中‘持节镇守边疆，掌管生杀大权’是对‘持節邊疆掌生殺’的直译，但‘持節’在古文中是官职或使命象征，译为‘持节镇守边疆’有具体化之嫌，且‘掌管生杀大权’略显现代。应更通俗地译为‘执掌符节，在边疆地区拥有生杀予夺的权力’或类似，并保留其象征性。"
+        ],
+        "uncertainty": [
+          "“方全寅”的准确含义及与后文“宜庚寅庚申”的关系"
+        ]
+      },
+      {
+        "id": "book033-b002131-p000-0da96f15c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“维官”是否为“催官”之误",
+          "“河香”的具体含义",
+          "“卒”字的准确含义"
+        ]
+      },
+      {
+        "id": "book033-b002133-p000-22f8b98d65",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘天宮乙坤向穴天市艮氣奔左臉乃為利亢金微加穴粘左亦主富貴八招贅分金 誼卒林’。candidate将‘天宮’处理为‘“天宫”疑为“天官”之误’，这是对不确定内容的推测性认定，超出了‘保留原短语并说明不确定’的边界。应直接保留‘天宫’并说明含义不确定。",
+          "candidate将‘亢金’译为‘利亢金’，但‘亢金’是风水术语（如二十八宿中的亢宿属金），candidate未作任何说明或保留，可能造成术语漏译或误译。根据规则，opaque_terms虽为空，但此类专名若含义不确定，应原样保留在引号内或说明其不确定性。"
+        ],
+        "uncertainty": [
+          "“天宫”的具体含义",
+          "“左脸”的具体含义",
+          "“亢金”的具体含义",
+          "“八招赘分金 谊卒林”的具体含义"
+        ]
+      },
+      {
+        "id": "book033-b002136-p000-188031cc77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘天官乙借坐加青龍巳禁闕辰宮頒夜值’。candidate处理为‘天官乙借坐加青龙，原文作“巳禁阙辰宫颁夜值”，此处“巳”字断句及含义存疑，“禁阙辰宫颁夜值”具体所指不详。’。这里将‘巳’字从‘加青龙巳’中剥离，单独讨论断句，但原文‘加青龍巳’很可能是一个整体（即加青龙方的巳位）。candidate的断句方式可能改变了原意，且‘巳’作为方位词（地支）本有确定含义，不应列为存疑。应译为‘向青龙方加巳位’并连贯处理后续诗句。",
+          "candidate对‘禁闕辰宮頒夜值’的处理符合规则，保留了原短语并说明不详。"
+        ],
+        "uncertainty": [
+          "“禁阙辰宫颁夜值”的具体含义"
+        ]
+      },
+      {
+        "id": "book033-b002137-p000-addd7bcee7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“分金膜 谊巳亥”的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2346,
+    "completion_tokens": 895,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2346,
+      "completion_tokens": 895,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

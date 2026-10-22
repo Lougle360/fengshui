@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-24T20:54:33.058159+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "30456d967e227b8deb09b649a753d4ff1eff6d10ca1c274410bc050b2a800d18",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000094-p000-801da278d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“壬卯乙”，candidate正确保留，但原文“天之雅日卯地元龍明 甲人元龍公乙坛天元龍”存在OCR识别断句混乱问题，candidate直接按现有识别结果直译虽无错，但原文“忌幼”释为“忌讳幼星”无术语依据，属于无依据增译；原文“伝用梦巨門”的“梦”字未做合理标注，直接归入诀法名称不妥"
+        ],
+        "uncertainty": [
+          "“天之雅日卯地元龍明、甲人元龍公、乙坛天元龍”“梦巨门”“幼”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000095-p000-f52d9bc633",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "苟地九龙传、贪狼邪甲的具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000096-p000-ba2345993a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“而之食為負”“依作曾食之天不 伝”存在OCR断句错漏，candidate直接拼接为“曾食之天不传巨门之天元坤分阳收永”属于无依据组合原文残句；原文“贤中”释为“贤中秘藏的要诀”属于无依据增译，原文“末尾标注有数字0”属于多余表述，原文的“0”应为OCR识别的句末符号，无需单独指出"
+        ],
+        "uncertainty": [
+          "“顺死逆义”具体指代的规则内容未在原文明确说明，原文残句组合后的完整含义无法完全确定"
+        ]
+      },
+      {
+        "id": "book017-b000098-p000-47645511f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为“旅神”，candidate误写为“流神”，属于字义错译；原文“涼神”candidate误写为“流神”，属于字义错译"
+        ],
+        "uncertainty": [
+          "“旅神”“凉神”“阳一位”“隅一位”具体含义未明"
+        ]
+      },
+      {
+        "id": "book017-b000099-p000-e33f9ae05f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000100-p000-3f84a613c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头的日文假名“ね”未做标注，candidate直接删除属于漏译；原文“欲宜隱歲之出紅宜通暢宜開陽”candidate漏译“欲”“红”字，且错误断句为“岁之出宜通畅宜开。阳此以论”，属于断句错误；原文“星定恆山出然”candidate直译未标注不明，未说明内容存疑"
+        ],
+        "uncertainty": [
+          "原文存在日文混入、语序混乱、OCR残缺，大部分内容含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000101-p000-aad674dd6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子手間”应为OCR识别错误，实际是“子午间”，candidate未做标注直接保留“子手”属于错误；原文“收欽須將生氣象半關”candidate释为“其余的山谷收气，需要将生气象半关”属于无依据增译，“收钦”未明确标注存疑，“生气象半关”属于未转换的晦涩表述"
+        ],
+        "uncertainty": [
+          "四莫季乙丁孔山、收钦、生气象半关的具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000103-p000-413e99cf14",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“+2山”是OCR识别的“十四山”讹误，candidate直接释为“再加2个山的朝向”属于无依据采信识别错误；原文“勉向訴为收山向”candidate释为“勉强算作收山向”属于错译，“勉向訴”语义不明应标注存疑"
+        ],
+        "uncertainty": [
+          "“层、丸、字、终”均为OCR识别错字，原文所指的具体山名、“勉向诉”的含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000104-p000-cb76a08d62",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR识别错误、语序混乱、多处文字语义无法识别，大部分内容含义不明，无法进行准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000105-p000-a1a02d85da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“言空三法”的具体所指、“公地理辨正直决”是否为书籍名称无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 733,
+    "completion_tokens": 80,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2622,
+      "completion_tokens": 1225,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 733,
+      "completion_tokens": 80,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

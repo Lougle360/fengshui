@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-16T08:32:48.704673+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a7958c291dc30e95347c6fbbdfcc946da011b1201826994763dec599ec4d94c7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001550-p000-77d03570e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘主’释为‘预示着’，但原文‘主’更可能表示‘主导’或‘主有’，即‘主人会有淫乱、贱疾、克害’。candidate的释读改变了原文的因果关系。",
+          "candidate将‘贱疾克’拆解为‘低贱的疾病或克害’，但原文‘贱疾克’可能是一个并列短语，指‘低贱、疾病、克害’三种情况。candidate的‘或’字合并了原文的并列项，可能造成信息遗漏。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001553-p000-053ba7f736",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘木頭金腳’这一术语的具体形态和所指不详",
+          "‘离杀’格局的具体吉凶含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 803,
+    "completion_tokens": 217,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 803,
+      "completion_tokens": 217,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

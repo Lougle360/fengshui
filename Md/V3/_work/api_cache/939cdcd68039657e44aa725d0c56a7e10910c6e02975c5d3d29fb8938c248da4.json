@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:34:45.504632+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "939cdcd68039657e44aa725d0c56a7e10910c6e02975c5d3d29fb8938c248da4",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000722-p000-f9716e99d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘明朝暗拱’的具体所指未明，释读为‘朝山与暗拱之形势’属于合理的通俗化处理"
+        ]
+      },
+      {
+        "id": "book014-b000723-p000-73e311f4c4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘相讀好桓銜不好’语义含混，释读为‘形勢相對順利則好，不相順利則不好’无原文依据，属于主观臆测扩写"
+        ],
+        "uncertainty": [
+          "原文‘相讀好桓銜不好’的具体含义未明"
+        ]
+      },
+      {
+        "id": "book014-b000724-p000-b508340c12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘轉作案好拭淚不好椎胸不好鐵悞不好’中‘作案’‘拭淚’‘椎胸’‘鐵悞’的具体所指未明，释读为‘轉作案形’‘拭淚形’等属于合理的通俗化处理"
+        ]
+      },
+      {
+        "id": "book014-b000725-p000-f8f82caecd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘帶每不好’的具体所指未明，释读为‘帶每形不好’属于合理的通俗化处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 377,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1303,
+      "completion_tokens": 377,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

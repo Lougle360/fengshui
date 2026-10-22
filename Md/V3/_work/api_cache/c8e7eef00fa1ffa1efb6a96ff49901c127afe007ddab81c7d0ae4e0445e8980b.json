@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-16T12:46:56.790751+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c8e7eef00fa1ffa1efb6a96ff49901c127afe007ddab81c7d0ae4e0445e8980b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002324-p000-c7c0c23320",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002325-p000-fcac39eb77",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002326-p000-c336f1c342",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002327-p000-68cf4cdf70",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“女奇妙处仙人多，是下偏坡好”断句有误，导致语义不通。原文为“女奇妙处仙人多是下偏坡好”，应理解为“奇妙之处，仙人多是下偏坡为好”。",
+          "“只月源流处好起家”中“只月”应为“只要”或“只缘”之误，candidate未标注此不确定性，而是直接按字面转述，可能误导读者。",
+          "“税钱也及千锭，难计量大”断句有误，导致“难计量大”语义不明。原文为“税钱也及千锭难计量大”，应理解为“税钱也及千锭，难以计量其大”。",
+          "“文有蔡州户家塘，字心龙出面向龙”中“字心龙”含义不明，candidate未标注此不确定性。",
+          "“作填死后埋地不许移”中“作填”含义不明，candidate未标注此不确定性。",
+          "“言扦后多绝”中“言”可能为“然”或“焉”之误，candidate未标注此不确定性。",
+          "“若选好穴羽明”中“羽明”含义不明，candidate未标注此不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002328-p000-7f64d78dbb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002329-p000-65656d42ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002330-p000-2c6a25b367",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002331-p000-9ce43d1d18",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“至至三”语义不明，candidate未标注此不确定性。",
+          "“背地理切”中“切”字含义不明，candidate未标注此不确定性。",
+          "“愿纹说”含义不明，candidate未标注此不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002332-p000-a805df036f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002333-p000-b75ad3edba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4560,
+    "completion_tokens": 680,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4560,
+      "completion_tokens": 680,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

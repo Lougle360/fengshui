@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T14:11:14.943294+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "899035dfe1ba383071b14e4e386e015d661fc40831e57c0ab0ff75dd0ef36385",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000007-p000-5a75a68880",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“袁閣老祖也”被误写为“袁阁老祖地”，属于字形错误。2. 原文“俞侍即祖也”被误写为“俞侍即祖地”，属于字形错误。3. 原文“陳布政祖也”被误写为“陈布政祖地”，属于字形错误。4. 原文“雄十萬祖地、張家租地”中的“張家租地”被正确保留，但原文“硯進士祖”后缺“地”字，候选写成“砚进士祖地”属于补字错误。5. 原文“謝閣老祖也”被误写为“谢阁老祖地”，属于字形错误。6. 原文“凌鮮元祖也”被误写为“凌鲜元祖地”，属于字形错误。7. 原文“吳都憲祖地、馮會元祖地”等原文排版是同一行的两列内容，候选的行划分逻辑符合表格结构，但存在上述多处“也”误作“地”的错误。"
+        ],
+        "uncertainty": [
+          "表格中部分文字存在OCR识别误差，如“雄十萬”“張家租地”“硯進士”“凌鮮元”等，具体所指不详；部分文字存在残缺，如“也把恭費”“也絕恭”“幸台”等，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2828,
+    "completion_tokens": 362,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2828,
+      "completion_tokens": 362,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

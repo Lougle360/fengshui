@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T11:40:39.307068+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3473df9b5f6481fca9793d5ca77fce506beb76ba9ef8a088aaf055554ca68502",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000169-p000-bef22ce10d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘不也’的含义未明确，暂保留原表述的疑问语气"
+        ]
+      },
+      {
+        "id": "book013-b000170-p000-24c4e9a046",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 118,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1012,
+      "completion_tokens": 118,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-15T15:22:09.601038+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c0702e126e118042244b9e5852958463e4ab55ec8025d126eee86e0c8995a63e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002200-p000-7ca934f873",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'翻棺覆柳'，candidate译为'棺木翻覆、柳树折断'，'覆柳'解释为'柳树折断'缺乏依据，可能为特定术语或比喻。",
+          "原文'XX'表示有缺文，candidate未作任何标注或说明，直接按前文意思补全，可能掩盖了原文的不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002201-p000-3ed3d99470",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002202-p000-f3b3a663e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾'魁罡雌'语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002203-p000-0ea3f8468b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾'阳阙陷'语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002204-p000-7b809f9907",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002205-p000-a5353218f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'祿位見前又巳午艮亥亦曰祿位'，candidate译为'禄位在前文已有提及，巳、午、艮、亥这四个方位也称为禄位'，将'见前'译为'前文已有提及'是合理的增译。但'巳午艮亥'是四个方位，candidate译为'巳、午、艮、亥这四个方位'，其中'艮'是八卦方位，'巳'、'午'、'亥'是地支方位，术语类型混用，但原文如此，candidate忠实反映，可接受。主要问题在于对'乾兄低陷也主不貴'的处理。candidate将其解释为'乾方兄弟方位低陷，主不显贵'，这是对'乾兄'一词的确定性解释。'乾兄'可能指乾卦代表的方位（西北）和人物（父、老男等），也可能指'乾'与'兄'两个方位，或是一个固定术语。candidate将其解释为'乾方兄弟方位'，属于无依据的扩写，超出了allowed_glossary的范围。应保留'乾兄'原词并标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "原文中'金阶平'重复出现，含义不明"
+        ]
+      },
+      {
+        "id": "book033-b002206-p000-a8c48efa1f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002207-p000-e1876d42db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002208-p000-e8c4d8f1e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002209-p000-28d344f11f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'有兴山倒地'，candidate译为'有兴山倒地'，保留了'兴山倒地'这一不透明术语，符合要求。但'倒地'在风水术语中常指山形倾倒、崩坏，candidate未作任何解释或标注，直接使用，对于普通读者可能难以理解。建议在'兴山倒地'后补充说明其可能指山形崩坏、倾倒的状态，或标注其具体形态不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2153,
+    "completion_tokens": 843,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2153,
+      "completion_tokens": 843,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

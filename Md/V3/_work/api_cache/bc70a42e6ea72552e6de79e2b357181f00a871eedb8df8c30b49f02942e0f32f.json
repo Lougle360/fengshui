@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-26T12:52:36.009699+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bc70a42e6ea72552e6de79e2b357181f00a871eedb8df8c30b49f02942e0f32f",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001330-p000-6321dbb032",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文祭祀术语为“类禍祈祷”，candidate错误加引号标注，不符合原文表述；2. 原文为“隆准龙颜，公民之相”，candidate保留错误表述“公民之相”，与原文一致但此处原文本有讹误，current正确校改为“公侯之相”符合文意；3. 原文“而寻益以信顺此一离娄也”，candidate无视专有术语“离”，擅自改写为“这就多出来一个变量”，违背原文及术语使用规则，current将其解释为“离卦相关的一个比拟”符合术语要求；4. 原文“陷常生于众险”candidate改为“命里本该存活的人落入众多险境”，current虽也有调整但candidate未遵循原文表述，且无依据"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3608,
+    "completion_tokens": 242,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3608,
+      "completion_tokens": 242,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

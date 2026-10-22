@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:09:38.564161+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7ea0a475d8a290e5ac9e95777b4fa4196e5fc5906a2e8fb1f4c24963ca4f13a4",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000102-p000-85b278baf6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的‘情过而几’‘吕墨’‘阴会’等内容确定为具体含义，属于无依据扩写；‘归戊庙’未明确为‘归戊库’，存在术语误换；‘方始出’未明确为‘亥位才流出’，属于无依据扩写；‘老年科第’未明确为‘老年时科举及第’，属于无依据扩写；‘晚平发福’未明确为‘晚年发福’，属于无依据扩写；‘几’‘吕墨’‘阴会’等属于opaque_terms，未按要求保留原样，被赋予确定含义"
+        ],
+        "uncertainty": [
+          "原文中‘情过而几’‘吕墨’‘阴会’等内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000103-p000-ac9c9eb8a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000104-p000-31fd33e0b9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘直过五方’未明确为‘径直过五方’，属于无依据扩写；‘夫丑’未明确为‘从丑位’，属于无依据扩写；‘经书中说：过阳第以光夫’未按要求保留原文原样，属于无依据扩写；‘夫’属于opaque_terms，未按要求保留原样，被赋予确定含义"
+        ],
+        "uncertainty": [
+          "原文中‘夫丑’‘过阳第以光夫’等内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000105-p000-b8a07c4a88",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘永不归非’未明确为‘不归未库，反而到’，属于无依据扩写；‘夫辰’未明确为‘辰位’，属于无依据扩写；‘经书中说：见阴错以伤妻，黄泉水’未按要求保留原文原样，属于无依据扩写；‘夫’属于opaque_terms，未按要求保留原样，被赋予确定含义"
+        ],
+        "uncertainty": [
+          "原文中‘夫辰’‘见阴错以伤妻，黄泉水’等内容具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 579,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1442,
+      "completion_tokens": 579,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

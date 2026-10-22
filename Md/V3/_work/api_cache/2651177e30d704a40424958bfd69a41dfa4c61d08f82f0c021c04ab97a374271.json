@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T06:56:36.084124+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2651177e30d704a40424958bfd69a41dfa4c61d08f82f0c021c04ab97a374271",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000127-p000-711e189b24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000128-p000-93d2ff5cc1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000129-p000-a9566c6930",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句为“气有隔山取者”，候选调整为“隔山取气的情况”后，导致后续分句的主语统一逻辑断裂，与原文“气有××者，气有××者，气有××者”的排比句式对应的语义逻辑不符，漏译了“气有”二字"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1860,
+    "completion_tokens": 291,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1860,
+      "completion_tokens": 291,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T23:09:36.863456+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "70980a94870596e7022c866e072ca429ef7a80ee92337651a74c4ea1560cc7ec",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001034-p000-829fa37ed3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001035-p000-3e523155e4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“八武”“一六同官”“掌微”“六八武一白天玉た”具体所指不详，无法进一步准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001036-p000-e27ac155f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将原文缺字“t曰”直接认定为“叫做”，将“星眠”直接改作“星昵”且未保留原字标注，不符合保守释读要求"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错误，“t曰”“星眠”具体对应原文文字不明，“混定死”含义不清"
+        ]
+      },
+      {
+        "id": "book017-b001037-p000-405ed48d1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001039-p000-ea9f89e389",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故”未判定为“劫”的讹字直接按“打劫”释读，“揪会要相令”擅自改为“要相互配合”，未保留原讹字标注且修改无依据"
+        ],
+        "uncertainty": [
+          "原文“故”“揪会要相令”存在讹误，具体文字及含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001040-p000-51da3a10cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将原文“廬”认定为“此”的讹字，直接释为“这里所说的”，未保留原字标注"
+        ],
+        "uncertainty": [
+          "原文“廬”“東瓦”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001041-p000-e917f3a87d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“離空”“四位”“雲”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001042-p000-1c6e6bd199",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将原文“揪宮相公你”直接认定为“宫相配合”，“打故”直接改作“打劫”，未保留原讹字标注且修改无依据"
+        ],
+        "uncertainty": [
+          "原文“揪宮相公你”“打故”存在讹误，具体文字及含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001043-p000-0669c6c4fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将“B經”认定为“經”、“四切”认定为“四赤”、“組公”认定为“組合”，未保留原OCR识别错误内容标注，修改无充分依据"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错误，“B經”“四切”“組公”具体对应文字不明"
+        ]
+      },
+      {
+        "id": "book017-b001045-p000-44fd593c92",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文后半段“为人在所謂財位”未完成现代中文转换，保留原文半文言表述且未说明缺字情况，语句不通顺"
+        ],
+        "uncertainty": [
+          "原文存在缺字，“为人在所謂財位”语义不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2089,
+    "completion_tokens": 985,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2089,
+      "completion_tokens": 985,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

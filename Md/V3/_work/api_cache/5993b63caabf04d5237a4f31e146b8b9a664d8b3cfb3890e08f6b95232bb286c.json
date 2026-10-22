@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T20:21:25.857792+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5993b63caabf04d5237a4f31e146b8b9a664d8b3cfb3890e08f6b95232bb286c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003333-p000-826d8f156b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“也①”的注释标记未在释读中体现，具体所指不详"
+        ]
+      },
+      {
+        "id": "book016-b003336-p000-74e2596b08",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR损坏导致文本断裂、讹误，无法形成完整准确的释读"
+        ],
+        "uncertainty": [
+          "原文中“覆公谏”的“谏”疑似讹字，具体所指不详；原文文本断裂，部分内容无法辨识"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 992,
+    "completion_tokens": 171,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 992,
+      "completion_tokens": 171,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

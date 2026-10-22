@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:52:50.130008+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "53c7aca75033678099643c3ec58413e5ac206d8e54abfb3f791a701ecbf02cb5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000930-p000-11babd552a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000931-p000-5eb53bccf3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“聖得”释为“圣人认为”无依据，属于无依据扩写；“大之局勢”释为“大的局勢”语义模糊，未明确原文所指；“八山八局稳要”释为“八山八局都要”存在语义偏差，原文“稳要”应为“总要”的讹误，释读未体现该讹误"
+        ],
+        "uncertainty": [
+          "原文中“聖得”含义不明；“大之局勢”具体所指不详；“稳要”疑为“总要”之讹误"
+        ]
+      },
+      {
+        "id": "book010-b000932-p000-e4072d8df1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“教十處”释为“十處”属于无依据改字；“乙”字未明确释读，属于未处理的模糊内容"
+        ],
+        "uncertainty": [
+          "原文中“教十處”疑为“十處”之讹，“乙”字含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000933-p000-6a1b02c163",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1687,
+    "completion_tokens": 373,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1687,
+      "completion_tokens": 373,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

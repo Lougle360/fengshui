@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-26T12:02:49.730462+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0236a048ec736380df31fffcd2c48884b7bc71e0337cabacde1dfc628f82ce77",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000436-p000-ef3617370d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自添加原文无依据的表述：“文中还提到‘又用地支加用穴’，具体含义不详”属于多余注释，不符合原文直译要求；原文“余为人救贫”的“余”是编撰者自称，candidate翻译为“我”虽可，但更关键的错误是对“朝迎之水亦用天干作向，又用地支加用穴”的处理，原文明确说明该规则，candidate无端标注含义不详属于错误；同时candidate添加“不必考虑五凶三吉的限制”属于无依据的增译，原文仅表述“不论五凶三吉也”，擅自添加“限制”属于冗余改动。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 833,
+    "completion_tokens": 207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 833,
+      "completion_tokens": 207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

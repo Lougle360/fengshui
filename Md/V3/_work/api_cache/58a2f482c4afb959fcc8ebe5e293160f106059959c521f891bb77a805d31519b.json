@@ -1,0 +1,141 @@
+{
+  "created_at": "2026-09-23T08:13:43.740202+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "58a2f482c4afb959fcc8ebe5e293160f106059959c521f891bb77a805d31519b",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000078-p000-92e167f3f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000079-p000-b8ff53556e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大陽寒露到辰清明到戌向天帝谷雨到辰山”中“大陽”应为“太阳”，candidate误作“大阳”。“向天帝”是“天帝到”的另一种表述，candidate处理为“向天帝”并断句，易生歧义，应明确为“天帝到辰山”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000080-p000-7a643262a5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000081-p000-46724dba5e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大開帳嘆起勢跌峽大頓小伏一行數百里方結一穴小則數十 下”，candidate在“小則數十”后补“里，里极小者数星”，但原文“下”字后接“里極小者數星”，candidate的补足虽合理，但未说明原文有缺漏或接续关系，且“里极小者数星”的“星”字含义不明，应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000082-p000-ba71524513",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000083-p000-4847eb026a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“時令于夏口巽齊乎巽”中“口”字应为“曰”的OCR错误，candidate未修正，直接写作“口巽”，导致语义不通。原文“巳與巾含申巳父會”中“巾”应为“申”，“父”应为“交”，candidate写作“巳与申合。巳申交会”，虽修正了错误，但未说明原文有误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000084-p000-bf4add1be5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000085-p000-583881a609",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“如雙也香”语义不明，candidate直译，应标注不确定性。原文“占乾山巽向兼八辰或口兼亥巳”中“八”可能为“辰”的误写或衍文，“口”可能为“曰”，candidate处理为“占乾山巽向兼辰，或口兼亥”，未说明原文问题。原文末尾“醞 主”语义不全，candidate推测补全为“运缓水克向，重祸速来”，虽在uncertainty中说明，但作为释读正文，应更明确地标注此处原文残缺，释读仅为推测。"
+        ],
+        "uncertainty": [
+          "“如雙也香”具体所指不详。“醞 主”原文残缺，释读“运缓水克向，重祸速来”为推测。"
+        ]
+      },
+      {
+        "id": "book002-b000086-p000-e8b2f6ebac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000087-p000-5c57bd3c95",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“孙膑家祖塍”及“故别足巳宫天星”语义晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book002-b000088-p000-32269ca7a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“太陽自露到巳京直到亥向天帝”中“自露”应为“白露”，“京直”应为“惊蛰”，candidate未修正，导致时令错误。原文“質人疊山”语义不明，candidate直译，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "“質人疊山”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book002-b000089-p000-0082331783",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000090-p000-dacc75ccbe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“丙納於艮爲天于之三數”释读为“丙纳于艮卦，代表天子的三数”，其中“天于”应为“天子”，但“天子之三数”含义不明，释读将其作为确定事实陈述，应标注不确定性。candidate将“太陽到壬向”释读为“太阳到达壬位，朝向‘向’这一方位”，将“向”字拆解为方位词，但原文“向”可能指“向方”或与“天帝到丙”对应，此处处理略显生硬，且与后文“天星曰阴枢”连接不畅。原文“禮樂巽四夷來”中“巽”字可能为“兴”或“顺”之误，candidate处理为“礼乐兴盛，‘巽’卦所代表的四夷也会前来归附”，将“巽”直接解释为卦象并关联四夷，缺乏依据，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "‘天子之三数’具体含义不详。‘禮樂巽四夷來’中‘巽’字在此处的确切含义不详。"
+        ]
+      },
+      {
+        "id": "book002-b000091-p000-0cad404cac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大微垣月星”应为“太微垣”之误，candidate未修正。原文“由兌八丁轉亥結穴者”和“由亥入兌轉八丁結穴者”中“八丁”应为“入丁”之误，candidate未修正，直接写作“八丁”，导致方位错误。原文“主武全才之士”前疑漏“文”字，candidate未补也未说明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6467,
+    "completion_tokens": 1506,
+    "cached_prompt_tokens": 0
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6467,
+      "completion_tokens": 1506,
+      "cached_prompt_tokens": 0
+    }
+  ]
+}

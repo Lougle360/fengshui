@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-15T05:08:21.620977+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3c8ef7bcc4d68822eaa2464ef432c23e30f2903cb538bd59d5f90a97bf77d231",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001936-p000-a3713d2559",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在严重OCR错误，无法还原原意",
+          "杀黄血山官一",
+          "哭尾道砧山棘",
+          "水",
+          "向"
+        ]
+      },
+      {
+        "id": "book033-b001937-p000-f25acf180e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在严重OCR错误，无法还原原意",
+          "杨追相三连吉星书公寻矛元猪者太所",
+          "水",
+          "坎"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2853,
+    "completion_tokens": 178,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2853,
+      "completion_tokens": 178,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

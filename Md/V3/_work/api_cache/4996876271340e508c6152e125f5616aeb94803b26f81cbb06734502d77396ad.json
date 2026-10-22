@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T09:02:31.705049+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4996876271340e508c6152e125f5616aeb94803b26f81cbb06734502d77396ad",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002468-p000-294c46e9bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "第一行第十列原source为“金水一日月一”，candidate误写为“水一日月一”，漏译“金”字；第一行第二列source为“小暑上离卦休”，candidate写为“小暑上离休”，漏译“卦”字；后续如“小暑上革卦休七否”“大暑下豫卦休四”等所有带“卦”字的条目，candidate均漏译“卦”字，属于内容遗漏"
+        ],
+        "uncertainty": [
+          "原表中部分数字、符号的含义未明确，按原文保留原样"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4909,
+    "completion_tokens": 179,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4909,
+      "completion_tokens": 179,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

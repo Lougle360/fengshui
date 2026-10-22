@@ -1,0 +1,140 @@
+{
+  "created_at": "2026-10-17T22:39:40.614414+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f666dc6ae88936bbd4cb1327cdc739868283337235423a063d26de5aafa9c8e4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004822-p000-30a37ca4e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004823-p000-965027d654",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘匹丝禾壳’为特定术语或物品，candidate直译为‘匹丝禾壳’但未加引号或说明其含义不明，不符合opaque_terms处理要求。",
+          "原文‘背跎’可能为‘驼背’或特定术语，candidate直译为‘背跎’但未加引号或说明其含义不明，不符合opaque_terms处理要求。",
+          "原文‘寒牛出栏形’为特定比喻，candidate直译但未加引号或说明其含义不明，不符合opaque_terms处理要求。",
+          "原文‘宜作金堆’为特定操作，candidate直译但未加引号或说明其含义不明，不符合opaque_terms处理要求。",
+          "原文‘戊巳辰戌丑未生人受荫’，candidate将‘戊巳’译为‘戊、巳’，但‘戊巳’可能为‘戊己’之误或特定组合，应保留原样并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004824-p000-eb0926cf59",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘精神收剑造完全’，candidate译为‘精神收剑造完全’，其中‘收剑’可能为‘收敛’之误或特定术语，应保留原样并标注不确定性。",
+          "原文‘形热来止’，candidate已标注不确定性，但译文仍作‘形热来止’，应改为保留原短语并明确说明语义不明。",
+          "原文‘最忌胎息孤寒血’，candidate已标注不确定性，但译文仍作‘最忌胎息孤寒血’，应改为保留原短语并明确说明语义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004825-p000-2dc6c0dd2a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘## 地理天機會元 卷二十四穴格 二十三’，是标题格式。candidate译为‘这是《地理天机会元》一书卷二十四中关于“穴格”的第三十三节标题。’其中‘第三十三节’与原文‘二十三’不符，存在数字错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004826-p000-8cf1061428",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘爬面之人’，candidate直译为‘爬面之人’但未加引号或说明其含义不明，不符合opaque_terms处理要求。",
+          "原文‘金锅煮兰形’为特定比喻，candidate直译但未加引号或说明其含义不明，不符合opaque_terms处理要求。",
+          "原文‘宜作金堆’为特定操作，candidate直译但未加引号或说明其含义不明，不符合opaque_terms处理要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004827-p000-7cfb08d664",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将原文转换为现代白话文，仅做了断句和少量异体字转换，不符合V3目标。例如“真形元在彼此星脑方”等句未释读。",
+          "candidate保留了原文的‘不可横几’、‘孙灭子死’等短语，但未按writer_uncertainty的提示进行风险标注或说明其语义不明。",
+          "‘玉枕出魁’等术语未作任何解释或说明。",
+          "整体上，candidate是文言文点校，而非白话释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004828-p000-f2a9d69367",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将原文转换为现代白话文，仅做了断句。例如‘挂壁土星人道恶’、‘垂珠到气妙安扦’等句未释读。",
+          "locked_terms ‘穴’、‘向’ 在candidate中未按allowed_glossary进行解释或标注。",
+          "整体上，candidate是文言文点校，而非白话释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004829-p000-ad4aa0c162",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将原文转换为现代白话文，仅做了断句和少量异体字转换。例如‘谓之转金，上转金方要贴在方土上’等句未释读。",
+          "candidate保留了‘龙格员者’等writer_uncertainty中标注的语义不明处，但未进行风险标注。",
+          "locked_terms ‘穴’ 在candidate中未按allowed_glossary进行解释或标注。",
+          "整体上，candidate是文言文点校，而非白话释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004830-p000-d8662e8726",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将原文转换为现代白话文，仅做了断句。例如‘土长应下当心穴’、‘枉死少年人’等句未释读。",
+          "locked_terms ‘穴’ 在candidate中未按allowed_glossary进行解释或标注。",
+          "整体上，candidate是文言文点校，而非白话释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004831-p000-20da7d40ff",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将原文转换为现代白话文，仅做了断句和少量异体字转换。例如‘博换形势之妙，收剑气脉之全’等句未释读。",
+          "candidate保留了‘收剑气脉’、‘公高低于隐约’、‘样中牛去’、‘由辰宫丑’等writer_uncertainty中标注的语义不明或可能缺字处，但未进行风险标注。",
+          "locked_terms ‘穴’、‘砂’、‘水’ 在candidate中未按allowed_glossary进行解释或标注。",
+          "整体上，candidate是文言文点校，而非白话释读。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1950,
+    "completion_tokens": 721,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4456,
+      "completion_tokens": 1220,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1950,
+      "completion_tokens": 721,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T19:31:18.801199+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0b3d76f71c3b8fa53b08a5565e19a7d3fd10ded447755d9bf51249f8ebb7bb6d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001278-p000-cb0308bc7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "书名出现不一致错误：原source中两处书名均为《地理泰贊玄機全書》，candidate中第二处误写为《地理秦赞玄机全书》，‘泰’错作‘秦’",
+          "原source中‘青天第兄 聯名作状元’，candidate调整为‘两火一齐插青天，弟兄联名作状元’属于无依据调整断句，不符合原文断句原貌，且未标注该调整属于标点优化"
+        ],
+        "uncertainty": [
+          "原文中部分语句断句、用字存在可疑之处，如‘正拱定任’‘青天第兄’‘作案不偏’‘删正’‘章十士’‘天眼开’‘图计十七体’‘师人挞子’‘法场少人槿’等，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1863,
+    "completion_tokens": 217,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1863,
+      "completion_tokens": 146,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1863,
+      "completion_tokens": 217,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

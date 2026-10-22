@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T22:04:20.587170+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8200b69f17d61cf0a0e2d6e74cf0fe5f06174b7d97d1c1bade5633ac505433fc",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000287-p000-261ce5f215",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000288-p000-10305cacd5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文引郭景纯语为「支葬其巅」，candidate误写为「支龙葬其巅」，属于原文内容改动；「平支龙必须起微突处」意为平支龙需要存在微小突出的部位，candidate释为「必须起于微小突出之处」存在语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000289-p000-117603d000",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文俗语为「平地不开口，神仙难下手」，candidate误写为「平地不开钳口，神仙难下手」，属于原文内容改动；「要开钳口方有穴」的「开钳口」是指天然形成钳形的地貌，candidate释为「就要开辟钳口」误将自然形态表述为人工动作，语义相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000290-p000-d78b4009e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000291-p000-44da3f3a3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000292-p000-29e44c4e1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000293-p000-6078f08e46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000294-p000-b3b8115327",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "kind为heading时需准确保留原标题内容，candidate添加了「这里是重刊本」「的第二卷卷首标题」等冗余表述，未忠实呈现原标题形式与内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000295-p000-5113d6439d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000296-p000-d6f7e1087f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3454,
+    "completion_tokens": 703,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3454,
+      "completion_tokens": 703,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

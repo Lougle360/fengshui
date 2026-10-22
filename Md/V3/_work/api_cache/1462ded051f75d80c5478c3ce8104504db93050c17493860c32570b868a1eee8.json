@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-04T03:37:21.306858+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1462ded051f75d80c5478c3ce8104504db93050c17493860c32570b868a1eee8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000416-p000-8bba689cb2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对‘色青翟螟嶺桑樹上青蟲也’的释读不准确。source中‘色青翟螟嶺桑樹上青蟲也’应整体理解为对‘翟螟嶺’的解释，即‘翟螟嶺’是桑树上的青虫。candidate将其拆解为‘文中提到‘色青翟螟嶺桑樹上青蟲也’’，并称‘翟螟嶺’三字含混，这未能准确反映原文的释义结构。",
+          "candidate对‘七日 真我類我變爲已子’的释读存在增译和推测。source中‘真我類我變爲已子’是紧接‘七日’后的陈述，candidate将其与前面的‘教誨七日曰類’割裂，并加入‘只能推测是将其当作自己的儿子并使其变化’，这超出了保守释读的范围，将推测写成了事实。",
+          "candidate将‘凡龍虎抱一小員山在內主有過房之子應之懷抱有圓峰之秀异蜾贏負螟’整句漏译。source中此句是独立的风水论断，candidate仅将其作为‘螺贏背负螟蛉的典故’的应验例子，未完整释读其含义。",
+          "candidate最后一句‘螺贏是土蜂，其形状像蜂’是对source末尾‘螺羸土蜂也其形似蜂其’的释读，但source末尾‘其’字未译完，candidate未作说明。"
+        ]
+      },
+      {
+        "id": "book035-b000418-p000-601293b17a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对‘十年不調盡因山不十全’的释读不准确。source中‘山不十全’是固定术语，指山的形局不完美，candidate直译为‘山不十全’未作通俗解释，不符合V3‘普通读者能读懂’的目标。",
+          "candidate对‘坤鑒雲擁從如無名位卑’的释读存在严重增译和推测。source此句语义含混，candidate将其解释为‘如果坤方有云拥，却如同无名位卑者，难以显达’，并称‘具体所指不详’，但前半句的‘如果...却如同...难以显达’已是无依据的扩写，将推测写成了事实。正确的做法应是直接指出该句原文含混，具体所指不详。",
+          "candidate未处理source末尾的‘其’字（可能与前文‘其形似蜂其’相连，但此处断句独立）。"
+        ]
+      },
+      {
+        "id": "book035-b000420-p000-c1a5e2feae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对‘卦止取穿山遺地内卦外卦本卦之數者’的释读不准确。source中‘卦止取...之數者’是一个完整的判断句，candidate将其拆解为‘卦例只取...之数’，并在‘遺地’后加入括号解释，破坏了句子的连贯性，且‘遺地’作为opaque_term，不应在释读句中赋予‘疑为‘透’’的推测。",
+          "candidate对‘内卦子父財宜及介水日月一奇之方喜有山秀水潮此卦之不可盡非者’的释读存在增译。source中‘介水’含义不明，candidate在释读句中直接加入‘（含义不详）’，这属于在释读文本中插入注释，不符合要求。应整体释读后，在uncertainty中说明。",
+          "candidate对‘豆能 爲福乎’的处理不当。source中‘豆能’应为‘豈能’之误，candidate在释读句中直接改为‘豈能’，并加括号说明，这属于改稿而非判错。应保留原文误字形态，在uncertainty中说明。",
+          "candidate对‘德幷不當拘泥’的处理不当。source中‘德幷’应为‘皆’之误，candidate在释读句中直接改为‘皆’，并加括号说明，这属于改稿而非判错。应保留原文误字形态，在uncertainty中说明。",
+          "candidate的释读文本中，多处直接引用了source的原文片段（如‘穿山遺地’、‘介水’、‘豆能 爲福乎’、‘德幷不當拘泥’），这不符合‘古文/日文没有真正转换成现代中文’的要求。应将这些术语或短语的含义融入白话句子中，对于无法确定的，在uncertainty中说明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1682,
+    "completion_tokens": 1076,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1682,
+      "completion_tokens": 1076,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-23T15:10:08.054224+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2c89cbebbb69e82ef79052f011f8cbf54cb5225155039ddc0a36e6e58e5a9605",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000912-p000-1539d3b08a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000916-p000-820b25c6c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000920-p000-026e0f6291",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语‘入手’未在锁定或允许术语表中，候选句将其与‘入首’并列，可能赋予了其不存在的特定风水含义，存在无依据扩写风险。原文‘取由辨’、‘取由分’结构相同，意为‘取用的依据/来源需要辨别/区分’，候选句译为‘取用’，含义不够准确，且‘辨别龙与脉的取用’、‘区分来龙与坐向的取用’表述略显含混。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 921,
+    "completion_tokens": 219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 921,
+      "completion_tokens": 219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:43:56.088975+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "60f4050ecd5472aa1300b88aa8aadc7abc2f990d27e6f72fc767b1b0194a5309",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000839-p000-9ce66c0f31",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「A.D.46,384」的逗号为千位分隔符，并非公元年份的一部分，候选译法将其误译为公元46384年，属于数字误译"
+        ],
+        "uncertainty": [
+          "原文未明确「閉物」的具体所指"
+        ]
+      },
+      {
+        "id": "book015-b000840-p000-2e10b622ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中「甲辰(の年)」的「の年」为日文助词，译文中已合理处理；原文末尾「羲」字未完整，译文中保留省略状态"
+        ]
+      },
+      {
+        "id": "book015-b000841-p000-f418ccf03a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "表格中存在「Ley」「1E028」等无法确认含义的字符，「丁来」疑为「丁未」的讹误，「二千十百五十」疑为「二千一百五十」的讹误"
+        ],
+        "uncertainty": [
+          "表格中部分字符及讹误内容的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book015-b000842-p000-9b5cc451cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2379,
+    "completion_tokens": 355,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2379,
+      "completion_tokens": 355,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

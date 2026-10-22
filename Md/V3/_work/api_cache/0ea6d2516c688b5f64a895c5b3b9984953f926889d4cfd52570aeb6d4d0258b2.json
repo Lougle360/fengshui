@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-16T11:35:55.683522+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0ea6d2516c688b5f64a895c5b3b9984953f926889d4cfd52570aeb6d4d0258b2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002215-p000-a610f1ec38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "礼貌琮具体所指不详",
+          "小公具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002216-p000-0a7e22e385",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘地屯4地一是一城在女经有建三五卷’含义不明，candidate将其拆解为‘是有地可屯聚的吉地。一山对应一城，在《女经》中有“建三五卷”的记载，具体所指不详。文中还提到“地4”，但“4”的具体含义或所指不详。’，这属于对含混原文的过度解释和拆分，超出了保守释读的边界。应保留原文短语，并整体标注其含义不详。",
+          "‘乱龙三條五條起中有一條理’释为‘若有三条或五条龙脉兴起，其中必有一条是理气纯正的’，将‘理’解释为‘理气纯正’属于无依据的扩写。应保守处理为‘其中有一条合乎理法’或直接标注‘理’字含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b002217-p000-9ac90d4171",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "小公龙具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002218-p000-f5552395b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "龙楼具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002219-p000-2dfaab8531",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘拜職要相當’释为‘拜职要相当’，属于未转换的直译，未将其转换为现代中文表达，如‘官职要相称’或‘职位要匹配’。",
+          "candidate将‘火星臨塡照天官’释为‘火星临塡，照天官’，同样属于未转换的直译，未将其转换为现代中文表达，如‘火星降临、照耀天官’，并应标注术语含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b002220-p000-765c161ee6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘且用主人長’释为‘且用主人长’，属于未转换的直译，未将其转换为现代中文表达，如‘且看主山（或主人）的格局是否长远’，并应标注含义不详。",
+          "candidate将‘相似龍踪迹星峰’释为‘相似龙踪迹星峰’，属于未转换的直译，未将其转换为现代中文表达，如‘与龙脉行踪相似的星峰’，并应标注含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b002221-p000-6f858691df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002222-p000-480ad8d561",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘或在江村或僕歹’中的‘僕歹’含义不明，candidate直接保留‘或仆歹’，未做任何处理或标注，不符合‘古文/日文没有真正转换成现代中文’的判定标准。应标注该词含义不详。",
+          "原文‘停停去侄有雌’含义不明，candidate标注‘去侄有雌具体所指不详’是正确的，但释读中仍保留了未转换的原文‘停停去侄有雌’，应将其整合到白话句子中，如‘……停停走走，似乎有雌雄（此处‘去侄有雌’具体所指不详）’。"
+        ]
+      },
+      {
+        "id": "book035-b002223-p000-95e9c740cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘樓壹鼓角兩邊迎’释为‘楼壹鼓角两边迎’，‘執杖報衙幷插笏’释为‘执杖报衙并，插笏风炉茶具出’等，均属于未转换的直译，未将其转换为现代中文表达，如‘楼台、鼓角在两边相迎’，‘执杖、报衙以及插笏等风炉茶具出现’，并应标注这些组合意象的具体所指不详。",
+          "candidate将‘軸發字解左山青龍也以理推之逆山也’释为‘轴发字解左山青龙也，以理推之逆山也’，属于未转换的直译，未将其转换为现代中文表达，如‘“轴发”二字解释左山青龙，按道理推究是逆山’，并应标注其含义晦涩。"
+        ]
+      },
+      {
+        "id": "book035-b002224-p000-e9acb63b1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文在‘若在’处截断，内容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3525,
+    "completion_tokens": 1094,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3525,
+      "completion_tokens": 1094,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

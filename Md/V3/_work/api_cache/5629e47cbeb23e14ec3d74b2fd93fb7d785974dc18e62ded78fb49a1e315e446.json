@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:58:52.651569+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5629e47cbeb23e14ec3d74b2fd93fb7d785974dc18e62ded78fb49a1e315e446",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000990-p000-aeb859081e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘人家以此伪根’误释为‘人家若得‘伪根’’，属于对原文语义的错误解读；未按要求保留‘伪根’为opaque_terms，未标注其具体所指不详"
+        ],
+        "uncertainty": [
+          "‘伪根’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 879,
+    "completion_tokens": 111,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 879,
+      "completion_tokens": 111,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-24T09:27:38.138892+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6d7fd1c4ea8c569e703ed78580eef5e5fbf086dbb1d77328da66de47685b7df6",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000311-p000-fb25261748",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "架折具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000312-p000-4bb5f801b5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘黑所饶减’确定解释为某类风水术语，无依据，应标注具体所指不详"
+        ],
+        "uncertainty": [
+          "黑所饶减具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000313-p000-f698c2670f",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "将原文的‘开弗莲爱’确定解释为生气堆土的相关内容，无依据，应标注具体所指不详"
+        ],
+        "uncertainty": [
+          "开弗莲爱具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000314-p000-d8477f4f01",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "将原文的‘架商’‘还陷’‘抽县’‘般平’确定解释为风水术语，无依据，应标注具体所指不详；未明确说明原文末尾残缺的情况"
+        ],
+        "uncertainty": [
+          "架商具体所指不详",
+          "还陷具体所指不详",
+          "抽县具体所指不详",
+          "般平具体所指不详",
+          "原文末尾残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1441,
+    "completion_tokens": 350,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1441,
+      "completion_tokens": 350,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

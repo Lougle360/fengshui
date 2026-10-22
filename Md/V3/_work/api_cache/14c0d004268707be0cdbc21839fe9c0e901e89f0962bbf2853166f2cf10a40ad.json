@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T10:13:42.350498+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "14c0d004268707be0cdbc21839fe9c0e901e89f0962bbf2853166f2cf10a40ad",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000622-p000-879a5065ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“李廣將軍箭詩造奕論”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000624-p000-9fb2bca018",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“李廣符軍箭似鎗”误释为“李廣符軍箭似鎗”，原文应为“李廣將軍箭似鎗”；将“甲唐山”误释为“甲唐山”，原文应为“甲庚山”；“苦单犯”误释为“若只是單獨犯了”，原文应为“若單犯”；“无咎”未明确标注为原文未明的含混短语；“干祿甚衆”未明确标注为具体所指不详"
+        ],
+        "uncertainty": [
+          "“甲庚山”具体所指不详",
+          "“帝星入中宮”具体所指不详",
+          "“干祿甚衆”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000625-p000-ac2fe4d77f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“炙退三殺詩山方並忌”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 327,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1478,
+      "completion_tokens": 327,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

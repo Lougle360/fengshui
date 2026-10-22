@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:28:20.780856+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "deee5bb8a4e1ea45649814adc5e0a116a03426eab7b8771401c6e59e755d29f8",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000691-p000-08434ed380",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "臀木具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000692-p000-09759d77a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "臀木又具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000694-p000-ea305bd7a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000695-p000-233439621c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对原文中“昬員滿內”“繇是爲木”的释读存在依据不足的推测性表述，未明确标注相关文字辨识及断句问题的不确定性"
+        ],
+        "uncertainty": [
+          "原文中“昬員滿內 氣自聚若當口餘地橫攔如繇是爲木”部分存在断句及文字辨识问题，“昬”“員”“繇”等字含义不明，“木”的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1361,
+    "completion_tokens": 310,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1361,
+      "completion_tokens": 310,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

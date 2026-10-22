@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T07:05:09.579550+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8447c0f17f760bcbe6195166867281a74a44c6f80a19aa266867cc67deae26ab",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000135-p000-ca26be2240",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘坐于向巽’表述有误，属于断句错误，正确断句应为‘亥龙坐壬向丙，略加于位，慎入巳亥；坐乾向巽，略加壬位，受癸亥之七亥三壬，正合此意’，候选释读中将‘坐于向巽’保留并释为‘坐向巽位’，属于对断句错误内容的不当采信，导致与原文原意不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000136-p000-5625018dee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000137-p000-b46bf613ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘赤蛇头向天门北’未做释读，属风水专业隐语，具体所指读者需结合《催官篇》上下文理解"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2481,
+    "completion_tokens": 297,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2481,
+      "completion_tokens": 297,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

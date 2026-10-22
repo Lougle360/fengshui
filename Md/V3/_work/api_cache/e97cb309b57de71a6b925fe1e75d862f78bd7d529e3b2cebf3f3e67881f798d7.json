@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:05:37.046315+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e97cb309b57de71a6b925fe1e75d862f78bd7d529e3b2cebf3f3e67881f798d7",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000341-p000-5da46b693e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的“山昔”释为“山的朝向”，但“山昔”属于原文未明的含混术语，不应直接等同于“山的朝向”；将“假抱”释为“看似假抱”，但原文未明确“假抱”的具体含义，属于无依据的推测性解释"
+        ],
+        "uncertainty": [
+          "原文中“山昔”“假抱”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000342-p000-e841c4eb0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此处“昔面”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000343-p000-94ff8d5cc1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的“皎”释为“皎”，但“皎”属于原文未明的含混术语，不应直接保留原字而未标注具体所指不详；将原文的“諦之以背面反向人爭意北冀不可段每也っ”释为“还把背面反向示人，争着往北方去，这是不可取的”，属于无依据的扩写，原文未明确“反向人爭意北冀不可段每也っ”的具体含义"
+        ],
+        "uncertainty": [
+          "原文中“oo”为无法识别的字符，已按上下文语境处理；此处“皎”具体所指不详；原文末尾的假名“っ”为语气助词，无实际含义"
+        ]
+      },
+      {
+        "id": "book014-b000344-p000-aefc87c240",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 435,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1607,
+      "completion_tokens": 435,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-25T06:56:20.898952+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9c0818f460d8fbe1f1c1bfc4ca08b2c4728713082ada5e5978d45c9305f61269",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002013-p000-31ff1922ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002014-p000-ea665f774e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文第一列的“堂明鐵交”为倒序，应为“铁交明堂”，候选未作校正；第一列“堂明抱选F”存在OCR识别错误，“选F”属于无效字符，候选未标注识别存疑；第一列“堂明坦平平世”存在OCR识别错误，“平世”属于冗余错字，候选未标注识别存疑；第一列“式堂明進朝”存在OCR识别错误，“式”为多余错字，应为“朝进明堂”，候选未作校正；第一列“堂明聚廣”为倒序，应为“广聚明堂”，候选未作校正；第一列“堂明暢寛”为倒序，应为“宽畅明堂”，候选未作校正。2. 原文中“融潴囊聚”被简化为“汇聚成囊状”，漏译“融潴”（水汇聚停蓄的状态）的含义，释义不够准确。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3365,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3365,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

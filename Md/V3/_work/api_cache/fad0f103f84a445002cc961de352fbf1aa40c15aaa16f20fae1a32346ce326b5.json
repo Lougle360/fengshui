@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-10-17T15:25:50.629450+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fad0f103f84a445002cc961de352fbf1aa40c15aaa16f20fae1a32346ce326b5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003966-p000-1a88e05d79",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'左右壹司公侯傳國下一格冕旒官星异人聖瑞周孔之徒富貴末矣萬世帝師生受王爵子孫繼之'是一整段，candidate将其拆解并插入'文中提到'、'关于...的具体含义不详'等解释性短语，改变了原文的陈述方式，属于增译。应整体释读，对不确定处统一标注。",
+          "'发挥曰此官星之景景尊贵者'中'景景'可能为'景象'或'景星'之衍/误，candidate释为'官星所呈现的景象，属于尊贵者'，处理尚可，但'景景'的异常未在uncertainty中标注。",
+          "'上一格似冕旒而非无亦出神童高科公目此又天命国作之所击或僭生岂俞不有人祸必有天殃也'一句，candidate拆解过碎，且将'公目'释为'高科公目'并视为预示，缺乏依据。'公目'可能为'公侯'之误或另有所指。",
+          "'岂俞不有人祸'中'俞'字，candidate仅标注含义不详，但整句'岂俞不有人祸必有天殃也'是'岂不有人祸，必有天殃也'的文言句式，意为'岂能没有人祸，必定有天殃'。candidate的释读未能准确传达这一反问加强语气的逻辑。"
+        ],
+        "uncertainty": [
+          "富贵末矣",
+          "景景尊贵者",
+          "公目",
+          "岂俞不有人祸"
+        ]
+      },
+      {
+        "id": "book035-b003967-p000-4e8a195d8e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'盖被三一官星如排指侧倒斜排三四五或尖或员'是描述形状，candidate释为'文中提到‘盖被三一官星如排指’，具体所指不详，描述侧倒斜排三四五，形状或尖或圆'，将'盖被三一官星如排指'整体视为一个不明短语，但'盖被'可能为'盖彼'之误或'覆盖'之意，'三一官星'可能指某种星形组合。candidate的处理过于保守，割裂了句意。",
+          "'在左则指样为这民清贫倦起正缘龙所孙完全'，candidate将'这民'、'倦起正缘龙所孙完全'均标为不详，但'这民'很可能为'庶民'或'之民'的讹写。整句大意可能是：在左侧则指样（指形状）预示庶民清贫，或因龙脉（正缘）的子孙（龙所孙）完全（与否）而倦起（兴衰）。candidate未尝试进行连贯的保守释读。",
+          "'所以心情懒慕荣'中'心情'，candidate标注'确切用法不详'，但此处'心情'很可能就是现代汉语的'心情'，指心境懒于羡慕荣华。candidate的标注没有必要。"
+        ],
+        "uncertainty": [
+          "盖被三一官星如排指",
+          "指样为这民清贫",
+          "倦起正缘龙所孙完全"
+        ]
+      },
+      {
+        "id": "book035-b003970-p000-7de6c17ba2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "形星流 大 有月別 男 第得妻"
+        ]
+      },
+      {
+        "id": "book035-b003971-p000-b3ce353cb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "形月半"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 839,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1397,
+      "completion_tokens": 839,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

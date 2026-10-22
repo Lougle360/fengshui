@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-09-26T03:22:58.485955+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aea5177e76b47d24618103d415a5644e34efb53439fd4e1131e90ae6316b0ec8",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000030-p000-133094bea6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量语序混乱、无法辨明逻辑的内容，candidate直接将模糊部分梳理为确定的“洛书与八卦相配、阴阳交合生成气形符合天地法则”等连贯论述，属于无依据补全语义；将原文零散的数字“5”“十年”“0”等归类为天文相关数值且直接关联“判断水势与地理格局的对应关系”无原文依据",
+          "原文提及“水”属于风水语境的水系，candidate中“判断水的形态优劣”属于无依据增译内容"
+        ],
+        "uncertainty": [
+          "原文语序杂乱，多数语句逻辑关联无法确认，仅零散提及洛书、八卦、阴阳、多个数字、天文相关概念及“水”术语，大部分内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000031-p000-f6ecd96e84",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000032-p000-691f16eeca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在缺字、语序零散问题，candidate直接将零散表述整合成“根据日月星辰运行、五行属性推演水的走向和气势兴衰”等确定的完整逻辑，属于无依据补全；原文“嘉慶九年”“六十年”被误释为“每六十年、每九年的气运变化”，且“相关说法相传从夏禹时期就已经出现”属于无依据增译",
+          "原文提及“挨星”相关内容，candidate中“判断风水格局的好坏也要结合水的来去形态、建筑或穴位的朝向，参照星象运行和节气变化综合判定”属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文缺字较多，语句零散，多数短语具体所指及逻辑关联无法确认，仅零散提及五行、八卦、洛书、震、艮、水、向等术语及纪年相关内容"
+        ]
+      },
+      {
+        "id": "book032-b000033-p000-a488f2e5a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在语序晦涩、断句困难问题，candidate直接梳理出“太极分化生两仪，两仪生四象，再生八卦”的确定演化逻辑，属于无依据补全；原文零散的“0月”被标注为天文、气运相关内容无原文依据；“水的流动遵循气的运行规律”“气的刚柔变化体现在地势和水的形态上”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文语序晦涩，多数语句逻辑顺序无法确认，仅零散提及太极、两仪、四象、八卦、气、水等术语"
+        ]
+      },
+      {
+        "id": "book032-b000034-p000-2d83b1e756",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量文字错乱、断句混乱问题，candidate直接提炼出“风水之道在于审察气的运行，水是气的载体，风是气的动力”等确定论述，属于无依据补全；“达到福荫子孙的效果”“结合天文地理知识判断吉凶祸福”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文文字错乱严重，大部分内容含义无法明确，仅零散提及风水、气、水等相关术语"
+        ]
+      },
+      {
+        "id": "book032-b000035-p000-0fcba65d4a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在文字错乱问题，candidate直接提炼出“龙、水、向三者关系如同阴阳交合”的确定逻辑，属于无依据补全；“向位得宜招福、不当招灾”“阴阳相吸孕育生机”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文存在文字错乱，部分语句含义无法确认，仅零散提及阴阳交媾、龙、水、向等术语"
+        ]
+      },
+      {
+        "id": "book032-b000036-p000-a33cb32f7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4380,
+    "completion_tokens": 1041,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4380,
+      "completion_tokens": 1041,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

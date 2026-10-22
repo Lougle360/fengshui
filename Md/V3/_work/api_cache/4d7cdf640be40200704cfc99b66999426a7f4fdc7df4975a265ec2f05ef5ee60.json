@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T08:36:52.185773+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4d7cdf640be40200704cfc99b66999426a7f4fdc7df4975a265ec2f05ef5ee60",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002642-p000-5a0600d6a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002644-p000-ee09e1ec07",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“外重龙山”被遗漏“山”字，仅译为“外围的龙”，不符合术语表述习惯，应为“外围的龙山”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002646-p000-7eec659b7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002647-p000-d8d0a0921a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“然此特甚言下砂逆水之不虚生者”被误译为“然而这只是极力说明下砂逆水不会凭空产生”，语义偏差，原文实际是强调下砂逆水的效用不是虚言、必有应验；原文“裁剪小穴”被译为“形成小的穴位”不准确，“裁剪”指人工修整布局的小穴，不是自然形成"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002648-p000-0fe07d1fc7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002650-p000-37a902be93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002651-p000-833567e655",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002653-p000-32b5bc5a57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002654-p000-386408239d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“壬春，进士，节推”被误译为“壬春年间，出了进士节推”，“壬春”是人名，不是年份；原文“一俊，进士，少”被误译为“出了进士一俊，年少有为”，“少”的具体含义原文未明，擅自补出“有为”属于无依据增译；locked_term“离”此处是“离开”义，不是作为八卦术语的“离”，译文中未明确区分，但未产生歧义，次要问题；两处“水”无需重复标注allowed_glossary的完整释义，属于冗余表述"
+        ],
+        "uncertainty": [
+          "“一俊，进士，少”的“少”原文所指不明确，无法确定是年少、早逝还是其他含义"
+        ]
+      },
+      {
+        "id": "book019-b002656-p000-8085dddd97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4625,
+    "completion_tokens": 783,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4625,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4625,
+      "completion_tokens": 783,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

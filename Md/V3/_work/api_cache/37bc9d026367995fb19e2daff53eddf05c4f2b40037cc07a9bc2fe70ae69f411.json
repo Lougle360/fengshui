@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T10:56:11.038355+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "37bc9d026367995fb19e2daff53eddf05c4f2b40037cc07a9bc2fe70ae69f411",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000031-p000-ec7bbe2619",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000032-p000-8b9cf0e10e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000033-p000-50370c61bc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「公問湍」的具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 158,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1225,
+      "completion_tokens": 158,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-24T21:07:27.076723+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9122293b68ffca4dd97823afd9fafa83dbb9f143728a1d86d099c9d72ff8125f",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003615-p000-d6f6505327",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003616-p000-2bb7906c80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003617-p000-c6018f75b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003618-p000-4bbf26a80b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文句首漏译爻辞末尾的「有尚」，候选误将其补入译文前的爻辞原文处，且源文“往译文”为排版错乱的“往有尚。译文”，候选未按正确语序修正，反而将本属于爻辞的「有尚」拆分到下一条"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003619-p000-27df9672ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "该条「有尚①」实际属于上一条爻辞的末尾部分，不应单独拆分释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003620-p000-94a4ff1130",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003621-p000-02eed9f63b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003622-p000-095f012329",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文kind为heading，是《象》的原文条目，候选未保留原文标题格式，直接释读为普通文句，不符合heading类核对要求；且源文未要求翻译该句，候选擅自做了译文处理"
+        ],
+        "uncertainty": [
+          "‘旬’的具体所指需结合前文易家解释判断"
+        ]
+      },
+      {
+        "id": "book016-b003623-p000-9e46fb8d4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003624-p000-5d67a119ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3116,
+    "completion_tokens": 728,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3116,
+      "completion_tokens": 728,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

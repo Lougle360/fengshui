@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:40:32.980078+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b1dece82986610bfd36e13ad4b63f0315f7ac24bdd4673d38a01fa5ad6e28d49",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000859-p000-cb518c254c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中「城郭上µ 星」的「µ」字殘缺，具體所指不詳"
+        ]
+      },
+      {
+        "id": "book014-b000860-p000-5dba350662",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000862-p000-ef10d8a9ac",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处断句及语义模糊，无法准确释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000863-p000-aa75cd5732",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处断句及语义模糊，无法准确释读"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2845,
+    "completion_tokens": 277,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2845,
+      "completion_tokens": 277,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-17T09:39:34.163820+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4686ea77593a234cd92dfdd5cc4704d3d7e49b257ca6544f0e0935717bfc8bca",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003194-p000-2824118c90",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文为表格结构，candidate 将其处理为连续段落，丢失了原文的表格分隔和层级信息，不符合 kind=html 的核对要求。",
+          "2. 对疑似残损字样的处理（如“关车”、“田由 田”、“关国2关”、“me”、“用”、“Ge”）直接写入释文，并称“具体所指不详”，这属于增译。应仅指出原文存在疑似残损或识别错误，而不应将这些字样作为释读内容的一部分。",
+          "3. 对“伪落”、“斩关”、“穴式”、“巳上”等术语的处理，candidate 直接使用而未加引号或说明，可能误导读者以为这些是确定的现代术语。根据规则，这些 opaque_terms 应原样处在引号引用范围内。",
+          "4. 对“辛山不宜借戌乾授穴”的断句，candidate 未作处理，但 writer_uncertainty 已标注，应在释读中体现这种不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003202-p000-cab8f42eb6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“拜刚金杀”、“拜合卦曜星”、“巽鸡乾马”、“杀马变作牙刀”等短语含义不明，candidate 已用引号标注并保留原样，符合处理要求。"
+        ]
+      },
+      {
+        "id": "book035-b003204-p000-cb8c48795e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“弄截高檀”四字疑似残损或错误，candidate 已明确指出“具体所指不详”，符合处理要求。",
+          "“判笔”、“才刀”等术语含义不明，candidate 已用引号标注。"
+        ]
+      },
+      {
+        "id": "book035-b003205-p000-3575ac8af3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“流槎匕指地”、“下上”、“下下”、“葬乳”等短语含义不明，candidate 已用引号标注或保留原样，符合处理要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2997,
+    "completion_tokens": 596,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2997,
+      "completion_tokens": 596,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

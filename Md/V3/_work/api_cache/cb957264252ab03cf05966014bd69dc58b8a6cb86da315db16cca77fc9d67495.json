@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-24T22:25:01.483215+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cb957264252ab03cf05966014bd69dc58b8a6cb86da315db16cca77fc9d67495",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000699-p000-d49df3a853",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000700-p000-4b258a7d34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“每食一子一支”的具体含义暂不明确"
+        ]
+      },
+      {
+        "id": "book017-b000702-p000-8d407143d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“學倒而言”释为“举例说明”无依据，属于无据增译；原文“若巳為则不得为真夫事矣”语义存在歧义，候选释读“如果以巳为标准，就不能算作真夫妇了”缺乏原文支撑，属于不当臆译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000705-p000-e7889d9dd7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“然青來若諸例召公都天照經じ所 之例則皆起子癸始今，讀者不方自乃殺 验·”存在明显讹误脱漏，候选将“召公都天照经じ”直接认定为《召公都天照经》无依据，且将缺损的“讀者不方自乃殺验”释为“现在的读者不自行参照方法核验”属于无据臆译，原文无法支撑该释义"
+        ],
+        "uncertainty": [
+          "原文存在缺损讹误，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000706-p000-c322d6e64b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“先幼天不因，此已詳說，此不教见”释为“先幼天没有沿袭这个说法，相关内容此前已经详细说明过，这里就不再展开表述了”无依据，“先幼天”所指不明，“不教见”释为“不再展开表述”属于无据臆译"
+        ],
+        "uncertainty": [
+          "“先幼天”“此不教见”具体含义暂不明确"
+        ]
+      },
+      {
+        "id": "book017-b000709-p000-7b974ef651",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“私報能之浴聞”的具体含义暂不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1514,
+    "completion_tokens": 646,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1514,
+      "completion_tokens": 646,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

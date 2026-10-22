@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T15:25:41.092345+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a15c8ce8ec26dc4a933d470d592f7dbfb582a9bd90537efc728d8f6dfa521b1e",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000544-p000-a55fb9e065",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文本排列错乱，整体含义无法准确解读"
+        ]
+      },
+      {
+        "id": "book026-b000550-p000-82d8341b1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000552-p000-efdcd52d86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为地局宽平者会福泽深远无穷，候选释读将其误译为‘不会在深远的时间里绵延福运没有穷尽’，与原文语义完全相反"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 206,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1124,
+      "completion_tokens": 206,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

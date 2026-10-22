@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-15T15:33:19.472207+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9e0c3335a1ae69a7b99d473a90c12f6b6bb6f6a02c2a378c74aa934e1c475909",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002240-p000-69b2d0c214",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002241-p000-33ecbe90bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002242-p000-387fa430af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘羌山忌見巳水’，candidate 将‘羌山’处理为‘羌山（此处具体所指不详）’，但‘羌山’是 locked_term 吗？不是。它属于 opaque_term 吗？也不是。它可能是一个专有名词或特定术语，但 candidate 直接将其作为普通名词处理并加注‘具体所指不详’，这属于对不确定专名进行了释义性处理，应将其视为 opaque_term 并原样引用。candidate 应改为‘羌山’忌讳见到巳水，并说明‘羌山’具体所指不详。",
+          "原文为‘巽山足見酉水’，candidate 译为‘巽山忌讳见到酉水’。‘足見’可能是‘忌見’的OCR错误或异体字，但 candidate 直接按‘忌讳见到’处理，没有标注原文可能的讹误。应指出原文为‘足見’，可能为‘忌見’之误。",
+          "原文为‘其例起于渾天甲子所属之五行剋八卦之所属也’，candidate 译为‘这些例子的原理起于浑天甲子所属的五行克制八卦所属的五行’。此处‘浑天甲子’是一个专有术语，candidate 未加引号或说明，直接作为普通名词使用，可能使读者误以为它是一个现代概念。应将其视为 opaque_term 并原样引用。",
+          "原文为‘朝來流去皆凶重則誅夷刑戮輕則殺傷刑撻至驗’，candidate 译为‘朝来流去的水若犯此例皆主凶，重则导致诛杀、刑戮，轻则导致杀伤、刑打，非常灵验。’此处‘朝来流去’可能指水来的方向和流去的方向，candidate 译为‘朝来流去的水’稍显模糊，但基本达意，可接受。但‘刑撻’译为‘刑打’稍显口语化，但考虑到通俗化目标，可接受。"
+        ]
+      },
+      {
+        "id": "book033-b002243-p000-64212ca561",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘火墓戊水’，candidate 译为‘火墓在戊（此处具体所指不详，通常指火库）’。首先，‘戊’是干支之一，candidate 将其解释为‘火库’属于超出了 allowed_glossary 的定义，属于无依据扩写。应保留‘戊’字，并说明‘火墓在戊’的具体五行归属在原文语境中未明确。candidate 已标注 uncertainty，但解释部分‘通常指火库’应删除。",
+          "原文为‘故曰四墓益墓者從土而藏之義’，candidate 译为‘所以说四墓是益墓，意思是...’。‘益墓’可能是一个特定术语，candidate 将其解释为‘是益墓’，并进行了后续释义。但‘益墓’不在 locked_terms 或 opaque_terms 中，candidate 直接将其作为普通短语解释，可能不妥。应将其视为不透明术语，原样引用并说明含义不确定。",
+          "原文为‘賴氏云四金朝流 并坐向痼疾寡天人伶仃’，candidate 译为‘赖氏说四金朝流，并坐向有痼疾、寡人、人伶仃。’原文‘寡天人伶仃’可能有脱漏或特定组合，candidate 拆分为‘寡人、人伶仃’属于推测性断句，且‘寡人’易引起歧义（古代君王自称）。应更保守地处理，如‘主痼疾、寡天、人伶仃’或指出原文表述可能不完整。",
+          "原文为‘亦須破局者為驗’，candidate 译为‘也须破局者才能应验。’‘破局’是一个风水术语，但不在 allowed_glossary 中，candidate 直接使用未加说明。应将其视为 opaque_term 并原样引用，或加注说明其为风水术语，具体含义需结合上下文。"
+        ]
+      },
+      {
+        "id": "book033-b002244-p000-3a88448005",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002245-p000-9d276dfac4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002246-p000-01759cab00",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘也教人犯配他州’，candidate 译为‘教人犯配他州’。‘犯配’可能是一个特定组合词，candidate 直接连用，未加说明。应将其视为不透明短语，或加注说明其含义不确定。",
+          "原文为‘亦名八何曜水主凶 桃花水一名馳’，candidate 译为‘也叫八何曜水，主凶，桃花水，一名驰。’‘八何曜水’可能为‘八曜水’或特定术语之误，candidate 直接引用‘八何曜水’并说明‘原文可能为传抄之误或特定术语’是合适的。但‘桃花水一名馳’的‘馳’可能为‘驰’或另有含义，candidate 直接作‘一名驰’处理，未加说明。应指出‘馳’字原文如此，含义不详。"
+        ]
+      },
+      {
+        "id": "book033-b002247-p000-117acbaf22",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘陰局子午二水破苟主淫’，candidate 译为‘阴局子午二水破，苟主淫。’‘苟’字可能为‘句’、‘均’之误或特定虚词，candidate 直接保留‘苟’字，但未加说明可能影响理解。应指出‘苟’字原文如此，含义不确定。",
+          "原文为‘若庚辛陰龍見卯水朝王大發’，candidate 译为‘若庚辛阴龙见卯水朝，王大发。’‘王大发’可能为‘主大发’之误，或‘王’有特定含义。candidate 直接作‘王大发’处理，未标注可能的讹误。应指出‘王’字原文如此，可能为‘主’之误。",
+          "原文为‘故震山免水縱吉必淫’，candidate 译为‘故震山免水，纵吉必淫。’‘免水’可能为‘见卯水’之误，因上文提到‘卯水’，且‘免’与‘卯’形近。candidate 直接作‘免水’处理，未标注可能的讹误。应指出‘免水’原文如此，可能为‘卯水’之误。"
+        ]
+      },
+      {
+        "id": "book033-b002248-p000-43321c831f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘可衆水回祿太神之名也’，candidate 译为‘可众水回禄，太神之名也。’此句与前文逻辑衔接不明，candidate 直接翻译，但‘可众水回禄太神之名也’可能为衍文或特定术语组合。candidate 已标注 uncertainty，但翻译部分仍将其作为普通句子处理。应更明确地指出此句原文如此，含义不明，可能为注释或错简。"
+        ]
+      },
+      {
+        "id": "book033-b002249-p000-496a639adc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文以日文片假名‘オっ’开头，可能为OCR错误或特定符号。candidate 完全忽略此字符，未作任何说明。应指出原文开头有‘オっ’字符，可能为讹误。",
+          "原文为‘大主人定’，candidate 译为‘大主人定。’‘人定’可能为特定术语或‘定’字有误，candidate 直接翻译，未加说明。应指出‘人定’含义不确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3989,
+    "completion_tokens": 1840,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3989,
+      "completion_tokens": 1840,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

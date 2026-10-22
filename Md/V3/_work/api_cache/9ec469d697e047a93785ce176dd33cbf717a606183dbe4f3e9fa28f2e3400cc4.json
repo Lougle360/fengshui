@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T04:34:29.033036+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9ec469d697e047a93785ce176dd33cbf717a606183dbe4f3e9fa28f2e3400cc4",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000487-p000-eb09216fd3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000488-p000-b70631fa1d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蜀急”释为“水势都急”错误，属于漏译且无依据改写；原文“關儀甚大”释为“关联的仪制格局极大”错误，“关仪”并非仪制，属于专业语境误释；原文保留文言词“四時”未转换为现代中文“四季”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000489-p000-0433ef677c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000490-p000-12720c4bbe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000491-p000-02bb20d5e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000492-p000-946a436920",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“壖築西湖”释为“在湖岸修筑西湖”错误，“壖”指湖边空地，“修筑西湖”不符合逻辑，属于文意误译；原文“潮水乃諸水注聚之處”中“潮水”释读未明确此处为近海汇聚的潮水水域，直接等同于泛称的潮水存在歧义，且“所有水流”表述过于绝对"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000493-p000-c58766c196",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“忌敝滿謂之悲法言有林凶也”释为“忌讳水满，称之为悲法，有林则凶”错误，属于断句错误导致文意完全偏差，原文“敝滿”“悲法”“有林凶”均未正确对应风水文本原义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000494-p000-072c411996",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000495-p000-04ebe5f582",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“右手浜兆穴中不見”释为“右手临近兆穴，主大富”错误，漏译“穴中不见”的关键信息，属于文意缺损；原文“倉嚴門板”释为“仓廪门板”属于用字错误，应为“仓板”对应原文的“倉板水”释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000499-p000-fd2ce21cbf",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾缺字，仅能确认到此处"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2503,
+    "completion_tokens": 873,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2503,
+      "completion_tokens": 873,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T12:37:28.670795+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "03bcf090f63f5780c5b51a3e1e457574f993d4a11a60e394e68d3ca9edc72990",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000775-p001-86d12be76a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“膽葳虎白”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000776-p000-ae79fa10f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文“喜只”后内容缺失，无法完整释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000778-p000-70ea84a709",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文“肇”后内容缺失，无法完整释读"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 186,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1062,
+      "completion_tokens": 186,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

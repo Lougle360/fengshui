@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T11:04:18.445963+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "97844a36cecae2cb89bf7e8545947fdf61041e9bddec9e28ea17e85704c5c002",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000138-p000-4e49ff63a4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中「莫向無申非有靠於有處求」「卦坐陰陽何必想例杖之法」「腰相受也」「明到杖之十卦坐陰陽何必言矣」「手子」「乘氣貫棉」等含混术语/短语强行释读为确定内容，不符合原文未明的情况；将「陽卯脈入穴，坐乙向辛，右耳愛氣」「陰卯脈入穴，用向庚左耳乘氣」的表述错误解读为方位与气的对应，存在专业术语误换问题"
+        ],
+        "uncertainty": [
+          "「莫向無申非有靠於有處求」具体所指详情不明",
+          "「卦坐陰陽何必想例杖之法」具体所指详情不明",
+          "「腰相受也」具体所指详情不明",
+          "「明到杖之十卦坐陰陽何必言矣」具体所指详情不明",
+          "「手子」具体所指详情不明",
+          "「乘氣貫棉」具体所指详情不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1299,
+    "completion_tokens": 275,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1299,
+      "completion_tokens": 275,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

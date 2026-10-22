@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-10-18T04:40:34.276315+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "043e8df34c4d312367814708f374707b7a87ec9fd073bf142c998ef7c61d34c9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005441-p000-ea6954536f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中'贪狼游魂卦一名入河卦'是独立陈述，candidate将其与前面的表格内容合并，导致信息结构不清，且'表格中列出了各卦变后的对应关系'的概括不准确，原文表格内容并非简单的'对应关系'，而是具体的卦序排列。",
+          "candidate将'贪巨禄文廉武破辅'释为'贪、巨、禄、文、廉、武、破、辅'，但原文为'贪巨禄文廉武破辅'，漏译了'辅'后的'弼'星（根据上下文及常见九星排序推断）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005442-p000-f8b8e765bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'定局生氣天醫紙游五福德本宮'释为'定局生气、天医、五鬼、福德、本宫'，其中'紙游五'被推测为'五鬼'，但原文'紙'字可能是'五'或'鬼'的OCR错误，此推测虽合理但改变了原文用字，应保留原文并标注不确定性。",
+          "candidate将'三吉'独立列出，但原文中'三吉'位于表格内，可能与前文'定局'等内容相关，释读未体现其位置关系。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005443-p000-3677c1e6fe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'巽卦与坎卦相对，因此从坎卦起贪狼'中的'从坎卦起贪狼'是错误释读。原文为'巽与坎对宫起贪狼'，结合前文'从五变对宫起贪狼'的逻辑，应是'从对宫（即坎宫）起贪狼'，但candidate表述为'从坎卦起贪狼'，易与'在坎卦上起贪狼'混淆，应明确为'从坎卦（即对宫）上起贪狼'。",
+          "candidate对表格内容的概括'各卦变后的对应关系'不准确，原文是具体的卦序排列，并非'对应关系'的说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005444-p000-999547bc3b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005446-p000-ca13390517",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005447-p000-b4f7a07e08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'定局食很門旅存文曲廉寅武由破平辅码'释为'定局食禄、门旅、存文、曲廉、寅武、由破、平辅'，这是基于推测的大幅改写。原文OCR混乱，但candidate将其拆分为多个现代风水术语组合，缺乏依据，且'码'字未处理。应保留原文模糊状态或仅作最小化合理推断。",
+          "candidate将'鬼在福德爲五鬼宜參用到位'释为'鬼在福德为五鬼，宜参用到位'，但'參用到位'含义不明，candidate未作任何说明，直接保留可能导致读者困惑。",
+          "candidate将'合陰陽惟輔星不合福德卦五鬼卦爲福艮'释为'合阴阳惟辅星不合福德卦。五鬼卦为福艮与兑。'，断句和释义可能不准确。'爲福艮'与后文'與兑對'可能相连。",
+          "candidate将'與兑對此卦從天地卦六變而來向水以此起吉凶德五'释为'此卦从天地卦六变而来，向水以此起吉凶。'，但遗漏了结尾的'德五'，且'向水以此起吉凶'的表述不够清晰。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005448-p000-061dd66220",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3601,
+    "completion_tokens": 1076,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3601,
+      "completion_tokens": 1076,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

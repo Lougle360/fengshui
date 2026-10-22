@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-18T06:40:27.797013+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "36f26851175b7943209f1caa7d0218eba7fca90e6dfdc611c9e3449d2ed92d59",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005740-p000-25c336836c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005743-p000-e0ffeb7732",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘叵值吉宿照支凶時’意为‘如果遇到吉宿照临但地支为凶时’，candidate译为‘如果吉宿照临却遇到凶时’，漏译了‘支’（地支）这一关键限定，可能导致读者误解凶时的判断依据。",
+          "原文‘但看卦取主龍多用不合六秀者’意为‘但看卦选取主龙时，大多（情况）是不合六秀的’，candidate译为‘大多存在不合六秀的情况’，表述不够直接，但尚可接受。然而，后续‘今所取用或岳六秀’的翻译‘或许是依据六秀’存在严重问题。‘岳’字含义不明，candidate将其解释为‘依据’或‘取’属于无依据的推测，违反了‘不得把不确定解释写成确定事实’的规则。此处应保留原文‘岳’字并标注其含义不明。",
+          "原文‘照相’的翻译‘相互对应’是合理的，但candidate在uncertainty中补充说明‘非现代摄影之意’属于不必要的增译，因为现代读者在上下文中应能理解其非摄影义。"
+        ],
+        "uncertainty": [
+          "原文‘或岳六秀’中的‘岳’字含义不明，具体所指不详。",
+          "原文‘照相’在此处指星宿与方位的相互对应或对照。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 404,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1171,
+      "completion_tokens": 404,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

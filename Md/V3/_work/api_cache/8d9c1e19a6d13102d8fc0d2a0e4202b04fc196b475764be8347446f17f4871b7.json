@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T11:03:06.968655+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8d9c1e19a6d13102d8fc0d2a0e4202b04fc196b475764be8347446f17f4871b7",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000135-p000-8a7ac193df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000136-p000-c8b1a249c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000137-p000-93ca863202",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000138-p000-4e49ff63a4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中「末二句言高山平地總一般莫向無申非有靠於有處求無意明倒杖卦坐陰陽何必想例杖之法至十有二莫非陰來受陽來陰受乘氣貫棉之妙詳見十二杖注中卦陰陽者言坐穴乘氣或順或泄耳腰相受也明到杖之十卦坐陰陽何必言矣手子云假如陽卯脈入穴坐乙向辛右耳愛氣此陽氣順來以耳逆受陰卯脈入穴用向庚左耳乘氣此陰氣逆來以」的内容进行了拆分扩写，部分内容的释读超出原文明确表述，存在无依据的语义延伸"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1743,
+    "completion_tokens": 389,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1743,
+      "completion_tokens": 389,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

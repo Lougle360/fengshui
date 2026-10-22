@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-26T11:53:11.671652+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a9dd52624697e2e75a09df8a1991e4367ea4a5fbc099e1d9d303893f245f70b7",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000348-p000-7d2ef0a30d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate错误将原文中“葬后王陵作上卿”的“王陵”（汉代历史人物，指代高位官职）误解为“相关的王陵”（陵墓类含义），违背原文表意；对原文核心含义的转述准确性远低于current版本"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 453,
+    "completion_tokens": 116,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 453,
+      "completion_tokens": 116,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

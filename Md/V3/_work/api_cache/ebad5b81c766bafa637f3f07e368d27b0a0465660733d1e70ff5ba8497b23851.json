@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T15:35:50.332282+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ebad5b81c766bafa637f3f07e368d27b0a0465660733d1e70ff5ba8497b23851",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001185-p000-39073b929e",
+        "modern_text": "比如《诗经》豳风·七月中就有这样的内容，13。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001186-p000-e4246bb5c1",
+        "modern_text": "七月流火あり(秋，アンタレスが黄昏時に西に沈む。アンタレスは寒暑の候きずひっである)，九月衣を授く(霜が始めて降り，冬衣を準備する)。一の日は觱はっ発たり(十一月，風は寒く)，二の日は栗烈たり(十二月，気は寒し)。衣かつおなく褐なければ，何を以て歳を卒えん。三の日于に耜し(正月，始めあして田器を修め)，四の日趾を挙ぐ(二月，実際に耕作を始める)。我が婦子ともかれいと同に，彼の南畝にす(我＝家長自ら婦女を率いて田地に弁当をもってでんしゅんいく)。田畯(勧農の官)至りて喜ぶ。",
+        "confidence": "low",
+        "uncertainty": [
+          "觱はっ発たり",
+          "栗烈たり",
+          "始めあして田器を修め",
+          "でんしゅんいく"
+        ]
+      },
+      {
+        "id": "book015-b001187-p000-1ac05de572",
+        "modern_text": "标注为“……某月”的，是采用以立春を含む月（建寅の月）为正月的夏正（夏王朝のこよみ）；标注为“……某日”的，是采用以冬至を含む月（建子の月）为正月的周正（周王朝のこよみ）。前者符合农事规律，后者则基于冬至的天象，两者正月的位置相差近2个月。另外《春秋》中，经与传都依据官暦の周正，但偶尔也会将同一事件记在不同的月份。还可确认魏国不使用官定历法，而是正式采用夏正。",
+        "confidence": "medium",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2057,
+    "completion_tokens": 566,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2057,
+      "completion_tokens": 566,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

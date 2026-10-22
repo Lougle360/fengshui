@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T08:54:24.005313+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b6efe20b79981f7dd861220a7ca01693ccb1c6f3ceb087ffa4809c56434a413b",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000147-p001-3512bac7c3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“學帳胥之結自有觀不及正龍”“帳角分結者力漸大”等内容，候选释读存在漏译、语义模糊，且将“學帳胥”相关内容释读为“學帳胥的結局”不符合原文含义，原文未提及“結局”相关表述，属于无依据扩写；“將近龍盡財後龍喻卸凈畫”的内容未完整释读，存在遗漏"
+        ]
+      },
+      {
+        "id": "book009-b000148-p000-3e46998ea7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处重复段落，候选释读未区分重复内容，且“不洋江河”“蓋非過河”等原文表述释读错误，“不洋”应为“不詳”，“蓋非過河”的含义释读不准确；“陰陽峽卽雄峽也”相关内容释读存在语义偏差，未准确对应原文含义"
+        ]
+      },
+      {
+        "id": "book009-b000152-p000-06d4c5bbbc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book009-b000153-p000-46d9b345fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“貼春”“甸開正面”“扯博者便井為可據”等表述，候选释读未准确对应原文含义，存在语义偏差；“節節開面，枝葉旺盛，龍勢盤旋，有蜂腰鶴膝的是嫩峽；雍連少面，枝葉稀，龍勢徑直，硬腰過的是老峽”的释读，未准确对应原文中关于嫩峽、老峽的判定标准，存在偏差"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4508,
+    "completion_tokens": 503,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4508,
+      "completion_tokens": 503,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

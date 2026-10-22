@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-17T10:46:29.823793+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b14fc2dc90a9354fefe851cbee2700b72fa2b887f02bff36dfdf7fbcce8f090d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003361-p000-5febd23de4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "干卦正配的具体含义需结合上下文确认，此处保留原文表述"
+        ]
+      },
+      {
+        "id": "book035-b003362-p000-b2698de809",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "干卦阴阳相见的具体配合方式原文未详述"
+        ]
+      },
+      {
+        "id": "book035-b003363-p000-0804038f82",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "干卦配阴阳相见的具体机制原文未详述"
+        ]
+      },
+      {
+        "id": "book035-b003364-p000-313c6521a9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘吉純卦無若龍配兼向忌克龍入辛大發福’被处理为‘文中提到“吉純卦無若龍配兼向忌克龍入辛大發福”，具体所指不详’，这属于正确的风险标注，但候选句将原文短语‘吉純卦無若龍配兼向忌克龍入辛大發福’整体引用，超出了允许的‘引用必要的短语’范围，应更简洁地说明该部分含义不详。",
+          "原文‘丑寅氣入也’被译为‘需忌讳丑、寅之气进入’，‘需’字为增译，原文为陈述事实。应改为‘忌讳丑、寅之气进入’或类似表述。"
+        ],
+        "uncertainty": [
+          "吉純卦無若龍配兼向忌克龍入辛大發福这一短语的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b003365-p000-3dd4063d16",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘甲乙撤主也’被译为‘需忌讳甲、乙之气撤主’，‘需’字为增译，原文为陈述事实。应改为‘忌讳甲、乙之气撤主’或类似表述。"
+        ],
+        "uncertainty": [
+          "甲乙撤主也这一短语的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b003366-p000-ceb66136b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "启行这一术语的具体步骤原文未详述"
+        ]
+      },
+      {
+        "id": "book035-b003367-p000-d3c70e4b2f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘壬乾氣入也’被译为‘需忌讳壬、乾之气进入’，‘需’字为增译，原文为陈述事实。应改为‘忌讳壬、乾之气进入’或类似表述。",
+          "候选句将原文末尾‘丙山支向坐雷穴取氣從左腰貫棺尸龍穴相間六宮氣從左腰入天定貪狼蓋龍武曲蓋向太微’整体引用并说明‘具体所指不详’，引用过长。应更简洁地说明该部分内容含义不详。"
+        ],
+        "uncertainty": [
+          "丙山支向坐雷穴取氣從左腰貫棺尸龍穴相間六宮氣從左腰入天定貪狼蓋龍武曲蓋向太微这一短语的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b003369-p000-0380c478b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "注告这一短语的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 743,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3250,
+      "completion_tokens": 743,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

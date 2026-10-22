@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T20:20:56.033758+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "45e2bc74e6f9458a9204ae7c810edc3b6daa317246fd1335756a940a7a996524",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001464-p000-aa176181e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001468-p000-623a7632ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断语部分“居水遙也旺人丁也富貴”存在句读歧义，candidate将其释读为“处在远处的水畔，既能旺人丁也能带来富贵”属于无依据的确定解读，未标注歧义风险；且“应侍紫薇垣”释为“应当能在紫薇垣中供职”属于无依据引申，原文未明确指向任职含义，属于将不确定表述写成确定事实"
+        ],
+        "uncertainty": [
+          "“洋”的风水释义已标注参考，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 227,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1076,
+      "completion_tokens": 227,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

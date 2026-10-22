@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:15:13.381193+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c490f68d49afa22636418f55121879b4834c4d1bd1a016a244a55e98f77da182",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001777-p000-74f08b50c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001778-p000-60e935366e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001779-p000-588c44df46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001780-p000-f112d809c7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译了原文的注释标记①，且未将原文的“休复”保留，直接采用了译文中的表述，不符合要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 259,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1277,
+      "completion_tokens": 259,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

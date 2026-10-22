@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-16T12:15:04.260739+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9a84a475fbff823b687ca4e59d57d95f7d492bd6abaca91444fd5a9a37277550",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002274-p000-a81c421578",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“安”字具体指安排、安放还是安于，原文未明",
+          "“权天帝位”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002276-p000-7211f40775",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘三个曜星榜眼位探花双举状元郎’，candidate释读为‘三个曜星对应榜眼、探花以及“双举状元郎”的地位’，将‘榜眼位’与‘探花双举状元郎’并列，改变了原文的并列结构，可能造成含义偏差。原文可能是‘榜眼位、探花、双举状元郎’三者并列，或‘榜眼位、探花双举、状元郎’等不同断句，candidate的断句和解释缺乏依据。",
+          "原文为‘五个曜星幡旆带神童科甲佩爹章’，candidate释读为‘五个曜星如幡旆般带着神童，科甲及第佩戴“爹章”’，将‘幡旆带’解释为‘如幡旆般带着’，属于无依据的扩写。‘幡旆带’可能是一个固定搭配或特定术语，应保留原词并说明不详。",
+          "原文为‘六个曜星封五府丰子男’，candidate释读为‘六个曜星封授“五府丰子男”’，将‘五府丰子男’作为一个整体专名处理，但原文可能是‘封五府、丰、子、男’（即封赏五府及丰、子、男等爵位），candidate的解释过于确定，且‘丰子男’的提法缺乏依据。",
+          "原文为‘曜星千百随龙出直入太子及公王’，candidate释读为‘千百个曜星随龙而出，直入太子及公王之列’，并标注主语不明。此处理可接受，但释读中‘其所主之人’的推测性补充（‘但主语是曜星还是其所主之人’）超出了原文信息，属于无依据的扩写，应仅说明主语及含义不详即可。"
+        ],
+        "uncertainty": [
+          "“双举状元郎”的具体所指不详",
+          "“爹章”的具体含义不详",
+          "“丰子男”的具体所指不详",
+          "“直入太子及公王”的主语及具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b002277-p000-b9051bf025",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文作“蚴星”，释读未确认是否为“螺星”之误，故保留原词并说明具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 605,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1091,
+      "completion_tokens": 605,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

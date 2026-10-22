@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T20:31:35.399631+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5077f757cac11af8159e08cacb24b456c98e99eec30099b48e3463aa42d9ab30",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003467-p000-0a44b05b37",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003468-p000-3158039bcb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中“艮其辅”的“艮”直接释为八卦之一的含义，属于无依据的确定解释，原文未明确此处“艮”为八卦术语，违反术语使用规则"
+        ],
+        "uncertainty": [
+          "原文中“艮其辅”的“艮”具体含义未明"
+        ]
+      },
+      {
+        "id": "book016-b003469-p000-2d1b2162d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将爻辞“敦艮”的“艮”直接释为八卦之一的含义，属于无依据的确定解释，原文未明确此处“艮”为八卦术语，违反术语使用规则"
+        ],
+        "uncertainty": [
+          "原文中“敦艮”的“艮”具体含义未明"
+        ]
+      },
+      {
+        "id": "book016-b003470-p000-31c658e3c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将“敦艮”的“艮”直接释为八卦之一的含义，属于无依据的确定解释，原文未明确此处“艮”为八卦术语，违反术语使用规则"
+        ],
+        "uncertainty": [
+          "原文中“敦艮”的“艮”具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 368,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1403,
+      "completion_tokens": 368,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

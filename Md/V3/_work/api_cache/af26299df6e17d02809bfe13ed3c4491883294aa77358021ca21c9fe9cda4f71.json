@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-25T18:43:38.463070+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "af26299df6e17d02809bfe13ed3c4491883294aa77358021ca21c9fe9cda4f71",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000355-p000-7003c8a5e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为“則不清也”，无主语指涉“水”的依据，候选将其释为“水就不清了”属于无依据增译；原文断句应为“則不清也。楊救貧言龍相視于此，地可倍巳，而虎案收，任外山折去水，以或逵彼處又發”，候选未正确断句，将“龙 相视于此地可倍巳而”直接保留未拆分，影响读者理解"
+        ],
+        "uncertainty": [
+          "原文存在断裂，‘倍巳’‘逵’含义不明，‘又发’的具体所指无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000362-p000-1a8f424a12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘江閒’为原文保留表述，具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000363-p000-258d6cad70",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“田渭”是泛指田间水系，候选将其释为“田地边的水流还是渭水”属于无依据增译，“渭”并非特指渭水"
+        ],
+        "uncertainty": [
+          "‘出喜冈流及颐’具体含义不明",
+          "‘五门’为风水术语，原文未作说明"
+        ]
+      },
+      {
+        "id": "book030-b000366-p000-e838456271",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘俱龜’应为讹字，此处依据上下文文意释为属于有情格局"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1580,
+    "completion_tokens": 465,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1580,
+      "completion_tokens": 465,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

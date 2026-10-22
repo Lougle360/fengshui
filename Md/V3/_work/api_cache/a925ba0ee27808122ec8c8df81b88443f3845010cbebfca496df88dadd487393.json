@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T19:56:27.733183+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a925ba0ee27808122ec8c8df81b88443f3845010cbebfca496df88dadd487393",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001355-p000-013bc5278c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001356-p000-9d1b00b2e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001357-p000-181da355d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译与对应关系错误：1. 漏译原文中「廡」的内容；2. 原文「衰是巨門廡貞兼病死」被错误拆分对应，且重复对应「绝」位，原文「旺逢衰是巨門廡貞兼病死」的对应关系释读有误；3. 原文末尾「七曜一齊分」释读为「七曜的相关内容需统一区分」不准确，应为七曜对应关系分别排列判定之义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001358-p000-6cb0aed2d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读存在错误：1. 原文「芻入則成生以」部分释读错误，「芻」未得到合理处理，直接释为「若流入则成生」属于无依据推断；2. 标注说明原文缺漏的情况下，不应将未完整的语义强行补全为确定表述"
+        ],
+        "uncertainty": [
+          "原文此处语句未完整，存在缺漏，末尾语义不明"
+        ]
+      },
+      {
+        "id": "book029-b001359-p000-97cbbac8fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001360-p000-1afa6da3bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读错误：原文「宅 墳犯看一齊休」释读为「若宅、坟犯此需一并休咎」有误，「休」在此处应为凶祸、不吉之义，而非休咎（吉凶）的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001361-p000-baef934c03",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001362-p000-f2779b4359",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001363-p000-9f228002f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001364-p000-b4516fb941",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2249,
+    "completion_tokens": 749,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2249,
+      "completion_tokens": 749,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

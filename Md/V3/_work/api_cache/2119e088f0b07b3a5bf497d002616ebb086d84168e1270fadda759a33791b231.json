@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-10-17T06:24:48.186682+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2119e088f0b07b3a5bf497d002616ebb086d84168e1270fadda759a33791b231",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002760-p000-af0c716617",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'且不可兑砂如乃而不至殺身 者哉'，candidate译为'且不可有兑砂，若出现这种情况，则不至于杀身'，将'不至杀身'的条件完全译反。原文意思是'若出现兑砂，则难以避免杀身之祸'。",
+          "原文'龍下龍體清秀犀砂俱吉而獨曜地逢刀主出武官陣亡大臣戮罪'，candidate译为'如果龙脉下体清秀，犀砂俱吉，唯独曜地遇到刀煞，主出武官阵亡或大臣被戮罪'。'龍下龍體'可能指龙脉下段或具体位置，candidate译为'龙脉下体'，虽为浅显化处理，但'下体'一词在现代中文中易生歧义，建议调整为'龙脉下部'或'龙身下段'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002761-p000-0dc2b49cf3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "kind为heading，candidate不应进行释义或添加'这是...的标题'等说明性文字，应直接呈现标题内容。正确的处理应是保留原文'地理天機會元 卷十四玉尺經'或稍作格式调整（如添加空格或标点），但不能改变其作为标题的性质。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002762-p000-09971b17c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文错乱严重，candidate正确指出语意不通，具体所指不详，符合处理原则。"
+        ]
+      },
+      {
+        "id": "book035-b002763-p000-2962c7d711",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002764-p000-383a6726cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'恐敬回祿之禍'，candidate保留'恐敬回禄之祸'。'回禄'为火神，代指火灾。'敬'字在此处不通，可能是'惊'或'罹'等字的讹误。candidate未处理此明显问题，直接照搬，导致语义不通。应指出此处原文可能有误，或根据常见说法（如'恐罹回禄之祸'）进行合理推测并标注不确定性。",
+          "原文'不近有大地之雲者高龍成水來解主至而定外會吏'，candidate照搬为'不近有大地之云者，高龙成水来解，主至而定外会吏'。此句语意晦涩，'大地之云'、'外会吏'等词费解。candidate仅标注了不确定性，但未对'云'、'吏'等关键费解词进行任何处理（如加引号或说明），导致释读句本身难以理解。应更明确地指出这些词的具体所指不详。",
+          "原文'辛戌局全者亦然'，candidate译为'辛戌局全者亦然'。'局全'是风水术语，指某方位格局完整或得位。candidate未作任何解释，对于普通读者而言仍显晦涩。应在allowed_glossary中补充或进行浅显说明（如'辛、戌方位格局完备的也是如此'）。"
+        ],
+        "uncertainty": [
+          "'恐敬回禄之祸'中'敬'字可能为讹字。",
+          "'大地之云'、'外会吏'含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b002765-p000-d76a6be09f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'以至三吉陵雲雖十餘里何于建六秀指英縱數百步亦不爲疑'，candidate断句为'三吉陵云，虽十余里何于建六秀？指英纵数百步，亦不为疑。'。'陵云'可能为'凌云'之误，指山峰高耸。但'何于建六秀'语意不明，candidate处理为疑问句'何于建六秀？'，并将'指英纵'连读，缺乏依据，改变了原文结构。",
+          "原文'十吉二十年之道天者車不 穴前見之便呈秀氣'，candidate断句为'十吉二十年之道天者，车不穴前见之，便呈秀气。'。'车不'二字突兀，很可能为'苟'或'若'等字的形误。candidate未处理此明显讹误，直接使用'车不'，导致句子完全无法理解。",
+          "原文'六秀方有峰凌漢數百步亦不疑其爲逼身也只要不至于嚴眉遮掩堂局寬平穴前朝抑便生秀氣'，candidate断句为'六秀方有峰凌汉，数百步亦不疑其为逼身也。只要不至于严眉遮掩，堂局宽平，穴前朝抑，便生秀气。'。'朝抑'费解，可能是'朝揖'（朝拜拱揖）之误。candidate未处理此问题。"
+        ],
+        "uncertainty": [
+          "'何于建六秀'、'车不'、'朝抑'等词句可能因原文错漏导致含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b002766-p000-fc0a9850ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002767-p000-5e8b14d800",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错字、漏字及语序混乱，无法准确还原原意"
+        ]
+      },
+      {
+        "id": "book035-b002768-p000-2ac6595fb3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002770-p000-5c1c1026ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'地與人符氣通物應 者必出臉方正秀雅欹斜破碎'，candidate断句为'地与人符，气通物应。者必出脸方正秀雅，欹斜破碎。'。'者必出脸方正秀雅'一句确实突兀，candidate虽标注了不确定性，但将其直接放入释读正文，且未加引号或明确说明此句可能为衍文，处理方式不够清晰。应更明确地指出此句可能为错简或衍文，或在释读中将其置于存疑说明中，而非作为连贯句子的一部分。",
+          "原文'承上總言砂如貞淨高大峻潔者必出人陰佞魂惡'，candidate译为'砂如贞净高大峻洁者，必出人阴佞魂恶'。'魂恶'费解，可能是'奸恶'或'顽恶'之误。candidate未处理此问题。"
+        ],
+        "uncertainty": [
+          "'者必出脸方正秀雅'一句可能为衍文或错简。",
+          "'魂恶'一词可能为讹误。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 131,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3090,
+      "completion_tokens": 1695,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1066,
+      "completion_tokens": 131,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

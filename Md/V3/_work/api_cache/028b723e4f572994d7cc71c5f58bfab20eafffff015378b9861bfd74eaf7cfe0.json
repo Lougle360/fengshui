@@ -1,0 +1,175 @@
+{
+  "created_at": "2026-09-23T09:54:31.798601+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "028b723e4f572994d7cc71c5f58bfab20eafffff015378b9861bfd74eaf7cfe0",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000481-p000-df0ce7a87f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000482-p000-773426dbe0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000483-p000-035e778459",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘砂石水清’是一个并列短语，描述几种不吉的地貌特征。候选句‘砂石水清’直接引用，未做白话转换，不符合V3目标。应释读为‘砂石嶙峋、水流过清’或类似的白话表达。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000484-p000-2fa2fec441",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000485-p000-1f65454a4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000486-p000-655d56ae8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000487-p000-da387ef8ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘生蛇截水，鹤驾仙桥’是并列的两种地形描述，candidate将其合并解释为‘一条活蛇截断水流，仙鹤驾着桥梁’，将两个独立意象强行关联成一个场景，属于无依据的扩写和场景构建。应分别解释为‘有像活蛇一样截断水流的地形，有像仙鹤驾着桥梁的地形’或保留原文意象说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000488-p000-79b2a51ff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000489-p000-c92a8cf3fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000490-p000-8bfb9d9a52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000491-p000-94c6f42f0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000492-p000-e9507fdcf8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000493-p000-1611267afa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000494-p000-e316eab442",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将一系列风水术语与官位直接对应，并使用了‘是...的象征’、‘是...的居所’、‘是...的应验’等确定性表述。原文是描述某种地形对应某种官贵，但candidate的表述过于绝对和具体（如‘翰苑贵人’、‘六曹官员’、‘黄阁重臣’），超出了原文的简洁描述，属于无依据的扩写和具体化。应更保守地释读，例如‘龙池出脉，主翰苑之贵’等。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000495-p000-03e724beea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000496-p000-19e0838fed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000497-p000-5425dabd64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000498-p000-1a0d0ef92f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000499-p000-9dd71f4771",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000500-p000-f11bfb1565",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4044,
+    "completion_tokens": 827,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4999,
+      "completion_tokens": 1330,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4044,
+      "completion_tokens": 827,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

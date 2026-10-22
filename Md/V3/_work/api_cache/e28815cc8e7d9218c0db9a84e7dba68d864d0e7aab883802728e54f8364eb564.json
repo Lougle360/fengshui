@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:18:54.990168+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e28815cc8e7d9218c0db9a84e7dba68d864d0e7aab883802728e54f8364eb564",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000019-p000-b5916bfddf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的“回句申木”“桑穴”“司”等内容直接释读为确定含义，违反了术语释读规则，应标注具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“桑穴”“回句申木”“司”等词语具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000020-p000-88eb8838f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000021-p000-3ca2e7aded",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的“敗寅神路”“句言”“裴”等内容直接释读为确定含义，违反了术语释读规则，应标注具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“敗寅神路”“句言”“裴”等词语具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000022-p000-03000c7a12",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的“宋神”直接释读为确定含义，违反了术语释读规则，应标注具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“宋神”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2251,
+    "completion_tokens": 394,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2251,
+      "completion_tokens": 394,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:45:46.612939+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "054bf10d3e690ceae40b948e0bcdd2937a3d2f2fa23607793b6e9484df0977a5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000397-p000-ae37e31575",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的“徊”“知殊”“罷”“午地”等含混术语赋予了确定形态含义，违反了对含混专名不得赋予确定含义的规则；将“鬼刼竊奪其脉也”释为“鬼刼会窃夺这条脉”，把推测性表述当作确定事实，不符合释读要求；“蛛通脉微徊如知殊之引係”“罷神龍勢之情神午地”等句释读逻辑混乱，存在语义误转问题；“壠同之脈”释为“垄同的脉”，未明确“壠同”的属性，属于误释"
+        ],
+        "uncertainty": [
+          "佃嫩、徊、知殊、罷、午地等术语具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 226,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1197,
+      "completion_tokens": 226,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

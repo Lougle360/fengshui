@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-16T11:02:26.008059+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c7a36ce6b162aec6ace7e2702b8513a5d9da26b64f6eafc954c304c2df2654f5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002094-p000-ddb1d5fd94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文字迹模糊或存在讹误，语义难以确知",
+          "部分字词可能为OCR识别错误"
+        ]
+      },
+      {
+        "id": "book035-b002095-p000-31861bc751",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘放時入穴將棺對’未提及‘头部’或‘气脉’。candidate将‘对’具体解释为‘把棺木的头部对准气脉’，属于无依据的扩写。应保守释读，如‘将棺木对准穴位’或保留原文的模糊性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002096-p000-551b5325b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，可能为传抄讹误或残缺"
+        ]
+      },
+      {
+        "id": "book035-b002097-p000-cf53777fad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002098-p000-3d4b499c4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002099-p000-f42bd4f314",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002100-p000-87615aa9c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘莫脫陰陽造化功’是陈述句，意为‘不要脱离阴阳造化的功夫’。candidate将其处理为疑问句‘它莫不是脱去了阴阳造化的功夫？’，改变了原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002101-p000-2d7a4fc642",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002102-p000-ab940ad49c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002103-p000-3adf02f097",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2058,
+    "completion_tokens": 511,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2058,
+      "completion_tokens": 511,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

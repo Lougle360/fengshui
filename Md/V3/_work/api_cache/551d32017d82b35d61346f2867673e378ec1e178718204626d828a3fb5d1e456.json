@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-25T20:40:20.579136+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "551d32017d82b35d61346f2867673e378ec1e178718204626d828a3fb5d1e456",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000845-p000-22d7a41411",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中‘执圭贵人’的形法描述误释为‘梦到高圭’，原文无梦占相关含义，属于释读错误；‘诰轴砂’‘华砂’等风水术语未保留原文表述，且未做合规标注；原文‘贱格龙主僧道’被拆分到两处，属于逻辑混乱；‘出仙子神童’未准确释读，表述生硬；‘创子壬’属于未识别的OCR错误内容，未标注为含义不明，直接照录不符合要求；漏译‘展诰贵人上格龙主出身京堂贵显’‘诜笏贵人’相关可辨识内容",
+          "uncertainty的分类存在问题，4、0是OCR识别乱码，属于释读风险，应在issues中说明，同时原文中的‘PW’‘is’‘货货V’等乱码未标注"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别残缺错乱，部分字符如‘PW’‘is’‘货货V’‘4’‘0’‘创子壬’具体含义不明",
+          "部分句子因OCR错乱语序颠倒，无法完整准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1704,
+    "completion_tokens": 297,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1704,
+      "completion_tokens": 297,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

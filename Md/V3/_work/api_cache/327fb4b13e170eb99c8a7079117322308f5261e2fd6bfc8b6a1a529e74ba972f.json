@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-04T01:45:42.797424+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "327fb4b13e170eb99c8a7079117322308f5261e2fd6bfc8b6a1a529e74ba972f",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001121-p000-038e936e3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'投次'直接释读为'投次'，未进行白话解释或说明其含义，不符合'普通读者能读懂'的目标。原文'投次'可能为'投穴'或'投局'等术语的异写或讹误，candidate未处理此不确定性。",
+          "candidate将'洪赤倒旗'、'要石肥壅腫粗茅葉拖鎗'、'歹歌軟蕩架柴晒網破傘嗟峨柔弱屈曲死蛇死鱔'等一连串术语直接并列，未做任何断句或解释，对普通读者而言仍是一串难以理解的古文术语，未完成'白话核义'。",
+          "candidate将'均陷客風'释为'均陷客风'，未解释'客风'含义。",
+          "candidate将'當面捲簾'释为'当面捲帘'，未解释'捲帘'在风水中的具体意象。"
+        ],
+        "uncertainty": [
+          "'投次'具体所指不详，可能为术语异写。",
+          "'洪赤倒旗'、'要石肥壅腫粗茅葉拖鎗'、'歹歌軟蕩架柴晒網破傘嗟峨柔弱屈曲死蛇死鱔'、'散花亂衣迎送不來'、'順下斜飛披頭撒掌'、'均陷客風'、'當面捲簾'、'土牛牽動'等均为风水穴形凶相术语，具体形态描述需结合专业图像或进一步解释。"
+        ]
+      },
+      {
+        "id": "book033-b001122-p000-5a489e9148",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文在此处中断，后续内容缺失，无法完整翻译。"
+        ]
+      },
+      {
+        "id": "book033-b001124-p000-44a122ce3c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'脆乳'、'壇唇'为风水术语，具体形态描述不详。"
+        ]
+      },
+      {
+        "id": "book033-b001125-p000-02ca14f7f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'也里人子頁知卷四下'释为'也里人子頁知卷四下记载了'，但'也里人子頁知'可能为书名或篇名，candidate未将其作为专名处理或说明其不确定性，直接融入句子，可能误导读者认为这是一个确定的文献引用。",
+          "candidate将'壅腫彎來似壅拉'、'金魚不到'、'土牛宵費錢'、'牽時師道是窠囊裡枉費心機空箕'等一连串术语直接并列，未做任何断句或解释，对普通读者而言仍是一串难以理解的古文术语，未完成'白话核义'。",
+          "candidate将'干内'释为'干内'，未解释其含义（可能指主干龙脉之内）。"
+        ],
+        "uncertainty": [
+          "'也里人子頁知'具体所指不详，可能为某风水书籍或篇章。",
+          "'壅腫彎來似壅拉'、'金魚不到'、'土牛宵費錢'、'牽時師道是窠囊裡枉費心機空箕'、'城门绝'等均为风水术语，具体含义需结合专业解释。"
+        ]
+      },
+      {
+        "id": "book033-b001134-p000-73828fb64f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'堂一無可取'中的'堂'指明堂，candidate保留'堂'字，未做进一步解释，但结合上下文可推断。",
+          "'亥龍艮龍茂'中'茂'字可能为'卯'之误或另有含义，candidate未处理此不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b001135-p000-faf069fe52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001136-p000-7020ff77c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'乾窠'、'開虎'、'唇擅'为风水术语，具体形态描述不详。"
+        ]
+      },
+      {
+        "id": "book033-b001137-p000-53f5ea72ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001138-p000-e51d434fa0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001139-p000-35ae31cff7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘玄武吐古’为含混专名，candidate将其作为确定事实（‘若玄武吐古且龙真’）释读，未加引号或标注不确定性。根据规则，opaque_terms虽为空，但此类未在allowed_glossary中定义的含混术语，应原样处在引号引用范围内，或明确标注其含义不确定。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 938,
+    "completion_tokens": 193,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2316,
+      "completion_tokens": 1185,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 938,
+      "completion_tokens": 193,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

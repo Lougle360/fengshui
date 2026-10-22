@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-09-24T21:26:43.917556+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "38a1f4cb41f60bf6dea005c80ce37051105e2bdd414d90f33dbc9c463b67bae0",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000303-p000-f839f7a4ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“殊則己點耐抑”语义未明，候选自行释读为“不同的人所点的穴耐抑程度不同”属于无依据增译；原文“訣者一看侯明”被误译为“需仔细查看候明”，漏译“诀者”主体，且“一看”与“仔细查看”语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000304-p000-55218020e0",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为通俗白话，仅保留原句未作释读",
+          "“仙鐵罷”“暑雁交爹”等生僻表述未标注语义不明"
+        ],
+        "uncertainty": [
+          "原文语义晦涩，多处字词难以确认含义"
+        ]
+      },
+      {
+        "id": "book017-b000305-p000-784e118213",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乾道不戊而四时失紀矣”被误译为“乾道不会违背，四时也不会失序”，语义完全相反；原文“而立穴喜坊矣”释读为“立穴适宜选择有坊的地方”无依据，“坊”此处语义未明",
+          "未提及原文夹杂的日文假名「んそ」"
+        ],
+        "uncertainty": [
+          "原文“九法之交夏”“六錯其乎”“喜坊”语义不明，「んそ」含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000306-p000-616aed2c00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“幹流奇支流交会”被误译为“干流奇特、支流交会”，属于无依据扩写“奇”的含义；原文“氣界地理辨三真读 4三真读 六三”仅直接保留，未标注属于OCR或原文讹误"
+        ],
+        "uncertainty": [
+          "“三真读 4三真读 六三”疑似原文讹误或排版问题，语义不明"
+        ]
+      },
+      {
+        "id": "book017-b000308-p000-9451d9b02e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000309-p000-0ef0259641",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“大韩小支”“三文石出”语义不明，末尾“L”为可疑字符"
+        ]
+      },
+      {
+        "id": "book017-b000310-p000-eb1100d762",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“三又水”疑似“三叉水”讹误，候选未作标注；原文“沈竹初之仍謂城門決別非此城門去非見水光而己”断句误读，释读为“判断城门的去留”属于无依据增译；原文“兩路光之上富”释读为“两条道路交汇有光的位置之上的富地”属于无依据扩写；末尾多余的“0”未说明是原文残留"
+        ],
+        "uncertainty": [
+          "“三又水”疑似讹误，“城門決別非此城門去”语义存疑"
+        ]
+      },
+      {
+        "id": "book017-b000311-p000-35afdad059",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“湖裏雁交稽言”语义未明，候选直接保留未标注",
+          "“一水從右去”表述与“两水相遇”逻辑矛盾，原文应为一水右来，候选未指出此处可能的原文讹误"
+        ],
+        "uncertainty": [
+          "“湖裏雁交稽言”语义不明，“一水從右去”与“两水相遇”逻辑存疑"
+        ]
+      },
+      {
+        "id": "book017-b000313-p000-d483ad746a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“山靜水動書夜定”被误译为“山静而动，昼夜恒定”，漏译“水动”且篡改原文语义；原文“水主財深山人丁”被误译为“水主财，也主深山人丁”，漏读断句，原文应为“水主财禄，山人丁”（或“水主财，山主人丁”），语义理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000314-p000-e78626db7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“此上慶”所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2579,
+    "completion_tokens": 1141,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2579,
+      "completion_tokens": 1141,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

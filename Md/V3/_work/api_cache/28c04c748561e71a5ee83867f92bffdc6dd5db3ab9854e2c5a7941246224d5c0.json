@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-09-25T14:51:10.608181+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "28c04c748561e71a5ee83867f92bffdc6dd5db3ab9854e2c5a7941246224d5c0",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000122-p000-1bef264664",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句“天外一峰誰謂狀元之筆”释读错误，原句意为“天外有一座山峰，谁说它是状元笔？”，并非“没人能说它是状元笔的形状”，语义存在偏差；“否则会招来招损的祸患”存在语义重复，应为“招来损失的祸患”"
+        ],
+        "uncertainty": [
+          "原文“人懷特土貴非文十之雄火秀 轉土之尊非之工之可比”存在文字残缺，具体含义无法明确"
+        ]
+      },
+      {
+        "id": "book028-b000124-p000-143f10d1f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000125-p000-b6885c815f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“不若運機之扒歌經人卷 宗”存在OCR识别错误，文字残缺，具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b000126-p000-adf0041039",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“裁月焉”释读错误，“月”为原文讹字，结合语境应为“穴”，并非“对半月形的格局进行裁度”，属于无依据释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000127-p000-610ba41ec9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“此擇主之不可懇”的释读错误，原文是“不可懇”，若疑为“不可不慎”，应明确标注为推测，不应直接写为“不可不谨慎”，且“懇”为“慎”的讹误属于推测，不应作为确定释义使用"
+        ],
+        "uncertainty": [
+          "原文“懇”疑似“慎”的讹误，含义需结合上下文判断"
+        ]
+      },
+      {
+        "id": "book028-b000128-p000-0ee43d447c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不專則其情意尚有他顧足以主眞實矣”释读逻辑相反，原句意为“如果案山情意不专一，还有他顾，就不足以成为真实佳局的佐证”，释读中“就不足以证明是真实的佳局”逻辑正确，但前文“不必取特賔之趨俟不專則”断句错误导致释读语序不顺，原句应为“不必取特宾之趋，俟不专则...”，释读表述存在歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000129-p000-566ddd18a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“没有案山却仍然合格的情况”，属于无依据增译，原句“缺之或手足無障此亦局中盛大之氣流行充塞者也”意为“缺少案山的话，有时（即便）没有手足遮挡，也是因为局中盛气流行充塞（的缘故）”，并非补充“无案山仍合格”的情况"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2562,
+    "completion_tokens": 795,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2562,
+      "completion_tokens": 795,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

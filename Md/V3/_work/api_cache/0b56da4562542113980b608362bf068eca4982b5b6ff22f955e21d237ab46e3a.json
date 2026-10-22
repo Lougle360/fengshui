@@ -1,0 +1,216 @@
+{
+  "created_at": "2026-09-23T12:21:53.647029+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0b56da4562542113980b608362bf068eca4982b5b6ff22f955e21d237ab46e3a",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000488-p000-ffb7d930ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“截兌氣入左截震氣入右”，candidate 译为“當兌方的氣進入左側，截斷震方的氣進入右側時”，将“截”字仅用于“震氣”，改变了原文结构。原文是“截兌氣入左”和“截震氣入右”两个并列动作，应理解为“截取兑方之气引入左侧，截取震方之气引入右侧”。",
+          "原文“當慶收氣入局內”中的“當慶”可能为“當亟”（应当赶紧）或“當乘”之误，candidate 译为“應當慶幸”属于推测，且“慶幸”一词过于现代口语化，与原文语境不符。应保留原文的模糊性，或标注为“具体所指不详”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000489-p000-30c9205036",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000490-p000-ca01d37098",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“申兠氣入局”中的“申兠”应为“兜攬”或“兜收”之意，candidate 译为“兜攬”正确，但“申”字未译出，可能为“伸”或“深”之误，应标注不确定性。",
+          "原文“玉尺經下 卷之國 十九”中的“國”字疑为“四”或“五”之误，candidate 仅译为“下卷”，漏译了“卷之國 十九”这一具体分卷和页码信息。"
+        ],
+        "uncertainty": [
+          "“申兠”的具体含义不详。",
+          "“卷之國”的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000491-p000-97ff3f9071",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000495-p000-f3ce3c9ced",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“四畔必出月角甕轉向堂”中的“月角甕”是含混术语，candidate 直接译为“月角瓮”，未加引号或说明，赋予了其确定性。应作为 opaque_term 处理。",
+          "原文“與玉天經下 卷之四 114-11山龍脉穴更佳水法不堪裁剪不比平源大河之處一不合法東手無計”一句，candidate 译为“与《玉天经》下卷之四相比，山龙脉穴更佳，但水法不堪裁剪，不像平源大河之处那样一不合法，东手无计。”将“與”理解为“与...相比”，但原文可能是“与《玉天经》下卷之四（第114-11页）所述类似，山龙脉穴更佳...”，或“與”为“於”之误。candidate 的译法改变了原文可能的引用关系。且“東手無計”含义不明，candidate 直接保留，未作任何说明。"
+        ],
+        "uncertainty": [
+          "“月角甕”具体所指不详。",
+          "“東手無計”具体所指不详。",
+          "原文“與玉天經下 卷之四 114-11”的引用方式和具体含义不详。"
+        ]
+      },
+      {
+        "id": "book003-b000497-p000-d5b58cab38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000498-p000-fa2a3e22c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000499-p000-3f9e9e5733",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000500-p000-1a4d9dc90d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“卯西兌見午那見子”中的“那”字，candidate 直接保留为“那”，未作处理。此“那”字可能为“巽”或“巳”之误，或为特定术语。直接保留会令读者困惑。应标注为不确定。",
+          "原文“亦 玉尺釋下 卷之四 二十四”在 candidate 中被译为“亦玉尺釋下卷之四二十四”，但原文有空格，可能表示“亦（出自）《玉尺釋》下卷之四，二十四（页）”。candidate 的译法模糊了出处和页码信息。"
+        ],
+        "uncertainty": [
+          "“那見子”中的“那”字具体所指不详。",
+          "“亦 玉尺釋下 卷之四 二十四”的断句和具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000501-p000-c5b6519a52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000503-p000-a5eef2a5bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“乙席丙龍”译为“乙席丙龍”，并在 uncertainty 中标注“「乙席」一詞疑為「乙丙」之誤或特定術語”。但 candidate 正文并未修正，仍保留“乙席”，这不符合“普通读者能读懂”的目标。应在译文中直接处理为“乙丙龙”并加注说明，或明确标注为“乙（？）丙龙”。",
+          "candidate 将“甸依水接堂氣也”中的“甸”保留，并在 uncertainty 中标注。同样，应在译文中处理，如译为“（穴？）依水接堂氣也”。",
+          "candidate 将“趙成”保留，并在 uncertainty 中标注。应在译文中加引号或问号处理，如“所谓乙丙龙变而‘赵成’”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000504-p000-850682b4ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000505-p000-942d4cf028",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000506-p000-3b3d13876c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000508-p000-e0ccdcb7ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“從辛戍入亥爲陽龍”中的“辛戍”，candidate 译为“辛戍方”。但“戍”是地支，通常与天干“辛”组合表示方位，译为“辛戌方”更准确。",
+          "原文“員布子外陽左陰左以爲之式”中的“員布”，candidate 译为“圆布”，可接受。但“陽左陰左”疑为“陽左陰右”之误，candidate 译为“阳龙向左、阴龙向左”，可能延续了原文错误。应标注不确定性。",
+          "原文“問局前朝堂爲來言趙至局前朝會衆水”中的“問”字可能为“向”或“闚”之误，“趙”字可能为“趨”或“朝”之误。candidate 译为“朝向局前朝堂，这是来水；水汇聚到局前朝会众水”，处理了“問”为“向”，但完全忽略了“言趙至”三字，属于漏译。"
+        ],
+        "uncertainty": [
+          "“陽左陰左”可能为“陽左陰右”之误。",
+          "“問局前朝堂爲來言趙至局前朝會衆水”中“問”和“趙”的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book003-b000511-p000-83bafe47e9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“趙巽合流出異”中的“趙巽”，candidate 保留为“赵巽”，并在 uncertainty 中标注。应在译文中加引号或问号处理。",
+          "原文“麗力貴不過四品富不過艮萬”中的“麗力”和“艮萬”，candidate 保留并在 uncertainty 中标注。应在译文中加引号或问号处理，如“贵不过四品，富不过‘艮万’”。",
+          "candidate 将“水步行至外堂敗矣”译为“水步行至外堂则败了”。“步行”形容水不恰当，可能为“不行”（不流行）或“步至”之误。应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000512-p000-5695eea03d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“業薇之司”中的“業薇”，candidate 保留为“業薇”。此为含混专名，应加引号或标注。",
+          "原文“南會庚酉木而左倒則 卷之四 114”在 candidate 中被译为“南會庚酉木而左倒則卷之四 114”，但原文有换行，可能表示“南會庚酉木而左倒則（凶？）。《卷之四》 114”。candidate 的译法使句子不完整。"
+        ],
+        "uncertainty": [
+          "“業薇”具体所指不详。",
+          "“南會庚酉木而左倒則”一句不完整，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000513-p000-0e0cdffe15",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“臨力畧官至四品”中的“臨力畧”，candidate 保留为“临力略”，并在 uncertainty 中标注。应在译文中加引号处理。",
+          "原文“開享門關地戶震龍動而龍見時”中的“開享門”，candidate 保留为“开享门”。可能为“開闔門”或“開亨門”之误，应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000515-p000-b8a982009d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "此段原文错乱、术语含混处极多，candidate 基本采取逐字保留的策略，导致译文难以理解，不符合“普通读者能读懂”的目标。例如“赵向异震”、“做妙”、“井击”、“为雇之真机”、“巢左系”、“垂发人”、“芒九”、“迁4”、“水基15”、“四宇上来”等，candidate 仅在 uncertainty 中列出，未在译文中进行任何可读性处理（如加引号、问号或说明文字）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000517-p000-09797c3ec5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“法殿成丑未爲四墓”中的“法殿成”，candidate 保留为“法殿成”，并在 uncertainty 中标注。应在译文中加引号处理。",
+          "原文“是水宣緊不室來室去不空入”难以理解，candidate 保留为“是水宜紧不室来室去不空入”。可能为“是水宜緊，不實來實去，不空入”之误。应标注为原文疑有误，释读不确定。",
+          "原文“若西某側到決不可下”中的“西某側”，candidate 保留为“西某侧”，并在 uncertainty 中标注。应在译文中加引号处理。",
+          "原文“池河方壤通衆水來去者不是刀”句意不明，candidate 保留为“池河方壤通众水来去者，不是刀。”应标注为原文疑有误，释读不确定。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7373,
+    "completion_tokens": 2838,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7373,
+      "completion_tokens": 2838,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-25T10:15:13.714571+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dbd477d51d36510dd3d754b70d97374e2ea8857f5e44f0aa67c581d819de95be",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000229-p000-7edd634a26",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文断句混乱、存在残缺，整体语义无法明确"
+        ]
+      },
+      {
+        "id": "book024-b000230-p000-c9f91b994d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“即大”具体含义不明",
+          "“公乡”具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000235-p000-2ff5914861",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“永口無閉”具体含义不明",
+          "“流配為之戌”具体语义不明"
+        ]
+      },
+      {
+        "id": "book024-b000236-p000-44275bd6f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中无单独的“水”字表述，仅有“水井”一词，候选释读无端析出“水”并套用allowed_glossary中“水”的定义，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文断句混乱、存在残缺，整体语义无法明确"
+        ]
+      },
+      {
+        "id": "book024-b000242-p000-943ddaa015",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“右閨水”具体所指不详",
+          "“陰人定”具体含义不明",
+          "“見拋父母走”具体语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1596,
+    "completion_tokens": 378,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1596,
+      "completion_tokens": 378,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

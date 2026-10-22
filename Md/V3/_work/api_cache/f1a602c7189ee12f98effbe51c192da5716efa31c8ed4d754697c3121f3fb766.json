@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-16T10:47:08.653727+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f1a602c7189ee12f98effbe51c192da5716efa31c8ed4d754697c3121f3fb766",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002034-p000-0e577eb02d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'折口鼻'是风水术语，指山形转折处或穴位特征，candidate译为'鼻准部位'不准确，且'观察鼻准部位'有增译。'曾杨'指曾文辿、杨筠松，应保留为'曾杨'或明确为'曾文辿、杨筠松'，candidate译为'曾杨这样的风水名家'虽可接受但不够精确，不过考虑到V3目标，可放宽。主要问题是'折口鼻'误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002035-p000-d4236304a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002036-p000-2c142d6db2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002037-p000-5d52873985",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'球檐切莫破其腮'，'腮'是风水穴位特定部位，candidate译为'腮部'虽保留原词，但'在球檐部位切莫破坏其腮部'的表述将'球檐'和'腮'处理为两个部位，可能不准确。'腮'可能指球檐的侧边或特定形态，需更谨慎处理。"
+        ],
+        "uncertainty": [
+          "'腮'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002038-p000-18796b4c65",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002039-p000-28cb561a7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'合淺葬深氣上過'，candidate译为'如果地势浅显，就应当深葬，以免气脉从上面经过'。'合淺'可能指穴位浅显或合于浅处，而非'地势浅显'；'氣上過'指气从上而过，candidate解释为'以免气脉从上面经过'，将结果解释为目的，有增译。应更贴近原文直译，如'合于浅处则深葬，否则气从上过'。"
+        ],
+        "uncertainty": [
+          "'合淺'的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b002040-p000-62d07e70a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002041-p000-8e169b5c25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'前縮即葬口也'，candidate译为'前面的收缩之处就是葬口'，'前縮'可能指向前缩进或前面的收缩形态，但译为'前面的收缩之处'不够明确。'乘胎葬'、'架折葬'是专业葬法，candidate直接使用未加说明，虽符合locked_terms要求，但可能影响普通读者理解，不过V3不要求逐字直译，可接受。主要问题是'前縮'的翻译不够准确。"
+        ],
+        "uncertainty": [
+          "'前縮'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002042-p000-50d803fd6d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002043-p000-b54b764487",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'隱而不露地陽升'，candidate译为'隐而不露是地气上升的征兆'，增加了'征兆'，属于增译。原文可能描述状态而非征兆。'莫把球檐一樣堆'，candidate译为'不要把球檐像堆土一样处理'，'堆土'是增译，原文仅'一樣堆'。'界斷些兒休過裁'，candidate译为'界限断开一点点也不要随意裁剪'，'随意裁剪'是增译，原文'休過裁'指不要过度裁剪。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1878,
+    "completion_tokens": 926,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1878,
+      "completion_tokens": 926,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

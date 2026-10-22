@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T13:05:53.491054+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4685c9976fa8d37c0403932d9e243322c3ea6ce15bcc193658fb66c40a7d9b1c",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001064-p000-a58a1dc31c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对原文中“哑嗑泉”“蛊狂泉”的释读无依据，属于主观臆改；将“这类水”的释义扩展为“风水语境中的河流、水系及其来去形态”，与allowed_glossary中“水”的释义混淆，属于误译；原文未提及“毒龙”的具体所指，释为“毒龙所在之处”属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“哑嗑泉”“蛊狂泉”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001065-p000-4401aa6334",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将allowed_glossary中“水”的释义错误套用于原文所有“水”字，属于术语误换；原文“水因毒人及于水慣設入總名惡水十”断句错误，释读逻辑混乱"
+        ],
+        "uncertainty": [
+          "原文末尾“十”字后内容残缺，无法确认完整含义"
+        ]
+      },
+      {
+        "id": "book014-b001066-p000-d30d3910dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001067-p000-bfd4783232",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将allowed_glossary中“水”“乾”“穴”的释义错误套用于原文对应字词，属于术语误换；原文“山川塗氣”的释读无依据，属于主观扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1642,
+    "completion_tokens": 448,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1642,
+      "completion_tokens": 448,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-25T19:19:09.495654+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0e6890025f42d293915659c88e9d777e22a08ff8af39c6fe3389e3f4c31e317a",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000527-p000-61a11034cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“反弓为不”表述残缺，无依据补充“吉”字将不确定内容写成确定事实"
+        ],
+        "uncertainty": [
+          "原文仅存“反弓为不”，完整语义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000528-p000-7990c096f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“雪心獸”误写为《雪心赋》，属于术语误改；“繫藥洞洞響而亮”断句错误，将“繫藥”拆分到前半部分不符合原文语序；“反弓为不”相关部分无，哦不对，这条是528：还有“完竟”释读为“终究而言”不准确，且原文“此至貴完竟”语义未释读清晰；“右聲”漏译"
+        ],
+        "uncertainty": [
+          "“鸣门”“药洞”“瑗跋鼓”“壎鼓”“右声”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000529-p000-d2f92aa395",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在OCR错乱，“地理數人”“卷二六五十六一”均无法确认准确含义，候选将其认定为《地理数人》卷二第五十六页属于无依据推测"
+        ],
+        "uncertainty": [
+          "原句OCR错乱，无法确认准确语义"
+        ]
+      },
+      {
+        "id": "book030-b000530-p000-589257931d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000531-p000-5b64db9f24",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“主州彼官訟”存在讹误，释读直接写“主该州会有官司诉讼”属于无依据确定含义；原文“不言門戶不關故也”被误译为“是因为门户不关闭的缘故”，漏译“不言”且与原文表述逻辑不符；原文“六坑割腳横過”未明确释义，仅标注“水”不足以让普通读者理解相关风水形态；原文“若上聚穴則文喜之氣罐千土也”表述含混，释读未做不确定性标注，直接给出确定解读不符合要求"
+        ],
+        "uncertainty": [
+          "“六坑割脚”具体所指风水形态原文未明；“文喜之氣罐千土也”无通用权威释义，含义不明；“主州彼官訟”“不言門戶不關故也”存在文本讹误或脱漏，准确含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000533-p000-1b25401d83",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文“徐諸可地理蔡人卷二鑑木五十七”存在语序混乱，候选认定为徐诸可《地理蔡人》卷二《鉴木》第五十七页属于无依据推测；原文“水若人廢而反抱”的“人廢”释读不准确，语义不明"
+        ],
+        "uncertainty": [
+          "“徐諸可地理蔡人”“鑑木”“人废”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000535-p000-c0a470ecc6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000536-p000-cd40d61bc4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“反嫩去”误写为“反疏而去”，属于字义误译；原文“情平不彎也”的主语未明确，无依据认定为水的情态"
+        ],
+        "uncertainty": [
+          "“反嫩去”具体语义不详"
+        ]
+      },
+      {
+        "id": "book030-b000537-p000-2ceff91b40",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“料來無情朝穴後却邊抱”语序断句错误，正确断句应为“此水料來無情朝穴，後却邊抱”，候选释读为“看来是无情朝拱，穴后却边抱”语义逻辑错误，应为“这种水看起来无情朝向穴，之后却在旁侧抱绕”；漏译初代不利的主语（主初代不利）"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000538-p000-65b758f3b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“六之兩旁門”释读为“水的两旁门处”无依据；“只一芳亦是”误写为“只要有一处这样的情况”，“芳”字未处理属于误译；“男女持備之應”释读为“男女会有持备的应对”语义不通，属于无依据推测"
+        ],
+        "uncertainty": [
+          "“漏肥水”“六之两旁门”“一芳”“持备”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 834,
+    "completion_tokens": 244,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2570,
+      "completion_tokens": 1247,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 834,
+      "completion_tokens": 244,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

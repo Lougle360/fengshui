@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:20:58.859822+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "eeff2f3b962017fc20dcadb61c851c85834b714e5174035ba9f5116da9b77231",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000039-p000-51274f1939",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000040-p000-2aea78b8ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000041-p000-2455f1a983",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "甫註、正的具體含義未明確，暫按字面意思處理"
+        ]
+      },
+      {
+        "id": "book013-b000042-p000-5953f6e522",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中「四邊盡是逃亡」「與辛兌丁巳丑也」等句義較為模糊，暫按字面意思處理；部分術語的具體應用細節未明確"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1881,
+    "completion_tokens": 293,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1881,
+      "completion_tokens": 293,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

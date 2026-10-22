@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-04T00:39:28.561739+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "04591d12d54b7309f9f7c6b0692f8de2af6f5f2aa77cd3916bf308fda735ceea",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000221-p000-110243eb8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000222-p000-f8b18b4f54",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000225-p000-7f3ebdbe9b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文文字严重错乱，语意不通，无法准确还原原义",
+          "具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000226-p000-819ba50df5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000230-p000-348662b5a2",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文文字严重错乱，语意不通，无法准确还原原义",
+          "具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000231-p000-be6e603ec7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3052,
+    "completion_tokens": 263,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3052,
+      "completion_tokens": 263,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

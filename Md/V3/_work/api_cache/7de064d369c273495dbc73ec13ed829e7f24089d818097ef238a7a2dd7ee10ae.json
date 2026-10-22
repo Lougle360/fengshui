@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-17T23:45:10.699604+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7de064d369c273495dbc73ec13ed829e7f24089d818097ef238a7a2dd7ee10ae",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005018-p000-556e38b9bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容处理为一段概括性描述，但源文本是高度结构化的表格，包含图片、文字和特定布局。候选句的概括方式丢失了源文本的原始结构、具体条目间的对应关系以及‘格正’、‘格变’等标题性文字的明确区分。",
+          "候选句将‘格正’、‘格变’等作为条目混入列举，但源表格中‘格正’、‘格变’是作为列标题或类别出现的。候选句的表述模糊了这种分类关系。",
+          "候选句将‘水转左’、‘拳摇左’等条目与‘水’的术语解释合并，但源表格中这些是独立的条目，其具体含义（如是否指水流形态）在表格中并未明确说明。候选句的概括性解释超出了表格直接呈现的信息。",
+          "候选句‘表中文字描述了各种地形形态……并指出某些形态主出官联、主福泽深厚、主代代有声名等’是对表格内容的归纳和解读，但源表格本身只是并列呈现了这些短语，并未明确使用‘主’这样的判断词。这种归纳改变了原文的陈述方式。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3261,
+    "completion_tokens": 319,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3261,
+      "completion_tokens": 319,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

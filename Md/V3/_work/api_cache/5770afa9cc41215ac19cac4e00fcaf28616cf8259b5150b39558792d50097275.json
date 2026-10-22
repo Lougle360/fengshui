@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-04T01:24:51.727913+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5770afa9cc41215ac19cac4e00fcaf28616cf8259b5150b39558792d50097275",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001095-p000-5bd8d1fbc5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001096-p000-ac9b70c956",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001097-p000-2975ec26e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001098-p000-36ef35b28c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘農城水裏頭無餘氣訣云’译为‘《農城水裏頭無餘氣訣》中记载’属于无依据的扩写，原文并未指明这是一部书名，更可能是口诀内容。‘众头城’、‘蛇頭氣暴殺重’、‘下粘穴’、‘王字穴’、‘耳穴’、‘自然富范’等术语含义不明，候选句将其作为确定概念解释，违反了opaque_terms的处理原则。候选句将‘若有壇者下粘穴又不拘此’译为‘如果该处有祭坛存在，那么选择“下粘穴”的位置时就不受上述限制’，将‘壇’具体化为‘祭坛’，将‘下粘穴’视为一种确定的穴位，均属无依据的确定化解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001099-p000-102baedb6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001100-p000-775f42f0e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001101-p000-a5fa99ced5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘垂足箕跡之非這天敗崩隅之所氣敗處也’译为‘所谓“垂足箕跡”并非吉地，那是“天敗崩隅”所在之处，属于气脉败坏的区域’，将‘非’译为‘并非吉地’，将‘氣敗處’译为‘气脉败坏的区域’，属于合理的浅显释义，可以接受。但将‘懸針’解释为‘指大龙脉行进时垂下的枝脚，其形态上大下尖且锋利如悬针’，将‘鞋尖’解释为‘指微有突起却孤露无来脉，且遭受风吹水割的地形’，均属对不透明术语的确定化解释，违反了处理原则。应保留原词并说明其含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001102-p000-428ac1e3b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001103-p000-eff66f6a34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001104-p000-41433586c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2571,
+    "completion_tokens": 779,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2571,
+      "completion_tokens": 779,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

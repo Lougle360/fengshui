@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-18T07:25:15.965563+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "17a59e5351d77225ff1ece801305c555da06985f2fbcaa345c68a393ad0c2e20",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005825-p000-28ca2a5504",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对原文表格的解读存在多处错误和遗漏。1. 原文为'五4分田'，候选句误为'五十四分田'，数字解读错误。2. 原文为'22庚辰大凶'，候选句误为'庚辰为大凶，涉及土三分乙分 i 正'，遗漏了数字'22'。3. 原文为'21 壬辰大凶十'，候选句误为'壬辰为大凶，涉及二十一分亢分辰'，将'十'误读为'二十一分'。4. 原文为'7癸未半吉正分'，候选句误为'七癸未为半吉，正分'，将'7'误读为'七癸未'。5. 原文为'1七分'，候选句误为'七分'，遗漏了'1'。6. 原文为'分未乙未大凶十五丁未大吉 班     米己未大凶 金井'，候选句断句为'分未乙未为大凶，十五丁未为大吉，班米；己未为大凶，金井'，将'班米'连读，可能错误。7. 原文为'# 丙申大凶'，候选句遗漏了'#'。8. 原文为'甲庚申大凶'，候选句断句为'甲庚申为大凶'，可能错误。9. 原文为'辛酉七分辛'，候选句断句为'三分辛酉七分辛'，可能错误。10. 原文为'奎分辛N 亥凶木'，候选句断句为'火奎分辛 N 亥凶木'，可能错误。候选句未能清晰呈现原文的表格结构，而是将其混为一段，导致信息混乱。"
+        ],
+        "uncertainty": [
+          "原文中部分字符如'i'、'N'、'u'、'兴'、'班米'、'翌张'等含义不明，可能为抄写错误或特定术语。"
+        ]
+      },
+      {
+        "id": "book035-b005826-p000-74adbfe6bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对原文表格的解读存在严重错误。原文表格结构虽混乱，但候选句的转述完全不符合六爻排盘的基本规则。例如，将'兄 鬼'释为'兄弟爻对应鬼爻'，将'父 才'释为'父母爻对应财爻'，将'官'释为'官鬼爻对应子爻'，这些都是错误的对应关系。'世 八'、'八應 八'等符号的含义也未正确解释。候选句未能准确传达原文（即使是混乱的）信息，而是进行了错误的推测和重组。"
+        ],
+        "uncertainty": [
+          "原文表格结构混乱，爻位与六亲对应关系表述不清，部分数字与地支排列难以对应标准六爻排盘规则。"
+        ]
+      },
+      {
+        "id": "book035-b005836-p000-f5a23a95ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005837-p000-9969468762",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "部分断句与字词（如'疯顺'、'跖死'）在古籍中含义晦涩，译文依字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b005838-p000-7b257cf609",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文极短且语意不明，'才上'与'生中'具体所指不详，无法确定其完整含义。"
+        ]
+      },
+      {
+        "id": "book035-b005839-p000-cebe6aafa3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005840-p000-ad43f60103",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005841-p000-19189bafa8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005842-p000-a0ef62c6f7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分语句（如'参或凶'、'翌轸'、'水业土'）语意晦涩，存在OCR识别错误或古语省略，译文依字面转述，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b005843-p000-4414b5b647",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文极短且语意不明，'世中'与'向旺中'具体所指不详，无法确定其完整含义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4144,
+    "completion_tokens": 1262,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4144,
+      "completion_tokens": 1262,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

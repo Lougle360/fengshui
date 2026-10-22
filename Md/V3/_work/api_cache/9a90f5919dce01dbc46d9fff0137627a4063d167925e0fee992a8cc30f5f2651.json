@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-26T08:10:55.856308+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9a90f5919dce01dbc46d9fff0137627a4063d167925e0fee992a8cc30f5f2651",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000342-p000-5595d765c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000343-p000-b2abd761b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000344-p000-0b80b80b7d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代中文，大量保留文言原文句式与用词，不符合面向普通读者的白话释读要求",
+          "多处存在误译：原文“最要主省形勢相稱”错写为“最重要的是主客形勢相稱”；原文“貴異於也山”错写为“貴異於也山”未修正语病；原文“受火之龍”应为“受穴之龍”误写未纠正；原文“脫縱有之”断句错误，应为“必無過峽度脈，脫縱有之”未处理；原文“口是星向峻急頑硬”“口不可掩”等原文缺字未标注说明"
+        ],
+        "uncertainty": [
+          "原文存在多处缺字（如“口不可掩”“口是星向峻急頑硬”），释读未说明缺字情况"
+        ]
+      },
+      {
+        "id": "book033-b000345-p000-3ed22d8ee0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在语义反译错误：原文“攸揚舒泰之情其明堂水城自然反背”被错译为“如果有舒展安泰的情态，对应的明堂区域的水城自然会出现反背的情况”，实际应为若穴位是真主，水城不会反背，此处逻辑完全颠倒",
+          "存在漏译：原文“其水城弓地血水勢明堂相聚之處”中“地血”未释读也未标注说明",
+          "存在误译：原文“巳兩邊水肖詳”错译为“巳位两边的水的情况需要详细考察”，无依据将“巳”认定为方位，“肖詳”释义无出处"
+        ],
+        "uncertainty": [
+          "原文“地血”“肖詳”含义未明，释读未标注相关不确定信息"
+        ]
+      },
+      {
+        "id": "book033-b000347-p000-8354d247ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000348-p000-ab71186d89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000350-p000-d96a3d161c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6360,
+    "completion_tokens": 686,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6360,
+      "completion_tokens": 686,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

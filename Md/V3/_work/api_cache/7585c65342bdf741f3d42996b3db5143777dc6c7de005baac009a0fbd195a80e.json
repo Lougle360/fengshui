@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T12:05:31.014099+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7585c65342bdf741f3d42996b3db5143777dc6c7de005baac009a0fbd195a80e",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000341-p000-5da46b693e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "（山的）朝向必然弯曲环绕着我，这是理所当然的；也有弯曲填实却不朝向我的情况，这是山的昔面。（山的）面必然是两山环抱我，这是理所当然的；也有看似假抱、实则难以分辨，然而其紧束之处却是山背。",
+        "confidence": "high",
+        "uncertainty": [
+          "此处“昔面”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000342-p000-e841c4eb0a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "不必只看昔面，应当看地脉、看局、看穴、看沙，每一步都要分辨背曲，这是其大致要领。",
+        "confidence": "high",
+        "uncertainty": [
+          "此处“昔面”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000343-p000-94ff8d5cc1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "有的地脉看似到了此处，走到近处却不成局；不成局就不说地脉。有的穴位看似到了此处，环顾四周却不成局；不成局就不说穴位。有的峡脉穿到此处，走到近处却不成局；不成局就不说皎。看局最为要紧，分辨背面原本是容易的事，童子也该知道；却有精通此道的老人，反而不知背面，还把背面反向示人，争着往北方去，这是不可取的。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“oo”为无法识别的字符，已按上下文语境处理；此处“皎”具体所指不详；原文末尾的假名“っ”为语气助词，无实际含义"
+        ]
+      },
+      {
+        "id": "book014-b000344-p000-aefc87c240",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "知晓背面就可以学习地理，进而精通地理。垣墙、罗城有的开枝一边朝向内部，这是面；一边陡峭朝向外部，这是出；有的一边无枝，邻接平圆之地，朝向内部为面；一边多枝脚，向外延伸，这是背。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1752,
+    "completion_tokens": 631,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1752,
+      "completion_tokens": 631,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

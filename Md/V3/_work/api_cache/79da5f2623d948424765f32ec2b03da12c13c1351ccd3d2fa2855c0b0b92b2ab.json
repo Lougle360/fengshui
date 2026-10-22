@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-26T13:24:39.704543+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "79da5f2623d948424765f32ec2b03da12c13c1351ccd3d2fa2855c0b0b92b2ab",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001316-p000-43325f4966",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将原文“朱晦庵”替换为“朱熹”，虽二人为同一人，但原文用号，应保留原文表述，不宜随意改动",
+          "对原文“周元肃王向祗”理解错误，“向祗”是周元肃王的名讳，候选版擅自拆解为“其墓向祗合方位”，属于无原文依据的错误篡改，且违反locked_terms“向”的使用规范，擅自添加风水方位相关的无据解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001329-p000-e788ed4d1a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“观物干微”“钧疾页祷”的讹字判定属于合理校注，无其他版本佐证的前提下仍属于合理推断",
+          "原文缺字处候选版补充的“相关内容”属于模糊性的缺字提示，未添加无据信息，符合存疑要求",
+          "locked_terms“向”在此条未出现，其余专业术语“阴阳”“五行”“乾”“坤”“离”“幽明”均保留原文表述，未擅自改动"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4041,
+    "completion_tokens": 377,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4041,
+      "completion_tokens": 377,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

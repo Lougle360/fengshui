@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T08:10:48.594580+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3f9e2fbcb4940cc55bf9dc798cc58941619b74cec1a4d3abf9666cdc366e628f",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000149-p000-07d545f78a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确表述为“外扬秽气”，候选释读误写为“外部要收纳吉气”，语义完全相反",
+          "locked_terms“离”原文中是“离开、脱离”的普通语义，未作为八卦术语使用，候选未保留该词的原文语义表述，不符合locked_terms保留要求"
+        ],
+        "uncertainty": [
+          "“鸡迹、蟹眼、三文名字、交牙滴断、化生脑、加减饶借、乘金、穴土”为风水专业术语，allowed_glossary未收录，原文未明确具体形态或操作规则，具体所指不详"
+        ]
+      },
+      {
+        "id": "book023-b000152-p000-4a0ffadbf4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“夫天真末丧，则定穴易为力”，候选误译为“若天真之气已经丧尽，确定穴位容易着手”，将“未丧”的含义错译为“已经丧尽”，语义完全相反，且和后文逻辑矛盾",
+          "原文“却有一等不幸为牛羊践踏”的主语是入首/穴位所在的地形，候选表述为“穴位被牛羊践踏”，虽核心对象准确，但需注意此处“一等”指“一类情况”，翻译基本通顺但前序语义错误已影响整体准确性"
+        ],
+        "uncertainty": [
+          "“大八字、金鱼、支珑、倒杖”为风水专业术语，allowed_glossary未收录，具体所指不详",
+          "原文“天真末丧”存在“末”为“未”的讹误可能，若为“天真未丧”则逻辑自洽，此处存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2507,
+    "completion_tokens": 479,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2507,
+      "completion_tokens": 479,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

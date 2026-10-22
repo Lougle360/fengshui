@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-17T14:01:20.352476+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4e1788f630995cb3478f811bf4fcf06882c97fe6ea00f15bf5fe915074e0ac57",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003803-p000-f93e92f4d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本对表格结构的描述存在严重错误和遗漏。原文表格为五行四列，候选文本描述为“第一行”、“第二行”、“第三行”、“第四行与第五行”，但实际原文是五行。候选文本将第四、五行的复杂跨行跨列结构合并描述，未能准确反映原文布局，例如“踏节城门水后官朱门富贵出神”和“穴凤双更有楼一并谢职贤良高举此山招童”等文字的具体位置关系描述不清。",
+          "候选文本存在增译和改写，将原文的并列诗句描述为“共同构成完整的图示说明”，这是无依据的推测性总结。",
+          "候选文本遗漏了原文中多个单元格的具体内容，例如第二行中间仅含“前”字的单元格被提及但未在后续描述中体现其位置关系，第三行“格龙盖宝”后的空白单元格被忽略。",
+          "候选文本将原文中“踏节城门水后官朱门富贵出神”和“穴凤双更有楼一并谢职贤良高举此山招童”等诗句与“双乌飞来造一穴”、“金龙玉架前来朝”等内容并列描述，但原文中这些内容可能分属不同单元格，其关联性被过度简化。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1603,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-18T00:52:03.333084+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9981e32d24197cbc2b362163b587ba4a754bae96b3caf9086d2f1d15efc8503c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005091-p000-46b8d5e019",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 中表格的复杂结构（多行多列合并单元格）简化为一段描述性文字，未能逐项、逐行、逐列地对应呈现原文信息，属于漏译。例如，未清晰说明第一行标题的具体列分布（如“马驿”“琴横”“炉跪”各占多少列），也未说明第二、四行中图像与解说文字的对应关系是按列排列的。",
+          "candidate 对解说文字的呈现方式为直接引用大段原文，而非进行白话释读，不符合 V3 目标“普通读者能读懂的白话释读”。",
+          "candidate 在描述第四行条目时，自行标注“注：此处原文排版似有重复或错位，依原文记录”，这是对原文的推测性判断，且未在 uncertainty 中说明，而是写入了事实性描述中。",
+          "candidate 末尾添加了总结性语句“文中多次提及‘砂’‘水’‘向’等术语，以及‘后天’这一概念，具体所指需结合风水语境理解。”，这属于无依据的扩写和总结，source 中并无此总结性文字。"
+        ],
+        "uncertainty": [
+          "表格的精确排版逻辑（如单元格合并的具体范围）可能因 OCR 或原始格式问题存在不确定性。",
+          "解说文字因古文简略且缺乏上下文，其具体含义难以准确翻译。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3037,
+    "completion_tokens": 364,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3037,
+      "completion_tokens": 364,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

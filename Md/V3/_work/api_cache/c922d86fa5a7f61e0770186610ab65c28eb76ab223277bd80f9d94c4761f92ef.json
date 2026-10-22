@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T20:25:10.318033+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c922d86fa5a7f61e0770186610ab65c28eb76ab223277bd80f9d94c4761f92ef",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003382-p000-8a3067dcef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文的‘震来就’释为‘震（八卦之一）声传来时人表现出戒惧的样子’，属于无依据扩写，原文未提及‘声’及‘人表现出戒惧的样子’；将‘后有则也’释为‘之后行事就有了可以遵循的准则’，与原文‘后’的含义不符，原文‘后’指后续的行为而非‘之后’的时间概念”],"
+        ]
+      },
+      {
+        "id": "book016-b003383-p000-3c2d2c6ec8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "震来的具体所指原文未明，释为震动到来符合allowed_glossary中震为八卦之一的定义"
+        ]
+      },
+      {
+        "id": "book016-b003385-p000-434a6e0156",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "九陵的具体所指原文未明，释为高高的九陵之上属于合理的通俗释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 150,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1284,
+      "completion_tokens": 150,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1113,
+      "completion_tokens": 150,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

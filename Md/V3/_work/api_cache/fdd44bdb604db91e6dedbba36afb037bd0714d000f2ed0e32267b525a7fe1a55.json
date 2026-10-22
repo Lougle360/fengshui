@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T11:51:43.449915+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fdd44bdb604db91e6dedbba36afb037bd0714d000f2ed0e32267b525a7fe1a55",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000214-p000-99075f73ef",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文中「火星又兼十」「苏水阴洲渚」「巳有」「士」等内容未明确释义，保留原文原样标注，未作确定性解读"
+        ],
+        "uncertainty": [
+          "「火星又兼十」具体所指不详",
+          "「苏水阴洲渚」具体所指不详",
+          "「巳有」原文表述存疑",
+          "「士」具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1963,
+    "completion_tokens": 129,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1963,
+      "completion_tokens": 129,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

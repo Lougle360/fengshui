@@ -1,0 +1,128 @@
+{
+  "created_at": "2026-10-16T09:43:29.906123+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8966c208f784fb797e7ea7fd79838808417e1cc54aa4eaf713fdc9c5e60014d8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001803-p000-54ca62479c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001804-p000-d27c47d53d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'收拾中箱三十六穴歌七五言'释读为'收拾在中箱，共有三十六首穴歌，每首七言五句'不准确。原文'三十六穴歌七五言'更可能指'三十六首穴歌，每首七言或五言'，或'三十六首穴歌，七言五句'。候选句将'七五言'固定为'每首七言五句'，属于对不确定格式的确定化解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001805-p000-14633378fa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'下了誤人貧'释读为'下了穴却误人贫穷'，将'贫'具体化为'贫穷'，属于对原文含义的确定化扩写。原文'贫'可能指贫贱、贫乏等更宽泛的运势不佳状态。",
+          "'十氏曰既明倒杖 不識龍穴聚數謂用卦例卷星辰論之方香'释读为'十氏曰：既然明白倒杖，却不识龙穴聚数，谓用卦例卷星辰论之方香。此处具体所指不详。' 处理得当，保留了原文的模糊性并标注了不确定性。但'卷星辰'释为'泥于星辰'，'卷'字含义未明，可能为'拘泥'，也可能为'卷帙'或他意，此释读属于推测。"
+        ],
+        "uncertainty": [
+          "'方香'具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001806-p000-9a38037486",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'此訣錄笞神'释读为'此诀录笞神'，未作解释，保留了原文的模糊性，可以接受。但'录笞神'本身是opaque_term，候选句未将其置于引号内或明确标注为原文引用，处理方式不够规范。",
+          "'尽向此蟲劳分合丫分'释读为'尽向此虫劳分合丫分。此处具体所指不详。' 处理得当，保留了原文的模糊性并标注了不确定性。但'此虫'是opaque_term，候选句未将其置于引号内或明确标注为原文引用，处理方式不够规范。"
+        ],
+        "uncertainty": [
+          "'录笞神'、'此虫'等词含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001807-p000-8d1091d94b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "末尾'仰掌覆掌左右'语义未尽，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001808-p000-df0c7ad998",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001809-p000-9c33745dbf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '太指一名无名指根者气厚也' 释读为 '太指一名无名指根者气厚也'，这是对原文的直录，未进行白话转换。原文此句结构为注释，candidate 应将其转换为现代白话文，例如解释为 '太指，又称无名指根，此处气脉厚实' 或类似表述，而非保留原句。",
+          "candidate 将 '六人地穴即盖粘倚撞也' 释读为 '六人地穴即盖粘倚撞也'，这是对原文的直录，未进行白话转换。应将其转换为现代白话文，例如解释为 '所谓六人地穴，指的就是盖、粘、倚、撞等几种方法' 或类似表述。",
+          "candidate 将 '虎口穴即大指点监指也' 释读为 '虎口穴即大指点监指也'，这是对原文的直录，未进行白话转换。应将其转换为现代白话文，例如解释为 '虎口穴，就是大指与监指之间的位置' 或类似表述。",
+          "candidate 将 '不对左右不抱也' 释读为 '不对左右不抱也'，这是对原文的直录，未进行白话转换。应将其转换为现代白话文，例如解释为 '如果雌雄不相对，左右形势就不会环抱' 或类似表述。"
+        ],
+        "uncertainty": [
+          "'点监指'、'太指'、'仓指'等术语在风水语境中具体对应关系需结合更多文献，此处仅按字面及上下文解释"
+        ]
+      },
+      {
+        "id": "book035-b001810-p000-fa82d1f86d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'龙交四交'语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001811-p000-b27d45f8c8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'曹宛转'、'旧笔'、'出伏新者'等词含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001812-p000-6c1eb50192",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾部分严重残缺且语义混乱，'冰饭珊臣明成称弓不能'等词无法确解，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2274,
+    "completion_tokens": 656,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3321,
+      "completion_tokens": 1599,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2274,
+      "completion_tokens": 656,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

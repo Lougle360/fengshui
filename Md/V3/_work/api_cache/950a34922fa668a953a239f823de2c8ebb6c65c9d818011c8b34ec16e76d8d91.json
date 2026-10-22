@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T01:00:10.904097+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "950a34922fa668a953a239f823de2c8ebb6c65c9d818011c8b34ec16e76d8d91",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000803-p000-58fa74517f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "夹煞的具体风水含义未在原文明确说明"
+        ]
+      },
+      {
+        "id": "book002-b000804-p000-63b6ccdc72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000805-p000-6019ddbda3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000806-p000-d95f1755d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“只怕三绝仲承殃”，意为三房灭绝、二房承接祸殃，候选错误翻译为“只怕二房承接灭绝的祸殃”，与原文语义不符"
+        ],
+        "uncertainty": [
+          "与向一辰水的具体对应关系存在歧义"
+        ]
+      },
+      {
+        "id": "book002-b000809-p000-8bd299f3f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“二房已向巽水多冷退向已水”的“已”应为“巳”，候选统一写为“已”，属于干支用字错误；原文“人財雨旺”的“雨”是“两”的讹字，候选已修正为“丁财两旺”无误，但存在干支用字错误"
+        ],
+        "uncertainty": [
+          "火山向的具体风水含义未明确说明"
+        ]
+      },
+      {
+        "id": "book002-b000810-p000-2e83fbb2db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“双负明人”具体所指不详",
+          "原文末尾“人財肝”存在讹字，含义不明",
+          "“两遭殃”未明确说明对应的具体房份"
+        ]
+      },
+      {
+        "id": "book002-b000813-p000-2d79966562",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“康贞水局”疑似“廉贞水局”的传抄讹误，原文未确认，暂保留原词",
+          "“阳及水”具体所指不详",
+          "“主风声”的具体含义未在原文明确说明"
+        ]
+      },
+      {
+        "id": "book002-b000815-p000-fc68f6724a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“巾水”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2666,
+    "completion_tokens": 645,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2666,
+      "completion_tokens": 645,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

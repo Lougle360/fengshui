@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-17T23:45:29.756789+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "27f1eaa8c94bb180d2fe428f34d73ca170f9c18b39aa9274f413e73aa37e196c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005020-p000-823d9e8bc8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'三十九'译为'第三十九部分'，属于无依据扩写。原文'三十九'可能指第三十九种穴格、第三十九页或第三十九图，但candidate将其确定为'部分'，超出了允许的明确化范围。"
+        ],
+        "uncertainty": [
+          "原文'三十九'具体指代不明，可能是穴格编号、页码或图号。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 603,
+    "completion_tokens": 121,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 603,
+      "completion_tokens": 121,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

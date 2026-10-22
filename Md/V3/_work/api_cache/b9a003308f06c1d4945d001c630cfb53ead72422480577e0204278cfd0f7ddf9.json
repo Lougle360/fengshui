@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:31:06.082225+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b9a003308f06c1d4945d001c630cfb53ead72422480577e0204278cfd0f7ddf9",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000206-p000-2815c31408",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释文将原文中未明确的‘也若無情顧穴’释为‘如果没有能关照穴的形勢’，属于无依据扩写；原文‘河而上’未明确是‘顺着河的方向’，释文主观添加了方向；原文‘圗最易錯’未明确是‘这幅图’，释文自行补全为‘这幅图’，属于无依据增译；原文‘愛背之蜿與喜白虎之伏’未明确是‘喜爱的是蜿蜓的形勢，看重的是白虎的伏驯之态’，释文对‘背’‘伏’的释义无依据，且将‘蜿’‘伏’的主体主观认定为形勢、白虎，属于无依据扩写；原文‘倉庫盈而財’未明确是‘能聚财’，释文主观添加了‘聚’的含义，属于无依据扩写；释文未保留原文中OCR缺字、错乱的内容（如‘割2’‘R’‘h’‘K’等），也未标注‘自虎’疑为‘白虎’的OCR错误，不符合要求；释文将原文中‘穴’‘砂’‘水’‘白虎’等术语的含义进行了主观释义，未严格依据allowed_glossary中的定义，属于术语误释；释文将原文中‘向背之意’等内容进行了过度解读，不符合原文含义"
+        ],
+        "uncertainty": [
+          "OCR存在缺字、错乱，如‘割2’‘R’‘h’‘K’等，无法确认具体含义；‘自虎’疑为‘白虎’的OCR错误；‘麗之鄭’‘簾者’‘系聖’等词具体所指不详；‘砂穴薪低’疑为‘砂穴新低’的OCR错误，无法确认原义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3436,
+    "completion_tokens": 454,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3436,
+      "completion_tokens": 454,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

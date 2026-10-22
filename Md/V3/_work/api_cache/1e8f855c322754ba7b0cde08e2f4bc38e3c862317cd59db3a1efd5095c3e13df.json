@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T18:55:10.043649+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1e8f855c322754ba7b0cde08e2f4bc38e3c862317cd59db3a1efd5095c3e13df",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002206-p000-0edf7c2509",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文的‘雷震风行’误改为‘八卦之一的震与风常相交助’，原文‘雷震风行’指震卦为雷、巽卦为风的卦象意象，allowed_glossary仅明确‘震’为八卦之一，未提及‘风’的属性，此修改属于无依据扩写；且将原文‘利于守持正固’的释义‘说明要永久保持美好的道德’改为‘说明要永久保持道德’，遗漏了‘美好’的限定，语义有偏差"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 166,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1047,
+      "completion_tokens": 166,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

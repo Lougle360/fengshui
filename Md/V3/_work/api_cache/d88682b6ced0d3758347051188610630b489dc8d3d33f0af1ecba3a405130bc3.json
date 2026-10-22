@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T20:28:12.496033+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d88682b6ced0d3758347051188610630b489dc8d3d33f0af1ecba3a405130bc3",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003423-p000-bf04d2b1b2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘艮其背’释为‘把抑止的作用施加在人的背部，不会让他自身面向应当被抑止的对象’，属于无依据的扩写，原文未提及‘人的背部’‘面向应当被抑止的对象’等内容，也未明确‘艮’的卦名属性，仅标注了‘艮’为八卦之一，释读超出原文范围"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003424-p000-191381cfa8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003425-p000-40c92165f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003426-p000-7fe232e8d2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘行其庭，不见其人’释为‘也两两背部相对’，属于无依据的扩写，原文未提及‘两两背部相对’的内容；将‘艮’释为‘艮（八卦之一）道’，原文此处未明确‘艮’为卦名，释读超出原文范围"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2212,
+    "completion_tokens": 351,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2212,
+      "completion_tokens": 351,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

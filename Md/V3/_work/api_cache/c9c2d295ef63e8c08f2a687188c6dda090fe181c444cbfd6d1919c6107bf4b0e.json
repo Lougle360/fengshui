@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-10-15T01:47:59.486937+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c9c2d295ef63e8c08f2a687188c6dda090fe181c444cbfd6d1919c6107bf4b0e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000968-p000-4efa0e82ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'遂位生峰形象現'中的'遂位'未译出，或译法不准确。",
+          "反义/误译：'只說走旗拖尾出走旗拖尾是眞形'一句，原文为'只說走旗拖尾出走旗拖尾是眞形'，candidate译为'只说走旗拖尾是走旗拖尾才是真形'，逻辑不通，且'出走旗拖尾'的'出'字未处理。",
+          "专业术语误换：'尊星雖雲有三吉三吉之餘有輔弼'，candidate译为'尊贵之星虽然有三吉星，但在三吉星之外还有辅星和弼星'。此处'辅弼'是风水九星中的两颗星，应保留为'辅星和弼星'或'辅弼星'，但candidate将其拆解为'辅星和弼星'，虽可接受，但'辅弼'作为一个整体概念被拆分，可能不够精确。不过，根据allowed_glossary，此非锁定术语，且candidate解释未超出范围，故此项仅为轻微问题。",
+          "数字/干支/卦象/方位变化：无。",
+          "日文误译：无。",
+          "把推测写成事实：无。",
+          "古文/日文没有真正转换成现代中文：整体转换尚可，但部分句子如'与君细细论述。破军体逐一随星种类命名。'稍显生硬，但可接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000969-p001-f8c5970377",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000972-p001-c5dd71a6df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000973-p001-f1cd2ea26f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000974-p001-d150de01f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000977-p000-0852e22ede",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000979-p000-338846c02e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译：'漢知爲穴亦不遠'中的'漢知'，candidate直译为'汉知'，但未做任何解释或标注，读者无法理解。应明确标注其含义不确定。",
+          "古文/日文没有真正转换成现代中文：'禄存破军在平顶两肋，蛇生肋微露前'，此句翻译生硬，'蛇生肋微露前'语义不明，未做通俗化处理。"
+        ],
+        "uncertainty": [
+          "原文部分词句（如'汉知'）语义模糊，此处按字面直译，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000981-p000-5093a878ca",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译/误译：'身形臃腫崩形勢'，candidate译为'身形臃肿崩形'，漏译了'勢'字，且'崩形'语义不明。",
+          "古文/日文没有真正转换成现代中文：'作穴乳頭出富貴'，candidate译为'作穴乳头出，富贵。'，过于直译，'乳头出'在现代中文中含义不明，应做更通俗的解释或保留原词并说明。"
+        ],
+        "uncertainty": [
+          "原文部分词句（如'崩形'）语义模糊，此处按字面直译，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000983-p000-f189a7741e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000984-p000-5a8efd7fc2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分词句（如'破国护少'）语义模糊，此处按字面直译，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2540,
+    "completion_tokens": 1018,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2540,
+      "completion_tokens": 1018,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

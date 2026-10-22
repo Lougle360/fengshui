@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-25T16:50:49.732870+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b1b1a5285c619ce12a223aa1440b40750a3b4e70e28e02fc27a46397ea6ef220",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000618-p000-e286569514",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000620-p000-c9e0a5354e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000621-p000-1b50bef4cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为「雌宄」，候选误写为「宄」，遗漏了「雌」字"
+        ],
+        "uncertainty": [
+          "宄字含义不详"
+        ]
+      },
+      {
+        "id": "book029-b000622-p000-e2328c22fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「冥挿」未准确释读，候选写为「将杖插入正中」无依据；原文「直施聞之功」释读为「直接施行这个方法」不准确，「聞之」含义未明且未标注；「籍饒」属于术语，未明确标注含义存疑，直接释为「依赖饶让」无依据"
+        ],
+        "uncertainty": [
+          "冥挿、直施聞之功、籍饒的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b000623-p000-c5f2b54098",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在「屈」「曲」「詩曰」的标注，候选全部遗漏，未说明这些是排版标识；原文首句「恬善迢占勢軟平」中「恬善迢占」含义未明，未标注存疑"
+        ],
+        "uncertainty": [
+          "迢字含义不详，「恬善迢占」具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000624-p000-27aa3b0f4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "通杖、雄、逆枝的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b000625-p000-e88985fe5a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「宜饒居一邊」释为「适宜在一边饶让」不准确，「饒居」是风水专业操作，含义未明直接释读无依据；原文「俊受脉」候选写为「让棺木承受脉气」错误，「俊」为原文用字，未核实含义即修改无依据；原文「刪柔相濟」候选写为「刚柔相济」错误，属于字误改"
+        ],
+        "uncertainty": [
+          "饒居、俊受脉、刪柔相濟的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b000627-p000-daec72fc2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "縮枝、蓋穴的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b000629-p000-01e22e6498",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "宂字含义不详"
+        ]
+      },
+      {
+        "id": "book029-b000630-p000-18193d3148",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「則百會之間必發小口」的「百會」是风水峦头术语，候选直接写为「百会穴」（中医穴位）属于概念误换；「發小口」释为「长出小口」不准确，是指地形有小口状特征，并非生长出来；原文末尾「地理恭贊玄機全書卷三」是卷次标注，候选写为「此处题记为」无依据，原文未说明是题记"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2212,
+    "completion_tokens": 1006,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2212,
+      "completion_tokens": 1006,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

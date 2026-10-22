@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-10-15T07:00:05.622960+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f6e4aeed35e96a4a1fcad66f056ee43bfc9d6848b0beebf468aa7f67a5b64432",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001367-p000-3a7d5926ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘虫丝金水担荡穴忌紫无穴忌’被整体处理为‘具体所指不详’，但其中‘金水’是locked_terms，应保留原词并说明其含义不确定，而非整体模糊处理。候选句将‘后发先进’释为‘后代先发迹’，有增译之嫌，原文可能指先后次序或房分。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001368-p000-7dd369926d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘巾身塋內巾塋一半不開水溝’被直接引用，但未按规则置于引号内作为opaque_terms处理。‘吞必’被直接引用，未加引号或说明。‘发出女贵名拥山’释为‘主发女贵，名为“拥山”’，将‘发出’释为‘主发’并添加‘名为’连接，有增译风险，应更保守。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001371-p000-2d28f5447f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "才位"
+        ]
+      },
+      {
+        "id": "book035-b001373-p000-66dd7f0172",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘番择是非令’被处理为‘具体所指不详’，但未按规则置于引号内作为opaque_terms处理。候选句将‘穴放沟水，于人祸福所系’释为‘穴放沟水，于人祸福所系’，这是直接引用而非释读，应转换为白话。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001374-p000-8b1b1da126",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘折霉’被直接引用，未加引号或说明。‘色陈大杀方’、‘八方瘟火方’、‘四维将方’被处理为‘具体所指不详’，但未按规则置于引号内作为opaque_terms处理。候选句将‘得贪’与后文断开，但原文是‘得贪折霉要如…’，存在断句风险，可能漏译连接。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001375-p000-45e068fa4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘辰’、‘阴阳双辰’、‘作使’被直接引用，未加引号或说明，应作为opaque_terms处理。候选句开头‘若涉及“辰”和“阴阳双辰”的折法’是推测性连接，原文是‘若后山带阴阳双’与下文可能不连贯，此处释读有过度衔接的风险。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2664,
+    "completion_tokens": 751,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2664,
+      "completion_tokens": 751,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

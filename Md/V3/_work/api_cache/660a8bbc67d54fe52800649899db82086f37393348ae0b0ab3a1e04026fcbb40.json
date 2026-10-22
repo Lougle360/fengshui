@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T19:39:06.121844+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "660a8bbc67d54fe52800649899db82086f37393348ae0b0ab3a1e04026fcbb40",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002962-p000-638eb135c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002963-p000-d4553c9a2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002964-p000-01e9bac1f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002965-p000-ab3870234a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“未获所遇”“无阴邪之伤”这类未在原文明确提及的内容作为确定含义进行释读，存在无依据扩写的问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1676,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

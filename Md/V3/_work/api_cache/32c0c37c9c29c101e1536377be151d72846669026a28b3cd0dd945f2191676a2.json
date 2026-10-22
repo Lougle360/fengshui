@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T07:29:51.987738+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "32c0c37c9c29c101e1536377be151d72846669026a28b3cd0dd945f2191676a2",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000179-p000-fd83468197",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000180-p000-19d83b2d53",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000181-p000-f89d84a90b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“迟留顺逆，同于龙脉之向背行止”被错译为“龙脉的向背行止，和水流的迟留顺逆道理相同”，主宾关系颠倒，且原文未提及“水流”，属于无依据增译并篡改原意",
+          "原文“激石激金则火出，是土金有火也”被错译为“敲击石头、金属会出火，这是土中有火”，漏译“金”的对应表述，含义缩减",
+          "原文“是木有火也”被错写为“是术有火也”，属于明显的别字错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2627,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2627,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

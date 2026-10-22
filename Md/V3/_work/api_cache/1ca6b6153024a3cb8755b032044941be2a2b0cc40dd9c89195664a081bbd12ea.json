@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-26T05:11:20.142075+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1ca6b6153024a3cb8755b032044941be2a2b0cc40dd9c89195664a081bbd12ea",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000350-p000-b6939592c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000353-p000-3dae0bc482",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“山來龍立本向”被错误拆解为“山的来龙确定坐山，对应的向”，存在增译和语义偏差，原文直接指来龙确定本向，并未提及“坐山”概念；原文“離 蛇虎割”释读为“被蛇虎伤害、刀伤”无依据，属于对模糊原文的无据确定性解读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000355-p000-5fed3cfff1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本整体语序错乱，多数内容难以准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000356-p000-446150eff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“要去冰之口”具体含义不详"
+        ]
+      },
+      {
+        "id": "book032-b000357-p000-acf981dde5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本整体语序错乱，多数内容难以准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000360-p000-3348501b57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本整体语序错乱，多数内容难以准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2622,
+    "completion_tokens": 412,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2622,
+      "completion_tokens": 412,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

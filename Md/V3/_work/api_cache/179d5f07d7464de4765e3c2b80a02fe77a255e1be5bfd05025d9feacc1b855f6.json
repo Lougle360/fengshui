@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-16T10:09:00.051752+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "179d5f07d7464de4765e3c2b80a02fe77a255e1be5bfd05025d9feacc1b855f6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001897-p000-1e5d547b07",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译：原文'五秋'在候选句中未译出。",
+          "存在误译：原文'細推磨其棺法不待饒用 客士添培原築其墓'，候选句释为'仔细推敲磨棺的方法，不需要额外用客土添培，只需在原处筑墓'，将'不待饒用'与'客士添培'的语义关系处理为否定，但原文'不待饒用'后直接接'客士添培原築其墓'，逻辑关系不明确，候选句的解读可能改变了原意。",
+          "存在误译：原文'四水不拂八風不吹'，候选句释为'四面来水不冲刷，八方来风不吹袭'，'拂'译为'冲刷'不够准确，'吹'译为'吹袭'有增译之嫌。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001898-p000-e5daaa7fce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在误译：原文'衛矮情高若露風須來龍情高衛矮降勢必然深入聚氣朝鹿有情關'，候选句断句为'如果四周护卫低矮而情势高耸，若遇风吹，必须看主龙脉来势是否高，护卫是否低矮。如果来势高而护卫低，龙脉降势必然深入，聚气之处朝拜有情。'，将'朝鹿有情關'释为'聚气之处朝拜有情'，'鹿'字未译出，且'關'字漏译。",
+          "存在误译：原文'敎下手用人工高找低退蘭未甚周密'，候选句释为'如果关锁不够严密，下手时需用人工高找低退，布局尚不十分周密。'，'蘭'字未译出，且'敎'字处理为'如果'可能不准确。",
+          "存在误译：原文'吞棺三分之一'，候选句释为'棺木吞入三分之一'，'吞'的主语不明，候选句解读可能不准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001899-p000-0214215efb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'聊融沚奸貶齡雖地辨妙煙人罕見之一突情'部分词句含义难以确证，候选句已说明'此处具体所指不详'，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b001900-p000-7a1608ea0d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在明显残缺或错乱，如'就钧而不鲍也'、'伤饥井'等，候选句已保留原词并说明'具体所指不详'，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b001902-p000-32e9a7f168",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2002,
+    "completion_tokens": 807,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2002,
+      "completion_tokens": 807,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

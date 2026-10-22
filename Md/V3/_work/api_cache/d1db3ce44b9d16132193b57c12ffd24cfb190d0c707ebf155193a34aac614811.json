@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:10:59.725763+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d1db3ce44b9d16132193b57c12ffd24cfb190d0c707ebf155193a34aac614811",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000157-p000-b90423afd8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处语义晦涩、断句混乱的情况，候选释读中对‘退卸博狄龕’‘恃权 人好裳如蝉脫鼓 脱大’等内容的释读无依据，属于主观臆测，未忠实于原文晦涩的原始表述"
+        ],
+        "uncertainty": [
+          "原文部分语句语义晦涩，难以完全精准还原原义"
+        ]
+      },
+      {
+        "id": "book010-b000158-p000-6a2efcfd5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000159-p000-225b3395a0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘龍上如生兩池水養廕斯為美異骨毛洲興塘須定 不’断句混乱，候选释读中对‘異骨毛洲’的释读无依据，属于主观臆测，未忠实于原文晦涩的原始表述"
+        ],
+        "uncertainty": [
+          "部分语句语义晦涩，难以完全精准还原原义"
+        ]
+      },
+      {
+        "id": "book010-b000160-p000-7344c85a17",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘夾衛度從刃傍侍天乙太乙時左边武庫右文官隊伏紫 苏文太幾多則穴 瘦居 度左瘦專肥變名雕權尤最吉’断句混乱，候选释读中对‘夾衛度從刃’‘紫 苏文太’‘度左瘦專肥’等内容的释读无依据，属于主观臆测，未忠实于原文晦涩的原始表述"
+        ],
+        "uncertainty": [
+          "部分语句语义晦涩，难以完全精准还原原义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1374,
+    "completion_tokens": 455,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1374,
+      "completion_tokens": 455,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

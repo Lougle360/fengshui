@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-10-15T15:17:05.512126+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b52dc3ccd6580ba7b993305f4fb15c0cb9beaf6ab18a25fe9d0b68ba3ffa7b1e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002190-p000-903a49b3bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002191-p000-43b74568d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘伏元立 魚袋塞’，candidate 释为‘伏元立鱼袋塞’，未处理其含混性。应将其作为 opaque_terms 处理，或明确标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "伏元立 魚袋塞"
+        ]
+      },
+      {
+        "id": "book033-b002192-p000-38a5f370dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘王帶現’在 candidate 中被直接作为标题‘王带现：’使用，但未标注其含义不确定。应将其作为 opaque_terms 处理。",
+          "原文‘最口’在 candidate 中被释为‘最口’，未处理其含混性。应将其作为 opaque_terms 处理，或明确标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "王帶現",
+          "最口"
+        ]
+      },
+      {
+        "id": "book033-b002193-p000-fdfdb870d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘浮卜氏云’在 candidate 中被释为‘浮卜氏云’，未处理其含混性。应将其作为 opaque_terms 处理，或明确标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "浮卜氏云"
+        ]
+      },
+      {
+        "id": "book033-b002194-p000-4004ee3a4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002195-p000-d46ce5de17",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "赖氏云判笔赖氏云判笔"
+        ]
+      },
+      {
+        "id": "book033-b002196-p000-6616bdbca3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘璣人雲霄’在 candidate 中被释为‘璣人云霄’，未处理其含混性。应将其作为 opaque_terms 处理，或明确标注其含义不确定。",
+          "原文‘重璣峰宮國園’在 candidate 中被释为‘重璣峰宫国园’，未处理其含混性。应将其作为 opaque_terms 处理，或明确标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "璣人雲霄",
+          "重璣峰宮國園"
+        ]
+      },
+      {
+        "id": "book033-b002197-p000-53e884885a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘子山宮國在戌乾丑山在亥壬每開位是也有圓峰主貴 谷將高天倉起’结构不清，candidate 的释读基本是原文直录，未能形成通顺的现代汉语句子，不符合 V3 目标。"
+        ],
+        "uncertainty": [
+          "子山宮國在戌乾丑山在亥壬每開位是也有圓峰主貴 谷將高天倉起"
+        ]
+      },
+      {
+        "id": "book033-b002198-p000-742ccb13d6",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文 OCR 识别严重错乱，candidate 的释读基本是原文直录，未能形成通顺的现代汉语句子，不符合 V3 目标。"
+        ],
+        "uncertainty": [
+          "OCR 识别严重错乱，原文结构不清，无法准确还原句意"
+        ]
+      },
+      {
+        "id": "book033-b002199-p000-a0a5b5f29a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘四殺權’在 candidate 中被释为‘四杀权’，未处理其含混性。应将其作为 opaque_terms 处理，或明确标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "四殺權"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2389,
+    "completion_tokens": 862,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2389,
+      "completion_tokens": 862,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

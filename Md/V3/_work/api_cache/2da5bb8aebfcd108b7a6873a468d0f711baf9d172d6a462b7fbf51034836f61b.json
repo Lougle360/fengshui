@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-04T11:46:01.414614+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2da5bb8aebfcd108b7a6873a468d0f711baf9d172d6a462b7fbf51034836f61b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000795-p000-3980efe6b7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘水泉砂礫’解释为‘四种土质不佳的表现’，但source原文‘水泉砂礫 砂土中夾砂不細膩也克土中夾石不融化也’中，‘水泉砂礫’与后文是并列关系，还是‘水泉砂礫’本身是总述，原文未明。candidate将其直接解释为列举的四种土质，属于无依据的扩写。",
+          "candidate将‘克土’解释为‘一种名为‘克土’的土质’，但source中‘克土’可能指‘克土’这种土，也可能指‘克制土’的动作或状态。candidate将其确定为专名，超出了allowed_glossary的范围，属于专业术语误换。",
+          "locked_terms中的‘砂’在allowed_glossary中有风水特指含义，但source此处‘砂土中夾砂’的‘砂’更可能指普通砂石，candidate未区分，存在术语混淆风险。"
+        ],
+        "uncertainty": [
+          "‘水泉砂礫’与后文的具体逻辑关系",
+          "‘克土’的确切含义"
+        ]
+      },
+      {
+        "id": "book035-b000797-p000-f021f7f3b7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "藏神合朔的具体含义",
+          "神迎換避的具体含义",
+          "柔 所沃星的断句与含义",
+          "经文引文的断句与具体逻辑"
+        ]
+      },
+      {
+        "id": "book035-b000799-p000-52c7755888",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "有大之作用 之道地制 行之身 式的含义"
+        ]
+      },
+      {
+        "id": "book035-b000800-p000-098b163088",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘宗用之罪人’解释为‘被称为‘宗用之罪人’，但该短语的具体含义不详’。source原文为‘順覆實宗用之罪人也’，candidate将‘宗用之罪人’作为完整短语处理，但原文‘宗用之’可能与前文‘順覆實’相连，断句存疑。candidate的表述可能误导读者认为这是一个固定称谓。",
+          "candidate将‘五貞 細細郵局堅望實也’中的‘郵局’视为一个词并称其含义不明。但source原文‘五貞 細細郵局堅望實也’可能为‘五貞：細、細、郵、局、堅、望實也’或类似断句，‘郵’、‘局’可能是独立条目或误字。candidate将其作为一个词处理，属于不当的断句和解释。",
+          "candidate将‘無佳’解释为‘是‘不好’还是‘尤佳’之误，原文未明’。source原文为‘紅黃相間而鮮明者 無佳間白亦美’，此处‘無佳’很可能为‘尤佳’之误或‘無不佳’的省略。candidate的表述（‘是‘不好’还是‘尤佳’之误’）将两种可能性并列，但‘無佳’字面意思就是‘不好’，candidate的表述不够直接，且‘原文未明’的标注位置易产生歧义。建议明确标注为‘原文‘無佳’可能为‘尤佳’之误或含义存疑’。"
+        ]
+      },
+      {
+        "id": "book035-b000801-p000-b846248ad8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "軟來手軟犯死之此 之謂差錯也的含义",
+          "乖泪的具体定义",
+          "澤 起雜的含义"
+        ]
+      },
+      {
+        "id": "book035-b000804-p000-c1f601e185",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source原文严重残缺混乱，如‘耳提 面 嫩 老支莫分’、‘支支 氏 目’、‘灌而 侯 心’等，candidate虽标注‘文字错乱，无法进行有效的白话释读’，但仍在释读中提及‘仅能识别出...等零散词汇’并尝试列举，这本身已构成不完整的释读。对于此类严重损坏的文本，应直接判定为无法释读，而非提供部分识别词汇的列表。"
+        ],
+        "uncertainty": [
+          "整段文字的连贯含义",
+          "耳提 面 嫩 老支莫分的含义",
+          "支支 氏 目的含义",
+          "灌而 侯 心的含义"
+        ]
+      },
+      {
+        "id": "book035-b000806-p000-cf49038264",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "壇來而壠止的含义",
+          "礎來而支止的含义",
+          "壇垛的具体所指",
+          "壇渠的具体所指",
+          "法隱壠石的含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2856,
+    "completion_tokens": 1100,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2856,
+      "completion_tokens": 1100,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

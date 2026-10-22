@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T09:40:18.240850+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2416a9d02e833f7170464fa36ec1b1250ea083208cff003bdd9fcb89ec6c0e5e",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000364-p000-b7e4facf7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000365-p000-aac3d77c2e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文缺讹的\"今洋\"\"典君\"\"泛权\"\"泛来高穴火\"等表述强行释读为确定内容，不符合原文缺讹的实际情况，存在无依据扩写问题"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 149,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1691,
+      "completion_tokens": 149,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

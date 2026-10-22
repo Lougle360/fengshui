@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T12:11:47.487017+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "447c277e05a5184ea12d0c61e9a3c8e28972229728828f26feaddc76912171b0",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000426-p000-ca4e0e464c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“指又须有切近非山”释为“又必须有贴近的山体，不能是别的山”，虽补出内容但未改变原意；将“指鹿”释为“指鹿”，未按allowed_glossary处理，属于未使用指定术语释义的情况"
+        ],
+        "uncertainty": [
+          "原文中“纳者一佛龙后节出有嫩乳一家建之驿张万金生子俊秀师地小穀起之号非家改于死复葬故处不效益方气议以矣拔山图尽处”具体所指不详；原文中“直岗穷尽的地方都是杀气”表述模糊；原文中“指鹿”未明确具体所指"
+        ]
+      },
+      {
+        "id": "book014-b000433-p000-b92e9ac5c8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“守录虏”释为“无人守录虏”，未明确“守录虏”具体所指；将“势熏大”释为“势熏大”，未明确具体含义；将“灯花剪焰必水花若是金花用不得其余入火皆成灰”释为“灯花剪焰必水花若是金花用不得其余入火皆成灰”，未明确具体含义"
+        ],
+        "uncertainty": [
+          "原文中“守录虏”具体所指不详；原文中“势熏大”具体含义不详；原文中“灯花剪焰必水花若是金花用不得其余入火皆成灰”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2397,
+    "completion_tokens": 386,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2397,
+      "completion_tokens": 386,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

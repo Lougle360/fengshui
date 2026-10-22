@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:38:03.384803+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "03dec7044b0f36416c7dc55213c742d445b0b78bc3a310fdc2e569c573895978",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000830-p000-ab7e4b4fdc",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《皇極経世書》中占比近一半的历年表大致分为三个部分，分别命名为①「以元経会」、②「以会経運」、③「以運経世」。第三个部分「以運経世」是与人类活动相关的历史年表，而第一个部分「以元経会」是从「气」的生成到消亡、周期为129600年的宇宙年表，第二个部分「以会経運」是从「开物」到「闭物」的地球年表。帝尧即位以来的人类悠久历史，与天地的「物」的历史相比，仅占约2.3%。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000831-p000-91601ab647",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "最初的宇宙年表「以元経会」，对应《皇極経世書》的《観物篇》第一至第十二篇，各篇名称分别为以元経会一、以元経会二……以元経会十二。该年表从历元的「日甲一・月子一・星甲一・辰子一」开始（图6-1），记录了日甲第一元的12会，即129600年的年表。「日（太阳）」的单位是元，「月」的单位是会，「星」的单位是运，「辰（十二辰）」的单位是世，《観物篇》第六十篇记载：「日は天の元（天行の始）を経め、月は天の会（日月交会=合朔）を経め、星は天の運（運行）を経め、辰は天の世（交代）を経めている」。1元等于12会，1会等于30运，1运等于12世，1世等于30年，即1元=12会=360运=4320世=129600年，1会=30运=360世=10800年，1运=12世=360年，1世=30年。此外对于年以下的单位，还记载1年=12月，1月=30日，1日=12時，1時=30分，1分=12",
+        "confidence": "high",
+        "uncertainty": [
+          "原文此处存在缺漏，后续内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book015-b000833-p000-f57aab1d4b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秒等内容。皇極経世暦的体系使用十二支与十干来记录从历元开始的累计数值，以此确定历史事件发生的年份，这是因为各单位的周期均为12或30，且12与30反复相承",
+        "confidence": "high",
+        "uncertainty": [
+          "原文此处存在缺漏，后续内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book015-b000834-p001-b30b4cb2a5",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "图6-1 《皇極経世書》観物篇一",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2183,
+    "completion_tokens": 839,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2183,
+      "completion_tokens": 839,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

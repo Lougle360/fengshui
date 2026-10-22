@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T08:40:03.722509+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d38cd70c03c48dc1332c8865f4885634feabaa560d86cf75a4ac8ee28ce9ef4a",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000241-p000-6308aae2f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文断句存在歧义，释读时保留了原文的断句形式并标注了具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000242-p000-fb25126ad4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处语义含混，释读时保留了原文的表述并标注了具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 145,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1072,
+      "completion_tokens": 145,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

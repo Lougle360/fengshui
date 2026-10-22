@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-16T10:32:49.803862+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "73ca6fe12fa0bf34ff387a7e91757b41cff0d0f68ea488c8fa6575547c8ca2d7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001967-p000-3b0dedca18",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文中“淮曾楊二公之復世亦不外乎是”一句完全未译出。",
+          "术语误译：原文“泄地理之眞機”的“泄”字，candidate译为“阐发”或“揭示”更符合古籍中性/褒义用法，但此处译为“泄露”带有贬义，不准确。",
+          "事实性错误/推测：原文“生生這道息矣”中的“這”字，candidate处理为“的”虽可理解，但更可能是“之”或“者”的异体或误写，直接译为“的”改变了原文结构，且未标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文“淮曾楊二公之復世亦不外乎是”中的“淮”字，可能指地名或姓氏，具体所指不详。",
+          "原文“生生這道息矣”中的“這”字，字形或含义存在不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b001970-p000-53fffc3468",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文“要識準標染與淺”中的“染”字未译出。",
+          "增译/推测：candidate在句末添加了“以及‘染’的具体所指”，这是对未译内容的说明，但原文并无此意，属于无依据的扩写。"
+        ],
+        "uncertainty": [
+          "原文“要識準標染與淺”中的“染”字，可能指“沾染”、“浸染”或为特定术语/误写，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001973-p000-4e7ab7adb9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“察脈路來情之順羲”中的“羲”字，应为“逆”的异体或误写。",
+          "原文“放送生死之理”中的“放送”一词，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1855,
+    "completion_tokens": 537,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1855,
+      "completion_tokens": 537,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

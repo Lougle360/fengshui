@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-09-24T21:17:46.159708+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "19e266de0fecf651fb636a336961d8f44bcededaebac440545589ebfe836173d",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000239-p000-d0efc0a5c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“此說弄聞五”的具体含义无法确定",
+          "“下即孫之山山、れ水”包含讹误字符，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000242-p000-f7061cbd2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“不司”语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000243-p000-e0bbb67d9e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“坐山金片，即後天象星”的“金片”属于无法释读的不明表述，候选将其处理为“坐山相关的‘金片’对应后天的象星”属于对不确定表述的强行关联释读，不符合要求"
+        ],
+        "uncertainty": [
+          "“來巾”“た”“W”“金片”“象星”语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000244-p000-095c241dca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“來誰”“句卜”“始刻雄而不昆孔”“至王死一”语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000248-p000-14e83f964e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“青從天售”“交滿”语义不明，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1872,
+    "completion_tokens": 465,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1872,
+      "completion_tokens": 465,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

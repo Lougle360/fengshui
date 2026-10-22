@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-10-04T02:20:07.409986+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5004531eb4b0c649a9514e134fb12ba5d3714f2ceb9ca7e5de32d1b63c58ec05",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000410-p000-6ab9cab522",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文‘扒砂經 卷三’是书名和卷次，candidate 将其处理为‘扒砂经卷三渗漏流泻’，误将其融入文意，应明确其为引用来源。",
+          "2. 反义/误译：原文‘元辰目固迁曲環次’中‘目固’疑为‘固’或‘自固’之误，candidate 译为‘元辰水势固然迂曲环绕’，将‘目固’处理为‘固然’推测成分过大，且‘元辰’为风水术语，此处解释为‘水势’不够准确，应保留原词并说明其可能指水口或特定水流。",
+          "3. 专业术语误换：原文‘罡孤醜’是描述山形，candidate 译为‘罡气、孤峰、丑恶之形’，将‘罡’解释为‘罡气’缺乏依据，应保留‘罡’字并说明其为风水术语，形容山形刚硬。",
+          "4. 数字/干支/卦象/方位变化：原文‘扒砂經 卷三’是固定书名卷次，candidate 处理为文意一部分，改变了其作为引注的性质。",
+          "5. 把推测写成事实：原文‘水鎔之遁相成習’中‘水鎔之遁’含义不明，candidate 译为‘水熔之遁相’，并解释为‘形成了习惯’，属于无依据扩写。应保留原短语并标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "原文‘元辰目固迁曲環次’中‘目固’可能为讹字，具体所指不详。",
+          "原文‘水鎔之遁’含义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000411-p000-943b8a8b63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000412-p000-aa153106eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000413-p000-cb5bebe49b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘平庠’、‘关闲’、‘偷索’、‘乎垟闌闻’等词在candidate中被直接保留，未作任何解释或风险标注，不符合‘普通读者能读懂’的目标。这些词对现代读者是晦涩的，应标注其含义不确定。",
+          "‘平庠天少’释为‘平庠天少不产灵物’是逐字直译，未形成通顺的现代中文句子。",
+          "‘其灵莫及其余’释为‘其灵莫及其余’保留了古文语序和省略，未转换为现代中文。",
+          "‘人伪日浇，遂成偷索’释为‘人伪日浇，遂成偷索’同样未作通俗转换。",
+          "‘山顶耸援，浇气无于其气发扬’释为‘山顶耸援，浇气无于其气发扬’语义不通，且‘无于’一词费解，可能是‘无干’或‘无与’之误，但candidate未处理。",
+          "‘乎垟闌闻之地’释为‘乎垟闌闻之地’直接保留，未作处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000414-p000-1500261b5a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "开头‘II T’可能是OCR错误或原文标记，candidate未处理或说明。",
+          "‘若穷窿屋然’释为‘若穷窿屋然’，‘穷窿’一词费解，可能为‘穹窿’之误，但candidate未作说明或修正。",
+          "‘狱堕未堕’释为‘狱堕未堕’，‘狱’字可能为‘欲’或‘玉’之误，candidate未处理。",
+          "‘荡濠’释为‘荡濠’，可能为‘荡潦’或‘荡漾’之误，candidate未处理。",
+          "‘面已训众人之耳目也’释为‘面已训众人之耳目也’，‘面已’费解，可能为‘面以’或‘面已（通‘以’）’之误，candidate未处理。",
+          "‘圆金块内’释为‘圆金块内’，‘金块’可能比喻罗盘，但candidate未作任何说明，对普通读者不友好。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000415-p000-abf12ebd4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000416-p000-16d34cc621",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000417-p000-c4585fa05d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘脉为生物之弃钥’释为‘脉为生物之弃钥’，‘弃钥’一词费解，可能为‘气钥’或‘关键’之误，candidate未作任何说明或风险标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000418-p000-58f2e126fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000420-p000-d6b36c5bd0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "开头‘后括遗’可能为‘后括遗’或OCR错误，candidate未处理。",
+          "‘断无凝矣’释为‘断无凝矣’，‘凝’字可能为‘疑’之误，candidate未处理。",
+          "‘以星体拟砂经卷二十尺寸者，大非也’一句，candidate断句为‘而以星体拟砂经卷二十尺寸者，大非也’，语义不明。原文可能指‘扒砂经卷二’的‘十尺寸者大非也’是一句话，candidate将书名和卷次混入释读句中，导致不通。",
+          "‘粗砺火意也，火焦故也’释为‘粗砺火意也，火焦故也’，‘火意’、‘火焦’含义模糊，candidate未作说明。",
+          "‘自然之述者’释为‘自然之述者’，‘述’字可能为‘运’或‘律’之误，candidate未处理。",
+          "‘面水之朝享川之至’释为‘面水之朝享，川之至’，断句和释义均显生硬，未形成流畅白话。",
+          "‘穴乾之利’释为‘穴乾之利’，‘乾’字为locked_term，但此处‘穴乾’连用，可能指‘穴位干燥’或特定风水概念，candidate未作任何说明，普通读者难以理解。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4501,
+    "completion_tokens": 1123,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5731,
+      "completion_tokens": 1333,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4501,
+      "completion_tokens": 1123,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

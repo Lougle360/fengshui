@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T11:16:52.952129+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a9a46d084df7a83ec27cb17ef04e3fe3f6d26628648ae67fd7048449c9a1c156",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000096-p000-5e3f043990",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“放棺左右故知是乘氣之括法催宜 e tt”存在无法识别的字符，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000097-p000-91382531ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000098-p000-655f772c0e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“故之氣者不可不而向也”“肺養”“紘出”“寂寅尺之水而發驅”“盛山水已詩”“上薄發”“自占宜向”“靈水法”“確不可務太”等表述语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000100-p000-b10f954900",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“せ六 元”为无法识别的字符，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000101-p000-81babb5e7c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“蒞壬山”“貌丁未方”“洪绝癸土”“福浦壬亥”“先誓旧丑山京未坤水”“载木局”“乐金以厚戊丑永”“句青人墓主损丁卽也”“伊京正辰德立此四向书纪建金兄迟大艺”“元冬九谢”“可酒乎”“含得羽之或书义军天卦爻五行”等表述语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000102-p000-709a1fbe7d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“始龍龍人首沛亥水來朝正爲縱曜法當坐丁前癸寂甲水以合乾子理氣 2远”，候选将“坐丁”增译为“坐丁向”无依据，原文未提及“向”相关表述；将“寂”释为“静伏”属于无依据释义，应保留原字并标注语义模糊；末尾“2远”漏译“远”字，候选仅释为“2”与原文不符"
+        ],
+        "uncertainty": [
+          "“生勉朝”具体含义不明确",
+          "“气中尔河”具体所指不详",
+          "“纵曜法”具体规则不明确",
+          "“2远”的具体含义原文未说明"
+        ]
+      },
+      {
+        "id": "book025-b000103-p000-fa656be482",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“又如亥龍八首”，“八”为“入”的形近讹误，候选直接保留“八首”未作说明，应标注为“亥龙入首（原文讹作‘八首’）”；原文“夕巽龍人直辛水”，“人直”为“入首”的形近讹误，候选直接保留未作说明，应标注讹误；原文“則為之常謂以歸氣論”断句错误，候选释读为“則為之常，謂以歸氣論”虽通顺，但需明确标注断句存在歧义"
+        ],
+        "uncertainty": [
+          "原文中“杀唇”“殊水”“我凡与句相为尝与化”“水之黄”等表述语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000104-p000-00bda2c119",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“钢内合流”“训公”“势菊”“洲无界”“父牙巽而之朝”“到韦”“罗製拾都犯”“辛心”“异夫孀”“丙途丁癸辛水四乙逢出庚壬水”“非其儒”“舞正配”“羿第”“子中”等表述语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000106-p000-906432861e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“死氣之不可不奈也亦為生旺”，语义不完整，候选将“不可不奈”释为“不可不留意”无依据，将“亦为生旺”释为“也属于生旺的范畴”属于过度补译，不符合原文模糊的语义，应标注原文语义残缺，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文语义残缺，具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6540,
+    "completion_tokens": 1248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6540,
+      "completion_tokens": 1248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

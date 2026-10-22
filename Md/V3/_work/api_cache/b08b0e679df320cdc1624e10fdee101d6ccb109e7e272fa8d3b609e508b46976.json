@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T17:47:47.909507+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b08b0e679df320cdc1624e10fdee101d6ccb109e7e272fa8d3b609e508b46976",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001353-p000-801d09c7dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文提及“元亨，利贞”义参见《屯》卦辞译注，释读未涉及该参考内容，属于合理保留原文说明的范畴"
+        ]
+      },
+      {
+        "id": "book016-b001354-p000-3b4486250c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001355-p000-f7fc1fd6c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“动而说”的“说”为通假字，释读转换为“欣悦”符合现代汉语释读要求，无歧义问题"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1665,
+    "completion_tokens": 214,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1665,
+      "completion_tokens": 214,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

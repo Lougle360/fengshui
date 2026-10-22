@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:56:46.169178+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c0b78371e52711a2a4107f13210efe7535e96815075694c9969c194215c15b2d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000942-p000-159fc3791d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000943-p000-62ea56d707",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文开头的\"0000\"为无意义字符，释读时未保留；\"光饋\"未明确释读，直接译为\"光芒相连\"缺乏依据"
+        ],
+        "uncertainty": [
+          "原文中\"0000\"的含义不明，\"光饋\"的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000944-p000-669ca67671",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处缺字、错乱，\"可2思\"\"螺班\"\"如 0.5\"等内容残缺，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文存在多处缺字、错乱，无法确认原义"
+        ]
+      },
+      {
+        "id": "book014-b000946-p000-5da6f12fbc",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处缺字、错乱，\"關須而是\"\"降裏止秀\"\"截不骤\"\"赚。外。但 過。題要\"等内容残缺，无法完全确认原义"
+        ],
+        "uncertainty": [
+          "原文存在多处缺字、错乱，无法确认原义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 360,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1350,
+      "completion_tokens": 360,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

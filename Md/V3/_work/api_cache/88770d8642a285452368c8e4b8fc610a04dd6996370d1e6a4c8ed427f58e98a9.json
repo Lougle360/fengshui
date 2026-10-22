@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-23T14:09:36.361631+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "88770d8642a285452368c8e4b8fc610a04dd6996370d1e6a4c8ed427f58e98a9",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000659-p000-b2a250851d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘爲四而其方位之上宜低而去高而來者爲神’中‘爲四’可能指‘四象’，但candidate译为‘对应四象’并加引号，属于将不确定解释写为确定事实，且‘四象’不在allowed_glossary中。应保留原文‘为四’或标注其含义不确定。",
+          "原文‘入云生方高聳耶人丁旺起峰宮祿至’中‘入云’可能为‘人云’或‘俗云’，candidate译为‘有人曾说’是合理的推测，但未标注不确定性。",
+          "原文‘雖非生莊’中‘生莊’含义不明，candidate译为‘生庄’并保留原词，但未标注其含义不确定。",
+          "原文‘奎造化’中‘奎’可能为‘窥’或‘魁’之误，candidate译为‘奎造化’并保留原词，但未标注其含义不确定或可能为讹误。"
+        ],
+        "uncertainty": [
+          "‘爲四’的具体所指不详。",
+          "‘生莊’的具体所指不详。",
+          "‘奎造化’中‘奎’字可能为传抄讹误，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000660-p000-7ba1a85011",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000661-p000-7d5fe8dc6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000662-p000-e5ec573b39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000663-p000-24fae6db87",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘流入艮青而去’中‘艮青’可能为‘艮辰’或‘艮巽’之误，或为特定术语，candidate译为‘艮青’并保留原词，但未标注其可能为讹误或含义不确定。",
+          "原文‘久震庚裏儀三吉之位也’中‘久震庚裏儀三吉’含义不明，candidate译为‘久震庚里，是仪三吉之位’，将推测写为事实，且‘仪三吉’不在allowed_glossary中。应保留原短语并标注不确定性。",
+          "原文‘面卧夫若日右经六谛乃希夷老祖之砂演而左矜仙師之所鄲鄂也’等句，candidate虽在uncertainty中列出，但在译文中仍进行了直译（‘乃是希夷老祖的砂演，而左矜仙师之所鄲鄂也’），这属于将完全无法确定含义的文本进行了字面串联，可能误导读者。对于此类严重晦涩的文本，更稳妥的做法是在译文中直接说明‘此句原文晦涩难解，具体含义不详’，而不是进行字面直译。",
+          "原文‘成能者欽至教而方程之依別傳而勾’句末‘而勾’不完整，candidate直译为‘而勾’，未处理句子不完整的问题。"
+        ],
+        "uncertainty": [
+          "‘艮青’可能为传抄讹误，具体所指不详。",
+          "‘久震庚裏儀三吉’的具体所指不详。",
+          "‘面卧夫若日右经六谛乃希夷老祖之砂演而左矜仙師之所鄲鄂也’等句原文晦涩，可能包含讹误或隐语，具体含义不详。",
+          "‘方程之依別傳而勾’句末可能不完整，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book003-b000664-p000-5d61f6e923",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘惠盐’‘惠薰鸣’等词义晦涩，可能为传抄讹误或特定隐语，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000665-p000-70ef9b1b42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2675,
+    "completion_tokens": 931,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2675,
+      "completion_tokens": 931,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

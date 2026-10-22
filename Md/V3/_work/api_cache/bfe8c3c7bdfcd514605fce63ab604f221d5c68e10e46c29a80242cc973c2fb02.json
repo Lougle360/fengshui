@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-17T08:55:04.701991+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bfe8c3c7bdfcd514605fce63ab604f221d5c68e10e46c29a80242cc973c2fb02",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003049-p000-2002656904",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘丙向夾蛇’解释为‘巳火临官，丙在巳，在亥’，但原文为‘丙向夾蛇 者巳火臨官丙在巳在亥亥 馬到巳乃祿馬交互之局’。候选句将‘在亥亥 馬到巳’处理为‘在亥，以及‘馬到巳’’，并标注为‘重复或错漏’，但原文此处‘在亥亥’可能是‘在亥，亥马到巳’的表述，意指亥（马）到巳（禄）形成禄马交互。候选句的解释未能准确反映‘亥马到巳’这一关键交互关系，且将原文的明确论述（‘亥 馬到巳乃祿馬交互之局’）降级为不确定的‘意指’，属于漏译关键信息。",
+          "候选句将‘寅乃丙火生午乃丙火旺卯木生丙向 之火’释为‘寅位代表丙火的生，午位代表丙火的旺，卯木生丙向之火’，但原文‘寅乃丙火生’应指寅位是丙火的长生位，‘午乃丙火旺’指午位是丙火的帝旺位。候选句的‘代表’一词过于笼统，未能准确传达‘长生’与‘帝旺’这两个风水术数中的特定状态术语，属于专业术语释义不准确。"
+        ],
+        "uncertainty": [
+          "‘坎騰騰入亥乾丙向挾蛇扦虎馬兔山高聳頂壯田置萬頂’的具体含义",
+          "‘冰堤地’的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b003050-p000-aa914900a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘看紫着弼兼着綠寅甲水來逐’的具体含义",
+          "‘紫’、‘弼’、‘兼’、‘绿’的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 449,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1451,
+      "completion_tokens": 449,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

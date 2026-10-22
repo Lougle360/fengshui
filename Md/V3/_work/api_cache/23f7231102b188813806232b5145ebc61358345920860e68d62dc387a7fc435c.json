@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T12:39:49.808128+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "23f7231102b188813806232b5145ebc61358345920860e68d62dc387a7fc435c",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000840-p000-a17ee1a304",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处残缺，语义不明，释读存在较大不确定性"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，部分语句语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book014-b000841-p000-eee82388bd",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处残缺，语义不明，释读存在较大不确定性"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，部分语句语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book014-b000842-p000-81a7e38a65",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中对‘联登相停’‘假朝’‘贵人出行’等表述的解释无依据，存在扩写问题；‘三台’‘三公’等术语未按要求保留原术语，擅自赋予含义；‘主出隐士’‘兄弟三人’等内容属于无依据推测，不符合原文残缺的情况"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，部分语句语义不明，部分表述无法确定准确含义"
+        ]
+      },
+      {
+        "id": "book014-b000845-p000-87a76fb55c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中对‘彼自有事业非伪我设也’‘特不生卯’‘牲意’等表述的解释无依据，存在扩写问题；‘向’的术语解释虽符合要求，但整体释读存在多处无依据推测"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，部分语句语义不明，部分表述无法确定准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1617,
+    "completion_tokens": 407,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1617,
+      "completion_tokens": 407,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

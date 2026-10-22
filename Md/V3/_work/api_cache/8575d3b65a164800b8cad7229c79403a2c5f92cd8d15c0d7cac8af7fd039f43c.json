@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-09-24T01:34:54.241117+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8575d3b65a164800b8cad7229c79403a2c5f92cd8d15c0d7cac8af7fd039f43c",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000064-p000-84b1e15689",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“優造門”漏译",
+          "原文“巳上八日”错误断读为“巳日、上八日”，“巳上八日”指巳日起算的第八日，并非巳日加上八日两个时间"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000065-p000-e650dd68d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "干支识别错误：“巳丑”应为“己丑”，“巳亥”应为“己亥”",
+          "原文义为上述日期是作门的吉日，候选错误译为“作门之事忌用此日”，语义完全相反",
+          "“合蒲成日”断读错误，应为“合、蒲、成日”三类择日术语，候选误写为“合蒲成之日”，且未完整保留原文术语结构"
+        ],
+        "uncertainty": [
+          "“蒲”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book006-b000066-p000-231a8034a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000067-p000-0ead003765",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“归钊龟立”属于未识别的不明术语，候选未加标注直接略过，不符合释读要求",
+          "allowed_glossary中“水”的定义仅适用于风水语境的河流水系相关表述，此处“水月”是月令干支属水的月份，与定义不符，属于术语误用",
+          "原文未提及“忌天蜂、地哑之日”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“归钊龟立”“水廨方”“天蜂地哑日”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000068-p000-3f6c1b92a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "断读错误：“空水木日 忌金土日作”义为逢空的水木日，忌在金土日进行相关事，候选断读为“空水木日，忌金土日作事”语义偏差",
+          "allowed_glossary中“水”的定义不适用于此处干支五行的“水”，属于术语误用"
+        ],
+        "uncertainty": [
+          "“空水木日”的“空”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book006-b000069-p000-c190356bbc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "干支识别错误：“巳未”应为“己未”",
+          "原文“上閱”含义不明，候选漏译",
+          "原文“正月廿九日”属于“天乙绝气伏断上阅”的禁忌时间，候选表述为“正月廿九日忌用此日行事”逻辑颠倒"
+        ],
+        "uncertainty": [
+          "“上閱”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000070-p000-c29f66405d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "干支识别错误：“巳卯”应为“己卯”",
+          "原文未明确说明是“适宜的日子”，属于无依据增译，原文仅列修庙对应的干支，未定性吉凶"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000071-p000-9909a9890c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "断读错误：“春夏正六月”应为春季、夏季、正月、六月，候选断读易被误解为春夏季节的正月和六月，表述模糊",
+          "原文“在今”含义不明，候选漏译"
+        ],
+        "uncertainty": [
+          "“六甲胎神占月”“牛胎四十月占”“在今”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000072-p000-7ced0f7300",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“龔啞月滲磨日”属于不明术语，候选未加标注直接作为确定释义使用，不符合要求",
+          "原文“与安磨日同”指“龚哑月渗磨日”的禁忌和安磨日相同，候选表述逻辑正确但术语处理不当"
+        ],
+        "uncertainty": [
+          "“龔啞月滲磨日”“牛胎正七月占”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000073-p000-db3c8698c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“成”字漏译，“天月二德及合生炁成”应为“天月二德及合、生气、成日”三类择日术语，候选遗漏“成”对应的成日概念"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2009,
+    "completion_tokens": 1259,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2009,
+      "completion_tokens": 1259,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

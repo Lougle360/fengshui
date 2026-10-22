@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-17T12:29:41.513957+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ff4ace3e76cda1420ee9e27f388f490c2184d4d9f69afd65ce7b6a8714dedb56",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003651-p000-41690022a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘乙圾同到面前朝’，candidate释为‘乙向若遇水从乙位同到面前朝射’。‘乙圾’是‘乙、圾’两个方位，candidate合并为‘乙位’，漏译了‘圾’（通常指‘艮’方）。",
+          "原文‘乙多有水浸棺浮’，candidate释为‘遗腹子多有水浸棺浮之灾’。原文‘乙多’指乙方水多，candidate误将‘乙多’与‘遗腹子’连接，改变了原意。",
+          "原文‘丁多有水未吹骸’，candidate释为‘丁方多有水浸未吹骸’。‘未吹骸’含义不明，candidate直接保留‘未吹骸’而未作任何说明或标注，不符合V3目标。",
+          "原文‘坤少甲多骨自寒’，candidate释为‘坤少甲多骨自寒’。此句含义不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。",
+          "原文‘水若單坤一穴水’，candidate释为‘水若单坤一穴水’。此句含义不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。",
+          "原文‘丙丁相克似澆湯’，candidate释为‘丙丁相克似浇汤’。‘似浇汤’比喻不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。",
+          "原文‘若犯三丫一樣雲’，candidate释为‘若犯三丫一样云’。‘三丫’、‘一样云’含义不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。",
+          "原文‘四路黃泉水斷’下的诗句，candidate基本照搬原文，未进行白话释读。例如‘坤和認丁不可言’、‘甲癸向中夏見’等句，含义不清，candidate未作解释或标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003657-p000-983b64ab56",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate在末尾添加了原文没有的内容：‘论禄马贵人砂：更向亥中逢禄马，贵人壬上认真宗。’。这是无依据的增译。",
+          "原文‘瘟煌歲歲壯田退’，candidate释为‘瘟煌岁岁壮田退’。‘瘟煌’、‘壮田退’含义不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。",
+          "原文‘定出瘟煌損水口’，candidate释为‘定出瘟煌损水口’。‘瘟煌’含义不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。",
+          "原文‘乙丙還夏巳水流’，candidate释为‘乙丙还夏巳水流’。‘还夏’含义不明，candidate直接照搬而未作任何说明或标注，不符合V3目标。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2645,
+    "completion_tokens": 751,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2645,
+      "completion_tokens": 751,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

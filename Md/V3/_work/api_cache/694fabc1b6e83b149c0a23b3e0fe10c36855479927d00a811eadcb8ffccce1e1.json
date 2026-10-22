@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-24T21:36:18.001025+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "694fabc1b6e83b149c0a23b3e0fe10c36855479927d00a811eadcb8ffccce1e1",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000341-p000-2310b0fd05",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000342-p000-b840ed99e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000343-p000-04e151b025",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“瓜水”的“水”属于locked_terms，允许按allowed_glossary释义，但原文“高勾醒內巾厚請售瓜水傲一行於是乃緬俗微戊書，佳之國外，故弓一行援地理辨正真诀 辦正真诀 七一外國”存在大量OCR讹误，候选将“高勾醒”直接改为“高勾麗”无依据，且将“售瓜水”直接认定为售卖水系、“弓一行”改为“一行”、“七一外國”改为“流傳到外國”均属于无依据推测，同时“援地理辨正真诀 辦正真诀”重复内容不应直译作“援用地理辨正真訣來辨正真訣”，属于错误释读"
+        ],
+        "uncertainty": [
+          "高勾醒、巾厚、售瓜水、微戊書、佳之國外、弓一行、七一外國等詞語含義不明"
+        ]
+      },
+      {
+        "id": "book017-b000346-p000-a4ab6b0735",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“本篇倩若唐代言空言師楊筠松樓所述皆為言空關鍵”存在讹误，候选将“言空師”拆分为“言空之說空泛，師承楊筠松的人”属于无依据的增译和语义改写，与原文字面结构完全不符，属于错误释读"
+        ],
+        "uncertainty": [
+          "倩若、空言師、樓所述、言空關鍵等詞語含義不明"
+        ]
+      },
+      {
+        "id": "book017-b000347-p000-4247072e83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000348-p000-ca978d54e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“足知此法州有真訣实說麼用”存在讹误，候选译为“足知此法是否有真訣實說呢”属于语义误读，原文语义应为足以知道这种方法就算有真诀实际也没有用处，且原文开头“即た今日”的日文假名未处理，直接译作“即使到了今天”属于无依据推测"
+        ],
+        "uncertainty": [
+          "「凡魚綫」含義不明；原文存在脫漏、錯亂"
+        ]
+      },
+      {
+        "id": "book017-b000350-p000-74e1139858",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量OCR讹误，候选译文“唯獨對於抑龍之說未細說，所以合公青事唐，這兩篇的徑曲實已法，大概是言空之通來源”语句不通，未完成现代汉语转换，且多处属于无依据猜测"
+        ],
+        "uncertainty": [
+          "度可視、合公青事唐、徑曲實已法、言空之通兮來等詞語含義不明"
+        ]
+      },
+      {
+        "id": "book017-b000351-p000-7bcc09fc2e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“艮为卒，位々是軍巽层亥書是武曲位甲癸卒言狼一路仍”存在讹误，候选将“艮为卒”释为“艮是八卦之一，代表卒”属于无依据释义，allowed_glossary仅规定“艮”为八卦之一，未提及“代表卒”的含义，属于增译；且原文末尾“蓋大鴻守秘當未故意誤導也0”的多余数字“0”未剔除，候选保留该数字属于错误"
+        ],
+        "uncertainty": [
+          "巽层亥书是武曲位甲癸卒言狼一路仍含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000353-p000-0e6c65668c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "八官堂訣、一紅、擔外國、三去等詞語含義不明"
+        ]
+      },
+      {
+        "id": "book017-b000354-p000-0369ccfa28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“只足天地流乃之妙”存在讹误，候选译为“只要契合天地运行的妙理”属于无依据增译；原文“就死板认定某个基础扑去、某卦一定凶、基础生常、基础星属凶”语句不通，未完成现代汉语转换，且“基扑去”“基生常”属于不明内容，不应直接保留在译文中不加标注说明，原文末尾“此派定必不知直訣”的“直訣”候选译为“真正的口诀”属于可接受释义，但整体存在语句不通问题"
+        ],
+        "uncertainty": [
+          "基扑去、基生常含义不明，原文存在讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2932,
+    "completion_tokens": 1370,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2932,
+      "completion_tokens": 1370,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

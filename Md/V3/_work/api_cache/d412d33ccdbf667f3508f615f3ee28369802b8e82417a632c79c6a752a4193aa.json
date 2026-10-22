@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T09:50:00.713443+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d412d33ccdbf667f3508f615f3ee28369802b8e82417a632c79c6a752a4193aa",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000398-p000-693f79f941",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000399-p000-682d1f74ac",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处断句残缺、错漏，如‘山。被。水而不 不聚’‘不停故凶’等，候选释读补全了残缺语义，但未明确标注原文的残缺情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000400-p000-9c8a89affa",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "森羊、湖星散的表述存疑，按原文保守释读"
+        ]
+      },
+      {
+        "id": "book010-b000401-p000-fe4ee0ee85",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "卒地、个字界、骨部、俸半的表述存疑，按原文保守释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 303,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1592,
+      "completion_tokens": 303,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

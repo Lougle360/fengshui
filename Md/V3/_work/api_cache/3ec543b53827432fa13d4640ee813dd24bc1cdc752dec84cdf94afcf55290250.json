@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T17:55:39.699587+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3ec543b53827432fa13d4640ee813dd24bc1cdc752dec84cdf94afcf55290250",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001470-p000-b34e9f8ada",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《彖传》说：“临”，指阳刚之气逐渐增长，态度和悦而行事顺遂，刚健者居中位而能与上下相应。至为大亨通又能守持正固，这是天的运行规律；“到了八月会有凶险”，是因为阳气消退，这种兴盛不会长久。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001471-p000-3e94a07518",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《彖传》说：“监临”，说明此时阳刚正气日渐增长，临人者和悦温顺，刚健者居中而上下相应。获得至大亨通又要守持正固，这才顺合大自然的规律；“到了(阳气日衰的)八月将有凶险”，那是因为接近消亡、好景不能长久。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001472-p000-513938b2ca",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①刚浸而长，说而顺，刚中而应：前一个“刚”指初、二两爻，后句的“刚中”指九",
+        "confidence": "low",
+        "uncertainty": [
+          "原句末尾残缺，未完整说明“刚中”所指的爻位"
+        ]
+      },
+      {
+        "id": "book016-b001473-p000-91b5f48070",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "临卦第十九",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1630,
+    "completion_tokens": 511,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1630,
+      "completion_tokens": 511,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

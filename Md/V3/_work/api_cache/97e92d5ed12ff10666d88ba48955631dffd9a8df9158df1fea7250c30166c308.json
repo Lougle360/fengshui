@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T09:57:33.747441+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "97e92d5ed12ff10666d88ba48955631dffd9a8df9158df1fea7250c30166c308",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000444-p000-95fafa05c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000445-p000-2e7208881a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"淳\"字含义不明，释读时未标注该字的不确定性，直接释为\"淳厚\"缺乏依据"
+        ],
+        "uncertainty": [
+          "原文中\"淳\"字具体含义未明"
+        ]
+      },
+      {
+        "id": "book010-b000446-p000-97cd2148b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000447-p000-a296554429",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1615,
+      "completion_tokens": 248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

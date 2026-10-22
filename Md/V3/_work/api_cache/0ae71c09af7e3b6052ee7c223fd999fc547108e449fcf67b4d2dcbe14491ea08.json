@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T07:49:18.586282+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0ae71c09af7e3b6052ee7c223fd999fc547108e449fcf67b4d2dcbe14491ea08",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000084-p000-d3a26f8b81",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处未按要求保留原文含混专名的引号，如将‘靡肿之形’‘陡汉’等opaque_terms直接释读为确定含义，违反规则4；部分语句存在语义不通，如‘看此咳离之应’‘流则其地绝少’等，属于未准确转换古文为现代中文；将推测性内容（如‘麟吐气又有一等’）直接作为确定事实，违反规则2"
+        ],
+        "uncertainty": [
+          "咳离之应、靡肿之形、陡汉、补义、石骨裴转、巡编水、损城、义坤道珠瑛、龙奎书带、陡峻、靖向我等原义不确定"
+        ]
+      },
+      {
+        "id": "book009-b000086-p000-8ae1a3ff75",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处未按要求保留原文含混专名的引号，如将‘石数’‘毬簿’等opaque_terms直接释读，违反规则4；部分语句语义不通，如‘看内不可改作内’‘圣之朝也’等，属于未准确转换古文为现代中文；将推测性内容直接作为确定事实，违反规则2"
+        ],
+        "uncertainty": [
+          "石数、毬簿、肸腮、县气、劄流、牛尔、宽牵线之软等原义不确定"
+        ]
+      },
+      {
+        "id": "book009-b000088-p000-80a3cd1558",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处未按要求保留原文含混专名的引号，如将‘宽牵线之兽’‘厌之水’等opaque_terms直接释读，违反规则4；部分语句语义不通，如‘其云只记分十八千边’‘南必以员水交穴受风者亦是也’等，属于未准确转换古文为现代中文；将推测性内容直接作为确定事实，违反规则2"
+        ],
+        "uncertainty": [
+          "宽牵线之兽、厌之水、分敛篇、尔砂、员唇、经憑木之、沙之舍也等原义不确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4891,
+    "completion_tokens": 536,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4891,
+      "completion_tokens": 536,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

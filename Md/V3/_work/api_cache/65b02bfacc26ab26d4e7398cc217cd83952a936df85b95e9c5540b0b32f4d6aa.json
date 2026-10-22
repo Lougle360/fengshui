@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-18T10:34:38.751738+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "65b02bfacc26ab26d4e7398cc217cd83952a936df85b95e9c5540b0b32f4d6aa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006185-p000-7403656563",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'利長中富厲仙曰'，candidate译为'适合长房和中房获得财富。厉仙认为'，漏译了'富'字。原文'富厲仙曰'应译为'富，厉仙说'或'富。厉仙说'。",
+          "术语误换：原文'水去主出兩肩兩割'，candidate译为'水去主出两肩两割'，但'水'是locked_terms，应保留原字并引用解释，不应直接译为'水去'。应处理为'水'去主出两肩两割。",
+          "数字错误：原文'血才五旬内'，candidate译为'五十天内'，'五旬'指五十天，但'血才'含义不明，candidate译为'钱财'无依据，属于增译。",
+          "反义/误译：原文'遇火主旺才帛毋得傷於腸胃'，candidate译为'遇火主旺才帛，但不可伤于肠胃'，将'毋得傷於腸胃'（不得伤于肠胃）处理为条件句，但原文结构更可能是指'遇火主旺才帛'和'毋得傷於腸胃'是并列的两件事或条件，candidate的转述可能改变了逻辑关系。",
+          "增译/推测：原文'主少年天亡公事破才'，candidate译为'否则主少年夭亡，或因公事破财'，增加了'否则'、'或'等连接词和因果推测，改变了原文的并列陈述。",
+          "日文误译：无。",
+          "专业术语误换：'紫微卯酉'中的'紫微'是星名，candidate保留正确。'太微星'保留正确。'坎'、'南离'保留正确。",
+          "方位/干支/卦象变化：'庚辰及壬辰穴'、'庚 甲已酉辛酉'、'乙爲官星'、'東地'、'坎'、'南離'、'西北'、'北方'等译述准确。"
+        ],
+        "uncertainty": [
+          "'血才五旬内'中'血才'含义不明。",
+          "'死妇无位'已标注。",
+          "'兩肩兩割'具体所指不详。",
+          "'平淘'具体所指不详。",
+          "'蹄石'具体所指不详。",
+          "'开时'具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 560,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1007,
+      "completion_tokens": 560,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

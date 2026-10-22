@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T05:11:16.010548+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c5421d0a6a3591004c99a896bd443f48c6175530b52d5d3952f225d4a5dbdf67",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000329-p000-7478a9408f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000330-p000-3a498a3e72",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原句“安在非流行之氣而必順排甲子以合定位之氣乎”释读有误，原文意为“怎么能说它不是流行之气，却一定要顺排甲子来契合定位之气呢？”，候选误将问句拆分，语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000331-p000-307557d9ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000332-p000-5f14874156",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000333-p000-4c7397d11c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“金水日月四吉曜的會合在何宮，而總之皆以三元管局爲起例，而又以管局遁卦爲翻曜之起例”相关内容，属于无依据增译；原文“道卦”应为“遁卦”，候选误写；原文末尾未完结，候选擅自补全内容不符合要求"
+        ],
+        "uncertainty": [
+          "原文后半段残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book020-b000334-p000-89a2d2a103",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000335-p000-8ed6538a22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000336-p000-3ca99616ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到“第三層穿山”，后续“加與奇門二字為何取義，為何古來沒有奇門之名，而名之曰孤虛法，總來有一語出於自然，而非人意穿鑿的勉強安排”属于擅自引入下一段内容，增译无依据；“六儀以六甲之何以遁”释读有误，应为“六仪为什么要遁藏六甲”，候选表述不通顺"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000337-p000-83c686d8ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“甲申藏於震宮之第三，而庚申為之儀；甲午藏於巽宮之第四，而辛酉為之儀；甲辰藏於中宮之第五，而壬戌為之儀；甲寅藏於乾宮之第六，而癸亥為之儀。這就是六甲之所以遁、六儀之所以名的原因。兌宮則始庚午而極於乙卯，艮宮始辛未而極于丙辰，離宮始壬申而極于丁巳，這乙、丙、丁三宮為六甲之所不至。十干中首六甲為最尊，戊、己、庚、辛、壬、癸以六儀儀其首甲，所以雖處外而不得為尊，乙、丙、丁不加於六甲之上，則處第三”相关内容，属于无依据增译；原文“甲戌巳”应为“甲戌己”，候选未修正表述；原文末尾未完结，候选擅自补全内容不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000338-p000-9e83822aa4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“申藏于震宮之第三”前漏“甲”字，应为“甲申”，候选未补正且语义残缺；原文末尾“寧山”为残字，候选直接释为“处于第三位的是宁山”，属于无依据认定残字含义"
+        ],
+        "uncertainty": [
+          "原文末尾“寧山”为残文，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5269,
+    "completion_tokens": 1110,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5269,
+      "completion_tokens": 1110,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

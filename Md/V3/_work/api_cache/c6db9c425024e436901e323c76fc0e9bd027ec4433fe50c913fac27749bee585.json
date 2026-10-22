@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-25T15:39:57.201700+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c6db9c425024e436901e323c76fc0e9bd027ec4433fe50c913fac27749bee585",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000254-p000-b9d0fad3dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "三楚、新安、門、復所周誼、樵山李希烈的具体身份原文未明确说明，断句仅为参考"
+        ]
+      },
+      {
+        "id": "book029-b000257-p000-533949a1ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "穿變的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b000258-p000-35e760d437",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水星變作千絲墜”被误译为“水变成千丝坠的样子”，遗漏了主语“水星”，不符合原文表述"
+        ],
+        "uncertainty": [
+          "浔地的具体含义原文未明确说明",
+          "开障的具体含义原文未明确说明",
+          "穿變的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b000259-p000-a473d804ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "反互势的具体含义原文未明确说明",
+          "穿變的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b000260-p000-36917c9a2a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文书名是“地理恭贊玄機全書”，其中“恭”为原文字，candidate后续释读统一保留“恭”即可，表述符合要求，但原文末尾的“二”为卷次附属标识，candidate保留正确，无其他错误？不对，原文“此名本是受偏”表述直译，candidate保留正确，哦，不对，再看：原文“地理恭贊玄機全書○卷二 二”，candidate译“以上内容出自《地理恭赞玄机全书》卷二 二”正确。哦，不对，刚才的b000258的问题是“水星變作千絲墜”漏了“星”，对。然后b000260的issue：“穿變”在writer_uncertainty里标注，candidate里“木星传变”的表述是合理的吗？原文是“此龍全是木星傳”，candidate补“变”属于合理补全吗？哦原文是“此龍全是木星傳”，结合上下文是“传变”，补出是合理的。那b000260的verdict是accept？不对，再看：candidate里“这种名称本就属于受偏”，原文是“此名本是受偏”，表述通顺，没问题。那b000260是accept？哦对，刚才漏看了。然后b000261：verdict是accept，confidence high，没问题。然后b000262：看原文里的“地理秦贊玄機全書”，哦原文里出现的是“又有地理泰贊玄機全書”“貴地理秦贊玄機全書”“地理秦贊玄機全書”，原文有“泰”“秦”的差异，candidate都保留了原文的不同写法吗？看candidate里写的是《地理泰贊玄機全書》，不对，原文里有“地理恭贊”“地理泰贊”“地理秦贊”的不同写法，candidate没有区分，统一写成泰？不对看原文b000262的source里的文字：“又有地理泰贊玄機全書○卷二 m點點滴滴落名曰金峯”“貴地理秦贊玄機全書○卷二骨安名作賤地”“地理秦贊玄機全書○卷二”，原文出现了“泰”“秦”两种不同的书名用字，candidate都统一写成了《地理泰贊玄機全書》，属于错误。还有，原文“金船出海脩水落”里的“脩水”candidate标注了是河流名，属于无依据释义，因为allowed_glossary里没有相关内容，原文也没有说明“脩水”是河流名，属于把不确定内容写成确定事实。还有原文“東中書內相”的“東”candidate直接保留了？看candidate里写的“东中書內相的格局”，原文的“東”是否是衍文？candidate没有标注，直接作为确定内容，属于问题？还有原文“縱無人禍有天形閣門宣旨土星出貴東中書內相”，断句应该是“縱無人禍有天形。閣門宣旨土星出貴，東中書內相”，candidate的断句是对的，但“東中書內相”的含义没有标注不确定，不过writer_uncertainty里没有提，属于漏了？不对，先整理b000262的issues：1. 原文中书名出现“泰贊”“秦贊”两种不同表述，candidate统一作“泰贊”，与原文用字不符；2. 无依据认定“脩水为河流名”，不符合术语解释规则，allowed_glossary未收录该词条，不得擅自赋予确定含义。然后uncertainty保留writer的内容。哦还有，原文“○卷二”后的“m”candidate标注是OCR识别错误，正确。还有“骨安”标注正确。还有“棕櫚業”标注存疑正确。那b000262的verdict是revise，confidence high。哦对，刚才的b000260的source里的书名是“地理恭贊玄機全書”，candidate里写的是《地理恭赞玄机全书》，正确，没问题。现在重新整理：哦不对，b000258的candidate里“水变成千丝坠的样子”，原文是“水星變作千絲墜”，确实漏了“星”，所以issue是“原文‘水星變作千絲墜’漏译‘星’字，误写为‘水变成千丝坠的样子’，与原文表述不符”。然后b000262的issues：“1. 原文中该书名称存在‘泰贊’‘秦贊’两种用字差异，候选释读统一作‘泰贊’，与原文用字不符；2. 无依据认定‘脩水为河流名’，该词条未纳入allowed_glossary，不得擅自赋予确定含义”。其他的：b000254、57、59、60、61都是accept。对吗？再核对b000258的locked_terms是“水”，allowed_glossary里的“水”是风水语境的河流，但原文这里明确是“水星”，所以漏了“星”是错误。对。然后b000262里的“脩水”，原文里的“金船出海脩水落”，没有任何依据说明是河流名，所以candidate里标注“脩水为河流名”是错误的，属于增译无依据内容。对。还有，b000262里的“家歲城”candidate标注具体所指不详，正确。“岡銮只平界”等标注正确。那现在整理成JSON：]}不对，要按格式来。哦对，每个item对应：第一个id是book029-b000254-p000-b9d0fad3dc，verdict accept，confidence high，issues空，uncertainty是writer的那个。第二个id book029-b000257-p000-533949a1ab，accept，high，issues空，uncertainty是穿變的问题。第三个id book029-b000258-p000-35e760d437，verdict revise，confidence high，issues是["
+        ]
+      },
+      {
+        "id": "book029-b000261-p000-1c81096c61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000262-p000-85bec389d1",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文OCR识别错误较多：“棕櫚業”应为“棕櫚葉”，“○卷二”后出现的“m”“骨安”均为识别错误，无法确定含义",
+          "家歲城、岡銮只平界、祿福功名難止艾、養子多因胎中失的具体含义原文未明确说明",
+          "脩水为河流名，具体对应未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3803,
+    "completion_tokens": 193,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3803,
+      "completion_tokens": 193,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

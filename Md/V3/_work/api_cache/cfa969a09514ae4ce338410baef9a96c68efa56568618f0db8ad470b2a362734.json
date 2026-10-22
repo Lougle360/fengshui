@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T13:11:07.583625+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cfa969a09514ae4ce338410baef9a96c68efa56568618f0db8ad470b2a362734",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001088-p000-b00b4a3fb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001089-p000-2ced71d3de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001091-p000-cdfaeec41a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“刧”“穀”“盛形”“蜜瘟”“刼星”“菁蔥”等术语未明确释读，存在模糊处理；“水以上为杀”的释读未结合风水语境，与allowed_glossary中“水”的定义关联不足；“旧木以金为杀”等语句的逻辑梳理存在模糊，未明确“杀”的具体含义"
+        ],
+        "uncertainty": [
+          "原文中“刧”“穀”“盛形”“蜜瘟”“刼星”“菁蔥”等术语具体所指不详；“水以上为杀”的具体所指未明确；“旧木以金为杀”等语句的逻辑关系未清晰梳理"
+        ]
+      },
+      {
+        "id": "book014-b001094-p000-7551b7021d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“乱脚”“坟枪”“阵载”“圃案”“迈拦”“阁山会见乱批远峰为状元笔捷报”“振头”“杀头”“操”“贼龙贱”“暗探头”“内探头”“蜡贵穴”“沙法”等术语未明确释读，存在模糊处理；“体负视”“平同”“未成星体”“碎卿子”等语句的释读存在模糊，未明确具体含义；“水火死裏”的释读未明确具体所指；“木杓木鬼体也”的释读存在模糊，未明确具体含义"
+        ],
+        "uncertainty": [
+          "原文中“乱脚”“坟枪”“阵载”“圃案”“迈拦”“阁山会见乱批远峰为状元笔捷报”“振头”“杀头”“操”“贼龙贱”“暗探头”“内探头”“蜡贵穴”“沙法”“体负视”“平同”“未成星体”“碎卿子”“水火死裏”“木杓木鬼体也”等术语及语句具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2244,
+    "completion_tokens": 622,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2244,
+      "completion_tokens": 622,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

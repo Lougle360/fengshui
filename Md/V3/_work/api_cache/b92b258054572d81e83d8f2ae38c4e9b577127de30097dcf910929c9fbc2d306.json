@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-23T11:14:59.766526+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b92b258054572d81e83d8f2ae38c4e9b577127de30097dcf910929c9fbc2d306",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000375-p000-eec601cdf8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'卷肉上'，candidate译为'卷四上'，属于数字变化。应保留原文'卷肉上'并说明其可能为'卷四上'之误，或直接指出原文用字。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000379-p000-f7e0400605",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'寅甲三龙'中的'三'字含义不明，candidate已明确标注。"
+        ]
+      },
+      {
+        "id": "book003-b000381-p000-169ad07923",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'王人徑'，candidate译为'玉尺经'，属于专业术语误换。应保留原文'王人徑'并说明其可能为'玉尺经'之误，或直接指出原文用字。",
+          "原文'清主貴而'后文可能残缺，candidate补译为'气浊主贱'，属于推测性增译。应说明原文至此，后续含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000387-p000-d5106c9ba8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'仙曰'，candidate译为'仙人说'，将泛指或特定称谓'仙'具体化为'仙人'，属于无依据扩写。应译为'有仙家/仙师说'或保留'仙曰'并说明。",
+          "原文'如異龍而華上有主人經'，candidate将其拆解为'文中还提到...此段引自经书卷四上第八'，处理方式不当。应将'如异龙而华上有主人'作为原文引述，并说明其含义不详，'经卷四上八'是出处。candidate的表述模糊了原文结构。"
+        ],
+        "uncertainty": [
+          "'如异龙而华上有主人'这一短语的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book003-b000388-p000-efd42da883",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'休囚宜脂而反高'中的'脂'字含义不明，candidate已明确标注。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1668,
+    "completion_tokens": 603,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1668,
+      "completion_tokens": 603,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

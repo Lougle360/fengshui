@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-18T03:07:42.625449+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ebc3a8f1e8b100a1c3d103163974304c7e3c4d9c1ede23577cb72c7109fe80e8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005254-p000-1823cb9d91",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文表格中部分单元格有标记字符（如'C'、'CC'、'G'、'QC签器'、'F'、'd'、'a'、'三'、'内'），candidate完全未提及，导致信息缺失。",
+          "反义/误译：'前山朱雀似蛇暮銀子人生實可垮周年一度懷妊孕看看生下一堆蛇'一句，candidate释为'暮年銀子人生實可垮'，将'暮'字与'銀子'连读，改变了原文结构，且'實可垮'含义不明，释读不准确。'若間人丁千百口'中的'間'可能为'問'之误，但candidate直接释为'若問'，未标注原文用字差异。'右倉右庫若相連'与原文'右倉右庫若相連'不符，原文为'右倉右庫'，candidate误为'右倉右庫'（重复'右'），但原文表格中该句为'左畔是倉右是庫...右倉右庫若相連'，candidate释读时未体现此上下文，且'右倉右庫'表述不清。",
+          "专业术语处理不当：'朱雀'为locked_term，candidate直接使用，符合要求。但'砂断'作为标题部分，candidate未单独处理，而是混入正文释读。",
+          "未处理原文结构：原文为表格形式，内容分列，candidate将其处理为连续的段落，虽为白话释读所需，但未说明原文的并列或对应关系，可能丢失部分语境。",
+          "含混短语处理：对于'自吊之山'、'路死之山'等，candidate按字面转译并说明'具体所指不详'，符合要求。但对于'暮銀子人生實可垮'等句，candidate仅按字面转译，未明确标注其含混性，虽在writer_uncertainty中提及，但释读文本本身未体现不确定性。"
+        ],
+        "uncertainty": [
+          "原文为表格，部分单元格标记字符（如C、CC、G等）含义不明，可能为分类、编号或版本标记。",
+          "'暮銀子人生實可垮'、'灰袋山朝此中取'等句意含混，可能为隐语或OCR错误。",
+          "'若間人丁千百口'中的'間'字，可能为'問'之误。"
+        ]
+      },
+      {
+        "id": "book035-b005255-p000-9317a28f29",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "增译/改写：source为明确标题'地理天機會元卷二十八砂斷 四'，candidate释读为'这是《地理天机会元》卷二十八中关于“砂”的断语部分的第四小节标题。'，增加了'这是...中关于...部分的第四小节标题'等解释性文字，属于不必要的扩写。kind='heading'时，应更贴近原文标题形式进行白话转换，而非进行摘要式描述。",
+          "术语处理：'砂'为locked_term，candidate使用并加引号，符合要求。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2495,
+    "completion_tokens": 791,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2495,
+      "completion_tokens": 791,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-15T02:13:56.094368+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a30028ff1073b4b0c35357c5c3f834f328ac34c7c06e562c5d972125b882f420",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001698-p000-29560be3ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘今字三又雖跡蟹眼彈異魚思十字球簷化生腦泥丸宮’中‘雖跡’、‘思’等字在candidate中被略去，仅以‘有的提及’概括，未按规则保留原文短语并说明‘具体所指不详’。",
+          "专业术语误换：原文‘雌雄不配則失其常矣’中的‘常’被译为‘常道’，虽可接受，但‘常’在风水语境中常指‘常理’或‘常规’，译为‘常道’略显拔高。",
+          "增译：candidate中‘这些名目繁多’为原文‘種種多端’的合理释读，但‘其中所指往往是一事一意，却反复其说’中的‘往往’、‘却反复其说’为对原文‘其閒所指多一事一意而二三其說’的合理解释，不算增译。但‘本不足取’为‘固不足取’的准确翻译。",
+          "对不确定内容的处理不当：writer_uncertainty中已指出‘雖跡’、‘思’等字可能为OCR错误，但candidate未在释读中体现这种不确定性，而是直接概括处理，不符合‘保留原短语并明确说“具体所指不详”’的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001699-p000-18aa769f30",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：原文‘下如之滴斷’中‘斷’字被忽略。candidate译为‘下面像水滴，形状分明’，其中‘形状分明’是对‘斷’的推测性解释，但未说明原文有‘斷’字及不确定性。应指出‘斷’字含义不明。",
+          "增译：candidate中‘形状分明’为增译，原文‘斷’字可能为衍文或连接词，具体含义不详，不应赋予确定解释。",
+          "对不确定内容的处理不当：writer_uncertainty已指出‘之員’、‘之滴’及‘斷’字可能为OCR错误或衍文，但candidate未在释读中明确标注这些不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001701-p000-5a8a93037c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：原文‘極暈水者真穴必有太極之軍’中‘之軍’应为‘之晕’之误，candidate直接译为‘太极晕’，未指出原文用字错误。原文‘則看突起正看糊皆善狀’中‘糊’字被保留但未解释，candidate直接将其纳入‘关于“突起”、“正看”、“糊”皆善状的说法’，未说明‘糊’字含义不清。原文‘故凡入穴回頭見員軍在微薄顯之間是謂有太極員無自水’中‘員軍’、‘員無’、‘微薄顯’等处理过于简化，未体现OCR错误和含义不明。",
+          "增译：candidate中‘关于“突起”、“正看”、“糊”皆善状的说法’是对原文的合理串联，不算增译。但‘这都是描述“太极晕”的妙诀’中的‘这’指代明确，是对前文的合理总结。",
+          "对不确定内容的处理不当：writer_uncertainty中列出的多处OCR错误和含义不明之处，在candidate释读中未得到充分体现和标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001707-p000-93cbea7443",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘但利代’后残缺，candidate已明确标注‘具体所指不详’，处理得当。"
+        ]
+      },
+      {
+        "id": "book033-b001709-p000-b693ef8b20",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：原文‘主臣富顯貴人氏云’中‘臣’、‘人氏’可能为‘巨’、‘人’之误。candidate译为‘主臣富贵贵人。氏云’，将‘臣’、‘人氏’分开处理，未指出用字可能错误及含义不明。",
+          "误译：原文‘宜聚而不宜數’中‘數’应为‘散’之误。candidate直接译为‘宜聚而不宜散’，未指出原文用字错误。",
+          "误译：原文‘要之水臨墓頭為褐尤甚’中‘褐’应为‘禍’之误。candidate直接译为‘为祸尤甚’，未指出原文用字错误。",
+          "对不确定内容的处理不当：writer_uncertainty中已指出多处可能错字，但candidate未在释读中标注这些不确定性，而是直接按正确字义翻译。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2803,
+    "completion_tokens": 1210,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2803,
+      "completion_tokens": 1210,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-15T15:46:14.074076+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fbd7daf1d10248daa9b8eb3f477245234cd6fe8d9d2f4e6e2ef530bb4a935167",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002270-p000-9eb7af7afb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文'沙城導之玉井豬之'，candidate译为'需借砂城引导，由玉井蓄积'，漏译了'豬'字。'豬'在此处应为'潴'（蓄水），但candidate未体现此字。",
+          "2. 术语误换/增译：原文'心力之妙功力之備庶幾見愚而見智'，candidate译为'心力的精妙与功力的完备，或许能让人由愚钝转为智慧'。'见愚而见智'是'（或许）能见到愚也能见到智'，candidate将其解释为'由愚钝转为智慧'，属于无依据的扩写和含义改变。",
+          "3. 术语误换/增译：原文'明堂臨箱橫決納而不吐是則飾形而致瑞'，candidate译为'明堂临近箱口，横向决断，只纳不吐，这便是修饰形体以招致祥瑞'。'箱'字未在allowed_glossary中，candidate将其译为'箱口'并作为确定概念使用，属于无依据的解释。",
+          "4. 术语误换：原文'又不可放支屬宜折曲流于干維'，candidate译为'又不可放支属，宜曲折流向干维'。'支属'和'干维'是风水术语，分别指地支和天干方位。candidate未加引号或说明，直接使用，可能误导读者以为这是普通词汇。",
+          "5. 术语误换：原文'而以水法五行論忌流從長生臨冠帝旺墓胎養六相之方宜流於衰病死絕六替方位上去'，candidate译为'若以水法五行论断，则忌讳水流从长生、临冠、帝旺、墓、胎、养这六相方位流去，而宜流向衰、病、死、绝这六替方位'。原文'六替'包含'衰病死絕'和'沐浴'，candidate漏掉了'沐浴'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002271-p000-650fbfa1de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中'立句以肖水'语义晦涩，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b002272-p000-eb09040c1f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002273-p000-ab523dc829",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002274-p000-947fbb91cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文'祭氏所謂山用之融結在天而山水之裁成在人'，candidate译为'祭氏所谓山用之融结在天，而山水之裁成在人'。'山用之'应为'山之'或'山气之'的误写或特定表述，candidate直接照搬'山用之'，未做任何处理，导致句子不通顺，不符合'普通读者能读懂'的目标。",
+          "2. 术语误换/增译：原文'宋末觀物祝先生渡建議開浴饒之表灣河以通康山湖達省甚便先生曰此丁方也謂之王門水三甲子週當有王者後果百八十年間'，candidate译为'宋末观物祝先生渡建议开浴饶之表湾河，以通康山湖，达省甚便。先生说：这是丁方，称为王门水，三甲子周，当有王者。后果百八十年间'。'浴饒之表灣河'、'康山湖'、'丁方'、'王门水'均为未定义的专名，candidate未加引号或说明，直接作为确定地名和术语使用。"
+        ],
+        "uncertainty": [
+          "原文末尾'后果百八十年间'语义不完整，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b002275-p000-cc66d1b295",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002276-p000-25af29cad1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义晦涩，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b002277-p000-b9ffe48a0f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 数字/术语变化：原文开头是'11'（可能是序号或数字），candidate直接保留为'11.'，但未说明其可能为序号。在古文白话释读中，直接保留阿拉伯数字可能不协调，但非严重错误。更关键的是，'11'可能与后文内容无关，是OCR或原文的标记，candidate未处理此不确定性。",
+          "2. 术语误换/增译：原文'弓表六相之豬澤衰病死墓絕浴弓宜六替之所之'，candidate译为'弓表六相之猪；泽衰、病、死、墓、绝、浴，弓宜六替之所之'。'猪'应为'潴'（蓄水），candidate未做说明。'弓表'、'弓宜'含义不明，candidate直接照搬，未加引号或说明其晦涩性。",
+          "3. 术语误换/增译：原文'郭氏曰朝於大旺澤於將衰流於因謝以返不絕'，candidate译为'郭氏说：朝于大旺，泽于将衰，流于因谢以返，不絕'。'因谢'含义不明，candidate未加引号或说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002278-p000-673e90ebef",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中'八千弓钟'、'四隅四正弓'等表述晦涩，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b002279-p000-b9d6db053a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3185,
+    "completion_tokens": 1628,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3185,
+      "completion_tokens": 1628,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

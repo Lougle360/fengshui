@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:29:44.487955+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "77225d28ca57ed86f2f336c252375939b6788939f503b116dd99530a0096fcb2",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000756-p000-a1231b9927",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文含义不明的“农”“炒”“良中”“艮兄”等词强行释读为确定含义，不符合原文未明的情况，应保留原文并标注具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“农”“炒”“良中”“艮兄”等词含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000757-p000-e0c4284537",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000758-p000-1b17920a8c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000759-p000-f165de1fa0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“飞大煞打头火”含义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1662,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1662,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

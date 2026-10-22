@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-24T08:48:03.463881+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a9fe96bae6f6715d0b14e55524076ecef70f0f90da1cc33db1f67c6294b366cc",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000263-p000-78cd5ad078",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的专名如‘尊娛怒之肜’‘关错口’‘鉴口’‘天麟娛頰’‘娛魁’等直接释读为确定含义，违反了术语释读规则；部分语句释读不通顺，如‘张玉其势勇征’‘质上厘杀穴’‘穴的灰市未免卒离’等表述不符合现代汉语表达习惯；‘以项取穴’‘娛頰见则止而结穴’等内容释读逻辑混乱，与原文语义不符"
+        ],
+        "uncertainty": [
+          "尊娛怒之肜具体所指不详",
+          "关错口具体所指不详",
+          "鉴口具体所指不详",
+          "天麟娛頰具体所指不详",
+          "娛魁具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000264-p000-cac2332c9c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的短语如‘穷总’‘躇足’‘植妆’‘耸滕’‘伸脾’‘幽操’‘灰市’‘木解’‘势互详十’‘两期义开’等直接释读为确定含义，违反了术语释读规则；部分语句释读不通顺，如‘顺阴堂雨乳的穴’‘穴的灰市未免卒离’‘面如人之立则功天水也’等表述不符合现代汉语表达习惯；‘1六六者因山有传’‘卷之下’等内容释读遗漏或逻辑混乱"
+        ],
+        "uncertainty": [
+          "穷总、躇足、植妆、耸滕、伸脾、幽操、灰市、木解、势互详十、两期义开这些短语的具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000265-p000-ebc6e9433e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处字迹残缺、语义不通，释读内容与原文语义基本一致但仍存在大量不通顺、逻辑混乱的表述，无法形成准确的释读"
+        ],
+        "uncertainty": [
+          "原文多处字迹残缺、语义不通，具体所指多不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2733,
+    "completion_tokens": 534,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2733,
+      "completion_tokens": 534,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

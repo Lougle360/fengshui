@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:22:57.928738+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a206807feeb347460e5a0f56250ffa450abbbad75152f28b670dbbe6090f2754",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001869-p000-9a08b83a7f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001870-p000-f5363b0cf7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001871-p000-863b944369",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文《象传》释文未完整，candidate 补入了原文未有的“利于涉越大河巨流”“行动应合‘天’的规律”内容，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001872-p000-493e8b3591",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1597,
+    "completion_tokens": 273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1597,
+      "completion_tokens": 273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

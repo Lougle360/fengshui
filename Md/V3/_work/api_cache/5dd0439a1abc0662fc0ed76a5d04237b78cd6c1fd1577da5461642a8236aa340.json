@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:28:17.284352+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5dd0439a1abc0662fc0ed76a5d04237b78cd6c1fd1577da5461642a8236aa340",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001102-p000-e84b7f749e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘重譯向風’释为‘四方之人辗转通过翻译来朝向’不符合allowed_glossary中‘向’的定义，‘向’在此处并非建筑或穴位所朝的方位，属于专业术语误换；将‘西學’释为‘西洋科学’属于无依据扩写，原文未明确指西洋科学，属于把推测写成事实"
+        ],
+        "uncertainty": [
+          "‘重譯向風’的具体所指原文未明，‘西學’的具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 160,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1007,
+      "completion_tokens": 160,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

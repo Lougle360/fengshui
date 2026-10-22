@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-25T10:44:37.558293+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "72b672c50b21bb6868a21ec31dfe645d71a1ed2656c0d396c3942d4e848dbda8",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000377-p000-85432205db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译了原文的“曰”字，原文仅“春曰”二字，未完整表达含义，候选仅释为“春季”丢失了“曰”所带的表称谓、引出后文的语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000378-p000-89b51e3726",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000380-p000-96e47c7105",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将“卷甲”转换为现代中文释读，不符合普通读者能读懂的白话释读要求，若含义不明应标注“具体所指不详”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000381-p000-83c6e2d389",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“华头”“笋圭”“中元魁”原文未明确定义，此处为通俗化释读"
+        ]
+      },
+      {
+        "id": "book024-b000385-p000-7302129536",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000387-p000-0716d5d8f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000391-p000-334163092f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“人皇州”属于未明确的专名，候选未标注不确定性，直接作为确定地名释读不符合要求；“后头兜”的具体风水含义未明确，释读过于字面"
+        ],
+        "uncertainty": [
+          "“人皇州”具体所指不详",
+          "“后头兜”的风水含义原文未明"
+        ]
+      },
+      {
+        "id": "book024-b000393-p000-c2d8433cf6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在不明数字“1”，且“二永”属于未明确的专名，无法形成准确的通俗释读"
+        ],
+        "uncertainty": [
+          "“1”为原文不明标识，含义不详",
+          "“二永”具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000394-p000-a2aea1441b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“西侯”属于未明确的专名，候选直接释读为“西边”无依据，属于误释"
+        ],
+        "uncertainty": [
+          "“西侯”具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000398-p000-d4698b0910",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“番”字含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1799,
+    "completion_tokens": 837,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1799,
+      "completion_tokens": 897,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1799,
+      "completion_tokens": 837,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:20:42.372088+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6a49d34e89a2e2360bb7e0443f4700247125f2b6ad4ad10cc016cf87b9f2bbae",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002559-p000-89df27877a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002560-p000-da4f771de7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中《彖》的释读存在错误，将《彖》的内容与《象传》内容混淆，且原文中‘是以小事吉’的释读应为‘因此小事可获吉祥’，而非‘小心处事可获吉祥’，属于对原文核心含义的误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002561-p000-f1cf384a23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002562-p000-879addb11c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1915,
+    "completion_tokens": 258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1915,
+      "completion_tokens": 258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

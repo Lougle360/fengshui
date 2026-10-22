@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-17T09:07:30.296491+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "052ed8b50cfd30e631a43b82c070ce3ae5c726a742492edbf40dc1f603b631e5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003084-p000-829f71fbce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'泉房子息受奔波'释为'泉眼处的房屋子孙后代将遭受奔波劳苦'，'泉房'是含混专名，不应被解释为'泉眼处的房屋'，应保留原词并标注不确定性。",
+          "candidate将'文主兩頭螻蟻聚'释为'主事者两头被蝼蚁聚集'，'文主'是含混专名，不应被解释为'主事者'，应保留原词并标注不确定性。",
+          "candidate将'媒翩麟足之 水來內反殺傷'处理为'文中提到...具体所指不详'，这是正确的风险标注，但'文中提到'属于增译，应直接说明'媒翩麟足之 水來內反殺傷'具体所指不详。",
+          "candidate将'七星例又名宮水右 非去吉來短略可'处理为'文中还说...具体含义不详'，这是正确的风险标注，但'文中还说'属于增译，应直接说明'七星例又名宮水右 非去吉來短略可'具体含义不详。"
+        ],
+        "uncertainty": [
+          "'泉房'具体所指不详。",
+          "'文主'具体所指不详。",
+          "'媒翩麟足之 水來內反殺傷'具体所指不详。",
+          "'七星例又名宮水右 非去吉來短略可'具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b003085-p000-ae4c9f27a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文末'七'具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 391,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1075,
+      "completion_tokens": 391,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

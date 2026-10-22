@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T11:07:21.851178+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7e539d7c58459914fea40c9583f6042d0bae4c8cd74ccfc4e3db41aa9711bb8c",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000051-p000-d6d3cb0468",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“人干”应为“巽干”，候选译文中误写为“人干”；原文中“異”为“巽”的讹误，候选译文中误写为“巽”；原文中“尅人”后漏译“吉”；原文中“生出”“尅出”的表述未结合风水语境明确对应水去的属性，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文中“人干”“異”的具体所指存在讹误可能，原文未明"
+        ]
+      },
+      {
+        "id": "book012-b000053-p000-a8818c6407",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000055-p000-6d37684dc2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“異”为“巽”的讹误，具体所指不详；原文中“永”为“水”的讹误，具体所指不详；日文残句“青衆心印縮船 き”具体含义不详"
+        ]
+      },
+      {
+        "id": "book012-b000057-p000-19dbff88e0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“戌戌”应为“戌未”的讹误，候选译文中误写为“戌、戌”；原文中“艮”误写为“良”，候选译文中误写为“艮”；原文中“尅入”应为“尅出”的讹误，候选译文中误写为“尅入”；原文中“古”为“吉”的讹误，候选译文中误写为“古”"
+        ],
+        "uncertainty": [
+          "原文中“戌戌”“良”“尅入”“古”的具体讹误存在可能，原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2106,
+    "completion_tokens": 518,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2106,
+      "completion_tokens": 518,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

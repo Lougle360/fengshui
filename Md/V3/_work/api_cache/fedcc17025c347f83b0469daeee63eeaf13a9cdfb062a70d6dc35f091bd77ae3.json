@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:49:04.641153+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fedcc17025c347f83b0469daeee63eeaf13a9cdfb062a70d6dc35f091bd77ae3",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000200-p000-da92156ed9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存在缺字错乱的\"拮掘数于金\"释读为\"上面拮掘数于金\"，属于将不确定内容当作确定事实，且\"拮掘数于金\"原文缺字错乱，无法准确释读；\"空子不育\"释读为\"空子没有生育\"，\"空子\"未明确所指，属于无依据确定解释；\"其樂流蕩不陪\"释读为\"其后代流荡不返\"，\"樂流\"\"不陪\"原文表述含混，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中\"拮掘数于金\"存在缺字错乱问题，无法准确释读；\"空子\"\"樂流\"\"不陪\"等表述原文未明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 934,
+    "completion_tokens": 212,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 934,
+      "completion_tokens": 212,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

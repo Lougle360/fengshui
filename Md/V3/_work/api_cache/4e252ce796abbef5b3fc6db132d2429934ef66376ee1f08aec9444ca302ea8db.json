@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T03:55:38.166945+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4e252ce796abbef5b3fc6db132d2429934ef66376ee1f08aec9444ca302ea8db",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000857-p000-8df33020ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《明山宝鉴》龙格名目里的「楫」，候选释读在首次罗列时误写为「死」，应按原文保留「楫」字",
+          "原文仅表述「固为攸当」（原本是恰当的），候选释读写为「这个划分是恰当的」，未保留原文的判断主体倾向，存在语义偏差",
+          "原文表述「各亦形同名异」（各自也是形态相同名称不同），候选释读写为「都是外形相同而名称不同」，表述过于绝对，不符合原文语义"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 172,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1209,
+      "completion_tokens": 172,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

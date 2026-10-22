@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T14:53:01.930493+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0fcd5c9bed2fc6eff72af2d772f456139cb5a0f31eeffac27d9a0c237b269fa1",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000922-p000-09458fa436",
+        "modern_text": "张行成利用《挂一图》来考察历史事件的“运数”，相关内容见于《通变》卷十一。所谓大运，指的是①元经会的运卦与②会经运的世卦；所谓小运，指的是③运经会的年卦与④世经年的月卦，24。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000923-p000-b9dd56c4a2",
+        "modern_text": "首先是对运卦的考察，张行成将《挂一图》的256卦对应1元，4爻对应1运，以第1运升卦（1）的六五爻到蒙卦（2）的九二爻为起点，计算对应特定星运的卦爻（正数）。例如，日甲为1、月巳为6、星癸为180，从辰未2156到辰申2157的尧的治世，第180运对应贲卦（128）的九三、六四、六五、上九爻，由于1爻对应3世，因此第2156世与2157世对应的是贲卦的六五爻。张行成将贲卦定为尧的运卦，正是他在《挂一图》中寻求易卦与星运一一对应关系的结果。不过对于世卦，他提出“随大运的变化而消长”，并说“遇到奇卦就取后卦，遇到偶卦就取前卦，将两卦合并对应十二世，一奇一偶交替使用”。就上述例子而言，贲卦是第128卦，属于偶数位，因此取前卦无妄卦（127）的6爻，再与贲卦的6爻合并，对应第180运的12世的世卦。",
+        "confidence": "medium",
+        "uncertainty": [
+          "“随大运的变化而消长”中“大运”的具体所指需结合原文进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1953,
+    "completion_tokens": 506,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1953,
+      "completion_tokens": 506,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

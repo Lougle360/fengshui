@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T14:06:30.580742+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7a512dad44228fff153e8e790a98cb3f1b9629753abf698019e0a045cfaa509c",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000504-p000-e46db76dab",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "变形为。$= \\textcircled { \\scriptsize { 1 } } \\textcircled { \\scriptsize { 2 } }$ 式是"
+      },
+      {
+        "id": "book015-b000506-p000-ba8516289e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "与……等价。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000507-p000-f3283038ba",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "现在用欧几里得算法（图4-1）将$\\oslash m / n$展开为连分数，",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文本中$\\oslash$符号含义不明"
+        ]
+      },
+      {
+        "id": "book015-b000509-p000-e00a5b8091",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "假设我们已经得到了它。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文本中右上角的8为上标，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1434,
+    "completion_tokens": 284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1539,
+      "completion_tokens": 183,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1434,
+      "completion_tokens": 284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

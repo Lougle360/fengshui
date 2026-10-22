@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:39:19.170829+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2918237b84ec77c45bab65a3cc4fb03e8c6e5ff20ab8bfc8f9f9ce4637e5e36a",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000140-p000-8011a6886a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000141-p000-4cae46e242",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000142-p000-0228af1202",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "囊宮、遨福的具體所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000143-p000-67d53558fc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「賽宮」未明確釋義，candidate 將其釋為「賽宮」，未說明具體所指，且「倧」字疑似OCR識別錯誤，candidate 未處理該錯字"
+        ],
+        "uncertainty": [
+          "賽宮的具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1630,
+    "completion_tokens": 292,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1630,
+      "completion_tokens": 292,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

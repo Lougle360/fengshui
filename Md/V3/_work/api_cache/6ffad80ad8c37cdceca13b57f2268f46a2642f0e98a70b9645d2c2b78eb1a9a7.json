@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-18T04:51:02.797893+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6ffad80ad8c37cdceca13b57f2268f46a2642f0e98a70b9645d2c2b78eb1a9a7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005470-p000-8219f24f7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：表格结构未体现。原文为多行表格，candidate 将其处理为一段连续叙述，丢失了原文的表格布局信息。",
+          "2. 误译：'不隻隸原骨主吉凶' 被译为 '因此不只隶属于某一种根本骨法来主吉凶'，语义不准确。原文 '不隻隸' 可能为 '不隻隸'（或 '不隻隸'）的讹误，结合上下文，应指这些卦法繁多，并非只隶属于（或只依据）'原骨'（可能指根本的骨法或原理）来决定吉凶。candidate 的译法逻辑不通。",
+          "3. 误译：'以天父占位吉形凶化凶位吉位凶形吉以吉壓凶' 被译为 '以天父卦占位：若形吉位凶，则凶位化吉；若形凶位吉，则以吉压凶'。原文断句不清，但 candidate 的解读过于确定，且 '凶位化吉' 与 '以吉压凶' 的对应关系在原文中不明确。原文可能为 '以天父占位，吉形凶化，凶位吉位，凶形吉，以吉压凶'，含义模糊。candidate 将其处理为清晰的逻辑关系，属于无依据扩写。",
+          "4. 误译：'形位諸凶決無吉穴也' 被译为 '若形与位皆凶，则绝无吉穴'。正确。但结合上一条，整体逻辑链被 candidate 重构了。",
+          "5. 误译：诗句翻译多处将不确定的缺字或讹字进行了补全和解释，如 '出三以' 译为 '出三以'（保留但未解释），'蓝福泽' 译为 '蓝福泽'（保留但未解释），这可以接受，因为 writer_uncertainty 已标注。但 '曰' 字在诗中多次出现，candidate 均照录为 '曰'，未做任何处理。根据上下文，'曰' 很可能是 '日' 或 '月' 的讹字，但 candidate 未标注此不确定性，直接照搬，对普通读者会造成阅读障碍。应指出 '曰' 字可能为讹字，具体不详。",
+          "6. 增译：'表格下方分别列出各山为骨时的吉凶诗诀' 是合理的概括，不算增译。"
+        ],
+        "uncertainty": [
+          "原文表格结构丢失。",
+          "诗句中 '曰' 字可能为 '日' 或 '月' 等字的讹误，具体不详。",
+          "'不隻隸原骨主吉凶' 一句含义模糊，'原骨' 具体指代不详。",
+          "'以天父占位吉形凶化凶位吉位凶形吉以吉壓凶' 一句断句与含义均不明确。"
+        ]
+      },
+      {
+        "id": "book035-b005472-p000-6bc5bf8ae5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005473-p000-0e8c003b02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005474-p000-8b30d0f795",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005475-p000-56bd11a8a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005476-p000-4e0f5bfe9d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文 '察脈' 是正文内容，candidate 译为 '## 察脉'，加上了 Markdown 二级标题标记，改变了原文的层级或格式。根据 kind=prose，应视为普通段落处理，不应添加标题标记。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005477-p000-4f2e26d364",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005478-p000-1d698dc124",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005479-p000-425952d8ee",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 误译：'納甲在辛爲祿位爲民豐富爲寬大爲聰明爲信順爲旗鼓文魯楊雲其' 被断句并译为 '纳甲在辛，为禄位，主民丰富、宽大、聪明、信顺，象征旗鼓。鲁杨两家云：其...'。原文 '旗鼓文魯楊雲其' 中的 '文' 字可能属于前文 '旗鼓'（如 '旗鼓文' 指旗鼓的纹饰或文章？）或后文 '魯楊雲'（如 '文魯楊' 指文姓的鲁杨？）。candidate 将 '文' 字忽略或并入 '鲁杨'，处理为 '鲁杨两家云'，缺乏依据。'文' 字可能为衍文或特定称谓的一部分。",
+          "2. 误译：'爲民眷瘦爲絕屈也' 被译为 '为民，眷属瘦弱为绝，势屈为下'。原文 '眷瘦' 可能指眷属瘦弱，'絕屈' 可能指势屈，但 candidate 的断句和补充 ('势屈为下') 属于推测。",
+          "3. 误译：'形活而宗者上也' 被译为 '形活而宗者为上'。'宗' 字含义不明，可能为 '崇'（高）或 '踪'（迹）的讹字，candidate 直接保留 '宗'，未标注不确定性。",
+          "4. 误译：'形聲而秀者上也' 被译为 '形声而秀者为上'。'形声' 在此语境中费解，可能为 '形耸' 或 '形生' 之误，candidate 直接保留，未标注不确定性。",
+          "5. 专名处理：'鲁杨' 被 consistently 译为 '鲁杨两家'，可以接受，但需注意原文可能指特定流派或人物组合。"
+        ],
+        "uncertainty": [
+          "'旗鼓文魯楊雲其' 中 '文' 字的归属与含义不详。",
+          "'眷瘦'、'絕屈' 的具体含义不详。",
+          "'形活而宗' 中 '宗' 字的具体含义不详。",
+          "'形聲而秀' 中 '形聲' 的具体含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3761,
+    "completion_tokens": 1608,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3761,
+      "completion_tokens": 1608,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

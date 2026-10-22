@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-26T07:23:27.148991+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "49dd699aeee74aa300e652b224a545fd71d439597f80bf3b3b85cff7e3ba42c3",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000224-p000-cea80481d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000226-p000-963c6972e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000228-p000-35f66d9363",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文『上審龍入首美惡定地吉凶』被误译为『要判斷龍脈的好壞，以確定地點的吉凶』，核心逻辑应为：通过审察入首龙的优劣来判定地的吉凶，该译混淆了审察对象；原文『尋龍固當穴遠而尤必以入首為準也』被误译为『尋找龍脈固然應當看重穴場的遠近』，语义偏差，原文该句存在句读争议，不应直接释为看重穴场远近。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000230-p000-927f6cc177",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文『恭簡公珊官至尚書』被误译为『恭簡公，珊官做到尚書』，人物姓名拆分错误，应为恭简公名珊，官至尚书；原文『由一神仙名曰鐵仙』未完整表意，原文是指该地为铁仙所卜，译文中补的「選定的」虽符合逻辑但未明确关联语境，且原文核心信息人名拆分错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000231-p000-2ad89a0346",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文『兩舜均均可愛』表述不明，译文直接保留「兩處舜形」属于无依据释义；原文『穴不下畏陡枚棺定有坦平坡』被误译为『不必擔心陡，挖棺定有坦平坡』，语义偏差，原文意为如果是开口穴，就不怕陡，安棺处自有坦平坡，「挖棺」表述错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000232-p000-3536ab7005",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文『議欲改莽豐何巡司見而奇之』被误译为『有人商議改葬豐何巡司』，句读错误，应为商议改葬，丰何巡司见到该地觉得神奇，而非改葬丰何巡司；原文『葬後四紀長房三中科第連喪其二』断句错误，译文未纠正，应为葬后四纪，长房三次中科第，接连死了两个人。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000235-p000-799158b2fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000236-p000-b552001329",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000237-p000-3c8497c706",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文『若此出身之際特異不允前去必有穿落傳變融結富貴之穴』被误译为『若出身之際特異不允前去，必然有穿落傳變融結富貴之穴』，句读错误，应为「若此出身之际，特异不同，前去必有穿落传变、融结富贵之穴」，「不允」属于断句错误导致的语义偏差；原文『夢雲集蟻』属于风水术语，译文直接保留未作说明，且「夢雲集蟻」应为「雾云集蚁」类表述，无依据直接保留不妥。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000238-p000-aef5c50f39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文『方是中出者為上』被误断为「有帶下垂，方是中出者為上」，句读错误，应为「要形如幛幕而角分明，有带下垂，方是。中出者为上，两角出者次之」；原文『方可知無得遮角遮護過亦可』断句错误，语义不通，原文应为「得此护脉方可，如无，得遮角遮护过亦可」，译文断句错误导致表意混乱。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5273,
+    "completion_tokens": 1223,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5273,
+      "completion_tokens": 1223,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

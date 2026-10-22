@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T13:05:11.229585+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a69b344570424f74b863fd32a89dc5a2abe6ae3271089faab065275cf974c41e",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001051-p000-115402d9a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001054-p000-8ce3c335b8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的专名‘伽’‘鄭頭’‘玄作穴’‘地行’赋予了确定含义，属于无依据扩写；将‘水尾鄭頭’释为‘水尾、水首’，‘鄭頭’未明确对应‘水首’，属于误释；将‘玄作穴’释为‘穴中的玄气’，‘玄’未明确指‘玄气’，属于误释；将‘地行’释为‘地行’相关技艺，属于无依据扩写；将‘有龍必有泉’等内容的解读中，‘毋今龍吐泉’的‘今’未明确含义，属于误释"
+        ],
+        "uncertainty": [
+          "‘伽’‘鄭頭’‘玄作穴’‘地行’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 276,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1202,
+      "completion_tokens": 276,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

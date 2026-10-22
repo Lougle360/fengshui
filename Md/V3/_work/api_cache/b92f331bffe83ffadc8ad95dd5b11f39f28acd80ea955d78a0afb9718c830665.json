@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T21:06:20.625927+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b92f331bffe83ffadc8ad95dd5b11f39f28acd80ea955d78a0afb9718c830665",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000144-p000-70717f6f9a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文东方苍龙七宿仅提及“角氏六房心尾箕”，存在识别残损，候选自行补出完整七宿为“角、亢、氐、房、心、尾、箕”无依据；原文西方七宿仅存“奎書四卯里嘴久”残文，候选自行补出完整西方七宿为“奎、娄、胃、昴、毕、觜、参”无依据；原文北方七宿为“北之武七伯斗牛此虛虚危定壁”，候选自行补出完整为“斗、牛、女、虚、危、室、壁”无依据；均属于将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "原文中“周儒道十二”“奎書四卯里嘴久”“北之武七伯”等表述存在OCR识别或断句错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000145-p000-7ec618ace2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其德為”后存在残损，候选自行补出“其德为智”无依据，属于将不确定内容写为确定事实；原文未提及“五星对应木、火、土、金、水（风水语境中的河流、水系及其来去形态）五行”，allowed_glossary仅规定“水”的释义为风水语境中的河流等，不可将“五星对应五行”及“水”的释义扩大至此处五行整体表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文中“火汝熒惑”“真读 音壹經 二七禮之土各鎮星中失”“其德为”等表述存在OCR识别或断句错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000147-p000-46a94da633",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000148-p000-642235d25d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“氣之流仍於天本參形勇则以五星之圍仍”“用以寵氣故贏时更替”等表述存在OCR识别或断句错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000149-p000-c77f6878c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陽用珍應”候选译为“阳用阴应”，与原文表述不符；原文“日語月強則为相乘”候选删去“月”字写为“日强则为相乘”，改变原文内容"
+        ],
+        "uncertainty": [
+          "原文中“常时圍乃即为相煎日語月強則为相乘”存在OCR识别错误，“日語”二字疑为衍文，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000151-p000-191bd44e9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“協言空之學”候选译为“空泛的学说”，属于无依据释义，原文“協言”未明，不得自行释为“空泛”"
+        ],
+        "uncertainty": [
+          "原文中“空之學”“三之九臣”“厚元之山”等表述存在OCR识别或断句错误，具体所指不详；“②”为OCR识别的特殊符号，含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000152-p000-6d3c26590c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“氣書”疑为“氣蓄”的OCR识别错误，“庶鬼”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000153-p000-7bc22c2bbf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“之天有柔地有形”候选译为“天有柔和的特性，地有固定的形质”，“柔”无依据释为“柔和的特性”，“形”无依据释为“固定的形质”，属于无依据增译；原文末尾“0”为OCR识别符号，候选直接保留在句尾未作标注，不符合规范"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000154-p000-fee60ca4a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“天人獻府”候选直接保留未标注不明，“澤食る用應”含日文字符未作规范说明，“卯得”后内容直接拼接引用不符合释读要求，未完成古文到现代中文的转换标注"
+        ],
+        "uncertainty": [
+          "原文中“獻府”“玄之學”“澤食る用應”“卯得”“芬禍”等表述存在OCR识别或翻译困难，具体所指不详；“辨正真诀”为原文保留的术语"
+        ]
+      },
+      {
+        "id": "book017-b000156-p000-3c1db838d2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“武象”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2699,
+    "completion_tokens": 1381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2699,
+      "completion_tokens": 1381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

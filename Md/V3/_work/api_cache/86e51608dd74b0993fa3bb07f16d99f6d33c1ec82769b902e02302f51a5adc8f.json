@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-10-04T02:13:44.297125+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "86e51608dd74b0993fa3bb07f16d99f6d33c1ec82769b902e02302f51a5adc8f",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000400-p000-a05f779b58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000402-p000-0399203c1f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘食水之地潮之人懷者也有二體山中之穴發源之特潮也’结构复杂，candidate将其拆解为‘关于‘食水之地’且‘潮之人怀者’，文中提到有两种体势。山中的‘穴’，其发源处的‘特潮’……’，这种解读可能超出了原文的明确信息，有增译和过度解释的风险。应更保守地处理为含混短语。",
+          "原文‘既無進扒砂經 卷二’中‘砂經 卷二’是书名和卷次，candidate未译出，且将‘既無進扒’处理为‘文中提到‘既无进扒’’，割裂了原文。应整体处理，并保留‘砂经卷二’的标注。"
+        ],
+        "uncertainty": [
+          "食水之地",
+          "潮之人怀者",
+          "特潮",
+          "进扒"
+        ]
+      },
+      {
+        "id": "book028-b000406-p000-3243cb0d60",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘仰天壺途勢尤佳’中‘途’字，candidate作‘的形势’，可能为‘图’或‘途’之误，但释读未体现原文用字或不确定性。",
+          "原文‘順龍地要自本山腳擁前去作案遮絕去形’中‘去形’，candidate释为‘去水之形’，增加了‘水’字，属于无依据扩写。",
+          "原文‘騎龍地要斬脉成星處穴之起星體上露暈氣不在出脉地位謂之順龍對出脈畧偏些前去成亏脚者爲佳否則嫌墜脉之忠砂經 卷二’句读复杂。candidate将其拆解并加入‘这叫做顺龙’等连接，逻辑重组较多，可能偏离原意。‘顺龙’的定义在原文中可能仅指前文‘顺龙地’的情况，candidate将其与后文‘对出脉略偏’直接关联，有风险。",
+          "原文末尾‘砂經 卷二’是书名卷次，candidate未译出。"
+        ],
+        "uncertainty": [
+          "仰高之地",
+          "骑龙",
+          "仰天壶",
+          "弦廓",
+          "亏脚",
+          "坠脉之忠"
+        ]
+      },
+      {
+        "id": "book028-b000407-p000-8d65963d40",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘橫來天財貼春穴者亦名騎龍水從一而倒落甚貴下手麥聚此數樣穴乘風處多恐生氣散於外氣水乃通其龍身之氣穴下欲其交度最明關結甚重則穴氣可乘鑠化之間自有養陰之情不可不察’句读不明。candidate将其断为‘水从一侧倒落’、‘下手麦聚这类穴’，并将‘鑠化’处理为‘镕化’，这些断句和用词选择均属推测，未在释读中明确标注不确定性。应更保守地处理这些短语。"
+        ],
+        "uncertainty": [
+          "横来天财",
+          "春穴",
+          "下手麦聚",
+          "鑠化"
+        ]
+      },
+      {
+        "id": "book028-b000409-p000-82b30b8103",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘兀作穴處多是下手湾向穴傍所謂下手先到是也’中‘兀作穴’，candidate加引号处理正确，但‘下手’在风水中有特定含义（通常指穴场某侧），candidate未加引号或说明，可能被误读为普通词汇。",
+          "原文‘如俞獸之形多山抓砂經 卷’末尾‘砂經 卷’是书名，candidate未译出。且‘多山抓’释为‘多主‘山抓’’，但‘山抓’本身是opaque_term，candidate未将其置于引号内，处理不一致。"
+        ],
+        "uncertainty": [
+          "兀作穴",
+          "下手",
+          "俞兽",
+          "山抓"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2194,
+    "completion_tokens": 1082,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2194,
+      "completion_tokens": 1082,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

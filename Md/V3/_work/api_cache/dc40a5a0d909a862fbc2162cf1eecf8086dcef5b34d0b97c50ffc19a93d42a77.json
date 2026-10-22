@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-09-24T01:49:00.452775+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dc40a5a0d909a862fbc2162cf1eecf8086dcef5b34d0b97c50ffc19a93d42a77",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000114-p000-3b9e13684d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "擇日紀全的具体含义不明",
+          "数字1的指代不明"
+        ]
+      },
+      {
+        "id": "book006-b000116-p000-3fe080ed27",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "餘日上夫直至巳酉日起甲寅日止遷歸裏北方屬象在後的具体含义不明"
+        ]
+      },
+      {
+        "id": "book006-b000120-p000-99ae8d608a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "必掛細贏嫌的具体含义不明"
+        ]
+      },
+      {
+        "id": "book006-b000122-p000-7604b8e58d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的“擇日親全卷”是卷名标注，候选将其表述为“全书为《擇日親全卷》”属于无依据认定全书名称，原文仅出现该卷名标识，无法确认是否为全书名称"
+        ],
+        "uncertainty": [
+          "羞植的具体含义不明",
+          "丁不痢頭野必生瘡的具体含义不明",
+          "巳不破券二北並七真不經絡機織虛張的断句及含义不明",
+          "辛不合暫上人不嘗的具体含义不明",
+          "且不寇帶主不還鄉的具体含义不明",
+          "展不哭泣主必重喪中展的所指不明",
+          "酉不會客醉坐顛在的具体含义不明",
+          "戌不吃犬作怪上狀的具体含义不明",
+          "開嚴的具体含义不明",
+          "蒲可市肆服藥遭殃的具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2208,
+    "completion_tokens": 436,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2208,
+      "completion_tokens": 436,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

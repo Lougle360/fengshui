@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-23T07:33:33.610425+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "511d70ad9df96d207eebceccb6709c8d0f7dfc45b32c81860eb2ef177e67a192",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000063-p000-07b25009e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘陰龍入旨’，candidate译为‘阴龙入首’。‘旨’与‘首’字形相近，但此处应为OCR或原文错误，candidate直接修正为‘入首’而未标注，属于未保留原文用字或未说明修正。",
+          "原文‘是之謂陰陽史嫌言陰交于陽陽交于陰者尺經下’，candidate处理为‘文中提到‘是之謂陰陽史嫌言陰交于陽陽交于陰者’，其中‘史嫌’一词具体所指不详。’ 此处‘尺經下’三字被遗漏未译。",
+          "candidate末尾添加了‘卷之一，19。’作为页码标注，但原文‘卷之一 19’是正文的一部分，并非独立页码信息，candidate将其处理为独立标注，改变了原文的呈现方式。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000070-p000-0c1cbabcea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘帝莊午’，candidate译为‘帝旺于午’。‘莊’与‘旺’字形相近，candidate直接修正为‘帝旺’而未标注，属于未保留原文用字或未说明修正。",
+          "原文‘基于戌’，candidate译为‘墓于戌’。‘基’与‘墓’字形相近，candidate直接修正为‘墓’而未标注，属于未保留原文用字或未说明修正。",
+          "原文‘丙州乙交者’，candidate译为‘丙州乙交者’，并说明‘州’字原文如此，具体含义不详。此处处理正确，但后续‘乙木生于午沐洛巳冠帶辰帝旺卯臨官寅’中，‘沐洛’应为‘沐浴’，candidate译为‘沐浴’而未标注原文用字差异。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 482,
+    "cached_prompt_tokens": 0
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1173,
+      "completion_tokens": 482,
+      "cached_prompt_tokens": 0
+    }
+  ]
+}

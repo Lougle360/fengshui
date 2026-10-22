@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:53:27.573986+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "251249321aa7450b1b68dc4981493441ccded681f0a6887d4a556ac849cab190",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000926-p000-474c0f5ca3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中“辰未2,156”的逗号未明确是千位分隔符还是其他含义，释读时按数字处理未明确说明，存在歧义标注缺失问题"
+        ],
+        "uncertainty": [
+          "原文中“辰未2,156”的具体含义未明"
+        ]
+      },
+      {
+        "id": "book015-b000927-p000-43f24c7785",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000928-p000-ad4ada9964",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "术语“八卦”“先天”保留原词并按 allowed_glossary 标注；原文“邵雍”为专名保留原词；原文“声音学”为专名保留原词；原文“きわめて独創的である”译为“极具独创性”"
+        ]
+      },
+      {
+        "id": "book015-b000929-p000-170562baba",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文末尾“辰辰声の震四四(5”存在残缺，释读时未标注该残缺情况，且原文中“乾一(八)”“兌二(七)”等括号内数字的含义未明，释读时直接删除括号内容可能改变原义"
+        ],
+        "uncertainty": [
+          "原文末尾“辰辰声の震四四(5”残缺，具体内容不详；原文中“乾一(八)”“兌二(七)”等括号内数字的具体含义未明；“既済図”“原理図”“陽図”“陰図”“律声”“呂音”“唱和”“既済原理図”“内宮”“外宮”的具体所指均不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2580,
+    "completion_tokens": 471,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2580,
+      "completion_tokens": 471,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

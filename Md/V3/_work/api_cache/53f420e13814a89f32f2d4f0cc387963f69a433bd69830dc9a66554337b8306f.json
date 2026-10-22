@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:52:47.284459+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "53f420e13814a89f32f2d4f0cc387963f69a433bd69830dc9a66554337b8306f",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000917-p000-9c3c45193b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000918-p000-dc46fe8963",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "23为原文标注的注释序号，二十四節気即二十四节气"
+        ]
+      },
+      {
+        "id": "book015-b000920-p000-fca81a0fbe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“暦日”误写为“暦日”（应为“暦日”的简体“历日”），将原文中“前後の節気が「相接」する朔ないし十六日”误译为“位于前后の節気が「相接」する朔ないし十六日”，存在日文残留且语义表述不完整"
+        ],
+        "uncertainty": [
+          "1年、12月为释读时的假设，原文未明确对应关系"
+        ]
+      },
+      {
+        "id": "book015-b000921-p000-c8d02e1a7f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“未月の初・大暑坎(150)の六三・六四・九五・上六”等内容的断句及翻译存在错误，且将原文中“の九五・上六”的主语遗漏，同时将原文中“@戌月”的标记符号未按原文保留，存在修改原文标记的问题"
+        ],
+        "uncertainty": [
+          "原文中“@戌月”的标记符号不明确，无法确认其具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3564,
+    "completion_tokens": 405,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3564,
+      "completion_tokens": 405,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

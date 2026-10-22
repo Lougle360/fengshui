@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-24T13:23:34.080840+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c6343ba2b7a8fd1451fec7e3a3d5f8f75d1120faf31b3672c2b703d824edcb35",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000097-p000-247cc332ac",
+        "modern_text": "秦九韶将他的大衍术记载在《数书九章》卷1「大衍类」的「蓍卦发微」条目中。虽省略详细内容，但秦九韶的解法奇妙之处在于，它一方面是高度的整数论定理，另一方面又完全是独一无二的、其他地方找不到的易筮法的基本操作。也就是说，在上式中令m₁→1，m₂→1(2)，m₃→3，m₄→4，这就是秦九韶易筮法的要点，相当于进行以下操作：①将四十九根蓍草分成两手两份；②数取左手的蓍草，分别对应相关符号，求出各自的奇数(r₁, r₂, r₃, r₄)后归为扐；③将以上四个扐数分别乘以各自对应的用数，再将得到的数值相加；④从所得的和中减去衍母的倍数；⑤用衍法（三）除以上述得到的数值，根据商和余数的有无确定一爻的四象，等等，与操作筮竹的过程完全相同。正如清代焦循所指出的，秦九韶的筮法与《易·繋辞传》的经文一一对应，作为经义的解释也十分精妙。",
+        "confidence": "medium",
+        "uncertainty": [
+          "相关符号的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2237,
+    "completion_tokens": 339,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2237,
+      "completion_tokens": 339,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T13:26:18.452420+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6c0e5e880986d1393f7c8ee13d8f1b1eebd199de6f0529be7e317fa4a65d290f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003769-p000-66f0438555",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文的表格结构完全打乱，以叙述性文字概括，导致原文的图文对应关系、层级和并列关系完全丢失。原文是表格，包含多行多列，有明确的标题、诗句和注解，而候选句将其处理为一段连续的描述，这是严重的格式误读。",
+          "候选句将原文中明确为诗句的部分（“诗曰”之后的内容）也混入叙述，未作区分。",
+          "候选句对原文中多处文字讹误（如“AAEEXE”、“纏电d”）的处理方式（仅指出是讹误）可以接受，但整体上因格式处理不当，导致信息呈现不准确。",
+          "候选句对原文中“偏纤補出”、“玉殿奏事一練”、“玉階游二”等短语的处理（指出“具体所指不详”）符合要求，但因其整体结构错误，这些细节的定位也已失真。",
+          "候选句末尾“若将此龙用于家宅，则主孤无子及有名望巫儿”一句，原文为“也用之于家則主孤無子及有名望巫兒”，候选句翻译准确，但同样因整体结构问题，其上下文已不准确。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2122,
+    "completion_tokens": 302,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2122,
+      "completion_tokens": 302,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

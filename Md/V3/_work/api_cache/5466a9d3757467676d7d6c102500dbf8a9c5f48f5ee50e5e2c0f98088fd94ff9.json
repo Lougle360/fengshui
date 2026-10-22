@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:12:29.009180+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5466a9d3757467676d7d6c102500dbf8a9c5f48f5ee50e5e2c0f98088fd94ff9",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000591-p000-99ba9e5e6e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "并进行了剰余定理的解法。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000592-p000-37dcdd6e6f",
+        "language": "japanese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 2.4 元数与定母",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000593-p000-628dce9b55",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "本节的课题是一般合同题中秦九韶对定母的确定方法。定母的求法实质上相当于素因数分解，但秦九韶的技法并非没有不够准确的地方。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000594-p000-beeefa2e79",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "追溯秦九韶的考察过程，首先将连立合同题的一组法（诸问数）分为“元数”“收数”“通数”“复数”四类。元数指自然数（谓尾位见单零者），收数指诸法中包含小数的情况（谓尾位见分厘者），通数指诸法中存在分数的情况（谓诸数各有分子母者），复数指N×10^n^O^（谓尾位见十或百及千以上者）。不过即便说是小数或分数，只要调整未知数的位阶，就可以将法与余数都化为整数，因此收数与通数这两类从技法上来说原本并无必要。作为运算而言",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在公式符号及未明确含义的标注，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1793,
+    "completion_tokens": 528,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1793,
+      "completion_tokens": 528,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

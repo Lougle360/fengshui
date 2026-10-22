@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-09-24T21:44:02.036578+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f7c5cfcde119ab0dfb01e39bb22e21378b4419538f27af0864598ebe3c44a394",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000438-p000-fa4dd93b29",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文文字错乱，无法确认其具体含义"
+        ]
+      },
+      {
+        "id": "book017-b000440-p000-45f7850ff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“城L門”“淫玫諾”“男說”均为OCR识别乱码，无法确认其含义",
+          "“青書與語”“九三”“中州法玄空學今學例”相关内容因原文乱码无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 947,
+    "completion_tokens": 217,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 947,
+      "completion_tokens": 217,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

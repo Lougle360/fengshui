@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:35:39.243400+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "68339af7759bf2700b2d10ba7e0323bc8252ccf892d747f5cc02c8d3da3a8c66",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001112-p000-6188be8fa5",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR错乱，“位正 译文”部分疑为排版错误，无法准确释读，候选释读遗漏了原文提及的“九五”相关内容，且因原文排版错乱导致释读依据不足"
+        ],
+        "uncertainty": [
+          "原文存在OCR错乱，“位正 译文”部分疑为排版错误，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 812,
+    "completion_tokens": 122,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 812,
+      "completion_tokens": 122,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

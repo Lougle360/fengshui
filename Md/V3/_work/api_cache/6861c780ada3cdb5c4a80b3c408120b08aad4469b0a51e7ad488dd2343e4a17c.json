@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:06:07.215082+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6861c780ada3cdb5c4a80b3c408120b08aad4469b0a51e7ad488dd2343e4a17c",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000353-p000-6bfb4d50b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000354-p000-bdaf041b06",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的“局四”含义不明"
+        ]
+      },
+      {
+        "id": "book014-b000355-p000-3d87a713ca",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“不正当破城方好”语义含混，未明确原文含义；“尝修”“当胁”等术语未按要求保留或明确标注为含义不明，存在误释风险"
+        ],
+        "uncertainty": [
+          "原文中“破城”“尝修”“当胁”等术语含义不明"
+        ]
+      },
+      {
+        "id": "book014-b000356-p000-1e63f33b50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1438,
+    "completion_tokens": 297,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1438,
+      "completion_tokens": 297,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

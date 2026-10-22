@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-15T04:44:00.034082+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f12a9f3c1a54020443b8113db5fa93d69a62b4f7ff77fcd923ec25eb5856e3be",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001157-p000-c2c40c5ec1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘主富貴變全’被译为‘主富贵不全’，意思完全相反。原文‘前腎論聚講過峽于始究禽星獸躍于于則穴之情狀皆可全如信乎地理之有衛也’被处理为‘原文语句错乱，具体所指不详’，但candidate在复述时仍保留了‘前文关于聚气、过峡的论述已有所涉及’的推测性解释，这与‘具体所指不详’的标注矛盾，且‘聚气’是增译。原文‘粗局則穴亦祖’被译为‘粗局，穴也粗局’，‘祖’字未译出或说明。原文‘其數亦與穴數仃同’被译为‘其数量也与穴的数量相同’，‘仃’字未处理或说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001162-p000-700c1d4e53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘萬斷絲連止好專’被译为‘万断丝连，只要专一就好’，‘止’字未译出或说明。原文‘退卸愈多有力博龍失脈失踪時地上朱琴背覓側身龍格隱復見脈上行時見’被处理为‘原文语句错乱，具体所指不详’，但candidate在复述时仍保留了‘退卸的层次越多越有力’的推测性解释，这与‘具体所指不详’的标注矛盾。原文‘第九變日平而餘入變多有落在平陽者’被译为‘第九种变化，日平而余入变，大多落在平阳地带’，‘日平而餘入變’应作为opaque term处理，不应直接写入释读句。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1412,
+    "completion_tokens": 427,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1412,
+      "completion_tokens": 427,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

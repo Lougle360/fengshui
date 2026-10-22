@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-26T11:54:05.065680+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-mini-260428",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "904521c67070df55ec9a5d3d1d598c83c8a099f060036e9c2a5166b2ecf19395",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000349-p000-0c37679ceb",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate未保留原文中‘武曲山高水又长’的‘又’字，表述与原文有出入；candidate将‘王陵三代为名将’的‘王陵’泛化为‘王陵三代都担任名将’，改变了原文指代的特定历史人物相关的表述；candidate未明确‘兑’为八卦的属性，且未准确对应原文‘丁山兑水长’的‘水’的风水语境含义；current更完整保留原文核心信息，且对专业术语的解释符合给定规则，表述更贴合原文的风水语境"
+        ],
+        "uncertainty": [
+          "无"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 592,
+    "completion_tokens": 181,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 592,
+      "completion_tokens": 181,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

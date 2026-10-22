@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T20:47:15.317009+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3f9c41c15931aadf5c7e92aa860151e3b485656190107252a5707bd218746ca7",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001566-p000-723e98868e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001567-p000-7de6525f12",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "除标注的数字外，其余内容均为识别错乱字符，无法确认具体含义"
+        ]
+      },
+      {
+        "id": "book029-b001568-p000-c663f3b83c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“郎將虎貴居左右常陳即位居其後”被错误断句释读为“幸臣、太子、从官、乌列、帝后、定郎将、虎贵分别在帝座左右”，漏译“乌列帝后从东定”的语序含义，且自行拆分组合原文表述；原文“三箇灵蘆候雲兩少徵四星西角隅”被错误断句为“有三颗灵芦星，候云的有两颗”，语序和表述逻辑不符合原文；原文“常陳七星不相誤”释读为“常陈七星位置不能弄错”含义偏差，原文是指常陈由七颗星组成、数量/排布无误；allowed_glossary中“明堂”的释义属于风水术语，但该段原文为天文星占语境的明堂星官，误用风水领域释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001569-p000-20c3576ff2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001570-p000-00d049a354",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“以帛度兩星屠肆前”被错误释读为“也依帛度排列，两颗星是屠肆”，断句和含义错误；原文“四箇做茫宦者星”“三无之象”“水火木土并金星”未准确释读，“做茫”为原文未识别清晰内容，不应直接保留；allowed_glossary中“水”的风水语境释义与该段天文星占语境的“水星”不符，误用释义；原文“天紀却似七公形数着分明多兩星”释读为“数量分明，还有两颗星”含义错误，原文指天纪星形状像七公但数量比七公多两颗"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001571-p000-6744be65b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001572-p000-3069b6d574",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001573-p000-d58991f52e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“而為吉山志水得之者”被错误断句为“其精气降于地则为吉，山志水得此精气者”，含义偏差，原文应为“精气降于地成为吉山秀水（“志”应为“秀”的识别讹误），得到这样地理条件的人”；allowed_glossary中“水”的风水释义此处可以适用，但断句错误导致语义不通"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001575-p000-e31a194f19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“下長七寸四八轄”被错误断句为“下部长七寸四，辖木口直径三寸七分”，“七寸四八”是完整长度表述，不应拆分；原文“足底通自竅”的“自”应为“开”的识别讹误，释读为“通窍”正确但未标注“自”为识别讹字；原文“包轉間”应为“包浆”相关的识别讹误，直接保留“包转”未作说明，读者无法理解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001576-p000-2d46ba1ca0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“大素頼从谦赞”具体所指不详，未明确是人名、书名还是其他表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2770,
+    "completion_tokens": 1167,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2770,
+      "completion_tokens": 1167,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

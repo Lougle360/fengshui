@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T15:30:32.177564+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bbfc718b0c9d05f60f1e74eacca2a6af812996d0a0163cca7ec19fcbd0db9de6",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000569-p000-9261387e6f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "此处是残句，仅能根据“谓也”的常规古文用法判断含义"
+        ]
+      },
+      {
+        "id": "book026-b000571-p000-b7407f8199",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000572-p000-a61b20f686",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文漫漶错乱，无可靠释读依据"
+        ]
+      },
+      {
+        "id": "book026-b000573-p000-e0a08febe5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“右段”是古代竖排文本指上文（右侧）的段落，而非“右侧段落”；“形勢”属于风水专业语境，此处释为“地势形态”不准确，应为“地形地势格局态势”；“宜審可”后续内容即已开始错乱，candidate将“可 大 牛長用百 可尋”列为后续错乱内容，误将“可”字归为可读的开头部分"
+        ],
+        "uncertainty": [
+          "除“右段論形勢宜審”外其余内容均错乱不可识，无可靠释读依据"
+        ]
+      },
+      {
+        "id": "book026-b000578-p000-0c11189d64",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "后半段内容识别错乱，无可靠释读依据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1484,
+    "completion_tokens": 418,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1484,
+      "completion_tokens": 418,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

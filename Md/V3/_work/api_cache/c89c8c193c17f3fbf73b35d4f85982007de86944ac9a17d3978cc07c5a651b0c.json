@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-18T07:14:29.030293+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c89c8c193c17f3fbf73b35d4f85982007de86944ac9a17d3978cc07c5a651b0c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005820-p000-50b7b0666d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容概括为一段描述性文字，但未提供逐项核对。根据指令，对于表格类内容，应逐项核对，而非进行整体性摘要。候选句遗漏了大量具体信息，如表格中具体的干支组合、五行属性、生克关系、数字序列、星宿名和吉凶断语的具体排列位置和对应关系。",
+          "候选句将表格内容解释为“以‘巽’为关键方位，结合‘水’的形态与流向”，但原文表格中并未明确表述这种逻辑关系，这属于无依据的扩写和解释。",
+          "候选句提到“部分文字因 OCR 识别问题存在残缺或乱码”，但根据指令，审校员只负责判错，不能自行判断OCR问题。原文中如“E 土”、“叉义叉水又叉叉又叉义金叉叉又叉叉火叉义叉义叉土叉叉义叉叉本叉义叉又义又金叉叉叉又火叉义义叉义叉本土土”等，应视为原文的一部分，候选句将其标注为“乱码”并称“无法确认具体含义”是合理的风险标注，但整体上候选句未能忠实呈现表格的结构和数据。",
+          "候选句的表述方式（如“本表出自...”、“整体而言，此表用于...”）不符合对表格内容进行逐项核对的审校要求，而是进行了整体性解读和概括，这属于增译和改写。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3223,
+    "completion_tokens": 364,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3223,
+      "completion_tokens": 364,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

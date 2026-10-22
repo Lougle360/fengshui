@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-26T13:13:05.403551+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1b836dedab26c82d1e4aa4711de728a2678f33edb381652aa94b05c9d9d0241d",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000733-p000-00b7beb1ca",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "candidate存在多处无原文依据的增删与擅改：1. 原文‘圜中无去去之心’被改为‘环绕的范围之内没有流散的趋势’，替换了原文表述；2. 原文‘暖气如春震巽，荣华土中一定’被改为‘暖气如同春日一般，文中在此处提到震、巽，荣华在土中注定稳固’，对原文句读做了无依据拆分并添加额外说明；3. 原文‘马迹渡江河，岂是窝中之突’被改为‘文中提到“马迹渡江河”，这一表述具体所指不详’，擅自增加存疑说明且未准确翻译原句；4. 原文‘立穴安坟，岂宜取用’被改为反问句表述，改变了原文语气；5. 对‘左右气曜’‘随身金鱼之水’等术语加引号，以及额外添加‘文中提到’类说明不符合保守翻译要求，同时current版无错误，两版各有特点，无法判定candidate更优"
+        ]
+      },
+      {
+        "id": "book001-b000734-p000-57506f5dee",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate存在错误增改：1. 原文‘左反长，男必败；右反小，男必亡。当面反中，男必绝’被擅自添加‘这里的长、小、中具体所指不详’的无依据存疑说明；2. 原文未提及‘随龙水’‘拱揖水’等‘水’的后缀命名，属于无依据添加术语表述；3. 对‘石陇’‘之元’等加引号，添加‘墓穴的主水’等额外解释不符合保守要求。current版严格贴合原文表述，无错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000735-p000-15cae06d8d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "candidate准确贴合原文含义，对风水术语的表述符合规范，解释清晰且未篡改原文内容、专业术语、五行生克规则等核心信息，语句通顺，比current版更准确严谨，可直接出版"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6518,
+    "completion_tokens": 579,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6518,
+      "completion_tokens": 579,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

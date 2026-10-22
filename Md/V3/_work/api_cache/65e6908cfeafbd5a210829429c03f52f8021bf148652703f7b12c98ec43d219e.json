@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-04T03:29:15.318866+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "65e6908cfeafbd5a210829429c03f52f8021bf148652703f7b12c98ec43d219e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000398-p000-4a6227ca29",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘八門缺八風吹朱門餓芳莩日騰漏這穴敗郭之藏也主出餓革’中‘朱門餓芳莩’、‘日騰漏’、‘餓革’等词句含义不明，candidate将其释读为‘导致富贵人家饿死，贫苦人家日渐衰败’、‘穴场败坏、郭城藏气不固’、‘主出饿殍’，属于将不确定的推测写成了确定事实，且‘郭城藏气不固’为无依据扩写。",
+          "原文‘四水歸四獸聚白屋公卿四冬歸聚’中‘四冬歸聚’含义不明，candidate释为‘四季水气归聚于此’，属于将不确定的推测写成了确定事实。",
+          "原文‘見之尤連’含义不明，candidate释为‘见到这种情形尤为吉利，连绵不断’，属于将不确定的推测写成了确定事实。",
+          "原文‘突中之窟須扦窟中之突莫弃徐試可曰廖公以在爲陽窟爲陰突扦窟者陽含陰也窟尋突’中‘徐試可曰’人名，candidate释为‘徐氏试可说’，将‘试可’作为人名的一部分处理，但原文‘试可’可能为‘试可曰’（尝试可以说），存在歧义，candidate将其作为确定人名处理，不妥。",
+          "原文‘穹源千仞水如平地一堆山水初發處曰穹源八尺曰仞紀谷雖秀山千仞總不如平洋一堆之貴者盡山谷正發友之初其氣正盛即涌起高峰不難也平地氣已平伏此’中‘紀谷雖秀’含义不明，candidate保留‘纪谷虽秀’，但未说明其不确定性。‘正發友之初’可能为‘正發育之初’的讹误，candidate未处理此讹误，直接释读为‘正发之初’，虽可接受但未标注不确定性。",
+          "原文‘外聳千里不若彎弓一抱徐氏曰外鎖雖多遠而不近弩弓一抱貼身入懷近而易發所以可貴’中‘外鎖’含义不明，candidate保留‘外锁’并解释为‘外锁虽多，远而不近’，属于将不确定的推测写成了确定事实。",
+          "candidate末尾补充了‘文中提到四水归聚于‘明堂’……杨公云时人对此议论纷纷。’这段解释在source对应部分（‘于明堂四獸護衛雖非宮族頓出公卿楊公雲時人不議’）并未明确提及‘议论纷纷’，‘时人不议’可能意为‘时人不识’或‘时人不议论’，candidate的‘议论纷纷’属于无依据扩写。且此段解释将原文分散的语句整合并补充了连接，改变了原文的表述结构，有增译之嫌。"
+        ],
+        "uncertainty": [
+          "‘朱門餓芳莩’、‘日騰漏’、‘餓革’、‘四冬歸聚’、‘見之尤連’、‘紀谷雖秀’、‘外鎖’等词句具体含义不详。",
+          "‘徐試可曰’中‘试可’的解读存在歧义。",
+          "‘正發友之初’可能为讹误。",
+          "‘时人不议’的具体含义不确定。"
+        ]
+      },
+      {
+        "id": "book035-b000399-p000-4385bf9dea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000400-p000-dd2fef501c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000401-p000-60b1aa6a47",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000402-p000-1aac7f22bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000403-p000-9ccd6e2bc9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘在先后患故發此語’语意不明，candidate释为‘在先后患故，发此语’，保留了原文的模糊性，但未明确标注其不确定性。按照V3目标，对于含混短语，candidate应保留原短语并明确说‘具体所指不详’或‘原文未明’。此处candidate虽未增译，但未进行风险标注。"
+        ],
+        "uncertainty": [
+          "‘在先后患故’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000404-p000-a6426d7fba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000405-p000-d9d20cfcc5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000407-p000-16bac6b817",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000409-p000-4a8af53cdf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘山頭向外謂之離鄉砂左邊’在‘左边’后似有缺文或结束，candidate释为‘山头向外谓之离乡砂，左边。’，保留了‘左边’但未说明其后文可能缺失或含义不完整，未进行风险标注。"
+        ],
+        "uncertainty": [
+          "‘左边’后似有缺文，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3291,
+    "completion_tokens": 1272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3291,
+      "completion_tokens": 1272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

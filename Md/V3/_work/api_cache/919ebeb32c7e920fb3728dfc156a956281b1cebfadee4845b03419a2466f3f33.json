@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-18T11:27:32.453118+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "919ebeb32c7e920fb3728dfc156a956281b1cebfadee4845b03419a2466f3f33",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006316-p000-0e7b447250",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "離幫的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b006317-p000-325bf63063",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "丁与柳土獐的关系",
+          "丁的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b006321-p000-b34caf70b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘戍子火穴分在坎宮逢水火固不相入然火胎于子巳有欲生之意是爲九八中之胎氣對宮得戍 午火向火入火宮逢旺是乃火旺之地火穴火向爲比和所喜者火向旺在午宮爲得勢是爲九八’中，‘戍’字出现两次，candidate将第一个‘戍’释为‘戍子火穴’的一部分，将第二个‘对宫得戍’释为‘对宫得到‘戍’’，但未说明‘戍’在此处的具体所指或作用，存在漏译。此外，candidate将‘巳有欲生之意’的‘巳’释为‘已经’，但此处‘巳’更可能为‘已’的异体或通假，释读为‘已’更稳妥。‘九八’在candidate中被直接当作范畴使用，未解释其具体含义，属于opaque_terms，应保留其不明确性，但candidate未明确标注其含义不详。"
+        ],
+        "uncertainty": [
+          "戍与戌的字形差异是否影响原意",
+          "九八的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b006323-p000-3dd5740f71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "危月燕的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b006325-p000-822917de6a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "癸女土蝠的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 454,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1326,
+      "completion_tokens": 454,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

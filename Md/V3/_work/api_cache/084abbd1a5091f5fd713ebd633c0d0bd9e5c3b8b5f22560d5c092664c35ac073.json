@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-25T20:56:58.840346+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "084abbd1a5091f5fd713ebd633c0d0bd9e5c3b8b5f22560d5c092664c35ac073",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001597-p000-18ed74f3d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001601-p000-1d12896696",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文仅存“章く”，日文假名“く”表意不明，此处暂保留“章”"
+        ]
+      },
+      {
+        "id": "book029-b001603-p000-7547710886",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“星有美思”被误译为“天星有美恶之分”，“美思”无依据改为“美恶”，属于术语误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001605-p000-6c6a6c7b4c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“曠数”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001606-p000-1e68b4519e",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“千不十而八方不二十六而回者何”存在讹误，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2514,
+    "completion_tokens": 450,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2514,
+      "completion_tokens": 450,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

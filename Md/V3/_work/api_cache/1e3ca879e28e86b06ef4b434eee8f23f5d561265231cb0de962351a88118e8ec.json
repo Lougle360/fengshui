@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-18T09:22:19.825933+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1e3ca879e28e86b06ef4b434eee8f23f5d561265231cb0de962351a88118e8ec",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006061-p000-e24b475f1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006062-p000-c222dc10ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘去主登科’中的‘去’字未译出，可能指气脉离去或朝向，漏译。",
+          "原文‘角木度中來凶去半吉不可直射大凶’中‘去半吉’被译为‘去半吉’，未解释‘去’的含义，且‘不可直射’的‘直射’未译，仅重复‘不可直射’，不符合白话释读要求。",
+          "原文‘亢氐火度中來去先富貴’中‘來去’被译为‘而来去’，未解释其含义，仅重复原文。",
+          "原文‘箕一至斗十八度中去出大官’中‘中去’被译为‘中去’，未解释其含义，仅重复原文。",
+          "原文多处‘利坐’、‘忌坐’、‘坐’等，candidate统一译为‘坐守’、‘坐’，但‘坐’在风水中常指穴位所在或坐山朝向，此处释读为‘人丁坐守’或‘坐’略显模糊，但鉴于术语允许保留，且上下文有‘穴’字，可接受。但‘坐’的重复使用未做白话处理，如‘若坐奎宿九度至十二度’可优化为更流畅的句子。不过此非硬性错误，主要问题在于‘去’字漏译和‘直射’未释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006063-p000-655fb2a915",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘戌 八 申 八 八世 午 辰 八 寅 八 應 子 八’是纳甲排盘，candidate译为‘世爻在戌，数为八；应爻在申，数为八；世爻在午，数为八；世爻在辰，数为八；世爻在寅，数为八；应爻在子，数为八。’将‘八世’拆解为‘世爻在午，数为八’可能错误，原文‘八世’可能指世爻在第八爻位或其他含义，此处释读为确定事实，缺乏依据。",
+          "原文‘乙 丙 丁 才 官 子 才 兄 父’是六亲排列，candidate译为‘乙、丙、丁分别对应才、官、子、才、兄、父。’但原文是三个天干对应六个六亲，对应关系不明确，candidate的‘分别对应’将不确定关系写为确定，属于无依据扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006064-p000-d1ff7daf9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006065-p000-c7660c16a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006066-p000-90f4dda732",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘必王后代’中的‘王’字，candidate保留为‘王’，但可能是‘主’或‘旺’的讹字，此处应标注不确定性，而非直接照写。",
+          "原文‘流祥纵吉’中的‘流祥’，candidate保留为‘流祥’，未做任何解释或标注，属于未转换的含混术语，应放在引号内或说明含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006067-p000-df6dfd7722",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006068-p000-3bd400217f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘乙一丙二丁三兄 子 才 兄 官 才’排列简略，对应关系不明，candidate已标注不确定性，可接受。"
+        ]
+      },
+      {
+        "id": "book035-b006069-p000-511caa04ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘主官職高墜極品’中的‘高墜’，candidate译为‘高坠’，但‘坠’通常有下落之意，可能与‘陟’（晋升）形似而讹。此处直接保留‘高坠’可能造成反义或误解，应标注不确定性。",
+          "原文‘長平平’含义不明，candidate保留为‘长平平’，未做解释或标注，属于未转换的含混短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006070-p000-4daa66c308",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3450,
+    "completion_tokens": 1178,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3450,
+      "completion_tokens": 1178,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

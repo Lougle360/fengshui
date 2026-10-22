@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:50:06.135066+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "52b394338109c58b3b53e83733abd242c1527100d211b33ea50eda829dccc72e",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000399-p000-682d1f74ac",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文残缺错漏的内容进行了主观补全，如‘若反跳，则山会被水冲蚀’‘若反向环抱，则水势虚空’，原文未明确表述此类含义，属于无依据扩写；未严格遵循原文断句残缺的情况，擅自补充了原文不存在的逻辑关联"
+        ],
+        "uncertainty": [
+          "原文存在多处断句残缺、错漏，具体残缺情况需结合原文语境进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 140,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 942,
+      "completion_tokens": 140,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

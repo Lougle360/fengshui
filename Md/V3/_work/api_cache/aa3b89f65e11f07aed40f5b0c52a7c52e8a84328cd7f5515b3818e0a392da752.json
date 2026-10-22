@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-24T23:49:10.452893+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aa3b89f65e11f07aed40f5b0c52a7c52e8a84328cd7f5515b3818e0a392da752",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001328-p000-bea5672921",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“信之而去”被误译为“顺直地流去”，“信”此处无“顺直”的确定释义，属于无依据增译；原文“專輛未往”被误译为“还没通行”，“未往”并非“未通行”的含义，属于语义误读；原文“每停留此即外砂揖水朝之路”被拆译为“‘胡賓男’常常停留在此处，这就是外砂揖水朝的路径”，主语归属错误，原文未明确停留的主体是“胡賓男”，属于无依据认定"
+        ],
+        "uncertainty": [
+          "總吾",
+          "樸面望胸射勝割朋",
+          "天橋專輛",
+          "胡賓男"
+        ]
+      },
+      {
+        "id": "book017-b001329-p000-e79842ad6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "寶申巳亥互去",
+          "乙了"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 285,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1024,
+      "completion_tokens": 285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

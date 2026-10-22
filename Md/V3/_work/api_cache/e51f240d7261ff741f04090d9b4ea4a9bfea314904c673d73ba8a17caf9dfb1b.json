@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:18:53.493838+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e51f240d7261ff741f04090d9b4ea4a9bfea314904c673d73ba8a17caf9dfb1b",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000609-p000-8cd61e6a5b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在残缺，‘真如有真案’‘真而不奠’语义不明，候选释读将残缺内容补全为‘就算是真穴也无法安定’属于无依据扩写，不符合要求"
+        ],
+        "uncertainty": [
+          "原文‘真如有真案’‘真而不奠’表述残缺，语义不够明确"
+        ]
+      },
+      {
+        "id": "book014-b000610-p000-7140e89fb9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在残缺，‘真乃黃凡’‘真而不’语义不明，候选释读将残缺内容补全为‘就算是真穴也无法……’属于无依据扩写，不符合要求"
+        ],
+        "uncertainty": [
+          "原文‘真乃黃凡’‘真而不’表述存在残缺，语义不够明确"
+        ]
+      },
+      {
+        "id": "book014-b000611-p000-b5c88d014c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处残缺，‘真城眞乃眞適當破城真而不真’‘真水眞乃其水不合或而不真’语义不明，候选释读将残缺内容补全为‘否则就算是真穴也无法……’‘就算是真穴也不算真’属于无依据扩写，不符合要求"
+        ],
+        "uncertainty": [
+          "原文‘真城眞乃眞適當破城真而不真’‘真水眞乃其水不合或而不真’表述存在残缺，语义不够明确"
+        ]
+      },
+      {
+        "id": "book014-b000613-p000-e49ef46d6d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1503,
+    "completion_tokens": 440,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1503,
+      "completion_tokens": 440,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

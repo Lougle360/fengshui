@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T05:46:00.532077+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cbae15485f0a7f6a60816119c9cb202c722f0b3007939eda2fba232dce090276",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000125-p000-913ded144a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source首句为“巳日门亥为朱雀、龙头，父命座，犯者害命坐人”，candidate漏译“父命座”核心信息，且将“害命坐人”误释为“会导致命主被害、家人死亡”，原义为伤害命坐之人，不应扩大为家人死亡；source“七月丁壬日修，三月亦通，宫羽姓不宜三月，七月即吉日丑为官狱”断句错误，candidate误将“丑”归入上句括号注文，实际“丑”是下一段开篇的地支主体，应拆分处理；source“鬼门宅壅气缺薄空荒吉”，candidate误释为“鬼门宅适宜壅气缺薄、空荒之地”，原义为鬼门宅所在处壅气、缺薄、空荒才吉，并非“适宜在这类地建宅”；source“宜壮实，修改吉”，candidate误释为“修建宅极应当让宅屋壮实，修改吉利”，原义是宅极本身宜建得壮实，修缮修改为吉，不应加“想要获得官职”的前提关联；source“唯用功多良”，candidate误释为“只有用功多才吉利”，“良”指效果好，并非“吉利”；source“〔修己已同午，吉昌之地，龙左足〕”断句错误，candidate误将“午”归入上句括号注文，实际“午”是下一段开篇的地支主体，应拆分处理"
+        ],
+        "uncertainty": [
+          "原文中部分干支、方位对应的具体灾煞细节存在模糊之处，已按原文保守表述改写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2954,
+    "completion_tokens": 411,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2954,
+      "completion_tokens": 411,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

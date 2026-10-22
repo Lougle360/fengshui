@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-26T06:55:00.056897+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "abd8925270ca7c45028af132b08625c9e8770cb8d05e2acb51f12b2ced9b4017",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000003-p000-221d36fd17",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000004-p000-1f34d294a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文将《三白宝海》误写为《二白宝海》，需修正书名；原文“三白寶海卷”是卷上的标识，释读误将“自太歲巡山羅曠 既和論”合并为“自太岁巡山罗旷既和论”，拆分错误；“圆圆图”是原文“弔白圓圗”的正常转写，无需怀疑为讹误，释读无端加疑似讹误标注"
+        ],
+        "uncertainty": [
+          "“九局乎原谕”中“乎原”疑似讹误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book034-b000005-p000-492059b95b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“月白起例井國”“白中有殺并國”中“井國”“并國”疑似“并圖”讹误",
+          "“三元與廢斷訣”中“與廢”疑似“興廢”讹误"
+        ]
+      },
+      {
+        "id": "book034-b000006-p000-ec02620572",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“應區不而”为讹误，具体含义不详"
+        ]
+      },
+      {
+        "id": "book034-b000007-p000-ac59f550a9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“王众关次、养先、免川三”为OCR讹误，具体所指不详",
+          "原文表格结构混乱，部分内容对应关系已据文义调整"
+        ]
+      },
+      {
+        "id": "book034-b000010-p000-395f4a4e22",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蔭穉”没有权威释义，释读将其直接释为“阴气初生”属于无依据确定含义，不符合术语使用规则"
+        ],
+        "uncertainty": [
+          "“蔭穉”具体所指不详"
+        ]
+      },
+      {
+        "id": "book034-b000012-p000-e37e750941",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“地數二”后内容有缺漏，后续地数总和无可靠依据补充"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5803,
+    "completion_tokens": 641,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5803,
+      "completion_tokens": 641,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

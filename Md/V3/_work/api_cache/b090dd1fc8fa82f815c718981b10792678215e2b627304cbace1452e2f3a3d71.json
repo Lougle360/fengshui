@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-09-25T12:45:14.239435+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b090dd1fc8fa82f815c718981b10792678215e2b627304cbace1452e2f3a3d71",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000089-p000-aa965621df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文含有的“朱子”二字未译出；原文提及“山有宗、水有祖”的内容，候选错误简化为“水有本宗”；原文“本異有止，支分汨本，又同也”等表述对应逻辑梳理无依据，将不确定的原文语序推导内容直接作为确定释读，未按要求标注含混处的原文不确定性",
+          "locked术语“穴”未按照allowed_glossary明确对应风水语境的气脉聚结位置，仅泛称为“穴”"
+        ],
+        "uncertainty": [
+          "雨根、达流所指不明确，原文部分语句语序凌乱，释义为结合语境梳理所得"
+        ]
+      },
+      {
+        "id": "book026-b000090-p000-e396561cf3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000091-p000-c25cd5a5a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序散乱、大量内容缺漏难以识读，候选将“价堂、三六朝属、王水、先柏导东”等无法确定的内容直接作为明确释义表述，未标注为不详或存疑；“明堂的穴前方”表述不符合术语逻辑，应为“穴前的明堂”；“水势如同王水1”属于无依据释读"
+        ],
+        "uncertainty": [
+          "价堂、三六朝属、王水、先柏导东具体所指不明，原文语序散乱，多处内容无法准确识别"
+        ]
+      },
+      {
+        "id": "book026-b000092-p000-f807548c80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的“+日”含义不明"
+        ]
+      },
+      {
+        "id": "book026-b000093-p000-f226b1b9f4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其十人物象塞鸞”属于字迹模糊无法识读内容，候选强行释读为“其中的人物、物象必定会阻滞，鸾鸟之形”属于无依据增译；“閒寶者”错误释读为“闲砂”，无依据"
+        ],
+        "uncertainty": [
+          "原文多处字迹模糊，部分语句含义难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000094-p000-10e081379e",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文OCR识别结果混乱，无有效可读语境，候选释读无依据"
+        ],
+        "uncertainty": [
+          "原文字迹模糊，语句含义难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000095-p000-d922370c0c",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文严重残缺模糊，无有效可读逻辑，候选释读无依据"
+        ],
+        "uncertainty": [
+          "原文字迹模糊，多处语句残缺，含义难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000096-p000-e23264db82",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多处“六”字明显是字迹模糊或识别错误，候选直接释读为“六”属于无依据，应标注为识读存疑；原文“水口紫關”未释读直接跳转为“水口是水与血相合之处”，漏译且逻辑断裂；“纯路上的小水”属于无依据释读，原文“純路”识读存疑"
+        ],
+        "uncertainty": [
+          "原文多处字迹模糊，“六”“纯路”等内容识读存疑，部分语句断句及含义难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000097-p000-4c591a8292",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000098-p000-e6bcd807c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2725,
+    "completion_tokens": 1071,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2725,
+      "completion_tokens": 1071,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

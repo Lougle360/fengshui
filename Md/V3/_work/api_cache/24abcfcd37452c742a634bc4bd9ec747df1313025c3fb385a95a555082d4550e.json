@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:58:43.832318+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "24abcfcd37452c742a634bc4bd9ec747df1313025c3fb385a95a555082d4550e",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000454-p000-69cb349fcd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将风水语境中‘水’的含义误释为普通的‘水’，未使用allowed_glossary中规定的风水语境释义；‘山上止山’的释读不符合原文语义，原文‘山上止山’应为风水语境中山势的表述，释读为‘山上的山会停止’属于无依据扩写，改变了原文含义；‘水会在水中形成形态’语义不通，属于错误释读，且未明确标注原文残缺的具体位置，不符合要求"
+        ],
+        "uncertainty": [
+          "原文后半段语义衔接不畅，无法形成完整通顺的表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 836,
+    "completion_tokens": 172,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 836,
+      "completion_tokens": 172,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

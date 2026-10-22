@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T17:45:50.553392+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e6c7baf1d602da2e09092257adb62a77438d75811436d92f1f0f7a363298e0d7",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000857-p000-426aaeed95",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文拆分断句与含义对应错误：原文“倒宮木星緊狹員橫木勢垂聞斧安”“倒地木體不全員勢歸一頭看其負垂處就頁處扦之”未提及“闻斧木”这类独立木形，候选将“闻斧”误释为专门的木类名称，属于无依据增译；原文“聞斧安”“頁處”均未做合理标注，候选直接将“頁處”按语境调整为“合适位置”，未明确标注该处理属于推测，不符合含混内容的标注要求"
+        ],
+        "uncertainty": [
+          "原文“聞斧安”“頁處”表述模糊，具体含义无从考证"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 720,
+    "completion_tokens": 197,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 720,
+      "completion_tokens": 197,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

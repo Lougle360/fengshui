@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T08:59:42.643943+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "02da69770a9c19b23856d5ca29e9b4d8a66250595217488d46118765da456d86",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000109-p000-d7e539f307",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的专名如‘等孔曜’‘回燥火’‘宝元’‘典开’‘蕴天机’‘亦有奕世産英雄 萬亦有據’等赋予了确定含义，违反了对含混专名不得认定为确定解释的规则；部分语句逻辑混乱，如‘亦有奕世産英雄 萬亦有據’的释读不符合原文语境，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘等孔曜’具体所指不详",
+          "‘回燥火’具体所指不详",
+          "‘宝元’具体所指不详",
+          "‘典开’具体所指不详",
+          "‘蕴天机’具体所指不详",
+          "‘亦有奕世産英雄 萬亦有據’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 214,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1067,
+      "completion_tokens": 214,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

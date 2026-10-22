@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T04:35:37.689621+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9ea549b4d91cc6fa37edc5579652630a1e25b8dd9bd96ffd8bd825e82d46d6b5",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000500-p000-27247668b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000501-p000-53de3b11ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000502-p000-a3d43b9760",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000503-p000-33f285b7c4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有残缺，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book036-b000504-p000-154ab83d48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000505-p000-baa58f47d3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表格中‘地王界’与‘面’之间有空格，候选释读将其合并为‘地王界面’，改动了原文的格式与内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000506-p000-37778d3b63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000508-p000-d512ac8eb9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘或貞’的‘貞’未准确释读，对应候选中‘或圆’属于无依据释义；原文‘亦即也塘水’表述残缺，候选释读为‘就是这个道理。塘水……’属于无依据补全"
+        ],
+        "uncertainty": [
+          "原文此处有残缺，内容未完整呈现",
+          "‘貞’在此处具体所指不详"
+        ]
+      },
+      {
+        "id": "book036-b000509-p000-3d56959d2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘弁陡室刼殺破漏’断句错误，候选将其拆分為‘弁陡、室刼、杀破、漏缺’属于无依据拆分，不符合原文词法；原文‘總非奇’释读为‘都不是好的情况’不准确，‘奇’在此处指佳妙的格局，该释读表述模糊"
+        ],
+        "uncertainty": [
+          "‘弁陡室刼殺破漏’的具体语义待考"
+        ]
+      },
+      {
+        "id": "book036-b000510-p000-21f731c248",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘總取其乎如片紙’释读为‘总体要像平整的纸片一样’属于无依据增译，原文无‘平整’的对应表述；原文‘始為可貳’释读为‘才算得上合宜’错误，‘貳’的含义未明，属于无依据释义；原文‘右窄左偏在左’存在脱文，候选直接释读为‘如果右窄左宽，偏斜在左侧’属于无依据补全"
+        ],
+        "uncertainty": [
+          "‘可貳’的具体所指不详",
+          "原文‘右窄左偏在左’存在脱文，语义不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2137,
+    "completion_tokens": 927,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2137,
+      "completion_tokens": 927,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

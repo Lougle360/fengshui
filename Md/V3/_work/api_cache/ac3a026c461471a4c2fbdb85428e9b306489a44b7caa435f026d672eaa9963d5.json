@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-04T03:01:17.005941+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ac3a026c461471a4c2fbdb85428e9b306489a44b7caa435f026d672eaa9963d5",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000477-p000-915a26c80b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000481-p000-8b583a5ca3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘右三圖不論五吉四內皆有之’中，‘五吉四內’是并列关系，指‘五吉’和‘四内’两种情况。候选句‘文中提到的“五吉”和“四内”具体所指不详’将‘五吉四內’解释为‘五吉’和‘四内’，这是正确的，但‘文中提到的’属于增译，且‘都具备上述特征’的‘上述特征’指代不明。应直接释读为：右侧这三幅图，不论是在‘五吉’还是‘四内’的情况下，都存在（或：都适用）。‘五吉’和‘四内’具体所指不详。"
+        ],
+        "uncertainty": [
+          "五吉",
+          "四内"
+        ]
+      },
+      {
+        "id": "book028-b000483-p000-94a2a5c13c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "紫气",
+          "芽根穴",
+          "流金穴"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1252,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

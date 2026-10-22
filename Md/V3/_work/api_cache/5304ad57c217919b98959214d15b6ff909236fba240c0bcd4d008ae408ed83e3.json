@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T11:14:20.285410+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5304ad57c217919b98959214d15b6ff909236fba240c0bcd4d008ae408ed83e3",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000147-p000-55c6df71fe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的\"惕來陰受\"误释为\"阳脉来、阴脉受\"，与原文的\"陰來陽受\"不符；\"頓帶煞\"未明确释读，\"當虛枯\"的释读无依据，属于推测性改写"
+        ],
+        "uncertainty": [
+          "原文\"惕來陰受\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000149-p000-450c810980",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "\"直神\"\"扦堂\"\"氣廷\"\"開杖\"等风水术语未按规范释读，\"氣廷\"可能为\"氣庭\"的讹误，\"開杖\"的释读无明确依据"
+        ],
+        "uncertainty": [
+          "原文\"直神\"\"氣廷\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000150-p000-2e991e7020",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "\"山長清體\"\"開派\"\"堂牧納\"\"遺深鍾\"\"聖殺奪扯方弦腳流振發\"等术语未明确释读，\"曲折的渠水赠送灵气\"属于无依据的扩写，\"龍勢\"\"坐緩落\"的释读模糊"
+        ],
+        "uncertainty": [
+          "原文\"山長清體\"\"開派\"\"堂牧納\"\"遺深鍾\"\"聖殺奪扯方弦腳流振發\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000151-p000-3204911d9a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文\"到右鬼樂照鷹\"语义模糊，无法形成准确释读"
+        ],
+        "uncertainty": [
+          "原文\"到右鬼樂照鷹\"具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 518,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1478,
+      "completion_tokens": 518,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

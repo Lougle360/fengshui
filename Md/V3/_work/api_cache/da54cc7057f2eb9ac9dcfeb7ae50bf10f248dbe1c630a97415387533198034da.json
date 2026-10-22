@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-18T03:32:08.390807+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "da54cc7057f2eb9ac9dcfeb7ae50bf10f248dbe1c630a97415387533198034da",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005319-p000-1b9ce90c74",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘壬戌二山’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b005323-p000-e2108b774c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘壬戌寅山官事起’是确定陈述，candidate将其处理为‘具体所指不详’，属于将原文事实改写为不确定，不符合V3目标。原文‘家中難保退莊田’是确定结果，candidate用‘提到’一词弱化了其确定性。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 744,
+    "completion_tokens": 150,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 744,
+      "completion_tokens": 150,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

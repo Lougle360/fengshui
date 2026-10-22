@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-04T06:55:02.313186+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3cd3c604fe5173a22f4ac959f4c295a8484237194e0621eaa675666f36bd72c4",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001520-p000-8a90896737",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001521-p000-321373c721",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘臣两贱龙’被译为‘下等格局的龙脉’，‘臣两贱’的释读依据不足，可能为‘下贱龙’或‘贱龙’的误读或异写，直接译为‘下等格局’属于无依据扩写。",
+          "原文‘有邊鞍功’被译为‘文中提到‘有边鞍功’，但‘边鞍’的具体形态及所指不详’，此处理方式（保留原短语并说明不详）符合规则，但‘文中提到’属于不必要的增译，原文是直接陈述。"
+        ],
+        "uncertainty": [
+          "‘臣两贱龙’的具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 827,
+    "completion_tokens": 206,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 827,
+      "completion_tokens": 206,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

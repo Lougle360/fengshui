@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-10-16T11:06:00.522928+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a635c888f69072e6cee56df47bee3359b35090ed01d4f7e1000999cae0c1ba02",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002114-p000-d85c80c483",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "千張楠機共一較"
+        ]
+      },
+      {
+        "id": "book035-b002118-p000-e3aef97770",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘陰來法宜逆受陽來法當順受’是并列关系，candidate译为‘阴来法应当逆受，阳来法应当顺受’准确，但原文‘否則四字不明’中的‘四字’应指‘阴阳顺逆’，candidate译为‘否则‘阴阳顺逆’这四个字就不明白’准确，但原文‘如匠人之木馬反關無咸’是一个比喻，candidate将其拆解为‘就像匠人手中的木马，文中提到‘反關無咸’’，这改变了原文的句法结构，将比喻的一部分（木马）与另一部分（反关无咸）割裂，并错误地将‘反关无咸’处理为独立的待考短语。实际上‘反关无咸’很可能也是比喻的一部分，应整体保留为待考短语。candidate的译法属于不恰当的拆分和改写。",
+          "原文‘先看十字水分來到三易之處得何山何水先到先到而見者爲明不見者爲暗明者趨之暗者舍之’是一个连贯的叙述，candidate译为‘先看十字水分的流向，来到三易之处，看何山何水先到，先到且能看见的称为明，看不见的称为暗。明的地方要趋近，暗的地方要舍弃。’准确且通俗。",
+          "原文‘故歷代仙師皆同此窮此’，candidate译为‘所以历代仙师都遵循此理，文中说‘皆同此窮此’，具体含义不详。’准确，对‘皆同此窮此’做了风险标注。"
+        ],
+        "uncertainty": [
+          "反關無咸",
+          "皆同此窮此"
+        ]
+      },
+      {
+        "id": "book035-b002119-p000-b0f1a10002",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "又無珠乳離分別",
+          "水来破面聚人中",
+          "破面",
+          "人中"
+        ]
+      },
+      {
+        "id": "book035-b002120-p000-42e171a5ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "莫都饒字便粘寬",
+          "饶字",
+          "粘宽"
+        ]
+      },
+      {
+        "id": "book035-b002122-p000-4fb12890c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "不得明師翻開了"
+        ]
+      },
+      {
+        "id": "book035-b002123-p000-31099d908e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "歷代仙師了一窮",
+          "了一穷"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1428,
+    "completion_tokens": 627,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1428,
+      "completion_tokens": 627,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

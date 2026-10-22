@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:43:51.134754+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "01f9fe96e084db647d6953b1ca07b046a89fce42d696307dc8e195fbd704d2fe",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000839-p000-9ce66c0f31",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "公元46384年的「閉物」篇至此结束。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000840-p000-2e10b622ea",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "另一方面，历史年表「以運経世」由观物篇第二十五至第三十四共十篇组成，每篇定一运为360年的岁名，岁名之下记载该年内发生的重大事件。阐明人类历史是「以運経世」的目标。例如观物篇第二十五的「以運経世一」中，记载了经世历64661年即公元前2357年的「甲辰年。唐帝尧在平阳即位，号陶唐氏。羲……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾「羲」字残缺，无法确认后续内容"
+        ]
+      },
+      {
+        "id": "book015-b000841-p000-f418ccf03a",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "| 欽定四庫全書 |  |  | 丙申 |\n| 皇極經世書卷五上 | 宋邵雍撰 |  | 丁酉 |\n| 親抄二十五 |  |  | 戊戌 |\n| 元之甲Ley |  |  | 己亥 |\n| 經會之巳1E028 |  |  | 庚子 |\n| 經運之於一百八 |  |  | 辛丑 |\n| 經世之十日百四十九 |  |  | 壬寅 |\n| 經世之丑二千十百五十 |  |  | 癸卯 |\n| 經世之寅二千一百五十一 |  | 甲辰唐帝堯肇位于平陽號陶唐氏命羲和欽若昊天 |\n| 經世之卯二千一百五十二 |  | 歷象日月星辰敬授人時朞三百六旬有六日以 |\n| 經世之辰二千一百五十三 |  | 閏月定四時成歲曰載建寅月為始允釐百工庚 |\n| 經世之巳二千一百五十四 |  | 績咸熙 |\n| 經世之午二千一百五十五 |  | 乙巳 |\n| 經世之未二千一百五十六 |  | 丙午 |\n| 甲午 |  | 丁来 |\n| 乙未 |  | 戊申 |",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中存在「Ley」「1E028」等无法确认含义的字符，「丁来」疑为「丁未」的讹误，「二千十百五十」疑为「二千一百五十」的讹误"
+        ]
+      },
+      {
+        "id": "book015-b000842-p000-9b5cc451cd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "图6-2《皇极经世书·观物篇二十五》",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2307,
+    "completion_tokens": 839,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2307,
+      "completion_tokens": 839,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

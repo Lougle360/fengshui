@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T15:25:48.769658+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8d352806d93b0761fee78bc2ad60521f9f7e3ec90c1df53d7a7ea96afba16791",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001054-p000-61b4201937",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001055-p000-957f89ce29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001056-p001-867dd3bf9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001057-p000-c131b4446a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "《大传》所指具体典籍未明确，《河图》之数的具体所指未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1790,
+    "completion_tokens": 219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1790,
+      "completion_tokens": 219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

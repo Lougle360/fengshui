@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-17T17:18:47.382024+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1ce17b36aac1b4b5ab7cc82729d7f59896b495544ced170f91fae6cf0125d1aa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004147-p000-12a1f10233",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘贵出者謂無’拆解为两种说法，但source原文是‘其貴出者謂無’，意思是‘其中被称为贵出者，指的是无’。candidate的‘另一种则被称为‘无’’是误读，原文并未将‘无’列为另一种说法。",
+          "candidate对‘贵出者’和‘无’的处理方式不一致，一个标注‘具体所指不详’，另一个标注‘确切指代不明’，但两者都是opaque_terms，应统一处理。建议将整句释读为：关于鬼的说法有两种，其中一种被称为‘贵出者’，指的是‘无’（具体所指不详）。"
+        ],
+        "uncertainty": [
+          "‘贵出者’的具体含义不详",
+          "‘无’在此处的确切指代不明"
+        ]
+      },
+      {
+        "id": "book035-b004154-p000-7f2847bd4f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source文本严重错乱，candidate仅罗列了字词并进行了推测性解读（如‘鬼情交会’、‘鬼是地之证’），这超出了保守释读的范畴。对于如此混乱的原文，应仅说明原文错乱无法释读，而不应尝试构建任何具体含义。"
+        ],
+        "uncertainty": [
+          "原文文字严重错乱，无法进行任何可靠的释读"
+        ]
+      },
+      {
+        "id": "book035-b004156-p000-04b35a66df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘鬼不可中指作外客也’拆解，并将‘中指’单独提出解释，这改变了原文结构。原文‘鬼不可中指作外客也’是一个完整句子，意思是‘鬼不可以中指作外客’。candidate的释读方式（‘但‘鬼不可中指作外客也’这一说法，其中的‘中指’具体所指不详’）将原文陈述句变成了对某个说法的引用和局部质疑，属于增译和曲解。应整体释读该句，并标注‘中指’含义不明。"
+        ],
+        "uncertainty": [
+          "‘中指’的具体含义不详，可能是‘中位’、‘中气’或‘中间’之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1731,
+    "completion_tokens": 497,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1731,
+      "completion_tokens": 497,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

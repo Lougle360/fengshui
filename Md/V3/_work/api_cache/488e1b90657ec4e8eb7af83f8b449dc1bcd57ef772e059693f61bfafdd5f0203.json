@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-23T12:10:24.306189+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "488e1b90657ec4e8eb7af83f8b449dc1bcd57ef772e059693f61bfafdd5f0203",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000721-p000-596ed870db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'四个星辰五墓龙'，candidate译为'四种星辰与五个墓位若与龙脉相冲'，将'五墓龙'解释为'五个墓位若与龙脉相冲'，属于无依据的扩写。'五墓龙'是风水术语，应作为opaque_term处理，或按allowed_glossary中'龙'的定义解释为'五个墓位与龙脉'，但'相冲'是额外添加的推测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000722-p000-9af0cb4622",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'乾坤甲乙为权武，艮巽丙辛清贵人'，candidate译为'乾、坤、甲、乙被视为权力和武力，艮、巽、丙、辛则是清贵的贵人'，将'权武'拆解为'权力和武力'，'清贵人'译为'清贵的贵人'，属于推测性解释，原文含义可能更特定。",
+          "原文'甲乙丙辛为正马，乾坤艮巽禄为真'，candidate译为'甲、乙、丙、辛是正马，乾、坤、艮、巽的禄位才是真实的'，'正马'、'禄'是风水术语，candidate直接作为确定概念使用，但未在allowed_glossary中定义，应作为opaque_terms或标注不确定性。",
+          "原文'山穴阴阳遇四神，富贵足平生'，candidate译为'山穴的阴阳如果遇到这四个神位，一生富贵充足'，将'四神'解释为'这四个神位'，但前文并未明确'四神'具体指代，属于无依据的确定解释。",
+          "原文'十干行龙主不祥'，candidate译为'十干行龙主不祥'，保留了原文短语，但未进行白话释读，不符合V3目标。",
+          "原文'十二支神水不吉'，candidate译为'十二支神水不吉利'，同样未进行白话释读。",
+          "原文'辰戌丑未可有悔'，candidate译为'辰、戌、丑、未这四个地支可能会有悔恨'，'悔'在风水中有特定含义，此处释为'悔恨'过于浅显且可能偏离原意。",
+          "原文'牛羊公事至'，candidate译为'牛羊相关的公事会到来'，'牛羊'可能指代地支丑未，但candidate直接按字面解释，未标注不确定性。",
+          "原文'辰戌逃移并自吊'，candidate译为'辰戌逃移并自吊'，未进行白话释读。",
+          "原文'丑未牛羊及血光'，candidate译为'丑未牛羊及血光'，未进行白话释读。",
+          "原文'贼盗军徒主煞伤'，candidate译为'贼盗军徒主煞伤'，未进行白话释读。",
+          "原文'子午离乡并曲脚'，candidate译为'子午离乡并曲脚'，未进行白话释读。",
+          "原文'卯酉风声恶'，candidate译为'卯酉风声恶'，未进行白话释读。",
+          "原文'寅申已亥有何说'，candidate译为'寅申巳亥有何说'，未进行白话释读。",
+          "原文'小主瘟火起官灾'，candidate译为'小主瘟火起官灾'，未进行白话释读。",
+          "candidate对部分诗句进行了释读，但对另一些则直接保留原文，释读不完整、不一致。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000723-p000-53bd640ca4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元女"
+        ]
+      },
+      {
+        "id": "book001-b000724-p000-ba1190bc23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'酒，巳亥为奴婢'，candidate译为'酒（此处原文可能有误，或指代某种状态），巳亥为奴婢'，将'酒'字视为可能有误并进行推测，但未提供保守的直译或保留原字并标注不明，处理方式不符合'不能改稿'和'风险标注不是增译'的原则。应直接保留'酒'字并说明其含义不明。",
+          "原文'阙十三字'，candidate译为'阙十三字'，保留了原文，但未进行白话释读，不符合V3目标。应译为'此处缺失十三个字'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000725-p000-ceb08f3fd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000726-p000-03b353e523",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "德刑"
+        ]
+      },
+      {
+        "id": "book001-b000727-p000-4aa918ff55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000728-p000-e835ce3f27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "德刑"
+        ]
+      },
+      {
+        "id": "book001-b000729-p000-d68c2b9261",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000730-p000-f6a760aff5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000731-p000-2c86f7169c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000732-p000-714b72d95a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5918,
+    "completion_tokens": 1418,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5918,
+      "completion_tokens": 1418,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-25T19:45:33.578017+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7a42ec99d153ec96da04a9715ff3940e89e34184382ad890ea266d975343abc3",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000630-p000-55ef19f22d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘断是脑识可地理牧人卷三’存在缺字，相关内容具体所指不详",
+          "‘天财四脑玉7众礼’原文含不明数字，具体含义不明确"
+        ]
+      },
+      {
+        "id": "book030-b000631-p000-2262c787fa",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“典”“逞”“i東湖主”“侍而壇中氷冷”“生砂却六生發也”等表述存在缺字、错字，具体所指不详；原文存在多处缺字、错乱，无法完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000632-p000-ba4a04fd9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘俛敵’被误写为‘仇敌’，虽音近但未标注原文用字；原文‘鈔形’是‘砂形’的通假异写，候选未明确说明；原文‘收為五斧卷三’被断为‘将“无意”二字收为五斧。《卷三，拨砂七》’，割裂原文结构，不符合原文表述逻辑"
+        ],
+        "uncertainty": [
+          "原文中“寥氏”“俛敵”“五斧”等表述具体所指不详；原文存在缺字、错字，无法完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000633-p000-22ab670f88",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘與角言之日衛’被误拆为‘与是角言，称为日卫’，属于无依据拆分原文结构；原文‘列干’是‘列于’的异写，未作说明；原文‘從巾詢名’是‘从众询名’的讹写，候选直接保留原错字未标注；原文有多处OCR讹误如‘井雨边’‘日语’等，候选直接引用未标注为原文讹误，易误导读者"
+        ],
+        "uncertainty": [
+          "原文中“寥氏”“井雨边”“日语”“五斧”等表述具体所指不详；原文存在多处缺字、错字，无法完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000634-p000-e90ae42f92",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“敝者”“所山称矣”等表述具体所指不详；原文存在缺字、错字，无法完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000635-p000-c4a939ef9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘有漏有禍則要撥了高低’断句错误，应为‘有漏有禍則要撥，高低穴法取朝針’，候选将‘高低’和‘穴法’拆分，导致语义断裂"
+        ],
+        "uncertainty": [
+          "原文中“针高应齐眉”“低应心”“庶宾”“四诀”等表述具体所指不详；原文存在缺字、错字，无法完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000637-p000-f73c968471",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000639-p000-cb635eee89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000640-p000-44fbc145ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000641-p000-27795e00f9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘朝山雨邊’的‘雨’是‘兩’的讹写，候选未标注直接保留；原文‘備是團園包爨砂’的‘備’为‘卫’的讹写，候选未作说明，直接保留错字易误导读者"
+        ],
+        "uncertainty": [
+          "原文中“玉王”“驩起砂”“包爨砂”等表述具体所指不详；原文存在缺字、错字，无法完全准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5662,
+    "completion_tokens": 1103,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5662,
+      "completion_tokens": 1103,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-18T12:01:15.007688+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a472065f09caed54e6cdd92d78013eb8329cacb57b229241a99d2ad58b9d47d2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006479-p000-9ef470569e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'井二至觜'应指井宿第二度至觜宿（某度），candidate释为'井宿位于第二度至第三度，对应觜宿'，将'觜'误释为'第三度'并增译'对应觜宿'，导致星宿与度数关系错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006480-p000-c468c1616d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'庚畢月鳥畢一至三'中'月鳥'可能指五行属月、生肖为鸟，但candidate将'庚畢月鳥'拆解为'庚金对应毕宿，五行属月，对应生肖为鸟'，结构略显生硬且'庚金'为增译；'畢一至三'释为'毕宿位于第一度至第三度'正确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006481-p000-66ac46730f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中'九八'、'六六'、'生气'、'才气'等术语具体所指不详，candidate已按字面转述并标注不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b006482-p000-2e40f357c9",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文仅三字'老州都'，具体所指不详，candidate保留原样并标注不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b006483-p000-ccef56d631",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'贈二至尾二'应指赠宿第二度至尾宿第二度，candidate释为'赠宿位于第二度至第三度，尾宿位于第二度'，将'尾二'误释为'第三度'并拆分，导致星宿度数关系错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006484-p000-f8cd066c1f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006485-p000-fb04dee0eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006486-p000-3db1f8f56a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'辛胃土雉'应指辛、胃宿、五行土、生肖雉的组合，candidate释为'辛胃土对应雉'，将'辛胃土'视为一个整体对应'雉'，结构生硬且可能误导；'胃九至十一'释为'胃宿位于第九度至第十一度'正确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006487-p000-8e7b59db3a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'清河縣令冀州中山郡'结构不明，candidate释读为'清河縣令属于冀州中山郡'，将'令'理解为'属于'或'为'，并补出'属于'，这是为形成现代汉语句子而进行的浅显释义，可以接受。但'中山郡'与'清河縣'的隶属关系在原文中并不明确，candidate将其处理为确定事实，属于无依据扩写。应标注不确定性。",
+          "原文'寅尾火虎尾十一至十三'结构紧凑，candidate将其拆解为'寅尾火对应虎，尾宿位于第十一度至第十三度'，将'寅尾火'与'虎'关联，并将'尾'解释为尾宿，度数对应。这是基于星宿分野知识的合理推测和补足，但将推测写成了确定事实。应标注不确定性。"
+        ],
+        "uncertainty": [
+          "'清河縣令冀州中山郡'的具体所指不详，可能指清河县属于冀州中山郡，也可能有其他解释。",
+          "'寅尾火虎尾十一至十三'的解读存在多种可能，candidate的释读仅为其中一种推测。"
+        ]
+      },
+      {
+        "id": "book035-b006488-p000-08888aae60",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'向家人之巽'语义不明，candidate保留原短语并标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 613,
+    "completion_tokens": 287,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1815,
+      "completion_tokens": 891,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 613,
+      "completion_tokens": 287,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

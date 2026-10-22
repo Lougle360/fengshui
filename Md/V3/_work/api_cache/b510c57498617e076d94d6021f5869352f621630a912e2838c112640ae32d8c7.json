@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-09-24T23:06:21.264098+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b510c57498617e076d94d6021f5869352f621630a912e2838c112640ae32d8c7",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000998-p000-92a36677dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000999-p000-495eb1eb11",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文后半部分“泥歟浪實跳龍門渤海侯翻身”属于无依据释读为“这难道不是在空谈中寻求机遇吗”，完全偏离原文表述，且未对缺失的“跳龙门、渤海侯翻身”内容做出说明"
+        ],
+        "uncertainty": [
+          "“王星”具体所指不详",
+          "泥歟浪實跳龍門渤海侯翻身整体语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001000-p000-fd60177ef6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“排能王吉”含义不明，候选释读为“排定后能得到‘王吉’的结果”属于无依据猜测，将不确定内容写成确定事实"
+        ],
+        "uncertainty": [
+          "“王星”具体所指不详",
+          "“王吉”具体所指不详",
+          "“排能王吉”语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001001-p000-c85256e401",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“六上八卦”被误释为“六爻对应的八卦”，“屬々情”被误释为“要与‘情’相符”，“穴内卦裝清”被释为“穴内的卦象要清灵纯粹”属于无依据增义，原文未提及清灵纯粹相关表述"
+        ],
+        "uncertainty": [
+          "“六上八卦屬々情”语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001002-p000-fd73932eda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001003-p000-587518fc62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001004-p000-0dffc9bd57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“天王經内位下”具体对应《天王经》的哪一部分内容暂无明确说明"
+        ]
+      },
+      {
+        "id": "book017-b001006-p000-e986f3fd13",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一旦混清”被误释为“一旦混淆了清灵与浑浊”，属于无依据增义；原文“附舍世生”语义不明，释读为“就会附会世俗的说法”属于无依据猜测；原文末尾“守秘之B”直接释为“需要保守的秘密”未明确标注识别风险，不符合要求"
+        ],
+        "uncertainty": [
+          "“混漢之上處”语义不明",
+          "“附舍世生”语义不明",
+          "“B”为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001007-p000-2d66b6487b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“寅申巳言木来長”被误释为“寅、申、巳对应的木气旺盛”，属无依据释义；原文“动得永不明”被反译为“触动后永远不会不明”，语义完全相反；原文“若還借庫富還自庫樂長春”被误拆为“如果还借库，富还会从库中生出，乐在长春”，漏失原句中“自库”与“借库”的对应逻辑，且“富还自库”的含义被错解"
+        ],
+        "uncertainty": [
+          "三般卦、出卦、叩金龙、借库、自库均属于未被允许释读的风水专名，其具体含义未明确标注"
+        ]
+      },
+      {
+        "id": "book017-b001008-p000-bf300514b8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“之重多，任調不出卦始为土”语义不明，候选释读为“反复强调，任谁都能明白，出卦对应的是土”属于无依据猜测，将不确定内容写成确定事实"
+        ],
+        "uncertainty": [
+          "“之重多，任調不出卦始为土”语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 753,
+    "completion_tokens": 208,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2147,
+      "completion_tokens": 1120,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 753,
+      "completion_tokens": 208,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

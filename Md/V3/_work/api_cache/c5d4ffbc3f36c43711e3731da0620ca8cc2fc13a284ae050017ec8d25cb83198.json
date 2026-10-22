@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-23T11:29:40.804041+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c5d4ffbc3f36c43711e3731da0620ca8cc2fc13a284ae050017ec8d25cb83198",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000663-p000-c9051f011a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000665-p000-eae1595025",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘坎离震兑同’意指乙辛丁癸这四个方位与坎离震兑这四个卦位（或其所代表的方位）相同。候选句‘与坎、离、震、兑这四个卦位相同，它们都归属于本宫’将‘同’和‘排来其本宫’合并解释为‘相同’且‘归属于本宫’，存在增译和推测。‘排来其本宫’含义不明，不应与前半句合并解释。"
+        ],
+        "uncertainty": [
+          "原文中“排来其本宫”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book001-b000666-p000-46094fc54a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“没神贪狼穴”的具体含义不详"
+        ]
+      },
+      {
+        "id": "book001-b000671-p000-66690826c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“共一宗”的具体所指不详，此处暂译为属于一个系统"
+        ]
+      },
+      {
+        "id": "book001-b000679-p000-2a4fe68b8b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘文武定是离乡位’中的‘文武’解释为‘有文武才能的人或与文武相关的运势’，这是无依据的推测。原文‘文武’可能指文武官职或某种格局，但含义不确定，不应给出具体解释。‘离乡位’解释为‘离卦方位’是合理的，因为‘离’是locked_term。"
+        ],
+        "uncertainty": [
+          "“五总龟龙”的具体所指不详",
+          "“孟山”的具体所指不详",
+          "“文武”的具体指代不详"
+        ]
+      },
+      {
+        "id": "book001-b000680-p000-a0f8cb32f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘配兼夫妇’解释为‘配合某种阴阳关系’，这是无依据的推测。原文‘配兼夫妇’含义不明，不应给出具体解释。"
+        ],
+        "uncertainty": [
+          "“配兼夫妇”的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1731,
+    "completion_tokens": 516,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1731,
+      "completion_tokens": 516,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

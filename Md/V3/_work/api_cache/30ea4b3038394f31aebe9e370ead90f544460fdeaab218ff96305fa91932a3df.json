@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-26T06:19:19.977611+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "30ea4b3038394f31aebe9e370ead90f544460fdeaab218ff96305fa91932a3df",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000074-p000-46c6e574cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量残缺错乱，多数内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book033-b000076-p000-a41f93711b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译内容：原文残缺部分之间的“河东曰兖州数曰养本长其川河沛其浸菑融来时融报河内曰冀州其山镇曰霍山在其泽数曰阳纡新其川漳拙 长其浸汾 出 广 以分路融闻”“自呕夷融平其是阳出故注曰”等可辨认的原文内容未在候选释读中提及，也未标注对应残缺",
+          "存在误译：原文“青州则徐州之地”“幽并则冀州之地”“独无梁云”的表述不符合《周礼》常识，属于原文讹误，候选释读直接将其作为事实陈述，未标注该内容与通行文献记载存在冲突"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺、语序错乱及讹误，部分内容无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3060,
+    "completion_tokens": 290,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3060,
+      "completion_tokens": 290,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

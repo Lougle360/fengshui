@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T09:19:07.069027+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "34674925d04bc999318bd5a3c99cfeab17e8c5440a86e227d494662508df9f7b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000202-p000-d9342910c7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文疑似OCR错误的字符（如“鄉洺”“尨”“撤”“平洋湖”）强行释读为“乡居”“龙脉”“撤落”“平洋地带”，属于无依据扩写；将日文残句“映し巳”释为“自然映照出已有的部分态势”，属于把推测写成事实；未保留原文疑似OCR错误的字符标注，违反术语处理规则"
+        ],
+        "uncertainty": [
+          "原文中“鄉洺”“尨”“撤”“平洋湖”等字符疑似OCR识别错误，无法确认准确含义；“映し巳”为日文残句，无法完整译出"
+        ]
+      },
+      {
+        "id": "book010-b000204-p000-39adaad68a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文多处字符OCR识别错误，语义残缺，无法完整解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 257,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1233,
+      "completion_tokens": 257,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T17:03:11.172979+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "73d09ba2bffe3b86a7623ced2bb0d4c34809348de9fc65011d144021c3558852",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000670-p000-ae43b649a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅对原文做了标点拆分，未转换成普通读者能读懂的现代白话，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000671-p000-b0b9fe1981",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000672-p000-d634b98b41",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文语义难明，无法准确白话释读"
+        ]
+      },
+      {
+        "id": "book029-b000673-p000-732c8d7eff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅对原文做了标点拆分与术语注解，未将其余内容转换成普通读者能读懂的现代白话，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000676-p000-8b12aa934a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000677-p000-b7eb0ef0a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000678-p000-d1799e161c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000682-p000-9ab1fcbff1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅对原文做了标点拆分与术语注解，未转换成普通读者能读懂的现代白话，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000683-p000-d6735eaa90",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为古文片段，未转换为普通读者能读懂的现代白话文，不符合V3白话释读的要求",
+          "存在未解释的生僻字：“凢”是“凡”的异体字未注明，“星面倒”“上聚”“与乳争不多”等风水相关表述未做通俗释读，普通读者无法理解"
+        ],
+        "uncertainty": [
+          "原文中“乂”字的具体含义存疑",
+          "“星面倒”的风水具体所指暂不明确"
+        ]
+      },
+      {
+        "id": "book029-b000684-p000-85f15dfc9d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅对原文做了标点拆分与术语注解，未将其余内容转换成普通读者能读懂的现代白话，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原文中“凢”等字的具体含义存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 795,
+    "completion_tokens": 155,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2293,
+      "completion_tokens": 652,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 795,
+      "completion_tokens": 155,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

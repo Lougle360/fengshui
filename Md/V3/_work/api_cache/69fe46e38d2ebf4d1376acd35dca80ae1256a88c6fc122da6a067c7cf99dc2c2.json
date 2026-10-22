@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T09:59:21.398901+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "69fe46e38d2ebf4d1376acd35dca80ae1256a88c6fc122da6a067c7cf99dc2c2",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000460-p000-391eec1e3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘突中之窟扦窟中之突’具体所指不详",
+          "‘臭’‘棄’相关内容具体所指不详",
+          "‘地一推’具体所指不详",
+          "‘眠弓’具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000462-p000-501aaa2230",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘费中窥豹’释为‘只选取小的优点而遗漏大的缺陷’属于无依据扩写，原文未明确该短语含义；将‘就衆凶而尋一吉殆猶緣木求鄭’释为‘在众多凶煞中寻找一处吉利，大概就如同爬上树去寻找鱼一样’，‘缘木求鱼’应为‘缘木求鱼’的误写，且‘众多凶煞’‘卦例’具体所指原文未明，不应直接确定含义"
+        ]
+      },
+      {
+        "id": "book010-b000463-p000-215aaff321",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘斜胍’‘正横’等脉名直接确定为具体脉类属于无依据扩写，原文未明确其含义；将‘卦例’‘罗径’‘贯宾’等术语直接赋予确定含义属于无依据扩写；将‘倒拔杨公’释为‘倒杖之法是杨公所创’属于无依据扩写，原文未明确杨公与倒杖法的关系"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2252,
+    "completion_tokens": 417,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2252,
+      "completion_tokens": 417,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

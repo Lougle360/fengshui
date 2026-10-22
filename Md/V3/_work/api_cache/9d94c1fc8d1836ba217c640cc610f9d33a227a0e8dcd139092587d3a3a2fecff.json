@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-16T11:20:21.411762+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9d94c1fc8d1836ba217c640cc610f9d33a227a0e8dcd139092587d3a3a2fecff",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002164-p000-9de9e9e994",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'前親后倚'是风水术语，指穴场前有案山亲近、后有靠山依托的格局。candidate 译为'前面的地形有亲人相伴，后面的地势有依靠'，将'親'理解为'亲人'，属于专业术语误换，且'亲人相伴'的表述不准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002165-p000-570cd84690",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002166-p000-c6b6422b82",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002167-p000-a8c756d581",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 句末'何巽'，candidate 译为'这其中的道理与巽（八卦之一）有关'，将'巽'作为确定解释加入，但原文'何巽'可能为'何异'或'何逊'等词的讹误或特定用法，含义不明。根据规则，opaque_terms为空，但此处'何巽'应视为含混短语，candidate不应赋予其确定的八卦含义。2. '厚處爲生舍死從生則眞氣得矣'的释读基本准确，但'居所'为增译，可接受。"
+        ],
+        "uncertainty": [
+          "句末'何巽'具体所指不详，可能为讹字或特定术语。"
+        ]
+      },
+      {
+        "id": "book035-b002168-p000-436c7d1f3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将'論突金頑金固出暇鬢氣塊耳章辯'译为'以及关于突金顽金固出暇鬢气块的章节辨析'，将'耳章辯'理解为'章节辨析'，属于无依据的扩写。'耳'可能为语气词或连接词，'章辯'也可能指'章'和'辩'两部分。原文语义晦涩，candidate不应将其整合为一个确定的现代短语。"
+        ],
+        "uncertainty": [
+          "原文'突金鹿蠢'、'蠻膚'、'暇鬢氣塊'、'耳章辯'等词组语义晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002169-p000-9c5cfa37e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将'棋面出眞認暇鬢氣乳珠'译为'从棋面中识别出真气，辨认出暇鬢气乳珠'，将'出眞'理解为'识别出真气'，属于无依据的扩写。'出眞'可能指'出现真穴'或其他含义，但candidate将其具体化为'识别出真气'，超出了保守释读的范围。"
+        ],
+        "uncertainty": [
+          "'棋面'、'出眞'、'暇鬢气乳珠'等词具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002170-p000-d197c1f802",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002171-p000-0d32786e17",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 为正文内容，但 candidate 添加了'## '标记，使其变成了标题格式。这改变了原文的呈现方式，属于格式错误。应去掉'## '，作为普通段落释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002172-p000-39ae6d2cbe",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'蛮春穴法'具体所指不详，此处仅保留原词。"
+        ]
+      },
+      {
+        "id": "book035-b002173-p000-2d8fce260a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "'大鹿太蠢'具体所指不详，此处仅保留原词。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1651,
+    "completion_tokens": 924,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1651,
+      "completion_tokens": 924,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

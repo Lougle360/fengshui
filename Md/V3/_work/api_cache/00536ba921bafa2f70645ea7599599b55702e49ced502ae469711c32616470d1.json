@@ -1,0 +1,179 @@
+{
+  "created_at": "2026-09-23T11:11:35.513378+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "00536ba921bafa2f70645ea7599599b55702e49ced502ae469711c32616470d1",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000375-p000-eec601cdf8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'卷肉上'应为'卷四上'的OCR错误，candidate未识别并修正，直接译为'卷肉上'，导致信息错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000376-p000-dd0dd8d2f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000377-p000-44cdb2bd9c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000378-p000-5fb9577f44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000379-p000-f7e0400605",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'寅甲三龙'，candidate译为'寅、甲三龙'，将'三'理解为数量词，但结合上下文，'寅甲'可能指寅龙和甲龙，'三'字可能是'之'或'等'的误写，或'寅甲申'的误写（见前文）。释读为'寅、甲三龙'不准确，易生歧义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000380-p000-899af7a219",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000381-p000-169ad07923",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'王人徑 卷四'应为'玉尺经 卷四'的OCR错误，candidate未识别并修正，直接译为'王人径《卷四》'，导致引用的书名错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000382-p000-fa6f0cec1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000383-p000-5451670253",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000384-p000-b891386ecf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000385-p000-81cd4433ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000386-p000-9c09668807",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000387-p000-d5106c9ba8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘如異龍而華上有主人經 卷四上 八’语义不明，candidate 直接译为‘如异龙而华上有主人。经《卷四上》八。’，将不确定的原文当作确定事实译出，且‘华上有主人’含义不清，应标注不确定性或保留原文短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000388-p000-efd42da883",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘休囚宜脂而反高’中的‘脂’字，candidate 译为‘低’，这是推测性解释，原文‘脂’字可能为‘止’或‘滞’等字的讹误，但 candidate 未标注不确定性，直接当作确定事实处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000389-p000-2aeb769cfe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000390-p000-20bb128e38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000391-p000-338674c6a5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000392-p000-55da52028a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000393-p000-c0848893fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000394-p000-35d95d7540",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3126,
+    "completion_tokens": 603,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4707,
+      "completion_tokens": 1328,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3126,
+      "completion_tokens": 603,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

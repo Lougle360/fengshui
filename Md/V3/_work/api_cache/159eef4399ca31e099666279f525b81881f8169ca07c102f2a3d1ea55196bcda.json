@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-18T03:15:24.947496+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "159eef4399ca31e099666279f525b81881f8169ca07c102f2a3d1ea55196bcda",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005265-p000-ae088a4dd3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘家内’释读为‘家内安宁’，属于无依据扩写。原文仅提及‘家内’，未言吉凶结果。"
+        ],
+        "uncertainty": [
+          "‘襄’字在风水语境中确切指代‘包裹’还是‘辅助’，原文未进一步说明。"
+        ]
+      },
+      {
+        "id": "book035-b005267-p000-d37179b667",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文在‘能文’后的断句位置不确定，导致‘能文’是修饰儿孙还是开启下文存在歧义。",
+          "‘官卦’一词的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b005274-p000-f7823a0ed2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘火石相逢’释为‘火形与石形相逢’，将‘白的’、‘赤的’、‘黑的’、‘黄的’、‘青的’均释为‘砂形’，将‘青的交人把木扛’释为‘青色砂形与人相交并扛着木形’，均属无依据的确定性解释。allowed_glossary中未定义这些颜色与形状的组合为特定砂形，应保留为含混短语。",
+          "candidate将‘水’字在‘路水離鄉’中译为‘流离失所’，但locked_terms要求保留‘水’字，此处应直接保留‘水’字或明确标注其含义存疑。",
+          "candidate将‘養衛身論壽延長’释为‘这些论述关乎养身卫体与寿命的延长’，将‘論’字译为‘论述’，但原文‘論’字可能为‘论’或‘伦’，含义不明，此释读过于确定。"
+        ],
+        "uncertainty": [
+          "文中大量如‘白中有金’、‘赤的相逢’、‘青的交人把木扛’等短语，具体指代何种风水砂形格局及颜色组合，原文未做详细解释。",
+          "‘拍協’一词的具体动作含义不详。",
+          "‘開貸庫’具体指开设借贷机构还是某种仓库，含义存疑。",
+          "‘青的交人把木扛’这一短语的具体所指不详。",
+          "‘養衛身論壽延長’中‘論’字的确切含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1524,
+    "completion_tokens": 535,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1524,
+      "completion_tokens": 535,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

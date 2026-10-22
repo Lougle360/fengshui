@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:52:21.516193+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5ccec2d7e118f2d8af1bd519fc3b2ba0fce410a8efe847a66a7bd7d53a21dd1b",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000223-p000-c889cd634e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000224-p000-134e191baf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000225-p000-8cfea8189e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘水上相仆日水土連雲’的‘相仆’未释读，‘编号070 00’原文未明确为编号，属于无依据添加；‘云母芙蓉等帳’未明确为各类帐形，属于扩写；‘星頭’‘正者’未明确释读，存在模糊处理问题"
+        ],
+        "uncertainty": [
+          "原文‘水上相仆日水土連雲’中‘相仆’具体含义未明；‘070 00’的性质未明；‘星頭’‘正者’具体所指未明"
+        ]
+      },
+      {
+        "id": "book014-b000226-p000-f5997a3a23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1427,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

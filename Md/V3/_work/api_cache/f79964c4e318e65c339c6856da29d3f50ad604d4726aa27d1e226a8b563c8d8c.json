@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-10-18T08:49:13.948761+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f79964c4e318e65c339c6856da29d3f50ad604d4726aa27d1e226a8b563c8d8c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006034-p000-98aca6aa5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'人爲才帛主發福富貴代代衣祿富壽'，candidate译为'主掌人的才学与财帛，预示发福富贵，后代衣禄丰足且长寿'，将'人爲才帛'译为'主掌人的才学与财帛'，增加了'才学'，属于无依据扩写。原文'才帛'即'财帛'，指财富。",
+          "原文'亦困不復再興'，candidate译为'否则家运困顿将难以复兴'，将'困'具体化为'家运困顿'，属于将含混短语解释为确定事实。",
+          "原文'來衆子皆富貴不絕'，candidate译为'来水若在此处，子孙皆富贵不绝'，将'来'明确指定为'来水'，属于将含混短语解释为确定事实。",
+          "原文'水丘度中'，candidate译为'水丘度中'并保留，但uncertainty中标注'水丘'是否为讹误，符合规则，此项无问题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006035-p000-2f407f39b4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'甲戌火山七辛三酉'，candidate译为'甲戌火山七辛三酉的记载'，未进行任何释读，不符合'普通读者能读懂'的目标。应尝试进行通俗解释或明确标注其含义不详。",
+          "原文'曰后兒孫活計成'，candidate译为'日后儿孙活计成'，将'曰'改为'日'，属于擅自修改原文用字。应保留'曰'并标注可能为'日'之误。",
+          "原文'殼粟'，candidate译为'粮食'，属于浅显释义，可以接受。但uncertainty中标注了此点，符合规则。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006036-p000-d391669ba9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乙五丙六丁七与兄子父兄官父的具体对应关系",
+          "履卧的具体含义",
+          "正八、已八等数据的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b006037-p000-1e85cdd7e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'來潮發角亢木度來去富貴'，candidate译为'来潮发角亢木度来去富贵'，未进行任何释读，不符合'普通读者能读懂'的目标。应尝试进行通俗解释或明确标注其含义不详。",
+          "原文'給練大夫'，candidate译为'给练大夫'并保留，但uncertainty中标注可能为官职或讹误，符合规则，此项无问题。"
+        ],
+        "uncertainty": [
+          "给练大夫是否为官职名称或文字讹误",
+          "来朝是否特指来水朝堂",
+          "来潮发的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b006038-p000-a5eb15e86b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "八应八八的具体含义",
+          "六世八世八八的具体含义",
+          "父兄与乙四丙五丁六的具体对应关系",
+          "子父十官及符号'•'的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2645,
+    "completion_tokens": 813,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2645,
+      "completion_tokens": 813,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

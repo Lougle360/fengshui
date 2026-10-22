@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-25T19:27:39.557390+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "82c810c37e27ed32203a8d77750b96ce267983880348acaa5e6326ea5509ec3e",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000556-p000-c5bb4cca4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“好敝無非取其砥柱任瀾交矛截水而已”存在讹误，具体所指不明",
+          "“左右合第”存在讹误，具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000561-p000-c46cc4443f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若食洋洋大水口弊不着反屬虛假”的释读存在语义偏差，原文意为“若是只见空有洋洋大水的水口，（没有其他砂山关拦），不仅发挥不了好的作用，反而属于虚假格局”，候选译文“弊端不会显现”与原文语义相反"
+        ],
+        "uncertainty": [
+          "“至云水”具体含义不明",
+          "“雨腸”具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000564-p000-2c1e205e12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“此有氣有本之冰”中“冰”疑为“水”的讹误，属于原文流传或识别错误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 372,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1607,
+      "completion_tokens": 372,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

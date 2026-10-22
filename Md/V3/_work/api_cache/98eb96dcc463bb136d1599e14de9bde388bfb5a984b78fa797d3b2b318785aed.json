@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-10-18T03:22:45.603673+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "98eb96dcc463bb136d1599e14de9bde388bfb5a984b78fa797d3b2b318785aed",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005285-p000-283aa1e214",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'人情童者晕说'含义不明，candidate译为'对于不懂道理的人，不要胡乱解说'，属于无依据扩写。原文'无义之人莫乱说'，candidate译为'对于没有道义的人，也不要随意传授'，将'说'改为'传授'，改变了原意。"
+        ],
+        "uncertainty": [
+          "'人情童者晕说'具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b005286-p000-9f79a66ff1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005287-p000-aa5cd0c2f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'三返不得曾公至'，candidate译为'曾公多次前往却未能得见'，将'至'理解为'得见'，但'至'通常指'到达'，主语可能是杨婆或曾公，此处释读有推测成分。原文'百赶牛归杨婆袖里见天机'，candidate译为'直到百次追赶，杨婆才将牛赶回，在袖中显露天机'，将'百赶牛归'解释为'百次追赶，杨婆才将牛赶回'，属于无依据扩写，且改变了原文的叙事逻辑。原文'曾公度法上处州'，candidate译为'曾公传授的方法到了处州'，将'度法'释为'传授的方法'，'上'释为'到了'，属于推测。"
+        ],
+        "uncertainty": [
+          "'三返不得曾公至'的具体含义不详",
+          "'百赶牛归'的具体含义不详",
+          "'度法'的具体含义不详",
+          "'上处州'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b005288-p000-432fa6685c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为'逐年山向詩斷'，是一个标题。candidate将其替换为'## 地理天機會元 卷二十八 砂斷 八'，属于完全不同的内容，漏译了原标题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005289-p000-246c1b0e15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005290-p000-883e3a1109",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'三八九月無更扦'，candidate译为'在三月、八月、九月动工，不可安葬'。'扦'在风水术中常指安葬或立向，但此处释读为'动工'不够准确，且'更扦'可能指'更改安葬'或'再次安葬'，candidate的翻译简化了含义。原文'更有乾丁幷巳丑'，candidate译为'此外，乾、丁山和巳丑方位也会连累'。'巳丑'可能指巳山和丑山，也可能指巳丑方位，candidate译为'巳丑方位'，不够明确。"
+        ],
+        "uncertainty": [
+          "'無更扦'的具体所指不详",
+          "'巳丑'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b005291-p000-5fa302d29e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'酉山卿向有黃泉'，candidate译为'如果选择酉山，朝向有黄泉煞'。'卿向'含义不明，candidate直接忽略'卿'字，译为'朝向'，属于漏译。原文'一人一口二雙言'，candidate译为'一人一口，两人双言'，属于直译，但含义不明，未做任何说明。原文'全來老少哭皇天'，candidate译为'全都会让老少哭泣，呼天抢地'，将'全来'释为'全都会'，属于推测。"
+        ],
+        "uncertainty": [
+          "'卿向'的具体所指不详",
+          "'一人一口二雙言'的具体含义不详",
+          "'全來'的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b005292-p000-a2c18a57bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'離山壬水退些錢'，candidate译为'如果选择离山，壬水会导致钱财退失'。'壬水'可能指壬方来水，candidate直接译为'壬水'，未做解释，但locked_terms中有'水'，且allowed_glossary有定义，可以接受。但'退些錢'译为'钱财退失'，'些'字未译出。原文'干連五六月離鄉決定見'，candidate译为'如果在五月、六月离乡，必定会见到灾祸'。'干連'可能指牵连、相关，candidate将其与'離鄉'连读，释为'离乡'，可能误译。原文'正月大見可如前二見'，candidate译为'正月遇到大凶，情况如前所述，两次见到凶兆'。'大見'、'可如前'、'二見'含义均不明，candidate的翻译属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "'干連'在此处的具体含义不详",
+          "'正月大見可如前二見'的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b005293-p000-5f94120a4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005294-p000-e877cc1dd5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2369,
+    "completion_tokens": 1277,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2369,
+      "completion_tokens": 1277,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

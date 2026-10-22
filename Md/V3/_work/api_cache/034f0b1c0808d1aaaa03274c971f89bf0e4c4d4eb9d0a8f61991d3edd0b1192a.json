@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-09-25T06:36:03.023858+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "034f0b1c0808d1aaaa03274c971f89bf0e4c4d4eb9d0a8f61991d3edd0b1192a",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001832-p000-0de199ab3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001833-p000-b339190324",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001834-p000-601b905fc4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001836-p000-1c4ccf4448",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蓊纵层叠”被误译为“草木葱茏层叠”，含义不符，无依据增添了“草木”相关语义；原文“蓊纵”未作明确释义，不应自行释为草木葱茏"
+        ],
+        "uncertainty": [
+          "“蓊纵”具体所指不明确"
+        ]
+      },
+      {
+        "id": "book019-b001837-p000-4c86fd7475",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001838-p000-ffbedd5972",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001840-p000-8d8a4eef3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001841-p000-4dbddbf3db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“有剥有换”被释为“有剥换变化”属于无依据释义，allowed_glossary未收录“剥换”相关定义，不应自行解释；“带福金星”“五凤楼台”“下手”“天穴”“四兽和平”均未做风险标注，也不属于allowed_glossary收录术语，候选直接当作已知概念使用不符合要求"
+        ],
+        "uncertainty": [
+          "“带福金星”“五凤楼台”“下手”“天穴”“四兽和平”具体所指不明确",
+          "“剥换”具体含义未明"
+        ]
+      },
+      {
+        "id": "book019-b001843-p000-ba65ad9cab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001845-p000-983f748d5c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“顶龙顺局”未做任何注释或风险标注，该术语不属于allowed_glossary收录内容，不应直接当作已知概念使用"
+        ],
+        "uncertainty": [
+          "“顶龙顺局”具体所指不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3017,
+    "completion_tokens": 701,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3017,
+      "completion_tokens": 701,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

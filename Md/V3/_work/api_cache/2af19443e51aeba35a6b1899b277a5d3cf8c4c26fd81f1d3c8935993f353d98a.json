@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-09-25T04:33:12.453516+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2af19443e51aeba35a6b1899b277a5d3cf8c4c26fd81f1d3c8935993f353d98a",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000471-p000-69274469be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴無銖合”“證永交方可作”释读错误，“無銖合”指没有丝毫偏差的契合，“證永交”指水流交汇的验证完备，候选将其表述为“必須水的交合情況完全契合”遗漏了“穴的契合不能有丝毫偏差”的核心语义，且“證”的验证含义未体现"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000472-p000-e495385f92",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其三自立穴毬頑水從上分而合于穴筆下”“此閣係甚大地之有無于此定”“不拜浪出水蓮花之類皆以水為護衛”释读错误：1. “毬頑”是风水专有术语，候选未保留原样也未标注不明，直接按字面承读错误；2. “穴筆下”语义含混，候选直接认定为“穴的筆下”属于无依据释读；3. “此閣係甚大地之有無于此定”错误翻译为“這一關係極為重要，地的有無由此確定”，“閣”的含义未明，属于不当臆译；4. “不拜浪出水蓮花之類”漏译否定词“不”，语义反转，原文指拜浪、出水莲花之类的水形不属于静态护卫的范畴，候选误将其纳入静态护卫的例子"
+        ],
+        "uncertainty": [
+          "“毬頑”“穴筆下”“此閣係”具体所指原文未明确"
+        ]
+      },
+      {
+        "id": "book036-b000475-p000-47f5ad7a6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容"
+        ]
+      },
+      {
+        "id": "book036-b000476-p000-be628bcf91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容"
+        ]
+      },
+      {
+        "id": "book036-b000480-p000-f199d0c6b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“冰既澄清而”的“冰”为“水”的形近讹字，候选直接改为“水”未作说明，且遗漏了讹字标注风险"
+        ],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容",
+          "原文“冰”疑似“水”的讹字，未得版本佐证"
+        ]
+      },
+      {
+        "id": "book036-b000481-p000-d39339cd9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容"
+        ]
+      },
+      {
+        "id": "book036-b000483-p000-c8a049770e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容"
+        ]
+      },
+      {
+        "id": "book036-b000484-p000-96a99fc354",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000485-p000-d4d4487e38",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“十五不湖人嘆息”断句错误，候选断为“十五不湖人，人們都嘆息”语义不通，正确断句应为“十五不湖，人嘆息”；“仙遊古朝抵縣”错误释读为“仙遊古朝抵縣”，“古朝”应为“古潮”的形近讹字，指潮水，候选未作标注直接按“古朝”承读错误"
+        ],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容",
+          "“古朝”疑似“古潮”的讹字，未得版本佐证"
+        ]
+      },
+      {
+        "id": "book036-b000486-p000-78993ceae6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宋落平洋水遶流”的“宋”语义含混，候选直接按字面承读属于无依据释读；“然灰龍入首”的“灰龍”是风水专有术语，allowed_glossary未收录其定义，候选未标注不明直接承读错误；“酉外兼辛乙”为风水方位术语，候选未保留原样也未说明含义属于不当处理"
+        ],
+        "uncertainty": [
+          "原文後半部分殘缺，無法確認完整內容",
+          "“宋落平洋”“灰龍”“酉外兼辛乙”具体所指原文未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3424,
+    "completion_tokens": 1193,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3424,
+      "completion_tokens": 1193,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

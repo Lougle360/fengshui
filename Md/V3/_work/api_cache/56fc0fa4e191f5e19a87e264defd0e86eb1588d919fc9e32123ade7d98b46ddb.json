@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:06:15.809877+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "56fc0fa4e191f5e19a87e264defd0e86eb1588d919fc9e32123ade7d98b46ddb",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000497-p000-b017475094",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 2.2 大衍求一术",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000498-p000-99f9e63622",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "既然已经讲完了大衍总数术的概要，接下来想探讨大衍术的核心求术，也就是确定乘率 $x_i$ 的计算方法。为了简化论述，首先对要施行求一术的合同式",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000500-p000-43577e218d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "的表述，简化为：乘率 $x_i \\to x$，衍数 $m_1 \\cdots m_{i-1} m_{i+1} \\cdots m_k N$，定母 $m_i m \\geq$ ，且",
+        "confidence": "low",
+        "uncertainty": [
+          "原句存在排版或符号错乱，\"$\\ngeq$\" 及后续内容无法明确含义"
+        ]
+      },
+      {
+        "id": "book015-b000502-p000-98e1880d7f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "简化为 $\\Xi ^ { \\ 7 ) }$。另外，当 $N > m$ 时，用 $m$ 除 $N$，求得满足 $N \\equiv n (\\bmod m)$ 的余数 $n$，将①式",
+        "confidence": "low",
+        "uncertainty": [
+          "原句中\"$\\Xi ^ { \\ 7 ) }$\" 含义不明，\"6 4 5\" 疑似排版错误，无法明确其含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1702,
+    "completion_tokens": 530,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1702,
+      "completion_tokens": 530,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

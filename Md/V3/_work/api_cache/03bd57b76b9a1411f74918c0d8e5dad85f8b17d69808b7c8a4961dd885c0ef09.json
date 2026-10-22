@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:00:21.928483+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "03bd57b76b9a1411f74918c0d8e5dad85f8b17d69808b7c8a4961dd885c0ef09",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000545-p000-17f751c845",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000546-p000-2d59054e32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000547-p000-6cd45fda49",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“磐桓”是爻象的表述，candidate未保留原文的爻象标注，且将“爻象为磐桓”的表述与原文的爻辞释读逻辑略有偏差，原文的“磐桓”是爻辞内容，并非直接的爻象定义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000548-p000-a3728a013b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 260,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1341,
+      "completion_tokens": 260,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

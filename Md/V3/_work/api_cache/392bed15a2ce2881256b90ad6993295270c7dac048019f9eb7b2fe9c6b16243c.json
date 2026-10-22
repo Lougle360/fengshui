@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-24T09:25:46.996242+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "392bed15a2ce2881256b90ad6993295270c7dac048019f9eb7b2fe9c6b16243c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000259-p000-20da61addf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将推测的风水操作结果（如‘子息会做官’‘富贵足’）当作确定事实，不符合原文的术数表述逻辑；‘法塟其止’‘饶成’未按要求标注为含义不详，属于无依据的确定化解读；‘误壬上分’语义模糊，未保留原文的含混性处理"
+        ],
+        "uncertainty": [
+          "法塟其止的具体风水含义不详",
+          "饶成的具体风水含义不详",
+          "误壬上分的具体风水含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 153,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1331,
+      "completion_tokens": 153,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

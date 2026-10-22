@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T12:57:59.149971+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "87ff0e287090b1837c516ceecd32232d0abe044fe03aa20d7867b81fba918aa5",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000977-p000-19e2047eb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“員中”“欽折”“隅人”“失其窮”等表述含义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000979-p000-61855a704f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“金池如璜秀才文章曲如初五月登科可必得更秀以蟻眉貴女又賢妻”拆分为对应关系缺乏依据，原文未明确此类对应关系，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“蟻眉”含义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000980-p000-b85ebdacde",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“水曲如盡高科聲價隨意曲折有失有得”拆分为对应关系缺乏依据，原文未明确此类对应关系，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“水曲如盡”“員足”含义模糊，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1408,
+    "completion_tokens": 295,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1408,
+      "completion_tokens": 295,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

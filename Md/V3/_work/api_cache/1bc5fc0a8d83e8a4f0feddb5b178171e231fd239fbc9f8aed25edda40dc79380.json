@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T23:19:25.584515+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1bc5fc0a8d83e8a4f0feddb5b178171e231fd239fbc9f8aed25edda40dc79380",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001108-p000-ec94b5f763",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“收山出然誤”存在文字错乱，释读直接认定为“收山出煞的错误说法”属于无依据确定释义；原文“無兼为沙說”语义不明，释读直接译为“不可兼为沙说”未明确标注该部分语义存疑，且未保留原文含混的风险提示"
+        ],
+        "uncertainty": [
+          "原文存在文字错乱，“收山出然誤”“無兼为沙說”语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001109-p000-bb2b809f51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“相達大比能幾人個之是知心”“不種此對節”语义错乱，释读将其解读为“能真正通达大比之理的人又有几个？这是要让人明白其中的关键，若还想求地却不种下这等根本”属于无依据确定释义；原文“楊公叮字曾公安慎重私傳”释读为“便是杨公曾公安慎私传的叮嘱”属于无依据拼接语义；原文“勿轻公人擇地”释读为“不可轻易将此理公之于众，要慎重选择地师”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文存在文字错乱，“相達大比能幾人個之是知心”“不種此對節”语义不明，“楊公叮字曾公安慎重私傳”“勿轻公人擇地”语义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001111-p000-de96e937a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“收山王然訣”“此房句切為人耗讀通公天玉》全又何常な說此訣半全也”存在大量错乱字符，释读将“此房句切為人耗讀”译为“此房句切为耗读”、“通公天玉》全”译为“通《公天玉》全”属于未识别的原文错乱误读，且未明确标注这些内容无法释读"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱字符，“王然訣”“此房句切”“耗读”“公天玉”语义不明，整句语义无法连贯"
+        ]
+      },
+      {
+        "id": "book017-b001112-p000-b2a8b03eba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001113-p000-d447d74679",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名“ね”的错乱字符，无法进行有效释读，释读直接保留未说明该字符属于原文错乱"
+        ],
+        "uncertainty": [
+          "原文存在错乱字符，“ね气”语义不明，整句无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001114-p000-5d97ce2793",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名“ね”及不明术语“王水”，释读直接保留未说明这些内容属于原文错乱或语义不明，且将“赤须”译为“必须”属于无依据改字"
+        ],
+        "uncertainty": [
+          "原文存在错乱字符，“ね山”“王水”语义不明，“赤须”含义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001116-p000-3187f6c08d",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在无法识别的字符“F”，无法释读"
+        ],
+        "uncertainty": [
+          "原文存在无法识别的字符，语义完全不明"
+        ]
+      },
+      {
+        "id": "book017-b001117-p000-2f2dba7a22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001119-p000-04d0eefc23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“紫微文化服務社公地理辨正真訣下”存在语序或文字错乱，释读直接认定为“此处署名为紫微文化服务社公地理辨正真诀下”属于无依据确定为署名，未标注语义存疑"
+        ],
+        "uncertainty": [
+          "原文“公地理辨正真訣下”语序不通，语义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001121-p000-dc00ecd208",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2030,
+    "completion_tokens": 1213,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2030,
+      "completion_tokens": 1213,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

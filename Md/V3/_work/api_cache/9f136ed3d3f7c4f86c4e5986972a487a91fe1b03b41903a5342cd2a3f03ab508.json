@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T02:17:28.309658+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9f136ed3d3f7c4f86c4e5986972a487a91fe1b03b41903a5342cd2a3f03ab508",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000165-p000-ac1db9f4c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000167-p000-8b20f2da22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000168-p000-6b8891ab19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "文中“公刘将居幽也”的“幽”为地名“豳”的误写，candidate误译为“幽地”，不符合历史事实",
+          "张子微原文中“以道而不以地”的“地”指地理形势/风水地势，candidate译为“地理”概念模糊，易产生歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000169-p000-7924ba9706",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有残缺，内容不完整"
+        ]
+      },
+      {
+        "id": "book019-b000170-p000-5da25da077",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000171-p000-573c0a82fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此理固先天地而有”指该道理在天地形成之前便已存在，candidate译为“先天就存在”误用了locked_terms中的“先天”术语，不符合原文含义",
+          "原文“岂非地理之明征乎”的“地理”指风水地理规律，candidate译为“地理方位作用”属于无依据增译，偏离原文意思"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000172-p000-3d669cb80a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000173-p000-33a07c806f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000175-p000-b9836cb6b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000176-p000-0443db8852",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2423,
+    "completion_tokens": 641,
+    "cached_prompt_tokens": 2360,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2423,
+      "completion_tokens": 483,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2423,
+      "completion_tokens": 641,
+      "cached_prompt_tokens": 2360,
+      "usage_estimated": false
+    }
+  ]
+}

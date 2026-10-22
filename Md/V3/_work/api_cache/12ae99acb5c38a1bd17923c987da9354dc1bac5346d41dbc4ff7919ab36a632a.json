@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-24T14:44:15.052760+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "12ae99acb5c38a1bd17923c987da9354dc1bac5346d41dbc4ff7919ab36a632a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000839-p000-9ce66c0f31",
+        "modern_text": "公元46384年的「閉物」篇至此结束。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文中「A.D.46,384」的逗号为千位分隔符，并非公元年份的一部分，候选译法将其误译为公元46384年，属于数字误译"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 111,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1184,
+      "completion_tokens": 111,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-26T13:26:48.075632+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "086edd9eb6fd46929d4b0c9030e8818be0d149bc8986ff9810a6d8674ef4a817",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001427-p000-511db10a18",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确仅提及午宅不宜兴工起事，候选擅自改为‘所有相关宅位都不宜动工起事’，属于无依据扩大范围，违背原文内容",
+          "原文干支为‘己酉’，候选误写为‘已酉’，专业干支表述错误",
+          "原文‘动静殊致’指太岁本身动静状态的影响差异，候选曲解为‘人采取行动或是静处所遭受的灾患程度各不相同’，不符合原文表意",
+          "原文‘非天从岁月神意之道也’的正确表意是‘并非上天顺从岁月神灵的意志行事’，候选修改后的表述偏离原文原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001430-p000-fa9a60a7c0",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘病不安嬖，幸乳母野王君主圣舍’的断句存在歧义，当前版本表述为‘安帝宠爱的乳母野王君王圣的居所，太子曾前往暂住’，候选表述为‘住在受宠的乳母野王君王圣的居所里’，两种解读均无绝对可靠的原文断句依据，无法判定孰优孰劣"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 405,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1033,
+      "completion_tokens": 405,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

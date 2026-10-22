@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-24T07:06:49.510734+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5b466adfb017cc97f89e774af324af8a1fa3c66814a9043872bc855df2506571",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000026-p000-232e030f5f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000027-p000-0135253226",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000028-p000-3fd41badb2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "某、秋、干步所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000029-p000-e1de777ee3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000030-p000-03f799c646",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "玖、斜戎、臧所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000031-p000-252bd02220",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000032-p000-5f828d37eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“鬼 光坎穴物斜口人狀怕日露水肉如死蛇”断句错误，candidate将“鬼”与“光坎穴”拆分后断句为“龙曲带鬼光；坎穴物斜口人状”，割裂了原文“鬼光坎穴”的连续表述，属于断句不当导致语义偏差；allowed_glossary中“坎”已有明确定义，不应列入uncertainty项"
+        ],
+        "uncertainty": [
+          "秋、颜、桐、厘、玻、殽、扛、伯腴五、象、鬼光、几、交弗、穰康所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000034-p000-ba853550c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“坎”已有明确定义，不应列入uncertainty项；原文“用不青而投窮矣”candidate未做释义直接保留“用不青而投穷矣”，属于未转换为现代中文；uncertainty中存在前条无关的“颜、桐、厘、玻、殽、扛、伯腴五、象、鬼光、几、交弗、穰康”内容，属于误列"
+        ],
+        "uncertainty": [
+          "秋、玖城、彬、段尺、纪、权、乗所指不详；原文存在多处断句、文字错乱，已按上下文逻辑调整，部分内容无法完全确认"
+        ]
+      },
+      {
+        "id": "book010-b000035-p000-07ef1f0f78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000037-p000-712969154b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若夫山之偃便側勒水之激割冲射則靜不萬靜動不禹動山冰之不融待者也”被错误释读为“至于山之偃侧勒，水之激割冲射，则是静中见动、动中见静的表现。山不会永远静止，水不会永远流动，这是自然之理”，存在多处语义错误：原文“靜不萬靜動不禹動”“山冰之不融待”属于讹误或未明表述，candidate无依据将其解释为“静中见动、动中见静”“山不会永远静止，水不会永远流动，这是自然之理”，属于增译并把不确定内容写成确定事实；原文“水本動秋在靜处”candidate改为“水本动，妙在静处”，无依据将“秋”释为“妙”，属于误译；原文“斷非秸地之所可知矣”“秸地”为“结地”讹写，candidate译为“绝非结成地穴的地方，由此可知”，但未标注“秸地”原文讹误，属于未明确原文错漏"
+        ],
+        "uncertainty": [
+          "原文“靜不萬靜動不禹動”“山冰之不融待”“水本動秋在靜处”等表述存在讹误或不明，具体含义待考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4261,
+    "completion_tokens": 1167,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4261,
+      "completion_tokens": 1167,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

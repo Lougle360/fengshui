@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T10:15:22.701178+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1a9e23c03e93e44f95b9442d47b68eabf65a2c7b9b1a396b3f0db41ff782fca2",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000655-p000-679737081a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000656-p000-e1ae872ebd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000657-p000-94585c6ac5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000658-p000-9d52b324a0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"杀人如卑\"含义不明，candidate释为\"导致严重不利\"属于无依据扩写；\"贵人\"未明确界定，candidate释为\"贵人对应的地支\"属于无依据扩写"
+        ],
+        "uncertainty": [
+          "\"杀人如卑\"具体所指不详",
+          "\"贵人\"具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1580,
+    "completion_tokens": 273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1580,
+      "completion_tokens": 273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

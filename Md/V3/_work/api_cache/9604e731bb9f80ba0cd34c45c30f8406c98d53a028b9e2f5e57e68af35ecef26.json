@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-24T13:26:46.713374+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9604e731bb9f80ba0cd34c45c30f8406c98d53a028b9e2f5e57e68af35ecef26",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000110-p000-b4ad81c17b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中「乍ち視乍ち瞑する」的释读为“人刚看东西时眨眼”，原文未明确说明“乍ち視乍ち瞑”的具体所指，此处释读存在一定不确定性"
+        ]
+      },
+      {
+        "id": "book015-b000111-p000-567ddf958a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000112-p000-cfae0543ce",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「易数の神秘的べールを剝ぎとらなかった」的释读为“并未揭开易数神秘的面纱”，与原文含义相反，原文应为“并未揭开易数神秘的面纱”？不，原文是「剝ぎとらなかった」，即“没有剥掉”，也就是“没有揭开”，此处释读正确？不对，再看，原文是「碩学が敬虔に易学を修め，易数の神秘的べールを剝ぎとらなかった」，即“硕学虔诚研习易学，没有剥掉易数的神秘面纱”，而候选释读为“并未揭开易数神秘的面纱”，其实是对的？不对，再检查，候选里写的是“并未揭开易数神秘的面纱”，原文是“剝ぎとらなかった”，即“没有剥掉”，也就是“没有揭开”，所以是对的？那issues里的问题？哦，不对，再看，原文中「同点を主張するのは難しくなく」的释读是“主张这一观点并不困难”，正确。那这个条目应该是accept？不对，再仔细看，候选里的“并未揭开易数神秘的面纱”，原文是“剝ぎとらなかった”，即“没有剥掉”，也就是“没有揭开”，所以是对的。那这个条目verdict是accept？不对，再看，用户给的候选里的这段：“即便是在反神秘主义的清代学术中，也很容易指出那些学识渊博的学者虔诚地研习易学，并未揭开易数神秘的面纱。” 原文是「碩学が敬虔に易学を修め，易数の神秘的べールを剝ぎとらなかった」，即“硕学虔诚研习易学，没有剥掉易数的神秘面纱”，也就是“没有揭开”，所以释读正确。那这个条目是accept？},{",
+          "id",
+          "book015-b000113-p000-deccdbc2bd",
+          "verdict",
+          "accept",
+          "confidence",
+          "high",
+          "issues",
+          "[]",
+          "uncertainty",
+          "[]"
+        ]
+      },
+      {
+        "id": "book015-b000113-p000-deccdbc2bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 890,
+    "completion_tokens": 48,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2486,
+      "completion_tokens": 697,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 890,
+      "completion_tokens": 48,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

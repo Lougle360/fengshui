@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T23:44:28.147792+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "6957db00a1b79c5d88ad3febb7c2943621db7de79a14e591b0bd729c302ef31b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005014-p000-5be03b5ea7",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档021 PDF第82页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005017-p000-061840c353",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十四：穴格第三十九",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 232,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1204,
+      "completion_tokens": 232,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T14:16:45.444817+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "99d48c7dbc4eaabd327cfcc3a90bb5a1bcbe047fbd290bea04b37d7e83abdb54",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000336-p000-fca86f5fdb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中属于语义不明部分的“若八贵君有砂护的情形并非合格的穴”当作确定语义释读，违反释读规则，原文“罪達無有空胡時八貴君有沙護 為穴故切忌之”整体语义未明，不得自行推导逻辑；原文“之雪為可嫌耳”释读为“积雪的状况是值得嫌忌的”无依据，“之雪”语义未明，不应直接判定为积雪"
+        ],
+        "uncertainty": [
+          "“罪達無有空胡時八貴君”具体语义尚未完全明晰",
+          "“之雪”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000337-p000-a6f3d3b3f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“孫單獨 恐 也元”字句有残缺，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000341-p000-606321a3a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "本段原文存在大量识别错误、文字残缺和语序混乱，整体无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1518,
+    "completion_tokens": 321,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1518,
+      "completion_tokens": 321,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T19:34:52.128711+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9b61246d7f84364f2d23f585a7f99717dc603780d37091f74cd81703941d67b7",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002837-p000-b530be336f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘受益至多应该努力施有于之平险的事务’存在断句、文字讹误，候选释读未对应原文的讹误，且将‘平险的事务’释为‘身处险难的事务’无依据，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文‘受益至多应该努力施有于之平险的事务’语义含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book016-b002838-p000-7c4552ba09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002839-p000-a3b1216333",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002840-p000-a42d269e43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1337,
+    "completion_tokens": 279,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1337,
+      "completion_tokens": 279,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-10-18T10:49:42.378137+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1bf96327ce67f901dbbfa14556c4ccafdd80af19fa8966224940cdadd54e6490",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006214-p000-759916edde",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译‘壬午在乾得風火家不入十六龍巽宮二世已巳管其地主白沙泥木根丑已辛示才俱巽辛已中寄坤’。candidate 将‘壬午在乾得風火家’释为‘位于乾宫得‘风火家’’，但原文‘得風火家’可能指卦象或格局，candidate 未明确其为不确定项，且‘具体所指不详’的标注位置不当，导致后续‘不入十六龙巽宫二世’等关键信息被遗漏或误接。‘丑已辛示才’释为‘丑已辛示才’未作处理，应标注为不确定短语。"
+        ],
+        "uncertainty": [
+          "风火家",
+          "示才",
+          "十六龙"
+        ]
+      },
+      {
+        "id": "book035-b006216-p000-04d194d515",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译‘巳酉才乾已亥鬼中寄坤巳丑子孫巽巳未子孫兌’。candidate 将其整体标注为‘这些短语的具体所指不详’，但未逐项列出，且未保留原文短语的完整呈现，不符合‘允许引用必要的短语来说明歧义’的边界。应将各短语（如‘巳酉才乾’）分别列出并标注不确定。"
+        ],
+        "uncertainty": [
+          "十六龙",
+          "巳酉才乾",
+          "已亥鬼中寄坤",
+          "巳丑子孙巽",
+          "巳未子孙兑"
+        ]
+      },
+      {
+        "id": "book035-b006217-p000-29fa333444",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "午九龙"
+        ]
+      },
+      {
+        "id": "book035-b006219-p000-04cd920978",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "禄马文权合贵格"
+        ]
+      },
+      {
+        "id": "book035-b006220-p000-fa1141a1c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译‘無已午火才巳卯子孫已鬼’。candidate 将其释为‘文中提到‘无已午火才’、‘巳卯子孙’、‘巳鬼’’，但原文是连续短语，candidate 的断句和呈现方式可能改变了原意，且未明确标注这些为不确定项。应直接引用原文短语并标注不确定。"
+        ],
+        "uncertainty": [
+          "无已午火才",
+          "巳卯子孙",
+          "巳鬼"
+        ]
+      },
+      {
+        "id": "book035-b006221-p000-0494cd9d5c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "多处将原文连续叙述拆分为过短的片段并标注‘具体所指不详’，导致释读支离破碎，且可能误解了原文的句读。例如，‘天星祿存金間干支得地格’被拆为‘天星禄存金镜间，干支得地格’，‘借馬在子一合貴人二合出借馬乃文章重重俊秀之六’被拆为‘借马在子，一合贵人，二合出借马，乃文章重重俊秀之六’。这种处理方式不符合‘为形成现代汉语句子而补出连接词’的允许边界，实质上是将连贯的专有名词或术语拆解并过度标注不确定。应整体保留原文短语，或按更合理的句读进行释读，仅对确实含混的整块内容标注不确定。"
+        ],
+        "uncertainty": [
+          "天星禄存金镜间，干支得地格",
+          "四神相逢，借马在子，一合贵人，二合出借马，乃文章重重俊秀之六",
+          "未巳巳二穴",
+          "旺宫武曲水",
+          "奎木狼管山，狼为兽，何得暴平",
+          "天门",
+          "火库",
+          "得木之得水之旺",
+          "笔阵",
+          "贯珠开跨",
+          "肠胃",
+          "五旬"
+        ]
+      },
+      {
+        "id": "book035-b006222-p000-3b6f902d28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘乾乾高’释为‘乾乾高’未作处理，应标注为不确定短语。‘寅高出聰明顯赫’释为‘寅高出聪明显赫’，‘寅高’可能指方位或山形，candidate 未标注不确定。"
+        ],
+        "uncertainty": [
+          "无已午财",
+          "巳卯子孙",
+          "乾乾高",
+          "寅高"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3075,
+    "completion_tokens": 982,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3075,
+      "completion_tokens": 982,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

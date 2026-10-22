@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-25T21:00:24.272670+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "334840030507699732794019f7a963f3a7c33c455fa515904ae05389b0252608",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000857-p000-2f134a391d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“世膺壞爵”被误释为“世代承袭爵位”，“壞爵”含义未明，不应直接等同于正常的爵位承袭；原文“術未紫滿門”被遗漏未释；原文“功天下褒膺後昆”被释为“功绩闻名天下，福泽还能惠及后代”，存在语序调整导致的语义偏差，原文语序及具体含义待考；表格中左侧原文末尾的“聘一 心y.”等缺损内容未标注说明；右侧原文末尾“恐或以生人者反爲”未完整释读，直接补为“本来想要造福于人，反而变成了害人”属于无依据增译"
+        ],
+        "uncertainty": [
+          "“世膺壞爵”“術未紫滿門”具体语义未明"
+        ]
+      },
+      {
+        "id": "book030-b000881-p000-591db7347c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未按要求将古文转换为现代中文，几乎完全保留原文文言表述，不符合“普通读者能读懂的白话释读”要求；原文“龍 原有衆山隨穴結”句有缺字，candidate直接写为《龍經》属于无依据补全；原文“然洩”未作释义，保留文言表述；原文“撰休九十”仅标注语义不明，但未按白话要求处理"
+        ],
+        "uncertainty": [
+          "“圓註”“休九十”“然洩”语义不明，原文“龍”后存在缺字无法确定是否为《龍經》"
+        ]
+      },
+      {
+        "id": "book030-b000882-p000-0a5285a1f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未按要求将古文转换为现代中文，大量保留文言表述，不符合白话释读要求；原文“龍之眞儒”被误写为“龍之真偽”，语义偏差；原文“不禎人身來性命”未作合理释读，直接保留文言且含义不明"
+        ],
+        "uncertainty": [
+          "“不禎人身來性命”具体语义未明"
+        ]
+      },
+      {
+        "id": "book030-b000883-p000-334a2b3b73",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“撥砂慾”语义不明，原文仅三字无法进一步释读"
+        ]
+      },
+      {
+        "id": "book030-b000884-p000-27fa210f33",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000885-p000-33802e76c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“值师扞”被误写为“值师所扦”，“扞”与“扦”含义不同，属于形近误译；原文未提及“进士”，candidate自行添加“进士”表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“白玉蟾值师扞”语义不明，原文未明确“值师”的身份、“扞”的具体行为，candidate处理为“白玉蟾值师所扦”属于无依据的确定解释"
+        ]
+      },
+      {
+        "id": "book030-b000886-p000-bd9badd4dc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“卷叫六”语义不明，疑为文字讹误"
+        ]
+      },
+      {
+        "id": "book030-b000887-p000-bf87c662fe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未按要求将古文转换为现代中文，大量保留文言表述，不符合白话释读要求；原文“參八”“曰後”等讹误或缺字内容未作标注，直接保留原文写法；原文“所糞板片章成书本”语义不明，未作说明直接保留"
+        ],
+        "uncertainty": [
+          "“開閏”“番恢”“糞板片章”“參八”语义不明，原文存在多处文字讹误或缺损"
+        ]
+      },
+      {
+        "id": "book030-b000888-p000-4082d9d2f7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在文字缺损，参与编校人员姓名无法完全确认"
+        ]
+      },
+      {
+        "id": "book030-b000889-p000-9cc18f2b60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“張廷種聖木”语义不明，原文仅五字无法进一步释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 741,
+    "completion_tokens": 158,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4664,
+      "completion_tokens": 1031,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 741,
+      "completion_tokens": 158,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

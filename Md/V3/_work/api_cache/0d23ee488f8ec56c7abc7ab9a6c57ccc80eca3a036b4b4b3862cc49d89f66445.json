@@ -1,0 +1,184 @@
+{
+  "created_at": "2026-09-23T13:07:34.443061+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0d23ee488f8ec56c7abc7ab9a6c57ccc80eca3a036b4b4b3862cc49d89f66445",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000587-p000-c9811c6139",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'三四地面'和'二三百地面'中的'地面'，candidate释为'步的地面'，增加了'步'这个单位，属于无依据扩写。应保留'三四百地面'和'二三百地面'，或明确标注'原文未明具体单位'。",
+          "原文'负成方'，candidate释为'地势方正'，释义基本准确，但'负'字未译出。'负'有承载之意，此处'负成方'可能指承载形成方正之形。建议在uncertainty中标注。",
+          "原文'瞬肩开翘'，candidate释为'耸肩开翘'，'瞬'字可能为'耸'之误或通假，但未标注不确定性。"
+        ],
+        "uncertainty": [
+          "'负成方'中'负'字的具体含义。",
+          "'瞬肩'是否为'耸肩'之误或通假。"
+        ]
+      },
+      {
+        "id": "book003-b000588-p000-4fdba87976",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000589-p000-59c160165f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000590-p000-f73bfa8132",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'入路而玉尺经 卷五'，candidate释为'入路而见，出自《玉尺经》卷五'。'入路而'与'玉尺经'之间原文有空格，可能表示'入路'是前文'三关四锁'的修饰，'而'后接'玉尺经'。candidate添加'见'字并断开，改变了原文结构。应调整为'三关四锁入路，而《玉尺经》卷五'或类似，并标注'入路'含义不确定。"
+        ],
+        "uncertainty": [
+          "'入路'在此处的确切含义和语法结构。"
+        ]
+      },
+      {
+        "id": "book003-b000591-p000-13e35d3c21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000592-p000-ed586f3d11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000593-p000-23ca64be2b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000594-p000-1802693384",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000595-p000-241b074e64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000596-p000-30a84710cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000597-p000-e94f98779b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000598-p000-c31a94066e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'卷五 十三'，candidate释为'出自卷五十三'。原文空格可能表示'卷五'和'十三'是分开的，如'卷五'是总卷，'十三'是条目编号。candidate合并为'卷五十三'，可能改变了原意。应保留'卷五十三'或标注原文格式。"
+        ],
+        "uncertainty": [
+          "'卷五 十三'的确切指代。"
+        ]
+      },
+      {
+        "id": "book003-b000600-p000-88f7c4ddbf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000601-p000-d10f01f5f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000602-p000-0eed9453ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000603-p000-dea23e2df2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000604-p000-098e010bbe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000605-p000-edd044d9a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'登要隻隻回頭願祖'，candidate释为'登要只只回头，顾祖'。'登要'含义不明，candidate直接保留而未标注不确定性。应标注'登要'含义不详。",
+          "原文末尾'卷五 十四'，candidate释为'出自卷五十四'。同前例，原文空格可能表示'卷五'和'十四'分开。应保留'卷五十四'或标注原文格式。"
+        ],
+        "uncertainty": [
+          "'登要'的确切含义。",
+          "'卷五 十四'的确切指代。"
+        ]
+      },
+      {
+        "id": "book003-b000606-p000-a6b1e691d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000607-p000-fa96bc9d60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4372,
+    "completion_tokens": 1261,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4372,
+      "completion_tokens": 1261,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

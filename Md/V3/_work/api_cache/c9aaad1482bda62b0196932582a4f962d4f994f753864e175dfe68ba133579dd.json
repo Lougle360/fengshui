@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-17T17:51:46.603939+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c9aaad1482bda62b0196932582a4f962d4f994f753864e175dfe68ba133579dd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004222-p000-c60b42fe25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'发挥日'释为'《发挥》说'并推测'日'为'曰'之误，但原文'发挥日'可能为'发挥曰'，也可能是'发挥日'（如书名或篇名），candidate直接定为书名《发挥》并加引号，属于无依据扩写。",
+          "candidate将'超尖'释为'原文如此，具体所指不详，或为“梢尖”之误'，但原文'超尖向穴凶'中'超尖'可能为'超尖'（如超出、尖突），candidate推测为'梢尖'之误，属于无依据扩写。",
+          "candidate将'略主其'释为'原文“略主其”语意不全，具体所指不详'，但原文'略主其'后可能缺字，candidate直接断定为'语意不全'，虽标注不详，但释读未忠实于原文可能存在的连贯性（如'略主其说'等），属于不完整释读。"
+        ],
+        "uncertainty": [
+          "'发挥日'的'日'字确为OCR常见错误，但'发挥'是否为书名存疑。",
+          "'超尖'具体含义不详。",
+          "'略主其'后文缺失，导致语义不完整。"
+        ]
+      },
+      {
+        "id": "book035-b004225-p000-ce64d24537",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格第一行'謂皆不起巒阜則似降旗故以爲凶皆辨折毫厘之間盡曜最閒科害不得不精致其別也'释为'若山峦起伏皆不起势，则像降旗一样，因此主凶。这些吉凶都在毫厘之间辨别，至于“最閒科害”（原文如此，具体含义不详），不得不精细区分其差别。'，但原文'盡曜最閒科害'中'盡曜'可能指所有曜星，'最閒科害'可能为'最闲科害'（如科甲危害），candidate将'盡曜'漏译，并将'最閒科害'整体视为一个短语，属于漏译和误译。",
+          "candidate将'右托月曜星犬'释为'“犬”字具体指形状还是误识，不详'，但原文'犬'可能为'状'或'形'之误，candidate未尝试保守释读（如'形状'），而直接引用生僻字，属于不完整释读。",
+          "candidate将表格内容逐行描述，但未按原文表格结构（如跨行跨列）准确反映，属于结构失真。"
+        ]
+      },
+      {
+        "id": "book035-b004227-p000-83ea1378c0",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文文字错乱严重，语序和逻辑关系已完全破坏，candidate仅列出片段并声明无法解释，符合uncertain条件。"
+        ]
+      },
+      {
+        "id": "book035-b004228-p000-9a9ecb4cee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004233-p000-fd1cb78f7a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'将麾幢由此取殿岩尊不贵可当子孙旌节多节度'释为'关于“将麾幢由此取殿岩尊不贵可当子孙旌节多节度”一句，原文断句和语义不清，可能意为“将麾幢由此取，殿岩尊不贵，可当子孙旌节多节度”，但具体所指不详。'，但原文可能为'大將麾幢由此取，殿岩尊不貴，可當子孫旌節多節度'，candidate未尝试基本断句和浅显释义（如'大将的旌旗仪仗可由此取得，殿岩之尊虽不显贵，但可当子孙的旌节，多有节度'），而直接引用长句并标注不清，属于不完整释读。"
+        ]
+      },
+      {
+        "id": "book035-b004235-p000-814eb05c73",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2857,
+    "completion_tokens": 948,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2857,
+      "completion_tokens": 948,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

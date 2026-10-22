@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-09-26T15:02:14.514690+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "58b0ae93a8e49c73ccaee1e4010a2369f9c1a5c3a7d62dc625661b8dbdf0f63d",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000395-p000-53c0ee10e1",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自添加了原文不存在的“风水格局里”“推测会”“达到宫位的基本要求”“后代”“格局就不纯正”等解释性内容，原文“出與宦”被误译为“出官宦人家”，无原文依据支持该引申，违背了不得擅加无依据解释的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000396-p000-382b9eb5c5",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文存疑的“当星马”“产贤艮”“回禄”添加了无明确原文依据的推测解释，如称“当星马可能指对应星宿或形容山峰态势”“艮字可能为良的讹误”“回禄是火灾”，属于无依据的主观解读，违背保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000397-p000-f3434a31b6",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文存疑的“哉生名土”“蕃射策金門朝第一”“各文天”“隸姑繅絲白如雪老萊戲彩娛晨昏”添加了无原文依据的推测，如称“哉可能是灾的通假字”“推测是参加科举射策金榜题名”“各文天可能是名闻天的讹误”“是古代孝行典故形容子孙孝顺”，均无可靠原文支撑，属于擅自解读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000401-p000-2c250a86cc",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文存疑的“不深”擅自推测为“不贞的讹误”，无原文依据支持该改字，属于擅改原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000402-p000-438a60d478",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文存疑的“巾水”擅自推测为“巽水的形近讹写”，无原文依据支持该改字，属于擅改原文内容；将“博换”改为“剥换”，无依据证明为通用术语替代，违背原文保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000404-p000-b26f667e44",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文存疑的“兜發”“判筆庚兌辛雷動天潢世無敵”添加了无依据的解读，如称“兜发是形状如同头盔、发髻般的剑戟形山峰”“判笔是判官笔形状的山峰”“天潢指皇族世系”，均无原文支撑，属于擅自解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000405-p000-e27f062d6d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自将原文开头的“VN”判定为OCR错误要求忽略，无明确依据证明该内容为衍文；将“皆辛峰”推测为“与辛峰的讹误”，无原文依据支持该改字，属于擅改原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000406-p000-c6d17ea2dd",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文存疑的“吳酉”“曹武曲”“官易期”添加了无依据的推测，如称“吳酉很可能是庚酉的讹误”“曹可能是巽的讹误”“官易期指官职易得指日可期”，均无可靠原文支撑，属于擅自解读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000407-p000-9db553720a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“則古若”两版均未准确释读，candidate将“古若”删去未作说明，存在小瑕疵，但整体表述比current更通顺，且未添加无依据内容，核心含义未偏离原文"
+        ]
+      },
+      {
+        "id": "book002-b000409-p000-f16d0870cd",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [],
+        "candidate_verdict_rationale": "candidate明确指出原文卦变部分的“吴”字为疑讹字、术语逻辑存在矛盾，未强行无依据解读，比current强行通顺原文错误内容更符合保守原则；对其余内容的释读符合原文，专业术语使用准确，未擅改原文"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4404,
+    "completion_tokens": 1351,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4404,
+      "completion_tokens": 1351,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

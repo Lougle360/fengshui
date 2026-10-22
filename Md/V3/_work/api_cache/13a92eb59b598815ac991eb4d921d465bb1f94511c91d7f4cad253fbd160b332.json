@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-15T03:13:35.113358+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "13a92eb59b598815ac991eb4d921d465bb1f94511c91d7f4cad253fbd160b332",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001799-p000-2d5dfaea6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'子癸脈入首作丁向兼午'，candidate释为'子癸脉入首，作丁向兼午'，将'子癸'视为一个整体，但原文可能指子脉或癸脉，或子癸之间的脉，释读不够准确，应保留原文术语并说明其不确定性。",
+          "原文'江野公官都諫建議尤多忠鯁凜然'，candidate释为'江野公官至都谏，建议众多，忠诚刚正，凛然不可侵犯'，其中'凛然'释为'凛然不可侵犯'属增译，应简化为'凛然'或'凛然有威'。",
+          "原文'六子三登科第時稱一麟三鳳喬衡州守喬吳通守喬桂翰林官貴未艾'，candidate释为'长子乔任衡州守，次子乔任吴通守，三子乔桂任翰林'，将'乔'视为人名并分配为三子，但原文'乔'可能为姓氏或人名，且'乔衡州守'、'乔吴通守'、'乔桂翰林'结构并列，释读过于具体化，应保留原文并列结构并说明不确定性。"
+        ],
+        "uncertainty": [
+          "'子癸脈'具体指子脉、癸脉还是子癸之间的脉，原文未明。",
+          "'乔衡州守'、'乔吴通守'、'乔桂翰林'中'乔'是姓氏还是人名，以及三者具体关系，原文未明。"
+        ]
+      },
+      {
+        "id": "book033-b001801-p000-a08eda8789",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001802-p001-9e06f9fd52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001803-p000-535a9fcc75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'杭州李狀无祖名旻'，candidate释为'杭州李氏，其祖名旻'，但原文'狀无'可能为'狀元'之误，指李旻为状元，candidate漏译此关键信息，应修正为'杭州李状元祖名旻'或说明原文可能指状元。"
+        ],
+        "uncertainty": [
+          "原文'狀无'可能为'狀元'的OCR错误，具体所指需核对原书。"
+        ]
+      },
+      {
+        "id": "book033-b001806-p001-069c554998",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001807-p000-1feee5c744",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001808-p000-92b6b6004c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'左應長房幼應幼房'，candidate释为'左边对应长房，右边对应幼房'，但原文'幼應幼房'中'幼'可能指'右'（因形近或OCR错误），或指幼房，释读将'幼'直接对应'右边'缺乏依据，应保留原文并说明歧义。",
+          "原文'吳公云但凡水頭貴蠻璞最怕冲心射脇'，candidate释为'吴公说：凡是水头，贵在蛮璞，最怕冲心射胁'，其中'蛮璞'为opaque_term，但candidate未加引号引用，应修正为'贵在“蛮璞”'。"
+        ],
+        "uncertainty": [
+          "'幼應幼房'中'幼'字可能为'右'之误，或确指幼房，原文未明。",
+          "'蛮璞'具体含义不详。"
+        ]
+      },
+      {
+        "id": "book033-b001810-p000-6550363ea8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001812-p000-9227d21fe6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001814-p000-513be295c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1963,
+    "completion_tokens": 993,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1963,
+      "completion_tokens": 993,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

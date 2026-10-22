@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-25T12:48:43.518148+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "56c5016db72edc79295263dbb26070434b081f27795851e69d9cdf75d312c16e",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000101-p000-193cc4fd2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“止”为“北”的形近讹误属于推断，未得到版本学验证",
+          "“有情書”中的“書”为讹字，具体含义无法确定",
+          "“五林”“五承告”无可靠释义，仅按原文保留"
+        ]
+      },
+      {
+        "id": "book026-b000104-p000-a71e508bed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为残句，仅能根据现有文字做通顺化处理，完整语义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000107-p000-3b085bf3ca",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文多处语序混乱，仅能结合风水术语做大致梳理，部分语句语义无法完全确定",
+          "“F”为OCR识别错误，对应原文字无法确认",
+          "部分生僻风水短语无可靠释义，仅按原文语序整理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2211,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2211,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

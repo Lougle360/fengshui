@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:42:51.177091+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "db09412431bb4dc878964fb918f7a730dafe35d38a443ca77fa621190d990064",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000884-p000-0577d94c1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000885-p000-fd624e60c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000892-p000-46c18c6683",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"99官\"未作任何说明，属于无依据的数字添加，不符合原文内容"
+        ],
+        "uncertainty": [
+          "\"官沙\"的具体含义原文未明确，释读中未作标注"
+        ]
+      },
+      {
+        "id": "book014-b000896-p000-7bc26d2216",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"顺後兒\"的\"兒\"属于OCR识别错误，释读中直接译为\"山体\"，未明确标注该识别错误，且\"鬼\"的具体风水含义原文未明确，释读中直接赋予风水相关含义，缺乏依据"
+        ],
+        "uncertainty": [
+          "\"鬼\"的具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2111,
+    "completion_tokens": 326,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2111,
+      "completion_tokens": 326,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

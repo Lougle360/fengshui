@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-23T11:53:46.514070+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "80350f1fb437178164ff21d542c3f8b6f2dcf2bf81e33696bd3f9946b58cf93b",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000439-p000-4086101f63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "雄媾合玄",
+          "男女玄牝之門",
+          "育水魯之處"
+        ]
+      },
+      {
+        "id": "book003-b000443-p000-d55ddab0d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘顺去直来或直去顺来’被译为‘顺去，直来或直去，顺来或顺来’，存在重复和逻辑不清。应为‘顺去直来，或直去顺来’。",
+          "原文‘腹心穿叢’漏译。",
+          "原文‘子孙逃宽，军徒刑横’中的‘逃宽’和‘刑横’被处理为不确定短语，但‘军徒刑横’整体含义应为‘遭受军役、徒刑等横祸’，candidate未作此基本释义，仅标注‘刑横’不明，属于漏译。",
+          "原文‘出入訐詐無信不仁’中的‘訐詐’被写作‘訐诈’，存在异体字/错字，应为‘讦诈’或‘奸诈’。"
+        ],
+        "uncertainty": [
+          "不頸堂局",
+          "东牵西洁",
+          "子孙逃宽"
+        ]
+      },
+      {
+        "id": "book003-b000446-p000-20b19cd5a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘尺經 卷之四’是独立的一行，表示章节信息，candidate将其与上文内容连读，误译为‘则主尺經 卷之四 入氣散不聚’，属于严重误译。应单独处理或说明其为章节标题。",
+          "原文‘作震向疆受’被译为‘作震向“疆受”’，但‘疆受’可能为‘疆域受气’或特定术语，candidate仅标注不详，未尝试基本释义（如‘在疆域方位受气’），属于保守但可接受的边界，但结合前误，整体需修订。",
+          "原文‘要避雙金真氣’被译为‘要避“双金”真气’，但‘双金’在风水中有明确指代（如两金相克），candidate仅标注可能为术语，未引用allowed_glossary或说明其可能含义，属于风险标注，可接受，但结合章节误译需整体修订。"
+        ],
+        "uncertainty": [
+          "气滇不收",
+          "四维",
+          "疆受",
+          "双金"
+        ]
+      },
+      {
+        "id": "book003-b000447-p000-452c96a2a6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source文本‘受直氣阴沙長 形風蜈天上’语义破碎，可能为OCR错误或原文损坏。candidate仅说明语义不明，未提供任何可能的、保守的断句或释义尝试，符合uncertain标准。"
+        ],
+        "uncertainty": [
+          "受直氣阴沙長 形風蜈天上"
+        ]
+      },
+      {
+        "id": "book003-b000449-p000-2deaffa48e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source文本‘能體出身沙頭長直’中的‘能體’应为‘龍體’之误。candidate未指出此明显讹误，直接使用‘能体’，导致释读基础错误。",
+          "source文本‘中間有水挿入內王尺經 卷之四’中‘內王’可能为‘內穴’或‘內局’之误，且‘王尺經 卷之四’应为独立章节信息。candidate将‘內’与‘王尺經’连读，处理不当。"
+        ],
+        "uncertainty": [
+          "王尺經 卷之四"
+        ]
+      },
+      {
+        "id": "book003-b000450-p000-63edf147c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "农受"
+        ]
+      },
+      {
+        "id": "book003-b000456-p000-8a638d4583",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "袭闲双徽"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3469,
+    "completion_tokens": 948,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3469,
+      "completion_tokens": 948,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

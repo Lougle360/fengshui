@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-25T03:47:25.157869+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5a406cf2b605350bcb86ed50ca0afbd539a2cd9d9c5d43f887dddf7957352ae5",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000807-p000-0c0f94185f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000817-p000-bf9d9b0943",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“仅寻丈之土”的“寻丈”指八尺到一丈左右的范围，候选将其译为“只有一丈左右的土层”，缩小了原文表述的范围，语义不准确；原文“异曰富贵无穷”应为“异日富贵无穷”，候选译为“日后会有无穷的富贵”虽语义符合，但需确认是否为原文传抄差异，不过核心问题是“寻丈”的释读偏差"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1722,
+    "completion_tokens": 212,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1722,
+      "completion_tokens": 212,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

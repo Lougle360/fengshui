@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T14:05:44.753894+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "76f5765ec07e535a64db7b90cf831254aa44b26e4b18958672bfe821f2ead824",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000480-p000-f65ea73f01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000481-p000-285dedadeb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「各定母で衍母を割って」应为「用衍母除以各定母」，候选句存在语义颠倒的错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000482-p000-39526c62c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000483-p000-0ce538ce1f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的 $x ^ { 5 } > \\tau$ 含義不明，無法確定其具體所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1673,
+    "completion_tokens": 253,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1673,
+      "completion_tokens": 253,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

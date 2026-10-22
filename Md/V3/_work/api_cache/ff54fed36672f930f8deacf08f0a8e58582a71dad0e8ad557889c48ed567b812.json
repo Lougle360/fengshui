@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:26:28.829840+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ff54fed36672f930f8deacf08f0a8e58582a71dad0e8ad557889c48ed567b812",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000281-p000-001d54db75",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000282-p000-a4a1f4904b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的“科坎”直接释为八卦之“坎”，未标注该释读为推测，且“乐法”“旋锅”“晕”“铺”等术语未按要求标注具体所指不详"
+        ],
+        "uncertainty": [
+          "“乐法”“科坎”“旋锅”“晕”“铺”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000284-p000-ed11ece694",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“癯展庸”“塟穴”“正求架折图”“化就虎身”等术语未按要求标注具体所指不详"
+        ],
+        "uncertainty": [
+          "“癯展庸”“塟穴”“正求架折图”“化就虎身”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000286-p000-72ef854f7f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“旺尤星”“太阳星”“王象尺”“太乙星”“烟虫”“鸡距”等术语未按要求标注具体所指不详"
+        ],
+        "uncertainty": [
+          "“旺尤星”“太阳星”“王象尺”“太乙星”“烟虫”“鸡距”等术语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1723,
+    "completion_tokens": 439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1723,
+      "completion_tokens": 439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T06:39:44.214025+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "665dfff2bb9c9d139d37d582985fc6a29b942ef377dfbd03d8e653edc1cd7164",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000013-p000-ce76734bcf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一是書向係鈔本流傳”中“向”为“向来、一直”的普通副词用法，不属于allowed_glossary中“建筑或穴位所朝的方位”的专业术语范畴，此处应保留原文普通含义，无需按locked_terms要求作专业术语保留，候选中“这部书的向原本是钞本流传”表述有误，存在术语误用、语句不通顺问题；原文“胡具某篇某節”漏译，候选误写为“某一内容具备某篇某节的注释”；原文“憎亦不合”漏译“憎”的语义；原文“宜作謀字”误译为“应当作某字”，数字错误；原文“緡閱”误译为“查阅”，属于不明字义的错译；原文“傅求”误译为“多方寻求”，形近字误认"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000014-p000-e33bd4ac5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“聽解凡例”语义不明，候选译为“都依照凡例处理”属于无依据增译，把不确定内容写成了确定事实"
+        ],
+        "uncertainty": [
+          "“聽解凡例”具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000015-p000-e7b1e7e110",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1413,
+    "completion_tokens": 406,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1413,
+      "completion_tokens": 406,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

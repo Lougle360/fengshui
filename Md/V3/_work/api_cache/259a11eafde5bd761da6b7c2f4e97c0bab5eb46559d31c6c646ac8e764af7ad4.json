@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-04T00:24:55.526897+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "259a11eafde5bd761da6b7c2f4e97c0bab5eb46559d31c6c646ac8e764af7ad4",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000976-p000-de935cf465",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“思交剑水”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000977-p000-49b0687d95",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘段脱穴’在candidate中被解释为‘若出现“段脱穴”的情况’，但原文是‘段脱穴宜用粘法以綴杖下之’，‘段脱穴’应是一个专名，candidate将其处理为一种情况，并添加了‘若出现’，属于无依据的扩写。应保留‘段脱穴’为专名，并说明其含义不详。",
+          "原文‘在垂乳 頭粘山麓處結’在candidate中被译为‘位于垂乳部位，在头部紧贴山脚处结穴’，‘垂乳’与‘頭’之间原文有空格，可能表示‘垂乳’与‘頭’是并列或修饰关系，candidate处理为‘垂乳部位，在头部’可能不够准确，但尚可接受。"
+        ]
+      },
+      {
+        "id": "book033-b000986-p000-7c7d59a542",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘侯也’在candidate中被译为‘否则便是“侯”（凶）’，并在后文重复‘俱为“侯”（凶）’。原文‘侯’字可能为‘候’之误或特定术语，candidate将其直接解释为‘凶’并加引号，属于无依据的确定解释。应保留‘侯’字并说明其含义不详。",
+          "原文‘王子息伶俐孤賔○’在candidate中被译为‘导致子孙伶俐但孤贫’，并省略了‘○’符号。‘王子息’可能是‘主’字之误，candidate按‘主’理解可以接受，但‘孤賔’译为‘孤贫’是推测，且未保留原文的符号或说明。应指出‘孤賔’含义不确定。",
+          "原文‘玄武觜長’在candidate中被译为‘玄武嘴长’，‘觜’是‘嘴’的异体字，可以接受。但后文‘不怕穴高水跌’是candidate添加的连接词，原文无此转折关系，属于增译。",
+          "原文‘主子孫頑鈍福祿不旺’在candidate中被译为‘主子孙顽钝，福禄不旺’，正确。",
+          "原文‘主子孫哀絕禍患頻併久則人丁絕財產敗盡’在candidate中被译为‘主子孙哀绝，祸患频并，久则人丁绝、财产败尽’，正确。",
+          "原文‘其地穴雖是財祿不退亦不能大興發又且不耐久’在candidate中被译为‘其地穴虽财禄不退，亦不能大兴发，又且不耐久’，正确。",
+          "原文‘蓋天穴高而財祿低主冷退財產及離鄉敗絕’在candidate中被译为‘盖天穴高而财禄低，主冷退、财产及离乡败绝’，‘财产及离乡败绝’的断句可能应为‘主冷退财产及离乡败绝’，candidate添加顿号微调，可接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2011,
+    "completion_tokens": 729,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2011,
+      "completion_tokens": 729,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

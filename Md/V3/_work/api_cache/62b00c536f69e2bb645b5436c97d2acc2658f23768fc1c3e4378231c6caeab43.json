@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-26T09:17:59.387973+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "62b00c536f69e2bb645b5436c97d2acc2658f23768fc1c3e4378231c6caeab43",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000598-p000-af071250c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000599-p000-e256260c76",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“証作分曉”被误译为“就可判定为分晓”，语义不准确，未准确译出“证佐明确、结作清晰”的含义；2. 原文“經云凡是乳穴曲即非曲是色裏非正穴是也”被误译为“凡是乳穴，曲就不是曲，是色裹，不是正穴”，完全曲解原文意思，原文意为“凡是乳穴形态弯曲的就不是真乳穴，弯曲的是山体偏侧的‘色裹’（或旁麓），不是正穴”；3. 原文“鳴氏乳形六格”被误写为“廖氏所说的乳形六格”，姓氏译错；4. 原文“硬惠”属于未识别的术语，直接保留却未标注不确定，疑似OCR错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000600-p000-ef27d00234",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格中存在OCR错乱内容：“A护用用通间产中人关dG法”“E脊气扦六”无法准确释读"
+        ]
+      },
+      {
+        "id": "book033-b000602-p001-6d9b17e27f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000604-p000-3bf3c9fd51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000607-p000-afa7bcb5a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“犬秀特異”属于OCR错误，被误译为“秀丽独特”，未标注该位置原文存在识别问题；2. 原文“公  生 但”属于原文缺字，释读直接跳过未标注缺字情况；3. 原文“昌曲應位”被模糊处理，未说明是风水命理中的昌曲星对应方位，属于专业相关内容未明确提示模糊点；4. 原文“毗明卿始柳 外所謂大地庚戌進士儒官麟橋坐庚向甲”存在OCR缺漏（“始柳”应为“始谓”类表述），释读未标注该位置原文识别存疑"
+        ],
+        "uncertainty": [
+          "“庚甲”具体所指不详",
+          "原文“犬秀特異”“毗明卿始柳”“公  生 但”存在OCR识别缺漏或错误，语义不能完全确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4545,
+    "completion_tokens": 721,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4545,
+      "completion_tokens": 721,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T18:38:18.983757+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fc9054eb071b9c19390d290d94af8edc916b5564e628ee02c5d32ec3b5efeb55",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002066-p000-8398f1356d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002067-p000-a87530647b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《释文》中“郑、向本作‘检且枕’”的“向”错误解释为“建筑或穴位所朝的方位”，不符合原文语境，原文未提及该含义，属于专业术语误换"
+        ],
+        "uncertainty": [
+          "“枕”字的部分异说具体所指的语境细节未完全明确"
+        ]
+      },
+      {
+        "id": "book016-b002068-p000-ab5393f8a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002069-p000-bcafa0b3b5",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文残缺，无法完整释读"
+        ],
+        "uncertainty": [
+          "原文残缺，仅能辨认部分字样，具体内容无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2036,
+    "completion_tokens": 303,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2036,
+      "completion_tokens": 303,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

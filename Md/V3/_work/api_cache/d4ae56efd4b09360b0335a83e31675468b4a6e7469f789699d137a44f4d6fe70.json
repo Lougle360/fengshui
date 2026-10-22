@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-24T01:24:48.910735+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d4ae56efd4b09360b0335a83e31675468b4a6e7469f789699d137a44f4d6fe70",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000044-p000-372a557cd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“戊戊巳亥”被误写为“戊巳、巳亥”，干支出现错误；source中的“羗天瘟”被误断为“羗天、天瘟”，术语拆分错误；source中的“前二條”被误译为“前面两类日期”，原文未说明是两类日期，属于无依据增译；allowed_glossary中“朱雀”定义为穴前方形势称谓，此处属于择吉神煞，不应直接使用该定义，candidate未做标注存在误用风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000045-p000-dd3b3cca7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000046-p000-5c327ac554",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000047-p000-009dc8a2cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000048-p000-1531c10cb8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“乙五內寅”被误写为“乙丑、五內寅”，属于对原文疑似讹误内容的无依据修改"
+        ],
+        "uncertainty": [
+          "原句存在缺字或断句错乱，部分内容难以完全确认"
+        ]
+      },
+      {
+        "id": "book006-b000049-p000-9a5bc60596",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“忌庚寅門大夫死日”被误断为“忌讳庚寅门、大夫死日”，术语拆分错误，应为“庚寅、门大夫死日”；“修乘門”被无依据释为“修造和乘门相关的事宜”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“黑闾”的具体含义无法完全确定",
+          "“自圈”的具体标记样式、“乘门”的具体所指均没有明确说明"
+        ]
+      },
+      {
+        "id": "book006-b000050-p000-8e281d34e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000051-p000-7d989f23b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句末尾存在缺字，内容难以完全确认"
+        ]
+      },
+      {
+        "id": "book006-b000052-p000-06035fdb94",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“造橋染”疑似原文讹误，candidate直接保留未做标注，且未说明“染”字存疑；locked_term“水”在此处为普通堤水含义，与allowed_glossary中风水语境的水定义不符，candidate未做区分"
+        ],
+        "uncertainty": [
+          "原句末尾存在缺字，内容难以完全确认"
+        ]
+      },
+      {
+        "id": "book006-b000053-p000-cabd6a5641",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2536,
+    "completion_tokens": 915,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2536,
+      "completion_tokens": 915,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

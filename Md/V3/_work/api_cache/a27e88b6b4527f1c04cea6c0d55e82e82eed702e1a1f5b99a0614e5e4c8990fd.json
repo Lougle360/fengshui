@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T08:17:30.653753+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a27e88b6b4527f1c04cea6c0d55e82e82eed702e1a1f5b99a0614e5e4c8990fd",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002583-p000-165efd9878",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002584-p000-184d396f6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002585-p000-0175ec4879",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002587-p000-a53a0b0d40",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002588-p000-ed27cfeb04",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的'课'是指风水地师所作的断语、谶语类内容，candidate误译为'相关的课文'，语义完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002590-p000-93c8c368d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002592-p000-4ce03b1939",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002593-p000-3233ceb5bf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002594-p000-c5e55922a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文引用的歌诀断句有误，candidate未做调整仍保留错误断句：原句应为'人刦当从向上求，面前空阔要远朝。如无远朝是犯人刦，有水特来砂横抱，信知人刦小为妖'，candidate直接沿用原文排版错误的连写，未做符合语义的断句标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002595-p000-7a13b1b45a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'乔梓'是指父子，candidate误译为'及其兄弟'，语义错误；'夫妇齐眉'指夫妇相敬如宾、都享高寿，candidate译为'夫妇和睦'虽含义接近但不准确"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4148,
+    "completion_tokens": 673,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4148,
+      "completion_tokens": 673,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

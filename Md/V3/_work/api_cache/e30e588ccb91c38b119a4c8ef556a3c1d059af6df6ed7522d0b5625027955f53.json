@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-25T12:50:03.752077+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e30e588ccb91c38b119a4c8ef556a3c1d059af6df6ed7522d0b5625027955f53",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000371-p000-47e9356483",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分干支、卦爻相关文字存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000372-p000-2c23a19eb3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000373-p000-d55ef0b1c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分干支、卦爻相关文字存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000374-p000-ed84bc964f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分干支、卦爻相关文字存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000376-p000-a556886d39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“初六丙辰五六二”被错误断句为“初六丙辰五六、六二丙午兄弟”，应为“初六丙辰、五六二丙午兄弟”；原文“兄第”应为“兄弟”，未修正；原文“九四巳耳才大五巳未子無”被错误断句为“九四巳耳才大、五巳未子無”，应为“九四巳耳才、大五巳未子無”；原文“震向夫 庚”被错误拆分标点为“震向夫、庚”，未按原文语序保留"
+        ],
+        "uncertainty": [
+          "原文中部分干支、卦爻相关文字存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000377-p000-ae3f558279",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "初大、上大、書鬼、父母子里的具体含义未明"
+        ]
+      },
+      {
+        "id": "book025-b000378-p000-e9c8e4132b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“内申于水山塞”中“塞”应为“蹇”（卦名水山蹇），释读中误将“水”单独拆解为风水术语，此处“水山蹇”为完整卦名，不应拆分解释；原文“衝金”未明确标注不确定，释读直接写“属性为冲金”属于无依据确定"
+        ],
+        "uncertainty": [
+          "品、第六一、內申于水山塞、衝金的具体含义未明"
+        ]
+      },
+      {
+        "id": "book025-b000379-p000-543938b07e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分干支、卦爻相关文字存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000380-p000-3bf61b9849",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选内容未将古文转换为普通读者能读懂的白话，仅对原文做了标点添加，未完成白话释读要求",
+          "未对原文中明显存在识别误差的内容如“見萬”“六癸百兄卯亥未全”做标注说明，仅在writer_uncertainty提及但释读正文未提示读者相关内容存在识别问题"
+        ],
+        "uncertainty": [
+          "原文中“見萬”“六癸百兄卯亥未全”等内容存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000381-p000-26d5b4b8a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将“範向甲全”拆分解释为“相关朝向为甲全”属于无依据的释义，原文“範”字未做合理处理，且“向”属于locked_terms仅需保留，不应额外将“範向甲全”中的“向”单独提取解释打乱原文结构",
+          "原文“六二一見”被写为“六二爻一見”、“第六三庚辰”原文无“爻”字属于无依据增字",
+          "原文“天雷無妄係巽宮第五卦屬木”部分的释读准确，但开头“而其兮震爲面”未做合理标注，直接简化为“这段内容提到，相关的卦以震为面”属于将不确定含义的内容表述为确定事实"
+        ],
+        "uncertainty": [
+          "“而其兮震爲面、循震名第一卦、横木、一見、範向甲全”的具体含义未明",
+          "“庚甲”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1038,
+    "completion_tokens": 434,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2651,
+      "completion_tokens": 1078,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1038,
+      "completion_tokens": 434,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

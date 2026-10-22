@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T09:26:11.917644+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2595f2a27249c0a8b6e66f078b4dfacf5ad1ca4b01892eb394fc3d3a0fbf46c8",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000271-p000-4224c8987e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存疑的专名‘蚤’‘市’‘斩’‘隆’‘下’‘结愧’‘飼脊’‘弓为阳’‘下阴’直接当作确定含义释读，未标注原文未明的情况，违反术语释读规则"
+        ],
+        "uncertainty": [
+          "原文中‘蚤’‘市’‘斩’‘隆’‘下’‘结愧’‘飼脊’‘弓为阳’‘下阴’等专名含义未明，释读时应标注具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000272-p000-8376e0143c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存疑的专名‘丙仪’‘春’‘写’‘展闻’‘鲁’‘輳’‘因’‘故’‘灾穴’‘屈穴’‘曹’‘寔’‘宾’直接当作确定含义释读，未标注原文未明的情况，违反术语释读规则"
+        ],
+        "uncertainty": [
+          "原文中‘丙仪’‘春’‘写’‘展闻’‘鲁’‘輳’‘因’‘故’‘灾穴’‘屈穴’‘曹’‘寔’‘宾’等专名含义未明，释读时应标注具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2230,
+    "completion_tokens": 353,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2230,
+      "completion_tokens": 353,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

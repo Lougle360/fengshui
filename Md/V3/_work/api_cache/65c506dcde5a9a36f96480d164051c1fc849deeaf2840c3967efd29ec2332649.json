@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T18:21:39.275137+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "65c506dcde5a9a36f96480d164051c1fc849deeaf2840c3967efd29ec2332649",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001840-p000-6361b4f4b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001841-p000-b4677d7304",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001842-p000-b9f00f4e5c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《象》的内容释为六二未曾谋求富贵，属于无依据扩写，原文未明确‘富’的具体所指，不得擅自确定为富贵"
+        ],
+        "uncertainty": [
+          "原文‘未富也’的具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 199,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1553,
+      "completion_tokens": 199,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

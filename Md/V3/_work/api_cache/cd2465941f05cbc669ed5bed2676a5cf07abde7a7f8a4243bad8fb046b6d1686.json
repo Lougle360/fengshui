@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T10:21:51.522287+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cd2465941f05cbc669ed5bed2676a5cf07abde7a7f8a4243bad8fb046b6d1686",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000706-p000-944da57857",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000707-p000-2e19ef85c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000708-p000-6ccbaf8841",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000709-p000-c974f0206e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中疑似讹误的“洪苑”直接释为“洪範”，未标注该疑似讹误的情况；将“枘音”直接释为确定所指，未标注其具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“洪苑”疑为“洪範”之误，“枘音”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1838,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1838,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-10-17T10:22:19.720816+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "db3e26ca6291706662718df979ef9e264b329df846966cf7213965039bb2cf77",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003289-p000-4786c846dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'色衣茶监'，candidate译为'颜色、衣物、茶监及监察'，其中'监察'为无依据增译。原文'兼丁稍稳'，candidate译为'主管血财与丁，稍显安稳'，将'兼丁'误译为'主管...与丁'，语义改变。原文'兼丁秀麗無忌主小子'，candidate译为'若兼带丁且秀丽无冲克，则主小子'，'无冲克'为增译，原文'无忌'可能指无冲克，但非确定解释，应保留'无忌'或标注不确定性。"
+        ],
+        "uncertainty": [
+          "茶监的具体所指不详",
+          "丁的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b003290-p000-1e394b5662",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'妝巽多偏輕亦非甚良'，candidate译为'若妆巽多偏轻，也不是很良吉'，但'妆巽'为opaque_terms，应保留在引号内或标注不确定性，candidate直接使用，未做处理。原文'兼异多秀麗無忌主長男小子'，candidate译为'若兼带异且秀丽无冲克，则主长男与小子'，'异'为opaque_terms，应保留在引号内或标注不确定性，candidate直接使用，未做处理。'无冲克'为增译。"
+        ],
+        "uncertainty": [
+          "妆巽多偏轻的具体含义不详",
+          "异的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b003291-p000-ad990c1748",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'孤活爲黃泉主絕嗣'，candidate译为'孤活为黄泉，主管绝嗣'，但'孤活'为opaque_terms，应保留在引号内或标注不确定性，candidate直接使用，未做处理。原文'兼辛雙生度稍吉'，candidate译为'若兼带辛，双生度稍吉'，'双生度'为opaque_terms，应保留在引号内或标注不确定性，candidate直接使用，未做处理。原文'砂低平同吉猖聳則凶'，candidate译为'砂若低平则同吉，若猖狂耸立则凶'，'猖狂'为增译，'同吉'的'同'字未译出，可能指'同样为吉'或'与前文同论为吉'，应保留不确定性。"
+        ],
+        "uncertainty": [
+          "双生度的具体含义不详",
+          "孤活的具体所指不详",
+          "'同吉'中'同'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b003292-p000-7e11c9d99b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'五氣生旺休日'，candidate译为'五气涉及生、旺、休、日等状态'，将'休日'拆分为'休'和'日'，并增译'等状态'，改变了原文结构。'日'可能为'囚'之误或另有含义，candidate未标注此不确定性，而是直接处理为并列项。"
+        ],
+        "uncertainty": [
+          "五气生旺休日中'休日'的具体含义不详，原文未明确列出死气与囚气"
+        ]
+      },
+      {
+        "id": "book035-b003296-p000-ea95d52aa0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'金幷之淺深'，candidate译为'金幷用于测量深浅'，但'金幷'为opaque_terms，应保留在引号内或标注不确定性，candidate直接使用，未做处理。原文'所書九星第一寸起貪周而復始'，candidate译为'所书九星第一寸起于贪，周而复始'，'所书'的'书'字含义模糊，candidate未标注不确定性。"
+        ],
+        "uncertainty": [
+          "金幷的具体所指不详",
+          "所书中的'书'是指书籍还是书写动作，原文未明"
+        ]
+      },
+      {
+        "id": "book035-b003298-p000-6abd1ef4aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文中多次出现的'白星'具体所指不详，可能为特定术语或格式"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2065,
+    "completion_tokens": 1060,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2065,
+      "completion_tokens": 1060,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

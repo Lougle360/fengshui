@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-09-24T20:49:04.474882+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "082434b47035f42fff2a245852f17f5e3fe1af03cb078562a9346f252c603aca",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000045-p000-220c8fbfff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘别制’‘为版其形’的释读为结合语境的合理推导，不具备绝对确定性"
+        ]
+      },
+      {
+        "id": "book017-b000046-p000-203bf01b04",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅列出‘言空三法秘要’‘玄空三談’两个名称，无信息证明二者为成书文献，候选将其直接判定为‘两个文献’属于无依据的确定表述，违反释读规则"
+        ],
+        "uncertainty": [
+          "无法确定‘言空三法秘要’‘玄空三談’是文献名称还是口诀、篇章类内容"
+        ]
+      },
+      {
+        "id": "book017-b000050-p000-274c5bb589",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“巨存星”“王吉”的具体所指不明，无法确定吉星的具体数量"
+        ]
+      },
+      {
+        "id": "book017-b000052-p000-324c53195d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文表述混乱，星曜对应关系、“延軍重出先回次故”的含义均无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000053-p000-7dde037467",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“男止十二支分地”的含义不明，“明时针”具体所指无法确认，不能确定是否为顺时针"
+        ]
+      },
+      {
+        "id": "book017-b000055-p000-2a3e5193bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在缺字错乱内容“明夫P”，对应部分无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000056-p000-c3779164e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文所列八干存在缺项，缺漏的庚、辛仅为依据天干常识的推导，不排除原文有其他设定的可能"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 628,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1911,
+      "completion_tokens": 628,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

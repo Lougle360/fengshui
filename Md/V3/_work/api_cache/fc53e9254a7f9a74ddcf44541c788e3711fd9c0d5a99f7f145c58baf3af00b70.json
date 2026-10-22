@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-23T16:47:10.650503+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fc53e9254a7f9a74ddcf44541c788e3711fd9c0d5a99f7f145c58baf3af00b70",
+  "response": {
+    "items": [
+      {
+        "id": "book005-b000043-p000-5280187231",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000044-p000-9e3c426ba0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“灾須輕可免危聲”意为“灾祸虽轻，但可避免危险的声音/说法”，candidate译为“災禍雖輕但可避免危險”，漏译了“聲”字。",
+          "原文“卷尸靈”被处理为“卷尸灵”，但candidate的“卷尸靈”未加引号，也未明确标注为原文引用，不符合opaque_terms处理规范。",
+          "原文“廁上無疑是好親”意为“厕所上无疑是好亲”，candidate译为“「廁上」具體所指不详，原文說此處是「好親」”，将“好親”解释为“可親近的”，属于无依据扩写，原文“好親”含义不明，应保留原文并标注不确定。"
+        ],
+        "uncertainty": [
+          "卷尸靈",
+          "廁上",
+          "好親"
+        ]
+      },
+      {
+        "id": "book005-b000045-p000-1ceca9c908",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“于南父非自分張”可能指“在南方或父亲方面有分离”，candidate译为“可能與南方或父親的分離有關”，将推测写成了事实。应保留原文并标注不确定。",
+          "原文“夫婦恩情為處忙”意为“夫妇恩情为此处而忙乱”，candidate译为“夫婦恩情處處忙亂”，将“為處”译为“處處”，属于误译。"
+        ],
+        "uncertainty": [
+          "于南父非自分張"
+        ]
+      },
+      {
+        "id": "book005-b000047-p000-7b741ce766",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一字中字最爲眞”含义不明，candidate译为“一字中字最為真實”，未标注不确定性，属于无依据解释。",
+          "原文“廊門淫婦戀花聲”意为“廊门则有淫妇恋花声”，candidate译为“廊門則有淫婦戀花聲”，但“戀花聲”含义不明，未标注不确定性。",
+          "原文“於中合字雖為吉”中的“合字”含义不明，candidate处理正确。",
+          "原文“也有興灾害及人”意为“也有兴起灾害波及人”，candidate译为“但也可能興災及人”，将事实（“也有”）弱化为可能性（“可能”），属于漏译。"
+        ],
+        "uncertainty": [
+          "一字中字最爲眞",
+          "戀花聲",
+          "合字"
+        ]
+      },
+      {
+        "id": "book005-b000048-p000-64e5da813e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "出春班"
+        ]
+      },
+      {
+        "id": "book005-b000051-p000-7284ddd582",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“外人多被外人臨”意为“外人多被外人所临（侵扰）”，candidate译为“外人多被外人臨”，未进行白话转换，保留了古文句式。",
+          "原文“若在內門多典禮”中的“多典禮”含义不明，candidate处理正确。",
+          "原文“作事須因破其家”意为“做事必因此破败其家”，candidate译为“作事須因破其家”，未进行白话转换，保留了古文句式。"
+        ],
+        "uncertainty": [
+          "多典禮"
+        ]
+      },
+      {
+        "id": "book005-b000054-p000-a0f45bb616",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子孫必山好見郎”含义不明，candidate处理正确。",
+          "原文“晴師依此仙賢造”中的“晴師”、“仙賢造”含义不明，candidate处理正确。",
+          "原文“此到頭來財上量”意为“这样到头来在财上衡量（是吉利的）”，candidate译为“此到頭來財上量”，未进行白话转换，保留了古文句式。",
+          "candidate中“但意指千倉萬廩有餘糧”属于无依据的总结性扩写，应删除。"
+        ],
+        "uncertainty": [
+          "必山好見郎",
+          "晴師",
+          "仙賢造"
+        ]
+      },
+      {
+        "id": "book005-b000060-p000-700bcfc05d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "曹班經"
+        ]
+      },
+      {
+        "id": "book005-b000062-p000-4cc5f5ec0e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“門門一須用準與不準”可能为“門之一須用準與不準”或“門門須用準與不準”，candidate译为“門之一須用準與不準”，未标注不确定性。",
+          "原文“條緝車箭”含义不明，candidate处理正确。",
+          "原文“量慶”含义不明，candidate处理正确。",
+          "原文“其白外但則九紫爲小吉”可能为“其白外，但則九紫爲小吉”，candidate译为“在三白星之外，則以九紫星為小吉”，将推测写成了事实，且“但則”未译出。应保留原文并标注不确定。",
+          "原文“上下相仝爲好”意为“上下相同为好”，candidate译为“上下相仝，才好用”，处理正确。",
+          "原文“用尅定神人運宅及其年向首大利”中的“尅定”、“神人運宅”含义不明，candidate处理正确。",
+          "candidate中“《魯般經營》記載”属于增译，原文并未明确此为书名。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2505,
+    "completion_tokens": 1361,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2505,
+      "completion_tokens": 1361,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

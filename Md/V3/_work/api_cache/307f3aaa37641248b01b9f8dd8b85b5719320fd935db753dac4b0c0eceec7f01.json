@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T17:44:33.545141+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "307f3aaa37641248b01b9f8dd8b85b5719320fd935db753dac4b0c0eceec7f01",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001264-p000-f67fb6650a",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 九三，劳谦，君子有终，吉①。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001265-p000-94d581abcd",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文九三，勤劳谦虚，君子保持谦德至终，吉祥。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001266-p000-536152726f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①劳谦，君子有终，吉：这是说九三是该卦中唯一的阳爻，居于下卦的末尾，以刚健之性承接上卦的爻位，好比既勤劳又谦虚，因此能“保持谦德至终”而获“吉祥”。《王注》说：“处于崇尚谦虚的时代，怎能安于尊贵之位？对上承接、对下交接，勤劳谦虚而不懈怠，因此吉祥。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001267-p000-2c0ec24a5d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：勤劳谦虚的君子，广大百姓都会服从他。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1608,
+    "completion_tokens": 441,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1608,
+      "completion_tokens": 441,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-17T08:17:05.565309+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cbb9760a5f5fcfe74b18d5e5ebcb7fb20f7fe0bd49a17ee987d1218d1bfed6e4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002957-p000-a77a333318",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘乾壬明泄制火星’中‘明泄制’的释读有误。candidate将其解释为‘乾方與壬方明亮，以此泄去火星的煞氣並加以制約’，将‘明’理解为‘明亮’，并增译了‘以此’和‘煞氣’。原文‘明泄制’更可能指‘明堂泄制’或‘明堂、泄、制’等风水操作，candidate的解释缺乏依据，属于无依据扩写。",
+          "原文‘金井中作弊法取 火星雖起爲貴’中‘取’字被漏译。candidate译为‘讓火星雖有升起’，遗漏了‘取’的动作。",
+          "原文‘祿馬不起金皆平’中‘金皆平’被译为‘金氣皆平’，增加了‘氣’字，属于增译。原文‘金’可能指‘金’方位或五行，但直接增字解释为‘金氣’不妥。",
+          "原文‘祿馬貴人之說以龍及山之意也’中‘以’字被译为‘依據’，可以接受，但整体句意‘是依據龍脈及山勢的意涵而言的’略显生硬，但非关键错误。",
+          "原文‘但祿馬貴人各有不同有御史狀元宰相安撫太守系令庶人 將軍之祿馬貴人各有方位’中‘系令’应为‘縣令’之误，candidate正确识别并译为‘縣令’，可以接受。但‘庶人 將軍’之间原文有空格，candidate处理为‘庶人、將軍’是合理的。",
+          "candidate在结尾处对‘乾午爲天’的处理（‘但原文到此語意未完，具體所指不详’）符合要求，不是增译。"
+        ],
+        "uncertainty": [
+          "‘金井’具體所指不详。",
+          "‘乾午爲天’後續內容不详。"
+        ]
+      },
+      {
+        "id": "book035-b002964-p000-bd78192585",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘若見之 壁’語意殘破，具體所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002965-p000-26ff883e5f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文‘四金砂陷風一入翻棺覆樓入遭殃空國人主名自自也之然’语意错乱，candidate仅将其作为引文重复并标注‘語意錯亂，具體所指不详’。这符合对无法释读的原文的处理方式，但严格来说，这并非‘释读’，而是放弃释读并说明情况。鉴于原文损坏严重，连保守的语义都无法提取，判定为uncertain是合适的。"
+        ],
+        "uncertainty": [
+          "原文語意錯亂，無法可靠釋讀。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1357,
+    "completion_tokens": 647,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1357,
+      "completion_tokens": 647,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

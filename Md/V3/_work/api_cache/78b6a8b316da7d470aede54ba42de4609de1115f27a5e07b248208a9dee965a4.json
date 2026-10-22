@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T12:12:24.909446+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "78b6a8b316da7d470aede54ba42de4609de1115f27a5e07b248208a9dee965a4",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000602-p000-889d560106",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000603-p000-76ec64e20c",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000604-p000-89fba56718",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000610-p000-bddad03c3f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000614-p000-4ea923f765",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自改动原文设问句式的逻辑，原文先问发迟原因，再说明穴吉向凶结果未定，candidate直接归因为穴吉向凶，违背原文表述顺序与逻辑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000618-p000-46c77bb082",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自添加原文无依据的注释“具体所指不详”，不符合保守翻译要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000621-p000-9543a6c749",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对“势莫穹”的理解不准确，current译为“地势便无法形成穹隆饱满的格局”更贴合风水语境下对地形饱满的要求，candidate译为“气势就无法盛大”表意模糊"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000624-p000-0f40fc617c",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文“不出灾殃发最怕”语义模糊，两版翻译逻辑不同，无足够证据判定孰优孰劣"
+        ]
+      },
+      {
+        "id": "book001-b000641-p000-60b677b8ff",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000648-p000-c7d6379774",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5449,
+    "completion_tokens": 959,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5449,
+      "completion_tokens": 959,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T16:49:27.655729+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fa23f4253571f023508507d2df72d2b3fcf4d004efa73b6d492bb4856719ea2a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000512-p000-6bed0cafb5",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "君子的美质好比黄色中和、通达文理，他身居正确的位置，才美蕴存在内心，畅流于四肢，发挥于事业：这是最美的美质啊！",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000513-p000-e8f578d93a",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 君子黄中通理①，正位居体②，美在其中，而畅于四支③，发于事业：美之至也！",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000514-p000-99c1af1755",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①黄中通理：黄是中央的颜色，六五爻以柔爻居于上卦的中位，所以称为“黄中”（见爻辞译注）；理指文理。《尚氏学》说：“《玉篇》里解释理，就是文的意思；坤为文，所以称为理。”“黄中通理”，是说从内心发向外在，能看到文理的体现。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000515-p000-d57263638d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②正位居体：意思是“体居正位”，也就是正确地居处自己的位置。《本义》说：“虽然处于尊位，却居于下体，这是解释‘裳’字的含义。”按《折中》的说法：“《孟子》里说：‘站立在天下的正位上’，正位就是‘礼’。这里所说的‘正位居体’，就好比说以礼立身。用礼来约束自身，就会既谦卑又尊重他人，所以这是解释‘裳’字的含义。”这种说法引申了《本义》的注释，符合爻辞的主旨。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1753,
+    "completion_tokens": 596,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1753,
+      "completion_tokens": 596,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

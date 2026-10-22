@@ -1,0 +1,190 @@
+{
+  "created_at": "2026-09-23T13:32:11.894508+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "79a76ddecd6dc8f6958d275d9b925e15a6f7e4410edc49891a880645bffef95b",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000452-p000-485fdede56",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000453-p000-73997bc3e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾句子不完整，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book002-b000455-p000-3834f03eaa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文标题或篇名含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book002-b000456-p000-2cc1283779",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000458-p000-f0f29f9d01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅标题，无具体正文内容"
+        ]
+      },
+      {
+        "id": "book002-b000459-p000-c180a30da6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000460-p000-75332340e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000462-p000-fe959fa86e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000463-p000-c2f6621643",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000464-p000-518d24fbbf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘立地向’、‘立兴向’、‘退述更重’等词句含义模糊，candidate将其按字面译出，但未明确标注原文可能存在的传抄错误或含义不明，不符合‘风险标注’要求。应将‘立地向’、‘立兴向’、‘退述更重’等模糊处明确标注为‘原文可能传抄有误，具体所指不详’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000466-p000-5ca62592b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘沐淮’具体所指不详，可能为误字或特定称呼"
+        ]
+      },
+      {
+        "id": "book002-b000467-p000-2fcd4b7721",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅标题，无具体正文内容"
+        ]
+      },
+      {
+        "id": "book002-b000468-p000-3ee418a105",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不完整：原文为‘坤水來向說 水來立地向 天地定位 酉水來立艮向 水來立酉向 山澤通氣 巽水來立卯向 而水來立巽向 雷風相薄 午水來立子向 丁水來立午向 水火不相射 卦’。candidate 将‘坤水來向說 水來立地向 天地定位’释读为‘坤水来向说：水来立地向，天地定位’，但‘坤水來向說’与‘水來立地向’之间并无冒号，且‘坤水來向說’本身含义不明，candidate 将其处理为标题或总起句，但未标注其不确定性。",
+          "释读不准确：原文‘而水來立巽向’，candidate 释为‘而水来，立巽向’，但‘而’字可能为‘卯’字之误，或表示转折，candidate 未标注此处的歧义。",
+          "释读不准确：原文‘丁水來立午向’，candidate 释为‘丁水来，立午向’，但‘丁’与‘午’均为天干地支，此处关系不明，candidate 未标注此处的歧义。",
+          "释读不完整：原文末尾‘卦’字，candidate 仅标注‘似有缺漏’，但未将其作为原文内容译出，属于漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000469-p000-d24678fafe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不准确：原文‘地六改離中虛’，candidate 释为‘地六改离中虚’，但‘地六改’含义不明，candidate 未标注此处的歧义。",
+          "释读不准确：原文‘麟右七’，candidate 释为‘麟右七’，但‘麟’字含义不明，candidate 未标注此处的歧义。",
+          "释读不准确：原文‘局四町’，candidate 释为‘局四町’，但‘局四町’含义不明，candidate 未标注此处的歧义。",
+          "释读不准确：原文‘足八謝糠’，candidate 释为‘足八谢糠’，但‘謝糠’含义不明，candidate 未标注此处的歧义。",
+          "释读不准确：原文‘肩一納辛’，candidate 释为‘肩一纳辛’，但‘肩一’含义不明，candidate 未标注此处的歧义。",
+          "释读不准确：原文‘此四卦居洛書四正位，皆數也’，candidate 释为‘此四卦居洛书四正位，皆数也’，但‘皆數也’含义不明（是奇数？还是特指洛书数？），candidate 未标注此处的歧义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000470-p000-2fb12f9392",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不准确：原文‘震為長里’，candidate 释为‘震为长男’，但原文为‘長里’，非‘長男’，属于擅自修改原文。",
+          "释读不准确：原文‘離爲宁女’，candidate 释为‘离为中女’，但原文为‘宁女’，非‘中女’，属于擅自修改原文。",
+          "释读不完整：原文末尾‘入地眼全卷六水’，candidate 标注为‘原文似为书名及卷次，但“水”字后似有缺漏’，但未将‘入地眼全卷六水’作为原文内容完整译出，属于漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000471-p000-7270e78be7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处似有缺漏，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book002-b000472-p000-b95a70094c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不准确：原文‘乾甲水夫’，candidate 释为‘乾甲水夫’，但标注‘“夫”字可能为“去”字之误’。根据规则，对于疑似OCR错误，candidate 应保留原词并标注不确定性，但不应在释读文本中直接使用疑似错误的字。candidate 的释读文本中使用了‘乾甲水夫’，这是正确的处理。但问题在于，candidate 的释读文本中，前一句是‘坤乙水去’，后一句是‘乾甲水夫’，这造成了文意不连贯，且‘夫’字无法理解。candidate 虽然标注了不确定性，但释读文本本身并未做到‘普通读者能读懂’。应建议将‘乾甲水夫’置于引号内或明确标注为存疑原文。",
+          "释读不完整：原文为‘乾甲龍或乾甲向 見坤乙水來或坤乙水去坤乙龍或坤乙向 見乾甲水來或乾甲水夫此合天地定位局’。candidate 的断句为‘乾甲龙或乾甲向，见坤乙水来或坤乙水去；坤乙龙或坤乙向，见乾甲水来或乾甲水夫。此合天地定位局。’但原文‘坤乙水去’与‘坤乙龙’之间没有分号或句读，candidate 的断句是基于理解的补充，虽可接受，但未标注断句的不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000473-p000-9fff82da32",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不准确：原文‘此合水火不相樹局’，candidate 释为‘此合水火不相射局’。原文为‘樹’，candidate 改为‘射’，属于擅自修改原文。应保留‘不相樹’并标注其可能为‘不相射’之误。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2395,
+    "completion_tokens": 1479,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7283,
+      "completion_tokens": 1022,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2395,
+      "completion_tokens": 1479,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:17:28.876631+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "01ff511282a23014c5c00900ef401b497eeb94f2a0b1fb367ba4eee14fb416bc",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000127-p000-f911b778a3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文中残缺错乱的文字如‘麗殺’‘員輦’‘破侔’‘廉甚’‘吞華’‘紙也’‘萬韶’等直接释读为确定含义，属于无依据扩写；未保留原文残缺错乱的内容，且对‘穴’‘砂’‘水’‘向’等术语的释读虽符合给定释义，但存在对原文未明内容的过度解读"
+        ],
+        "uncertainty": [
+          "原文中存在多处残缺、错乱的文字，具体所指不详；‘九師歌訣計據俟’‘卷底春字未詳所自’等内容残缺，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4514,
+    "completion_tokens": 192,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4514,
+      "completion_tokens": 192,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

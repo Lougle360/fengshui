@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T01:02:34.082372+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f146047ce29cb390cbefb79b7fbe10227d8a1a3fce201916b6feb5c93abb6a56",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001302-p000-5db105d341",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001303-p000-f5418d83db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001304-p000-ade1ddea6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句‘蔡太师父准’指蔡太师（蔡京）的父亲蔡准，候选释读误写为‘蔡准的父亲蔡太师父准’，人物辈分颠倒，语义完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001305-p000-874fcb75d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中黄进所盗的是自己父亲的遗骸，候选释读误写为‘主人父亲的遗骸’，属于事实性错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001306-p000-cee6030f25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001307-p000-3ddee39e84",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001308-p000-4245b22452",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001309-p000-304b2bc7c8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处残缺，后续内容无法确认"
+        ]
+      },
+      {
+        "id": "book001-b001310-p000-5d7c6f1bae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001311-p000-1dd7c568b7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6012,
+    "completion_tokens": 585,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6012,
+      "completion_tokens": 585,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

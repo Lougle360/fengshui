@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-24T11:20:37.675447+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cafa058bcebf45c2a96b0d469c51bc23906030274b57df392a2241ffec871d66",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000035-p000-322161ecc0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“一般卦”误写为“一般卦”，应为“三般卦”；“炙母”未按要求保留为术语，被错误释读；“鬱山”“鬲宝”“四何韵”等术语未按要求保留为术语，被错误释读；“双山双向”“隔向”等风水术语未按要求保留为术语，被错误释读；部分语句断句错误，如“主高官緋紫”被错误拆分，“征不亦福”语义错误，“万细惟掌”未明确为模糊短语"
+        ],
+        "uncertainty": [
+          "原文中“反母”“炙母”“鬱山”“鬲宝”“四何韵”等术语具体所指不详；“双山双向”“隔向”等风水术语的具体含义无法确定；部分语句存在断句和语义模糊的情况"
+        ]
+      },
+      {
+        "id": "book013-b000036-p000-2f7fd1f385",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“万特宫位”“道龙”“水八堂”等术语未按要求保留为术语，被错误释读；“天玉经心印”的具体内容未明确；部分语句断句错误，如“接得万特宮位”“若然見道龍”等断句不符合原文语义"
+        ],
+        "uncertainty": [
+          "原文中“万特宫位”“道龙”“水八堂”等术语具体所指不详；“天玉经心印”的具体内容无法确定；部分语句存在语义模糊的情况"
+        ]
+      },
+      {
+        "id": "book013-b000037-p000-891bf07c25",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“失县之凶”的“县”疑为衍字或讹字，未明确标注；“丁眷”的具体含义未明确；部分语句断句错误，如“奇特主速發”“无情而远穴虽吉”等断句不符合原文语义"
+        ],
+        "uncertainty": [
+          "原文中“失县之凶”的“县”疑为衍字或讹字，具体所指不详；“丁眷”的具体含义无法确定；部分语句存在语义模糊的情况"
+        ]
+      },
+      {
+        "id": "book013-b000038-p000-ef35169fe9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "父母对应的下三吉具体所指不详",
+          "三般卦具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2237,
+    "completion_tokens": 625,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2237,
+      "completion_tokens": 625,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

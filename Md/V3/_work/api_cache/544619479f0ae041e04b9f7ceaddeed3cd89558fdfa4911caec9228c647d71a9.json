@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-25T16:52:39.216197+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "544619479f0ae041e04b9f7ceaddeed3cd89558fdfa4911caec9228c647d71a9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000621-p000-1b50bef4cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000622-p000-e2328c22fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "冥挿中",
+          "直施聞之功",
+          "不籍饒"
+        ]
+      },
+      {
+        "id": "book029-b000623-p000-c5f2b54098",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "恬善迢占"
+        ]
+      },
+      {
+        "id": "book029-b000625-p000-e88985fe5a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为‘切不可用順校’，候选释写为‘千万不可使用顺杖’，存在形近字辨析错误，‘順校’并非‘顺杖’，不应直接替换；所标注不确定短语‘宜饶居一边’原文无歧义，不属于含义不详内容，不应列入不确定标注；‘其曰如此’未译出"
+        ],
+        "uncertainty": [
+          "俊受脉",
+          "刪柔相济"
+        ]
+      },
+      {
+        "id": "book029-b000630-p000-18193d3148",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1620,
+    "completion_tokens": 398,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1620,
+      "completion_tokens": 398,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "created_at": "2026-09-23T17:08:28.267979+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6db391121934f4c48d5504a061f3da7e4771a97a280ec907885cb1bafeca0f9a",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001237-p000-6d5a489d71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001238-p000-3f1a83cd92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001239-p000-6d8e83d106",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘尚书汪荐用卿精于相地理’中‘汪’后疑有脱字，candidate 译为‘尚书汪推荐用卿’将‘汪’处理为完整人名，但原文可能为‘尚书汪某’或‘尚书汪某荐’。应保留原文的模糊性，例如译为‘尚书汪（某）推荐用卿’或注明‘原文此处可能缺字’。",
+          "原文‘天生骆某，乃以地师终也。’中‘骆某’是自称，candidate 译为‘我骆某’准确，但‘地师’译为‘地师’保留了术语，符合要求。整体可接受，但第一处需修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001240-p000-1f8e4d1e78",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘族故有戍籍在关中，适征檄至，应代者不欲往，侦用卿，解馆归未至，家贿来卒，仓猝以用卿行。’ candidate 译为‘他的家族原本在关中地区有戍籍，恰逢征召文书到来，原本应代役的人不想前往，便侦察到用卿，于是解馆回家。还没到家，家中贿赂来卒，仓促间让用卿代替前往。’ 其中‘侦察到用卿，于是解馆回家’逻辑不清，易误解为应代者侦察用卿并解馆。原文‘侦用卿，解馆归未至’的主语可能是用卿（他侦察到情况后解馆回家），也可能是应代者（侦察用卿的行踪，趁其解馆归家未至时行动）。candidate 的译法将‘侦察’和‘解馆’的主语都归于‘应代者’，并将‘解馆’理解为用卿的行为（‘于是解馆回家’），表述含混。应调整语序或增加说明，以更清晰地传达原文可能的意思，例如‘（应代者）侦察到用卿（的行踪），（用卿）正解馆回家还未到，（应代者）家中贿赂来卒，仓促间让用卿代替前往。’或保留模糊性并标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001241-p000-077e0b2f55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001242-p000-9753f115b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001243-p000-4b9a2dfc6e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001244-p000-5cde14cebf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001245-p000-7f43a5bd50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001246-p000-b070aae57a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘复弟也’中‘复’指代不明，candidate 译为‘是复的弟弟’保留了‘复’字，但未说明‘复’具体所指。根据规则，对于此类不透明专名，candidate 应将其置于引号内或明确标注指代不详。建议修订为‘是“复”的弟弟（“复”具体所指不详）’或类似表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001247-p000-7204f40a13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001248-p000-ececc8cda1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001249-p000-70adca446c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001250-p000-cd20e37e05",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘方向用以卒其言’释读为‘方向用以证实他的预言’不准确。‘方向’是风水术语，指墓穴的朝向，此处应理解为‘（墓穴的）朝向（也）用来最终应验他的话’。候选句将‘方向’误解为副词‘用以’的状语，并增译了‘证实’一词，改变了原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001251-p000-0ba3a4d560",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001252-p000-2b6ae59306",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处中断，‘双金’后内容缺失，具体所指不详"
+        ]
+      },
+      {
+        "id": "book001-b001253-p000-a95b65de94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001254-p000-e73d614877",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001255-p000-d5da5c6e45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001256-p000-b883f061f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1779,
+    "completion_tokens": 386,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3948,
+      "completion_tokens": 1346,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1779,
+      "completion_tokens": 386,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

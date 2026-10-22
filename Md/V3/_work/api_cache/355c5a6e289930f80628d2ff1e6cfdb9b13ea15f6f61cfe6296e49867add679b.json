@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T11:14:46.401761+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "355c5a6e289930f80628d2ff1e6cfdb9b13ea15f6f61cfe6296e49867add679b",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000158-p000-7647876fa4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“六拋六接太陽影光穴縣拔馬荒封”“負用客上成堆賈”“織脫”等表述含义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000159-p000-44a082917a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“依蟲去用開金仅水方闊大”“開高没枚有商量”语义模糊，候选释读存在主观臆断，未明确标注不确定之处"
+        ],
+        "uncertainty": [
+          "原文“依蟲去用開金仅水方闊大”“開高没枚有商量”具体含义不详"
+        ]
+      },
+      {
+        "id": "book012-b000160-p000-83d4f2b55d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“形仰面滿用没杖”“園裏塋道”“頭硬天罡”语义模糊，候选释读存在主观臆断，未明确标注不确定之处"
+        ],
+        "uncertainty": [
+          "原文“形仰面滿用没杖”“園裏塋道”“頭硬天罡”具体含义不详"
+        ]
+      },
+      {
+        "id": "book012-b000161-p000-39bdd02a39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 371,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1543,
+      "completion_tokens": 371,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

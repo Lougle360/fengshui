@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-26T05:41:34.203741+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "08c19b26d5a2f2061a91ce58b0c63ca16c11e3514561fbefd592d48de3f7caee",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002543-p000-cc8d359aea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002544-p000-fd3fa5fcb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002546-p000-90b48c860b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "坐轸度九十度的记载不符合星宿度数常规，存疑"
+        ]
+      },
+      {
+        "id": "book029-b002551-p000-87a6ae3c9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文恒卦对应父的数值未明确标注，候选直接写“父”属于保留残缺内容但未标注存疑；原文“房室斗水长”，候选误写为“房、室、斗对应的水脉绵长”，原文“室”不属于该部分对应的水脉范围"
+        ],
+        "uncertainty": [
+          "恒卦对应父的数值原文残缺"
+        ]
+      },
+      {
+        "id": "book029-b002552-p000-f1c95064ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“十九”含义不明，暂按后续内容标识或衍文处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2072,
+    "completion_tokens": 388,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2072,
+      "completion_tokens": 388,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

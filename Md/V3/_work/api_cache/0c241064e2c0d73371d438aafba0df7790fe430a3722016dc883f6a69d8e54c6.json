@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-17T16:21:53.833041+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0c241064e2c0d73371d438aafba0df7790fe430a3722016dc883f6a69d8e54c6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004066-p000-5ba5a6d81a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文有‘六小之別因是又’的重复，candidate仅处理为‘逻辑断裂，具体所指不详’，未完整反映原文的重复结构。",
+          "反义/误译：原文‘小而尾尖者是龍貴蛇賤皆主富而子孫綿遠’，candidate释为‘形体细小且尾尖者才是龙，贵蛇贱，但两者都主富贵且子孙绵延久远’。此处‘贵蛇贱’意指‘龙贵蛇贱’，即龙主贵、蛇主贱，但candidate的表述‘贵蛇贱’易产生歧义，且‘但两者都主富贵’与原文‘皆主富’相符，但原文‘龙贵蛇贱’的对比未在candidate中清晰体现。",
+          "增译：candidate加入‘文中提到’、‘原文此处出现’等引导语，虽为衔接，但略有多余。",
+          "结构混乱：candidate对原文重复和断裂的处理不够清晰，未能准确反映原文的错乱状态。"
+        ],
+        "uncertainty": [
+          "原文存在明显重复错乱，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004067-p000-eb10eaa661",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘鞍垂汗青 故垂爲元戌大將氣旺而發池者多力’，candidate释为‘鞍垂汗青，故垂为元戌大将，气旺而发池者多力’。其中‘发池者多力’含义不明，candidate未作任何说明或标注。",
+          "术语误换/不确定：原文‘龜等星辰蓋罕見矣’，candidate释为‘文中提到‘龟等星辰’，具体所指不详，这类星辰盖罕见矣’。‘龟等星辰’应为‘龟等星辰’，candidate写作‘龟等星辰’，可能为OCR或输入错误，且未保留原文‘盖罕见矣’的完整表述。",
+          "术语误换/不确定：原文‘此金量之旺氣所發而結者’，candidate释为‘此‘金量’含义不明，说是其旺气所发而结者’。‘金量’可能为‘金星’或特定术语，candidate处理为含义不明是合理的，但未在uncertainty中明确标注。",
+          "漏译/误译：原文‘爲注工巧科名陸續仁窮外朝’，candidate释为‘为注工巧，科名陆续，‘仁穷外朝’具体所指不详’。其中‘爲注工巧’可能为‘为工巧’或‘注工巧’，candidate处理为‘为注工巧’并标注不确定是合理的，但未在uncertainty中明确标注。",
+          "漏译/误译：原文‘朵變劍于主兵’，candidate释为‘‘朵变剑于主兵’具体所指不详’。处理方式合理，但未在uncertainty中明确标注。",
+          "结构混乱：candidate对原文的断句和解释存在多处不确定，但未在uncertainty中系统列出所有疑点。"
+        ],
+        "uncertainty": [
+          "‘发池者多力’含义不明。",
+          "‘龟等星辰’具体所指不详。",
+          "‘金量’可能为‘金星’或特定术语，含义不明。",
+          "‘爲注工巧’具体所指不详。",
+          "‘仁穷外朝’具体所指不详。",
+          "‘朵变剑于主兵’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1548,
+    "completion_tokens": 857,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1548,
+      "completion_tokens": 857,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

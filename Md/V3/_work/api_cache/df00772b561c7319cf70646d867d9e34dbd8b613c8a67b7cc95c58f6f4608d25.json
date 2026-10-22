@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-26T04:11:35.429003+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "df00772b561c7319cf70646d867d9e34dbd8b613c8a67b7cc95c58f6f4608d25",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002178-p000-037311ebd7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“庚甲”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002179-p000-faf9125629",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002181-p000-02d40b1f1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兩大相春形”释读为“是两大相春形”未做通俗转换，普通读者无法理解含义；原文“遺精穴”未明确标注风险，直接释读为“扦遗精穴”存在无依据保留晦涩专名的问题"
+        ],
+        "uncertainty": [
+          "“两大相春形”具体所指不详",
+          "“遗精穴”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002183-p000-dc76f7fd3a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“進士七里”释读为“进士七里”未做通俗转换，普通读者无法理解含义；原文“郎中枹幼主”的“枹”为通假字，释读为“抱”未做说明，且“枹”另有“击鼓杖”含义，存在直接推定含义的问题"
+        ],
+        "uncertainty": [
+          "“进士七里”具体所指不详",
+          "“枹”是否通“抱”原文未明"
+        ]
+      },
+      {
+        "id": "book029-b002184-p000-17eed0c29a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大叚”释读为“大段”未明确标注OCR识别或通假说明，存在直接推定含义的问题；原文“兄第同朝”的“第”为错别字，释读为“兄弟同朝”未做说明；原文“來田国e②”“冕玲桥”“培下水”等OCR误差仅标注存在误差，未明确说明对应内容为原文识别存疑内容；原文“左手小金星汪进士祖地癸山丁卯”被拆分到两行释读，未标注原文语序混乱、语义不完整的风险"
+        ],
+        "uncertainty": [
+          "“大叚”是否为“大段”原文未明",
+          "“兄第”是否为“兄弟”原文未明",
+          "表中“来田国e②”“冕玲桥”“培下水”“癸山丁卯”等内容存在OCR识别或原文损坏，语义不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2889,
+    "completion_tokens": 613,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2889,
+      "completion_tokens": 613,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

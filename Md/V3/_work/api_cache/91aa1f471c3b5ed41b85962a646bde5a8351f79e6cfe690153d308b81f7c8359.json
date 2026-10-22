@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-09-26T13:33:01.064881+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "91aa1f471c3b5ed41b85962a646bde5a8351f79e6cfe690153d308b81f7c8359",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000538-p000-8fa88f840f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自将原文诗歌体裁改写为白话解释，且无依据添加‘文曲星和巨门星相间排布’‘平坦开阔的’‘就要安设’等表述，篡改原文内容；current仅补充合理字使文意通顺，更符合原文保守性要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000539-p000-89ea208a68",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无原文依据添加‘山势’‘显贵的地势’‘结穴’‘相间的星峰才能凑全’等表述，属于过度推演；current完全忠实于原文，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000540-p000-d8c3e10d1f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末句‘背井离乡名’存在残缺，candidate无依据补全为‘会让主人离开家乡获得声名’，违反原文存疑原则；且将‘离’（锁定术语，属八卦）误释为‘离开’，违反术语使用规范；current完整保留原文残缺状态，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000547-p000-f216b49bda",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "current无依据增加‘文中说’‘文中还提到’等冗余表述；candidate补充说明术语存疑符合规范，但对‘尖圆相继向前行’的解释属于无原文依据的推演，两版各有瑕疵"
+        ],
+        "uncertainty": [
+          "‘谏龙’‘犯燥’‘旗下将军台伏奸’‘开国成家自天召’的具体含义无明确原文依据，无法确定最优解释"
+        ]
+      },
+      {
+        "id": "book001-b000555-p000-c3dad0f4e2",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将诗歌中描述地形意象的内容直接按字面翻译为现实场景，误解原文语境；candidate明确说明是地形意象，标注风水术语存疑，符合专业要求，且无篡改原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000564-p000-7a7a9dc25c",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文‘形巨微’错误解释为‘形态有巨大和微小的区别’，忽略原文‘武曲单行形巨微’是指武曲形态类似巨门星而微小的含义；且无依据拆分‘妆台梳洗画蛾眉’为两种形态，篡改原文；current解释符合原文表述，且标注存疑内容，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000566-p000-f0da52e8a6",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将‘月晕望弦角背皓’错误解释为‘月亮周围出现光晕时，望向弦月，其背侧显得洁白’，原文是并列指月晕、望、弦的角背均皓；且无依据将‘扳鞍凹应异天财’解释为‘应验了来自天外的财富’，属于臆测；candidate断句准确，标注存疑内容，符合保守性要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000574-p000-7f8301ce75",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据添加‘火属性的地势’‘会有片片重新兴起的态势’‘相关的作用涉及’等表述，属于过度推演；current完全忠实于原文，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000598-p000-02ca95d74d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为二级标题格式，candidate擅自改写为说明性语句，破坏原文体例；current完全保留原文标题格式，更符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000618-p000-46c77bb082",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对原文错简的梳理存在错误，如‘作。艮寅来山丁癸也。向扦’断句错误；candidate准确梳理原文语序，正确解释锁定术语，标注存疑内容，且严格遵守术语不修改的要求，明显优于current"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2732,
+    "completion_tokens": 1269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2732,
+      "completion_tokens": 1269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

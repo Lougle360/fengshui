@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:49:49.992800+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "db143affa0c06419585b851c0929f45cdade7dff79ab4378b9cd17119e3b61d4",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000271-p000-6051bfe61d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量缺字、错乱及模糊难辨的内容，已明确说明相关情况"
+        ],
+        "uncertainty": [
+          "原文中部分数字、干支、卦象等内容因残缺无法确认具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3607,
+    "completion_tokens": 89,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3607,
+      "completion_tokens": 89,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

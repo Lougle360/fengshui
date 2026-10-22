@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-25T05:08:04.345916+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "11d8303a701115230d7f054232c4285aa3da4ccfc08aa8f0106c761c0955fbf3",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001501-p000-f187380c4c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001503-p000-7a7a5e3102",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“屯左地葬待郎之父”的“待”为“侍”的形近讹字，原文此处无“与右地位置相对的”含义，属于无依据增译；且“屯”为龙脉屯聚之意，不应拆分“屯左地”为“屯/左地”，误将“屯左地”解释为与右地相对的位置，偏离原文语义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001507-p000-4a37195dee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文干支为“已山亥向”，候选改为“巳山亥向”，属于干支字形篡改，与原文不符。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001510-p000-980a6463ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2305,
+    "completion_tokens": 349,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2305,
+      "completion_tokens": 435,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2305,
+      "completion_tokens": 349,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

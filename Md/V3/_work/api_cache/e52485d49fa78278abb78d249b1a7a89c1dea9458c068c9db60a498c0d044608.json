@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-15T15:46:33.933132+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e52485d49fa78278abb78d249b1a7a89c1dea9458c068c9db60a498c0d044608",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002274-p000-947fbb91cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文推测性表述‘当有王者’（应当会有王者）改写为确定性事实‘发生了相应的事’，属于将推测写成事实。原文‘百八十年间’后文意未结，候选句补充‘发生了相应的事’属于无依据扩写。",
+          "‘山用之融结在天而山水之裁成在人’候选句处理为‘具体所指不详’符合要求，但‘祭氏所说的’后直接引用，原文‘祭氏所谓’后即为该句，候选句结构稍显割裂，但语义风险低，可接受。",
+          "‘浴饶之表湾河’、‘康山湖’、‘丁方’、‘王门水’均按opaque_terms要求保留原样并加引号，处理正确。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 951,
+    "completion_tokens": 207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 951,
+      "completion_tokens": 207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

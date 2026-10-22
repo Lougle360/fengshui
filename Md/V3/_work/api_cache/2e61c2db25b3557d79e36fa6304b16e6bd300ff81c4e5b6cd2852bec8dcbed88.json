@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-24T19:04:31.606586+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2e61c2db25b3557d79e36fa6304b16e6bd300ff81c4e5b6cd2852bec8dcbed88",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002376-p000-cf4d4156c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002377-p000-b23c8efd22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002379-p000-5e1cd6a3d3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "《晋》卦辞的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1849,
+    "completion_tokens": 167,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1849,
+      "completion_tokens": 167,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

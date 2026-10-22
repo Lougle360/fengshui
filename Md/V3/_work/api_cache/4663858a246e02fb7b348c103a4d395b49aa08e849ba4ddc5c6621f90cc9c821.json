@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T19:59:16.933363+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4663858a246e02fb7b348c103a4d395b49aa08e849ba4ddc5c6621f90cc9c821",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003208-p000-a40b321769",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文未提及的风水语境强行赋予‘水’的含义，违反术语使用规则，allowed_glossary中‘水’的定义为风水语境中的河流、水系及其来去形态，但原文此处‘瓮敝漏’的‘水’并非风水语境相关，属于误加限定"
+        ],
+        "uncertainty": [
+          "原文未明确‘射鲋’‘瓮敝漏’的具体所指，释读中对二者的比喻解释存在主观推测成分"
+        ]
+      },
+      {
+        "id": "book016-b003210-p000-461eca5c10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003211-p000-66cd7b3ed3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文未提及的风水语境强行赋予‘水’的含义，违反术语使用规则，allowed_glossary中‘水’的定义为风水语境中的河流、水系及其来去形态，但原文此处‘井渫’的‘水’并非风水语境相关，属于误加限定"
+        ],
+        "uncertainty": [
+          "原文未明确‘射鲋’‘瓮敝漏’的具体所指，释读中对二者的比喻解释存在主观推测成分"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 331,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1603,
+      "completion_tokens": 331,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

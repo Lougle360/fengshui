@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:13:48.902099+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9a7cc16d069ab64ef4218490230a7db7e0eb9713ed5229a9ae2262ed0925b630",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000495-p000-c9814aa1e7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文中「ま」「慷懋」为无法确定含义的模糊表述，释读时保留原样未作臆断"
+        ],
+        "uncertainty": [
+          "「ま」「慷懋」具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1925,
+    "completion_tokens": 89,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1925,
+      "completion_tokens": 89,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

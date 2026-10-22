@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-04T05:43:22.814788+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ab3650cdcbf674e2e9eed5cedae4d967749b537a70e8a7a2e6ba44ed3d3549ee",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000651-p000-f51b72fb4f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'未如黑不論順正倒騎之穴'，candidate译为'無論順、正、倒、騎哪種穴法'，漏译了'未如黑'三字，含义不明，但不应直接省略。",
+          "原文'行龍當眷卷三'，candidate译为'行龍眷顧卷三'，将'當'字译为'眷顧'，属于无依据的推测性翻译。'卷三'可能指书中卷次，也可能有特定含义，不宜直接保留。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000652-p000-f6fd909963",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000653-p000-9f0f5c3a25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'天財是金水轉誥是金土太陽是金水太陰是金土'，candidate译为'天財是金水轉誥，太陽是金水，太陰是金土'。此处理解有误，原文应为'天財是金水，轉誥是金土，太陽是金水，太陰是金土'，candidate将'轉誥是金土'误并入'天財'的释义中。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000654-p000-f41d9ff07c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000655-p000-16c856fd84",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'先弓单股不同单股雖濤亦是单提必曲如秤鈎方是脚先弓左右亦有兩出但股有長短原來輕重不同'，术语'先弓单股'、'单提'等含义不明，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book028-b000656-p000-2214c2ea4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000657-p000-fe340897e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000658-p000-4036c8871a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000659-p000-5b99291c08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'砂經 窮源僻塢一穴居高人物不到之處甘山清水秀必出清 當面之山有腳直出順流而下去不田顧主人離鄉雖陰 砂與水亦同若有山外之潮宜順湖之勢鑿築注水引入 城廓途至穴前其人必返'，candidate译为'砂經云：窮源僻塢...'。原文'砂經'后无'云'字，candidate添加了引述词，属于增译。",
+          "原文'必出清 當面之山...'，candidate译为'必出清貴之人。當面的山...'，将'清'字补全为'清貴之人'，属于无依据的扩写。原文'清'字后可能缺字，但不应直接补足。",
+          "原文'去不田顧'，candidate译为'不回頭顧盼'，将'田'字译为'回頭'，属于无依据的推测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000660-p000-6df39e4f13",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'大則火看小則小者求地'，candidate译为'大則火看，小則小者求地'，含义晦涩，candidate已标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2752,
+    "completion_tokens": 912,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2752,
+      "completion_tokens": 912,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

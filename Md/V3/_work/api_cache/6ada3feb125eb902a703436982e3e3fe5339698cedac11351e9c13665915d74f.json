@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-25T12:28:24.830771+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6ada3feb125eb902a703436982e3e3fe5339698cedac11351e9c13665915d74f",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000283-p000-18cef09af6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "龙虎亥",
+          "外鸥交师",
+          "片无",
+          "属庶",
+          "兜净"
+        ]
+      },
+      {
+        "id": "book025-b000285-p000-b11ddb3945",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“辰则龙穴金水，戌则龙穴木火，丑金火未必水木”，candidate误写为“辰位对应金龙穴属金水”，额外添加了“金”字修饰龙穴，违背原文含义"
+        ],
+        "uncertainty": [
+          "四墓辰",
+          "四墓戌",
+          "四墓丑"
+        ]
+      },
+      {
+        "id": "book025-b000286-p000-2cdd100d89",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此玉尺經之凶也”中“凶”为讹误，candidate释为“这些都是《玉尺经》里的内容”无依据，应保留原表述或标注讹误；原文“有用平分以溪之者”candidate释为“有用平分法来适配溪向的”属于无依据增译，原文未提及“溪向”；原文“十有三”candidate释为“应验率约为十分之三”属于无依据增译，原文未明确是应验率"
+        ],
+        "uncertainty": [
+          "卒壬會而聚辰",
+          "乙交而戊",
+          "金羊次癸甲之靈",
+          "頭庚癸",
+          "十有三"
+        ]
+      },
+      {
+        "id": "book025-b000289-p000-a054d89f60",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“契三 今清客水”存在断句讹误，candidate将其拆分为“契合‘三今清’；收纳客水”属于无依据断句，与原文排版断句不符"
+        ],
+        "uncertainty": [
+          "三今清",
+          "元空",
+          "卦納",
+          "进神",
+          "退神",
+          "大小中神"
+        ]
+      },
+      {
+        "id": "book025-b000290-p000-e829d258e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“元空沮”candidate释为“元空法”属于无依据释义，原文“生八火水”“元些注”“血仲季”均为讹误，candidate直接修正为“见火水为克入”“元空法的记载”“孟、仲、季三房”属于无依据改译，应保留原表述或标注讹误"
+        ],
+        "uncertainty": [
+          "亥卯未之煩权",
+          "元空沮",
+          "生八火水",
+          "元些注",
+          "血仲季"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3768,
+    "completion_tokens": 651,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3768,
+      "completion_tokens": 651,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

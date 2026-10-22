@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T17:09:08.531284+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "afd10b74220292c9e7dfe89999e0ce32b5819ab771c2b10948e3837b13c57070",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000767-p000-f2ea065be1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000768-p000-8985ce476e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000769-p000-aa8afd153e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000770-p000-a2af37cd07",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文本存在换行错乱，已根据上下文逻辑调整语句顺序"
+        ],
+        "uncertainty": [
+          "原文本存在换行错乱，已根据上下文逻辑调整语句顺序"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1617,
+    "completion_tokens": 219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1617,
+      "completion_tokens": 219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

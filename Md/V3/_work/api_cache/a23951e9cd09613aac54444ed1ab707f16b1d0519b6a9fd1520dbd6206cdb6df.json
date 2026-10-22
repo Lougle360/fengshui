@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-16T08:40:30.539672+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a23951e9cd09613aac54444ed1ab707f16b1d0519b6a9fd1520dbd6206cdb6df",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001603-p000-0388eeb1a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘潘两角’中的‘潘’字，candidate 译为‘如果没有，就在两角安扦’，将‘潘’字直接忽略并意译为‘如果没有’，这是漏译。‘潘’字在此处含义不明，candidate 应保留原文‘潘’字并标注其不确定性，或明确说明‘潘’字具体所指不详。",
+          "原文‘土取發金穴土藏金曰化氣吉也’一句，candidate 译为‘土中藏金，称为化气，是吉兆。’其中‘土取發金穴’的‘取發’二字被完全省略，属于漏译。",
+          "原文‘或土星腰長開虛窩曰水不可扦腰主黃腫絕人’一句，candidate 译为‘或者土星腰部修长，开有虚窝，称为水形，不可在腰部安扦，因为主黄肿、绝人。’此处将‘曰水’译为‘称为水形’，属于对专业术语‘水’的误换。根据 allowed_glossary，‘水’在风水语境中特指河流、水系及其来去形态，而非一种‘形’。candidate 将其解释为‘水形’，超出了允许的术语定义范围，属于无依据的扩写。应保留‘水’字并引用说明其风水含义，或直接说明‘水’的具体所指不详。",
+          "原文‘如拗腦者名巨門吉擔凹可穴’一句，candidate 译为‘如果是拗脑者，名为巨门，是吉穴，可以在担凹处安穴，但‘担凹’的具体所指不详。’此处将‘擔凹’译为‘担凹处’，并标注其不确定性，处理得当。但‘拗脑者’的译法‘拗脑者’过于直译，未进行通俗化转换，普通读者难以理解。应将其转换为更易懂的现代中文描述，例如‘如果山形拗转其顶部’之类的表述。"
+        ],
+        "uncertainty": [
+          "‘潘’字的具体含义不详。",
+          "‘土取發金穴’中‘取發’二字的含义不详。",
+          "‘拗脑者’的具体形态不详。",
+          "‘擔凹’的具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 881,
+    "completion_tokens": 522,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 881,
+      "completion_tokens": 522,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

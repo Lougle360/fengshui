@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-04T05:46:18.878604+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "14beecc26a7372985b88e22302eb60f47dfd3189748de9a0cf26f37fbf2870b1",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000661-p000-8167695596",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000662-p000-2df7c27322",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000663-p000-9f2bca6e75",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000664-p000-95844838e5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“无兹”及“掾物”具体所指不详，此处按字面直译，未作引申。"
+        ]
+      },
+      {
+        "id": "book028-b000665-p000-77ec237bfc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000666-p000-b3a56303ed",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“水居平面 隆太假陽大假腹如倒氣翠”语义严重晦涩，疑似有缺字或错乱。candidate仅按字面排列，未形成可理解的现代汉语句子，不符合V3“普通读者能读懂”的目标。"
+        ],
+        "uncertainty": [
+          "原文“隆太假阳大假腹如倒气翠”语义晦涩，疑似有缺字或错乱，具体所指不详，仅保留原意结构。"
+        ]
+      },
+      {
+        "id": "book028-b000667-p000-4f4fdfc18a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000668-p000-a9f72827d9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“頭圃角尖”为孤立短句，语义不明。candidate仅作字面转换，未形成可理解的现代汉语句子，不符合V3“普通读者能读懂”的目标。"
+        ],
+        "uncertainty": [
+          "原文“头圃角尖”为孤立短句，语义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000670-p000-60d4338009",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文大段文字存在严重错乱、缺字或衍文（如“规棋”“规惔”“牛由人”“麻之生死”“八无星肃”“河岳醉山”等），部分词句语义不通。candidate虽尝试重组，但多处仍无法形成连贯、可理解的现代汉语释读，不符合V3“普通读者能读懂”的目标。"
+        ],
+        "uncertainty": [
+          "原文大段文字存在严重错乱、缺字或衍文（如“规棋”“规惔”“牛由人”“麻之生死”“八无星肃”“河岳醉山”等），部分词句语义不通，无法确证原意，仅按字面进行现代汉语重组，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000672-p000-084c1d33a6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“将无纹绪”“纹”字疑似“文”或“统绪”之误，但无法确证，故保留原词并依上下文意译。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3086,
+    "completion_tokens": 899,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3086,
+      "completion_tokens": 899,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

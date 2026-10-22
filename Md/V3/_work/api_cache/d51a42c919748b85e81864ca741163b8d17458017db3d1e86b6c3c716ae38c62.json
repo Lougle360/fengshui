@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-23T10:06:10.348955+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d51a42c919748b85e81864ca741163b8d17458017db3d1e86b6c3c716ae38c62",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000501-p000-d0bdaa1c8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "太乙宫的具体方位或含义"
+        ]
+      },
+      {
+        "id": "book001-b000504-p000-730b278fa5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘禽如生耳文星现’是并列或递进关系，释读为‘如果山形像禽鸟长出耳朵，或者文星显现’将‘文星现’处理为独立并列项，可能改变了原文结构。原文‘定知财福不寻常’是肯定判断，释读为‘由此可知财福不寻常’语气稍弱，但基本语义未变，可接受。主要问题是‘禽如生耳文星现’的释读方式可能不准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000509-p000-e6dba04f9e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "脚的具体指代（支脉或分支）"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1005,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

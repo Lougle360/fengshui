@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-10-17T17:14:55.323209+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f5d0c577cb6f041e1b386f2cc5d6c9bf6c773bce461cc1661982ac1a47d08377",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004137-p000-6a60143431",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对 source 中大量错乱文字进行了过度整合和意译，未能忠实反映原文的破碎状态。例如，'我的地脉有金、玉、童、母等秘气' 是对 '我地金 玉 童 母 秘 在 气穴' 的推测性解读，原文并无'等'字，且'金玉童母'含义不明，不应合并解释。'风木传授，也是吉水公河，不处因精存鄙微人书也' 是对 '我风木授 亦之吉水公河 不处因精存鄙 微人 书 也' 的直译，但原文本身不通，candidate 未标注其不可解。'见识儿汉与歌衰日，着青及子房裙录形气必我所入' 是对 '见 识 儿 汉 与 歌 衰 日 着青 及 子 房 裙 录形气必我所入' 的直译，同样未标注其不可解。candidate 整体上试图将破碎原文连缀成通顺句子，但多处增译和推测超出了保守释读的边界。"
+        ],
+        "uncertainty": [
+          "原文文字错乱、倒置严重，大量句子无法形成连贯语义，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004138-p000-05547873d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'极于九既发其秘' 断句存在歧义，可能指'极于九，既发其秘'或'极于九既，发其秘'。"
+        ]
+      },
+      {
+        "id": "book035-b004139-p000-758c6607f8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将 '逸只是本身餘气发为贄庞' 中的 '逸' 直接处理为 '只是'，属于推测性修正，应保留'逸'字并标注其含义不明。'贄庞' 一词未标注其含义不明。'五皇' 一词 candidate 保留原词，符合要求，但未在 uncertainty 中说明其含义不明。candidate 将 '主则鬼亦凶' 补全为 '主凶则鬼亦凶'，属于合理的补足，可以接受。"
+        ],
+        "uncertainty": [
+          "'逸'、'贄庞'、'五皇' 具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004140-p000-61077da654",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将标题释读为一句描述性白话，改变了原文的标题性质。对于 kind='heading' 的项，应逐字核对并保持其标题格式，不应进行释义或添加说明。正确的处理应是直接保留或转写标题文字，例如：'地理天机会元卷二十 玉髓经官鬼曜星'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004141-p000-158f9f9eaf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将 '百是论生克' 修正为 '本是论生克'，属于推测性修正。应保留'百'字并标注其含义不明或可能为讹字。'畏山中腰' 未标注其含义不明。"
+        ],
+        "uncertainty": [
+          "'百是论生克' 语意不通，可能为讹字。'畏山中腰' 具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004142-p000-225a2ec910",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004143-p000-45c3d7be61",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对 source 进行了大幅度的意译和扩写，将破碎的原文整合成一段逻辑完整的论述。例如，'这完全不是死板地拘泥于某种固定法则' 是对 '全非执难法' 的推测性解读。'有人提问：如果在地势高低、鬼星变化等方面过于拘泥...' 是对 '问： 在所泥高当鬼 变宜故过如山 通此曰脉何若' 等破碎语句的过度整合。candidate 的释读超出了保守重构的边界，将许多不确定的原文内容赋予了确定的含义和逻辑关系。"
+        ],
+        "uncertainty": [
+          "原文语句逻辑断裂，具体指涉的高下、鬼变等细节难以完全确证。"
+        ]
+      },
+      {
+        "id": "book035-b004144-p000-7e4e8fdc23",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将 '同親鬼星之吉者' 释读为 '关于同亲鬼星是否吉利'，'同親' 含义不明，不应解释为'关于'。'贵彧可也' 被释读为 '可以说它具备某种尊贵'，'彧' 字含义不明，此处理属于推测。'雕非本溢' 被忽略或整合到后文，未作说明。candidate 整体上对晦涩词语进行了过多的推测性解释，未能忠实保留其不确定性。"
+        ],
+        "uncertainty": [
+          "'同親'、'贵彧'、'雕非本溢' 等词语含义晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004145-p000-3e906f06a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004146-p000-6e6776f260",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对 source 进行了大幅度的意译和逻辑重构，将极度破碎的原文整合成一段关于鬼星吉凶判断的完整论述。例如，'有人提问：关于鬼星的论述，其应验范围是否有限？' 是对 '之武之有之问 论若说鬼应范 聚不而越' 的推测性解读。'回答者说：鬼星聚集之处，必然与风水中的‘龙’、‘穴’、‘水’有关。' 是对 '集 所若诸是之出 家地轻於 耳城之所重子 非若鬼以不微 莫前在之 尽贤鬼学 于议地其 或前此论吉术' 等破碎语句的过度整合。candidate 的释读严重超出了保守释读的边界，将大量不确定的原文内容赋予了确定的含义和逻辑链条。"
+        ],
+        "uncertainty": [
+          "原文语句极度破碎，逻辑跳跃严重，具体含义难以确证。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5140,
+    "completion_tokens": 1500,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5140,
+      "completion_tokens": 1500,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

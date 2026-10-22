@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-10-15T05:07:39.455537+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "90b94036a3b3519dcc0302b08704c79215a9c5f7d1d4971380dabaa61cc5c404",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001196-p000-e35400d941",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "短夷",
+          "里地牛希有",
+          "内学壮高月"
+        ]
+      },
+      {
+        "id": "book035-b001197-p000-515c808039",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘望北自北望南自東望西自西望東’是并列的四个条件，意为‘从北望（则）自北（定向），从南望（则）自南（定向），从东望（则）自东（定向），从西望（则）自西（定向）’。候选句‘见龙神时，从北望南，从东望西，从西望东’改变了原文结构，漏译了‘望南自南’，并错误地将‘望北自北’合并为‘从北望南’，导致语义反义。",
+          "原文‘其定向句星出其從有民以去回抱爲吉’中，‘句星’可能为‘勾星’或‘句星’（星体或山形），‘民以去’可能为‘民以云’或‘民以之’等，但候选句将其整体标注为不详，处理方式符合规则。但需注意，候选句在引用时写为‘其定向句星出其從有民以去回抱爲吉’，与原文完全一致，符合规则。"
+        ]
+      },
+      {
+        "id": "book035-b001199-p000-d133085363",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天罡石陵贈",
+          "或有方是天其石，高聳亦看在何方上",
+          "假食在予上有主予年月弄喪之禍"
+        ]
+      },
+      {
+        "id": "book035-b001200-p000-24f3c97d63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "m y 庶兩相宜",
+          "三壹金水生平地縣州第一羊木聳一直或一橫",
+          "天機骨體經雲"
+        ]
+      },
+      {
+        "id": "book035-b001201-p000-52dcd9377a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天機胄隨經雲",
+          "论零餘詳"
+        ]
+      },
+      {
+        "id": "book035-b001204-p000-2bb2aa7871",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "未城",
+          "十字木星用陽靈",
+          "缠后龙过脉，忌拴鑒",
+          "前耖"
+        ]
+      },
+      {
+        "id": "book035-b001205-p000-705a51add3",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量无法连通的片段，疑似严重OCR错误或原文损坏，导致无法进行任何可靠的保守释读。候选句仅将大量片段标注为不详，但未能提供一个基于可读部分的连贯白话释读，且其描述‘文中提及曾杨记洪吉郡，专遵六秀论’等，试图从混乱中提取信息，但原文本身已无法支持任何确定的释读。根据规则，当原文损坏导致连保守释读都无法成立时，应判为uncertain。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3774,
+    "completion_tokens": 706,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3774,
+      "completion_tokens": 706,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

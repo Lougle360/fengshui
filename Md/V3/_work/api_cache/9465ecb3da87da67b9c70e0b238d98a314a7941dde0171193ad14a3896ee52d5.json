@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:13:53.111209+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9465ecb3da87da67b9c70e0b238d98a314a7941dde0171193ad14a3896ee52d5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000626-p000-bfd4dc76a7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文中含义不明的“退斯鎮”“午丁”“炙退”“死灸”等表述赋予了方位属性，属于无依据扩写；且“告君子癸”“退斯鎮酉辛”等内容的释读不符合原文逻辑，存在误释"
+        ],
+        "uncertainty": [
+          "原文中“炙退”“死灸”“退斯鎮”“午丁”等词含义不明，暂按原文保留表述"
+        ]
+      },
+      {
+        "id": "book010-b000627-p000-e50f0b726f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000628-p000-95c22eb4cc",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "candidate对原文的释读存在断句错误，将“十十二”误拆分为“十十二”，且未保留原文中“兌”“離”等含义不明的术语的原样引用，擅自纳入释读内容，不符合要求"
+        ],
+        "uncertainty": [
+          "原文中“月橫看”“陽年順”“陰年過”“兌”“離”等表述含义不明，暂按原文保留表述"
+        ]
+      },
+      {
+        "id": "book010-b000629-p000-1337244022",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“逆順飛歌”“九宮數至葬去”表述含义不明，暂按原文保留"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1632,
+    "completion_tokens": 400,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1632,
+      "completion_tokens": 400,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

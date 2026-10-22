@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-25T08:33:09.034999+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0a84d33a2176462d18296935d6881f15a1534586987a718ef81831f078ea3e74",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002369-p000-603ac81127",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对表格第二行的图片与文字对应关系描述错误：第二行共五个单元格，第一列是“河图变卦”，第二到第五列的内容依次为“極太有易”附图片、“儀两生是”附图片、“象四生儀两”附图片、“卦八生象四”附图片，候选误将第二列到第五列的文字描述为第二到第四张图片旁的标注，最后一列单独标注，且错误计数第二行图片数量为四张（实际第二行每列各一张共四张图片，计数没错但文字对应错误）；另外候选描述第一行第一列后依次排列三张图片，最后一列是文字加图片，此部分正确，但第二行文字与列的对应关系错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002370-p000-930410f9d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处“大禹”后内容残缺，无法确认完整信息"
+        ]
+      },
+      {
+        "id": "book018-b002372-p000-3cf24f31f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002375-p000-0813969f01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2780,
+    "completion_tokens": 377,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2780,
+      "completion_tokens": 377,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

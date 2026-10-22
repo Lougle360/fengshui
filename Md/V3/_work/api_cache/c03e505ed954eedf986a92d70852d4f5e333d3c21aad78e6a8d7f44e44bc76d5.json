@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-16T11:44:41.369604+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c03e505ed954eedf986a92d70852d4f5e333d3c21aad78e6a8d7f44e44bc76d5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002235-p000-cd043fbd6a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘切莫向人道生处腾腾险峻冈’是一个完整句子，candidate将其拆解并改变了句意。原文是告诫不要对人说‘生处腾腾险峻冈’这件事，candidate释为‘切莫向人说是从生处腾起’，并另起一句解释‘生处腾腾险峻冈’，这属于无依据的扩写和句意重组。",
+          "原文‘凉伞盖头藏四畔’是一个比喻，candidate释为‘像凉伞一样覆盖在上方，四周被遮蔽藏护’，将‘藏四畔’解释为‘四周被遮蔽藏护’是合理的浅显释义，但‘盖头’释为‘覆盖在上方’不够准确，原文‘盖头’更可能指伞盖的顶部。"
+        ],
+        "uncertainty": [
+          "‘生处腾腾险峻冈’的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b002236-p000-2cd1cc4ba6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "从‘有地真龙泊顺行气者’开始，原文文字错乱严重，语义不明。candidate将其整体标注为‘语义混乱，具体所指不详’，处理方式符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b002239-p000-843745fd6a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘须是暖淳淳’后接‘要识山头十二穴’，candidate将‘暖淳淳’单独标注为‘具体所指不详’，但‘暖淳淳’很可能与后文‘要识山头十二穴’构成一个完整语义单元，形容穴场或龙脉的某种状态。将其完全割裂处理，可能导致漏译关键语境。",
+          "原文‘下着济人盆’后接‘或是换龙或是正’，candidate同样将其单独标注为‘具体所指不详’。‘济人盆’可能是一个比喻或术语，但将其完全孤立处理，同样割裂了与后文的联系。",
+          "原文‘徐试可曰’后的内容，candidate释读为‘天者行度星峰也，成者成龙也者传也，分地正者不走人，也者阴山，地人三穴随其山体而裁，这得宜俱为吉地。’这段文字本身存在语病或传抄错误，但candidate的断句和释读（如‘成者成龙也者传也’）并未明确标注其原文的混乱性，而是直接给出了一个看似通顺但可能扭曲原意的句子。应将此段整体视为语义含混段落处理。"
+        ],
+        "uncertainty": [
+          "‘暖淳淳’的具体含义",
+          "‘下着济人盆’的具体含义",
+          "‘褒龙心性’的具体含义",
+          "‘恰似人盘古正其身’的具体含义",
+          "‘徐试可曰’后部分语句的具体含义和正确断句"
+        ]
+      },
+      {
+        "id": "book035-b002244-p000-77926c1b0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘郑初欲录之续篇而后之也’的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2238,
+    "completion_tokens": 810,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2238,
+      "completion_tokens": 810,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

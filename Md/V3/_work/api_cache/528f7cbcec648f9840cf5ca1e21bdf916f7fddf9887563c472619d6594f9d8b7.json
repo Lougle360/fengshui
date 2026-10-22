@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-15T06:30:14.091913+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "528f7cbcec648f9840cf5ca1e21bdf916f7fddf9887563c472619d6594f9d8b7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001327-p000-792133f429",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001328-p000-5f25527c1d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘兵辛山’被释读为‘巽辛山’，这是基于推测的改动，但原文是‘兵’，应保留原文‘兵辛山’并标注不确定。",
+          "原文‘太三’被直接释读为‘一丈三’，这是无依据的确定解释，应保留‘太三’并标注其含义不详。"
+        ],
+        "uncertainty": [
+          "兵辛山具体所指不详",
+          "太三具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001330-p000-9fab12a96b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "畫雲具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001335-p000-dac33d32de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘六尺文，七尺文’存在重复，释读稿照录了此重复，但原文为‘六尺七尺文’，可能表示六尺和七尺都是文曲，释读稿的处理方式不够清晰，易引起混淆。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001336-p000-218d6b8482",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘一丈補星’被释读为‘一丈补星’，但‘补星’应为‘輔星’之误。释读稿直接使用了‘补星’，未按规则处理为不确定或勘误。应保留原文‘補星’并标注可能为‘輔星’之误。"
+        ],
+        "uncertainty": [
+          "一丈補星原文可能为輔星之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2614,
+    "completion_tokens": 414,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2614,
+      "completion_tokens": 414,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

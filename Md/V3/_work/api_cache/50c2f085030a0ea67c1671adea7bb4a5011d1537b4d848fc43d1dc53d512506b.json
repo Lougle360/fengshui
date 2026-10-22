@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:27:31.095208+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "50c2f085030a0ea67c1671adea7bb4a5011d1537b4d848fc43d1dc53d512506b",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000096-p000-5ba6de0ede",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘除根之曰’含义不明，释读未作确定解释，符合要求"
+        ]
+      },
+      {
+        "id": "book013-b000097-p000-f51f33d1ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000098-p000-744d329cde",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语句零散，释读将其拆分为独立短句，但未明确说明原文为零散口诀，存在将推测性拆分当作确定解读的问题"
+        ],
+        "uncertainty": [
+          "原文语句零散，具体含义及断句方式存疑"
+        ]
+      },
+      {
+        "id": "book013-b000099-p000-5464c0c8e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘穩口深臧’‘兩之王尺’等表述含义不明，释读未作确定解释，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2466,
+    "completion_tokens": 285,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2466,
+      "completion_tokens": 285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

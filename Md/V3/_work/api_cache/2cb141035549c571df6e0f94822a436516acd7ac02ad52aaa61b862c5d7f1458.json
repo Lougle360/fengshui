@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-18T08:22:15.806282+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2cb141035549c571df6e0f94822a436516acd7ac02ad52aaa61b862c5d7f1458",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005953-p000-64ee0611a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘华月鸟管局’与‘华昂胃三宿’具体所指不详，candidate已明确标注。"
+        ]
+      },
+      {
+        "id": "book035-b005956-p000-b499df08ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格内容整合为一段描述性文字，但未能准确反映表格的原始结构和数据排列。例如，第一行‘乙五丙四丁三’、‘二世’、‘家人卦 属木’、‘张月鹿 持世’是并列关系，candidate的叙述方式模糊了这种结构。表格中‘兄’、‘子’、‘父’、‘才’等六亲与‘八’、干支、卦名的对应关系在candidate中描述得不够清晰，未能体现表格的逐行对应逻辑。",
+          "candidate中‘对应的数字“八”（此处具体含义不详，可能指八宫或八纯卦体系）’属于无依据的推测。原文表格中的‘八’更可能表示爻的阴阳属性（如‘八’代表阴爻），但candidate未提供此信息，反而给出了不确定的猜测，这不符合‘不得认定为某流派、人物、神名、数理含义或现代概念’的判定边界。",
+          "candidate中‘乾、坤、震、巽均为八卦之一，其具体卦象及五行方位依原文语境确定’属于冗余说明，因为locked_terms已要求保留这些术语，且allowed_glossary已提供基本定义，无需额外解释。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1749,
+    "completion_tokens": 366,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1749,
+      "completion_tokens": 366,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-25T06:10:45.435265+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5a44f8ef47224156a37edb203505f0b8ca93e5852d237600dd45c57e591c7287",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001582-p000-2a948962e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source表格首行还有第三列标注数字'2'、第四列文字'火屠中'，candidate完全漏译了这部分内容",
+          "candidate第一条描述将source原文的'鬼星'简化为'鬼撑'，属于术语表述不准确，原文中此处鬼撑是鬼星的一种布局状态，存在表述偏差"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 127,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1192,
+      "completion_tokens": 127,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

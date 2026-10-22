@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-15T01:21:22.083256+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "65592f9a18f7e6b64b32acce68752da6aa8278338fcb2d2a48276aaeee52cf9a",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001601-p000-aa49dcbbdf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中‘賤龍主淫欲乞丐擅禮’一句，candidate译为‘贱龙形态主掌淫欲与乞丐，且擅长礼仪’，存在反义或误译。‘主’在此处应为‘主导、导致’之意，而非‘主掌’。‘擅禮’可能为‘擅离’或‘失礼’之误，译为‘擅长礼仪’与上下文‘淫欲乞丐’的负面含义不符，应存疑或标注原文可能有误。",
+          "candidate将‘抱有砂者’译为‘若穴场周围有砂’，漏译了‘抱有’（环抱、拥抱）的动作或形态描述。",
+          "candidate将‘其醜尤甚’译为‘这种丑陋的形态尤为严重’，‘形态’为增译，原文仅指‘其丑’，即这种丑态。虽不影响理解，但非必要增译。"
+        ],
+        "uncertainty": [
+          "‘擅禮’一词含义不明，可能为讹字或特定术语，candidate解释为‘擅长礼仪’缺乏依据，应标注原文未明或存疑。"
+        ]
+      },
+      {
+        "id": "book033-b001602-p000-edc4c685c8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中‘上格龍主富里貴而淫洗內亂’，candidate译为‘上格龙主掌富贵且淫乱，导致内部混乱’。‘富里貴’可能为‘富且贵’或‘富贵里’之讹，译为‘富贵’可接受，但‘主掌’应为‘主导、导致’。‘淫洗’可能为‘淫佚’或‘淫泆’之误，译为‘淫乱’方向正确，但‘洗’字未处理，应标注原文可能有误。",
+          "source中‘中裕龍主男淫女溫醜名遠播’，candidate译为‘中格龙主男性淫乱、女性淫乱，其丑名远播’。‘中裕龍’可能为‘中格龙’之讹，可接受。‘女溫’之‘溫’字，candidate在uncertainty中说明按淫乱理解，但正文翻译直接写为‘女性淫乱’，将推测写成了事实，应保留原文‘女温’并说明含义不明。",
+          "source中‘賤龍主揭妓’，candidate译为‘贱龙主掌揭发妓女相关事务’。‘揭妓’含义不明，candidate在uncertainty中说明按揭发理解，但正文翻译直接写为‘揭发妓女相关事务’，将推测写成了事实，应保留原文‘揭妓’并说明含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 884,
+    "completion_tokens": 649,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 884,
+      "completion_tokens": 649,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

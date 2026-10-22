@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T21:28:14.161176+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fa093cedf7f48383477c8af3f645578782d7f7181a39fd5fd49ac62e1091c117",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003716-p000-3110084926",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的①注释标记未在candidate中体现，存在漏译；“上逮也”的解释“德行向上企及于尊者”属于无依据增译，原文未明确说明企及的对象是尊者、也未提及是德行相关"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003718-p000-29e79b6fa9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中“震”的allowed_glossary定义为八卦之一，但此处原文中的“朱震”是人名，candidate未对人名进行风险标注，直接使用属于术语误用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003721-p000-c430ecc7c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003723-p000-8bc0edcec0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003724-p000-19de8533c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1808,
+    "completion_tokens": 381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1808,
+      "completion_tokens": 381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T22:05:51.037832+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "226ad9bdcce947460f2cc22a2d985271e870992ee858e19829997eb31838118b",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000577-p000-992932c290",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "百一替、是王即的四个一、石4正真读、子癸怜分排龍之一宮雙星的具体含义不明，原文表述有残缺讹误"
+        ]
+      },
+      {
+        "id": "book017-b000579-p000-e59cc3bb99",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字是「伝」，candidate误释为“依着相关传承来推求”，缺乏依据，属于无依据增译；原文“良官三山”是讹误写法，candidate错误保留为“艮官三山”，与后续“良賓”的写法矛盾，应明确标注为疑似讹误"
+        ],
+        "uncertainty": [
+          "原文存在多处讹误、断句混乱，除“艮”可确定为八卦之一外，其余表述具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000580-p000-42099d9b19",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量日文字符、乱码和讹误，除“二十四山”“穴”可按给定释义理解外，其余残缺内容具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000588-p000-906adf0519",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“辭害音分別支辦”出自《周易》“以言者尚其辞，以动者尚其变，以制器者尚其象，以卜筮者尚其占”的讹误？不对，应该是原文“若以辭害音分別支辦即司庭人說草”的释读错误，candidate直接直译“如果靠辞害音分别支办，就是司庭人说草”，未标注该句属于讹误不可解，属于将无法确定含义的内容直接译为通顺句子，不符合要求"
+        ],
+        "uncertainty": [
+          "原文断句混乱，存在OCR识别的乱码符号，除可辨识的书名、短句外，其余表述具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1666,
+    "completion_tokens": 562,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1666,
+      "completion_tokens": 562,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

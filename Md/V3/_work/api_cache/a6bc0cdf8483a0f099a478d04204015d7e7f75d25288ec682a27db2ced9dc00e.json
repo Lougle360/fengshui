@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T19:17:49.129098+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a6bc0cdf8483a0f099a478d04204015d7e7f75d25288ec682a27db2ced9dc00e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002484-p000-5af281152e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“也①”的标注未在释文中体现，但不影响核心含义的传达"
+        ]
+      },
+      {
+        "id": "book016-b002485-p000-e9e53552a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002486-p000-b8689de38c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002487-p000-73037e7f2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“起”“于地”等排版混乱的内容已按合理语义整合，未改变核心含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 241,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1389,
+      "completion_tokens": 241,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

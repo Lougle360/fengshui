@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-04T06:07:35.468778+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b1b3c3fe5cba23cd577fe41ba468bae43d5fdecc3fd09cccd57b8f5ef447c029",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001475-p000-9b05a85159",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘尸白虎’疑为‘右白虎’或‘白虎方’之误，但candidate直接译为‘右侧白虎方’，将推测写成了事实。应保留原文‘尸白虎’并说明其可能为‘右白虎’之误。",
+          "原文‘取作胡僧禮佛形以群秀當前也’中‘以群秀當前也’是解释取名‘胡僧礼佛形’的原因（因为群秀山峰当前），candidate译为‘取象为胡僧礼佛形，以群秀山峰当前’，将解释性短语处理为并列陈述，语义连接不够清晰。",
+          "‘穴前站祿平 坦明堂融注’断句应为‘穴前站禄，平坦明堂融注’，candidate译为‘穴前站禄，地势平坦，明堂融注’，‘站禄’含义不明，应保留原词并说明其可能为术语或待考。"
+        ],
+        "uncertainty": [
+          "‘站禄’具体所指不详。",
+          "‘绿督’可能为官职或称号，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b001478-p000-be6c6c0a3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘地理人子多矢差五’语义不明，无法确定其确切含义。"
+        ]
+      },
+      {
+        "id": "book033-b001480-p000-c00adef84f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文内容严重错乱，存在大量无法辨识的字符和断裂句读，无法进行有效释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2070,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2070,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

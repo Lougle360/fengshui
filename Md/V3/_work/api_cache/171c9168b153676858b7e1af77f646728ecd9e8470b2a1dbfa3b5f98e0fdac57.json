@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T18:24:19.880104+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "171c9168b153676858b7e1af77f646728ecd9e8470b2a1dbfa3b5f98e0fdac57",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001906-p000-baa2ad1c80",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选释读内容缺失，无法完成判错"
+        ],
+        "uncertainty": [
+          "候选释读为空，无有效释读文本"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 774,
+    "completion_tokens": 72,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 774,
+      "completion_tokens": 72,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

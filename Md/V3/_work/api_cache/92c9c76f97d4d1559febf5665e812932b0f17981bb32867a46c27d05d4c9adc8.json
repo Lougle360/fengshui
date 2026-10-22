@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-26T07:24:35.919503+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "92c9c76f97d4d1559febf5665e812932b0f17981bb32867a46c27d05d4c9adc8",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000228-p000-35f66d9363",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为'尋龍固當穴遠'，candidate误译为'寻找龙脉固然要考虑穴的相关情况'，语义偏差；原文'近以入首三者為課'未准确译出，漏译'三者为课'的内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000230-p000-927f6cc177",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000231-p000-2ad89a0346",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "两舜均均可爱具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000232-p000-3536ab7005",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'外堂雖潤'candidate误译为'外堂虽然开阔'，'潤'并非'开阔'含义，属于释读错误；原文'鎮叫巖山'存在释读模糊，未明确该专名的准确表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000237-p000-3c8497c706",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "梦云集蚁具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000238-p000-aef5c50f39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4465,
+    "completion_tokens": 423,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4465,
+      "completion_tokens": 423,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

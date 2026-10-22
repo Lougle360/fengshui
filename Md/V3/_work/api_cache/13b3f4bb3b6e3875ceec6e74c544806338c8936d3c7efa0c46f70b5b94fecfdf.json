@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:14:06.936106+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "13b3f4bb3b6e3875ceec6e74c544806338c8936d3c7efa0c46f70b5b94fecfdf",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000142-p000-f2b3e9fcba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“设置相关设施”具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000143-p000-bee8a21176",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000145-p000-ee337e0c44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000146-p000-c18f809a64",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“靑裳心印”释为“青囊心印”缺乏依据，属于无依据的推测；“五廟居藏”被赋予含义，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“靑裳心印”疑为“青囊心印”之误，“五廟居藏”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1503,
+    "completion_tokens": 280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1503,
+      "completion_tokens": 280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-25T05:59:14.090697+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "13c7781b7349669696ee2545e38f184bdb549269e392ac7f3704e79574d5903e",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000025-p000-c1f575174a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“及旦而亟觅其所”的“所”指的是对应星象的地面位置，候选释为“寻找那颗星所在的位置”不准确，且后文“见宋太祖与赵普同坐酒肆间，而赵居其左”的“其”指宋太祖，候选误写为“赵普坐在小星的位置上”，违背原文含义。",
+          "2. 原文“推而易之”是对这类事例推衍变换来说明天人感应的道理，候选误释为“于是推算后把位置换了过来”，属于错译。",
+          "3. 原文“而航海之舟遂覆”对应北宋花石纲运输的史实，《元史》是元代编撰的史书，候选直接写“《元史》却占卜这件事”表述有误，应为元代史书记载相关占测内容。",
+          "4. 原文“天动人应”释为“天变动而人相应”不够准确，原文指天运变动人事就会感应应验。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000026-p000-1fcade5089",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "聚讲、行讲、坐讲、权星、尊星、雄星、盖胎、夹胎、乘胎、收襟、收堂、收关、势、局均为风水专有术语，未在allowed_glossary中给出明确释义，普通读者可能难以准确理解具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2465,
+    "completion_tokens": 383,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2465,
+      "completion_tokens": 383,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

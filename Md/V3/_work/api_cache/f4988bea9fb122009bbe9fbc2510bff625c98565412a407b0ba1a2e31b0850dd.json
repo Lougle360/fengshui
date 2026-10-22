@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:23:12.856121+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f4988bea9fb122009bbe9fbc2510bff625c98565412a407b0ba1a2e31b0850dd",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000736-p000-52585a2d9b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中含义不明的字符“夾”“邱”“如”“レ”等直接释读为标点分隔的内容，未标注其含义不明的情况，违反了术语处理规则"
+        ],
+        "uncertainty": [
+          "原文中“夾”“邱”“如”“レ”等字符含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000737-p000-3d994ba843",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元武陰私黑星",
+          "司命天明星",
+          "天星勾陳王勃黑星"
+        ]
+      },
+      {
+        "id": "book010-b000738-p000-fe784bb9a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“狗守昭”“天寡守日爾然”“帝舍相日”等表述含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000739-p000-e4f41339e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中含义不明的字符“手”“奕”“史”等直接释读为标点分隔的内容，未标注其含义不明的情况，违反了术语处理规则"
+        ],
+        "uncertainty": [
+          "原文中“手”“奕”“史”等字符含义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2030,
+    "completion_tokens": 372,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2030,
+      "completion_tokens": 372,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-26T13:29:06.260903+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "596a50bddf9dd2c5f46c6586f9b483202120bacdb0970d6a0e2514ce20c10ccd",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000310-p000-fc1cdc9cf4",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate删除了allowed_glossary中允许标注的‘向’的释义，导致内容通俗性低于current，不符合规范"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000319-p000-cbdfb107a6",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据标注‘三吉’‘主水行生旺’所指不详，原文语义连贯可通顺解读，且candidate未按原文逻辑梳理句意，完整性、准确性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000342-p000-4237559819",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据标注‘木星’所指不详，风水语境中木星为常见九星类术语，原文可通顺解读，candidate完整性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000348-p000-7d2ef0a30d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未对前几句原文做必要的通顺化释义，仅直接引用原文，通俗性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000363-p000-81aedb1c13",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据标注‘太乙宫’所指不详，太乙宫为风水术数常见概念，原文可通顺解读，candidate完整性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000365-p000-e0fe539d77",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate补充了‘震’的允许释义，但标注‘盂仰’所指不详；current未标注‘盂仰’存疑，也未解释‘震’的含义，两版各有得失"
+        ],
+        "uncertainty": [
+          "‘盂仰’的具体含义无明确注释依据，需进一步核实"
+        ]
+      },
+      {
+        "id": "book001-b000384-p000-957c9e961e",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000397-p000-41222ea499",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据标注‘中少先’‘三’含义不详，原文可结合风水房份语境通顺解读，且candidate将‘贵旺人丁’擅自改为‘使显贵之家的人丁兴旺’，属于无依据增译，准确性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000398-p000-1a7260d119",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "current将‘人巽辛兑丁’误译为‘巽辛兑丁方位的人’，属于语义误读；candidate标注该句含义不详，但其余部分表述更严谨，两版各有错误与不足"
+        ],
+        "uncertainty": [
+          "‘人巽辛兑丁’的具体含义无明确原文依据，需进一步核实"
+        ]
+      },
+      {
+        "id": "book001-b000411-p000-75c4a4ef66",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3979,
+    "completion_tokens": 1172,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3979,
+      "completion_tokens": 1172,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

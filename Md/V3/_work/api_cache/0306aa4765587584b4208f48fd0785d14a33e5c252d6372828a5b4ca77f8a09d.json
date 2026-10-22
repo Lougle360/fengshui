@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-26T04:10:57.722582+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0306aa4765587584b4208f48fd0785d14a33e5c252d6372828a5b4ca77f8a09d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002165-p000-0b80e5c154",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002167-p000-2a5d533caf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002170-p000-f3a11dfaff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002171-p000-9f1130a0a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文书名是《地理参赞玄机全书》，候选误写为《地理参赞玄横全书》；原文“向巳丙”候选误写为“向为已丙向”，干支用字错误，“巳”误为“已”；原文“只怕天折不洪”候选误写为“只怕会有天折的情况”，“折”应为“折”的异体，即夭折的“折”，对应前文的“富夭”，“天折”是笔误；原文“出同胞四尚书”释读为“一母同胞的四位尚书”没问题，但前文书名和干支、用字错误需要修正。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002172-p000-bdda532748",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002175-p000-703966d1dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002177-p000-7e59282935",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "双瓜油虹的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2801,
+    "completion_tokens": 546,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2801,
+      "completion_tokens": 546,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

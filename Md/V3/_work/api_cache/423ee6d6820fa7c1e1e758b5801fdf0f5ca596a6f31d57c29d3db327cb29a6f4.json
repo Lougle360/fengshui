@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-25T13:25:37.906025+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "423ee6d6820fa7c1e1e758b5801fdf0f5ca596a6f31d57c29d3db327cb29a6f4",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000018-p000-209eb7a388",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000020-p000-11c0568b4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000021-p000-e5a22b8d3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“少林生”误译为“沈少的儿子”，属于无依据的身份推定",
+          "原文中“憎过目成诵”的“憎”未释读，属于漏译",
+          "原文中“縣遠李近吾”误译为“距离较远的李近吾”，“縣遠”是地名，不应释为距离远",
+          "原文中“佳人二有地尽英华”释读有误，不符合原文语序；“啄”应为“咏”，原意为契合李近吾的诗句，释读为“深合李公的诗句”虽语义相近但未指出原文“啄”为讹字或误写？不对，原文“深合李公之啄”的“啄”是“咏”的讹字，candidate直接译为“诗句”没问题，但前面“俯仰乾坤何處佳人二有地尽英华”释读错误，原文该句是“俯仰乾坤何處佳，人二有地尽英华”？不对，原source里李近吾的诗是“俯仰乾坤何處佳人二有地盡英華性由天命眞龍祖道衞吾身輔峽砂脈到靈臺方是正穴尋華不曾差須認四端爲四應莫將虛受作虛花若還損壞全無用保得完時福愈加自古尺爲君子宅至今不作小人家雖然說破無難認一爭毫髮隔天涯”，candidate把“俯仰乾坤何處佳人二有地盡英華”拆成“俯仰乾坤，何处是好地？人有地尽英华”，属于对原诗句的错误拆分，漏了“二”字且无依据调整语序",
+          "原文末尾的“地理碎事 六 鄭寄著輯”是书籍卷次、作者信息，candidate完全漏译"
+        ],
+        "uncertainty": [
+          "原诗句“俯仰乾坤何處佳人二有地尽英华”存在文字讹误或断句不明，“人二”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1909,
+    "completion_tokens": 585,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1909,
+      "completion_tokens": 376,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1909,
+      "completion_tokens": 585,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

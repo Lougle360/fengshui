@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-26T05:03:13.550300+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9ebe6d9541d28c12414bff4736f2562e4b8fe8506187cc71ae99ae52aa0d6009",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002302-p000-5a3f352aa7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002303-p000-5bfc2fa20b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘相褥明堂’‘玄室四應’‘授受動靜相乘’‘合尖界水’‘龍虎’‘案樂相登’‘秉倩’‘城門開鎖’均为风水专名或含混表述，未明确标注歧义，将不确定含义直接释读为确定内容不符合要求：其中‘相褥’‘玄室四應’‘授受’‘合尖’‘秉倩’未在allowed_glossary中，不得直接使用；‘龍虎’‘案山’‘乐山’‘城门’不属于allowed_glossary收录术语，不得直接释读为对应风水含义；‘相登’释为‘相互承接’无依据，‘開鎖’释为‘开合状态得宜’无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002304-p000-25ab9eac7f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002305-p000-7e56df5c7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘平洋’‘脫’不属于allowed_glossary收录术语，直接使用属于无依据释读；原文‘六曰脉平緩不’后缺字，末尾标注内容准确但‘平洋不忌风’等表述未明确说明‘平洋’为专名且含义未明"
+        ],
+        "uncertainty": [
+          "第六项后半句原文缺字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002306-p000-2a66968131",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘吞’‘罡曜星辰’‘闢’‘形势’不属于allowed_glossary收录术语，直接释读为确定含义无依据；原文‘嫌吞’承接上句‘六曰脉平緩不嫌’，释为‘第六是不忌吞’逻辑连贯但未标注‘吞’含义不明；‘罡曜星辰’‘辟’‘形势露者不嫌隐’均为含混表述，未标注歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002307-p000-39605c8123",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘凹風’‘漫散’‘嫩枝’‘老幹’‘小巧’‘氣厚’‘直’‘沖’‘牽’不属于allowed_glossary收录术语，直接释读为对应地形或风水含义无依据；allowed_glossary中‘水’的释义无需直接插入译文中，属于不必要的术语说明堆砌"
+        ],
+        "uncertainty": [
+          "闻、闢二词具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002308-p000-34aa89fa35",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002309-p000-44989f0471",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘金体’‘木体’‘水体’‘火体’‘土体’‘員’‘虛而動’‘芽而泡’‘正而静’‘熖之盡’‘饑而薄’‘扦穴’均为风水专名或含混表述，不属于allowed_glossary收录内容，直接释读为确定含义无依据；原文未出现‘圓潤’字样，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002310-p000-2817c5360e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002311-p000-4f5ef0aa20",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘貪狼’‘巨門’‘武曲’‘祿’‘廉’‘文曲’‘軍’‘輔星’‘弼星’等九星术语，以及‘乳頭’‘窩’‘釵鉗’‘梳齒犁僻頭’‘平裡作高處’‘掌中落穢’‘戈矛’‘手背收’‘燕窠仰’‘排燈樣’‘低平’‘負頭’‘凹象’均为风水专名或含混表述，不属于allowed_glossary收录内容，直接释读为确定含义无依据；原文‘祿廉梳齒犁僻頭’被拆分为‘祿星、廉星結穴要在梳齒犁僻頭處尋找’属于无依据补写主语；‘穢軍’被拆分為‘落穢處尋找，軍星作穴’属于断句错误，与原文语义不符"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2532,
+    "completion_tokens": 1310,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2532,
+      "completion_tokens": 480,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2532,
+      "completion_tokens": 1133,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2532,
+      "completion_tokens": 1310,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

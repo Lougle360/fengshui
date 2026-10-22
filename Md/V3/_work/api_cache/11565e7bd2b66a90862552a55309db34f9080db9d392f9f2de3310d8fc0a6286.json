@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T06:14:50.990764+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "11565e7bd2b66a90862552a55309db34f9080db9d392f9f2de3310d8fc0a6286",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000047-p000-1baebd78a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000048-p000-f739c02ff2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000049-p000-245995401c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标题为“宫纂宫。”，候选释读遗漏了原文末尾的句号，不符合标题核对要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 195,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2576,
+      "completion_tokens": 664,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2576,
+      "completion_tokens": 195,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

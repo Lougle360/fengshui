@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-25T20:35:59.196335+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fd9c6f9766d343bbbe0fc905afe4e4fefb68fdecb303af8b109a5299953f9abb",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001507-p000-f49e18fbba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001513-p000-618250b6da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘大與八成数居之’被误译为‘六和八这两个成数处在对应方位’，‘大’应为‘六’属于OCR/原文识读错误，不应直接按‘六’翻译，需保留原文表述并标注；原文‘河啚’为‘河图’的异体/通假写法，可保留原字或注出，但直接译为‘河图’未说明通假关系属于无依据释读",
+          "‘三故陽生於正北’中的‘三故’未准确释读，译为‘三所以’语义不通，属于漏译/误释"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 235,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1079,
+      "completion_tokens": 235,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

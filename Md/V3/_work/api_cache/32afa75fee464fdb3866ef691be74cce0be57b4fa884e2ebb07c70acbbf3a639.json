@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T18:34:18.224403+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "32afa75fee464fdb3866ef691be74cce0be57b4fa884e2ebb07c70acbbf3a639",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002007-p000-ffe9b26b1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002009-p000-ce95ee6ae8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘栋之中体愈刚、本末愈弱’释为‘栋梁的中段过于刚硬，两端却更柔弱’，属于无依据的主观解读，原文未明确‘中体’‘本末’的具体指向，不应擅自拆分解读"
+        ],
+        "uncertainty": [
+          "原文‘本末弱’的具体所指未明，释读中对‘中体’‘本末’的解读缺乏依据"
+        ]
+      },
+      {
+        "id": "book016-b002010-p000-d45f7a35cd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在排版混乱，将《象》的原文与译文混杂，候选句未厘清原文与译文的边界，存在内容混淆的问题"
+        ],
+        "uncertainty": [
+          "原文排版混乱导致内容拆分存在歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1348,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1348,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

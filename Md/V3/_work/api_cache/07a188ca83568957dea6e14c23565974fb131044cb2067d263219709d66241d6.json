@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-18T10:50:54.385568+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "07a188ca83568957dea6e14c23565974fb131044cb2067d263219709d66241d6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006224-p000-1eb6b729eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 中“其龙脉名为火龙，禄位在午，马位在亥，因此属于水去亥方食神见马的格局，前后食神主衣食富足、多田地，适宜坐穴，壬午、壬子见火星可定出刺史、郎官等贵职，水宜从乾亥方流入，折归卯乙方而去为吉”等内容在 source 中完全不存在，属于严重增译。source 原文仅为“丁山是六秀龍天量武曲金鏡極貴”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006225-p000-9ba85852ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006226-p000-a7509974cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006227-p000-9c718c8c22",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 中“丙申一穴合此格成仙曰家坐癸未一穴合貪狼星”，candidate 断句为“丙申一穴合此格。成仙说：家坐癸未一穴合贪狼星”，将“成仙曰”误作“成仙说”，且“家坐癸未”的“家”字未译出，含义可能改变。建议改为“成仙说：家宅坐癸未一穴合贪狼星”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006228-p000-73ff9a63f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 中“王青泥及蟻穴主 土溫而游”，candidate 作“王青泥及蚁穴主土温而游”。“王”字可能为“主”或“黄”的误写，但 candidate 未标注此不确定性，直接照录为“王”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006229-p000-e94132846f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006230-p000-42a6d008a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 中“巳卯子孫坎己丑丁鬼幷”，candidate 作“巳卯子孙坎己丑丁鬼并”。此句含义不明，candidate 未作任何说明或保留原文引号，直接当作通顺句子译出，可能误导读者。应标注其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006231-p000-12a8ca94a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 中“乙未山貧人在申”，candidate 作“乙未山贫人在申”。“貧人”可能为“贵人”或“贫人”之误，但 candidate 未标注此不确定性，直接译为“贫人”，可能改变原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006232-p000-24e2a3c6f2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006233-p000-2ee5b79895",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 中“坐扦丙向壬寅是七林星”，candidate 作“坐扦丙向壬寅是七林星”。“扦”字未译，直接保留，对于普通读者可能难以理解。应作适当说明或处理。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3777,
+    "completion_tokens": 849,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3777,
+      "completion_tokens": 849,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

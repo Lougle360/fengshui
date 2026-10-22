@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T18:34:15.710251+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "182e53e987bb7da66977ab4e082d963938894149b437ecbced88e8835d5826e5",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002007-p000-ffe9b26b1e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "九三爻，栋桡，凶①。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002008-p000-368fc2af14",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文九三，栋梁曲折弯挠，有凶险。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002009-p000-ce95ee6ae8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "匡释①栋桡，凶：这是说九三爻处于“大过”卦的时段，阳爻居于下卦的最上位，刚健过头；又与上六爻相应，刚健的势头更加强烈：就像栋梁的中段过于刚硬，两端却更柔弱，所以出现“栋桡”的卦象。爻辞的含义与卦辞相合，说如果处于这种“大过”的情形，“栋”必然会弯曲，凶险就会到来。《集解》引用虞翻的话说：“本末弱，故挠。”《程传》说：“因过于刚健，行动就会违背中正平和，违背众人的心意，怎么能承担‘大过’的重任呢？所以无法胜任，就像栋梁弯曲一样，会使房屋倾覆，因此凶险。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002010-p000-d45f7a35cd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象》说：“栋桡之凶”，不可以有辅也①。 译文《象传》说：“栋梁曲折弯挠而有凶险”，说明九三的刚势不能再加以辅助。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1684,
+    "completion_tokens": 539,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1684,
+      "completion_tokens": 539,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

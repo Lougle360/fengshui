@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-04T00:01:06.000100+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b04d8ab7f8249d14d740aafa0fd1618be809fde13efe6daaca3abc8746ae4422",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000211-p000-33ddd395a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘脉息窝突上弦曰脉息窝突下弦曰粘’意为：脉、息、窝、突这四种情况，如果位于上弦，就称为‘脉、息、窝、突’；如果位于下弦，就称为‘粘’。候选句将‘脉息窝突上弦’和‘脉息窝突下弦’都解释为‘脉、息、窝、突’，并说下弦称为‘粘’，逻辑混乱，且与原文‘下弦曰粘’不符。候选句对‘晕星’的解释也过于简略，未说明其是穴星的一种形态。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000213-p000-7d201474ef",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘凭高穴’作为特定术语的具体所指不详，此处按字面理解为位于高处的穴点。",
+          "‘薄内瘦深’的具体操作细节存在多种解读可能。"
+        ]
+      },
+      {
+        "id": "book028-b000216-p000-a9cf56a955",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘俟乎元气及碑而止’意为：等待元气到达碑位才停止。候选句将‘碑’译为‘碑位’，但未加引号或说明其可能为风水术语或特定位置，直接作为确定含义使用，不符合对opaque_terms的处理要求。",
+          "原文‘假如法穴须当在晕头虚处掘起抵晕头上弦安棺方是法’中，‘法穴’可能为特定穴法名称，候选句直接译为‘法穴’并加引号，但未说明其具体所指不详，处理不够明确。"
+        ]
+      },
+      {
+        "id": "book028-b000217-p000-9b6d86e0fd",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "‘中间相构成实尺’的具体含义不详，此处按字面意译为实质的尺度或关系。",
+          "‘地理要逢’的具体所指不详，此处理解为地理的关键在于遇到合适的时机或形局。"
+        ]
+      },
+      {
+        "id": "book028-b000218-p000-75271bff03",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘委而不治犹之卷六十可也’意为：放弃不治，就像卷六十所说的那样也是可以的。候选句在‘卷六十’后补充‘（本书）’，属于增译，且‘本书’的指代不明确。应保留‘卷六十’并说明其指代不详。",
+          "原文‘不得不药炎之’中‘药炎’含义不明，候选句推测为‘药石’并加注，但未明确标注原文用词及不确定性，处理方式不符合要求。应直接保留‘药炎’并说明其含义不详。",
+          "原文‘十人九苑’中‘苑’含义不明，候选句推测通‘冤’或指失败，但未明确标注原文用词及不确定性。应直接保留‘苑’并说明其含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2316,
+    "completion_tokens": 748,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2316,
+      "completion_tokens": 748,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

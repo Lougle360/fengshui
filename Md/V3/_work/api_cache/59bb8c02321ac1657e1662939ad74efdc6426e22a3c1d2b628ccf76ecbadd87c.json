@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T15:08:39.720657+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "59bb8c02321ac1657e1662939ad74efdc6426e22a3c1d2b628ccf76ecbadd87c",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000952-p000-71cf3fc792",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000953-p000-003ea0e3b0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "表格单元格合并与拆分处理不当，原表格中rowspan属性对应的单元格未正确保留，且部分残缺字符未标注说明"
+        ],
+        "uncertainty": [
+          "原文中存在多处字符残缺，无法确认具体所指"
+        ]
+      },
+      {
+        "id": "book015-b000954-p000-22bb70d653",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“半(半舌音と半図6-20 地之用音一百五十二挙要)”的内容未完整释读，存在遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000955-p000-49e8d255cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“六音の東・丹・帝・”后存在字符残缺，无法确认具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2628,
+    "completion_tokens": 294,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2628,
+      "completion_tokens": 294,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

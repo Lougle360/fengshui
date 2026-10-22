@@ -1,0 +1,200 @@
+{
+  "created_at": "2026-09-23T14:17:10.109672+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "38e28c0b227629d822d25698c16322bcb85891ba1b83ac02f337e92e43d9a408",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000851-p000-b7d36c631d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000852-p000-3ed3ec8835",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000853-p000-d27a67e1e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000854-p000-dcc6bf454c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘龙虎兔来雄’中‘龙虎兔’是方位代称，candidate译为‘龙虎兔方位’可能误导为三个独立方位，应明确其为风水术语，指代特定方位组合或格局，或保留原文并说明其代指关系。",
+          "原文‘乾位戌猪从左入’中‘戌猪’是地支与生肖对应，candidate译为‘戌、猪方位’将二者并列，可能造成误解，应统一为地支或说明其对应关系。",
+          "原文‘须寻卯乙觅仙踪’含义模糊，candidate译为‘须寻卯、乙方位以觅仙踪’将推测写为事实，应标注不确定性，如‘须在卯、乙等方位寻找吉兆（具体所指不详）’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000855-p000-468c662e46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000856-p000-8e000fcb73",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水甲山庚壬，子及坤申。二水名为贪狼位’结构模糊，candidate断句为‘水甲山势，庚、壬方位及子、坤、申方位有水流。二水名为贪狼位’，将‘庚壬’与‘子及坤申’并列，但原文可能指‘庚、壬、子、坤、申’多个方位，或‘庚壬’为一组，‘子及坤申’为另一组。释读应更谨慎，或说明原文结构存在歧义。",
+          "‘贪狼位’是风水术语，candidate直接使用未加说明，虽非locked_term，但建议在uncertainty中标注其具体含义需专业解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000857-p000-ae6e14183d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘木卯山强，金鸡最不良。朝宫戌亥皆为吉，折归庚去出朝郎，税产’可能不完整，candidate补全为‘税产不寻常’属无依据扩写。应标注原文可能残缺，释读仅基于现有文字。"
+        ],
+        "uncertainty": [
+          "原文末尾‘税产’可能语句不完整，释读存在不确定性。"
+        ]
+      },
+      {
+        "id": "book001-b000858-p000-65310d0780",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000859-p000-080ab9a4f4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘火乙山辛，巳午两边迎。寅甲右边朝二水，迁合皆昌荣。’结构紧凑，candidate断句为‘火乙山势，辛方位及巳、午两边迎接。寅、甲右边朝来二水，迁合皆昌荣。’其中‘辛’可能与前文‘火乙山’构成‘乙山辛向’的坐向关系，而非独立方位。释读应更准确，或说明‘辛’可能指向。",
+          "‘猴鼠’‘犬方’是生肖代方位，candidate译为‘猴、鼠两方位’‘犬方’可以接受，但最好在uncertainty中注明其为地支生肖对应。"
+        ],
+        "uncertainty": [
+          "‘辛’在此处可能指坐向（乙山辛向），而非独立水流方位。",
+          "‘猴’‘鼠’‘犬’为生肖代方位，具体对应地支需结合风水理论。"
+        ]
+      },
+      {
+        "id": "book001-b000860-p000-5aed8afceb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000861-p000-456cd73d59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000862-p000-d63320aef5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000863-p000-5724389d06",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘火丙山壬，虎牛过堂流。戌去更兼马上起，峰峦位位旺田庄。’中‘虎牛’‘马上’是生肖代方位，candidate译为‘虎、牛过堂流’‘马上起’未明确其为方位，可能造成误解。应译为‘虎（寅）、牛（丑）方位的水流过堂’‘马（午）方位的水流兴起’或类似表述，并说明其为生肖代称。",
+          "‘内抱长吉昌’句意模糊，candidate直接保留‘内抱长吉昌’未做解释，虽可接受，但最好在uncertainty中标注其具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘虎牛’‘马上’为生肖代方位，具体对应地支需结合风水理论。",
+          "‘内抱长吉昌’含义不明确，可能指穴场格局。"
+        ]
+      },
+      {
+        "id": "book001-b000864-p000-e4c22fd839",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘犬回顾，鼠赶虎’是风水格局的比喻性描述，candidate译为‘若出现犬回顾、鼠赶虎的格局’处理得当，但‘投军做贼败宗祖’的主语模糊，candidate译为‘投军或做贼都会败坏宗祖’将泛指写为确定事实，应更谨慎，如‘主出投军做贼之人，败坏宗祖’或类似表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000865-p000-d7dfe3e12b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000866-p000-88435b0bea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000867-p000-86f1163510",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘钱财龙摆去’含义模糊，candidate直译‘钱财龙摆去’未做解释，虽可接受，但应在uncertainty中标注其具体所指不详。",
+          "‘虎头回’是比喻性描述，candidate直译‘虎头回’可以，但最好说明其可能指某种不利的水流或山形回转格局。"
+        ],
+        "uncertainty": [
+          "‘钱财龙摆去’具体含义不详，可能指钱财流失的格局。",
+          "‘虎头回’具体所指不详，可能为凶煞格局的比喻。"
+        ]
+      },
+      {
+        "id": "book001-b000868-p000-aa355631e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘猪赶鼠牛走’是生肖代方位的描述，candidate直译‘猪赶鼠牛走’未明确其方位属性，可能造成误解。应译为‘猪（亥）赶鼠（子）牛（丑）走’或类似，并说明其为生肖代称。",
+          "‘三宫朝入水’中‘三宫’含义模糊，candidate直译‘三宫朝入水’未做解释，应标注其具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘猪赶鼠牛走’为生肖代方位，具体对应地支需结合风水理论。",
+          "‘三宫’具体所指不详，可能指三个方位或特定宫位。"
+        ]
+      },
+      {
+        "id": "book001-b000869-p000-e2f888e020",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000870-p000-2c73548e45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5400,
+    "completion_tokens": 1853,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5400,
+      "completion_tokens": 1853,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-10-16T08:32:29.588327+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fa8cc22c3faae146cb15c3365b828334350274669f158a67f37e90f543313297",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001550-p000-77d03570e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'妻少亡主淫亂賤疾克'是并列或因果关系的短语，candidate将'主'释为'主人'并添加'往往会有'，将'贱疾克'释为'容易患上低贱的灾病'，存在增译和含义偏移。'主'在此处更可能表示'主导、预示'，'贱疾克'可能指低贱的疾病或克害。释读应更贴近原文结构，避免添加不确定的主体和行为描述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001552-p000-58fd139ea6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001553-p000-053ba7f736",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'木頭金腳金穴就水名離殺'是风水术语描述，candidate将其释为'这种地形如同木头长着金属的脚，金穴临近水，这种格局被称为“离杀”。'，其中'金穴临近水'是对'金穴就水'的合理释读，但'木头长着金属的脚'是对'木頭金腳'的比喻性解释，可能不够准确或增加了原文没有的形象描述。应更直接地传达术语本身，或说明这是一种格局名称。"
+        ],
+        "uncertainty": [
+          "'木頭金腳'的具体形态或风水含义不确定。"
+        ]
+      },
+      {
+        "id": "book035-b001554-p000-11fea2e556",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001555-p000-f4cc9301b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001557-p000-968e573dd9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001558-p000-010537a7e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001559-p000-010537a7e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001561-p000-de92e1a391",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001563-p000-744f03bbe4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 596,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1562,
+      "completion_tokens": 596,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-18T09:19:59.055637+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c2c3d59194cf225dc57e948bd81391cc11c6cb4675e26283158a79c752d0e492",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006051-p000-6821feb88e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'壬戌水山七戌三乾'是特定术语组合，candidate未保留原短语，直接拆解为'壬戌水山七戌三乾的詩句說'，改变了原文结构。'印庫之龍'的释读'印庫之龍究竟如何？'是合理的疑问句式，但'後代子孫能考中及第，科名更高'将原文的陈述'兒孫及第更高科'改为了条件性描述'能考中'，语义有偏差。'錢財積庫多金玉'释为'錢財積聚如庫藏，多金玉'是合理的增补。'官'字漏译，candidate补为'官祿顯達'，属于无依据扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006052-p000-df17802b2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006053-p000-c3fc63c1bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006054-p000-80e561e5ba",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'职清超表诏'含义不详，candidate已按字面直译并标注不确定性，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b006055-p000-fe755f1b84",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006056-p000-5391ce2f22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006057-p000-fac5f7d7db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006058-p000-28728f9958",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'乙亥火山三戌七乾'是特定术语组合，candidate未保留原短语，直接拆解为'乙亥火山三戌七乾的詩句說'，改变了原文结构。'勞疾風聲'释为'劳疾风声'，'劳'字应为'癆'，存在误译。'三位皆主其凶也'释为'三位皆主其凶也'，保留了原文的模糊性，可以接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006059-p000-de4edc1b30",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006060-p000-87e9f2117e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为HTML表格，包含多列数据。candidate将表格内容线性拼接为'乙四、丙五、丁六，对应官、父。大有卦，三、八卷，八、兄八、父、世。属金，巳、未、酉、辰、八、寅。'，这破坏了原文的表格结构，可能导致信息关联错误（例如，'大有卦'、'属金'等与前面'乙四丙五丁六'的对应关系不明确）。对于HTML类内容，应更忠实地反映其结构，或至少说明原文为表格格式。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2531,
+    "completion_tokens": 788,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2531,
+      "completion_tokens": 788,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

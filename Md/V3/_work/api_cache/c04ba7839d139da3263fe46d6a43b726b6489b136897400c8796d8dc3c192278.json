@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-17T14:58:16.269717+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c04ba7839d139da3263fe46d6a43b726b6489b136897400c8796d8dc3c192278",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003886-p000-8feb42569b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'仨父子兄弟匹公侯列土未足奇'，candidate释为'若出现三支，则父子兄弟皆能位列公侯，分封土地也不算稀奇'，将'仨'（三个）与'父子兄弟'的关系解释为'出现三支'的结果，存在逻辑跳跃和增译。'匹公侯列土'的释读也过于具体化。",
+          "原文'出將八'，candidate处理为'具体所指不详'，但原文可能为'出將入相'的讹误或残文，应标注为'原文可能为‘出將入相’的讹误或残文'，而非直接断定为'具体所指不详'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003889-p000-d2d6477061",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'三元三魁同家出'的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003891-p000-b8851d0407",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'发挥曰'之后的大段文字直接抄录，并标注'因原文可能存在严重讹误，具体含义不详'。这不符合V3'普通读者能读懂的白话释读'的目标。对于明显讹误、无法通读的段落，应进行概括性说明，而非照抄原文。例如，可释读为：'发挥曰'之后有一段关于木火之穴形态的描述，但原文文字错乱严重，难以理解。",
+          "'木火之穴'的'穴'使用了allowed_glossary中的定义，但'木火'未定义，属于opaque_terms，应加引号处理。candidate未加引号。",
+          "'火之形如人字'，candidate直接抄录，未进行白话转换。"
+        ],
+        "uncertainty": [
+          "'闻其脚开木佛'至'凡二峰弁出者高'一段文字含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b003897-p000-d19985f550",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "kind为heading，但candidate未按标题格式处理，而是写成了包含解释的句子。标题应保持简洁，直接呈现标题文字，对于明显错乱的标题，可加注说明。例如，可处理为：'## 格笏為句格此也之三則信三（原文如此，疑有讹误）'。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1367,
+    "completion_tokens": 580,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1367,
+      "completion_tokens": 580,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

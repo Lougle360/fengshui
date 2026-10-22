@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-17T12:39:42.576437+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fb2906588c88e1f32ea966eee158ed90a695488b7cb22094773fbfeedab784ee",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003683-p000-671dc0ddb3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003684-p000-f2765f9af4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003685-p000-7d227679b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句直接复制了原文的Markdown标题格式，未进行白话释读。应转换为普通白话句子。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003686-p000-bc2283c449",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003687-p000-e8cac10d3a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将OCR推测的‘廉言猩’、‘憔優’、‘河似歌膜’、‘剖 斷’、‘證談’等直接当作确定事实翻译，如‘兼言星’、‘較優’、‘河洛歌謠’、‘剖断分明’、‘空谈’。这属于将不确定解释写成了确定事实。应保留原文的模糊性，或明确指出是推测。",
+          "候选句将‘伏損防曲之綻耀師河似歌膜星其本也’释读为‘伏断、防曲、绽耀等师法歌诀’，这是对含混短语赋予了确定含义，超出了allowed_glossary的范围。",
+          "候选句将‘星其本也’前推测为缺字并补足，但原文并未明确，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别错误，导致部分句子含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b003688-p000-54541f4b7d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句直接复制了原文的Markdown标题格式，未进行白话释读。应转换为普通白话句子。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003689-p000-c1e07ce7c3",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "候选句对大量OCR错误和缺字进行了推测性补全和翻译，如‘動 一山 二 里’、‘秀 全’、‘千綜墮言山’、‘玉犍’、‘委蛇有曲’等，并将这些推测当作确定事实呈现。这严重违反了‘不能改稿’和‘不能将不确定解释写成确定事实’的原则。",
+          "候选句将‘屑叠广丧，主员荣回周匝’等含混短语直接翻译，赋予了确定但可能错误的含义。",
+          "候选句将‘金云阁如玉犍’释读为‘金云阁如玉犍’，但‘玉犍’是opaque_terms，应原样引用并说明其含义不明，而非直接当作描述性短语使用。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误和缺字，导致连保守的释读都难以成立，许多句子含义无法确定。"
+        ]
+      },
+      {
+        "id": "book035-b003690-p000-6c3009ab1b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将‘蓮藥’推测为‘蓮葉’或特定术语并翻译，属于将不确定解释写成了确定事实。应保留‘蓮藥’原词或说明其含义不明。",
+          "候选句将‘犢鼻’作为确定的风水形态描述进行翻译，但‘犢鼻’是opaque_terms，应原样引用并说明其含义不明，或指出这是一种比喻。"
+        ]
+      },
+      {
+        "id": "book035-b003691-p000-f4a0d2f6b8",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重OCR错误和缺字，导致句子破碎、语义不明。候选句仅将原文断句，未进行任何有效的白话释读，不符合V3目标。例如'付槍刃劍戟'、'鞍薹'、'十里 頡'、'麗濯之'、'江不自日月捍'等关键短语均未处理，无法形成普通读者能理解的现代中文句子。"
+        ],
+        "uncertainty": [
+          "原文损坏严重，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b003692-p000-dd4192f53d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句仅对原文进行了断句和分行，未进行白话释读。'前三百四一里师明行字之也'、'泉山方得有所统揖也'等句意不明处，未做任何解释或风险标注，普通读者无法理解。不符合V3'普通读者能读懂'的目标。"
+        ],
+        "uncertainty": [
+          "原文存在OCR错误和缺字，如'前三百四一里'、'師明行字之也'、'泉山方得有所統揖也'的具体含义难以确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 331,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2918,
+      "completion_tokens": 917,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1206,
+      "completion_tokens": 331,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

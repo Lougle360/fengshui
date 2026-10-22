@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T10:00:26.893907+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f455954e97072b35aa16fa2e69fde1e7eb7ca77a577999b13db88f30f64e7218",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b003194-p000-c180e45f8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003195-p000-e2076f1577",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题属于专有名称，应完整保留‘龙湫泉’作为标题主体，术语释义应补充在标题后括号内，不应拆分原标题名称"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003196-p000-580e8d8cb4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003197-p000-93cbb28da1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003198-p000-8241d3bee3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘万刃’为‘万仞’的通假/形近讹写，释读为‘万仞高的山崖’是准确的，但原文‘水晶珍珠帘蟆’的‘蟆’字未作处理，candidate直接删去该字不符合要求，应标注该字疑似衍文或具体所指不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003199-p000-ce5f2b94f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003201-p000-d2d6797dc8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原格式为二级标题，candidate未保留##二级标题标识，不符合标题类内容的核对要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003203-p000-126b185595",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003204-p000-4e406a1b9f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文此处文字残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book019-b003205-p000-3239484285",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1426,
+    "completion_tokens": 54,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3559,
+      "completion_tokens": 622,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1426,
+      "completion_tokens": 54,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

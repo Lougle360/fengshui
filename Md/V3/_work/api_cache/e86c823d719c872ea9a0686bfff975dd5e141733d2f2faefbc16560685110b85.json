@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T23:09:03.845064+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e86c823d719c872ea9a0686bfff975dd5e141733d2f2faefbc16560685110b85",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001030-p000-0f5ac1107e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在语序混乱和疑似日文假名的字符，难以准确释读",
+          "“詩多”“微者”的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001033-p000-dc9db92e37",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“一帝释丙也之八武壬也之對微家也”语义不通，无法准确释读",
+          "“陽二它”的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1029,
+    "completion_tokens": 182,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1029,
+      "completion_tokens": 182,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

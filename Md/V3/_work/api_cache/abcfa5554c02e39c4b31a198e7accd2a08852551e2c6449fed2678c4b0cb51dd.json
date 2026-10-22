@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:12:46.078235+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "abcfa5554c02e39c4b31a198e7accd2a08852551e2c6449fed2678c4b0cb51dd",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000138-p000-983b32087f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000139-p000-6068a169fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读内容存在无依据扩写，将晦涩原文的不确定表述转化为了确定的现代语义，不符合原文语义晦涩的实际情况"
+        ],
+        "uncertainty": [
+          "原文语义晦涩，部分表述难以明确对应具体含义"
+        ]
+      },
+      {
+        "id": "book012-b000140-p000-ff87b0f59e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000141-p000-8451c47660",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读内容存在无依据扩写，将晦涩原文的不确定表述转化为了确定的现代语义，不符合原文语义晦涩的实际情况"
+        ],
+        "uncertainty": [
+          "原文语义晦涩，部分表述难以明确对应具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1414,
+    "completion_tokens": 283,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1414,
+      "completion_tokens": 283,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

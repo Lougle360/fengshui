@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T21:27:24.041085+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5772693a6209eb696219c8ef18ab142540e64553e9819e71db677578f22fd333",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001667-p000-35a0e5aaba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“立春兩水”为“立春雨水”的笔误，candidate误写为“立春两水”，节气名称错误",
+          "原文“七十二丙寅”指七十二龙中的丙寅龙，candidate误译为“七十二个丙寅”，表述不符合风水术语常规含义",
+          "原文“渾天納甲”被candidate误写为“浑天面”，术语错误",
+          "原文“值日之辰”被candidate误译为“值日之秋”，语义完全错误",
+          "原文“比和次之”被candidate误译为“比和的情况也如此”，吉凶含义反向"
+        ],
+        "uncertainty": [
+          "“寒麗戌氣”“二天”原文含义较为生僻，未做通俗化解释不影响正误判定"
+        ]
+      },
+      {
+        "id": "book029-b001668-p000-c5a31e160d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理恭贊玄機全書”应为“地理参赞玄机全书”，candidate保留“恭赞”属于用字错误",
+          "原文“耳”为“爾”（你）的通假，“泰之以授时历数”是指用授时历推算度数，candidate保留“耳泰之以授时历庆数”完全未读懂原文，属于硬译",
+          "原文“真太阳”是风水择日术语，candidate保留未做通俗说明不涉及错误，但“庆数”属于原文无有内容，系误读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001669-p000-d40607c2f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001670-p000-b4030f8789",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001671-p000-86c8182e61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001672-p000-6af474ba4d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不及者宜生宜”句未完，随后“地理參贊玄機全書○卷八”是卷次标注，candidate将二者连为“不及者宜生宜地理参赞玄机全书卷八”，逻辑完全不通，未正确区分正文和卷次标识"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001673-p000-b9bf32633f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“養大旺者可尅可制，受尅者當扶，逢讐者宜化”，candidate漏译“当扶”，误写为“受尅的应当逢仇的宜化”，语句不通，语义缺失",
+          "allowed_glossary未收录“制化”的释义，candidate直接使用未加说明不违反规则，但语句断裂属于错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001674-p000-0e4435d88f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001675-p000-b0f404496e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“山雄帶殺”“山柔帶殺”被candidate误写为“山雄闻杀”“山柔闻杀”，术语错误，“帶殺”指山形带凶煞，与“闻”无关",
+          "原文“伏而起者兮乃塟其眉，起而伏者兮必葬其掌心”，candidate误加“胸”字，写作“胸起而伏者”，语义错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001676-p000-c8194b34df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乃或逢後陽，理（闕），參贊玄機全書○卷八”，candidate误写为“有时或逢后阳，理泰赞玄机全书卷八”，把残缺的正文和卷次标注连读，“泰赞”属于错字",
+          "原文“作法等第之不同”被candidate误译为“作法到等数之不同”，语义不通",
+          "原文“庶免失來氣之所來”被candidate误写为“庶免失後氣之所來”，字误导致语义变化"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3566,
+    "completion_tokens": 1125,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3566,
+      "completion_tokens": 1125,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T13:11:17.343927+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6ab88877489771ad3747eb2b9174c71418456293fb052ec9b7c808a0fa9eabd0",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001091-p000-cdfaeec41a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的“刧”“穀”“蜜瘟”“刼星”“菁蔥”等含混术语直接当作确定概念释读，未标注原文未明或存疑",
+          "“水以高为杀”的具体风水含义未按要求标注存疑，直接释读为“水以高为杀”未说明其不确定性",
+          "“盛形主充军”的释读未明确“盛形”为原文含混术语，直接当作确定表述"
+        ],
+        "uncertainty": [
+          "“刧”“穀”“蜜瘟”“刼星”“菁蔥”等术语原文未明确具体所指",
+          "“水以高为杀”的具体风水含义原文未明",
+          "“盛形”为原文含混术语，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001094-p000-7551b7021d",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "将原文中大量含混术语如“乱脚”“坟枪”“阵载”“圃案”“迈拦”“阁山会见乱批远峰为状元笔捷报”“振头”“杀头”“操”“贼龙贱”“暗探头”“内探头”“蜡贵穴”“沙法”“体负视”“平同”“未成星体”“碎卿子”“水火死裏”“木杓木鬼体”等直接当作确定概念释读，未标注原文未明或存疑",
+          "“水”作为locked_terms，未按allowed_glossary明确为风水语境中的河流、水系及其来去形态，直接使用普通含义释读"
+        ],
+        "uncertainty": [
+          "“乱脚”“坟枪”“阵载”“圃案”“迈拦”“阁山会见乱批远峰为状元笔捷报”“振头”“杀头”“操”“贼龙贱”“暗探头”“内探头”“蜡贵穴”“沙法”“体负视”“平同”“未成星体”“碎卿子”“水火死裏”“木杓木鬼体”等术语原文未明确具体所指",
+          "“水”的风水语境含义未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1940,
+    "completion_tokens": 564,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1940,
+      "completion_tokens": 564,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

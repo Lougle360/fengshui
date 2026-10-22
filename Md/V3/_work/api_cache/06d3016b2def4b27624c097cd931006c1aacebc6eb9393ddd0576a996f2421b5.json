@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T13:27:59.213637+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "06d3016b2def4b27624c097cd931006c1aacebc6eb9393ddd0576a996f2421b5",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000132-p001-285eca6fcc",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "图1-2《七略》的分类法"
+      },
+      {
+        "id": "book015-b000133-p000-527e68be42",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "大致可以说，在中国自西汉以来，被视为大学问家的经学家，大多数都涉足术数之学及与数相关的研究，并且致力于彻底深化这类学问。关于这一点，董仲舒、司马迁、刘向、刘歆、郑玄等人自不必说，扬雄（《太玄》）、蔡邕（《律历意》）、张衡（《灵宪》）、郭璞（《周易洞林》）、司马光（《潜虚》）、邵雍（《皇极经世书》）、朱熹（《周易参同契考异》《易学启蒙》）、王应麟（《六经天文编》）、江永（《河洛精蕴》）、戴震（《续天文略》）、钱大昕（《三统术衍》）等，不胜枚举。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000134-p000-167f5fc190",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "那么，为什么众多鸿儒会投身于术数相关的思考，并且将①数理科学性质的、②数神秘主义性质的，或是③兼具数理科学与数神秘主义性质的成果公之于世呢？若探寻其学术层面的原因，无非是因为在儒者所信奉的经学内部，存在着容许并推动术数研究的因素。前一节所述的经学思考与术数思考的相似性，或许也是原因之一，但作为积极推动专门研究的动机而言，未免过于消极。其直接且积极的原因，终究是不得不假定术数之学对整个经学而言具有不可或缺的性质，更根本而言，则是不得不假定由《七略》所确立的中国特有的经学至上主义（经学至上主义的学术观）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾“経学至上主義的な”后有残缺，无法确认完整含义"
+        ]
+      },
+      {
+        "id": "book015-b000135-p000-0e6ff283c0",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "刘歆在学术上产生的影响，在术数领域也极为深远，称其影响作为规范深入到了术数的根基部分，也绝非过誉。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2021,
+    "completion_tokens": 621,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2104,
+      "completion_tokens": 302,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2021,
+      "completion_tokens": 621,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

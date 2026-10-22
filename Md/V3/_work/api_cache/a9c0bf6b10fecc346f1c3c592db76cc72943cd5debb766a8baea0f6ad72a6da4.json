@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-15T05:19:34.536555+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "a9c0bf6b10fecc346f1c3c592db76cc72943cd5debb766a8baea0f6ad72a6da4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001212-p000-12c7bd4b59",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "经文中说：大凡阳宅都忌讳穴场狭小，只适宜进行填筑；如果朝向妙好，但若穴场狭小且朝向斜飞，堂局陡峭导致气脉泻漏，立身家业就会衰败。如果穴场狭小，气脉被鉴察得过于宽泛，就会损伤气脉，导致子孙伤残。如果狭小的穴场被用作轮居之地，气脉被鉴察清楚，况且是子孙居住，必然导致多次分别，少有比和，一个穴场裂变为四五处，正偏前后，哪里没有差错？大凡阳宅要……（原文此处中断，具体所指不详）",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾'大凡陽宅要'后内容缺失，无法完整翻译",
+          "原文中存在OCR识别错误字符'iaAtd'，已忽略"
+        ]
+      },
+      {
+        "id": "book035-b001213-p000-0a82fbad83",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "横龙最忌讳穿鉴脉，家业容易消歇。这是畏惧力量在于此，厌恶在上方越过。日弘又至，对燕说：这宅气诚然没有比这更甚的了。唐泓师为张燕公说，买永乐东南第，戒之日：北宅西北，谓上最是昭。产必有取土于西土隅，公与弘偕至宅后，见西北隅甲有卿大宫曰贞之十，及公富贵一人而已，不三年外，诸郎君皆不得天年。汉公大县曰：媚之可乎？曰：客土义不相连，令欲真之，亦如人有疮疾，纵然挖肉，祸之无益也。燕公子均长（原文此处中断，具体所指不详）",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量OCR识别错误和断句混乱，如'穿鑒脈'、'此懼力于此厭上越日弘又至'、'唐泓師'、'漢公大縣'等，部分词句含义难以确证",
+          "原文末尾'燕公子均長'后内容缺失，无法完整翻译",
+          "部分人名、地名及专有名词（如'唐泓师'、'汉公'）在上下文中指代不明，无法确认具体身份"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 643,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1389,
+      "completion_tokens": 643,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

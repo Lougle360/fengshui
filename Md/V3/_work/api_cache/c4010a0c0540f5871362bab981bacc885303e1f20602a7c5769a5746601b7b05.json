@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T22:16:13.714491+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c4010a0c0540f5871362bab981bacc885303e1f20602a7c5769a5746601b7b05",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000112-p000-e575e52f75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘各目安然’的‘目’被误译为‘项目’，语义偏离",
+          "‘颠倒’未按上下文补充为风水领域的‘颠倒排布/运用’，表述不够明确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000114-p000-9350c38812",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘三合七也’中的‘三合’属于locked_terms，需保留原术语指向，候选将其拆译为‘三合是七’破坏了术语的独立性，不符合locked_terms保留要求",
+          "‘二合八也’等表述的断句逻辑错误，原句是合數的具体规则：二与八合、三与七合等，候选误译为‘二合是八’‘三合是七’，语义理解错误",
+          "‘不分不爰’被误译为‘不分就不会聚合’，‘爰’字未准确对应，原文此处应为‘不分则不聚’的递进逻辑，译法偏离原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000115-p000-d1ac283685",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000116-p000-ff689ab886",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms‘水’属于风水术语，候选将‘如水之交會’的‘水’译为普通的水，未明确是风水语境的水系，不符合术语使用要求",
+          "‘不用二三推測’被译为‘不用反复推测’，虽然语义相近，但原文‘二三’是指多次、零散的推测，译法可更贴合原意",
+          "‘兩掌明白’译为‘两手就能明白’过于口语化，未准确表达‘用掌诀即可推演明白’的风水操作含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000117-p000-a5bdf5cf79",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘排六甲以只甲换紀’被误译为‘排六甲只用甲来换纪’，原文‘以只甲换紀’应为‘以甲为基准换纪’的含义，译法不准确",
+          "‘年審運也’断句错误，候选将其拆分为‘年运的审察’，原句应为‘是用来年审气运的’，逻辑语序有误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000118-p000-4dd81ff861",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘妙合妙合增鮮’被误译为‘妙合之中又有妙合’，漏译了‘增鲜’的含义，原文此处指妙合之外更有鲜活的变化，译法不完整",
+          "‘數有乘除’的‘數’是风水气运之数，译为‘数字有乘除’过于通俗，偏离专业语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000121-p000-623b095e24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘七星打劫’为风水专有术语，未在allowed_glossary中明确释义，仅按字面翻译"
+        ]
+      },
+      {
+        "id": "book031-b000122-p000-aeee94c0df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000124-p000-1eb598d11e",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处OCR识别错误，如‘打敏’‘員氣’‘竹以’‘真兌弟’‘假又弟節養’‘但之義’‘篋馬吉曰社初’等，候选改写缺乏足够依据，多处语义不通",
+          "‘天玉經云但之義全在分别兄弟真假以取篋馬吉曰社初天一看太歲’断句完全错误，候选译法脱离原文可识别的核心内容"
+        ],
+        "uncertainty": [
+          "原文讹误过多，仅能勉强识别‘七星打劫’‘天玉经’‘太岁’等核心词汇，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book031-b000125-p000-5b4670121e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2522,
+    "completion_tokens": 1088,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2522,
+      "completion_tokens": 1088,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

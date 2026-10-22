@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-24T23:14:45.827607+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "43b546ec448d44086409054affb035220ca1da9846e9097298e3afbf7a9b33aa",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004436-p000-f26496d882",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004437-p000-96a00459f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004438-p000-aae32fc564",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文引《说文》‘耒耑也’，对应释读写为‘耒的下端’虽可通，但后续引《说文》‘耜曲木’存在表述偏差，源文明确说明今本《说文》作‘手耕曲木也’是针对‘耒’的释义，候选误将此处主语写为‘耜’，造成术语含义错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004439-p000-9dfd8e0bc5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004440-p000-26833b627f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004441-p000-79c1e5c195",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004442-p000-5ee66fb0c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004443-p000-f3310a3283",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004444-p000-b07cb44cd3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004445-p000-0cdf57b0ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文首句是‘通其变，使民不倦’，候选将首句标题直接替换为完整释义‘变通前代的器用、制度，使民众进取不懈’，属于不当改写；且对‘通其变’的解释出现冗余重复，源文仅说明‘通其变’指变通前代的器用、制度，候选额外增加‘指的是对前代的器用、制度进行变革’，属于不必要的重复表述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 913,
+    "completion_tokens": 101,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3465,
+      "completion_tokens": 748,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 913,
+      "completion_tokens": 101,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

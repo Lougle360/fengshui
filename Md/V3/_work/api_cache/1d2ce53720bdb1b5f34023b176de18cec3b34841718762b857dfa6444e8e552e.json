@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:30:30.319453+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1d2ce53720bdb1b5f34023b176de18cec3b34841718762b857dfa6444e8e552e",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000772-p000-820dbb0071",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "正月、二月、三月、四月、五月、六月、九月、八月、十月、土、十二月。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000773-p000-de0283ee04",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "未、壬、丙、丑、庚、戌、庚、戌、辰、甲。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000774-p000-ea5d1f1e8e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "巳、酉、丑年，坤、坎、離、艮、兌、乾中，兌、乾中、巽、震。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000775-p000-5afbb83bd5",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "申、癸、丁、寅、辛、夾、辛、亥、巳、乙。",
+        "confidence": "medium",
+        "uncertainty": [
+          "此处\"夾\"具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1588,
+    "completion_tokens": 401,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1588,
+      "completion_tokens": 401,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

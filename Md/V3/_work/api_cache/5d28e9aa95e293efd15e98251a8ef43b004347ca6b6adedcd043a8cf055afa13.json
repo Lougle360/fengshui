@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-10-16T08:28:56.872177+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5d28e9aa95e293efd15e98251a8ef43b004347ca6b6adedcd043a8cf055afa13",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001523-p000-a26260368b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'腌中作窟穴'，candidate译为'在中间开凿窟穴'，'腌中'可能为'庵中'或'掩中'之误，但candidate未标注此不确定性，直接处理为'中间'，存在漏译风险。",
+          "'纯阳我化气'，candidate解释为'原文提到“纯阳我化气”，其中“我”字含义不明'，此处理正确，但后续'若按此化气安葬'中的'化气'是原文术语，candidate未将其作为opaque_term处理或明确其不确定性。",
+          "'凑急葬'，candidate解释为'即水流湍急处安葬'，这是将推测写为事实，原文并未明确'凑急葬'的具体含义。",
+          "'犯罡'，candidate处理为'原文未明确“罡”的具体所指'，此处理正确。"
+        ],
+        "uncertainty": [
+          "'腌中'含义不明。",
+          "'凑急葬'具体指何种葬法或水势形态未明。",
+          "'罡'的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001530-p000-a7a4cabfe5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'微窩開口皆水脈也'，candidate译为'微窝开口之处皆与水脉有关'，将'皆水脈也'（都是水脉）弱化为'与水脉有关'，存在语义弱化。",
+          "'若高大英雄蓋也'，candidate译为'如果山势高大且被称为“英雄”，则是盖穴'，将'英雄'作为对山势的称呼，但原文'英雄'可能为形容词或特定术语，candidate的译法有将推测写为事实的风险。",
+          "'低小聰明小富帶殺主瘟皇'，candidate译为'低小且被称为“聪明”的穴，小富但带杀，主瘟疫灾祸'，将'聪明'作为对穴的称呼，同样有将推测写为事实的风险。原文'低小聰明'可能指穴的特征（低小且灵巧），也可能指代某种穴名。"
+        ],
+        "uncertainty": [
+          "'英雄'在此处的具体风水含义不详。",
+          "'低小聰明'是形容穴的特征还是拟人化描述存疑。"
+        ]
+      },
+      {
+        "id": "book035-b001532-p000-73e79d90a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'番水'、'金木节'的具体含义不详。",
+          "'阴人事起'的具体所指不详。",
+          "'文曲水'在此处的具体形态或含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001533-p000-56470ce80c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'水金扦水上'，candidate译为'水金扦在水上'，'水金'是原文术语，candidate未将其作为opaque_term处理或明确其不确定性。",
+          "'滚浪金挨金下'，candidate处理为'具体操作不详'，正确。",
+          "'两傍作金樂'，candidate译为'两傍作“金乐”'，但'金乐'是原文术语，candidate未将其作为opaque_term处理或明确其不确定性。",
+          "'無土止當作水星堵'，candidate译为'若无土止，当作“水星堵”'，但'土止'和'水星堵'是原文术语，candidate未将其作为opaque_term处理或明确其不确定性。"
+        ],
+        "uncertainty": [
+          "'水金'的具体形态不详。",
+          "'金乐'的具体所指不详。",
+          "'土止'和'水星堵'的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001534-p000-a6b2bcc8b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'隨娘淫縊'，candidate译为'随娘淫縊'并标注'具体所指不详'，处理正确。",
+          "'剪火法'、'宛宛火星剪'、'出杀穴'，candidate均标注'具体含义不详'，处理正确。",
+          "'以火爲官'，candidate译为'以火为官'并标注'其中“官”的具体含义不详'，处理正确。",
+          "candidate将'主殘疾孤寡軍賊克妻隨娘淫縊'整体译为'主残疾、孤寡、军贼、克妻、随娘淫縊'，但原文'随娘淫縊'可能与前文并列，也可能是一个独立短语，candidate的断句和标点处理可能改变了原文结构，但未标注此不确定性。"
+        ],
+        "uncertainty": [
+          "'随娘淫縊'的具体含义不详。",
+          "'剪火法'、'宛宛火星剪'、'出杀穴'的具体含义不详。",
+          "'火杀'的具体含义不详。",
+          "'以火为官'中'官'的具体含义不详。",
+          "原文'主殘疾孤寡軍賊克妻隨娘淫縊'的断句和具体所指存疑。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1853,
+    "completion_tokens": 1139,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1853,
+      "completion_tokens": 1139,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

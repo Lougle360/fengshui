@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T19:24:53.908162+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f9328e05bf0b816c77352c6b8247f63bf8205846c76092d599a3a0a676e02864",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002670-p000-5ca7ea62e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002671-p000-e222bd5842",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002673-p000-357fd19547",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘利见大人’释为‘利于出现大人’不符合《周易》术语‘利见大人’的通常释读（应为利于拜见大人），且‘并利见九五大人’的表述与原文‘利见大人’的释读逻辑不符，原文匡释明确‘利见’的对象为九五，候选句误将‘利见大人’拆分为‘利于出现大人’并单独标注九五，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文中‘匡释’的具体所指未明确，候选句未标注该注释的来源属性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1582,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

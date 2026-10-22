@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-09-25T04:27:22.247236+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0057b8daf3649856903411e4a5dbdbe7b82b8aa055c77a6781ad49a7ff2be14b",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001417-p000-32475b3e7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“外山包裹穴如枪”指外山包裹下穴位形状像枪，candidate释为“外围的山体像枪一样包裹着穴”含义相反；原文“针著正形官不绝”中“针”是风水扦穴的术语，candidate释为“确定了正穴的位置”语义不准确，未体现扦葬动作；“破军”“贪狼”属于风水九星术语，candidate直接释为“破军星的形态”“贪狼星的形态”无allowed_glossary依据，属于无依据增译确定含义"
+        ],
+        "uncertainty": [
+          "“破军”“贪狼”具体所指无明确 glossary 支持，原文中“尖枪之山”“拖枪之穴”的形态描述未做进一步通俗解释不影响判定"
+        ]
+      },
+      {
+        "id": "book018-b001418-p000-340e6ce292",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“鬼乐”属于风水专业术语，无allowed_glossary支持，candidate直接当作确定概念保留且未标注不确定性，属于无依据认定专名含义"
+        ],
+        "uncertainty": [
+          "“鬼乐”具体所指不详"
+        ]
+      },
+      {
+        "id": "book018-b001419-p000-d9b4c4d82d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“鬼”“乐”“托乐”“龙虎”均属于风水专业术语，无allowed_glossary支持，candidate直接当作确定概念使用，属于无依据认定专名含义；原文“不拘左右生龙虎”的“龙虎”candidate释为“龙和虎”不准确，未明确是风水语境的龙虎砂山，且无glossary依据不得直接简化；“下扦”“扦穴”不属于通用现代中文，未转换成通俗表达"
+        ],
+        "uncertainty": [
+          "“鬼”“乐”“托乐”“龙虎”具体所指无明确 glossary 支持"
+        ]
+      },
+      {
+        "id": "book018-b001420-p000-2e8f48c741",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“龙虎”属于风水专业术语，无allowed_glossary支持，candidate直接释为“龙和虎”属于无依据认定专名含义，此处“龙虎”实际指龙虎砂山，与glossary中“龙”的定义（山脉来势行度）不符，存在术语误释"
+        ],
+        "uncertainty": [
+          "“龙虎”具体所指无明确 glossary 支持"
+        ]
+      },
+      {
+        "id": "book018-b001421-p000-50212c26bd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“龙虎”属于风水专业术语，无allowed_glossary支持，candidate多次释为“龙和虎”属于无依据认定专名含义，此处“龙虎”指龙虎砂山，与glossary中“龙”的定义不符，存在术语误释；“花假之地”“虚花”无glossary支持，candidate释为“虚花假地”“虚花之地”属于未转换成现代通俗中文，且未标注不确定性"
+        ],
+        "uncertainty": [
+          "“龙虎”“花假之地”“虚花”具体所指无明确 glossary 支持"
+        ]
+      },
+      {
+        "id": "book018-b001422-p000-70737158d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001423-p000-b42f3e2eb7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001424-p000-6ca572c9f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“窝靥”属于风水地形术语，无allowed_glossary支持，candidate直接当作确定概念使用，属于无依据认定专名含义，未转换成现代通俗表达"
+        ],
+        "uncertainty": [
+          "“窝靥”具体所指不详"
+        ]
+      },
+      {
+        "id": "book018-b001425-p000-8dddbf1090",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“窝靥”“掌心穴法”属于风水专业术语，无allowed_glossary支持，candidate直接当作确定概念使用，属于无依据认定专名含义，未转换成现代通俗表达"
+        ],
+        "uncertainty": [
+          "“窝靥”“掌心穴法”具体所指无明确 glossary 支持"
+        ]
+      },
+      {
+        "id": "book018-b001426-p000-b21110c0a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“锹皮”“苞节”“玄微”均属于风水专业术语或隐晦表述，无allowed_glossary支持，candidate直接当作确定概念使用，未转换成现代通俗表达，且“玄微的道理”属于无依据增译确定含义"
+        ],
+        "uncertainty": [
+          "“锹皮”“苞节”“玄微”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3137,
+    "completion_tokens": 1221,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3137,
+      "completion_tokens": 1221,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

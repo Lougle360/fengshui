@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-10-04T05:35:10.062370+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e16816d1a2628920047ebed2e5d32171c9098f412a1d0facb7d71db8582d7727",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000538-p000-bdeeb31712",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水澤曰依水謝曰而右’释读为‘停蓄称为依，流散称为谢’，‘而右’二字未译出。原文‘右第十六章論山水’中的‘右’字，在古籍中常表示‘以上’或‘右边’，此处可能指‘以上’或‘右边是第十六章’，candidate未处理‘而右’二字，直接译为‘以上所述即为第十六章’，存在漏译。",
+          "原文‘水澤曰依’释为‘停蓄称为依’，‘澤’字未译出。‘澤’有‘水聚汇处’‘沼泽’‘润泽’等义，candidate译为‘停蓄’虽可理解，但未体现‘澤’字。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000540-p000-021d1ff3d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000541-p000-093fb87771",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "地 有法足若生以長補中 若  相"
+        ]
+      },
+      {
+        "id": "book035-b000542-p000-0b2606ba9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "之此之大宗 之"
+        ]
+      },
+      {
+        "id": "book035-b000547-p000-e32e7e5607",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "大居 其之后要及先在之上可不"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 379,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1288,
+      "completion_tokens": 379,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

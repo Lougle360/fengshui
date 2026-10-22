@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T13:23:20.449951+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "43c357e8f09ec26423736feb2a6eee24db2a7b6154b95c0a1aee8a8c71fdeb3b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000087-p000-3fed34fa2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000088-p000-280c6bfd80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000089-p000-f1b45781d9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中包含的数学符号及表达式存在无法识别或含义不明的内容，无法准确翻译"
+        ],
+        "uncertainty": [
+          "原文中的数学符号及表达式存在无法识别或含义不明的内容，无法准确释读"
+        ]
+      },
+      {
+        "id": "book015-b000091-p000-e0a531ed69",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1433,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1433,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

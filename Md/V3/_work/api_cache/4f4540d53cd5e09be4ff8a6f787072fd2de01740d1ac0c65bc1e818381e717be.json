@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-15T07:53:39.724893+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4f4540d53cd5e09be4ff8a6f787072fd2de01740d1ac0c65bc1e818381e717be",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002130-p000-068ef48a0a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“催官第五穴宜甲陽衡卯氣從左耳發穴挨西獸加天官乙持節邊疆掌生殺方全寅 宜庚寅庚申”中，“方全寅”的“全”字，candidate译为“全在寅方”，但“全”可能为“合”或“全”的异体/误字，释读为“全在”缺乏依据，应保留原文或标注存疑。“宜庚寅庚申”译为“宜庚寅、庚申”，但原文为“方全寅 宜庚寅庚申”，可能指“方全寅”和“宜庚寅庚申”两个部分，candidate合并处理，语义有偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002131-p000-0da96f15c8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“維官詩云河香卯東來穴天官乙氣貫右耳神靈安微加甲位穴粘左先文後武榮官權宜卒卯辛酉”中，“維官”应为“催官”之误，candidate未修正或标注。“河香”含义不明，candidate直接译为“河香之气”，属于无依据扩写，应保留原文并标注。“宜卒卯辛酉”译为“卒于卯、辛、酉”，但“卒”可能为“坐”或“用”之误，释读为“卒于”缺乏依据，应保留原文或标注存疑。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002132-p000-2633e78591",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“乐子金子”语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002133-p000-22f8b98d65",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“催官詩云天宮乙坤向穴天市艮氣奔左臉乃為利亢金微加穴粘左亦主富貴八招贅分金 誼卒林”中，“天宮乙坤向穴”candidate译为“天宫乙坤向穴”，但“天宫”可能为“天官”之误，未标注。“左臉”译为“左脸”，但风水术语中“脸”可能指“面”或“侧”，此处含义不确定，应保留原文或标注。“八招贅分金 誼卒林”语义不明，candidate直接保留原文，但未明确标注为存疑内容（虽然writer_uncertainty已列，但candidate正文未体现）。"
+        ],
+        "uncertainty": [
+          "原文末尾“八招赘分金 谊卒林”语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002134-p000-d453cb0277",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002135-p000-57a21703c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002136-p000-188031cc77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“催官詩云催官第四穴宜乙陽璇巽左氣冲耳入天官乙借坐加青龍巳禁闕辰宮頒夜值”中，“加青龍巳”candidate译为“加青龙，巳禁阙辰宫”，但“巳”可能为方位词“巳”或连接词，断句和释义不确定。“禁闕辰宮頒夜值”含义不明，candidate直接译为“禁阙辰宫，颁夜值”，属于无依据扩写，应保留原文并标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002137-p000-addd7bcee7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“分金膜 誼巳亥”语义不明，candidate直接保留“分金膜，谊巳亥”，但未明确标注为存疑内容（虽然writer_uncertainty已列，但candidate正文未体现）。"
+        ],
+        "uncertainty": [
+          "原文末尾“分金膜 谊巳亥”语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002138-p000-d8be784e25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002139-p000-166215bcba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“赤蛇巳头向”语句未完，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3749,
+    "completion_tokens": 1062,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3749,
+      "completion_tokens": 1062,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

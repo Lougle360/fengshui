@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T22:22:35.254242+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "527ab27724f3766e20642bc39281e5b49684164f1d29985e2d30e19ee07dbc30",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000353-p000-c0ecd3475a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“洪崩字也洪”“崩字川洪”“崩字十”三处名称被误调整顺序并简化：原文“洪崩字也洪”不应释为“洪也字崩洪”，原文“崩字川洪”不应释为“川字崩洪”，原文“崩字十”不应释为“十字崩洪”，属于原文专有名称顺序篡改；十大崩洪脉的原名称均为“XX崩洪”倒写的OCR/传抄颠倒数，但候选自行调整顺序时未明确标注原文名称原貌，直接修改了名称表述；原文“蜂腰”“鹤膝”的描述文字“腰蜂者胺大前是小中提”“胚鶴者胧小前是大中缓”属于明显的文字颠倒/讹误，候选仅标注“具体所指不详”但未说明文字存在顺序颠倒或讹误的可能性，信息标注不足"
+        ],
+        "uncertainty": [
+          "“腰蜂者胺大前是小中提”存在文字语序颠倒或讹误，具体含义无法确定；“胚鶴者胧小前是大中缓”存在文字语序颠倒或讹误，具体含义无法确定；部分崩洪脉名称存在传抄颠倒情况，具体定名存在歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3044,
+    "completion_tokens": 319,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3044,
+      "completion_tokens": 319,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

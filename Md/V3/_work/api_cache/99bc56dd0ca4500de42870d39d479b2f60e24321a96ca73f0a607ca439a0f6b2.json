@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-24T01:23:49.029669+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "99bc56dd0ca4500de42870d39d479b2f60e24321a96ca73f0a607ca439a0f6b2",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000857-p000-6bfbe3ffa0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘五二入宫’是属于排布规则的共同前提，候选将其单独归为女性的条件，属于断句错误，语义偏离原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000858-p000-06652a034e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000861-p000-3bbcf6de6d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“自當有于”的“于”应为“子”的讹写，此处释读为“有子嗣”是根据上下文推测"
+        ]
+      },
+      {
+        "id": "book002-b000864-p000-9ea8e06a68",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“宜由小大申由由人大”存在讹误，具体原文表述不清，现有释读为结合上下文的合理推测",
+          "原文“山小而竟大”“山中入大”表述模糊，现有释读为结合放水规则的推测"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2097,
+    "completion_tokens": 323,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2097,
+      "completion_tokens": 323,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

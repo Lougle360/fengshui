@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T09:03:37.384129+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b3b2866e29035095176d1efb8d84bb07dacb2cb6505997dba3abb79456860005",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002865-p000-33ddae9e03",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002866-p000-e27a1de658",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002867-p000-97bdb5eb4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002869-p000-48534ff396",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘但此格差贵’的‘差’意为稍逊，candidate误译为‘贵气更甚’，与原文含义相反；原文‘蟆外贵人’candidate误写为‘幕外贵人’，存在文字错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002870-p000-0015c30f65",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002871-p000-d999c195f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002872-p000-854d453d71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002873-p000-a5d14d5e3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "侍讲贵人对应的原文‘忌外，如人在帘幕外立也。要端正清秀，忌欹斜粗斜走粗丑’存在语序混乱，candidate将其误合并为‘忌讳欹斜粗丑，不符合标准’，漏译‘如人在帘幕外立也’等内容，且表述逻辑错误；马上贵人相关原文‘星辰清加’candidate保留残缺表述未标注，‘福力尤正’属于执圭贵人的内容被错误归到马上贵人的解释下，内容归属混乱；表格中多处原文残缺部分未明确标注‘原文残缺’，仅用省略号标注不够清晰"
+        ],
+        "uncertainty": [
+          "部分表格原文存在OCR识别错误或排版混乱，语义难以完全确认"
+        ]
+      },
+      {
+        "id": "book019-b002874-p000-65bcd441f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002875-p000-7a69dc4c3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为卷名标题，candidate改写为说明性语句，不符合标题类内容的释读要求，应保留原标题格式"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3792,
+    "completion_tokens": 806,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3792,
+      "completion_tokens": 806,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

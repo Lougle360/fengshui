@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:31:10.893350+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "90ef4606fba4904b2967759de54073540e07ca0ac83901205446dbfb46c5ae37",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000792-p000-2c7f7505f8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "壬、丙、丑、庚、戌、庚、戌、辰、甲、未",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000793-p000-072ca258a4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "卯年，坎、離、艮、兌、乾中，兌、乾中、巽、震、坤",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000794-p000-e0ce1c06b8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "癸、丁、寅、辛、史、辛、亥、巳、乙、申",
+        "confidence": "medium",
+        "uncertainty": [
+          "此处出现的“史”字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000795-p000-a8d9563786",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "未、壬、丙、丑、庚、戌、庚、戌、辰、甲",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1590,
+    "completion_tokens": 397,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1590,
+      "completion_tokens": 397,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

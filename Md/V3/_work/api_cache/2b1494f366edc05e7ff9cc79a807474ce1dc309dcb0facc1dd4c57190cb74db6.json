@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:27:42.636733+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2b1494f366edc05e7ff9cc79a807474ce1dc309dcb0facc1dd4c57190cb74db6",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000672-p000-342415ca41",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘木雖身鍊亦是員頂’‘水穴依母亦是員頂’‘土必穴子亦是員頂’‘火不作穴必穴水土仍是負頂’等表述，candidate释读时将‘木形山’‘水形穴’‘土形穴’‘火形穴’等内容直接补入，属于无依据扩写，原文未明确提及‘木形山’‘水形穴’等概念；‘郭氏羅備五行及言穴法斷曰乘金’释读为‘郭氏羅備五行及言穴法斷曰乘金’，未明确‘羅備’的含义，属于专业术语误换或未明确专名；‘負頂’未按要求保留，属于对含混短语的确定释读，不符合规则"
+        ],
+        "uncertainty": [
+          "原文中‘負頂’‘羅備’等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000673-p000-3a7ac48f4c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘没骨凹臘’‘頂氣’等表述具体所指不详，candidate将其释读为‘没骨、凹臘的情況’‘頂氣’，属于无依据确定释读；‘或問’‘奈何日坐穴’等表述的主语和逻辑关系未明确，candidate补入‘有人問’‘回答說’属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中‘没骨凹臘’‘頂氣’‘奈何日坐穴’等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000674-p000-24d3831435",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000675-p001-298467a0da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 510,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1370,
+      "completion_tokens": 510,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

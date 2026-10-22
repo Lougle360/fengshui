@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T14:13:38.720687+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "67c3617e573d448550c9e3c992bf34b1c88a21e03cfab18423df1a7cb1bc4192",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000630-p000-5fd3b1cd58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000632-p000-0c5a566366",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文中存在部分符号及字符识别不清的情况，已按可识别内容翻译"
+        ]
+      },
+      {
+        "id": "book015-b000634-p000-98aa8c57ac",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文仅残留单个字符，无法明确完整语义"
+        ],
+        "uncertainty": [
+          "原文仅残留单个字符「を」，无法明确其在原文中的完整含义，仅按字面译为「为」"
+        ]
+      },
+      {
+        "id": "book015-b000636-p000-45790dfacf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1569,
+    "completion_tokens": 262,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1569,
+      "completion_tokens": 262,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

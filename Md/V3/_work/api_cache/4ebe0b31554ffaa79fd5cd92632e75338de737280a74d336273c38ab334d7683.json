@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-23T08:27:41.991753+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4ebe0b31554ffaa79fd5cd92632e75338de737280a74d336273c38ab334d7683",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000116-p001-e2e5df091f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译“应五八之数”中的“应”字，原文为“对应五八的数理”，应译为“对应五八之数”或“与五八之数相应”。",
+          "“窥测大地厚度为四万里”表述略显生硬，原文“窥地厚四万里”可更通俗地译为“推测大地厚度为四万里”。",
+          "“文中窥测”的“文中”为增译，原文无此限定。",
+          "“并提到其方六万，但原文此处似乎未完，具体所指不详”处理得当，符合对含混短语的处理规则，但前半句“并提到其方六万”可更简洁地融入句中。"
+        ],
+        "uncertainty": [
+          "原文“其方六万”确实不完整，所指不详。"
+        ]
+      },
+      {
+        "id": "book001-b000272-p000-f04247992c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“坐山为坎，子方来水朝向坎方”为增译，原文“坎山子来坎”仅描述“坎山”与“子来坎”的关系，未明确“子”是“来水”或“朝向”。candidate 将此解释为确定的风水操作，超出了保守释读范围。",
+          "“形成伏吟格局”为增译，原文“伏吟”是术语，但未说明“形成格局”。",
+          "“若腰折投河而死，则产妇身体也难以保全”将原文并列的两件事解释为条件关系（若...则...），改变了原意。原文是并列陈述两种凶兆。",
+          "“主中子夭折”中的“主”为增译，但属于为形成句子而补出的谓语，可以接受。"
+        ]
+      },
+      {
+        "id": "book001-b000273-p000-70ce69c4cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 463,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 933,
+      "completion_tokens": 463,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

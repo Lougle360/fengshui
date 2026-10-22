@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T09:27:21.520349+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f1d1c205cdf2f25e308e7bd0eeb2e57173424ad31f9ac9952a13955b93b62ea5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000307-p000-75ca1b58ba",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## ○息四法——斩、截、吊"
+      },
+      {
+        "id": "book010-b000308-p000-f0cc80170c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "形如斬砍之狀的地勢，屬於歲息之象，比如金、水之類的形態，既然短狹，應當在其頭部放置棺木，因其分開之狀如同被斬斷相似，金井需用土填補，封培成墳冢。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000309-p000-673b52b8de",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "截者，指裁斷之義，屬於息求之象，比如木星之類的形態，既然長，應當在其中間放置棺木，因其當中如同被分截相似，不可掘鑿深廣，需用土封培成墳冢。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000310-p000-475f4755e9",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "弔者，指懸弔之義，屬於息衆之象，比如旺尤之類的形態，既然高起，應當在其露頭之處放置棺木，方法是在息下吞入，不可損壞星頭，因其在土中如同鈞起相似，需用土填補；墜者，指墮落之義，屬於息象，比如紫微之類的形態，既然低平，應當在其輳脚之處放置棺木，方法是在息下粘脉南井，不可損壞脉體，因其在下如同墜落相似，需用土填補成墳冢。",
+        "confidence": "medium",
+        "uncertainty": [
+          "旺尤、紫微的具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 523,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1695,
+      "completion_tokens": 645,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1607,
+      "completion_tokens": 523,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

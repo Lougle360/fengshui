@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-09-25T14:03:07.945340+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0b37dc9ca2083d6ce0aa5e7652528aef91c2195e130daa03d2d52b32f5d6ea65",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000272-p000-435735f136",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在明显缺漏、讹误，无法判断确切含义"
+        ]
+      },
+      {
+        "id": "book026-b000273-p000-1ab9b17563",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文表述模糊，无可靠依据判断具体所指"
+        ]
+      },
+      {
+        "id": "book026-b000274-p000-bf2ff83abb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语序错乱、缺字严重，大部分内容确切含义不可考"
+        ]
+      },
+      {
+        "id": "book026-b000278-p000-9be6034ddb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“應之於曰”的“曰”存在讹误，候选直接释为“用口说出来回应”属于无依据推断，未标注原文文字存疑的情况"
+        ],
+        "uncertainty": [
+          "原文“應之於曰”存在文字讹误，确切语义不可考"
+        ]
+      },
+      {
+        "id": "book026-b000279-p000-af34f017dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“無可得之于心而應之于目也”释读为“没有办法只在心里领会，还需要用眼睛观察对应”语义与原文相反，原文表达的是要做到心领神会同时眼能对应，且后续“豈陳言解可授捲三吉六秀何用強求”断句错误，候选将“捲三吉六秀”释为“卷里说三吉六秀”属于无依据推断"
+        ],
+        "uncertainty": [
+          "“察脉觀朝”中的“脉”“朝”具体所指没有足够依据完全确定",
+          "“捲三吉六秀”的“捲”所指不明确"
+        ]
+      },
+      {
+        "id": "book026-b000281-p000-77c303c52a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语序错乱、讹误严重，确切含义不可考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2142,
+    "completion_tokens": 548,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2142,
+      "completion_tokens": 548,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

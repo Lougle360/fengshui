@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-18T01:00:16.494079+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "437b54092c73010f41076785a6871999e7ad58030e017bd3fc54c4d5cd1b245c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005100-p000-06647cbfde",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将表格内容处理为一段笼统的概述，并大量列举原文中的字词，声称‘具体所指不详’。这严重违反了‘普通读者能读懂的白话释读’原则。候选文本没有将表格的结构（如星体名称、形态描述、解释文字）清晰地、按条目地转换为现代白话文，而是将所有信息混杂在一起，导致读者无法理解原文的排列逻辑和具体内容。这属于严重的漏译和结构误译。",
+          "候选文本在处理解释文字时，只是机械地列举了原文中的字词，并未进行任何释读。例如，对于‘星槍天’的解释，候选文本仅列出‘天賤’、‘頓宜’等词，没有尝试将其组织成连贯的、可理解的句子。这完全不符合‘白话释读’的要求。",
+          "候选文本在描述形态时，如‘罡天氣聚’，直接照搬了原文，没有进行任何解释或说明，普通读者无法理解其含义。",
+          "对于表格中明确存在的图像（如<img src=\"...\"/>），候选文本完全没有提及，这是严重的漏译。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4814,
+    "completion_tokens": 302,
+    "cached_prompt_tokens": 2176,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4814,
+      "completion_tokens": 302,
+      "cached_prompt_tokens": 2176,
+      "usage_estimated": false
+    }
+  ]
+}

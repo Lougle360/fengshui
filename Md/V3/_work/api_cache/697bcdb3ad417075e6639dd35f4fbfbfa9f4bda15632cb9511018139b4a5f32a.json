@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T07:56:28.305269+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "697bcdb3ad417075e6639dd35f4fbfbfa9f4bda15632cb9511018139b4a5f32a",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000097-p000-886a322a66",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释文中将原文‘父大者為關’‘趙異存參’‘伏聚請之方’‘哲云’‘一層’等内容进行了无依据的扩写或篡改，不符合要求；原文中‘其峰醫叢集’‘一逆人水者似a’存在OCR错乱情况，释文中未标注该情况；释文中将原文‘聚本作麟’‘時蠻’等内容进行了错误释读，不符合要求；原文中‘第三訟向’未按要求保留原文表述，进行了无依据扩写；释文中将原文‘帳幙’进行了无依据的释义，不符合要求"
+        ],
+        "uncertainty": [
+          "原文中‘父大者為關’‘趙異存參’‘帳幙’等术语具体所指不详；原文中‘其峰醫叢集’‘一逆人水者似a’存在OCR错乱情况，无法准确释读；原文中‘第三訟向’‘伏聚請之方’‘聚本作麟’‘哲云’‘一層’等内容未按要求进行无依据扩写或篡改"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4347,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4347,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

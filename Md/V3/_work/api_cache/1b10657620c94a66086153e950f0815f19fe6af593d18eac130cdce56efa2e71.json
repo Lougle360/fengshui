@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-04T06:31:08.772251+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1b10657620c94a66086153e950f0815f19fe6af593d18eac130cdce56efa2e71",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000612-p000-0a3308715f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'產處尾'三字连读，原文可能为'產處'与'尾'的误连，或'尾'字另有含义，此处按'发源与终结之处'理解，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000614-p000-c373b82902",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'類皆之之'在candidate中被处理为'此类说法皆'類皆之之'，具体所指不详。'，这属于将原文片段直接放入引号并标注不详，符合规则。但candidate中'郑监莫书释注说：阳青黑为死，以皮搏言；'一句，'以皮搏言'含义不明，candidate未标注其不确定性，应补充说明。",
+          "candidate中'龙势自左来而随龙出脉结地者，唯有逆山逆水。'一句，原文为'龍勢自左來而隨 龍出脈而結地者惟逆山逆 水然也'，candidate将'然也'（意为'是这样'）省略，可能改变了原文的肯定语气。"
+        ],
+        "uncertainty": [
+          "原文'隨 龍出脈'与'逆山逆 水'中间有空格，可能表示特殊断句或分隔，此处按常规语意连接处理；'類皆之之'原文如此，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b000616-p000-129c0f0d19",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate中'大中取小，测小为生而大为死。'一句，原文为'大中取小測小爲生而大爲'，后直接接'瘦中取肉'。candidate补'死'字并分段，属于推测性补全，但未在文中明确标注此处的推测和补全，应补充说明。",
+          "candidate中'如直中取曲，则曲为生而直为死；'一句，原文为'如 死直中取曲'，结构特殊。candidate处理为'如直中取曲'，并标注'具体所指不详'，但此处理本身是推测，应更明确地指出原文的异常结构。",
+          "candidate中'测小'可能为'则小'之误，此处按原文'测小'处理，但未说明此处的文字可能存在问题。"
+        ],
+        "uncertainty": [
+          "原文'大中取小測小爲生而大爲'后直接接'瘦中取肉'，此处补'死'字并分段，属于推测性补全；'測小'可能为'则小'之误，此处按原文'测小'处理；'如 死直中取曲'原文结构特殊，此处按'如直中取曲'理解，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000618-p000-ec2b865e51",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'服有有有自而脉之'原文文字错乱，无法构成有效句子，具体含义不详；'经曰'后内容中断，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000619-p000-abba751c7b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文文字极度错乱，candidate仅能列出一些关键词片段，并说明无法形成通顺句子。这符合OCR或原文损坏导致无法成立保守释读的情况。",
+          "candidate中'气非乘气之而聚地也'、'脉脉气支者陇'等片段，是对原文'氣非乘 氣之 不而 聚地 也氣 聚散 而脈 風遇 散水 之止 脈脈 氣支 者隴'的截取和重组，但这种重组本身可能引入新的误解，且无法保证准确性。"
+        ],
+        "uncertainty": [
+          "原文文字极度错乱，无法还原其逻辑结构和完整含义，仅能保留部分关键词的对应关系。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2365,
+    "completion_tokens": 1009,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2365,
+      "completion_tokens": 1009,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

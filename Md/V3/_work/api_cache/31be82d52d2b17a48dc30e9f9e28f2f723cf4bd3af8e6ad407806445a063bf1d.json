@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-17T20:55:54.738144+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "31be82d52d2b17a48dc30e9f9e28f2f723cf4bd3af8e6ad407806445a063bf1d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004608-p000-6f2ea60fc1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文中《倒杖旧集》作者为“杨救贫”，但“评”字后内容为他人评语，candidate 将“评”的内容处理为“杨救贫著，评注指出...”，混淆了作者与评者身份，且将评语内容误作作者自述。应明确区分作者与评语。",
+          "2. 误译：原文“附寸金新新增谢子敬 评 一字一經以矣玄章”中，“以矣玄章”含义不明，candidate 释为“足以成为玄妙篇章”属无依据扩写。应保留原文模糊性，如译为‘评语称其一字一句皆如经典，玄妙成章（具体所指不详）’。",
+          "3. 误译：原文“附温监簿巧拙歌 评 爱巧葉在俗子當熟此經破其首”中，“破其首”含义不明，candidate 释为“破除其首端之弊”属无依据扩写。应保留模糊性，如译为‘评语称其爱用巧思，但流于俗套，俗子应当熟读此经以破除其...（原文“破其首”含义不明）’。",
+          "4. 格式与顺序：candidate 将原文表格内容转换为段落，并添加了“共X卷”的总结，但原文表格结构（如“卯集十二卷”独立一行，且“十二卷”与“金亟赋新增”等条目并列）在 candidate 中被重组，可能改变了原目录的层级或分组关系。应更严格保持原文条目顺序和分行。",
+          "5. 术语处理：'二十四砂葬法'中的'砂'为 locked_terms，candidate 中未加引号或说明，但此处为直接引用书名，可接受。"
+        ],
+        "uncertainty": [
+          "原文‘一字一經以矣玄章’、‘破其首’含义不明，candidate 的释读存在推测。"
+        ]
+      },
+      {
+        "id": "book035-b004609-p000-12071a2ed0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1661,
+    "completion_tokens": 560,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1661,
+      "completion_tokens": 560,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

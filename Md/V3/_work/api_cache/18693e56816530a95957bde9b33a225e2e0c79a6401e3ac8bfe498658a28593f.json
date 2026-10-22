@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-17T23:45:41.814613+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "18693e56816530a95957bde9b33a225e2e0c79a6401e3ac8bfe498658a28593f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005020-p000-823d9e8bc8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文标题‘地理天機會元 卷二十四穴格 三十九’释读为‘关于穴格的记载，编号为三十九’，存在无依据的扩写。原文‘三十九’可能指第三十九种穴格、第三十九页或第三十九图，但candidate将其确定为‘编号’，并添加了‘记载’一词，超出了允许的浅显释义范围，属于将不确定信息写成了确定事实。"
+        ],
+        "uncertainty": [
+          "原文‘三十九’的具体所指不详，可能指第三十九种穴格、第三十九页或第三十九图。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 627,
+    "completion_tokens": 163,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 627,
+      "completion_tokens": 163,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

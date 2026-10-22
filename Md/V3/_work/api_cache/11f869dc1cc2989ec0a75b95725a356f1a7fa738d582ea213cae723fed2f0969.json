@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T03:08:58.006733+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "11f869dc1cc2989ec0a75b95725a356f1a7fa738d582ea213cae723fed2f0969",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000026-p000-174ec88f97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000027-p000-d010e23c84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原句首行的「金以口今言 引用書曰」是引出引用书目的提示语，「引用書曰」并非引用书目本身，候选将其列入引用书籍列表属于误判"
+        ],
+        "uncertainty": [
+          "「金以口今言」所指不明确"
+        ]
+      },
+      {
+        "id": "book020-b000029-p000-6e0f60e63f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺字，无法完整释读"
+        ]
+      },
+      {
+        "id": "book020-b000030-p000-6c254f26d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000031-p000-b0f032a6e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000032-p000-da4393560e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺字，无法完整释读"
+        ]
+      },
+      {
+        "id": "book020-b000033-p000-7487ffbe5c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺字，无法完整释读"
+        ]
+      },
+      {
+        "id": "book020-b000034-p000-6de8841383",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000035-p000-47ea2c61f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000036-p000-189d4c1d91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺字，无法完整释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4580,
+    "completion_tokens": 603,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4580,
+      "completion_tokens": 603,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

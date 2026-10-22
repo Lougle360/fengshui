@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T11:33:06.664513+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ddfa134863c94d6112749b7475f192506742782af540f50c5682f03ad0a39d1a",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000124-p000-0f298fd3bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“分保”“孫丙二龍”“三龍行從本位去”的具体所指未明"
+        ]
+      },
+      {
+        "id": "book013-b000125-p000-5b73235341",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“金王”“火中”的具体所指未明"
+        ]
+      },
+      {
+        "id": "book013-b000126-p000-fb5a2a49d9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“水”的注释放在“旺水”后，不符合术语注释要求，应将“水”的注释放在首次出现的“水”处，且“丙丁水”的“水”未按要求注释"
+        ],
+        "uncertainty": [
+          "原文中“四龍拉”“巳内午丁”“六秀”“子”的具体所指未明"
+        ]
+      },
+      {
+        "id": "book013-b000127-p000-51008da5e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“正神山上水文”“零補”“潦乘神”“跌漕”“零神”的具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1566,
+    "completion_tokens": 346,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1566,
+      "completion_tokens": 346,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-25T15:50:27.765082+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "13ab46fc1dc682bc17aad17a5e32bf0d8a0f094395143411047f5dda5eb6a840",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000309-p000-d21a5d57f6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为‘状元登第仍出神童’，是指该龙脉对应的家族/地区既会出现考中状元的人，也会出现神童，候选释读将逻辑误为考中状元时出现神童，语义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000310-p000-9eb1758baa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文术语转换为普通读者能读懂的现代中文，‘三公宰辅’未做必要释读，普通读者难以明确其指代古代中枢高级官员的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000312-p000-6546ef0785",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未结合allowed_glossary对‘水’做符合风水语境的通俗释读，仅保留原短语，未达到白话释读要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000313-p000-9af8585ffd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": "['斗曰千叶莲'表述含混，未明确标注含义不确定，直接按字面释读存在无依据认定的风险。",
+        "uncertainty": [
+          "“斗曰千叶莲”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000314-p000-3fd48e65a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000315-p000-2708a4df75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未结合allowed_glossary对‘水’做符合风水语境的通俗释读，仅保留原短语，未达到白话释读要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000317-p000-2d5965cd43",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将风水术语‘天马’转换为普通读者能读懂的现代中文，未做必要说明，普通读者无法理解其风水层面的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000318-p000-c2bce6d5c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘宰执’‘五府’均为古代职官/机构术语，未做通俗释读，普通读者难以理解含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000319-p000-4818eec7fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘马董’为风水专名，无对应allowed_glossary定义，候选直接使用未标注含义不确定；‘双出脈旗皷夾之以行’释读为‘还有双出脉的旗鼓在旁随行’存在语序理解偏差，原文是脉有旗鼓夹行，并非旗鼓属于双出脉；‘天马’‘穿心正脉’等风水术语未做通俗释读，普通读者难以理解。"
+        ],
+        "uncertainty": [
+          "“马董”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1563,
+    "completion_tokens": 814,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1563,
+      "completion_tokens": 814,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

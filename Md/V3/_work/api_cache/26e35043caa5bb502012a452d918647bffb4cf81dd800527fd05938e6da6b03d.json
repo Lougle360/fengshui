@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-04T05:01:41.540420+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "26e35043caa5bb502012a452d918647bffb4cf81dd800527fd05938e6da6b03d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000519-p000-80e69a7c4c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘外生一 頭’与‘外生一枝回頭護托’为并列或递进关系，candidate将其处理为条件关系（‘如果…且出现…’），改变了原文的逻辑结构，属于误译。",
+          "candidate将‘外生一 頭’解释为‘出现‘外生一头’的情况’，并将‘头’的指代问题作为风险标注。但原文‘外生一 頭’与‘外生一枝’结构相似，可能指‘外部生出一枝，生出一头’，candidate的释读方式割裂了原文，且‘出现…情况’的表述属于增译。应更直接地处理原文的并列或递进关系，并标注‘头’的具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000524-p000-7becfa3e66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "可來有有语意不明",
+          "大小的手具体所指不详",
+          "不用之后语意中断"
+        ]
+      },
+      {
+        "id": "book035-b000525-p000-1946f32bec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "闐眼具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1187,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

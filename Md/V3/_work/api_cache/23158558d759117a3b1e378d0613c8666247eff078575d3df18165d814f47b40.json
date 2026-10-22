@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:12:01.229482+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "23158558d759117a3b1e378d0613c8666247eff078575d3df18165d814f47b40",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000438-p000-0a8606a30a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000441-p000-df77ff9235",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中存在無法辨認的字符\"a\"，candidate未標註該字符，直接釋讀影響準確性"
+        ],
+        "uncertainty": [
+          "原文中存在無法辨認的字符\"a\"，具體含義不明"
+        ]
+      },
+      {
+        "id": "book014-b000442-p000-213c0d656c",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文爲跨頁殘句，內容不完整，無法確定完整含義"
+        ],
+        "uncertainty": [
+          "原文爲跨頁殘句，內容不完整，無法確定完整含義"
+        ]
+      },
+      {
+        "id": "book014-b000443-p000-0e9a21a9ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中\"凡星\"並非指星象，candidate釋讀爲\"星象\"屬於誤換專業術語"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2371,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2371,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

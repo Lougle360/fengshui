@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T10:09:16.352993+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b2e2ed8eea6e5e096667c65a5008e4b00394c4f24e9276fa9cec41c668a07b40",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000583-p000-f22494aef1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000584-p000-12a65924ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000585-p000-4468629291",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“0○本市真然”含义不明，无法确定具体所指"
+        ]
+      },
+      {
+        "id": "book010-b000586-p000-59a9f57b21",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“煞 吉不解 修 制”的断句及释义进行了主观调整，原文未明确“遇煞而吉”的前提，也未说明“修”“制”的具体指向，存在无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1180,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

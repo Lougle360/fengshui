@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T13:10:19.292496+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "378d20dcf6fbbd5aba35f4d3973a43a7a01ab8ca14098a03504defce2c6be6c2",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001068-p000-2cac70f39b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001069-p000-868f68b149",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中存在日文残句、乱码（如‘下っ口水。不か 沙階聚點不 便っ不o 7010 沙下 點 穴。’）未做有效释读，直接保留乱码内容；‘茲勾藤反義’‘犬囪’‘夾刃’‘夾饗’等术语未按要求保留原样，被赋予了不确定的含义；‘週送’‘雙迎’‘雙送’‘交互迎送’等风水术语未做明确释读，且存在语句不通顺的问题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001074-p000-fb5f790c36",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "文中内容多为零散的断句与残字，难以梳理成完整通顺的白话内容，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book014-b001076-p000-8abb9d2a90",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "‘獸即是四獄山，古壩境垣亦剛四獄一。獄中或有沮池，或有小墩阜及古墓經橫替內。’语句不通顺，存在语义模糊的问题，未对‘四獄山’‘古壩境垣’‘沮池’‘橫替’等术语做明确释读。"
+        ],
+        "uncertainty": [
+          "‘獸即是四獄山，古壩境垣亦剛四獄一。獄中或有沮池，或有小墩阜及古墓經橫替內。’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1903,
+    "completion_tokens": 487,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1903,
+      "completion_tokens": 487,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

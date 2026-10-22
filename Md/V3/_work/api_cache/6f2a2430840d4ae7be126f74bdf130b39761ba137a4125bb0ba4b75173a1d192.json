@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-25T07:20:01.759757+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6f2a2430840d4ae7be126f74bdf130b39761ba137a4125bb0ba4b75173a1d192",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000161-p000-11810133dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“犯之必定损丁”被误译为“触犯了必定损伤工匠”，丁指人丁，而非工匠。",
+          "原文“要之人丁终受伤也”被误译为“但是要注意人丁终究会受到损伤”，“要之”是“总而言之、总体来说”的意思，不是“要注意”。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2893,
+    "completion_tokens": 126,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2893,
+      "completion_tokens": 126,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

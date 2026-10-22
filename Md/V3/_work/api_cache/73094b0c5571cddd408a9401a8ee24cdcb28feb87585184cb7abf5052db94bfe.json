@@ -1,0 +1,155 @@
+{
+  "created_at": "2026-09-23T12:32:23.672252+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "73094b0c5571cddd408a9401a8ee24cdcb28feb87585184cb7abf5052db94bfe",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000520-p000-600c79c480",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000521-p000-5c10ae0fde",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'去玄武內長高處點此亦開勞火之法也'，candidate释为'應在玄武內側長高處點穴，這也是開啟勞火的方法'。'勞火'为opaque_term，不应被赋予'開啟勞火'这一确定含义，应保留原文或标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000523-p000-85af27c53f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000524-p000-dbf242ffe8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000527-p000-ea76488f5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000529-p000-b953be57d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'工尺無卷之四 三十三共峯起祖'，candidate释为'工尺無卷之四，三十三共峯起祖'，将'工尺無'作为书名/卷名处理，但此词为opaque_term，不应被赋予确定含义，应标注其含义未明。",
+          "原文'唯氣朝山識幸心'，candidate释为'唯氣朝山識幸心'，但'幸心'为opaque_term，不应被当作确定短语释读，应标注其含义未明。",
+          "原文'占先聖賢立法金取窩土取角'，candidate释为'占先聖賢立法，金取窩，土取角'，将'占先聖賢'作为确定指称，但此词为opaque_term，不应被赋予确定含义，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000531-p000-4aa43a22cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'邦流趨癸丑方盡'，candidate释为'邦流趨癸丑方盡'，但'邦流'为opaque_term，不应被当作确定术语释读，应标注其含义未明。",
+          "原文'亦空裁人經下 卷之四 王十四剪以截僞氣'，candidate释为'亦空裁人經下卷之四，王十四剪以截偽氣'，将'空裁人經'、'王十四剪'作为确定书名或方法名，但此均为opaque_term，不应被赋予确定含义，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000533-p000-2ba62fc110",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'1亥龍起酈三節四節'，candidate释为'文中提到'1亥龍起酈'，其中数字'1'必须保留'，并后续解释。但'1亥龍起酈'整体为opaque_term，'1'和'酈'的具体含义均未明，candidate不应将其作为可解释的短语进行释读，而应整体保留并标注含义未明。",
+          "原文'八而降伏'，candidate释为'入首后呈现某种形态而降伏'，将'八'解释为'某种形态'，这是无依据的推测。'八'为opaque_term，应保留原字并标注含义未明。",
+          "原文'淹英芍橫行天下'，candidate释为'则能横行天下'，漏译了'淹英芍'。'淹英芍'为opaque_term，应保留并标注含义未明。",
+          "原文'獻虎雷擊'，candidate释为'献虎、雷击'，但'獻虎'为opaque_term，不应被当作确定灾祸类型，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000536-p000-36e564e762",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'丙丁兌災邊到秀峯'，candidate释为'丙丁兌災邊到秀峯'，但'災邊'为opaque_term，不应被当作确定术语释读，应标注其含义未明。",
+          "原文'名播夷百'，candidate释为'名播夷百'，但'夷百'为opaque_term，不应被当作确定范围释读，应标注其含义未明。",
+          "原文'兒催官薦元砂水'，candidate释为'兒催官薦元砂水'，但'兒催官'为opaque_term，不应被当作确定术语或书名释读，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000538-p000-7682c6e06b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'臨穴處都王人經 卷之四 三十六'，candidate释为'臨穴處都。'，并标注后续部分语义不明。但'都'字本身可能也是讹误或特殊术语，candidate将其作为句末处理，可能漏译或误译。应整体保留'臨穴處都王人經 卷之四 三十六'并标注其语义不明，而非仅截取前半部分。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000539-p000-3985c1f61a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'族左立穴'，candidate释为'族左立穴'，但'族左'为opaque_term，不应被当作确定方位词释读，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000540-p000-21ecd83ead",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'妨趙眞避僞'，candidate释为'妨趙真避偽'，但'妨趙'为opaque_term，不应被当作确定的人名或术语释读，应标注其含义未明。",
+          "原文'空高則高'、'法空就來'，candidate照录，但'空高'、'法空'为opaque_term，不应被当作确定概念释读，应标注其含义未明。",
+          "原文'全憑月力之巧者'，candidate释为'全憑月力之巧者'，但'月力'为opaque_term，不应被当作确定概念释读，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000543-p000-58e5a495fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'拔用同情'，candidate释为'拔用同情'，但此短语为opaque_term，不应被当作确定描述释读，应标注其含义未明。",
+          "原文'坎癸艮寅皆刊'，candidate释为'坎癸艮寅皆刊'，但'皆刊'为opaque_term，不应被当作确定状态释读，应标注其含义未明。",
+          "原文'左右護砂明自'，candidate释为'左右護砂明自'，但'明自'为opaque_term，不应被当作确定描述释读，应标注其含义未明。",
+          "原文'全憑且'，candidate释为'全憑且'，但'且'为opaque_term，不应被当作确定概念释读，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000544-p000-c38a1352f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'力之巧'，candidate释为'力之巧'，但此短语为opaque_term，不应被当作确定概念释读，应标注其含义未明。",
+          "原文'惟有朝山見幸心'，candidate释为'惟有朝山見幸心'，但'幸心'为opaque_term，不应被当作确定概念释读，应标注其含义未明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5434,
+    "completion_tokens": 1880,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5434,
+      "completion_tokens": 1880,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

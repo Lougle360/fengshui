@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:32:45.433884+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e50090a574fd68090cb85f23b5c8d1da521a3e9e1889425d2bc011c697ce9dc6",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000119-p000-8d9c7fc102",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中‘乾坤良巽’的‘良’为‘艮’的讹误，candidate已修正为‘艮’；原文‘阴阳夫卦’的‘夫’为‘伏’的讹误，candidate未标注该讹误；原文‘毋得經薄’的‘經’为‘輕’的讹误，candidate未标注该讹误；原文‘圭了’‘申明谓’‘少三钻死’等opaque_terms已按要求标注‘具体所指不详’；‘不癸能方’‘碳生方损’已按要求标注‘具体所指不详’，符合规则。"
+        ],
+        "uncertainty": [
+          "‘不癸能方’‘碳生方损’‘申明谓’‘少三钻死’‘圭了’具体所指不详；原文‘乾坤良巽’的‘良’为‘艮’的讹误，‘阴阳夫卦’的‘夫’为‘伏’的讹误，‘毋得經薄’的‘經’为‘輕’的讹误，原文存在多处讹误未标注。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1413,
+    "completion_tokens": 283,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1413,
+      "completion_tokens": 283,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

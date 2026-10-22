@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T12:47:31.116153+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "384c7290ba8ce427bc6488b8b8216f7035b1319db286fb4cc731ad46ec726528",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000100-p000-eb2619cb22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000101-p000-193cc4fd2e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文开头的“楊五嵌也”与后续“東伏西華南衛止恒中嵩是也”被误拆，原义应为“楊五嵌，即東伏、西華、南衛、北恒、中嵩”，此处“止”为“北”的形近讹误，候选未标注讹误风险直接作“止恒”不妥；源文“瀆四瀆否”被误释为“四瀆之外”，与原义不符；源文“或有情書與否”中“書”为讹字，候选自行释为“有情相契，是否相合”属于无依据增译；源文“在氣運為 五承告也”被断为“在氣運為五承告”，漏译“告也”的说明属性"
+        ],
+        "uncertainty": [
+          "“楊五嵌”“五林”“五承告”具体所指不详，“止”“書”等字存在讹误可能"
+        ]
+      },
+      {
+        "id": "book026-b000102-p000-a9ac6e5fff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量句读不明、语义模糊的表述，难以准确释读",
+          "数字“2/°”具体含义未明",
+          "“土愛為地城域論”等多处短语具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000104-p000-a71e508bed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选末尾“取其義以”不符合现代汉语表达，原文为残缺句，应标注“原文此处文字残缺，语义不完整”而非直接保留残缺句式"
+        ],
+        "uncertainty": [
+          "原文文字殘缺，難以完全確定含義"
+        ]
+      },
+      {
+        "id": "book026-b000105-p000-5bdf490dd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000106-p000-9bb66bb3af",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文文字殘缺、錯亂嚴重，難以完全確定含義"
+        ]
+      },
+      {
+        "id": "book026-b000107-p000-3b085bf3ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文中的“氯”为“氣”的形近讹误，候选直接保留“氯”属于未修正明显讹字且未标注；源文中的“F”为OCR识别错误，候选直接保留未标注"
+        ],
+        "uncertainty": [
+          "原文部分文字殘缺、存在OCR识别讹误，難以完全確定含義"
+        ]
+      },
+      {
+        "id": "book026-b000108-p000-6aac4295fa",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文文字殘缺、錯亂嚴重，難以完全確定含義"
+        ]
+      },
+      {
+        "id": "book026-b000109-p000-832d3177ce",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分文字殘缺，難以完全確定含義"
+        ]
+      },
+      {
+        "id": "book026-b000110-p000-c26ab55fdd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3872,
+    "completion_tokens": 988,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3872,
+      "completion_tokens": 988,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

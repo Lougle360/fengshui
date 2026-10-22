@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-04T10:29:27.058022+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4ed556f701a0b7b577e54ba6d732cf206d3a5971104f77ea5039d82f655e8992",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001180-p000-407fa9d22a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001181-p000-e9889dee39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘扒砂經補卷五神也’释读为‘像《扒砂经补》卷五提到的‘神’一样存在’，这是对原文‘神也’的过度解释和确定化。原文‘神也’可能指某种神煞或神气，但候选句将其具体化为‘存在’，超出了允许的释读范围。",
+          "候选句对‘豬有礙不可聖’的处理符合规则，但前半句的‘神也’处理不当，导致整体需要修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001182-p000-9d2ae042e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘六字’具体指代何意不详"
+        ]
+      },
+      {
+        "id": "book028-b001185-p000-55d7a19acd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘譜山印穌官衙罷用如此等樣’释读为‘谱式，以及‘谱山’、‘印穌’、‘官衙’等如此这般的形态布置’，其中‘谱山’、‘印穌’、‘官衙’是原文并列的专名，属于opaque_terms，应原样引用并说明其含义不明，而非直接作为确定的风水形态列出。候选句的处理方式赋予了它们确定的含义。",
+          "候选句将‘兩邊隨扒砂經 卷五補 +1ì龍界水聚來穴前’释读为‘两边随《扒砂经》卷五补遗（原文此处有难以辨识的文字）龙界水聚来‘穴’前’，其中‘+1ì’是原文损坏标记，候选句的处理（加括号说明）是合适的。但前半句对专名的处理不当。"
+        ],
+        "uncertainty": [
+          "原文中‘+1ì’处有难以辨识的文字，导致‘两边随...龙界水聚来穴前’一句语义受损",
+          "‘譜山’、‘印穌’、‘官衙罷用’具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b001187-p000-f579bd2c0b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘奸兆穴’具体所指不详",
+          "‘穴雌正’具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b001189-p000-08de004ac7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3226,
+    "completion_tokens": 653,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3226,
+      "completion_tokens": 653,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

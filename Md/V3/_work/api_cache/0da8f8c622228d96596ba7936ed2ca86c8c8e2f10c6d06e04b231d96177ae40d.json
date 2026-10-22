@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-17T07:56:06.477693+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0da8f8c622228d96596ba7936ed2ca86c8c8e2f10c6d06e04b231d96177ae40d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002917-p000-cc7099eced",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'鼓盆戌孔此明戌龍穴辛向乙得庚戌正氣以左耳穴宜埃右以取壬戌三乾七戌放舍庚戌正氣爲右弼以三戌爲左輔使戌氣左右無虧'，candidate释为'此段说明戍龙穴坐辛向乙，得庚戌正氣，左耳穴宜贴近右侧以取壬戌三乾七戌之气，舍弃庚戌正氣作为右弼，以三戌之气作为左辅，使戍气左右不亏。'。其中'埃右'应为'挨右'，是术语，指靠近右侧，candidate用'贴近右侧'释义可以接受。但'放舍'释为'舍弃'，结合上下文'放舍庚戌正氣爲右弼'，'放舍'在此处是'放'和'舍'的组合，指安置、舍弃庚戌正气作为右弼，candidate的'舍弃'未能完整传达'安置'（放）的含义，属于术语误换。",
+          "原文'若得龍眞穴的砂秀水潮的主巨富但恐出人有殘疾之患'，candidate释为'若龙真穴的、砂秀水潮，主大富，但恐出人有残疾之患。'。其中'龙真穴的'是'龙真穴的'的误写，candidate直接沿用，未修正为'龙真穴的'（即龙脉真确，穴位得当），属于漏译或未处理原文可能的讹误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002918-p000-105aba1e5b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'穴挨西默細消詳水潮局付家資盛'，candidate释为'穴宜挨西默（白虎）处，细加消详，水潮局密，主家资丰盛。'。其中'局付'，candidate释为'局密'，但'付'字在风水语境中可能通'附'或'符'，意为'局附'（局势依附）或'局符'（局势符合），释为'局密'（局势紧密）缺乏依据，属于专业术语误换。",
+          "原文'貴得星峰 勇躍水潮局密主致巨富'，candidate释为'贵得星峰勇跃，水潮局密，主致巨富。'。原文'勇躍'前有空格，可能为'星峰勇躍'，candidate处理正确。但'星峰'是术语，candidate未加引号或说明，但根据allowed_glossary，'砂'已定义，'星峰'类似，可接受。问题在于'水潮局密'，原文为'水潮局付'，candidate擅自改为'密'，见上一条。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002919-p000-c89da59fa2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002920-p000-3554fdd445",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'得寅氣以 貢左耳穴宜挨取甲寅七寅三甲之氣放 棺'，candidate释为'得寅气以贯左耳穴，宜挨取甲寅七寅三甲之气，放棺'。其中'貢'字，candidate释为'贯'，可接受。但'放 棺'有空格，candidate处理为'放棺'，可接受。主要问题是'甲寅七寅三甲'，这是风水理气中的分金或气脉比例，candidate直接引用，未加说明，但属于opaque_terms范围，应原样引用在引号内或明确标注为术语。candidate未加引号，也未说明是特定比例，属于未妥善处理不透明术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002921-p000-9eff681d62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002922-p000-78e1bedf11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002923-p000-017909d6ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'得巳卯正氣以貫右踰穴宜挨左以取丁卯七甲三 寅之氣放棺爲吉'，candidate释为'得巳卯正氣以貫右踰穴，宜挨左以取丁卯七甲三寅之气，放棺为吉。'。其中'右踰穴'，'踰'可能为'腧'（通'俞'，指穴位）或'逾'之误，candidate直接写作'右踰穴'，未加说明或校正，属于未处理可能的讹误。'丁卯七甲三寅'是比例术语，candidate直接引用，未加引号或说明，同前项问题。",
+          "原文'主鯀寡瘋跛瘟煌之應也'，candidate释为'主鰥寡、疯跛、瘟煌之应也。'。'鯀'应为'鰥'之误，candidate已修正，可接受。'瘟煌'可能为'瘟蝗'或'瘟黄'等，candidate保留'瘟煌'，但未加说明，可接受，因属opaque_terms。但整体句子'主鰥寡疯跛动瘟风'在candidate中拆解到不同位置，但大意保留，可接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002924-p000-ec1a3b76a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'法宜族左以取丁卯放棺主致吉'，candidate释为'法宜族左以取丁卯，放棺主致吉。'。其中'族左'，应为'挨左'之误（根据上下文'穴宜粘左'），candidate直接写作'族左'，未校正或说明，属于未处理原文讹误。",
+          "原文'福星锋奇特'，candidate释为'福星锋奇特'。'福星'可能为'星峰'之误，candidate未处理，但结合上下文'星锋奇特'可能更合理，此处存疑，但未改变核心事实，可标记为uncertainty。但根据规则，原文若明显讹误，candidate应指出或保守处理，直接沿用可能误导。"
+        ],
+        "uncertainty": [
+          "原文'福星锋奇特'中的'福星'可能是'星峰'的笔误，但candidate未标注此不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b002925-p000-29be93b354",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002926-p000-a159164ad6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'得辰氣以貫右耳穴宜挨左以取丙辰七辰三巽放棺'，candidate释为'得辰气以贯右耳，穴宜挨左以取丙辰七辰三巽，放棺。'。其中'丙辰七辰三巽'是比例术语，candidate直接引用，未加引号或说明，同前项问题。",
+          "原文'但恐天年之不永也'，candidate释为'但恐天年之不永也。'。'天年之不永'对应前文'无期头'（百年），candidate未将'天年之不永'通俗化解释（如'寿命不长'），但直译也可接受。然而，前文将'期头'释为'百年'，此处'天年之不永'可更明确，但非必需。主要问题仍是比例术语未处理。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3333,
+    "completion_tokens": 1819,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3333,
+      "completion_tokens": 1819,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

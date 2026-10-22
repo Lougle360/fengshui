@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-26T15:07:38.579853+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "177d07cf38ae04b39658cfe68dbccd80d06e38f4c1ee1594705c4979c408ae6d",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000450-p000-82e53de865",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将原文‘水城固以金水一城屈曲鬱抱者爲吉’改为‘以金水形的城垣呈现屈曲环抱的态势为吉利’，增删原文表述不符合忠实原文要求",
+          "原文‘木火土三城皆直冲斜排橫平尖投者爲內然’被篡改为‘都属于内局不利的情形’，无依据添加‘不利’判定",
+          "原文‘擺灰去了’被改为‘摆荡而去’，‘摆灰’为原文特定表述，擅改不符合要求",
+          "原文‘不可按斷然不可用香水’被拆分曲解为‘不能胡乱判定。考察水势必须注意开闭的规则’，完全偏离原文语义",
+          "原文‘詠卽繁則龍低愛凶’未做明确标注，擅自保留模糊表述",
+          "无依据将原文‘水日’推测为‘水口’讹误，违反原文损坏需明确存疑的要求，不得私自臆改原文内容",
+          "多处自行添加原文没有的解释性内容，不符合不得接受无原文依据解释的规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000451-p000-aca4854745",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在‘烛陆要下带绕’‘任纲’‘其时断咸’‘范侯或北辰緒’‘昫杓叫始如晚’‘店地仍明而曠不’等语义不通的内容，已按要求标注为含义不详，符合存疑规则"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3834,
+    "completion_tokens": 490,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3834,
+      "completion_tokens": 490,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

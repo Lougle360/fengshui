@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T11:06:50.456847+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8a902bf6a710c80a1d8761f33ca350bfd10562127aedc12cb800acdb1e8f0485",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000040-p000-a1775d9f35",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的‘沛土’‘龟法之诛’‘丘橡杨七尺云八曜’等内容作了确定释读，不符合要求；‘戌方位的克制’属于无依据扩写，原文未明确‘克制’的具体所指；‘刀砂’未按术语保留，误释为‘砂’的相关灾祸，不符合术语要求；‘龟法之诛’属于不确定内容，不应作确定释读"
+        ],
+        "uncertainty": [
+          "沛土具体所指不详",
+          "龟法之诛具体所指不详",
+          "丘橡杨七尺云八曜具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000041-p000-7d1907185c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的‘养泣水’‘丁午亭官水’等内容作了确定释读，不符合要求；‘青囊心卯德张配阴水局法’属于无依据扩写，原文未明确‘张’的具体所指；‘疏归丑艮库地而’语义不完整，未按原文保留模糊表述"
+        ],
+        "uncertainty": [
+          "养泣水具体所指不详",
+          "丁午亭官水具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000043-p000-c1670e0297",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的‘闹宜坐丙亥山巳向载壬丙主大发人丁’‘六秀水入堂沙合格台居风’‘闹水’等内容作了确定释读，不符合要求；‘闹宜’‘闹水’属于不确定内容，不应作确定释读；‘沙合格台居风’属于无依据扩写，原文未明确相关含义"
+        ],
+        "uncertainty": [
+          "闹宜坐丙亥山巳向载壬丙主大发人丁具体所指不详",
+          "六秀水入堂沙合格台居风具体所指不详",
+          "闹水具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1441,
+    "completion_tokens": 501,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1441,
+      "completion_tokens": 501,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

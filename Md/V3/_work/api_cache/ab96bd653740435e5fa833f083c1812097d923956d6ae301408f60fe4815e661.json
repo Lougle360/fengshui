@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-18T02:28:14.983421+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ab96bd653740435e5fa833f083c1812097d923956d6ae301408f60fe4815e661",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005197-p000-9352656f2c",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "候选句完全放弃了表格结构和具体内容的释读，仅作概括性描述，与原文信息量差距过大，属于严重漏译。原文虽存在乱码，但仍有大量可辨识的术语、数字和吉凶判断，候选句未能进行任何保守的、基于可辨识部分的释读尝试。"
+        ],
+        "uncertainty": [
+          "原文表格内容因OCR错误和排版复杂，存在大量乱码，难以进行完整、准确的释读。"
+        ]
+      },
+      {
+        "id": "book035-b005198-p000-854c5fa071",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格内容合并为一段叙述，丢失了原文的表格结构。原文第一行‘举 葫 d 火 解 工 务 蕩四’等乱码内容在候选句中完全缺失。原文第二列‘凶氣半凶’等吉凶判断与第一列穴星名称是并列关系，候选句将其整合到叙述中，虽未改变语义，但改变了原文的呈现方式，未能忠实反映表格格式。",
+          "候选句末尾‘表格末尾注明“天机官板扫荡堂气二十六卷终”’表述不准确，原文是‘天機官板掃蕩堂氣二十六卷終’，是卷终标记，并非表格内的内容说明。"
+        ],
+        "uncertainty": [
+          "原文第一行存在乱码‘举 葫 d 火 解 工 务 蕩四’，具体含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2532,
+    "completion_tokens": 381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2532,
+      "completion_tokens": 381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-26T08:47:47.732943+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d185ecbe99d9545e9a94f762b88cf8440da5b293c33ac3a153ef4af03568ff4f",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000485-p000-480880058e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000486-p000-d58fa64f17",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“设五形”被误译为“制定五刑”，二者含义不同；原文“以观雨暘燠寒风雨动植灾祸祥青之变”中“祥青”疑似讹误，candidate未保留原异文仅译为“祥瑞”属无依据校改，且重复“风雨”属于漏辨原文笔误；原文“五星以是而非彼”被误译为“五星是彼而非”，语义反向。"
+        ],
+        "uncertainty": [
+          "“祥青”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000487-p000-663d0125b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“光圆者为金星”“光锐者为火星”指山形的形态特征，candidate误译为“星光圆满的，对应金”“星光尖锐的，对应火”，混淆了山形星象的喻指对象；原文对应山形的“水星”“金星”等术语属于风水五星形范畴，不能直接简化为对应“水”“金”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000488-p000-d99e6ab523",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格中“SWHNINS”“2大星”“去王人二分，矢差三”等字符含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000489-p000-d6f82df55a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“今以清浊分为三格”，candidate误译为“现在把五星分为清、浊、凶三类”，漏了划分依据是清浊，且无依据增出“凶”属于划分维度的混淆；原文“前辈于此颇相牴牾”译为“前辈们在这方面多有抵触”表述不准确，应为观点存在分歧。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000490-p000-585775be88",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故必无形象清性而始尽其妙”存在讹误，candidate译为“所以必须是形体和性质都符合清的标准，才能穷尽它的妙处”属于无依据补全，未标注原文存疑。"
+        ],
+        "uncertainty": [
+          "“故必无形象清性而始尽其妙”原文语义不通，存疑"
+        ]
+      },
+      {
+        "id": "book033-b000491-p000-9cc8b4bd7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“于时为杖”明显为“于时为秋”的讹误，candidate直接改为“对应时令为秋”未标注原文异文；原文“铿钧有教”被误译为“铿钧有节”，无依据改字；原文“辉煌贵曰锋利”被误译为“贵重在于锋利”，语义改动；原文“为厉星暴之象也”漏译“暴”的修饰，应为“凶暴的征象”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000492-p000-c2e851dba5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“献异争如”应为“献异争妍”类讹误，candidate译为“争奇斗异”未标注原文存疑；原文“有杀伐之则”被误译为“有杀伐的气势”，无依据改字；原文“故又主投誉远著”被误译为“所以又主投赠、声誉远播”，增译“投赠”无依据；原文“秀而不冥”应为“秀而不实”讹误，candidate直接改译未标注原文异文；原文“其星之云者”应为“其星之凶者”讹误，candidate直接改译未标注原文异文。"
+        ],
+        "uncertainty": [
+          "“献异争如”“秀而不冥”“其星之云者”原文疑似讹误，具体所指存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4629,
+    "completion_tokens": 1119,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4629,
+      "completion_tokens": 1119,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:41:19.026685+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3ee0421ff2b13c5904aa0dd1552691ca1d6bdec6cdb8bab0f974e3a37c4daf0d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000370-p000-24022a2c4b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中「休目」疑为「休囚」的讹误，释读时按「休囚」处理"
+        ]
+      },
+      {
+        "id": "book010-b000371-p000-303b19d70c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000372-p000-4a10e50285",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中「囚謝」含义未明，释读时保留原表述未作臆断"
+        ]
+      },
+      {
+        "id": "book010-b000373-p000-b97c798af3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2303,
+    "completion_tokens": 244,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2303,
+      "completion_tokens": 244,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T12:38:25.772596+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8d17397bd24d3b34bed3a2c6e5c5390403f667f6066260e1e2853afe9362b2e9",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000064-p000-56b0830c22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本缺字、错乱内容过多，仅能释读可识别的零散片段，其余含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000066-p000-4ad41b1a7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中仅明确坎、艮、震、巽、坤为八卦之一，未提及可认定为方位相关内容，候选释读中‘涉及作为八卦之一的坎、艮、震、巽、坤的方位相关内容’属于无依据增译"
+        ],
+        "uncertainty": [
+          "文本错乱、残缺内容过多，“三廉”具体含义不明，仅能释读可识别的零散片段，其余含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1556,
+    "completion_tokens": 212,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1556,
+      "completion_tokens": 212,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

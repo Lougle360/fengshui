@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-25T06:26:19.289846+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "610dc8aef803c009ff84062aa01dbe098cff21816460faca1d949dbc5f3a796b",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000062-p000-258c872e28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“开金取水”被误译为“开挖来取气”，属于专业表述漏译；原文“挨金剪火”被简化为“挨着金、剪去火”，未保留原术语的动作指向性；原文“即古开井怕见土之法”被误写为“这就是古代所说的开井怕见土的方法”，漏译原文“怕见土”的前提语境是全胎穴属纯阳无土的情况，存在表述偏差；locked_terms要求必须保留的“龙”“煞气”“入首”被额外添加了括号注释，违反locked_terms需原样保留的规则，注释内容属于不必要的增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000063-p000-b1ea5d7515",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2597,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2597,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

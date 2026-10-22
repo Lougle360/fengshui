@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-04T05:34:48.885225+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0ff913ed2ac88ba1c188174a24280757a1542511826a6a365a391327661376f5",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000632-p000-a8b064aa7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'狱旺人必须藏风得气'。candidate 仅处理了后半句，且将'无非特水入怀'释为'无非是特水入怀'，'特'字未译，含义不明。"
+        ],
+        "uncertainty": [
+          "狱旺人"
+        ]
+      },
+      {
+        "id": "book028-b000633-p000-f6616cd828",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误换：'太阳、太阴、紫气、三台'在风水术数中通常指星曜或神煞，candidate 直接保留为'太阳、太阴、紫气、三台'，未按 allowed_glossary 要求进行通俗化解释或标注不确定性。",
+          "漏译/误译：'平面无土为妙'的'平面'未译；'刚饱'未译；'支持雄偏'含义不明，candidate 直接保留。",
+          "结构混乱：'则可火可大本形生贴'被标注为不确定，但前文'两两相衬三五成群'的释读不完整，且与后文断开。",
+          "增译：'文中提到'则可火可大本形生贴'，具体含义不详'，此句为解释性插入，但原文该处是连续论述，candidate 的处理打断了文意，且'文中提到'为冗余增译。应直接保留原文短语并标注不确定性。"
+        ],
+        "uncertainty": [
+          "太阳、太阴、紫气、三台的具体所指",
+          "刚饱",
+          "支持雄偏",
+          "则可火可大本形生贴"
+        ]
+      },
+      {
+        "id": "book028-b000636-p000-2064d8ff27",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：'斩者撞之尽损者斩之'被整体标注为不确定，但 candidate 未尝试对'斩者'、'撞之'、'尽损者'等部分进行任何基础释读，直接放弃。应尝试更基础的拆分解释或明确说明无法解读。",
+          "增译：'文中提到'斩者撞之尽损者斩之'，这一句的具体含义不详'，'文中提到'为冗余增译。"
+        ],
+        "uncertainty": [
+          "斩者撞之尽损者斩之"
+        ]
+      },
+      {
+        "id": "book028-b000637-p000-e35c3b4c5c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "OCR/原文损坏处理不当：'活动不 九亦不難辨'，candidate 直接引用损坏文本并标注不确定，但未尝试根据上下文推测可能为'活动不难辨'或指出可能缺字。",
+          "漏译/误译：'走脉串珠生旺极速'，candidate 释为'走脉串珠生旺极快'，但'串珠'未译。'脉如春赞吞绿极等难认'，candidate 作'脉如春蚕吞绿，极等难认'，'赞'字可能为'蚕'之误，但未说明；'极等'含义不明，未处理。",
+          "术语误换：'潮'在风水中有特定含义（如潮水、潮汐，或指水势），candidate 直接保留为'潮'，未按 allowed_glossary 要求进行通俗化解释或标注不确定性。",
+          "增译：多处'文中提到...具体含义不详'为冗余增译，打断了文意。"
+        ],
+        "uncertainty": [
+          "活动不 九亦不難辨（可能原文损坏）",
+          "串珠",
+          "极等",
+          "潮的具体风水含义",
+          "受潮固是水而實 有殺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1454,
+    "completion_tokens": 823,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1454,
+      "completion_tokens": 823,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T12:37:13.023043+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fe03bce2ec9f2f977b633082dabf484b6cd8d26864c47547f63e95ab668a64aa",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000761-p000-8e922edff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000762-p000-55649f4787",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读时添加了原文未提及的内容“——案例格局回转”，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000770-p000-98bb147374",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000771-p000-61d7312676",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1983,
+    "completion_tokens": 232,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1983,
+      "completion_tokens": 232,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

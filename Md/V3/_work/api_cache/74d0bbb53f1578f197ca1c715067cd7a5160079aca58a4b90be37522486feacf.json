@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-26T04:51:44.083497+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "74d0bbb53f1578f197ca1c715067cd7a5160079aca58a4b90be37522486feacf",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002273-p000-4f7136b86a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“吉將在烏”中“烏”的含义未明"
+        ]
+      },
+      {
+        "id": "book029-b002277-p000-dd7f0d27af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文缺字位置标注错误：原文“陰盛陽□衰而結陰”的缺字在“陽”与“衰”之间，原文实为“陰盛陽衰而結陰，陽盛陰衰而結陽”，前者不存在缺字，不应标注缺字；原文“當究勢之所”后缺字，应为“當究勢之所□”，标注正确，但对“陰盛陽衰而結陰”的缺字标注属于误判。"
+        ],
+        "uncertainty": [
+          "“開□之木”存在缺字，含义不明",
+          "“勢之所□”存在缺字，含义不明"
+        ]
+      },
+      {
+        "id": "book029-b002278-p000-02cd7130b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "专业术语“分金”误释：allowed_glossary中“分金”是罗盘中细分坐向度数的方法，此处原文“如木開栖之衆分金”中的“分金”是五行属金的峦头形态，不属于罗盘分金术语，不应直接保留术语未做歧义标注；原文末尾“必理參贊玄機全書”应为“必□理參贊玄機全書”，缺字在“必”与“理”之间，标注位置不准确。"
+        ],
+        "uncertainty": [
+          "“落業盛枝繁酒尋腰落棄節朗畫處好裁”中“酒”“朗畫”含义未明",
+          "“還腳下歸”具体含义未明",
+          "“木開栖之衆分金”具体含义未明",
+          "末尾“必□理參贊玄機全書”存在缺字，含义不明"
+        ]
+      },
+      {
+        "id": "book029-b002281-p000-cba5022945",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“天上穴”具体含义未明",
+          "“摺摺翻身東復西不摺□傳変斷了斷護纏技交如亂揖”存在缺字，含义不明",
+          "“硬嶺卸腰下若還初落頭上作中落腰抽□畫處安”存在缺字，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3218,
+    "completion_tokens": 645,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3218,
+      "completion_tokens": 645,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

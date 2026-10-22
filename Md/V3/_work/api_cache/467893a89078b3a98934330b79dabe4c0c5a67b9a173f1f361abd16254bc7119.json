@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-26T08:34:38.151344+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "467893a89078b3a98934330b79dabe4c0c5a67b9a173f1f361abd16254bc7119",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000436-p000-41c83d32ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“出服”“落服”是“出脉”“落脉”的形近讹字，candidate虽统一修正为“出脉”“落脉”符合文义，但原文存在的两处“不可不察也”，candidate漏译一处；原文“福福”是“福祸”的形近讹字，candidate释为“福祸”正确，但原文“皆服服於此冥如學之為睫”部分未完全译出，此处存在漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000437-p000-c179dec5a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“非穴等皮取作中台 兩畔山形均右均勻”“胃之中山反告復山 出 勻者皆是不星而脈從中落或左右攝布均生而所從中發皆自之中出用是書 論”部分存在OCR错乱，candidate释读为“并非只有一处穴位。两侧的山形都均匀”“成书说：胃之中山反告复山，出脉均匀的都是如此。并非只有星峰，脉从中落下，或左右分布均匀，都从中发出，都是从中出的脉。因此书中论述”属于无依据推测，将错乱内容强行释读为确定含义；原文“一反為或下切”部分candidate漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000438-p000-e2bdd237e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000439-p000-c57d1a7a5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "表格HTML结构错误，原source第三行是8列（<td>数量为8：CC、对应说明、C、对应说明、CCC、对应说明），candidate将第三行列数错误拆分，导致<td colspan>属性不符合原结构，列对应关系混乱；原文“主大章榮顯”candidate误译为“主大荣显”，漏译“文章”相关含义；原文“大者為椽細者為桶”不符合大匠用木的常识，“桶”应为“桷”的讹字，candidate直接释为“桶”未做风险标注；OCR错乱的“棲櫨根闐居楔”candidate直接保留未标注含义不明。"
+        ],
+        "uncertainty": [
+          "表格中“北王人矢”“份楼 C”“CC”“CCO”“G偏”“2”“CCC中度亦曰穿”等标识含义不明，“小拟诚之制预”文字残缺，“棲櫨根闐居楔”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000440-p000-3276451e6e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000442-p000-1ff62398e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000443-p000-266c27e6fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“nd”为OCR识别错误，含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000444-p000-5ada9cd41f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“自立門云戶”是“自立門戶”的讹字，candidate释为“自立门户”正确，但原文“不為他人作用神也”candidate误译为“不被他人作用”，漏译“神”相关表述，且语义理解偏差，原句意为不会为其他龙脉所用，自有其神气。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000445-p000-2799d1321b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000446-p000-5fc6135c96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4815,
+    "completion_tokens": 1086,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4815,
+      "completion_tokens": 1086,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

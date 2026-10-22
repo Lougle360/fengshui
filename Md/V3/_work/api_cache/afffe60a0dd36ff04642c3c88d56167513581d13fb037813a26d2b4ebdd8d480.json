@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T14:48:04.569514+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "afffe60a0dd36ff04642c3c88d56167513581d13fb037813a26d2b4ebdd8d480",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000885-p000-efd64bd252",
+        "language": "japanese",
+        "content_type": "heading",
+        "action": "translate",
+        "modern_text": "## 1.4 术数与观物"
+      },
+      {
+        "id": "book015-b000886-p000-60dc22e99e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《皇極經世書》充滿了數的理論，以數作為根本宗旨，是典型的術數類著作。邵雍的易學中，數也發揮著首要作用，「雖說是《易經》的餘緒，實際上並非闡明《易經》的本義」——這是說它雖是《易經》的餘緒（易外別傳），卻並未闡明《易經》的本義（出自《四庫全書總目提要》卷一百八，術數類數學之屬的案文）。這就是不能簡單地將《皇極經世書》視為易學著作的原因。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000887-p000-4e35ef5bb4",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "事實上，邵雍的陰陽剛柔說雖依據《周易·說卦傳》中「立天之道稱為陰與陽，立地之道稱為柔與剛」的說法，但如前所述，《皇極經世書》並未以易學理論本身為依據來解釋歷年、聲音之數。另外，六十四卦的數值分配為：（1）一一的乾卦=1，（2）二一的夬卦=12，（3）三一的大有卦=360=12×30，（4）四一的大壮卦=$4,320=12^2×30$，（5）五一的小畜卦=$129,600=12^2×30^2$，……，（8）八一",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文數值計算部分存在格式混亂，後續內容殘缺"
+        ]
+      },
+      {
+        "id": "book015-b000888-p000-79ae341770",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 術數學專論",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1844,
+    "completion_tokens": 593,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1926,
+      "completion_tokens": 221,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1844,
+      "completion_tokens": 593,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

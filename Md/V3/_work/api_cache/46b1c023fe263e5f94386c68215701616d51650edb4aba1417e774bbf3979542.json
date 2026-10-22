@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T15:59:38.039119+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "46b1c023fe263e5f94386c68215701616d51650edb4aba1417e774bbf3979542",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001408-p000-4cc89c9fc3",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "我想探讨的是，自《孙子算经》以来的推算胎儿性别之法，被记载于算书之中这一点。这显然表明，数理类命题与占卜类命题并非完全互不相干。当然，在中国的算书里，除了推算胎儿性别之法外，没有其他类似的内容。但同时，也必须承认，该内容并未从算书中删除，这是确凿的事实。算书中存在占卜之法，这本身就直接提供了命数理念与数理理念相互混淆的证据。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001409-p000-0e3e5d53ae",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "再举一个混淆的实例。1973年从马王堆三号汉墓出土的《五星占》就是这样的例子，正如书名所示，《五星占》是一部关于木星、土星、水（风水语境中的河流、水系及其来去形态）、金星、火星的占星术书籍，推测成书于西汉初期。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001410-p000-d7870131a9",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "东方对应木，其帝为大皞，其丞相为句芒，其神在天上对应岁星，也就是木星。岁星每年会停留于一个国家，掌管该年的事务。……岁星长时间停留的分野，会有喜事发生。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001413-p000-edc9e3b445",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "正月里与营室一同在黎明时分出现在东方天空的现象被命名为益隐，其形态呈青亮闪烁之状。若对应的国家有德政，就会有黍稷丰收的储备；若该国失德，就会发生战乱。木星应停留的次位延迟一舍、二舍或三舍，这种情况被称为天缩、纽，对应的下方国家会有忧患之事发生，将军会死去，国运会衰败。木星应停留的次位前进一舍、二舍或三舍，这种情况被称为天赢，该年天下会发生洪水，否则就会出现天裂、地动等灾异。等内容。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在部分缺字，已根据上下文进行补全处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2140,
+    "completion_tokens": 692,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2140,
+      "completion_tokens": 692,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

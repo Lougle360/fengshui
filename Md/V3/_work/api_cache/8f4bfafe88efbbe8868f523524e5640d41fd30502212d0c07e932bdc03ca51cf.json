@@ -1,0 +1,128 @@
+{
+  "created_at": "2026-10-04T03:12:00.084021+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8f4bfafe88efbbe8868f523524e5640d41fd30502212d0c07e932bdc03ca51cf",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000496-p000-14c9e0d496",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000497-p000-9b16382430",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“公是卷”被译为“公是卷”，但“公是”可能是一个书名或特定称谓，candidate 未作任何说明，直接当作普通名词处理，可能导致读者误解。",
+          "“必香必凡”译为“必定焚香沐浴”，增译了“沐浴”，原文无此义。",
+          "“如见公于州公于书也”译为“如同在州郡亲见公、在书斋亲见公一样”，将“州”和“书”具体化为“州郡”和“书斋”，属于无依据扩写。",
+          "“今诸书当作”后文缺失，candidate 处理为“如今诸书应当……”，并在 uncertainty 中说明，这是正确的。但前面的问题需要修正。"
+        ],
+        "uncertainty": [
+          "原文末尾“今诸书当作”后文缺失，无法完整翻译后续内容"
+        ]
+      },
+      {
+        "id": "book028-b000498-p000-1d34cba223",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000499-p000-e5f1a06676",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000501-p000-d08afe866d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“出浚入门”译为“出浚入门”，保留了原文，但“浚”字可能为“俊”或“峻”之误，或为特定术语，candidate 未作任何说明或风险标注。",
+          "“切务升堂艺奥”译为“切务升堂艺奥”，保留了原文，但“切务”含义不明，candidate 未作任何说明或风险标注。",
+          "“此图此义，岂等调？”译为“此图此义，岂等调？”，保留了原文，但“岂等调”含义不明，candidate 未作任何说明或风险标注。",
+          "末尾“仓页水郎”按字面转译，并在 uncertainty 中说明，这是正确的。但前面的术语问题需要修正。"
+        ],
+        "uncertainty": [
+          "原文末尾“仓页水郎”疑似为 OCR 识别错误或乱码，无法确认具体含义，仅按字面转译"
+        ]
+      },
+      {
+        "id": "book028-b000502-p000-5b85f7a997",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000506-p000-24eb6d5291",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“土受火生，正尖巳上火星正变”译为“土受火生，正尖巳上火星正变”，保留了原文，但“巳上”可能为“以上”之误，candidate 未作说明。",
+          "“至下突人火蚕”译为“至下突人火蚕”，保留了原文，但“突人火蚕”含义不明，candidate 未作任何说明或风险标注。",
+          "“芳脚仙官纽绘之形”译为“芳脚仙官纽绘之形”，保留了原文，但“芳脚仙官纽绘”含义不明，candidate 未作任何说明或风险标注。",
+          "“此义切远”译为“此义切远”，保留了原文，但“切远”含义不明，candidate 未作任何说明或风险标注。",
+          "“后学克金得之于心而会其意”译为“后学克金得之于心而会其意”，保留了原文，但“克金”可能为“刻苦”或特定术语，candidate 未作说明。",
+          "“人多务于远而忽于延”译为“人多务于远而忽于延”，保留了原文，但“忽于延”含义不明，candidate 未作任何说明或风险标注。",
+          "“自南至比”在 uncertainty 中说明疑似为“北”之误，这是正确的。",
+          "“污土砂经卷二之金”译为“污土砂经卷二之金”，保留了原文，但“污土”含义不明，candidate 未作任何说明或风险标注。"
+        ],
+        "uncertainty": [
+          "原文“自南至比”中“比”字疑似为“北”之误，但依据规则不擅自改字，仅按原文转译"
+        ]
+      },
+      {
+        "id": "book028-b000507-p000-e197b6b6f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将大量疑似 OCR 错误的词句（如“净釜今铉”、“蜉蠟”、“殊韭”等）直接按字面转译，并在 uncertainty 中说明已进行通顺化处理，但风险标注不足。对于这些明显不通或疑似错字的词，应在译文中明确标注其不确定性，而不是仅在后置的 uncertainty 中笼统说明。例如，“净釜今铉处”应处理为“净釜今铉（疑为‘净釜金铉’或其它）处”。",
+          "“似手卷二期”译为“似手卷二期”，保留了原文，但含义不明，candidate 未作任何说明或风险标注。",
+          "“照盐就动中而裁讨”译为“照盐就动中而裁讨”，保留了原文，但“照盐”含义不明，candidate 未作任何说明或风险标注。",
+          "“两鳌劳崍之腹”译为“两鳌劳崍之腹”，保留了原文，但“劳崍”含义不明，candidate 未作任何说明或风险标注。",
+          "“金穴殊韭”译为“金穴殊韭”，保留了原文，但“殊韭”含义不明，candidate 未作任何说明或风险标注。"
+        ],
+        "uncertainty": [
+          "原文中存在大量疑似 OCR 识别错误的字词（如“净釜今铉”、“蜉蠟”、“殊韭”等），部分语句逻辑晦涩，译文已尽量根据上下文进行通顺化处理，但个别词句的具体所指可能仍有偏差"
+        ]
+      },
+      {
+        "id": "book028-b000508-p000-a659edd955",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000509-p000-0f336f6583",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5962,
+    "completion_tokens": 1439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5962,
+      "completion_tokens": 1439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

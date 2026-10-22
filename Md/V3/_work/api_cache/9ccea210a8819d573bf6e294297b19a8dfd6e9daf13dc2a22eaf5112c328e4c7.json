@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-17T21:00:10.593496+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9ccea210a8819d573bf6e294297b19a8dfd6e9daf13dc2a22eaf5112c328e4c7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004619-p000-cb7ccbeb9d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“披沙棟金”中的“棟”字可能是“拣”的异体或讹误，原文此处字形存疑"
+        ]
+      },
+      {
+        "id": "book035-b004629-p000-1596a68687",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘得廖公著此穴格而穴也’释读为‘后来得到廖公撰写了关于“穴”的格法，并专门论述了“穴”’，存在增译和曲解。原文‘得廖公著此穴格而穴也’结构紧凑，可能意为‘得益于廖公所著的这些穴格，才得以定穴’或类似含义，candidate将其拆解并补充了‘后来得到’、‘专门论述了’等，超出了保守释读的范围。",
+          "candidate将‘穴星篇’处理为书名《穴星篇》并解释为‘收录在...中’，但原文‘穴星篇’可能只是篇名或章节标题，candidate的表述将其具体化为一部独立的著作，属于无依据的扩写。"
+        ],
+        "uncertainty": [
+          "“早穴法”中的“早”字可能是“曰”或“云”的讹误，导致语意不通或存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 894,
+    "completion_tokens": 306,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 894,
+      "completion_tokens": 306,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

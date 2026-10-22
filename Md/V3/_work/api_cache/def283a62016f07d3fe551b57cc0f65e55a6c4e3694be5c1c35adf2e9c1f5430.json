@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-24T20:53:30.335225+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "def283a62016f07d3fe551b57cc0f65e55a6c4e3694be5c1c35adf2e9c1f5430",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000110-p000-e6f893845a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000111-p000-f3146a064e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000112-p000-f1b6c5ef89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000113-p000-6c8a352023",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是二级标题，候选释读改为了普通说明文字，未保留原标题的格式、层级和内容完整性，不符合kind=toc类内容的核对要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000114-p000-7afb2ce2b6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“其家诸祸并臻，思所以致之者”的主语是被谋害的那户人家，候选错译为谋害者“他还在思考如何招致灾祸”，含义完全相反；原文“葬未逾年，所得祸更甚”的主语是谋夺葬地的人，候选错译为“那家人遭遇的灾祸就更严重了”，指代错误，语义违背原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000115-p000-fd8605fbc0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“震”的定义是八卦之一，但原文中“一夕为雷所震”的“震”是指雷击，此处误用术语定义；且原文“予兄弟”释为“我兄弟”存在歧义，应补全为“我和兄弟”或“我们兄弟”更符合现代汉语表达"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000116-p000-22a91193d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000117-p000-770313cc50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000118-p000-fe30b138c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000119-p000-92ab53c2cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“气之聚无风以散之”是指气要聚结就不能有风来吹散它，候选错译为“气的聚结需要风来吹散”，语义完全相反；原文“风所以扬万物”候选错译为“风用来滋养万物”，“扬”是吹拂、生发的意思，与“滋养”含义不符；原文“外气横形”是指外气形成横向的形态来界止内气，候选释为“外气横向流动”表述不准确"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5014,
+    "completion_tokens": 807,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5014,
+      "completion_tokens": 807,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

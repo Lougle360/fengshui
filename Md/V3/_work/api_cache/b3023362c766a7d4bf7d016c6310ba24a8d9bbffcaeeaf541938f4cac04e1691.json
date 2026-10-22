@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-09-23T16:30:29.557043+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b3023362c766a7d4bf7d016c6310ba24a8d9bbffcaeeaf541938f4cac04e1691",
+  "response": {
+    "items": [
+      {
+        "id": "book005-b000022-p000-4cd7b7cda8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘盡杜繩墨右吉日’中的‘盡杜繩墨’可能为‘畫柱繩墨’之误或特定术语，candidate释为‘完全符合绳墨规矩’属于无依据的推测性解释。",
+          "‘齊札郡空’被标注为不确定，但candidate将其处理为短语‘齊札郡空’，并说‘具体所指不详’，这符合规则，可以接受。但‘寅申巳亥日’的释读‘选择寅、申、巳、亥日’增加了‘选择’这个动作，属于增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000024-p000-2872c25ac0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘開杜眼’中的‘杜眼’被标注为不确定，candidate处理为‘木料开杜眼’，保留了‘杜眼’并标注不确定，可以接受。但‘自星’被处理为‘自星’并标注不确定，也符合规则。",
+          "主要问题在于‘匠者之大用也’被释为‘是匠人最大的用途’，将‘大用’（重要用途/关键作用）译为‘最大的用途’，语义有偏差，不够准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000025-p000-098ffe1874",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重错乱（如‘甲于’、‘辛末’、‘巳卯’、‘申乙未’等），candidate已指出无法确证，但仍在尝试串联成句（如‘随后列出甲子、乙丑、丁卯、戊辰、庚午、辛未等干支日’），这超出了保守释读的边界。对于如此混乱的原文，应直接判定为无法进行可靠释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000028-p000-12b12c18e0",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量乱码和异常组合（如‘乙來下酉’、‘廙子’、‘盧申’、‘邑克’、‘乙身’、‘兩寅’），candidate已指出无法确证且原文严重乱码。但candidate仍试图将部分可识别的干支（如甲子、乙丑等）和术语（天德、月德）串联成句，这可能导致对混乱原文的过度解读。对于此类情况，应判定为无法进行保守释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000029-p000-f952f332e8",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文断句混乱，大量词汇无法确证（如‘处戌’、‘辛五子’、‘丙千成’、‘凑泽’等）。candidate的释读只是将原文词汇罗列并标注不确定，并未形成有意义的现代汉语句子，无法达到‘普通读者能读懂’的目标。应判定为无法进行保守释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000030-p000-e874aa21b6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文干支组合混乱（如‘两寅成辰’、‘巳庚至丑’、‘九戌’），candidate的释读仅是罗列并标注不确定，未形成有效信息。应判定为无法进行保守释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000031-p000-61fcc9b58e",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重乱码（如‘ip犹’），candidate的释读仅是罗列原文，未形成有效信息。应判定为无法进行保守释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000032-p000-498d3ce041",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘义吉旦午’、‘平成日吉’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book005-b000034-p000-2e6a1f4dcb",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量术语堆砌与疑似乱码，句子支离破碎。candidate的释读试图串联这些术语，但形成的句子（如‘忌中顺逆小儿嬉雷灵大杀’）对普通读者而言仍无法理解，且可能引入错误的逻辑关联。这超出了保守释读的边界。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000036-p000-f704faea07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘甲公子’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book005-b000040-p000-cfeaf5ffdc",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量术语堆砌与疑似乱码（如‘四缘一自’、‘今尔自’、‘开门涧’、‘百无一吴’等），逻辑混乱。candidate的释读只是将原文词汇串联成句，但形成的句子对普通读者而言无法理解，且可能错误地暗示了原文存在连贯逻辑。应判定为无法进行保守释读。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3500,
+    "completion_tokens": 1407,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3500,
+      "completion_tokens": 1407,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

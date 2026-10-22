@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T13:23:25.717868+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0fc5129f3c2925da55b9e2573420a8c671adc8542f97dabafbd7ccf8e67fedd1",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003768-p000-b5205d3f5e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格，candidate未按表格结构处理，导致信息错乱。例如，原文中'一位富足多子一'与'位貧寒多疾絕'、'此合柳星龍亦能出貴公位偏少'与'房無子有疾有好但偏枯耳發揮曰合禽宿者必'等是并列或对照关系，candidate将其处理为连贯叙述，改变了原文的并列、对照或注释关系。",
+          "存在严重漏译。原文中'此合柳星龍亦能出貴公位偏少'、'發揮曰重重不問偏斜黃甲及第橫山祖次但'、'正脈專庚一頭而橫處乃有脫脈之峰即爲卷簾殿試蓋橫者御陛也'、'而皆富貴與前二倍孤寒絕嗣'、'者不同也'等关键句子或短语在candidate中完全缺失。",
+          "存在反义或曲解。原文'此后竟绝穿心之误人也如此'，candidate译为'此后这种风气竟完全断绝，穿心之误人如此严重'，将'穿心之误'与'唱和诗词'的风气错误地关联，逻辑不通。原文'盖非穿心之误人人自惑穿心耳'，candidate译为'其实并非穿心之局本身误人，而是人自生迷惑才导致穿心之误'，理解基本正确，但前句关联错误。",
+          "将推测写成事实。原文'路器'为opaque_terms，candidate解释为'格局或路径不同'，并直接写入正文，这是不允许的。应保留'路器'原词并说明其含义不确定。",
+          "对'泥然'的处理不当。candidate在writer_uncertainty中说明'泥然'含义不明，但在正文中仍直接使用'不必如泥然如此'，这属于将不确定的解释写入了正文。应保留'泥然'原词或明确标注其含义不详。",
+          "OCR乱码处理不当。原文中的'LCOARA'、'GA'等疑似乱码，candidate完全忽略，未做任何说明或保留。",
+          "结构混乱。原文表格中包含'卷簾'、'空洞者掀簾也獨峰者變試也'等与'卷簾殿試'相关的风水术语讨论，candidate将其拆散并与其他内容混杂，破坏了原文的论述逻辑和结构。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，部分单元格内容可能对应图示或特定排列，仅凭文字难以完全还原其逻辑关系。",
+          "部分文字如'LCOARA'、'GA'、'路器'、'泥然'等，确为OCR错误或生僻术语，含义难以确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1767,
+    "completion_tokens": 652,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1767,
+      "completion_tokens": 652,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-24T22:47:36.883247+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "652cbc4a791c9ef570109b3caab6afa63b257546794025e9e47bb6a3c21b4c92",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004155-p000-88490cc496",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在内容冗余，原文中《象》曰“濡其尾”是古文本内容，译文中已经对应解释为“小狐渡河时，水沾湿了它的尾巴”，不应再重复保留古文字句"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004156-p000-a434e9dae9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004157-p000-639d1d8519",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "《周易浅述》是引用内容的出处，应置于括号内标注，不应单独放在句末",
+          "此处“象同”是指爻象均为小狐渡河沾湿尾巴的意象，不是“卦象相同”，表述不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004158-p000-c56e181626",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文无《象传》相关内容，候选擅自增译“《象传》说”",
+          "漏译原文“九二，曳其轮，贞吉”中“曳其轮”的对应释义，错误保留原句且额外添加不存在的象传内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004159-p000-b5825ab2c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004160-p000-375ec91e4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004161-p000-23de6e0c61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004162-p000-76320e56f6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文“事未成，急于进取必有凶险”的内容，仅保留了爻辞原文和后半句释义",
+          "译文应对应解释爻辞含义，不应直接保留未释读的“未济，征凶”原文字句"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004163-p000-1ff3dab0e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004164-p000-d1a9b4f20e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3320,
+    "completion_tokens": 696,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3320,
+      "completion_tokens": 696,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

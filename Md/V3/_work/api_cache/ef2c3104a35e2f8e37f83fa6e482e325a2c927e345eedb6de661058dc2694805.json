@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T19:59:31.423346+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ef2c3104a35e2f8e37f83fa6e482e325a2c927e345eedb6de661058dc2694805",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001365-p000-3ac0f97dea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001367-p000-abb6e8941e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水口之無尚 矣”实为“水口之妙尚矣”的断句/识读误差，候选误释为“水口的作用是至高无上的”，属于对讹误/断句错误的无依据解读，原文此处存在识读问题，不得直接释为确定含义"
+        ],
+        "uncertainty": [
+          "原文“水口之無尚 矣”存识读或断句讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001369-p000-f2e8f9812f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“地理奉贊玄機全書八○卷六”，候选误释为“卷六第八部分”，“八○”应为页码标识，无依据判定为第八部分；原文“產四右轉如盤結”断句应为“產四右，轉如盤結”？不，原文“水口狹不傾缺產 四右轉如盤結”是断行问题，候选释为“会产出四丁”属于无依据增译，原文“產四”含义未明，不得直接释为“四丁”；原文“歲車隱馬”候选未明确标注为存疑，仅在writer_uncertainty列出但释读中未说明，属于将不确定内容按确定表述处理；原文“石如闞刀蔵水俚”候选释为“水里的石头像阚刀一样藏在水里”，“水俚”含义未明，未标注存疑直接忽略属于漏译"
+        ],
+        "uncertainty": [
+          "岁车隐马、闞刀、水俚、產四的具体含义未明"
+        ]
+      },
+      {
+        "id": "book029-b001370-p000-89e0291ec3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理奉贊玄機全書八○卷六 十二”，候选误释为“卷六第八部分，第十二页”，“八○”为页码标识，无依据判定为第八部分；原文“方負五炎水中安”候选释为“方正的形态处在水中”属于无依据解读，“方負五炎”含义未明，不得直接释为确定含义；原文“那托護龍天邊月”候选释为“对应天边月形的护龙山”属于无依据解读，该短语含义未明，不得做确定解释；原文“不可乳安扦穴”断句应为“不可乳安扦穴”？候选释为“不可以在乳形地形上扦穴”，“乳安”含义未明，无依据判定为“乳形地形”"
+        ],
+        "uncertainty": [
+          "紫掛緋袍虎牙刀、水貝山、鉄版賺城門、方負五炎、那托護龍天邊月、乳安的具体含义未明"
+        ]
+      },
+      {
+        "id": "book029-b001373-p000-41a203d1e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "金魚蔭腮之水的具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4234,
+    "completion_tokens": 805,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4234,
+      "completion_tokens": 805,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

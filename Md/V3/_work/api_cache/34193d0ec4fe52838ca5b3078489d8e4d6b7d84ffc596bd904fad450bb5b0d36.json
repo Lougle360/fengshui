@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-15T06:17:16.525742+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "34193d0ec4fe52838ca5b3078489d8e4d6b7d84ffc596bd904fad450bb5b0d36",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001306-p000-131a5c6354",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘厭’字的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b001307-p000-bf0a2b2a58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘毀定’的具体含义",
+          "‘暈心標下’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b001308-p000-a3abf883fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 在陈述‘阳脉得阴向阴水’后，自行补充了‘也属吉利’的推测性结论，缺乏原文依据。应仅陈述原文内容，不添加推测。原文‘陽脈得陰向陰水’后文意可能不完整，candidate 已指出，但不应自行补全。"
+        ],
+        "uncertainty": [
+          "‘阳脉得阴向阴水’后的文意是否完整",
+          "‘戊’是否为‘戌’之误",
+          "‘況’是否为‘兑’之异体或讹字"
+        ]
+      },
+      {
+        "id": "book035-b001310-p000-8f46ed9fb1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘閥狹’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b001313-p000-54b78bd285",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 对‘惟居穴乃四凶穴不忌四凶穴不宜大過’一句进行了断句和推测性解释（‘惟居穴乃四凶穴，不忌四凶穴，但不宜过大’），这超出了保守释读的范围。应仅指出原文逻辑费解，存在歧义，而不提供具体的断句和解释。"
+        ],
+        "uncertainty": [
+          "‘销铁’的具体含义",
+          "‘惟居穴乃四凶穴不忌四凶穴不宜大過’句的逻辑与断句",
+          "‘幾凡規’的具体含义",
+          "‘裹面’是否为‘里面’之异写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2225,
+    "completion_tokens": 544,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2225,
+      "completion_tokens": 544,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

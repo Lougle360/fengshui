@@ -1,0 +1,128 @@
+{
+  "created_at": "2026-10-04T09:50:19.976395+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "00632dec0c5175208e8de2e03f09b4ebf48d09deabb7406814e292cddfec856b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001148-p000-c7b56fbc29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001149-p000-4f7a0336de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘九腰龍’释为‘九條龍脈’是推测，原文‘九腰龍’是风水术语，具体所指不详，应保留原词并说明其不确定性。",
+          "‘邇龍’释为‘邇龍’（可能是‘逆轉邇龍’）但未解释，应标注为不明确术语。"
+        ],
+        "uncertainty": [
+          "‘九腰龍’具体所指不详",
+          "‘邇龍’具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b001150-p000-ed554b71f0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句‘砂貴在真情向我不欲返臂，從他如象鼻者最住，似眠弓者扒秋。’几乎是原文的复制，未进行有效的白话释读。",
+          "‘最住’应为‘最佳’或‘最好’的误写，释读未纠正或说明。",
+          "‘扒秋’含义不明，释读未处理。",
+          "末尾‘經補人卷五 五’处理不当，应明确标注为疑似残缺或错乱，而非直接复制。"
+        ],
+        "uncertainty": [
+          "‘扒秋’具体所指不详",
+          "‘經補人卷五 五’疑似殘缺或錯亂，具體所指不詳"
+        ]
+      },
+      {
+        "id": "book028-b001151-p000-bc8cdcdae1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读‘尤其妙在斜竄之砂，若非吉地，遇到身平正則無妨。’逻辑不通，原文‘非吉遇身平正無妨’可能意指‘若非吉地，但砂身平正则无妨’，但候选句断句和表述导致语义模糊。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001152-p000-02c9c326fe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘可藥’释为‘或许可以用作药引’是推测性解释，原文‘可藥’含义不明，应保留原词并说明不确定性。",
+          "‘多情’释为‘蕴含着深厚的情意’是文学化扩写，偏离了风水术语的可能含义（如指有情、眷顾），应更保守处理。"
+        ],
+        "uncertainty": [
+          "‘可藥’具体含义不详",
+          "‘多情’在风水语境中的具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b001153-p000-d53730acc6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句‘坪突風吹無害，山窠風射有妨；乎洋不怕風吹，山谷切宜。’几乎是原文复制，未进行有效的白话释读。",
+          "‘乎洋’含义不明，释读未处理。",
+          "‘山谷切宜’后文意不完整，释读未说明。"
+        ],
+        "uncertainty": [
+          "‘乎洋’具体所指不详",
+          "‘山谷切宜’后文意不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b001154-p000-0d6e92405c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001155-p000-ccb058ef01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001156-p000-65f723644e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘聚盛者必退，遠遠者必發遲。’是原文复制，未进行白话释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001157-p000-3b8153db03",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘陽居俱盛者，得旺氣也；發及一傍，將衰之兆。’是原文复制，未进行白话释读。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2341,
+    "completion_tokens": 903,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2341,
+      "completion_tokens": 903,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

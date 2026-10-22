@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:32:07.441368+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f74321d2044bf0dcba73e3f43e57a8f9f2c0c0a6381b7b7e335f4864a23ad148",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000108-p000-aea9b93838",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘寅京辰東’‘乾西’‘乙東一’‘乾兩乙三山’等表述存在断句、文字讹误或模糊之处，候选释读存在语义偏差，如‘寅、京、辰在東方’‘乾在西方’‘乙在東方’‘乾兩乙三山’的释读不符合原文模糊表述的实际情况，且‘二支山’‘乾兩乙三山’的表述存在误释，未保留原文的模糊性标注”],",
+          "uncertainty京字具體所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000109-p000-e1752bc172",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000110-p000-81c74d3e36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000111-p000-a5d5f3c710",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘中’‘成’‘辛’等表述模糊，候选释读将其明确为方位，不符合原文未明的情况，未保留模糊性标注”],",
+          "uncertainty"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1505,
+    "completion_tokens": 354,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1505,
+      "completion_tokens": 354,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

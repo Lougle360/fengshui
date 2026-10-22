@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-15T06:23:41.259882+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "54574d72a37ee24d0a17744791eb6bed26aa30bdecf65141269e7dc7070a4849",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002011-p000-2f4a570f71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "也里人子頁知美七下天星"
+        ]
+      },
+      {
+        "id": "book033-b002012-p000-656f8ffd3d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将原文中可能连贯的句子（如“也以卦以于行配為八之”）拆解为独立的短语列表，并断言其‘逻辑破碎且不符合常规八卦推演’，这属于无依据的扩写和主观判断。释读应仅描述原文呈现的字符组合，并指出其含义不明，而非进行逻辑或学术正确性评估。",
+          "候选句末尾提到‘其中涉及“水”、“乾”、“坤”、“震”、“坎”等术语，但整体文意无法确证。’此句虽无大错，但‘无法确证’的表述稍弱，更准确的表述应为‘具体含义不详’或‘文意不明’。"
+        ],
+        "uncertainty": [
+          "者天之坤澤山",
+          "帝地氣坎天後",
+          "出法口生水天",
+          "乎因六四山卦",
+          "震之十卦加乾",
+          "也以卦以于行配為八之",
+          "吉六主卦易",
+          "凶十宰之入",
+          "者甲而上用",
+          "本子居而之",
+          "子而细成卦",
+          "化推為六也",
+          "也排之十法",
+          "八支天四四",
+          "官象定卦雷",
+          "皆運统内風",
+          "首于諸除火",
+          "雷周封乾地"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 385,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1163,
+      "completion_tokens": 385,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

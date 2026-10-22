@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-25T12:34:51.551097+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "33318cd2172da12a652290b82d7e278927a5deb8738a70d9f26be41ee4f09249",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000048-p000-231b1b187d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文句读断句错误导致语义偏差，原文末尾“蕃行皆”语义未完，候选文自行补全为“子孙繁衍行事的相关依托都在此处”属于无依据增译"
+        ],
+        "uncertainty": [
+          "“阴旧受气之中”具体含义暂不明确"
+        ]
+      },
+      {
+        "id": "book026-b000049-p000-1fa02eca73",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在脱漏，语义并不完整"
+        ]
+      },
+      {
+        "id": "book026-b000055-p000-280499e4fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“尖音肥”的“音”疑似讹字，具体含义不详",
+          "“贪臣武”具体所指不详",
+          "原文末尾语义未完"
+        ]
+      },
+      {
+        "id": "book026-b000057-p000-acee4f68ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“这四个字”指代不明，原文未明确指出对应的是哪四个字，属于无依据表述"
+        ],
+        "uncertainty": [
+          "“寓鉗乳突不肥國肘”的“寓”“國”疑似讹字，短语具体含义不详",
+          "“休因”疑似“休囚”的讹写，暂保留原字并标注疑义",
+          "“贪陵”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000059-p000-eb18230c50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文本识别错乱，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1543,
+      "completion_tokens": 439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

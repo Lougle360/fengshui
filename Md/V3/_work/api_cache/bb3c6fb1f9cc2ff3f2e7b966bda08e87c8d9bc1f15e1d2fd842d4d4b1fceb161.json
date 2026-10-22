@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-25T17:07:15.939767+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bb3c6fb1f9cc2ff3f2e7b966bda08e87c8d9bc1f15e1d2fd842d4d4b1fceb161",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000867-p000-1c4dce9ea6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“叔數之除德以威召之也”语义无法确定",
+          "“扦”字含义不明"
+        ]
+      },
+      {
+        "id": "book026-b000871-p000-5a87c9da53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文中“以雪吾心”的内容，原文“發明古訣以雪吾心地理精麤包括殆盡”被误拆为“阐发说明古代的口诀，地理相关的粗细内容几乎都被囊括在内”，丢失了“以此抒发/印证我心中的认知”相关语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000872-p000-30e1cac855",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“经性”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1207,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-18T11:23:11.430632+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8b1c6ee6d6ed8a7cd41c736d45d49f36af499b754bf7944e4674ed25bc2c42f8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006296-p000-a682cc8553",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006297-p000-b7ecff1f6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006298-p000-167d30be61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006299-p000-d3b8f1e60f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006300-p000-f2117de67b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006301-p000-762bd0c345",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006302-p000-ddf3b7d4ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘甲子金穴分在坎宮逢水及金木相生相合是以列于九八中之相氣對宮得甲午金向逢火受克又爲沐浴之地是金穴金向爲比和然所忌者金落火宮爲無氣而所惡者金死于子故雖曰相合沐浴爲相氣而終是死氣之地又向甲子爲接氣之空是爲孤虛敗穴也’中，‘列于九八中之相氣對宮’一句，candidate译为‘因此列于九八中的相气对宫’，将‘九八’直接当作一个术语或数字组合处理，未作任何解释或风险标注。‘九八’含义不明，可能指代某种风水格局或数理，但allowed_glossary中未定义，应视为opaque_terms处理。candidate未标注其不确定性，也未将其置于引号内，而是直接融入句子，赋予了其确定的含义，这不符合要求。",
+          "原文‘又向甲子爲接氣之空’一句，candidate译为‘又因向甲子为接气之空’。原文‘向甲子’可能指朝向甲子方位，也可能指甲子向。candidate译为‘向甲子’保留了原文短语，但未明确其具体所指（是方位还是‘向’的一种？），也未标注其不确定性。考虑到‘向’是locked_term，且上下文涉及分金坐向，此处应视为一个需要谨慎处理的专名，candidate的处理不够清晰。"
+        ],
+        "uncertainty": [
+          "‘九八’的具体含义不详。",
+          "‘向甲子’的确切所指（是甲子方位的向，还是名为‘甲子’的向？）不详。"
+        ]
+      },
+      {
+        "id": "book035-b006303-p000-2a9eec2fa8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺或跨页，语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b006304-p000-6ef68b4e25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺或跨页，语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b006305-p000-6a8029984d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 760,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1691,
+      "completion_tokens": 760,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

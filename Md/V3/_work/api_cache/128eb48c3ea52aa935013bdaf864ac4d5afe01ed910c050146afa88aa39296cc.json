@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:46:17.984534+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "128eb48c3ea52aa935013bdaf864ac4d5afe01ed910c050146afa88aa39296cc",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000861-p001-45264d9494",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "图6-5 声音表（道藏本）",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000862-p000-bc834b8c2c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "在地音的16类情况中，第一种「水」（风水语境中的河流、水系及其来去形态）对应开口音，「火」对应发音，「土」对应收口音，「石」对应闭口音；第二种「水」与「土」对应清音，「火」与「石」对应浊音（图6-4）11）。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000863-p000-eb3776945b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "例如《观物篇》第三十五中的「日日声平闢」与「水水音開清」，分别指平声开口呼的韵母与开口音清音的声母，包含「多(a)、良(ang)、千(an)、刀(au)、妻(i)、宮",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文后续内容残缺，无法完整译出"
+        ]
+      },
+      {
+        "id": "book015-b000864-p000-238d77294c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "(ung)、心(im)、●、●、●」这10种声，以及「古(k)、黒(x)、安(0)、夫(f)、卜(p)、東(t)、乃(n)、走(ts)、思(s)、■、■、■」这12种音。各类声音按记载顺序称为「一声」「二声」或「一音」「二音」……天的全部声由10种声组成，地的全部音为12种音。符号●表示无声无字，■表示无音无字12）。之所以可以省略计数无声无字、无音无字的部分，称「日日声七」「水水音九」等，是因为除了与数值的整合性相关外，无声无字的48种声与无音无字的40种音并无特别意义。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在无法识别的符号●、■，已按原文保留并说明其含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1909,
+    "completion_tokens": 673,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1909,
+      "completion_tokens": 673,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

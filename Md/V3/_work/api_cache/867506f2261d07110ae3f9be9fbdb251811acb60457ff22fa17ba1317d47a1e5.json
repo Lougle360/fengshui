@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T19:14:53.914607+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "867506f2261d07110ae3f9be9fbdb251811acb60457ff22fa17ba1317d47a1e5",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000513-p000-20502a4dde",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000514-p000-114afaf2c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000515-p001-cc482ef003",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000517-p000-7502206cab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“饥龙穴砂齐美”被误拆为“饥龙的穴、砂”，含义偏差；原文末尾“水城详义”释为“水城的详细含义另有说明”属于无依据增译，原文无“另有说明”的表述；未对“反拘捲仪”作风险标注，属于未明确的术语直接使用"
+        ],
+        "uncertainty": [
+          "“反拘捲仪”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000518-p000-3de7aefff0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“士城”误译为“土城”；原文“四然其閒”被误断为“都属于四凶。但其中”，断句错误导致语义偏差，原文“四”后应为“凶”字漏刻或缺字，不应直接将“四”释为“四凶”；“央撤”“鲁曲掘身”“朝八”“岐急有聲”“六仲朝入”“斜冰”“尖振”“素山逃蔽”“反桃”“麗刼”等未识别为缺字/讹误内容，直接释读为确定语义，不符合要求；原文“皆凶不可數”被误译为“都是不可胜数的凶格”，断句错误，应为“皆凶，不可（不）数？断然不可用者”，语义偏差"
+        ],
+        "uncertainty": [
+          "“士城”“央撤”“鲁曲掘身”“朝八”“岐急有聲”“六仲朝入”“斜冰”“尖振”“素山逃蔽”“反桃”“麗刼”等表述存在讹误或缺字，具体含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000519-p000-431d73e355",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000521-p000-97d28c9093",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“有小數”被无依据释为“仅有数步之距”，属于增译，原文未提及距离单位"
+        ],
+        "uncertainty": [
+          "“有小數”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000522-p000-8ea8ca5804",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“早塘”未标注为可能的讹误，直接使用；“远身有情”未明确说明是水的形态，表述模糊，且未对该术语作风险标注"
+        ],
+        "uncertainty": [
+          "“早塘”疑为讹误，“远身有情”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000523-p000-055b8bcd91",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“遠菇直來”被无依据释为“远来直走”，“菇”为讹误字，不应直接推定含义；“鄉常聚深蓄”中“鄉”字未作讹误标注，直接忽略释读"
+        ],
+        "uncertainty": [
+          "“遠菇”“鄉”疑为讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000524-p000-25a2a7adda",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“拙六閒”被无依据释为“穴间”，属于语义错译；“尖砍”“迷身”未作风险标注，直接作为确定语义使用"
+        ],
+        "uncertainty": [
+          "“拙六閒”“尖砍”“迷身”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2317,
+    "completion_tokens": 1132,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2317,
+      "completion_tokens": 1132,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-18T11:25:40.231196+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1c42138ecd4aeb9224823f71121a09291b716044e9adc575440b51f9fd55e239",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006306-p000-3d29744e19",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“癸青”的具体含义",
+          "“则”字在此处的确切逻辑关系"
+        ]
+      },
+      {
+        "id": "book035-b006309-p000-52f418c995",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“癸”在此处的具体所指",
+          "各项之间的确切对应关系"
+        ]
+      },
+      {
+        "id": "book035-b006311-p000-897259ad49",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘离帮月鹿张四至六’中的‘离’解释为八卦之一，但原文‘离帮’可能是一个整体术语，或‘帮’为‘房’之误（星宿名），释读将其拆解并赋予‘离’确定含义，超出了允许范围。",
+          "candidate将‘四至六’解释为度数范围，但原文未明确其为度数，此解释属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "“帮”字的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b006312-p000-6c97630073",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘九八’解释为‘九八宫’，将‘六六’解释为‘六六之春’，并赋予其‘完美’等含义，这些解释在原文中无依据，属于无依据扩写。",
+          "candidate将‘比和龙’解释为‘比和之局，是龙所喜的格局’，其中‘比和’为未定义术语，此解释超出了allowed_glossary范围。",
+          "candidate将‘丙阳’解释为‘丙阳的旺气’，‘丙’可能指天干，但‘丙阳’组合的确定解释无依据。"
+        ],
+        "uncertainty": [
+          "“公”字的具体含义",
+          "“胎孚”的具体含义",
+          "“水旺子子”的确切断句与含义",
+          "“六六之春”的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b006315-p000-4585d780ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“丁”在此处的具体所指",
+          "各项之间的确切逻辑关系"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1618,
+    "completion_tokens": 493,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1618,
+      "completion_tokens": 493,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

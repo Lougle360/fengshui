@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T21:56:02.178488+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "03cecc646b74e384b5ae2c58bf1ab04ba41a8fded1870ee759b9271483404749",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000012-p000-78c37c54d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“祇此一個五行”对应前句是“不是俗傳之非首”，candidate将“非首”误为“非首体系”，且原文未出现“堪舆流派”的表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000013-p000-68b8a5f6c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“老子謂象妙之門者也”，candidate误译为“老子所说的‘象帝之先’之处”，属于内容错译；原文“知比”是“知此”的笔误，candidate译为“知晓这个道理”虽可，但“象妙之門”的错误必须修正"
+        ],
+        "uncertainty": [
+          "“文母卦”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book031-b000014-p000-762e52f5a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000015-p000-7242cf2254",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“隔四位族排”的“族排”candidate译为“依次排列”不准确；“三匝七四位”表述晦涩，candidate未做风险标注，直接译为“占据三匝七四位的说法”属于未明确含混内容"
+        ],
+        "uncertainty": [
+          "“三匝七四位”具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book031-b000016-p000-5214ada923",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“荀又有”的“荀”为衍文或误字，candidate直接删去未说明；原文“省中陽云九星乃斷向水應驗吉凶微渺之事學者既知八卦興衰則九星亦可畧其不肯輕洩也如此乎”断句有误，candidate翻译为“学者既然已经知晓八卦的兴衰，那么九星也可以大致了解，难道真的有不肯轻易泄露的道理吗”与原文“亦可畧其不肯輕洩”的含义不符，属于语义错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000017-p000-4028ba2fc5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“當霆諸大家”应为“遁甲诸大家”，candidate已修正，但“其訣至被其用至神至奇至驗至盛”翻译为“其运用极为神妙、极为奇异、极为灵验”不准确，原文“至被其用”语义未译出；“用以催福無奇驗”应为“无不奇验”，candidate译为“无不灵验”虽可，但漏译“奇”的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000018-p000-95462ecf01",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“戊辛木亭”具体所指原文未明，疑为衍文或抄录错误"
+        ]
+      },
+      {
+        "id": "book031-b000019-p000-fb0e61f273",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000020-p000-bd4439349e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000021-p000-5e088d675f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“第六至第九關為總將”candidate译为“第六至第九幅是总论”不准确，“總將”并非“总论”；“第三十三四四十四五圗”原文是第三十三、三十四、四十五？candidate译为“第三十三、四十四、四十五幅”数字对应错误；“生成度北之理”candidate误译为“生成度数的道理”，“度北”含义错译；“擇日用素”candidate译为“择日的内容”不准确，“素玩此”应为“平素把玩研读”，candidate断句错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3463,
+    "completion_tokens": 1284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3463,
+      "completion_tokens": 1284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

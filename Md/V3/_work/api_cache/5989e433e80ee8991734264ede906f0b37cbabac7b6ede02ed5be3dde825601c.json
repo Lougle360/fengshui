@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T16:43:09.671111+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5989e433e80ee8991734264ede906f0b37cbabac7b6ede02ed5be3dde825601c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000444-p000-935878ee9d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000445-p000-876f9a1b2a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘不习无不利’的释读错误改为‘即便不学习也没有什么不利的’，而非‘不学习未必不获利’，属于对原文内容的误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000446-p000-77732ffc44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000447-p000-758c5d02db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1301,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:37:14.118031+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7eb2a69dfdbf554dde7c86ea41dadc672248c3e20f441aed923bc6d5598f1067",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002903-p000-0cd12ac33a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002904-p000-967520690e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002905-p000-40c7067f9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“终无”与“译文”部分存在混杂，已按《象传》的原意整理为通顺的现代说明"
+        ]
+      },
+      {
+        "id": "book016-b002906-p000-c34e7fb9d3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“∑丽”为无法识别的字符，已按上下文语境忽略处理；“壮于倾”疑为“壮于烦”的讹误，仍保留原字未擅自改动"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2366,
+    "completion_tokens": 286,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2366,
+      "completion_tokens": 286,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

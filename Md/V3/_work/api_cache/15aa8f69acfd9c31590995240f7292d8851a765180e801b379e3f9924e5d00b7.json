@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T11:32:38.548077+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "15aa8f69acfd9c31590995240f7292d8851a765180e801b379e3f9924e5d00b7",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000116-p000-d8aac2c2c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000117-p000-88ed3329c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000118-p000-ef51c10b9d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000119-p000-8d9c7fc102",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文中“不癸能方”“碳生方损”“圭了”等表述语义不明，“申明谓”“少三钻死”等内容存在断句或文字识别误差，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文部分表述语义不明，存在断句或文字识别误差，已按保守方式处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1929,
+    "completion_tokens": 275,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1929,
+      "completion_tokens": 275,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-04T11:49:09.780519+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a9f7930b3fdfdd58f4e2d8f95c40b39631e05b8337cb4c7375466f97b69b4fe3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000807-p000-3af24de5f4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'伤其胸肋朝穴暮哭'，candidate译为'如果损伤了龙的胸肋部位，朝堂上的贵人会遭遇灾祸，傍晚时家中便会有人哭泣'，其中'朝穴'被拆解并增译为'朝堂上的贵人会遭遇灾祸'，属于无依据扩写，且改变了原文结构。'朝穴暮哭'应整体理解，可能指伤及胸肋会导致（对）穴（位）的损害，早晚出现哭泣的凶兆。",
+          "原文'班 又深曲此之爲濟豈有不結呼泄之'，candidate处理为'文中又提到...这一短语的具体所指不详'，符合规则，但'班'字可能为'斑'或'般'的讹误，可标注为'原文'班'字可能为讹字'。",
+          "原文'沉'，candidate处理为'原文未明其具体含义'，符合规则。"
+        ],
+        "uncertainty": [
+          "'班'字可能为讹字，具体所指不详。",
+          "'沉'字具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000814-p000-50ee5d5eda",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'乘金相水穴土印木'，candidate释读为'乘金、相水、穴土、印木'，正确。但后续解释'相水，是指取下面派水之处；穴土，是指取中间之处；印木，是指取茂盛之处'，属于对opaque_terms（相水、穴土、印木）的确定解释，超出了allowed_glossary的范围，应保留原文短语并说明其含义不详。",
+          "原文'乘金乃取上面員暈 分 處是也即 個字之義'，candidate处理为'具体所指不详'，符合规则。",
+          "原文'饑如 與木 會工 與 金會 必 剪弃其火 而 取 金 )'，candidate处理为'具体含义不详'，符合规则。",
+          "原文'金實必乘其 虚太 動 必 止 土厚 必 穴 其 硬 必 卻其 節 亦通'，candidate处理为'具体所指不详'，符合规则。"
+        ],
+        "uncertainty": [
+          "'相水'、'穴土'、'印木'的具体所指不详。",
+          "'乘金乃取上面員暈 分 處是也即 個字之義'的具体含义不详。",
+          "'饑如 與木 會工 與 金會 必 剪弃其火 而 取 金 )'的具体含义不详。",
+          "'金實必乘其 虚太 動 必 止 土厚 必 穴 其 硬 必 卻其 節 亦通'的具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1299,
+    "completion_tokens": 663,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1299,
+      "completion_tokens": 663,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

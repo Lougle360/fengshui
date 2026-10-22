@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-17T09:07:47.039647+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "92b0c3ce9b4333f621da181102049f57ccb881d07713e22ebfe95f81e1f6005c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003091-p000-eee7ed39d8",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "本表出自《地理天機會元》卷十六催官篇七，标题为“水向之圖”。图中展示了玄空五行中水法与向法的关系，涉及子、寅、巽、巳、辛、申、壬等方位。图中文字部分因 OCR 识别严重错乱，包含“生出克人”、“凶盤例”等残句，无法准确还原原意，仅能确认其讨论水法吉凶与生克关系。图注说明：白圈表示来去皆吉，黑圈表示来去皆凶，来去俱不宜者凶，空位者平和。下方另附“明堂折水之法”，指出从墓心量起，取吉方三折出明堂，即立向先明两节山向，山冲射杀相关，开三闭五之法，一步起建。文中提到阴冲阳驳中先败，阳射兼阴长不安，遇定成开吉，一步起天罡。维卦孟枝同长，断阳斡四仲作中看。胜光传送功曹神后吉。幼房兴败寻何处，尽在阴斡四季观。更以十字木星详历取，合八贵尤妙。如得甲庚丙壬为吉，自小入中而入大，或纯阳者收得山起，反此则祸。又云顶神三折出乾坤艮巽，谓之上御街水。具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "原表文字严重错乱，部分段落无法辨识，如'od x者关t7#和生出克人7生出氏希异辰乐 和和和'等，仅能根据上下文推测其讨论水法吉凶与生克关系。",
+          "图中部分术语如'胜光'、'传送'、'功曹'、'神后'等虽为神煞名，但原文未明示其具体含义，故保留原词。",
+          "部分句子如'维卦孟枝同长断阳斡四仲作中看'语义不明，无法准确翻译，仅保留原意推测。"
+        ]
+      },
+      {
+        "id": "book035-b003092-p000-5397901eba",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 地理天機會元卷十七理氣葬法",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003096-p000-9645f73a59",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "重刻官版《地理天機會元》正篇体用括要卷之十七，题为“理氣葬法”。其中提到，关于“骑龙”之说，唯有在峦头中取论者较为符合，其余多与巽卦相关。作者自谦僭越，代为补充说明。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文“疵 唯有騎龍 之 說與巒頭 中取論者頗巽予僭爲之”断句与语义存在歧义，此处根据上下文推测为作者对“骑龙”说的补充说明，并自谦僭越。"
+        ]
+      },
+      {
+        "id": "book035-b003097-p000-c605ff6f4f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "补充解释部分，有待高明者详细考证。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003098-p000-0dbf663903",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "关于凹穴的论述，民间俗称为“攀鞍穴”。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2498,
+    "completion_tokens": 1084,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2498,
+      "completion_tokens": 1084,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

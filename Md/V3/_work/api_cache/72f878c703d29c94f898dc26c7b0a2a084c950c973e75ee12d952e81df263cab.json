@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T10:12:46.249039+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "72f878c703d29c94f898dc26c7b0a2a084c950c973e75ee12d952e81df263cab",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000604-p000-ab15ada441",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的“4”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000607-p000-404a2afa56",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文内容残缺，无法形成有效释读"
+        ]
+      },
+      {
+        "id": "book010-b000608-p000-e200b10338",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中的“00”具体所指不详",
+          "“向横師四封”的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 186,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1136,
+      "completion_tokens": 186,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

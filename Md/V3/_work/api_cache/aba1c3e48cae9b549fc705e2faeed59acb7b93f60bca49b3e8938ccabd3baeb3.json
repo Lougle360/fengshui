@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:58:39.807286+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "aba1c3e48cae9b549fc705e2faeed59acb7b93f60bca49b3e8938ccabd3baeb3",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000452-p000-9d0e31ca24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“嶙祖”“大明堂”“毬上”“虾须眼”等术语未明确具体所指，释读未作臆断，符合要求"
+        ]
+      },
+      {
+        "id": "book010-b000453-p000-2979bc2444",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000454-p000-69cb349fcd",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在残缺，部分语句无法辨识，释读内容与原文后半段语义衔接不畅，无法形成完整通顺的表述"
+        ],
+        "uncertainty": [
+          "原文后半段“山上止山 成形水中此”存在残缺，无法准确释读"
+        ]
+      },
+      {
+        "id": "book010-b000455-p000-d5a8b71d31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“稷心”“但處東之”等表述存在语义模糊，释读时结合上下文作了合理释义，未作无依据臆断"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1980,
+    "completion_tokens": 313,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1980,
+      "completion_tokens": 313,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-25T15:13:18.685314+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "09bcf78dc9cfc7d82f0bf79b820395a287fd17539acbec2ffa3e5d680a808771",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000499-p000-efda6f785c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "中间大段文字为OCR乱序内容，无法准确释读，具体含义不详"
+        ]
+      },
+      {
+        "id": "book026-b000503-p000-e37bf361c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000506-p000-24eb42bcdd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“皆來知吉也”释读错误，原文意思是“都谈不上懂得吉凶”，不是“都是尚且不懂如何判断吉地的表现”；原文“作當辰法須求年月日之良”是说建造或安葬等事宜应当遵循辰法，要选年月日的良辰，而非“‘作当辰法’需要选求年月日的吉日良辰”"
+        ],
+        "uncertainty": [
+          "“作当辰法”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000507-p000-77d38ee0ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“針有正縫子午正每也壬子丙午縫針也”释读错误，正针是子午正向，缝针是壬子、丙午缝向，候选将二者混淆；原文“自午至士”是“自午至壬”的OCR讹误，候选虽正确释为“自午至壬”但未说明讹误风险"
+        ],
+        "uncertainty": [
+          "“手午对指南舒也”语义不明，无法释读；正文后段为OCR乱序内容，多数语句无法准确释读，具体含义不详"
+        ]
+      },
+      {
+        "id": "book026-b000508-p000-4aeff2acf9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“年月有一端”后存在断句混乱，内容无法完整释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2644,
+    "completion_tokens": 529,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2644,
+      "completion_tokens": 529,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

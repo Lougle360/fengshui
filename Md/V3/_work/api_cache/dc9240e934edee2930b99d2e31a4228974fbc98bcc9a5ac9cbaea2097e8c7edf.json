@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-10-04T08:14:53.068337+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dc9240e934edee2930b99d2e31a4228974fbc98bcc9a5ac9cbaea2097e8c7edf",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000923-p000-5f03084b63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "人穴中",
+          "下除",
+          "十六法总三穴也"
+        ]
+      },
+      {
+        "id": "book028-b000928-p000-e910badd13",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘多棺见水即止’释为‘多棺见水即止’，但原文‘多棺’含义不明，candidate未标注不确定性。",
+          "candidate将‘合而’释为‘综合而言’，但原文‘合而’可能为连接词或术语，candidate未标注不确定性。",
+          "candidate将‘扑砂经 卷三 砂 卷三下’释为‘文中出现“扑砂经卷三砂卷三”，疑似重复或错误’，但原文为‘扑砂经 卷三 砂 卷三下’，candidate未准确转录原文结构，且‘下’字可能为页码或章节标记，释读不完整。",
+          "candidate将‘凭高虽低春亦人穴也’释为‘凭高虽低，“春”具体所指不详，亦为人穴’，但原文‘春’可能为‘处’或‘时’之误，candidate未考虑OCR错误可能性，直接标注为术语不确定性。",
+          "candidate将‘继尾虽高出亦地穴也’释为‘继尾虽高出，亦为地穴’，但‘继尾’含义不明，candidate未标注不确定性。",
+          "candidate将‘法多用者’释为‘法多用者’，但原文‘法多用者’可能为‘法多用吊’或‘法多用粘’之误，candidate未标注不确定性。",
+          "candidate将‘学下’释为‘“学下”具体所指不详’，但原文‘学下’可能为‘学至此’或‘学之下’之误，candidate未标注不确定性。",
+          "candidate将‘防至此则成君子其尽也’释为‘“防至此则成君子其尽也”语义不明’，但原文可能为‘防其至而尽其用’或类似含义，candidate未尝试保守释读或标注为可能讹误。",
+          "candidate将‘非啻起顶垂珠倒气悬乳悬胆尽属失也’释为‘非啻起顶垂珠、倒气悬乳、悬胆，尽属失也’，但原文‘非啻’意为‘不只是’，candidate释读可能遗漏了转折或比较关系，导致语义不完整。"
+        ]
+      },
+      {
+        "id": "book028-b000930-p000-f796a79f70",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘主之立成立贴从正变’释为‘但“立成立贴”具体所指不详’，但原文可能为‘主之立、成立、贴、从、正、变’是一系列术语或状态，candidate未尝试分解或标注为可能并列结构。",
+          "candidate将‘要关镬度’释为‘要“关镬度”具体所指不详’，但‘关镬度’可能为‘关锁度’或‘关键度’之误，candidate未标注可能为OCR错误。",
+          "candidate将‘粘火与接不同’释为‘“粘火”具体所指不详’，但原文‘粘火’可能为‘粘穴’或‘粘法’之误，candidate未标注可能为讹误。",
+          "candidate将‘弗之穴体必垂’释为‘“弗”字语义不明’，但‘弗’可能为‘吊’或‘拂’之误，candidate未标注可能为讹误。",
+          "candidate将‘接之扒砂经 卷三穴情必缩’释为‘接之“扒砂经卷三穴情必缩”疑似排版错误’，但原文可能为‘接之《扒砂经》卷三：穴情必缩’，candidate未准确处理书名和引文结构。",
+          "candidate将‘接穴与坠不同陛下也’释为‘“陛下”具体所指不详’，但‘陛下’可能为‘卑下’之误，candidate未标注可能为讹误。",
+          "candidate将‘没骨有就肉之形’释为‘“没骨”具体所指不详’，但‘没骨’可能为‘没骨肉’或指一种地形，candidate未标注可能为术语。",
+          "candidate将‘饱面以见窝为火’释为‘“饱面”具体所指不详’，但‘饱面’可能为‘饱面处’或指凸起的面，candidate未标注可能为术语。",
+          "candidate将‘平中以见史为’释为‘平中以“见史”具体所指不详’，但‘见史’可能为‘见突’或‘见使’之误，candidate未标注可能为讹误。",
+          "candidate将‘阳脉若鹉膝曲折活动’释为‘阳脉若“鹉”具体所指不详’，但‘鹉’可能为‘鹤’或‘鹘’之误，candidate未标注可能为讹误。",
+          "candidate将‘不动扒砂经 卷三 八五不变’释为‘不动“扒砂经卷三八五不变”具体所指不详’，但原文可能为‘不动。《扒砂经》卷三：八五不变’，candidate未准确处理句读和书名结构。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4054,
+    "completion_tokens": 1192,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4054,
+      "completion_tokens": 1192,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

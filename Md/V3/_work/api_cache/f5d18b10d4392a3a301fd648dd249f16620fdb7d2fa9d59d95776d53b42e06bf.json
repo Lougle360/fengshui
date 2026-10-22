@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:39:55.651505+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f5d18b10d4392a3a301fd648dd249f16620fdb7d2fa9d59d95776d53b42e06bf",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000840-p000-a17ee1a304",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文多处残缺，语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000841-p000-eee82388bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文多处残缺，语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000842-p000-81a7e38a65",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未对术语「穴」进行符合 allowed_glossary 的释读，且未完整保留原文中关于「双贵」「三台」等风水相关内容的有效信息，仅笼统表述为残缺语义不明"
+        ],
+        "uncertainty": [
+          "原文存在部分残缺，部分内容语义不明"
+        ]
+      },
+      {
+        "id": "book014-b000845-p000-87a76fb55c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未对术语「向」进行符合 allowed_glossary 的释读，且未完整保留原文中关于「贵人」「文笔峰」等风水相关内容的有效信息，仅笼统表述为残缺语义不明"
+        ],
+        "uncertainty": [
+          "原文存在部分残缺，部分内容语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 361,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1363,
+      "completion_tokens": 361,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

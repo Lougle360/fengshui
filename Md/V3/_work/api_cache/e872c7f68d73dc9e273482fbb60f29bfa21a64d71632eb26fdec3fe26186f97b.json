@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T13:28:04.294122+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e872c7f68d73dc9e273482fbb60f29bfa21a64d71632eb26fdec3fe26186f97b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000132-p001-285eca6fcc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000133-p000-527e68be42",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未按allowed_glossary将‘向’‘震’译为对应术语，存在专业术语误换问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000134-p000-167f5fc190",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000135-p000-0e6ff283c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1939,
+    "completion_tokens": 219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1939,
+      "completion_tokens": 219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

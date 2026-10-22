@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-10-04T08:09:06.105669+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7c3533ef93a344e96e246c293f8a299ec8f84c72c0b4ee07f3d2a252ec6f49e8",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000913-p000-d92a39d8f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为并列或列举的短语，candidate将其强行串联成一个因果/承接关系的句子，属于无依据扩写。例如“财天体贴心财天水金”是对“财天体贴财天水金”的误读和增译，“生出金气”是对“出金”的增译，“正值微旺”是对“正微”的增译，“滋润财气”是对“沃財”的增译。“有乘抱穴、有夹护之势”是对“有乘 抱穴 有夾”的合理释读，但整体释读方式不符合V3目标。应改为更忠实于原文并列结构的白话。"
+        ],
+        "uncertainty": [
+          "原文词句排列紧凑，部分短语（如“财天水金”）的具体指代关系在缺乏上下文时难以完全确定。"
+        ]
+      },
+      {
+        "id": "book028-b000914-p000-d7ba10d25b",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "candidate未进行释读，仅将原文（包含大量错乱字符）用引号括起并说明难以释读。这不符合V3“普通读者能读懂的白话释读”的目标。对于此类严重损坏的文本，应给出基于可识别部分的保守释读，或明确指出哪些部分可释读。目前处理方式过于简单，未履行审校员职责。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱与脱漏，难以逐句通顺释读。"
+        ]
+      },
+      {
+        "id": "book028-b000915-p000-c3ad0d78d4",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "candidate未进行释读，仅将原文（包含大量错乱字符）用引号括起并说明难以释读。这不符合V3“普通读者能读懂的白话释读”的目标。对于此类严重损坏的文本，应给出基于可识别部分的保守释读，或明确指出哪些部分可释读。目前处理方式过于简单，未履行审校员职责。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱与脱漏，难以逐句通顺释读。"
+        ]
+      },
+      {
+        "id": "book028-b000918-p000-cd71ce0697",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "candidate未进行释读，仅将原文（包含大量错乱字符）用引号括起并说明难以释读。这不符合V3“普通读者能读懂的白话释读”的目标。对于此类严重损坏的文本，应给出基于可识别部分的保守释读，或明确指出哪些部分可释读。目前处理方式过于简单，未履行审校员职责。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱与脱漏，难以逐句通顺释读。"
+        ]
+      },
+      {
+        "id": "book028-b000919-p000-d8e2dbe48f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000920-p000-64b74f8565",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "candidate未进行释读，仅将原文（包含大量错乱字符）用引号括起并说明难以释读。这不符合V3“普通读者能读懂的白话释读”的目标。对于此类严重损坏的文本，应给出基于可识别部分的保守释读，或明确指出哪些部分可释读。目前处理方式过于简单，未履行审校员职责。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱与脱漏，难以逐句通顺释读。"
+        ]
+      },
+      {
+        "id": "book028-b000921-p000-7a1edd80cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“站弦撞接”等术语较为生僻，可能为特定口诀或 OCR 误识，此处按字面结合上下文“缓来急受”的逻辑进行通顺释读，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5722,
+    "completion_tokens": 881,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5722,
+      "completion_tokens": 881,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-24T08:31:11.848852+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7e8388d89aea427c41d3f4ea7aba40d357e271b1bd94f522e40051ee9af22407",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000206-p000-2815c31408",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中大量内容，仅选取部分语句释读，未完整对应原文信息；将原文中未明确的‘河而上’释为‘水流一定是河而上’，属于无依据的确定表述，原文未说明水流方向的具体情况；‘圗最易錯’未明确释读，属于未完成的释读；‘愛背之蜿與喜白虎之伏’未结合术语规范释读，‘白虎’应按allowed_glossary释为‘穴场或建筑右侧的形势称谓’；‘倉庫盈而財’未结合术语规范释读，‘倉庫’属于风水语境中的专名，未按要求处理"
+        ],
+        "uncertainty": [
+          "也若無情顧穴的具体所指",
+          "河而上的具体含义",
+          "圗最易錯的具体所指",
+          "愛背之蜿與喜白虎之伏的具体所指",
+          "倉庫盈而財的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2249,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2249,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

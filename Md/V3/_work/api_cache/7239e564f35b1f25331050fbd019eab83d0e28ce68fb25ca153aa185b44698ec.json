@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-18T11:21:05.194483+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7239e564f35b1f25331050fbd019eab83d0e28ce68fb25ca153aa185b44698ec",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006284-p000-605ea5517c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006285-p000-1783c30a8b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'都權午武權卯'是并列结构，candidate译为'都权午，武权卯'，但'都权'、'武权'含义不明，应作为opaque_terms处理，不应直接当作确定术语使用。",
+          "原文'乙丑丙子合巳亥吉'，candidate译为'乙丑、丙子合巳亥吉'，将'乙丑丙子'拆分为两个干支，但原文可能指'乙丑'与'丙子'两个干支与'巳亥'相合为吉，也可能有别的断句方式。candidate的译法是一种推测，但未标注不确定性。",
+          "原文'厲仙曰與丁亥土山一同論穴宜坐壬子向丙午是光華星出九府八位之職非不般薄尉之職也'，candidate译为'厉仙说：与丁亥土山一同论穴，宜坐壬子向丙午，是光华星出九府八位之职，并非般薄尉之职也。'。其中'非不般薄尉之職'，candidate译为'并非般薄尉之职'，将'不般'理解为'并非'，但'般薄尉'含义不明，应作为opaque_terms处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006286-p000-86c34a40a9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'玄女早若山無氣名絕龍故不可取'，candidate译为'玄女说：早若山无气，名为绝龙，故不可取。'。其中'早若山'含义不明，应作为opaque_terms处理，candidate直接当作山名使用，未标注不确定性。",
+          "原文'天星破軍星金鏡名凶昌格'，candidate译为'天星破军星金镜名凶昌格。'。'凶昌格'含义不明，应作为opaque_terms处理。",
+          "原文'厲仙曰莫道陽山無貴穴時師會乃出官賢'，candidate译为'厉仙说：莫道阳山无贵穴，时师会乃出官贤。'。'时师会'含义不明，可能指'时师'（当代的风水师）'会'（懂得），也可能有别的解释。candidate未标注不确定性。",
+          "原文'富跚'在candidate中两次出现，均未加引号或说明，应作为opaque_terms处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006287-p000-c771381f6e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006288-p000-17daad855f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006289-p000-f10194d2ed",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'广 壽世保元'，candidate译为'广寿世保元'，将'广'与'壽世保元'连读。但'广'可能为'廣'的简体，是书名的一部分（如《广寿世保元》），也可能表示'广泛'或为衍文。candidate的处理是一种推测，未标注不确定性。",
+          "原文'告仿宋湯頭歌訣'，candidate译为'告仿宋汤头歌诀'，并标注'告仿宋'疑似为'仿宋'之误。但'告仿宋'含义不明，应作为opaque_terms处理，candidate直接保留原词并给出推测性解释，不符合'不得认定为某流派、人物、神名、数理含义或现代概念'的规则。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006290-p000-26f2d81dbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006291-p000-d67a55c624",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006292-p000-7261a60e8c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006294-p000-f978fd5ffb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2180,
+    "completion_tokens": 1050,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2180,
+      "completion_tokens": 1050,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

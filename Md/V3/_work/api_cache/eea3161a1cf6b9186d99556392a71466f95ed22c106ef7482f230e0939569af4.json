@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-24T22:43:28.718834+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "eea3161a1cf6b9186d99556392a71466f95ed22c106ef7482f230e0939569af4",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000793-p000-c0637256fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句中“蹤 L”“仍從之利”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000794-p000-0a6d3c9899",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原句开头“生此四句”释读为“这四句的生成”错误，原文“生”应为“右”（古籍常见“右”指前述内容，即“以上这四句”），属于误认字形导致的释读偏差"
+        ],
+        "uncertainty": [
+          "原句中“朝義一”“細法”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000795-p000-33d5732c10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句中“ねゆ”“お宅”“州雜”“院指”“天向謂尔位”“以实为公天玉之家”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000796-p000-41fb269bb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将“財探”释读为“财禄”属于无依据臆测，原文OCR错乱内容不可随意替换为确定含义，应保留标注风险"
+        ],
+        "uncertainty": [
+          "原句中“謂っ”“る辛”“財探”“真读”“天王經”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000797-p000-f4f0914c7e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原句“切說人丁”释读为“不可只说人丁”错误，原文“切”应为“切忌”义，正确释读为“切忌只论人丁”，现有释读语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000799-p000-8c0ceef317",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“吉白而得排龍配合”漏译了“吉白”部分，属于漏译；将“切說富貴”释读为“不可只说富贵”错误，应为“切忌只论富贵”，语义偏差"
+        ],
+        "uncertainty": [
+          "原句中“全龍”“貧全龍”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000800-p000-e4920ae85d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原句开头“今人相会”释读错误，此处“会”应为“营造住宅/寻地选址”类含义，“今人相会”不符合风水语境，属于无依据释读；将“稿为配公”释读为“称得上相配”属于臆测，OCR错乱内容不可随意确定含义"
+        ],
+        "uncertainty": [
+          "原句中“ね人”“稿为配公”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000801-p000-18ed0075ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句中“每州”“佈置”“反羅丁字”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000803-p000-808c5e3086",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“無官只”属于OCR错乱，直接保留未标注语义不明，应明确说明该部分识别错乱无法释读"
+        ],
+        "uncertainty": [
+          "原句中“算位”“業入長安”“父母不主未分归”“無官只”存在OCR识别错乱，无法完全确认原义"
+        ]
+      },
+      {
+        "id": "book017-b000804-p000-c1f50ffda2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句中“三般沈知”存在OCR识别错乱，无法完全确认原义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2679,
+    "completion_tokens": 1053,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2679,
+      "completion_tokens": 1053,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

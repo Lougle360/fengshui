@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T09:06:36.100738+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "25a7b34f3ef43fb4fdc18be0c54d73ad57d211b29e59e58bec28f435fb158169",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000149-p000-10ac3a63bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“弹龙而者”“下出身鹏以禁来水”“其势后俊低如风南至高”语义混乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000150-p000-f5f08abdd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“退是渐萧条”“勉退多最上能”“作凶滩者郵主穴出”“冬一高自”“传发龙以舍便低来”“能其小势穴退”“大编后如先人失踏”“序难上如退下孤失老伦”“贫比穷格”断句混乱、字词无法辨识，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 222,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1246,
+      "completion_tokens": 222,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

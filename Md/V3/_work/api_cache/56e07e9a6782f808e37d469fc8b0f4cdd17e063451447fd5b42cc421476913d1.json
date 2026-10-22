@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-25T17:35:14.272559+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "56e07e9a6782f808e37d469fc8b0f4cdd17e063451447fd5b42cc421476913d1",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000065-p000-3ff4a5234b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“生於唐元和壬”原文仅存“壬”字，具体是元和年间哪一壬年未明确",
+          "“上親書南谷二字場之”中“場”字疑为讹字，暂按赐字文意处理"
+        ]
+      },
+      {
+        "id": "book030-b000069-p000-d856ac6e48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000072-p000-4898bcf94d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文记载为“閩汀龍子關鄒氏神地”，候选将“龍子關”误改为“龍子围”，属于专有地名错改"
+        ],
+        "uncertainty": [
+          "“五中三页”“五十玉页”疑为OCR识别错误，暂保留原文表述",
+          "“地理拔人毒龙峦头歌括”“西等龙歌”名称疑存在讹误，暂保留原文表述"
+        ]
+      },
+      {
+        "id": "book030-b000075-p000-058ccf9226",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“画河”疑为“淮河”的讹字，暂保留原文表述",
+          "“石羔”“关颜”具体所指不详",
+          "“比從爾北蘄向南行”“佛處”疑为OCR讹字，分别暂按“从北蕲向南行”“僻处”文意处理"
+        ]
+      },
+      {
+        "id": "book030-b000076-p000-4ae09ff43a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“太行十餘聖長山”中“聖”疑为“里”的讹字，“余遊尔師”中“尔師”、“雄時一方”中“時”、“背一敗”中“背”、“爱回”中“回”均疑为讹字，暂按文意调整",
+          "“蓝不國頭”“通永”具体所指不详",
+          "原文“層鬱登峙同南直奔蓝不國頭彎抱下手通永皆未原噴野無紫山峻嶺插出水口以作下開”部分文字讹脱严重，断句及释义为暂定"
+        ]
+      },
+      {
+        "id": "book030-b000077-p000-4165614788",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“唐孔滬”“星”“帝半折來”“濬中”“土豕下合”“廬花”“金竄”“蔭膠金魚水”“醫逃明難夏”“曾遂人”“風翼遊麟”“交橫”“正札”“風傳者風林宿鳥鳥有率翼遊魚者意水建魚豈官”等多处文字疑为OCR讹脱，部分内容含义无法确定，释义为暂定",
+          "“地裡救人武一尋麗”疑为“《地理救人》卷一《尋隴》”的讹误，暂按此处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5292,
+    "completion_tokens": 851,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5292,
+      "completion_tokens": 851,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

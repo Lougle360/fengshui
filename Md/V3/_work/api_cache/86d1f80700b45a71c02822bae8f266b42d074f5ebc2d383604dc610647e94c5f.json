@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-17T10:34:20.497711+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "86d1f80700b45a71c02822bae8f266b42d074f5ebc2d383604dc610647e94c5f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003330-p000-454b92a736",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'三陽艮巽兑納干丙丁辛也'是对'三陽納干'的补充说明，candidate将其处理为'即使涉及巽、艮、兑三阳纳干'，将解释性文字融入主句，改变了原文的句法结构，并可能模糊了原文的注释性质。",
+          "原文'又言不可斬者是勢局當向前過后則砂水局情俱貴也'是对'不可斬'情况的解释，candidate译为'所谓不可斩断的情况，是指形势格局应当向前延伸，越过后方，此时砂水局的情势都极为尊贵。'，其中'向前延伸，越过后方'的表述不够清晰，未能准确传达'当向前过后'（应当向前方，越过[伪龙]而取后方[真龙]）的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003331-p000-adb6cf6f8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003332-p000-e710256c19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'坐知穴穴居左加乾半分'，candidate译为'坐穴位于左侧，加乾卦半分'，漏译了'知穴'。'知穴'可能是一个特定术语或描述，不应省略。",
+          "原文'經曰穴內者若對四垣星艮巽兑辛擎天作柱扶紅日五行居位數合圖盡 爲上地也'，candidate译为'穴位内部若对应四垣星，以艮、巽、兑、辛四者擎天作柱，扶持红日，五行居位数字符合图式，全为上等地。'。原文'艮巽兑辛'是四个并列项，candidate处理为'艮、巽、兑、辛四者'，正确。但'數合圖盡'译为'数字符合图式'，'尽'字未译出，且'图'的含义（可能指某种图式或格局）不够明确。",
+          "原文'布告'在风水语境中含义不明，candidate按字面直译并保留原词，符合规则，但应在uncertainty中标注。"
+        ]
+      },
+      {
+        "id": "book035-b003333-p000-8a7c6ba4c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003334-p000-3abefc4d02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003335-p000-1c0a1d801a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'向天井天醫'，candidate译为'向天井天医'，保留了原词，但'天井'在风水中有特定含义（如明堂），此处直接保留而未加说明，可能造成普通读者理解困难。根据规则，opaque_terms为空，但'天井'并非locked_terms，也未在allowed_glossary中，candidate直接使用而未加引号或说明，处理方式不一致。建议统一为保留原词并加引号，或在uncertainty中说明。",
+          "原文'葬非其乘則凶中氣入穴也'，candidate断句为'葬非其乘则凶，中气入穴也'，并将'中气入穴'与后文'分金收庚申气'连接。但原文'中氣入穴也'可能是对'凶'的进一步说明（即凶的原因是'中气入穴'），candidate的处理改变了原文的语义关联。"
+        ]
+      },
+      {
+        "id": "book035-b003337-p000-b6ebd01fd1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'坐人卦廉遇向地卦天醫'，candidate译为'坐人卦为廉贞，向地卦为天医'。'廉遇'可能是'廉贞'之误，但依据规则，candidate不应擅自改字或确定化。此处直接译为'廉贞'，属于将不确定解释写成了确定事实。应保留'廉遇'原词并加引号，或在uncertainty中说明。"
+        ]
+      },
+      {
+        "id": "book035-b003338-p000-d78e7f9471",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'良山庚向'，candidate译为'良山庚向'，保留了'良山'。但根据uncertainty中的说明，'良山'可能为'艮山'之误。candidate在译文中直接使用'良山'，未加引号或说明，处理方式不够清晰。应统一为保留原词并加引号，或在译文中直接标注可能为误字。",
+          "原文'自滿池貫棺右耳行注'，candidate译为'自满池贯棺右耳行注'，保留了'满池'。但根据uncertainty中的说明，'满池'可能为'潢池'之误。candidate在译文中直接使用'满池'，未加引号或说明，处理方式不够清晰。应统一为保留原词并加引号，或在译文中直接标注可能为误字。"
+        ]
+      },
+      {
+        "id": "book035-b003339-p000-8803f04300",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 1230,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3636,
+      "completion_tokens": 1230,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

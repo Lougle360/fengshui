@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-10-04T00:08:02.565061+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8f85846f50c9b0bc4dc6c91e78057dd5208f8898651010ce6e58334152317a9d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000142-p000-b58d051f23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘方之方主 若 方受 作 師斜主出軍伍一主髓經雲’存在错乱，candidate将‘方受作師斜主’和‘一主’作为独立短语处理，但原文‘方受 作 師斜主出軍伍一主’可能是一个破碎的句子，candidate的断句和解释可能不准确。",
+          "原文‘拖一舉便成名頭斜身則爲軍伍’中，‘拖一舉便成名頭’与‘斜身’可能有关联，candidate将其完全割裂为两个不明短语，处理过于保守，未能尝试根据上下文（‘斜身則爲軍伍’）进行连贯的推测性释读。",
+          "对‘火神行秀而 之情龍與砂見之多主顯貴’的释读‘火神行秀，龙与砂相见，多主显贵’存在增译，原文‘而 之情’未译出，且‘火神行秀’的释读可能不准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000143-p000-040b81539d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文包含日文‘氏を為主’及严重错乱，无法通读，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b000147-p000-563e5335cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘手龍中頭木克 乎是水有級之又適金制’等语句存在严重错乱，无法通顺释读，具体含义不详。",
+          "‘水星西北之方生復生屈隔蛇’含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b000149-p000-3aeed06391",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错乱与重复，如‘什民任有有經有角’等，导致整段文字难以通顺释读，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b000152-p000-9e0ec8037d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对‘妙驢離狺纵怦群紋毗鄙鱗覿般敬輓慎結取譙似初晴三公鬼貞’的处理过于简单，仅标注为‘存在大量生僻字与错乱’，但原文在‘水星多出平地妙處難言’后紧接着出现这段乱码，可能与‘妙處難言’的描述有关，candidate未尝试任何关联性说明或更细致的风险标注。",
+          "释读‘才性曲重名山’时，未标注其含义可能不明。",
+          "释读‘夏火有三 官’为‘夏火有三官’，未标注‘三官’可能为专名或含义不明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1874,
+    "completion_tokens": 779,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1874,
+      "completion_tokens": 779,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

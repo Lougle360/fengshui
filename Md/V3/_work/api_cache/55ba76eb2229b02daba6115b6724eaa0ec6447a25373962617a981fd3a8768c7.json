@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-04T03:52:35.137660+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "55ba76eb2229b02daba6115b6724eaa0ec6447a25373962617a981fd3a8768c7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000432-p000-92ed858cf7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000433-p000-885209b08a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺，语意不明"
+        ]
+      },
+      {
+        "id": "book035-b000434-p000-56712d73ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘袋主出風豁卿相之貴’句意不明，candidate将其解释为‘鱼袋主掌出风豁，象征卿相的尊贵’，属于无依据的扩写和确定化解释。应保留原文的模糊性，例如译为‘鱼袋主出风豁，象征卿相之贵’或标注其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000435-p000-9cc78aec4b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000436-p000-57ec965e32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000437-p000-d7310de77d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000438-p000-ae99d65bce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘枪嘉蓝兵甲’解释为‘星体形态巍峨高耸’并关联‘主家将生出神武之人’，属于无依据的扩写和确定化解释。原文‘枪嘉蓝兵甲巍巍而公生以神武保障六州’结构模糊，candidate的释读超出了保守范围。应更贴近原文的模糊性进行翻译，例如‘枪、嘉、蓝、兵、甲等巍巍高耸，主家生出神武之人，以此保障六州’。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1467,
+    "completion_tokens": 452,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1467,
+      "completion_tokens": 452,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

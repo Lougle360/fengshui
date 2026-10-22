@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-24T14:46:23.774015+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "419dba1246ece53e66cbc8b58fcd99b2858e4b84a1b15484a95fdd9b81d72ece",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000861-p001-45264d9494",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000862-p000-bc834b8c2c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将风水术语「水」的含义限定为「风水语境中的河流、水系及其来去形态」，但原文未明确该术语的风水属性，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000863-p000-eb3776945b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将风水术语「水」的含义限定为「风水语境中的河流、水系及其来去形态」，但原文未明确该术语的风水属性，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文后续内容残缺，无法完整译出"
+        ]
+      },
+      {
+        "id": "book015-b000864-p000-238d77294c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将风水术语「水」的含义限定为「风水语境中的河流、水系及其来去形态」，但原文未明确该术语的风水属性，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中存在无法识别的符号●、■，已按原文保留并说明其含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1810,
+    "completion_tokens": 368,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1810,
+      "completion_tokens": 368,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

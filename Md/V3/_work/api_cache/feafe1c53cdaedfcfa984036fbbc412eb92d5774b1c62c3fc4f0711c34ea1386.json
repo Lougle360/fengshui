@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T07:42:15.331000+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "feafe1c53cdaedfcfa984036fbbc412eb92d5774b1c62c3fc4f0711c34ea1386",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002340-p000-8639522899",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002341-p000-c8a65b62ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘大凡好地作丑穴’释读为‘好的风水宝地会呈现出丑陋的穴’不符合语境，应为‘上好的风水宝地往往结作形态粗丑的穴’；‘若教大地穴分明’误译为‘能让大地与穴的真相清晰显现’，原文是‘如果把好地的穴情讲得明明白白’，错误拆分了‘大地穴’的语义，应为‘好地的穴’而非‘大地与穴’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002342-p000-948d622574",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002343-p000-3414b30bed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘董家买成几年不敢葬’被误写为‘董家买下来好几年都敢下葬’，漏译‘不’字，语义完全相反；原文‘税钱也及千贯锭’释读为‘缴纳的税钱能达到千贯的规模’不准确，是指家产税额度达到千贯级，并非实际缴纳的税额；原文‘发迹政功总不闻’释读为‘发迹、立下政绩的事’不准确，‘政功’应为‘仕宦功绩’，释读无错但不够精准；原文‘代代税赋无休息’释读为‘每一代都按规矩缴纳赋税不曾中断’不准确，是指家族世代保有产业持续纳税，强调家族兴旺而非主动守规矩纳税"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002344-p000-7915b03fdd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘葬者败南安抵地末言积德’存在OCR断句错漏，candidate保守释读逻辑不通，‘南安抵地’属于原文讹误，不应强行解释为‘南安抵地最后说到’，应明确标注‘此处原文存在文字讹误或断句错乱，语义无法完全确定，仅按上下文推测为：葬于假穴者必然家道败落，本段最后提到积德自会遇明师，是推崇根本的至理’；原文缺字、讹误未明确标注，错误将不可解内容强行译出"
+        ],
+        "uncertainty": [
+          "原文‘朝 对’之间有缺字，‘葬者败南安抵地’存在严重文字错乱，无法准确释读，仅作保守推测"
+        ]
+      },
+      {
+        "id": "book019-b002345-p000-64e993f04c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002346-p000-4642f6bed9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002347-p000-4959c57622",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002349-p000-8ffa0d4435",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘石巧穴’后重复注释‘风水中认为气脉聚结、适宜安葬或营建的位置’冗余，前文已注释过‘穴’的含义，此处无需重复注释；原文‘富贵未艾’释读为‘富贵还没有停止’过于口语化，可调整为‘富贵运势仍在延续’，但不影响语义；‘仙师黄妙应下’释读为‘是仙师黄妙应选址的’准确，无问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002351-p000-d3e4befadb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题为‘永康王都谏祖地图——泥水怪穴’，candidate擅自增译‘水’的注释，原文‘泥水怪穴’是固定术语，‘泥水’指穴的所处环境多泥多水，无需单独对‘水’作注释，且标题不需要插入术语注释，违反释读规则，额外增加了原文没有的注释内容"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3273,
+    "completion_tokens": 1090,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3273,
+      "completion_tokens": 1090,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-23T15:43:31.758741+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "97cfa0bfdc43cbf44d0c5aca02ad70198686e9e2355665738cd9245d1c2a1b5b",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000979-p000-9b9157544a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文在‘须是’处截断，后续内容缺失"
+        ]
+      },
+      {
+        "id": "book001-b000980-p000-b65168160e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘官鬼朝乐，穴之四灵’一句释读不准确。‘官鬼朝乐’是风水术语，指特定的砂水形态，candidate将其直接等同于‘穴的四灵’，属于专业术语误换。‘四灵’通常指青龙、白虎、朱雀、玄武，与‘官鬼朝乐’是不同概念。",
+          "‘与时消息’释为‘随着时势消长’不准确。‘消息’在此处是‘消长、变化’之意，但‘时’更可能指‘时机’或‘具体形势’，而非泛指‘时势’。candidate的译法过于现代化，且‘消长’与‘消息’含义有细微差别。",
+          "‘思过半矣’释为‘思虑已经过半了’不准确。此句意为‘对于穴的道理，已经领悟大半了’，candidate的译法过于直译，未能传达‘领悟、理解’的核心含义。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1077,
+      "completion_tokens": 288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

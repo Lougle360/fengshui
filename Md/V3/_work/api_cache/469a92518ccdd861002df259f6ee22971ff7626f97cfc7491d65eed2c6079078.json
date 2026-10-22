@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-26T10:08:14.512103+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "469a92518ccdd861002df259f6ee22971ff7626f97cfc7491d65eed2c6079078",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000807-p000-e3c9e5e131",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000810-p000-5066aadeac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000814-p000-ae9255a572",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“拉後分明”被误译为“拉拽后轮廓分明”，属于无依据错译，该短语具体含义未明，不应随意解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000815-p000-7bd6267cb8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000818-p000-d80a8515ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“最旺絲禾穀金銀”被误译为“最旺丝禾谷金”，漏译“银”字；原文“于兄弟游覽名墓”被误译为“对于兄弟而言，游览名墓”，增译错误，原句应为“我和兄弟游览名墓”类含义，不应添加“对于而言”的错误逻辑"
+        ],
+        "uncertainty": [
+          "也里子页四卷三下穴法，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000819-p000-2c32d14400",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000823-p000-780e079d8d",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book033-b000824-p000-b965c7133d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000825-p000-49a5587b93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000826-p000-369e9f73a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“行事樸冥”被误译为“行事朴实”，“冥”字未译且无依据简化；原文“鹽運工戶司”被误译为“盐运、户司财之职”，漏译“工”字；原文“氣畫而裒矣”被误译为“则气衰而败了”，属于无依据错译，“畫”“裒”的具体含义未明，不应随意解释"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3449,
+    "completion_tokens": 723,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3449,
+      "completion_tokens": 723,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

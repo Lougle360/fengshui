@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-25T12:42:47.434121+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1b7ee7d44915da44a76fd386609cdcb8be9ef03167b618a2cfceabd4e59ce0bb",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000073-p000-e04df438de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「格物致古準令」语义不通，无法确定具体含义",
+          "「非有理之其孰能巧者明 月達聰」原文断句错乱，只能推测大致语义为通晓事理才能运用葬法卦象巧妙自如",
+          "「目揚其情心所其極」语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000079-p000-b2283cf48c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“判断吉凶”相关表述，属于无依据增译；原文“彎求物屬水本”语义模糊，candidate直接释读为“要探求的相关事物属性中，水的核心特质在于”缺乏依据，属于将不确定推测写成确定事实"
+        ],
+        "uncertainty": [
+          "「動為常是無記」语义模糊，无法确定「常是無記」的具体指代"
+        ]
+      },
+      {
+        "id": "book026-b000081-p000-f3b8bff8b4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为“圗之天後 圗之势四”，语序表述不明，candidate直接确定为两幅图「天后之图」和「四势之图」属于将不确定推测写成确定事实，无原文依据"
+        ],
+        "uncertainty": [
+          "原文语序混乱，无法确定是否指向两张特定名称的图"
+        ]
+      },
+      {
+        "id": "book026-b000085-p000-8e7fee9d86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「藥衆」语义不明，无法释读",
+          "「扦年之法」属于风水专属术语，未被纳入允许释读的词汇表，具体含义未明确",
+          "「米」在此风水语境下的具体指代不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 503,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1450,
+      "completion_tokens": 503,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

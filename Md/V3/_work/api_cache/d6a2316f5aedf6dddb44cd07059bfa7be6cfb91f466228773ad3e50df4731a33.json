@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-26T10:18:41.639012+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d6a2316f5aedf6dddb44cd07059bfa7be6cfb91f466228773ad3e50df4731a33",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000827-p000-b022956bd8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“予凡弟思覽四方名墓”中“凡弟”误写为“凡弟”，正确应为“余弟”或“族弟”类表述？不对，原文是“予凡弟”，哦不对，candidate里写的是“我的凡弟思览过四方的名墓”，“凡弟”不是通用称谓，属于未释读，应标注“凡弟具体所指不详”；原文“日尺为形”是“百尺为形”的讹误？不对，source里写的是“日尺为形”，candidate直接释读为“‘日尺为形’，是说穴停留的位置很近”，未标注“日尺”应为“百尺”的讹误可能性，且“龙參之遠”的“參之”candidate释为“参错延伸”无依据，应标注“參之语义不明”；另外原文末尾讹乱部分candidate标注合理，但前述几处问题需要修正。"
+        ],
+        "uncertainty": [
+          "“凡弟”具体所指不详",
+          "“日尺”疑为“百尺”讹误，原文此处表述存疑",
+          "“龍參之遠”的“參之”语义不明"
+        ]
+      },
+      {
+        "id": "book033-b000829-p000-e72d01c7cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“則龍虎有清纏護俱夾”candidate断句错误，应为“龍虎有情、纏護俱夾”，candidate错误断为“龍虎有清，纏護俱夾”，“有清”属于误读；原文“精答之”的“答”是“察”的讹误，candidate释为“精要地对应核验”虽大意接近，但应标注“答”为讹字，疑为“察”；另外“唇也正”candidate释为“唇毡端正”，“毡”是补出的术语，allowed_glossary未收录，应标注“唇也正”的“也”疑为讹字，通常作“唇毡端正”，此处依常用风水术语释读。"
+        ],
+        "uncertainty": [
+          "“精答之”的“答”疑为“察”的讹误",
+          "“龍虎有清纏護俱夾”断句存疑，“有清”疑为“有情”讹误",
+          "“唇也正”的“也”疑为讹字，通常风水术语作“唇毡”"
+        ]
+      },
+      {
+        "id": "book033-b000830-p000-0ec8cf751b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“髙欲齊看低應心囿機歌云”candidate断句错误，应为“高欲齐眉低应心，《囿机歌》云”，candidate错误将“囿機歌”归入《指南》的引文内容，属于断句错误；原文“此其梗搬也”的“搬”是“概”的讹误，candidate释为“大概的原则”正确，但应标注“搬”为讹字，疑为“概”；原文“亦不為磚”的“磚”是“礙”的讹误，candidate标注为讹字合理，但可补充疑为“碍”的常见讹误；原文“據案區取事宜”的“區取”是“區處”的讹误，意为处置处理，candidate标注语义不明合理；另外原文“龍大經”应为《疑龙经》或《龙经》？candidate直接写《龙大经》，应标注“《龙大经》未见著录，疑为《龙经》或《疑龙经》讹写”。"
+        ],
+        "uncertainty": [
+          "《指南》引文“髙欲齊看低應心”后应为《囿机歌》内容，原文断句存疑",
+          "“梗搬”的“搬”疑为“概”的讹误",
+          "“磚”疑为“礙（碍）”的讹误",
+          "“區取”疑为“區處”的讹误，意为处置",
+          "“龍大經”未见风水类常见著录，疑为《龙经》或《疑龙经》的讹写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3043,
+    "completion_tokens": 1029,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3043,
+      "completion_tokens": 245,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3043,
+      "completion_tokens": 1029,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

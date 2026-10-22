@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T18:08:06.830364+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "195679687ba1224739f934a48b4daed8b0763a2fb5f75b01bbc2f14cc5f696e9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001661-p000-02a7f406bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未明确说明‘贲其须’的具体所指，仅为爻辞表述"
+        ]
+      },
+      {
+        "id": "book016-b001662-p000-1907497ea1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "关于‘贲其须’的解释存在两种不同说法，分别为以须喻六二承九三，以及以艮为须、‘其’指上卦，原文未明确确定唯一解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1272,
+      "completion_tokens": 162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T00:53:46.524908+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e9f35b1250ac0716a0ecfe98c5c3a7abe0c5f3b129a0f078dfe8357b2c6e26eb",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000657-p000-985f32f26d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000658-p000-9dd9b6d351",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述“聚讲只要求山形相聚，不拘泥于是否有间隔”，candidate误写为“不要求彼此间隔”，与原义相反；原文“连珠则牵连而去，不必相聚，惟欲其相联属，相聚为连珠，聚讲尤贵”，candidate误释为“聚讲是相聚的一种”，混淆了连珠和聚讲的关系，原义是相聚的连珠比聚讲更珍贵，二者是不同的格局"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000660-p000-8f775ea970",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未完，candidate如实保留残缺表述"
+        ]
+      },
+      {
+        "id": "book018-b000661-p000-9316fb7123",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000662-p000-a1e0b3cb4d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格中“浦美”“第二”“一街”“k四”等标识具体所指不明，原文OCR存在缺漏字符如“第二K”“k四”的K/k含义未明"
+        ]
+      },
+      {
+        "id": "book018-b000664-p000-a4a7c32406",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水星帳北大星聳南木星居東”断句应为“水星帐北，大星耸，南木星居东”，candidate误作“南方有木星居东”，原义是木星位于南方区域的东侧，并非“南方有木星在东”，表述存在歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000665-p000-0fca788b5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "《入式歌》引文原文未录全，candidate如实保留截断状态"
+        ]
+      },
+      {
+        "id": "book018-b000666-p000-aded099e3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“矧星辰亦轻可事”candidate误释为“况且星辰也不是轻易能确定的事”，原义应为“况且星辰（的格局）并不是重要的事”，语义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000667-p000-29288e5680",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000668-p000-312fecae0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4207,
+    "completion_tokens": 863,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4207,
+      "completion_tokens": 863,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

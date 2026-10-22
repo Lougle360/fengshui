@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-09-25T03:17:40.408222+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a26c233ab03f6b86add54da3ba8544786e882666380a6413d5a9f572ef2833cf",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000047-p000-adc3cb8bbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000048-p000-acc6cd160f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“盖下可尅上上不可剋下也”，候选误译为“所以下方不能尅上方，上方也不能尅下方”，与原文语义相反。",
+          "原文“垂宥”被误译为“垂脉”，属于无依据改译；原文“大开蓋帳”被拆译为“垂脉大开、帐盖舒展”，改变了原短语结构，且“宥”的含义未明，不应随意替换为“脉”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000049-p000-e96e686843",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“束”字后内容残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book020-b000050-p000-e7866de013",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000051-p000-7281cc0bf9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000052-p000-e77238cfae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000053-p000-25081d5261",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000054-p000-5d581fc6c5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“取”后内容残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book020-b000055-p000-c185ed0a34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000056-p000-5d0b6f520c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4928,
+    "completion_tokens": 694,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4928,
+      "completion_tokens": 573,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4928,
+      "completion_tokens": 694,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

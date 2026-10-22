@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T17:47:33.688419+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1c28efebfc7a8120d2e8475f4fd412610efa09957c5967899f5221dc015804fa",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000861-p000-31d5aa65fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“有弦稜者弦稜”语义不通，具体含义无法确定",
+          "“眷面”“脊面”属于风水专业表述，没有通用释读依据"
+        ]
+      },
+      {
+        "id": "book029-b000862-p000-1d39428611",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序为“也理奉贊玄機全書○卷四”，“也”字未作处理，且原句并非表明这段内容出自该书的引导语，而是《理奉赞玄机全书》卷四的标识性文字，候选释读误解了句子功能"
+        ],
+        "uncertainty": [
+          "“○”符号的具体含义未明确，原样保留"
+        ]
+      },
+      {
+        "id": "book029-b000872-p000-72f27c49e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文前后分别使用“綦盤土”和“棊盤”，二者是否为同一术语无法确定，均保留原文用字"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1128,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

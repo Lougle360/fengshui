@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-10-16T08:31:12.303607+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e3d7501f1bb9070a1b66d3f76cc707c8a991a4caa6969e73151084d54d3bff10",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001536-p000-9f4776fa2b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001538-p000-24fd9468a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001539-p000-5adc83a18e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘金带些摆转便是火’，candidate译为‘金星形势中若带有水，稍微摆转方位后便转为火形’，凭空增加了‘带有水’的解释，属于无依据扩写。原文‘后头水重’译为‘后方水势沉重’可以接受，但‘剪之’被处理为‘采取剪除火势的办法’，将动作名词化，虽可理解但略有增译。‘八位大高官’译为‘八位大官的格局如此，则可断定其地位显赫’，将原文的断语（可能指此格局主出高官）具体化为对‘地位显赫’的断定，属于将推测写为事实，且‘格局如此’为增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001541-p000-d68aec0ecc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001542-p000-a81b69b6a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘木星行龙须传嫩重木档须论直木开口却为奇阴穴定无疑’一句，candidate断句为‘木星行龙必须传承嫩重之木，且必须论断其直木开口，却属于奇阴穴，这一定无疑。’将‘传嫩重木档’释为‘传承嫩重之木’，‘档’字未译，且‘传承’一词现代感过强，原文可能指龙脉形态需‘嫩’、‘重’、‘木档’等特征。‘直木开口’译为‘论断其直木开口’，‘论断’为增译。‘却为奇阴穴定无疑’译为‘却属于奇阴穴，这一定无疑’，将‘奇阴穴’作为确定概念使用，但此术语不在allowed_glossary中，应视为opaque_term，需加引号或标注不确定性。‘木乳’、‘脱杀’、‘紫气’、‘笪奔乳节’、‘分眉水痕’、‘死鳝’、‘烟包’等均为未定义术语，candidate直接使用并赋予解释（如‘称为紫气’），违反了opaque_terms处理规则。‘葬木不’句，candidate补充为‘葬木不主吉’，属于合理推测，但应在uncertainty中说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001543-p000-ad58aa9708",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001545-p000-3301656b9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001546-p000-c24a961c39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘葬水闪煞可下’译为‘若葬水可闪煞则可安葬’，将‘闪煞’作为‘可’的条件，原文‘闪煞’可能是动作或格局名，此处理属于推测性解释，且未标注不确定性。‘掩地木微弯者是流山木’等句，candidate直接以判断句式（‘是’）连接，将原文可能为列举或描述的关系固化为等同关系，属于将推测写为事实。‘贪狼木’为未定义术语，直接使用未加标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001547-p000-968e573dd9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001549-p000-8fea140354",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2060,
+    "completion_tokens": 935,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2060,
+      "completion_tokens": 935,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-10-17T18:50:15.761194+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8787e287094278ba0557944561387b38f1bc54aa1b272e8187a6a71386f99e73",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004382-p000-6d8816d16c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004383-p000-555aa4d5f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“豈知中垂金看微高又似坪”中“金”为风水术语，指“金星”或“金脉”，candidate译为“金脉”虽在allowed_glossary中无定义，但结合上下文“正中垂下的金脉”属于对专业术语的推测性解释，应视为增译。应保留原文“金”字并标注不确定性。",
+          "原文“散求從芒一發雖日離認忽大坪中二水”句意含混，candidate译为“若散乱求之，从芒草中发出一发，虽然看似离开，但忽然在平坦的大地中，两条水流交汇之处”属于对模糊原文的确定性扩写，将“芒”解释为“芒草”、“发”解释为“发出”、“日”解释为“看似”均无依据。应指出原文模糊，不宜做具体解释。",
+          "原文“禹曰眞龍作穴氣脈玄微如綜似變入大坪之中交處爲明堂是也”中“如綜似變”candidate译为“如同丝线交织又似变化无穷”，将“綜”解释为“丝线交织”是推测，应保留原词或标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "“金”的具体所指（如金星、金脉）不详。",
+          "“散求從芒一發雖日離認忽大坪中二水”一句原文模糊，具体所指不详。",
+          "“如綜似變”的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b004384-p000-233738a011",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004385-p000-dcc9908f34",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“興龍入穴太玄微”中“興龍”candidate译为“兴龙”，虽可接受，但“兴”字含义（兴起、发动）在译文中未体现，可视为浅显释义，不算问题。但“未許時師造次知”译为“不可让一般的时师随意造次”中“一般的”为增译，原文无此限定。",
+          "原文“不作中間明顯穴閃歸左側落懸又如分中 自然有微窩帶變盡處安扦”断句与candidate不同。candidate断为“若不作中间明显的穴，则穴气闪归左侧，落势如悬丝。又如分中自然有微窝带变，在尽处安扦。”其中“穴气”为增译，“落势如悬丝”是对“落懸”的释义，可接受。但“分中”含义不明，candidate直接作为短语使用，未做解释，符合要求。",
+          "原文“三認左右兩水交合處是也”candidate译为“三认左右两水交汇处，便是穴位所在。”其中“便是穴位所在”为增译，原文只说“是也”，未明确指“穴位”。"
+        ],
+        "uncertainty": [
+          "“分中”的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004386-p000-c786f34a59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004387-p000-28ee9b0842",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004388-p000-c89b5fd426",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004389-p000-5130496647",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004390-p000-43e061edb2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为章节标题“## 地理天機會元 卷二十二 楊公穴法心鏡三”，candidate译为“《地理天机会元》卷二十二，篇名为《杨公穴法心镜三》。”其中“篇名为”为增译，且添加了书名号。作为标题释读，应保持原格式或直述，不应添加解释性文字和标点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004391-p000-8b7d692db0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“三看三永交合爲明堂”中“三永”应为“三水”之误（结合前文“三登前水”及风水常识）。candidate直接写作“三永”，未指出可能的讹误或进行勘正，导致语义不通。",
+          "原文“四看左右砂嘴 分抱會”candidate译为“四看左右砂嘴，分抱会。”其中“分抱会”含义模糊，candidate未做解释，符合要求。但整体断句与原文一致。",
+          "原文“此四登穴法則不用羅經矣”candidate译为“此四登穴法则，不用罗经矣。”准确。"
+        ],
+        "uncertainty": [
+          "“三永”可能为“三水”的讹误。",
+          "“分抱会”的具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2413,
+    "completion_tokens": 1285,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2413,
+      "completion_tokens": 1285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

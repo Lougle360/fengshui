@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-25T15:25:17.856961+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7269bf67cc45d217a9667103160ba72b509c555b2911e27563109318d4bd240d",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000543-p000-03f8a4d5bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000544-p000-a55fb9e065",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的白话，仅做了断句处理，不符合V3释读目标"
+        ],
+        "uncertainty": [
+          "原文断句错乱，部分文字含义无法确认"
+        ]
+      },
+      {
+        "id": "book026-b000545-p000-71e2c40519",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000546-p000-24d93cb74d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "澤慈願我欲留茶",
+          "乖遙銷方善",
+          "下國六紫是屯",
+          "捉水"
+        ]
+      },
+      {
+        "id": "book026-b000548-p000-a4ecc69106",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000549-p000-5eff221f48",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将未明确的“重魯所廟闌頭”释为“鲁地所传的庙阑头相关内容”属于无依据增译，原文未说明“重魯所”的地域属性"
+        ],
+        "uncertainty": [
+          "重魯所廟闌頭",
+          "天外有鑰"
+        ]
+      },
+      {
+        "id": "book026-b000550-p000-82d8341b1e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“不旋踵”指很快、不久就会应验，释为“得富不會久遠”属于语义反译，含义完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000551-p000-91c6666543",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000552-p000-efdcd52d86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的白话，仅做了简单断句，不符合V3释读目标；原文“其不發福於深遠而無窮矣”被误写为“其福於深遠而無窮矣”，漏译“不發”二字，语义出现偏差"
+        ]
+      },
+      {
+        "id": "book026-b000553-p000-c6617bef21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2577,
+    "completion_tokens": 793,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2577,
+      "completion_tokens": 793,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

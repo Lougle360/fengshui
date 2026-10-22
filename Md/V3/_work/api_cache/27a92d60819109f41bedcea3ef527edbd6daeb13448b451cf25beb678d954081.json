@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-24T11:45:26.122931+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "27a92d60819109f41bedcea3ef527edbd6daeb13448b451cf25beb678d954081",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000084-p000-3c08cb9749",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000085-p000-6ce136aac4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的数字\"1.22\"含义不明"
+        ]
+      },
+      {
+        "id": "book014-b000086-p000-29f55ec048",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "伽多坑坎",
+          "鱼魄",
+          "弃仪弗常人",
+          "喜员",
+          "喜浑厚",
+          "峨龙颜垣",
+          "浮线泛牛水庄",
+          "挺楼船"
+        ]
+      },
+      {
+        "id": "book014-b000091-p000-11cc6d29b3",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处难以释读的模糊内容，无法形成准确的白话释读"
+        ],
+        "uncertainty": [
+          "渡氢祖",
+          "聚溪平滴地",
+          "土瓮田山",
+          "尤里元",
+          "申梅句",
+          "鹿托蕊山丝",
+          "古屏大饲体踪",
+          "太跳山",
+          "氏李",
+          "墓氏",
+          "塘换付脉",
+          "庄委",
+          "圣中",
+          "南翎",
+          "叉里",
+          "零同失平"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4044,
+    "completion_tokens": 326,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4044,
+      "completion_tokens": 326,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

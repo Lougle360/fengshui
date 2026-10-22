@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-10-17T09:02:47.769857+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c7e9d711b9b9ee06b491cf523bc625afa8ae7852bb699f1fdbca89a597c8f8e7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003061-p000-c0c3f3056c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'海里寻珠为上诀'中的'海里'是比喻，但candidate释为'在龙脉深处'，改变了原文意象，应保留'海里'并说明其比喻性。",
+          "专业术语误换：'九宫水'是特定概念，candidate释为'九宫方位的水'，解释不准确，应保留'九宫水'并说明其为风水术语。",
+          "数字/方位变化：'去水来山尽合情'中的'去水'、'来山'是风水术语，candidate直接引用未释读，应说明其指水流去势与山来势。",
+          "把推测写成事实：candidate将'悟齐按'后的内容直接作为事实陈述，但原文是'悟齐按'的按语，属于后人注解，应明确标注此为按语内容。",
+          "增译：candidate在最后添加'原文用字如此，具体所指不详'，但'开拳僚然在目'本身含义不清，应直接说明其含义不明，而非强调用字。"
+        ],
+        "uncertainty": [
+          "'售宅塡'具体所指不详",
+          "'塡'具体所指不详",
+          "'开拳'可能为'开卷'的讹误"
+        ]
+      },
+      {
+        "id": "book035-b003062-p000-f8b2696aa5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'青囊巽语'具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b003064-p000-a84caf823c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'顺行子丑向未场申酉戌亥左为阳'中的'未场'可能为'未扬'或另有含义，candidate未处理，应标注其含义不明。",
+          "反义或误译：'逆行扦巳辰卯寅向鼠猴羊右为阴'，candidate将'向鼠猴羊'整体视为含义不明，但'鼠猴羊'可能对应地支，'向'字可能为'向'或误字，需更精确分析。",
+          "专业术语误换：'认金龙'中的'金龙'是风水术语，candidate未释读，应保留并说明其为术语。",
+          "数字/顺序错误：原文有'第七与'和'第七裁'两个'第七'，candidate仅标注'具体体例不详'，但应指出这可能是原文编号错误或体例特殊。",
+          "增译：candidate在'鬼与曜'后添加'具体所指不详'，但'鬼'与'曜'是风水术语，应保留并说明其为术语，而非直接定为不详。",
+          "术语处理不当：'五星'是风水术语，指五种山形，candidate未释读，应保留并说明。"
+        ],
+        "uncertainty": [
+          "'向鼠猴羊'的具体含义",
+          "原文出现两个'第七'，体例不详",
+          "'掌模'具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2041,
+    "completion_tokens": 763,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2041,
+      "completion_tokens": 763,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

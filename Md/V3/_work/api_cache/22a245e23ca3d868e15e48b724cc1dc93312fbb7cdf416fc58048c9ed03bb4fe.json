@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T09:01:54.704995+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "22a245e23ca3d868e15e48b724cc1dc93312fbb7cdf416fc58048c9ed03bb4fe",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000366-p000-766626b4bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“离”被误释为“分离”，与allowed_glossary中“离为八卦之一”的定义不符，属于专业术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000371-p000-f9c7e48bd6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“泽其相衰，流于囚谢”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1046,
+    "completion_tokens": 167,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1046,
+      "completion_tokens": 167,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

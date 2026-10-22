@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-24T01:17:48.607196+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d7e858ccb2bfa69121eabbd90c73df57dbfb941b415a20c653266a921439de5a",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000847-p000-db90a80472",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000848-p000-af73e66872",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000849-p000-68eb5b8c6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“主生匹子”中“匹”为讹字或缺字，具体含义不明",
+          "原文末尾“不须”后内容缺失"
+        ]
+      },
+      {
+        "id": "book002-b000850-p000-27a1faf4ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000851-p000-cc1d6de710",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“失紅吐血值離淮”被误释为“遇上离宫方位会出现失血吐血的情况”，“淮”字未作合理说明，属于无依据推断释义",
+          "原文“主一于”仅标注含义不详，未保留原短语引用说明"
+        ],
+        "uncertainty": [
+          "主一于含义不详",
+          "“失紅吐血值離淮”中“淮”字含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1906,
+    "completion_tokens": 351,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1906,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1906,
+      "completion_tokens": 351,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-16T10:53:37.723553+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d94c1ad548203ac6fd3a60c889d1c16fb7a80a48c4c6f1d14f2d11456a05a24a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002055-p000-0cdcc78323",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘明得二分饶减半’是明确的操作或判断，candidate将其处理为‘原文表述含混，具体所指不详’，属于将原文确定信息转为不确定，改变了原意。应释读为‘若能明辨其中二分，则‘饶减半’（的规则或效果）就能掌握’或类似，保留其作为确定结论的性质。",
+          "‘真气聚集在上部’是对‘真聚上分’的合理释读，但‘下部呈现‘下抱腮’的形态’将‘下抱腮’作为形态描述，而原文‘下抱腮’可能是一个术语或固定说法，candidate未明确其为不透明术语并加引号引用，处理方式不一致。"
+        ],
+        "uncertainty": [
+          "下抱腮",
+          "饶减半"
+        ]
+      },
+      {
+        "id": "book035-b002056-p000-f8eb22c5b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002062-p000-63fbaba103",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘横糊误尽人多少朝贪暮富术非轻’是连贯句子，意为‘（因为）横糊，误尽了不知多少人，（导致他们）朝贪暮富，这种术法（的后果）可不轻’。candidate拆解为‘它误害了多少人，让人朝贪暮富，这种术法并非轻率之事’，将‘术非轻’释为‘术法并非轻率之事’，偏离了原文‘术非轻’更可能指术法的影响或后果严重（不轻）的含义。",
+          "‘阳来阳受脉无情’是独立短句，candidate处理为‘此外还提到…的情况’，过于简略，未进行基本释读，属于漏译核心信息。应尝试如‘如果是阳气来则阳气承受，但脉象却显得无情’等释读，即使有不确定性也需尝试。"
+        ],
+        "uncertainty": [
+          "横糊",
+          "阳来阳受",
+          "脉无情"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 867,
+    "completion_tokens": 469,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 867,
+      "completion_tokens": 469,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

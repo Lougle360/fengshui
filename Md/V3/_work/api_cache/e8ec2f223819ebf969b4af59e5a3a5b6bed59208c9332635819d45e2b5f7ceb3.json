@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T12:38:55.829870+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e8ec2f223819ebf969b4af59e5a3a5b6bed59208c9332635819d45e2b5f7ceb3",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000815-p000-22b248d667",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“棋鵝辰”“年龍平穴”“應樂”“神童展抵”等含义模糊的专名或短语强行释读为确定内容，不符合术语使用规则；“故侯明之”的释读无依据，属于推测性改写"
+        ],
+        "uncertainty": [
+          "原文中“棋鵝辰”“年龍平穴”“應樂”“神童展抵”等具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000819-p000-fcfafd3267",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“三备”“登水高”“去水局”“吉接气”等短语含义模糊，释读时未标注不确定性，属于无依据的确定化改写"
+        ],
+        "uncertainty": [
+          "原文中“三备”“登水高”“吉接气”等具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000820-p000-b727780cc1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "“立扇神”“高張羅制”“逆势逆嫌”“凭阏”“距”“案裔”“端拱暗朝”“瞻杀案”“外阳俱在十”等内容模糊不清，无法形成准确释读"
+        ],
+        "uncertainty": [
+          "原文中“立扇神”“高張羅制”“逆势逆嫌”“凭阏”“距”“案裔”“端拱暗朝”“瞻杀案”“外阳俱在十”等具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000822-p000-3d1b5a5d22",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“起帐脚牵出横埋”“财龙”“三堂”“四势”“自成城郭”等短语含义模糊，释读时未标注不确定性，属于无依据的确定化改写"
+        ],
+        "uncertainty": [
+          "原文中“起帐脚牵出横埋”“财龙”“三堂”“四势”“自成城郭”等具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 572,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1733,
+      "completion_tokens": 572,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

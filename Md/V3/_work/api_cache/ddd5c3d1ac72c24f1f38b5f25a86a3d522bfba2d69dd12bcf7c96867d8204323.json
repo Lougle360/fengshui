@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-25T08:51:14.161993+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ddd5c3d1ac72c24f1f38b5f25a86a3d522bfba2d69dd12bcf7c96867d8204323",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000306-p000-bdee8693e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000307-p000-8c036bf1e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“润而不泽”误释为“湿润却不黏腻”，“泽”在此处指水湿过度、涝湿的状态，并非黏腻含义；原文“裁肪切玉”是形容土的质地细密紧实，如切开的脂肪、玉石般匀净致密，不是“如同裁剪好的脂肪、切割好的玉石一般”，释读误解了短语的修饰指向"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 187,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1287,
+      "completion_tokens": 130,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1287,
+      "completion_tokens": 187,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

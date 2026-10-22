@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-25T20:39:29.675768+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "306b3360ec853676a7337f03b618a646c186cef2296090fa34f15513c98472c5",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000832-p000-4380eafd3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“咏玉斧 卷三操砂四十國”，candidate将“操砂”写作“操砂”虽本身字形无误，但需注意locked_terms的“砂”已保留，核心问题是source存在句读断裂，原文“金钦兩殿 咏玉斧 卷三操砂四十國”中“咏玉斧”是书名/篇名，candidate释读通顺，但未指出“金钦两殿”具体所指不明，且原文“見共鬼刼”的“共”应为“其”的讹字，candidate直接译为“它的鬼劫”未标注该讹字风险"
+        ],
+        "uncertainty": [
+          "四十国具体所指不详",
+          "金钦两殿具体所指不详",
+          "鬼劫具体含义未明确标注"
+        ]
+      },
+      {
+        "id": "book030-b000835-p000-bedf9dbe24",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "精光怡穴具体含义不详",
+          "四勾种具体所指不详",
+          "间君具体所指不详",
+          "地户不宜梦关为具体所指不详",
+          "女常家源具体所指不详",
+          "龙生谈角具体所指不详",
+          "秀豕五斧具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000836-p000-b8a33f4235",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "爪采鬼監起的下而四句方是說疆星存在识别讹误，语义不通",
+          "古穴中邯存在讹字，语义不通",
+          "断濰乡具体所指不详",
+          "飞冉冉之非为讹误导致，语义不明",
+          "施地除燄气具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000839-p000-6c50efb481",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "圖之氣奪長鬼语序颠倒，语义不详"
+        ]
+      },
+      {
+        "id": "book030-b000844-p000-a4122a6859",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "source中locked_terms包含“震”，但candidate中未出现相关内容，未核查是否存在漏译；candidate自行将多处OCR识别内容直接判定为某正确表述（如“巉雌”认定为“巉岩类表述”、“鉴隆”认定为“望隆类表述”），属于将不确定推测写成事实；原文“撰砂”candidate修正为“拨砂”未标注修正依据，且“掘砂”修正为“拨砂”同样未明确标注是修正讹字"
+        ],
+        "uncertainty": [
+          "表格内存在大量OCR识别讹误，包括y谷、酉十七、下苏、夸巾、废上贵人、共所应、上龙格、僧造蒙巴 UW、皇土里、入朔面圣、乐成名妓、鲁道而君、脊木屋、掘砂四十九、威震夸夏、优少五十、玉堂实人、帘幙黄人、数龟水风帔、号政公孤、玉皆贵人、增级重重、巉雌、狐独、功动、鉴隆等均为讹误内容，语义多无法确定",
+          "原文“撰砂”“掘砂”疑似为“拨砂”的OCR讹误，具体需结合版本确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5712,
+    "completion_tokens": 869,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5712,
+      "completion_tokens": 869,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

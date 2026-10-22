@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-26T06:17:19.841318+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "71a7069551fb0fdcb2d683876aafe1e7c5c76c38bd4bfc30e379c2463152ae0f",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000068-p000-9a34f1d26b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000069-p000-a82f5b9775",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000070-p000-a38c48a80e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“十四步二尺六寸”与前文“总论中国之山”逻辑矛盾，疑似原文讹误或上下文断裂，具体含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000071-p000-ecf5f34aa7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“远边一支分散为湖南闽广尽于两浙建康”，候选误释为“靠南的一条支脉分散延伸到湖南、闽地、两广，直到两浙为止”，遗漏了“建康”的表述，且误将原句的“远边”写作“靠南”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000072-p000-5813bc3297",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“晋豕易滋漳洹卫”表述存在讹脱，具体所指不明；原文末尾“正谓其”后内容残缺"
+        ]
+      },
+      {
+        "id": "book033-b000073-p000-cbcb4c302e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“导浴至东会”是“导洛至东会”的讹写，候选已做正确补注无问题，但原文“旺信”是“信州”类地名的讹写，候选直接保留“旺信”未做风险标注，且“导沇水”候选写作“导況水”属于形近字误译"
+        ],
+        "uncertainty": [
+          "“尽昇润”表述存在讹脱，具体所指不明；原文末尾“导洛至东会”后内容残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4955,
+    "completion_tokens": 537,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4955,
+      "completion_tokens": 537,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

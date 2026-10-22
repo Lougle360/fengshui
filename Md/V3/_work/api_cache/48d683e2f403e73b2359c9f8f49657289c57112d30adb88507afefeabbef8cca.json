@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-04T06:21:15.020404+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "48d683e2f403e73b2359c9f8f49657289c57112d30adb88507afefeabbef8cca",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000601-p000-118ba5fb57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“地文罗”语义不完整，可能为残句或衍文，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000602-p000-0bd437ed96",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“平有伏而又之也 爾離因形體見之”部分文字残缺或错乱，candidate进行了补全和意译（“平地虽有伏脉却又起伏连绵。这些差异是通过形体显现出来的”），但未明确标注此部分为推测，存在将不确定解释写成事实的风险。应明确指出原文此处文意不明。",
+          "candidate将“山  因而來之強也”释为“山势因而来势强盛”，其中“因而”的衔接关系不够清晰，且“来势强盛”是增译。原文可能意指“山（势）因而来，是强也”，即山势由此而来，是强的表现。"
+        ]
+      },
+      {
+        "id": "book035-b000604-p000-d3f79c71d8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将“強來強正則傷龍弱來弱下則脫氣之中也”释为“来势强则正伤龙脉，来势弱则下脱气脉，这都是中道失衡的表现”，其中“正伤龙脉”“下脱气脉”为增译，原文逻辑关系（“强来强正”与“弱来弱下”的对仗）未完全体现，且“中道失衡”是引申。",
+          "candidate将“反是有絕之令退之自然而然”释为“反之，若处理不当，就会导致断绝或退败，这是自然而然的结果”，其中“若处理不当”为增译，原文“反是”可能仅指“与上述情况相反”。"
+        ]
+      },
+      {
+        "id": "book035-b000606-p000-a4bfffc0da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000607-p000-13ebb9270c",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "candidate将“丹次之”保留为“丹次之”，但未在释读中明确标注其语义不明或可能为误字，普通读者无法理解。应在释读中说明此词存疑。",
+          "candidate将“發源去者山分支臂 來者山之起祖水之而行水分支派而流”释为“发源而去者，是山分支臂；来者，是山起祖。水之行，水分支派而流”，其中“水之行”为补入，但整体上对原文残缺语句的处理过于顺畅，未充分体现原文的断裂和不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b000608-p000-7f9f0afdc7",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“也自自稱迎二者裕引的也”文字严重错乱，candidate释为“自来自去，自迎自引，二者是相互对应的”，这完全是基于上下文推测的意译，缺乏原文依据，无法进行保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000609-p000-8cb7f86a60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2839,
+    "completion_tokens": 936,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2839,
+      "completion_tokens": 936,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

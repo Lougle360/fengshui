@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-18T01:12:04.577382+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "011e91c77ed5d3579a57b4352dfd388b80f2baa3d96f356af4eb3ea6b900495c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005108-p000-7fd26b08c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将原文的表格结构完全打乱，合并为一段概括性描述，严重漏译了表格的具体内容和对应关系。原文是清晰的五行六列表格，每列有砂名、形态特征和解说三部分，候选文本未能按此结构呈现，丢失了大量具体信息。",
+          "候选文本将原文中具体的解说文字（如'解此水龙品右象曰...'等）仅概括为'内容涉及这些砂的吉凶判断...具体所指不详'，这是严重的漏译。即使原文晦涩，也应保留其原文或进行保守的释读，而非完全省略。",
+          "候选文本在末尾添加了'文中提到的“砂”指...'的定义，这属于无依据的增译。虽然定义本身符合allowed_glossary，但原文并未在此处进行术语解释，候选文本不应自行添加。",
+          "候选文本未能体现原文'第一行...第二行...第三行...'等表格行与砂名、形态、解说的对应关系，导致信息错位和丢失。"
+        ],
+        "uncertainty": [
+          "原文表格内容为风水砂形图解，术语和表述高度专业化且可能含有讹误或特定行话，准确释读需要专门知识。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 292,
+    "cached_prompt_tokens": 2176,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3493,
+      "completion_tokens": 292,
+      "cached_prompt_tokens": 2176,
+      "usage_estimated": false
+    }
+  ]
+}

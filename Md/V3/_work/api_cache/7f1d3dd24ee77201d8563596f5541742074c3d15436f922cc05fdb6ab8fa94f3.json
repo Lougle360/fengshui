@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T13:05:31.574530+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7f1d3dd24ee77201d8563596f5541742074c3d15436f922cc05fdb6ab8fa94f3",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001056-p000-6d8df5bcdf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“其水十”未释读完整，具体含义不详"
+        ]
+      },
+      {
+        "id": "book014-b001058-p000-d6a34a79df",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“不咸儀格者皆爭也”语义含混，释读未明确其具体所指；“水圗沙必圓”表述模糊，释读未清晰说明含义；“供給水”单独列出，未结合上下文明确其在风水语境中的具体所指"
+        ],
+        "uncertainty": [
+          "原文中“不咸儀格”“水圗沙”的具体含义未明；“供給水”的具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1232,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

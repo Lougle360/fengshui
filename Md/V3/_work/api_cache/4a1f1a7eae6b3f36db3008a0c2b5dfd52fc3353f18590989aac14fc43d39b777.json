@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T13:21:44.237049+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4a1f1a7eae6b3f36db3008a0c2b5dfd52fc3353f18590989aac14fc43d39b777",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000012-p000-7473b2251b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000013-p000-aed6d0f863",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000014-p000-0ff43ce822",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000015-p000-1ae9372fee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宋僉應符”指宋代佥判俞应符，候选误写为“宋代的佥应符”，人名释读错误；“我有一法君未知”被断句错误，“地理碎事 四4 寄著輯”是注释类排版内容，不该直接写入诗句译文，疑似与下句内容混淆"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000016-p000-60169e90a3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“五马同槽”典故含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book027-b000017-p000-59b13566a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000018-p000-209eb7a388",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“恐彼驚跌損命”指担心偷树的贼人受到惊吓跌落丧命，候选误译为“恐怕会被他们惊吓跌落，丧命”，语义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000019-p000-7981ea423d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_term“神化”未放入引号内直接释读为“有神化”，不符合术语使用要求；“汝祀父積陰”后文漏译“德”字，语义不完整"
+        ],
+        "uncertainty": [
+          "“神化”的具体含义不详"
+        ]
+      },
+      {
+        "id": "book027-b000020-p000-11c0568b4a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选完全错译，内容和id为book027-b000016-p000-60169e90a3的内容重复，和本条source内容完全不符，属于严重漏译、错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000021-p000-e5a22b8d3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“恩復有發掘者立碑識之”指沈少担心再有发掘的人，自己立碑标记古墓，候选误译为“又有发掘坟墓的人，立了碑做标记”，动作主体错误；原文“少林生幼頴憎過目成誦”应为“少生子幼颖，过目成诵”，候选误写为“沈少的儿子沈幼颖”，人名错误；原文“啄”应为“咏”的讹写，候选释读为“论断”无依据；原文“輔峽砂脈到靈臺”被误译为“‘辅砂’‘穴’脉到达灵台”，偷换原文“峡砂”为“辅砂”，不符合原文表述；locked_term“穴”“砂”“乾”“坤”未按要求保留使用，且“乾坤”添加多余引号"
+        ],
+        "uncertainty": [
+          "原诗“俯仰乾坤何處佳人二有地盡英華”存在断句歧义，具体含义待考；“地理碎事 六 鄭寄著輯”为排版插入内容，与正文语义衔接不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3403,
+    "completion_tokens": 1050,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3403,
+      "completion_tokens": 1050,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

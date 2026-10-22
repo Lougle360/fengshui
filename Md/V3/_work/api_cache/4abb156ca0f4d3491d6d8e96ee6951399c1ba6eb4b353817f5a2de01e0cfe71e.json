@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T16:20:16.315650+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4abb156ca0f4d3491d6d8e96ee6951399c1ba6eb4b353817f5a2de01e0cfe71e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000095-p000-924fca06a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000096-p000-ebe48df092",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“孔子恐义理一向没卜筮中”的“向”属于locked_terms，候选句未保留该术语，且未按allowed_glossary释义，存在术语处理缺失问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000097-p000-f1d91f26bf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000098-p000-3e1eeb8b48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2378,
+    "completion_tokens": 250,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2378,
+      "completion_tokens": 250,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

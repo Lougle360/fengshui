@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-25T14:25:43.217725+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "25c6a1e1f8fe401731971164467dc97a24ce2baf584c4c81ca4c152371f4f11d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000021-p000-0b00073ad1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000023-p000-6b7a7e52ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“黑棗經”应为传抄讹误，候选未作标注；原文“草裡蛇琮”的传抄讹误已在writer_uncertainty说明，但候选释读直接写作“草里的蛇踪”，未标注原文讹误情况；原文出处为“地理恭皆玄機全書○卷”，候选补写为“以上内容出自《地理恭皆玄機全書》”，未说明原文卷次缺失"
+        ],
+        "uncertainty": [
+          "原文“黑棗經”疑似“黑囊经”传抄讹误",
+          "原文“草裡蛇琮”为传抄讹误，应为“蛇踪”",
+          "原文“里囊經”为传抄讹误，应为《黑囊经》",
+          "原文“貴測”为传抄讹误，应为“難測”",
+          "原文原卷次标注缺失"
+        ]
+      },
+      {
+        "id": "book029-b000025-p000-d3fce1d022",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陝汴齊魯”候选释为“陕西、汴梁、山东、齐鲁”，“齐鲁”与“山东”语义重复，表述冗余；原文“不能相也”存在脱字，候选释为“不能互相取代”属于无依据补全释义；原文出处“地理泰皆玄機全書○卷”未说明卷次缺失"
+        ],
+        "uncertainty": [
+          "原文“不能相也”存在脱字，具体含义原文未明",
+          "原文原卷次标注缺失"
+        ]
+      },
+      {
+        "id": "book029-b000027-p000-7d03d4714e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“滅中線”为传抄讹误，应为“灰中線”",
+          "原文“沉隱見難明”存在脱漏，应为“沉隱顯見難明”"
+        ]
+      },
+      {
+        "id": "book029-b000029-p000-f38e8422df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“收一遣水”的“遣”为传抄讹误，应为“邊”",
+          "原文“只牧一遙”的“牧”“遙”为传抄讹误，应为“收一邊”",
+          "原文“存子人焉”为传抄讹误，应为“存乎人焉”",
+          "原文“大小捐”为传抄讹误，应为“大小指”",
+          "原文末尾“若是枝只收得”语句未完，语义不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5259,
+    "completion_tokens": 729,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5259,
+      "completion_tokens": 700,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 5259,
+      "completion_tokens": 729,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

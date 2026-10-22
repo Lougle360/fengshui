@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T12:13:41.227025+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1efad94ed4f36afdb62dff569f3a4be7b6bfbcd814d6f4135ca3bf93c1c7e14a",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000490-p000-e0b3f01022",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000491-p000-c519a7262a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000493-p000-ecc5e8f6b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000495-p000-c9814aa1e7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「ま」「慷懋」等詞語含義不明，candidate未按要求保留原詞，擅自處理了部分難解詞語"
+        ],
+        "uncertainty": [
+          "原文中「ま」「慷懋」等詞語含義不明，暫保留原詞"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2628,
+    "completion_tokens": 250,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2628,
+      "completion_tokens": 250,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

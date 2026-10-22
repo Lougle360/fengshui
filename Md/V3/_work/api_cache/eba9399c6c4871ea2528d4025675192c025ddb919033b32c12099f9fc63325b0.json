@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:13:13.617835+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "eba9399c6c4871ea2528d4025675192c025ddb919033b32c12099f9fc63325b0",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000612-p000-ac818f2167",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "现以「程行計地」「推計土功」的複數格算法为例，说明如下：对于「程行計地」的複數300、240、180，(1)使用③，以总等60除240与180，得到300、4、3；(2)使用⑤将[300,3]变为[100,9]，再使用⑤将[300,4]变为[25,16]，从而确定定母25、16、9。另一方面，对于「推計土功」的複數54、57、75、72，(1)使用③，以总等3除54以外的数，得到54、19、25、24；(2)其中的[54,24]，以等数6除54后变为[9,24]，因存在续等3，故使用⑥将其变为[27,8]，最终确定定母27、19、25、8。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000613-p000-79c48a2f75",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "此外，秦九韶作为複數格的例子，除上述两题外还举出「程行相及」题；对于「程行相及」的複數300、250、200，他将定母定为3、125、16，但从300=2²×3×5²、250=2×5³、200=2³×5²来看，无法认为这是妥当的演算。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000614-p000-f78bce50ea",
+        "language": "japanese",
+        "content_type": "heading",
+        "action": "translate",
+        "modern_text": "## 2.5 关于解的存在条件",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000615-p000-c9c81b2333",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "如上所述，秦九韶在一般合同题中确定定母的方法存在些许迂回的一面，不够准确，但毫无疑问，这是与现今方法一致的、十分合理的算法。如此一来，秦九韶（在一般合同式解的存在条件方面）",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾存在残缺，内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1993,
+    "completion_tokens": 718,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1993,
+      "completion_tokens": 718,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

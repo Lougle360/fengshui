@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-09-25T11:58:23.196771+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "59213729b51e78d437944fbe531d47bc20dba515b157e69dd6c7b655663712f1",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000835-p000-6ec53c3773",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“合元不可但云青卷”的语义理解错误，原文意为“如果方位合乎元运准则就没有问题，不必非要依据青卷的记载”，候选译为“不能只依据青卷的记载来判断”偏离原意；且原文未提及“准则”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“合元”的具体标准原文未明确说明"
+        ]
+      },
+      {
+        "id": "book024-b000837-p000-59523b9e16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“牵玉掣”具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000839-p000-73fff08d08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“及目病井不分偏左偏右”断句错误，应为“（某种格局）会导致眼疾，井的位置不论偏左偏右……”，候选将“及目病”独立成句虽可，但“天近故侧”理解为“距离天的方位过近且位置偏斜”属于无依据猜测，原文“天近故侧”语义未明，不应直接释为“距离天的方位过近”"
+        ],
+        "uncertainty": [
+          "“天近故侧”的准确含义和其中“天”的所指原文未明确"
+        ]
+      },
+      {
+        "id": "book024-b000840-p000-0026fe6c4b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“橫水直过本為山 畧允言环氣脉鍾”语义理解错误，“本為山”并非“本是山形的格局”，该句语义模糊，候选释读无依据；原文“右畔遇鳳水直中 宋祸立逢凶”中“宋祸”属于无依据保留，且候选未明确标注“畧允言环氣脉鍾”的语义存疑风险，而是直接给出了确定释读"
+        ],
+        "uncertainty": [
+          "“畧允言环氣脉鍾”的准确语义存疑",
+          "凤水具体所指不详",
+          "宋祸具体指代的灾祸不明确"
+        ]
+      },
+      {
+        "id": "book024-b000842-p000-60100fc5d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“青在白虎”的具体表述含义不详"
+        ]
+      },
+      {
+        "id": "book024-b000848-p000-c7b81f5cd2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水維鄉徒酏人”断句错误，语义理解偏差，“水維鄉”并非“水维系乡邑的功能失效”，属于无依据增译；“徒酏人”的释读拆分错误，不应拆为“服徒刑的人流离，还有‘酏人’的情况”"
+        ],
+        "uncertainty": [
+          "“水維鄉徒酏人”的准确语义存疑",
+          "酏人具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 805,
+    "cached_prompt_tokens": 1336,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1828,
+      "completion_tokens": 636,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1828,
+      "completion_tokens": 805,
+      "cached_prompt_tokens": 1336,
+      "usage_estimated": false
+    }
+  ]
+}

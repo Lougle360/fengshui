@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-10-03T23:38:00.822772+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5c5a3fe5635e2058369033d1e8f86199d5983e223b591334fa4de6339e33ce96",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000094-p000-922f4ee3cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "兩迷",
+          "必字后文意"
+        ]
+      },
+      {
+        "id": "book035-b000095-p000-a248066f6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "出市",
+          "不爾之",
+          "明吉",
+          "自肯之",
+          "自見平"
+        ]
+      },
+      {
+        "id": "book035-b000097-p000-2ed130f996",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘大勢若聚則奇形惟穴而愈眞正大勢若年以分類以聚’，candidate将‘水’与山的分离/聚会解释为‘散’与‘合’，但原文此处为‘山水之分離’与‘山水之聚會’，candidate将‘山’字漏译，仅译出‘水’。"
+        ],
+        "uncertainty": [
+          "年字含义",
+          "從送",
+          "讓纏"
+        ]
+      },
+      {
+        "id": "book035-b000098-p000-37268a98b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "片王",
+          "晚髓",
+          "草吐爐",
+          "曄彌莊苑",
+          "將味地歸心",
+          "止駐",
+          "馬搖鞭"
+        ]
+      },
+      {
+        "id": "book035-b000100-p000-ac3a75598e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "方",
+          "不能之子所大能不能人是也明師不能使之悟",
+          "大芹"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1677,
+    "completion_tokens": 439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1677,
+      "completion_tokens": 439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

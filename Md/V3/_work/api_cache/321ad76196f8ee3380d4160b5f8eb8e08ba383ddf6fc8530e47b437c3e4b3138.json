@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:02:05.655793+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "321ad76196f8ee3380d4160b5f8eb8e08ba383ddf6fc8530e47b437c3e4b3138",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000119-p000-cf78094463",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000120-p000-8413cf64de",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"再漢\"疑为讹误，candidate将其释为\"相关内容\"属于无依据扩写，且未标注该不确定点"
+        ],
+        "uncertainty": [
+          "原文中\"再漢\"疑为\"在漢\"或其他讹误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000121-p000-860a49fa6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000122-p000-f86b45b15c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"右筵\"疑为讹误，candidate将其释为\"右行逆\"属于无依据扩写，且未标注该不确定点；原文\"以迄由於未\"疑为讹误，candidate将其调整为\"直到未申\"属于无依据修改，未标注该不确定点"
+        ],
+        "uncertainty": [
+          "原文中\"以迄由於未\"疑为\"以迄于未\"，\"右筵\"疑为\"右逆\"，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1653,
+    "completion_tokens": 352,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1653,
+      "completion_tokens": 352,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

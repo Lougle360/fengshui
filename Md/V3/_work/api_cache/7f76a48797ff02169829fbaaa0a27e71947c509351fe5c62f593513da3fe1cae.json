@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-25T19:52:56.348472+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7f76a48797ff02169829fbaaa0a27e71947c509351fe5c62f593513da3fe1cae",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000666-p000-0a0eeb2afb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000667-p000-3dc8421592",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“龍虎兼全”被误释为“龙、砂兼全”，术语对应错误，龙虎属于砂的范畴，此处应保留“龙虎”表述",
+          "原文“寫萬備不來”中“寫”字未释读，直接遗留不通顺的“万备不来”表述，未说明该句存疑"
+        ],
+        "uncertainty": [
+          "“寫萬備不來”语义不明",
+          "“伯十氏曰或有”表述不完整，后续内容缺失"
+        ]
+      },
+      {
+        "id": "book030-b000668-p000-39e3e21503",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为heading类型，candidate未保留标题格式，擅自改写为“文中提到了…这一说法”，不符合标题类内容的释读要求"
+        ],
+        "uncertainty": [
+          "“同家通砂就圖案過砂能”具体含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000669-p000-a8f8a73bee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“解虎”语义不明，candidate直接保留未做风险标注",
+          "原文“此句大非大談”被误释为“这句话绝非空谈”，含义完全相反，原文意为“这种说法非常错误，是妄谈”",
+          "原文“龍虎兩今”被误释为“龙、虎二字”，形近字识别错误，应为“龙虎两全”类表述，未说明此处存疑"
+        ],
+        "uncertainty": [
+          "“解虎”具体所指不明",
+          "“龍虎兩今”存在文字讹误，语义不明"
+        ]
+      },
+      {
+        "id": "book030-b000671-p000-e02de49c78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000672-p000-ef0975661f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文语序混乱，语义无法明确，candidate仅调整语序未做风险提示"
+        ],
+        "uncertainty": [
+          "整句语义不明，疑似OCR识别错误或原文残缺"
+        ]
+      },
+      {
+        "id": "book030-b000673-p000-454ae265aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000674-p000-026efb2eac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水軀勝于山龜”被误释为“水胜过山”，漏译“軀”“龜”二字，且未说明此处原文可能存在讹误",
+          "原文“壬戊年”释读未标注干支合理性风险，干支组合中无“壬戊”，应为“壬戌”“戊子”等类似表述",
+          "原文“卯上金星雖止旺神”被误释为“卯上金星虽为旺神”，漏译“止”字，语义改变",
+          "原文“共非巳 一”语义不明，candidate直接保留“并非巳一”未做风险标注"
+        ],
+        "uncertainty": [
+          "“水軀勝于山龜”疑似文字讹误，语义不明",
+          "“壬戊年”干支组合不成立，应为识别或传抄错误",
+          "“共非巳 一”语义不明，疑似原文残缺"
+        ]
+      },
+      {
+        "id": "book030-b000675-p000-af4e9a816e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000677-p000-2b06b32b04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2350,
+    "completion_tokens": 978,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2350,
+      "completion_tokens": 978,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

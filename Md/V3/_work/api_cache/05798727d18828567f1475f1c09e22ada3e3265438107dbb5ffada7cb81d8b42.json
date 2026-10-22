@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T08:30:03.644795+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "05798727d18828567f1475f1c09e22ada3e3265438107dbb5ffada7cb81d8b42",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000195-p000-22f4c8c777",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "uncertain",
+        "modern_text": "此处为《正宗》卷之下的内容，涉及穴、砂、水、向、明堂、玄武等风水术语，原文存在多处残缺、错乱，部分语句难以完整释读，具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在多处残缺、错乱，部分语句难以完整释读"
+        ]
+      },
+      {
+        "id": "book008-b000201-p000-802c3d39be",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "民众生活不匮乏，便是明堂的合宜形制。逆局的明堂也需遵循一定规则，地势低平是平洋的格局，地势高则指山穴而言。穴的朝向、朝水等需结合具体情况判断，理气家以三篇为依据，艮为地，建丁为人，明堂的选择只要横向的案山紧密整齐即可，不必拘泥于顺流而下百里对山的情况，也不必执着于近案的横向方位。还有想要朝山如摇锁马的说法，实则并无实际意义，不必牵强附会于土牛牵动之说，若两边龙砂、虎砂没有回转之意，即便葬下也难有好的结果，申拔直长而狭窄的逆来水尚且嫌其冲射，更何况顺流而去的情况呢。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在部分残缺、错乱，部分语句语义不够明确"
+        ]
+      },
+      {
+        "id": "book008-b000202-p000-d47f143bd5",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "金鱼水相关内容见于第三十五篇，凤水汇聚之处为小的明堂，是员幕下甬水交汇的地方，面积约一亩，小明堂的情况在粤目县的平处。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在残缺，部分语句语义不完整"
+        ]
+      },
+      {
+        "id": "book008-b000203-p000-8c026d3c35",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "甫造稜时便觉收聚真木贮于其中，其解释为下水父是中明堂，也叫内明堂，并非小明堂，这一年的情况又有了新的变化。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在残缺，部分语句语义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3311,
+    "completion_tokens": 594,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3311,
+      "completion_tokens": 594,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-15T02:01:49.120309+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "874576ff54192a675d228c460bbdd971dcc73550e8a5b592c13146e1812dda84",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001668-p000-131cf59b98",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'福力遂歇'指福力因此停歇，candidate译为'原本福力因此得以延续'，意思完全相反。",
+          "原文'今其壩開科甲仍盛'指如今堤坝被打开/拆除，科甲依然兴盛。candidate译为'堤坝已被拆除，福力随之停歇，然而科甲功名却依然兴盛'，将'福力遂歇'与'今其壩開'的因果关系错置，且'福力遂歇'是前文'築承河撫壩'的结果，并非'今'的结果。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001672-p000-2eef65ae74",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中的'良龙'是否应为'艮龙'尚不确定",
+          "'戏水金星'的具体形态细节原文未详述"
+        ]
+      },
+      {
+        "id": "book033-b001681-p000-bacf9bdbab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文字顺序完全错乱，无法还原原意",
+          "无法判断其中是否包含有效信息"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 289,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1124,
+      "completion_tokens": 289,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

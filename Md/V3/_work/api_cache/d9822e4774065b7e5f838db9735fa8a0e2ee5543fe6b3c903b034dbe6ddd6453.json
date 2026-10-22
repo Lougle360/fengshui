@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:27:46.902114+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d9822e4774065b7e5f838db9735fa8a0e2ee5543fe6b3c903b034dbe6ddd6453",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000672-p000-342415ca41",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读未明确标注原文中多处含混表述的不确定性，将原文未明的内容直接按确定含义释读，违反风险标注规则"
+        ],
+        "uncertainty": [
+          "原文中「木雖身鍊亦是員頂」「水穴依母亦是員頂」「土必穴子亦是員頂」「火不作穴必穴水土仍是負頂」「郭氏羅備五行及言穴法斷曰乘金」等表述具体所指未明，释读未标注相关不确定性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 967,
+    "completion_tokens": 159,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 967,
+      "completion_tokens": 159,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

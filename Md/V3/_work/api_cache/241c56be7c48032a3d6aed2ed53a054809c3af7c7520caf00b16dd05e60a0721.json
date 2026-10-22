@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-23T05:40:20.438969+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "241c56be7c48032a3d6aed2ed53a054809c3af7c7520caf00b16dd05e60a0721",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000098-p000-415cbc96d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000102-p000-89a9fb245e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000106-p000-155d397463",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000114-p000-3c6df8e662",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000116-p000-ad5f2a4764",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘窥地厚四万里’，candidate 漏译‘窥’字，该字有‘观测、推测’之意，漏译可能改变语气或含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000117-p000-0e2b21cf2c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘龙八卦成’应理解为‘龙与八卦形成’或‘龙八卦形成’，candidate 译为‘龙与八卦也随之形成’，增译了‘也随之’，改变了原文的并列或承接关系。",
+          "原文‘揆历以日数为准’中的‘揆’意为‘度量、推算’，candidate 译为‘推算历法以日数为准’，此处‘推算’可接受，但‘历法’为增译，原文仅‘历’一字，可能指历数、历象或历法，增译可能缩小原意。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 382
+  }
+}

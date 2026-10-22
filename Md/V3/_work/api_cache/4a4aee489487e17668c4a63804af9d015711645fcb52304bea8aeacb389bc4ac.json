@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T20:33:34.260455+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4a4aee489487e17668c4a63804af9d015711645fcb52304bea8aeacb389bc4ac",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003492-p000-bfa617f7ff",
+        "language": "modern_chinese",
+        "content_type": "文献评述",
+        "action": "preserve",
+        "modern_text": "有内容说明，《重定费氏学》引用黄道周的言论称：“渐，就是次序的意思：按爵位高低排序，按年龄长幼排序，按贤能程度排序，都属于序。这是圣人用来教导人们恭顺悌敬的道理。《诗经》说‘接受爵位的时候毫不谦让，等到自己身上就会败亡’。如果能知晓‘渐’的含义，差不多就可以改善社会风俗了。”黄道周引用《诗经》（《小雅·角弓》）来做阐释，点明“争相冒进”的危害，反过来衬托“循序渐进”的意义，很适合拿来参考。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003493-p000-41c9ce3258",
+        "language": "classical_chinese",
+        "content_type": "易经爻题",
+        "action": "rewrite",
+        "modern_text": "## 初六爻：大雁渐进到水岸边；幼童遭遇危险，受到言语非议，最终没有咎害",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003494-p000-b9f67bbf98",
+        "language": "modern_chinese",
+        "content_type": "爻辞译文",
+        "action": "preserve",
+        "modern_text": "初六爻的译文：大雁飞行，渐进到水（风水语境中的河流、水系及其来去形态）边，还没有获得安宁；就像年幼的孩童遭遇危险，受到言语中伤，但只要能做到循序渐进、不急躁冒进，就不会遭受咎害。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003495-p000-46b81377c8",
+        "language": "mixed",
+        "content_type": "爻辞注释",
+        "action": "rewrite",
+        "modern_text": "注释①“鸿渐于干”：鸿是水（风水语境中的河流、水系及其来去形态）鸟，也就是大雁；干指水边。这句话用大雁渐次飞行的意象做比喻，说明初六处在《渐》卦的初始位置，气质柔弱、地位卑下，上方没有对应的援助力量，推进的程度还很浅，没有得到安稳的处境。《正义》里说：“鸿是水鸟，干是水边。渐进的规律是从低处往高处走，所以用大雁从下往上飞的情形来做比方。初爻是刚开始推进，还没有得到俸禄。”",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾“未得禄”后内容残缺，未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1625,
+    "completion_tokens": 739,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1625,
+      "completion_tokens": 739,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

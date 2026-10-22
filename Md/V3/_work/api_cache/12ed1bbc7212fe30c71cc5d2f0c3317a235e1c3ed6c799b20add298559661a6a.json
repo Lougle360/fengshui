@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T12:10:58.763994+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "12ed1bbc7212fe30c71cc5d2f0c3317a235e1c3ed6c799b20add298559661a6a",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000417-p000-96ab2a62e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "将原文中‘必不可有’误释为‘一定存在’，与原文含义相反；‘隐薇’未按要求保留引号，直接释为‘之中’，不符合术语处理规则；‘肺侧龄’未保留引号，直接释为‘肺侧龄’（此处虽保留文字但未按要求加引号，属于处理不当）"
+        ],
+        "uncertainty": [
+          "原文未明的‘鬼乐’‘帐峡燕蔽’‘肺侧龄’‘隐薇’，释读中未明确标注具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000418-p000-c15ce097ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "‘本星’未按要求保留引号，直接释为贴近的概念，不符合术语处理规则"
+        ],
+        "uncertainty": [
+          "原文未明的‘本星’，释读中未明确标注具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000419-p000-bcfbd89250",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "‘南击之’‘拥券作挽篮’未按要求保留引号，直接释为具体内容，不符合术语处理规则"
+        ],
+        "uncertainty": [
+          "原文未明的‘南击之’‘拥券作挽篮’，释读中未明确标注具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 349,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1287,
+      "completion_tokens": 349,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T17:41:04.315990+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "31c3c444b862c84f8c8a50ea1c32cc95dc944a2f8e407bd698f24e966dd0e4d3",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000827-p000-f4de7e210c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000830-p000-174cf334e9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第一句“窩窩不圓平粘氣拖乳窩開窩何者是須詳急硬下平坡”释读存在断句偏差，原句断应为“窝不圆平，粘气拖乳，窝开窝何者是？须详急硬下平坡”，候选错误将“急硬下平坡”内容遗漏未译，且将“开窝”误释为“窝形的开敞之处”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000831-p000-a77f163886",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000832-p000-d2dd45d45d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“機全書○卷四 七”为“《机全书》卷四、七”，候选误作“卷四七”，数字合并错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000833-p000-2337a0d191",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000834-p000-8b6d403dbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不怕後面乾捨水来”断句应为“不怕后面乾舍水来”，候选误断为“不怕后面乾位，有水来推”，擅自拆分“乾捨”为“乾位”，属于无依据增译，且添加了原文没有的“推”相关表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000835-p000-93eda43312",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000836-p000-78ac628967",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第一句“乳穴勢急明堂瀉借向安墳粘氣下”与后句存在内容重复，候选未梳理语义直接重复翻译，且“虽是脱气扦实不可太脫”未转换成通俗白话，保留了文言表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000837-p000-90cb587a2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000838-p000-c0796d3a07",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“突土金難畫是就土中生金微突起”未转换成通俗白话，保留了晦涩文言表述，且未说明“金难画”的含义模糊性，易造成读者误解"
+        ],
+        "uncertainty": [
+          "“突土金难画”具体含义原文未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2207,
+    "completion_tokens": 890,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2207,
+      "completion_tokens": 890,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

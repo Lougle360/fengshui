@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-17T19:58:39.126228+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "52fc7e36e0b3e9883e46e36fadfcb1aaef75b2c3c694ee3d17864f82a63a2e88",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004529-p000-9d8bb21068",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将'汉气旺'译为'汉气旺盛'，'汉气'为不透明术语，应加引号或标注原文未明，不能直接作为确定概念使用。",
+          "'更寻出脉在何山年命最相以此推'一句，candidate译为'更要寻找出脉所在的山峰，结合年命来推算'，将'年命'与'出脉'的关系处理为'结合'，原文'在何山年命最相以此推'结构含混，可能指'出脉在何山'与'年命'相合来推，但candidate的译法将不确定关系写成了确定事实。建议标注原文结构模糊，具体关联方式不详。"
+        ],
+        "uncertainty": [
+          "'汉气'具体所指不详。",
+          "原文'更寻出脉在何山年命最相以此推'的句读和逻辑关系存在歧义。"
+        ]
+      },
+      {
+        "id": "book035-b004530-p000-9a8a334f0b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004531-p000-b466471e94",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "表格内容转换时，'左出圭监右出司徒'，'圭监'为不透明术语，candidate直接保留未加引号或说明，应标注'圭监'原文未明，不能作为确定官名。",
+          "'顶地顽石者方为合格'，candidate译为'顶地顽石者方为合格'，'顶地'可能为'顶有'或'顶是'之误，但原文如此，candidate直译未处理此潜在讹误，应标注原文'顶地'可能为'顶有'之误或具体所指不详。"
+        ],
+        "uncertainty": [
+          "'圭监'具体所指不详。",
+          "'顶地顽石'的'顶地'可能为讹字，具体含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 464,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1188,
+      "completion_tokens": 464,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

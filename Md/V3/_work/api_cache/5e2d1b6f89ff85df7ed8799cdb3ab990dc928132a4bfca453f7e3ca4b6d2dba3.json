@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T04:14:18.723511+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5e2d1b6f89ff85df7ed8799cdb3ab990dc928132a4bfca453f7e3ca4b6d2dba3",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000066-p000-90be3495b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头的“詎可不知”是反问语气，表强调，此处释读为“绝对不能不知道”语义接近，但末尾原文“此即其重龍而”语意未竟，candidate补为“这就是重龙的情形”属于无依据补全原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000067-p000-25aa3a9ec5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文开头的“結之也則”部分内容，原文主语是“結之”相关的内容，candidate直接译为“这是人人都能说出口的道理”，未对应原文开头表述，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000068-p000-c95e87d4a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000069-p000-71b1661aec",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book036-b000070-p000-a506561076",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000071-p000-6259f74575",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000072-p000-b6f85bbeca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000073-p000-569d02abba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000074-p000-fdf9eb2cbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“皆禍福所闕”的“闕”释读为“关键要素”属于误译，“闕”在此处应为相关、关联义，而非关键；原文“時刻地圗”误译为“过去的地刻图”，“圗”是“图”的古字，“時刻地圗”应是当时刊刻的地图，candidate字形理解错误；原文末尾“遠容先須知四落初末素分皆可作”语意未竟，candidate直接原样保留未做说明，且其中“地圓”应为“地圖”的形近讹误，candidate未标注该歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000077-p000-3d830211e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2194,
+    "completion_tokens": 766,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2194,
+      "completion_tokens": 766,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

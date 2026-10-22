@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-23T16:15:09.396137+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "64816ba0fc5c5d644d40dcab666d5d10258ee787ae8257eb0c0f3988c3d45267",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001060-p000-c7266169d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对原文‘缙云人杨公高弟’的解读超出了风险标注的合理范围。原文表述清晰，意为‘缙云人，杨公的高徒’。候选句将其拆解为两种可能，并称‘原文未加标点’，这属于无依据的推测和增译。正确的白话释读应直接译为‘缙云人，是杨公的高徒’，若需标注歧义，应基于原文本身可能存在的歧义（如‘杨公’是否指缙云人），而非自行创造新的断句可能。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 704,
+    "completion_tokens": 170,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 704,
+      "completion_tokens": 170,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

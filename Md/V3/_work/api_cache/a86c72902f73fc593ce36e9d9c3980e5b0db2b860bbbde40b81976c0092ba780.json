@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-24T22:09:41.307055+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a86c72902f73fc593ce36e9d9c3980e5b0db2b860bbbde40b81976c0092ba780",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000308-p000-851b3af64d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文第一列的“灰天張進”属于未明确可考的OCR内容，候选直接认定为“承天張進”属于无依据的确定释读，不符合含混内容处理规则。",
+          "2. 候选对“载寰公坤”的“坤”额外标注“八卦之一，卦象及五行、方位依原文语境确定”属于错误增注，此处“坤”是人名用字，并非八卦术语，与locked_terms及allowed_glossary中作为八卦术语的“坤”适用场景不符，属于术语误释。"
+        ],
+        "uncertainty": [
+          "原文第一列“灰天張進”具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2248,
+    "completion_tokens": 191,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2248,
+      "completion_tokens": 191,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

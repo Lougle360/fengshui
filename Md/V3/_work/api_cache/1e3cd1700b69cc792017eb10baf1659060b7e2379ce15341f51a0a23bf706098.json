@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T11:01:48.246868+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1e3cd1700b69cc792017eb10baf1659060b7e2379ce15341f51a0a23bf706098",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000115-p000-abc619a0d5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘八于海局’的表述存在歧义，候选释读未明确该表述的具体所指，属于未准确处理含混短语的问题；‘奥语’未明确具体含义，候选释读直接保留但未标注风险，不符合要求"
+        ],
+        "uncertainty": [
+          "‘八于海局’具体所指不详；‘奥语’具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000116-p000-4e6ed6086e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘辛壬会’的表述存在歧义，候选释读未明确该表述的具体所指，属于未准确处理含混短语的问题；‘文曲从头出’的表述未明确具体含义，候选释读直接保留但未标注风险，不符合要求"
+        ],
+        "uncertainty": [
+          "‘辛壬会’具体所指不详；‘文曲从头出’具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000117-p000-62c172ce70",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘乙丙亥’的表述存在歧义，候选释读未明确该表述的具体所指，属于未准确处理含混短语的问题；‘位位是贞’的表述未明确具体含义，候选释读直接保留但未标注风险，不符合要求"
+        ],
+        "uncertainty": [
+          "‘乙丙亥’具体所指不详；‘位位是贞’具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000118-p000-ad1cb573a7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘斗牛纳’的表述存在歧义，候选释读未明确该表述的具体所指，属于未准确处理含混短语的问题；‘尽是武曲位’的表述未明确具体含义，候选释读直接保留但未标注风险，不符合要求"
+        ],
+        "uncertainty": [
+          "‘斗牛纳’具体所指不详；‘尽是武曲位’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 510,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1643,
+      "completion_tokens": 510,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

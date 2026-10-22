@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-25T05:40:13.544798+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b817ddd4a380cd38773b2ad844ed5d84991860b00e47f8f121f9dd96b25b4e5",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000110-p000-3b226747ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句“功顺转”被误释为“顺应运势的变化而行动”，释义无依据。原文“天为阳明矣其有长才深智，物爱生，敬晓斯门”存在漏译，“物爱生”被错释为“懂得爱惜生命”，断句及含义均偏离原文。原文“利济之徒”被误释为“能利益他人的事”，语义不符。"
+        ],
+        "uncertainty": [
+          "“功顺转”具体所指不明确，“工”的具体含义（指用工数还是某种风水操作单位）原文未明，“天为阳明矣其有长才深智”句存在断句歧义"
+        ]
+      },
+      {
+        "id": "book021-b000111-p000-022948d542",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“拆故营新”被误释为“拆除旧的营舍、建造新的住宅”，“营新”的“营”是营建的意思，此处无“营舍”含义；原文“爻卜相伏”被误释为“通过爻卜来观察吉凶的对应关系”，“相伏”的含义未准确传达；“移南徙北”是指迁徙、变动住地，不是“迁移住宅的南北方位”。"
+        ],
+        "uncertainty": [
+          "“爻卜相伏”的具体卜法含义原文未明"
+        ]
+      },
+      {
+        "id": "book021-b000112-p000-409abe52ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“逐人得变吉凶者，化也”中“化”的具体术数指向原文未明"
+        ]
+      },
+      {
+        "id": "book021-b000113-p000-6e5e2616fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“宅非宅气，由移来以变之”的具体操作逻辑原文未进一步说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2830,
+    "completion_tokens": 540,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2830,
+      "completion_tokens": 540,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

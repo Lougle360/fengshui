@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T18:40:14.094415+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ab2a5330abcc3ae84d18b2d0313f84ac9d33ee676a495f4b4a9765368ae04d35",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002120-p000-d59d2ec1aa",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "《象传》说：“太阳将落，垂垂附丽在西天”，这种情状怎能保持长久呢！",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002121-p000-517577f78d",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 《象》曰：“日昃之离”，何可久也！——《象传》说：“太阳西斜时的‘离’（八卦之一），这种情状怎能保持长久呢！",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002122-p000-b703d4c4e2",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《集解》引用荀爽的话说：“初爻对应日出，二爻对应日中，三爻对应日昃。”这里把下卦三个爻的象义揭示得十分清楚。创作《周易》的人在九三爻设置了“嗟”“凶”的告诫，实际是要让人领悟到事物有“日暮”“途穷”的时刻，所以应当及时自我抑制，不可一味亢进不止。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002123-p000-325d62023c",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "九四，突然升起火红的暾霞，像烈焰在焚烧，但顷刻间又消散灭亡，被弃除净尽。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1631,
+    "completion_tokens": 493,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1631,
+      "completion_tokens": 493,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

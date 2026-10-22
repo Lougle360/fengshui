@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T04:32:21.443660+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "abde32046a6226c5ed5047f442c40b11d89f518ad7a8068dceb2316faec63add",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000477-p000-b066ddb06d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘擅者’在candidate中被解释为‘指气脉不在下也不在上，天生自然，气脉聚结于中间’，但‘擅’字在风水术语中罕见，此解释缺乏依据，属于无依据扩写。应保留原词并标注具体所指不详。",
+          "原文‘朝低則以輕爲廳’中‘廳’字，candidate按‘轻为是’处理，但未明确标注此字可能为误字，属于风险处理不当。应标注‘厅’字可能为‘是’或‘重’之误。",
+          "原文‘細愉脈情’中‘愉’字，candidate按‘细察脉情’理解，但未标注此字可能为误字。应标注‘愉’字可能为‘察’或‘审’之误。",
+          "candidate中‘正如经书所言：“至中下夺，葬其傍”，指的就是实倚。’此句将‘至中下夺，葬其傍’明确归为‘实倚’的解释，但原文‘要議通死挨生至實經雲至中下奪葬其傍是也’断句存在歧义，此认定过于确定。应保留歧义说明。",
+          "candidate中‘但若无识见之人，便不知轻重。’是对原文‘方無識也’的扩写，原文仅指‘才能没有错失’，并未特指‘识见之人’。属于增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000478-p000-9e3b9026f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000479-p000-5b03be84ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000480-p000-752fa696b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000481-p000-79a7d329b2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate中‘称为等阳（此处具体所指不详，疑为“等阴”或特定术语）。’处理得当，但‘等阳’本身是opaque_term，应被引号引用，不能被赋予‘疑为等阴’的推测。应仅标注‘等阳’具体所指不详。",
+          "原文‘從下生上者乃’句末有缺文，candidate仅以‘乃地气上升’结束，属于补全推测，应明确标注句意不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000482-p000-2cda0d4855",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate中‘四凶二吉二有（此处具体所指不详）。’处理得当，但‘二有’是opaque_term，应被引号引用。",
+          "candidate中‘的（此处具体所指不详，疑为“的”字误或特定术语）生女也。’将‘的’字单独提出解释，但原文‘的 生女也’可能整体为错乱文本，此处理可能割裂了原文潜在的连贯性。应整体标注该句语义不通，具体所指不详。",
+          "candidate中‘深识秋（此处具体所指不详，疑为“秋”字误或特定术语）有劝道庙娓（此处具体所指不详，疑为“庙”或“娓”字误）编’，将‘秋’、‘庙娓’分别解释，但原文‘深識秋有勸導廟娓編’可能是一个整体难以理解的短语。应整体标注该短语语义不通，具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000483-p000-f4c1242178",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000486-p000-7a687ce339",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘山欽文由風流各甫之人’和‘岖仙黼桃關畝坤宮’作为整体引文处理，但未明确标注这些短语具体所指不详，且‘岖仙黼桃關畝坤宮’在candidate中被整合进叙述句，未保持其作为难以理解短语的独立性。应明确标注这些短语具体所指不详，并保持其被引用的形式。",
+          "candidate中‘这里指出‘太陰’指的是‘蛾眉金星’’，将‘太陰’与‘蛾眉金星’等同，属于术语解释。但‘蛾眉金星’不在allowed_glossary中，此解释缺乏依据。应仅说明‘太陰’具体所指不详，或保留原文‘太陰者蛾眉金星也’的表述并标注其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000488-p000-9857a0310b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将表格内容转换为叙述句，但原文为HTML表格，其结构（如行合并、列合并）可能包含重要信息（如层级、并列关系），candidate的转述可能丢失了这些结构信息。对于复杂版面的HTML，应更谨慎处理，或说明原文为表格，内容按行转述。",
+          "candidate中‘两指、牛肋6’等词未加引号，且‘牛肋6’中的‘6’可能为编号或误字，candidate未作说明。应将这些难以理解的词用引号引用并标注具体所指不详。",
+          "candidate中‘若头部开裂两指且形状像羊蹄，会导致子孙忤逆朝山’将‘朝山’理解为‘朝拜山’或动作，但‘朝山’是locked_term，应指穴前的山体。此处‘忤逆朝山’可能为‘忤逆’和‘朝山’两个概念的并列，或‘朝山’为误植。candidate的解释可能错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000489-p000-124700995f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3391,
+    "completion_tokens": 1394,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3391,
+      "completion_tokens": 1394,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

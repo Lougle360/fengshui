@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-26T06:08:43.679814+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a13d9f90690473940b533273f42bb8531c044a4051182bab093ffa60404d5d26",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000023-p000-ad6629a0e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source首行“王ノ今”被误写为“王今”，漏译日文假名“ノ”；source中“德與”被误写为“德興”，字形转换错误；source中“德興”出现两次，一处对应正确，另一处原“德與”讹误为“德興”存在前后地名混淆风险；source中“論青龍曰處”的“曰”为原文用字，疑似“缺”等字讹误但未标注，直接保留无说明；“浮染李侍郎”疑似“浮梁李侍郎”的原文讹误，未做标注说明"
+        ],
+        "uncertainty": [
+          "原表中存在一处残缺字符“？”，无法确认其含义；“論青龍曰處”中“曰”字疑似讹误，具体含义不明；“浮染李侍郎”地名用字疑似有误，无法确认是否为“浮梁”的抄写错误；“也里一貞”“論諸泉毗十”“論諸水九七二十海湖水黃河水江湖水”表述含混，具体所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2812,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2812,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

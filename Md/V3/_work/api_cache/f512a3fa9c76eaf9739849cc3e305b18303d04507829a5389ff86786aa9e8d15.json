@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-24T11:15:05.141038+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f512a3fa9c76eaf9739849cc3e305b18303d04507829a5389ff86786aa9e8d15",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000163-p000-e729a9cb2b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“缓阿囊心印庙编倒杖”“乾滋判”等含混短语强行拆分释读，未保留原文的不确定性，且“阿囊心印庙编倒杖”“乾滋判”属于opaque_terms，不应赋予确定含义"
+        ],
+        "uncertainty": [
+          "缓阿囊心印庙编倒杖",
+          "乾滋判"
+        ]
+      },
+      {
+        "id": "book012-b000164-p000-6aec63a386",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“中正对撞随势哉成”“迎扩放送”等含混短语强行释读，未保留原文的不确定性，且“迎扩放送”属于opaque_terms，不应赋予确定含义"
+        ],
+        "uncertainty": [
+          "中正对撞随势哉成",
+          "迎扩放送"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 233,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1156,
+      "completion_tokens": 233,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-09-25T16:25:35.866831+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ca703c48f50e149f3cbbe1d35cf9b511a5c116a653406e114c6727a536a4c545",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000740-p000-6fc3acfacb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文后段文字语序错乱、存在大量残损，无法连贯释读"
+        ]
+      },
+      {
+        "id": "book026-b000742-p000-fef47fb7e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "字符“d”含义不明",
+          "“周寄家岁”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000743-p000-fb6c4cb44f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文大量内容语序错乱、字迹不清，无法连贯释读"
+        ]
+      },
+      {
+        "id": "book026-b000744-p000-d567a5bd80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“人形有三停之必惟蘇腹最為深舊”断句有误，候选误将“必”归入前半句讹误，实际应为“人形有三停之，必惟苏腹最为深旧”；“选穴不拘泥于左侧”表述错误，原文明确是“不拘左也是”即不拘左右，遗漏右侧表述"
+        ],
+        "uncertainty": [
+          "“写一公颂发千仓禾是也”语义不明",
+          "“翼阿最限岁”语义不明"
+        ]
+      },
+      {
+        "id": "book026-b000749-p000-def5c5d9b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“惟木土金三星 盖穴其”语序断裂，无法完整释读",
+          "“剽穿家岁”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000751-p000-242cb87fb9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错乱字符、残损内容，多数内容无法连贯释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2382,
+    "completion_tokens": 534,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2382,
+      "completion_tokens": 534,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

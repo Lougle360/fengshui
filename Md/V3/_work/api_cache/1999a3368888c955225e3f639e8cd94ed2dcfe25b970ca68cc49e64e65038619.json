@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T13:34:58.248893+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1999a3368888c955225e3f639e8cd94ed2dcfe25b970ca68cc49e64e65038619",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000461-p000-65cb5ddfb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“坎大良七”实为“坎六艮七”的讹写，候选未标注原文讹误直接释为“坎六”，未说明处理依据",
+          "原文“坐辰千來申去”的“千”未做风险标注，候选直接释为“向”属于无依据补义",
+          "原文“夫生坐為王”误译为“去方生坐山为最优规则”，逻辑错误：原文核心是坐山受生为尊，候选增加了“来方生去方、去方生坐山”原文没有的规则",
+          "原文“獲禍時有”被译为“如果不符合规则常会招致灾祸”，属于无依据增译，原文未说明灾祸与不符合规则的直接对应关系",
+          "原文“乾甲局而坐者”被译为“乾甲局却坐对应方位”属于模糊处理，未如实反映原文表述残缺的情况",
+          "原文“子隔八生子符合其誤人之數巳見”被译为“子隔八生子的规则与这种错误做法并不相符”，语义完全颠倒：原文是说错误做法不符合隔八生子的规则，因果关系译反"
+        ],
+        "uncertainty": [
+          "等申來展去含义不明",
+          "坐丑來巳去畿盛壬去含义不明",
+          "第卯來未去坐辰千來申去集聚幾乘寨含义不明",
+          "坐未聖含义不明",
+          "三九之較、三九環生之机具体规则原文未明"
+        ]
+      },
+      {
+        "id": "book025-b000471-p000-b2f70ab83b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "鉛彈子天干化合 五一为版本标识，具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1774,
+    "completion_tokens": 511,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1774,
+      "completion_tokens": 511,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

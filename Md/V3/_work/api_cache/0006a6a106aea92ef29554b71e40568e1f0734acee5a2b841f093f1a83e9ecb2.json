@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T08:57:39.801333+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0006a6a106aea92ef29554b71e40568e1f0734acee5a2b841f093f1a83e9ecb2",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000174-p000-1b24a69992",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中多处语句不通顺、语义断裂，如‘杂头穴则取穴于下因融门而连类’‘葛穴解也’‘信观而已非我所能冀有也’‘金全处揭以示人面何’‘人之奎不则会也’‘只有本身独高而余山皆低者仙佛之地合屏帐盖’等，候选释读未修正此类问题，且存在将原文模糊表述直接确定为事实的情况，如‘并非如此，只是凭观察而已’，原文未明确此含义，属于无依据扩写"
+        ]
+      },
+      {
+        "id": "book009-b000176-p000-f992444685",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处语义断裂、表述模糊的内容，如‘北甲火故金法血水金頭木腳者同推’‘水寫以木’‘可鍬皮葬之’‘是眼木所爲’‘五吉上凶見楊公凡倒地直水而’‘工歷結穴’‘是又一沈’‘女豈有不生有者乎’‘禁死木’‘具貪復之體’‘是上星經來雙方木’‘不宜金’‘南之無化氣不者’‘此炁指蘆花也以其曲故一起通而爲交曲冰蓋起頭期’等，候选释读无法形成通顺合理的现代中文，无法准确转译"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3754,
+    "completion_tokens": 396,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3754,
+      "completion_tokens": 396,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

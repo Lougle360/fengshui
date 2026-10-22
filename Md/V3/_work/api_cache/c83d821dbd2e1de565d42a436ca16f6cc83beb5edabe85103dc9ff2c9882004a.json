@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T15:27:05.753180+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c83d821dbd2e1de565d42a436ca16f6cc83beb5edabe85103dc9ff2c9882004a",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000554-p000-cc2d9f2598",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“宋雀切忌破头”，候选误写为“庄周的后人在宋代发达昌盛”，属于无依据臆译；原文“獨零枯協明人 必主退敢”被译为“唯独零枯的地方，明人必定会认为会退败”，将含混表述臆断为确定含义；大量OCR残损内容未标注“无法释读”，直接保留乱序字符，未做明确风险提示；原文“朱雀”被误写为“宋雀”且未修正或标注"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR错位、缺字、讹误，大部分内容语义不可辨识，仅少量零散风水术语可识别"
+        ]
+      },
+      {
+        "id": "book026-b000555-p000-8bd019eb2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "该段原文多有缺漏讹误，大部分内容语义无法辨识，仅可识别“水”“震”等少量术语"
+        ]
+      },
+      {
+        "id": "book026-b000556-p000-8b484ecc85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“朱雀切忌破头”被误写为“宋雀切忌破头”，属于字形辨识错误，未做修正或标注；未按要求将文言转换为普通读者易懂的白话，仅直接抄录原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000557-p000-d2885ede45",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“處即右貳主山”被译为“处指的是右弼主山”，“右贰”无依据认定为风水术语“右弼”，属于无依据增释；原文“惠張見所謂”被译为“张见所说的”，属臆断人名；原文“自經此中來”被译为“自经此中来”，未明确此处“自经”是“从此经过”而非“自缢”，存在歧义未标注；原文“宋崔對山也”被译为“崔对山”，遗漏“宋”且未做标注"
+        ],
+        "uncertainty": [
+          "原文存在部分缺字、语序混乱，部分专名所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000558-p000-87c25934f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000562-p000-98929c2811",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“君山上靜斛不正山下麥墨不齊”被译为“若上部静止、下部歪斜不正”，属于无依据臆译，“靜斛”“麥墨”为残损不可识别内容，不应强作解释；原文“四應嵌從希左邊空缺全無遼關”被译为“四应的位置从左边空缺，全无辽阔”，语义不通，属于强译残损内容；原文“其吉近通”被译为“其吉凶近通”，无依据增加“凶”字，改变原文含义"
+        ],
+        "uncertainty": [
+          "原文存在部分讹误、缺字，“静斛”“麦墨”等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000564-p000-68a5e3b3ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“八 千注基”属于版式残留或残损内容，未标注“含义不详”，直接抄录易误导读者认为是正文内容"
+        ],
+        "uncertainty": [
+          "“八千注基”具体所指不详，疑为版刻标注或讹误内容"
+        ]
+      },
+      {
+        "id": "book026-b000565-p000-49af192725",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000566-p000-a11f7f0a57",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大醇而怒 疵”被译为“大体醇正而少瑕疵”，无依据将“怒”改为“少”，属于改字臆译；原文“，横 来”为残损内容，直接抄录未标注“语义不完整，具体所指不详”"
+        ],
+        "uncertainty": [
+          "原文存在缺字、语序混乱，“怒疵”“横来”表述语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000567-p000-f797707c1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3432,
+    "completion_tokens": 1159,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3432,
+      "completion_tokens": 1159,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

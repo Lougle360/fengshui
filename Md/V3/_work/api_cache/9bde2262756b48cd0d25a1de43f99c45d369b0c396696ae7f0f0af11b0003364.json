@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:47:33.937421+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9bde2262756b48cd0d25a1de43f99c45d369b0c396696ae7f0f0af11b0003364",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001349-p000-ace84f550f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001350-p000-8f49730a42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001351-p000-cbecc0ba87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001352-p000-b2d3bdc321",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将震、兑的卦象符号☳、☱加入释读，超出allowed_glossary规定的术语解释范围，allowed_glossary仅允许将震、兑解释为八卦之一，不得添加卦象符号"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 242,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1309,
+      "completion_tokens": 242,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

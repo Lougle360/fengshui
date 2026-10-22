@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-15T06:44:07.674863+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a3552e37b5ba5346c8e93755646b90e101c9bf54e29ad2924647c8a9c229220d",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002036-p000-40ec921ff6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002037-p000-d86d9d3dd9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将‘在炁為水’释读为‘在“水”（指风水语境中的河流、水系及其来去形态）的范畴内’，存在过度解释。原文‘在炁為水’可能指星宿在五行之气中属水，但‘炁’与‘气’通，此处‘水’更可能指五行属性，而非具体风水形态。candidate 使用了 allowed_glossary 中‘水’的定义，但该定义是特定于风水术数的，此处语境可能不同，存在术语误换风险。",
+          "candidate 将‘肖為豹’释读为‘且“肖为豹”’，表述不清。原文‘肖為豹’可能指星宿对应的动物形象为豹，但 candidate 未明确说明‘肖’的含义，且将其作为不确定项列出，处理方式可以接受，但释读本身不完整。"
+        ],
+        "uncertainty": [
+          "为口古为公",
+          "八都风批并如"
+        ]
+      },
+      {
+        "id": "book033-b002038-p000-2be60cc3dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002039-p000-1d84eb8ba9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将文中出现的‘水’和‘向’直接套用 allowed_glossary 中的风水术语定义（‘河流、水系及其来去形态’和‘建筑或穴位所朝的方位’），但原文语境不明，这些字可能并非用于风水术数，存在术语误换风险。"
+        ],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002040-p000-9925f7d4b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002041-p000-e66d29ca81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002042-p000-b8d7f89ba5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002043-p000-eb920dbb51",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将文中出现的‘水’直接套用 allowed_glossary 中的风水术语定义（‘河流、水系及其来去形态’），但原文语境不明，这些字可能并非用于风水术数，存在术语误换风险。"
+        ],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      },
+      {
+        "id": "book033-b002045-p000-653ebf4a04",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将文中出现的‘水’直接套用 allowed_glossary 中的风水术语定义（‘河流、水系及其来去形态’），但原文语境不明，这些字可能并非用于风水术数，存在术语误换风险。"
+        ],
+        "uncertainty": [
+          "原文结构严重损坏，无法连贯释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7391,
+    "completion_tokens": 795,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7391,
+      "completion_tokens": 795,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

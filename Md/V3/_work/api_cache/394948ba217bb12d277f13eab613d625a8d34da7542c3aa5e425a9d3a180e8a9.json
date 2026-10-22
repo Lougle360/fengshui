@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T10:57:55.335837+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "394948ba217bb12d277f13eab613d625a8d34da7542c3aa5e425a9d3a180e8a9",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000058-p000-483a7c3fb1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000059-p000-08b9f3aa34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000060-p000-ed83dfce14",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“棺不胃囊心印”含义存疑，已保留原句"
+        ]
+      },
+      {
+        "id": "book011-b000061-p000-097d3171fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2137,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2137,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

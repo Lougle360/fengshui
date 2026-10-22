@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T13:10:32.206711+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9286e0ceb04ff9a3f2d902bf035f402ec7d428dc0c89b873a8b39dd466c20539",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001077-p000-97ebdfdd3d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001081-p000-d4d386a07c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘右偏右襄’的‘襄’未作释读，‘邊富單提’‘湊沙’‘偏瘋偏死’‘洪破龍’‘麗日腰瘋殺’等表述未明确释读，存在语义模糊；将‘風歸龍腰，洪破龍麗日腰瘋殺’释为‘風歸龍腰，洪破龍，麗日腰瘋殺’，未明确‘洪破龍’‘麗日腰瘋殺’的具体含义，属于未完成释读"
+        ],
+        "uncertainty": [
+          "‘襄’‘邊富單提’‘湊沙’‘偏瘋偏死’‘洪破龍’‘麗日腰瘋殺’等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001082-p000-c769aa4aed",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘有微東處’‘宜限藏和有風場之有洪路流破’‘坦腹癰瘋’等表述语义模糊，未明确释读；‘1’为原文标记，未作处理"
+        ],
+        "uncertainty": [
+          "‘有微東處’‘宜限藏和有風場之有洪路流破’‘坦腹癰瘋’等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001083-p000-e7838606b5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘若無聲面’‘金剛肚絕’‘沮洳水蠱絕’等表述语义模糊，未明确释读；‘穴’的释读重复冗余，未区分不同语境下的含义"
+        ],
+        "uncertainty": [
+          "‘若無聲面’‘金剛肚絕’‘沮洳水蠱絕’等表述具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1783,
+    "completion_tokens": 516,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1783,
+      "completion_tokens": 516,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

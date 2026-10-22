@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-26T06:21:50.810492+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2c8fd9dc87083d1a92f7b71eb54b7c4bedb791ba9d8d1cb0b2c0be869bd269dc",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000077-p000-d80cbc0393",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "译文中“滅貊”应为“濊貊”，属于专名误写；“北紀之東至河南”与原文逻辑不符，原文此处表述为“北紀之東至北河之北為邢趙，南紀之東至河南，紀之東至河南之南為荆楚”存在语序错译，导致语义混乱；“貞海之國”应为“负海之国”，属于形近字误译，含义偏差；原文末尾“觀兩河”仅译为“观察南北两河的走势”属于表述不完整，原文未提及“走势”，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000079-p000-32007402d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“黄河与公”处存在缺损，缺损内容无法释读"
+        ]
+      },
+      {
+        "id": "book033-b000080-p000-2385d84c58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“都湖”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000081-p000-086fbae1d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "译文中将“其服起自西傾水草 也”的“服”直接推测为“脉”的讹误，虽标注但属于将推测内容前置，不符合释读规范，应先保留原文表述再标注疑似讹误；“百二山向”的“向”释读为“建筑或穴位所朝的方位”属于无依据套用术语，此处“山向”为风水中山脉的朝向相关表述，不宜直接限定为建筑/穴位朝向；“為沐”仅标注疑似地名讹误未说明不确定性，且“贪狼”未标注属于风水术语，虽属于常见术语但应明确标注保留原称的原因"
+        ],
+        "uncertainty": [
+          "原文多处存在缺损、讹误，包括“其服起自西傾水草 也”段、“經云行行退卻大散關在 府百二山向在此間”段缺损，“能耳”为“熊耳”的讹误，“為沐”疑似讹误，“充州”为“兖州”的讹误"
+        ]
+      },
+      {
+        "id": "book033-b000082-p000-d1e02361db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“堦冢”为“嶓冢”的形近讹误，“論止條除龍脈路”疑似讹误，语义不通",
+          "“湄州”具体所指存疑"
+        ]
+      },
+      {
+        "id": "book033-b000083-p000-414324c779",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "译文中“统一为‘昆仑’”属于私自改字，不符合locked_terms相关要求，应保留原文异体字或标注为“崑侖/崑崙，同昆仑”；“流到绛州注入水系”属于误译，原文明确为“入於海”，应保留原文表述并标注存疑，不应自行修改为“注入水系”；“海瑛”应为“海壖”的形近讹误，未标注说明，属于漏注"
+        ],
+        "uncertainty": [
+          "“西隻隻”疑似讹误，“幹海”疑似“瀚海”的讹误，原文记载汾水“至绛州入於海”不符合地理常识，存疑",
+          "“海瑛”疑似“海壖”的形近讹误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4486,
+    "completion_tokens": 940,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4486,
+      "completion_tokens": 940,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

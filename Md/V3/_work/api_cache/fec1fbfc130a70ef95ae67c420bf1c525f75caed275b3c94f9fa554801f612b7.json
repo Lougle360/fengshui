@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T18:58:49.807828+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fec1fbfc130a70ef95ae67c420bf1c525f75caed275b3c94f9fa554801f612b7",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000451-p000-9908dcf8d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000452-p000-d9d8a4cc28",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原句语义残缺，无法明确含义"
+        ]
+      },
+      {
+        "id": "book030-b000453-p000-69bdd20af8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000454-p000-e0c8d0fda1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000455-p000-1445429b68",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“说可地理散人卷二鉴水四十三”释读错误，“说可”未译，且“地理散人”是作者名号，并非书名，不应加书名号"
+        ],
+        "uncertainty": [
+          "“煬北”“自兎桥”“劫餘”具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000456-p000-a8824ec064",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“余麗之云造朝水領可發”释读错误，“造朝水領”语义未明确译出，“領”字未处理；“這是初學堪輿者之所爲據”释读为“这是初学堪舆的人所依据的”不准确，应为“这是初学堪舆的人做的（选址）依据”逻辑不通，原文表述存在语义偏差"
+        ],
+        "uncertainty": [
+          "“退田筆”“退神”具体含义无术语依据，“余麗之”身份不明"
+        ]
+      },
+      {
+        "id": "book030-b000457-p000-82d5e34571",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000458-p000-1c92dc6de0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宜細爵之”释读错误，“爵”为“辨”的通假或讹字，应译为“仔细辨别”，此处虽释义正确但未说明原字讹误；“一其下定有唐瑁可證”中“唐瑁”为人名，若无依据不应直接保留未作说明；“夸情目”语义不明未标注，“須開”语义残缺未标注"
+        ],
+        "uncertainty": [
+          "“唐瑁”“钳钗穴”“融结”“鉴案”“瓦内堂”“夸情目”具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000460-p000-c8e7f3928b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“凡是穴前夷坦廬便是明堂位”释读错误，“廬”为多余讹字，不应译为“的地方”；“凡看斷會一地俱要苗忌舊地必有此方侯痛新地必有此必有此方爲眞地”释读混乱，多处语义残缺未明确标注，“苗忌”“侯痛”完全未解读；“諸可地理裏人”应为“地理散人”的讹写，释读错误"
+        ],
+        "uncertainty": [
+          "“秦山”“罗城”“苗忌”“侯痛”“员晕”具体所指不明，原句多处语义残缺"
+        ]
+      },
+      {
+        "id": "book030-b000461-p000-3bc082a50f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故內堂不可太澗太濶則曠蕩”释读错误，“澗”应为“狹”的讹字，译文中写“太窄”但未说明原字讹误，且逻辑错误：原文是太阔则旷荡，译文写成“太窄就会旷荡”与原文语义相反；“外堂不可太狹大狹”中“大”为“太”的讹字，未说明；“明堂如銅饌”中“銅饌”无释义，“外嘗”应为“外堂”的讹字，未说明"
+        ],
+        "uncertainty": [
+          "“龙虎”“消详”“三阳”“铜馔”具体所指无术语依据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3002,
+    "completion_tokens": 1173,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3002,
+      "completion_tokens": 1173,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

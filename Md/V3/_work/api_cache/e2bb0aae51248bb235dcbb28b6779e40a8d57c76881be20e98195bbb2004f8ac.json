@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T08:03:14.915807+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e2bb0aae51248bb235dcbb28b6779e40a8d57c76881be20e98195bbb2004f8ac",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000098-p000-76d6e66a30",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“夫千里来龙”被误写为“夫于里来龙”，译文中未修正该错误，保留了错误表述对应的译法"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000101-p000-750c9cb18e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“数二三”的具体指代内容未在本段给出"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 922,
+    "completion_tokens": 148,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 922,
+      "completion_tokens": 148,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

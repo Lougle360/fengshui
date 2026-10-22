@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T05:38:48.378572+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1d5ce009ca224072d38ad7334c076b2bb4a3560c76eb20a8c89f36d42d1f6e29",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000106-p000-68d343412d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为'遂心，失利者妄生反心'，意思是行事顺遂的人无此问题，是行事失利的人才会妄生反叛之心，candidate释为'行事顺遂的人，会因意外变故生出反叛之心'，与原文含义完全相反；原文'物业滋川'被误译为'产业兴旺'，'滋川'无依据解释为'兴旺'，属于无依据扩写；原文'龙骧虎步'中的'龙'属于locked_terms，应对应风水中山脉地势气脉的含义，candidate仅释为'龙势昂扬、虎步沉稳'，未准确体现允许术语表中'龙'的风水定义，且'虎步'属于无依据释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000108-p000-bb191e726c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000109-p000-c2e9882841",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾'阳宅从亥起'后表述不完整，candidate直接释为'阳宅从亥位开始动工'，未标注原文内容不全，属于将不完整内容补全为确定事实"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2064,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2064,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

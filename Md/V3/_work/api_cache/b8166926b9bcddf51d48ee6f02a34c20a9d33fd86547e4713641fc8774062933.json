@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T14:14:18.150832+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b8166926b9bcddf51d48ee6f02a34c20a9d33fd86547e4713641fc8774062933",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000643-p000-64799eb7d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000645-p000-0fd1855884",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将日文部分「上元積年とは，上元(暦元)か嘉泰甲子(1204)まで経過した年数」译为现代中文，仍保留日文表述，不符合将日文真正转换成现代中文的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000646-p000-dee245b2f0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将日文部分「が開禧暦の回帰年の長さ」「が朔望月の長さ」「の周期であり」「における甲子日夜半から冬至までの日数」「が同年11月朔から冬至までの日数を意味している」「連立式の趣意は自ずと明らかであろう」译为现代中文，仍保留日文表述，不符合将日文真正转换成现代中文的要求；术语「干支」未按allowed_glossary的定义译为现代中文，仅保留原文引用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000647-p000-52e6f596c6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未将日文部分「だが秦九韶による連立式の解法はかなり複雑であり，理解しにくいところもある。それゆえ，計算順序を合理化し，表記をいくぶん近代的にした銭宝琮の解釈に基本的にしたがいながら，秦九韶の解法を説明することにしたい21)。それによれば，秦九韶は上式と同値である」译为现代中文，仍保留日文表述，不符合将日文真正转换成现代中文的要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1906,
+    "completion_tokens": 537,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1906,
+      "completion_tokens": 537,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

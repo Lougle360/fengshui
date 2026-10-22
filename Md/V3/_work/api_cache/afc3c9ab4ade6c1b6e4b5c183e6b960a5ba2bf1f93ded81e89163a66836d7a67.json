@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T13:10:43.104899+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "afc3c9ab4ade6c1b6e4b5c183e6b960a5ba2bf1f93ded81e89163a66836d7a67",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001081-p000-d4d386a07c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的臆测性表述（如‘襄’‘邊富單提’等）确定为具体所指，不符合原文未明的情况；将‘水夫風來’误释为‘風來的時候’，漏译‘水夫’相关含义；将‘洪破龍麗日腰瘋殺’拆分为‘洪破龍，麗日腰瘋殺’，属于对原文断句的错误处理，且未明确标注原文断句的不确定性；将‘口眼喝斜’误写为‘口眼喝斜’（应为‘口眼歪斜’），属于文字错误；将‘就之水不應塞而塞門不磨斜而斜’的逻辑关系处理不当，漏译‘磨’字的含义；将‘偏瘋偏死’的表述与原文的‘偏瘋殺’混淆，未明确二者的区别"
+        ]
+      },
+      {
+        "id": "book014-b001083-p000-e7838606b5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘若無聲面’确定为具体所指，不符合原文未明的情况；将‘沮洳水蠱絕人’拆分为‘沮洳「水」蠱絕之人’，属于对原文断句的错误处理，且未明确标注原文断句的不确定性；将‘仙人坦腹氣足而有騰若無聲面妄穴名金剛肚絕’的逻辑关系处理不当，漏译‘妄穴’的主语相关含义；将‘世産腹病更帶沮洳水蠱絕人’的表述与原文的‘世産腹病更帶沮洳水蠱絕人’混淆，未明确二者的区别"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1487,
+    "completion_tokens": 452,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1487,
+      "completion_tokens": 452,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

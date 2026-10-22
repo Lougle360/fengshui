@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:34:45.278991+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6633d7ac11f07caa7dfbabf6b76333eddf3413702a337601bf282ca785e1fab8",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001092-p000-f29064f1a0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中‘包承’的含义，且未完整保留‘小人吉’的表述，将‘包承，小人吉’的内容拆分后遗漏了‘被包容并顺承尊者’的核心释义，同时未明确‘小人吉’的完整语境关联"
+        ],
+        "uncertainty": [
+          "原文中‘包承’的具体所指未明确，释读时需保留相关表述的模糊性说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 798,
+    "completion_tokens": 137,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 798,
+      "completion_tokens": 137,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

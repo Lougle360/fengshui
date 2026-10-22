@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-23T14:15:51.166626+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "abc4f756db54ab6aee8b7873498f8480a89edb27fc36cb2811f0d53aad3c4608",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000521-p000-b4c3865ca0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000522-p000-919efe52ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“暗受寄漸 漸消耗”中的“寄”字，candidate译为“寄留的祸患”，属于无依据的扩写。“寄”在此处含义不明，应保留原文或标注不确定性，不应直接解释为“寄留”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000523-p000-c698cd035f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“子破卯卯破午午破百酉破子”中“午破百”应为“午破酉”，candidate直接修正为“午破酉”而未标注原文有误，属于未忠实于source。\n2. 原文“水法合此所以生人之 命逢此祿馬貴人三合則吉君遇桃花羊又三刑六 害四破則賤”，candidate译为“水法与三合相合，所以人的命逢此禄马贵人三合则吉；若遇到桃花、羊刃又逢三刑、六害、四破，则命贱。”其中“羊”译为“羊刃”属于无依据的术语增译（allowed_glossary未包含）。\n3. 原文“那怕 學富五專不得竅都是時絞射利焉知消砂納水 坐度立向得了竅方能知此一非字也知此葬 字白然發禍悠久”，candidate译为“哪怕学富五车，若不得窍，都是徒劳，怎能知晓消砂纳水、坐度立向的窍门？得了窍才能知晓。这一个“一”字，若不知“葬”字，自然发祸悠久。”其中“一非字”译为“这一个‘一’字”并关联“葬”字，属于对原文“一非字”的推测性解释，无依据。原文“白然”应为“自然”，candidate已修正但未标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000524-p000-379e2057c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000525-p000-3e7b1d5382",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000526-p000-3d45fb1269",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000527-p000-849bcdcfff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000528-p000-a5c60e4112",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000529-p000-a23e89b782",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000530-p000-703792afdc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“水親朱雀纒元武繞靑龍包曰虎爲養蔭之水”，candidate译为“水亲近朱雀，缠绕玄武，青龙包绕，白虎为养荫。”其中“包曰虎”应为“包白虎”，candidate处理为“青龙包绕，白虎为养荫”，将“包”字归入前句，属于对原文断句的推测，且未标注原文可能的讹误。\n2. 原文“要拱貨要人懷”，candidate译为“要拱卫，要入怀”。“拱貨”译为“拱卫”属于推测，原文“貨”字可能为“護”或他字之误，应标注不确定性。\n3. 原文“當而倉板水層層朝拜拜至于明堂”，candidate译为“当而仓板水，层层朝拜。至于明堂”。其中“當而”含义不明，candidate直接保留而未处理，应标注不确定性。\n4. 原文“或平 三周騰芳刊之水”，candidate译为“或平三周腾芳刊之水”。此短语含义不明，candidate直接保留而未处理，应标注不确定性。\n5. 原文“秦何曰”，candidate译为“秦何曰”。人名“秦何”不明，candidate直接保留而未处理，应标注不确定性。\n6. 原文“厝者不重龍單重水葬者屬陰故葬乘生氣爲主厝者屬陽取水爲先”，candidate译为“厝者不重龙，单重水；葬者属阴，故葬乘生气为主；厝者属阳，取水为先。”其中“厝”译为“厝者”并解释为与“葬”相对的一种处理方式，属于合理的浅显释义，可以接受。但需注意“厝”在风水中有特定含义，此处未超出allowed_glossary范围。\n7. 原文“倘若立向銷則不準矣”，candidate译为“倘若立向销，则不准矣”。“立向销”含义不明，candidate直接保留而未处理，应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000531-p000-72e6b69360",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文“日爲苔見月爲吾弟”，candidate译为“日为兄，月为弟”，并在uncertainty中标注了OCR问题。这是正确的处理方式，但译文本身“日为兄”是对“日爲苔見”的推测，应直接在译文中体现不确定性，而非仅在uncertainty字段说明。例如可译为“日（原文‘日爲苔見’，具体所指不详）为兄”。\n2. 原文“命制 fi棺”，candidate译为“命制棺”，并在uncertainty中标注。同样，应在译文中直接体现原文的异常，如“命制（原文‘fi’，疑有缺漏）棺”。\n3. 原文“陶上攝民棺以教百姓葬親民皆用之上”，candidate译为“陶上摄民，棺以教百姓，葬亲民皆用上”。此句断句和含义均不明，candidate的断句和翻译属于无依据的推测。应保留原文短语并标注不确定性。\n4. 原文“响應的所到之處皆有鈴記”，candidate译为“响应的所到之处皆有铃记”。其中“响應的”含义不明，candidate直接保留而未处理，应标注不确定性。\n5. 原文“曰既出鈐記何不與人葬坟曰有隔者遇之無福者不信”，candidate译为“曰：既出钤记，何不与人葬坟？曰：有隔者遇之，无福者不信。”其中“有隔者遇之”含义不明，candidate直接保留而未处理，应标注不确定性。\n6. 原文“穴安氣脉窩藏穴量爲的水要逆朝橫收平淨爲佳”，candidate译为“穴安气脉，窝藏穴量；水要逆朝，横收平净为佳”。其中“穴量爲的”断句和含义不明，candidate处理为“窝藏穴量”属于无依据的断句和解释。应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000532-p000-857fcdf946",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6056,
+    "completion_tokens": 1813,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6056,
+      "completion_tokens": 1813,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

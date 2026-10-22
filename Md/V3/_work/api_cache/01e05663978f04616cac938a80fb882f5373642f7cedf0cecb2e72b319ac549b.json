@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-25T13:01:13.414452+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "01e05663978f04616cac938a80fb882f5373642f7cedf0cecb2e72b319ac549b",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000125-p000-93d4f16275",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文大量内容语序混乱、存在缺字残损，除可明确的白虎、震术语和伏、降的释义外，其余内容均无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000128-p000-9db93d5fb8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文均为残损混乱内容，仅能识别出术语“穴”，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000129-p000-0a26c7368d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“世基 周宇家數”无对应释义，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book026-b000130-p000-f6bc6990b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文均为残损混乱内容，仅能识别出术语“震”，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000131-p000-aa27ea8642",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若疑心經則意盡于是矣”被误译为“如果要查考《心经》相关的内容，相关要义都在这里了”，此处“心經”并非佛教《心经》，属无依据认定，译文偏离原意"
+        ],
+        "uncertainty": [
+          "“水志有三”中“志”的含义无可靠依据，“子息朝金殿”无对应释义，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000135-p000-7b83945308",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2568,
+    "completion_tokens": 534,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2568,
+      "completion_tokens": 534,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

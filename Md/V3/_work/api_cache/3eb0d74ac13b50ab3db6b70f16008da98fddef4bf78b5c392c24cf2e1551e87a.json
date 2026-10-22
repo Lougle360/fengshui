@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T02:13:21.354852+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "3eb0d74ac13b50ab3db6b70f16008da98fddef4bf78b5c392c24cf2e1551e87a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005183-p000-b1ffedaf16",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "《地理天機會元》卷二十六收录《九星正變堂氣歌》。表格中记录了不同风水局象的明堂形态及其吉凶断语：\n\n1. 王泰局：此明堂得四脑天财之形，乘九紫之气，上曲下方，名为玉案。若形态宽平，主富贵双全。\n2. 雪局：此明堂得双脑金水天财之形，乘一白之气，圆曲分明，名为上马。若形态宽平周密，主富贵，又名白敢金水天财。\n3. 关关局（员曲明堂）：此明堂为上马，人物更清，若还认脉更分明，主巨富旺人。\n4. 右出明堂如堕马：此明堂得双脑天财之形，乘二黑之气，依斜出右，名为堕马。若左射右，主家破人亡，先败小房。若还倾泻且无关栏，骨肉亦伤，主贱败落可知。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文表格中存在大量OCR识别错误（如'华制 t x州1.目三'、'关关 七 *國1日W1'、'4剩馬'等），无法还原原始数据，仅能根据可辨识的吉凶断语和术语进行白话释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1621,
+    "completion_tokens": 402,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1621,
+      "completion_tokens": 402,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-10-04T06:36:27.463349+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b2d89500756c9db58f787f75f8b38469fdde90daa5cd1886c8b4825a5b056846",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000620-p000-a3081c1b97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000621-p000-28ff016d5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000622-p000-e764d4a95a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'四水交流'，candidate 释为'四条水交流汇合'，但后文解释为'明堂二水交合'，存在数量矛盾。candidate 将'四水'与'二水'混用，未处理此歧义。",
+          "原文'八風不動則有氣'，candidate 释为'八面之风不动，就知道有气'，将'八风'具体化为'八面之风'，属于无依据的扩写。应保留'八风不动'的原文表述或说明其泛指。",
+          "原文'術之至要初不外是'，candidate 释为'风水术数的关键要点，最初也不外乎这些'，'最初'一词的添加无依据，可能改变原意。",
+          "原文'龍穴二者 則蔽讓周密于此立穴斯有氣矣'，candidate 释为'龙与穴二者，在此处遮蔽、退让且周密，在此处立穴，自然就有气'。'遮蔽、退让且周密'是对'蔽讓周密'的直译，但'蔽讓'在此语境下含义不明，candidate 未标注此不确定性。"
+        ],
+        "uncertainty": [
+          "'蔽讓周密'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000623-p000-b4315c172b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'脈之行而始地沒者脈之行師盡也脈行 分者水之初分合者水之交合'，candidate 释为'脉的行走，到了尽头就是脉的没落。脉行走时，起初分开的是分水，后来交汇的是合水'。此处理解基本正确，但原文'師盡也'为错字，candidate 未在uncertainty中说明原文文字错乱。",
+          "原文'出者脈止以見其盡必有二水合于其前以界之然 后見其前之不去者即爲脈之盡也'，candidate 释为'脉的“出”，是指脉的止处，为了显示其尽头，必然有两条水在前方交汇以界定它，然后才能看到前方不再延伸的部分，那就是脉的尽头'。此处将'出'解释为'脉的止处'，逻辑上与前文'脉的出没'之'出'（出现）可能矛盾。candidate 未处理此概念上的潜在歧义。"
+        ],
+        "uncertainty": [
+          "原文'師盡也'、'脈行 分者'等处存在文字错乱，句意需推断。",
+          "'出'在此段中具体指'出现'还是'止处'，存在歧义。"
+        ]
+      },
+      {
+        "id": "book035-b000624-p000-4f0c01c27c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000625-p000-a9bbcaddbf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000626-p000-d18c93337b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000627-p000-a06fbbce4e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'穴前后一分合起主至龍虎所交二發合禮貌瓏至三水交會三分合'，candidate 释为'穴前一分合，起自主龙，至龙虎所交处为二合，至三水交会处为三分合'。此处将'穴前后'简化为'穴前'，遗漏了'后'。且'二發合禮貌瓏'等字句严重错乱，candidate 虽在uncertainty中说明，但释读时直接意译为'为二合'，过于确定。应更明确地指出原文此处不可靠。",
+          "candidate 将'三合'作为locked_term处理，但释文中'三分合'与'三合'概念混用，未作区分说明。"
+        ],
+        "uncertainty": [
+          "原文'二發合禮貌瓏'等字句存在严重OCR错乱或脱漏，具体描述无法确证。",
+          "'三分三合'、'三分合'与术语'三合'的具体关系，原文表述不清。"
+        ]
+      },
+      {
+        "id": "book035-b000628-p000-69eb4f61d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000629-p000-5e6f02bbd1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文从'側理察脈定欲家察嵊用爍錮非有仁理也'开始，出现大量无法通读的错乱文字（如'嵊用爍錮'、'未于曰'、'這們自差'、'水蟻之忠'、'吕之 陰 而 义 随 所'等）。candidate 尝试意译，但多处是基于猜测（如'未于曰'猜为'又说'，'這們自差'猜为'穴自差'，'水蟻之忠'猜为'水蚁之患'，'吕'猜为'脉'），并将这些猜测写成确定事实，不符合审校要求。对于如此严重的原文损坏，应判定为无法进行可靠的保守释读。"
+        ],
+        "uncertainty": [
+          "原文从'側理察脈定欲家察嵊用爍錮非有仁理也'至结尾，存在大段文字错乱、脱漏，无法确定其准确含义，连基本的保守释读也无法成立。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3234,
+    "completion_tokens": 1441,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3234,
+      "completion_tokens": 1441,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

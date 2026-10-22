@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T19:21:37.059182+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "966f33649587c722740c8f54d18554edecc8c3dedc069db1712ca3d048a2442a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002584-p000-5f602e816a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002586-p000-3df949fdd7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存在争议的“天”直接确定为髡发之刑，未明确标注该释读存在争议，不符合原文注释的不确定性说明"
+        ],
+        "uncertainty": [
+          "原文中“天”的含义存在争议，此处按注释提及的髡发之刑处理"
+        ]
+      },
+      {
+        "id": "book016-b002587-p000-eed350d562",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1528,
+    "completion_tokens": 226,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1528,
+      "completion_tokens": 226,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

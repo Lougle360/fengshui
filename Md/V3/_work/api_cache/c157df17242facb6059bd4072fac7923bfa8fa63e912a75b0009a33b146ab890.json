@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-09-25T05:12:58.507357+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c157df17242facb6059bd4072fac7923bfa8fa63e912a75b0009a33b146ab890",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000339-p000-04bcd73c7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“取象于日月星者月掩星光日掩月光木掩日光”被误译为“取象于日月星辰，是说月的光辉不会被掩蔽，日的光辉不会被月光掩蔽，木的光辉不会被日光掩蔽”，与原文含义完全相反，原文明确是三者存在掩蔽关系，不是都不被掩蔽"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000340-p000-0bbc29fdbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“六千甲子”应为“六甲”相关的“六十甲子”，属于专业术语误写；原文“休生傷杜景死驚開之第三南家山”被译为“休、生、伤、杜、景、死、惊、开的第三处是南家山”，属于把不确定的原文表述直接判定为确定事实，原文此处语义断裂，无依据说明“第三处是南家山”"
+        ],
+        "uncertainty": [
+          "南家山具体所指不详"
+        ]
+      },
+      {
+        "id": "book020-b000341-p000-b945860674",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“數動則直使之位隨一二三四五六七八九之挨飛而八方必虛其一”被误译为“数字一动就会直接让它的位置随一、二、三、四、五、六、七、八、九的挨飞而变动”，漏译了风水专业术语“直使”，擅自替换为“直接让它的位置”；原文“亦不敢當尊之義也”被误译为“也不敢违背尊贵的意思”，含义偏差，“當尊”是“承当尊位”的意思"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000342-p000-42e2949d28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“甘時望之奇門一得知八門逐九星之法矣”被误译为“甘时望的奇门一得知八门逐九星的方法了”，语句不通顺，含义理解有误；原文末句“而人多W/ 第三穿山”属于OCR识别错误，被误译为“而人们大多第三穿山”，语义不通"
+        ],
+        "uncertainty": [
+          "甘时望具体所指不详",
+          "第三穿山具体所指不详"
+        ]
+      },
+      {
+        "id": "book020-b000343-p000-491ac31c59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000344-p000-fa023b1098",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000345-p000-aab25caba9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000346-p000-058417e626",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000347-p000-7a5af5ffa1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000348-p000-0a609abe4f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故六十甲子率先半位而亥壬子癸丑龍絃于乾”中“絃于乾”应为“統于乾”，OCR识别误差，译文写作“统属乾”虽含义接近，但原文有“絃”字误判，且原文“以方生之氣論龍弓/ arcest4a五氣自然之理”属于OCR乱码，译文擅自删去乱码部分直接写作“符合五气运行的自然规律”，属于无依据补全内容"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4511,
+    "completion_tokens": 1004,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4511,
+      "completion_tokens": 1004,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

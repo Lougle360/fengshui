@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-25T19:25:50.751675+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "68f6b19b1694fcbeeaed4fbb555beea57d6d346df828ee93bc23e2f0dd624771",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001252-p000-71ea85ebb2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“乾窠一九”的具体所指未明确，依原文保留表述"
+        ]
+      },
+      {
+        "id": "book029-b001254-p000-b32b2efa3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“山必欲交交則不聞山必欲鎖鎖則不漏”，候选释为“山要相互交错，交错就不会泄露；山要闭锁，闭锁就不会漏散”，存在语序拆分错误，对应含义混淆，应为“山要相互交错，交错就不会（闻/漏，原文此处表述对应交错的作用，原候选把交错的作用误写为不会泄露，和闭锁的作用重复）”"
+        ],
+        "uncertainty": [
+          "“歆”“欷”为风水专用表述，具体含义未明确，依原文保留原表述"
+        ]
+      },
+      {
+        "id": "book029-b001255-p000-3b858ab365",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“歆”为风水专用表述，此处按适宜、喜好的含义解释，供参考"
+        ]
+      },
+      {
+        "id": "book029-b001257-p000-a6f5aef037",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“左数右数偶前屬牝後屬牡”，候选释为“左属阳、右属阴，偶数、前方属牝，后方属牡”，原文未提及“左属阳、右属阴”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文末尾“右反如弓”后内容缺失，已标注；“玄室”“三形”“四势”为风水专用术语，依原文保留表述"
+        ]
+      },
+      {
+        "id": "book029-b001258-p000-143461226d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“伞祸”“胍板”“丫乂双胖”存在原文讹误，具体所指不明；此处“乾流”的“乾”为干的意思，指干涸无水流"
+        ]
+      },
+      {
+        "id": "book029-b001260-p000-08203fd8f3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“六相”“六替”“三形”“四势”为风水专用术语，依原文保留表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4174,
+    "completion_tokens": 607,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4174,
+      "completion_tokens": 607,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

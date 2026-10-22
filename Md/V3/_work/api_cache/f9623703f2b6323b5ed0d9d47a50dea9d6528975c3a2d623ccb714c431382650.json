@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T10:07:35.442984+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f9623703f2b6323b5ed0d9d47a50dea9d6528975c3a2d623ccb714c431382650",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000535-p000-17c67a9715",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文‘犯之罔為術士者’误释为‘犯了这些，就会被术士看作是应当遵循的准则’，与原文含义不符，原文该句存在歧义，未明确‘犯之’的具体所指及‘罔為術士者’的含义，不得擅自确定解释"
+        ],
+        "uncertainty": [
+          "原文中‘犯之罔為術士者’的具体含义需结合上下文进一步确认"
+        ]
+      },
+      {
+        "id": "book010-b000536-p000-3b5671c341",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘造藥 以造命為主’存在OCR损坏，‘造藥’含义不明，不得擅自释读为‘造命以造命为主的道理’"
+        ],
+        "uncertainty": [
+          "原文‘造藥’的具体含义因OCR损坏无法确定"
+        ]
+      },
+      {
+        "id": "book010-b000537-p000-0d1dcec7c2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文‘實有陳論’误释为‘实有陈论’，‘陈论’含义不明，不得擅自确定解释；将原文‘成以斗首為主’误释为‘成以斗首为主’，‘成’的含义不明，不得擅自确定解释"
+        ],
+        "uncertainty": [
+          "原文中‘實有陳論’‘成以斗首為主’的具体含义需结合上下文进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2100,
+    "completion_tokens": 378,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2100,
+      "completion_tokens": 378,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

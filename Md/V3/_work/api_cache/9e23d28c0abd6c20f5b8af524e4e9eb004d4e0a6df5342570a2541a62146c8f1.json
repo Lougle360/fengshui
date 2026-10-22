@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-10-15T04:37:46.906944+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9e23d28c0abd6c20f5b8af524e4e9eb004d4e0a6df5342570a2541a62146c8f1",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001142-p000-7006211ec6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001144-p000-e84ae4ad5e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巽潛龍’是一个整体术语，candidate将其拆解为‘巽（八卦之一）潛龍’，并加入‘八卦之一’的解释，这是对opaque_terms（‘巽潛龍’）赋予了确定含义，不符合规则。应保留‘巽潛龍’原样或整体引用。",
+          "原文‘三百六’后内容残缺，candidate处理为‘又有三百六（此处具体所指不详）’，这是正确的风险标注，但‘三百六’本身是数字，应保留原样，不应加括号解释。建议改为‘又有三百六（原文此处残缺）’或类似表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001145-p000-3014f951e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001146-p000-1220c1265f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source文本本身严重错乱，包含大量无法理解的字符组合（如‘似其水先人必田’、‘背唯案壹汪不首’等）。candidate试图将这些不可读部分作为‘具体所指不详’列出，但释读部分（如‘文中提到‘迢山’指的是肢体，‘氏’的形态有百种。’）是基于对错乱文本的猜测性解读，缺乏可靠依据。对于此类OCR或原文损坏严重的段落，无法进行可靠的保守释读。"
+        ],
+        "uncertainty": [
+          "原文文本严重错乱，无法进行可靠的释读。"
+        ]
+      },
+      {
+        "id": "book035-b001147-p000-a617e6bd94",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 中 '若如瓜瓠來迦抱，福蔭分長少粗大' 的释读不完整且不通顺。source 为 '若如瓜瓠來迦抱福蔭分長少粗大'，candidate 仅做了字面断句，未将其转换为现代读者能读懂的句子。",
+          "candidate 中 '肋叠指類惡石兼樹死，敗牆古路及深坑，凶禍逐形生' 的释读不完整。source 为 '肋叠指類惡石兼樹死败牆古路及深坑凶禍逐形生'，candidate 仅做了断句，未进行白话释读。",
+          "candidate 中 '分葡情香香明有，瘦弱短縮形破碎，迫狹幷強直尖射與插落開競，低陷薄反走斜飛，奈穴凶昂頭擺面同斷腰露' 的释读不完整。source 为 '分葡情香香明有 瘦弱短縮形破碎迫狹幷強直尖射與插落開競低陷薄反走斜飛奈穴凶昂頭擺面同斷腰露'，candidate 仅做了断句和部分标点，未进行白话释读，不符合 V3 '普通读者能读懂的白话释读' 目标。"
+        ],
+        "uncertainty": [
+          "原文 '分葡情香香明有' 语义不明，candidate 已标注，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b001148-p000-f598b93963",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source文本严重错乱，术语堆砌且逻辑断裂（如‘九三一十六鬼財紫氣形識鬼為卷空御瓦天罡孤曜’）。candidate的释读‘原文此处文字严重错乱，术语堆砌，逻辑断裂，无法形成通顺的现代汉语句子’是准确的描述，但试图保留‘跳翻身穴後環是也。橫相相似而帶大陰大陽金水天，各有四。四龍穴後若無槐氣則…’等开头部分作为可读内容，可能仍是对错乱文本的过度解读。对于此类段落，更稳妥的做法是整体标记为无法释读。"
+        ],
+        "uncertainty": [
+          "原文文本严重错乱，无法进行可靠的释读。"
+        ]
+      },
+      {
+        "id": "book035-b001149-p000-fac75cad3d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001150-p000-ad1af301e9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘此是山有海角奧我六後老一般’处理为‘（原文此处语义不明，可能存在传抄错误或特殊隐语，具体所指不详）’。这符合规则，但释读部分‘官星本是出朝山的山，自後送山。’是对前半句的直译，可以接受。然而，‘自后送山’的表述略显生硬，但未改变原意。"
+        ],
+        "uncertainty": [
+          "‘海角奧我六後老一般’语义不明，可能为传抄错误。"
+        ]
+      },
+      {
+        "id": "book035-b001151-p000-870dd5ba8c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001152-p000-e4c7a5f92c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate对‘金胃’、‘銀掠經’等不明术语的处理（‘原文'金胃'、'銀掠經'等术语含义不明’）符合规则。但释读部分‘金胃是銀掠經，以龍虎上橫拖者為官。’是对原文的直译，可以接受。然而，‘不見宮不離鄉’一句的释读‘不見宮不離鄉’未做任何处理，此句本身含义不明，应在uncertainty中标注。"
+        ],
+        "uncertainty": [
+          "‘金胃’、‘銀掠經’、‘不見宮不離鄉’等术语或句式含义不明，可能为传抄错误或特殊隐语。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 858,
+    "completion_tokens": 367,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3341,
+      "completion_tokens": 1352,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 858,
+      "completion_tokens": 367,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

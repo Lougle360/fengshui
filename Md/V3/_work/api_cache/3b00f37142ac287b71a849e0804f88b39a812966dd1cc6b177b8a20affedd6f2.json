@@ -1,0 +1,207 @@
+{
+  "created_at": "2026-09-23T14:18:48.043350+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3b00f37142ac287b71a849e0804f88b39a812966dd1cc6b177b8a20affedd6f2",
+  "response": {
+    "items": [
+      {
+        "id": "book004-b000002-p000-e11610b415",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000003-p000-5296f6e94e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误换：原文为“一元运体之气”，candidate 写作“元一运体之气”，顺序颠倒，含义可能不同。",
+          "漏译：原文末尾有“朴塟经 卷一”，candidate 虽已包含，但未明确其为原文标注。不过此条在V3目标下可放宽，但术语顺序错误需修正。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000004-p000-eafa8693fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000005-p000-dc9c679b8f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误换：原文为“五炁”，candidate 写作“五气”。“炁”在古籍中常特指先天之气或能量，与“气”含义有微妙区别，不宜直接替换。",
+          "增译：原文“亦二五之精梦令”语义不明，candidate 增译为“亦二五之精，梦令而凝也”，将推测写成了事实。应保留原文模糊性，如“亦二五之精，梦令（具体所指不详）”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000006-p000-80f9526616",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000007-p000-a33fa97bb3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“受膝”含义不明，candidate 直接释读为“受体”，未标注不确定性。应说明原文可能为“受气”或“受体”之讹。",
+          "将不确定解释写成事实：原文“不後則非其氣類相威”语义晦涩，candidate 直接释读为“若不相通則非氣類相感”，未标注不确定性。",
+          "将不确定解释写成事实：原文“枯骨得鹿生人”语义不通，candidate 直接释读为“枯骨得氣生人”，未标注“鹿”字可能为讹误。",
+          "增译：candidate 末尾添加了“其理顯然可見，不待智者而後知也”，原文无此句，属于无依据扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000008-p000-12a56b2199",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“萋蔽重黔”含义不明，candidate 直接释读为“草木遮蔽或重色之物”，未标注不确定性。",
+          "将不确定解释写成事实：原文“與天說”语义未完或讹误，candidate 直接释读为“與天理相合”，未标注不确定性。",
+          "术语误换：原文“會道嗣續”，candidate 写作“會道嗣續”，虽字形相同，但“會道”在此语境下含义不明，candidate 未作任何说明，直接沿用，可能误导读者以为其有确定含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000009-p000-54b95cf212",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“念慮之相初”含义不明，candidate 直接释读为“念慮相通”，未标注不确定性。",
+          "将不确定解释写成事实：原文“標刀者享之”含义晦涩，candidate 直接释读为“屠刀之類”，未标注不确定性。",
+          "将不确定解释写成事实：原文“降神紳祝”含义不明，candidate 直接释读为“降神致祝”，未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000010-p000-73b42df3ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000011-p000-8c684d9d4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "增译：原文为“地理之學原於赤松子青義經唐一行謂錦囊引所經日者此也”，candidate 写作“地理之學，原於赤松子《青義經》，唐一行謂《錦囊》引所經日者此也。”。其中“《青義經》”的书名号是candidate添加的，原文无此标点，且“青義經”是否为确切书名存疑，添加书名号可能误导读者。此外，“引所經日者此也”语义不通，candidate 未作任何说明，直接照搬，不符合“普通读者能读懂”的目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000012-p000-63abc2d707",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“穎微無間”含义不明，candidate 直接释读为“精微無間”，未标注不确定性。",
+          "将不确定解释写成事实：原文“某則可以把山川之秀”语义不通，“某”字疑为衍文，candidate 直接释读为“人則能納山川之秀”，未标注不确定性。",
+          "增译：原文末尾为“然而古人塟遺朴塟經卷一”，语义不完整，candidate 增译为“然而古人葬遺骨而廕子孫富貴者，亦多矣。”，属于根据上下文推测的扩写，原文并无此完整表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000013-p000-fa1458c2a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000014-p000-98e7da6fe3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“莫不關倔”含义不明，candidate 直接释读为“莫不相關”，未标注不确定性。",
+          "将不确定解释写成事实：原文“丘孕孔”表述不完整，candidate 直接释读为“孕育孔子”，未标注原文表述的特殊性。",
+          "将不确定解释写成事实：原文“世人在往”语义不通，candidate 直接释读为“世人往往”，未标注“在往”可能为讹误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000015-p000-294ecb486a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000016-p000-88be2ac3eb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“俎山崩”含义不明，candidate 直接释读为“祖山崩”，未标注不确定性。",
+          "将不确定解释写成事实：原文“正未決鐘鳴之日”语义不通，candidate 直接释读为“正應鐘鳴之日”，未标注不确定性。",
+          "将不确定解释写成事实：原文“卑不華於麻栗，芽於室”含义晦涩，candidate 直接释读为“草木之類”，未标注不确定性。",
+          "将不确定解释写成事实：原文“以本佳元”含义不明，candidate 直接释读为“以本元”，未标注不确定性。",
+          "漏译/语义偏差：原文“木不自知而皮造物者亦不自知也”语义不通，candidate 照搬为“木不自知而皮，造物者亦不自知也”，未作任何处理，读者无法理解。“皮”字后可能缺字或为讹误，应标注存疑。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000017-p000-04de104230",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000018-p000-0e6495af10",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“賚乎其間”含义不明，candidate 直接释读为“貫乎其間”，未标注不确定性。",
+          "将不确定解释写成事实：原文“與之鹿合”语义不通，candidate 直接释读为“與之合”，未标注“鹿”字可能为讹误。",
+          "将不确定解释写成事实：原文“靈而人餓”语义不通，candidate 直接释读为“靈而人感”，未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000019-p000-cf205e318a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将不确定解释写成事实：原文“國阜之支”含义不明，candidate 直接释读为“山阜之支”，未标注不确定性。",
+          "将不确定解释写成事实：原文“藿高不能自立”语义不通，candidate 直接释读为“嶠高”，未标注不确定性。",
+          "将不确定解释写成事实：原文“春者壠之有骨”含义不明，candidate 直接释读为“春者”或保留“春”字，但未说明其含义不明。",
+          "将不确定解释写成事实：原文“悉皆非是”含义不明，candidate 直接释读为“皆非正解”，未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000020-p000-264c396d2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000021-p000-d54ec1864c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7147,
+    "completion_tokens": 2346,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7147,
+      "completion_tokens": 2346,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

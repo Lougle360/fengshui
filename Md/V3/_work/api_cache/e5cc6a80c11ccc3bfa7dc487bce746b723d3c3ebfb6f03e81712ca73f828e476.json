@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-10-04T08:40:48.320236+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e5cc6a80c11ccc3bfa7dc487bce746b723d3c3ebfb6f03e81712ca73f828e476",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000996-p000-c6f56b0852",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘平烽忌窩觀此二段則乎門可突可寫不此疑矣’释读为‘观察平烽地形时，应当忌讳窝穴。看了这两段论述，对于平烽地形是应该选择突起还是‘可寫’，就不再令人疑惑了。’存在多处问题：1. ‘平烽’、‘乎門’、‘可寫’均为opaque_terms，不应被赋予‘地形’、‘选择’等确定含义。2. ‘忌窩觀此二段’的断句和含义不清，candidate的解读缺乏依据。3. 对‘突低 A 低突可塟 低 法當忌粘 高’的处理不当，原文断句混乱，candidate的释读（‘对于低处，应当忌讳‘粘’，而应选突起之处安葬‘高’’）是强行连贯的推测，而非基于原文的保守释读。",
+          "candidate将‘一眞隱約’释为‘但‘一眞’隐约’，‘胎結未兒’释为‘胎結未兒’，均未按规则处理为opaque_terms并说明其不确定性，而是直接嵌入句中，可能误导读者以为这些是已知概念。",
+          "candidate整体上对原文进行了过多推测和连贯性补充，违背了‘只负责判错，绝对不能改稿’以及‘保守释读’的原则。"
+        ],
+        "uncertainty": [
+          "平烽",
+          "乎門",
+          "可寫",
+          "一眞",
+          "胎結未兒",
+          "突低 A 低突可塟 低 法當忌粘 高"
+        ]
+      },
+      {
+        "id": "book028-b001000-p000-db158169cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘政禍則一’、‘得是傳者’直接嵌入句中，未按规则处理为opaque_terms并说明其不确定性。candidate应明确指出这些短语含义不明，而非直接作为句子成分。",
+          "‘客星团蒙’中的‘客星’是candidate自行添加的解释（原文为‘客’），属于无依据扩写。原文‘客’可能指客山或其他，不应确定为‘客星’。",
+          "‘难道可以拘泥于此吗？’是candidate添加的反问语气，原文‘可以此爲拘哉’是疑问或反问，但candidate的转述增加了主观色彩，可能偏离原意。应更平实地译为‘可以因此就拘泥吗？’或保留其疑问性并说明。"
+        ],
+        "uncertainty": [
+          "政禍則一",
+          "得是傳者",
+          "客"
+        ]
+      },
+      {
+        "id": "book028-b001004-p000-3bce9a0125",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘過脉閃而之他’、‘堂氣包歲外’直接嵌入句中，未按规则处理为opaque_terms并说明其不确定性。candidate应明确指出这些短语含义不明，而非直接作为句子成分。",
+          "‘砂耸应’的释读‘砂耸应’过于简略，未能传达‘聳應’（高耸应和）的含义，属于漏译或释义不足。",
+          "‘不能发达是必然的’中的‘是必然的’语气较强，原文‘必矣’可译为‘必然’或‘必定’，但candidate的表述可以接受，不算严重问题，但整体因opaque_terms处理不当需修订。"
+        ],
+        "uncertainty": [
+          "過脉閃而之他",
+          "堂氣包歲外"
+        ]
+      },
+      {
+        "id": "book028-b001007-p000-aa87eb7517",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘細砍盎新’、‘飛腫’直接嵌入句中，未按规则处理为opaque_terms并说明其不确定性。candidate应明确指出这些短语含义不明，而非直接作为句子成分。",
+          "‘求其親切’释为‘求其亲切’不够通俗，可考虑译为‘寻求其真切之处’或类似表达，但此问题较小。",
+          "‘穴之斯得之矣’释为‘然后穴之斯得之矣’略显冗余，但基本达意，可接受。主要问题在于opaque_terms的处理。"
+        ],
+        "uncertainty": [
+          "細砍盎新",
+          "飛腫"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1722,
+    "completion_tokens": 942,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1722,
+      "completion_tokens": 942,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

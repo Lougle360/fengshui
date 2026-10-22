@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T12:12:38.382706+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ec2fe6409c5eeef853a307e8bd7135760afd795fb28a942c6e164eea0ff58763",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000915-p000-1f89601e3d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段内容为残损未断句文本，无法准确断句和解读具体语义"
+        ]
+      },
+      {
+        "id": "book024-b000926-p000-7dd2ad1a83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000927-p000-19d15ab303",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“攻宅”具体含义不明，“疾患月疾”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 975,
+    "completion_tokens": 212,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 975,
+      "completion_tokens": 212,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

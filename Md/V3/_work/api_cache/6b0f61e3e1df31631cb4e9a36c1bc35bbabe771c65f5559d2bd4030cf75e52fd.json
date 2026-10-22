@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-25T09:45:42.854172+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b0f61e3e1df31631cb4e9a36c1bc35bbabe771c65f5559d2bd4030cf75e52fd",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000108-p000-1bec2b0930",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "中闭",
+          "蒸拥",
+          "衙意",
+          "列旂反砂"
+        ]
+      },
+      {
+        "id": "book024-b000115-p000-c277afaf0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其呈秀富貴極天”被断为“其呈秀，预示富贵达到极致”，属于无依据拆分，且“极天”释读为“达到极致”不准确，应标注“其呈秀富贵极天”存在断句歧义，具体含义待考；原文“富而不願”是风水断语，不应保留在释读语句中，应表述为“预示虽然富裕但该格局所对应的后文‘富而不願’具体含义不详”"
+        ],
+        "uncertainty": [
+          "自相轅者",
+          "天砂包乗",
+          "富而不願"
+        ]
+      },
+      {
+        "id": "book024-b000117-p000-aa7f7cd571",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“內張河蕩”释为“内部扩张的河荡区域”无依据，“張”此处含义不明，应标注“内张河荡”具体所指不详；原文“中通過穴雙之頭”释为“中间穿过穴双的头部”错误，“穴雙”为无依据造词，原句断句存在歧义，应标注该部分断句不明，具体含义待考；原文“孝第”为“孝悌”的通假，释读直接写“孝悌忠信”不属于错误，但应明确“第”通“悌”的说明？不，此处为合理通假释读，主要问题是“内张”“穴双”的无依据释读"
+        ],
+        "uncertainty": [
+          "內張",
+          "穴雙之頭",
+          "歎嘴",
+          "天進",
+          "官相見左六先發次房"
+        ]
+      },
+      {
+        "id": "book024-b000121-p000-7a5195a79e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“並無木割”“木自右來”“聚緊木直長”中的“木”被作为专有名词保留但未说明，属于无依据认定，此处“木”可能为“水”的形近讹字，应标注该类“木”字疑似讹误，具体含义待考；原文“炤应”是“照应”的异体写法，不属于含义不明术语，无需标注为不详；原文“如堯不且如竹也”应为OCR或传抄讹误，应标注为疑似讹误，无法释读，而非“具体所指不详”；“元武”即“玄武”，为风水四兽之一，属于常见术语，不应标注为具体所指不详"
+        ],
+        "uncertainty": [
+          "包暴",
+          "木割",
+          "聚緊木",
+          "如堯不且如竹也"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3009,
+    "completion_tokens": 741,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3009,
+      "completion_tokens": 741,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T13:50:01.708160+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ef1550bee4a8859a1b8be0ce3eef7ff91f416491c4086503b5973cafcd10869f",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000386-p000-76e9c6c6e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000387-p000-78d6bf895a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“艮其背”“不獲其身”是卦辞原文，候选句将训读内容误写为卦辞原文，混淆了训读与卦辞的表述；原文“止まるべきところに止まれば”是“安于应当止的地方”，候选句误写为“安于应当止的地方”后又错误关联到“止于至善”，属于无依据扩写；原文“咎はない”是“没有过错”，候选句误写为“没有过错”后又错误关联到“属于《大学》三纲领中的内容”，属于无依据扩写；原文“『大学』の三綱領の一つ”是“《大学》三纲领中的内容”，候选句误写为“属于《大学》三纲领中的内容”，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000388-p000-882937fdb9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“向かって人を誘掖しようとする傾向性”是“引导人们向该方向靠拢的倾向”，候选句误写为“引导人们向‘向’靠拢的倾向”，将“向”（建筑或穴位所朝的方位）的专业术语误用于此处，属于术语误用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000389-p000-769fa08038",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2957,
+    "completion_tokens": 481,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2957,
+      "completion_tokens": 481,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

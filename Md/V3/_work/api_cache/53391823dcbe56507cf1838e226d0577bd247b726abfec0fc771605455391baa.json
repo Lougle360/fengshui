@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T23:47:17.332271+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "53391823dcbe56507cf1838e226d0577bd247b726abfec0fc771605455391baa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005022-p000-e2ff7a592c",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档021 PDF第86页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005023-p000-e340cb3811",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十四，关于“穴格”的第四十节。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1200,
+      "completion_tokens": 236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

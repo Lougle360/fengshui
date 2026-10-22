@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-09-24T23:45:59.925912+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1825ad00a58278a4cd2cf7838080f36a787e4fe9fa2a7f8f96d1dca1de569195",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001285-p000-d334c5bcb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“幸龍須曆望”被误译为“勘察龙脉走向、遍望”，无依据增译了“勘察”“走向”的语义；原文“陰陽若然得星此”被误译为“如果阴阳排布能符合星辰对应的规则”，无依据增译了“排布”“对应的规则”的语义；原文“返引雲之便化龍”被误译为“反过来接引云气的力量，就能转化为龙势”，无依据增译了“力量”“龙势”的语义。原文“帝草”“臣帝位”等专名未做模糊标注，直接使用且未说明原文存在语义断裂，属于对不确定内容做了确定处理。"
+        ],
+        "uncertainty": [
+          "“幸龍須曆望”“帝草”“臣帝位”“得星此”“便化龍”原文语义含混，无权威解释可依"
+        ]
+      },
+      {
+        "id": "book017-b001288-p000-17999d0c08",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "今舍己奉佛四十今",
+          "为答师以吴以至人亡者",
+          "陰起佛る八提心",
+          "返讀じ",
+          "公都天尸",
+          "一經占当生而",
+          "支東子出立淮",
+          "坐巾立果"
+        ]
+      },
+      {
+        "id": "book017-b001296-p000-bcafec1536",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“則必易近人車往書转弯之点”被错误拆分，释读为“就必定容易接近人群，原文‘人車往書’存在文字错乱，语义不通。车辆转弯的位置”属于断句错误，不符合原文语序；“水每停從形努好尔未多吉也”未完整标注错乱范围，拆分释读不当。"
+        ],
+        "uncertainty": [
+          "做設れ口为午る",
+          "れ口",
+          "地國",
+          "人車往書",
+          "形努好尔",
+          "稻水口",
+          "协它一",
+          "科乖割脚"
+        ]
+      },
+      {
+        "id": "book017-b001299-p000-fe4d162dae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及戌、丑、未三个方位，candidate误写为“四个方位”，数字错误；“菜墳”未做模糊标注直接使用，且原文“名依此理”的“名”未说明讹误可能，直接保留；“清實吉名天下無”被误译为“这样的吉名天下少见”，偏离原文“天下没有（能与之相比的）”的语义倾向，且将“清实吉名”拆分释读错误。"
+        ],
+        "uncertainty": [
+          "“菜墳”具体所指不明",
+          "“清实吉名”的具体含义存在歧义",
+          "原文开篇“四山坡”与前文“戌丑未”三个干支的对应关系未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1934,
+    "completion_tokens": 757,
+    "cached_prompt_tokens": 1848,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1934,
+      "completion_tokens": 597,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1934,
+      "completion_tokens": 757,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T09:01:43.547413+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e6e2159ca0a9c460046a65f22a9c2a28fa54101ceda43ebe1d304a42dd0fda90",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000113-p000-8f380b4608",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "油窄形",
+          "尤吉穴怪",
+          "尤怪穴吉",
+          "尤非久远得全炁",
+          "卷家全炁",
+          "抓秋法"
+        ]
+      },
+      {
+        "id": "book010-b000115-p000-7ace6f9ed2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘尤’‘卷背’‘灰线草蛇’‘尤息’等术语未按要求以引号引用，且‘过处如旦成如线’‘低土一寸水周环’等语句释读存在歧义，未明确标注原文未明的内容"
+        ],
+        "uncertainty": [
+          "尤",
+          "卷背",
+          "灰线草蛇",
+          "尤息"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1734,
+    "completion_tokens": 205,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1734,
+      "completion_tokens": 205,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

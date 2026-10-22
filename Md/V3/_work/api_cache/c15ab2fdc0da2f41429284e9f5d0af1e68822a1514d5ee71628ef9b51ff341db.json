@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-09-24T21:09:23.875060+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c15ab2fdc0da2f41429284e9f5d0af1e68822a1514d5ee71628ef9b51ff341db",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003625-p000-270929ad0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003626-p000-c3ca8bb245",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是爻辞标题，candidate将其改写为对爻辞的释读内容，不符合kind=heading的核对要求，未保留原标题的层级和原文句式"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003628-p000-583526860f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003629-p000-7795fd5bd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003630-p000-d132aec6e1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是heading类的《象》曰残句，candidate将其改写为完整释读内容，不符合kind=heading的核对要求，未保留原标题格式"
+        ],
+        "uncertainty": [
+          "原文此处未完整收录《象传》全部表述，仅依据现有内容释读"
+        ]
+      },
+      {
+        "id": "book016-b003632-p000-759aa03f90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003633-p000-120a00b903",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003634-p000-f96358b24e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未明确说明对应爻的阴阳属性是九还是六，候选释读自行将二认定为六二、三认定为九三、四认定为九四、初认定为初九、四认定为九四、五认定为六五，属于无依据添加确定属性，不符合含混专名不得赋予确定含义的要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 784,
+    "completion_tokens": 124,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2563,
+      "completion_tokens": 547,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 784,
+      "completion_tokens": 124,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-10-15T02:16:42.154651+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7126f2a2ce6f5cc1b68ed2cb928e1174f898d011371fe7c058507f59013578d6",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001711-p000-5cf10dc385",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此水聚天心也主富”与“此元辰直長無砂水攔截不結地極凶”是并列或递进关系，candidate 处理为“这就不是结地，极为凶险；此水聚在天心位置，主大富。”，将“此水聚天心也主富”解释为与前述凶险情况并列的另一种情况（主富），这改变了原文的逻辑关系。原文更可能是在描述同一种情况（元辰直长无拦截）下的两种特征：不结地（凶）和水聚天心（富）。candidate 的断句和逻辑处理有误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001716-p000-30126d72b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001717-p000-195b4a589b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 文本存在严重错乱，candidate 试图将其整理成通顺段落，但多处释读缺乏依据，近乎重写而非释读。例如，开头“地地静大旺真 及宜而小盛應， 廣於無但既水 西此聲要结者 吕愿者澄穴泉 文求為清後注 簡索是甘秀穴 支不亦美氣前 祖可名春不以 地忍雷真盡應 皆也泉不溢真 有如若溢發龍 真湖有秋為之 應水夏水不應 是忠必竭我者 其清有游直也 格公大而穴盖 也祖责不好， 之流拘龙上地在德兴治南四十里...” 这段文字在 candidate 中被处理为一段看似通顺但逻辑牵强的描述，如“地脉静定则大旺，真龙结穴之处，宜于求取，虽有小盛之应，但既广于无，水声要结者，愿者澄，穴泉求为清后注，是甘秀，不亦美，可名春，不以尽应，若溢发，必竭我者，其清有游直也，格公大而穴盖，祖责不好”，这完全是基于猜测的拼接，原文并无此清晰逻辑。对于此类严重损坏的文本，应标注为 uncertain，并指出原文错乱，无法进行可靠释读，而非强行释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001720-p000-545cae4365",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001721-p000-a1c247bf14",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001722-p000-eb07d70390",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“醴泉 酉”未在 candidate 中体现，已在 uncertainty 中说明，符合处理原则。"
+        ]
+      },
+      {
+        "id": "book033-b001723-p000-d858eabfdb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 基本为逐字直译，未达到“普通读者能读懂的白话释读”目标。例如“味甘如醴，故名之”、“此盖圣王德感神物之来，非偶尔也”等句，保留了古文的简洁和句式，未进行充分的现代汉语转换和解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001724-p000-0f9d815020",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 基本为逐字直译，未达到“普通读者能读懂的白话释读”目标。例如“此固莫得而辨”、“大抵龙之旺气融而为泉”、“亦不必泥为硫黄矾石也”等句，保留了古文的简洁和句式，未进行充分的现代汉语转换和解释。引用的杨公口诀“凡是溫泉莫尋地真陽溫厚化為水滔溫溜溫日夜流且是水口無關闌”也未作白话解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001725-p000-771552da92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "已正确指出原文 OCR 错误并进行说明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3826,
+    "completion_tokens": 1079,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3826,
+      "completion_tokens": 1079,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

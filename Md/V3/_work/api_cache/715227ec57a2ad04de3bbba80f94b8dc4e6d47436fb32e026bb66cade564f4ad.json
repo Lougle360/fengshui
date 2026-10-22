@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-10-17T17:50:35.914318+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "715227ec57a2ad04de3bbba80f94b8dc4e6d47436fb32e026bb66cade564f4ad",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004222-p000-c60b42fe25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'以祿曜言之則大葉大貴以形殺言之'译为'即大叶大贵是以形煞来论述的'，存在严重语义错误。原文是'以祿曜言之則大葉大貴，以形殺言之...'，意思是'从禄曜的角度说，则主大叶大贵；从形煞的角度说...'。candidate的译法将'大叶大贵'归为'形煞'的论述，颠倒了逻辑关系。",
+          "candidate将'發揮日'译为'《发挥》说'，'日'应为'曰'的OCR错误，但candidate未标注此不确定性。",
+          "candidate将'頭尖向穴凶超尖向穴凶斜飛倒下凶皆不起凶'译为'如果头尖朝向穴场则凶，超尖朝向穴场则凶，斜飞倒下则凶，这些情况都主凶，无法兴起'。'超尖'可能是'梢尖'或'尖超'的误识，candidate未标注此不确定性。",
+          "candidate将'略主其'译为'但各自有所依据'，'略主其'原文不完整，可能为'略主其说'或'略主其意'，candidate的补充未标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文'發揮日'的'日'字应为'曰'。",
+          "'超尖'一词含义不明，可能是'梢尖'或'尖超'的误识。",
+          "'略主其'后文可能缺失，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004225-p000-ce64d24537",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格内容完全转化为叙述性文字，并进行了重组和归纳，这不符合对表格类原文的忠实释读要求。应逐项对应表格结构进行说明，而非概括。",
+          "candidate将'謂皆不起巒阜則似降旗故以爲凶皆辨折毫厘之間盡曜最閒科害不得不精致其別也'译为'若山峦起伏皆不起势，则像降旗一样，因此主凶。这些吉凶都在毫厘之间辨别，最闲散的曜星也难免科害，因此必须精细区分。'，其中'最閒科害'译为'最闲散的曜星也难免科害'属于无依据的推测。'閒'可能通'間'或为'閒散'，但'科害'含义不明，candidate的译法确定性过强。",
+          "candidate将'右托月曜星犬'译为'右托月曜星，形如犬'，'犬'可能指形状，也可能是'狀'的误识，candidate未标注此不确定性。",
+          "candidate将'十六曜星如托月一重二'及后续单元格内容整合为'十六曜星中如托月者，一重二重，近穴处有圆网似月'，并补充'吉凶断语'等分类，属于对表格结构的过度解读和增译。原文表格结构应原样保留其并列或对应关系进行描述。"
+        ],
+        "uncertainty": [
+          "'最閒科害'含义不明。",
+          "'犬'字可能为'狀'的误识或另有含义。",
+          "表格的具体行列对应关系在释读中可能被简化。"
+        ]
+      },
+      {
+        "id": "book035-b004226-p000-3c0e762db4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004227-p000-83ea1378c0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate承认原文错乱，并给出了推测的大意和无法确解的说明，这符合处理严重损坏文本的原则。但candidate仍尝试串联了部分词汇，如'绿氧大军之格'、'章武为屯观二'等，这些串联本身可能构成误导，因为原文的语序和逻辑关系已完全破坏。"
+        ],
+        "uncertainty": [
+          "原文文字严重错乱，存在大量缺字和语序颠倒，无法进行任何可靠的释读。"
+        ]
+      },
+      {
+        "id": "book035-b004228-p000-9a9ecb4cee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'生當王侯死廟 食全家食祿科第榮'译为'若生旺则主王侯，若死绝则主庙食，全家食禄，科第荣显'。原文'死廟 食'应为'死廟食'，指死后在庙中受祭祀。candidate补充'死绝'并拆分为'若死绝则主庙食'，属于无依据的增译和概念转换。应直译为'生时主王侯，死后主庙食，全家食禄，科第荣显'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004229-p000-783537f777",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004230-p000-3c0e762db4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004233-p000-fd1cb78f7a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'將麾幢由此取殿岩尊不貴可當子孫旌節多節度'译为'将麾幢由此取殿岩尊，不贵可当子孙，旌节多节度'。断句和语义不清。原文可能为'將麾幢由此取，殿岩尊不貴，可當子孫旌節多節度'或类似结构。candidate的译法'不贵可当子孙'不通，且'取殿岩尊'连读可能错误。需要对原文进行更合理的断句和解释。"
+        ],
+        "uncertainty": [
+          "原文'將麾幢由此取殿岩尊不貴可當子孫旌節多節度'一句断句困难，存在多种理解可能。"
+        ]
+      },
+      {
+        "id": "book035-b004234-p000-ba209853a4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在明显的文字错乱和空格（如'则 则'、'不 复旁及'等），candidate在译文中进行了合并和理顺，虽能传达大意，但具体字词和逻辑的准确性存疑。"
+        ]
+      },
+      {
+        "id": "book035-b004235-p000-814eb05c73",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate仅重复原文'鑫委'，未提供任何释读。根据指令，对于无法进行保守释读的损坏文本，应使用uncertain。但candidate未说明其无法释读的原因或不确定性。不过，鉴于原文确实仅为两个不明含义的字，直接保留并标注不确定性是合理的。"
+        ],
+        "uncertainty": [
+          "原文仅'鑫委'二字，语义不明，可能是残句、误识或特殊术语，无法进行有效释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3729,
+    "completion_tokens": 1571,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3729,
+      "completion_tokens": 1571,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

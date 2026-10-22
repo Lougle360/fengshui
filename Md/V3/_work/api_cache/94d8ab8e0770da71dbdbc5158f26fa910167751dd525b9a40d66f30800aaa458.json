@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-26T04:14:07.528168+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "94d8ab8e0770da71dbdbc5158f26fa910167751dd525b9a40d66f30800aaa458",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002186-p000-a93cb3e292",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“文武閏科”未作释读，保留了古文表述未转换为现代中文；原文存在明显OCR识读错误内容“严0o地”“+人”，候选未对此类无法确定的内容标注风险说明；原文“富貴双全”的“貴”被误写为“贵”，未按要求保留原繁体表述"
+        ],
+        "uncertainty": [
+          "“驚鸞晒翅形”为风水形法术语，未明确释读；“癸山丁卯肘後挿穴”具体操作含义未明确；“鮑尚書祖地田田田 严0o地四大溪来”存在OCR识别错误，具体所指不明；“地理恭贊玄機全書”后的“+人”为识别错误，含义不明；“方憲副祖地綿”表述不完整，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1886,
+    "completion_tokens": 236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1886,
+      "completion_tokens": 236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

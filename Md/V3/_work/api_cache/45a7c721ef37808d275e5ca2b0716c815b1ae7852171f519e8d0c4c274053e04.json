@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-16T09:29:51.593439+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "45a7c721ef37808d275e5ca2b0716c815b1ae7852171f519e8d0c4c274053e04",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001772-p000-24d99d7fa4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'雁騰翼度神仙縣'，candidate释为'大雁展翅飞越的翼度之处，是神仙居住的县境'，将'翼度'解释为'飞越的翼度之处'，属于无依据的扩写和增译。'翼度'在此处应为风水术语，指某种地形或格局，不应直译为'飞越的翼度'。",
+          "原文'絲隱隱下平田'，candidate释为'丝线般隐隐约约的山脉向下延伸至平坦的田野'，将'絲'解释为'丝线般隐隐约约的山脉'，属于无依据的增译和形象化。",
+          "原文'龜蛇相會應堵前'，candidate释为'龟与蛇在此相会，具体应验于何处原文未明'，处理得当。但'應堵前'的'堵'字，candidate未做任何处理，直接忽略，属于漏译。",
+          "原文'只有龜朝蛇不應爲官必定到廉前'，candidate释为'洞天福地中唯有龟朝蛇的格局才应验。若只有龟朝蛇而不相配，则必定能官至廉前'。此处逻辑有误。原文'只有龜朝蛇不應'意为'只有龟朝向蛇（或龟蛇格局）却不相应（不吉）'，candidate将其拆解为'唯有...才应验'和'若...而不相配'两句，改变了原意。且'廉前'为术语，candidate未加引号或说明。",
+          "原文'下出 人 形 臺'，candidate释为'此处下出的人形台地，具体所指不详'，处理得当。"
+        ],
+        "uncertainty": [
+          "應堵前",
+          "下出 人 形 臺"
+        ]
+      },
+      {
+        "id": "book035-b001775-p000-407416de23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'崩洪脈幾多般明山共水寶堪安'，candidate释为'崩洪脉有各种形态，明山共水，宝地堪安'。'明山共水'是并列结构，candidate直接保留短语，未做任何连接或解释，导致句子不通顺，未能形成现代汉语句子。",
+          "原文'敢連界上誰能別'，candidate释为'谁能分辨界上界限？'。'敢連界上'含义不明，candidate将其简化为'界上界限'，属于猜测性解释，且未标注不确定性。",
+          "原文'腰縣全印'，candidate释为'腰间悬挂“全印”'。'縣'通'悬'，candidate处理正确。但'全印'为术语，candidate未加引号或说明。"
+        ],
+        "uncertainty": [
+          "腰縣全印"
+        ]
+      },
+      {
+        "id": "book035-b001776-p000-68178aff21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "馬迹崩洪",
+          "山水之 水",
+          "螺蚌崩洪",
+          "美 之中",
+          "石崩洪",
+          "失  石節目崩洪",
+          "相交角崩洪",
+          "女 交角 之字崩洪",
+          "之 也字崩洪",
+          "前 之  川字崩洪"
+        ]
+      },
+      {
+        "id": "book035-b001777-p000-47b4f9f28e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'皆劍斬斫世昌榮'，candidate释为'皆能“劍斬斫”，使世昌荣'。'劍斬斫'是术语或比喻，candidate加引号处理正确。但'皆'字指代不明，candidate释为'皆能'，将'水若抱龍龍抱水'这两种情况都包括在内，理解合理。然而，'使世昌荣'是增译，原文'世昌榮'是结果，candidate补出'使'字连接，可以接受。主要问题在于，candidate将'皆劍斬斫'作为一个整体动作，但原文可能意指'（水抱龙、龙抱水）皆（是）劍斬斫（之格局），（主）世昌榮'。candidate的释读在逻辑上可行，但'劍斬斫'的具体含义未明，candidate未标注此不确定性。",
+          "原文'凡掌形'，candidate处理得当。"
+        ],
+        "uncertainty": [
+          "皆劍斬斫世昌榮",
+          "凡掌形"
+        ]
+      },
+      {
+        "id": "book035-b001778-p000-ac924a4071",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'陽朝脈有遮東塞外千山及萬山'，candidate断句为'阳朝脉有遮，东塞外千山及万山'。'有遮'与'東塞外'如何连接？candidate的断句导致'东塞外'成为独立短语，与前后文逻辑断裂。可能原文有缺漏或'遮東塞外'连读，意为'遮蔽东边塞外'。candidate的释读未能形成通顺的现代汉语句子。",
+          "原文'動君下取陽朝脈'，candidate释为'劝君下取阳朝脉'。'動'通'劝'，处理正确。",
+          "原文'無求所'，candidate处理得当。"
+        ],
+        "uncertainty": [
+          "無求所"
+        ]
+      },
+      {
+        "id": "book035-b001779-p000-22b2b134cd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'見來不見流神去'，candidate断句为'见来不见流，神去雌雄迎接'。此断句可能错误，导致'神去'与后文'雌雄迎接'连接生硬。更可能的断句是'見來不見流神去'，描述一种'只见来（气）不见去（水），流神（水神）已去'的格局。candidate的断句和释读缺乏依据，且未标注不确定性。",
+          "原文'兒孫高折'，candidate处理得当。"
+        ],
+        "uncertainty": [
+          "見來不見流神去",
+          "兒孫高折"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 1455,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1820,
+      "completion_tokens": 1455,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

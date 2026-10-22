@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-25T16:58:30.136536+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "04c16b9322f2bd35988153036bad39e0c42686de6d189639013e755d69bba40e",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000659-p000-a9ebc93fcd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000661-p000-3da97b518a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000662-p000-9dd3f3758e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'開金取水方'，候选误写为'開水之方'，遗漏'金'字，且未按要求保留locked_term'水'的术语属性释义",
+          "原文'脉徵茫'候选译为'脉象茫昧'，擅自将风水语境的脉气特征替换为中医脉象概念，属于术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000663-p000-35f9bb57c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000664-p000-096d7a133e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'停疑之氣'候选译为'穩定疑滯之氣'无依据，属于主观增译，原文此处含义未明不得随意释读",
+          "原文'闕辰'候选译为'闕位'属于无依据释读，'闕辰'为风水专名，不得随意替换为通用概念"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000665-p000-40700c48f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'翻聞'候选译为'翻轉'，字形误读导致释义错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000666-p000-d1799e161c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000667-p000-4d47c6edc9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'聞殺'候选未保留，擅自将其融入上下文释读，属于漏译",
+          "原文'棺木未饒'候选译为'棺木也未安穩'无依据，属于主观臆测释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000668-p000-a9ebc93fcd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000669-p000-1a8c3601ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1936,
+    "completion_tokens": 697,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1936,
+      "completion_tokens": 697,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

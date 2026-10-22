@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-04T10:08:05.080205+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c5f7f24372bcc615a51fa5cd552e33f9fbab0dcb89f4e674eda60d4d62c876c0",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001556-p000-6223412703",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001565-p000-aa68c3d3a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘披摺洪破’释读为‘像披折洪波那样’属于无依据扩写，原文‘披摺洪破’含义不明，应保留原词并标注不确定性。‘果漏 不乾’的释读‘果实漏失且不乾’将推测写成了事实，原文未明‘果漏’具体所指，应标注为含混短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001567-p000-554c231521",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 197,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 950,
+      "completion_tokens": 197,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

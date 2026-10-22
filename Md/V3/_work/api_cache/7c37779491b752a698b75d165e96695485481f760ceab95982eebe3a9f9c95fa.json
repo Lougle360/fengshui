@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:55:05.617233+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7c37779491b752a698b75d165e96695485481f760ceab95982eebe3a9f9c95fa",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002204-p000-3528b27a79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002205-p000-3ce853b3bf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的“巽而动”释为“‘巽’（八卦之一）而有所行动”，原文未明确“巽”为八卦，属于无依据扩写；原文“久于其道”释为“永久坚守正道”，原文未明确“道”为正道，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002206-p000-0edf7c2509",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“雷震风行常相交助”释为“雷震风行常相交助”，未对“震”进行符合allowed_glossary的释读，且原文“先要逊顺然后可动”无对应原文依据，属于无依据扩写；原文“说明要永久保持美好的道德”“说明要永久保持美好的道德”均属于无依据扩写，原文未明确“道”为美好的道德"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002207-p000-5e117a04ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1885,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1885,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

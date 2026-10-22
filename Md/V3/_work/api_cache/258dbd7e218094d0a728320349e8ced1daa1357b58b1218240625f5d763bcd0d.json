@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T14:22:21.937353+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "258dbd7e218094d0a728320349e8ced1daa1357b58b1218240625f5d763bcd0d",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000346-p000-cfed5f8f57",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为古代风水专业内容，“胎漏”“胎覆”“交度”均属于未被通俗化释读的专业术语，候选直接照搬原文，未转换为普通读者可理解的现代中文表述，也未标注含义不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000349-p000-f55a861761",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“泥本穴邊尋水”中的“泥”是拘泥、固执的意思，候选错误释读为“胡乱”，语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000350-p000-d3d94adbcf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“胎漏”属于风水专业术语，候选直接照搬原文，未做通俗化释读，也未标注含义不明，不符合普通读者读懂的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000352-p000-9e82bbb883",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本整体语序错乱、缺损严重，除明确的“穴”“水”术语外，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000353-p000-d36efc5799",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "风水语境中“出身處”指龙脉发源发脉的位置，候选错误表述为“穴位的出身之处”，主语错误；“帶褥帶裡”指结穴位置周围有层层缠护的平缓地形，候选释为“带有褥垫、里层的形态”过于字面，未结合风水语境通俗解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000354-p000-0c4d01cc89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在较多残缺错乱，无法完整还原原意"
+        ]
+      },
+      {
+        "id": "book026-b000355-p000-47a99756d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本整体语序错乱、缺损严重，除明确的“穴”“水”“坤”术语和数字“2”外，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000356-p000-1c4cb76175",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000357-p000-c47cd96be1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本整体语序错乱、缺损严重，除明确的“穴”“砂”术语外，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000358-p000-c378e078fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“端雪心賦”属于文本断句错误，应为“端严，《雪心赋直解》”，候选错误将“雪心賦直解”直接衔接在“丰珠玉几之端”之后，断句逻辑错误；“告訴之星”属于风水专业术语，未通俗释读也未标注"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 151,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2822,
+      "completion_tokens": 837,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1213,
+      "completion_tokens": 151,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

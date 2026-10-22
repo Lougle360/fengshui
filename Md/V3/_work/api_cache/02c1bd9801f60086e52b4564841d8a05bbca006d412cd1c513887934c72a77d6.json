@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-24T22:44:23.466616+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "02c1bd9801f60086e52b4564841d8a05bbca006d412cd1c513887934c72a77d6",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000794-p000-0a6d3c9899",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在无法通读的讹漏，candidate在无依据的情况下将“一不防細法”释读为“不可不仔细考究其中的法则”，属于无据增译，未标注原文讹漏风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000796-p000-41fb269bb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“財探”疑似OCR识别错乱，具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000797-p000-f4f0914c7e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“龍分主，切說人丁”语义含混，candidate无依据添加“脉”“忌只论”等内容，将“切說”释为“切忌只论”属于无据臆解，未标注原文语义不明风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000799-p000-8c0ceef317",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“吉白”“全雜”“富貴貧全龍”均语义不明，candidate无依据将“吉白”释为“遇上吉白的情况”、“全雜”释为“全杂的格局”，属于无据释义；原文“切說富貴”被释为“切忌只论富贵”属于无据臆解，未标注相关语义不明风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000800-p000-e4920ae85d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“稿为配公”疑似OCR识别错乱，具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000803-p000-808c5e3086",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“父母不主未分归”语义不明，candidate直接保留未标注该部分语义风险；“業入長安”的“業”字未做释读也未标注不明风险"
+        ],
+        "uncertainty": [
+          "原文末尾“無官只”疑似OCR识别错乱，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1724,
+    "completion_tokens": 587,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1724,
+      "completion_tokens": 587,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

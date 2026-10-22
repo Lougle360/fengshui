@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-04T04:09:33.500347+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f8abd85e969e43df52d1ca615faa3f10172ad651a9773de3377007114bc4bfc4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000441-p000-c949daca7d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000442-p000-5db5b69676",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为二级标题标记'##'，candidate未保留标题格式，仅以普通句子陈述。对于kind=heading，应核对标题层级和内容。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000443-p000-bb6d1ed903",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文表格内容整合为一段叙述，但存在多处漏译、误译和增译。例如：1. 漏译了表格中的'曲屈蛇L8'、'3'、'E'、'0'、'晚'、'坊'、'(C)'、'C'、'关'、'武士CN略抖'、'1'、'(('、'0)'等字符或短语。2. 将'虎形高而員獅形員而方'译为'虎形高大且圆润，狮形圆润而方正'，'高大'与'高'有细微差异，且'員'可能通'圆'，但'方'与'圆润'矛盾，candidate处理不当。3. '雁與鳳凰不殊'译为'雁与凤凰外形不同'，'不殊'意为'没有区别'，此处为反义误译。4. '低禽形是金星多主貴也'译为'低矮的禽类形态属金星，多主贵气'，原文'星'可能指'金星'，但candidate将'金星'作为确定术语译出，而原文并未明确其为风水术语，存在风险。5. '馬形身晚高'译为'马形身体高大且头部较高'，'晚高'含义不明，candidate推测为'头部较高'，属于无依据扩写。6. '蛇形屈曲身'译为'蛇形弯曲且身体长'，原文未明'身'后内容，candidate补'长'无依据。7. '鈎形多是假金'译为'多为假金'，'假金'含义不明，candidate未标注不确定性。8. '不然則必如死餘不給'译为'否则必如死余，不吉'，'死餘不給'含义不明，candidate解释为'不吉'属于推测。9. '前 尖刃幽之'译为'前尖刃幽之'，原文有空格且'幽之'含义不明，candidate未处理。10. '干氏乃謂見群鴉而反吉此不過萬物理權之己矣'译为'干氏却认为见到群鸦反而成吉，这不过是万物理权之己罢了'，'萬物理權之己'含义不明，candidate直译未标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，包含大量未明字符和短语，其具体含义和与正文的对应关系不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2143,
+    "completion_tokens": 713,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2143,
+      "completion_tokens": 713,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

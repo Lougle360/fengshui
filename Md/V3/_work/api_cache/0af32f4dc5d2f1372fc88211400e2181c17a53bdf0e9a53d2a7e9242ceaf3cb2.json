@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T10:11:24.750804+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0af32f4dc5d2f1372fc88211400e2181c17a53bdf0e9a53d2a7e9242ceaf3cb2",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000586-p000-59a9f57b21",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文未明确的‘遇煞而吉’作为确定前提，存在无依据扩写；‘修’‘制’的具体指向未明确，释读中直接译为‘修造或制化’属于无依据的确定解释"
+        ],
+        "uncertainty": [
+          "原文未明确‘遇煞而吉’的前提，也未说明‘修’‘制’的具体指向"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 799,
+    "completion_tokens": 130,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 799,
+      "completion_tokens": 130,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T13:59:02.039005+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "915a006ccc80421a1e9b4d79e403c4ec965e382fc443ec5630c80beed434be20",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000455-p000-ecd69413ca",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文包含大量无法识别的公式符号，候选释读未对这些符号的含义进行说明，且存在符号缺失、含义不明的问题"
+        ],
+        "uncertainty": [
+          "公式符号 $\\supset \\vec { \\uparrow } \\supset \\vec { \\underline { { U } } } \\lor \\bar { \\downarrow }$、$\\bar { \\mathfrak { s } }$ 的具体含义无法确认"
+        ]
+      },
+      {
+        "id": "book015-b000457-p000-4050a3dfd2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000459-p000-bce9dc90df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000461-p000-73a7df8da0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "字符 $\\boldsymbol { \\dot { \\varsigma } }$ 无法确认具体所指，候选释读直接使用该字符，未说明其含义"
+        ],
+        "uncertainty": [
+          "字符 $\\boldsymbol { \\dot { \\varsigma } }$ 无法确认具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1443,
+    "completion_tokens": 330,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1443,
+      "completion_tokens": 330,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

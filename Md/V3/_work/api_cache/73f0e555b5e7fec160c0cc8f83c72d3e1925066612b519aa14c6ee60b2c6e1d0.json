@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-24T01:10:04.442171+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "73f0e555b5e7fec160c0cc8f83c72d3e1925066612b519aa14c6ee60b2c6e1d0",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000837-p000-83f5d0b95a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文断句不清晰，人物归属存在不确定性",
+          "字符「r」无法辨识，具体含义不明"
+        ]
+      },
+      {
+        "id": "book002-b000839-p000-d6909f8c84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「其卦以乾坤艮兮为西四宅」，候选将西四宅补充为「乾、坤、艮、巽」不符合八宅风水基本定义，西四宅应为乾、坤、艮、兑，东四宅为坎、离、震、巽，此处推测错误，且将不确定推测作为明确表述",
+          "原文「坎关巽震为东四宅」的「坎关」候选按讹误修正为「坎离」，但原句断句应为「坎、关（离）、巽、震」，表述逻辑无问题，但西四宅的补字错误属于核心内容偏差"
+        ],
+        "uncertainty": [
+          "「几戊乾亥」中「戊」应为「戌」的讹误，「几」应为「凡」的讹误",
+          "「未坤巾」中「巾」应为「申」的讹误",
+          "「消息盈卢」中「卢」应为「虚」的讹误",
+          "「坎离济」缺字「既」为推测补全",
+          "「贪巨禄来」中「来」应为「文」的讹误",
+          "西四宅组成的补字推测不符合通用八宅定义，存在偏差"
+        ]
+      },
+      {
+        "id": "book002-b000841-p000-0dcd2b9b27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「虞延生祸绝五天六」中「虞」为讹误，推测应为「震」",
+          "「卦地黍之」中「黍」为讹误，应为考量、权衡类含义"
+        ]
+      },
+      {
+        "id": "book002-b000843-p000-6c42196e72",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「遂栋生人」语义不明",
+          "「则州巽天五六之法」中「州」应为「用」的讹误",
+          "「第三栋六煞水内」语义不通",
+          "「祸害土生绝命 三金不生延年金」存在缺字，语义不明",
+          "「谓景后一栋」中「景」为讹误，具体含义不明",
+          "「入杖五火凶」语义不明",
+          "末尾「此为化宅相生之」缺字，语义不完整"
+        ]
+      },
+      {
+        "id": "book002-b000844-p000-2439175e98",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「门宅房皆为官也」中「官」应为「宫」的讹误"
+        ]
+      },
+      {
+        "id": "book002-b000845-p000-f98e1dc63b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「凶内飞得凶星为木坐」语义不明",
+          "「从门土绕屋一数」中「土」应为「上」的讹误",
+          "「开厕癘牛栏」中「癘」为讹误，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5398,
+    "completion_tokens": 854,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5398,
+      "completion_tokens": 854,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

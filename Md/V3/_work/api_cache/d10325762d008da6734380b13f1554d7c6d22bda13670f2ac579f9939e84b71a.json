@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T13:59:28.609303+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d10325762d008da6734380b13f1554d7c6d22bda13670f2ac579f9939e84b71a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000467-p000-2c783deac4",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 2.1 大衍总数术",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000468-p000-84c5adfefe",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中国剩余定理中的x₁、x₂……xₖ，在《孙子算经》“物不知数”这类简单问题中，即便通过试错法也能求得；但对于复杂问题，却没有求解的方法。另外，模数m₁、m₂……mₖ也必须两两互素。能够突破这些局限，带来新发展的，是13世纪南宋的秦九韶。他在《数书九章》十八卷（1247年）的第一、第二卷“大衍类”中，系统记述了联立一次同余式的解法。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000469-p000-321e873642",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "不过在“大衍类”的同余问题中，m₁、m₂……mₖ两两互素的情况，仅出现在最后记载的“余米推数”这一道题中。因此为了便于说明，我想先讲解这道题的解法，之后再论述复杂的事例。关于“余米推数”的问题和答案，",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000470-p000-16ee42e07d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "问：有米店老板向官府报案，称有盗贼从三个相同的米仓中盗走了米。据说三个米仓里都装满了米，但具体数量不明。官府核查现状后发现，左侧米仓剩下1合米，中间米仓剩下1升4合米，右侧米仓剩下1合米。不久后，盗贼甲、乙、丙三人被抓获。据甲供述，当晚他摸索着找到一种叫“ひしゃく”的马杓，用它从左侧米仓舀米装进布袋；据乙供述，他踩着木屐，用它从中间米仓把米装进袋子；据丙供述，他摸索着找到漆碗，用它从右侧米仓把米装进袋子。不过被盗的米已被食用，且过了些日子，所以被盗米的总数不明。查找作案工具后得知，马杓的容量为1升9合，木屐的容量为1升7合，漆碗的容量为1升2合。请问被盗的总米数，以及三名盗贼各自盗走的米数分别是多少？",
+        "confidence": "medium",
+        "uncertainty": [
+          "ひしゃく的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2218,
+    "completion_tokens": 709,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2218,
+      "completion_tokens": 709,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

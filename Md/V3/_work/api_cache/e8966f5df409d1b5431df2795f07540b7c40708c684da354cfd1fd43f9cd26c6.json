@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-17T10:31:57.231552+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e8966f5df409d1b5431df2795f07540b7c40708c684da354cfd1fd43f9cd26c6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003319-p000-f027238e9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘金命分金克命火命分金克木命分金克命土命分金克命水命分金克命’，是一个循环相克的链条。候选句‘水命对应的分金克制命金’在末尾添加了‘金’，使链条闭合，但原文末尾是‘克命’，并未明确写出‘金’。这属于无依据的扩写，改变了原文的表述。应忠实于原文的表述方式，末尾应为‘水命对应的分金克制命’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003320-p000-bd99f7e35f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003321-p000-f441c2e787",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003322-p000-90b3b60cfe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘震山壓冢凶申兑行注用亥艮制之兑本吉巽龍曜星故制之丑未行注用巽氣制之’结构复杂。候选句将其拆解为‘对于申方位行注之气，应用艮气来制约兑卦；对于丑、未方位行注之气，应用巽气来制约。’并省略了‘震山壓冢凶’和‘兑本吉巽龍曜星故制之’的翻译。这属于漏译。候选句对‘庚甲’的处理（标注为不确定）是恰当的，但整体信息不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003323-p000-a70c1b3613",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003324-p000-473f5dc57d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003326-p000-54f9f22a1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003327-p000-0df7a79bfb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003328-p000-3ccc74bf5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003329-p000-18288cdd51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘凡千里來龍只看到頭一節爲準或眞行僞變局卻不可以入首爲準孔如艮行變甲入穴或癸入穴或亥變壬入穴俱爲變局只以后節吉山爲主立向布氣行水則初年不以行到吉龍吉向吉水應合則發福矣’。候选句‘大凡千里来龙，只看到头一節为准；若是真行伪变局，却不可以入首为准。例如艮行变甲入穴，或癸入穴，或亥变壬入穴，都算是变局，只以后节吉山为主，立向布气行水，则初年不以行到吉龙、吉向、吉水应合，则发福矣。’存在两处问题：1. ‘孔如’应为‘例如’，候选句直接改为‘例如’，虽不影响理解，但属于未经说明的修正。2. 最后一句‘则初年不以行到吉龙、吉向、吉水应合，则发福矣’逻辑不通，且‘不以’的翻译可能不准确。原文此处可能有脱漏或讹误，候选句强行翻译，语义不清。"
+        ],
+        "uncertainty": [
+          "原文‘孔如’可能为‘例如’之误。最后一句‘则初年不以行到吉龍吉向吉水應合則發福矣’语义含混，难以准确释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3661,
+    "completion_tokens": 918,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3661,
+      "completion_tokens": 918,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

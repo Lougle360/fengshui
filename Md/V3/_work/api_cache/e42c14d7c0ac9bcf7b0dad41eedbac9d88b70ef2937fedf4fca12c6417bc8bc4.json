@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T23:20:57.602275+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e42c14d7c0ac9bcf7b0dad41eedbac9d88b70ef2937fedf4fca12c6417bc8bc4",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001131-p000-c2e8c45716",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“全名所言”被误译为“所有相关说法”，存在漏译偏离；原文未提及“以……为核心”的表述，属于无依据增译；原文日文假名“祓え”虽释为祓除合理，但整体核心含义与原文偏差较大"
+        ],
+        "uncertainty": [
+          "原句语序存在错位，部分语义含混，“平洋龍巧众天玉之說”的准确关联关系尚不明确"
+        ]
+      },
+      {
+        "id": "book017-b001132-p000-106b93bf0c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陰它”“陽它”为“陰宅”“陽宅”的讹写，译文部分处误保留“它”字表述；原文“公天玉”应为“《天玉经》”类典籍，译文漏译“公”字相关表述且直接写作“天玉经”不够严谨；原文“陽地理辦正真读 辨三真诀 都天室照經上第 二三三宅”存在OCR或原文传抄讹乱，译文直接释读为“阳地理辨正真读、辨三真诀、都天宝照经上第二二三三宅”属于无依据确定释读；原文“依切未龍每形僅得其氣之往未”存在讹乱，译文简化为“来龙的形态仅能得知气的往来”存在漏译和强行通顺的问题；原文“陽它不君分全”应为讹文，译文直接释为“阳宅不看分全”属于无依据推测；原文末尾日文假名“风れ”未做合理处理，译文直接归为“风水理论”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文存在多处传抄或OCR讹误，包括“辦正真读”“都天室照經上第 二三三宅”“依切未龍每形”“不君分全”等内容具体所指均不明确，“风れ”的准确含义也无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 496,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1143,
+      "completion_tokens": 562,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1143,
+      "completion_tokens": 496,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

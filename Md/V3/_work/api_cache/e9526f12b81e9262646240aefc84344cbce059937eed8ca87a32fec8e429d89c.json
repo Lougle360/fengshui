@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-26T08:36:07.546563+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e9526f12b81e9262646240aefc84344cbce059937eed8ca87a32fec8e429d89c",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000436-p000-41c83d32ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多处出现的“出服”“落服”“服服”为“出脉”“落脉”“悉本”类讹字，候选直接改作“出脉”“落脉”等未标注原文讹误风险；原文“福福”为重复或讹字，候选直接改为“福祸”属于无依据臆改；原文“論龍出脈三格凡龍之穿落纏變皆有出服”中“出服”未标注原文异写，直接释为“出脉的情况”未说明处理依据"
+        ],
+        "uncertainty": [
+          "原文“出服”“落服”“服服”“福福”含义因形近讹写无法完全确定"
+        ]
+      },
+      {
+        "id": "book033-b000437-p000-c179dec5a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "非穴等皮取作中台 兩畔山形均右均勻",
+          "胃之中山反告復山 出 勻者皆是不星而脈從中落或左右攝布均生而所從中發皆自之中出用是書 論",
+          "一反為或下切"
+        ]
+      },
+      {
+        "id": "book033-b000439-p000-c57d1a7a5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选擅自判定“桶”为“桷”的讹字，无版本依据，属于无依据臆改；原文“大匠用木大者為椽細者為桶”未标注原文用字，直接更改原文表述不符合要求；原文表格中的OCR乱码“北王人矢”“份楼 C”“CC”“CCO”“CCC”“2”“G偏”等直接保留未说明是OCR识别错乱内容"
+        ],
+        "uncertainty": [
+          "“棲櫨根闐居楔”具体所指不详",
+          "表格内“北王人矢”“份楼 C”及各类字母、数字乱码为OCR识别错误，含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000444-p000-5ada9cd41f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3391,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3391,
+      "completion_tokens": 592,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

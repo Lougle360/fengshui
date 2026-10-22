@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-10-15T05:54:58.269159+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cdff86c434435936d94a9922e44f979a97203c987336359251b544ca89240197",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001258-p000-824cb55182",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘作谓之 之少阴也’存在衍文或排版错误，candidate未处理此问题，直接译为‘就称之为少阴’，未体现原文的混乱结构。",
+          "原文‘作居穴当取中定基作葬穴有’中‘作居穴’与‘作葬穴’并列，candidate译为‘作为居穴或葬穴时’合并处理，虽未改变含义，但未保留原文的列举结构。",
+          "candidate将‘脉带如蕙莖如韭葉’译为‘或者如四象中的脉带、如蕙草茎、如韭菜叶’，‘或者’一词可能暗示选择关系，原文是并列列举，应避免引入选择意味。"
+        ],
+        "uncertainty": [
+          "原文‘作葬穴有’后内容缺失，语意未尽。"
+        ]
+      },
+      {
+        "id": "book035-b001260-p000-7cb5f58840",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘之少陽名腫’译为‘这种少阳形态名为‘肿’’，将‘肿’处理为专名，但原文‘腫’更可能是指‘肿起’的形状描述，而非专有名词。",
+          "candidate将‘之金水星’译为‘则属于‘金水星’’，原文‘之’前无动词，结构突兀，candidate的译法（‘属于’）是推测性补充，应明确标注不确定性。",
+          "candidate将‘當作穴當培開之定基’译为‘应当作为穴，需要培土开基’，原文‘培開之定基’含义模糊，candidate的‘培土开基’是推测性解释，应标注不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b001261-p000-f31019d255",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格转换为文本可能丢失视觉结构信息。",
+          "‘星太’连读可能错误，原文可能是‘星太形’或排版有误。"
+        ]
+      },
+      {
+        "id": "book035-b001263-p000-4f70e7e113",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘五水星’译为‘五水星’，未加引号或说明，可能误导读者认为这是一个标准术语。原文‘五水星’可能为‘五星’或‘水星’之误，或为特殊称谓，应作为opaque_term处理。",
+          "candidate将‘生即大’译为‘生即大’，并推测可能为‘形即大’或‘星即大’之误，处理方式恰当。但‘形如蛾眉’的主语不明确，candidate将其与‘生即大’关联，逻辑上可行，但应标注这是基于推测的解读。"
+        ]
+      },
+      {
+        "id": "book035-b001269-p000-8ad5eb16f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘脉象四法’译为‘脉象四法，大概指此息象的直体’，原文‘脉象四法’与后文‘此息象之直体’的衔接关系不明确，candidate用‘大概指’进行连接，属于无依据的推测性解释。",
+          "candidate将‘尘象正横直皆是’译为‘尘象正横直皆是’，并推测‘尘象’可能为‘此象’之误，处理方式恰当。但‘正横直皆是’的具体含义未解释，candidate直接保留原文短语，符合要求。",
+          "candidate对‘禹 官 业’的处理（‘不应将其纳入‘官业’的解释中’）是评论性文字，不属于白话释读内容，应删除。释读只需说明‘禹’字位置突兀，含义不明即可。"
+        ]
+      },
+      {
+        "id": "book035-b001272-p000-e6b287d3e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘右脈龍紫微木星太乙碧玉圓’译为‘右脉龙包括紫微、木星、太乙、碧玉’，原文是列举，candidate添加‘包括’进行连接，属于为形成句子而补出的连接词，可以接受。但‘圆’字未处理，candidate将其与后文‘圆谓’合并推测为‘圆晕’，但原文‘圆’可能与前文星名并列，也可能与后文‘谓’相连，candidate的处理是推测，应明确标注不确定性。",
+          "candidate将‘圆谓似有似后’推测为‘圆晕似有似无’之误，并据此翻译，但未明确说明这是对讹误的推测性修正，应标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2073,
+    "completion_tokens": 1040,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2073,
+      "completion_tokens": 1040,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

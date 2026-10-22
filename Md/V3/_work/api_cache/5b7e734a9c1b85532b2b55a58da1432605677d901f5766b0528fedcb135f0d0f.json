@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-10-04T12:07:16.257266+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5b7e734a9c1b85532b2b55a58da1432605677d901f5766b0528fedcb135f0d0f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000852-p000-a0fdff4855",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'頂斜腳斜者爲破面'，candidate译为'頂部斜、腳部斜的是破形'，将'破面'换为'破形'，属于专业术语误换。",
+          "原文'頂正腳彎者爲乘龍'，candidate译为'頂部端正、腳部彎曲的是乘龍'，将'腳彎'译为'腳部彎曲'，释义不准确，'彎'在此处更接近'圆润、有弧度'，而非一般意义的'弯曲'。",
+          "原文'斜枝側頂爲友面'，candidate译为'斜枝側面頂部與它物為友'，将'友面'译为'與它物為友'，属于无依据扩写，原文'友面'是风水术语，应保留原词并说明其含义不确定。",
+          "原文'尖而有腳號乘龍'，candidate译为'頂部尖銳且有腳，稱為乘龍'，将'尖'译为'頂部尖銳'，释义不准确，'尖'在此处指山峰形态尖耸，而非仅'顶部尖锐'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000853-p000-0f80a7e15a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000854-p000-07ded340d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000855-p000-7a70255cb9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000856-p000-59d0540718",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'貪狼自有十二樣尖圓平直小爲上欹斜側嚴倒破空禍福輕重自不同'，candidate译为'貪狼自有十二種樣式：尖、圓、平、直，小者為上；欹、斜、側、嚴、倒、破、空，禍福輕重自不相同'。此处计数有误：'尖圓平直小'是五种，'欹斜側嚴倒破空'是七种，合计十二种。但candidate在列举时，将'小'与'尖圓平直'并列，并称'小者為上'，这改变了原文的并列关系。原文'尖圓平直小'应理解为五种并列的形态，'小'是其中一种，而非'尖圓平直'这四种形态中'小'的为上。",
+          "原文'平若臣蟲在高頂'，candidate译为'平若臣蟲在高頂'，保留了'臣蟲'这一不透明术语，符合要求。但'臣蟲'具体所指不详，candidate未加说明，这是允许的。",
+          "原文'五者方爲貪正形'，candidate译为'五者方為貪正形'，正确。但结合前文，candidate对'五者'的指代（尖、圆、平、直、小）的翻译存在上述问题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000857-p000-7314e4e60b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'買者四面一同'，candidate译为'買者四面一同'，保留了'買者'，但'買'字疑似OCR错误或通假，可能应为'圓'。candidate未作任何处理，直接照搬，导致语义不通，属于未能识别并处理原文损坏。",
+          "原文'臥蟲尖脊者倒地貪狼也'，candidate译为'臥蟲尖脊者倒地貪狼'，保留了'臥蟲'这一不透明术语，符合要求。但'臥蟲'具体所指不详，candidate未加说明，这是允许的。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000858-p000-0ce78571c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 未将原文转换为白话释读，仅做了标点断句和个别异体字转换，不符合 V3 目标。例如“火星要起廉貞位，生出貪狼”应释读为现代白话，而非保留原句。",
+          "candidate 未处理原文中的日文误译或歧义，如“伉狼若非廉作且為官也不到三公”一句含义不明，candidate 未作任何说明或释读。",
+          "candidate 未解释专业术语如“火星”、“廉贞”、“贪狼”等，也未按规则将 locked_terms '向' 用 allowed_glossary 中的定义进行解释。",
+          "candidate 保留了古文句式，如“此龍不是尋常員”，未转换为现代中文。",
+          "candidate 在末尾“解生朱觜客”处断句可能错误，导致语义不通，但未作任何标注或说明。"
+        ],
+        "uncertainty": [
+          "原文‘伉狼若非廉作且為官也不到三公’一句含义不明，可能为讹误或特定术语。",
+          "‘解生朱觜客’具体所指不详，原文未明。"
+        ]
+      },
+      {
+        "id": "book035-b000859-p000-42051e92e5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 仅做了异体字转换（‘爲’转‘為’），未将古文‘下領須爲朽腐家’转换为白话释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000860-p000-0fd2ec392c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 仅做了标点断句和异体字转换（‘裏’转‘里’，‘爲’转‘為’），未将古文转换为白话释读。例如‘高山如屏帳在后’应释读为现代中文。",
+          "candidate 未解释‘上領蛇’、‘下領蛇’、‘主貴’、‘主富’等风水术语的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000861-p000-185e11d13b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 未将原文转换为白话释读，仅做了标点断句和异体字转换（‘祗’转‘只’，‘眞’转‘真’，‘殼’转‘殼’，‘迴’转‘迴’，‘著’转‘著’，‘筍’转‘筍’），不符合 V3 目标。例如‘大山特起小爲貴’应释读为现代白话。",
+          "candidate 未解释‘九星’、‘剝換’、‘退卸’、‘真龍’、‘纏’、‘城郭’、‘捍門’、‘羅星’、‘火星龍’、‘抱養病’、‘病眼墮胎山’、‘玉笋班’等大量专业术语。",
+          "candidate 对可能存在的讹误或歧义句未作说明，如‘十條九條亂了亂中有一條卻是眞’、‘若是眞時斷了斷’等。"
+        ],
+        "uncertainty": [
+          "‘肅換’可能为‘剥换’之误或特定写法，原文未明。",
+          "‘我山迴環落面前’中的‘我山’具体所指不详。",
+          "‘只有眞龍坐火内’的‘火内’具体所指不详。",
+          "‘羅星要柱羅城外’的‘柱’字具体含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1749,
+    "completion_tokens": 802,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3600,
+      "completion_tokens": 1285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1749,
+      "completion_tokens": 802,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

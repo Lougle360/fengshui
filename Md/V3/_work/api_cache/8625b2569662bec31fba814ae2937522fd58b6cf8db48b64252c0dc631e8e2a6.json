@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T11:39:57.744817+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8625b2569662bec31fba814ae2937522fd58b6cf8db48b64252c0dc631e8e2a6",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000152-p000-2b41a09b53",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000153-p000-b439e2c96f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000154-p000-efc6c70d10",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中\"令丁婦配庚失交媾成局\"的因果关系错误表述为水流向乾导致，实际原文是水流向乾与丁妇配庚失交媾成局为并列的两种违规情况，并非因果关系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000155-p000-585ce0fb41",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2130,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2130,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

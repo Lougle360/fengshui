@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:04:46.497744+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d10a549204067eefb61545a159222500408ee1a4a48285fb01117b55caef0c60",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000333-p000-a9659c8bcb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          ""
+        ],
+        "uncertainty": [
+          "原文斷句混亂，無法確定“丙局假斷”“外局假地”等表述是否符合原文實際含義"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 827,
+    "completion_tokens": 83,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 827,
+      "completion_tokens": 83,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

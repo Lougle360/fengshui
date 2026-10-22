@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-04T02:17:59.309043+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "45921d7a78fa1697f092eb1e6b7dff35b6af7354c8bb4232e56ee3a134077d0a",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001187-p000-01bfd2b320",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "水底石脉联马"
+        ]
+      },
+      {
+        "id": "book033-b001188-p000-18a9615b58",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘艮贾深藏若虚’，candidate 将其写作‘艮贾深藏若虚’，但‘艮贾’应为‘良贾’之误。‘良贾深藏若虚’是常见典故，意指善于经商的人深藏不露。此处误写为‘艮贾’，属于专业术语误换或OCR错误，candidate未指出此问题，并错误地将其列为不确定短语。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1381,
+    "completion_tokens": 209,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1381,
+      "completion_tokens": 209,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:18:42.868272+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7d530ff61c8ddcb02f7881b7f2979597bddda53e2f184a5227ff1cd26faa4ed5",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000015-p000-f37beccfae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000016-p000-67caf6dea6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分表述逻辑及术语对应关系不够明确，具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000017-p000-72fc6a940d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分表述逻辑及术语对应关系不够明确，具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000018-p000-7de8b5452d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "玄武"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1971,
+    "completion_tokens": 254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1971,
+      "completion_tokens": 254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

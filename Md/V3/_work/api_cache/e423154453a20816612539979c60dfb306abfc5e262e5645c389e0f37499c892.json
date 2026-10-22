@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-09-25T14:56:59.604033+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e423154453a20816612539979c60dfb306abfc5e262e5645c389e0f37499c892",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000150-p000-2119e3e936",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000151-p000-d3b6845a04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“途龍之水”“逸龍之水”为风水专门术语，原文未作解释，此处保留原词"
+        ]
+      },
+      {
+        "id": "book028-b000152-p000-fb0d7b79cd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“實其而形疑不有以全之”释读有误，候选将其解读为“如果实际的地形存在疑问，不设法保全的话”属于无依据猜测，该句原文存在语序或文字讹误，应标注含义不明，不得自行补全语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000153-p000-4a7b2508fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“多不者貴”误译为“石头多的地方主贵”，原文未提及“石头”，属于无依据增译；原文“金形多當金石異也”误译为“金形的地形多主贵，金和石的作用有区别”，“當”字未对应释读且擅自添加“主贵”语义，与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000155-p000-1da990bd36",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“戌星”为风水星体术语，原文未作解释，此处保留原词；“用法恕字于大小”存在讹字，无法准确释读"
+        ]
+      },
+      {
+        "id": "book028-b000156-p000-1bd1f9c874",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“砂水之有稷者”“自治甚雖”“體上九有傍氣”“洩其潘”均存在讹误，无法准确释读"
+        ]
+      },
+      {
+        "id": "book028-b000158-p000-34979bec65",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“張後弘轉窩突”“極天未足體物尚壑”“循其脊春”“循其孩”“釣其新胎”均存在讹误或术语不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book028-b000159-p000-9f70438a10",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“生意覃典”的“典”为讹字，“天行傳塟”存在讹误，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3604,
+    "completion_tokens": 721,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3604,
+      "completion_tokens": 721,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

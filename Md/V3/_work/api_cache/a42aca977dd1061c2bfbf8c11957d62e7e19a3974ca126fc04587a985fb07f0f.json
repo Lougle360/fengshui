@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-23T16:04:25.094602+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a42aca977dd1061c2bfbf8c11957d62e7e19a3974ca126fc04587a985fb07f0f",
+  "response": {
+    "items": [
+      {
+        "id": "book004-b000131-p000-b56af2bfe1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译严重：source中‘郭朴塟經 卷一 五十五’被误译为‘郭璞《葬经》卷一第五十五页提到’，且后续‘火不測或子孫參差而人事不齊或官事牢獄而四厄巳備去當臧族後果如其言’等句完全未译。",
+          "反义：‘擲源塞坤’被译为‘文中还提到‘坤’’，原文‘擲源塞坤’是并列短语，意指堵塞源头和坤方，candidate未译出含义，且处理不当。",
+          "专业术语误换：‘郭朴’在candidate中多处被写作‘郭璞’，但locked_terms中为‘郭朴’，应保留原文用字。",
+          "数字/干支/卦象/方位变化：source中‘四凶’、‘六凶’、‘五凶’等数字概念在candidate中虽有提及，但‘四凶’被处理为‘充当‘四凶’’，未明确是风水术语，且后续解释‘对活着的人毫无益处，反而招来祸患’为无依据扩写。",
+          "把推测写成事实：candidate将‘坤’解释为‘具体所指不详’，但source中‘擲源塞坤’是明确动作，candidate未译出‘塞坤’之意，反而添加了无依据的说明。",
+          "古文未转换：source中‘管子曰不善奮上偪下爲五凶’被译为‘管子曰：‘不善奋上，逼下为五凶。’’，但candidate前文‘大凡地僭上言庶人墳墓不得如大官制度貿家行喪不’等句未译，导致语义不连贯。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000132-p000-caa88920c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：source中‘郭朴塟經一 五十七 朴雞經 卷一’被误译为‘郭璞葬经一五十七页，朴鸡经卷一’，且‘尤爲謬然惡無無氏之文皆後人依倣而作之者’等句未完整译出。",
+          "专业术语误换：‘郭朴’被写作‘郭璞’，应保留‘郭朴’。",
+          "数字/干支/卦象/方位变化：source中‘主承二然六十二止存其八’等数字表述在candidate中未准确译出，candidate译为‘主承二然六十二，止存其八’，但未解释含义，且‘二为属失也’等句翻译混乱。",
+          "古文未转换：source中‘古語云世有楊曾方識郭朴今衛之侶朴之乖者卽世然解年月之說也’被译为‘古语云：世有杨曾，方识郭璞。今卫之侣，朴之乖者，即世然解年月之说也’，但‘卫之侣’、‘朴之乖者’等未转换，且‘下篇北之上篇’等句未译。",
+          "把推测写成事实：candidate添加‘文中还提到‘震’、‘坎’、‘艮’，具体所指不详’，但source中‘震離坎兌乾坤艮異’是列举八卦，candidate未译出‘離’、‘兌’、‘異’，且处理不当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000133-p000-32c36fedf3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000134-p000-076a4e5999",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3835,
+    "completion_tokens": 849,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3835,
+      "completion_tokens": 849,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

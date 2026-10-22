@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-04T03:13:14.273805+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d8f2e68c36fdb71b786ea16339b2be9f9b6dc92a607aa6008ef9ea9fbd39e9a7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000367-p000-f519be478f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘才風是而青永無發’在candidate中仅处理为‘只是被风吹袭，则永远无法发福’，漏译了‘青’字。",
+          "反义/误译：原文‘龍勝雖吉而葬不得正穴才風是而青永無發’中，‘才風是而青’含义不明，但candidate将其解释为‘只是被风吹袭’，属于无依据的确定解释，应标注为不确定。",
+          "专业术语误换/增译：原文‘山之應驗稍遲 山則永年凈物禍福應之稍遲’中，‘凈物’含义不明，candidate将其解释为‘其‘净物’带来的祸福’，属于无依据的确定解释，应标注为不确定。",
+          "数字/干支/卦象/方位变化：无。",
+          "日文误译：无。",
+          "把推测写成事实：candidate将‘才風是而青’、‘凈物’等不确定短语解释为确定事实。",
+          "古文/日文未转换：candidate对‘月 VK 地’、‘成有嫩燉蟠斗蚊憶粒拘擬燧收排緹黯碎仙脉驅砥編炊經得吉也’等句处理得当，标注了不确定性。"
+        ],
+        "uncertainty": [
+          "‘才風是而青永無發’含义不明，可能为‘才風是而青永無發’的讹误或特定术语。",
+          "‘凈物’含义不明，可能为‘静物’或特定风水术语的讹误。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 415,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 962,
+      "completion_tokens": 415,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

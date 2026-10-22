@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-17T23:48:54.229943+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "16c32ed6a0d76102fd5584e9d027a874abad0dcf3e04ee3d972195444de67cbf",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005025-p000-c5c890a0c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005026-p000-e3b7271671",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格内容按视觉行转述为普通文本，但未能清晰传达表格的原始结构（如单元格合并、行列对应关系），也未处理其中的术语和符号（如‘C’、‘G’、‘出4’、‘左仙官’等），这可能导致信息丢失或混淆。作为审校，应指出表格结构复杂，且存在含义不明的字符或术语，但不应要求候选句改写为表格。然而，当前候选句的转述方式过于简化，未能有效保留原文的布局信息，属于信息呈现不完整。"
+        ],
+        "uncertainty": [
+          "表格中部分文字（如‘您’、‘越’、‘方’等）在风水语境下含义不明，可能为OCR识别错误或特定术语，无法确认其确切指代。",
+          "表格结构复杂，部分单元格合并情况（rowspan/colspan）在转换时可能影响语义连贯性，此处仅按视觉结构转述。"
+        ]
+      },
+      {
+        "id": "book035-b005029-p000-11f0d28c4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2042,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2042,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

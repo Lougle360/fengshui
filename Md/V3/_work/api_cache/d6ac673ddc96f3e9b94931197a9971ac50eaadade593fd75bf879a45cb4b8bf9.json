@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-25T06:42:04.923071+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d6ac673ddc96f3e9b94931197a9971ac50eaadade593fd75bf879a45cb4b8bf9",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000103-p000-44d5ce4cc7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000104-p000-e07946474f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“计量得尽”指能完全测算估量，candidate译为“完全得到”语义偏差，不符合原文含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000105-p000-5f8845132d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文字符为拼音转写，对应汉字无法确认"
+        ]
+      },
+      {
+        "id": "book022-b000106-p000-f2d3487eec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000107-p000-119cfe0534",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000108-p000-33c2d233da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2558,
+    "completion_tokens": 381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2558,
+      "completion_tokens": 381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T08:27:08.653881+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "166a15e056d5e3ebdba65912b2d29197c9c51b2f5aef2792b8697f39fee19736",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000192-p000-320c4a4f16",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“戊饰”误释为“有戊饰”，原文未提及“戊饰”相关内容；将“面木”误释为“可动的面木之声”，原文仅为“有石可动面木声者亦吉”，释读存在偏差；将“榆黄”按原文保留未标注具体所指不详，符合要求，但“聊面”“明帝”“排顺木之局”“牙瓜”“皎牙”“平祥之局”“高卷之下”等未按要求标注具体所指不详；将“间之驾龙就虎作案部之骑虎”释读为“间的驾龙就虎作案部的骑虎”，语义不通，存在误释；将“任木之去而愈筋有也”释读为“任由木去，却更有筋”，语义不明，存在误释；将“卷之下”误释为“高卷之下”，原文为“高卷之下”，但未标注具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000193-p000-5b774b4591",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "表格内文字多为OCR识别错误或残缺，部分文字无法准确辨识，仅能按原文结构保留，释读无法保证准确性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4653,
+    "completion_tokens": 364,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4653,
+      "completion_tokens": 364,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

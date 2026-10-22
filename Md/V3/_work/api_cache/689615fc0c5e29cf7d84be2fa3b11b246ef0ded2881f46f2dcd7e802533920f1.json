@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-26T04:51:29.128679+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "689615fc0c5e29cf7d84be2fa3b11b246ef0ded2881f46f2dcd7e802533920f1",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000289-p000-270a6e3be6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文语序完全打乱重组，属于无依据调整原文论述逻辑，违背释读忠实性要求",
+          "对原文缺漏的零散内容添加了大量无依据的连贯解释，如“卯位对应的方位如果发风，就不会有广阔的来势”“酉位相关的四、十相关的内容”等，属于无据增译",
+          "将原文“蔣公變節註”误读为“蒋公所做的变节注解”，属于语义误解",
+          "原文“乾 坤 艮 巽 宮”被错误释读为“龙的方位对应乾、坤、艮、巽四宫”，属于无依据添加限定性表述"
+        ],
+        "uncertainty": [
+          "原文开头“午”后有两处缺字，多处文字漫漶、语序混乱，大量短语无足够上下文可准确释读，文意整体难以连贯"
+        ]
+      },
+      {
+        "id": "book032-b000296-p000-a4de098940",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "末尾“三星五”之后内容残缺，无法知晓完整表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1910,
+    "completion_tokens": 366,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1910,
+      "completion_tokens": 366,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

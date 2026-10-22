@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-26T10:30:20.875048+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "782c282b914a53cc095c707603e5240051e9ac189298d003ea8a6e5686022674",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000066-p000-a995506394",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文无意义的乱序文字强行断句释义，“何须挑选祖垄的气脉躯体翻转颉颃之处”属于无依据增译，原文并无此类语义支撑；“坊河姒他穴在人脐诀曰而”未做通俗化处理，保留了无意义的乱序片段，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文断句混乱，多处文字难以辨识，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000067-p000-614d0716c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000069-p000-56b7cf7f16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“當下則上其上與中俱非”误译为“若选在下位，则上位与中位都不合适”，原句存在多字识别错误，候选释读无依据强行通顺化，与原文表述不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000071-p000-9cd05d2cfd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格中多处文字存在OCR识别错误，如“电四南”“H南”“4陽土X”等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000072-p000-58001da4c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“結次說爲陽寫鉗爲陰高 徐試可旱”释读错误，“先說「結」與「次」的相關說法：寫鉗為陰，高徐試可旱”属于无依据增译，原文此处文字缺漏混乱，不应强行赋予确定语义；原文“田 坤 2 離 壬寅戌次 癸辰 陽”中的“田”“2”“次”均为识别错误，候选释读直接作为有效内容引用，未做风险标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000073-p000-95000b7c5d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "kind为heading时需逐行核对原标题、原格式，不得增译释义，原文是二级标题“## 地理天機會元 卷一雪心賦”，候选将其改写为说明性语句，不符合heading类内容的释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000075-p000-0056bc1e6a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文断句混乱，多处文字难以辨识，存在大量OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000076-p000-68e2b67c2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“番四勢之四維 FR 1之起 入八 局行止多端恕不出八卦之兩內雲”存在大量OCR识别错误，候选释读将“FR”“1”“入八”等错误内容强行通顺化为“以及四勢四維的走向、1的起點、入八局的各種行止變化，這些內容大體都不會超出八卦的兩類范疇之內”，属于无依据增译，未明确标注识别错误内容的不确定性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000077-p000-fda52c3305",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其勢起伏而棘 中真”误译为“其勢起伏而有真氣”，属于无依据增译；“有回來而作我讓”“是謂或去或來各有也”未做通俗化处理，直接保留原文不通顺片段，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文“有回來而作我讓”“是謂或去或來各有也”等文字断句混乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000078-p000-e371b89a45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4784,
+    "completion_tokens": 1086,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4784,
+      "completion_tokens": 1086,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

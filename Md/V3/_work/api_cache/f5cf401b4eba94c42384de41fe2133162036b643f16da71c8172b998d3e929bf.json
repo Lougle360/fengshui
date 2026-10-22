@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-25T03:21:28.693580+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f5cf401b4eba94c42384de41fe2133162036b643f16da71c8172b998d3e929bf",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000068-p000-90b0105c9f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“全全一箇”存在漏译，未纳入释读内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000069-p000-fad312c6f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“以其有氣而無氣也”文意存疑",
+          "“开面”具体含义待考"
+        ]
+      },
+      {
+        "id": "book020-b000071-p000-c9767edcf5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“泥九”为形近讹字，应为“泥丸”"
+        ]
+      },
+      {
+        "id": "book020-b000072-p000-b463223112",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若非蓋帳之龍不為純陰必為孤露”释读为“既不会是纯阴，也必然是孤露的状态”存在逻辑错误，原文表述为二选一的关系：没有盖帐的龙，要么不是纯阴，要么就是孤露，并非同时具备两种属性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000073-p000-5ffabfa02d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3153,
+    "completion_tokens": 368,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3153,
+      "completion_tokens": 404,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3153,
+      "completion_tokens": 368,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-26T07:34:16.546770+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ee4850bb24b8e6067046b69f20f823baf9de457677f3031c24fa77833e8e40eb",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000259-p000-6b03853ff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "第一行第一列“无万0 ②è日9”具体含义不详",
+          "第一行第五列“新0B000000”具体含义不详",
+          "第一行第七、八列“田会8a目”具体含义不详",
+          "第二行第八列“二4”具体含义不详",
+          "第三行第三列“华价关天关之008”具体含义不详",
+          "第三行第四列“区整区是也”具体含义不详",
+          "第四行第一、二列“0星入十頁口”具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b000262-p000-76561a72e1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选内容未将古文转换为普通读者能读懂的现代白话，仅原样罗列原文，不符合释读要求"
+        ],
+        "uncertainty": [
+          "表格中多处空白或无意义字符的具体内容不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2517,
+    "completion_tokens": 310,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2517,
+      "completion_tokens": 310,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

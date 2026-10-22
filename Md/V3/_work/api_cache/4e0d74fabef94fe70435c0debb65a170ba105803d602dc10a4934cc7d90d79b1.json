@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T18:23:29.459419+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4e0d74fabef94fe70435c0debb65a170ba105803d602dc10a4934cc7d90d79b1",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001069-p000-abef0a96ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字“息肩”未翻译，属于漏译；“息肩傳舍”中的“傳舍”未准确译出含义，仅保留原词影响普通读者理解；“金水落平連珠”中的“金”未译，且allowed_glossary仅明确“水”的释义，“金”作为风水术语未做说明或保留标注；“朝樂”属于未明确的风水术语，未标注含义不确定直接释读为“朝樂之處”不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001070-p000-6d7a01ddc9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“綴折”“啣珠”“四應”均属于未在allowed_glossary中明确的风水专业术语，未标注含义不确定直接释读为确定表述，不符合要求；原文“扞之”对应“扦穴”的补写虽符合语境，但需确认术语一致性，核心问题是专业术语无依据释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001071-p000-03f2f07543",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴法量”被译为“穴法需量度”属于无依据增译，原文无“度”的相关表述；“浴瓜”属于未明确的风水术语，未标注含义不确定直接保留且未说明，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001072-p000-57673c0c3e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“祥雲捧月”“水帳”“半月金星”“屬從屬明光”均属于未在allowed_glossary中明确的风水专业术语，未标注含义不确定直接释读为确定表述，不符合要求；原文“有面屬從屬明光處扦之”被译为“屬從屬明光之處，應於此處扦穴”漏译了“有面”的表述，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001073-p000-7cd605306c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴法綴”被译为“穴法需綴折”属于无依据增译，原文无“折”的相关表述；“綴”“啣珠”属于未明确的风水术语，未标注含义不确定直接释读为确定表述，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001074-p000-4b12ba6151",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“開面成星”“就腰乗脉”均属于未明确的风水专业术语，未标注含义不确定直接释读为确定表述，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001075-p000-8a7dbb1e01",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“蓋中撞”“燕窠坐”均属于未明确的风水专业术语，未标注含义不确定直接释读为“穴法需蓋中撞，葬法需燕窠，應於此處坐穴”属于无依据释义，且原文“燕窠坐”的“坐”被拆分到后半句“坐穴”属于语序调整导致含义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001076-p000-68f58e0566",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001077-p000-28f669a73b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字“竊節”未明确含义，直接译为“竊節瓜藤之形”属于无依据释读，未标注含义不确定；allowed_glossary中“水”的释义为河流等，此处“水星”属于风水九星术语，与allowed_glossary中的“水”定义不符，属于专业术语误释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001078-p000-82ffd04a64",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“鄰泡”属于未明确的风水术语，未标注含义不确定直接释读为“鄰近泡狀之處”属于无依据释义，不符合要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1972,
+    "completion_tokens": 1196,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1972,
+      "completion_tokens": 1196,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

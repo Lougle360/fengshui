@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-04T04:46:36.892886+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "200a4cfe4ec8b303da7fe9952083c4b3b475edbb27df81405faa77488b42c139",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000508-p000-f18c82344e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "看塡宅之旁草木馮"
+        ]
+      },
+      {
+        "id": "book035-b000509-p000-2357c27098",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘议之建于 前二后乃颇盛寺岂足为嫌此忌来水边及虎头’整体标注为含义不详，但其中‘此忌来水边及虎头’结构相对完整，应尝试分开处理。‘虎头’为风水术语，应作为opaque_term处理，而非全部归为不详。"
+        ],
+        "uncertainty": [
+          "议之建于 前二后乃颇盛寺岂足为嫌"
+        ]
+      },
+      {
+        "id": "book035-b000510-p000-8b2b19c61c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘古豕’，candidate写作‘古豕’，但‘豕’为猪，与上下文‘古木’、‘穴’（洞穴）不符，疑似为‘冢’（坟墓）或‘木’的讹误。candidate未指出此疑似讹字，仅说‘具体指代何物’，处理不够准确。应将‘古豕’作为疑似讹字标注。"
+        ],
+        "uncertainty": [
+          "古豕（疑似讹字）",
+          "或伏之后省略的内容"
+        ]
+      },
+      {
+        "id": "book035-b000513-p000-6d5473a7d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘母有 內之 也’，candidate写作‘母有 內之 也’。‘母’疑似为‘毋’（不要）的讹字。candidate未指出此疑似讹字，仅标注为‘具体所指不详’，处理不够精确。"
+        ],
+        "uncertainty": [
+          "母有 內之 也（‘母’疑似为‘毋’之讹）"
+        ]
+      },
+      {
+        "id": "book035-b000514-p000-3384effa4f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘星玉星及人物禽兽等名为大雕’直接作为陈述句释读，但source此句与前后文逻辑断裂，本身含义不明。candidate未将其标注为不确定内容，处理不当。应将其与前后疑似错乱的片段一同标注为含义不详。"
+        ],
+        "uncertainty": [
+          "山才之订君少事ネ留心四顾缓步重登",
+          "联旛杯可悔叱颇之磊有幷民人于祸可不成散",
+          "星玉星及人物禽兽等名为大雕"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 590,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1676,
+      "completion_tokens": 590,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

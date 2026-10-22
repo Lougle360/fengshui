@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-10-17T15:37:32.826476+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "beeab8c35284622eb02b1e7d81ee326e4f5bd7f502615522b00974e0df740d55",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004007-p000-e1f73f74e5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为复杂表格，candidate未保留表格结构，将多行单元格内容直接拼接成段落，导致信息层次和对应关系丢失。例如，原文中‘四十官星飛帶斜飛曲走形不大如風如浪動’等句与‘出于虎頭主少婿及大之秀木之婁嫁女淫濫是非’等句在表格中分属不同单元格，candidate将其混为一段，可能改变了原文的并列或从属关系。",
+          "candidate将‘虎頭’直接释为‘虎头方位’，但原文未明确是方位，可能指‘虎砂’的头部。",
+          "candidate将‘大之秀木之婁’释为‘大女婿显贵，但娄姓女子’，将‘娄’解释为姓氏，这是无依据的扩写。原文‘木之婁’含义不明，应保留为含混短语。",
+          "candidate将‘右爲將軍劍只論上下水’等表格内容直接并入段落，未说明其与前后文的表格位置关系，可能造成误解。",
+          "candidate将‘發揮曰’后的解释性文字与正文混合，未清晰区分原文正文与注释。",
+          "candidate对大量OCR乱码（如‘炫賦脈緹啊星張本珠隄沐側提沐剔嫩撥秀洒蟻救冽鍛渚撼在女脩地’）进行了直接转录，未按规则处理为含混短语或说明其不可读。应将这些乱码部分用引号标出，并说明原文如此，含义不明。",
+          "candidate将‘欽星餅主’等乱码直接转录，未作处理。",
+          "candidate将‘若友本秀不必拘’直接转录，未说明‘友’可能为‘有’之误或含义不明。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，部分单元格内容跨行跨列，准确对应关系难以完全厘清。",
+          "原文存在大量OCR识别错误和乱码，部分词句的确切含义无法确定。"
+        ]
+      },
+      {
+        "id": "book035-b004009-p000-691c7137d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文字错乱严重，无法构成通顺句子。candidate正确指出原文严重残缺且错乱，无法准确释读，并基于上下文进行了保守推测，符合处理规则。"
+        ]
+      },
+      {
+        "id": "book035-b004011-p000-3c320ab38e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004012-p000-fdb4d352b6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘短员蔌’直接转录，未说明其为OCR错误或含义不明。",
+          "candidate将‘脸杂乡’直接转录，未说明其为OCR错误或含义不明。",
+          "candidate将‘于于明堂’直接转录，未说明‘于于’可能为‘至于’或‘于’之误。",
+          "candidate将‘六圃’直接转录，未说明其可能为‘六图’或‘六幅’之误，含义不明。",
+          "candidate将‘此不足鲜’直接转录，未说明‘鲜’可能为‘为鲜’、‘为嫌’或含义不明。",
+          "candidate将‘盖在宦本是离乡而证者此’直接转录，句子不通，未说明其可能为‘盖在宦游者本是离乡，而证者此’或类似意思，但原文有误。"
+        ]
+      },
+      {
+        "id": "book035-b004013-p000-2a088d51eb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘生后尾官星百吉一二’直接转录，未说明其语义不通，可能为‘生后鬼星，官星百吉一二’或类似结构。",
+          "candidate将‘杂鬼星半凶半藏否’直接转录，未说明‘藏否’可能为‘藏否’（吉凶）或含义不明。",
+          "candidate将‘安得是是矣’直接转录，未说明可能为‘安得是矣’或‘安得是’之误。",
+          "candidate将‘却难此者发世’直接转录，未说明‘发世’含义不明，可能为‘辨别’或‘发用’之误。"
+        ]
+      },
+      {
+        "id": "book035-b004014-p000-5a0bfbbc2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004015-p000-7607a9a1c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3620,
+    "completion_tokens": 1058,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3620,
+      "completion_tokens": 1058,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T13:44:21.677564+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "51bb1237d2f43d6e5c143d502c33256c93032c463294b93fed86a5c4caa9a4ec",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000274-p000-d786ab1a8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000275-p000-66e28ab836",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate漏译了原文的「数の哲学」，且将原文的「広義の数の学問(数の哲学)」拆分为「広義の数の学問のこと」，丢失了括号内的补充说明内容"
+        ],
+        "uncertainty": [
+          "原文中「数の哲学」的具体所指未明确"
+        ]
+      },
+      {
+        "id": "book015-b000276-p000-034a41d6cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000277-p000-c346d4c3cb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「ト数」具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1280,
+      "completion_tokens": 273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-10-16T13:43:40.572569+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4f6e527c37867fb9e7a6324e3c5e347e4a672bfe0bfa00885f3cb305c5a8a6b9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002445-p000-1b228be5c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002446-p000-bc5c9054c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将原文的‘水嫌仰返牽潛激割冲和’释读为‘水…忌讳仰面、返流、牵引、潜伏、激荡、割裂、冲撞，只宜柔和。’。原文‘嫌’字后列举的‘仰返牽潛激割冲和’应均为水所忌讳的形态，其中‘和’字也应在‘嫌’的范围内，即‘和’也是一种忌讳的形态，而非‘只宜柔和’。candidate 将‘和’解释为‘只宜柔和’，改变了原文的并列结构和逻辑，属于反义或误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002447-p000-1592e81de8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002448-p000-96e0c68102",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在严重 OCR 错乱或残缺，导致‘实朝贫墓富之术奚可漏我其日作不可甜也塑’等语句语义完全不通。candidate 虽尝试释读，但将‘实朝贫墓富之术’等无法确认的片段当作确定事实译出，并添加了‘怎么可以漏掉我？’等推测性连接，不符合‘不能把推测写成事实’的原则。对于这种连保守释读都无法成立的损坏文本，应判定为 uncertain。"
+        ],
+        "uncertainty": [
+          "原文‘盖古贤先圣真机奥典焕焕乎若天渊之岁月用之无久以无余矧甄陶造化之率讵宜泄此实朝贫墓富之术奚可漏我其日作不可甜也塑’存在严重错乱，关键部分（如‘实朝贫墓富之术’、‘奚可漏我’、‘其日作不可甜也塑’）无法进行可靠释读。"
+        ]
+      },
+      {
+        "id": "book035-b002449-p000-83a8dd150e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002451-p000-5ae7c48e51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002452-p000-17e4b216b2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对表格内容的释读存在多处将不确定内容当作确定事实的问题。例如，将‘铁科圳’、‘水学花条’、‘区牛道孝’、‘日6’等明显为 OCR 错误或原文不清的字符，直接当作专有名词或术语进行解释（如‘若铁科圳关位得当’），并串联成逻辑通顺的句子。这违反了‘不得把推测写成事实’的原则。对于此类内容，应明确指出其原文不清，而非强行释读。",
+          "candidate 将表格中‘八路水法之圖’标题下的内容概括为‘该图表以表格形式列举了多种水法格局及其吉凶断语’，并试图重构表格逻辑，但许多具体断语（如‘若穴中见左右有虏砂，则家业可成’）是基于错误识读的字符进行的推测，缺乏依据。",
+          "candidate 将‘RE€E福’、‘0日’、‘E6’等识别不清的字符处理为‘因识别不清或原文残缺，具体所指不详，仅能保留原词’，这是正确的做法。但其他同样不清的字符（如‘铁科圳’等）也应同样处理，而非进行解释。"
+        ],
+        "uncertainty": [
+          "表格中大量字符（如‘铁科圳’、‘水学花条’、‘区牛道孝’、‘日6’、‘RE€E福’、‘0日’、‘E6’等）因 OCR 错误或原文本身不清，无法确定其准确含义。",
+          "表格的整体结构和部分断语之间的逻辑关系因文字错乱而难以准确还原。"
+        ]
+      },
+      {
+        "id": "book035-b002455-p000-ed2be5930d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2698,
+    "completion_tokens": 984,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2698,
+      "completion_tokens": 984,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

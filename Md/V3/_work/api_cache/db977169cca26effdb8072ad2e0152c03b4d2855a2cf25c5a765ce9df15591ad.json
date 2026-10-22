@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:26:47.917749+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "db977169cca26effdb8072ad2e0152c03b4d2855a2cf25c5a765ce9df15591ad",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000740-p000-52bb57de2b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "（该内容）是对基本解法18的展开。同时将该解法命名为大衍术，把mi称为定数或定母，所有定数的乘积m₁m₂…mk称为衍母，用衍母除以定数所得的值Dm₁…mi₋₁mi₊₁…mk称为衍数，把xi称为乘率，用衍数乘以乘率所得的xim₁…mi₋₁mi₊₁…mk称为用数，将余数乘以用数后相加得到的x₁m₂m₃…mkr₁+…+xkm₁m₂…mk₋₁rk命名为总数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000741-p000-252e883e5e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "然而大衍术实际的揲数由1、2、3、4组成，不满足“两两互素”的基本条件。这种情况下，秦九韶将mi称为元数，把各元数分解为素因数，将各式在保持ri不变的前提下拆分为多个由素因数组成的式子，选取每个素因数中指数最大的式子，元数就会两两互素，符合条件。因此秦九韶几乎就是这样处理筮法的联立方程式的19），",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“$\\grave { \\mu } _ { \\rho }$”为OCR识别错误，无法确认原义"
+        ]
+      },
+      {
+        "id": "book015-b000743-p000-cc5466b3ec",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "求出（相关数值）后，进行了基本解法的运算。即依次求出衍母为12，衍数为12、12、4、3，再从满足12x₁≡1(mod1)、12x₂≡1(mod1)、4x₃≡1(mod3)、3x₄≡1(mod4)的乘率1、1、1、3与衍数中，求出用数12、12、4、9，",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000745-p000-a2f90256e8",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "最终得到了（所需结果）。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2140,
+    "completion_tokens": 701,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2140,
+      "completion_tokens": 701,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

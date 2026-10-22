@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-25T13:44:22.366127+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0cf98816bc2cbf24e1fec77853e050de8e80f9dcbb15d513eb636321461f3990",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000042-p000-2e71af45c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000043-p000-e2348ce7a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000045-p000-bf7aca2e70",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一爲獲吉地”释读有误，原意是“一旦获得吉地”，候选误拆为两句拆分了语义；原文“人事地理碎事 十运 蜩寄著輯”中“碎事”后无分隔，候选将“人事地理碎事”释为出处书名、“十运蜩寄”为著辑者属于无依据认定"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000049-p000-f403bce48a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000050-p000-222a8d067e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“憺河曰”被误写为“憺漪说”，人名错误；原文“上千天”应为“上干天”，候选释为“冒犯上天”语义正确但原文文字对应有误；原文“厥後維昌不墜耶”是反问“他们的后代难道会长盛不衰吗”，候选表述符合语义但原文“中無主宰是者而一憑則勢爲有無”释读稍显模糊，未准确对应原文“如果其中没有主宰，一切都凭权势决定有无”的原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000051-p000-60be34dec7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“誕喪”应为“奔丧/迎丧”？不，原文“誕喪”是笔误？不对，“往誕喪”应为“往奔丧”，候选写“迎丧”语义接近但“誕”字未说明；原文“魅遂卜葬”语义不明，候选直接略过未标注；原文“恢人”应为“乡人”，候选写“乡里人”是正确补正但应说明；原文结尾“則葬日吉凶”语义未完，候选补“影响”属于合理补出但应标注原文此处有省略"
+        ],
+        "uncertainty": [
+          "原文开头有残损，“大 入興劉公機父”语义不明，仅能依据上下文推测；原文“誕喪”“魅”“恢人”等表述语义模糊，存在释读风险"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2775,
+    "completion_tokens": 726,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2775,
+      "completion_tokens": 726,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

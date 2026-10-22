@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:23:03.370547+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "23fae1ff38efdf93c934e4907bd5c351da10bf741f38b386068fdc927669dbdb",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000248-p000-8b9fabea36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句文字顺序混乱，无法辨识完整语义"
+        ]
+      },
+      {
+        "id": "book010-b000249-p000-7ad0415360",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此处文字残缺错乱，无法明确解读含义"
+        ]
+      },
+      {
+        "id": "book010-b000250-p000-f44a9898a3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中语义不明的‘蒲使反’‘么氏’‘环淘’‘遲雷’‘燕’及数字‘3’‘2’等内容直接释读为确定含义，属于无依据扩写；‘西京棟记’应为‘西京杂记’的讹误，未按原文保留或标注歧义"
+        ],
+        "uncertainty": [
+          "‘蒲使反’语义不详，‘么氏’‘环淘’‘遲雷’‘燕’等词语义不明，‘3’‘2’等数字含义不清"
+        ]
+      },
+      {
+        "id": "book010-b000251-p000-f1188955ec",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "‘陶查周’语义不详，无依据将其释读为具体人物，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘陶查周’语义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1322,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1322,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T09:22:40.886507+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7e1df2ea699d13e2728e094ebea75c82d12e856ccf168c3ad81535bf4d34efeb",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002512-p000-03fdb79e59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002513-p000-f24f3f5f45",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文补注‘下糠同糠秕，与杵星同’被误释为‘下方的糠星与糠秕同名，和杵星位置相同’，此处‘同’指占验功能相同，非位置相同；locked term‘水’未按allowed_glossary解释为风水语境的河流相关含义，此处未说明所属语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002514-p000-875093a360",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《步天歌》‘天渊十黄狗色玄’被误释为‘天渊的十颗黄狗星颜色玄黑’，实际指天渊十星为黄色，狗星颜色玄黑；locked term‘水’未按allowed_glossary解释为风水语境的河流相关含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002515-p000-222f37c641",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘为尚’未明确标注含义不明，直接保留易造成读者困惑；原文《步天歌》‘牛上直建三河鼓’被误释为‘牛宿正上方的建星对应三河鼓’，‘三河鼓’即河鼓星，此处表述不准确；locked term‘坎’未按allowed_glossary标注为八卦之一，未说明此处九坎为星官名，与八卦坎的关联未明确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002516-p000-1bfe357a0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《步天歌》‘两个各五瓠瓜明’被误释为‘各有两颗共五颗星，瓠瓜明亮’，实际指败瓜、瓠瓜各有五颗星；原文补注‘右车正也’未作通俗解释，直接保留古文；locked term‘水’‘离’未按allowed_glossary对应相关释义，未说明此处天津主掌的水溪、星名离珠与术语的关联"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002517-p000-727b48a8c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002518-p000-156a0dc5fb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句未完成，存在残缺"
+        ]
+      },
+      {
+        "id": "book018-b002519-p000-6a2c8e7853",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此段为前一段残缺内容的补全"
+        ]
+      },
+      {
+        "id": "book018-b002520-p000-4348abbe3d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《步天歌》‘门东人魁九个子’被误释为‘北落门东侧有九颗人魁星’，实际指人魁星下有九个子星；原文补注‘人魁主张禽兽之官’表述不通顺，未转换为通俗中文，应为‘人魁是主掌管理禽兽的官员’；locked term‘水’‘离’未按allowed_glossary对应相关释义，未说明此处螣蛇主掌的水虫、星名离宫与术语的关联"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002521-p000-b3a3d15c56",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘在肖为输’未标注含义不明，直接保留易造成读者困惑；原文补注‘鈇锧主斩葢饲牛马’被误释为‘鈇锧主掌斩葢，也饲牛马’，‘斩葢’含义不明未标注，直接保留"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5014,
+    "completion_tokens": 1120,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5014,
+      "completion_tokens": 1120,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

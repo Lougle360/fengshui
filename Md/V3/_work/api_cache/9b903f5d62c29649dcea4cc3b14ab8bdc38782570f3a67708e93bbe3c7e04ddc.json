@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T09:23:05.263165+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9b903f5d62c29649dcea4cc3b14ab8bdc38782570f3a67708e93bbe3c7e04ddc",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000250-p000-f44a9898a3",
+        "modern_text": "滕公石刻中有‘佳城’一句，‘蒲使反’使人挖掘，得到一处石室，上面写着‘吁嗟藤么居此室’，于是改卜，这段内容出自《西京棟记》",
+        "confidence": "medium",
+        "uncertainty": [
+          "蒲使反",
+          "藤么",
+          "西京棟记"
+        ]
+      },
+      {
+        "id": "book010-b000251-p000-f1188955ec",
+        "modern_text": "‘陶查周’探访的原因，具体所指不详",
+        "confidence": "low",
+        "uncertainty": [
+          "陶查周"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 165,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1234,
+      "completion_tokens": 165,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

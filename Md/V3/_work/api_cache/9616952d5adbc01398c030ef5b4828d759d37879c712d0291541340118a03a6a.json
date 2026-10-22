@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:06:47.442359+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9616952d5adbc01398c030ef5b4828d759d37879c712d0291541340118a03a6a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000518-p000-308f4eef4b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "图4-1 互除法",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000519-p000-72b52c201e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "能够制作。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000520-p000-1f84a2ccec",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "如此求得的各个数值，存在以下的相互关系 $\\ldots -$ o",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾的公式符号及后续内容残缺，无法完整译出"
+        ]
+      },
+      {
+        "id": "book015-b000526-p000-16a88df16f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "上述各个数值，一般来说，存在关系",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文内容残缺，无法完整译出"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1514,
+    "completion_tokens": 355,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1514,
+      "completion_tokens": 355,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

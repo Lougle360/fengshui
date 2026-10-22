@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T08:37:01.148472+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "84539f5c4af97c5a51640cc51da8ba91dec3ddd798da89c434d2c61689774dbc",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000241-p000-be5caf3dca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文仅到“凤凰之于飞”，未出现“飞物”相关表述，也未明确点明“都属于同类”的结论，属于无依据增译；且原文“类”字位置断句存疑，不应直接释为同类关系"
+        ],
+        "uncertainty": [
+          "source为不完整文本，后半段语义缺失"
+        ]
+      },
+      {
+        "id": "book023-b000242-p000-cc0a97e8f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000245-p000-d23368494b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅给出大小对应表述，未明确描述对象，需结合上下文语境判断具体所指"
+        ]
+      },
+      {
+        "id": "book023-b000255-p000-10b08d531c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 317,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1137,
+      "completion_tokens": 317,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

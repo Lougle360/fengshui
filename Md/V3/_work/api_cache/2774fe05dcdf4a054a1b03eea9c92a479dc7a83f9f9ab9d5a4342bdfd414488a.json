@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-04T10:03:38.308169+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2774fe05dcdf4a054a1b03eea9c92a479dc7a83f9f9ab9d5a4342bdfd414488a",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001556-p000-6223412703",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'玉軸二形'指两种具体形态，candidate译为'这两种形式'过于笼统，丢失了'玉'、'軸'的意象。原文'彷佛似之'意为'大致相似'，candidate译为'以形似为准则'，将描述性短语误译为准则性要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001557-p000-316ed4e567",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001558-p000-6fea617fec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001560-p000-ecd9616f10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001563-p000-d95c0a8807",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001565-p000-aa68c3d3a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'果漏 不乾'，candidate断句为'果实漏失；若涉及乾卦'，将'不乾'解释为'涉及乾卦'缺乏依据。'果漏'与'不乾'可能为并列的两种不吉征兆，candidate的释读存在主观推测。"
+        ],
+        "uncertainty": [
+          "'果漏 不乾'的具体含义不明，可能指果实漏失、不干（不干燥或不成事）等。"
+        ]
+      },
+      {
+        "id": "book033-b001566-p000-719a2d8840",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001567-p000-554c231521",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'有不是近者凡秀砂未有不是遠者'，逻辑为：有的（砂）不是近的，但凡秀砂没有不是远的。candidate译为'有的砂并非近处才有，凡是秀丽的砂，没有不是远处的'，将'有不是近者'误译为'并非近处才有'，改变了原意。原意是强调秀砂多在远处，而非讨论其存在地点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001568-p000-c5ebbeb3b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001569-p000-91b31f0b4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1721,
+    "completion_tokens": 620,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1721,
+      "completion_tokens": 620,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:06:33.989159+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "877f47eef21ebf367dc4db7f73d62cf8041f0a6edacf0e586968591d615e4c16",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000699-p000-d7b68af9e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000700-p000-2047cc1794",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文中“顺以听”后的“也①”及相关内容，未完整释读《象》曰的全部语句"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000701-p000-855ac47cf5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000702-p000-bdf4165de0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1915,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1915,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

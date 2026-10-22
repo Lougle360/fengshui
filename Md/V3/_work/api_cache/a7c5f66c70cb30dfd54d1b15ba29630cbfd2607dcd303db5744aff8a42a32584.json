@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T00:55:07.586885+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a7c5f66c70cb30dfd54d1b15ba29630cbfd2607dcd303db5744aff8a42a32584",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000658-p000-9dd9b6d351",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000664-p000-a4a7c32406",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句应为'水星帳北，大星聳南，木星居東，金星居西，土星居中'，释读错误理解了方位：大星是耸立于水星帐的南侧，木星是居在东侧，不存在'南侧区域的东侧'的限定，属于句意理解错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000666-p000-aded099e3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2115,
+    "completion_tokens": 214,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2115,
+      "completion_tokens": 214,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

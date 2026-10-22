@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-25T00:57:12.431955+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "eed6e67b18fade876776f14e9f3add097e94e87ae37e51731b6dadad9e369b65",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000670-p000-c69b8e1a32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000671-p000-712b93c1be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000672-p000-6e70ed967f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“而各有二体”，指代所有窝形四格皆有两种体式，候选误写为“每种正格又各有两种形态”，缩小了适用范围，与原文意思不符"
+        ],
+        "uncertainty": [
+          "①②为原书注释标记，保留原样"
+        ]
+      },
+      {
+        "id": "book018-b000673-p000-7571ed02e1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原表格第一行左标题为“张口窝六穴图式”，候选误写为“六窝张口穴图式”，语序错误；原表格第一行右标题为“高穴藏口窝”，候选漏译“高”字，表述不完整；原表格左下方释文“书曰張口窩穴後倣此 九左在兩掬不交會者”存在语序倒装，实际应为“书曰张口窝穴，后仿此。九，左右两掬不交会者”，候选误写“九是左右两掬不交会的情况”，且原有的“在”是字误应为“右”，未作合理校正；原表格右下方释文“曰藏口窩穴後皆做此 九左右兩掬交會者名”为倒装，实际应为“名曰藏口窝穴，后皆仿此。九，左右两掬交会者”，候选漏译“名”字，将“做（仿）”译为“依”虽意思相近但对应原文欠准确，且“九是左右两掬交会的情况”表述不符合原文本义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000674-p000-24b3deb794",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000675-p000-42447fcd2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "①为原书注释标记，保留原样"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3779,
+    "completion_tokens": 651,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3779,
+      "completion_tokens": 651,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

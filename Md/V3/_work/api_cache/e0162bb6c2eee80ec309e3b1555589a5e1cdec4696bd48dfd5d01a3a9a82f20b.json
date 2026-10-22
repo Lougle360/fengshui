@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T14:44:51.666229+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e0162bb6c2eee80ec309e3b1555589a5e1cdec4696bd48dfd5d01a3a9a82f20b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000839-p000-9ce66c0f31",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中作为千位分隔符的逗号误译为公元年份的一部分，错误地将「A.D.46,384」译为公元46384年，属于数字误译"
+        ],
+        "uncertainty": [
+          "原文中「A.D.46,384」的逗号为千位分隔符，并非公元年份的一部分，具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 823,
+    "completion_tokens": 131,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 823,
+      "completion_tokens": 131,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

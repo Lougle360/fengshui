@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-25T19:08:13.713929+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2e2ce7158854b4c0ed8dc4bdb858c1797c9392385a37f6c53d2e214106e2d389",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001234-p000-b73772ab26",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "无法确定“仁夫”“张希尧”“泰补”对应的名、字、号属性"
+        ]
+      },
+      {
+        "id": "book029-b001236-p000-b2184c022c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文书名是《贊玄機全書》，候选多处误写为《地理恭赞玄机全书》，存在术语名称错误",
+          "原文中“秦贊玄機金書”“理秦贊玄機全書”的“秦”“理秦”未被释读，出现信息遗漏",
+          "原文末尾“飞旧也理”未被释读，出现信息遗漏",
+          "原文多处“宂”字，候选保留原字未作保守处理，不符合普通读者读懂的要求",
+          "原文“錄士出矣曹”句断句错误，候选释读为“会出录士”，遗漏了“曹”的相关内容，存在信息缺失"
+        ],
+        "uncertainty": [
+          "“宂”在风水中的具体含义暂不明确",
+          "“神垓”的准确所指存疑",
+          "“飞旧”的具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3829,
+    "completion_tokens": 307,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3829,
+      "completion_tokens": 307,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

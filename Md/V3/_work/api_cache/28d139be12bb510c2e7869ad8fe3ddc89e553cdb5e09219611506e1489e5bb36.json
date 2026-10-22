@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T16:10:26.920084+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "28d139be12bb510c2e7869ad8fe3ddc89e553cdb5e09219611506e1489e5bb36",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001468-p000-fb0df5b81f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "这是最早的《神农本草》，可以说它最大的特征在于采用了三品分类法。《神农本草》的三品分类，就是所谓的上药、中药、下药。《神农本草经序录》是这样记载的。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001469-p000-c98fe4c287",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "上药共一百二十种，是相当于君主地位的最优药物，以养护生命为目的，对应天。这类药物没有毒性，即使大量服用、长期服用，也不会损伤人体。能使身体轻盈、增益元气，希望不老不死或长生的人，应当依据上经来服用上药。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001470-p000-c2e6d57381",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中药共一百二十种，是相当于臣子地位的药物，主要作用是调养性质，对应人。中药中既有无毒的，也有毒性的，服用时必须谨慎。想要预防疾病、改善虚弱体质的人，最好依据中经来服用中药。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001471-p000-71a52fb92a",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "下药共一百二十五种，是相当于佐使（属官）地位的药物，以治疗疾病为主要目的，对应地。这类药物毒性强烈，不可长期服用。能祛除寒热邪气、破除积聚（腹中硬块），疾",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾存在残缺，内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1871,
+    "completion_tokens": 522,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1871,
+      "completion_tokens": 522,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

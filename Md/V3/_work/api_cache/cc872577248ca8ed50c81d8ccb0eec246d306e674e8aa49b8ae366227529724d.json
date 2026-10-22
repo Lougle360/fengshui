@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T19:38:54.123311+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cc872577248ca8ed50c81d8ccb0eec246d306e674e8aa49b8ae366227529724d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002958-p000-c0495c383d",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "译文：九二爻，厨房里发现一条鱼，没有咎害；但不利于擅自用来宴享宾客。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002959-p000-95058bcad8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "九二爻，厨房里有鱼，没有咎害；不利于宴享宾客。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002960-p000-8a4a401450",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①：包有鱼，无咎；不利宾。包，通“庖”，指厨房，《释文》记载“包，本亦作‘庖’”；鱼，属阴之物，用来比喻初六爻。这里说九二爻阳刚居中，初六爻以阴爻居于下位而近前承接九二，就像厨房里“有鱼”，是不期而至的，对于九二来说是“无咎”；但这条“鱼”上应九四爻，实际并非九二的所有物，所以不宜擅自动用它来宴享宾客。《集解》引用王弼的话：“初六是阴爻且居于穷下之位，所以称作‘鱼’；这是不正的阴爻，处于遇合之始，不能逆拒近前的阳爻。初六自愿前来，应到九二的厨房，并非冒犯应和的对象，所以‘无咎’。擅自取用他人之物作为自己的恩惠，从道义上讲是不能做的，所以不利于宴享宾客。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002961-p000-66cc95d744",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "译文：《象传》说：“厨房里发现一条鱼”，《象》曰：“包有鱼”，从九二与初六不应的意义来看，是不能擅自宴享宾客的。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在断句错乱，已根据上下文语义调整断句"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1724,
+    "completion_tokens": 620,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1724,
+      "completion_tokens": 620,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

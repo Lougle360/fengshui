@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:43:11.960277+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9c48cdcc3e2b55872c501e70a81338d97b715457f035bdd4a6ca4595af8185ff",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002146-p000-527896d8c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002147-p000-797f5c3829",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002148-p000-fcdd2b38ce",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中“止而说②”“男下女③”的注释标记，且将“止而说”的释读“稳重自制又能欢快欣悦”无依据扩写，原文未明确该含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002149-p000-0188b3a7b9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“咸”的具体所指需结合《周易》原文语境确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1970,
+    "completion_tokens": 263,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1970,
+      "completion_tokens": 263,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

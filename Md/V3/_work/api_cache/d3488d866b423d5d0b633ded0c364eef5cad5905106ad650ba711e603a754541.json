@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T19:33:28.879049+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d3488d866b423d5d0b633ded0c364eef5cad5905106ad650ba711e603a754541",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000601-p000-0f139a2877",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文提到的是「五峯寅傳」，候选释读误写为《寅传》，遗漏了「五峯」二字，属于专有名称漏译；原文末尾「家儲竟有」语义不明，候选释读自行解读为「有丑病的家庭里竟然就存在这类情况」，属于无依据的确定释读，不符合含混内容的标注要求"
+        ],
+        "uncertainty": [
+          "「五峯寅傳」的具体所指不明；「家儲竟有」原文表述残缺，含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 751,
+    "completion_tokens": 177,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 751,
+      "completion_tokens": 177,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

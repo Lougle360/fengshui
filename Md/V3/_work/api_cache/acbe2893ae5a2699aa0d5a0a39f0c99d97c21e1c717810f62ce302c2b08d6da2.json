@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-24T01:43:50.747398+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "acbe2893ae5a2699aa0d5a0a39f0c99d97c21e1c717810f62ce302c2b08d6da2",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000095-p000-3f42646e5a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“財斧豐餘”存在讹误，候选误将“斧”改作“帛”，属于无依据调整原文表述；原文“自然交集者卽葉微星也”漏译“交集”对应的语义，直接归结为“说的就是叶微星”存在信息缺损"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000099-p000-06e64c5240",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000101-p000-beaaf73c4d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“人口救苦經亦宅又日靈經”断句错误，候选误拆为《人口救苦经》《宅又日灵经》两部经书，属于无依据认定专名；原文“如七煞星雖遇吉神亦不可用有失有散”中“有失有散”的主体被限定为“财物”，属于无依据增译，原文未明确仅指财物离散"
+        ],
+        "uncertainty": [
+          "皿光之灾具体所指不详",
+          "“亦宅又日靈經”表述存在讹误或断句不明，相关经书名称无法确定"
+        ]
+      },
+      {
+        "id": "book006-b000102-p000-d029a62cb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "星玫联活疑似OCR错误，具体含义不详",
+          "空修造兴工的“空”此处解释为无需特意择日，仅为符合上下文逻辑的推断",
+          "三财具体所指不详",
+          "四宅典旺具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000103-p000-d9a5f2de19",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "不论钱此处解释为无需耗费过多钱财，仅为符合上下文逻辑的推断",
+          "不用十六十日的具体表述含义存疑，暂按无需等满十六日或十日解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1865,
+    "completion_tokens": 569,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1865,
+      "completion_tokens": 569,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

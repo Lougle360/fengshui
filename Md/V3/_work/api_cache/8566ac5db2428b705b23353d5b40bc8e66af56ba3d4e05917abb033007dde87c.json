@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:00:15.001173+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8566ac5db2428b705b23353d5b40bc8e66af56ba3d4e05917abb033007dde87c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000476-p000-5d4b9cdba0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘南墉’误释为‘墉前’，‘土葵’误释为‘土培’，‘富弦’误释为‘富弦处’，‘午地’误释为‘午地上方’，‘浮即堆金’误释为‘浮就是堆金’，‘就浅宮葵之’误释为‘就浅宫培土’，‘不熬則脫炁者也’误释为‘不是熬则脱气者也’，存在多处术语与原文不符的误译"
+        ],
+        "uncertainty": [
+          "原文中‘南墉’‘土葵’‘富弦’‘午地’‘浮即堆金’‘就浅宮葵之’‘不熬則脫炁者也’等表述的具体含义未明确，释读存在歧义"
+        ]
+      },
+      {
+        "id": "book010-b000477-p000-08d12d87b9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读逻辑混乱，将原文的‘脣脐目尾類腹三吉三凶角耳腰足鼻脇四凶二吉’拆解为多处矛盾的表述，未准确对应原文的吉凶分类关系"
+        ],
+        "uncertainty": [
+          "原文中‘脣脐目尾類腹’‘角耳腰足鼻脇’等表述的具体对应关系未明确，释读存在歧义"
+        ]
+      },
+      {
+        "id": "book010-b000478-p000-6cb38775d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000479-p000-4b623084eb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘巽法’误释为‘巽法的’，‘星体’未明确为风水语境中的星体，‘土葬其飢’误释为‘土葬其饥’，‘水葬其湧’误释为‘水葬其湧’，‘岂可稷而粘’误释为‘岂可稷而粘’，‘水星盖脑则坡’误释为‘水星盖脑则坡’，‘一或犯此不熬則脫炁者也’误释为‘一或犯此，不是熬则脱气者也’，存在多处术语与原文不符的误译"
+        ],
+        "uncertainty": [
+          "原文中‘巽法’‘星体’‘土葬其飢’‘水葬其湧’‘岂可稷而粘’‘水星盖脑则坡’‘一或犯此不熬則脫炁者也’等表述的具体含义未明确，释读存在歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1862,
+    "completion_tokens": 692,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1862,
+      "completion_tokens": 692,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

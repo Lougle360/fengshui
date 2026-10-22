@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T18:33:39.857700+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "23ff127f43ba8098c76cf165c6ada7e73edd612634cdb2f464d97cb37ba21a74",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000321-p000-5e528da8e1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“人人說無”对应上下文是指说地不好，candidate中“又怎么能说它好”处对应原文“如何說有”，此处“有”应是指有吉效，candidate将“说无”“说有”对应为“说不好”“说好”符合语境，但原文“葬後家業大城”存在断句错误，应为“葬後家業大，城人皆危懼”，candidate此处断句正确，但是原文“兩箇今內外二青龍皆大陽金星齊起焰穴如此變頭”断句应为“兩箇，今內外二青龍皆大陽金星齊起焰，穴如此變頭”，candidate释读为“穴的形态有这样的变化”是合理的，但原文“夫詎易得此地之不可說無也”断句应为“夫詎易得？此地之不可說無也”，candidate释读通顺，然而存在一处错误：原文“轡頭”是风水术语，candidate直接译为“表面外形”属于误释，且未做标注；另外原文“水出龍手”属于风水专业表述，candidate未加说明直接译为“水系从龙手的位置流出”，属于未明确术语含义，且“龙手”不属于locked或allowed术语，应标注含义不明"
+        ],
+        "uncertainty": [
+          "“轡頭”“龍手”具体风水含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book030-b000325-p000-e4fcc7d754",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“同歸一”具体所指原文未明",
+          "“亡丙”的具体方位含义原文未作明确说明"
+        ]
+      },
+      {
+        "id": "book030-b000328-p000-0046df8359",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“舊地理青皆泛吉祖地”语义模糊无法释读",
+          "“是八穴處氣勢轅吳穴爲盛旺”存在讹误无法准确释读",
+          "“情意事注”存在讹误仅能推测大概含义",
+          "“此處俗備亦里及之乎”语义不明无法释读",
+          "“陰華”“龍豚”具体风水含义原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2681,
+    "completion_tokens": 603,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2681,
+      "completion_tokens": 603,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

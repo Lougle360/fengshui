@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-25T15:22:48.182594+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "12d6118b19b571aaf6455671f7bdb2482e996ea266f40b663003077089a63b9e",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000532-p000-5f1df2be6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为“雪心賦直解 三卷”，属于书籍题名信息，无“相关题记”的对应表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000533-p000-1e3b620b48",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文句读错误导致释读偏差，原文“言山川皆得氣而成觀山周可以醫吉凶矣”断句应为“言山川皆得气而成，观山可以知吉凶矣”，candidate误译为“山川都得气而成观，围绕山可以推知吉凶”；原文末尾“連於 者至”存在缺字，candidate直接补为“与水相关”属于无依据推定；原文“醫吉凶”的“醫”未准确释读，擅自替换为“推知”含义不合原文"
+        ],
+        "uncertainty": [
+          "原文“連於 者至”有缺字，含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000534-p000-9d4091e47a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000535-p000-e4bf5e1384",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文字残缺错乱，仅能识别部分零散术语和符号，无法梳理完整逻辑"
+        ]
+      },
+      {
+        "id": "book026-b000537-p000-0a1e7ffbb6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文前半段“詳購意其下至邊凶則灾皆看格之類也雲合為 一陽謝氏折毋執巳見以下為滿後龍非矣”存在大量缺漏和语序混乱，candidate擅自补出“详细查看各类格法，云合为一阳之类的内容，谢氏提出不要执着于自己的见解，认为以下为满后龙的说法不对”属于无依据推定，将缺漏内容强行释读为确定语义"
+        ],
+        "uncertainty": [
+          "前半段文字存在缺漏、语序混乱，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000538-p000-8e7b723ba1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不承 上 文 而言”是指（此段）不承接上文而言，candidate误译为“这段内容没有承接上文”属于语义偏差；原文“欲覆貴可 一 a/ 41 于龍身之地 疑矣”存在缺漏，candidate释为“想要在龙身之地验证贵贱的说法是存疑的”属于无依据推定；原文“更 将故尋龍為地理”断句错误，candidate误译为“又要依据什么来寻龙？寻龙是地理风水的第一要义”与原文语序逻辑不符"
+        ],
+        "uncertainty": [
+          "存在缺字、乱码（a/ 41），部分语句含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000539-p000-60d1e83f10",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“刼害出於雪心賦直解 三卷 三”是指该页内容属于《雪心赋直解》三卷的第三部分，属于版本卷次标识，candidate误译为“刼害出自《雪心赋直解》三卷之三”属于语义完全偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000540-p000-dc40bce2fd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“己酉丑”应为“巳酉丑”，candidate直接保留错误干支未作说明；原文“甲丁坤壬乙巽庚癸艮丙辛及甲庚丙壬乙年 丁 癸乾坤艮巽此天干之三為四衡”存在缺漏和语序混乱，candidate释为“这三天干属于四衡”属于无依据推定；原文“把則則量 之星 则之何水 代 必生 分也前 灾以觀進龍之 然也何 氏 云 但”部分混乱内容被强行整合为确定语义，属于无依据增译"
+        ],
+        "uncertainty": [
+          "部分语句语序错乱、缺漏，部分术语具体指代不明"
+        ]
+      },
+      {
+        "id": "book026-b000541-p000-7fc3c1a9e9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“又只撰捉著後配今青一句”中“撰捉著”“後配今青”为难以释读的含混内容，candidate直接保留未作说明，未标注不确定，不符合要求"
+        ],
+        "uncertainty": [
+          "“撰捉著”“後配今青”具体含义不明，原文末尾残缺"
+        ]
+      },
+      {
+        "id": "book026-b000542-p000-366aafe967",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2948,
+    "completion_tokens": 1318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2948,
+      "completion_tokens": 1318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

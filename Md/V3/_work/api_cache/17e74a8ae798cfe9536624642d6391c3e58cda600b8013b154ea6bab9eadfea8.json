@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-24T10:16:37.165971+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "17e74a8ae798cfe9536624642d6391c3e58cda600b8013b154ea6bab9eadfea8",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000683-p000-3a75744aaa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘庚成日’释为‘庚成日’存在干支写法错误，应为‘庚戌日’；‘丙辛吟忌與寅日’未明确释读，属于含混短语，不应直接保留原表述；‘真祥馬青人太陽陰到中’‘富亦化由吉不’属于原文未明的内容，释读时应明确标注为原文未明，而非直接引用"
+        ],
+        "uncertainty": [
+          "丙辛吟忌與寅日具体所指不详",
+          "真祥馬青人太陽陰到中具体所指不详",
+          "富亦化由吉不具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 936,
+    "completion_tokens": 181,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 936,
+      "completion_tokens": 181,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

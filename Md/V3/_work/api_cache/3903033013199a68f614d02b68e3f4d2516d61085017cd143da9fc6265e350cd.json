@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T08:48:55.306252+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3903033013199a68f614d02b68e3f4d2516d61085017cd143da9fc6265e350cd",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000267-p000-32f8e12edd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文OCR残缺内容如“進”“恩腹”“鄭蛛”“粕頊”“陶新”“亨”等已按保守方式保留原字，符合要求"
+        ],
+        "uncertainty": [
+          "牕、眼、臍、腹的具体所指不详",
+          "翁星的具体所指不详",
+          "罗星的具体所指不详",
+          "真乐的具体所指不详",
+          "浮篇的具体所指不详",
+          "浮节的具体所指不详",
+          "“这类格局以横眼的形态居多”的原文表述未明确相关含义",
+          "“是最大的城之圆转处”的原文表述未明确相关含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3138,
+    "completion_tokens": 183,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3138,
+      "completion_tokens": 183,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

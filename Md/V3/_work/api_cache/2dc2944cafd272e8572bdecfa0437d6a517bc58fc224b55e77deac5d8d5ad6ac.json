@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T16:10:29.553914+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2dc2944cafd272e8572bdecfa0437d6a517bc58fc224b55e77deac5d8d5ad6ac",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001469-p000-c98fe4c287",
+        "modern_text": "上药共120种，是相当于君主地位的最优药物，以养护生命为目的，对应天。这类药物没有毒性，即使大量服用、长期服用，也不会损伤人体。能使身体轻盈、增益元气，希望不老不死或长生的人，应当依据上经来服用上药。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001470-p000-c2e6d57381",
+        "modern_text": "中药共120种，是相当于臣子地位的药物，主要作用是调养性质，对应人。中药中既有无毒的，也有毒性的，服用时必须谨慎。想要预防疾病、改善虚弱体质的人，最好依据中经来服用中药。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001471-p000-71a52fb92a",
+        "modern_text": "下药共125种，是相当于佐使（属官）地位的药物，以治疗疾病为主要目的，对应地。这类药物毒性强烈，不可长期服用。能祛除寒热邪气、破除积聚，疾",
+        "confidence": "medium",
+        "uncertainty": [
+          "积聚的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1605,
+    "completion_tokens": 309,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1605,
+      "completion_tokens": 309,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

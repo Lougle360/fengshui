@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-25T13:07:43.433528+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "33a9b063fc7376b4a5bdc2d2c1b36764eab2ba7acfb411db8544464b64060b7d",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000136-p000-783ac780d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量语序错乱、文字缺损，候选将‘全神法基砂之信得’解释为‘全神之法以砂为基础’属于无依据的确定释义，不符合含混内容不得随意赋予确定含义的要求"
+        ],
+        "uncertainty": [
+          "“朱子耕经择”文字缺损，含义不明",
+          "“真安义卜”“以形而筮”“不能解卜 必终既也 引久譯减 善 也詩 善以词 美之也”“全神法基砂之信得”语序错乱，具体表意无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000137-p000-5eb55fb254",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“大 梦”“段 于論陵龍言”“下山挥虎祖”“水地文宗”“本之終賓”“目也口水”“偏謝山口”“而氏水堂只本”“将四结 而 之”均为错乱内容，具体表意无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000142-p000-3a759bc294",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“忍當于善”语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000143-p000-c281aba278",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中未收录“毬簷”的定义，候选称“‘毬簷’为风水术语”属于无依据的确定表述"
+        ],
+        "uncertainty": [
+          "“尋林”语义不明，所指不详",
+          "“毬簷”含义未明确",
+          "除明确术语外，其余大量内容语序错乱，无法准确释读语义"
+        ]
+      },
+      {
+        "id": "book026-b000144-p000-e89781c36d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“三允”“之飛”“相皆然”语义不明，整句引文的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000146-p000-676d11377f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“書向替之黃”语义不明，具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2523,
+    "completion_tokens": 665,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2523,
+      "completion_tokens": 665,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

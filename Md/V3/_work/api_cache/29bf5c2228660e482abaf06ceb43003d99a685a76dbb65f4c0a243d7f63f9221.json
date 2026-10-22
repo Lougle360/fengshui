@@ -1,0 +1,201 @@
+{
+  "created_at": "2026-09-23T11:26:28.951092+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "29bf5c2228660e482abaf06ceb43003d99a685a76dbb65f4c0a243d7f63f9221",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000661-p000-49bd08713e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000662-p000-84a8b474b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000663-p000-c9051f011a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘乙辛丁癸水贪狼’指水流形态或属性为贪狼，candidate 释为‘水流形态如同贪狼星’，将风水术语‘贪狼’（九星之一）解释为‘贪狼星’，超出了 allowed_glossary 的定义范围，属于专业术语误换。应保留‘贪狼’原词或按 allowed_glossary 定义处理。",
+          "原文‘依经下著三公旺’中‘下著’指下葬，candidate 释为‘下葬’准确，但‘家族将兴旺，可出三公这样的高官’将‘三公旺’解释为‘可出三公这样的高官’，属于合理的浅显释义，符合V3目标，可以接受。但需注意‘三公’是古代高官泛称，释读未改变此含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000664-p000-7b9ca87048",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000665-p000-eae1595025",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘乙辛丁癸位，坎离震兑同，排来其本宫。’含义较为含混，可能指方位与卦位对应或同属一类。candidate 释为‘乙、辛、丁、癸这四个方位，与坎、离、震、兑这四个卦位相同，它们都归属于本宫。’将‘同’解释为‘相同’，‘排来其本宫’解释为‘都归属于本宫’，属于对含混短语的明确解释，且未标注不确定性。根据判定边界第2条，这种解释若不确定应标注。建议在 uncertainty 中说明原文含义模糊。"
+        ],
+        "uncertainty": [
+          "原文‘乙辛丁癸位，坎离震兑同，排来其本宫。’具体所指不详，释读仅为一种可能。"
+        ]
+      },
+      {
+        "id": "book001-b000666-p000-46094fc54a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘没神贪狼穴’中‘没神’含义不明，candidate 直接译为‘没神贪狼穴’并纳入句子，未作任何说明。根据判定边界第4条，对于 opaque_terms 或未定义的含混专名，必须原样处在引号引用范围内或明确标注不确定性。此处应标注 uncertainty。"
+        ],
+        "uncertainty": [
+          "‘没神’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book001-b000667-p000-63bfe88601",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'乌鸦白子产双黄'是比喻或隐语，candidate直译为'乌鸦会生下双黄蛋'，未说明这是比喻或保留原文的模糊性，可能误导读者以为字面事实。",
+          "'贪狼却旺小儿宫'释为'贪狼星却旺于小儿房'，'宫'译为'房'可接受，但'贪狼'作为星名，其具体所指（如九星之一）未明确标注不确定性。"
+        ],
+        "uncertainty": [
+          "'乌鸦白子产双黄'具体含义不详，可能是某种吉兆的隐晦说法。",
+          "'贪狼'在此处具体指代的风水星体或五行属性，原文未明。"
+        ]
+      },
+      {
+        "id": "book001-b000668-p000-0736656bbe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000669-p000-916f40cb02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000670-p000-21b96fb5fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000671-p000-66690826c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'来山共一宗'，candidate释为'来山共同属于一个宗派'，将'宗'解释为'宗派'过于具体化，原文可能仅指'同一类'或'同一系统'，存在过度解读。"
+        ],
+        "uncertainty": [
+          "'共一宗'的确切含义，是同一类别、同一体系，还是同一风水流派，原文未明。"
+        ]
+      },
+      {
+        "id": "book001-b000672-p000-3c0f120aed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'没神贪狼穴'，candidate直接释为'没神贪狼穴'并保留'没神'，但'没神'是opaque_term，应在引号内或明确标注其含义不明。candidate未做任何说明，可能让读者误以为'没神'是确定的风水术语。",
+          "'巳亥来龙乾巽艮'，candidate释为'巳、亥方位发来的来龙，乾、巽、艮方位吉利'，补出了'吉利'，但原文仅列出方位，未明确说'吉利'，属于增译。应保留原文的列举形式，或说明是'对应乾、巽、艮方位'。"
+        ],
+        "uncertainty": [
+          "'没神'具体所指不详。",
+          "'巳亥来龙乾巽艮'的确切关系（是来龙对应这些方位，还是穴在这些方位）原文未完全明确。"
+        ]
+      },
+      {
+        "id": "book001-b000673-p000-73729c5331",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000674-p000-a17e825b79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000675-p000-4a8526e411",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000676-p000-cf8b233667",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000677-p000-856c3e6bba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000678-p000-8d203838e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'暗金罗喉破军煞'，candidate释为'暗金、罗喉、破军是煞气'，将'暗金''罗喉''破军'直接认定为煞气名称，但它们是opaque_terms，应保留在引号内或明确标注其具体所指不详，不应赋予确定的'煞气'解释。",
+          "'赴法场'释为'遭遇法律制裁'，释义准确，但'法场'在古代也可能指刑场，此处可接受。"
+        ]
+      },
+      {
+        "id": "book001-b000679-p000-2a4fe68b8b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'五总龟龙过孟山'，candidate直接释为'五总龟龙经过孟山'，但'五总龟龙''孟山'均为opaque_terms，未标注不确定性，可能让读者误以为是具体地名或龙名。",
+          "'文武定是离乡位'释为'文武官员必定是离乡之位'，将'文武'解释为'文武官员'过于具体，原文可能泛指有文武才能的人或与文武相关的运势。"
+        ]
+      },
+      {
+        "id": "book001-b000680-p000-a0f8cb32f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'配兼夫妇'，candidate释为'配合兼夫妇'，但'兼夫妇'是风水中的特定术语（指向与水的阴阳配合），candidate未做任何说明，直接按字面翻译，可能导致读者误解。应标注其可能为专业术语，含义需结合风水理论理解。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 1193,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4828,
+      "completion_tokens": 2050,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3636,
+      "completion_tokens": 1193,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

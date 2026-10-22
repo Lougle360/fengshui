@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-26T06:03:00.298639+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a2d31225a7ec566e2c9d871f446028ba92b964db8155409c7606c2f1a8042dc9",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000007-p000-5b89602571",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“里人子頁如凡例”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000009-p000-d554590192",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“真膺”应为“真赝”的形近讹误",
+          "“米一二節”应为“采一二節”的形近讹误",
+          "末尾“編中曰右曰安曰一上曰浦義皆里月未盡而复日月之煞七吾之年”为错简讹文，具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b000010-p000-78c0c84728",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“先通奉公居王人喪”被误译为“先前通奉公遭遇君主的丧事”，“王人丧”此处是指通奉公的家人（长辈）丧事，并非君主丧事；source中“盖学云”未译；source中“古有獲多聞事建始”被意译过度，漏了“建始”相关的原表述；source中“斯名為謗四矣”未准确标注存疑就直接意译为“这就是名声太大招来的诽谤啊”，不符合要求"
+        ],
+        "uncertainty": [
+          "“忠臣”应为“作序”的讹误或隐晦表述",
+          "“斯名為謗四矣”语义存疑",
+          "“王人喪”具体所指存疑",
+          "“古有獲多聞事建始”语义存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2870,
+    "completion_tokens": 439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2870,
+      "completion_tokens": 439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

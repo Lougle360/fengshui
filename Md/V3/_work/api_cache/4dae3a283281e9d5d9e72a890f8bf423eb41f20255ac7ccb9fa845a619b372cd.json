@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-26T03:15:46.052564+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4dae3a283281e9d5d9e72a890f8bf423eb41f20255ac7ccb9fa845a619b372cd",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001929-p000-0f7ce5f828",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001933-p000-cab7001da0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水無正情不湾”中的“正情”属于风水术语，释读为“正常的情态”不准确，应为符合风水要求的吉相情态；原文“砂無正名不関”的“関”是风水语境的关拦义，释读虽补出了“关拦作用”，但“正名”表述无依据释读为符合定名，存在不严谨；“不觀”释为“不做堪察”不够准确，对应风水操作应为“不值得察看（寻穴）”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001935-p000-1ff4ecfc4d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“砂好有堆有水好有闌有鎗”存在断句错误，应为“砂好有堆有垛，水好有闌有鎖”，候选释读漏了“垛”，且错误断句导致逻辑偏差；“穴好邊藏八風”释读为“能从侧边挡住八面来风”不准确，应为穴场四周遮蔽、不受八风侵扰；“水好陽朝秀江”释读为“朝向秀美的江流”不准确，“陽朝”是指向阳朝拱的形态，不能简化为朝向；“砂好如人卓奉”的“卓奉”无依据释读为“直立着捧持物品”，属于不当增义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001937-p000-3528071758",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "富砂朝並庫",
+          "富水朝灣覆土"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1796,
+    "completion_tokens": 515,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1796,
+      "completion_tokens": 515,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

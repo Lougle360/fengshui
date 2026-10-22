@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-24T21:40:54.981068+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "733374e8251397402a90eef8c5e5cf0019af66c26d3eda384265a735a4b9938c",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000394-p000-eb7a0671d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文无“衍生而来”的语义，属于无依据增译；原文“故說體用”意思是“因此下文论述体用”，候选误译为“所以要论述体用的道理”，逻辑关系错误，原文是下文论体用的原因是玄十法都从本节所论出，并非当前要论述体用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000395-p000-46542ff950",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“滅”“志”字未对应释读，候选自行改为“确定”，与原文语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000396-p000-053b63c042",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“龍州六”“仍南止”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000397-p000-7c204494e4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“风兩山之間”“虚”“废”“厥水之間”“W”“日之则此山即为乘虱之地”存在OCR错乱，已按可辨识内容保守改写，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000399-p000-78981e4e37",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“仍奇止”“巒頸”“是不和”未准确释读，候选自行将“仍奇止”改为“行止”、“巒頸”改为“峦头”、“是不和”改为“不符合”，均与原文表意不符，属于无依据改写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000400-p000-815225c3fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名“る”“っ”，未做处理；“能身”属于无依据改写，原文无“针对谁而言”的语义，属于增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000401-p000-a9c11f2f3a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不百偏”的“百”字未做说明，候选直接释为“不能有偏差”，未标注此处原文可能存在的讹误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000403-p000-a36896c1a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“擇明坐”被释为“选择明堂坐向”属于无依据增译，“每後天”未准确释读，“不宜辨 \\_之音雜”被释为“不宜有杂音”属于无依据臆测，原文无“杂音”相关表意"
+        ],
+        "uncertainty": [
+          "原文“明坐”“一龍僅有一向一是則僅有先天而每後天明堂五氣”“不可緣 即當說方後八尺不宜辨 \\_之音雜則为偏”存在OCR错乱，已按可辨识内容保守改写，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000404-p000-8b92c7517f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“由抑龍”未准确释读，候选自行简化为“选择龙地”，与原文语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000405-p000-e4f55b92d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2406,
+    "completion_tokens": 1039,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2406,
+      "completion_tokens": 1039,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

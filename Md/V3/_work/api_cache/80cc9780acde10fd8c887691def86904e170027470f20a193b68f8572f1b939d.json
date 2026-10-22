@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:04:04.952497+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "80cc9780acde10fd8c887691def86904e170027470f20a193b68f8572f1b939d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000320-p000-f5f741713f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "凡是直的形态要带有弯曲，弯曲的形态要朝向（建筑或穴位所朝的方位）内侧；如果朝向外侧，就不能形成吉局。如今寻找龙脉，看到群山都呈现苍老、粗犷的形态，忽然见到一处地方呈现出稚嫩、秀丽的形态，吉局必定在那里。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000321-p000-ec55dfbeb7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "如今寻找龙脉，看到群山密集拥挤到连立足的地方都没有，忽然出现一片平坦开阔的田地，吉局必定在那里。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000322-p000-8ba578416d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "如今寻找龙脉，看到群山散乱、向东奔向西跑，忽然聚拢在一起，吉局必定在那里。如今寻找龙脉到了落坪处，所见之处都是荒芜的林木，（风水语境中的河流、水系及其来去形态）忽然变得狭窄，四周的态势……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在日文假名及残缺内容，已按可识别部分翻译"
+        ]
+      },
+      {
+        "id": "book014-b000323-p000-3e4f26e387",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "抱向右右抱向 0 25.995。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文内容残缺，无法明确完整含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1632,
+    "completion_tokens": 488,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1632,
+      "completion_tokens": 488,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

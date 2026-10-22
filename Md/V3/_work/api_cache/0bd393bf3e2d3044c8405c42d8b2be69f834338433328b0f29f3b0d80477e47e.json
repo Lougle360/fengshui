@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-16T11:05:21.370302+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0bd393bf3e2d3044c8405c42d8b2be69f834338433328b0f29f3b0d80477e47e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002114-p000-d85c80c483",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'千張楠機共一較'释为'一千张楠木机巧合在一起，只有一处较量'，'楠機'可能为'楠木机'，但'千張'释为'一千张'过于具体，且'共一較'释为'只有一处较量'不准确，可能指'共同较量'或'合为一处较量'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002115-p000-1d0e6633c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002116-p000-b66649d19e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002117-p000-4ed5dd79ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002118-p000-e3aef97770",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'反關無咸'释为'反关无咸'，未作任何解释，属于opaque_terms未处理，应保留原短语并标注不确定性。'穷此'释为'穷究此道'，'此穷此'释为'遵循此理，穷究此道'，原文'皆同此窮此'结构模糊，释读可能增译。"
+        ],
+        "uncertainty": [
+          "'反關無咸'具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002119-p000-b0f1a10002",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'又無珠乳離分別'释为'若无珠乳离分别'，将'又'译为'若'，改变了原文的并列或转折关系。'水来破面聚人中'释为'水来破面聚人中'，未作解释，'破面''人中'为风水术语，应保留原短语或引用allowed_glossary解释。"
+        ],
+        "uncertainty": [
+          "'珠乳离分别'、'破面'、'人中'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002120-p000-42e171a5ea",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'莫都饒字便粘寬'释为'不要都因为饶字就粘宽'，'饶字'、'粘宽'为opaque_terms，未作解释，应保留原短语并标注不确定性。"
+        ],
+        "uncertainty": [
+          "'饶字'、'粘宽'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002121-p000-fcf722a09c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002122-p000-4fb12890c8",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "'不得明師翻開了'释为'不得明师翻开来看'，句意不完整，可能漏译或上下文缺失，释读过于简单，未处理不确定性。"
+        ],
+        "uncertainty": [
+          "句意不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002123-p000-31099d908e",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "'歷代仙師了一窮'释为'历代仙师了一穷'，'了一穷'含义不明，释读未作任何解释或标注，属于opaque_terms未处理。"
+        ],
+        "uncertainty": [
+          "'了一穷'具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1721,
+    "completion_tokens": 801,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1721,
+      "completion_tokens": 801,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

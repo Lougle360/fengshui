@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-10-04T04:08:39.492538+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "94fc6c0f47ac23d22f01fd5d145edff73be1846de69de5ab073da7ed1acc926f",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000570-p000-c26f84dfd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“形體之在供大而 大群 入人小者”句意不明，candidate 将其解释为“在风水中有大群和小群之分”属于无依据的扩写。原文“供大”可能为“共大”或“拱大”之误，但 candidate 未保留原文的模糊性，也未标注不确定性。",
+          "原文“如衆 小特 寡皆有之”中“小特”可能为“小特”或“小特寡”，candidate 处理为“众多与稀少”并省略“小特”一词，属于漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000571-p000-24be692bd7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000572-p000-0f0f41bdf6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“独得八星八病四病详欲当知其正星之外可黜者也”语义不明，candidate 处理为“独得八星八病，四病详述，想要知道正星之外哪些是可以黜退的”，将“独得”与“八星八病”直接连接，并添加“详述”，属于对含混原文的过度解释，应标注不确定性。",
+          "原文“抛穴要禄广，独穴要山”中“禄广”含义不明，candidate 未标注不确定性。",
+          "原文“大崩洪之穴要掩映山齐到继尾之穴要阴砂团护”断句存在歧义，candidate 将其处理为两个并列分句，但未标注这种断句是推测。",
+          "原文“仰高之穴要弦廓顺龙之穴要观财骑龙之穴要掩耳凭高之穴要张开”中“顺龙之穴”与“观财”的搭配、“凭高之穴”与“张开”的搭配，含义均不明确，candidate 未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000573-p000-181691c783",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文‘八龍審欲於八格四龍之上緊忌者有三過峽忌其 斷謂之連讀也’断句为‘八龙审欲于八格四龙之上，紧忌者有三。过峡忌其断，谓之连读也。’此断句方式改变了原文结构，将‘過峽忌其斷謂之連讀也’这一完整表述割裂，并可能错误地将‘其断’与‘谓之连读’断开，导致语义不清。原文‘其 斷’之间虽有空格，但更可能是一个整体‘其断’（指龙脉过峡处被切断），‘谓之连读也’是对此情况的说明。candidate的断句方式缺乏依据。",
+          "candidate将‘此証遠去作穴不忌卽續作’释读为‘此证远去作穴不忌，即续作。’此处理将‘証’理解为‘证’，但结合上下文，此处‘証’更可能通‘症’，指前述‘过峡断’这种毛病或情况。candidate的释读未能准确传达此潜在含义，且‘此证远去’的表述生硬。",
+          "candidate将‘於砂經 卷二 二大’处理为‘于砂经卷二，二大。’这保留了原文的卷次页码标记，但未按V3目标进行通俗化处理。作为释读，应将其明确标注为引文出处或注释性文字，而非直接混入正文叙述。writer_uncertainty中已指出此问题，但candidate未作相应处理。"
+        ],
+        "uncertainty": [
+          "原文‘八龍審欲於八格四龍之上’语义晦涩，具体所指不详。",
+          "原文‘於砂經 卷二 二大’疑似为卷次或页码标记混入正文，且语义不完整，无法确知原意。"
+        ]
+      },
+      {
+        "id": "book028-b000574-p000-bca74f0fe6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“此不分强进生顺皆有之”语义模糊，candidate 已按字面直译并标注不确定性。"
+        ]
+      },
+      {
+        "id": "book028-b000575-p000-6324ec0aec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴星後去二三節內轉折之間身单無護又爲水割過前去卽便作穴穴競迎上途轉外砂隔水遠照單處奏皆石不爲吉穴之妨”句意复杂且可能有脱漏，candidate 将其释读为连贯的现代汉语句子，但多处解释（如“穴势也会争相迎向高处”“路途转折处”“远处照射”）属于对含混原文的推测性扩写，未标注不确定性。",
+          "原文“古云忌宗以其遁祖之來近祖之宗”语义不明，candidate 解释为“躲避了祖脉的来龙，过于靠近祖先的宗脉”，属于无依据的扩写。应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000576-p000-c6a766e657",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“降龍八首作穴星後退去一節龍形體不拘九星出脉一面欲平欲正”语义不明，“降龍八首”可能为术语或比喻，candidate 将其处理为“降龙八首作为穴星”，属于对不透明术语的确定化解释，违反了opaque_terms规则。",
+          "原文“砂云有案不若無案謂穴有重於砂也”中“砂云”可能为“古云”之误或特定引用，candidate 处理为“古语说‘砂云：有案不若无案’”，将“砂云”作为引语的一部分，改变了原文结构。",
+          "原文“穴前空缺無案者只是妻房重疊而巳”中“妻房重疊”含义不明，candidate 直译但未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000577-p000-82488a3792",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“窃比资成之助多夫”语义晦涩，candidate 已按字面直译并标注不确定性。"
+        ]
+      },
+      {
+        "id": "book028-b000578-p000-9e677a8665",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水有龍實則水虛萬峰相應高出雲表叢立渝擁不知水源中乘其特龍重矣”语义晦涩且可能有脱漏，candidate 基本为直译，但未对“渝拥”“乘其特”等不明处标注不确定性。",
+          "原文“挹天澤多則地蔭亦輕水爲也”语义不明，candidate 直译但未标注不确定性。",
+          "原文“以砂經 卷二 大穴若蔵則潮輕”疑似卷次标记混入，candidate 将其作为正文处理，未标注其可能为旁注或衍文。",
+          "原文“迢迢發跡迂折成屯東聚西閃捉摸難定退蔵一穴靈泉自足穴藏矣”语义连贯性差，candidate 直译但未标注整体句意的不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000579-p000-f081bb0958",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 740,
+    "completion_tokens": 436,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3420,
+      "completion_tokens": 1509,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 740,
+      "completion_tokens": 436,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

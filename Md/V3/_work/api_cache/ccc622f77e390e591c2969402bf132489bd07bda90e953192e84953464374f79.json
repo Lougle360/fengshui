@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T17:04:27.334819+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ccc622f77e390e591c2969402bf132489bd07bda90e953192e84953464374f79",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000856-p000-4d1a2bbd96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文字存在大量文字错乱、语序颠倒问题，所有内容的准确含义均无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000862-p000-fb51bf0485",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“廿三千家註纂”中“廿三千家”的具体所指无法确认，不能确定“廿三”是否指代两千三百"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 965,
+    "completion_tokens": 166,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 965,
+      "completion_tokens": 166,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

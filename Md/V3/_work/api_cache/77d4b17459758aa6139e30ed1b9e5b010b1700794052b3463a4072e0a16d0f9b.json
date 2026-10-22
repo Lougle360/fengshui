@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-26T06:36:24.727379+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "77d4b17459758aa6139e30ed1b9e5b010b1700794052b3463a4072e0a16d0f9b",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000111-p000-5fe944f01f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句“西京在其左取諸遠則”的“取諸遠”被误译为“若要选取地势开阔的地方”，应为“从远的方位来看”；“內則淡濟內河”的“淡濟”被误译为“洚水、济水”，此处未确认专名含义不应随意转写；原文“馴至不可為矣”被简化为“最终走向衰败”，未准确表达“渐渐发展到不可挽回的地步”的语义；“地方之備差完”的译文“地方防备较为完备”属于无依据增释，原文“備”未明确指向人为防备，应为“地域的条件相对完备”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000112-p000-cf13b76987",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理人子須矢”的“矢”是形近讹字，应为“知”，即《地理人子须知》，候选译文未标注该讹字，直接当作正确书名处理，且原文是卷名标识，并非提示“此处为卷一下内容”，属于语义误读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000114-p000-f79ae6fdd5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "图陵金具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000115-p000-5925f3cd46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "青户系巧具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000117-p000-9ee466bf99",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重的OCR重复，候选译文直接拼接重复内容，未标注原文重复问题；“王氣古云鍾蓋紫微垣局南榦之盡也”被断句误译为“王气古云钟是紫微垣局，南干的尽头”，正确语义应为“王气自古汇聚，是紫微垣局，南干龙的尽结之处”；“二祖動即合公”的“公”是讹字，应为“道”，候选译文误译为“合乎公正”，语义错误；locked_term“玄武”指玄武湖，属于地名，并非风水术语“穴后方的靠山”，候选译文未区分该义项，违反locked_terms使用规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000118-p000-4cafc7d515",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "十六村具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000119-p000-e2bf5778c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "郭景纯的谶语“天目山前兩乳長龍飛鳳舞到錢塘海門更點巽風起五百年間出帝王”被误断为“天目山前两乳，长龙龙飞凤舞，到钱塘海门，更点八卦之一巽，风起”，正确断句应为“天目山前两乳长，龙飞凤舞到钱塘。海门更点巽风起，五百年间出帝王”，“巽风”指东南风，不应拆分“巽”单独注释；“國師吾邑傅公少伯通也”被误译为“国师是我们本县的傅公少伯通”，“少伯”是傅公的字，“通”是名，即傅伯通，译文误将“少伯通”当作全名，属于专名误释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000120-p000-5475ee1da5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“昴曰星虧”的“曰”是讹字，应为“日”，候选译文保留“昴曰星亏”未作标注；“廉貞姬主”“鬼金位起”等风水术语未作通俗化处理，仍保留古文形式，未达到普通读者能读懂的要求；“建都難奄九有”的“奄九有”未释读，直接保留原文，不符合白话释读要求，“奄九有”指统辖天下"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5591,
+    "completion_tokens": 1054,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5591,
+      "completion_tokens": 1054,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

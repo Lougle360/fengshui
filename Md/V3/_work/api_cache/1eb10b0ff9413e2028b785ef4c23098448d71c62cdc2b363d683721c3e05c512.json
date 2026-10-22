@@ -1,0 +1,188 @@
+{
+  "created_at": "2026-09-23T16:08:27.379909+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1eb10b0ff9413e2028b785ef4c23098448d71c62cdc2b363d683721c3e05c512",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000688-p001-1c1adc3d79",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'村大事軍矣皆論大利'，candidate译为'村莊大事和軍務大事都只論大利'，将'矣'译为'都'，并增补'和'、'務'，虽为形成现代汉语句子，但'矣'在此处为语气词，译为'都'改变了语气，且'村大事軍'可能为'村大事、軍大事'的简写，但增补'務'无依据。",
+          "原文'謀地葬官人遇地出官人此諒無不是理謀地葬官者多遇地出官者少'，candidate译为'謀求地理安葬官人，遇到好地就出官人，這確實是無可辯駁的道理；但謀求地理安葬官人，卻多遇到好地而少出官人。'，将'謀地葬官人'译为'謀求地理安葬官人'，将'遇地出官人'译为'遇到好地就出官人'，将'謀地葬官者多遇地出官者少'译为'謀求地理安葬官人，卻多遇到好地而少出官人'，存在增译和意译过度的问题。'謀地葬官人'可能指'谋求地理以安葬官人'或'谋求地理安葬（于）官人（之地）'，candidate的译法将'官人'作为安葬对象，但原文也可能指'谋求地理安葬（于）官人（之地）'，即谋求能出官人的地。candidate的译法将不确定的解释写成了确定事实。",
+          "原文'謀地或補山葬滿正穴葬了雨傍是界水豈肯將父可葬於界水之內不得不謀也'，candidate译为'謀求地理，或是補山，或是葬滿正穴，葬了之後兩旁是界水，難道肯把父親葬在界水之內嗎？不得不謀求地理。'，将'謀地或補山葬滿正穴'译为'謀求地理，或是補山，或是葬滿正穴'，将'葬了雨傍是界水'译为'葬了之後兩旁是界水'，将'豈肯將父可葬於界水之內'译为'難道肯把父親葬在界水之內嗎？'，存在增译和意译过度的问题。'謀地或補山葬滿正穴'可能指'谋求地理，或补山，或葬满正穴'，但'補山葬滿正穴'也可能是一个整体概念。candidate的断句和增补'或是'、'之後'，将不确定的解释写成了确定事实。",
+          "原文'德禮能滅地理'，candidate译为'德禮能滅地理'，但'德禮'具体含义不明，candidate未加说明，直接保留原词，符合要求，但'能滅地理'的'滅'译为'灭'，可能为'减损'、'抵消'之意，candidate直译'灭'，虽可接受，但未标注不确定性。",
+          "原文'作峰以曰地誅之'，candidate译为'作峰以曰地誅之'，保留原句，但'作峰'、'曰地'含义不明，candidate未加说明，符合要求。",
+          "原文'女方布在地理內分別善哉考哉'，candidate译为'女方布在地理內，分別善哉考哉。'，保留原句，并标注了不确定性，符合要求。"
+        ],
+        "uncertainty": [
+          "'村大事軍矣'的具体所指和断句存在不确定性。",
+          "'謀地葬官人'、'遇地出官人'的具体含义和断句存在不确定性。",
+          "'謀地或補山葬滿正穴'的具体含义和断句存在不确定性。",
+          "'德禮'的具体含义不明。",
+          "'作峰以曰地誅之'的具体含义不明。",
+          "'女方布在地理內分別善哉考哉'的具体含义不明。"
+        ]
+      },
+      {
+        "id": "book002-b000689-p000-df01aedb17",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000690-p000-2ff75bfae0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000691-p000-e89ba754b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'瀑泉'與'袁秦'具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000692-p000-680a2493e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为'雲門黃中植稔安袁豐年同參訂'，candidate译为'这段文字记录了雲門、黃中植、稔安、袁豐年等人共同参订的情况。'，这是对原文的释义，而非直接释读。根据V3目标，应提供'普通读者能读懂的白话释读'，但不应过度释义或改写。此处应更贴近原文的直白翻译，例如'雲門、黃中植、稔安、袁豐年一同參訂。'或类似表述。candidate的译法增加了'这段文字记录了'、'等人'、'的情况'，属于无依据的扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000693-p000-8c4491299e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000694-p000-f64cea0eec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000695-p000-033318ea29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000696-p000-1f43056343",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000697-p000-d0a2173a15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'二卦合而為一'語意不明，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000698-p000-533bbe963a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000699-p000-3adbef6da0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000700-p000-6c257065b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000701-p000-f6d89e467f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "source为'圭次月初二日未明月在乙方故坤納乙子坎也坎納申辰癸戊午離也離納寅戌壬已卯震也震納亥未庚酉兌也兌納巳丑丁'，candidate译为'到了次月初二日天还没亮时，月亮位于乙方的位置，所以坤卦纳乙。子对应坎卦，坎卦纳申、辰；癸、戊、午对应离卦，离卦纳寅、戌、壬；已、卯对应震卦，震卦纳亥、未、庚；酉对应兑卦，兑卦纳巳、丑、丁。'，存在多处问题：1. '圭'字未译，可能为'至'或'及'之误，candidate译为'到了'，但未标注不确定性。2. '未明月'译为'天还没亮时'，'未明'即未天亮，可接受。3. '子坎也'译为'子对应坎卦'，将'也'译为'对应'，可接受。4. '癸戊午離也'译为'癸、戊、午对应离卦'，但原文'癸戊午'可能为'癸、戊、午'或'癸戊、午'等，candidate的断句和解释将不确定写成了确定事实。5. '已卯震也'译为'已、卯对应震卦'，同样存在断句和解释不确定的问题。6. '酉兌也'译为'酉对应兑卦'，可接受。但整体上，candidate对纳甲关系的解释过于确定，且断句可能存在问题。"
+        ],
+        "uncertainty": [
+          "'圭'字的具体含义不明。",
+          "'癸戊午離也'、'已卯震也'的具体断句和纳甲关系存在不确定性。"
+        ]
+      },
+      {
+        "id": "book002-b000702-p000-ea9c255f51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000703-p000-639245777a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000704-p000-05259ea7e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000705-p000-865c92347f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000708-p000-d033a8a58c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000709-p000-2cd77dcaa0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5534,
+    "completion_tokens": 2169,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5534,
+      "completion_tokens": 2169,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

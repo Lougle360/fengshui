@@ -1,0 +1,130 @@
+{
+  "created_at": "2026-10-15T01:55:37.225437+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4a72d504f6ecf334684fb8d397782c8d1ef125267ebe70f3afc7a52db80c61ca",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001656-p000-25dc2afd9b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“范川公莱离寒泉鹭山道南”是并列人名或地名，candidate 处理为“范川公、莱离寒泉、鹭山道南”，可能误将“莱离寒泉”和“鹭山道南”当作独立人名，原文结构不明，应保留原文短语并说明其不确定性。",
+          "“靖吾公 献策浚源思虞洞源思谦僉憲子在泮俱聯登科甲”一句，candidate 断句为“靖吾公献策疏浚源头，思虞洞源、思谦僉宪子都在泮宫联登科甲”，将“思虞洞源”和“思谦僉宪子”处理为并列人名，但原文“思虞洞源思谦僉憲子”可能为“思虞、洞源、思谦、僉憲子”或“思虞洞源、思谦僉憲子”等不同组合，存在歧义，不应给出确定解释。",
+          "“与古愚伯仲人文济济”中“古愚伯仲”可能指“古愚”兄弟或“古愚”这类人，candidate 译为“与古愚公兄弟般”过于具体，原文未明确。"
+        ],
+        "uncertainty": [
+          "“范川公莱离寒泉鹭山道南”具体所指不详，可能是人名或地名组合。",
+          "“靖吾公 献策浚源思虞洞源思谦僉憲子在泮俱聯登科甲”一句中“思虞洞源思谦僉憲子”的断句和具体指代不明。",
+          "“古愚伯仲”的具体含义不明。"
+        ]
+      },
+      {
+        "id": "book033-b001658-p000-faf699df9a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“克八闽仙游古潮抵县”中“克”字，candidate 译为“克八闽仙游”，可能为“克”或“尅”的误译，原文为“尅八閩仙游古潮抵縣”，此处“尅”可能为“克”或“刻”等，含义不明，不应直接译为“克”。",
+          "“责萃莆阳”中“责萃”，candidate 译为“责萃莆阳”，可能为“责”或“赍”等误，原文为“責萃莆陽”，含义不明，不应给出确定翻译。",
+          "“馆轻黼諒”和“黼執隆慶初進封新建侯”中“馆轻黼諒”和“黼執”语义不明，candidate 直接保留而未说明不确定性，应标注。",
+          "“文果符文魁天下武封侯之驗”中“文果符”，candidate 译为“文果符”，可能为“文果符”或“文果符验”等，含义不明，应标注。"
+        ],
+        "uncertainty": [
+          "“尅八閩仙游”中“尅”字含义不明。",
+          "“責萃莆陽”中“責萃”含义不明。",
+          "“馆轻黼諒”和“黼執”语义不明。",
+          "“文果符”含义不明。"
+        ]
+      },
+      {
+        "id": "book033-b001659-p000-71d05144d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001660-p000-16c3196ca1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“湖水”二字似为残句，无法完整释读后续内容。"
+        ]
+      },
+      {
+        "id": "book033-b001661-p000-f58d0880d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“碟大十年”语义不明，candidate 直接保留而未说明不确定性，应标注为可能OCR错误或原文残缺。"
+        ],
+        "uncertainty": [
+          "“碟大十年”语义不明，可能为OCR识别错误或原文残缺。"
+        ]
+      },
+      {
+        "id": "book033-b001662-p000-586e94d1b7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文开头“汉湄水”可能为“汉湄水”或误字，但未影响整体释读。",
+          "原文末尾“平日水”似为残句，无法完整释读。"
+        ]
+      },
+      {
+        "id": "book033-b001663-p000-bac508d4fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001664-p000-e4e3a67858",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“擢椒”可能为“擢摺”或误字，但未影响整体释读。",
+          "原文末尾“池塘水”似为残句，无法完整释读。"
+        ]
+      },
+      {
+        "id": "book033-b001665-p000-e1a0c8c116",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001667-p000-50e3849abd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“尚书疵孙”中“疵孙”，candidate 直接译为“尚书疵孙”，可能为“疵孙”或“玼孙”等，为人名，但原文用字可能为误写或特定称谓，应保留原文并说明不确定性。",
+          "“理宗师保”中“理宗”指宋理宗，candidate 译为“理宗师保”正确，但“师保”为官职，整体指成为宋理宗的师保，可接受。"
+        ],
+        "uncertainty": [
+          "“尚书疵孙”中“疵孙”具体所指不详，可能为人名。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4224,
+    "completion_tokens": 1379,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4224,
+      "completion_tokens": 1379,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

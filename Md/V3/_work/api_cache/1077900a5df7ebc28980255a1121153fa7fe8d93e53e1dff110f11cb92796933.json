@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-10-15T15:34:30.305216+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1077900a5df7ebc28980255a1121153fa7fe8d93e53e1dff110f11cb92796933",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002242-p000-387fa430af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘羌山’具体所指不详",
+          "原文‘巽山足見酉水’中的‘足見’可能为‘忌見’之误"
+        ]
+      },
+      {
+        "id": "book033-b002243-p000-64212ca561",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘火墓戊水’，candidate 释为‘火墓在戊’，遗漏了‘水’字，且‘戊’应为‘戌’之误。原文‘火墓戊水’与‘土墓辰’并列，结构应为‘火墓戌，水墓辰’。candidate 的释读不完整且可能误导。",
+          "candidate 将‘寡天人伶仃’释为‘寡天、人伶仃’，断句和释义均不确定，应保留原文并标注不确定性，而非给出确定解释。"
+        ],
+        "uncertainty": [
+          "‘四墓益墓’的具体所指",
+          "‘寡天人伶仃’的断句及含义",
+          "‘破局’的具体含义"
+        ]
+      },
+      {
+        "id": "book033-b002246-p000-01759cab00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘也教人犯配他州’释为‘文中提到‘犯配他州’，具体含义不详’，处理得当。但将‘亦名八何曜水主凶’释为‘也叫‘八何曜水’，主凶’，其中‘八何曜水’应为‘八煞曜水’之误，candidate 未指出此可能讹误，仅标注‘八何曜水是否为传抄之误’不够明确，应明确指出此为疑似讹误。",
+          "candidate 将‘一名馳’释为‘一名‘馳’（‘馳’字原文如此，含义不详）’，处理得当。"
+        ]
+      },
+      {
+        "id": "book033-b002247-p000-117acbaf22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "苟字的具体含义",
+          "王字是否为误字",
+          "免水是否为误字"
+        ]
+      },
+      {
+        "id": "book033-b002248-p000-43321c831f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "可众水回禄太神之名也的具体含义"
+        ]
+      },
+      {
+        "id": "book033-b002249-p000-496a639adc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘大主人定’释为‘大主人定’，其中‘人定’含义不确定。原文为‘大主人定’，‘人定’可能为‘人丁’或‘人口’之误，或为特定术语。candidate 仅标注‘人定的具体含义’不够，应指出此短语可能为讹误或特定术语，含义不明。",
+          "candidate 将‘オっ’字符标注为可能讹误，处理得当。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3035,
+    "completion_tokens": 753,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3035,
+      "completion_tokens": 753,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

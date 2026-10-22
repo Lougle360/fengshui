@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-09-23T10:52:17.252804+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "72facc3dd4f0c8f8b0ec0e6e4f298d9b8c68869eabab4d210182080dfde8cbcf",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000340-p000-d402e143a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或举或砂堆”中“举”字，candidate 解释为“隆起”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“有的隆起，有的像砂堆”超出了 allowed_glossary 的许可范围。",
+          "原文“虽拨之而不十云”中“十云”，candidate 解释为“不知所云”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“虽然拨弄它，却不知所云”超出了 allowed_glossary 的许可范围。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000342-p000-7f529ce750",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“拨之而不夫”中“夫”字，candidate 解释为“不见反应”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“拨弄它却不见反应”超出了 allowed_glossary 的许可范围。",
+          "原文“必王出穿窬之盗”中“王”字，candidate 解释为“必定会生出”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“必定会生出穿窬的盗贼”超出了 allowed_glossary 的许可范围。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000343-p000-23909d5cbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“王人龟下卷之王”疑似为版刻页码、书名或残文混入，语义完全不明，无法释读。"
+        ]
+      },
+      {
+        "id": "book003-b000345-p000-a6b7beb51b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“势或歌斜”中“歌斜”，candidate 解释为“歪斜”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“气势如果歪斜”超出了 allowed_glossary 的许可范围。",
+          "原文“必生淫僂”中“淫僂”，candidate 解释为“淫乱和佝偻”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“必定会生出淫乱和佝偻的人”超出了 allowed_glossary 的许可范围。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000346-p000-9abd9bec6c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“则砂如则净”中“如则”，candidate 解释为“如净”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“如果砂的形状如净高大”超出了 allowed_glossary 的许可范围。",
+          "原文“此裕地气自然之符”中“裕”字，candidate 解释为“这是”属于无依据的确定解释，应保留原文并说明其不确定性。candidate 的“这是地气自然符应的道理”超出了 allowed_glossary 的许可范围。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000349-p000-03822f5651",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“其巳往之事 一則將來者亦如見來”句意晦涩，逻辑不通，释读中标注“此处文意不明”。"
+        ]
+      },
+      {
+        "id": "book003-b000350-p000-2cab08ed08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“石函平砂玉尺經後集卷之三王尺經 卷之三 十四新刻石甬平砂玉尺經卷之四”是明显的书名、卷次及版刻信息的混杂，语义不明，无法释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2692,
+    "completion_tokens": 936,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2692,
+      "completion_tokens": 936,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

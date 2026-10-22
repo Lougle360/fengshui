@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T14:12:34.653360+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "90a90d38f95557a53ac143c2832600b1376b61352b83c4f7d10c3360e70ec21f",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000591-p000-99ba9e5e6e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "日文「となおして」未译出，仅译出后半部分，存在漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000592-p000-37dcdd6e6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000593-p000-628dce9b55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000594-p000-beeefa2e79",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "日文「復数」前漏译顿号，且「N \\times 1 0 ^ { n \\mathcal { O } }」的释读未明确标注为原文公式，存在格式与含义传达偏差；「連立合同題」译为「连立合同题」，未采用符合中文数学术语的规范译法"
+        ],
+        "uncertainty": [
+          "原文中「復数」的具体所指需结合专业背景进一步明确，当前释读未完全体现其术语属性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1518,
+    "completion_tokens": 313,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1518,
+      "completion_tokens": 313,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-10-17T05:00:08.144701+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5e0ed75b0e866501cf51b54b3d492123f909900a0ac336f75c28759bd7f1cc5f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002606-p000-921d7075d6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“主而不簡而不而不之不來之不如法入”存在严重错乱，candidate 将其处理为“主位不简、不简、不简、不简，神灵不来，不如按照法度行事”，这属于无依据的猜测和扩写，未能忠实反映原文的混乱状态。应指出原文错乱，无法准确释读，而非强行补全。"
+        ],
+        "uncertainty": [
+          "原文存在多处重复的“不”字及断句不清，导致语义逻辑难以完全确定。"
+        ]
+      },
+      {
+        "id": "book035-b002607-p000-687e174e6c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“大 千其 前后左右之   象后之其體之美矣方以”存在明显缺字与断句混乱，根据上下文逻辑补全为“观察其前后左右的各种砂水象，就能明白其体势之美了”，并调整语序以通顺。"
+        ]
+      },
+      {
+        "id": "book035-b002608-p000-b4c64c5c53",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“風翼渚鱗”、“門百似有”等词句存在严重OCR识别错误或原文脱漏，语义不明，无法确指具体风水形态，故保留原词并说明。",
+          "“縱聲”在此处语境含义不明，可能为“纵声”或他词，无法确证。"
+        ]
+      },
+      {
+        "id": "book035-b002609-p000-c7f6de2ae3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“獄福”推测为“获福”或“福泽”之误，按“获福”意译，但保留原意保守表达。"
+        ]
+      },
+      {
+        "id": "book035-b002610-p000-8002050cfe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002611-p000-889a4c7094",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002612-p000-9e2171a76f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量严重错乱、倒置、缺字及无法通读的字符组合，导致语义断裂，无法还原为连贯的现代汉语说明。candidate 试图将部分片段串联，但整体逻辑和含义无法确定，已超出保守释读的范围。"
+        ],
+        "uncertainty": [
+          "原文存在大量严重错乱、倒置、缺字及无法通读的字符组合，导致语义断裂，无法还原为连贯的现代汉语说明。",
+          "部分段落疑似为OCR识别错误导致的乱码，无法确定其原本含义。",
+          "文中夹杂的“支人从孤”“水寻起趋”等短语在风水语境中无明确对应，具体所指不详。",
+          "无法确认“赖氏曰”后内容的完整逻辑结构。"
+        ]
+      },
+      {
+        "id": "book035-b002613-p000-7a1053315a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002614-p000-5e5c0de5f1",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文内容严重错乱，字符排列无序，包含大量无法识别的断句和重复字，导致无法构建连贯的语义逻辑。candidate 直接声明无法释读，符合 uncertain 的判定标准。"
+        ],
+        "uncertainty": [
+          "原文整体语义逻辑断裂",
+          "重复字与断句的具体成因不明"
+        ]
+      },
+      {
+        "id": "book035-b002615-p000-a380e98ab9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4775,
+    "completion_tokens": 934,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4775,
+      "completion_tokens": 934,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

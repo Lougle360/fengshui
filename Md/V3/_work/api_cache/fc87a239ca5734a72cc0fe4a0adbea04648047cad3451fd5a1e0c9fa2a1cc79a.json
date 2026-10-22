@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-15T15:52:55.636258+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fc87a239ca5734a72cc0fe4a0adbea04648047cad3451fd5a1e0c9fa2a1cc79a",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002290-p000-c32ec42c1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002291-p000-391d38d207",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘同著’意为‘同一作者所著’，candidate 释为‘同书作者所著’不准确，可能产生歧义（如理解为同一本书的不同作者）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002292-p000-956dcd033e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘江右山人“徐善 述繼’存在引号和空格，可能表示‘徐善述’为名，‘繼’为动作。candidate 释为‘徐善述繼續撰寫’是合理的推测，但原文格式特殊，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文‘江右山人“徐善 述繼’的引号和空格格式特殊，人名与‘繼’的关系存在不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b002293-p000-80e96cb61e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处漏译或误译：1. ‘納火按空 日生剋出入’漏译‘按空 日’。2. ‘取生入克八者吉’应为‘取生入克入者吉’，‘八’是‘入’的形近误字，candidate 未修正也未标注。3. ‘祭氏發揮云’的‘祭氏’可能是‘蔡氏’之误，candidate 未标注。4. ‘九美不得巳一節外’的‘九美’含义不明，candidate 直接保留未解释，应标注不确定性。5. ‘其所出及口不要在主旺墓方上，而且口火山頭則忌申子辰三方流出者是也’中两个‘口’字，candidate 未处理，应标注为原文可能缺字或模糊。6. ‘其他封例多端’的‘封’应为‘卦’，candidate 未修正也未标注。7. ‘玄用卦為’后candidate 补‘此先予兄’，但原文为‘此先予兄’，存在脱文或断句问题，candidate 处理不当，应标注不确定性。8. ‘范公曰：山之生克制化，水之來去出泄，又在臨時斟酌’漏译‘出泄’后的‘又在臨時斟酌’，candidate 已包含，此条撤回。但‘出泄’candidate 作‘出泄’，无误。"
+        ],
+        "uncertainty": [
+          "‘澁樂之義’、‘九美’、‘口火山頭’、‘玄用卦為’等短语含义不明，具体所指不详。‘祭氏’可能为‘蔡氏’之误。‘八’可能为‘入’之误。‘封’可能为‘卦’之误。"
+        ]
+      },
+      {
+        "id": "book033-b002294-p000-5da45f91b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002295-p000-f0927a8395",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘斗柄水’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002296-p000-c390c11622",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002297-p000-169e955d18",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002298-p000-470bca808c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘黄金斗’、‘四势在君谈五行’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002299-p000-b7358d22b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘水中格水，水难瞒也’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3540,
+    "completion_tokens": 917,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3540,
+      "completion_tokens": 917,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

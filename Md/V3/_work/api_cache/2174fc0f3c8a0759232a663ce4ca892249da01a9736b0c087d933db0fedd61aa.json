@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-16T11:09:54.236370+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2174fc0f3c8a0759232a663ce4ca892249da01a9736b0c087d933db0fedd61aa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002134-p000-b7ecda7a0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002135-p000-c7ecc0e601",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘都君’未译出，存在漏译。‘都君’可能是特定称谓或术语，不应省略。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002136-p000-0617659e1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002137-p000-aab33e896f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002138-p000-bcf0d8056a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002139-p000-f3a46f91be",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘氣理表’释为‘气理的表现就会显露出来’，‘表’字含义推测成分较大，可能指‘衰微’或‘表现’，释读不够保守。"
+        ],
+        "uncertainty": [
+          "‘麗’字含义存疑，‘表’字含义存疑"
+        ]
+      },
+      {
+        "id": "book035-b002140-p000-54c0a5f20a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘球檐’具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002141-p000-8af2ae7d92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002142-p000-8de4d53320",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "将‘三易水’释为‘三种变化的水势或特定水法术语’并直接放入正文，属于将不确定解释写为确定事实。应保留‘三易水’原词并说明其含义不详。"
+        ],
+        "uncertainty": [
+          "‘三易水’具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002143-p000-3e366a2e90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1710,
+    "completion_tokens": 519,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1710,
+      "completion_tokens": 519,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-25T16:00:23.926346+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "013caeac41e09254c203d7d3f0b19d5d6b45b487182c8767db74db1b3c033d06",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000680-p000-73c1e79ed7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000681-p000-31509d5411",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在\"或鸦浮如又吉\"\"武言\"\"青武\"等未释读内容，候选译文中未涵盖，存在漏译；将原文不确定的\"又吉\"直接合并入\"鸦浮\"吉利的表述，未标注对应不确定性；释读中遗漏了原文末尾\"鸦含山反如\"等相关内容"
+        ],
+        "uncertainty": [
+          "原文断句错乱，部分专名如\"武言\"\"金兔\"\"山公\"具体所指不明，部分语句语义难以完全确定"
+        ]
+      },
+      {
+        "id": "book026-b000684-p000-8b84a56243",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文\"鼓笛非神仙不取無道器則出伶官\"被误译为\"鼓笛这类器物，若非神仙所用就不是正道之器，这类器物出自伶官之手\"，与原文语义不符，原文意为鼓笛只有神仙才会取用，若出现不合道的这类器物则会出伶官；\"印非天師\"内容未译，存在漏译；将原文标注版本信息的\"四 千家註纂 周等家戲\"误译为\"是千家注纂、周等家的戏作\"，原文的\"四\"对应前文书卷信息，\"戏\"语义不明，不能直接确定为\"戏作\""
+        ],
+        "uncertainty": [
+          "原文断句错乱，\"周等家戲\"语义难以完全确定"
+        ]
+      },
+      {
+        "id": "book026-b000685-p000-8117cbb690",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语义为（若是相关形局）不出现香炉的象则会出巫祝，候选译为\"不持有香炉的人就是巫祝\"，完全偏离原文风水形局应事的语境，属于语义错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000686-p000-86a1890acc",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "未完成古文到现代中文的转换，仅对原文做了随意断句，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文断句错乱，多处语义难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000687-p000-5819fea503",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文\"木杓形連瘟瘧孤寡葫薦山之葫蓋也\"被误译为\"木杓形的山丘连接着瘟疟、孤寡之象，这就是葫芦山的含义\"，语义错译；原文\"言謝蘆之山若現主出人不為遊術之古頭長则为行醫之形\"翻译混乱，漏译\"古\"相关内容，\"遊術之古\"语义不明不应臆测；原文\"构必直主来癌无痊不病\"错误引入现代疾病名\"癌\"，原文应为\"瘟\"类相关表述，属于术语误换；原文\"若止考主指南云述\"被误译为\"若仅止一处，主应验于《指南》所述\"，\"考\"字未对应，语义错译；漏译原文末尾\"反见寨妇之辈也\"的\"反见\"语义"
+        ],
+        "uncertainty": [
+          "原文断句错乱，部分语句如\"遊術之古\"\"末杉山如木物頭國尾尖者也\"语义难以完全确定"
+        ]
+      },
+      {
+        "id": "book026-b000690-p000-b8f4a79173",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "\"拜相鋪理\"具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book026-b000691-p000-019f08f3eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000692-p000-d0c03be31b",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "未完成古文到现代中文的转换，仅对原文做了随意断句，不符合白话释读要求；断句错误导致多处语义不通，如\"云深漫而形重相山僵銷能形胡\"的断句完全不符合文理"
+        ],
+        "uncertainty": [
+          "原文断句错乱，多处语义难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000693-p000-3876a15bbf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文\"拜相謝恩之周\"的\"周\"未做合理解释，直接添加\"象\"字属于无依据增译，未标注该字的语义不确定性"
+        ],
+        "uncertainty": [
+          "\"拜相謝恩之周\"的\"周\"字语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2971,
+    "completion_tokens": 1213,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2971,
+      "completion_tokens": 1213,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

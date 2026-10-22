@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-17T14:39:25.165191+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c51b1fd4f44981a324d4578eacbada24e6b8775cae802e356a4ff13845d2eeae",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003852-p000-a5db1911b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文有‘三水斜出中如左右’，candidate译为‘中间的水流如同左右护卫’，但原文‘中如左右’结构含混，可能指中间水流形态如同左右水流，或指中间水流与左右水流的关系。候选句将其明确为‘护卫’关系，属于无依据的扩写。",
+          "术语误换：原文‘水之電子出版系統吉者也’显然是OCR错误或原文损坏，candidate完全忽略此句，未作任何处理或标注。",
+          "数字变化：原文‘可得二十左右年興旺’，candidate译为‘二十年左右’，将‘二十’明确为‘二十年’，虽属合理推测，但原文‘年’字可能为衍文或损坏，严格来说存在不确定性。"
+        ],
+        "uncertainty": [
+          "‘反索’、‘活蛇绕穴’的具体形态不详。",
+          "‘水之電子出版系統吉者也’一句原文损坏，含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b003854-p000-1a7028a5be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误换：原文‘寓六者斬關絕氣’，candidate译为‘寄穴若遇“寓六者斩关绝气”的情况’，将‘寓六者’处理为一种情况或形态的名称，但原文‘寓六者’本身含义不明，可能是‘寓穴者’的OCR错误。候选句未标注此不确定性，并直接将其作为确定术语引用。",
+          "增译/推测：原文‘或取水城朝揖可得二十左右年興旺’，candidate译为‘或者通过“水”城朝揖的格局，可能获得二十年左右的气运兴旺’，其中‘格局’、‘气运’为增译。原文‘年’字可能为衍文，候选句将其处理为‘二十年’也存在不确定性。"
+        ],
+        "uncertainty": [
+          "‘寓六者斩关绝气’含义不明，可能为‘寓穴者斩关绝气’之误。",
+          "‘金锭挂壁’的具体形态不详。",
+          "‘二十左右年興旺’中的‘年’字是否为衍文或损坏，存在不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 557,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1295,
+      "completion_tokens": 557,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

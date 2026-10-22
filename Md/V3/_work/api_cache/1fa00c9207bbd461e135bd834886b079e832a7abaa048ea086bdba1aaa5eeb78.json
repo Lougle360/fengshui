@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T05:15:51.597511+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1fa00c9207bbd461e135bd834886b079e832a7abaa048ea086bdba1aaa5eeb78",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000621-p000-9423fafd68",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000622-p000-4320645ffd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'乘竈'，candidate译为'顺应灶形'，但'灶'在风水术语中通常指穴场中的特定形态或位置，此处'乘竈'与'乘勢'对举，应指顺应'竈'的形态或位置，candidate的'灶形'解释不够明确，且未在allowed_glossary中定义，属于将含混术语赋予了确定含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000623-p000-67e788fec5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000624-p000-3f821bdeb3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'末之眞峽穴在峽之畫假峽穴在峽之身'，candidate译为'真穴在峡口之前，假穴在峡口之身'。'畫'字可能为'前'之误或通假，但candidate直接译为'之前'，并将'峡之身'解释为'峡口的前后左右'，存在将推测（尤其是对'畫'字的解释）写为事实的风险。原文此处表述本身可能就有歧义或讹误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000625-p000-0db994ce33",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'所要取清穴要取明'，candidate译为'所要选取的穴要清澈，穴要取明'。此处'所要取清'与'穴要取明'对举，'所要'可能指'脉'或'气'等，candidate直接译为'穴要清澈'，存在漏译或误译。结合后文'脉不清则浊'，此处'所要'很可能指'脉'。candidate的处理改变了原文结构，可能导致含义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000626-p000-3b5cfbab27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000627-p000-e349a769d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000628-p000-c04cfeb445",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'縱盡龍有 天則氣脉彼巳先得被他斬截生氣若不知審穴暈佈土 氣失脉淺深然後方爲盡穴所捨'，candidate译为'纵使尽龙有天，如果气脉彼已先得，被他斩截，生气若不知审穴晕、布土气、失脉浅深，然后方为尽穴所舍'。此句原文断句和逻辑关系复杂，candidate的翻译虽尝试理顺，但'尽龙有天'、'被他斩截'的主语、'审穴晕佈土 氣失脉浅深'的断句和含义均存在较大不确定性。candidate的译法将这些不确定之处处理为确定的陈述，风险较高。"
+        ],
+        "uncertainty": [
+          "原文'尽龙有天'、'被他斩截'、'审穴晕佈土 氣失脉浅深'的具体所指和逻辑关系难以确证。"
+        ]
+      },
+      {
+        "id": "book028-b000629-p000-cc44ba5861",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在明显的OCR识别错误或生僻难解词汇，如'凌爍'、'状砂經 卷 溯湃'、'遇風 叭'、'曰忌宗'等。candidate虽尝试进行保守译述，但'凌烁'译为'凌烁'（未解释）、'状砂經 卷 溯湃'译为'状砂经卷溯湃'（视为专名或误字未处理）、'遇風 叭'译为'遇风'（漏译'叭'）、'曰忌宗'译为'名为曰忌，宗祸'（断句和解释不确定），这些处理均无法构成可靠的保守释读。原文损坏严重，导致无法进行有效核义。"
+        ],
+        "uncertainty": [
+          "原文多处文字疑似讹误或OCR错误，整体含义难以通解，无法进行可靠的释读核校。"
+        ]
+      },
+      {
+        "id": "book028-b000630-p000-d20ed72710",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2907,
+    "completion_tokens": 1081,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3266,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2907,
+      "completion_tokens": 1081,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T12:13:05.790645+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fdd44c445d21e12a3c9e2bef1f86c5d858436b0cd98f2d1ca8b7ff8f552d9e7d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000472-p000-69c06ad05d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处原文断句错误、语义混乱，如‘免熙有水意’‘開必見畢土’‘及開師樂不川’等内容释读混乱，将原文残缺或模糊的内容强行释读，未保留原文的混乱状态，且存在重复冗余的表述，如‘其開金取水，必照大窩乳方可立穴’重复出现，不符合原文逻辑"
+        ],
+        "uncertainty": [
+          "原文‘及開師樂不川’具体所指含义不详"
+        ]
+      },
+      {
+        "id": "book014-b000473-p000-32054657c8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处原文断句错误、语义混乱，如‘凡全望火應較金頸木曲為吏四’‘也出于穴者謂之明昵驛’‘從穴中過矣’‘面雲者卽謂之孤，非當有凶’等内容释读混乱，将原文残缺或模糊的内容强行释读，未保留原文的混乱状态，且存在重复冗余的表述，如‘微帶水意’重复出现"
+        ],
+        "uncertainty": [
+          "原文‘閣扇獄掀’具体所指含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1664,
+    "completion_tokens": 320,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1664,
+      "completion_tokens": 320,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

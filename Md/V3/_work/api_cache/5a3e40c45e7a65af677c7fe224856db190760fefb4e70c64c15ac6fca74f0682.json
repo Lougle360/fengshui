@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T18:04:16.750157+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5a3e40c45e7a65af677c7fe224856db190760fefb4e70c64c15ac6fca74f0682",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001581-p000-1d7f33d12e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001582-p000-fb2c0680f9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘匠’字的金文写法误释为‘颐’字的相关考证，属于无依据的扩写，原文仅提及‘颐’字的古文及段注，未涉及‘匠’字的金文考证内容，该释读添加了原文不存在的信息"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001583-p000-5eb11dc80a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1858,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-26T15:03:45.564702+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d3c2c430d64fd1f1da8b2b84da0928ceec41440c5e1ddf49ea6625abfcfcf4c6",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000412-p000-c94b627c2d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000414-p000-0c2855f344",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate无原文依据将“流之”“刺山”“千似”“千五”“主筆”等判定为讹误，擅自补入“千仞”“千重”等原文无有的内容，违背保守原则"
+        ],
+        "uncertainty": [
+          "原文多处脱讹，两版对不确定内容的处理均无充分版本依据"
+        ]
+      },
+      {
+        "id": "book002-b000419-p000-54aa366935",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate无原文依据将“自虎”“一翻”“家崖”“人日傷”“古集衛”“古則爲福內則列”“七思星”等判定为讹误，擅自补入“白虎”“一番”“家业”“人丁伤”“古诀云”“吉则为福，凶则为祸”“七星”“七政”等原文无有的内容，违背保守原则"
+        ],
+        "uncertainty": [
+          "原文多处脱讹，两版对不确定内容的处理均无充分版本依据"
+        ]
+      },
+      {
+        "id": "book002-b000421-p000-b55ea4fd18",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate无原文依据将“棚鄭順微”“自水鬼”“曜與穴不相丁”“出服坐以十不可無兩般”等判定为讹误，擅自改动原文断句与表述，违背保守原则；current误将“官”“禄”断为“官水”“禄官”，存在明显错误"
+        ],
+        "uncertainty": [
+          "原文多处脱讹，两版各有错误，对不确定内容的处理均无充分版本依据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7370,
+    "completion_tokens": 521,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7370,
+      "completion_tokens": 521,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

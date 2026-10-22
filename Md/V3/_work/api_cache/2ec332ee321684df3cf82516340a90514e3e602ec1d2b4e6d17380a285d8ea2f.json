@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-09-25T18:52:07.949493+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2ec332ee321684df3cf82516340a90514e3e602ec1d2b4e6d17380a285d8ea2f",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000426-p000-709eeb67db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘若左右皆遶向穴傷尤主富盛’释读错误，原文并无‘损伤穴’的含义，应是左右水都环绕朝向穴位，尤其主家富盛，候选译反了语义。",
+          "原文干支‘戌寅’误写为‘戊寅’，干支信息错误。",
+          "原文‘當固田水’误译为‘固田水’，应为‘前面的田水’或‘正对着的田水’，漏译‘当’的含义。"
+        ],
+        "uncertainty": [
+          "仓驳门具体形态原文未明"
+        ]
+      },
+      {
+        "id": "book030-b000427-p000-a0dec7fa67",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000429-p000-01e090e915",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000430-p000-06d5102510",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000431-p000-37778d3b63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000432-p000-70f9c0cc1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "前未景御莫卷，后地国亦即体塘水，原义不确定"
+        ]
+      },
+      {
+        "id": "book030-b000433-p000-5e2f76ca9f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘豐鑑鑑堂勢’断句错误，应为‘丰鉴：鉴堂势’，候选断句不当导致语义含混。",
+          "‘陵案幼杀’属于风水专业含混术语，未做风险标注直接释读为并列凶相不妥，且未明确说明术语含义存疑。"
+        ],
+        "uncertainty": [
+          "陵案、幼杀具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book030-b000434-p000-e3b16342a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句错误，‘姚 徐誠可地理檄人卷二 鑑水三十九’属于正文外的标注内容，不应嵌入正文释读，候选将其混入正文语句导致语义不通。",
+          "‘平如片’释读不准确，原文是形容明堂平整如薄片，属于含混表述未做说明，直接直译读者难以理解。"
+        ],
+        "uncertainty": [
+          "姚、徐诚可地理檄人具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000435-p000-2e79c66c65",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘掌衡列上舍闕葬祖之地’释读错误，‘上舍闕’并非掌衡的身份，应为掌衡列举上舍阙安葬祖先的地，候选译错主语关系。",
+          "原文‘擇地必貪曠蕩而嫌狹小也’语义译反，原文是批评择地不要贪求旷荡嫌弃狭小，候选译为肯定表述，含义完全相反。",
+          "原文‘田水層層朝八堂來’的‘八’是‘入’的讹误，候选未做说明直接保留错误表述，应标注为‘疑为入堂’。",
+          "原文重复内容‘初塟時人不以爲意目下 九年初塟時人不以爲意目下見歲歲增產子餘金不知其他堂局之偏者曾于’属于原文讹误重复，候选未明确标注为原文重复，仅在uncertainty说明不足。"
+        ],
+        "uncertainty": [
+          "收侯原义不确定，原文重复部分为文本讹误"
+        ]
+      },
+      {
+        "id": "book030-b000438-p000-2788479e41",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "然试可地理原义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2956,
+    "completion_tokens": 1291,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2956,
+      "completion_tokens": 1291,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

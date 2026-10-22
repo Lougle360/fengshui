@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T17:54:13.023667+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ff52231fd52f07878b9e0c585b201b1e13a86a0470f56da19350b89356b8c0e2",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001428-p000-6f2e689ab7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "卷三",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001429-p000-12bd857612",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "③没有过错，虽有危险最终会吉祥：这是总结前文的意思，说的是初六爻以卑下的姿态匡正尊长的弊病，目的在于成就先辈的德业，所以“没有过错”，即便有“危险”也能获得“最终吉祥”。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001430-p000-b41f634367",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：“匡正父辈的弊乱”，这是说，《象》曰：“干父之蛊”，意承考明初六的意愿在于继承前辈的成就。也①。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾的“也①”含义不明"
+        ]
+      },
+      {
+        "id": "book016-b001431-p000-09b97e6bf4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释① 意承考：考，与爻辞中“考”的含义相同，此处作名词使用。《尚氏学》说：“谓初上承重阳，能承继先德也。”按，爻辞及《小象》中“考”字的含义，此处采用《尚氏学》的说法。不过汉魏及唐宋以来各位儒者的旧说，大多将“考”解释为“父”，这种解释也能讲通，可以一并保留。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1656,
+    "completion_tokens": 529,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1656,
+      "completion_tokens": 529,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

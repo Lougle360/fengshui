@@ -1,0 +1,102 @@
+{
+  "created_at": "2026-09-25T09:41:20.483812+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "104aa097ffe0c944e36726b14171739cecc6cc2495754d1b464a6c351ba41fed",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002573-p000-7772ba1bb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002574-p000-2c920f1978",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到“五气甲辰，少阳长气”即截断，候选自行补出“司掌；六气甲寅，由少阴舒气司掌”内容，属于无依据增译；原文“纲纪于支气而不行乎天”被误译为“在地支气的范围内无法通行于天”，语义偏差，原文意为戊己二干是地支气的纲纪但不运行于天；原文中阴干为“乙、丁、己、辛、癸”，候选误写为“乙、丁、巳、辛、癸”，将天干“己”错写为地支“巳”，专业信息错误"
+        ],
+        "uncertainty": [
+          "原文此处未完整，缺失后续内容"
+        ]
+      },
+      {
+        "id": "book018-b002575-p000-362bc569b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此句为古图标题，未做释读，具体所指不详"
+        ]
+      },
+      {
+        "id": "book018-b002577-p000-01a94f329b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002578-p000-2e6ae07da7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此句为古图标题，具体所指不详"
+        ]
+      },
+      {
+        "id": "book018-b002580-p001-934475e6f7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“神器之的”中“的”译为“目标”语义不准确，此处“的”指标准、准的，更符合术数语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002581-p000-39b58225c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002582-p000-c72375b2fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002583-p000-e1f0298168",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“地理之于罗经”语序译反，应为“罗经对于地理（术）而言”；“可不深究其的焉”中“的”未译明，“的”指准确的标准、要义，译为“其的”属于未完成白话转换"
+        ],
+        "uncertainty": [
+          "原文此处未完整，缺后续内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4304,
+    "completion_tokens": 791,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4304,
+      "completion_tokens": 791,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

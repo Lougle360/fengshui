@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:00:56.288955+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1195bcbd574665ff17b775570118488bb126c0ffee929d1e2589190e7c11893c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000556-p000-852849ea40",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文末尾‘能审慎忖’存在残缺，缺字内容无法确认，候选释读补出‘度’字，属于无依据扩写，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原句末尾‘能审慎忖’存在残缺，缺字内容无法确认，无法完成准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 904,
+    "completion_tokens": 112,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 904,
+      "completion_tokens": 112,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

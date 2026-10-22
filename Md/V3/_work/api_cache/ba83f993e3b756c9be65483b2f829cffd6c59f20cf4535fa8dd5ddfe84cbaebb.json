@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-15T04:23:01.937208+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ba83f993e3b756c9be65483b2f829cffd6c59f20cf4535fa8dd5ddfe84cbaebb",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001136-p000-d06aca761f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对表格结构的描述存在多处不准确和遗漏。1. 表格第一列有跨行跨列的空白单元格，候选句未提及，导致对表格布局的描述失真。2. 候选句将‘图池天荫养’误列为第一行标题，但原文中‘图池天荫养’位于第一行最右侧，且其上方有空白单元格，其与下方图片的对应关系未明确。候选句的概括方式模糊了原文的图文对应关系。3. 候选句将‘间小者是’描述为‘五种情况’之一，但原文中‘间小者是’是独立一行文字，其后的图片可能属于下一行‘膝鹤’等内容的开始，候选句的归纳不准确，且‘五种情况’的计数有误。4. 候选句将‘迎送纏托經雲送龍之山短在后托山不抱左右手纏龍纏過龍虎前三重五重福綿延’描述为‘长口诀’，但原文中此段文字位于一个跨多行的单元格内，与右侧多行图片并列，其性质（是标题、说明还是独立内容）候选句未明确，直接称为‘口诀’可能不准确。5. 候选句未提及表格中多处存在的跨行合并单元格（如第一列、右侧长文字列），这影响了读者对原文版式的理解。"
+        ],
+        "uncertainty": [
+          "原文为复杂表格，包含大量图片和跨行列合并，现代文本转述难以完全还原其精确的图文对应关系和版面布局。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2730,
+    "completion_tokens": 371,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2730,
+      "completion_tokens": 371,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

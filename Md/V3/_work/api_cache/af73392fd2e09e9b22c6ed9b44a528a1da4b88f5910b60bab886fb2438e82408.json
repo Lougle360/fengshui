@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T10:22:31.099203+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "af73392fd2e09e9b22c6ed9b44a528a1da4b88f5910b60bab886fb2438e82408",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000724-p000-f4acae0614",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000725-p000-484a7e4d00",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“重叟”的“叟”未明确释读，候选句释为“重复出现”无依据；“邵为金运”的“邵”未明确释读，候选句直接释为“即为金运”存在误译风险；“丁或用甲巳年”的“丁”指代不明，候选句未标注歧义；“丁纳音属水”的“丁”指代不明，候选句未标注歧义"
+        ],
+        "uncertainty": [
+          "“重叟”具体含义不详；“邵”的具体含义不详；“丁”在此处的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000726-p000-d0e7158c33",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000728-p000-163ce86ae5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1690,
+    "completion_tokens": 329,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1690,
+      "completion_tokens": 329,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

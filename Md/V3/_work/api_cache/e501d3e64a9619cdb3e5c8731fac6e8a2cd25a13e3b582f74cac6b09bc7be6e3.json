@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-17T05:49:34.768787+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e501d3e64a9619cdb3e5c8731fac6e8a2cd25a13e3b582f74cac6b09bc7be6e3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002684-p000-e2f24865c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘郭其清氣精而明者也’中‘郭’字含义不详",
+          "原文‘陰長 育之機時之半而左行陰生于夏至甲子時之半而右行’语意晦涩，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002685-p000-3e30f6d17d",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文因严重错乱、重复、断句不清，无法进行可靠释读"
+        ]
+      },
+      {
+        "id": "book035-b002686-p000-20ba58cf16",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文存在大量错乱、漏字和语序问题，无法构成连贯的现代中文释读"
+        ]
+      },
+      {
+        "id": "book035-b002687-p000-260ccf3bf4",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘天所香高之所中命受之’及‘中 為女子之 化出 卦玄相男女下生自’等句完全无法理解，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2501,
+    "completion_tokens": 293,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2501,
+      "completion_tokens": 293,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

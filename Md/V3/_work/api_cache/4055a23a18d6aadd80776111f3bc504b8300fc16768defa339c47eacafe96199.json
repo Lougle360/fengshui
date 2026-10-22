@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T07:27:48.960996+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4055a23a18d6aadd80776111f3bc504b8300fc16768defa339c47eacafe96199",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002256-p000-63c7603998",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002257-p000-b6af674e10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002258-p000-5d60d22349",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002260-p000-99da7b3f31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002261-p000-35aeeccef8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“细认太极安”的核心是仔细辨识太极相关特征来安穴，候选释读“确定太极的位置来安放”表述模糊，未明确安放的对象是穴，与原文表意衔接不足"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002262-p000-4a9205fa41",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“微茫大极窟突之形”中的“大极”应为“太极”，候选误写为“太极”属于形近字讹误？不，是原文疑似“大极”实应为“太极”，但候选对“虾须、蟹眼”未做风险标注，且“贵穴（风水中认为气脉聚结、适宜安葬或营建的位置）”注释冗余，贵穴是优质的穴，无需重复穴的通用释义；另外原文“方可扦之”释为“才可进行安葬或营建”虽可，但未提及“扦穴”的操作属性，不过更关键的是原文“大极”候选直接写“太极”未标注，还有“虾须、蟹眼”属于风水术语，不在allowed_glossary中，未标注具体所指不详"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002263-p000-23fd99b706",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“乐起贴身高”未作释读，也未标注“乐”为风水术语具体所指不详，普通读者无法理解含义，不符合白话释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002264-p000-c6bde90820",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“后乐贴身盖照”“后宫”“孝顺鬼”均不属于allowed_glossary中的术语，候选未标注该类术语具体所指不详，直接保留原文表述普通读者无法理解；“乐”“后宫”“孝顺鬼”均为风水专属术语，无通用释义依据不得直接沿用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002265-p000-4b0efb22df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002266-p000-40b37420a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“后宫仰瓦”“后乐”“孝顺鬼”均不属于allowed_glossary中的术语，候选未标注该类术语具体所指不详，直接保留原文表述普通读者无法理解"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 668,
+    "completion_tokens": 52,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3230,
+      "completion_tokens": 873,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 668,
+      "completion_tokens": 52,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

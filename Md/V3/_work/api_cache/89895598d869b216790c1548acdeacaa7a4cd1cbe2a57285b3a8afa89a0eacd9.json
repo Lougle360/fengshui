@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T12:39:25.723327+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "89895598d869b216790c1548acdeacaa7a4cd1cbe2a57285b3a8afa89a0eacd9",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000830-p000-67c995dfc4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘內堆’未明确对应‘豬形的地脈’，属于无依据扩写；‘形家像形’释为‘形家以形類比附’与原文含义有偏差，原文仅指形家以形类比附的说法并非妄言，未提及‘類比附’的具体表述"
+        ],
+        "uncertainty": [
+          "原文中‘內堆’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000831-p000-304d609805",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘蛇形止可塟蛇不可塟眙’‘猫形止可塟貓不可紫鼠’‘成形止可塟虎’等表述存在OCR识别错误，候选释读存在语义偏差；‘本是纔穴’未明确对应‘损伤气脉’，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中‘眙’‘紫’‘纔’等字的原文字形及含义不详"
+        ]
+      },
+      {
+        "id": "book014-b000832-p000-289dfbcfb1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量OCR识别符号（如‘0’‘00’），导致语义断裂，无法形成准确释读"
+        ],
+        "uncertainty": [
+          "原文中‘0’‘00’等符号的具体含义不详，原文部分语句语义不完整"
+        ]
+      },
+      {
+        "id": "book014-b000833-p000-415f7e1b12",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘沙業十三’未明确对应‘沙业十三的土堆石块’，属于无依据扩写；‘兩為囊合處一底幾成個案象’释为‘有两处合为一处，形成类似个案的形状’与原文含义有偏差，原文‘囊’‘案’的具体所指未明确"
+        ],
+        "uncertainty": [
+          "原文中‘沙業十三’‘囊’‘案’的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1842,
+    "completion_tokens": 519,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1842,
+      "completion_tokens": 519,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

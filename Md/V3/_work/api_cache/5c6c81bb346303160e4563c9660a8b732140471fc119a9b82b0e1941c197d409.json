@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-25T18:48:14.247446+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5c6c81bb346303160e4563c9660a8b732140471fc119a9b82b0e1941c197d409",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000404-p000-a767ce3e6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故必以入除識可”存在讹脱，candidate将其释为“所以必须以‘入口’作为辨识的标准”属于无依据增译，此处原文表意不明不应作确定解释；原文最后仅提及“地理救人卷二鑑水三十四”，candidate补出“相关内容出自”属于合理补述但前述讹脱部分释读错误"
+        ],
+        "uncertainty": [
+          "原文“故必以入除識可”字句讹脱，含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000410-p000-91b607117b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“拜恨”“运花”“水盜清而不流”“悲切琴”“刑冲之势”原文未明确释义，具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000414-p000-0a1d3ac68f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“人才盛冠八周”为“八闽”的讹写，candidate直接改为“八闽”属于无依据校改，应标注原文作“八周”疑为“八闽”之讹；原文“宋初田因築水欄陂”candidate释为“北宋初年有人因为修筑了水栏陂”不准确，“田”疑为人名或漏字，不应笼统释为“有人”"
+        ],
+        "uncertainty": [
+          "“朔水”“上五不朝”“雨淅”具体含义未明；原文“八周”疑为“八闽”之讹；“宋初田因築水欄陂”中“田”所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1755,
+    "completion_tokens": 464,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1755,
+      "completion_tokens": 464,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

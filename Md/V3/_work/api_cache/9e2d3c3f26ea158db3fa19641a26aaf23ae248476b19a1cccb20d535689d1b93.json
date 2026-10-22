@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T11:10:58.543989+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9e2d3c3f26ea158db3fa19641a26aaf23ae248476b19a1cccb20d535689d1b93",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000519-p001-abc08f83ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000520-p001-4dd7246039",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000524-p001-c556099168",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000525-p001-b3b50812c8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字为‘尨’，候选误写为‘龙’，二者字形含义不同，属于文字讹误；且原文语句语义含混，未做通俗释读，直接保留晦涩原文，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文‘盤尨格位王亦堂見孫芽義 盤龙乳願為深處’语义不明，难以准确释读"
+        ]
+      },
+      {
+        "id": "book024-b000530-p001-f8bef3211f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000531-p001-225778c05d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000533-p000-ccd740a9be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘休圓’的‘休’为‘體’的形近讹字，候选直接释为‘形體’属于无依据认定，应保留原文讹误标注或说明是据文意校正；原文‘直者為水城次也’句读错误，候选释为‘筆直的是水城，次之’符合文意，但‘卷主’语义不明，候选直接译为‘卷主’未做说明，且原文末尾‘續水龍經 卷主’是标注出处，候选译为‘出自《續水龍經》卷主’表述不准确"
+        ],
+        "uncertainty": [
+          "‘卷主’具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000534-p000-d5a602925f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000535-p000-4b0a7a480c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头‘續水龍經卷之臺終’的‘臺’语义不明，候选直接保留为‘卷之臺終’未做说明；原文‘知已深矣’是指自己深知此癖好，候选译为‘身边的知己都很清楚我这一点’属于错译，违背原文含义；原文‘前曾披閱数次’的主语是上文的坊刻本包括《青囊敬卷》，候选译为‘我从前曾经翻阅过好几次’指代对象模糊；原文‘去辰歲’是‘去年辰年’，候选译为‘辰年那年’表述不准确；原文‘陟峨嵋之續水龍經 卷二巔’是原文排版错误，候选直接顺译为‘攀到峨嵋山的顶峰’未说明原文讹误；原文‘良大共約有八十’语义含混，候选译为‘发现里面总共有八十种格局’属于无依据增译，原文未明确是八十种格局；原文‘其嗇真尚繁復析為二三兩卷’的‘嗇真’语义不明，候选译为‘因为它内容翔实但有些繁复’属于无依据释读；原文‘繼前所輯正續水龍經 卷二集五卷’排版断裂，候选译为‘《正續水龍經》卷二、集五卷’属于无依据认定书名和卷次，违背原文实际内容"
+        ],
+        "uncertainty": [
+          "‘卷之臺終’的‘臺’、‘嗇真’具体含义不详；原文多处排版断裂、语义含混，部分内容释读为基于文意的推测"
+        ]
+      },
+      {
+        "id": "book024-b000536-p000-b3145d051b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3101,
+    "completion_tokens": 1053,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3101,
+      "completion_tokens": 1053,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

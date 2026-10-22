@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T17:35:36.279358+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3db268d197226b24379b5d8bf829f9699332c8ade1c2576a163c56111aad3cb1",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001109-p000-2ddb42580d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001110-p000-82367ca1ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001111-p000-0e606639f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001112-p000-6188be8fa5",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文存在OCR错乱，“位正 译文”部分疑为排版错误，无法准确释读"
+        ],
+        "uncertainty": [
+          "原句存在OCR错乱，“位正 译文”部分疑为排版错误，已按可辨识内容整理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1514,
+    "completion_tokens": 256,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1514,
+      "completion_tokens": 256,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-26T12:38:57.809564+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2e70a0314f3f66e8683eba8eeda3a519b6cd9d69e1635f5ede4dfaad50808008",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000821-p000-4a9ea5126d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000823-p000-72271430e8",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“真龙涌势难顿住，结穴定了气还去”被错译为“真龙的气脉涌动难以停住，结穴之后气还会继续游走”，篡改原文“涌势”表述，无依据增加“气脉”“继续游走”表述，偏离原意；2. 原文“就身作起案端严，四正八方俱会聚”被错译为“在龙身本身起端严的案山，四正八方的气都会聚于此”，无依据补入“的案山”“的气”“于此”，属于无原文依据的增译；3. 原文“外阳休问有和无”被错译为“不用问外阳有没有”，语序调整不符合原文表述逻辑，且未保留原文的文言表述习惯，随意口语化"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000824-p000-a852be0053",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000827-p000-96d4ffa5d8",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“恍兮佛兮，其中有物；佛兮恍兮，其中有象”是原文固定表述，candidate擅自将其改写为“就是古人说的恍恍惚惚之中，里面有具体的物事；惚惚恍恍之中，里面有真实的形象”，篡改原文经典引文，违反专业术语/原文固定表述不得擅改的规则；2. 原文多处表述被过度增译，如“或异于形势，或异于皮毛，或异于精神，或异于气质”被补入大量无原文依据的解释内容（“外形走势上”“表层的土色质地之类的外在特征上”等），属于无依据增释；3. 原文“元武”为风水专业术语，candidate未保留原术语的规范表述，整体翻译过于口语化，破坏古籍专业性"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3103,
+    "completion_tokens": 536,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5442,
+      "completion_tokens": 359,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3103,
+      "completion_tokens": 536,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

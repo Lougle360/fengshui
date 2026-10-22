@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-15T06:28:56.525183+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7df3c74d9bd5abf5e45c25a773df77a68032dcb6a96b268a75bd7785cbd9a4ad",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001327-p000-792133f429",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“艮丙山 六尺巨斗一丈武曲丈二輔星丈三弼星丈四貪狼丈四巨星”，candidate 将最后一个“丈四巨星”译为“丈四用巨星”，但原文是“丈四貪狼丈四巨星”，即同一深度（丈四）对应两个星名（貪狼、巨星）。candidate 处理为“丈四用貪狼，丈四用巨星”，虽重复了“丈四”，但未明确这是同一深度对应两个星，且“巨星”与“巨斗”是否为同一概念存疑，但此处主要问题是漏译了“丈四貪狼”与“丈四巨星”的并列关系，释读不够准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001328-p000-5f25527c1d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“兵辛山”应为“巽辛山”，根据上下文及后文“巽辛山”条目，此处“兵”字很可能是“巽”的形近误写或OCR错误。candidate 未纠正，直接译为“兵辛山”，导致山向错误。",
+          "2. 原文“兑丁巳丑山六尺武曲六尺貪狼七尺巨斗丈一巨斗太三輔星丈四弼星”，candidate 将“太三”译为“太三”，并标注“原文「太三」語義不明”，这是正确的风险标注。但原文“太三”很可能是“丈三”的误写，因前后文均为“丈X”。candidate 未做此推测性说明，但根据规则，保留原文“太三”并标注不明是可以接受的。然而，由于第一点“兵辛山”的错误，整体仍需修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001329-p000-87c90a37be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "穿塘",
+          "生堵",
+          "开塋"
+        ]
+      },
+      {
+        "id": "book035-b001330-p000-9fab12a96b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“畫雲藏于涸燥者宜淺”和“葬于埋夷者宜深”，candidate 译为“畫雲藏于涸燥處者宜淺”和“葬于埋夷處者宜深”。其中“畫雲”可能为“藏于”的误写或特定术语，但 candidate 直接保留“畫雲”未做说明，而“埋夷”译为“埋夷處”是合理的补充。问题在于“畫雲”可能是一个需要标注的含混术语，但 candidate 未标注。不过，更大的问题是“經雲淺深得乘風水自成”，candidate 译为“經雲：淺深得當，乘風水自成”，将“得乘”拆解为“得當”和“乘”，虽大意可通，但改变了原文短语结构。“得乘”在风水中常为一个术语，意为“得当、契合”。此处释读虽通俗化，但改变了原词，应更贴近原文，如“浅深得乘，风水自成”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001331-p000-a12953f8d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001332-p000-5bf3d2f6ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001333-p000-bfb03d54c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001334-p000-aca87eb21d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001335-p000-dac33d32de",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“六尺七尺文”，candidate 译为“六尺七尺文”，未明确是“六尺文、七尺文”还是“六尺和七尺都是文”。根据前文“每卦一尺起一星”的规则，此处应为“六尺文、七尺文”连续两个尺度对应同一星“文曲”，但 candidate 的表述易产生歧义，应稍作说明或调整语序以更清晰。",
+          "原文“發得貪巨武輔弼值穴吉”，candidate 译为“發得貪巨武輔弼值穴吉”，保留了原文短语，但未将其融入流畅白话。根据规则，可以接受这种保留关键短语的处理，但“值穴吉”的表述仍显晦涩。不过，考虑到术语的保留，可判为接受。但结合上一点，整体建议修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001336-p000-218d6b8482",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“震庚亥未山四尺巨斗八尺武曲一丈補星丈一弼星丈二貪狼丈三巨斗”，candidate 将“一丈補星”译为“一丈補星”。根据前文，“補星”应为“輔星”的误写（形近或OCR错误）。candidate 未纠正，直接保留“補星”，可能导致读者困惑。应标注或推测为“輔星”。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3594,
+    "completion_tokens": 1313,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3594,
+      "completion_tokens": 1313,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

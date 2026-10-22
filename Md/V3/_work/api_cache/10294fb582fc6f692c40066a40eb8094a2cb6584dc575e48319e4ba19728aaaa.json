@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T13:05:06.145731+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "10294fb582fc6f692c40066a40eb8094a2cb6584dc575e48319e4ba19728aaaa",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001051-p000-115402d9a6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate对“乾濕水”的释义超出原文仅为标题的范畴，原文未明确该标题指乾、水、濕的相关情形，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文“乾濕水”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001052-p000-8f5c95e61c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001053-p000-f194577ea5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001054-p000-8ce3c335b8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文中“伽”“鄭頭”“玄作穴”“地行”等含混专名赋予了确定含义，不符合要求"
+        ],
+        "uncertainty": [
+          "原文中“伽”“鄭頭”“玄作穴”“地行”等词具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1729,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1729,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

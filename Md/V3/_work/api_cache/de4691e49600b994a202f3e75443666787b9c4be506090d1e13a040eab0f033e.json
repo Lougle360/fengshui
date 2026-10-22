@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-26T12:06:30.339139+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "de4691e49600b994a202f3e75443666787b9c4be506090d1e13a040eab0f033e",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000472-p000-1e6857283a",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文首句为“骨，多主宿疾”，未明确是“骨相显露/外露”，current与candidate均添加了无原文依据的修饰；“四畔山飞，父子东西”current误改为“父子离散”，candidate改为“父子分离、各奔东西”，偏离原文表述；“两眼如漆”candidate解释为“判断风水就能清晰明了”，无原文依据"
+        ],
+        "uncertainty": [
+          "原文首句“骨”的具体含义无权威注释，两版添加的“显露/外露”均缺乏原文支撑"
+        ]
+      },
+      {
+        "id": "book001-b000476-p000-5641e64c1f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000477-p000-3b085c0a13",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000478-p000-56fb86f69f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000479-p000-83696f5d07",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000480-p000-a6b60e3f25",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000483-p000-035e778459",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current将“砂石水清”解释为“砂体嶙峋、河流的水流过于清澈”，添加了原文无依据的“砂体嶙峋”表述，错误；“鬼劫离乡”candidate解释为“鬼劫、离乡这类不利的形局”，虽无明确错讹，但“离”为八卦之一，此处未明确原文“离乡”是否与八卦相关，表述相对稳妥"
+        ],
+        "uncertainty": [
+          "原文“鬼劫离乡”中“离”是否取八卦含义无法确定，两版解释均为合理推测"
+        ]
+      },
+      {
+        "id": "book001-b000487-p000-da387ef8ee",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将内容误解为神仙居住的实景描述，不符合风水典籍论地形格局的语境，错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000494-p000-e316eab442",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current开篇添加“文中提到”冗余表述，且对术语的解释未遵循原文体例，candidate忠实原文结构，仅补充符合风水逻辑的“主”字，未改动原文核心表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000504-p000-730b278fa5",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4005,
+    "completion_tokens": 861,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4005,
+      "completion_tokens": 861,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

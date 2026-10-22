@@ -1,0 +1,130 @@
+{
+  "created_at": "2026-10-15T16:17:37.800028+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e8f52a0ac0e963850889b147192e2d64714aa76b1b27072fea8b94c8eb207569",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002340-p000-9df2225c8a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘壬山丙然室’，candidate 将其与‘子山午年尅’等并列，释为‘壬山丙然室……等山向均受克制’，但原文‘然室’含义不明，candidate 未标注其不确定性，而是将其归入‘受克制’的笼统描述中，存在将不确定信息写为事实的风险。原文‘热防萬平圖’在 candidate 中处理正确。"
+        ],
+        "uncertainty": [
+          "大和山店 里山年月利尚",
+          "壬山丙然室",
+          "热防萬平圖"
+        ]
+      },
+      {
+        "id": "book033-b002341-p000-0ee7b49d24",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘卯山酉炙退’，candidate 释为‘卯山酉炙退’，保留了原文短语并标注不详，符合要求。但原文‘辰山戌 年地 官行’，candidate 释为‘辰山戌年地官行’，将原文空格连接，可能改变了原意（如‘年地’与‘官行’的关系）。candidate 总结为‘涉及地官行或年符的克制关系’，原文并未明确‘克制’，此属无依据的扩写。"
+        ],
+        "uncertainty": [
+          "去王八二多矢",
+          "卯山酉炙退",
+          "乙山辛風天",
+          "辰山戌 年地 官行",
+          "巽山乾年 符"
+        ]
+      },
+      {
+        "id": "book033-b002342-p000-65dad0f03b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对大量含混短语进行了风险标注，处理方式符合要求。对‘不大 利 N 山 向 空’的处理也正确。"
+        ],
+        "uncertainty": [
+          "不大 利 N 山 向 空",
+          "巽山乾征",
+          "十四 月八 二八 辰月九利 山 向",
+          "于出 羅浮 天天 退室",
+          "丑山未 修乙山辛生殺巳山亥 府年 地封 修 官",
+          "三丁山癸 陰 庚山甲向殺",
+          "我向乾山巽 陰府"
+        ]
+      },
+      {
+        "id": "book033-b002344-p000-41ed79735e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对原文中大量混乱的短语进行了逐一列举和风险标注，处理方式得当。对‘10111 u’的处理也正确。"
+        ],
+        "uncertainty": [
+          "尚 R 3 山 九土 月 利 山",
+          "丑 山山 良",
+          "亥 府村山 巳 山",
+          "壬 子山午炙退癸山 丁 天退 除陰年",
+          "寅山中三般甲山庚生殺",
+          "卯山西年 乙 山 辛坐殺",
+          "辰山戊 三殺",
+          "巽山乾 陰府 山亥年尅 山 壬 府傍",
+          "酉山卯 辛山乙 殺陰 10111 u"
+        ]
+      },
+      {
+        "id": "book033-b002345-p000-bfe57dba76",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "candidate 准确指出了原文结构严重混乱，并将长串文字作为整体标注为含义不详，符合对不可释读内容的处理要求。"
+        ],
+        "uncertainty": [
+          "壬 山 造七 十 已 辰陰山山 亥 十正 十乾 山 向葬浮山坤 山造空年傍卯",
+          "酉不利 酉府傍 陰 山 巽 乾子 年山 丙年陰 山尅府 戌忌天丁 府",
+          "丑 山未 年尅 退 寅山申年 天 未山丑 府尅 年尅 坤 殺封 山 艮 乙 山辛 申 府殺 山 寅年尅開 傍 辰山戌 段封年山 卯 三辛 年 殺尅 亥山巳"
+        ]
+      },
+      {
+        "id": "book033-b002347-p000-54f2bcf9cd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "candidate 对含混短语进行了风险标注，处理方式正确。"
+        ],
+        "uncertainty": [
+          "禾 府傍退羅土 山 丁 天",
+          "乙山辛坐段天空",
+          "辰山戌 未山丑 陰 申山寅 府天 官 庚山甲 殺",
+          "乾 山巽 年尅 亥山巳许尅傍"
+        ]
+      },
+      {
+        "id": "book033-b002349-p000-6ef6c401e3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "candidate 准确提取了年份和山向的对应关系，并对无法理解的短语进行了风险标注，符合要求。"
+        ],
+        "uncertainty": [
+          "寅山申心三四",
+          "庚山甲七肽七",
+          "戌山辰三取小利山尚",
+          "陰亥山一天宮符"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3263,
+    "completion_tokens": 1268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3263,
+      "completion_tokens": 1268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

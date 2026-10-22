@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-04T05:45:08.693731+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1f7406c6a067855291f4126f90ae5616bf213b8135f469dc1c15dadd78e72d6e",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000651-p000-f51b72fb4f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'行龍當眷卷三'在candidate中被直接保留，未进行任何释读或说明，属于漏译。candidate中'如果行龍當眷卷三，其氣急如走馬...'一句，将'行龍當眷卷三'作为条件句的一部分，赋予了它原文没有的语法功能，属于误译。",
+          "原文'未如黑不論順正倒騎之穴'，candidate处理为'文中提到“未如黑不論順正倒騎之穴”，具體所指不详'，这是正确的风险标注，但随后'但無論順、正、倒、騎哪種穴法'的表述，将'順正倒騎'直接解释为四种穴法，属于对opaque_terms（此处为'未如黑'）的确定性扩写，超出了允许范围。应保留原文短语，说明其含义不确定，而不应将其拆解为确定的分类。"
+        ],
+        "uncertainty": [
+          "'未如黑不論順正倒騎之穴'的具体含义。",
+          "'行龍當眷卷三'的具体含义，可能是文本错讹或特定术语。"
+        ]
+      },
+      {
+        "id": "book028-b000653-p000-9f0f5c3a25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000659-p000-5b99291c08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'必出清'，candidate直接保留为'必出清'，未进行任何释读或说明，属于漏译。",
+          "原文'去不田顧'，candidate直接保留为'去不田顧'，未进行任何释读或说明，属于漏译。",
+          "原文'雖陰 砂與水亦同'，candidate处理为'雖陰砂與水亦同'，连接了'陰'与'砂'，但原文有空格，可能指'陰砂'或'陰（地）的砂水'，candidate的合并处理可能改变了原意，属于不准确的断句和释读。",
+          "原文'途至穴前其人必返'，candidate处理为'途至穴前，其人必返'，断句和释读基本正确，但'途'字译为'途'（道路）略显生硬，可接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1435,
+    "completion_tokens": 572,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1435,
+      "completion_tokens": 572,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

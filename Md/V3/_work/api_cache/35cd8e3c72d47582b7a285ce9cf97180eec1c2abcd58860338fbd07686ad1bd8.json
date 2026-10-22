@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T11:01:27.663172+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "35cd8e3c72d47582b7a285ce9cf97180eec1c2abcd58860338fbd07686ad1bd8",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000109-p000-8944236bc0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存疑的‘遂肥’‘不青’‘援外国’直接释读为确定含义，属于无依据扩写；‘乾淨’未按要求保留原词或明确标注为存疑内容，且未体现原文存疑的情况"
+        ],
+        "uncertainty": [
+          "原文中‘遂肥’‘不青’‘援外国’‘乾淨’具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000110-p000-f748c69bc9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘明所以禍福為胡亂’语义含混，无法形成准确的现代中文释读"
+        ],
+        "uncertainty": [
+          "原文‘明所以禍福為胡亂’具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1020,
+    "completion_tokens": 222,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1020,
+      "completion_tokens": 222,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-09-24T23:16:31.255812+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "20fe891e030dc6c3e8777041a947b94aed3c1f41e55bd0c9edcf0efb45ecb0de",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001084-p000-45d0e0a11c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头的“寐氏聲氏註文”前有“氣者”二字被漏译",
+          "原文末尾的“字云”译文中补充了“真意”，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001085-p000-fcb8863bd9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头的“氣者”二字被漏译",
+          "译文中自行补充了“的方位”，属于无依据增译",
+          "原文“此僅途”释为“此僅是途徑”虽然补字合理，但未标注是补字，但核心问题是漏译和增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001086-p000-9e29fe0dc6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“輕鞋相求”语义模糊，原文未明确具体含义"
+        ]
+      },
+      {
+        "id": "book017-b001087-p000-ede68a3c11",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“氏”“運聖”“生明”“巾洋”等詞具體所指不詳"
+        ]
+      },
+      {
+        "id": "book017-b001089-p000-55e146740c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多处存在语序断裂、语义不明，译文自行补充了“纷纷扰扰出现了一种说法”“处理相关事务”“行事手段十分强硬”“门道诡异难测”“心怀不轨的人传播相关理论”等大量无依据内容，将不确定的语义表述为确定事实"
+        ],
+        "uncertainty": [
+          "原文表述存在多处语序和语义断裂，部分内容的逻辑关联难以完全确定"
+        ]
+      },
+      {
+        "id": "book017-b001090-p000-19b77a3b27",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序零散、语义模糊，译文自行补充了“水的走势符合相应要求”“受此福荫的后人”“按照顺序排布”“官至卿位”“四位经里记载的内容”等无依据内容，将不确定的语义表述为确定事实"
+        ],
+        "uncertainty": [
+          "原文术语较多且语序零散，部分内容的具体指向无法完全明确"
+        ]
+      },
+      {
+        "id": "book017-b001091-p000-c0f0cec2f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名“っ”及模糊表述，译文自行补充了“按照适宜的形态流动”“周围的山峦和水的走势”“通常人们认为”“市面上流传的地理学说”等无依据内容，将不确定的语义表述为确定事实",
+          "原文“曲養唯舍地理辦亡真诀”语义模糊，译文的释读无依据"
+        ],
+        "uncertainty": [
+          "原文中“曲養唯舍”“辦亡真诀”等表述语义模糊，难以准确释读",
+          "日文假名“っ”含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001092-p000-56b044f6f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001094-p000-0aded91504",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“抑龍逆子”语义模糊，原文未明确具体含义"
+        ]
+      },
+      {
+        "id": "book017-b001095-p000-acd087fa24",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代白话文，仅保留了原文繁体句式；未对已纳入allowed_glossary的术语「水」「水口」做符合要求的通俗释读，没有达成白话核义的目标"
+        ],
+        "uncertainty": [
+          "原文中“能だち之”為日文假名，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 719,
+    "completion_tokens": 117,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2177,
+      "completion_tokens": 947,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 719,
+      "completion_tokens": 117,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

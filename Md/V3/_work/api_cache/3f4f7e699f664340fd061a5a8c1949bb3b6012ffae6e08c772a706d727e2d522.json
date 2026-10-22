@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-26T13:34:56.645628+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3f4f7e699f664340fd061a5a8c1949bb3b6012ffae6e08c772a706d727e2d522",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000698-p000-3d498d40fa",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000715-p000-a2111b9176",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自增译原文无依据的“对应的地势”“地表”“乾位的区域”“邪祟”，违背原文表述，存在过度解读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000722-p000-9af0cb4622",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文明确的风水术语普遍标注“具体所指不详”，不符合风水专业常识，且过度添加无依据的存疑标注，破坏原文表述的完整性和专业性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000732-p000-714b72d95a",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文未完全截断，current忠实保留原文末尾的“吐穴隐”状态，candidate擅自补全为“吐出的穴位隐藏在其中”，属于无依据增改原文内容"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4846,
+    "completion_tokens": 451,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4846,
+      "completion_tokens": 451,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

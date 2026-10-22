@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T13:23:30.888455+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e85da4ee2621ec1dfe7f51870480b5fc9e1af42a0b915334bcfd1b3247c316f3",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000093-p000-f9e6a4c390",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "针对$x_1$、$x_2$、$x_3$、$x_4$这些量而言",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000095-p000-73006cf06e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "是被给出的",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000096-p000-97d3f8f2a6",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "可以写成8)",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000097-p000-247cc332ac",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秦九韶将他的大衍术记载在《数书九章》卷1「大衍类」的「蓍卦发微」条目中。虽省略详细内容，但秦九韶的解法奇妙之处在于，它一方面是高度的整数论定理（Chinese Remainder Theorem），另一方面又完全是独一无二的、其他地方找不到的易筮法的基本操作。也就是说，在上式中令$m_1$→1，$m_2$→1(2)，$m_3$→3，$m_4$→4，这就是秦九韶易筮法的要点，相当于进行以下操作：①将四十九根蓍草分成两手两份；②数取左手的蓍草，分别对应$\\sharp \\vec{\\mathfrak{y}} \\supset (m_1)$、$\\stackrel{,}{\\longrightarrow} \\gamma_{\\mathscr{O}} (m_2)$、$\\equiv \\vec{\\mathfrak{y}} \\supset (m_3)$、$\\sharp \\vec{\\mathfrak{y}} \\gamma_{\\mathscr{O}} (m_4)$，求出各自的奇数$(r_1, r_2, r_3, r_4)$后归为扐；③将以上四个扐数分别乘以各自对应的用数（从一揲开始依次为$x_1 m_2 m_3 m_4 = 12$，$x_2 m_1 m_3 m_4 = 24$，$x_3 m_1 m_2 m_4 = 4$，$x_4 m_1 m_2 m_3 = 9$），再将得到的数值相加；④从所得的和中减去衍母（$m_1 m_2 m_3 m_4 = 12$）的倍数；⑤用衍法（三）除以上述得到的数值，根据商和余数的有无确定一爻的四象，等等，与操作筮竹的过程完全相同。正如清代焦循所指出的，秦九韶的筮法与《易·繋辞传》的经文一一对应，作为经义的解释也十分精妙。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2206,
+    "completion_tokens": 773,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2206,
+      "completion_tokens": 773,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

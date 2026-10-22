@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-10-17T10:21:01.823701+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1c5df010928ab2ccb44c422f03b9a6ff6940d4d7a8f3384aba94f4cc042bfede",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003289-p000-4786c846dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'茶監'可能指'茶监'（官职或机构），candidate译为'茶税及监察'，将'监'拆解为'监察'，属于无依据扩写。",
+          "原文'兼丁稍穩'，candidate译为'主管血光之财与丁口，稍显安稳'，将'丁'明确为'丁口'，属于将含混术语（可能指丁位、丁火、丁口）确定为单一解释。",
+          "原文'主小子'，candidate译为'主生小子'，增加了'生'字，属于增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003290-p000-1e394b5662",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'妝巽多偏輕亦非甚良'，candidate译为'若巽方水多且偏轻，也不是很良吉'，将'妝'字忽略未译，且将'巽多偏輕'中的'多'和'輕'明确为'水多'和'偏轻'，属于无依据扩写。",
+          "原文'兼异多秀麗無忌主長男小子'，candidate译为'若兼带异砂且秀丽无冲克，则主生长男与小子'，将'异'明确为'异砂'，属于将含混术语（可能指异位、异卦）确定为单一解释，且增加了'生'字。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003291-p000-ad990c1748",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'孤活爲黃泉主絕嗣'，candidate译为'对应八煞，主管天亡与孤活；对应黄泉，主管绝嗣'，将'孤活'与'黄泉'的对应关系处理为并列，但原文'孤活爲黃泉'结构可能表示'孤活'是'黄泉'的一种或别称，candidate的处理改变了原文的语法关系。",
+          "原文'兼辛雙生度稍吉'，candidate译为'若兼带辛位，双生且度数稍吉'，将'雙生度'解释为'双生且度数'，属于推测性解释，未保留原文的含混性。",
+          "原文'主小子長男'，candidate译为'主生小子与长男'，增加了'生'字。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003292-p000-7e11c9d99b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'五氣生旺休日'，candidate译为'五气有生气、旺气、休气、死气、囚气五种状态'。原文'休日'可能为'休囚'或'休死'之误，但candidate直接补全为'休气、死气、囚气'，属于无依据扩写，且改变了原文的表述（'休日'）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003293-p000-fb34097ade",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003294-p000-791a0223db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003295-p000-edea87baff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'火氣生寅甲沐卯乙冠辰巽官巳丙旺午丁衰未坤庚申庚死辛酉墓戌乾絕亥壬胎子癸養丑艮'，candidate译为'火气在寅位为生气...在丑位为养气'。原文在'未坤'后接'庚申庚死'，结构混乱，candidate处理为'在申位为死气'，但原文'庚申庚'重复且有'庚'字，释读可能不完整或存在错误。",
+          "原文'甲八白乙九紫丙一白丁二黑戌三碧巳四緣庚五黃辛六白壬七赤癸八白'，candidate译为'甲对应八白...癸对应八白'。原文'巳四緣'应为'巳四绿'，candidate未修正'緣'字，但译为'四绿'，属于合理修正。但'庚五黃'后原文有'辛六白壬七赤癸八白'，candidate处理正确。然而，原文在'庚五黃'前有'庚申庚'的混乱，candidate的释读可能遗漏了部分信息或未能完全对应。",
+          "原文最后列举了一系列星名，candidate译为'文中还列举了...等名称'，处理得当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003296-p000-ea95d52aa0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'金幷之淺深'，candidate译为'金尺并用于测量深浅'。'金幷'可能指'金井'（墓穴）或'金饼'（罗盘部件），译为'金尺'缺乏依据。",
+          "原文'所書九星第一寸起貪周而復始'，candidate译为'书中记载九星第一寸起于贪狼，周而复始'。'所書'可能指'所书（的内容）'或'所（用）书（的尺）'，candidate译为'书中记载'，将'书'理解为书籍，可能不准确，此处'书'可能指书写或标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003297-p000-9784412fae",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘及金非淺深’语意晦涩，candidate已标注不确定，可以接受。"
+        ]
+      },
+      {
+        "id": "book035-b003298-p000-6abd1ef4aa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'兑丁巳丑山初一寸起武 四綠白星七赤'，candidate译为'兑丁巳丑山初一寸起武曲星，对应四绿星与七赤星'。原文在'武'后空格接'四綠白星七赤'，可能表示'武曲星'对应'四绿'和'七赤'两颗星，但candidate的处理将'白星'一词融入解释，未保留原文'白星'的表述，且'白星'可能是一个特定术语或格式。",
+          "类似地，'震庚亥未山初一寸起廉三碧白星三碧'，candidate译为'对应三碧星'，但原文有'白星三碧'，candidate省略了'白星'。",
+          "'離午寅戌山初一寸起文二黑白星九紫'，candidate译为'对应二黑星与九紫星'，省略了'白星'。",
+          "'坎癸申辰山初一寸起破五黃白星一白'，candidate译为'对应五黄星与一白星'，省略了'白星'。",
+          "'坤乙山初一寸起輔六白白星二黑'，candidate译为'对应六白星与二黑星'，省略了'白星'。",
+          "'乾甲山初一寸起綠 一白白星六白'，candidate译为'乾甲山初一寸起右弼星，对应一白星与六白星'。原文'起綠'应为'起弼'（右弼），candidate修正为'右弼星'正确，但同样省略了'白星'。candidate对'白星'的处理不统一，且可能丢失了原文的特定格式或含义。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3221,
+    "completion_tokens": 1830,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3221,
+      "completion_tokens": 1830,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

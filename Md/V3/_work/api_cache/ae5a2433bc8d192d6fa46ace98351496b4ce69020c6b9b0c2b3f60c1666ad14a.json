@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T15:35:46.443832+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ae5a2433bc8d192d6fa46ace98351496b4ce69020c6b9b0c2b3f60c1666ad14a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001184-p000-1b108e1d46",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "接下来要说的是“寒暑”，不必举拿破仑、希特勒远征俄罗斯或苏联的例子，战争中必须考虑寒暑因素是不言而喻的。孙子也明确认识到了它的重要性，用“寒暑”二字，说明春夏秋冬、日夜朝暮、饥荒丰年、风雨、潮汐等都不能忽视。但在春秋战国时期，各国用来记录寒暑的历法其实各不相同，混乱不堪，就连年、月的名称也互不相同。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001185-p000-39073b929e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "比如《诗经》豳风·七月中就有这样的内容。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001186-p000-e4246bb5c1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text：": "七月流火（秋季，心宿二会在黄昏时向西落下。心宿二是寒暑的征兆），九月授衣（初次降霜，要准备冬衣）。十一月寒风凛冽（十一月，天气寒冷），十二月寒气刺骨（十二月，天气严寒）。如果没有丝制的衣服和粗布的衣服，要怎么度过年末呢？正月开始修整农具（正月，开始修理农具），二月就开始耕作（二月，正式开始农耕）。我和我的妻子、孩子一起，带着便当前往南边的田地（我作为一家之主，亲自带领妇女前往田地送便当）。农官到来后十分欢喜。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中部分汉字的标注及断句存在错乱，已按可辨识内容翻译"
+        ]
+      },
+      {
+        "id": "book015-b001187-p000-1ac05de572",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "标注为“……某月”的，是采用以包含立春的月份（建寅之月）为正月的夏正（夏代的历法，与旧历的纪月法基本相同）；标注为“……某日”的，是采用以包含冬至的月份（建子之月）为正月的周正（周代的历法，大致相当于旧历减去两个月）。前者符合农事规律，后者则基于冬至的天象，两者正月的位置相差近两个月。另外《春秋》中，经与传都依据官定的周正，但偶尔也会将同一事件记在不同的月份。还可确认魏国不使用官定历法，而是正式采用夏正。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2202,
+    "completion_tokens": 655,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2202,
+      "completion_tokens": 655,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:01:05.708548+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4bfedede7f12f99c669c17d6d8b5a914193e3bb9dc5542f569e30baac130bce5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000484-p000-5b9b2a1663",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘向上看金此叚以各家五行論炁而為衣山出煞之法也’的释读存在偏差，‘衣山’应为风水术语，candidate未按要求保留术语或明确其含义，擅自释读为‘安葬时避煞的方法’，属于无依据扩写；‘向上看金’未明确所指，candidate释读为‘向上要看金的情况’过于模糊，未体现风水语境中‘金’的特定含义；‘火後胎之地’的‘後’应为‘后’，candidate释读为‘火的胎地’，未明确‘火后胎’的风水术语属性；‘双金’的释读虽提及‘另一种说法’，但未明确其为风水术语，存在模糊处理问题；‘災卯未’的‘災’应为‘亥’，属于OCR错误，candidate未标注该问题，擅自释读为‘亥卯未’，属于事实性错误。"
+        ],
+        "uncertainty": [
+          "原文中‘衣山’‘火后胎’‘双金’等术语的具体所指未明，candidate未按要求标注，擅自释读为确定含义，存在风险。"
+        ]
+      },
+      {
+        "id": "book010-b000485-p000-2f5f465f93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000486-p000-2504309211",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘災祿在寅’的‘災’应为‘亥’，属于OCR错误，candidate未标注该问题，擅自释读为‘禄在寅’，属于事实性错误；‘日干如四干三干一氣’的释读存在偏差，‘四干三干一气’应为四柱干支的特定组合，candidate释读为‘四干三干一气，就比助身强’，未明确其风水语境含义，属于模糊处理；‘受剌’应为‘受克’，属于OCR错误，candidate未标注该问题，擅自释读为‘受克’，属于事实性错误；‘造命書’应为《造命书》，candidate未标注书名，属于格式偏差。"
+        ],
+        "uncertainty": [
+          "原文中‘災’‘受剌’等OCR错误导致的术语含义不明，candidate未标注，擅自释读为确定含义，存在风险。"
+        ]
+      },
+      {
+        "id": "book010-b000487-p000-4513d6acf0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2624,
+    "completion_tokens": 692,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2624,
+      "completion_tokens": 692,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

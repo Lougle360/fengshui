@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T06:08:37.507209+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0342ebdd29d2647174d63ff9ace47fe631612f5ba1efd0872a8ea2f8b09702d2",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000036-p000-b675dc617f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文出现的‘入手’二字，候选将其直接修正为‘入首’不符合规则，不得直接改定原文，应保留‘入手’并以注释形式说明疑为‘入首’讹误，不能直接替换原文内容"
+        ],
+        "uncertainty": [
+          "原文“入手”是否为“入首”讹误存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2997,
+    "completion_tokens": 119,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2997,
+      "completion_tokens": 119,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

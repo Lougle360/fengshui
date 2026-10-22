@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T15:08:32.873687+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c0c3f702909a27ef2892f702ba4fe50a4ca5aaa85c9a33685c60569ae67d7fc8",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000952-p000-71cf3fc792",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "关于第1点，声母的确定最能体现祝泌学术的特色。祝泌本人在列举当时的韵图——方淑《韵心》、杨倓《韵谱》等书名时，还颇为自豪地说“相互参照来校定四十八音”（《皇极经世起数诀》声音韵谱序）。所谓“四十八音”，是基于发音部位和清浊的地音（声母）分类。其特点在于不考虑开合，比等韵三十六字母多12个音。以“一音”为例，分别是①古、甲、九、癸，②□、□、近、揆，③坤、巧、丘、弃，④□、□、乾、蚪这四个音，各自对应三十六字母的①见的清（k）、②南音群的浊（g'）、③溪的清（k）、④北音群的浊（g）（李光地《等韵弁疑》）。地的全音各自包含12个辅音，因此声纽的总数为48。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文中部分字符残缺，无法确认具体所指"
+        ]
+      },
+      {
+        "id": "book015-b000953-p000-003ea0e3b0",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "<table><tr><td>地之用音一百五十二举要</td><td>坤师卦主开音清</td><td>剥蒙卦主发音清</td><td>比坎卦主收音清</td><td>观涣卦主闭音清</td></tr><tr><td>唇音四</td></tr><tr><td>夫坤四 法剥 □比 飞观普师五 朴蒙 品坎 匹涣</td></tr><tr><td>旁升五 手&quot;</td></tr><tr><td>母师二 马蒙 美抹 米涣</td></tr><tr><td>舌音四 东坤六 丹剥 帝比</td></tr><tr><td>土师六 贪蒙 天坎</td></tr><tr><td>升六 回乃坤七 始剥 女比牙音四</td></tr></table>",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在多处字符残缺，无法确认具体所指"
+        ]
+      },
+      {
+        "id": "book015-b000954-p000-22bb70d653",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "（总数）不得不是4×12=48。另外“相互参照来校定四十八音”这句话，很好地体现了祝泌利用等韵学的成果来解释邵雍的四十八音。《皇极起数例》的地之用音一百五十二举要（图6-20）以及《皇极经世起数诀》的壹百五十二音八卦，都是祝泌校定四十八音的结果。以发音部位区分出唇音4种、舌音4种、牙音4种、齿音5种、喉音4种、半舌音与半齿音3种共24种音，还以清浊来区分这24种音母的“轻重”。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文中存在字符残缺，无法确认具体所指；图6-20的标注保留原格式"
+        ]
+      },
+      {
+        "id": "book015-b000955-p000-49e8d255cf",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "比如对应三十六字母的端（t）的六音东、丹、帝、（此处原文残缺），它们各自对应的易卦是坤、剥、比，祝泌以等韵学中舌音的清来说明其音值。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在字符残缺，无法确认具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2455,
+    "completion_tokens": 1005,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2455,
+      "completion_tokens": 1005,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

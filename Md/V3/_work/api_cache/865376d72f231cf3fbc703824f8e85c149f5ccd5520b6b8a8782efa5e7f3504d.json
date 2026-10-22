@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T18:35:03.548822+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "865376d72f231cf3fbc703824f8e85c149f5ccd5520b6b8a8782efa5e7f3504d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002028-p000-a14f28e986",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002029-p000-b8275553c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002031-p000-887870290d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "source中‘说丽上六’的‘丽’未译，candidate漏译该字，属于漏译问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 177,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1403,
+      "completion_tokens": 177,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

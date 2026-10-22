@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-25T12:42:37.259723+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "682f378d3cc5f5ad2f873e7daab85e3baddc28fe8c1abcc0eb0343e1fc4ad4f2",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000335-p000-151a5cbaec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "洪兑巳极具体所指不详",
+          "涕摩具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000338-p000-d3e9edadad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "相多之故具体含义不详",
+          "丁時爲春的说法存疑",
+          "橋木中“橋”的具体含义不详"
+        ]
+      },
+      {
+        "id": "book025-b000339-p000-21f7e42ce6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“离卦屬火故易而居朝西方金位于時爲秋”句，candidate错误将离卦方位释为南方，同时漏译“朝”字及金位对应西方的原文表述，属于断句错误导致的语义偏差",
+          "原文“一則一黑來合入自地”句被强行拆分，candidate将“入自地”剥离出合十数理表述，属于语法结构误解",
+          "原文“四緣來食百”应为“四绿来合六白”的形近讹误，candidate标注为“表述存疑”属于不必要的模糊处理，应明确为讹误；“八白來食二黑”是风水紫白合十的常用表述，不应标注为含义不详",
+          "原文“黃南之巽”的“黃”是“東”的形近讹误，即东南之巽，candidate仅标注讹误未说明合理推测，属于释读不足",
+          "原文“六自來合四綠”的“自”确为“白”的讹误，属于可确定的形近错误，不应归入uncertainty"
+        ],
+        "uncertainty": [
+          "繪子身份未明",
+          "大能生上以生金具体含义不详",
+          "橋水中“橋”具体含义不详",
+          "东流之具中“具”为讹误，所指不详",
+          "露應之中“露”为讹误，所指不详",
+          "當風相薄具体所指不详",
+          "與也而乾應之中“與”为讹误，所指不详",
+          "先後全揆具体含义不详",
+          "凡地朔之定主痛經傷易之後天合十四大局三为残句，含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2607,
+    "completion_tokens": 581,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2607,
+      "completion_tokens": 581,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T19:52:42.620295+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "61b6588e1593ae6b29282aba4fe52307c2e84dbf18a61a439930f60e1973b8bf",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003134-p000-0c89f3ae88",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《象》与《象传》混同，原文中《象》为《象传》的简称，候选句拆分表述造成冗余，且对‘中有庆’的释读逻辑混乱，原文‘中有庆’指九二爻居中得正而有福庆，候选句错误关联《象传》内容后又单独释读九二，存在语义混淆"
+        ],
+        "uncertainty": [
+          "原文‘中有庆’的具体所指为九二爻居中得正的福庆，释读需结合爻位属性"
+        ]
+      },
+      {
+        "id": "book016-b003136-p000-82e1375aad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 953,
+    "completion_tokens": 208,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 953,
+      "completion_tokens": 208,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

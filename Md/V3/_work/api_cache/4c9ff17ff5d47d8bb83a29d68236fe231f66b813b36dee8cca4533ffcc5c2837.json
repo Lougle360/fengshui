@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:38:29.712396+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4c9ff17ff5d47d8bb83a29d68236fe231f66b813b36dee8cca4533ffcc5c2837",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000341-p000-e1220c8fa8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000342-p000-e94f3c8b9e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“理者形炁之德以体言曰理以用言曰炁以質言曰形”释为“理，是形炁的德性；从本体来说叫理，从作用来说叫炁，从质体来说叫形”，存在对“德”的无依据扩写，原文未提及“德性”相关含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000343-p000-fb2425d7c5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在OCR损坏的“0”字符，释读时未标注该字符的存在，且“扣住龍尽水合脉尽”释为“扣住龙脉尽头、水合脉尽”，“扣住”的含义无依据，原文未明确该表述的具体所指"
+        ],
+        "uncertainty": [
+          "原文存在OCR损坏的“0”字符，具体含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000345-p000-0a2661a476",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“虾形眼、蝉翼、金奥股、明服腊”属于风水术语中的专名，未按要求保留原样，也未标注具体所指不详，擅自将其释为“都是损伤穴的情况”，属于无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2012,
+    "completion_tokens": 445,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2012,
+      "completion_tokens": 445,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

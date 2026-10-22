@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T00:45:58.627743+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8ad6d49feec7d4322412819f1d9f369787e799b2d51b59366e7b1557dbdaacd2",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001518-p000-de84dcc969",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“此不易生言能吾而不出卦为佳耳今甚新立是”存在OCR误差，整体语义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001521-p000-39ce182b76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“份”“將”“王帝”为疑似OCR错字，无法判定具体书名、作者、注者"
+        ]
+      },
+      {
+        "id": "book017-b001522-p000-27a62ef56b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“明萬質本間”为OCR错字，无法确定具体年代；“別伯溫”为疑似OCR错字，无法确定是否为刘伯温，注者身份无法确认"
+        ]
+      },
+      {
+        "id": "book017-b001526-p000-189bb378f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“分三人家所重”语义不明；“講地此子者兮人不以公平砂玉尺自弦”语义不明；“麵修”为疑似OCR错字，无法确定是否为罗盘；“公僧枯外史”中“公”的含义无法确定；“一個誰一個坡一個龍一個坡口”语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001528-p000-fa5ad44b14",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“高間爱傾家之速”语义不明；“直为风水微此秘所致之後果”语义无法准确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 487,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1944,
+      "completion_tokens": 487,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

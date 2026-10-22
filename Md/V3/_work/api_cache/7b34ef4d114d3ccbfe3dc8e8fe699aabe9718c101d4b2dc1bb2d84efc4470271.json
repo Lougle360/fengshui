@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-04T01:06:19.794071+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7b34ef4d114d3ccbfe3dc8e8fe699aabe9718c101d4b2dc1bb2d84efc4470271",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000322-p000-e58ea7e7dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘窄格勢成湊促’释为‘这种格局被称为‘窄格’，其形势紧凑’是合理的意译，但‘独脑两臂垂下似无容受’一句，candidate译为‘龙脉呈现‘独脑’之格，两条手臂垂下，似乎没有容纳的空间’，将‘容受’（容纳、承受）译为‘容纳的空间’，虽可接受，但‘夹穴水真泉流沟对面’一句，candidate译为‘夹在中间的‘穴’地，其‘水’脉如‘真泉’般流淌，沟渠相对’，将‘夹穴水’理解为‘夹在中间的‘穴’地，其‘水’脉’，存在误译风险。原文‘夹穴水’更可能指‘夹穴’和‘水’两样事物，或‘夹穴’处的‘水’。‘观穴小股即转如捧中脉为尚’一句，candidate译为‘观察‘穴’地，若‘小股’脉气转向中央，以捧住中脉为上佳’，将‘小股即转如捧’释为‘小股脉气转向中央，以捧住中脉’，是合理的推测性释读，但未标注原文的模糊性。整体上，对‘夹穴水’的处理存在语义风险，且对‘小股即转如捧’的推测性解释未作不确定性标注。"
+        ],
+        "uncertainty": [
+          "‘夹穴水真泉流沟对面’一句的具体所指（是‘夹穴’与‘水’，还是‘夹穴’处的‘水’）原文未明。‘小股即转如捧’的具体形态和动作原文描述较为含混。"
+        ]
+      },
+      {
+        "id": "book028-b000323-p000-98e1b4099e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘龙端衞重头举’一句，candidate译为‘龙脉端正且‘衞重’。龙头高举’，将‘衞重’作为一个整体术语保留并加引号，符合要求。但‘亦有张超’一句，candidate译为‘此外还有‘张超’’，保留了‘张超’这个不透明术语，但未说明其具体所指不详，应补充不确定性标注。‘穴落中脉为尚’译为‘穴地落在中脉之上为上佳’，准确。"
+        ],
+        "uncertainty": [
+          "‘张超’具体所指不详，原文未明。"
+        ]
+      },
+      {
+        "id": "book028-b000331-p000-ecf45f120a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘堂局案朝不九’一句，candidate译为‘堂局案朝‘不九’’，保留了‘不九’这个不透明术语，但未说明其具体所指不详，应补充不确定性标注。其余部分释读准确。"
+        ],
+        "uncertainty": [
+          "‘不九’具体所指不详，原文未明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 659,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1118,
+      "completion_tokens": 659,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:15:39.425502+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c99d4b890327e4c5ef2b39a3735c6d5426bba75ca88a326598a356c1a408dfa2",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000664-p000-774bf45c25",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "月厌对应戌、酉、申、未、午、巳、辰、卯、寅、丑、子、史。",
+        "confidence": "medium",
+        "uncertainty": [
+          "此处“史”字含义不详"
+        ]
+      },
+      {
+        "id": "book010-b000665-p000-019b0fc541",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "河魁经中说，自明易夹午、丑、申、卯、戌、巳、子、未、寅、酉、辰、亭亭天乙贵神，适宜背向，不适宜朝向卯、辰、巳、午、未、申、酉、戌、吏、子、丑、寅。",
+        "confidence": "medium",
+        "uncertainty": [
+          "此处“吏”字含义不详，“亭亭”二字含义不详"
+        ]
+      },
+      {
+        "id": "book010-b000666-p000-3c6805cafa",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "白奸天乙卯神，适宜朝向，不适宜背向，对应寅、巳、申、亥、寅、巳、申、亥、寅、巳、申。",
+        "confidence": "medium",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000667-p000-69cc587158",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "日、年，买年九月乙巳，丙辛年三月辛巳。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1584,
+    "completion_tokens": 474,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1584,
+      "completion_tokens": 474,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

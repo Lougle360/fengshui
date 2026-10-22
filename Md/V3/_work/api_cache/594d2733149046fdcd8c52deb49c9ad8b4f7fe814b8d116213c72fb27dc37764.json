@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T00:49:05.182138+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "594d2733149046fdcd8c52deb49c9ad8b4f7fe814b8d116213c72fb27dc37764",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000647-p000-bec2e2aeda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000648-p000-3ee5d1cc8e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“欹斜倾陷”仅翻译了“倾陷”，漏译“欹斜”；原文“牵拖破浪”翻译为“牵拖散漫”，“破浪”含义丢失，属于漏译且释义不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000649-p000-17de6a7de3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000650-p000-8cc807cfa5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000651-p000-f4ea05a476",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“金太肥则饱”翻译为“金形过肥则气满”，“饱”的原义被改为无依据的“气满”，属于增译且违背原文表述；locked_term“水”的释义使用不符合要求，不应直接嵌入文内替换术语，应保留术语“水”并在必要处标注释义，不得将释义直接替换原文术语"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000652-p000-86bbf1100a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000653-p000-318387e1e5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_term“水”的释义使用不符合要求，不应直接嵌入文内替换术语，应保留术语“水”并在必要处标注释义，不得将释义直接替换原文术语"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000654-p000-6346e5e402",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000655-p000-b4350d0ea4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_term“龙”的释义使用不符合要求，不应直接嵌入文内替换术语，应保留术语“龙”并在必要处标注释义，不得将释义直接替换原文术语"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000656-p000-baa766161f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“下五星聚讲”翻译为“下等的五星聚讲格局”，无依据将“下”释为“下等”，属于误译；原文“为世大详”翻译为“都是世间的重大祥瑞”，“详”应为“祥”的通假，虽含义接近但原文表述未明确是祥瑞，属于无依据确定释义；locked_term“龙”的释义使用不符合要求，不应直接嵌入文内替换术语，应保留术语“龙”并在必要处标注释义，不得将释义直接替换原文术语"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2667,
+    "completion_tokens": 899,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2667,
+      "completion_tokens": 899,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-26T03:54:06.090446+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "de1cf9313c9ab0e023ffd5b01047ffecfa2e2493f7aad4aff8cbb9d2a1e7ac53",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002093-p000-381bfc4206",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的“侯廟地理泰贊玄機全書卷九”存在断句错误，候选将“侯廟”单独残留，未做合理处理，同时将“地理泰赞玄机全书”误拆分到后文表述中，不符合原文语义衔接。"
+        ],
+        "uncertainty": [
+          "“侯廟”在原文语境中具体语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book029-b002098-p000-8a6476c859",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“轉皮枕貞鼠肉”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1601,
+    "completion_tokens": 192,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1601,
+      "completion_tokens": 192,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

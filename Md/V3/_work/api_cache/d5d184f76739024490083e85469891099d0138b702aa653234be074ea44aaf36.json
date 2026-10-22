@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-17T10:42:59.634931+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d5d184f76739024490083e85469891099d0138b702aa653234be074ea44aaf36",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003350-p000-c176982941",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'坐人卦武曲向地卦贪狼'，candidate译为'坐山对应人卦的武曲星，向首对应地卦的贪狼星'，将'人卦'、'地卦'作为确定的风水术语或星名进行解释，超出了allowed_glossary的范围，属于无依据扩写。应保留原文'人卦'、'地卦'并标注其具体所指不详。",
+          "原文'兑兼庚辛之中皆吉气故吉'，candidate译为'兑山兼庚或兼辛的中间线度，都是吉气，所以吉利'。'中间线度'是增译，原文无此概念。应译为'兑山兼庚或兼辛的中间，都是吉气，所以吉利'。"
+        ],
+        "uncertainty": [
+          "人卦",
+          "地卦"
+        ]
+      },
+      {
+        "id": "book035-b003351-p000-ce5a11d7d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "坐虚穴下",
+          "潢池"
+        ]
+      },
+      {
+        "id": "book035-b003353-p000-3d53e966be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'天定貪狼蓋龍巨門蓋向天市照龍天乙照向'，candidate译为'天定贪狼星盖龙，巨门星盖向，天市星照龙，天乙星照向'。'天定'被处理为星名'天定贪狼星'，但'天定'可能是一个修饰词或特定术语，不应与'贪狼'合并为一个星名。应译为'天定贪狼盖龙，巨门盖向，天市照龙，天乙照向'，并标注'天定'含义不明。",
+          "原文'干卦借配陰陽相見爲吉也'，candidate译为'乾卦借配阴阳相见为吉'。'借配'译为'借配'，但未明确其含义，应标注其具体所指不详。"
+        ],
+        "uncertainty": [
+          "天定",
+          "借配"
+        ]
+      },
+      {
+        "id": "book035-b003354-p000-73f9d4b271",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003355-p000-a86a2eed44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "注者"
+        ]
+      },
+      {
+        "id": "book035-b003356-p000-3252c5b960",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'取巽氣關斧貫棺右耳'，candidate译为'取巽气“关斧”贯穿棺木，从右耳进入'。将'关斧'作为引用的术语处理是正确的。但后文'取巽開斧橫貫右腰'，candidate译为'取巽“开斧”横向贯穿右腰'，将'开斧'也作为引用的术语处理。然而，'开斧'可能是'关斧'的笔误或另一种表述，candidate将其视为两个不同的术语并分别标注，可能不妥。应统一处理为'关斧/开斧'并标注其具体所指不详。",
+          "原文'蓋行龍入丙發福非常陰陽相見故也'，candidate译为'文中提到“盖行龙入丙发福非常，是因为阴阳相见”'，并指出与前文'惜非阴阳相见'矛盾。这种处理方式是将原文的陈述直接引用并指出矛盾，属于合理的风险标注，并非增译。但为了更清晰，可以调整为'但原文又说“盖行龙入丙发福非常，是因为阴阳相见”，与前文“惜非阴阳相见”似有矛盾，具体所指不详。'"
+        ],
+        "uncertainty": [
+          "关斧/开斧",
+          "纯卦无配",
+          "阴阳相见矛盾"
+        ]
+      },
+      {
+        "id": "book035-b003357-p000-f4d6daa07a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "忌林术官"
+        ]
+      },
+      {
+        "id": "book035-b003358-p000-ffea45efaa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'無所加饒'，candidate译为'没有额外增加“加饶”'。将'加饒'作为引用的术语处理是正确的，但'额外增加'是增译，原文'無所加饒'就是'没有加饶'。应译为'没有“加饶”'。",
+          "原文'向忌克龍以此不用'，candidate译为'向忌克龙，因此不用'。'克龙'译为'克龙'，但未明确其含义，应标注其具体所指不详。"
+        ],
+        "uncertainty": [
+          "加饶",
+          "克龙"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3135,
+    "completion_tokens": 1134,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3135,
+      "completion_tokens": 1134,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

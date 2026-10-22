@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-17T18:12:17.297846+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b7b269cf22307e6841e9ec42e26b532fafe236142c12065a1b671ca0735c81ce",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004285-p000-1681816ad0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文内容严重错乱、重复、缺漏，存在大量无法识别的字符组合（如'微必必術逃官 曜 百意取其地專 門 諸本耳纱江本 家身故遂西非'），导致无法建立基本的语义逻辑。",
+          "candidate 试图将破碎的原文串联成一个连贯的叙事，但其中绝大多数解释（如'微必必术'、'逃官曜'、'杨微迪'、'颇曜珥林'、'子之观公'等）在原文中并无明确、连贯的对应依据，属于无依据的扩写和猜测。",
+          "candidate 将原文中可能为'杨筠松'、'救贫'、'黄巢'等零散信息，结合了'传授'、'避乱'、'流传'、'论辩'等情节，构成了一个完整的故事，这超出了对破碎原文进行保守释读的边界。"
+        ],
+        "uncertainty": [
+          "原文文本损坏严重，无法进行可靠的语义提取。"
+        ]
+      },
+      {
+        "id": "book035-b004287-p000-53078dbbc0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量文字错乱、倒置、重复及缺漏（如'曜官法藏家速曜右 星曜度殺鼻無或離'、'總中飛沒門所為鄉'），导致句法结构完全破碎，无法辨识完整的句子或段落。",
+          "candidate 仅将原文字符（包括大量重复和断裂词组）简单串联，未形成任何有意义的现代汉语句子，不符合'普通读者能读懂的白话释读'这一目标。",
+          "虽然保留了'水'、'向'等锁定术语，但上下文已完全丢失，无法进行任何有效的语义解释。"
+        ],
+        "uncertainty": [
+          "原文文本损坏严重，无法进行可靠的语义提取。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2005,
+    "completion_tokens": 496,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2005,
+      "completion_tokens": 496,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

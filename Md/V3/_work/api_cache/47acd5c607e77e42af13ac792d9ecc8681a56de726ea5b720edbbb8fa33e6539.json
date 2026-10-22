@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-26T12:27:13.528001+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "47acd5c607e77e42af13ac792d9ecc8681a56de726ea5b720edbbb8fa33e6539",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000735-p000-15cae06d8d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "开篇对“砂”的定义加入了原文没有的“穴场周围起护卫、朝应作用的山丘或地形”内容，原文仅表述为“水之所会也”，属于无原文依据的增释",
+          "多处擅自补充“穴场”“主家中出”等原文未提及的限定性表述，违背忠实原文的原则",
+          "将原文“捍门插汉”译为“直插天际”不准确，“汉”指银河，current版“直插银河”更贴合原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000737-p000-e95751f9bd",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate对“粘”“撞”“闪”“挨”等点穴技法补充“均为风水点穴的专用操作技法，具体操作方式不详”的说明，虽符合术语解释要求，但部分内容无原文直接依据",
+          "candidate新增“先盛后荣指先有旺盛的来龙，后有荣显的穴场”的解释，原文未明确对应表述，属于自行延伸",
+          "current版对存疑内容标注“具体所指不详”的处理更保守稳妥，candidate虽更详细但存在增释风险"
+        ],
+        "uncertainty": [
+          "原文中“坐之水”“通泽”等术语的准确含义无明确校勘依据，两版的存疑处理均有合理性",
+          "candidate补充的技法属性说明是否属于允许的通俗解释范畴，缺乏明确判定标准"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5153,
+    "completion_tokens": 482,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5153,
+      "completion_tokens": 482,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

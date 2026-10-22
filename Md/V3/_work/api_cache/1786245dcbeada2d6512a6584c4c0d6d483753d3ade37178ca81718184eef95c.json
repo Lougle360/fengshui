@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T17:34:18.626146+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1786245dcbeada2d6512a6584c4c0d6d483753d3ade37178ca81718184eef95c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001081-p000-fd50a73e93",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "《象传》说：天地不相交合，象征‘否闭’；君子因此以节俭为德、避开危难，不可追求荣华、谋取禄位。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001082-p000-c20ebec2db",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：天地不相交合，这就是‘否’的象征；君子应当因此以节俭为德行，避开危难，不可追求荣华、谋取禄位。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001083-p000-7b10daa8ef",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "浅释：①天地不交，‘否’：这是解释《否》卦上乾为天、下坤为地的卦象。《集解》引用宋衷的话说：‘天地不相交合，就好比君臣不交接；天气上升而不下降，地气沉下又不上升，二气被阻隔，所以称为‘否’。’",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001084-p000-b926bb9493",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②俭德辟难，不可荣以禄：俭德，就是说以节俭为德行；辟，通‘避’。这是通过说明君子在‘否’的处境中如何立身，来阐发本卦的象征意义。《集解》引用孔颖达的话说：‘说君子在这‘否’的处境中，以节俭为德行，避开危难，不可使自身荣华而居禄位。如果是针对诸侯公卿而言，就是说要避开小人造成的危难，不可再接受官爵；如果是针对君王而言，就是说要以节俭为德行，避开阴阳厄运造成的危难，不可自我尊崇荣贵而骄奢逸乐。’",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1785,
+    "completion_tokens": 593,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1785,
+      "completion_tokens": 593,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-24T23:34:23.154806+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a6f27c6b32bedc3266a3f110caa49f0761aa1de033f76a08f22708c28598d0ea",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001239-p000-311ecc1b6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“得辅是成王去□者”存在识别缺漏字符，含义无法确定",
+          "“世移三吉”“西成五”无可靠释读依据，具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001243-p000-19b3e9e223",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“辰成王未配乾坤民骂”无可靠释读依据，含义不明",
+          "“Lも”为未识别日文假名，含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001244-p000-8acbe55c00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“字秘”无可靠释读依据，含义不明",
+          "“合精龍以会混”无可靠释读依据，含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001245-p000-702a911906",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“貪狼能”的“能”未准确释读，候选直接写作“贪狼能”未说明该字存疑"
+        ],
+        "uncertainty": [
+          "原文“甲庚壬而”表述不完整，无法确定是否存在脱漏",
+          "仅列出申庚、寅壬两个宫位，与“四宫”的说法矛盾，原因不明",
+          "原文“貪狼能”的“能”字存疑，无可靠释读依据"
+        ]
+      },
+      {
+        "id": "book017-b001246-p000-7c96f3e4ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“一M”“可紅”为无法识别的字符，全句无可靠释读依据，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1704,
+    "completion_tokens": 461,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1704,
+      "completion_tokens": 461,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

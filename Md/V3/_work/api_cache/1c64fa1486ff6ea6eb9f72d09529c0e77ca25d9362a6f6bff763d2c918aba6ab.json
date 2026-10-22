@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T18:33:39.136112+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1c64fa1486ff6ea6eb9f72d09529c0e77ca25d9362a6f6bff763d2c918aba6ab",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001991-p000-1ea6333a70",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：大泽淹没树木，象征“大为过甚”；君子因此(处身“大过”之时)能够独自屹立，毫不畏惧；毅然遁世，无所苦闷。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001992-p000-a12ca1fd7a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：大泽淹没树木，这就是《大过》卦的卦象；君子因此应当独自立身而不畏惧，远离世俗而不苦闷。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001993-p000-4b1f31d526",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①泽灭木，大过：这是解释《大过》卦上兑为泽、下巽为木的卦象。《程传》说：“泽本是滋润养育树木的，如今竟淹没了树木，这就过甚了，所以称为‘大过’。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001994-p000-8c8bba4212",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②独立不惧，遁世无闷：这是说君子观察卦象，领悟到应当以超出常人的行为应对“大过”的时势，因此能够独自立身而不畏惧，远离世俗而不苦闷。《王注》说：“这就是之所以称为‘大过’的原因，不是平常人所能做到的。”《程传》说：“君子观察《大过》的卦象，来确立自己超出常人的行为。君子之所以超出常人，是因为他能独自立身而不畏惧，远离世俗而不苦闷。天下人都非议他，他也不顾及，这就是独自立身而不畏惧；整个世间都不了解他，他也不悔恨，这就是远离世俗而不苦闷。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1743,
+    "completion_tokens": 605,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1743,
+      "completion_tokens": 605,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

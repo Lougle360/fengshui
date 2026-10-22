@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:35:28.822453+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4055cd9693e02b16adce9db741f64378ee3e660b3550f8409519f5e74c45393c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002037-p000-9d8d4de026",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002038-p000-c091a2a7b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "末尾的“公X”为残缺文字，无法确认具体内容"
+        ]
+      },
+      {
+        "id": "book016-b002039-p000-b9c3f3e838",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002040-p000-1e6cb36b9e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾残缺，内容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1784,
+    "completion_tokens": 218,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1784,
+      "completion_tokens": 218,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

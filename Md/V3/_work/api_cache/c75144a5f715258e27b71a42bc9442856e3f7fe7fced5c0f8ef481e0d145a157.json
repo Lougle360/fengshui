@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-16T09:28:34.317432+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c75144a5f715258e27b71a42bc9442856e3f7fe7fced5c0f8ef481e0d145a157",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001771-p000-600d30aee7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001772-p000-24d99d7fa4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“應堵前”被译为“应验于前方的堵口”，但“堵”字可能为“堵”或“堵”的异体/误写，含义不明，此解释缺乏依据。原文“爲官必定到廉前”被译为“必定无法做到官至廉前”，将“到”译为“无法做到”，意思完全相反。原文“下出 人 形 臺”被译为“此处下出的人形台地”，但“下出”可能指“下葬出”或“向下延伸出”，译文将其与上文“在此处下葬”关联，有增译之嫌。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001773-p000-cd3a6f1064",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001774-p000-4acab0a2cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001775-p000-407416de23",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“腰縣全印”被译为“腰间悬挂全印”，但“縣”通“悬”，此处理解正确，但“全印”为风水术语，译文未加引号或说明，直接作为普通词语处理，可能误导读者。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001776-p000-68178aff21",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文为一系列“崩洪”脉的列举，但文字严重残缺错乱（如“美 之中”“失  石節目”“女 交角”）。候选句基本照搬原文，未进行有效释读，不符合“普通读者能读懂的白话释读”目标。对于此类损坏严重的文本，应标注为无法释读。"
+        ],
+        "uncertainty": [
+          "原文多处文字缺损，无法进行连贯、准确的释读。"
+        ]
+      },
+      {
+        "id": "book035-b001777-p000-47b4f9f28e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“皆劍斬斫世昌榮”被译为“皆能斩斫，使世昌荣”，将“劍斬斫”这一具体动作泛化为“斩斫”，丢失了“剑”的意象，且“斩斫”在此语境下的风水含义不明，译文未作说明。原文“凡掌形”为孤立短句，候选句直接保留，未与前文建立逻辑联系，读者无法理解。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001778-p000-ac924a4071",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“動君下取陽朝脈”被译为“君下取阳朝脉”，漏译了“动”字。“动”在此处可能为“劝”或“促使”之意，漏译影响句意。原文“無求所”含义不明，候选句直接保留，未作任何说明，读者无法理解。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001779-p000-22b2b134cd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“見來不見流神去”被断句并译为“见来不见流，神去雌雄迎接”，但“流神”在风水中常指水流或水神，此断句可能割裂了术语。译文“神去雌雄迎接”表述不清，含义不明。原文“兒孫高折”不完整，可能缺字，候选句直接保留，未作说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001780-p000-09f34201a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2379,
+    "completion_tokens": 909,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2379,
+      "completion_tokens": 909,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

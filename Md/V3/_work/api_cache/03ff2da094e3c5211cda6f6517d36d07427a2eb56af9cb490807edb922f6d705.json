@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T20:33:10.179640+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "03ff2da094e3c5211cda6f6517d36d07427a2eb56af9cb490807edb922f6d705",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003488-p000-1a0b973500",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 《象》曰：山上有木，渐；君子以居贤德善俗——《象传》的这段内容讲解渐卦的卦义",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003489-p000-14a5622f34",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：山上有树木（渐渐高大），象征“渐进”；君子因此逐渐积累贤德、改善风俗。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003490-p000-82cb0b7a21",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①：“山上有木，渐”，是解释《渐》卦的卦象，该卦下卦为艮（八卦之一，代表山），上卦为巽（八卦之一，代表木）。《折中》引用杨氏的说法：“树木从地里生长，是按照时节节节上升；树木长在山上，它的生长是循序渐进的。”按语指出，杨氏的说法是为了区分《渐》和《升》两卦的象义，《折中》里说：“从地里生长的，是刚萌生的树木；长在山上的，是已经高大的树木。凡是树木刚萌生的时候，枝条生长得很快，早晚的形态都不一样；等到已经长得高大之后，从两手能握的粗细长到合抱那么粗，从只有一臂长到高耸入云，必须要经过很多年的积累：这就是《升》卦和《渐》卦的义理区别所在。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003491-p000-b1c08171d5",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释②：“居贤德善俗”里的“居”是积累的意思；“善”作动词使用，《释文》记载：“善俗，王肃的版本写作‘善风俗’。”这句话是说明君子观察《渐》卦的卦象，领悟到积累贤德、改善风俗也需要循序渐进的道理。《折中》引用冯当可的说法：“居，就是积累的意思。德行要靠逐渐积累才能养成，风俗要靠逐渐引导才能改善。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 718,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1643,
+      "completion_tokens": 718,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

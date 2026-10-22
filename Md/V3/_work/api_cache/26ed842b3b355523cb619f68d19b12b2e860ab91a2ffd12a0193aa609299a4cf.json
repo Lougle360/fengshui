@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T20:30:43.776392+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "26ed842b3b355523cb619f68d19b12b2e860ab91a2ffd12a0193aa609299a4cf",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003455-p000-2074b9368e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的《象》与《象传》混淆，原文中《象》的内容是“艮其限，危薰心也”，候选句错误拆分了原文的表述，且错误将“危薰心”的解释归为《象传》的内容，存在语义混淆问题"
+        ],
+        "uncertainty": [
+          "原文中“艮其限”的“艮”按allowed_glossary为八卦之一，此处释读是否准确需结合上下文，但候选句未按术语规范处理，存在术语使用不严谨问题"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 835,
+    "completion_tokens": 162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 835,
+      "completion_tokens": 162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

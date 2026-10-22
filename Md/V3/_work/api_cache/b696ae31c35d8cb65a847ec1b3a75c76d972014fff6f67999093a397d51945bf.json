@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:21:27.477188+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b696ae31c35d8cb65a847ec1b3a75c76d972014fff6f67999093a397d51945bf",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000051-p000-8b0572c8fe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「默師」译为「沉默的师父」属于无依据扩写，原文未提及师父的状态；将「如星」译为「就像星象所显示的那样」属于无依据增译，原文未明确指代星象"
+        ],
+        "uncertainty": [
+          "原文「巳上之法」具体所指不详，释读未明确标注"
+        ]
+      },
+      {
+        "id": "book013-b000052-p000-8221721f2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000053-p000-35cf98d615",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「天樓」「大機」译为「天楼」「大机」属于无依据的现代汉字转换，原文未明确指代具体事物；将「天下任橫行」译为「天下之人都能随意行走」属于无依据扩写，原文指代掌握挨星之法后可在风水领域通行"
+        ],
+        "uncertainty": [
+          "原文「小游年」具体所指不详，释读未明确标注；原文「八堂」具体所指不详，释读未明确标注；原文「罡稱」具体所指不详，释读未明确标注"
+        ]
+      },
+      {
+        "id": "book013-b000054-p000-a74a2842d6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「玉陽水也癸陰水也」译为「玉阳水是癸，阴水是壬」属于无依据的干支转换，原文未明确指代癸、壬为玉阳水、阴水；将「陽于」「陰于」译为「阳宫」「阴宫」属于无依据的术语转换，原文未明确指代宫位"
+        ],
+        "uncertainty": [
+          "原文「星辰輪支辰次」具体所指不详，释读未明确标注；原文「生旺息宮」具体所指不详，释读未明确标注；原文「倒右之水」「倒左之水」具体所指不详，释读未明确标注；原文「天玉經心印」卷次标注位置与原文不符，原文「天玉經心印 卷之二 三」的「三」未明确指代，释读误将其归为卷之二的内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2100,
+    "completion_tokens": 607,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2100,
+      "completion_tokens": 607,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

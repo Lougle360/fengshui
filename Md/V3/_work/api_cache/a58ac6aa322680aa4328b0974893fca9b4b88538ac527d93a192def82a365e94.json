@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-25T03:52:01.774133+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a58ac6aa322680aa4328b0974893fca9b4b88538ac527d93a192def82a365e94",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001251-p000-513e80c057",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001252-p000-7295bbb834",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001253-p000-d2f16c12fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001254-p000-08687c29bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001255-p000-e9c9e5dbfd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001256-p000-72e5a27d2b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001257-p000-e118103f38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001258-p000-182a258a32",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾为“又不”，与下一条source“以此拘”连读为“又不以此拘”，候选将“又不能拘泥于此”补全到本条，拆分了原文完整语句，且提前补出了下条内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001259-p000-f6b50ab8af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "本条source为“以此拘”，与上条末尾“又不”连读才是完整语义“又不以此拘”，候选单独释为“不能拘泥于此”，遗漏了前面的“又”所表的递进逻辑，且和上条释读内容重复"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001260-p000-508e5b66ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3840,
+    "completion_tokens": 616,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3840,
+      "completion_tokens": 616,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

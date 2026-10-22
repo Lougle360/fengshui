@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T09:42:33.060000+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bd5a8a4b9e1817e84c2b542904c4cfc35b4cb04056a061c31257e3ecf0f14923",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000374-p000-84ce944195",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000375-p000-0024e349f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘当出本身水’的后续内容未完整呈现，释读中对‘水’的释义符合给定术语规范"
+        ]
+      },
+      {
+        "id": "book010-b000376-p000-5e0d851883",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000377-p000-da541d4480",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中存在多处缺字（如‘以0势’‘以0情’），释读时直接将‘0’替换为‘依’，属于无依据补全内容，不符合要求"
+        ],
+        "uncertainty": [
+          "原文中‘0’为缺字标记，具体所指不详，释读中未明确标注该不确定性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1379,
+    "completion_tokens": 293,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1379,
+      "completion_tokens": 293,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-04T11:40:50.057256+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2ed536532b5f9d94ff2ad877ba59d2b0d7bec65efc903da10a4a7c8a360aa982",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000780-p000-6b281aa2e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘制式’解释为‘必须按照‘制式’进行化解’，这是无依据的增译。原文‘制式’含义不明，应保留原文或标注存疑，不能将其解释为一种化解方法。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000785-p000-73eb77d474",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘穴叠疊事阜’释读为‘穴场叠叠事阜’，并解释为‘穴场叠叠中阜’，这是对原文‘事阜’的自行修正和增译，属于误译。应保留原文或标注存疑。",
+          "candidate 将‘壠之浮氣升騰于上支之況氣漏泄于下矣’中的‘況氣’译为‘况气’，未作解释，属于漏译或未处理不明确术语。",
+          "candidate 将‘番倒棺禽’译为‘番倒棺禽’，未作解释，属于漏译或未处理不明确术语。",
+          "candidate 将‘爲禍敢孱大’译为‘造成‘禍敢孱大’的祸患’，未作解释，属于漏译或未处理不明确术语。",
+          "candidate 将‘TKO)、CCu、A’等乱码直接忽略，未作任何说明，属于漏译。",
+          "candidate 将‘筆記復引經媽證之言’中的‘媽’字译为‘再次’，属于自行修正，应保留原文或标注存疑。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000787-p000-e155ec9292",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘番倒棺禽’译为‘番倒棺禽’，未作解释，属于漏译或未处理不明确术语。",
+          "candidate 将‘爲禍敢孱大’译为‘造成‘禍敢孱大’的祸患’，未作解释，属于漏译或未处理不明确术语。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2417,
+    "completion_tokens": 513,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2417,
+      "completion_tokens": 513,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

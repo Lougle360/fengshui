@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-15T07:50:41.511839+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "983a3f046b05b11259973e6c2cd201fc971830cc49729b24f79a9f88996b9a23",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002120-p000-972a53ab7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002121-p000-7303c6ebee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘分金鯨孩’被释读为‘分金宜用鲸孩（具体所指不详）’。‘鲸孩’是opaque_term，应原样引用，不能作为‘分金’的确定内容。候选句将不确定的术语解释为‘分金宜用鲸孩’，属于将推测写成事实。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002122-p000-d0183fe7ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "催官诗内容在原文中中断，后续诗句缺失"
+        ]
+      },
+      {
+        "id": "book033-b002123-p000-0c8c3b7118",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘3 艮迢追穴...’与上一段id为book033-b002122-p000的‘第三宜坐甲向庚穴...’内容不连贯，且编号重复。候选句直接释读为‘第三种情况’，但未处理原文编号‘3’与上文‘第三’的冲突，也未说明此段与上段的关系，可能导致读者混淆。应指出原文此处结构或内容可能存在问题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002124-p000-477791520c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头‘宜丁酉丁卯第四宜坐宜向辛穴...’存在明显断句或内容衔接问题。候选句处理为‘适宜丁酉、丁卯。第四种情况：适宜坐乙向辛...’，将‘宜丁酉丁卯’独立为前一句，但未说明其与后续‘第四’的关系，也未指出原文此处可能存在的脱漏或错简。这属于对原文有问题的结构进行了未经说明的调整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002125-p000-b47827387c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "厨星：原文术语，具体所指不详；阀阁：原文术语，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002126-p000-ef0474044d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002127-p000-68aadfe48e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘毋怪疾多生嗔 分金中 兼申’与前文催官诗内容相连。候选句释读为‘不要怪疾病多生嗔怒。分金中宜兼申。’，将‘毋怪疾多生嗔’处理为独立白话句，但未说明其与前文诗句‘但恐天折亏天年’的关联，且‘嗔’字释义可能不准确（原文可能指嗔怒或嗔怪，但更可能是对‘天折亏天年’的承接）。同时，‘分金中 兼申’的释读‘分金中宜兼申’增加了‘宜’字，属于增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002128-p000-0843c6b267",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002129-p000-425a4f7539",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘宜族右’应为‘宜挨右’的OCR或原文错误。候选句直接释读为‘宜向右侧挨近’，未指出原文用字异常。",
+          "原文‘分金巳’被释读为‘分金宜用巳’。增加了‘宜用’，属于增译。应更保守地处理为‘分金（涉及）巳’或指出原文仅提及‘巳’。"
+        ],
+        "uncertainty": [
+          "机峰：原文术语，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3357,
+    "completion_tokens": 899,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3357,
+      "completion_tokens": 899,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

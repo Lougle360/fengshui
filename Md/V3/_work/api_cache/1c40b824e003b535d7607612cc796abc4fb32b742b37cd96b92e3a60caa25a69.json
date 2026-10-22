@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T02:28:25.273374+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1c40b824e003b535d7607612cc796abc4fb32b742b37cd96b92e3a60caa25a69",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000996-p000-00f70630d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001002-p000-bc09dabc80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“左宫无虎要水绕右畔”不符合逻辑，结合上下文“无龙要水绕左宫，无虎要水绕右畔”的常见堪舆表述，候选误将“左宫”所属的缺龙情况错置为缺虎，语义与原意相悖"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001004-p000-dcdcf1bbcc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2099,
+    "completion_tokens": 209,
+    "cached_prompt_tokens": 1848,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2099,
+      "completion_tokens": 201,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2099,
+      "completion_tokens": 209,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    }
+  ]
+}

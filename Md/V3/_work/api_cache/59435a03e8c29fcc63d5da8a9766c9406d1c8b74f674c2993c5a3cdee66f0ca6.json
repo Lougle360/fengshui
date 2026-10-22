@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-25T00:24:50.913406+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "59435a03e8c29fcc63d5da8a9766c9406d1c8b74f674c2993c5a3cdee66f0ca6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004798-p000-e51b3671e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004799-p000-fccc50b50b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确标注“玉”阮刻作“王”，据《本义》引改，candidate未说明该校改依据，遗漏校勘信息；原文提及“（参见前译注）”“《本草纲目》释‘鹄’曰：‘其翔极高而善步’”，candidate均遗漏未译；原文“鹄、鹤古通”指两字古通用，candidate误译为“古音相通”，含义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004800-p000-a259c4212a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "巽卦的卦形为☴，candidate误写为乾卦卦形☰，属于卦象错误；allowed_glossary已明确巽、坤为八卦之一，candidate重复标注“八卦之一”属于冗余，且原文未提及坤的释义，candidate自行补充“坤（八卦之一）”属于不必要增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004801-p000-5c452ce681",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004802-p000-bf390b42e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004803-p000-1f30c51175",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004804-p000-c82262c956",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004805-p000-60eb57f806",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5514,
+    "completion_tokens": 629,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5514,
+      "completion_tokens": 629,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-17T14:02:13.984781+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "22473b77479cf880e77505945a54e6773c765b71cc732b2e6ef8439cff6e183e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003808-p000-3616b4afbf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格，包含多组并列的图文或诗句，candidate将其合并为一段连续叙述，破坏了原文的结构和并列关系，导致信息混杂。",
+          "candidate将‘三一行龍落平岡...’释读为‘第三行提到’，但原文表格结构并非简单的行序，此处理解有误，且‘第三行’的指代不明确。",
+          "candidate将‘一’释读为‘第一行提到’，将‘三’释读为‘第三行提到’，将‘全’释读为‘全行提到’，这些是对表格行首标记的误译，它们更可能是诗句的序号或分类标记，而非对表格行的描述。",
+          "存在多处增译和意译，超出了‘普通读者能读懂的白话释读’的边界，例如‘鱼群游动’、‘泉水涌流’、‘福泽后裔无穷无尽’等，将诗意的、概括的描述具体化，可能偏离原意。",
+          "对‘朱旒包蓋’、‘邵印’、‘漢龍’、‘拜龍’、‘謝職山’等opaque_terms进行了确定性的解释（如‘镇守边城’、‘世所难逢’、‘朝水环绕’、‘拜龙相照应’、‘谢职山’），而原文并未提供明确依据，应保留其模糊性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003817-p000-fe271feb87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2002,
+    "completion_tokens": 417,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2002,
+      "completion_tokens": 417,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

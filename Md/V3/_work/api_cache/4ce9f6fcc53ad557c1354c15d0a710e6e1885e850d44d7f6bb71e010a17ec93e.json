@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-17T13:59:36.582560+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4ce9f6fcc53ad557c1354c15d0a710e6e1885e850d44d7f6bb71e010a17ec93e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003802-p000-e95717d4dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格第一行文字解读为从右至左阅读，并解释为叙述汉高祖到汉景帝的世系，这是无依据的扩写和确定化解释。原文仅为‘帝四二子字名姓祖高大王代十出季邦劉牆帝漢’，是古书常见的从右至左、从上至下的排版，其具体所指（如是否指代世系）原文未明，candidate不应将其解释为确定事实。",
+          "candidate将‘龍單莢飛’解释为‘条目’，将‘格龍星金’、‘格龍尺玉格’、‘龍星水’解释为‘术语条目’，这是无依据的确定化解释。原文仅列出这些短语，其具体含义和性质（是否为条目、术语）并未说明。candidate应保留其原样并说明所指不详。",
+          "candidate将表格右侧文字整体解释为‘风水术数中关于龙脉、穴位和水法等相关内容的对照记录’，这是无依据的扩写和主题归纳。原文仅列出零散语句，其整体主题和结构并未明确说明。candidate应仅描述其文字内容，并指出具体所指不详。"
+        ],
+        "uncertainty": [
+          "表格第一行文字的具体含义和阅读顺序（如是否涉及世系）不详。",
+          "‘龍單莢飛’、‘格龍星金’、‘格龍尺玉格’、‘龍星水’等短语的具体所指不详。",
+          "表格右侧文字的具体语义和整体主题不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1372,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

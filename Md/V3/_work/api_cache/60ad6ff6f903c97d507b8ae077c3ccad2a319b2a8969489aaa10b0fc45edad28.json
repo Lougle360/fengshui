@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-23T13:42:40.972418+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "60ad6ff6f903c97d507b8ae077c3ccad2a319b2a8969489aaa10b0fc45edad28",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000629-p000-8942c1a382",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“卫”字的具体指代（可能指术法、方法或技术）"
+        ]
+      },
+      {
+        "id": "book003-b000631-p000-a1d32b3082",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“实、毕”在原文中为“实毕”，是连续的两个字，candidate 将其处理为“实、毕”并用引号引用，符合 opaque_terms 处理方式，但未在 opaque_terms 中声明。根据规则，opaque_terms 必须原样处在引号引用范围内，不能被赋予确定含义。candidate 的处理方式（加引号并说明不详）是恰当的，但应在 opaque_terms 中列出。此处视为术语处理方式不当，但语义风险已标注，故判 revise。",
+          "“太丁”在 candidate 中解释为“可能是‘人丁’之误或特定称谓”，这是将不确定解释写成了推测事实，属于风险标注，可以接受。但原文“旺太丁”可能为“旺人丁”之误，candidate 的推测是合理的。",
+          "原文末尾“各各”后似有缺文，candidate 已标注，处理得当。"
+        ],
+        "uncertainty": [
+          "“实、毕”的具体含义",
+          "“太丁”是否为“人丁”之误或特定称谓",
+          "原文末尾“各各”后似有缺文"
+        ]
+      },
+      {
+        "id": "book003-b000633-p000-17cd6384ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“左何”在原文中为“左何”，candidate 将其处理为“左何”并用引号引用，符合 opaque_terms 处理方式，但未在 opaque_terms 中声明。根据规则，opaque_terms 必须原样处在引号引用范围内，不能被赋予确定含义。candidate 的处理方式（加引号并说明语意不明）是恰当的，但应在 opaque_terms 中列出。此处视为术语处理方式不当，但语义风险已标注，故判 revise。",
+          "“主尺经卷六九”在 candidate 中解释为“可能为‘五’字之误，或与‘五尺经’有关”，这是将不确定解释写成了推测事实，属于风险标注，可以接受。但原文“主尺经卷六九”可能为“五尺经卷六九”之误，candidate 的推测是合理的。"
+        ],
+        "uncertainty": [
+          "“左何”中“何”字的语意",
+          "“主尺经卷六九”中“主”字是否为误字或特定术语"
+        ]
+      },
+      {
+        "id": "book003-b000636-p000-1ffa37aa18",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000639-p000-922e03f42e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“冰”在原文中为“氷”，是“冰”的异体字，candidate 将其处理为“冰”并用引号引用，符合 opaque_terms 处理方式，但未在 opaque_terms 中声明。根据规则，opaque_terms 必须原样处在引号引用范围内，不能被赋予确定含义。candidate 的处理方式（加引号并说明语意不明）是恰当的，但应在 opaque_terms 中列出。此处视为术语处理方式不当，但语义风险已标注，故判 revise。"
+        ],
+        "uncertainty": [
+          "“冰”字的具体含义或是否为误字"
+        ]
+      },
+      {
+        "id": "book003-b000640-p000-767f4160ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“生庄”在原文中为“生莊”，candidate 将其处理为“生庄”并用引号引用，符合 opaque_terms 处理方式，但未在 opaque_terms 中声明。根据规则，opaque_terms 必须原样处在引号引用范围内，不能被赋予确定含义。candidate 的处理方式（加引号并说明语意晦涩）是恰当的，但应在 opaque_terms 中列出。此处视为术语处理方式不当，但语义风险已标注，故判 revise。",
+          "“百主尺经卷六十二”在 candidate 中解释为“可能为‘百祸’或‘百凶’之误，或‘主’为‘五’之误”，这是将不确定解释写成了推测事实，属于风险标注，可以接受。但原文“百主”可能为“百祸”或“百凶”之误，candidate 的推测是合理的。"
+        ],
+        "uncertainty": [
+          "“生庄”中“庄”字的含义",
+          "“百主”是否为“百祸”或“百凶”之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3575,
+    "completion_tokens": 1207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3575,
+      "completion_tokens": 1207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

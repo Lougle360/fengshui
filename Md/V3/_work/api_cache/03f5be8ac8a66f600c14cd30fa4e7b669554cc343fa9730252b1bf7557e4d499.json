@@ -1,0 +1,135 @@
+{
+  "created_at": "2026-10-17T07:06:21.194927+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "03f5be8ac8a66f600c14cd30fa4e7b669554cc343fa9730252b1bf7557e4d499",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002821-p000-bd43db6d17",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘皇亥脈天市艮脈以及巽’译为‘文中还提到皇亥脉、天市脉以及巽脉’，但source原文为‘皇亥脈天市艮脈以及巽’，此处‘天市艮脈’是一个整体，指天市（星）与艮脉，或天市（星）所在的艮脉。candidate将其拆分为‘天市脉’和‘艮脉’，改变了原文结构，可能导致误解。",
+          "candidate将‘此總結已上之義申言天辛兌丁具中首取天皇天市龍第一辛兑丁六秀中之龍故曰可也’译为‘这是总结上文之义，申言天辛、兑、丁三方。其中首取天皇龙脉为第一，辛、兑、丁为六秀中的龙脉，所以说“可”。’ 此处‘天辛兌丁’应指天皇、辛、兑、丁，candidate译为‘天辛、兑、丁’，将‘天辛’作为一个组合，可能不准确。source中‘天辛’可能指天皇与辛，或‘天’为衍文。candidate未处理此歧义，且将‘天市龍’漏译。",
+          "candidate将‘上實脈最喜廉貞卯山火星起祖重峰疊秀起伏辰遠主貴不難也’译为‘上实脉最喜廉贞星，从卯山火星起祖，重峰叠秀，起伏长远，主贵不难。’ 其中‘起伏辰遠’的‘辰’可能指方位或‘长远’，candidate译为‘长远’，但未标注此推测。",
+          "candidate将‘疾猶快也’译为‘疾，意为快。’ 正确，但source中‘主疾速（快）’的括号解释是candidate添加的，虽未改变原意，但属于增译。"
+        ],
+        "uncertainty": [
+          "‘皇亥脈天市艮脈’的具体所指和结构。",
+          "‘天辛兌丁’的具体所指。",
+          "‘起伏辰遠’中‘辰’字的含义。"
+        ]
+      },
+      {
+        "id": "book035-b002822-p000-22d7474caa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘長夏街 痣當作忘’译为‘长夏街（此处“街”字疑为“忘”字之误）’，但source原文为‘痣當作忘’，意思是‘痣’字应当作‘忘’字。candidate的注释对象错误，将‘街’字疑为‘忘’，而source是认为‘痣’字应为‘忘’。",
+          "candidate将‘此言丁艮不可兼丑未喜艮行度龍局吉男女多痣家豐盈’译为‘此段言丁、艮方不可兼丑、未方，喜艮方行度，龙局吉，男女多痣，家道丰盈。’ 其中‘男女多痣’的‘痣’字，source已指出‘痣當作忘’，candidate未采纳此校勘，仍译为‘痣’，且未明确标注此风险。",
+          "candidate将‘其丁艮單行爲吉也故丁艮單行龍局俱爲吉福主男女有節操之志倉廩有豈盈之富’译为‘其丁、艮单行为吉。故丁、艮单行龙局俱为吉，福主男女有节操之志，仓廩有充盈之富。’ 其中‘豈盈’应为‘充盈’，candidate已修正，可以接受。但‘男女有節操之志’是对‘男女多痣（忘）’的进一步解释，candidate未明确关联。"
+        ],
+        "uncertainty": [
+          "原文‘長夏街’的语义及与后文‘痣’字的关系。",
+          "‘痣’字是否为‘忘’字之误，以及‘男女多忘’的具体含义。"
+        ]
+      },
+      {
+        "id": "book035-b002823-p000-9b4c8b5dee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002824-p000-ffb8726472",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002825-p000-3aa3861751",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source原文‘物光瑤光陰權位行龍懶緩生朱泓身所所體立地利也行能不立地經拥縫者采之散有也里本’严重残缺错乱，无法构成连贯语义。candidate声明‘此段文字严重残缺且语序混乱，具体所指不详，无法进行准确白话释读。’ 这符合处理原则，但verdict应为uncertain，因为无法进行任何可靠的释读，而非revise。"
+        ],
+        "uncertainty": [
+          "原文文字严重残缺错乱，无法确定任何可靠含义。"
+        ]
+      },
+      {
+        "id": "book035-b002826-p000-020a370ee3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002827-p000-65c379c9b6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘陰玄行龍兼鬼氣少亡孤寡幷僧尼’译为‘阴玄行龙兼鬼气，少亡孤寡并僧尼。’ 正确。",
+          "candidate将‘陰玄坤也鬼未也此明未坤行度兩氣兼行受穴主男女陽機來單最凶惡絕嗣無主賁榛刑’译为‘阴玄指坤方，鬼指未方。此明未、坤行度两气兼行受穴，主男女阳机来单，最凶恶，绝嗣无主，贲榛刑。’ 其中‘陽機來單’含义不明，candidate直译，可以接受。但‘賁榛刑’在candidate中保留原词，未做解释，符合opaque_terms处理方式，但应在uncertainty中标注。",
+          "candidate将‘北幽陰之地老而無用之謂也故曰凶惡絕嗣乏后也貧榛荊謂荒冢而生荊束也’译为‘北幽阴之地，老而无用之谓也。故曰凶恶绝嗣乏后也。贫榛荆，谓荒冢而生荆束也。’ 其中‘貧榛荊’与上文的‘賁榛刑’用字不同，candidate未处理此差异。",
+          "candidate将‘切又謂乾脈屬金若值金水星峰起伏長遠穴得挨金取水之義右左實主有情羅星六吉鎭守此乃自然富貴之地也否則三金四金不生水體者乃純陽無化氣方以 此斷爲驗故地理之要合五星之外而能言地理者未之有也’译为‘切又谓乾脉属金，若值金水星峰起伏长远，穴得挨金取水之义，右左实主有情，罗星六吉镇守，此乃自然富贵之地也。否则三金四金不生水体者，乃纯阳无化气，方以此断为验。故地理之要，合五星之外而能言地理者，未之有也。’ 此段与前文‘阴玄行龙’的论述似乎为并列或转折关系，candidate未明确其逻辑关联，直接拼接，可能造成误解。且‘三金四金’等术语含义隐晦，candidate直译但未标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘賁榛刑’、‘貧榛荊’的具体含义及二者关系。",
+          "‘陽機來單’的具体含义。",
+          "‘三金四金不生水体’的具体含义。",
+          "最后关于乾脉的论述与前文阴玄行龙论述的逻辑关系。"
+        ]
+      },
+      {
+        "id": "book035-b002828-p000-bf5820cfcb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002829-p000-ad34125a94",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文严重残缺，语义断裂，candidate 仅能指出问题而无法提供任何有效的白话释读，不符合 V3 目标‘普通读者能读懂的白话释读’的要求。"
+        ],
+        "uncertainty": [
+          "原文存在大量缺字或错乱，语义无法通顺理解，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book035-b002830-p000-e537285fc6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 169,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3166,
+      "completion_tokens": 1928,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1180,
+      "completion_tokens": 169,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

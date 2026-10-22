@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-10-17T07:26:22.367343+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "08dec124f22c6dc49f60fabc96a4213269ebc615c29d8ec625ebdbe3e2f9ec7a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002865-p000-5907df7565",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002866-p000-6d55d20472",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘穴宜癸’，candidate译为‘穴场宜坐癸向’，将‘宜癸’（宜朝向癸）明确为‘坐癸向’，改变了原文的表述，可能造成方位理解偏差。原文‘穴宜加艮白虎之右微侵寅位半分以扶戊寅正脈放棺’，candidate译为‘穴宜向西微偏，稍加寅位半分’，将‘加艮白虎之右’简化为‘向西微偏’，丢失了‘艮’和‘白虎’的方位参照信息。原文‘主衣錦榮華光耀閭里之北兆也’，candidate译为‘主家族衣錦榮華，光耀鄉里’，漏译了‘之北兆也’（的北方征兆）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002867-p000-158a371948",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘癸背一面九離河洛理數無相建四垣四默各正位五氣右逆相憑依’处理为直接引用并分段解释，不符合V3‘普通读者能读懂的白话释读’目标，应将其转换为连贯的现代白话文。candidate在解释部分直接引用了原文‘上乾下巽為天風姤卦……上坤下震為地雷復卦’，未将其融入白话叙述中。candidate对原文残缺部分（如‘分在坎之 左右得 丁二位’）的处理是直接保留并补充‘俱以河圖而言’，但未明确标注此处原文有残缺或推断，可能误导读者认为原文完整。"
+        ],
+        "uncertainty": [
+          "原文多处文字残缺、断句不清，如‘分在坎之 左右得 丁二位’、‘至坤而逆正周于觀物詩雲乾過異時爲月窟地逢雷處見 五 顺 順自巽是 墓是也’，具体对应关系和完整含义难以确定。"
+        ]
+      },
+      {
+        "id": "book035-b002868-p000-fb6acce710",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002871-p000-ed90512a1a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate将严重残缺、错乱的原文几乎逐字抄录，未进行任何释读或说明，完全不符合‘普通读者能读懂的白话释读’要求。对于此类无法释读的段落，应明确标注原文损坏，并尝试对可辨识的术语（如卦名、数字）进行保守说明，而非直接输出无法理解的文字串。"
+        ],
+        "uncertainty": [
+          "原文此段文字严重残缺、错乱，字句断裂且语意不明，无法进行任何有意义的白话释读。"
+        ]
+      },
+      {
+        "id": "book035-b002872-p000-946e7c9ad0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002873-p000-3bd20acc6a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘腰臨 指動炳信地仁驅銀丙馳 SF 陽’直接译为‘腰臨指動炳信地仁驅銀丙馳’，未处理其中的明显错乱字符（如‘SF’），也未标注此处原文可能损坏或语意不明，不符合风险标注要求。candidate将‘無挨 右之 乃戊寅與庚寅凶氣相 隔 一 餘 無 吉氣 可侵忍新 所 不知 以失正義 故 不言也只宜 微 侵 半分扶艮爲吉’译为‘無挨右之乃戊寅與庚寅凶氣相隔一餘，無吉氣可侵，忍新所不知以失正義，故不言也。只宜微侵半分扶艮為吉。’，虽然尝试了连贯，但‘忍新所不知’等短语含义不明，且未标注原文断句和可能的残缺，可能造成误解。"
+        ],
+        "uncertainty": [
+          "原文部分字词（如‘驅銀丙馳’、‘忍新所不知’）语意不明，可能因原文损坏或特殊术语导致，具体含义存疑。"
+        ]
+      },
+      {
+        "id": "book035-b002874-p000-603621daec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '艾窮也' 释为 '艾窮也'，未进行白话转换，不符合 V3 目标。'艾' 和 '窮' 在此语境下应有其特定含义，candidate 未作解释，属于漏译。",
+          "candidate 将 '闕聞即闕閱們也' 释为 '闕聞即闕閱，們也'，未进行白话转换，不符合 V3 目标。'闕閱' 和 '們' 在此语境下应有其特定含义，candidate 未作解释，属于漏译。",
+          "candidate 将 '得戊寅華定無艾正氣' 释为 '得戊寅華定無艾正氣'，未进行白话转换，不符合 V3 目标。'華定' 和 '無艾' 在此语境下应有其特定含义，candidate 未作解释，属于漏译。",
+          "candidate 将 '以取兩寅吉氣加穴' 释为 '以取兩寅吉氣加穴'，未进行白话转换，不符合 V3 目标。'兩寅' 在此语境下应有其特定含义，candidate 未作解释，属于漏译。",
+          "candidate 整体上几乎是逐字直译，未转换成普通读者能读懂的白话，不符合 V3 目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002875-p000-43229ff2c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '左臉' 释为 '左腰'，但 source 原文为 '左腧'，candidate 的注释 '左臉指左腰' 与 source 原文不符，属于反义或误译。",
+          "candidate 将 '壽右而財衰' 释为 '壽右而財衰'，未进行白话转换，不符合 V3 目标。'壽右' 在此语境下应有其特定含义，candidate 未作解释，属于漏译。",
+          "candidate 整体上几乎是逐字直译，未转换成普通读者能读懂的白话，不符合 V3 目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002876-p000-26011095ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '催官第三穴天廄' 释为 '这是催官篇的第三节，论述天廄穴'，将 '穴' 的含义从具体穴位扩展为 '论述...穴'，属于增译。",
+          "candidate 将 '乙行龍' 释为 '乙行龙'，未进行白话转换，不符合 V3 目标。'乙行龍' 在此语境下应有其特定含义，candidate 未作解释，属于漏译。",
+          "candidate 将 '右耳授挨左立穴加少微' 释为 '右耳授气，应挨近左侧立穴，并涉及少微星'，将 '授' 释为 '授气'，属于增译。source 中 '授' 可能为 '受' 之误，但 candidate 未标注此不确定性。",
+          "candidate 将 '中男及第紆紫綬' 释为 '中男及第、紆紫綬的关联'，未对 '紆紫綬' 进行白话解释，不符合 V3 目标。",
+          "candidate 将 '紆館也綬紀也' 释为 '文中还提到“紆館”和“綬紀”，具体所指不详'，处理方式符合 V3 目标中对含混短语的处理要求，可以接受。",
+          "candidate 将 '丙戌正辛以貫右耳' 释为 '以丙戌正辛之气贯穿右耳'，将 '以' 释为 '以...之气'，属于增译。",
+          "candidate 将 '放棺合舍正氣爲左輔' 释为 '安放棺木以契合正气，可视为左辅星'，将 '合舍' 释为 '契合'，属于增译。",
+          "candidate 整体上在直译基础上进行了较多增译和推测性解释，但部分解释缺乏依据，且未完全转换成通俗白话。"
+        ],
+        "uncertainty": [
+          "'授' 字可能为 '受' 之误。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 997,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4550,
+      "completion_tokens": 1455,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1828,
+      "completion_tokens": 997,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

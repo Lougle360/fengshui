@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T11:32:21.529451+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ec6b97fbb7d3bb073bef5e77b00bc1cec0580ce6b0f97799802a9788931f734d",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000112-p000-e340fd7ddd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000113-p000-c141a9664f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在殘缺，「陰」字後內容缺失"
+        ]
+      },
+      {
+        "id": "book013-b000114-p000-e1c9c6b925",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文「官一收」「立故」「啟曰」等表述含義不明，「百與三千維」具體所指不詳，釋讀時未標註相關風險"
+        ],
+        "uncertainty": [
+          "原文存在殘缺，「官一收」「立故」「啟曰」等表述含義不明，「百與三千維」具體所指不詳"
+        ]
+      },
+      {
+        "id": "book013-b000115-p000-0032bcde50",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文「山龍人四名寶臨經徵肯火孫息也」「陰外水」「要申」等表述含義不明，釋讀時未標註相關風險"
+        ],
+        "uncertainty": [
+          "原文存在殘缺，「山龍人四名寶臨經徵肯火孫息也」「陰外水」「要申」等表述含義不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1665,
+    "completion_tokens": 364,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1665,
+      "completion_tokens": 364,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

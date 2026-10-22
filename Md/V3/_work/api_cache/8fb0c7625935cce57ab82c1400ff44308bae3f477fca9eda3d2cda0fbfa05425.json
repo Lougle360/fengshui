@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:14:09.856012+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8fb0c7625935cce57ab82c1400ff44308bae3f477fca9eda3d2cda0fbfa05425",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000643-p000-64799eb7d1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "「治暦演紀」的連立方程式是用來計算開禧曆上元積年的。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000645-p000-0fd1855884",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "可以寫成ζ=Σx³π。上元積年是指從上元（曆元）到嘉泰甲子（1204年）所經過的年數。上元對應甲子年，當年十一月甲子日的夜半（午前0時），平朔與恆氣同時發生。另外，各數所代表的",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中的部分數學符號及特殊標記含義不確定"
+        ]
+      },
+      {
+        "id": "book015-b000646-p000-dee245b2f0",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "之處，365又4108/16900日是開禧曆回歸年的長度，29又8967/16900日是朔望月的長度，60「干支」的周期，193440/16900日是嘉泰甲子（1204年）中從甲子日夜半到冬至的日數，163771/16900日是同年11月朔到冬至的日數。連立方程式的含義自然就清楚了。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000647-p000-52e6f596c6",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "但秦九韶的連立方程式解法相當複雜，也有難以理解之處。因此，我打算在基本遵循錢寶琮的解釋（錢寶琮簡化了計算順序，並將表述進行了一定程度的現代化）的基礎上，說明秦九韶的解法21）。據此，秦九韶的解法與上述方程式是等價的。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾句子未完整表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1992,
+    "completion_tokens": 638,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1992,
+      "completion_tokens": 638,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

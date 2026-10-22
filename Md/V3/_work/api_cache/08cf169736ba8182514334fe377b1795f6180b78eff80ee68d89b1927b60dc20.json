@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T14:51:13.912029+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "08cf169736ba8182514334fe377b1795f6180b78eff80ee68d89b1927b60dc20",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000914-p001-c76692dbca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000915-p000-ec038512ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的“皇”字未释读，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 113,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1049,
+      "completion_tokens": 113,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

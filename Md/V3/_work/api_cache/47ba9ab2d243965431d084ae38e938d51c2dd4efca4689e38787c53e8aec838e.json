@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-04T00:56:52.838854+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "47ba9ab2d243965431d084ae38e938d51c2dd4efca4689e38787c53e8aec838e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001050-p000-1ae811e158",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'大富水迎先到山东西宜有水迴环'，candidate释为'大富穴需要水流迎接到山的东西两侧，最好有水流回旋环绕'，将'先到山'与'东西宜有水迴环'合并解释，改变了原文的并列或递进关系，可能漏译了'先到山'的时序或方位含义。",
+          "原文'更须节氏无歌则切忌长系户不关'，candidate释为'至于‘节氏无歌’这一短语，具体所指不详；如果‘长系户不关’，则必须忌讳，因为这意味着门户不闭或水口不关'。此处将'更须节氏无歌则切忌'拆解为对'节氏无歌'的说明和对'长系户不关'的忌讳，但原文'更须...则切忌...'结构更可能表示'更需要...否则切忌...'的假设或条件关系，candidate的断句和逻辑关系处理可能不准确。"
+        ],
+        "uncertainty": [
+          "'节氏无歌'、'长系户不关'具体所指确实不详，candidate已标注，符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 722,
+    "completion_tokens": 286,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 722,
+      "completion_tokens": 286,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

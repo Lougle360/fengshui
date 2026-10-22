@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-17T09:08:36.140286+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5e472e64947cdaf1a28345137425f7c4a5d0219d2abc139fe6a424fcee6990f6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003091-p000-eee7ed39d8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将source中大量因OCR错乱而无法识别的文字（如'od x者关t7#和生出克人7生出氏希异辰乐 和和和 出出生克吉'）概括为'图中文字部分因OCR识别严重错乱...仅能确认其讨论水法吉凶与生克关系'，这属于对原文内容的推测性总结，而非对可识别部分的保守释读。应明确指出哪些部分因错乱无法释读，而不是整体概括其内容。",
+          "candidate将'诗曰'后的诗句（如'阴冲阳驳中先败阳射兼阴长不安'等）与前面的'明堂折水之法'说明文字混合叙述，未明确区分图注说明与诗句，且诗句部分释读不完整（如'维卦孟枝同长断'被释为'维卦孟枝同长'，漏'断'字）。",
+          "candidate将'合八贵尤妙如得甲庚丙壬爲吉'释为'合八贵尤妙。如得甲庚丙壬为吉'，但source原文为'合八貴尤妙如得甲庚丙壬爲吉'，中间无句读，candidate的断句可能改变了原意。",
+          "candidate将'穴后去一節二節頂脈與向得純陰或純陽者收得山起反此則禍又頂神三折出乾坤艮巽謂上御街水'释为'如得甲庚丙壬为吉，自小入中而入大，或纯阳者收得山起，反此则祸。又云顶神三折出乾坤艮巽，谓之上御街水。'，其中'自小入中而入大'在source中对应'自小入中而入大'，但candidate将其与'甲庚丙壬为吉'连接，逻辑关系不明确，且'又云'在source中为'又顶'，存在误译。"
+        ],
+        "uncertainty": [
+          "source中'水向之圖'表格内文字因OCR错乱严重，大量内容无法准确识别和释读。",
+          "'诗曰'后的诗句具体所指及其与前面图注的关系，因原文格式和OCR问题，存在不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b003096-p000-9645f73a59",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'疵 唯有騎龍 之 說與巒頭 中取論者頗巽予僭爲之'释为'其中提到，关于“骑龙”之说，唯有在峦头中取论者较为符合，其余多与巽卦相关。作者自谦僭越，代为补充说明。'，其中'其余多与巽卦相关'是candidate的推测，source中'頗巽'可能并非指'巽卦'，而是'颇为不同/差异'之意（'巽'通'逊'，或为'异'的讹写）。candidate将不确定的解释写成了确定事实。",
+          "candidate补充了'作者自谦僭越，代为补充说明'，但source中'予僭爲之'更可能指'我（作者）僭越地做了（补释）'，而非'代为补充说明'。"
+        ]
+      },
+      {
+        "id": "book035-b003097-p000-c605ff6f4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003098-p000-0dbf663903",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2428,
+    "completion_tokens": 828,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2428,
+      "completion_tokens": 828,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

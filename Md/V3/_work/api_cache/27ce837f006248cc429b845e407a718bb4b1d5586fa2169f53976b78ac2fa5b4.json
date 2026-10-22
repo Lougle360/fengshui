@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T06:39:36.810470+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "27ce837f006248cc429b845e407a718bb4b1d5586fa2169f53976b78ac2fa5b4",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001852-p000-63a3979617",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001857-p000-50c7857aab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文逻辑为‘太极静而生阳，圆晕肥起为阳，是动中之静，开茔宜深；太极动而生阴，圆晕瘦陷为阴，是静中之动，开茔宜浅’，candidate将动静生阴阳的对应关系、圆晕的阴阳属性、动静归属、开茔深浅要求全部译反，与原文含义完全相悖"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001858-p000-1bd979f1a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1932,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1932,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

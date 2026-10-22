@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-18T03:10:27.821750+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "27c2d0f260ad66eff680830b6882e44278d84fd67ca698d05852f2741cfcc8a3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005257-p000-7b00e7e4d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "页码‘C’、‘DC’、‘O’、‘0’被直接音译为‘页码C处’等，未按古籍页码处理惯例进行说明或保留原样，可能误导读者以为这是现代页码。",
+          "‘计都朝天先出武’中的‘计都’是星曜名，candidate未加引号或说明，直接作为确定解释，可能误导读者。",
+          "‘案上抛刀人打屠案下抛刀人辦廚’一句，candidate释为‘案上抛刀，人打屠，案下抛刀，人办厨’，将‘打屠’‘办厨’解释为确定职业，但原文可能为比喻或隐语，此解释缺乏依据。",
+          "‘时师切莫错认刑问吉谈凶不顺情’一句，candidate释为‘时师切莫错认，刑问吉谈凶不顺情’，将‘刑问吉谈凶’连读，语义不通，且‘不顺情’的解释含糊。",
+          "‘架钱十字要分明’中的‘架钱十字’是风水术语，candidate未加引号或说明，直接作为确定描述，可能误导读者。",
+          "‘阵钱金玉满门庭’中的‘阵钱’，candidate直接释为‘阵钱’，未加引号或说明，含义不明。",
+          "‘见打眉摄眼不知差淫欲受人眠’一句，candidate释为‘见打眉摄眼，不知差，淫欲受人眠’，将‘打眉摄眼’‘淫欲受人眠’解释为确定事实，缺乏依据且语义不清。"
+        ],
+        "uncertainty": [
+          "原文中‘C’、‘DC’、‘O’、‘0’等页码标识的具体含义不详。",
+          "‘计都’、‘架钱十字’、‘阵钱’等术语的具体所指不详。",
+          "‘案上抛刀人打屠案下抛刀人辦廚’、‘见打眉摄眼不知差淫欲受人眠’等句的确切含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1939,
+    "completion_tokens": 490,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1939,
+      "completion_tokens": 490,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

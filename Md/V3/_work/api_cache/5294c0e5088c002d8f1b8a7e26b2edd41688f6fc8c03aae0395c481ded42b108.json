@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-23T17:08:55.750618+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5294c0e5088c002d8f1b8a7e26b2edd41688f6fc8c03aae0395c481ded42b108",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001239-p000-6d8e83d106",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘尚书汪荐用卿精于相地理’中‘汪’后疑有脱字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book001-b001240-p000-1f8e4d1e78",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘应代者家中贿赂来卒’表述不准确，原文‘家贿来卒’主语是‘应代者’的家，但‘来卒’指前来征召的士卒，贿赂对象应为‘来卒’，释读未明确此关系，易生歧义。",
+          "‘他准备了十八幅图说进呈’中‘十八幅’是推测，原文‘于十八道具图说以进’的‘十八道’可能指十八种方案或十八处地点，非确定数量。"
+        ],
+        "uncertainty": [
+          "原文‘侦用卿，解馆归未至’的主语存在歧义，此处按‘应代者侦察、用卿解馆’的逻辑翻译，但原文可能指代不明"
+        ]
+      },
+      {
+        "id": "book001-b001246-p000-b070aae57a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘复弟也’中‘复’指代不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1403,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

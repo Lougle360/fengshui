@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:50:37.679365+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "491b9ad323ca1a6850716f11c8caf8978e1694d0ad7e0612915e339880a9c726",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000923-p000-05dac0e986",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“眠地”的具体所指未明确说明"
+        ]
+      },
+      {
+        "id": "book014-b000924-p000-e79d186605",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000925-p000-4b428825c4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“有脈亦發水物本在水中”释为“即使有脈也會發水，物本在水中”存在语义偏差，原文意为“有脉也会因水而发，（该物）本在水中”，未体现“即使”的假设关系，且“發水物”被拆分释读，不符合原文逻辑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000926-p000-daa4f5d068",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“不空置之”的具体所指未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 302,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1368,
+      "completion_tokens": 302,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

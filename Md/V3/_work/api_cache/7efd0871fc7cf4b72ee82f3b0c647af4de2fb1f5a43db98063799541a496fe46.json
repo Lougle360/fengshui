@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T14:27:57.274728+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7efd0871fc7cf4b72ee82f3b0c647af4de2fb1f5a43db98063799541a496fe46",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000755-p000-929131758a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000756-p000-ea0bd5485f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000757-p000-3dbe5b6c8f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "保留了日文原文短语“二つずつ互いに素”ではない元数1・2・3・4に対しており，未转换为现代中文，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000758-p000-81e964d056",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未完整表述，释读保留了原文的省略状态"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1698,
+    "completion_tokens": 255,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1698,
+      "completion_tokens": 255,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

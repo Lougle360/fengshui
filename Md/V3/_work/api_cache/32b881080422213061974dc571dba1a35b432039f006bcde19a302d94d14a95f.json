@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:36:48.568318+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "32b881080422213061974dc571dba1a35b432039f006bcde19a302d94d14a95f",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002057-p000-54e2f93e1f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中未明确为风水术语的‘陷穴’强行解释为风水术语，违反了术语使用规则，原文未提及风水相关内容，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文未明确‘陷穴’的具体所指，未提及风水相关含义"
+        ]
+      },
+      {
+        "id": "book016-b002058-p000-6c39c6d2c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002059-p000-1ebf4ee77d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002060-p000-d40ea0ecdf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 250,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1427,
+      "completion_tokens": 250,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-23T09:53:29.728893+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "df5f2422c1feb4ac27461f95ece905186445d847851a28b90d48acea9201cf23",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000204-p000-c7dff717f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“虚涵太乙”具体所指不详",
+          "“羊”在此处的具体含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000208-p000-678e31105b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“任发 子癸二 壬化木兑龙一阳初生逢武曲六阳盛大前去转换至巳六阳之地金水三台结大地”中，“任发”可能为“壬发”之误，指壬龙发脉。candidate 译为“壬龙发于子、癸二龙”，将“壬化木”与“子癸二”合并解释，改变了原文结构，且“壬龙发于子、癸二龙”的表述可能不准确。",
+          "原文“龄狂燔岭面体尉六储如姓地融”在 candidate 中被处理为直接引用并标注不详，符合要求。",
+          "原文“鬼金雄大健旺前去结州城府县”中，“鬼金”可能指“鬼金羊”，是二十八宿之一，与“未”对应。candidate 仅标注“鬼金”具体所指不详，但根据上下文（未龙、坤未申三方），此处“鬼金”很可能是一个专有星宿名，应作为 opaque_term 处理，而非仅标注不详。candidate 的释读未体现此潜在关联。",
+          "原文“坤中一龙若武曲金作祖上金相生其气盛大龙转酉辛再换乾亥金水结穴出将人相之地”中，“上金相生”可能指“土金相生”（坤为土，武曲为金）。candidate 译为“上金相生”，保留了原文用字，但未解释其五行生克关系，对于普通读者可能不够清晰。"
+        ]
+      },
+      {
+        "id": "book002-b000213-p000-2ca4d4b861",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000214-p000-b9aef7ee8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“号旒土”具体所指不详",
+          "“打锵武出居之序，是本卦”具体所指不详"
+        ]
+      },
+      {
+        "id": "book002-b000216-p000-5025fdf756",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“如是人见辰戌天”具体所指不详"
+        ]
+      },
+      {
+        "id": "book002-b000217-p000-c4b91797a1",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文严重破碎，多处缺字（如“乃十 定 来龙”、“得金 通古”、“云此是徐龙不须时庸 法师 不知此紧怎知看地 之”），导致核心语义（如“徐龙”、“时庸”、“此紧”）完全无法确定。candidate 的保守释读无法成立，因为连基本的句子结构和逻辑关系都无法可靠重建。"
+        ],
+        "uncertainty": [
+          "“亢金戌娄金丑金未鬼金，乃十定来龙，得金通古”具体所指不详",
+          "“云此是徐龙，不须时庸法师，不知此紧，怎知看地之”具体所指不详",
+          "“徐龙”具体所指不详",
+          "“时庸”具体所指不详"
+        ]
+      },
+      {
+        "id": "book002-b000222-p000-aa983a6c43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“卦附狐纬，惟移自衣食一字，按历”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3175,
+    "completion_tokens": 880,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3175,
+      "completion_tokens": 880,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

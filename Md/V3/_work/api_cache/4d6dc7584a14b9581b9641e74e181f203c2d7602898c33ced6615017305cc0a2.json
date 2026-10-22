@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T12:50:52.180648+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4d6dc7584a14b9581b9641e74e181f203c2d7602898c33ced6615017305cc0a2",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000930-p000-9c4ee6a7df",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「鉗」「鑑」「中央」「虛」「圍」「開」「攔」等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000931-p000-108cc84d9e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「龍樓」「眉閣」「第」「排雲」「一林」「春筍」「日華」「雲爛」等格局具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 186,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1175,
+      "completion_tokens": 186,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

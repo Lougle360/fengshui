@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-24T14:13:02.138959+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8e97823c5164e1c0a43938417b2d97f5aa1cec62e7a2ad80fc85ee230612d073",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000611-p000-8b77a6464c",
+        "modern_text": "③要从复数中确定定母，需针对尾位10以上的各问数，求出问数的公约数即总等，保留1位，约分其他各位，以此求出元数。⑤得到元数后，将两个数依次组合，分别求出等数；若等数是总等的偶数约数，就用该值约分其中一个数使其变为奇数，再将该值与另一个偶数相乘；若等数是总等的奇数约数，就用该值约分其中一个数使其变为偶数，再将该值与另一个奇数相乘。⑥若约分后两个数仍存在同类的数，就互相相减求出续等，具体所指不详。",
+        "confidence": "medium",
+        "uncertainty": [
+          "续等"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 202,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1331,
+      "completion_tokens": 202,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

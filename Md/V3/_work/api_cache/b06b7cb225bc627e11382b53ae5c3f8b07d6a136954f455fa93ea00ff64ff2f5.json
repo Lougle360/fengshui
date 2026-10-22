@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-15T06:11:39.711500+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b06b7cb225bc627e11382b53ae5c3f8b07d6a136954f455fa93ea00ff64ff2f5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001305-p000-eccb791e20",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001306-p000-131a5c6354",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘左看山厭穴宜右右有山厭穴宜左’中‘厭’字，candidate译为‘令人厌恶’，此解释缺乏依据，可能指‘压迫’、‘压制’或特定风水煞气，属于opaque_term，应保留原字并说明其意不明，而非直接赋予‘令人厌恶’的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001307-p000-bf0a2b2a58",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘定八卦四象毀定當分八卦’中‘毀定’一词，candidate译为‘毁定’，未做解释，含义不明，属于opaque_term，应保留原词并说明其意不详，而非直接照搬。",
+          "原文‘先于穴星后分水脊上用盤針定脈從何方來’中‘穴星后分水脊上’，candidate译为‘在穴星上，用水脊处下盘针’，将‘后分水脊’简化为‘水脊’，可能遗漏了‘后分’这一方位或步骤信息。",
+          "原文‘次于暈心標下下盤針定脈從何方去’中‘暈心標下’，candidate译为‘在晕心标下’，‘标下’含义不明，属于opaque_term，应保留原词并说明其意不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001308-p000-a3abf883fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘陽脈得陰向陰水’后文意似未完整，candidate译为‘阴脉得到阴向和阴水，也属吉利’，但原文可能为‘阳脉得阴向阴水’（不吉）的对比，或后续有缺文。candidate的补充‘也属吉利’是将推测写成了事实，且未标注原文可能不完整。",
+          "原文‘離統壬寅午戊’中‘戊’，candidate译为‘戊’，但干支中‘戊’为天干，此处与地支‘寅、午’并列，疑为‘戌’（地支）之误。candidate直接照搬而未标注此疑点。",
+          "原文‘況統丁已酉丑’中‘況’，candidate译为‘兑’，是合理的推测，但未标注原文用字为‘況’（可能是‘兑’的异体或讹字）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001309-p000-a233932a9c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001310-p000-8f46ed9fb1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘閥狹有制以玉尺量’中‘閥狹’，candidate译为‘使其狭小’，并将‘閥’推测为‘狭’或‘法’之误。此处理属于对opaque_term‘閥’赋予了不确定的解释，且未明确标注‘閥’字原文及含义不明。应保留‘閥狹’原词并说明其意不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001312-p000-59b87c59e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001313-p000-54b78bd285",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘靈光銷鐵’中‘鐵’，candidate译为‘铄’并解释为‘消散’，此处理属于对opaque_term‘鐵’赋予了不确定的解释（虽在uncertainty中标注，但译文中已直接改字）。应保留‘销铁’原词并说明其意不详。",
+          "原文‘惟居穴乃四凶穴不忌四凶穴不宜大過’句读和逻辑费解，candidate断句为‘惟居穴乃四凶穴，不忌四凶穴，但不宜过大’，将‘居穴’与‘四凶穴’等同，并将‘不忌’的主语理解为操作者，此解释为推测，未标注原文可能存在的歧义或费解之处。",
+          "原文‘得玉尺幾凡規爲塋體’中‘幾凡規’，candidate译为‘几凡规’，未做解释，含义不明，属于opaque_term，应保留原词并说明其意不详。",
+          "原文‘裹面藏金斗外盒眾人口’中‘外盒眾人口’，candidate保留原句并说明语意晦涩，处理正确，但‘裹面’应为‘里面’之异写，可注明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001314-p000-7d7a48b894",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001315-p000-d7653e24b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2756,
+    "completion_tokens": 1162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2756,
+      "completion_tokens": 1162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

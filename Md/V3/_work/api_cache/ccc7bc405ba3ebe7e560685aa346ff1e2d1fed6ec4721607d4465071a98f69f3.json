@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T16:42:41.043038+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ccc7bc405ba3ebe7e560685aa346ff1e2d1fed6ec4721607d4465071a98f69f3",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000432-p000-6a621d47b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000433-p000-16ba9a14f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000434-p000-c72da0d1a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文中‘参阅《乾》初九’的内容"
+        ],
+        "uncertainty": [
+          "原文提及可参阅《乾》初九，释读未保留该提示信息"
+        ]
+      },
+      {
+        "id": "book016-b000435-p000-fe69bdc095",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1327,
+    "completion_tokens": 225,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1327,
+      "completion_tokens": 225,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

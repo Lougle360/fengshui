@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T20:43:50.156733+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "26e8b6089591f143fd71e60cb52a9e4b6204ae87195ceb000515cad9c1b58ad5",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000034-p000-01e64d2375",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“天言地賞，所以用之，未代表天”译文中“是相关方法的运用依据”增译无依据，原文未提及“相关方法”；“地賞”未明确标注不确定，直接释为“地的酬报”属于将不确定内容写为确定事实；原文“天學運仍即时間推移之象如斗稱指東為春之指每为秋”译文中“指向‘每’对应秋季”表述错误，原文“之指每为秋”为讹误/残句，并非斗称指向“每”这个对象"
+        ],
+        "uncertainty": [
+          "“地賞”的具体含义",
+          "“斗称”的具体所指",
+          "“之指每为秋”中“每”的含义与对应指向"
+        ]
+      },
+      {
+        "id": "book017-b000035-p000-5f696cda2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“此門今任何神秘”的语义"
+        ]
+      },
+      {
+        "id": "book017-b000044-p000-7790464965",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“時縫及空針之山向皆之用”未明确有“不可”含义，译文中“都不可使用”属于无依据增译，将残句的不确定语义写为确定内容"
+        ],
+        "uncertainty": [
+          "“時縫及空針之山向皆之用”的完整含义",
+          "后段残损内容的语义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 426,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1200,
+      "completion_tokens": 426,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

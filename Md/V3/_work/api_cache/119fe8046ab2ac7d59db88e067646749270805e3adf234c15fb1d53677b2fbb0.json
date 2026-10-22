@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T17:31:23.318505+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "119fe8046ab2ac7d59db88e067646749270805e3adf234c15fb1d53677b2fbb0",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001004-p000-49ac93e1d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001006-p000-e691aad5dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001007-p000-95396c8116",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文此处残缺，仅能辨识至“济养万”，候选译文中未体现原文残缺的情况，存在语义不完整的问题"
+        ],
+        "uncertainty": [
+          "原文此处残缺，仅能辨识至“济养万”"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1538,
+    "completion_tokens": 202,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1538,
+      "completion_tokens": 202,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

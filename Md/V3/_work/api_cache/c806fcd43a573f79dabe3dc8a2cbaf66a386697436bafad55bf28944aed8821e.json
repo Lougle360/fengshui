@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T11:39:39.253115+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c806fcd43a573f79dabe3dc8a2cbaf66a386697436bafad55bf28944aed8821e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000778-p000-629a81bca2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文字顺序混乱，无法还原句意",
+          "OCR 识别可能存在严重错误"
+        ]
+      },
+      {
+        "id": "book035-b000780-p000-6b281aa2e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘制式’未译出。candidate 将其解释为‘必须按照特定的制式进行化解’，这是无依据的扩写。‘制式’为 locked_term，应保留原词，或说明其含义不明。",
+          "原文‘丙向瀦匯’的‘瀦匯’（汇聚）被并入对‘午砂’的描述中，结构有变，但未造成语义错误，可接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000784-p000-2eb194ef99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000785-p000-73eb77d474",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将‘叠叠事阜’释读为‘叠叠中阜’，并解释为‘穴场叠叠事阜’，这是对原文‘穴叠疊事阜’的误读和增译。原文‘穴叠疊事阜’可能为‘穴叠叠中阜’之误，但 candidate 不应自行修正并解释。应保留原文或标注存疑。",
+          "candidate 将‘壠之浮氣升騰于上支之況氣漏泄于下矣’中的‘況氣’解释为‘况气’，未加说明。‘况气’为 opaque_term，应加引号或说明其含义不明。",
+          "candidate 将‘番倒棺禽’释读为‘翻倒棺椁’，‘禽’字未译出或说明。",
+          "表格中‘TKO)、CCu、A’等乱码，candidate 在 uncertainty 中已说明，处理得当。"
+        ],
+        "uncertainty": [
+          "原文表格中存在乱码（如 TKO)、CCu、A 等）及残缺字符，部分文字依据上下文逻辑补全",
+          "部分断句依据风水常识推断",
+          "‘叠叠事阜’、‘况气’、‘棺禽’等词具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000787-p000-e155ec9292",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘番倒棺禽’释读为‘翻倒棺椁’，‘禽’字未译出或说明。",
+          "candidate 将‘爲禍敢孱大’释读为‘造成祸患’，漏译了‘敢孱大’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000788-p000-2eb194ef99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000789-p000-5ccc80a148",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺，无法构成完整句子"
+        ]
+      },
+      {
+        "id": "book035-b000792-p000-31f747ef5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000793-p000-d1e0c9f46a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000794-p000-8e66aeb1bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3171,
+    "completion_tokens": 884,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3171,
+      "completion_tokens": 884,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

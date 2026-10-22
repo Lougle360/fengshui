@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T09:58:28.935165+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1854bc34e2e628c09eb6d4b53fda78b8681e79e4daa16893e43330892aa6bb6d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000450-p000-586323d540",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘三傳上傳中俾下停’释为‘三传的具体含义不详，上传、中传、下停’，未准确对应原文‘三传上传、中传，使下停’的语义，且‘三传’属于风水术语，未按要求保留相关表述的严谨性；将原文‘梵衣真水’‘兜堂共外洋’直接保留并标注具体所指不详，符合要求，但‘兜堂共外洋’未按原文标注为引用范围，存在疏漏；将原文‘作穴圓追吉’释为‘作穴宜追吉’，语义略有偏差，原文意为作穴宜追求圆满吉地，释读不够准确"
+        ],
+        "uncertainty": [
+          "三传的具体含义，梵衣真水的具体所指，兜堂共外洋的具体所指"
+        ]
+      },
+      {
+        "id": "book010-b000451-p000-d501bd94b9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文‘瘟官在己，是禄’标注为引用范围，符合要求，但将原文‘癌官在寅，是禄’直接释读为‘癌官在寅，是禄’，未按原文标注为引用范围，存在疏漏；将原文‘凡立寅午戍艮丙辛向者貴迎貴就也’释为‘凡立寅午戍、艮丙辛向的，以迎贵就禄为贵’，未准确对应原文‘凡立寅午戍、艮丙辛向的，以迎贵就禄为贵’的语义，且‘瘟官’‘癌官’属于风水术语，未按要求保留相关表述的严谨性"
+        ],
+        "uncertainty": [
+          "癌官的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1768,
+    "completion_tokens": 434,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1768,
+      "completion_tokens": 434,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

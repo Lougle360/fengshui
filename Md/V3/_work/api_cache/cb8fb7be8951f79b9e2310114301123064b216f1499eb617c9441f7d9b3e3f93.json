@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-25T06:23:35.056659+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cb8fb7be8951f79b9e2310114301123064b216f1499eb617c9441f7d9b3e3f93",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000059-p000-dc09ac539f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语使用不符合要求：allowed_glossary中明确“水”在风水语境下指“河流、水系及其来去形态”，候选将其释为普通的“水”“水星”，未采用规定释义；allowed_glossary中明确“离”是八卦之一，原文“不离”的“离”属于locked_terms需保留，候选将“不离”直接译为“不会脱离”，未保留“离”作为八卦术语的属性，错误处理了locked_terms",
+          "存在漏译：原文“仍年”二字未进行释读，内容不完整",
+          "专业常识错误：九星体系中的辅弼是固定搭配的辅星、弼星，属于九星范畴，候选表述“九星始终有辅、弼二星跟随”存在逻辑偏差，辅弼本身是九星组成部分，并非跟随九星的独立星体"
+        ],
+        "uncertainty": [
+          "原文“撞”“益”“黏”在风水语境下的具体操作指向尚不明确，候选未做风险标注"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 780,
+    "completion_tokens": 258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 780,
+      "completion_tokens": 258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

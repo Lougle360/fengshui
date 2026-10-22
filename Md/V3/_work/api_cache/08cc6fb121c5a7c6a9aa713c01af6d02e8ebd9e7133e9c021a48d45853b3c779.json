@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T08:30:40.935100+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "08cc6fb121c5a7c6a9aa713c01af6d02e8ebd9e7133e9c021a48d45853b3c779",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000204-p000-6bda9e22d6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文存疑的‘火離’释为‘火形’无依据；‘夢’‘禹’‘枚’‘兒’‘驟’等存疑字未标注；‘正宗猛之下’原文残缺，释读不准确"
+        ],
+        "uncertainty": [
+          "原文中‘夢’‘禹’‘枚’‘兒’‘驟’等字存疑，无法确定其准确含义；‘火離’原文表述为‘火離’，释读为‘火形’无依据；‘正宗猛之下’原文表述残缺，无法确定其准确含义"
+        ]
+      },
+      {
+        "id": "book008-b000205-p000-2f67238986",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处存疑表述及残缺内容，无法形成准确释读"
+        ],
+        "uncertainty": [
+          "原文中‘貝穴’‘左領右渴’‘明堂貞’‘尚偏側’‘護焉耳’‘邊南邊下勢’‘庫小凶爲布基簾’‘木口不緊也’‘一也順去而略無進闡也’‘金下言海發之自’‘明攸言堂不者爲假’‘自肯之情’‘不可以不義也’‘無以僧於穴’‘關面以相向面無反背之弩’等表述存疑，无法确定其准确含义；原文存在OCR识别或断句问题，部分内容残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1934,
+    "completion_tokens": 376,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1934,
+      "completion_tokens": 376,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

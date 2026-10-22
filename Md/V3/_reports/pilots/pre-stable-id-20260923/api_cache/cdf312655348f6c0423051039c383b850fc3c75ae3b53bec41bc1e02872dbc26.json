@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-23T05:12:34.765387+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cdf312655348f6c0423051039c383b850fc3c75ae3b53bec41bc1e02872dbc26",
+  "response": {
+    "items": [
+      {
+        "id": "book001-s000041",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分页码数字（如'穴3'、'圆通13'、'汉39'、'萧吉40'）疑似OCR识别错误或排版错位，已按原文保留但标注可能存疑。"
+        ]
+      },
+      {
+        "id": "book001-s000042",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-s000043",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3787,
+    "completion_tokens": 135
+  }
+}

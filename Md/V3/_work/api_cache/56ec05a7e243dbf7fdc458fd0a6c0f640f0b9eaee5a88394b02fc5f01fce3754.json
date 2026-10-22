@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T04:19:44.793193+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "56ec05a7e243dbf7fdc458fd0a6c0f640f0b9eaee5a88394b02fc5f01fce3754",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000238-p000-a8a9a31ccd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“丁同 廄”被误释为修造时与坤人门女命座不宜安置马厩，漏译“丁同”内容；原文“二月日八申”被误断为“二月、八月、申日”，断句错误；原文“修 與 同甲”表述不清晰，candidate直接释为“修造时与同甲”属于无依据确定含义；原文“金定四左”“十四路”等内容完全漏译；原文“深速濃厚”未做通俗处理，属于未转换成现代中文；原文末尾“宜閣壯”表述不完整，candidate直接照搬未标注。"
+        ],
+        "uncertainty": [
+          "原文存在多处断句模糊、缺字的情况，如“修與 坤人門”“修 與 同甲”“修與 申同”“金定四左”“十四路”“一周二 外乾院”等具体含义不明，“宜閣壯”表述不完整无法准确释读。"
+        ]
+      },
+      {
+        "id": "book020-b000239-p000-38670a29b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "龍腹福囊、玉堂、宅德、天德、金匱、青龍等风水专名具体所指原文未进一步说明"
+        ]
+      },
+      {
+        "id": "book020-b000240-p000-5753a725da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000241-p000-e76e709ff0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000242-p000-fa023b1098",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000243-p000-8ffd0433d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“葬書曰勢爲難形次之方又次之”断句错误，candidate误断为“勢為難形，次之方，又次之”，正确断句应为“勢為難，形次之，方又次之”，导致语义错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000245-p000-efd58d396d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "表格中存在大量OCR识别模糊、错乱的文字，无法准确释读其含义"
+        ]
+      },
+      {
+        "id": "book020-b000246-p000-44fb2a372d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000247-p000-a4e20e0c3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陰宮乙丁巳辛癸”存在干支错误，天干中无“巳”，应为“己”，candidate未指出该错误直接照搬释读，且将错误干支直接作为确定内容呈现。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000248-p000-7ec23d08c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "标题文字语序倒装，具体所指需结合对应附图才能明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4158,
+    "completion_tokens": 962,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4158,
+      "completion_tokens": 962,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-24T20:52:49.633145+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "01ee885163112c38201de43974becbb1d4a17f6f9b0709179add61d51b96ae9c",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000081-p000-e842e31a55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000082-p000-3bbbc26510",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000084-p000-67ba8818ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“卯”属阴，此处为无依据增译；原文表述为“屆陰相比者”，并非“阴阳相对”，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文此处有缺漏，内容不完整"
+        ]
+      },
+      {
+        "id": "book017-b000085-p000-e29f7da20b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“政阳”“石戊”“谷策阴”“顺死左旋”“送死右旋”均为风水术数专业相关含混表述，未做通俗化处理，也未标注含义不明，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文存在多处语义不明的专名和表述，部分内容缺漏"
+        ]
+      },
+      {
+        "id": "book017-b000086-p000-85f5dc5587",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000087-p000-83e09fc424",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“共十五”表述模糊，原文“十五”应为页码或卷次标识，未明确说明，且未标注该内容含义存疑"
+        ],
+        "uncertainty": [
+          "原文末尾“十五”所指不明，内容可能存在缺漏"
+        ]
+      },
+      {
+        "id": "book017-b000088-p000-c442ed29a5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文含义模糊，“登”字所指不明"
+        ]
+      },
+      {
+        "id": "book017-b000090-p000-963ca32c2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子弟壬之又或出卦弟如壬癸分劉兼玄丑州”存在讹误或缺漏，候选将“子弟壬之”改为“子兼壬之类”属于无依据补译，“分刘”“玄丑州”等含混内容未标注含义不明，直接音译不符合要求"
+        ],
+        "uncertainty": [
+          "原文存在多处讹误、缺漏，语义难以明确"
+        ]
+      },
+      {
+        "id": "book017-b000091-p000-c6f61e54d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“精星”“贪狼甲申”“彗巨门”“砧军”“芳武曲”“宾右弼”等表述均为专业含混内容，未做通俗化处理，也未标注含义不明，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文存在多处语义不明的专名，内容缺漏严重"
+        ]
+      },
+      {
+        "id": "book017-b000092-p000-a3b9fc205b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“宾”“阴阳隐相兼”“积星”“中州治玄空此书”表述含混，未标注含义不明；“里说如下”属于直译不通顺的内容，未做符合现代汉语的调整或说明"
+        ],
+        "uncertainty": [
+          "原文语序混乱、缺漏较多，部分内容难以准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2161,
+    "completion_tokens": 882,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2161,
+      "completion_tokens": 882,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

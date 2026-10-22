@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:58:00.142769+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "109319c8b251bd654e8cd9dd07821ff457323809b5daa935f5b32f8fbdca89a0",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001364-p000-59ee8403b5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate中重复表述‘我所说的清代以前，指的是清代以前的时期’属于冗余增译，原文仅以‘わたしが前近代もしくは古典時代などというときは清代以前を意味します’明确指代，无需重复表述‘清代以前’"
+        ],
+        "uncertainty": [
+          "原文提及‘中国の四大科’未完整表述，candidate保留了未完整内容，需注意原文未明的部分"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 149,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1078,
+      "completion_tokens": 149,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

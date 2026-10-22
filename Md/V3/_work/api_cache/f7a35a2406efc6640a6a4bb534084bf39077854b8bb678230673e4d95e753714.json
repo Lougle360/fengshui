@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-25T04:48:38.404618+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f7a35a2406efc6640a6a4bb534084bf39077854b8bb678230673e4d95e753714",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000257-p000-040925b04d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“盘龍水向”是风水专有组合概念，被误拆为“盘、龙、水、向”四个独立事物，违背原意",
+          "原文“後人竟夫其詳”存在OCR误写，candidate补作“后人失去了它的详细内容”无原文依据，应为“后人不了解它的详细内容”才符合“竟失其详”的合理讹误推导",
+          "原文“左水用左旋于維右水用右轉干推化”断句错误，正确断句应为“左水用左旋，于维、右水用右转，干推化”，candidate的断句及释读导致逻辑不通"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000259-p000-dcf61eab70",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“逆行午巳辰卯寅鼠向猴羊右爲陰”断句错误，candidate将“鼠向猴羊”直接纳入逆行序列属于误读，其中“鼠”是地支“子”的代称，“猴”是“申”的代称，“羊”是“未”的代称，candidate未按干支对应释读，直接保留生肖表述未转换为风水语境的通用指代，且断句逻辑混乱",
+          "原文“不須尋納甲顛顛倒”被误释为“不需要去探求纳甲颠颠倒的用法”，实际应为“不需要再寻求纳甲法的颠倒推演”，candidate将“纳甲颠颠倒”作为固定名词处理不符合原文语境"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1466,
+    "completion_tokens": 474,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1466,
+      "completion_tokens": 474,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

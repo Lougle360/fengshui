@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T16:12:17.745054+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7e961177ed87def25f3bfa63e92c17fc03b392f2a0266c57f9ac94aed5786e9b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001530-p000-17e00fc5f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“トートロジー”未在allowed_glossary中，释为“同義反覆”符合常见译法，无依据扩写"
+        ]
+      },
+      {
+        "id": "book015-b001531-p000-2bd55d29a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001532-p000-a227c68985",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary中“向”的定义为建筑或穴位所朝的方位，原文中“向かわせた”的“向”并非该术语所指的含义，释读时未遵循术语限定，存在误换专业术语的问题"
+        ],
+        "uncertainty": [
+          "原文中“アポリア”未在allowed_glossary中，释为“困境”符合常见译法，无依据扩写"
+        ]
+      },
+      {
+        "id": "book015-b001533-p000-122de834ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2614,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2614,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

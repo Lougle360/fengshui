@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:06:01.463675+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bc5f5ecb914c16d4c34f5a4a63772681f72861fc4624928723e7b7b6eb3c6f48",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000492-p000-f82d3c4fd5",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "其结果与该值相等，因此，不必用大衍求一术从衍数和定母中求出乘率，而是可以从衍数中减去定母的倍数，用所得的余奇数和定母求出乘率。这就是过程©。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000493-p000-d3a215df89",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "为方便起见，暂且延后详细说明大衍求一术，现在假设通过@求一术，已经由奇数和定母确定了乘率的值。在「余米推数」题中，乘率分别为x₁=15、x₂=5、x₃=11。此时，将乘率乘以衍数（204、228、323，即m₁…mᵢ₋₁mᵢ₊₁…mₖ），得到用数（3060=15×204、1140=5×228、3553=11×323，即xᵢm₁…mᵢ₋₁mᵢ₊₁…mₖ），再将该值乘以已知的余米数（1、14、1，即r），相加后得到总数（22573=3060×1+1140×14+3553×1，即∑xᵢm₁…mᵢ₋₁mᵢ₊₁…mₖrᵢ）。⑧从这个总数中减去衍母（3876，即m₁m₂…mₖ）的倍数，所得结果就是要求的篱的容量（X=3193）。简单来说，大衍总数术以「所求数≡总数(mod衍母)」的形式，",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中「@求一术」的「@」符号含义不明，「篱」的具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000495-p000-16af4de18d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "𝒪Σ*κ 求出总数，进而计算出了篱的容量。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文中的「𝒪Σ*κ」为特殊符号组合，无法确认其含义；「篱」的具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000496-p000-3c9a313108",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "从以上分析来看，大衍总数术与中国剩余定理一一对应，这是毋庸置疑的。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2159,
+    "completion_tokens": 771,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2159,
+      "completion_tokens": 771,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

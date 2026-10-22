@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T19:47:20.246303+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4ce34a37746f75b032eed862edc3a25f96bd3a14adb706f574cc4344f12b9b8d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003082-p000-d7ea41062f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文的‘直入空’误释为‘登上高处的城邑’，属于无依据扩写，改变了原文含义"
+        ],
+        "uncertainty": [
+          "原文‘直入空’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 770,
+    "completion_tokens": 94,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 770,
+      "completion_tokens": 94,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

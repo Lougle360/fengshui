@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-25T03:54:32.242014+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "49fb52f67250f4ed5d7c9e67d2b65940d960eb3ffcfa887f9a44fb49917ac550",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000158-p000-f6be2e0698",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亥龍坐壬向丙略加乾位慎入巳亥”被误译为“如果略加乾位的话，要谨慎不要进入巳亥的范围”，属于含义偏差，原文“慎入巳亥”是指坐向调整时需谨慎涉入巳亥相关的度数区间，“如果”属于无依据添加的假设表述。",
+          "原文“原陰陽正所源載”被误译为“原本是阴阳正源所记载的内容”，语序调整后偏离原文原意，原文是“原本由阴阳正理所来源记载”的含义，“阴阳正源”属于无依据的固定术语构拟。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000161-p000-2e69b4c53a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1778,
+    "completion_tokens": 246,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1778,
+      "completion_tokens": 246,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

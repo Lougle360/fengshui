@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-24T22:30:38.454101+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d3496d4cbca2baf0d9fc0281ad804eca59812498aa9a0e430d07760e8cf1377d",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000413-p000-b18cdf127f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000414-p000-f405d6467e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000415-p000-7c7f0774e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其两旁山之形势，皆顾定我身”中“我身”指正龙，候选释读为“都顾念着自身”，将指代对象误写为旁龙山本身，与原文含义相反；原文“先天间一切正人”中“先天”属于locked_terms，候选未保留原术语且擅自释义为“先天之间”，不符合术语使用要求；原文“值其吉者为吉人，值其凶者为凶人”是指对应龙脉吉凶的时段或世代出对应的人，候选释读为“遇上吉地就会出吉人，遇上凶地就会出凶人”，误解了原文指代逻辑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000416-p000-1ac68e5f1f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000417-p000-a96347e2fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000418-p000-49e255fa27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000419-p000-25ff1c608b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处“张子”后内容残缺，无法确认"
+        ]
+      },
+      {
+        "id": "book018-b000420-p000-87651805d6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文此处仅存“六六”二字，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5196,
+    "completion_tokens": 558,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5196,
+      "completion_tokens": 558,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

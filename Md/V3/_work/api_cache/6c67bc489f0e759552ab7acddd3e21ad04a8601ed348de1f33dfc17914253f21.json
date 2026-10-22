@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:39:30.875532+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6c67bc489f0e759552ab7acddd3e21ad04a8601ed348de1f33dfc17914253f21",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000830-p000-67c995dfc4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文的‘地之形象畧似之耳’释为‘大地的形狀大致和它相似’，但原文未明确‘它’所指，属于无依据补全；‘豕或爲內堆臨之果然’释为‘豕形的對應內堆，到現場查看果然如此’，漏译了‘豕或爲內堆’中‘或’的含义，且‘內堆’未保留原文表述，属于误释。"
+        ],
+        "uncertainty": [
+          "原文‘地之形象畧似之耳’中‘之’的具体所指未明，释读时补出‘它’无依据；‘內堆’为原文未明确含义的专名，未保留原文表述。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 844,
+    "completion_tokens": 207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 844,
+      "completion_tokens": 207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

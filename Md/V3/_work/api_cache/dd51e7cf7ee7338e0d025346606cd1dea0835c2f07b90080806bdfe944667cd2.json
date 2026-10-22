@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T09:17:28.103300+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dd51e7cf7ee7338e0d025346606cd1dea0835c2f07b90080806bdfe944667cd2",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000184-p000-932b59037a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "主具旺马"
+        ]
+      },
+      {
+        "id": "book010-b000185-p000-f37abd2064",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "杨穴"
+        ]
+      },
+      {
+        "id": "book010-b000186-p000-5d38143c23",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处无法释读的内容：绪儿四割反水五九日、地体李之分、明变然然曰，无法形成完整准确的释读"
+        ],
+        "uncertainty": [
+          "绪儿四割反水五九日",
+          "地体李之分",
+          "明变然然曰"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1231,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

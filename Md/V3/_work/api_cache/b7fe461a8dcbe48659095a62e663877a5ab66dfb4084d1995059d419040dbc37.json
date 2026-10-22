@@ -1,0 +1,152 @@
+{
+  "created_at": "2026-10-16T12:35:22.778788+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b7fe461a8dcbe48659095a62e663877a5ab66dfb4084d1995059d419040dbc37",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002304-p000-2541c06f81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "土中",
+          "水属金位",
+          "会原真",
+          "木属水"
+        ]
+      },
+      {
+        "id": "book035-b002305-p000-7812524ae6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘其星先向火中推’，candidate 释为‘此星先按“火中推”来推求’，并质疑‘向’的方位含义。但‘向…推’是‘向…推求/推算’之意，candidate 的‘按…来推求’表述不准确，且‘向’在此处并非locked_term‘向’（建筑或穴位所朝的方位）的含义，不应引入此质疑。应直接释为‘此星先向火中推求’并标注‘火中推’含义不详即可。"
+        ],
+        "uncertainty": [
+          "火中推",
+          "土宿"
+        ]
+      },
+      {
+        "id": "book035-b002306-p000-b72d5474d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘其星先向土中说’，candidate 释为‘此星先按“向土中说”来解说’，并质疑‘向’的方位含义。但‘向…说’是‘向…解说/论说’之意，candidate 的‘按…来解说’表述不准确，且‘向’在此处并非locked_term‘向’（建筑或穴位所朝的方位）的含义，不应引入此质疑。应直接释为‘此星先向土中解说’并标注‘土中说’含义不详即可。",
+          "原文‘其星常借水来伴’，candidate 释为‘此星常借“水”来相伴’，并质疑‘水’是否指风水语境中的河流。但‘水’是locked_term，应直接使用allowed_glossary中的定义‘风水语境中的河流、水系及其来去形态’进行释读，无需质疑。应释为‘此星常借水（指风水中的河流水系）来相伴’。",
+          "原文‘第四兽星如角同’，candidate 释为‘第四兽星形状像“角同”’。‘角同’可能为‘角形相同’或‘如角之形’，candidate 直接将其作为整体专名处理，不够通俗。可释为‘第四兽星形状像角（或角形相同）’。但鉴于原文模糊，保留‘角同’并标注不详亦可接受。"
+        ],
+        "uncertainty": [
+          "土中说",
+          "作名",
+          "角同"
+        ]
+      },
+      {
+        "id": "book035-b002307-p000-abee48be4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "珠住",
+          "火中推",
+          "乱花君",
+          "定作名",
+          "水宫沉"
+        ]
+      },
+      {
+        "id": "book035-b002308-p000-bc2a08a8b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "鸿毛属火",
+          "滔滔",
+          "不守断"
+        ]
+      },
+      {
+        "id": "book035-b002309-p000-0fa1249338",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘第三尊星凤大鸡’，candidate 释为‘第三尊星“凤大鸡”’。‘凤大鸡’可能为‘凤与鸡’或‘凤大如鸡’等，candidate 直接将其作为整体专名处理，不够通俗。可释为‘第三尊星形状像凤或大鸡（或凤与鸡）’。但鉴于原文模糊，保留‘凤大鸡’并标注不详亦可接受。",
+          "原文后半部分重复‘属火中推第四尊星如狮象其星名属金卦旺第五奠星如金冠正属北方水精明’，candidate 指出‘原文可能存在错简或错误’，这是正确的。但释读文本中未明确区分原文的重复部分与正常行文，容易造成混淆。应在释读中更清晰地说明原文此处有重复，并指出矛盾。"
+        ],
+        "uncertainty": [
+          "土卦名",
+          "前两位真话",
+          "凤大鸡",
+          "水精明",
+          "原文错简"
+        ]
+      },
+      {
+        "id": "book035-b002311-p000-9c9161e988",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天生雄雄难得过五百里后生孤角",
+          "集口禁眼"
+        ]
+      },
+      {
+        "id": "book035-b002312-p000-6fcb85cb77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘后龙要全天地人卦更要左右金吾及金娥玉女’，candidate 释为‘后龙要全，天地人卦更要左右“金吾”及“金娥玉女”’。‘天地人卦’是并列结构，candidate 的断句（‘后龙要全，天地人卦更要…’）可能割裂了‘后龙要全天地人卦’的完整意思。应释为‘后龙要具备完整的天地人卦，更要左右有金吾及金娥玉女’。",
+          "原文‘余方不系’，candidate 释为‘余方不系’并标注不详。但结合上下文‘四维要有四战旗山出现，余方不系’，‘余方不系’可能指其他方位不要求（有这些）。candidate 未尝试进行这种浅显的语境推测，直接标注不详，略显保守。可释为‘其余方位不作要求（或没有关联）’并标注其确切含义不详。"
+        ],
+        "uncertainty": [
+          "金吾",
+          "金娥玉女",
+          "蛟龙退贡",
+          "四战旗山",
+          "余方不系",
+          "祖坟山",
+          "鬼龙"
+        ]
+      },
+      {
+        "id": "book035-b002313-p000-9f7b9a1a8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "牙笏",
+          "诰",
+          "成担",
+          "成扛",
+          "锁伦",
+          "成担置外庄",
+          "牙压满呵",
+          "玉粟",
+          "褒诀",
+          "降伏养荫星",
+          "吞吐之星",
+          "巽形轻重方位"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3867,
+    "completion_tokens": 1335,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3867,
+      "completion_tokens": 1335,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

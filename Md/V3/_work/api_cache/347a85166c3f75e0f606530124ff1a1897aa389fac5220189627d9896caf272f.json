@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:21:30.122409+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "347a85166c3f75e0f606530124ff1a1897aa389fac5220189627d9896caf272f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000619-p000-c86a109cac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“伯大两角”“外晕”“内气”“饶诚”等术语具体所指未明"
+        ]
+      },
+      {
+        "id": "book014-b000620-p000-f1ff46292f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选释读与原文完全一致，未完成白话释读转换，不符合要求"
+        ],
+        "uncertainty": [
+          "原文存在多处断句、用字模糊问题，部分语句语义不通，无法进行准确的白话释读"
+        ]
+      },
+      {
+        "id": "book014-b000622-p000-3aca7df919",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选释读对原文“薄边”的解释无依据，原文“薄灵”“减厚边”语义模糊，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文“薄边者盖而薄灵也亦有减厚边”语义不通，具体含义未明"
+        ]
+      },
+      {
+        "id": "book014-b000624-p000-9d02c2c7f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 315,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1400,
+      "completion_tokens": 315,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:45:42.979173+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e44c0ada4520b6777d3c22b25c0ffdfd834ace8043feb3950523811aeb62aa38",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000851-p000-b7ffa85359",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《皇極經世書》觀物篇的第三十五到第五十篇這共十六篇中，能看到邵雍研究聲音的各種成果，即各種聲音表（圖6-3）。每篇開頭記載的是天聲與地音的一覽表，也就是天聲表與地音表，接在其後的是天聲與地音的反切表、聲唱呂的十個表，以及音和律的十二個表，共計十個。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000852-p000-43bfc531d8",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "<table><tr><td>欽定四庫全書</td></tr><tr><td>下皇極經世書卷七上 宋邵雍撰</td></tr><tr><td>觀物為三十五 a2H4</td></tr><tr><td>日日聲平聞SLZ2O A水水音開清</td></tr><tr><td>多良十刀 3 古黑安夫卜東</td></tr><tr><td>2I 乃走思t 6</td></tr><tr><td>日日聲七下唱地之 水水音九上和天之</td></tr><tr><td>用音一百五十二是 用聲一百一十二是</td></tr><tr><td>欽定四庫全書 はまよ</td></tr><tr><td>謂平聲聞音平聲開 謂開音清聲開音清</td></tr><tr><td>音一千六十四 聲一千八</td></tr><tr><td></td></tr><tr><td>日日聲平之一聞 水水音開之一清</td></tr><tr><td></td></tr><tr><td>平聲聞唱吕一之一開音清和律一之一</td></tr><tr><td>古甲九癸 古古古古多多多多 多可个舌</td></tr><tr><td>一音 口口近揆 一音 古古古古多多多多未大化八</td></tr><tr><td>一聲坤巧邱弃 一奉 古古古古多多多多聞辛衆</td></tr><tr><td>口口州 古古古古多多多多 四每退</td></tr><tr><td>黑花香血 古古古古生多多多 良面向</td></tr><tr><td>二音 黃華雄賢 一音 古古古古多多多多光廣况</td></tr><tr><td>一峰五九仰口 二聲古古古古多多多多丁井豆C</td></tr><tr><td>吾牙月先 古古古古多多多多 兄未莹</td></tr></table>",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中存在大量无法识别的字符，具体含义不详"
+        ]
+      },
+      {
+        "id": "book015-b000853-p000-7072eb64f8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "圖6-3 聲音表",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000854-p000-cb95198cab",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "天聲表與地音表，每篇上下各一個，合計十六篇共三十二個，構成極其整齊（表6-4）。「天之用聲一百十二」表，是根據①韻頭的闢（開口呼）、翕（合口呼）與②平上去入四聲的原理，將一百一十二個韻母分為十六類（7×16=112）的韻部表；「地之用音一百五十二」表，是根據①聲母的清（無聲）、濁（有聲）與②開發收閉（接近等韻的一、二、三、四等）的原理，將一百五十二個聲母分為十六類（9×4+12×8+5×4=152）的子音表（表6-5）。表中的記號「有声無字」表示有聲音但無對應的字，□表示有音但無對應的字。另外，天聲與地音的各類，各自對應天的四",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾残缺，内容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2570,
+    "completion_tokens": 1168,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2570,
+      "completion_tokens": 1168,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

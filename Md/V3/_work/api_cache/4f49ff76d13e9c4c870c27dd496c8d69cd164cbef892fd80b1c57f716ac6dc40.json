@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-18T06:48:32.023061+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4f49ff76d13e9c4c870c27dd496c8d69cd164cbef892fd80b1c57f716ac6dc40",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005756-p000-9df7d558a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "秋是之 有公所外其中服之"
+        ]
+      },
+      {
+        "id": "book035-b005757-p000-52e1a801f5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'武风起祖'，candidate 直接写作'武风起祖'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'巨门孜路'，candidate 直接写作'巨门孜路'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'已山'，candidate 直接写作'已山'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'出百者'，candidate 写作'出百者'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'欠去公竟'，candidate 已标注语义不明，处理正确。"
+        ],
+        "uncertainty": [
+          "武风",
+          "巨门孜路",
+          "已山",
+          "出百",
+          "欠去公竟"
+        ]
+      },
+      {
+        "id": "book035-b005760-p000-02f6f57fc8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "良",
+          "兑当",
+          "无明",
+          "相夫",
+          "上载深操"
+        ]
+      },
+      {
+        "id": "book035-b005762-p000-ff6bec9233",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'为谓劳欲见离战乾没坤之道'，candidate 写作'为谓劳欲见离战乾没坤之道'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'尊晏曰'，candidate 写作'尊晏曰'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'撤丙金弯高印'等短语，candidate 写作'撤丙金弯高印'等，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'四神之山，坤艮在近，乾'，candidate 写作'四神之山，坤艮在近，乾'，并说明原文残缺，处理正确。"
+        ],
+        "uncertainty": [
+          "为谓劳欲见离战乾没坤之道",
+          "尊晏",
+          "撤丙金弯高印",
+          "乾"
+        ]
+      },
+      {
+        "id": "book035-b005764-p000-05f284363f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'合御街侯鱼上格'，candidate 写作'合御街侯鱼上格'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'得龙脉龠度者'，candidate 写作'得龙脉龠度者'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'以山音生旺休衰论之'，candidate 写作'以山音生旺休衰论之'，未标注其含义不明。应将其列为 opaque_terms 或 uncertainty。",
+          "原文'其阳局仅有'，candidate 说明原文残缺，处理正确。"
+        ],
+        "uncertainty": [
+          "御街侯鱼",
+          "龠度",
+          "山音"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5580,
+    "completion_tokens": 748,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5580,
+      "completion_tokens": 748,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:07:17.441656+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b9be205fc2ec2afffebfba54841efa1a1bb6c7ddfde24629731fd8ba1c2fe9df",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000543-p000-96ef43fc0a",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "以下为相关计算表格：<table><tr><td>i</td><td>1</td><td>2</td><td>3</td><td>…</td><td>k−2</td><td>k-1</td><td>k</td></tr><tr><td>被除数 除数</td><td>m</td><td>n</td><td>r₁</td><td>…</td><td>r_{k-4}</td><td>r_{k-3}</td><td>r_{k-2}</td></tr><tr><td rowspan=\"3\">商 余数</td><td>n</td><td>r₁</td><td>r₂</td><td></td><td>r_{k-3}</td><td>r_{k-2}</td><td>r_{k-1}</td></tr><tr><td>q₁</td><td>q₂</td><td>q₃</td><td>…</td><td>q_{k-2}</td><td>q_{k-1}</td><td>q_k</td></tr><tr><td>r₁</td><td>r₂</td><td>r₃</td><td>…</td><td>r_{k-2}</td><td>r_{k-1}=1</td><td>0</td></tr><tr><td>P_i</td><td>P₁=q₁</td><td>P₂=q₁q₂+1</td><td>P₃=(q₁q₂+1)q₃+q₁</td><td>…</td><td>P_{k-2}</td><td>P_{k-1}</td><td>P_k=q_kP_{k-1}+P_{k-2}</td></tr><tr><td>Q_i</td><td>Q₁=1</td><td>Q₂=q₂</td><td>Q₃=q₂q₃+1</td><td>…</td><td>Q_{k-2}</td><td>Q_{k-1}</td><td>Q_k=q_kQ_{k-1}+Q_{k-2}</td></tr></table>",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000545-p000-ef3fa0c612",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "另外，图表最下方的OQ_i层，在计算①式和②式时是不需要的。",
+        "confidence": "medium",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000546-p000-19968182f3",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秦九韶的大衍求一术，和上述当前的推论非常相似。它就是《数书九章》“大衍类”中，在“蓍卦发微”篇开头以“大衍求一术云”记载的内容。接下来，我想将其分为流程⑥、⑨和补充说明，简单解释其方法的含义。",
+        "confidence": "medium",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000547-p000-334a47b49b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "〈大衍求一术〉：将奇数(n)放在右上，定母(m)放在右下，在左上设立天元1（天元一）。⑥首先用右上的数除以右下的数，将得到的商(q₁)乘以上方的1，放入左下。⑨之后，在右列的上下两个数中，用大数减去小数。@接下来同样地，相互进行除法运算，每次将得到的商(q_i)乘到左列（P_{i-1}），并加到左列的上数（P_{i-2}）中。⑥当右上的数余1时，停止计算，将此时左上的数值（P_{k-1}或m-P_{k-1}）作为乘数(x)。补充说明：当奇数为1时，直接将1作为乘数即可。10）",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在无法识别的符号，已按可辨认内容翻译"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2642,
+    "completion_tokens": 1110,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2642,
+      "completion_tokens": 1110,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-10-04T02:20:24.569426+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b3bff2f8ab071d1ec07df7ee773007a786005d1787e773915f50b8eccad8b959",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000347-p000-b8c338eb9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000348-p000-761c7bfda7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000349-p000-199d43a6d2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“南交”在candidate中被直接解释为“通过南交来指示方位”，但“南交”本身是含混专名，不应被赋予确定含义，应保留原文并标注不确定性。",
+          "原文“千添乾坤艮巽分作 二 十”在candidate中被译为“后来在十二支的基础上，增加了乾、坤、艮、巽四个卦位，合为二十四个方位”，此解释合理，但“千添”为讹误，应标注。",
+          "原文“北壬癸輔 缝針 之 午爲天 爲是理未然今不 南丙 T 輔之”在candidate中被整理为“取壬子、丙午为北，壬癸为辅，称为缝针；午为南，丙丁为辅，称为天针”，此处理将原文的混乱文字进行了逻辑化重构，但原文“T”应为“丁”的讹误，且“天针”的提法在原文中并不明确（原文为“午爲天”），属于推测性解释，应标注不确定性。",
+          "原文“卵 酉”应为“卯酉”之误，candidate直接修正为“卯酉”，应标注。",
+          "原文“本文謂 立”在candidate中被译为“本文论述的是立向”，此处理合理，但原文有残缺。"
+        ],
+        "uncertainty": [
+          "原文多处文字残缺、错乱，如“南交”、“千添”、“北壬癸輔 缝針 之 午爲天”、“卵 酉”等，具体所指不详。candidate中“天针”的提法为根据上下文推测，原文依据不足。"
+        ]
+      },
+      {
+        "id": "book035-b000350-p000-5ae809c786",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将“自 4 安立宅”译为“从第4条开始说明”，此处理将“4”解释为条目序号，但原文可能为“自安立宅”的讹误或另有含义，属于推测，应标注不确定性。",
+          "candidate将“公 一”原样保留，未做处理，符合要求。",
+          "candidate将“巨舟壠戰物”原样保留，未做处理，符合要求。",
+          "candidate将“所 态 人”译为“所态人”，未做处理，符合要求。",
+          "candidate将“好楊 年 月辅命”译为“好杨年月辅命”，未做处理，符合要求。",
+          "candidate将“法 皆 須求年 是退 氣干支祿 月 玄微 曰之 不獨 馬貴 良 身 巨舟壠戰物 富貴高 人 龍 命總 脈 十 山 向 世 年 雲 并 無 月 責人合局”等混乱文字进行了断句和直译，但语义仍不通顺，应明确指出原文错乱导致无法准确释读。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱、缺字，如“公一”、“巨舟壠戰物”、“所态人”、“杨年月辅命”等，具体所指不详。整段文字逻辑混乱，难以形成连贯的现代白话释义。"
+        ]
+      },
+      {
+        "id": "book035-b000351-p000-fab9663e2b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“7年月”在candidate中被译为“7年”，可能为“其年月”或“期年月”之误，直接译为“7年”无依据，应保留原文并标注不确定性。",
+          "原文“一眞通道飛布星辰說玄奧試令揀擇作宅填福到時禍先到”在candidate中被直译，但“一眞通道”、“填福”等词含义不明，应标注不确定性。",
+          "原文“廖金精年月”为含混专名，candidate直接保留，符合要求。"
+        ],
+        "uncertainty": [
+          "“7年月”可能为讹误，具体所指不详。“一眞通道”、“填福”等词含义不明。“廖金精年月”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000352-p000-051cf861a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘蜚正法不用异说者’直接与前半句‘正言者，良师非正经不言’并列，未处理原文此处的句读与逻辑断裂问题，且未明确标注此处的讹误或不确定性。候选句的‘如神致其煽惑’连接生硬，未体现原文‘之所以生新凶而消已福 如神致其煽惑’的因果或修饰关系。候选句将‘翻听命马’直接释读为‘翻听命马’，未作任何风险标注或说明，属于对讹误/生僻词的误译或不当保留。"
+        ],
+        "uncertainty": [
+          "原文‘蜚正法’、‘翻听命马’确为讹误或生僻词，具体含义不明。候选句未按writer_uncertainty的提示进行明确标注，而是将其作为正常文句处理，可能导致读者误解。"
+        ]
+      },
+      {
+        "id": "book035-b000353-p000-fe6a0e6419",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000354-p000-b324d4a092",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000355-p000-6015d23fc2",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“惲改”、“黯政融竦翻斷解骷毗廟馳而精”、“疑 音環境茫茫”、“禹出吉莫分”等存在严重错乱，candidate虽尝试直译，但已无法形成有意义的现代白话句子，语义完全不通。"
+        ],
+        "uncertainty": [
+          "原文存在大量严重错乱、缺字或误字，导致语义完全无法理解，无法进行有效的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000356-p000-643a224ef4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“小古小 之此大之小之大之小”逻辑混乱，candidate虽尝试断句和直译，但无法形成有意义的现代白话句子，语义完全不通。"
+        ],
+        "uncertainty": [
+          "原文语句逻辑混乱，疑似文字错乱或残缺，无法准确还原原意。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 796,
+    "completion_tokens": 231,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3126,
+      "completion_tokens": 1460,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 796,
+      "completion_tokens": 231,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-24T21:30:55.914817+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "08c13fab40ff7321d73db0c83a83ceff60213452a6581ae1ed674718c0ecf52c",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000259-p000-de4e4e7083",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000260-p000-bd7535ad71",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标题为《论城龙》，候选将“城”改为“垅”，与原文不符。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000261-p000-e9caa759b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000262-p000-a8e0ffb8e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000263-p000-efe4954470",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000264-p000-b5eeb08996",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文的“支”是风水术语，与“垅”相对指平地的气脉，候选误释为“土层分支”，偏离专业语境。且原文“支之所起，气随而止”的含义是支脉起始处气随之而行，候选释为“生气就会随着停驻”，存在语义错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000265-p000-3e6f2e818f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000266-p000-648ebf6c43",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“高水一寸即是阿”的“阿”指高地，候选误释为“低洼的丘陵”，语义相反。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5448,
+    "completion_tokens": 580,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5448,
+      "completion_tokens": 580,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

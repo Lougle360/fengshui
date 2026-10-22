@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T01:13:24.595117+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3b3c9bd35414c0b56c4f497f7c5f1476992737a1d6d53107bac19d473f3cc2ac",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001322-p000-7cb47c2bb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001323-p000-4f1d78319b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001324-p000-82a8705bae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source仅节选至“定吉凶于智”即结束，candidate擅自补充了原文未载的大段内容，属于无依据增译；source中“夫子寝答于来问终”释为“对弟子的提问始终不正面回答”不准确，原句意为孔子停止答复关于神怪的提问，并非始终不正面回答弟子所有问题；原文多处脱漏的①②③，candidate未明确标注缺字，直接补译或模糊处理不符合释读规范"
+        ],
+        "uncertainty": [
+          "原文存在多处脱字（①②③），脱字处语义无法完全确定"
+        ]
+      },
+      {
+        "id": "book001-b001325-p000-738f969ca6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中“龙”的allowed_glossary释义为风水中山脉气脉，但原文“犹睹龙颜而知当贵”的“龙颜”是指帝王的容貌，属于相面术语，误用了风水领域的“龙”的定义，属于术语误释；原文“待物而应将来之地也”释为“随着事物的发展对应将来的情况”有误，“地”应为“兆”的形近讹字，指将来的兆象，释读有误；原文“问之龟筮吉以定所由差”释为“问过龟筮得到吉兆，再确定行事的路径”不准确，“差”指差等、先后顺序，未准确体现"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5007,
+    "completion_tokens": 508,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5007,
+      "completion_tokens": 508,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

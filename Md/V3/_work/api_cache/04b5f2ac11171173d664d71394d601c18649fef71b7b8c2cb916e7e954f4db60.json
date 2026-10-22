@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-24T21:00:43.801303+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "04b5f2ac11171173d664d71394d601c18649fef71b7b8c2cb916e7e954f4db60",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000115-p000-003ae911b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“当风相薄”（此处原文“藩れ”应为传抄/字形讹误，对应《周易》“雷风相薄”，candidate未指出该字形讹误风险，直接保留“當风相藩れ”作为表述欠妥；原文“制臨四方一面九”释读为“一面对应九数”无依据，属于无据释义；原文“三七居立方”未明确“立方”在术数语境的歧义，直接释为“处在立方的位置”属于无据表述；原文“纵榜纪纲”释为“以纵榜作为治理的法度”完全偏离术数文本语境，属于误译"
+        ],
+        "uncertainty": [
+          "當风相藩れ为讹误字，语义不明",
+          "巾五立極具体含义不详",
+          "纵榜纪纲具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000116-p000-98ea7435f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“魔方降”应为“九宫”类传抄讹误，candidate直接保留“魔方降”并等同于现代魔方属于概念混淆；原文“從橫相加皆公十五”的“公”为讹字，应为“共”，candidate直接保留“公十五”未指出讹误风险；原文“此言後天後天”存在重复，candidate未标注该文本异常"
+        ],
+        "uncertainty": [
+          "清書、濟書具体含义不详",
+          "魔方降为讹误表述，所指不详",
+          "公十五的“公”为讹字，实际指纵横相加皆得十五"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 936,
+    "completion_tokens": 398,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 936,
+      "completion_tokens": 398,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

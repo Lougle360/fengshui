@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-18T07:25:43.691368+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1e5ffd6609a63d8349e430487b7a7aea3dbbcff71e73348dc7ae54830fbec105",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005826-p000-74adbfe6bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表格结构清晰，candidate 的描述过于笼统，未能准确传达原文信息。原文是标准的六爻卦例排盘，包含六亲、世应、地支的固定对应关系，candidate 的描述（如“记录了兄弟与鬼、父母与才、官等六亲名称”）模糊且不准确，未能体现这是六爻（六个爻位）的完整排布。",
+          "存在漏译：原文明确标有“乙二丙六丁七”，这是纳甲筮法中的“纳干”信息，candidate 仅提及“数字组合”，未准确说明这是天干与数字的对应关系。",
+          "存在术语误换：原文“鬼”是“官鬼”的简称，candidate 直接写为“鬼”，虽可理解，但在现代白话释读中，使用“官鬼”更规范。同样，“才”是“妻财”的简称，应释读为“妻财”。",
+          "对“世 八”、“八應 八”的解释方式不当。原文“世 八”和“八應 八”中的“八”是爻位标记（很可能是“爻”的异体或简写，或表示位置），candidate 将其描述为“符号”并称“具体所指不详”，这属于未能将古文/符号转换为现代读者能理解的语言，应尝试更明确的解释（如“可能表示爻位”或“原文标记如此，含义待考”），而非简单归为不详。"
+        ],
+        "uncertainty": [
+          "原文表格中“世 八”、“八應 八”的“八”字确切含义待考，可能是“爻”的简写或特定标记。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 828,
+    "completion_tokens": 403,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 828,
+      "completion_tokens": 403,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

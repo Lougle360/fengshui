@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T12:10:20.307637+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b8813a64e6228b153a6414739f178e9e0d5aecc8d2849a892327251b19bf489f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000401-p000-84bc5f6a61",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中「枝生何碌」「硃发芽」等残缺内容强行释读为通顺语句，属于无依据补写；「丙外廉」「膀庆眼」「屈凰肉」「何碌」等原文模糊或残缺内容未标注具体含义不详，直接按字面释读存在误译风险；「蔓木太柔罪取实」中「罪取实」释读为「取实」，漏译「罪」字，改变原文含义"
+        ],
+        "uncertainty": [
+          "部分原文字句残缺，「枝生何碌」「硃发芽」等内容因原文残缺无法准确释读，具体含义不详；「丙外廉」「膀庆眼」「屈凰肉」「何碌」「罪取实」等内容原文表述模糊或残缺，具体含义不详"
+        ]
+      },
+      {
+        "id": "book014-b000403-p000-9acb0a813f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "「木二」为残缺内容，未标注具体含义不详；「玉尺一裘爲曲尺」「只要當來應梨的」等原文表述模糊内容未标注具体含义不详，直接按字面释读存在误译风险；「皮膚裂爲小服」中「小服」原文表述模糊，未标注具体含义不详，直接释读存在误译风险；「及王穴塲」中「王穴塲」原文表述模糊，未标注具体含义不详，直接释读存在误译风险"
+        ],
+        "uncertainty": [
+          "原文「木二」为残缺内容，无法准确释读，具体含义不详；部分原文断句存在歧义，「玉尺一裘爲曲尺」「只要當來應梨的」等内容因原文表述模糊，具体含义不详；「皮膚裂爲小服」「及王穴塲」等内容原文表述模糊，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3849,
+    "completion_tokens": 466,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3849,
+      "completion_tokens": 466,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

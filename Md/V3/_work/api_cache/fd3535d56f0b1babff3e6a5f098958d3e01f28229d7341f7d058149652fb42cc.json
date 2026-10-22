@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:27:29.308768+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fd3535d56f0b1babff3e6a5f098958d3e01f28229d7341f7d058149652fb42cc",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000310-p000-475f4755e9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘南井’应为‘金井’，候选句误写为‘金井’，属于专业术语误换；‘旺尤’‘紫微’‘星頭’‘脉體’等属于风水术数专名，候选句未保留原表述的专名属性，擅自将其作为普通词汇释读，不符合要求；‘墮為萊息象’原文表述含混，候选句释读为‘墮為義，屬於息象’，属于对含混原文的确定性解读，违反规则"
+        ],
+        "uncertainty": [
+          "原文中‘旺尤’‘紫微’‘星頭’‘脉體’等专名的具体所指未明，候选句未标注相关风险"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 204,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 995,
+      "completion_tokens": 204,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

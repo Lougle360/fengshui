@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-25T06:11:26.734765+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9725cb9c39caa2a0a750cde3b1a692110573d9bdc33a12a948e1da12b1980446",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001802-p000-1ce0741c20",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "第二行第二列的图片src值与原文不一致，原文为\"assets/book018/doc009/2ae3ad0293c4be2b2c314be25147fab70f9447bc77fbaff140a5d73ecd4608e2.jpg\"，候选错误修改为了其他路径",
+          "第三行第二列原文的OCR残缺标注“人贵右左A 夾穴耳者是右貴在右曰会责”，候选没有按提交说明标注该部分残缺及具体所指不详，直接释读为“左右贵人的格局”属于将不确定内容写成确定事实",
+          "第九行第三列原文“贱龙主神庙威仪”候选释读为“主家的神庙有威仪”，含义偏离，原文指对应贱龙时主出主持神庙威仪相关的人员，并非主家的神庙本身有威仪"
+        ],
+        "uncertainty": [
+          "原文“人員薦雙司作正來”“書講重雙上 凡作”“人贵右左A 夾穴耳者是右貴在右曰会责”等砂形文字标注存在残缺或语义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5443,
+    "completion_tokens": 327,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5443,
+      "completion_tokens": 327,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

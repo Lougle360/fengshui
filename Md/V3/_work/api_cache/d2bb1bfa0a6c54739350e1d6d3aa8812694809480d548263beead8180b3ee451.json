@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:15:25.535972+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d2bb1bfa0a6c54739350e1d6d3aa8812694809480d548263beead8180b3ee451",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000171-p000-c9cb1f698f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处残缺错乱，无法辨识完整含义"
+        ]
+      },
+      {
+        "id": "book012-b000172-p000-109ba1cd4a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“天頓”“定處”“頓卽安頓之頓”“窩口不靑義心印鑰”等语义不明的内容强行解读为“天造之妙”“确定的位置”“安顿生气”“青色是《心印》中的关键要义”，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000173-p000-ba3e45ebf7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“山廻水聚”“陽或凶”“雌龍”“范越風”“倒杖”“放杖”“順杖”“逆杖”“縮杖”“經根”“開杖”“窮杖”“離杖”“没杖”“截杖”“封杖”“斬開”“到騎龍”等风水术语及专有名词强行解读为现代语义或确定含义，属于无依据扩写；将原文中“勢雄耳受”“勢急就氣”“勢硬橫受”“勢促劍受”“平中華突”“開狐貴穴”等语义残缺错乱的内容强行解读为完整语义，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000174-p000-9a8684121b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“心有國”强行解读为“心中有国家”，属于无依据扩写；将原文中“其廖公四象星暈之謂乎？”强行解读为“这大概就是廖公所说的四象星晕吧？”，属于无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 545,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1911,
+      "completion_tokens": 545,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

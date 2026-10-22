@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-17T14:57:29.811370+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b03c8ac5a966c4dc9ff140a4bf049ceb17f3cc85b06675100bd8c378b486d0ed",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003886-p000-8feb42569b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘第三官星如卓筆’，candidate译为‘第三等官星形状如同笔架’。‘卓笔’通常指高耸如笔的山峰，而非‘笔架’。此处存在术语误换。",
+          "source为‘出將八’，candidate译为‘若出现八支，则能出将入相’。原文‘八’字后可能缺文，candidate将其与‘出將’连读并补全为‘出将入相’，属于无依据扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003887-p000-d6aac22c98",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003888-p000-09b418d6dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003889-p000-d2d6477061",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘相金盈室’，candidate译为‘家中金库充盈’。‘相’字未译出，可能为‘看’或‘观察’之意，此处漏译。",
+          "source为‘三元三魁同家出’，candidate译为‘且符合三元（以三元、九运等时序结构为核心的一类体系）三魁同出一家的格局’。allowed_glossary中‘三元’的定义是‘以三元、九运等时序结构为核心的一类体系’，但candidate将其作为确定解释加入，而原文‘三元三魁’可能为特定术语组合，candidate的‘符合...格局’属于无依据扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003890-p000-7e5ea70422",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文极短且无上下文，具体所指地形细节不详"
+        ]
+      },
+      {
+        "id": "book035-b003891-p000-b8851d0407",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘右卓筆文星第一格’，candidate译为‘右侧笔架形山峰为文星第一格’。此处‘右’可能指‘上述’或‘右边’，但candidate译为‘右侧’可能不准确，且‘卓笔’误为‘笔架’的问题再次出现。",
+          "candidate将‘发挥曰’后大段难以理解的文字（如‘闻其脚开木佛，峥嵘颛杯咄玩，迟脉以有不猪鹏筋睡迹导三壮惟姨凡二峰弁出者高’）基本照搬，仅做了通顺化处理，但未明确标注其因OCR或原文讹误导致无法确切还原。根据规则，对于这种连保守释读都无法成立的严重错误，应判为uncertain或revise并指出问题。candidate的处理方式不符合‘普通读者能读懂’的目标，且未充分标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003893-p000-85527d18e7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文断句与语义存在歧义，可能为‘并乃并，一只此笏为出笏当格’或类似结构，具体断句依据不足"
+        ]
+      },
+      {
+        "id": "book035-b003895-p000-7e6da9537b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003897-p000-d19985f550",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘格笏為句格此也之三則信三’语义不明，可能存在严重OCR错乱或原文脱漏。candidate仅照搬原文，未进行任何释读，不符合‘普通读者能读懂’的要求。根据规则，OCR或原文损坏导致连保守释读都无法成立时用uncertain。"
+        ],
+        "uncertainty": [
+          "原文语义不明，可能存在严重OCR错乱或原文脱漏，无法准确还原句意"
+        ]
+      },
+      {
+        "id": "book035-b003899-p000-68bc45107a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘射笔出焰不过府入即出’语义晦涩，可能指某种星象或地形特征的具体表现，但缺乏上下文难以确切解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2388,
+    "completion_tokens": 980,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2388,
+      "completion_tokens": 980,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

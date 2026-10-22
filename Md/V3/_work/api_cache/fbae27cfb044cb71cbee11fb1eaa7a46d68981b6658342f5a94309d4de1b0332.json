@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-09-25T06:55:21.897481+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fbae27cfb044cb71cbee11fb1eaa7a46d68981b6658342f5a94309d4de1b0332",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000125-p000-6b06ba18e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“者，以面对来脉而看，则干左而亥右也，凡认落脉当如此辨”存在漏译，未释读面向来脉判断时干在左、亥在右的基础判断规则",
+          "将原文“左耳受气官资荣”误译为“在穴位右侧受气便能获得官职与荣耀”，方位表述相反",
+          "原文“以脉之入手欲乘生气”漏译乘气的目的指向，释读逻辑断裂：原文意为凭借脉的入手来乘取生气，而非“以脉之入手想要乘生气”",
+          "原文“天皇而穴干向巽”误写为“以天皇之位立穴，朝向巽位”，遗漏了坐干山的关键信息"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000126-p000-6370f63ecd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2603,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2603,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

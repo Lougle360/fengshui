@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T19:03:39.918207+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e0105f7c8fa77b089d3469e0c02a4a06c79e5373c5f956d481cc7066db37694b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002351-p000-b08bc04219",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中‘藩决不赢’的‘不赢’含义，且将‘壮于大舆之輹’误译为‘强盛于大车的轮复’，原文为‘壮于大舆之輹’，‘輹’为车伏兔（车部件），‘赢’指拘累缠绕，‘藩决不赢’意为藩篱决口却未被拘累缠绕，候选句未准确传达该含义，且术语‘輹’被误写为‘轮复’"
+        ],
+        "uncertainty": [
+          "原文中‘藩决不赢’的具体所指结合上下文存在歧义，需结合卦义进一步明确，但候选句未体现该歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 830,
+    "completion_tokens": 192,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 830,
+      "completion_tokens": 192,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

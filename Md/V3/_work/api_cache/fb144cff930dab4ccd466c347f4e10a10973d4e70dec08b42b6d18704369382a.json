@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-18T07:38:56.433076+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fb144cff930dab4ccd466c347f4e10a10973d4e70dec08b42b6d18704369382a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005864-p000-a06615140f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'火穴克金才大吉'，candidate译为'火克金反而大吉'，将'才'（财）字漏译，且'反而'为增译，改变了原文语气。",
+          "原文'亦主一代富貴二代漸落三代貧賤不敗自絕中小房火刑法公事出事故缺唇患眼惡疾先富后貴'，candidate断句为'也仅主一代富贵，二代逐渐衰落，三代贫贱，家业败绝。中小房会遭遇火刑、刑法、公事纠纷，出现事故，缺唇、患眼疾及恶疾，先富后贵'，其中'不敗自絕'被译为'家业败绝'，但原文'不敗自絕'与'三代貧賤'相连，语义需推敲，candidate处理为确定事实，存在风险。",
+          "原文'不以水流穴論之不入龍法'，candidate译为'但不能以水流穴论。不入龙法'，将'之'字漏译，且断句改变了原文结构。",
+          "原文'流神宜女三至女八度屬金爲財大吉'，candidate译为'流神宜从女宿三度至女宿八度，属金为财，大吉'，准确。",
+          "原文'此山不吉是一代衣祿不足論也已丑龍在分金縫上'，candidate译为'此山不吉，是一代衣禄不足，已论。已丑龙在分金缝上'，其中'不足論也'被拆解为'不足，已论'，语义不连贯，'已论'与'不足'搭配不当。",
+          "原文'以二十四向論之在癸丑分界故癸丑各半之說餘可類推'，candidate译为'以二十四向论之，在癸丑分界，故有癸丑各半之说，其余可类推'，准确。"
+        ],
+        "uncertainty": [
+          "原文'不敗自絕'的确切含义存在歧义，可能指'不败但自绝'或'不败而自绝'等，candidate直接译为'家业败绝'，将不确定解释写成了确定事实。"
+        ]
+      },
+      {
+        "id": "book035-b005866-p000-eaebbc1b01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005867-p000-2c33045a90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005868-p000-f87e83d75f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'女土蝠管局武曲星亦能出貴其山自牛二至女二度爲上發祖入若及坐此穴者'，candidate译为'女土蝠管局的武曲星也能出贵人。此山从牛宿二度至女宿二度为上发祖入，若及坐此穴者'，其中'若及'可能为'若及'或'若及'的误录/误读，candidate直接照搬'若及'，未做任何说明，可能导致读者困惑。",
+          "原文'若自牛四度至女一度便是水度反能克本山爲鬼穴不可于女六七差鑄度中八路坐穴者'，candidate译为'若从牛宿四度至女宿一度便是水度，反能克本山为鬼穴，不可于女宿六七差铸度中八路坐穴者'，其中'差鑄度'为生僻或可能OCR错误的术语，candidate未做任何标注，直接音译，不符合对opaque_terms的处理要求。",
+          "原文'若鬼火度中有山尖秀揖主五府八座之貴'，candidate译为'若鬼火度中有山尖秀揖，主五府八座之贵'，准确。",
+          "原文'流神尾一至尾九度去主出天官畢十一至十二度來去爲才星故主富貴'，candidate译为'流神尾一至尾九度去，主出天官。毕十一至十二度来去为才星，故主富贵'，准确。"
+        ],
+        "uncertainty": [
+          "原文'若及'含义不明，可能是'若及'（如果涉及）或录入错误。",
+          "原文'差鑄度'含义不明，可能是特定术语或OCR错误。"
+        ]
+      },
+      {
+        "id": "book035-b005869-p000-499742dd8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005871-p000-ea00a094d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005872-p000-dbe949ff36",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'逢牛二三度至培訓度中入路坐穴'，candidate译为'逢牛宿二三度至培训度中入路坐穴'，其中'培訓度'为生僻或可能OCR错误的术语，candidate未做任何标注，直接音译，不符合对opaque_terms的处理要求。",
+          "原文'癸擔加癸丑木龍入穴者'，candidate译为'癸担加癸丑木龙入穴者'，其中'癸擔'含义不明，candidate未做任何标注，直接音译，不符合对opaque_terms的处理要求。",
+          "原文'梆流神宜產水度來'，candidate译为'梆流神宜产水度来'，其中'梆流神'、'產水度'含义不明，candidate未做任何标注，直接音译，不符合对opaque_terms的处理要求。",
+          "原文'虫轸水度业去'，candidate译为'虫轸水度业去'，其中'虫轸'可能为'軫'（轸宿）的误录，candidate直接照搬'虫轸'，未做任何说明或修正，可能导致读者误解。",
+          "原文'尾火虎持世，坤、乾、兑、艮、离、坎，属土，寅、子、戌、申、午、辰'，candidate译为'尾火虎持世，坤、乾、兑、艮、离、坎，属土，寅、子、戌、申、午、辰'，准确。"
+        ],
+        "uncertainty": [
+          "原文'培訓度'、'癸擔'、'梆流神'、'產水度'含义均不明，可能是特定术语或OCR错误。",
+          "原文'虫轸'可能是'軫'（轸宿）的OCR错误。"
+        ]
+      },
+      {
+        "id": "book035-b005873-p000-fe7b7b9782",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4193,
+    "completion_tokens": 1546,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4193,
+      "completion_tokens": 1546,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

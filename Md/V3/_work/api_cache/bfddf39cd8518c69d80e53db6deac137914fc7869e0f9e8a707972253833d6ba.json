@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-25T15:58:13.875783+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bfddf39cd8518c69d80e53db6deac137914fc7869e0f9e8a707972253833d6ba",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000666-p000-4c68bfdc1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文后半部分字迹漫漶、语序错乱，多数内容无法准确连贯释读",
+          "“亦雁身”后一字缺损，无法确认具体字义"
+        ]
+      },
+      {
+        "id": "book026-b000673-p000-bb382175d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语序错乱，多数内容无法准确断句和连贯释读"
+        ]
+      },
+      {
+        "id": "book026-b000676-p000-b0516c1c84",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文未出现“‘未衙之端’的‘衙’原为形近讹误的‘街’”相关依据，属于无依据的字形校正，不应作为确定内容释出"
+        ],
+        "uncertainty": [
+          "原文后半部分语序混乱，部分内容无法准确连贯释读",
+          "“未衙之端”字义不明，无可靠校正依据"
+        ]
+      },
+      {
+        "id": "book026-b000678-p000-6663ae942b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在无法识别的字符“u”",
+          "“娟難”“西筆”字迹模糊，“西”为讹误字，相关内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000679-p000-4ca1dba200",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“浮屍固不祥逢羣鴉”为残句，后半部分内容缺损，语义不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2245,
+    "completion_tokens": 416,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2245,
+      "completion_tokens": 314,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2245,
+      "completion_tokens": 416,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

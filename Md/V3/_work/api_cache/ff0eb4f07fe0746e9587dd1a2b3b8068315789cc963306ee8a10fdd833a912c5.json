@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-04T09:46:44.522011+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ff0eb4f07fe0746e9587dd1a2b3b8068315789cc963306ee8a10fdd833a912c5",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001130-p000-30dc53f3a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘老幹瓮惡’解释为‘山势呈现...这种形态’，但原文未提供足够信息确定其具体所指，属于opaque_term，应保留原词并标注不确定性，而非直接解释为一种形态。",
+          "candidate将‘寻枝脚顿跌活动者迁之’释为‘寻找那些枝脚顿跌、形态活动的地方进行迁移’，‘迁之’的对象是‘地’（结穴之处），而非‘迁移’行为本身，此处释读有偏差。",
+          "candidate将‘必两边环顾乃可’释为‘迁移时，必须确认两边都有山峦环顾，才可以结穴’，增译了‘迁移时’和‘山峦’，原文仅指‘两边环顾’这一条件。"
+        ],
+        "uncertainty": [
+          "老幹瓮惡"
+        ]
+      },
+      {
+        "id": "book028-b001131-p000-971590f3b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001135-p000-7c08fc48e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "弩则福而返则祸"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 292,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1089,
+      "completion_tokens": 292,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

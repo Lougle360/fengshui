@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:48:43.255131+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2ac1152512fb565c53091517b51b9db5a047dc354a10e8ef8be8136ac5ee4ce4",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000267-p000-32f8e12edd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在将推测内容当作确定事实的表述，如“这类格局以横眼的形态居多”“是最大的城之圆转处”，原文未明确相关含义；部分术语未按allowed_glossary规范释读，如“牕、眼、臍、腹”未明确为风水语境中与穴相关的部位，“翁星”“罗星”“真乐”“浮篇”“浮节”等未标注为含混专名或按原文保留；存在对原文OCR残缺内容的不当改写，如“進”“恩腹”“鄭蛛”“粕頊”“陶新”“亨”等，未按保守方式处理"
+        ],
+        "uncertainty": [
+          "部分原文存在OCR残缺或语义不明的内容，如“進”“恩腹”“鄭蛛”“粕頊”“陶新”“亨”等，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3202,
+    "completion_tokens": 246,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3202,
+      "completion_tokens": 246,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

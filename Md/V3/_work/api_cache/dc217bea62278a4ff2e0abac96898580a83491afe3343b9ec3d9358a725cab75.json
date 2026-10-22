@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-18T01:16:23.448898+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "dc217bea62278a4ff2e0abac96898580a83491afe3343b9ec3d9358a725cab75",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005118-p001-bba8f471b4",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "表格中包含多张图像，其中可见“頭昂”字样。",
+        "confidence": "medium",
+        "uncertainty": [
+          "图像内容无法通过文本描述确认",
+          "表格具体结构及图像含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 100,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1589,
+      "completion_tokens": 100,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

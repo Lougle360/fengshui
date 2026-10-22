@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:00:50.346180+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dfc08375815f0b6854afdd328017e4ab703f865554d57f1570c2c9e9db088f3c",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000110-p000-592f15b731",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文跨单元格的内容错误拆分归属，如将中间列第二行的内容拆分到左侧第二行、中间列第二行、右侧第八行等多处，存在内容归属偏差；部分原文残缺错乱的内容被强行整理，如“育辱”“徼有降欺”等未标注具体含义不详，不符合要求；存在重复内容，如右侧第五行与第六行均出现“穴之闪也，盖龙之闪如瓜果之不结于正藤正干之”，属于错误整理"
+        ],
+        "uncertainty": [
+          "表格内部分文字存在残缺、错乱，如“育辱”“徼有降欺”“贴奈之令”“掌览修观龙魄体取的雕体”“断然不赫”等，具体含义不详；表格部分单元格内容存在跨行列的情况，整理时按原顺序呈现，可能存在内容归属偏差"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2687,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2687,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

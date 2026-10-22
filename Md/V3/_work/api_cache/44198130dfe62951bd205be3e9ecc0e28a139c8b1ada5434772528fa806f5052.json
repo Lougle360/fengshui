@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T07:55:59.633412+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "44198130dfe62951bd205be3e9ecc0e28a139c8b1ada5434772528fa806f5052",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000097-p000-886a322a66",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释文中将原文的“第三訟向”误改为“上文第三訟向”，属于无依据扩写；将原文的“伏聚請之方”误改为“伏聚散之方”，属于篡改原文；将原文的“聚本作麟”误改为“聚本作麟，即時蠻也”，属于无依据增译；将原文的“哲云”误改为“哲云聚後乃訛作講字”，属于无依据扩写；将原文的“一層”误改为“一層；兩邊皆小水夾送”，属于篡改原文；将原文的“其峰醫叢集”误改为“其峰醫叢集”（保留错误），未按要求标注原文OCR错乱的情况；将原文的“一逆人水者似a”误改为“一逆人水者似a”（保留错误），未按要求标注原文OCR错乱的情况；释文中的“父大者為關”“趙異存參”“帳幙”等术语未按要求保留原文原样，属于赋予确定含义的错误"
+        ],
+        "uncertainty": [
+          "原文中部分文字存在OCR错乱，如“一逆人水者似a”“其峰醫叢集”等，无法确认准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4287,
+    "completion_tokens": 335,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4287,
+      "completion_tokens": 335,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

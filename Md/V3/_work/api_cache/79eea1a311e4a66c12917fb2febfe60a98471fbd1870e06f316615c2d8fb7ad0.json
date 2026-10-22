@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T23:23:06.813531+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "79eea1a311e4a66c12917fb2febfe60a98471fbd1870e06f316615c2d8fb7ad0",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001145-p000-a62d618743",
+        "modern_text": "这段文字存在OCR识别残留的字符「B」以及日文假名「ま」「る」，语义不完整，可识别的部分内容大致为：批祖离言，说离山脉都有源头，就像黄河有一处常平扇；如果要追索李源，自然应当留朋而足，那么回复何平厚的祖言，就应当离开山。",
+        "confidence": "low",
+        "uncertainty": [
+          "文本存在OCR残留字符「B」与日文假名「ま」「る」，语义不完整，部分内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001146-p000-ca8cc037dc",
+        "modern_text": "原文存在日文假名残留「っ」，可识别的内容大致为：所说的星辰，就是老龙脱报而生的时候，按照当时的星象所学来运用。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文首字带有日文假名残留「っ」，具体原字无法完全确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 253,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1159,
+      "completion_tokens": 253,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

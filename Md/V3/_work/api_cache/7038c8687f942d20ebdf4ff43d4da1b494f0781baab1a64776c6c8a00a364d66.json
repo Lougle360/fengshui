@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T09:56:50.868528+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7038c8687f942d20ebdf4ff43d4da1b494f0781baab1a64776c6c8a00a364d66",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000427-p000-fe17f624d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000429-p000-316e46c4bf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“得 o水”的缺字无法确认，释读时未标注该缺字的不确定性；“護徨”疑为“護砂”的讹误，释读时未保留原词并标注相关说明"
+        ],
+        "uncertainty": [
+          "原文中“得 o水”的缺字无法确认，具体所指不详；“護徨”疑为“護砂”的讹误，暂保留原词"
+        ]
+      },
+      {
+        "id": "book010-b000430-p000-bec526b202",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在缺字（“更 0看”），释读时未处理该缺字，无法形成准确的现代中文释读"
+        ],
+        "uncertainty": [
+          "原文存在缺字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000431-p000-ae96573a0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1713,
+    "completion_tokens": 364,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1713,
+      "completion_tokens": 364,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

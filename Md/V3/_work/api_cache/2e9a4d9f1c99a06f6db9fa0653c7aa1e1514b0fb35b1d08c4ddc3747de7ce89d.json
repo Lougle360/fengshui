@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T16:09:58.864696+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2e9a4d9f1c99a06f6db9fa0653c7aa1e1514b0fb35b1d08c4ddc3747de7ce89d",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001455-p000-b92bbfcc86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在严重OCR识别错误与残缺，无法完整解读"
+        ]
+      },
+      {
+        "id": "book015-b001456-p000-93386db068",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为零散残句，无法解读完整含义"
+        ]
+      },
+      {
+        "id": "book015-b001457-p000-ed83bed85e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为零散残句，无法解读完整含义"
+        ]
+      },
+      {
+        "id": "book015-b001458-p000-7dfe433b76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "分聚治漢武帝內傳曰昭柱雖師欽所頭續野五二惟千親靜"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1621,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1621,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

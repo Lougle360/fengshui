@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-18T00:22:13.076657+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "b7d7a0b6d832c35c53d96f9a1a1e286e7d62f698dc1a138bcff43abcd335a508",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005074-p000-89d4aaa758",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 此处为文档第 103 页的页眉说明，提示该页为高风险或复杂版面的 OCR 供检索内容，具体文字与排版以原书图片为准。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005076-p000-2c7cf4d80b",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十五，讲述砂格（第三部分）。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1199,
+    "completion_tokens": 246,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1199,
+      "completion_tokens": 246,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T19:53:46.725280+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e54e2352dae65516cff0c59814d0843f21a9b709a21be1d95cb3e85cc538de41",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003153-p000-6c95d38d81",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘赤绂’释为‘赤色的绶带所象征的尊位’属于无依据扩写，原文未提及‘尊位’相关含义，且‘赤绂’的具体所指未明确，不应赋予额外象征义"
+        ],
+        "uncertainty": [
+          "①②对应的注释未见于本段原文，具体内容不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 816,
+    "completion_tokens": 120,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 816,
+      "completion_tokens": 120,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

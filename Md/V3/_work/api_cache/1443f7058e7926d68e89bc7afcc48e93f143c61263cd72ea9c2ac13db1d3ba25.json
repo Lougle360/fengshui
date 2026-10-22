@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-17T11:04:58.280191+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1443f7058e7926d68e89bc7afcc48e93f143c61263cd72ea9c2ac13db1d3ba25",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003407-p000-ad170b5475",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘勿作震氣蓋向行巽則木氣多而主龍受克’，candidate译为‘不要使“震”气覆盖在“向”上，如果气行向“巽”’，将‘行巽’解释为‘气行向“巽”’，属于无依据的扩写。原文‘行巽’可能指气行、水行或龙行，candidate将其确定为‘气行’，超出了允许的明确化范围。",
+          "原文‘論水克’在candidate中被译为‘这是关于“水”克制的论述’，将‘水克’解释为‘水克制’，但原文可能指五行中的水克，也可能指水路的克制关系。candidate将其确定为一种论述，属于将不确定解释写成确定事实。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003408-p000-e85918a904",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘兑山属水兑山属金当放金山头水如此则吉凶无差矣’，candidate译为‘“兑”山属金，应当放金山头的“水”。如此则吉凶没有差错。’此处存在严重问题：原文‘兑山属水兑山属金’明显有误（可能是衍文或OCR错误），但candidate直接忽略‘兑山属水’并译为‘“兑”山属金’，属于擅自修正原文，且未标注原文可能存在的讹误。",
+          "原文‘放元辰水池觀后龍’中的‘放’字，candidate译为‘观察或安置’，并标注为‘含义不明’。但‘放’在风水术中常指‘放水’，即人工引导或排泄水流。candidate的解释不够准确，且未使用allowed_glossary中的定义。",
+          "原文‘穴事掃歸前路’，candidate译为‘后龙、“穴”、事理都归结于前路’，其中‘事理’为增译，原文‘穴事’可能指与穴相关的事务或格局，candidate的解释无依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003409-p000-b9a62244df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“阴局”、“垣局”具体所指不详",
+          "“低員端近”具体描述对象不详",
+          "“并以公”后文残缺，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1995,
+    "completion_tokens": 619,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1995,
+      "completion_tokens": 619,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

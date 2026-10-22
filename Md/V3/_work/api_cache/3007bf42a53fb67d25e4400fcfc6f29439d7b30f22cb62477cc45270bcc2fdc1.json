@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-24T22:55:19.883206+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3007bf42a53fb67d25e4400fcfc6f29439d7b30f22cb62477cc45270bcc2fdc1",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000898-p000-f04a3846f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“夫財も讀書有卯定中財氣流通內滿皆是財位”句，candidate将日文假名「も」错误消去，且把“卯定”误释为“定数”，属于无依据改写；原文“有名限於一隅而謂之多っ位”中的日文促音「っ」未做标注，直接按“多位”释读，未说明原文讹误/混杂日文的情况；原文“非微驗不紅而開口胡言者則行往遁詞一法”“反不汾薩江湖”“偽樂反而流傳”等内容语义模糊处，candidate未标注风险，直接按通顺逻辑补译，属于将不确定内容当作事实释读"
+        ],
+        "uncertainty": [
+          "原文存在日文假名混杂、文字讹误，“徹驗之之微對”“非微驗不紅”“汾薩”“偽樂”“楊立”“も”“卯定”“っ”等内容语义或属性不明"
+        ]
+      },
+      {
+        "id": "book017-b000899-p000-e115775181",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“而且多是非經揚也”未提及前文的“杨立”，candidate无依据将“揚”释为“杨（立）”，属于无依据增译，将不确定内容当作事实"
+        ],
+        "uncertainty": [
+          "原文“經揚”语义模糊，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b000901-p000-3216c23656",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“分切東西西個卦會者傳天下”存在文字重复（西西個），candidate直接改作“分切东西两个卦会，传遍天下”，未标注原文讹误；“學取仙人經一宗切莫亂族空五仍山下問未由入百便”语义不通，candidate未做白话文转换，直接照搬原文，不符合“普通读者能读懂的白话释读”要求"
+        ],
+        "uncertainty": [
+          "原文“分切東西西個卦會”“亂族”“空五仍山下”“未由入百便”等内容语义模糊，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b000902-p000-058c0d27d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“分却”“丙路”语义模糊，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b000903-p000-4989ce9d77",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中「八定」语义模糊，无法准确解读；原文语句不完整"
+        ]
+      },
+      {
+        "id": "book017-b000904-p000-7bdf02f4cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000905-p000-8a2ed03d3a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“排龍必據五仍診生明裏死切說分王仍山下”，candidate无依据将“五仍”替换为“五行”，属于专业术语误换，违背locked_terms要求及原文表述"
+        ],
+        "uncertainty": [
+          "“五仍”“王仍山”“耒由 用印未龙由五行而论未龙”语义模糊，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b000906-p000-554719fc91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000908-p000-1d0f04553b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000909-p000-3d6e0554b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“二千災萬鴻”的具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2257,
+    "completion_tokens": 1044,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2257,
+      "completion_tokens": 1044,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

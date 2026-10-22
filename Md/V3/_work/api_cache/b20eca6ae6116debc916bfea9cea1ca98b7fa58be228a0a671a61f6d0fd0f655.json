@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-04T07:18:11.705544+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b20eca6ae6116debc916bfea9cea1ca98b7fa58be228a0a671a61f6d0fd0f655",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000787-p000-7994bb38db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "捉金水的具体操作含义"
+        ]
+      },
+      {
+        "id": "book028-b000789-p000-4ecaad25a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘隔遠作朝宜乎聳高远而高削客乘扒砂經 卷三其主遠而聳拔客顧主情’是一个连贯的句子，candidate将其拆解并重新组织，导致‘客乘扒砂經 卷三其主遠而聳拔客顧主情’被错误地处理为独立引文，并进行了推测性解释。这改变了原文的句法结构和信息呈现方式，属于无依据的扩写。应保留原文的引文形式，并说明其含义不明即可。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000791-p000-c57612025d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "土盆貴於木中盆字的含义"
+        ]
+      },
+      {
+        "id": "book028-b000794-p000-de404fa81f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文‘星體無而而有頭腳頭不聳木涓無平土名曰頑金當居倉庫之方’拆分为两部分，并称‘文中还说’，这属于对原文结构的错误处理。原文是一个完整的句子，描述另一种星体特征。应整体处理，并指出其结构混乱、语义晦涩。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000795-p000-a7628da1eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "求砂無 K卷三没下手的完整含义"
+        ]
+      },
+      {
+        "id": "book028-b000796-p000-207e42d166",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "急山微巴中巴字的含义",
+          "祭山即见一后是否残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1876,
+    "completion_tokens": 456,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1876,
+      "completion_tokens": 456,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

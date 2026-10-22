@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T08:16:18.835016+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1ba74bcf9128b047f13d1dea8df1e205db6ce5f26ebcef3151e394ebfd431d5d",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000116-p000-28534e2271",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处未按要求保留专名原样并标注，如将‘少中落砂退’‘穿水藏风’等未明确释义的短语赋予了确定含义，且对‘遇1转县枝作域邾’‘分地校分叶护罗’等opaque_terms未按要求原样保留并标注，反而进行了无依据的释读；同时存在将推测内容写成确定事实的情况，如‘出岸的蚁形地分为二節’无原文依据，‘这是不法语’的释读也不符合原文含义；部分术语未使用allowed_glossary中的定义，如‘砂’‘水’的释读未采用指定的风水术语定义，而是自行解释。"
+        ],
+        "uncertainty": [
+          "‘寻世瓜落之’具体所指不详",
+          "‘遇1转县枝作域邾’具体所指不详",
+          "‘分地校分叶护罗’具体所指不详",
+          "‘于尽处刚护从’具体所指不详",
+          "‘将到头又必起时星’具体所指不详",
+          "‘今人熾日豐卽木’具体所指不详",
+          "‘卜小怨大者’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2629,
+    "completion_tokens": 305,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2629,
+      "completion_tokens": 305,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

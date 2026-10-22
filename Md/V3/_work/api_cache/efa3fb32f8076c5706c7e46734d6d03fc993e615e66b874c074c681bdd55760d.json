@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:08:17.765868+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "efa3fb32f8076c5706c7e46734d6d03fc993e615e66b874c074c681bdd55760d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000547-p000-5120bdca4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中《雪心赋》的“可喜”仅为片段，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000548-p000-b9bc99e633",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“問君如”仅为片段，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000549-p000-de222c131f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中《官曜诗》的“自”仅为片段，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000550-p000-96f9810da4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“寵身鐘秀炁”释为“宠身钟秀炁”属于无依据扩写，原文未明确该术语的具体含义；“曜宿瘟定秉擢衡”仅为片段，具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“寵身鐘秀炁”“曜宿瘟定秉擢衡”均为片段，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 328,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1268,
+      "completion_tokens": 328,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

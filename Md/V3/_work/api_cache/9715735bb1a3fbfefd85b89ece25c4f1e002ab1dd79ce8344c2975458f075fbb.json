@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:08:24.939419+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9715735bb1a3fbfefd85b89ece25c4f1e002ab1dd79ce8344c2975458f075fbb",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000075-p000-4d8492809e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘王壺傾’释为‘帝王赐予的酒壶倾倒’属于无依据扩写，原文未明确‘王壺’的具体所指，不应赋予确定含义；‘衰方’‘巨门星’‘学堂水’‘贵人旺’‘旺局’属于原文未明确的含混专名，候选释读未标注其具体所指不详，存在将不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "衰方、巨门星、学堂水、贵人旺、旺局的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 901,
+    "completion_tokens": 170,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 901,
+      "completion_tokens": 170,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

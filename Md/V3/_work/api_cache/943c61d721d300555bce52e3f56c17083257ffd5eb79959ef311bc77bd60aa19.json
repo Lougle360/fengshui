@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-04T00:03:07.175878+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "943c61d721d300555bce52e3f56c17083257ffd5eb79959ef311bc77bd60aa19",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000142-p000-b58d051f23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'方之方主 若 方受 作 師斜主出軍伍一主髓經雲'部分，candidate释读为'若该方位主事，若受生则主出军伍之人'，存在严重漏译和误译。'作 師斜主'未被处理，'一主'被忽略。",
+          "原文'拖一舉便成名頭斜身則爲軍伍'，candidate释读为'若拖举便成名头斜身，则为军伍'，'拖一舉'含义不明，candidate将其解释为'拖举'并作为条件句，属于无依据扩写。",
+          "原文'帶石欹斜神廟靈'，candidate释读为'带石欹斜，神庙灵验'，将'灵'解释为'灵验'，属于将含混短语（可能指灵验、灵异或神灵）解释为确定事实。"
+        ],
+        "uncertainty": [
+          "原文'方之方主 若 方受 作 師斜主'断句错乱，具体所指不详。",
+          "'拖一舉'具体所指不详。",
+          "'神廟靈'的'靈'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000143-p000-040b81539d",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文为日文且存在严重OCR错乱，candidate基本照录原文，未进行有效的日文到现代中文的转换，也未处理错乱部分。这不符合'普通读者能读懂的白话释读'目标，也未对'氏を為主'等日文词汇进行解释或标注。"
+        ],
+        "uncertainty": [
+          "原文为日文且存在严重OCR错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000144-p000-d100febcbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'木 刺'语义不明，可能为残句或错字，candidate保留原样并标注了不确定性，处理得当。"
+        ]
+      },
+      {
+        "id": "book035-b000147-p000-563e5335cd",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重错乱，candidate基本照录原文，未进行有效的古文到现代中文的转换，也未处理错乱部分。这不符合'普通读者能读懂的白话释读'目标，也未对'手龍中頭木克 乎是水有級之又適金制'等错乱语句进行解释或标注。"
+        ],
+        "uncertainty": [
+          "原文存在严重错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000148-p000-930aa08e85",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'金星在于面方，为肃杀之'句末似有缺字，candidate保留原样并标注了不确定性，处理得当。"
+        ]
+      },
+      {
+        "id": "book035-b000149-p000-3aeed06391",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量错乱与重复，candidate基本照录原文，未进行有效的古文到现代中文的转换，也未处理错乱部分。这不符合'普通读者能读懂的白话释读'目标，也未对'什民任有有经有角'等错乱语句进行解释或标注。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱与重复，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000151-p000-e0a7a4c53a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000152-p000-9e0ec8037d",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量生僻字与错乱（如'妙驴离狺纵怦群纹毗鄙鳞觌般敬挽慎结取谯似初晴三公鬼贞'），candidate基本照录原文，未进行有效的古文到现代中文的转换，也未处理错乱部分。这不符合'普通读者能读懂的白话释读'目标。"
+        ],
+        "uncertainty": [
+          "原文存在大量生僻字与错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000153-p000-10ceafdb0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2265,
+    "completion_tokens": 1071,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2265,
+      "completion_tokens": 1071,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

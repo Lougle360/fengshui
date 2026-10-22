@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:18:04.471711+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "84ef69c6d048c730a06365e81f7e2bd6dc3fe59b98ec0b73351c39f7188a3ee4",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000003-p000-7919b9d1d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000004-p000-465b4a22af",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「人百龍」「今定兩邊安此」「支辰陰陽龍及干」「收攷」「兩退」等表述模糊，candidate未标注这些内容的不确定性，直接按字面释读存在歧义风险"
+        ],
+        "uncertainty": [
+          "原文中「人百龍」「今定兩邊安此」「支辰陰陽龍及干」「收攷」「兩退」等具体所指未明"
+        ]
+      },
+      {
+        "id": "book013-b000005-p000-9e85843d52",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文「廉後壬三分」「直天五經心印 卷之一 二」表述模糊，无法确定准确含义，且释读存在推测性"
+        ],
+        "uncertainty": [
+          "原文「廉後壬三分」「直天五經心印 卷之一 二」具体所指未明"
+        ]
+      },
+      {
+        "id": "book013-b000006-p000-ca6e42a9f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1547,
+    "completion_tokens": 373,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1547,
+      "completion_tokens": 373,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

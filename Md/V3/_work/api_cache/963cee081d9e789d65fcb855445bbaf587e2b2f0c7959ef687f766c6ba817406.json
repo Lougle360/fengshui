@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:55:22.136757+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "963cee081d9e789d65fcb855445bbaf587e2b2f0c7959ef687f766c6ba817406",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000402-p000-c6aa81252a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000404-p000-667d3bb23f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000405-p000-abf5bc8433",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"龙孙抱虎短徧虎刃抱龙短\"\"龙臂抱遇虎腕虎臂抱遇龙婉\"表述含混，候选释读未明确标注其具体含义不确定，存在将含混表述当作确定解释的问题"
+        ],
+        "uncertainty": [
+          "原文中\"龙孙抱虎短徧虎刃抱龙短\"\"龙臂抱遇虎腕虎臂抱遇龙婉\"的具体所指未明"
+        ]
+      },
+      {
+        "id": "book010-b000406-p000-6e1b30ca91",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句末尾有缺字或错乱，无法确认完整含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2262,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2262,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

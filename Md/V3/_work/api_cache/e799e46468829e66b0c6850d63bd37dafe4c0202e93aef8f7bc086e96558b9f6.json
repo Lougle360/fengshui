@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T20:56:09.356622+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e799e46468829e66b0c6850d63bd37dafe4c0202e93aef8f7bc086e96558b9f6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003532-p000-06f400bd15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003533-p000-9901dcd735",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003534-p000-cae017206f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003535-p000-13177ef36e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003536-p000-c2c74a7cdc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为‘既明本爻“陆”字与九三重’，是指二爻的‘陆’字用字和九三爻重复，candidate释为‘含义不同’属于误读，偏离原文原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003537-p000-c27a0044f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的‘向’指建筑或穴位所朝的方位，本句中的‘志向’之‘向’不属于规定的locked_terms适用场景，candidate错误使用allowed_glossary中‘向’的限定定义，且原文明确是《象传》的译文内容，candidate表述冗余，同时遗漏了‘上九的高洁志向’的主体，错误泛化为‘相关的准则’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003538-p000-74fe4d10de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确是《象》的内容，‘不可乱也’的主语是上九的高洁志向，candidate释为‘相关的准则不会被淆乱’属于错误解读，遗漏了主体对象，语义偏离原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003539-p000-114ea61f7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003540-p000-ebd4100b7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003544-p000-33a63ee664",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3174,
+    "completion_tokens": 669,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3174,
+      "completion_tokens": 669,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

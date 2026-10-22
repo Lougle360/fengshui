@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-15T06:05:05.497648+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "842ea56ffd2de262c15cad3780e5368272ecea31c8edc618090d7ce2df24e80c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001295-p000-5b16b94506",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001296-p000-ed90bb5134",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001297-p000-d4ce5e5711",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘取長者之土對培成腔’，candidate译为‘取长侧的土对着培筑成冢’。‘腔’译为‘冢’可能不准确，‘腔’在此处可能指墓穴的形态或空间，而非坟冢本身。建议保留‘腔’字并加注说明其不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001298-p000-37e23e1513",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001299-p000-4cc42999fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001300-p000-3de975ac00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘以其忌時故以插名之’，candidate译为‘因为它忌讳斜受，所以命名为“插”’。‘忌時’译为‘忌讳斜受’是推测性解释，原文并未明确‘时’指‘斜受’。建议保留‘忌时’原词并说明其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001301-p000-d2995a23c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘太胡圈’含义不明，candidate直接音译，未加说明。建议标注为不明确术语。2. ‘爭炎禍便重重’译为‘若争炎祸便重重’，‘争炎’含义不明，candidate解释为‘若争炎’是推测。建议保留‘争炎’并说明其含义不确定。3. ‘仙縱從此出’译为‘仙纵从此出’，‘仙纵’含义不明，candidate直接保留，未加说明。建议标注为不明确术语。4. ‘惟此十博名秘旨’译为‘惟此十博名秘旨’，‘十博’含义不明，candidate直接保留，未加说明。建议标注为不明确术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001302-p000-9cc112cb1f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001303-p000-d88c2af7f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘本人身燃料穴爲義’含义不明，candidate译为‘本义是人身燃料穴’，未加说明。此短语可能为讹误或特殊术语，建议保留原短语并说明其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001304-p000-64b4638b10",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. ‘使星形明白天無發新’译为‘使星形明白天无发新’，‘天无发新’含义不明，candidate直接保留，未加说明。建议标注为不明确短语。2. ‘齊習’、‘應心’、‘近天祭’等词含义不明，candidate直接保留，未加说明。建议标注为不明确术语。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3112,
+    "completion_tokens": 797,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3112,
+      "completion_tokens": 797,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T14:14:03.947390+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3c13fc9ddd6de22e6f7b5ddc2bce37add82cf52a0421ece52a03aca7838522c5",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000637-p000-a2d4748692",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate将原文中格式混乱的符号$^d$标注为“残缺符号”，但未明确说明原文符号残缺的具体情况，且未完整呈现原文的混乱格式，存在对原文内容的不当处理"
+        ],
+        "uncertainty": [
+          "原文存在多处公式符号残缺、格式混乱，无法确认相关符号的准确含义"
+        ]
+      },
+      {
+        "id": "book015-b000639-p000-c2d0dff16a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate将原文中格式混乱的符号$z20)$标注为“残缺符号”，但未明确说明原文符号残缺的具体情况，且存在“不得不得出”的冗余表述，不符合原文的严谨性"
+        ],
+        "uncertainty": [
+          "原文存在公式符号残缺、格式混乱，无法确认相关符号的准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 230,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1210,
+      "completion_tokens": 230,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

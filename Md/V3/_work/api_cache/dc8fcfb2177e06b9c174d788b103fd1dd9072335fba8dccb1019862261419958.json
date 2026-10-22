@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T09:05:31.387736+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dc8fcfb2177e06b9c174d788b103fd1dd9072335fba8dccb1019862261419958",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000404-p000-f5ae09d821",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为“乘之贵”，候选无依据增加“千乘之贵”的相关表述，属于无依据增译，且原文无任何信息表明该内容是某句的收尾文字，属于无依据推测"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000415-p000-6810893b52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "形囚的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 757,
+    "completion_tokens": 171,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 757,
+      "completion_tokens": 171,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

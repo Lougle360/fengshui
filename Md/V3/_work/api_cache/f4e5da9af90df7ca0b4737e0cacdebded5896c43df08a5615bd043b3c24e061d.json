@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T18:21:29.204655+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f4e5da9af90df7ca0b4737e0cacdebded5896c43df08a5615bd043b3c24e061d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001058-p000-2b697562eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001059-p000-8bcb54eba4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“金水橫過兩頭齊勺而中腰細小乃兩金扛一水就水裁穴”的主语是地形的金水形态，candidate误表述为“桥的两头齐平，而桥的中腰细小”，属于核心含义理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001060-p000-b03b04c34a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“入首平開二泡三脉相連”的“二泡三脉”是龙脉入首后呈现的形态，candidate未准确对应表述，且“法綴奠法浴瓜”与前文的结构拆分符合原文，但“折奕法”“蠏眼坐絲連折藕”“綴奠法”属于风水专业术语未标注不确定性，直接按字面表述易产生歧义"
+        ],
+        "uncertainty": [
+          "“折奕法”“蠏眼坐絲連”“綴奠法”具体操作含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b001062-p000-acae1defff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001063-p000-07447d7a9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“迎塟法”“臨盤收金”具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b001064-p000-02bfdb6dd8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“兩水夾木頭圓尾尖”的断句应为“两水夹木，头圆尾尖”，candidate误断为“兩水夾木頭，圓尾尖”，属于语义理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001065-p000-8693e4c3de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“唧珠”具体所指原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b001066-p000-ecc20d85d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“勢如風飄帶而動而不靜寫內闊而圓平”的“寫”属于原文疑似讹字，candidate未标注该情况，直接忽略“寫”字表述为“窩內闊而圓平”，存在漏译风险"
+        ],
+        "uncertainty": [
+          "“寫”字此处疑似讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001067-p000-4af60a643e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文是“深淺坐厚封窩淺深坐薄封”，candidate调整语序为“窩深的話，坐厚封；窩淺的話，坐薄封”属于无依据语序调整，且未说明“坐厚封”“坐薄封”的具体含义，未标注不确定性"
+        ],
+        "uncertainty": [
+          "“坐厚封”“坐薄封”具体操作含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b001068-p000-31a92f0dad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“應樂齊俗當就腰大慶橫剪扦之前去小墩孤露不結穴”的“應樂齊俗”“腰大慶”属于含义不明的术语，candidate直接照抄未标注不确定性，且“前去小墩孤露不結穴”原文是说明前方小墩不结穴的情况，candidate表述为“若前方有小墩孤露不結穴，則用折塟法”属于无依据的逻辑关联添加，原文未说明折塟法是针对该情况的"
+        ],
+        "uncertainty": [
+          "“應樂齊俗”“腰大慶”具体所指原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2521,
+    "completion_tokens": 1138,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2521,
+      "completion_tokens": 1138,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

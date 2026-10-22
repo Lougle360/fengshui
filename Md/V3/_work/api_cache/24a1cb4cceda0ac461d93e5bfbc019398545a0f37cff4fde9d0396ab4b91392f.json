@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T07:56:23.934332+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "24a1cb4cceda0ac461d93e5bfbc019398545a0f37cff4fde9d0396ab4b91392f",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000082-p001-ba94e25f66",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处文字残缺、OCR识别错误（如“聊”“f”“原口”“挿創”“僞”“友貴”“胄小”“魏乎”“藥”“圃幷”“撰”“紫圓”“旃见葛歌秋”“教文星”“ゅ”“稱鍾”“飄星”等），部分内容无法形成通顺的风水释读，且未按要求将古文转换成现代中文，仅标注为表格内容及罗列原文字段，未完成白话释读任务"
+        ],
+        "uncertainty": [
+          "原文多处文字残缺、OCR识别错误，部分内容含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3768,
+    "completion_tokens": 194,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3768,
+      "completion_tokens": 194,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

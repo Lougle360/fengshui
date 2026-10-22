@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:03:11.032385+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "502b3468d6be70f4b2c79b9c5d42e7d7d40df8aa831be512acaf8dcb85733dfc",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002343-p000-a3b576b52e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文的\"以中也\"释为\"爻象居中得正\"，超出原文仅指九二爻阳刚居中的含义，属于无依据扩写"
+        ]
+      },
+      {
+        "id": "book016-b002344-p000-618e10eeee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002345-p000-edd825a0c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文中\"若像大羊强触藩贞厉\"的内容，属于漏译"
+        ]
+      },
+      {
+        "id": "book016-b002346-p000-6ddf3398ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1729,
+    "completion_tokens": 270,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1729,
+      "completion_tokens": 270,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

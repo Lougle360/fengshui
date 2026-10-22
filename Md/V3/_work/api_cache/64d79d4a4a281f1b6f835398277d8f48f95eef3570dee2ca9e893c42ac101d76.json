@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-18T00:49:49.814732+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "64d79d4a4a281f1b6f835398277d8f48f95eef3570dee2ca9e893c42ac101d76",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005087-p000-9296b78cfe",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 此处为文档第 108 页的说明性题记，提示该页属于高风险或复杂版面，OCR 结果仅供检索参考，具体内容与排版以原书图片为准。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005090-p000-f40cce3bec",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十五：砂格第六",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1196,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1196,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

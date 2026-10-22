@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:21:44.701716+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f534fa7b629e5874e06186ace323795fee8cd60a0aa344cfd335acb357768dec",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000055-p000-8842450e95",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000056-p000-177f2e7618",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘仁古人墳而知經言之不易矣’释为‘仁古人的坟墓，就知道经中所言并非易事’，语义模糊，‘仁古人’原文未明，不应随意释义"
+        ],
+        "uncertainty": [
+          "‘仁古人墳而知經言之不易矣’具体所指不详，原文未明确‘仁古人’的含义"
+        ]
+      },
+      {
+        "id": "book013-b000057-p000-45d5813a90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000058-p000-1339ea26ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘天玉經心節’相关题记的具体所指不详，原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1925,
+    "completion_tokens": 287,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1925,
+      "completion_tokens": 287,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

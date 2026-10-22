@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T18:15:37.713872+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3ccda5dcee785c420126e082603bc8647b4d96c0291c856194b659e3a0fc2dee",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001788-p000-a7c7bc7fca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中存在明显的OCR错误，将《象传》原文的‘频复之厉’误拆为‘愁眉苦脸勉强回复的’‘危险’等无意义内容，candidate仅保留了正确的《象传》原文‘频复之厉’，但未处理source中混乱的错误文本，且未明确指出source中存在的OCR错误问题"
+        ],
+        "uncertainty": [
+          "source中‘愁眉苦脸勉强回复的’‘危险’等内容为OCR错误导致的乱码，具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 816,
+    "completion_tokens": 164,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 816,
+      "completion_tokens": 164,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

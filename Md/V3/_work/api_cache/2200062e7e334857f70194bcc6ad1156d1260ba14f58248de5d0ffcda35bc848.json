@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-15T01:19:23.154658+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2200062e7e334857f70194bcc6ad1156d1260ba14f58248de5d0ffcda35bc848",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001590-p000-55768fba1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘下抱肩 抱肩’之间无标点，candidate处理为‘“下抱肩”或“抱肩”’，可能将并列关系误释为选择关系。应明确为两种形态或同一形态的不同描述，并保留原文的并列形式。",
+          "‘各’字漏译。原文末尾‘各’字，candidate仅说‘含义不明’，但未将其作为原文内容释读出来。应保留‘各’字并说明其含义不明。"
+        ],
+        "uncertainty": [
+          "“下抱肩”与“抱肩”是两种形态还是同一形态的不同描述",
+          "“各”字的具体含义"
+        ]
+      },
+      {
+        "id": "book033-b001591-p000-eb641f3ad4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“贈龍”是否为“賤龍”之误或特定术语",
+          "“周死罪”的具体含义"
+        ]
+      },
+      {
+        "id": "book033-b001594-p000-c97e13d492",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘陈族仙羣’的‘陈’字，candidate直接保留为‘陈族仙羣’，但未说明其可能是‘阵’（阵）的误写或通假。‘陈族仙羣’本身不通，应指出其可能为‘阵族仙群’或‘群仙阵族’之误，并说明含义不详。",
+          "‘上如峰屯蟻聚’释为‘上方如山峰屯聚，下方如蚁群聚集’，属于无依据的增译。原文只有‘上如’，并无‘下如’。应释为‘上方如山峰屯聚、蚁群聚集’或‘上方如山峰蚁群般屯聚’，并说明‘上如’可能指上方景象或形容其密集状态。"
+        ],
+        "uncertainty": [
+          "“陈族仙羣”的具体含义",
+          "“案”是否特指“案山”",
+          "“上如峰屯蟻聚”中是否隐含“下如”之意"
+        ]
+      },
+      {
+        "id": "book033-b001596-p000-bdcce9ec12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘多僅從武貴’释为‘多仅从武贵’，并推测‘僅從’可能为‘仪从’之误。此处理将原文的‘僅從’作为不确定词处理，但‘多仅从武贵’的现代汉语表述不通顺。应更直接地释为‘多出仪仗随从的武职贵人’，并说明‘僅從’可能为‘仪从’之误。",
+          "‘飄湯’释为‘飘荡’，并说明可能为误写。此处理可以接受，但‘飘荡’的释义略显现代。可释为‘风流飘荡（或飘荡）’，并说明‘湯’可能为‘荡’之误。"
+        ],
+        "uncertainty": [
+          "“賤龍”是否等同于“下格龙脉”",
+          "“多僅從武貴”中“僅從”的确切含义",
+          "“飄湯”是否为“飘荡”的误写"
+        ]
+      },
+      {
+        "id": "book033-b001598-p000-00fa174b22",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“歐”字的确切含义及是否为误字"
+        ]
+      },
+      {
+        "id": "book033-b001600-p000-0b7fdd4ac3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1655,
+    "completion_tokens": 781,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1655,
+      "completion_tokens": 781,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

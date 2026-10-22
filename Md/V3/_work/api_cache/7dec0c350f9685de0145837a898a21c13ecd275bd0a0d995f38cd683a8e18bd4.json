@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T06:52:45.512353+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7dec0c350f9685de0145837a898a21c13ecd275bd0a0d995f38cd683a8e18bd4",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001986-p000-279df1daf3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中多个穴位的诗句存在表述不通顺的情况，候选直接将其作为完整通顺的口诀引用，未标注原文诗句存在讹脱的问题；摆脚穴诗原文‘不两旁有护身贵’‘宜官必定百到帘前’、掬搭穴诗原文‘有本身一臂牛角，龙后儿孙为代有官’等句存在明显缺字或语序混乱，候选未做任何说明，不符合要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001988-p000-43b0ef1221",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001993-p000-bed211cb58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2951,
+    "completion_tokens": 241,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2951,
+      "completion_tokens": 241,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

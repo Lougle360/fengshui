@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T17:40:13.453825+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2159206eb5c703abf0f4d943026fde13392d52973c05491b33735c5f45eb8eac",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000826-p000-7fbc0a5805",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "第十行将原文的“卷四”误写为“卷回”，属于字形识别错误。",
+          "第三十五行将原文的“數樣”误写为“教样”，属于字形识别错误。",
+          "第三十七行将原文的“難覓穴”误写为“难玄穴”，属于字形识别错误。",
+          "第十二行将原文“破軍火”误写为“破军火”，属于字形识别错误。",
+          "“金木塟水葵其柔其芽其湧”的释读断句错误，原文“其柔”对应金、“其芽”对应木塟、“其湧”对应水葵，candidate表述为“取其柔、其芽、其湧”擅自补出原无的“取”字，表述不准确。",
+          "“火葵土塟金乗其正其角其虛”的释读断句错误，“其正”对应火葵、“其角”对应土塟、“其虚”对应金乘，candidate表述为“取其正、其角、其虚”擅自补出原无的“取”字，表述不准确。",
+          "部分排版错乱内容的行号对应有误，如原文“金星水窩有數樣窩窩淺員平方可搖”被拆分到不同行释读，导致内容对应混乱。"
+        ],
+        "uncertainty": [
+          "表格中部分内容存在排版错乱与缺字，无法完整准确释读",
+          ".0、3、B、20、o、J、[0]、8、6、S、C、o00(0等标记具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3818,
+    "completion_tokens": 406,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3818,
+      "completion_tokens": 406,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

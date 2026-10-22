@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-04T00:37:06.183974+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f922f189734b5ab2483e6c88ea5f0b80c036e99938abf2e32cb1fdc96c82e3f3",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000254-p000-26a14c7b3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘声如富貴二品龍則天’处理为‘若声音如富贵二品龙，则原文至此语意未尽’，这是对原文的推测性解释，而非基于原文的保守释读。原文‘声如’可能是‘聲如’（意为‘例如’或‘譬如’）的误写或异体，candidate将其释为‘声音’并构建了一个不完整的假设句子，属于无依据扩写。应保留原文短语并标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘声如富貴二品龍則天’的具体含义不明，可能为‘例如富贵二品龙则天’或存在讹误。"
+        ]
+      },
+      {
+        "id": "book028-b000255-p000-4715ef8a7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘書一重矣’含义不明，可能指书已重刻或内容重要。",
+          "‘貴龍之閉焉耳’具体所指不详。",
+          "‘公捐之以示開發之實見’具体所指不详。",
+          "‘藏’具体所指不详，可能指藏风聚气之地或其他。",
+          "‘抵掌’具体所指不详，可能指轻易谈论或掌握。"
+        ]
+      },
+      {
+        "id": "book028-b000259-p000-8d122b231e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘亦有密格疎審一樣頭腦相似脉從中出落得吉方爲合格’释读为‘文中也提到有密格和疏审，头脑相似，脉从中出，落在吉方才算合格’，其中‘疎審’可能为‘疏審’（疏朗与审察）或‘疏審’（一种格局名），candidate将其处理为并列的‘密格和疏审’，但原文结构更可能指‘密格’与‘疏審’是两种并列的‘格’，或‘密格疎審’是一个整体术语。此处理存在将不确定结构确定为并列关系的风险。",
+          "candidate将‘腳曜維同從恕稍可’释为‘脚曜相同，从恕稍可’，‘腳曜’‘從恕’均为opaque_terms，但candidate未将其置于引号内或明确标注为术语，直接作为普通中文句子释读，赋予了不确定的确定含义。",
+          "candidate将‘亦有審格不及圖者義見開口GGGGGI’释为‘也有审格不及图示的情况，其义见‘开口’，但原文末尾有乱码‘GGGGGI’，具体所指不详。’其中‘義見開口’可能指含义见于‘开口’格局或图示，candidate将其处理为‘其义见‘开口’’，但‘开口’本身是opaque_term，未加引号或标注，且‘GGGGGI’可能为图示标记或乱码，candidate处理为乱码是合理的，但整体释读对不确定术语的处理不够保守。"
+        ],
+        "uncertainty": [
+          "‘密格疎審’的具体结构和含义不明。",
+          "‘腳曜’‘從恕’具体所指不详。",
+          "‘開口’具体所指不详，可能是一种格局名称。",
+          "‘GGGGGI’可能为乱码或特殊符号。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 728,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1129,
+      "completion_tokens": 728,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

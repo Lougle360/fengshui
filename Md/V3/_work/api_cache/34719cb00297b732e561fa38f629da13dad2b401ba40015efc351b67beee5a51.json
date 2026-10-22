@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T17:03:16.016044+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "34719cb00297b732e561fa38f629da13dad2b401ba40015efc351b67beee5a51",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000610-p000-f127c7552b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将《正义》原文的‘所以再三不告’误释为‘之所以再三告知都不回应’，与原文含义相反，属于反义误译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 839,
+    "completion_tokens": 90,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 839,
+      "completion_tokens": 90,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

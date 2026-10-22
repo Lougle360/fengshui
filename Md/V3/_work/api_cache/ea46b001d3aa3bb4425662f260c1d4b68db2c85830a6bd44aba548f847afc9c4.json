@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-26T13:20:57.381185+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ea46b001d3aa3bb4425662f260c1d4b68db2c85830a6bd44aba548f847afc9c4",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000831-p000-cae2730f44",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为七言诗歌体裁，candidate将整段改为散文式释意，破坏了古籍原文的体裁形式与原文本意的严谨性，添加了无原文依据的过度引申，不符合古籍整理保守性要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000832-p000-182943b84f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为明确的标题文本，candidate擅自将标题改为释义性语句，不符合古籍标题保留原文的基本要求，且丢失了原文作为标题的格式属性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000838-p000-c5896fe832",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为风水口诀体裁，candidate将口诀改写为释意性文字，破坏了口诀的原有格式与简洁性，不符合口诀类原文需保留原貌的整理要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000847-p000-fdb9573603",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为古籍标题，candidate将标题改为解释性语句，丢失了原文标题的准确性与格式属性，不符合古籍整理保留原文标题的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000848-p000-aaecc4b773",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为《望江南》调的口诀原文，candidate添加了“属于金局的”“来水”等无原文直接依据的内容，对原文进行了过度解读，未保留原文的原始风貌"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000849-p000-4d528196dd",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为口诀内容，candidate添加了“属于金局的”“作为贪狼位来水是吉兆”等无原文直接依据的引申解释，擅自补充原文未明确说明的内容，不符合保守性要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000850-p000-1eaabf259d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为风水口诀，candidate添加了“属于火局的”“对应蛇、马方位”等无原文直接依据的解释，存在过度解读的问题，未保留原文原貌"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000856-p000-8e000fcb73",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate添加了“属于水局的”“这两个方位来的水被称为贪狼位的水”等内容，其中“二水”的具体所指原文未明确，candidate的解读缺乏原文直接依据；current虽标注“具体所指不详”，但更符合存疑的保守整理原则"
+        ],
+        "uncertainty": [
+          "原文“二水名为贪狼位”的具体所指无明确依据，candidate的解释存在主观性"
+        ]
+      },
+      {
+        "id": "book001-b000859-p000-080ab9a4f4",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate添加了“属于火局的”“对应辛方位”“两个方位的水来迎是吉兆”等无原文直接依据的内容，对原文进行了主观引申，不符合保守整理要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000864-p000-e4c22fd839",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4218,
+    "completion_tokens": 1001,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4218,
+      "completion_tokens": 1001,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

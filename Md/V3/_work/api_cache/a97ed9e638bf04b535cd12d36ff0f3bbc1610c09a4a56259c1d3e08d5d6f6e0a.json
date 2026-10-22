@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-24T11:10:57.100063+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a97ed9e638bf04b535cd12d36ff0f3bbc1610c09a4a56259c1d3e08d5d6f6e0a",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000118-p000-5a24c25339",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中“乙向巽水”的“向”“巽”“水”已按allowed_glossary释义处理，“少T”按原文OCR识别为“少丁”处理，符合要求"
+        ],
+        "uncertainty": [
+          "“巽为大”具体所指不详",
+          "“乙为六秀”具体所指不详",
+          "“微龙家”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1113,
+    "completion_tokens": 129,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1113,
+      "completion_tokens": 129,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

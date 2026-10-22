@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-15T04:05:54.995036+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f5b25ed4af3d646949a2881463c0cf1fe8d2922fea72ecab4ff251d407627327",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001112-p000-89ef2c044c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亡于凶禍爲賭錢酗酒爲落水投河爲淫亂閑門爲拋離鄉井爲點面刺額爲倒路打尸于疾病爲癆瘵爲水腫爲腳氣爲腎癩”是一系列并列的因果或对应关系，candidate将其拆解为多个独立的“是因为”句式，改变了原文的并列结构，并可能错误地建立了原文未明确的一一对应关系。例如，原文可能意指“亡于凶祸”对应“赌钱酗酒”，“落水投河”对应“淫乱”等，但candidate的断句和解释方式（如“死于痨瘵，是因为水肿”）可能不准确。",
+          "原文“五未”在candidate中被保留为“五、未”，但未按writer_uncertainty要求标注其模糊性。",
+          "原文“肾癞”在candidate中被保留，但未按writer_uncertainty要求标注其古病名及指代不详。",
+          "原文“以申子辰爲禍發之期”中“申子辰”是地支组合，candidate处理为“申、子、辰”，可以接受，但整个句子释读的准确性受前面结构问题影响。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001113-p000-dbf4a3e76b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“节论起祖龙水字如子进平者后奉之”释读为“节论起祖龙水字，如子进平者后奉之”，但未按writer_uncertainty要求标注其断句与语义模糊。",
+          "candidate将“如人之有之”和“如人之有”直接释读，未按writer_uncertainty要求标注其重复且语义不明。",
+          "candidate将“奉星”直接释读，未按writer_uncertainty要求标注其具体含义不详。",
+          "candidate的释读基本是字面拼接，未能将原文混乱的语句（如“如人之有之。起祖必是山者为龙，平者宝殿奉星之常有生于其上，谓之祖者，如人之有。”）处理成连贯的现代中文，且存在增译（如“谓之祖者，如人之有”后无对应解释）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001114-p000-7cdebf823d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“特达越前”语义模糊，具体所指不详。",
+          "原文“面必有作为”中“面”指代不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001115-p000-4a9a5bf843",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“分是分稱稱市道是本米分新之所 意”释读为“分是分，称称市道是本，米分新之所意”，未按writer_uncertainty要求标注其语义混乱、具体所指不详。",
+          "candidate将“纠不月者”释读为“纠不月者”，未按writer_uncertainty要求标注其语义不通、具体所指不详。",
+          "candidate的释读未能将原文明显不通的句子（如“分是分，称称市道是本，米分新之所意”）处理成可理解的现代中文，只是机械直译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001116-p000-68c4b09bd6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“生是低昂多节目”语义简略，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001117-p000-6aa927c39e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“順是開爭向前往 42逆是望后去”释读为“顺行是指开争向前前往，逆行是指向后望去”，其中“开争”含义不明，且“42”为OCR错误或无关字符，candidate未处理或标注。",
+          "candidate将“逆前左右皆逆者房房受前逆后用者先正 To退是漸蕭條”释读为“如果逆向前方左右皆逆，则房房受其影响；若前逆后用，则先正。退行意味着逐渐萧条”，其中“To”为OCR错误或无关字符，candidate未处理或标注，且“先正”含义不明。",
+          "candidate将“即節高岫射涯杕辯賄嵯妣最結炷縮贛攸懾鳩鳩達”整句保留并标注“具体所指不详”，但此句明显存在大量OCR错误或生僻字，导致无法进行任何可靠的释读，应标记为uncertain而非简单标注。",
+          "candidate将“如聰系水而飛”释读为“如聪系水而飞”，其中“聪系”含义不明，可能为OCR错误，candidate未处理或标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001119-p000-3852825aea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“脈微 正 一必結富貴榮頤之 寺”释读为“脉微正一，必结富贵荣颐之寺”，其中“寺”可能为“地”或他字之误，candidate未标注此疑点。",
+          "candidate将“若斜側 破 碎 鹿 丑 小者重脈 峻險博龍 鹿大者輕”释读为“若斜侧破碎，鹿丑小者重，脉峻险博龙，鹿大者轻”，其中“鹿丑”、“博龙”含义不明，candidate虽在uncertainty中列出“鹿丑”、“博龙”，但释读句中未作任何标注（如引号），直接将其作为可理解成分嵌入句子，不当。",
+          "candidate将“舊有陽星九峽 陰星 入 峡 又平并 以 九 星形 格 招”释读为“旧有阳星九峡，阴星入峡，又平并以九星形格招”，其中“平并”、“招”可能为“平洋”、“论”或他字之误，语义不通，candidate未标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001120-p000-bc006ffa1e",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source文本存在大量无法连贯通读的片段（如“无吹旌结离”、“车远字”、“吹类则余”、“穴正两，损常近推”等），疑似严重OCR错误或原文损坏。candidate的释读只是将不可读的字词机械拼接，未能形成任何有意义的现代中文句子，不符合V3“普通读者能读懂”的目标。此类情况应直接判定为uncertain。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001121-p000-c5a2552854",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'角落水爲吉' 中的 '角落水' 被译为 '角落出水'，含义有变。原文指帐角有水流（水）为吉，而非从角落流出水。",
+          "专业术语误换：'尤紗而無得' 被原样保留，未作任何解释或风险标注。根据规则，对于含混短语，candidate 应保留原短语并明确标注 '具体所指不详' 或类似说明，而不是直接照搬。",
+          "日文误译：'尤紗而無得' 疑似日文词汇（尤も、紗？），但 candidate 未作处理，直接当作中文。",
+          "增译：'此第五節论述穿帐' 中的 '论述' 为增译，原文为 '此第五節論穿帳'。为形成句子而补出动词可以接受，但 '论述' 较 '论' 更正式，略有增译，但非主要问题。"
+        ],
+        "uncertainty": [
+          "'尤紗而無得' 含义不明，疑似日文或讹误。"
+        ]
+      },
+      {
+        "id": "book035-b001122-p000-fb4b699fe2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "反义/误译：'卸博換鹿者細凶星變吉氣' 被译为 '卸博换鹿者，细凶星变吉气'，将 '鹿' 当作原文。但结合下文 '出必鹿丑星'，'鹿' 很可能是 '粗' 的讹字或特定术语（如 '禄'？），但 candidate 未作任何标注或处理，直接保留 '鹿'，可能导致读者误解。",
+          "专业术语误换/未处理：'必鹿丑星' 被原样保留，'鹿丑' 含义不明，candidate 未作风险标注。",
+          "专业术语误换/未处理：'曾退御' 被原样保留，'退御' 含义不明，candidate 未作风险标注。",
+          "断句/语义不清：'十条九条也。了中有一条，欲是真。' 断句生硬，'也了中' 应为 '十条九条也了，中有一条'，意指多条中有一条是真的。candidate 的断句导致语义不通。",
+          "数字变化：'十条九条也了' 被译为 '十条九条也。'，遗漏了 '了' 字，'了' 在此处可能表示 '完毕'、'算下来' 或语气词，漏译可能影响语气。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 653,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4243,
+      "completion_tokens": 1990,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1143,
+      "completion_tokens": 653,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

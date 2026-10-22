@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T04:23:13.588393+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8ded5ed3f146049559ef3b79e1f030d5144ec9811ba7a59ad6a82b00c1b75efb",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000343-p000-86c5da1a44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000344-p000-d7911030f1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“發”无依据译为“刊刻”，“同課”无依据译为“同學的文稿”，原文未明确二者含义，属于擅自添加确定解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000345-p000-8211cca909",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“袁士麟玉書”是袁士麟字玉書，不应拆分为两个人名"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000346-p000-3ccba11126",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000348-p000-054acb27d6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是“龍穴與水皆少砂不得”，意为龙、穴、水都不能缺少砂，候选误译为“龍、穴與水都很少，砂不能缺少”，语义完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000350-p000-00fdf4b201",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. “州獨以為石然”误译为“我獨自認為應當以石為準”，原文字义不明，属于擅自添加确定解释；2. “其所繫非沙小也”误译为“它的關係遠比沙小”，原文应为“其所系非渺小也”（“沙”为通假或讹字），语义完全相反；3. “楊曾教人原有相 格宇甚好”误译为“楊、曾教人原有相格，很好”，漏译讹误的“宇”字未标注；4. “朱崔”应为“朱雀”讹误，未标注；5. “元武”未按术语规范标注，且候选擅自将“前可正說得朱崔朝察砂”等语序混乱的OCR内容强行通顺化，未标注原文语序问题；6. “但見一砂靜始穴壞”语义与原文不通，属于强行解读；7. 原文中的数字“66. 000”“0”属于OCR乱码，未明确标注为乱码"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000353-p000-ea21e90028",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000354-p000-abfd91be7a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "“中星安御屏”“格”语义不明，无依据解读，未标注不确定性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000355-p000-6e8f7bc8ea",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文OCR缺字、语义不通"
+        ]
+      },
+      {
+        "id": "book036-b000359-p000-26859bf605",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3234,
+    "completion_tokens": 935,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3234,
+      "completion_tokens": 935,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

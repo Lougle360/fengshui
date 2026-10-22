@@ -1,0 +1,102 @@
+{
+  "created_at": "2026-10-15T15:04:44.599443+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "26c3a95d6e33aa305eed95b1f57a4264f9586d64d474ae4fd0f29adc41a631fa",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002160-p000-c269cf0750",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002161-p000-bcaadf90a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘片前之穴第一宜坐辛向乙穴戌龍入首左落穴辛向乙宜挨右加酉取庚戊正氣貫左耳’，candidate将‘片前之穴’译为‘前方之穴’，此处理解有误。‘片前’可能为‘前片’或指前文所述某一片区，译为‘前方’过于笼统且可能偏离原意，应保留原文‘片前’并标注其意不明。",
+          "source为‘分金縣酒 宜醉酒醉’，candidate译为‘分金法为县酒，宜醉酒醉（此处原文“宜醉酒醉”语义不明，具体所指不详）’。处理方式正确，但‘县酒’本身也是opaque term，应同样标注其意不明，不应直接认定为‘分金法’的具体名称。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002162-p000-ffe51b4e16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘第一宜坐平向乙穴乾龍入首左落穴辛向乙宜挨右微加戌取丁亥正氣貫左耳’，candidate将‘坐平向乙’译为‘坐平方向乙’。‘平’字在此处可能为‘辛’字之误（因后文有‘穴辛向乙’），或指‘平’位（如壬子癸为水平）。candidate直接译为‘平方向乙’，未处理此歧义，应标注原文‘坐平向乙’含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002163-p000-dfcf3b03da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002164-p000-012751d20d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002165-p000-cee29c4bc4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source开头为‘ンま 第曰宜坐酉向卯穴亥龍入首左落穴酉向卯宜挨白虎取辛氣貫左耳’，candidate将‘ンま 第曰’译为‘第四种情况’。‘ンま’为日文假名，可能为‘四’（し）的误写或标记。candidate直接处理为‘第四种情况’是合理的推测，但应标注原文此处有日文假名，具体含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002166-p000-7c19b9c51f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002167-p000-dabd04c9e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002168-p000-34492c34a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002169-p000-85d50e8109",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3426,
+    "completion_tokens": 843,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3426,
+      "completion_tokens": 843,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T21:38:39.349040+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b610ec003deb5cd9001dd804ce0edf74ae5b45b02c4736f80ff5039302e00f5a",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000355-p000-ab1a936ad3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "青书與语的具体所指不详",
+          "邦偏不說的具体含义不详",
+          "西之空涼派亦由是河的具体含义不详",
+          "詳多的具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000359-p000-734e509330",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此秘魯己由沈外初砂解將氏和客已洩”中的“砂”属于locked_terms，候选人释读时未明确标注该术语，且直接将整句标注为断读不明但未保留“砂”的术语地位，不符合locked_terms保留要求；原文“每二十四山皆用精星之理”中的“精星”疑似和前文出现的“替星”“彗星”为相关术语，候选人未做歧义标注，存在术语混淆风险"
+        ],
+        "uncertainty": [
+          "此秘魯己由沈外初砂解將氏和客已洩的断读和含义不详",
+          "主改幸門所係口法極可能切足方語存氏每朴據之自撰丙已的具体含义不详",
+          "丙已的具体所指不详",
+          "精星与前文替星、彗星的对应关系不详"
+        ]
+      },
+      {
+        "id": "book017-b000364-p000-046603f3d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名“っ”，属于未转换为中文的内容，候选人直接保留使用未做说明；原文“己包晟精星一切且具公實用價值”中的“公實用價值”释读为“公实用价值”属于未完整转换通顺的现代汉语，含义模糊；“包晟”疑似“包含”的形近讹字，候选人未做标注直接沿用，存在误读风险"
+        ],
+        "uncertainty": [
+          "っ流神的具体所指不详",
+          "但恭白诀却易令人誤今的具体含义不详",
+          "喜彗的具体所指不详",
+          "空位協幸門訣法的具体所指不详",
+          "包晟精星的具体所指不详",
+          "公實用價值的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1626,
+    "completion_tokens": 613,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1626,
+      "completion_tokens": 613,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

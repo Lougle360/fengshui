@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-26T07:54:21.622961+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "93d677a194412fcf068c990b3703899d120ec3ddbea49b727eb0954565ba0ca1",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000324-p000-847169a4a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000325-p000-7c76643f1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000326-p000-c960578ab9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“嫩是撰皮膚”释读为“嫩龙是山形肌肤细腻”属于无依据增译，原文“撰皮膚”含义不明，不应直接释为肌肤细腻；原文“無有婢媚之態”中“婢媚”释为“婢媚的姿态”不准确，应为“柔媚、妩媚的姿态”；原文末尾“享”字对应的内容未完整呈现，释读截断处符合原文未完成状态，但需注意原文此处确实不完整"
+        ],
+        "uncertainty": [
+          "“嫩是撰皮膚”中“撰”字具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book033-b000328-p000-d0eb5d7038",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“嫩龍則有字落傳不之巧”释读为“嫩龙则有字落传的巧妙”错误，原文存在脱文，应为“嫩龍則有落傳變之巧”类表述，不应保留“字落传”这种不通顺的表述，应标注原文脱漏；原文“若老龍一向不變細嫩”断句错误，应为“若老龍一向不變，（無）細嫩”，释读为“如果老龙一直不变，变得细嫩”语义矛盾，与原文“老亢”的含义相反；原文末尾“論龍長短”是下一段的标题，不应并入本段释读内容"
+        ],
+        "uncertainty": [
+          "“嫩龍則有字落傳不之巧”存在原文脱漏，具体含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000329-p000-58511da4fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“過此則封侯百里尸堪為縣治”中“尸”为“只”的讹字，释读为“百里只堪为县治”正确，但原文“龍無貴賤只論長纏龍纏過前更強君若論長不論貴纏龍有穴反為良者是矣”断句错误，释读断句有误，正确断句应为“龍無貴賤，只論長短。纏龍纏過前更強，君若論長不論貴，纏龍有穴反為良”；原文“其謬益其”应为“其謬益甚”，释读为“这种说法的谬误就更严重了”正确，但原文“應乂十二候”“左仙乂星經”中的“乂”为讹字，释读为“对应十二候”“左仙《星经》”属于合理校改，无问题；原文“其於融結則無里也”中“里”为“異”的讹字，释读为“但是对于能不能融结没有影响”正确，无问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4564,
+    "completion_tokens": 796,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4564,
+      "completion_tokens": 168,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4564,
+      "completion_tokens": 796,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

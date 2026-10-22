@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-24T23:07:41.968582+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d6edb13549d16c35ddb0c83044541ce7a4e70de5593814f0af87ad9b6d654411",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001009-p000-3431b18615",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“公四”“五仍向中花”“叩金龙”“丑二”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001011-p000-ff93934723",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“出卦則四無生水及四庫小皆不可用”，并非“没有四生水和四库小的说法”，属于语义误译"
+        ],
+        "uncertainty": [
+          "原文中“四生水”“四库小”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001012-p000-5a51880015",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“依门水”“百一元建”“库乐兵春”等术语具体所指不详，语句存在残缺错乱"
+        ]
+      },
+      {
+        "id": "book017-b001013-p000-cbd6dc56d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大端相对起高岡職位在學坐捍門官國華表起山水亦司例”被误断为“大致来说，相对起高冈的职位，在学坐捍门官国华表起山水也符合这个例子”，属于断句错误导致的语义偏差"
+        ],
+        "uncertainty": [
+          "原文中“起仍方”“王仍”“捍门官”“四位一能春”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001014-p000-6fce5922c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“功易龙度”“二一三”等内容具体所指不详，存在书名标注错乱"
+        ]
+      },
+      {
+        "id": "book017-b001016-p000-6a6690caf4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“後左右形努聞佳”被误译为“之后左右形局佳”，“努”应为“势”的讹写，“聞”应为“俱”类讹写，释读为“形局佳”属于无依据改写；且“一同誇也”的主语未补全导致语义不通"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001017-p000-649eb3f35d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“凤阂”“四班”“宝谷”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001018-p000-93916cef4f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语句残缺错乱，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001019-p000-86fb1260ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“毗之词”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001020-p000-d1ef335789",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“九些居午一白居子送忌时，则九此一百易位”被误写为“九居午一白居子送忌时，那么九此一百易位”，漏译“些”字且“一百”属于“一白”的笔误，属于内容错漏"
+        ],
+        "uncertainty": [
+          "原文中“王黄”“顺品”“元旦盘”“科金”等术语具体所指不详，语句存在残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2618,
+    "completion_tokens": 1005,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2618,
+      "completion_tokens": 1005,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

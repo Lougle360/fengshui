@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T11:09:18.333658+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "137caf23ca20df12b148c6116a731762ad9ab74cf336434e82362ee37b5166cc",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000094-p000-f2463042ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000095-p000-3d0dfd3be0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“寐貞”“繕蟲”“屍胃”“炎磨”等词具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000096-p000-8953c5e6ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000097-p000-33a003f5d7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“陂軍”“竹太藤祖”“兩頭嶂”等词具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1464,
+    "completion_tokens": 265,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1464,
+      "completion_tokens": 265,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

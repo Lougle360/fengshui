@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T22:17:57.945130+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "360189725acbc3e51a6bd2380cb97c37b96dcd82c6c79d3fcad0fbc980d58914",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000351-p000-cf7d085dfb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文中第一行第一个条目名称为“琰陽”，candidate误改为“阳峡”；第一行第二个条目名称为“峽陰”，candidate误改为“阴峡”；第三行第二个条目名称为“峽闕”，candidate误改为“阔峡”；第五行第一个条目名称为“峽水渡”，candidate误改为“水渡峡”；source中高峡对应原文为“要护山周密”，candidate释读为“需要周密地护山”语序调整错误，改变了原义；source中渡水峡对应说明文字及最后“上峡图九格……俱具图于后”的内容candidate完全漏译；表格最后一行<td colspan=未闭合，格式残缺"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3521,
+    "completion_tokens": 219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3521,
+      "completion_tokens": 219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

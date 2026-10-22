@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T08:26:02.195632+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d29e19d861b3bb94ff575d88a90f2887ebaa185d2449cef515a11bcf49619132",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000182-p000-4ca78f15ae",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“闯子癸”“娑”“七卜”“檄”等字无法明确辨识，候选句按保守含义改写时，“闯子癸”未明确标注为无法辨识的内容，“娑”改写为“在意”存在无依据扩写，“七卜”改写为“七卜”未明确说明无法辨识，“檄”改写为“一概置之不论”存在无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“闯子癸”“娑”“七卜”“檄”等字无法明确辨识，具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000183-p000-3270bfe44c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000185-p000-5049c920d1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“历之”“之”等字无法明确辨识，候选句改写时未明确标注为无法辨识的内容，存在无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“历之”“之”等字无法明确辨识，具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000186-p000-efc9fffe61",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“遺杖”“界水”“員”“瀾”“挿耳”“橫校”“周厌登定”“十道十邊道”“盥針”等术语的具体含义，候选句按保守含义改写时，未明确标注这些术语的具体含义不详，存在无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“遺杖”“界水”“員”“瀾”“挿耳”“橫校”“周厌登定”“十道十邊道”“盥針”等术语的具体含义，因原文表述简略，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2264,
+    "completion_tokens": 535,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2264,
+      "completion_tokens": 535,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

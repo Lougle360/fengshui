@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-18T02:32:39.820816+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ecac6c6764299c792c1c06cd4577eb6bafe9c28ec22f5eebc6cc7e24be0da391",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005214-p000-90a1926d14",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：表格中“太阳星正体”和“太阳传太阴”条目后分别有字符“C”和“二”，candidate仅处理了“二”，未提及“C”。",
+          "反义/误译：原文“庄太田万顷置定知因女传得为官女婿入长安”被断句为“庄田万顷置，定知因女传，得为官员女婿入长安”。原文“庄太田”应为“庄田”之误，但“太”字未处理。更关键的是，“定知因女传得为官女婿入长安”应释读为“定知因女传得，为官女婿入长安”，意指“必定知道是因为女儿（或女性）的传承而获得，成为官员的女婿进入长安”。candidate的断句“定知因女传，得为官员女婿”改变了原意，将“得”字后置，且“传得”被拆解。",
+          "专业术语误换/简化：原文“太阳入穴最为奇”中的“穴”是locked_term，candidate直接使用“入穴”，未加引号或说明，虽未误译，但根据规则，locked_terms必须保留，此处应明确标注或引用。",
+          "数字/符号遗漏：表格中“太阳传孤曜”条目后有一个空单元格（colspan=1但无内容），candidate未提及此空白位置，可能影响对表格结构的理解。",
+          "结构信息丢失：原文是包含多行多列的表格，candidate将其转换为连贯的散文描述，但未保留“太阳星正体”、“太阳传太阴”等作为独立条目的视觉分隔，也未说明这些是并列的图或诗名。虽然kind=html，但释读应传达出条目并列的结构。"
+        ],
+        "uncertainty": [
+          "“C”的具体含义（可能是图形符号或标记）。",
+          "“阳金水”条目前后无“传”字，其与“太阳星正体”、“太阳传X”等条目的层级关系确实不明。",
+          "表格中多处字符（如“t”、“k”）的含义不详，candidate未提及。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1575,
+    "completion_tokens": 509,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1575,
+      "completion_tokens": 509,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

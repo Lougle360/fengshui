@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:34:23.760256+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3bc6e3cc1d1a0e76f67d330d96bd9a1fc6a0b8c3b7c7c9cb6edc889b1dfc32a0",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000714-p000-9ba4d02394",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "大约以正面朝向我为真，背向我为假，自身运动的龙、虎为真龙、真虎。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文开头的\"O 0 O o\"为无意义字符，无法确认含义"
+        ]
+      },
+      {
+        "id": "book014-b000715-p000-a66ce6fc02",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "判断水的强弱胜负，不必拘泥于龙、虎，只论上水、下水即可。龙在下水处，就需要龙的气势强盛、占优；虎在下水处，就需要虎的气势强盛、占优。有人说\"不怕青龙高万丈，只怕白虎高一尺\"，这是世俗的说法，不要听信。即使有龙、虎的形势，却没有龙、虎的情状，这样的地必定是假地。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000716-p000-f685cc2feb",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "一边有力，一边无力，对应的房分会不均等。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000717-p000-726268b280",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "一边是活气充足，一边是死气僵硬，这样的地也是假地。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1600,
+    "completion_tokens": 471,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1600,
+      "completion_tokens": 471,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

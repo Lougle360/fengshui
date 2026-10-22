@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T22:09:08.017786+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3930540286e14a3d0a4653d5163536377d171dda1a8dd999c1240148c5ef7086",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000073-p000-99b3a6ebdf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“顺逆行二十四山有火坑”，并非“顺着二十四山的顺序排布，则会陷入火坑般的凶局”，漏译“逆”的相关含义，对顺逆排布的吉凶解读存在偏差；原文“明比则火玩爰为珠宝之用矣”被误译为“明辨事理，火坑也能化为珠宝般的吉运用途”，语义解读错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000074-p000-e4c72152d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000075-p000-a441653382",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000077-p000-f5aec3718f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“联殊莫相被”被误译为“二者关联紧密不可分离”，语义解读无依据，“联殊莫相被”具体所指未明确，不应随意确定含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000078-p000-30564143e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000079-p000-b0dd031e30",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000081-p000-15cd9d706e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000082-p000-9c04d7322b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“文母”属于未纳入allowed_glossary的专名，candidate未做标注直接使用，存在风险；原文“特蔣盤”被误译为“拿着罗盘”，“蒋盘”是特定罗盘类型，不应笼统译为罗盘，且未明确说明存在的歧义。"
+        ],
+        "uncertainty": [
+          "“文母”具体所指不详；“蒋盘”的具体形制、指代未明确。"
+        ]
+      },
+      {
+        "id": "book031-b000083-p000-5ac3e37452",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000085-p000-e44bb86090",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2903,
+    "completion_tokens": 787,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2903,
+      "completion_tokens": 982,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2903,
+      "completion_tokens": 787,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

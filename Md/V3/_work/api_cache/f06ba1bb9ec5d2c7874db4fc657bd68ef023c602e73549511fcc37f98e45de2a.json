@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-10-17T10:35:29.933207+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f06ba1bb9ec5d2c7874db4fc657bd68ef023c602e73549511fcc37f98e45de2a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003332-p000-e710256c19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'坐知穴穴居左'，candidate译为'坐穴位于左侧'，漏译了'知穴'，且'知穴'含义不明，应保留原词并标注。",
+          "原文'乾壬之氣入穴也'，candidate译为'乾、壬之气进入穴位'，但原文'乾壬'可能指乾卦与壬方，也可能是一个复合术语，candidate直接拆解为两个，存在风险，应标注不确定性。",
+          "原文'行布告'，candidate译为'进行行布告'，'布告'含义不明，candidate未标注此不确定性。",
+          "原文'葬法內潢池氣從右耳起發行注分金收辛亥氣入溝行布告'，candidate译为'在葬法中，潢池之气从右耳出发，发行注入分金，收辛亥之气入沟，进行行布告。'，其中'发行注'、'入沟'、'行布告'等短语的现代汉语转换生硬，且'发行'可能为'发而'或'发'之误，candidate未标注此不确定性。"
+        ],
+        "uncertainty": [
+          "'坐知穴'的具体含义不详。",
+          "'乾壬'可能指乾卦与壬方，也可能是一个复合术语。",
+          "'行布告'在风水语境中的具体含义不明。",
+          "'发行注'、'入沟'等短语的准确含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b003335-p000-1c0a1d801a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'坐兑穴穴宜挨左加申半分取正庚貫棺入右耳'，candidate译为'坐兑穴，穴位宜挨左侧加申卦半分，取正庚气贯穿棺木入右耳。'，其中'取正庚'可能指取正庚气，也可能指取正庚向，candidate直接译为'取正庚气'，存在风险，应标注不确定性。",
+          "原文'生人卦天醫向天井天醫'，candidate译为'生人卦为天医，向天井天医'，将'向天井天医'作为一个整体处理，但原文可能指'向'为'天井'，'天医'是另一个概念，candidate的断句和解释存在风险，应标注不确定性。",
+          "原文'葬非其乘則凶中氣入穴也'，candidate译为'若葬非其乘则会有凶险，这是因为中气入穴。'，将'中气入穴'解释为凶的原因，但原文逻辑关系可能不同（如'凶'与'中气入穴'并列），candidate的解释存在风险，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "'取正庚'的具体含义不详。",
+          "'向天井天医'的断句和具体所指不详。",
+          "'葬非其乘則凶中氣入穴也'的逻辑关系原文未明。"
+        ]
+      },
+      {
+        "id": "book035-b003337-p000-b6ebd01fd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'廉遇'的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003338-p000-d78e7f9471",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'良山庚向'，candidate译为'这是关于'良山'庚向的记载'，并标注'良山'可能为'艮山'之误。但根据规则，opaque_terms为空，locked_terms包含'艮'，'良山'应视为'艮山'的OCR或原文错误，candidate应直接修正为'艮山'并标注，而非保留'良山'。",
+          "原文'坐人卦玄武向輔卦貪狼'，candidate译为'坐人卦为玄武，向辅卦为贪狼'，将'向輔卦'断为'向辅卦'，但原文可能为'向，輔卦貪狼'，即'向'为一方，'輔卦貪狼'为另一方，candidate的断句存在风险，应标注不确定性。",
+          "原文'自滿池貫棺右耳行注'，candidate译为'自'满池'贯棺右耳行注'，并标注'满池'可能为'潢池'之误。但根据规则，opaque_terms为空，'满池'应视为'潢池'的OCR或原文错误，candidate应直接修正为'潢池'并标注，而非保留'满池'。"
+        ],
+        "uncertainty": [
+          "'坐人卦玄武向輔卦貪狼'的断句和具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2208,
+    "completion_tokens": 1090,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2208,
+      "completion_tokens": 1090,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

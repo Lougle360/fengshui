@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-26T03:28:26.246905+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "96ca55b06a5febaa3f43ddfe303f532d7b540c18e33d595598c08595c93acdd4",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001979-p000-dc4504a97c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001980-p000-1775d53f97",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘明堂惜水如惜地理泰贊玄橫全書卷九血穴內避風如避賊’实际是断句错误，正确应为‘明堂惜水如惜血，穴内避风如避贼’，‘地理泰贊玄橫全書卷九’是出处注，candidate错误将‘血’字拆分到出处中，还误引成‘明堂惜水如惜血’后接出处加后半句，语序和断句完全错误；且‘羣之氣’漏译，应为‘众多的气’或‘各类生气’的主语对应原文表述，另外‘蔵風而溫羣之氣’断句应为‘藏而温，群之气’，candidate断句正确但后半句引用部分完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001981-p000-5544059cc6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001982-p000-632ace421b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001983-p000-013ba44cb2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘歲風次之’是‘藏风次之’的讹写，candidate错误写作‘次风次之’，与原文含义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001984-p000-1acb67770f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001985-p000-1644bd08d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘於孤亦結小地’表述不明，candidate直接译为‘在孤立的地方也会结出小地’属于无依据确定含义；原文‘幹注中歲之大地’的‘歲’是讹字，candidate直接保留未标注，属于误把不确定内容写为确定"
+        ],
+        "uncertainty": [
+          "‘於孤亦結小地’的‘孤’具体所指不详，‘幹注中歲之大地’的‘歲’字存在讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001986-p000-3f46001bbb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001987-p000-09e4080035",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘山壠宜歲’的‘歲’是讹字，candidate直接译为‘山垅宜浅’属于无依据推定含义，不符合规则；原文‘氣沉松裡’表述含混，candidate直接保留未作说明"
+        ],
+        "uncertainty": [
+          "‘山壠宜歲’的‘歲’为讹字，具体含义不明，‘氣沉松裡’的具体表述存疑"
+        ]
+      },
+      {
+        "id": "book029-b001988-p000-ccd19e91f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘掘地及衆’的‘衆’是讹字，candidate直接译为‘掘地及泉’属于无依据推定含义；原文‘使歲風聚氣’的‘歲’是讹字，candidate直接保留为‘使风聚气’属于漏译讹字且无依据修改；原文‘墓登山則言平洋宜厚封如山也’断句存疑，candidate直接引用未标注"
+        ],
+        "uncertainty": [
+          "‘掘地及衆’的‘衆’为讹字，具体含义不明，‘使歲風聚氣’的‘歲’为讹字，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2778,
+    "completion_tokens": 1032,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2778,
+      "completion_tokens": 1032,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

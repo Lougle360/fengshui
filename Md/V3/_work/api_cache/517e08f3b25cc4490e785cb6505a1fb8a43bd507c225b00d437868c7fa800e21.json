@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:16:40.603702+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "517e08f3b25cc4490e785cb6505a1fb8a43bd507c225b00d437868c7fa800e21",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000117-p000-0e34eaf992",
+        "modern_text": "原文存在多处OCR识别错乱，如“巳母”“Xn0”“Ha”“E”等，无法确认准确含义，导致释读无法成立",
+        "confidence": "low",
+        "uncertainty": [
+          "巳母",
+          "Xn0",
+          "Ha",
+          "E"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6021,
+    "completion_tokens": 94,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6021,
+      "completion_tokens": 94,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

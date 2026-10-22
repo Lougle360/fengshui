@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-16T10:20:00.893720+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "65dbad17c7496568f38d5ed385782640f8b6e88119481553df3c1f641232d2e8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001922-p000-c8f6ffa070",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'以多言者五行中惟多疑結也'，candidate译为'因为多言之中，只有五行中惟多疑结这一情况最为关键'，将'多言'、'惟多疑结'当作确定含义解释，属于无依据扩写。应保留原文短语并标注不确定性。",
+          "原文'益言形體明白證應分明'，candidate译为'所谓益言，是指进一步说明形体明白、证应分明'，将'益言'当作确定含义解释，属于无依据扩写。应保留原文短语并标注不确定性。",
+          "原文'口卸柴蓋棺即柴也'，candidate译为'所以说“口卸柴”，这里的“柴”指的就是盖棺'，将'口卸柴'当作确定含义解释，属于无依据扩写。应保留原文短语并标注不确定性。"
+        ],
+        "uncertainty": [
+          "多言",
+          "五行中惟多疑结",
+          "益言",
+          "口卸柴"
+        ]
+      },
+      {
+        "id": "book035-b001923-p000-73cb14a4ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate基本为逐字直译，未转换为'普通读者能读懂的白话释读'。例如'上如球之圆，即穴顶之微起脑，真气由此而化生，所以又名化生脑'，应转换为更连贯的白话。",
+          "原文'售俱解讹'，candidate直译为'售俱解讹'，未进行白话解释或说明其含义不明。",
+          "原文'浅深权子此'，candidate直译为'浅深权子'，未进行白话解释或说明其含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001924-p000-92edad9217",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，缺乏上下文，语意晦涩，无法确定具体含义。"
+        ]
+      },
+      {
+        "id": "book035-b001925-p000-775ded43fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001926-p000-f63c0bd45f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为标题，语意不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001927-p000-4ab6f9a4b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001928-p000-e5e54f3dd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate基本为逐字直译，未转换为'普通读者能读懂的白话释读'。例如'脉透顶出谓之贯脉，出于口谓之坠脉'，应转换为更连贯的白话。",
+          "原文'内实外虚'重复出现，candidate直译，未进行白话解释或说明其含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001929-p000-1ed8b79560",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate基本为逐字直译，未转换为'普通读者能读懂的白话释读'。例如'牝牡雌雄诀，此乃阴阳异名也'，应转换为更连贯的白话。",
+          "原文'传忽'、'自顷'、'罗蹁'等词，candidate直译，未进行白话解释或说明其含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001930-p000-5e2984ac4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001931-p000-2929035d00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3405,
+    "completion_tokens": 858,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3405,
+      "completion_tokens": 858,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

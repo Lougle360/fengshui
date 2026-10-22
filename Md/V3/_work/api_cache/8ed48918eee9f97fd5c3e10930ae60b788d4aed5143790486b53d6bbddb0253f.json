@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-23T11:41:16.962141+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8ed48918eee9f97fd5c3e10930ae60b788d4aed5143790486b53d6bbddb0253f",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000682-p000-c4d47b39da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘子午卯酉，出大富贵’是陈述句，candidate译为‘文中提到...认为...能出...’增加了推测语气，改变了原文的确定性。",
+          "原文‘三节三乱，文武之职’是陈述关联，candidate译为‘文中指出这与...有关’同样增加了推测语气。",
+          "原文‘兼夫妇，七品至五品’是直接陈述，candidate译为‘这一短语的具体所指不详’是风险标注，但原文并无此不确定性表述，属于无依据的改写。应直接释读为‘兼论夫妇关系，可至七品到五品的官位’或类似，并标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘三节三乱’、‘一节便乱’、‘兼夫妇，七品至五品’的具体含义确实不详，但candidate的处理方式（将直接陈述转为‘文中提到/指出’并添加‘具体所指不详’）改变了原文的表述风格和确定性，属于不当的释读方法。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 703,
+    "completion_tokens": 250,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 703,
+      "completion_tokens": 250,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

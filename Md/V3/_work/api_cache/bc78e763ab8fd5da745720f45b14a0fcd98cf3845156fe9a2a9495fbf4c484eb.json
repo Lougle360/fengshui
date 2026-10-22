@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T13:50:07.274270+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bc78e763ab8fd5da745720f45b14a0fcd98cf3845156fe9a2a9495fbf4c484eb",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000387-p000-78d6bf895a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及‘属于《大学》三纲领中的内容’，该内容为无依据添加；原文未提及‘止于至善’，该内容为无依据添加"
+        ],
+        "uncertainty": [
+          "‘艮其背’‘不获其身’为卦辞原文，训读内容为‘艮其背，不获其身’，二者表述不同，需注意区分"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1598,
+    "completion_tokens": 126,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1598,
+      "completion_tokens": 126,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

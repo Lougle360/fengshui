@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-17T11:20:12.113676+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ddc8ab54f7d6041b3eb131ebe726270c01ff357a3ebafa0c6a857248449c4aaa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003448-p000-a8c87be6ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘同宅断庚庚酉辛方出好漢’中‘同宅断’可能指‘同宅断诀’或‘同宅断法’，是风水断语的一种，candidate仅译为‘断语称’，未保留其作为术语或固定说法的特征，可能导致信息丢失。",
+          "‘无人畔’的‘畔’字，在古文中可通‘叛’或指田界、旁边，candidate译为‘具体所指不详’虽标注了不确定性，但未提供任何可能的解释方向（如‘无人背叛’或‘无人相伴’），对于普通读者理解帮助有限，建议在uncertainty中补充说明可能的字义。",
+          "‘放水’在风水中有特定含义，指人工引导或排放水流，candidate仅说‘具体所指不详’，未引用allowed_glossary中‘水’的定义进行关联解释，属于专业术语误换风险。"
+        ],
+        "uncertainty": [
+          "‘同宅断’可能是一种风水断诀的名称，具体所指不详。",
+          "‘无人畔’的‘畔’字含义不明，可能指‘无人背叛’或‘无人相伴’等。",
+          "‘放水’在风水中通常指人工引导或排放水流，但此处具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 687,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 687,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

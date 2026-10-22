@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-09-25T16:48:21.733901+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8954340059a2792e881dc47a419348cd9dbce7aa7f5f79c7a67e77c90a9419b7",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000607-p000-d5deed0fe4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“十六乂五度”被误写为“十六度五度”，数字及专有符号错误；原文“太粗太皆非福”漏译缺字，不应补足为“太粗太细”；原文“晋與”被误译为“留给”，字义错误"
+        ],
+        "uncertainty": [
+          "十六乂五度的具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000608-p000-2f91a7c65e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蛮粗大也单一邊水也”句读错误，“蛮粗大也”是独立描述蛮脉的特征，“单一边水也”是对单股水的说明，候选错误合并为“蛮脉粗大，是指单一侧边的水”，语义完全错误；原文“三合五度”中的“三合”是方位/度数相关表述，候选套用allowed_glossary中“风水体系或方法”的释义不当，属于术语误用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000609-p000-959506c0b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000610-p000-d27c951bf1",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "未银合角的具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000611-p000-9a3225d963",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“狗子口瀾大氣中用粘火扦口中”句读错误，候选断为“狗子口宽阔大，气脉居中，适合用粘法；火扦口中、雀子口两傍瘦削”完全错误，应为“狗子口阔大，气聚于中，用粘法扦穴；火扦（对应火形水口？此处原文断句应为狗子口、雀子口、鸦钳口等并列，“火扦口中”属于断句错误导致的语义混乱）；原文“四團員淨”被误译为“四围洁净环绕”，“員淨”是圆净的通假，候选漏译“圆”的含义；原文“外冥內窄”被误写为“外窄内窄”，字形错误；原文“雀鉗”对应前文“鸦钳雀子”，候选写为“雀钳”与前文表述不一致；原文“陰肉重厚”被简化为“阴肉厚”，漏译“重”的含义"
+        ],
+        "uncertainty": [
+          "禾锹口、三乂合角口的具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000612-p000-9ad568464f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000613-p000-464313194b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理泰贊玄機全書”与第一条的“地理恭贊玄機全書”均为原文书名，候选直接统一写法不符合要求，应保留原文用字，不得自行统一"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000614-p000-93e293220f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“上有三个字順看是分水下有三个字通看是合水上大个字小不字下出三乂大个字下水流来第一合也小人字下水流來是第二第三合也”句读完全错误，候选断句混乱，语义不通；原文“第三个王向三分三合全氣入穴”被误断为“第三个王向，三分三合全气入穴”，“王向”应为“三向”或其他术语，断句错误；原文“下人一開一合也”被误写为“下人一合一合的”，文字错误；原文“塟其所也”应为“葬其所会”类的常见风水语，候选直接沿用错误表述且未标注；allowed_glossary中“三合”是风水体系，此处“三分三合”是水法的合水次数，误用术语释义"
+        ],
+        "uncertainty": [
+          "三乂的具体所指不详",
+          "王向的具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000615-p000-d502b4301a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000617-p000-40a854af0c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "工饷、吊坠之法的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2943,
+    "completion_tokens": 1251,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2943,
+      "completion_tokens": 1251,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

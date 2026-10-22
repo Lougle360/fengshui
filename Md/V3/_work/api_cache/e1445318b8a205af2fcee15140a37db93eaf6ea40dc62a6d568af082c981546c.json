@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-18T05:54:55.556195+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e1445318b8a205af2fcee15140a37db93eaf6ea40dc62a6d568af082c981546c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005659-p000-7778378b2b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为干支组合，candidate错误地将‘丙午’‘丁未’等拆解为天干和地支分别对应五行，并添加了‘丙火’‘丁火’等五行属性。原文应理解为干支整体对应的状态，如‘丙午相旺’指丙午干支组合处于‘相旺’状态。candidate的释读方式改变了原文结构，属于误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005660-p000-0f1e36382b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。原文‘壬子旺胎’应指壬子干支组合处于‘旺胎’状态，而非‘壬水处于旺相胎养状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005661-p000-dd308c7748",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。原文‘戊午休相’应指戊午干支组合处于‘休相’状态，而非‘戊土处于休相状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005662-p000-4e317c5c30",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。原文‘甲子旺胎廢’应指甲子干支组合处于‘旺胎廢’状态，而非‘甲木处于旺相胎养废弛状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005663-p000-800ccafa08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 同第一项，candidate错误地将干支拆解为天干五行。原文‘庚午死沒休’应指庚午干支组合处于‘死沒休’状态，而非‘庚金处于死没休状态’。2. ‘帝癸酉’可能为‘癸酉’之误或特定格式，candidate将其释为‘帝癸酉时，癸水处于...’是未加说明的改动。3. ‘二亥’可能指‘亥亥’或重复，candidate释为‘指亥水处于旺相状态’是缺乏依据的推测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005664-p000-2ba21a95c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。原文‘丙子胎旺死’应指丙子干支组合处于‘胎旺死’状态，而非‘丙火处于胎旺死状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005665-p000-a02867b1ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。原文‘戊子相沒相’应指戊子干支组合处于‘相沒相’状态，而非‘戊土处于相没相状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005666-p000-bad51a0068",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。原文‘甲午旺胎廢’应指甲午干支组合处于‘旺胎廢’状态，而非‘甲木处于旺相胎废状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005667-p000-20e6f87150",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005668-p000-9fa4de7c7e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同第一项，candidate错误地将干支拆解为天干五行。例如，原文‘壬子帝胎旺’应指壬子干支组合处于‘帝胎旺’状态，而非‘壬水处于帝胎旺状态’。释读方式错误。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2263,
+    "completion_tokens": 956,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2263,
+      "completion_tokens": 956,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

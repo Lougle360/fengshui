@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:18:06.397254+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c650cf958cc7b3de0324a711b958ecf1678d4eb1c6c8f57b86d0098f95018cc6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002492-p000-723e7e3571",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002494-p000-aaa438ac1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002495-p000-1e109ca57c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的《家人》卦的卦辞释为\"译文是\"，属于对原文性质的误判，原文并非\"译文\"，而是卦义的释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002496-p000-524cb02900",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1981,
+    "completion_tokens": 263,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1981,
+      "completion_tokens": 263,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

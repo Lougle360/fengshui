@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:17:34.872119+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cf87ea9c87db3bac596d0c5421cb0747959d9acec46bd04587e7800a640792e6",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000187-p000-b1873672d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000188-p000-543b6a60e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000190-p000-99d01a7579",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处难以释读的模糊表述，如\"禹\"\"典穴政\"\"歆糜抓\"\"牙班识\"\"罗星\"等，无法形成通顺且准确的释读"
+        ],
+        "uncertainty": [
+          "原文中\"禹\"\"典穴政\"\"歆糜抓\"\"牙班识\"\"罗星\"\"星辰\"等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000191-p000-01683f66fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 306,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1236,
+      "completion_tokens": 306,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

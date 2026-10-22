@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-04T00:54:45.463648+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "935f08ad5080b411312e0b1eb130880d485604c545209836a4df219d41243e5a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000248-p000-401dd58806",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'董氏謂左右之砂親疏 爲顯不風者爲隱相句'释读为'董氏认为，左右两侧的砂，其亲疏关系与显隐有关；文中提到‘爲顯不風者爲隱相句’，但这一短语的具体所指不详。'，这存在漏译和误译。source中'爲顯不風者爲隱相句'是董氏论述的一部分，candidate将其处理为独立引用的短语并称'具体所指不详'，但source原文是连贯的句子，意为'（砂）显露的、不被风吹散的为显，隐藏的为隐，相向的为亲，相背的为疏'（'不风'可能为'不散'或'不吹'之讹，但candidate未处理）。candidate漏译了'爲顯不風者爲隱'这部分对'显'与'隐'的定义，并将'相句'（可能为'相向'之讹）与'親疏'割裂。"
+        ],
+        "uncertainty": [
+          "'不風'、'相句'的确切含义可能存在讹误或特定用法。"
+        ]
+      },
+      {
+        "id": "book035-b000249-p000-acefdb267f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'番其端正員 凈者越之歌斜 破碎者舍之'释读为'文中提到‘番其端正員 凈者越之歌斜 破碎者舍之’，但‘越之歌斜’的具体含义不详。'，这存在误译和不当处理。source中'番其端正員凈者越之，歌斜破碎者舍之'是连贯的论述，意为'审视那些端正、圆润、洁净的砂体要取用（越之），那些歪斜、破碎的砂体要舍弃'。candidate错误地将'越之歌斜'连读为一个短语并标注为含义不详，实际上'越之'是动词（取用、选用），'歌斜'（可能为'敧斜'或'崎斜'之讹，意为歪斜）与'破碎'并列作为'舍之'的对象。candidate的断句和释义有误，且未对'歌斜'可能的讹误进行说明。"
+        ],
+        "uncertainty": [
+          "'歌斜'可能是'敧斜'（歪斜）的讹写。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 928,
+    "completion_tokens": 550,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 928,
+      "completion_tokens": 550,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T06:34:29.869218+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6ae8fae5cf30aeb6b802046058b91246aa59d862141404276eb39a99856fa1d0",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001872-p000-e701b70165",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001873-p000-581f4fecde",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题释读存在冗余表述，允许的术语解释不应直接嵌入标题中，标题应保留原文的「## 论水出口」，术语释义可在正文首次出现时标注，不得修改标题原始结构。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001874-p000-a9917ec2cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001875-p000-cb94ac9ae8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题释读存在冗余表述，允许的术语解释不应直接嵌入标题中，标题应保留原文的「## 论朝水」，术语释义可在正文首次出现时标注，不得修改标题原始结构。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001876-p000-7f92687bc1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文提及的「乐平江氏地」被误写为「乐平汪氏地」，属于人名地名错误；「予谓逆水龙固美，不若当朝之穴为尤美也」被误译为「我认为逆水的龙固然好，不如朝向穴的水更好」，属于核心语义译错，原文是将逆水龙与当朝的穴位作比较，并非和水比较。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001877-p000-2144d73111",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「信守金公者，明堪舆术」被误译为「信守金公，精通堪舆术」，属于语义错译，原文意思是「信州的知府金公，精通堪舆术」，并非丘旭鉴信守金公；原文「黄严令」应为「黄岩令」，属于地名用字错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001878-p000-4b9984c4d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001879-p000-a99d3f70d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "图片说明原文的「来敲」被误改为「来龙」，属于擅自修改原文内容；原文的「手夜進田」等图注未作处理，但属于图注模糊内容暂不强制要求，但不得擅自修改原文图注文字。"
+        ],
+        "uncertainty": [
+          "图片注文存在模糊难以辨识的内容，部分释读为保守处理"
+        ]
+      },
+      {
+        "id": "book018-b001880-p000-b0a9111401",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺漏，内容不完整"
+        ]
+      },
+      {
+        "id": "book018-b001881-p000-f85673166d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5587,
+    "completion_tokens": 910,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5587,
+      "completion_tokens": 910,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-15T04:14:09.439187+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "8ec0b034e8e657b6f33b3a959f1c1f3c6f783b6c86637730b0335866805ed2fd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001130-p000-5ab4902b4f",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "本页包含三幅风水图及其配文：\n1. 图名为“聚九星图”，配文描述古人识别廉贞星体，称其为红旗并曜气，此星威烈属阳精，形态为高炎赤黑峰，头耸如尖焰，其性炎上，号火星，起作龙楼并宝殿。贪巨武曲因宝殿体像，经云廉贞如何号乳火。此星得形最高大，高山顶上石嵯峨，如伞摺馒头，难证。先寻雾气识正龙，却定知龙观远，应此是神仙寻地法。百里罗城不为漫，儿生处觅云，儿先生绝高顶，此是龙楼宝殿。定天雾微微云自生，雾气如多反龙楼体。偈经云：寻龙望气先寻脉，云务多生在龙脊。春夏之交与二分夜望云。\n2. 图名为“殿宝图”，配文描述龙来此处最强，是奔走势力弘，歌云（配歌诀图）。乱石开此处名为聚讲山，聚讲之龙殿，请君来此细推辨，乱峰顶上九星聚讲。经云：高尖是楼，平是强是瘦棱赠，歌云（配歌诀图）。\n3. 图名为“楼龙图”，配文描述寻宗寻嫡更寻儿，龙来此处最强是奔走势力弘，歌云（配歌诀图）。\n注：原文中部分图像链接无法直接显示，此处仅转述文字内容。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文为复杂表格结构，包含多幅图像及交错文字，部分文字因排版重叠或图像遮挡，语义衔接存在推测成分。",
+          "歌诀部分原文为图像形式，无法直接提取文字，此处仅根据上下文推测其存在。",
+          "部分术语如“乳火”“伞摺馒头”等，原文未提供明确解释，保留原词。"
+        ]
+      },
+      {
+        "id": "book035-b001131-p000-13246b9ebc",
+        "language": "classical_or_modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档020 PDF第163页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001132-p000-2f653c49af",
+        "language": "classical_or_modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷五，篇名为“金壁玄文”，第六部分。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2365,
+    "completion_tokens": 782,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2365,
+      "completion_tokens": 782,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-18T05:01:03.603601+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "024116ae2ad5708d66bf8c864587a973ae21e6b81a3651f4abf301635569cc54",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005500-p000-73bc786a58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005501-p000-9c4f7feefa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘輔星有 四卦也’句意不明，candidate释为‘但辅星卦本身包含这四卦’是推测，应标注不确定性。原文‘但合一家便可得合此亦 可詳見作法部一’断句与含义不清，candidate释为‘只要符合一家之法，就能得到吉应。这些内容也可以详细参考作法部。’是推测，应标注不确定性。原文‘大分七分小四分七分平立則難斷禍福’含义不明，candidate释为‘大分七分，小分四分，如果七分与四分平分，则难以判断祸福。’是推测，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘輔星有 四卦也’具体所指不详。‘但合一家便可得合此亦 可詳見作法部一’断句与含义待考。‘大分七分小四分七分平立則難斷禍福’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b005502-p000-5306e446b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005503-p000-969aa05c8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005504-p000-abd233fcec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005505-p000-b2949c8f49",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005506-p000-e01e3ad30a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘飄流人失井’candidate释为‘人口漂流失散，井水干涸’，将‘失井’解释为‘井水干涸’是推测，应标注不确定性。原文‘路六爲各 水長位絕兒孫’candidate释为‘路六为各水长位绝，儿孙断绝’，虽已标注不确定性，但此句释读仍过于具体，建议更保守地处理为‘路六为各水长位绝儿孙（具体所指不详）’。"
+        ],
+        "uncertainty": [
+          "‘飄流人失井’具体所指不详。‘路六爲各 水長位絕兒孫’断句与具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b005507-p000-373529cf60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005508-p000-10f676252d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005509-p000-9591cf9bae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2424,
+    "completion_tokens": 714,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2424,
+      "completion_tokens": 714,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

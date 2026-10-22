@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T13:38:11.257993+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c8c412d52713b3e3025b464d0016dfb9d2fe6e0274d3a4537d8585140555bbfe",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000210-p000-d406b7f22f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“朝寄”被错误写为“蜩寄”，字形误读，含义出错"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000212-p000-69f1ee49e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000213-p000-6c22ae41c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“土為巨門星其形豐屬”，candidate误写为“其形豐滿”，无依据补充“滿”字；source中“集為書報”被错误释为“對應書報”，“集”字义未准确体现；source中“旺中畜與田圖也”被简化为“農事興旺”，漏译“中畜”相关内容；source中“不圃于牛也”被误写为“不會局限於農事”，“圃于牛”含义被泛化；source中“低小收民侯”candidate未补充合理断句标识，易产生歧义；source中“其形故其應”candidate无依据补充“聳直”，属于无据增译；source中“王賦維云”被误写为“王賦云”，漏译“維”字；source中“發雷而不止為文星”被误写为“主發雷，不止為文星”，断句错误，改变原义；source中“土為則星火為祿星”被断为“土為則星火，為祿星”，断句错误，原义应为“土为□星，火为禄星”，此处误读；source中“似乎太构”被误写为“似乎太過構建”，无依据补充“過”字，释读不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000215-p000-6ad7f2df15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "火星多出高山貴而無句末有缺字"
+        ]
+      },
+      {
+        "id": "book026-b000216-p000-e14cc8cb50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000217-p000-f603523b2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000218-p000-61f2c13466",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量OCR乱码、脱漏字符（如HE、1、7、5等非文字符号），candidate将无意义数字释为方位、数量，属于无依据臆测内容；source中“佳語故又上 言”被释为“好的说法又进一步指出”，无依据补义；source中“水愿以作類生”等残缺内容被强行连贯释读，不符合原文残缺的实际情况；多处语义属于无据增译，与可辨认的原文内容不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000219-p000-26f29991a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量语序混乱、讹脱内容，candidate将多处无法辨认的内容强行赋予确定含义，如“梧體縣”被错误拆分释读为“梧体。县这一格局”，属于无据臆测；“術氣開殺”无依据认定为“开杀的格局”；将大量混乱文字强行归类为“木法、年、土、马、国衡、人死、金净、天言、埋串等相关说法”，属于无据增译；“連震”被无依据释为“连珠对应八卦中的震位”，原文未提及连珠与震的对应关系，属于误读；多处混乱内容被强行串成通顺语句，不符合原文讹乱的实际情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000220-p000-30538778bc",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR錯亂，部分字句難以辨認"
+        ]
+      },
+      {
+        "id": "book026-b000221-p000-b77faddb3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2761,
+    "completion_tokens": 1118,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2761,
+      "completion_tokens": 1118,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

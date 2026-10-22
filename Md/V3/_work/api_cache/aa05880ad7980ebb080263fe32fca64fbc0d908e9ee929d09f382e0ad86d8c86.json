@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T09:12:08.471103+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "aa05880ad7980ebb080263fe32fca64fbc0d908e9ee929d09f382e0ad86d8c86",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000181-p000-62c01c9826",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“肯凌逆施山”“穴后思”表述含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000182-p000-f0d2e66552",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文字残缺，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 132,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 977,
+      "completion_tokens": 132,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

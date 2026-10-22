@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-17T19:13:10.402034+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "91767e37017aca050476e773a01ba7ff39d187cfb575c9551d2bde5fea578723",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004432-p000-7c6ac59c8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004433-p000-8541c13198",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“頭顧左邊穴在左右邊足尾轉橫東腰間”句意连贯，candidate 断句为“若有这般头势，顾盼左方，则穴在左右两边。足尾转向横东，腰际……”，将“左右边”释为“左右两边”，并将“足尾转横东”与“腰间”断开，改变了原文结构，可能导致含义偏差。原文可能意指：头顾左边，穴就在（龙）左右边（的）足尾转向横东的腰际。candidate 的释读不够准确。",
+          "原文“穴后眞垂龍乳掌明珠對面作朝迎”中“龍乳掌明珠”是比喻，candidate 释为“穴后真龙垂乳，掌中明珠相对”，将“掌明珠”拆解为“掌中明珠”，属于无依据的扩写。应更贴近原文结构，如“穴后真龙垂下的‘乳’（地形），如同掌上明珠，对面作朝迎之势”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004434-p000-d796e268b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004435-p000-2b0d27b155",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 基本是逐字直译，未达到“普通读者能读懂的白话释读”目标。例如“消须用龙头来绕转，仍翅足尽朝”对现代读者而言仍很晦涩。需要在不改变原意的前提下，进行更通俗的转述。",
+          "“朝乐随来皆拱换”一句，candidate 直译为“朝乐随来皆拱换”，未作任何解释，读者无法理解。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004436-p000-26de33f845",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004437-p000-be341a4c0f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 基本是逐字直译，未达到“普通读者能读懂的白话释读”目标。例如“龙去回头还转一歇”“三五折四山应落朝填前”等句，对现代读者而言含义不明，需要在不改变原意的前提下进行更清晰的解释。",
+          "“凹后垂两水夹朝”一句，candidate 断句为“凹后垂两水夹朝”，与后文“三五折四山应落朝填前”的衔接不畅。原文可能是“凹后垂，两水夹朝，三五折，四山应落朝填前”，candidate 的断句和直译未能清晰传达这种结构。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004438-p000-8e817ce055",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004439-p000-c6858dc1ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 对“中顶起峰中穴是微，中要妙取微哉。上是面是中人，是也用三。”的处理仅为断句和直译，未作任何解释，完全无法让普通读者理解。对于这种明显不通或含混的原文，应在释读中明确标注其含义不明，而不是直接呈现令人困惑的直译。",
+          "“禹曰”后的内容“凡作曲股金钗形，与左右开钳穴同，扦一过。”，candidate 直译，但“扦一过”对现代读者非常陌生，需要解释（如“点穴穿过一次”或保留原词并说明“具体操作不详”）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004440-p000-f78a207673",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004441-p000-9f4c32850f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将原文杂乱的语句（可能包含注释或衍文）整合成一段连贯的论述，并加入了大量解释性文字（如“文中讨论真伪之龙，指出从……”、“第二种情况是：”），这属于无依据的扩写和重组，严重偏离了“释读”的边界，近乎改写。必须严格依据原文顺序和字面进行保守的、分段落的释读，并对无法理解的部分明确标注。",
+          "对“水日孙”、“班峰”等 opaque_terms，candidate 未将其置于引号内或明确标注为原文术语，而是直接融入解释性句子中（“只能作为缠护的水日孙”、“呈现尖形班峰”），这赋予了它们确定的含义，违反了规则。",
+          "“玄微”在 candidate 的句子“这才是玄微的真穴”中被用作形容词，但原文“此爲玄微眞穴也”中“玄微”可能是一个名词性概念（如玄妙精微之理），candidate 的解释不够准确，且未标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2528,
+    "completion_tokens": 1285,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2528,
+      "completion_tokens": 1285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

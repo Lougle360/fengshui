@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T20:01:34.773641+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b39b536c42eb1a6e7398b012518be35667d6a89d40523c4c433649e94d0865a3",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003226-p000-684204cc53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将《井》卦相关的井、寒泉等内容错误替换为allowed_glossary中定义的‘风水语境中的河流、水系及其来去形态’，属于专业术语误换，违反了术语使用规则"
+        ],
+        "uncertainty": [
+          "无"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 101,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1027,
+      "completion_tokens": 101,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

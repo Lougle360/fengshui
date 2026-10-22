@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T09:12:18.097227+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e2b3c7be9d3747c1dedfa7d3f45fa07077aeda366f5dec9623c77c173a9cbfb5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000183-p000-14ee34ac90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“星百”具体所指不详，释读为“星数达到一百”为合理推测"
+        ]
+      },
+      {
+        "id": "book010-b000184-p000-932b59037a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中“主具旺马”语义不明，属于无依据扩写；原文断句错乱导致部分内容无法准确释读"
+        ],
+        "uncertainty": [
+          "原文存在多处断句错乱，部分语句语义不连贯，“主具旺马”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000185-p000-f37abd2064",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中“杨穴”未明确标注为原文未明的专名，属于无依据确定解释"
+        ],
+        "uncertainty": [
+          "原文断句错乱，“杨穴”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000186-p000-5d38143c23",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中“五九之数的水”“地体的分明变化”“明变”等内容属于无依据扩写，原文断句错乱导致语义不连贯"
+        ],
+        "uncertainty": [
+          "原文存在多处断句错乱，部分语句语义不连贯，“五九”“明变”等具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1354,
+    "completion_tokens": 373,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1354,
+      "completion_tokens": 373,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

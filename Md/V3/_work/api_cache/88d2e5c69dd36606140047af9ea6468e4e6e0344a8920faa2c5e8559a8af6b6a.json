@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T16:40:06.129543+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "88d2e5c69dd36606140047af9ea6468e4e6e0344a8920faa2c5e8559a8af6b6a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000342-p000-427eff964b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000343-p000-f575e688e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺漏，未完整引述孔子的论述内容"
+        ]
+      },
+      {
+        "id": "book016-b000344-p000-a6e8b76d23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000345-p000-800f898da8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 210,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1351,
+      "completion_tokens": 210,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

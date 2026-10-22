@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-10-15T06:35:25.619678+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cf3bfb4616891b5eedf010676409575cfb991faf49ada6eca34034891eaf88a7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001337-p000-79a3ab1659",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'裁之'与'减之'分别释为'裁减'和'补足'，但原文'裁之'与'减之'可能同义或近义，均为调整、削减之意，'补足'无依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001338-p000-0c3ace23b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001339-p000-c8f147a3da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'以来脉为主'释为'得到紫白值穴吉星后，以来脉为主'，但原文'得紫白值穴吉以来脉为主'的断句和逻辑关系存在歧义，candidate的解读可能将'得紫白值穴吉'与'以来脉为主'处理为先后顺序，而原文可能意指'得到紫白值穴吉'这件事是'以来脉为主'的。",
+          "candidate将'尺寸俱吉爲上尺凶寸吉爲次合玉尺深淺數亦可'释为'如果尺寸都吉利为上等，尺凶寸吉为次等，同时也符合玉尺深浅数的要求'，其中'合玉尺深淺數亦可'的'亦可'（也可以）被译为'同时也符合...要求'，语气和确定性略有增强。"
+        ],
+        "uncertainty": [
+          "原文'得紫白值穴吉以来脉为主'的确切逻辑关系存在歧义。"
+        ]
+      },
+      {
+        "id": "book035-b001340-p000-f80c16154d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'辨土色畫雲'释为'辨别土色要画云图'，'画云图'是具体化解释，原文'畫雲'含义不明，可能为'画云'（描绘云纹？）或'画云气'，也可能为'画云'（一种描述土色的比喻或术语），不宜直接确定为'画云图'。",
+          "candidate将'截肪切玉備具五色'释为'切土如切脂肪、切玉，具备五色'，其中'截肪切玉'是形容土质的比喻，candidate译为'切土如切脂肪、切玉'，增加了'切土'的动作，改变了原文的静态比喻结构。",
+          "candidate将'夫乾如聚粟溫如制肉水泉砂'释为'乾土像聚集的粟米，温暖如控制肉，水泉砂'，其中'溫如制肉'的'制肉'含义不明，candidate译为'控制肉'，属于猜测，且'水泉砂'在candidate中未做任何处理，直接保留，但原文可能为'水泉砂礫'或类似结构的残句，candidate未标注此处的语义不完整风险（尽管writer_uncertainty中有标注，但candidate文本本身未体现）。"
+        ],
+        "uncertainty": [
+          "原文'畫雲'具体所指不详。",
+          "原文'制肉'具体所指不详。",
+          "原文末尾'水泉砂'语义不完整，可能为残句或脱文。"
+        ]
+      },
+      {
+        "id": "book035-b001341-p000-363acbc632",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001345-p000-7e6226d3b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001346-p000-28f16e14cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001347-p000-ee8df9bcec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001348-p000-6b0be7be55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'檐食人'释为'挑担食人者'，'檐'通'担'（擔）的可能性较大，但'食人'是'食于人'（被人供养）还是'以食予人'或其他含义，存在歧义。candidate译为'食人者'，可能引起'吃人'的误解，且未标注此处的歧义。"
+        ],
+        "uncertainty": [
+          "原文'檐食人'中'食人'的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001349-p000-0bd138f163",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'聞鐘怕'释为'听到钟声，令人害怕'，增加了'令人'这一施动者，原文'怕'的主语可能是开地者或泛指，candidate的解读虽合理但属于明确化处理，且'怕'也可能有'恐怕'（表示推测）的意味，此处存在轻微歧义。"
+        ],
+        "uncertainty": [
+          "原文'聞鐘怕'中'怕'的确切含义和主语存在轻微歧义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2596,
+    "completion_tokens": 1146,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2596,
+      "completion_tokens": 1146,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

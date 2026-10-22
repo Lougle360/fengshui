@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T19:26:45.004913+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "eb58d0da1c6ba7f8e640b25596f0678f2d671ce5d0091b60fecdc2c4c84bb17e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002715-p000-8b1da1a4f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002716-p000-8a27de3f5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002717-p000-8ee0fe8f7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002718-p000-4a19c41d62",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未保留原文表格结构，将表格内容拆分为零散文本，且遗漏了表格中其余爻辞的释读内容，不符合kind为toc时的格式要求"
+        ],
+        "uncertainty": [
+          "原文中“‘身’阮刻作‘为’，据《校勘记》改”的处理方式未获批准，保留原文表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2607,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2607,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T07:51:50.745662+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "59cdc33a803614ddf47a5fc32c1543dca4cabe44e5aafdfba93c9efe3e77f955",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002255-p000-cf86d1762b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“脉缓用盖急用粘，直尚倚撞尖息象”存在断句和释义偏差，候选将其拆分为对应脉象的开井规则，但原句末尾“尖息象”未准确处理，导致息象的前置说明遗漏，属于局部语义衔接错误",
+          "原文“源墓变凸洼”被误译为“祖坟所在的地块从凸洼变成了吉地”，“源墓”无依据释义为“祖坟”，“变凸洼”的语义方向错误，原文未提及凸洼变为吉地，属于无依据增译和语义偏离",
+          "原文“窟狭用正阔用毬”被误译为“宽阔就用求法”，“毬”被替换为“求”，属于专业术语用字错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2493,
+    "completion_tokens": 219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2493,
+      "completion_tokens": 219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

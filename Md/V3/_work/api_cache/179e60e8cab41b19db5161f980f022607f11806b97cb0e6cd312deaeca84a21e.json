@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T13:46:42.142139+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "179e60e8cab41b19db5161f980f022607f11806b97cb0e6cd312deaeca84a21e",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000345-p002-54ea1a00a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000347-p000-bbab37e079",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000348-p000-25acd4a403",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000349-p000-4e246fa4dc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文仅为「阮元の疇人伝序」，候选句添加了「《畴人传》」的书名号，且未说明「疇人传」的原文表述，属于无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 270,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1450,
+      "completion_tokens": 270,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

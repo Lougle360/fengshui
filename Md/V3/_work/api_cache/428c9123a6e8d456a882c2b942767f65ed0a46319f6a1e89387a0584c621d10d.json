@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T14:11:04.238067+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "428c9123a6e8d456a882c2b942767f65ed0a46319f6a1e89387a0584c621d10d",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000320-p000-8275b03ae5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000334-p000-3dece77744",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明明说的是“處須防氣絕”，并没有明确指出是“地势高的地方”，属于无依据添加原文不存在的限定条件，导致释读有误"
+        ],
+        "uncertainty": [
+          "除“處須防氣絕○地卑處切忌泉流”外的其余内容残缺错乱，含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 871,
+    "completion_tokens": 181,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 871,
+      "completion_tokens": 181,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-23T08:57:02.860657+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f38789d22ebbc4bd59fa9c55cc36de2b34d51d165ba735898c2bf732f6e98537",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000348-p000-7d2ef0a30d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘王陵’释为‘汉代名将王陵’是未经允许的确定解释，原文‘王陵’可能指帝王陵墓或人名，但不得直接认定为历史人物。",
+          "‘安葬之后，墓主家族中会有人做到……’将推测写成了事实，原文‘葬后王陵作上卿’是陈述句，但释读应避免断言其必然发生。",
+          "‘此人独自辅佐汉家王朝’同样将推测写成了事实。"
+        ],
+        "uncertainty": [
+          "一木山高母自刑"
+        ]
+      },
+      {
+        "id": "book001-b000353-p000-99f9ece8f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天医天卦正此当"
+        ]
+      },
+      {
+        "id": "book001-b000354-p000-f1e0c17d2b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天上六龙临墓绝",
+          "其家应少白头翁"
+        ]
+      },
+      {
+        "id": "book001-b000356-p000-17bff9f7b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘据说至今富贵且兴旺人丁’将推测写成了事实，原文‘至今富贵旺人丁’是陈述句，但释读应避免断言其必然为真。"
+        ],
+        "uncertainty": [
+          "开辟伏羲女娲祖"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 338,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1234,
+      "completion_tokens": 338,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

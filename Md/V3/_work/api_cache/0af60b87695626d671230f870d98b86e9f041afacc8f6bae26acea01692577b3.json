@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T15:58:32.792027+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0af60b87695626d671230f870d98b86e9f041afacc8f6bae26acea01692577b3",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001376-p000-7a24842865",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001377-p000-7ff340efca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001378-p000-b53da70331",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中出现的标记“⑧”未明确对应具体内容"
+        ],
+        "uncertainty": [
+          "原文中出现的标记“⑧”未明确对应具体内容"
+        ]
+      },
+      {
+        "id": "book015-b001380-p000-2c484594cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中出现的标记“①”未明确对应具体内容"
+        ],
+        "uncertainty": [
+          "原文中出现的标记“①”未明确对应具体内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1759,
+    "completion_tokens": 248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1759,
+      "completion_tokens": 248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

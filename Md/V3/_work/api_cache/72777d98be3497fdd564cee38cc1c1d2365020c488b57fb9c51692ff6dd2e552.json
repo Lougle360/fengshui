@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-18T09:20:24.863958+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "72777d98be3497fdd564cee38cc1c1d2365020c488b57fb9c51692ff6dd2e552",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006051-p000-6821feb88e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘七戌三乾’在candidate中被简化为‘这一特定术语组合’，未译出具体干支和数字组合。",
+          "反义/误译：原文‘兒孫及第更高科’意为‘子孙科举及第，科名更高’，candidate译为‘子孙及第，科名更高’基本准确，但‘更高科’的‘更’字有‘更加’之意，candidate处理尚可，但整体因漏译问题需修订。"
+        ],
+        "uncertainty": [
+          "‘印庫之龍’的具体所指不详",
+          "‘官’字在原文中单独出现，具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b006058-p000-28728f9958",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘乙亥火山三戌七乾’在candidate中被简化为‘这一特定术语组合’，未译出具体干支和数字组合。",
+          "增译/推测：原文‘風聲三位皆主其凶也’中‘風聲’含义不明，candidate译为‘风声之灾’并与其他灾祸并列，属于无依据的推测性扩写。应保留‘风声’原词并标注其意不详。"
+        ]
+      },
+      {
+        "id": "book035-b006060-p000-87e9f2117e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1158,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-18T01:14:49.368774+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b6e6f37751440d8fb0dbf99b26eb0fec08a29c05de093bec632b448c5adc5357",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005115-p000-bed16050d8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将右侧大段文字整体概括为‘涉及...等术语与断语，具体所指不详’，但原文是连贯的吉凶断语，并非单纯的术语罗列。candidate的概括方式丢失了原文的语义连贯性，且未明确说明这些断语是吉是凶。",
+          "candidate将表格中的形态名称（如‘大粗’、‘飞斜狭’等）直接解释为‘凶形’，但原文表格本身并未直接标注吉凶，其凶性可能来自右侧文字或风水常识。candidate将形态名称直接定性为‘不吉利的地形形态’、‘凶形’、‘不吉之象’，属于将推测（或隐含知识）写成了确定事实。",
+          "candidate将‘案横’等术语与右侧文字中的‘主案荡’等断语混在一起处理，但原文表格中‘案横’是独立的标题，右侧文字是另一段内容。candidate的表述模糊了这种结构区分。"
+        ],
+        "uncertainty": [
+          "右侧大段文字‘丧星之流蕩禍席象星連帽下财仰绵罗格帛面衫貴遍名酸砂諸銀馬主州帶玉生堂俊解子寶偉曰弟剑不仰風最宜面流佳正掃輩主案荡小宜名罗贵旁曰衫龙出银駿賤得带马主小富走遭贵贵风’含义晦涩，可能包含特定风水断语或术语组合，其确切解读存在困难。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3094,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3094,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

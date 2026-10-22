@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-24T22:34:31.404271+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a267065c0ee75df8e2997f9e1b0ac395c4df7eb76ea36fce2d5cae297ae21452",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004063-p000-95e4c206ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004064-p000-fcdd6e25a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004065-p000-69aebdd5e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“离”的allowed_glossary定义为八卦之一，但此处“飞鸟离之”的“离”通“罹”表遭受，与给定的术语定义冲突，且释读未将作为术语的“离”（八卦之一）与通假用法区分"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004066-p000-a741ad3571",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004067-p000-b2fec00275",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“离”的allowed_glossary定义为八卦之一，此处明确“离通‘罹’”属于通假用法，与给定术语定义冲突，未区分术语义与通假义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004068-p000-15a73e9b98",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004069-p000-af6bed3974",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“离”的allowed_glossary定义为八卦之一，此处“飞鸟离之”的“离”为通假用法，与给定术语定义冲突，未做区分"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004070-p000-d65ce29ddc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004072-p000-c09f0182ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004073-p000-ac52f6770d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source是标题类内容，candidate擅自改写为讲解说明性语句，偏离了原内容的性质，存在无依据增译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3457,
+    "completion_tokens": 736,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3457,
+      "completion_tokens": 736,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

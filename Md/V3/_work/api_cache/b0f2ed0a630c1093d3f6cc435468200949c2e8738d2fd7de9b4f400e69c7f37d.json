@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T01:11:47.051694+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b0f2ed0a630c1093d3f6cc435468200949c2e8738d2fd7de9b4f400e69c7f37d",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000012-p000-a8123a50d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“远择纪全”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000013-p000-df0e484727",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文前半部分“人口生灾家中常有血光火燭一年大凶”是未明确限定为癸未日的内容，候选释读错误将其全部归属为癸未日设斋的后果，存在语义归属错误；且内容重复表述，逻辑冗余"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000014-p000-013995fc21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“興耻”具体含义无法确定，暂保留原词"
+        ]
+      },
+      {
+        "id": "book006-b000017-p000-679b82263c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文前半部分“年遇遭官事口舌是非疾病此日大凶”未明确限定为巳丑日设斋的后果，候选释读错误将其归属为巳丑日的凶兆，存在语义归属错误；原文干支为“巳丑”，不符合传统干支组合规则，候选释读未标注该异常，存在风险；原文“王人口安康”的“王”字含义不明，候选释读直接视为“主”处理，未标注存疑，属于无依据释读"
+        ],
+        "uncertainty": [
+          "干支“巳丑”不符合传统干支组合规则，疑为原文讹误；“王人口安康”中“王”字含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 458,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1239,
+      "completion_tokens": 458,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

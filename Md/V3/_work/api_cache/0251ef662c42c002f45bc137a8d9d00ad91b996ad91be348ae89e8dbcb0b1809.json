@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-26T07:35:58.368360+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0251ef662c42c002f45bc137a8d9d00ad91b996ad91be348ae89e8dbcb0b1809",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000263-p000-96b75a93ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格中E、C、2、2单、0、5、1080800088、1000具000、80800日、ww0000.00008、000000、HC等标注的具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b000270-p000-d4e5307845",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000271-p000-49d62426be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文有“其說山於楊筠松三十六脈歌云”，候选误写为“相关说法出自杨筠松的《三十六脉歌》”，遗漏了“山”相关的表述；原文“而待家乃為龍氏之主”存在文字错乱，候选直接释读为“但风水术者却认为是龙氏之主”，将无法确定的错乱内容作了确定性解释，不符合要求；原文“再可以吾儒循名求義論之亦當在”存在断句错乱，候选释读为“再以儒家循名求义的观点来看，也应当如此”，属于无依据补全含义，不符合要求；原文“昔名火登龍辰后其水六之安十月共三享見旦十二”为明显的文字残缺错乱，候选直接照搬，未标注该部分无法准确释读的风险"
+        ],
+        "uncertainty": [
+          "原文存在多处文字错乱、残缺，包括“崩共”“崩決”“共之派”“谷多役月山之堪安氣”“而待家乃為龍氏之主”“再可以吾儒循名求義論之亦當在”“昔名火登龍辰后其水六之安十月共三享見旦十二”等内容均无法准确解读具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2632,
+    "completion_tokens": 523,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2632,
+      "completion_tokens": 523,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

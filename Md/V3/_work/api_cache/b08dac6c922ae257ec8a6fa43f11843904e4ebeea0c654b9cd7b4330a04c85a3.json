@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-15T04:31:42.089699+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b08dac6c922ae257ec8a6fa43f11843904e4ebeea0c654b9cd7b4330a04c85a3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001138-p000-2f3aabca6e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译。source为‘全屆入式歌’，是一个篇目名称。candidate将其解释为‘文中列出了...这一篇目’，这是增译，且未直接翻译或解释该篇目名称本身。应指出‘全屆入式歌’可能是篇名或歌诀名，具体含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001140-p000-86ecb9c3ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "反义/误译。source‘有落皆堪作初落’意为‘凡是具备落脉情况的（地方）都可以作为初落’，candidate将其拆解为‘凡是具备这些情况的‘有落’，都可以作为‘初落’’，将‘有落’当作一个专有名词，改变了原意。原文‘有落’是‘有落脉’的意思。",
+          "漏译/误译。source‘局勢必須完者未形穴枝作城郭也’一句，candidate仅标注模糊，未进行基本释读。此句大意应为‘局势必须完整，在穴位形态未显时，其枝脉（或龙虎砂）起到如同城郭般护卫的作用’。candidate完全未处理‘未形穴枝作城郭’的含义。",
+          "增译。candidate在解释‘穴’时，使用了allowed_glossary中的定义，但此定义在原文语境中并非直接解释，而是作为补充说明，且表述冗长。应更简洁地处理或融入句意解释中。",
+          "术语处理不当。‘四落’、‘初落’是风水术语，指龙脉落下的不同阶段或位置。candidate仅标注‘具体含义不详’，未指出其为风水术语并尝试进行基本解释（如‘落’可能指龙脉落处）。"
+        ],
+        "uncertainty": [
+          "正方",
+          "得入宅"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 867,
+    "completion_tokens": 455,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 867,
+      "completion_tokens": 455,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

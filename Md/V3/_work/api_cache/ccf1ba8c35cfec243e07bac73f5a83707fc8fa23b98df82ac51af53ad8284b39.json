@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-18T01:20:02.364787+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "ccf1ba8c35cfec243e07bac73f5a83707fc8fa23b98df82ac51af53ad8284b39",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005123-p001-cfa6593ead",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "本处为包含多幅图像与文字“火 合”的表格版面，具体图像内容与排版细节以原书页面图像为准。",
+        "confidence": "high",
+        "uncertainty": [
+          "原内容为图像占位符，无法提取具体文字或数据，仅能说明版面结构"
+        ]
+      },
+      {
+        "id": "book035-b005124-p000-fb286c2cf0",
+        "language": "mixed",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档021 PDF 第124页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005125-p000-4bdb239f8a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十六，讲述水城与堂气。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005126-p000-6110c2ac99",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "重刻官版《地理天机会元》续篇，亲自收录供阅览，为卷之二十六。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005127-p000-2a525ab433",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 宋代廖金精著",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2592,
+    "completion_tokens": 576,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2592,
+      "completion_tokens": 576,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T13:12:02.701355+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b7edb799a55282def7b9ed856f829ae28e78e0eab4dc3cefc556ac532e4749c2",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001118-p000-365b195d61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001120-p000-8a315ececa",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾「怪四」二字意義不明"
+        ]
+      },
+      {
+        "id": "book014-b001123-p000-ebff6f707f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001124-p000-f107c4f3ff",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾「當穴而沙卽非其中」一句意義不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3085,
+    "completion_tokens": 239,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3085,
+      "completion_tokens": 239,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

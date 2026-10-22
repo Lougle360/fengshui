@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T07:24:06.281408+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "76e10f5d568fbe91bcd7fc8d630c4a45106bf8ff8cb6cdf8c25642c4ef6b75be",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000047-p000-c93df88be3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译：原表格引述杨公（杨筠松）相关论述、“博换”“鹤立鸡群”等核心论述内容未提及；存在错误：原文“2正宗 卷之上 三N”被误写为“2正宗卷之上三”，原文“五星正體東氣見二十一篇二節”“被幹篇七看身逆結詩十二篇二節”是篇章标注，不应和卷次混同，原文的数字“5”是表格行号，不属于相关条目内容；专业术语解释虽符合glossary，但对表格整体内容的概述不完整，多处原文核心信息遗漏，存在表述不准确问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2426,
+    "completion_tokens": 196,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2426,
+      "completion_tokens": 196,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

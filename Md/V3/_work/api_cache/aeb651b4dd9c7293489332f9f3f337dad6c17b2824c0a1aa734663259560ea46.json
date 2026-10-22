@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-15T08:07:05.415893+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "aeb651b4dd9c7293489332f9f3f337dad6c17b2824c0a1aa734663259560ea46",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002140-p000-29d91294c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘天門北直來直向神功裂巽丙受穴最為艮富貴榮華人英傑兼巽 宜辛巳辛亥’中，‘最為艮’应理解为‘最为吉利，主艮方所代表的富贵’，但候选句‘能带来艮方所主的富贵’表述不够准确，原文是‘最为艮富贵荣华人英杰’，‘艮’在此处可能直接修饰‘富贵荣华’，意指艮方所主的富贵。候选句的‘使家族出英雄豪杰’是合理的引申。但‘神功裂’的处理方式‘文中还提到‘神功裂’，具体所指不详。’不符合要求，应将此不明确术语原样置于引号内，并说明其含义不确定，而不是作为额外信息补充。",
+          "原文‘兼巽 宜辛巳辛亥’中，‘兼巽’可能指坐向兼巽方，候选句解释为‘在巽方（或兼巽方）’是合理的推测，但应明确标注不确定性。候选句将‘辛巳辛亥’解释为‘分金度数’是合理的，属于allowed_glossary中‘分金’的定义范围。"
+        ],
+        "uncertainty": [
+          "神功裂的具体含义",
+          "兼巽的具体操作是指坐向兼巽方还是其他"
+        ]
+      },
+      {
+        "id": "book033-b002143-p000-0c4f0ae08c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘第三宜坐乙向辛穴丙龍入首右落穴乙向辛宜稍挨右取丙氣貫左腰催官第八丙龍乙氣沖左腰英才出太微內之龍穴粘巳左氣貫耳富而巳分金謙 誼辛柳辟酒’中，‘富而巳’候选句处理为‘主富贵而已’并标注不确定性，可以接受。但‘乙气’候选句处理为‘但‘乙气’的具体含义不详。’方式不当，应将其作为opaque_term原样引用并说明不确定。",
+          "原文‘分金謙 誼辛柳辟酒’候选句处理为‘分金方位涉及‘谦 谊 辛 柳 辟 酒’等字，具体所指不详。’方式不当，这些应作为opaque_terms原样引用并说明不确定，而不是在候选句中直接列出并评论。"
+        ],
+        "uncertainty": [
+          "乙气",
+          "谦 谊 辛 柳 辟 酒的具体所指"
+        ]
+      },
+      {
+        "id": "book033-b002144-p000-729c5bbe9b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘分金兼味’候选句处理为‘分金方位兼取‘味’，具体所指不详。’方式不当，‘味’应作为opaque_term原样引用并说明不确定。"
+        ],
+        "uncertainty": [
+          "味的具体所指"
+        ]
+      },
+      {
+        "id": "book033-b002145-p000-745cb5ed46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002146-p000-d1965e035e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002148-p000-71c349f6a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘分金兼味’候选句处理为‘分金方位兼取‘味’，具体所指不详。’方式不当，‘味’应作为opaque_term原样引用并说明不确定。"
+        ],
+        "uncertainty": [
+          "味的具体所指"
+        ]
+      },
+      {
+        "id": "book033-b002149-p000-d07fca4510",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘分金絲頭 宜辛巳卒亥宜丁巳丁亥’候选句处理为‘分金涉及‘丝头’和‘卒亥’，具体所指不详；其中‘丝头’宜用辛巳，‘卒亥’宜用丁巳、丁亥。’方式不当，‘丝头’和‘卒亥’应作为opaque_terms原样引用并说明不确定，而不是在候选句中直接分配解释（‘宜用辛巳’等）。"
+        ],
+        "uncertainty": [
+          "丝头",
+          "卒亥的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2881,
+    "completion_tokens": 1000,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2881,
+      "completion_tokens": 1000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

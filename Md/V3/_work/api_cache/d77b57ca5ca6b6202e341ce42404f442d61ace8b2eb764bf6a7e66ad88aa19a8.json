@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-24T15:35:52.869457+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d77b57ca5ca6b6202e341ce42404f442d61ace8b2eb764bf6a7e66ad88aa19a8",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001184-p000-1b108e1d46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001185-p000-39073b929e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001186-p000-e4246bb5c1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "未将原文中的日文汉字及假名转换成现代中文，保留了原文的日文表述，未完成释读要求"
+        ],
+        "uncertainty": [
+          "觱はっ発たり",
+          "栗烈たり",
+          "始めあして田器を修め",
+          "でんしゅんいく"
+        ]
+      },
+      {
+        "id": "book015-b001187-p000-1ac05de572",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "保留了原文中的日文表述（如「建寅の月」「建子の月」「官暦の周正」），未转换成现代中文，不符合释读要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2274,
+    "completion_tokens": 294,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2274,
+      "completion_tokens": 294,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T00:11:54.435049+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8c2b4795220aca68b2fcfc46822700fbdae29d15f45b20a3cd22a096ed2c0c62",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000476-p000-194e65bff5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000478-p000-965619c76d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘乐远，穴后仰瓦’的‘乐远’被误译为‘乐平地势偏远’，属于无依据增译，此处‘乐远’具体所指原文未明，不应直接释为乐平偏远"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000479-p000-ae178533e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘课’为风水领域的课语、谶语类内容，被误写为‘课文’，术语使用不当；原文‘庚寅生人遇年月’未完整释读，语义含混，未说明所遇是符合何种条件的年月，属于释读不充分"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000480-p000-b3b8115327",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "该条目为原书卷标题，要求原样保留标题内容，候选将其改写为说明性语句，违反标题类释读需保留原标题完整内容的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000481-p000-1a9f7a4d12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000482-p000-a88fbd10d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘山皆光彩不麓’的‘麓’被误译为‘秃’，属于字义错译，此处‘麓’应为粗劣、粗糙之义，原文指山形光彩不粗劣；原文‘课’被误写为‘课文’，术语使用不当"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000484-p000-8a67cbf65b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到‘称十院’为止，候选自行补入‘张氏。今富贵未艾。’的内容，属于增译，超出原文给出的范围；原文‘课’被误写为‘课文’，术语使用不当；原文‘登仕藉’的‘藉’为通假字，候选改为‘仕籍’虽语义无误，但应注意原文用字，但此处核心问题为增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000485-p000-95cb9f8b2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000486-p000-3b20b02027",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000487-p000-733261a055",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘谁信为此等大地’被误写为‘谁会相信这是等大地’，漏译‘此’字，语义不通；原文‘远著脚力’释读不准确，应是‘走很远的路’之意，候选保留原短语未做通俗释读；原文‘高珑’为风水术语，未做通俗释读，普通读者难以理解"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4291,
+    "completion_tokens": 956,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4291,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4291,
+      "completion_tokens": 956,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

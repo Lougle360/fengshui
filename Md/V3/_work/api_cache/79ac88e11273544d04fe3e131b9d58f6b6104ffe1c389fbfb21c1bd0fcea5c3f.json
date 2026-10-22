@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T18:34:23.073037+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "79ac88e11273544d04fe3e131b9d58f6b6104ffe1c389fbfb21c1bd0fcea5c3f",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002009-p000-ce95ee6ae8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002010-p000-d45f7a35cd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在排版混乱，候选句将原文的《象》曰与译文内容错误拼接，混淆了原文与释文的边界，且原文中‘不可以有辅也’的释读逻辑存在偏差，原文‘不可以有辅也’意为不可再辅助，而非‘不能再加以辅助’的表述偏差，同时原文的《象传》释读内容与原文的《象》曰内容混淆，属于内容拼接错误"
+        ],
+        "uncertainty": [
+          "原文存在排版混乱，‘不可以 译文《象传》说’部分的原文与释文边界不清，具体所指存在歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 222,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1230,
+      "completion_tokens": 222,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

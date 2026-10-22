@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-04T08:09:39.772912+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cca2dce445ba5e7568b6979ec26ffb118fc59269e3a85b5ac4e338b24e6b2f3b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000913-p000-d92a39d8f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文的并列列举改写成了解释性语句，并增加了‘文中列举了’、‘并提到’、‘文中还指出’等原文没有的叙述框架，属于无依据的扩写。原文是术语和短语的直接罗列，候选句应保持其罗列形式，仅对可释读的术语进行解释或标注不确定性。",
+          "候选句对‘穴’的解释使用了allowed_glossary中的定义，这是允许的，但解释方式（‘这里的‘穴’指...’）与原文的罗列风格不符，显得突兀。应将解释融入对‘抱穴’这一短语的说明中，或作为补充说明。",
+          "候选句将‘有乘’、‘抱穴’、‘有夾’称为‘情形’，而原文只是三个并列的短语，这种概括性描述属于增译。应直接处理这三个短语本身。",
+          "原文‘財天體貼财天水金’在候选句中处理得当，保留了原短语并标注了不确定性。",
+          "原文‘出金’、‘正微’、‘沃財’、‘天財’在候选句中处理得当，保留了原短语并标注了不确定性。"
+        ],
+        "uncertainty": [
+          "財天體貼财天水金",
+          "出金",
+          "正微",
+          "沃財",
+          "天財",
+          "有乘",
+          "有夾"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 314,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 792,
+      "completion_tokens": 314,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

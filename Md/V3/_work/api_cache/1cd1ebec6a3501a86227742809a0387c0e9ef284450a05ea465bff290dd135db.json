@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T08:07:33.739556+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1cd1ebec6a3501a86227742809a0387c0e9ef284450a05ea465bff290dd135db",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002520-p000-bbc45cb5b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002521-p000-d5c4ebce73",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“横开帐蟆”，candidate误释为“横向展开成帐幕般的形态”，属于无依据改写；source中“首下作绛”，candidate直接释为“低下的地方或者是绛色”，无相关术语依据佐证此解读，属于将不确定内容写成确定事实"
+        ],
+        "uncertainty": [
+          "“横开帐蟆”“首下作绛”的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book019-b002522-p000-15a1dca363",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“朝山本自爱特来”，candidate释为“朝山本是从自身特出而来”，与原文“喜爱特地前来（的朝山）”含义不符，属于误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002524-p000-fa3ba89e10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002525-p000-3dac5c6eb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002526-p000-aaeb0a1b49",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002527-p000-d1549869c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002528-p000-c81293739e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002531-p000-e6d2ba2140",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002534-p000-6020f5e730",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4048,
+    "completion_tokens": 632,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4048,
+      "completion_tokens": 632,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

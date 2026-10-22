@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-24T23:08:07.318370+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b9b075746bb6f12c704b575846713902a50940605e288724e43137a20404494",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001011-p000-ff93934723",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“及四库小皆不可用”被错误断句为“以及四库小的情况，都不能取用”，未准确传递语义；原文末尾的日文假名“ね”未做处理，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001013-p000-cbd6dc56d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“職位在學坐捍門官國華表起山水亦司例”被误译为“学宫的捍门、官国华表的位置起有山和水……也遵循这个规则”，擅自添加了原文不存在的“学宫”表述，且错改了原文的结构逻辑"
+        ],
+        "uncertainty": [
+          "起仍方是王仍长生旺",
+          "四位一能春"
+        ]
+      },
+      {
+        "id": "book017-b001016-p000-6a6690caf4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“後左右形努聞佳”被误译为“其后和左右的形态气势都佳好”，“聞佳”的语义未准确体现，属于错译"
+        ],
+        "uncertainty": [
+          "族星生明"
+        ]
+      },
+      {
+        "id": "book017-b001018-p000-93916cef4f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文句讹脱严重，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001020-p000-d1ef335789",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“九些居午”“九此一百易位”被误改为“九紫居午位”“九紫和一白就会互换位置”，无依据将原文讹误的表述替换为确定的理气术语，属于擅改原文；原文结尾未完成的“故子”未标注残缺状态，释读不严谨"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1539,
+    "completion_tokens": 509,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1539,
+      "completion_tokens": 509,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

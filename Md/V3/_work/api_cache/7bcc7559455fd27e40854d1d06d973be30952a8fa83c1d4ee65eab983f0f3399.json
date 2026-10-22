@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-04T04:35:25.627673+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7bcc7559455fd27e40854d1d06d973be30952a8fa83c1d4ee65eab983f0f3399",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001368-p000-b37a282c4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“至博子集”翻译为“众多至博子集”属于无依据扩写。原文“此有至博子集”可能指此处有“至博子集”这一特定事物或地点，candidate 将其解释为“聚集了众多”并重复“至博子集”，改变了原文结构，且“至博子集”为 opaque term，不应被赋予“众多”的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001369-p000-c7e3a74839",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001370-p000-8cbd4124a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“重氏聽謂下砂收盡源頭木兒孫買盡世間田是也桃中也所時似既曰下手砂”存在明显错乱，candidate 将其处理为“重氏曾说：下砂收尽源头，木儿孙买尽世间田。桃中也说：下手砂。”，这属于对不确定原文的过度解释和断句。应将此段作为整体保留其模糊性，或明确指出原文此处不通，而非将其拆解为两个完整引语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001371-p000-d38a23d2d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001372-p000-5ed4a45cfe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“卷五上之三論樂山樂好地備龍之”语意不完整，candidate 已标注“具体所指不详”，符合要求。"
+        ]
+      },
+      {
+        "id": "book033-b001373-p000-091c4d4502",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001375-p000-be189a0d72",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“貼 借 穴應樂者”断句混乱，candidate 将其重组为“贴借穴应乐者”，并翻译为“贴借穴应乐者”，这属于对不确定原文的强行解释。应更保守地处理，例如保留原文的混乱状态并说明，或仅翻译可确定的部分。“康圗”翻译为“康图”并保留原词是合适的，但“康图宁长寿”的译法仍隐含了“康图”是吉祥语的含义，存在一定风险。建议将“康图”作为 opaque term 处理，并说明其含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001376-p000-693be1356e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“也里子頁卷五上砂法”及“特圖樂”等处存在严重 OCR 错误或文本残缺，导致整句语义无法成立。candidate 的翻译是基于猜测的强行串联，无法作为可靠的释读。"
+        ],
+        "uncertainty": [
+          "原文存在严重损坏，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book033-b001379-p000-9eca4fede5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001384-p000-22e2cd4f31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“雄破私县仁鲁”一句含义晦涩，candidate 已保留原词并说明“可能涉及特定的地名、人名或隐语”，符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5216,
+    "completion_tokens": 913,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5216,
+      "completion_tokens": 913,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

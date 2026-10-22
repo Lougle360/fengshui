@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-18T00:12:51.458765+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0fff77e02174d35d396b31dac17e231b40e956305fe0b411f699dbb866d41a41",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005054-p000-c1486950ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005055-p000-d2bd062597",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格结构，candidate将其合并为一段叙述，丢失了原文的并列对照格式和部分内容（如‘九個掃蕩名不吳誰知有可取掃蕩九變詩雲法能截蕩奪神功與世產英雄’被拆散且部分内容未译出）。‘剪火任君安’译为‘剪火形态无论怎样安排都适宜’不准确，原文意为‘剪火’（一种处理手法）可安穴。‘双喝为狮子抱球形’中的‘喝’可能为‘喝形’（比喻），candidate直接译为‘双喝’不清晰。‘五穴元无所没’译为‘五穴原本无所缺失’不准确，‘没’可能为‘缺失’或‘淹没’，但此处文意不明。‘文中还出现了数字7和0’是多余的现代注释，不属于释读内容。"
+        ],
+        "uncertainty": [
+          "‘剪火任君安’的‘剪火’具体含义不明。‘五穴元无所没’的‘没’字含义不明。表格中的‘S’、‘e’、‘夏’、‘0’等字符可能是排版符号或OCR错误，含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b005056-p000-f5b2dbe3d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005062-p000-cb8a70a562",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005063-p000-88c072c54c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005064-p000-4a7f8a19f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005065-p000-7ea1cbc791",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005066-p000-e4f59628be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005067-p000-e92c9a0d4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3631,
+    "completion_tokens": 580,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3631,
+      "completion_tokens": 580,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

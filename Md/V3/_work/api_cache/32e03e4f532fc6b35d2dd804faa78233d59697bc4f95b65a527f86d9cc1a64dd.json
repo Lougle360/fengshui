@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-17T12:19:36.047407+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "32e03e4f532fc6b35d2dd804faa78233d59697bc4f95b65a527f86d9cc1a64dd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003628-p000-af95864b93",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'庚酉辛龍庚酉匠丑艮方上財別樣卯方財天火燒北方逃敗南貪廣'中，'庚酉匠'的'匠'字在candidate中被处理为'庚、酉、辛'，疑似漏译或误译。'南貪廣'释为'南方贪狼星虽广但终致败亡'，将'贪'解释为'贪狼星'是未经允许的术语扩展，且原文未明确提及'贪狼星'。candidate将'别样'解释为'这是另一种格局'，属于合理的浅显释义，可以接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003629-p000-57869b3c16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003630-p000-7c9d289db2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003631-p000-776b073551",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003632-p000-1d5ce78b32",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'戌乾亦是富貴龍乾多亦怕午水親若見丙丁水大中亡人腳與頭相合'，candidate释为'戌乾来龙也是富贵龙，但乾方过多也怕午水亲近；若见丙、丁水，则家中会亡人，且死状为脚与头相合。'。其中'大中亡人'被简化为'家中会亡人'，'大中'的含义未译出，可能指特定情况或人物（如长房），属于漏译。'脚与头相合'的直译保留了不确定性，符合要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003633-p000-4a7fcfa942",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文'戌乾内有君臣瑾乘金相土其中异若有砂水合天機穿山作處生富貴穴宜急作上空下實祿口宜進步尺開發利用和夏冬年月南北昨用春秋年月江西日期'。candidate将'君臣瑾乘'直译为'君臣瑾乘'，但'瑾'字可能为'谨'或'近'的讹误，此处未标注不确定性。'南北昨用'释为'南北昨用'，'昨'字可能为'作'或'择'的讹误，未标注。'江西日期'直译，未标注其可能为特定术语或传抄错误。candidate整体处理为直译，但未对明显可疑的用字（如瑾、昨）进行风险标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003634-p000-d8745a53a9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文为风水择穴口诀，部分表述（如'临田蘸水'、'乾天有乾有戌'）含义隐晦，可能涉及特定操作或隐喻，此处依字面直译。"
+        ]
+      },
+      {
+        "id": "book035-b003635-p000-50dd8dc171",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文'输论纱'语义不明，可能为传抄讹误或特定术语，无法确切理解，保留原词。"
+        ]
+      },
+      {
+        "id": "book035-b003636-p000-594cf98b0e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'云路上'、'无一亲'等表述在风水语境中可能指代特定格局或隐喻，此处依字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003637-p000-b68b1a314e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'藐无壬癸'等表述在风水语境中可能指代特定格局或隐喻，此处依字面直译，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2875,
+    "completion_tokens": 953,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2875,
+      "completion_tokens": 953,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

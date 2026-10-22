@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T15:58:22.891188+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "209fe9aace7fb9ecc9e59c7787198c76b87c385f9c6a659423c87e12e9c67bfd",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001371-p000-1c19292d8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“営五十周”的释读未明确标注，属于保留原短语未说明具体所指的情况"
+        ]
+      },
+      {
+        "id": "book015-b001372-p000-0b464fd44a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001373-p000-8f6cdfc001",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001374-p000-9ba74c5f87",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文末尾存在残缺，内容不完整，释读时保留了残缺状态"
+        ],
+        "uncertainty": [
+          "原文末尾存在残缺，内容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1972,
+    "completion_tokens": 248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1972,
+      "completion_tokens": 248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

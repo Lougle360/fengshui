@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T14:57:51.115419+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "80d2fe4a9c87e12b92a3a2cd866e79c6ca19111ba32949fcca2602083d0e83e6",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000092-p000-b91466d2a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000094-p000-b4e34f6477",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000095-p000-09ae0767b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“家”字未译出，存在漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000096-p000-5729fc8d06",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文断句存疑，释读为常规断句下的含义，不排除其他断句方式的合理性"
+        ]
+      },
+      {
+        "id": "book029-b000097-p000-daf7049bca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理參皆玄機全書”被误写为“地理参赞玄机全書”，书名用字错误；原文末尾“十五”是页码，释读未明确标注属性易误解为卷内条目数"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000098-p000-3136d0832f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理恭皆玄機全書”被误写为“地理恭皆玄机全书”，书名用字错误；原文“寅午戌上是火星將帥保勲名”释读为“寅午戌方位上的是火星，对应将帅能博取功勋名声”属无依据增译，原文未提及“方位”；原文“出騰陰太陰水”被拆分释读为“出腾阴、太阴水，主黄甲人及第”，断句错误导致含义偏差；原文末尾“井六”是页码，释读未明确标注属性易误解为卷内条目数"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000099-p000-11a9fe410a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000100-p000-374abbcb6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000101-p000-51e376389c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“如果反亥不分明”释读为“如果反亥方位的形态不分明”属无依据增译，原文未提及“方位”；原文“如果见到水的形态不好”属于增译，原文仅为“若然見水不為良”，未提及“形态不好”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000102-p000-b018653ad9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“生波路死石神垓，水脚贼机关”未释读为符合现代中文的表达，仅保留原文短语，普通读者无法理解"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4070,
+    "completion_tokens": 893,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4070,
+      "completion_tokens": 893,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

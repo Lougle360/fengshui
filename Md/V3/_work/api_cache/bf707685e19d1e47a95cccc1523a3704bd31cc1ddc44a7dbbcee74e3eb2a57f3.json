@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:06:21.339909+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bf707685e19d1e47a95cccc1523a3704bd31cc1ddc44a7dbbcee74e3eb2a57f3",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000497-p000-b017475094",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000498-p000-99f9e63622",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000500-p000-43577e218d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在排版或符号错乱，\"$\\ngeq$\" 及后续内容无法明确含义，候选译文中对应部分无法准确释读"
+        ],
+        "uncertainty": [
+          "原句存在排版或符号错乱，\"$\\ngeq$\" 及后续内容无法明确含义"
+        ]
+      },
+      {
+        "id": "book015-b000502-p000-98e1880d7f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中\"6 4 5\"的含义未明确，候选译文将其译为\"6、4、5\"属于无依据扩写，且\"\\Xi ^ { \\ 7 ) }\"未明确含义"
+        ],
+        "uncertainty": [
+          "原句中\"6 4 5\"的具体所指未明，\"\\Xi ^ { \\ 7 ) }\"的含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1449,
+    "completion_tokens": 334,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1449,
+      "completion_tokens": 334,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

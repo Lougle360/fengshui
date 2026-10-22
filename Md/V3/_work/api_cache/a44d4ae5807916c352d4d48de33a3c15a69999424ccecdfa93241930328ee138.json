@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-15T03:23:45.292240+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a44d4ae5807916c352d4d48de33a3c15a69999424ccecdfa93241930328ee138",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001817-p000-36cf0bf48d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001823-p000-a2b1dd2e00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘出詹公源登成化乙丑進士雲南道御史子咫亭公仰庇嘉靖乙丑進士雲南道御史今改東公甲戌進士’中，‘今改東公’的‘改’字，candidate译为‘今改东公考中’，将‘改’理解为‘改姓’或‘改名’缺乏依据。原文可能指‘今改任东公’或‘今改称东公’，或为‘今改东公’（人名）考中进士，但释读将其处理为确定事实，属于无依据扩写。应保留原文短语并说明其不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001827-p000-c947634267",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘火穴下深槽’是表格中一个独立的条目标题，candidate将其与下文‘漏槽水者…’的解释合并为一段，并译为‘火穴下深槽：所谓“漏槽水”…’，这改变了原文的条目结构，将标题误作解释的一部分。应分开处理。",
+          "2. 原文‘可誤’（可能为‘可悟’或‘可护’之误，但原文如此），candidate译为‘可误判’，属于推测性解释，且未标注原文用字。应保留‘可误’并说明其含义不确定。",
+          "3. 原文‘水田低极田低文西低文元同jo明堂倾跌’是表格中一个条目标题，candidate将其处理为‘原文此处有乱码…所谓“按帘”…’，将标题与解释混为一谈。应明确指出该标题因乱码无法释读，然后单独解释‘按帘’的定义。",
+          "4. 原文‘十氏云’（可能为‘卜氏云’或他人之误），candidate直接译为‘十氏说’，未标注原文用字可能存疑。应保留‘十氏云’并说明其指代不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2469,
+    "completion_tokens": 518,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2469,
+      "completion_tokens": 518,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

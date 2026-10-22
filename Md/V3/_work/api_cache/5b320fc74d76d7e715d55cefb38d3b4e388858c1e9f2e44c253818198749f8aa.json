@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T03:51:04.880240+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5b320fc74d76d7e715d55cefb38d3b4e388858c1e9f2e44c253818198749f8aa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005354-p000-4a74e3368d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 对表格内容的描述存在多处遗漏和错误。例如，source 中第一行是'式形璜'，第二行是'形丐乞''形面臥''形弓眠''形蛛蜘'，但 candidate 将'形丐乞'误写为'形丐乞'（原文为'形丐乞'，可能为'形弓乞'或'形弓'之误，但 candidate 未标注此不确定性），且未提及表格的跨行跨列结构。candidate 将'形鞍馬形'简化为'形鞍馬形'，但原文为'形鞍馬形'，存在差异。candidate 将'形袍曬笠為'、'單鑼爲雙'、'形牛眠'等描述为一行，但 source 中这些是独立的单元格内容，且 candidate 未准确转写'爲'与'為'的差异（但此差异可能不影响理解）。最重要的是，candidate 完全遗漏了 source 中左侧大段文字（'山形富貴患還 ... 半月角璜下中間要相著'），这是严重的漏译。"
+        ],
+        "uncertainty": [
+          "source 中部分'形'的名称可能存在OCR错误或生僻写法，如'形丐乞'、'形蛛蜘'、'蟹螃'、'象白'、'螺柿旗'等，具体所指不详。candidate 未对这些不明确的术语进行任何风险标注。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2391,
+    "completion_tokens": 353,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2391,
+      "completion_tokens": 353,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

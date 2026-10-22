@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T20:52:57.871697+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "53e7c0363ae0f026ca7cfe148a22122e7aa19941aa21d44c730f6d2b079d41df",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000854-p000-b57f008f1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“华葬中格龙主文兼武职名重寿高”被误释为“名重寿考”，属于无依据增译，“寿高”未明确为“寿考”义；2. 原文“贱格龙主女子嫡”属于未释读完整，仅标注缺字但未明确是原文残缺导致；3. 原文“烜朔”被误写为“烜赫”，属于字义错误；4. 原文“畠冠”属于未确认的异体/错字，释读直接沿用无标注；5. 原文“舛死”属于词义误释，“舛”无“暴死”类明确义，不应直接释为“舛死”；6. 原文“发辐”释读中“贱惰龙”属于笔误，原文为“贱格龙”；7. 原文“旗诚砂”属于OCR讹误未标注，直接沿用无说明；8. 原文“由入走马”属于语句不通的OCR错误，释读直接沿用未标注"
+        ],
+        "uncertainty": [
+          "表格中存在大量OCR识别错误字符（如“网”“e”“Q”“w”“吕”等），部分语句残缺、文字讹误无法确认原义，如“畠冠”“舛死”“旗诚砂”“由入走马”等表述均存在歧义或错漏，部分缺字内容无法补全"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2772,
+    "completion_tokens": 366,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2772,
+      "completion_tokens": 366,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

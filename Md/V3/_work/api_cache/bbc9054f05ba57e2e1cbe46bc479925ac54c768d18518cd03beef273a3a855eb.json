@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-25T04:38:55.312367+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bbc9054f05ba57e2e1cbe46bc479925ac54c768d18518cd03beef273a3a855eb",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000551-p000-7e1dca14b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“貴賤貧富了之左目一如”语序不明，语义残缺，无法准确释读"
+        ]
+      },
+      {
+        "id": "book036-b000556-p000-693f7a1790",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘不知其寔平易淺近篋’语义断裂，缺少说明‘篋’与前文内容关系的上下文依据，候选直接释为‘是箧中所收藏的内容’属于无依据增译，不应将猜测写成确定结论"
+        ],
+        "uncertainty": [
+          "“篋”在此处仅能判断与储物的箱子相关，具体指代的箧中物品未在本句明确说明"
+        ]
+      },
+      {
+        "id": "book036-b000558-p000-1dfa58b6d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“亥琢至”语义不完整，缺乏上下文无法明确具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 648,
+    "completion_tokens": 69,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 940,
+      "completion_tokens": 368,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 648,
+      "completion_tokens": 69,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

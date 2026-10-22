@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-15T05:50:09.489336+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "Qwen/Qwen3.5-122B-A10B",
+  "request_sha256": "ab85c088118962a28f0c484b0bae6015f18181b5cb4cefc145b6d229f6a76376",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001981-p000-9546295df5",
+        "modern_text": "这段文字严重错乱，字句破碎且顺序颠倒，难以还原其原本含义。文中提及坎、震、巽、坤、乾、艮、兑等卦象，以及方位、季节与阴阳二气的运行规律，其中明确提到了“水”这一概念，但整体逻辑无法通顺解读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文顺序混乱，无法确定具体卦象与方位的对应关系",
+          "无法确定“水”在文中的具体指代对象"
+        ]
+      },
+      {
+        "id": "book033-b001985-p000-94a504f887",
+        "modern_text": "表格第一行记载“圆河于原干天玄”，并附有一张图片；第二行记载“書洛于原支地”，同样附有一张图片；第三行起详细列出了天干地支与生成数的配属关系，包括天一生“水”、地六成之等规律，以及五行与干支的旺相休囚状态。",
+        "confidence": "medium",
+        "uncertainty": [
+          "图片内容无法直接通过文字确认",
+          "部分文字可能存在传抄错误，如“千”字位置存疑"
+        ]
+      },
+      {
+        "id": "book033-b001987-p000-f67eafcf6c",
+        "modern_text": "文中列出了干支与五行的对应关系，包括申、亥卯未、己酉丑等组合，以及天干丙、丁、戊、甲、庚、辛、壬、癸的阴阳属性，其中出现了数字“8”，并提及子、夫等字，但整体排列杂乱，难以形成完整的逻辑链条。",
+        "confidence": "low",
+        "uncertainty": [
+          "数字“8”的具体含义不明",
+          "“夫”字在此处的用法及含义不详",
+          "干支与五行的对应关系因文字错乱而无法完全确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2152,
+    "completion_tokens": 522,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2152,
+      "completion_tokens": 522,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

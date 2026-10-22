@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-26T14:34:07.442717+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4e794f44086e03e2fc171b4c089b7d38e065e8e5165128f8523b5bf28be84463",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000105-p000-fa9824af21",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current漏注原文“要卒甘”存疑，误臆测“云”字所指；candidate对存疑内容标注更准确，无擅改原文内容，表述更严谨"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000106-p000-213451e750",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅改原文口诀“龍身帶得四金行寡天尼何出有因”的断句，将原文“只知絞而不知眞數”擅改为“只知浅显的用法”，无依据；current更贴合原文表述，未擅改术语与原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000112-p000-5cf4e3609d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文“若坎龍起祀山辰入中結穴者”误改为“如果坎龙起祖，祀山辰入中结穴的”，擅改原文“起祀”为“起祖”；current对原文讹字“韭”标注推测更合理，candidate未做合理标注且擅改原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000113-p000-2e0626025a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current漏补主语“乾”导致“之先天在南”语义不通，candidate补全主语符合原文逻辑；candidate将“山传心授”更正为符合语境的“口传心授”（原文讹误），其余内容更通顺且未擅改原文术语与存疑内容，明显优于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000116-p000-468d4baadb",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未标注原文“口”为讹误存疑，直接保留易误导读者；current对讹字标注合理，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000117-p000-f4f988f444",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文“若艮龍起禮骨脉分明”误改为“如果艮龙起祖，骨脉分明”，擅改原文“起禮”为“起祖”，无依据；current更贴合原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000118-p000-25303a4bc2",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current误判“覓”为衍文/误字，candidate对存疑内容标注更严谨，对原文义理的表述更通顺且未擅改原文内容，明显优于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000119-p000-a69b7f935f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅改原文“父主弋獵”为“又主管弋猎”，误将“其星大日天高”曲解为“毕宿星大的别称是天高”，且将“邊兵不立”误改为“边兵不行动”，多处无依据擅改原文；current更贴合原文表述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7272,
+    "completion_tokens": 910,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7272,
+      "completion_tokens": 910,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

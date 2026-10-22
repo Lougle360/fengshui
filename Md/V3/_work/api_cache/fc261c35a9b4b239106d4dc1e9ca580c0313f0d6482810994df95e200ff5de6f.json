@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-25T07:22:10.675203+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fc261c35a9b4b239106d4dc1e9ca580c0313f0d6482810994df95e200ff5de6f",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000169-p000-b441ff14bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“人皆疑其渺茫无收拾，气散不聚，葬下不数年而科第显”语义为众人原本担忧穴位气散无收，结果下葬没几年反而科举及第，候选释读将众人疑虑的内容误解为“下葬没几年就会科举及第”，属于逻辑反译；原文“丙火生于寅水”表述有误，实际应为丙火生于寅，候选未标注该歧义且直接沿用，存在专业表述风险；原文“乃夺神功改天命者，又当自有补弱扶衰之法也”的主语是风水乘气之人，候选释读误将“乃夺神功改天命者”归为前面“气轻浅”的做法，属于逻辑关系误读"
+        ],
+        "uncertainty": [
+          "“蛮旷无界”的具体地形特征原文未详细说明，“识幸心”的经文确切含义尚存争议"
+        ]
+      },
+      {
+        "id": "book022-b000171-p000-8ac3e26bef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000173-p000-874100e37a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“山运”“水运”的具体推算方式原文未展开说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2451,
+    "completion_tokens": 352,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2451,
+      "completion_tokens": 352,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

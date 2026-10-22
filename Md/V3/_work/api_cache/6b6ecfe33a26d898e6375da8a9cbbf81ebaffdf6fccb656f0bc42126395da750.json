@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-25T09:09:39.653579+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b6ecfe33a26d898e6375da8a9cbbf81ebaffdf6fccb656f0bc42126395da750",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000490-p000-2989756d6c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾有损坏内容“生仁て曰”，候选未提及该原文缺损情况；原文表述是“或从亥上经过，亦是”，未明确“也属于生气之地”，候选此处增译了确定含义",
+          "未对原文缺损的末尾内容做标注说明"
+        ],
+        "uncertainty": [
+          "原文末尾“生仁て曰”存在讹误/缺损，具体含义不明"
+        ]
+      },
+      {
+        "id": "book023-b000492-p000-8e676a8c48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000493-p000-9a610ec32b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“台司”为古代掌管天象、历法的官署统称，候选将其译为“司天监”为特定朝代官职，属于无依据的确定化解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000494-p000-0d2840d83f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文括号内标注有缺文，缺文内容无法确认"
+        ]
+      },
+      {
+        "id": "book023-b000495-p000-5de88e9b1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“葬直六凶”的“直”通“值”，意为“逢、遇”，候选译为“葬时有六凶”含义偏差，应为“葬事遭遇六种情况为凶”；原文句首发语词“盖”未在译文中体现出总起的语义，且未明确“三吉”是穴位的三种吉相，“六凶”是葬事遇之则凶的六种情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000497-p000-8c1062baf3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“前见”存在歧义，既可指“前文已出现”，也可指“在前方显现”，候选直接取第一种含义作为确定解释，未标注歧义"
+        ],
+        "uncertainty": [
+          "“天光地德前见”的“前见”具体所指存在歧义，无法确定是“前文已提及”还是“在前方显现”"
+        ]
+      },
+      {
+        "id": "book023-b000499-p000-8d1085d6d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“藏神合朔”具体含义原文未做明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3094,
+    "completion_tokens": 723,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3094,
+      "completion_tokens": 723,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

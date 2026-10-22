@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T16:43:12.910013+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c066740bb483238c87caaeb328544c864aba7a029e15553ab955b535dae4e09c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000445-p000-876f9a1b2a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘直以方’的释读未结合allowed_glossary中‘向’的定义，且存在重复引用‘不习无不利’的冗余问题，同时未明确‘直以方’的具体指向，存在语义模糊"
+        ],
+        "uncertainty": [
+          "原文中‘直以方’的具体所指未明确，‘不习无不利’的两处引用含义是否一致存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 857,
+    "completion_tokens": 135,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 857,
+      "completion_tokens": 135,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

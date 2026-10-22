@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-25T20:36:21.477488+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e79450877f3105aae5ad05e9adc8e6259a373077b84525acd27e3c5cd2308c11",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001517-p000-2a12866239",
+        "modern_text": "这里给出源页损坏提示：对应的doc014格式PDF文件的第168页，内嵌的JPEG图像已经被截断；用MuPDF软件渲染该页会显示为黑页，用Poppler软件渲染则显示为空白页，用MinerU工具提取该页的图像也全为黑色。当前无法恢复这一页的内容，需要之后补充完好的扫描件。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001519-p000-34563e1b18",
+        "modern_text": "这部分是残留的乱序图文内容，原本的文字有“圖極太佐卦天先”“火三离○4三米 xF”“天三乾”“澤三”“雷三震”，内容存在缺字和语序错乱的情况，可辨认的八卦相关内容包括离、乾、震，还有数字4。",
+        "confidence": "medium",
+        "uncertainty": [
+          "圖極太佐卦天先具体含义不明，xF内容无法识别"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1218,
+      "completion_tokens": 269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-25T07:19:57.052296+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ea2901e551838be15225326242be2958a3ed92c304ce9dce57519aa5d4848eec",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002203-p000-34413538b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002204-p000-a41f3e1d23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002205-p000-7f36786a0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002207-p000-9b3e1fa67d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002208-p000-4306e84c15",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "本条为heading类条目，原文是标题形式，候选句将allowed_glossary中“穴”的定义直接嵌入译文中，不符合标题简洁性要求，且属于不必要的术语展开。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002209-p000-f342350b9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002210-p000-e34cd22ece",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "本条为heading类条目，原文是标题形式，候选句将allowed_glossary中“穴”“水”的定义直接嵌入译文中，不符合标题简洁性要求，且属于不必要的术语展开，导致语句生硬。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002211-p000-4a47d61fd5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002212-p000-4551179e27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002213-p000-2c25677132",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4110,
+    "completion_tokens": 580,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4110,
+      "completion_tokens": 580,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

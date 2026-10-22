@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-10-17T04:56:40.545809+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "cefb279b373eaae496f11ee58bb6734f4f1ff3bc301b3ce1eaf10ebfbc980537",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002606-p000-921d7075d6",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "如果注定的神灵虽然被召唤也不会前来，而前面的关卡与后面的锁钥却会将其阻挡使之无法离去。这种情况大多是因为主位不简、不简、不简、不简，神灵不来，不如按照法度行事。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处重复的“不”字及断句不清，导致语义逻辑难以完全确定，此处按最可能的逻辑补全为强调“不简”与“不如法”。"
+        ]
+      },
+      {
+        "id": "book035-b002607-p000-687e174e6c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "因此可知，当水与砂交汇会合的地方，才是真龙入首之地。观察其前后左右的各种砂水象，就能明白其体势之美了。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文“大 千其 前后左右之   象后之其體之美矣方以”存在明显缺字与断句混乱，根据上下文逻辑补全为“观察其前后左右之象，后之其体之美矣”，并调整语序以通顺。"
+        ]
+      },
+      {
+        "id": "book035-b002608-p000-b4c64c5c53",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "虽然看似开门立户，但必须知道风翼渚鳞（此处具体所指不详）的情况。龙行分枝，脉气散去而未收，中间有砂头分布，门户百似有穴场可指点者，这不过是行龙上分枝结穴罢了，并非气钟大地。就像风林中的宿马，哪里有宁翼息水渚的鱼，岂有纵声？虽然或许能发福，但福泽不会长久。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文“風翼渚鱗”、“門百似有”等词句存在严重OCR识别错误或原文脱漏，语义不明，无法确指具体风水形态，故保留原词并说明。",
+          "“縱聲”在此处语境含义不明，可能为“纵声”或他词，无法确证。"
+        ]
+      },
+      {
+        "id": "book035-b002609-p000-c7f6de2ae3",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "纵然蓄水作为关栏，这也是斩腰截气。真龙出身中间，或者得水聚之处，分头立面，或者枝水插肩破腹开真头面。此类穴场也是斩截龙腰取产穴的方法，终究不是正龙自止、气蓄之地。如此形势，必须得目力之功、心思之深者，善于作用，不失其法，才可以获福。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文“獄福”推测为“获福”或“福泽”之误，按“获福”意译，但保留原意保守表达。"
+        ]
+      },
+      {
+        "id": "book035-b002610-p000-8002050cfe",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 審穴篇第四",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1763,
+    "completion_tokens": 971,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1763,
+      "completion_tokens": 971,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

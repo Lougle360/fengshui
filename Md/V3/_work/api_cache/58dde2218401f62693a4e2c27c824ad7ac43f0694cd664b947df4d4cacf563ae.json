@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T13:48:42.096282+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "58dde2218401f62693a4e2c27c824ad7ac43f0694cd664b947df4d4cacf563ae",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000358-p000-a74914fa4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000359-p000-4c45482a85",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000360-p000-1c7328de3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000361-p000-3473002b39",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「理気（数と陰陽五行）」释为「包含理気（数与五行）」，未按allowed_glossary对「五行」的定义处理，且漏译了「陰陽」相关内容，属于专业术语误换与漏译"
+        ],
+        "uncertainty": [
+          "数与五行的具体所指未在术语表中明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2361,
+    "completion_tokens": 301,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2361,
+      "completion_tokens": 301,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

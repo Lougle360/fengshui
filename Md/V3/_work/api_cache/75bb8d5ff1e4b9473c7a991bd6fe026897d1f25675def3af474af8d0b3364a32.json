@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T18:49:35.763935+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "75bb8d5ff1e4b9473c7a991bd6fe026897d1f25675def3af474af8d0b3364a32",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001163-p000-254a815604",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001164-p000-3c17f62271",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“枝幹之龍不論也”的含义是“主干龙脉不在这个规则的考虑范围内”/“主干龙脉不用管（这个方法）”，候选释读为“如果是枝干形态的龙脉，就不适用这个方法”，属于语义偏差，原文的“枝幹之龍”指龙脉的主干，并非“枝干形态的龙脉”，且“不論”并非“不适用”的意思"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001167-p000-1d807a9373",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乾流不聚”的“乾”并非指“乾位”，依据allowed_glossary，“乾”的方位需依语境确定，此处“乾流”应是“旱流”（干涸的水流），候选误将“乾”释为乾位，属于专业术语误读；原文“接花慱木”的“慱”是“接”的讹误，“慱木”应为“接木”，候选释为“捆束木材”属于字义误译；原文“圃平堂”的“圃”是“甫”/“浦”的讹误，应为“平坦的明堂”，候选未做字面翻译，对讹误处未做合理标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001169-p000-58121ff9c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“午七丙三則扦陽向秉午氣”存在错误，午属阴，当午占比多的情况下应当扦阴向，候选误写为“扦阳向”，与前文“弃少从多”的规则及自行标注的“丙阳午阴”逻辑矛盾，属于内容错误"
+        ],
+        "uncertainty": [
+          "丙午二龙的阴阳属性判断为丙阳午阴，为风水领域常见对应规则，原文未直接说明"
+        ]
+      },
+      {
+        "id": "book029-b001171-p000-cb1c21ac0a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“封土”“罗城的关隘”“坟茔的基址”，属于无依据增译；原文“其關狹居堂之半”的“關”指墓穴的边界/明堂的关拦，并非“罗城的关隘”，候选擅自添加原文不存在的风水术语，属于增译错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1864,
+    "completion_tokens": 683,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1864,
+      "completion_tokens": 683,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-18T03:29:21.869308+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "914a6847d68bc065d1473abcc42bbe21be8717441c23de3990f579a6181bc5f7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005305-p000-6db842bd35",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'壬午年○午山子向不周全口舌官事應周年壬寅酉戌正十六月損人退財官纏甲向明明大不然癸未年○震庚亥未四山言退財官事有些纏正月十月端然見定有大事要官連'中，'壬寅酉戌正十六月'是'壬寅年，酉、戌方位在正月、六月、十六月'吗？原文'壬寅'后紧接着'酉戌'，可能是指壬寅年酉戌方位，但'正十六月'指正月、六月、十六月？'十六月'不合常理，可能为'十月'或'六月'之误，但candidate未标注此不确定性。'甲向明明大不然'释为'甲向明明大不然'未译，且与后文'癸未年'连接不畅。原文可能为'甲向明明大不然，癸未年○...'，candidate处理为'甲向明明大不然，若为癸未年...'，但'甲向明明大不然'含义不明，candidate未标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005306-p000-0d92a99ed1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'找心頭小口官災不爲害'，candidate释为'找心头上小口官灾'，'找心头'含义不明，可能为'心头'或'找'为衍字，candidate未标注此不确定性，且'找心头上'不通顺。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005307-p000-fddfeb0683",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005308-p000-a0b4c90339",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'酉山卯向以周全黑白○小兒下黃泉'，candidate释为'酉山卯向以周全黑白，小儿下黄泉'。'以周全黑白'含义不明，candidate未标注不确定性。'黑白'可能指吉凶、阴阳等，但未确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005309-p000-848d5b8b0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005310-p000-afb4d2abf3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中'二黑●●'处有缺字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b005311-p000-3596434ace",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005312-p000-debc9b60ef",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中'一黑●'处有缺字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b005313-p000-607d72223f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'寅午戌山七八二此月二黑入黃泉'，candidate释为'寅、午、戌山七八二，此月二黑入黄泉'。'七八二'含义不明，可能指七月、八月、二月，或'七八'月与'二'月，candidate未标注此不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005314-p000-2c16b7e883",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中'一黑●'处有缺字，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2544,
+    "completion_tokens": 863,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2544,
+      "completion_tokens": 863,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

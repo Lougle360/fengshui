@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-24T06:49:47.486255+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "310d7142647189951db3a146c2720682668fdb500d0dd21792698340860475fc",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000021-p000-3aec4810ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文后半段OCR错乱严重，候选将\"若二者不相契合，著书立说的人就会超越古人，才高千古了\"作为确定语义释读，但原文残损无逻辑支撑，属于将不确定推测写成事实；漏注原文存在的\"常舉百勿\"\"地步y\"等乱码无法释读的说明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000022-p000-e9c89f7278",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000023-p000-dd65e0fdfd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第一句是\"何謂分斂\"，候选误译成\"什么是分金\"，属于核心概念偷换；\"無个字不成龍\"被误释为\"没有一个字不与龙脉相关\"，原意应为没有形如\"个\"字的龙脉形态就不成真龙，属于语义错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000024-p000-4f6a6cf2eb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量讹脱、语序混乱内容，多处语义无法明确辨识"
+        ]
+      },
+      {
+        "id": "book009-b000026-p000-6d612ceaca",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“四人字”“明石明易”“慶問”“蜻翼”等字词存在OCR识别错乱，部分内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book009-b000027-p000-9672954e45",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "\"今上言主星而此又兼言禮山穴山\"中\"禮山\"为原文讹字，候选直接保留并作为确定名称，属于无依据认定专名；\"雋小堂\"的\"雋\"为讹字，候选直接保留未标注不确定"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000028-p000-81e15b9099",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "\"何南襲帶\"是原文讹错，候选直接作为问题\"什么是南襲带\"释读，属于将讹误内容当成确定术语；\"乖为正脉两边之护从也\"的\"乖\"为讹字，候选直接保留未标注语义不确定"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4225,
+    "completion_tokens": 720,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4225,
+      "completion_tokens": 720,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

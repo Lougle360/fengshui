@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T03:41:58.267572+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a42811624c4cdfa94dde72602e0b57525edf63f49601e003ae6687f98d003ce0",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001195-p000-7503d024c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘神灵出’被误译为‘神灵就会安宁’，语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001196-p000-44b98b41da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001200-p000-b5e90cccf0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“气以生和”的具体所指不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1490,
+    "completion_tokens": 208,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1490,
+      "completion_tokens": 208,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-10-17T12:57:26.352917+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "06f67bc7c78cb665ead044ac18439c69211ae984921f610a6495b4e0425810b9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003723-p000-f632f86d12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'此是木星出火生貴氣皆'，candidate译为'这是木星生出火气，产生贵气的征兆，都是'。'出火生'在此语境下并非'生出火气'，而是'生出火'，指木星生出火属性的形态或气脉。'贵气皆'译为'贵气的征兆'，'皆'字漏译，原文意为'贵气都...'，与后文相连。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003725-p000-6056445c79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003726-p000-c196690507",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'直行會見鴛鴦帶兩腳雙雙同小大或土或石見此名福祿功名難止艾'，candidate译为'直行会见到鸳鸯带，两只脚双双相同，大小或为土或为石，见到这种名为福禄功名难止。艾'。'艾'字被断开，应属后句'艾赤石双拖紫霞帔'。'难止艾'应为'难止艾'，'艾'通'乂'，意为治理、安定，'难止艾'即福禄功名难以停止、安定。candidate断句错误导致语义不通。",
+          "原文'龍首連腳闌而直生兩旁龍從中間有脈生過紫富被也'，candidate译为'龙首连脚阑而直生两旁，龙从中间有脉生过，紫富被也'。'紫富被'应为'紫霞帔'，与前文'紫霞帔'对应，是OCR或原文错误，candidate未修正也未标注。",
+          "原文'直行之帶旁有兩小崗聊帶相對則爲鸞鴦帶'，candidate译为'直行之带旁有两小岗聊带相对，则为鸾鸯带'。'聊带'应为'了带'或'了带'，指小岗的形状像带子，candidate直译'聊带'未做处理，也未标注不确定性。",
+          "原文'變帶出若逢石牝出石帶赤石异形形小怪此名帶病多不祥'，candidate译为'变带出若逢石牝出石带赤石异形形小怪，此名带病多不祥'。'石牝'指石头的凹陷处或孔洞，candidate未解释也未标注为不透明术语。",
+          "原文'更有惘石有窩如牝而石條如帶出于眞'，candidate译为'更有惘石有窝如牝而石条如带出于真'。'惘石'、'出于真'语义不明，candidate虽在uncertainty中标注，但译文本身未做任何处理（如加引号或说明），不符合'原样处在引号引用范围内'的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003727-p000-a1911326db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003728-p000-b407fabd89",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'天駟如天駟星一星總四星廢指后丙山 而言馬形山高山之中爲天馬陀陂也'，candidate译为'天驷如天驷星一星总四星，废指后丙山而言，马形山高山之中为天马陀陂也'。'廢指后丙山'不通，'廢'可能为'發'（发）或'謂'（谓）之误，指'发源于后丙山'或'说的是后丙山'。candidate未修正也未标注此疑点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003729-p000-87c958257a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003730-p000-96f22371ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'若究貴龍尋覓看前去星龍轉如牛作辰須變亂亂后終須金體生生得分明龍始成'，candidate译为'若究贵龙寻觅看前去，星龙转如牛作辰，须变乱乱后终须金体，生生得分明，龙始成'。断句和语义混乱。'作辰'可能为'作势'或'作用'之误。'须变乱乱后终须金体'应为'须变乱，乱后终须金体生'，指经历混乱变化后最终会形成金体。candidate未处理这些疑点，导致译文难以理解。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003731-p000-b132cb0b3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'此龍堪只作巨富丞參簿尉雲仍做或爲進納窩爵官代筆假 借非儒冠 得小宮可見其遲文非由科第從此也'，candidate译为'此龙堪只作巨富，丞参簿尉云仍做，或为进纳窝爵官，代笔假借非儒冠，得小宫可见其迟文，非由科第从此也'。断句和语义不清。'丞參簿尉雲仍做'，'云仍'指子孙后代，candidate未译出。'代筆假 借非儒冠'应为'代笔假借，非儒冠'，指通过代笔、假借（非正途）得官，而非通过科举（儒冠）。candidate处理不当，导致含义模糊。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2424,
+    "completion_tokens": 1340,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2424,
+      "completion_tokens": 1340,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

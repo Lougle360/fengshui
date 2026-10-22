@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-04T03:42:24.813714+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a22f0f409887c12255912fea3d14ceacf984a28ac2b4460960be544265d70e96",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001258-p000-40b33db252",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘地祖相丞曾州泉 格穴巧天’整体解释为‘意指在“穴”这一风水位置上的格局巧妙如同天工’，这是无依据的扩写。原文仅并列了数个短语，并未明确表达‘在穴上的格局’这一逻辑关系。candidate对‘格穴巧天’的解读过于具体和确定，超出了保守释读的边界。",
+          "存在漏译：‘地祖’、‘相丞’未被提及或处理。",
+          "‘曾州泉’被标注为‘具体所指不详’是允许的，但整个句子的释读方式存在问题。"
+        ],
+        "uncertainty": [
+          "‘地祖’、‘相丞’、‘曾州泉’、‘格穴巧天’的具体含义均不明确，原文结构并列，关系模糊。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 643,
+    "completion_tokens": 208,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 643,
+      "completion_tokens": 208,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

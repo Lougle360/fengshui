@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:37:51.496779+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bdfe2fea50e36529b3a493f0dc947cb14d8bb3511466f5f4fe128cd910986af9",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000824-p000-a9bc1324cd",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "表6-2 出自《性理大全》中的《皇極経世書》，其卷次与对应内容如下：<table><tr><td>卷1~2</td><td>《纂图指要》上、下</td></tr><tr><td>卷3~4</td><td>《观物内篇》1~12</td></tr><tr><td>卷5~6</td><td>《观物外篇》上、下</td></tr><tr><td>卷7</td><td>《外书》（含《渔樵问对》《无名公传》等）</td></tr></table>",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000826-p000-54a86da84c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "（该书）也专门以易学（伏羲卦图）来定位皇極経世学，与邵雍的数论存在不一致之处。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000827-p000-d5e7e87a64",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "现存的《皇極経世書》均缺少准确理解其内容所必需的说明图5），或许并非完本，但就数表而言，其记述并无矛盾，很有可能相当忠实地保留了原书的形态。",
+        "confidence": "high",
+        "uncertainty": [
+          "5）"
+        ]
+      },
+      {
+        "id": "book015-b000829-p000-f371cc467b",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 1.1 歴年表",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1748,
+    "completion_tokens": 531,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1748,
+      "completion_tokens": 531,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

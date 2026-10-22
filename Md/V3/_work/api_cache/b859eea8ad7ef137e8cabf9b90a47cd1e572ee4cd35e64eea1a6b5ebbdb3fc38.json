@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T15:47:49.448567+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b859eea8ad7ef137e8cabf9b90a47cd1e572ee4cd35e64eea1a6b5ebbdb3fc38",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001263-p001-bcf79d86fd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "图9-1 五行相生相克图",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001264-p000-64e8d91b7d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "这是邹衍的五德终始说，他在战国末期风靡一时，最终还从理论上指导了秦朝依据水德推行的制度改革（图9-2）。该学说按照相生顺序（木→火→土→金→水→……），认为木德王朝之后是火德王朝，火德王朝之后是土德王朝，等等。从新朝（王莽政权）到宋朝，该学说延续千年产生影响，属于刘向、刘歆的五德终始说（图9-3）。接下来的课题是对刘向父子的历史理论进行思想史层面的分析。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001266-p000-aedea106cc",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "<table><tr><td>五德</td><td>土</td><td>→木→金</td><td>火</td><td>水</td></tr><tr><td>帝王</td><td>黄帝</td><td>夏</td><td>殷</td><td>秦</td></tr><tr><td>符瑞</td><td>黄龙、地蚊</td><td>青龙、草木</td><td>赤乌、银</td><td>黑龙</td></tr></table>",
+        "confidence": "medium",
+        "uncertainty": [
+          "原表格中“符瑞”行的“地蚊”“银”二词含义不明"
+        ]
+      },
+      {
+        "id": "book015-b001267-p000-8c04e804e1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "图9-2 邹衍的五德终始说",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 582,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1901,
+      "completion_tokens": 582,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

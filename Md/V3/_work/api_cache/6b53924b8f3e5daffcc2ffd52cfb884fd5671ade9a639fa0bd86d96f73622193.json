@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T12:36:14.617789+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b53924b8f3e5daffcc2ffd52cfb884fd5671ade9a639fa0bd86d96f73622193",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000060-p000-f77848d8ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000061-p000-374e7f2485",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量讹误、缺字、脱漏，如“堅賢”“徒檢後世之兒即也義意義也”“陛其 始 傳于求終行长周世 用之此 地蔡法之所由 起也下丈遂 群”等表述无法明确解读，候选将模糊内容直接释读为确定含义，属于无依据推测；“陶郭曾福輩”未作风险标注，直接认定为“陶、郭、曾、福这类人”缺乏依据；“地蔡法”属于未明确的术语，候选直接作为确定名称使用不当"
+        ],
+        "uncertainty": [
+          "原文残损讹误严重，多数内容无法准确解读，“陶郭曾福”“地蔡法”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000062-p000-7a2c7c745b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000063-p000-374d8a4520",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残损，多数内容无法解读"
+        ]
+      },
+      {
+        "id": "book026-b000064-p000-56b0830c22",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量缺字、错乱、无法辨识的内容，候选将残缺内容补出为完整通顺的解读，属于无依据增译，不符合保守释读要求；locked_term“水”未按allowed_glossary结合风水语境解释，通用化处理不准确"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺、错乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000065-p000-035713d96d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000066-p000-4ad41b1a7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量残缺、错乱内容，候选大幅补出原文没有的确定释义，属于无依据推测；“三廉”原文未明，候选直接释为“三停”缺乏依据；“賦地前而势之有扑者必裂山则失氢轻心 直理後深也”等错乱内容被候选整理为确定语义，不符合释读规则"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺、错乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000068-p000-e423d126f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残损，多数内容无法解读"
+        ]
+      },
+      {
+        "id": "book026-b000069-p000-25bc2123fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000071-p000-c9bb9cd549",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“莫艮於眸子”的“艮”是“良”的讹字，并非八卦之艮，候选误将其判定为八卦之一的艮，属于专业术语误释；原文“身之精半又在于日拔察地理者”存在缺字，“日拔”应为“目”相关内容，候选直接释为“周身的精气大半都汇聚在眼睛上”属于无依据补译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3997,
+    "completion_tokens": 940,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3997,
+      "completion_tokens": 940,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

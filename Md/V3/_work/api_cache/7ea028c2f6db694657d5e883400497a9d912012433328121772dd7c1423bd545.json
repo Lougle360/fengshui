@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-15T04:40:07.477212+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7ea028c2f6db694657d5e883400497a9d912012433328121772dd7c1423bd545",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001902-p000-14770755da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001905-p000-02587cf11d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "专业术语误换：原文‘善天廖公之言曰’，candidate 释为‘文中提到‘善天廖公之言曰’，具体所指不详’。‘善天’应为‘廖公’的尊称或别号，如‘廖金精’等，是确定的人物，不应处理为‘具体所指不详’。应保留‘廖公’或‘廖金精’等称谓，并说明其言论。",
+          "数字/干支/卦象/方位变化：原文‘要求纯悞’，candidate 释为‘要求纯悞’。‘悞’通‘误’，‘纯悞’可能指纯粹的错误或过分挑剔，但 candidate 未作任何解释或保留原词说明，直接照搬，可能导致现代读者不解。应加注说明或保留原词并指出其含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001907-p000-089f6e28eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "专业术语误换：原文‘黔作鯨姞註云’，candidate 释为‘文中提到‘黔作鲸姞’，具体所指不详’。‘黔作鲸姞’可能是对土色状态的描述或比喻，但 candidate 未作任何解释，直接标记为‘具体所指不详’，且未说明是注文内容。应保留原词并指出其为注文，说明其可能含义。",
+          "OCR或原文损坏：原文‘土坏’，candidate 释为‘土壤’，但原文为‘土坏’，可能是‘土壤’之误。candidate 直接改为‘土壤’而未说明，可能掩盖了原文的讹误。应指出原文可能为‘土壤’之误。",
+          "专业术语误换：原文‘毗齡及但人子厝親’，candidate 释为‘文中提到‘毗陵及但人子厝亲’，具体所指不详，其中‘但’字费解，可能为‘凡’或‘世’之误。’‘毗陵’可能是地名，‘但’可能为‘凡’之误，candidate 的推测合理，但未明确说明‘毗陵’可能指代某地或某氏。应指出‘毗陵’可能为地名或姓氏，并说明‘但’字的可能讹误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001908-p000-85c560f2f2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文夹杂‘地理人子须矢卷六下 三十’，可能为衍文或标注，candidate 已标注‘具体所指不详’，处理得当。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2712,
+    "completion_tokens": 720,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2712,
+      "completion_tokens": 720,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

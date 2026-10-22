@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-10-04T12:10:35.881486+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ee0fc116342bb9a76d5f7503f9909d03ea3151cdb53ef48107da3d8be2efadba",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000852-p000-a0fdff4855",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "友面"
+        ]
+      },
+      {
+        "id": "book035-b000856-p000-59d0540718",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'嚴'字未译出。原文'欹斜側嚴倒破空'，candidate仅处理为'欹、斜、側、嚴、倒、破、空'，但未对'嚴'进行任何解释或保留。",
+          "术语误换：'替在峽中行'译为'正身替在峽中行'，'替'字未译，可能为'更替'或'交替'之意，直接保留'替'字不符合白话释读要求。",
+          "数字错误：原文'貪狼自有十二樣'，candidate译为'十二種樣式'，但后续分类'尖、圓、平、直、小這五種為上；欹、斜、側、嚴、倒、破、空這七種'，5+7=12，分类正确，但'嚴'字未译，导致实际只列出11种。"
+        ]
+      },
+      {
+        "id": "book035-b000857-p000-7314e4e60b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：'買者四面一同'，'買'字疑似为'圓'字之误（结合上一段'圓無欹側四面同'），但candidate直接保留'買者'，未做任何处理或标注，导致语义不通。",
+          "漏译/误译：'臥蟲尖脊者倒地貪狼也'，candidate译为'臥蟲尖脊者倒地貪狼'，'臥蟲'含义不明，未做任何解释或标注。",
+          "术语保留不当：'退殺過脈'、'人中水坳'等专业术语，candidate直接保留，未做任何白话解释，不符合'普通读者能读懂'的目标。"
+        ]
+      },
+      {
+        "id": "book035-b000858-p000-0ce78571c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'伉狼若非廉作且為官也不到三公'中的'伉狼'，candidate直接写作'伉狼'，未做任何处理，应保留原文并标注为不确定术语。",
+          "漏译：'此是貪狼上領蛇帶舞下來鶴伸頸此是貪狼下領蛇上嶺解生朱觜客'，candidate断句和释义有误，导致'解生朱觜客'一句被错误地归入'下領蛇'的描述中，且未译出'解生朱觜客'。",
+          "术语处理不当：'向'是locked_term，candidate直接译为'朝向'，未按规则保留原字并用引号引用或说明。",
+          "增译：'這條龍不是尋常的圓形'，原文'員'在此处非'圆形'，应为'寻常'之意，属误译。",
+          "日文误译风险：无。",
+          "数字/干支无误。",
+          "将推测写为事实：'世人只說貪狼好，不認識廉貞是祖宗'，原文'世人只道貪狼好不識廉貞是祖宗'，candidate将'道'译为'说'，'識'译为'认识'，基本准确，但'祖宗'的比喻性解释可以接受。但整体因上述问题需修订。"
+        ],
+        "uncertainty": [
+          "伉狼",
+          "解生朱觜客"
+        ]
+      },
+      {
+        "id": "book035-b000859-p000-42051e92e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000860-p000-0fd2ec392c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "上領蛇",
+          "下領蛇",
+          "主貴",
+          "主富"
+        ]
+      },
+      {
+        "id": "book035-b000861-p000-185e11d13b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：'大祗九星有種類'中的'大祗'，candidate作'大只'，应为'大抵'、'大致'之意，属误译。",
+          "漏译/误译：'肅換如人換好裳'中的'肅換'，candidate作'肅換'，未译，应保留并标注不确定。",
+          "漏译/误译：'十條九條亂了亂中有一條卻是眞'，candidate作'十條九條亂了。亂中有一條卻是真'，漏译了第二个'亂'字，导致语义不完整。",
+          "漏译/误译：'若是眞時斷了斷'，candidate作'若是真時斷了斷'，未译出'斷了斷'的重复强调含义，或应保留原文并说明其表述方式。",
+          "术语处理不当：'抱養病'、'病眼墮胎山'、'玉笋班'均为opaque_terms，candidate直接写出，未按规则用引号引用并说明原文如此。",
+          "数字无误。",
+          "将推测写为事实：对'剝換'、'羅星'等术语的解释属于常规风水概念，释读基本合理，但部分opaque_terms处理不符合规则。"
+        ],
+        "uncertainty": [
+          "大祗",
+          "肅換",
+          "十條九條亂了亂",
+          "斷了斷",
+          "抱養病",
+          "病眼墮胎山",
+          "玉笋班"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1832,
+    "completion_tokens": 838,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3157,
+      "completion_tokens": 842,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1832,
+      "completion_tokens": 838,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

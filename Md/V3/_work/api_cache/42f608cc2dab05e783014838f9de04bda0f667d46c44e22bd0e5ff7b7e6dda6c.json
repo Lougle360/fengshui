@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:32:19.823634+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "42f608cc2dab05e783014838f9de04bda0f667d46c44e22bd0e5ff7b7e6dda6c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001028-p000-f71fc9be90",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释文将《说文》中‘渊，无舟渡河也’的‘渊’误写为‘冯’，属于专业术语误换；将段注中‘湖正字，冯假借字’的表述误写为‘溯是冯的假借字’，与原文含义相反"
+        ],
+        "uncertainty": [
+          "原文中‘冯’的假借关系存在歧义，段注明确‘湖’为正字、‘冯’为假借字，释文误将‘溯’作为正字，属于对原文注疏的错误解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1037,
+      "completion_tokens": 162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:35:00.244032+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5ac764d143ad4fb40c613d9bb96466617234799b89df1c9e82b157f8d4a4cbe1",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000726-p000-b4df99c6e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000727-p000-e0b7966fb9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000728-p000-d54d4159dd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘八卦之一’的坎，错误标注为‘发掘坑坎’，属于术语误换，原文‘坎’为八卦术语，并非指坑坎地形，释读时未遵循allowed_glossary的坎的定义，误将八卦坎替换为坑坎地形的含义，违反术语使用规则"
+        ],
+        "uncertainty": [
+          "原文中‘龍虎’指风水语境中的左右形势，具体所指未在释读中明确说明，属于含混短语未标注风险"
+        ]
+      },
+      {
+        "id": "book014-b000729-p000-59e4869a17",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘沮洳’‘炒闹’‘阴悽’等短语具体所指未明确，属于含混短语未标注风险"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1522,
+    "completion_tokens": 326,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1522,
+      "completion_tokens": 326,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

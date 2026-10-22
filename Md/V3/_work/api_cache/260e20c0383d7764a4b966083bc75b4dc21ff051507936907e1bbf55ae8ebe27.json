@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-17T07:19:57.652133+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "260e20c0383d7764a4b966083bc75b4dc21ff051507936907e1bbf55ae8ebe27",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002843-p000-8b133d87f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "梧星具体所指不详",
+          "原文‘在落艮頂’可能为‘左落艮頂’之误"
+        ]
+      },
+      {
+        "id": "book035-b002845-p000-dbfef86e2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天隆順祿具体所指不详",
+          "翼飛五形短也即詩地整句含义不详"
+        ]
+      },
+      {
+        "id": "book035-b002846-p000-3ee6995d8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "多磁基具体所指不详",
+          "五辛五戎具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002847-p000-7e34ef0aff",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重残缺和错乱，导致无法形成任何连贯的现代中文释读。候选句仅能指出其‘句意严重残缺、晦涩’，这符合‘OCR或原文损坏导致连保守释读都无法成立’的判定标准。"
+        ],
+        "uncertainty": [
+          "整段文字句意严重残缺，无法连贯释读"
+        ]
+      },
+      {
+        "id": "book035-b002850-p000-68f3f566cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "助刺龙合向登云术含义不明",
+          "后向或亦句意残缺",
+          "合则句意残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2195,
+    "completion_tokens": 455,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2195,
+      "completion_tokens": 455,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

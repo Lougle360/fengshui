@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-26T16:24:40.173216+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ba8079c5cfd3d35f8e779eabac86798ed3e3d7e70318db8a20948d36bd3ca3d7",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000652-p000-6d97519467",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current存在术语讹误：将原文\"巽巳\"错写为\"異巳\"；断句错误：原文龙、向对应关系被错误拆分，导致逻辑混乱，将\"金龙立木向\"错写为\"龙立木向\"；对原文\"何出旺方矣\"的解读有误，添加无依据的\"（水）从何处进入\"表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000654-p000-f5ba2cd942",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current存在无依据臆测：擅自猜测\"四帝莊\"是\"四帝旺\"之误、\"趨內\"是\"趋避\"之误、\"卷六 十人\"是\"卷六十八\"或\"卷六十\"之误，违背原文保守性要求；表述逻辑不通顺"
+        ],
+        "uncertainty": [
+          "原文\"四帝莊\"、\"趨內\"、\"登穴三尺经\"、\"卷六 十人\"均无足够佐证确定含义，candidate标注所指不详符合存疑要求"
+        ]
+      },
+      {
+        "id": "book003-b000659-p000-b2a250851d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current存在无依据增改：擅自将原文\"为四\"解读为\"对应四象\"，属于无原文依据的解释；断句错误：将原文\"到首定龙\"误写为\"首先定龙\"，遗漏\"到首\"的现场勘验含义；对原文\"入云生方高耸耶人丁旺起峰宮祿至\"断句和解读错误"
+        ],
+        "uncertainty": [
+          "原文\"为四\"、\"奎造化\"无足够佐证确定含义，candidate标注存疑符合要求"
+        ]
+      },
+      {
+        "id": "book003-b000663-p000-24fae6db87",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current存在表述错误：将原文",
+          1,
+          1,
+          "坤巾更正为",
+          1,
+          1,
+          "坤申；对原文晦涩残缺内容未做存疑标注，强行通读导致语义混乱；对原文讹误内容如",
+          1,
+          1,
+          "艮青未标注存疑；断句不通顺"
+        ],
+        "uncertainty": [
+          "原文",
+          1,
+          1,
+          "艮青、",
+          1,
+          1,
+          "久震庚裏儀三吉之位也、",
+          1,
+          1,
+          "面卧夫若日右经六谛",
+          1,
+          1,
+          "段及末尾残缺内容均无足够佐证释读，candidate标注存疑符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3700,
+    "completion_tokens": 732,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3700,
+      "completion_tokens": 732,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T20:24:53.413233+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e4bc609c39d5cb0c385df54f556f30ab1bad74cb54f8e7c70fded9b9ebdb8799",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003379-p000-3c258c4fb7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未明确说明“震来”所指的具体情境，释读未添加无依据的确定解释"
+        ]
+      },
+      {
+        "id": "book016-b003380-p000-d5356db28c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文注释里的“震来”后疑脱漏“虩虩”二字，与前一条爻辞原文不完全对应"
+        ],
+        "uncertainty": [
+          "原文注释中“震来”的表述与前条爻辞的“震来虩虩”存在差异，释读已明确标注该差异，未将不确定内容作为确定事实"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 193,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1101,
+      "completion_tokens": 193,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

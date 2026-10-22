@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-25T09:38:27.659606+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "78f55ddb00acb9c5d691e7e5a12362a2ec16ec51e87223183d3919857f67d994",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000081-p000-2c554eb312",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "晚水勾为风水专有形态术语，具体形态未见于通用解释"
+        ]
+      },
+      {
+        "id": "book024-b000083-p000-995936be58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天江横乐水为专有水势术语，具体所指未见于通用解释",
+          "原文“数百百”为讹字，参照上下文推定应为“数百步”"
+        ]
+      },
+      {
+        "id": "book024-b000086-p000-576ab77d3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“速在百步之外”被误译为“发迹快的如果曲水在百步之外”，含义反向：原文指曲水距离在百步之外的发福更慢，并非“发迹快”的情况"
+        ],
+        "uncertainty": [
+          "水龍三具体所指未见于通用解释"
+        ]
+      },
+      {
+        "id": "book024-b000090-p000-7dbadb85ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "无依据增译“丙位，也就是南方方位”：allowed_glossary未收录相关方位对应规则，属于擅自添加的确定释义",
+          "原文“曲水之丙並無架成穴”被误译为“而曲水的丙位，也就是南方方位，没有形成架形的穴”，断句错误：原文应为曲水一侧并无架成之穴的态势，并非丙位不存在架形穴"
+        ],
+        "uncertainty": [
+          "原文“曲木”推定应为“曲水”讹误",
+          "原文“以李樓桃”推定应为“以李代桃”讹误",
+          "原文“胃姓胃籍”推定应为“冒姓冒籍”讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2532,
+    "completion_tokens": 444,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2532,
+      "completion_tokens": 444,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

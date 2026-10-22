@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-10-17T09:36:14.781180+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e0ffe81e0152582174ddbb920f5d8f38802537284c896239627fcd5f5d0e17b3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003183-p000-1814cb58f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003184-p000-7686577677",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“火須倒盡離氣方可巳丙授穴”是一个连贯的句子，candidate将其拆解为“火气必须倒尽，离气才能完全到来，方可在巳、丙位安葬穴位”，增加了“完全到来”这一推测性解释，并将“方可”与“巳丙授穴”断开，改变了原文的紧密逻辑关系。原文“亦如酉辛裁制陽局不宜扶借立穴借局穴論”中，“裁制陽局不宜扶借”是“酉辛授穴”的限定条件，candidate将其处理为独立的句子“酉、辛位安葬穴位也如上述方法，需裁制阳局，不宜扶持借用”，并将“立穴借局穴論”单独解释，虽未改变核心含义，但结构上与原文对应不够直接。建议调整为更贴近原文语序的释读。"
+        ],
+        "uncertainty": [
+          "原文“火須倒盡離氣方可巳丙授穴”断句及具体气运流转逻辑在古籍中常有歧义，此处按常规风水逻辑推演，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003185-p000-8472b8d551",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003186-p000-a2b1d71db7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003187-p000-cde1af6643",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003189-p000-b42aca6215",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003190-p000-3381bd08c6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“已上陰局扶式如庚兑辛須屬連吉若向震憶兑氣冲腦宜放正庚正辛貫穴方發如離丙主”中，“如離丙主”后文虽可能残缺，但“如離丙主”本身是完整的短语，candidate将其处理为“如离、丙主（此处原文残缺，具体所指不详）”，将“主”字与括号说明结合，可能误导读者认为“主”是原文的结尾。实际上，“如離丙主”可能是一个未完成的举例或条件句的开头。candidate的释读方式不够准确，应更忠实地呈现原文的未完成状态，例如：“……方发。又如离、丙主（此处原文可能不完整，具体所指不详）”。"
+        ],
+        "uncertainty": [
+          "原文“如離丙主”后文缺失，无法完整翻译，仅能根据上下文推测其意，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003193-p000-0de8370cb5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将表格内容以列表形式释读，但未能清晰区分原文表格的单元格结构，例如“TCY”、“HO)”、“S”等标记被忽略，这些可能是表格的列标题或标识，虽然含义不明，但作为原文的一部分，应在释读中有所体现或说明。此外，释读文本中“博龍俁向”、“聊名”等词直接沿用，未加引号或说明，可能让读者误以为是现代汉语词汇。对于这类模糊或疑似通假的词，应明确标注其不确定性。"
+        ],
+        "uncertainty": [
+          "原文表格中存在部分残缺或模糊字符（如“博龍俁向”、“聊名”等），部分词句在古籍中可能有特定含义或通假字，此处按字面意思及上下文逻辑进行通俗化解释，具体所指不详。原文表格中的标记（如“TCY”、“HO)”、“S”等）具体含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3749,
+    "completion_tokens": 965,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3749,
+      "completion_tokens": 965,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

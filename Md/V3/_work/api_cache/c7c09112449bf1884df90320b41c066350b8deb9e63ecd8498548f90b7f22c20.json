@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:17:48.498023+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c7c09112449bf1884df90320b41c066350b8deb9e63ecd8498548f90b7f22c20",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000192-p000-468c47ae39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000193-p000-07e2cc35e8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文‘中央高郎是身水吏尤經云’释为‘中央低、四周高的情况，这就是“身水”’，与原文表述不符，原文未提及‘中央低、四周高’的内容，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文存在多处断句错乱，部分文字难以准确释读，已按可辨识内容整理"
+        ]
+      },
+      {
+        "id": "book010-b000194-p000-49b0f5ea5d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文过于简略，语义模糊，难以准确释读，候选释读无依据"
+        ],
+        "uncertainty": [
+          "原文过于简略，语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book010-b000195-p000-0dc2ad918c",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处断句错乱、文字残缺，候选释读中‘秋穴’‘第九吏’等内容无原文依据，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文存在多处断句错乱、文字残缺，部分内容难以准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1597,
+    "completion_tokens": 352,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1597,
+      "completion_tokens": 352,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

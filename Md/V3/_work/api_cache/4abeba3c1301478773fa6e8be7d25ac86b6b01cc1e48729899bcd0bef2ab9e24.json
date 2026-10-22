@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T21:57:51.699443+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4abeba3c1301478773fa6e8be7d25ac86b6b01cc1e48729899bcd0bef2ab9e24",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000022-p000-de20ea1a13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000023-p000-542257c928",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000024-p000-4088618460",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文的「言出頭」誤譯為「論說巒頭的部分」，對應錯誤",
+          "原文「岔頭理氣兩而化者一而神」誤譯為「岔頭理氣，兩者不同卻能相互轉化，是獨得真傳的精妙之論」，屬於無依據釋義，「兩而化者一而神」未準確對應",
+          "原文「事乎旨頗有所見」誤譯為「對於《辨正》的精妙之處，我頗有見解」，原句表述存在訛誤，不應隨意補正為通順含義",
+          "原文「相旗見生為月未脩次序不分」誤譯為「相互對照，發現次序混亂」，原句殘缺，無依據擴寫含義",
+          "原文「戰前刻尤為明」誤譯為「戰前刊刻，更為明晰」，原句無「刊刻」主語相關表述，屬於增譯"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000025-p000-0fef21f1f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文開頭「顯雖秘傳未敢盡洩」漏譯「顯」字，含義丟失",
+          "原文「微言奧首」誤譯為「精微言辭奧義」，「奧首」含義不明，不應隨意釋為「奧義」"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000026-p000-34e46b8fbc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中「上汽」「鳳祛」「典涇」「相洪」的具體所指不詳，「上汽」可能為OCR識別錯誤"
+        ]
+      },
+      {
+        "id": "book031-b000027-p000-eae3d11ee7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「象翔大」的具體所指不詳"
+        ]
+      },
+      {
+        "id": "book031-b000028-p000-721706da2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000029-p000-1489dc4138",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「如晴啞謎」誤譯為「就像猜啞謎一樣」，「晴」屬訛字，不應隨意省略",
+          "原文「惟青囊與語十義足見詩凡作用盡在奧語十義之中」誤譯為「唯有《青囊》與《語十義》足以見證。凡是相關的作用，都包含在《奧語十義》之中」，「語十義」「奧語十義」是否為特定書籍無依據，原句「足見詩」的含義被漏譯",
+          "原文「生母夏化道所方方具備」誤譯為「起止、分合、生滅、變化，各個方面都具備」，原句殘缺訛誤，不應無依據調整為通順含義",
+          "原文「第三何以曰法第曰何以曰奇」誤譯為「第三個為什麼叫「法」，第四個為什麼叫「奇」」，原句有訛誤，不應隨意補為「第四」",
+          "原文「細心號之」誤譯為「細心研讀」，「號」字含義不明，不應隨意釋義",
+          "原文「此便是讀辨正之秋訣也」誤譯為「這就是讀《辨正》的口訣」，「秋訣」的「秋」被隨意省略"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000030-p000-e09827dcc3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「潘龍若依圗訣葬」誤譯為「尋龍若依圖訣，葬」，「潘龍」被隨意改為「尋龍」，且原句無逗點拆分依據"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000031-p000-190776cdf2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2841,
+    "completion_tokens": 1254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2841,
+      "completion_tokens": 1254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

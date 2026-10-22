@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T06:07:06.588942+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9b900dbcd73166dc0b0daca97319ee583b9f989780b4eca1a83bdbc8d0a85cf5",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001792-p000-64270f4fce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001793-p000-d01cf815e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的'离'在此处原文是'山走人离'，指家人离散，并非allowed_glossary里作为八卦之一的'离'，候选释读未区分该义项，且原文未提及'穴位'，候选自行补出'砂与穴位的向背'属于无依据增译；另原文'山逆人欺'是指山形悖逆则居住者容易被人欺辱，候选释读为'山形逆乱则主人欺诈'与原文含义相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001794-p000-8565b3b9d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2861,
+    "completion_tokens": 286,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2861,
+      "completion_tokens": 286,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

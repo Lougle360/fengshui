@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-04T04:21:56.429849+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "78f4a6625bb39e804fb9e20dbc79b1db2187b529c20ff43fa8f3aed7f11ee9c2",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000580-p000-9fd0b5e306",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'不及一之体'，candidate译为'如果体质不足'，'一'字漏译。原文'荣其脊'，candidate译为'培护其脊背'，'荣'字释义不准确，有'使其荣盛/隆起'之意。原文'秘案'，candidate译为'对于秘案'，但'秘案'是opaque_term，应保留原词并用引号标注，不应解释为'位置'。原文'趋其不及欲其常拱'，candidate译为'对于不足的情况，要使其常处于拱卫的状态'，'趋'字漏译，且'常拱'释义不完整，'拱'有'拱卫'或'拱起'之意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000581-p000-c97850f84f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'后龙乘其温逊则穴星受其舍书之气'，candidate译为'如果后龙温和谦逊，那么穴星就会接受其舍书之气'，'乘'字漏译，应为'顺应/凭借'。原文'弃其刚硬则穴星运气而不尽'，candidate译为'如果弃用刚硬之气，穴星运化之气就不会穷尽'，'运气'是opaque_term，应保留原词并用引号标注，不应解释为'运化之气'。原文'前论龙穴砂休若刻于用'，candidate译为'前文论述龙、穴、砂的休咎，如同刻在实用之中'，'休'字释义不完整，'休'有'休咎（吉凶）'之意，但'若刻于用'的翻译'如同刻在实用之中'过于直译，含义不明。原文'后论龙穴砂水欲济其列中庸一之道扶砂备'，candidate译为'后文论述龙、穴、砂、水，旨在补救列出的中庸之道，扶持砂的布置'，'济其列'翻译为'补救列出'不准确，'列'可能指'列出的（问题）'，但原文未明。'扶砂备'译为'扶持砂的布置'，'备'字漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000582-p000-41db57e836",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文严重残缺，candidate仅能识别出部分文字并说明文义不详，符合处理原则。但candidate中'弱 忌 受 忌则 割小砂經卷二 六三'的引用，'割小砂'可能是一个术语，但未在opaque_terms中列出，且candidate未将其作为opaque_term处理。不过鉴于原文损坏严重，此问题可忽略。"
+        ],
+        "uncertainty": [
+          "原文存在严重残缺或OCR识别错误，无法还原完整句意。"
+        ]
+      },
+      {
+        "id": "book028-b000583-p000-2b58bbab3e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'人穴地穴要识其体天穴主地穴主粘仰高星体多用法当以天高作用于法当极其平而星体多用粘法当以地下作用于粘法当极其粘'，candidate断句为'人穴地穴要认识其体：天穴主星体，地穴主粘仰。高星体多用粘法，应当以天高作用于法，当极其平；星体多用粘法，应当以地下作用于粘法，当极其粘。'。此处断句和释义存在严重问题。原文'天穴主地穴主'后接'粘仰'，candidate将其拆分为'天穴主星体，地穴主粘仰'，属于无依据的增译和改变结构。'粘仰'应为opaque_term，需保留原词。'高星体多用法'被译为'高星体多用粘法'，增加了'粘'字。'当以天高作用于法'和'当以地下作用于粘法'的翻译不通顺，且'作用于法'、'作用于粘法'含义不明。整体上，candidate对这段复杂且可能有误的原文进行了过度解读和重组，未能忠实反映原文的模糊和断裂状态。"
+        ],
+        "uncertainty": [
+          "原文'天穴主地穴主'等处断句存在歧义，根据风水常识推断为'天穴主...地穴主...'，但原文未明示，故在句外说明具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000584-p000-3806a2ab64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000585-p000-7e890e600a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000586-p000-4e826d48a3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'一张一'后明显有缺字，candidate推断为'一张一短'并直接写入译文，这超出了保守释读的边界。应保留原文的残缺状态，在译文中说明'一张一'后文不详，或在uncertainty中标注。"
+        ],
+        "uncertainty": [
+          "原文'一张一'后似有缺字，根据上下文逻辑推断为'一张一短'或类似结构，但原文未明示，故在句外说明具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000587-p000-f5a493914f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'砂经 卷三 KN不见于穴口'，candidate译为'砂经卷三不见于穴口'，'KN'可能是页码或标记，漏译。原文'山之运气一而巳'，candidate译为'山的运气仅此而已'，'一而巳'译为'仅此而已'稍显意译，但可接受。主要问题在于对'倒骑龙法'一段的翻译，整体流畅但有多处细节不准确：'凑脚出脉'译为'凑脚出脉'保留尚可，但'去前耸一节'译为'向前耸起一節'，'去'字漏译（可能有'前往'或'离去'之意）。'对龙格之而开穴星'译为'对着龙格展开穴星'，'格之'的'之'指代不明。'四转作穴'译为'四转成穴'，'四转'是opaque_term，应保留原词。'穴掩耳正直'译为'穴掩耳正直'保留尚可，但'掩耳'是opaque_term。'使逆水未的'译为'如果逆水的情况不明确'，'的'字释义为'明确'可接受。'傭取之'译为'取用'，'傭'字漏译（可能有'雇佣'、'借助'或为'庸'之误）。'合水俱到合为顺流'译为'合水都到达，合为顺流'，第二个'合'字可能为'故'或'而'之误，但candidate处理尚可。'水去少关'译为'水流去势稍有关碍'，'少关'释义为'稍有关碍'可接受。'更于立穴处大开茔窀以吞法立葬'译为'更要在立穴处大开墓穴，用吞法立葬'，'茔窀'译为'墓穴'可接受，'吞法'是opaque_term。'如陶冶如穷窿'译为'如同陶冶，如同穷窿'，'穷窿'是opaque_term。'穴深藏而砂经 卷三 KN不见于穴口'处理如前。'高筑土堆设为乐托'译为'高筑土堆，设为乐托'，'乐托'是opaque_term。整体上，candidate将许多opaque_terms进行了普通词汇化处理，未按要求保留或标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000588-p000-ec750a4bf8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000590-p000-7b6211eaa2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'如先弓单合璧'，candidate译为'如先弓单合璧'，'先弓单合璧'是opaque_term，应保留原词。'窝突之形所不可界也'，candidate译为'窝突之形所不可界也'，直接保留，但'不可界'含义不明，应作为opaque_term处理或说明。'亦常从五吉'，candidate译为'亦常从五吉'，'五吉'是opaque_term。'最怕开茔误关节'，candidate译为'最怕开塋误关节'，'关节'是opaque_term。'学去其旧土'，candidate译为'学去其旧土'，'学'字可能为'削'或'穴'之误，但candidate保留原字并在uncertainty中说明，处理得当。'崩测'，candidate译为'崩测'并说明生僻，处理得当。但整体上，candidate对多个opaque_terms未进行引号标注或说明。"
+        ],
+        "uncertainty": [
+          "原文'学去其旧土'、'崩测'等处用词较为生僻或存在异体字，根据上下文推断其意，但具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3599,
+    "completion_tokens": 2238,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3599,
+      "completion_tokens": 2238,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

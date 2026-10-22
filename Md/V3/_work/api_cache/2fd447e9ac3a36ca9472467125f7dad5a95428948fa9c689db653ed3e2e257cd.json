@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-10-18T11:53:25.037022+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2fd447e9ac3a36ca9472467125f7dad5a95428948fa9c689db653ed3e2e257cd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006449-p000-80d45c02a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'丁鬼金羊鬼一至柳癸女土蝠女二至四'，是并列的两组星宿/神煞与度数范围。候选句'文中提到丁鬼、金羊鬼，范围是一至柳；癸女、土蝠女，范围是二至四。'将'一至柳'和'二至四'都处理为'范围'，但'柳'是二十八宿之一，'一至柳'应指从某个起点（可能是度数1）到柳宿的范围，候选句未解释'柳'的含义，也未指出'一至柳'与'二至四'在表述上的差异，可能导致读者误解。应指出'柳'是星宿名，'一至柳'的具体起止点原文未明。"
+        ],
+        "uncertainty": [
+          "'一至柳'的具体起止度数不详。"
+        ]
+      },
+      {
+        "id": "book035-b006451-p000-d6bb288bf4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006452-p000-471e698146",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文'庚午土穴分在離宮逢火爲胎孕之地'，候选句释为'庚午土穴分在离宫，遇到火就是胎孕之地'。'逢火'可能指遇到火（五行），也可能指特定的'火'（如方位、神煞），候选句将其确定为'遇到火'，属于将不确定解释写成了确定事实。应保留'逢火'的模糊性。",
+          "2. 原文'宜列于九八六六之春'，候选句释为'应当列在“九八六六之春”这一项中'，并标注'具体所指不详'。这处理得当。但'九八六六之春'作为opaque_terms更合适，候选句未用引号强调其不透明性。",
+          "3. 原文'土勝宮王水土俱旺旅子根本堅固而枝葉榮'，候选句释为'土胜过宫王，水土都旺盛，旅子根本坚固而枝叶繁荣'。'宫王'、'旅子'是含混专名，候选句未加引号或说明其含义不明，直接当作确定术语使用，属于无依据扩写。应指出这些术语具体所指不详。"
+        ],
+        "uncertainty": [
+          "'逢火'的具体所指不详。",
+          "'宫王'、'旅子'的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006453-p000-9d0c3bcb24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006454-p000-fd74f29ecf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1245,
+    "completion_tokens": 660,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1245,
+      "completion_tokens": 660,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

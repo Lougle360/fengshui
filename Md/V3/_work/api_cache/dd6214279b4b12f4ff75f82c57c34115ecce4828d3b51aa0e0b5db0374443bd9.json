@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-24T11:10:18.398303+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dd6214279b4b12f4ff75f82c57c34115ecce4828d3b51aa0e0b5db0374443bd9",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000111-p000-efa98db8ae",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘乙向巽流’误释为‘乙向巽方流水’，改变了原文的表述逻辑；将‘丁’误释为‘丁向巽方’，原文未提及丁向巽方，属于无依据扩写；‘万斯稍’未保留原文表述且未标注具体所指不详的风险"
+        ],
+        "uncertainty": [
+          "\"万斯稍\"的具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000112-p000-b923db2950",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "\"辛八\"的具体所指不详",
+          "\"百万正\"的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1005,
+      "completion_tokens": 200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

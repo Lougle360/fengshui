@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T03:40:06.146360+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "40ded4c861fff0098531f612059eca8795b188c1df558638537bfa5de4e1c144",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000117-p000-4851fd1b8e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾仅为“是為逢胎則就其”，没有“有子氣依附，不算敗壞”的相关表述，属于无依据增译；“掃蕩之水”释为“蕩漾的水形”不准确，应保留原文描述或说明形态；“有子氣依附，不算敗壞”为原文未提及内容，属于误增"
+        ],
+        "uncertainty": [
+          "原文“則就其”后内容残缺，语义未竟"
+        ]
+      },
+      {
+        "id": "book020-b000118-p000-8585aa375d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000119-p000-b0ef74b5bf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000120-p000-97cdaab9e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000121-p000-dbd7ea1a14",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“尚”字残缺，语义未尽"
+        ]
+      },
+      {
+        "id": "book020-b000122-p000-35fce4db3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“無全功”属于原文主语“造化”的谓语，candidate将主语误改为“做事情”，偏离原文语境；“牛僧果應內召”中的“牛僧”未说明为原文专有名词，易造成误解；“域王城”“域九州”的“域”释为“来域”不符合现代汉语表达，应释为“划分界限安置/对应”"
+        ],
+        "uncertainty": [
+          "“壶公以时易色”“麻榨”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book020-b000123-p000-3465f89ea1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000124-p000-ebde679796",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“白虎”“朱雀”“玄武”未按要求保留，candidate误加了引号，且未按allowed_glossary明确其风水语境含义，此处原文中为天星四象称谓，与allowed_glossary中穴场方位称谓的定义不符，属于术语使用矛盾；“域王城”“域九州”的“域”释为“来域”不符合现代汉语表达"
+        ],
+        "uncertainty": [
+          "原文末尾“頭頃”后内容残缺，语义未尽"
+        ]
+      },
+      {
+        "id": "book020-b000125-p000-a9c9844ac7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“星家若稗若甘之所占”释为“星家若、稗、甘之所占”错误，“若”是“如同、比如”的意思，并非星家名称，属于断句误译；“其於災祥有符契券”释为“對於災祥有符契券”不通顺，应释为“预测的灾祥像符契凭证一样应验”；“神壇古則寡宿孤神多出於井鬼度”断句错误，应为“神壇古刹、寡宿孤神多出於井鬼度”，candidate断句导致语义不通"
+        ],
+        "uncertainty": [
+          "原文末尾“而且太陰所”后内容残缺，语义未尽"
+        ]
+      },
+      {
+        "id": "book020-b000126-p000-e639a97140",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“益象天星焉”的“益”是“因为”的意思，candidate释为“就像”属于字义误译；“而吉凶靈城鼎義 三”为原文残缺内容，candidate直接照搬未标注残缺，不符合要求；“乘生氣者人但知認有形之生氣”的断句错误，原文应为“故葬書中云‘乘生氣’者，人但知認有形之生氣”，candidate将“乘生氣者”连读为《葬书》内容，属于断句误译"
+        ],
+        "uncertainty": [
+          "原文末尾内容残缺，语义未尽"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4919,
+    "completion_tokens": 1162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4919,
+      "completion_tokens": 1162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

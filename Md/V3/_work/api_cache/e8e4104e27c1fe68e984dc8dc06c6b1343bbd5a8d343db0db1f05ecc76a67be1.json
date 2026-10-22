@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-17T21:30:21.042838+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e8e4104e27c1fe68e984dc8dc06c6b1343bbd5a8d343db0db1f05ecc76a67be1",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004686-p000-325b005b88",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'口乞'在candidate中未处理，应保留原文或标注为'原文未明'，不应直接写入'口乞'。",
+          "原文'敢此星'在candidate中写作'敢此星'，'敢'字可能为'盖'或'故'之误，应标注不确定性，不应直接照抄。",
+          "原文'壁土富揭高立穴以受氣'，candidate写作'如勢體壁土富揭高立穴以受氣'，'壁土富'含义不明，应标注不确定性。",
+          "原文'當穌弦坐入平穴'，candidate写作'當穌弦坐入平穴'，'穌弦'含义不明，应标注不确定性。",
+          "原文'堂卷則外所孫橫落槽落槽則吉星自乃'，candidate写作'最忌堂卷，則外所孫橫落槽，落槽則吉星自乃'，'堂卷'、'外所孫橫落槽'、'吉星自乃'含义不明，应标注不确定性。",
+          "原文'生口乞這人'，candidate写作'至生口乞這人'，'口乞這人'含义不明，应标注不确定性。",
+          "原文'宜作土堆'，candidate写作'宜作土堆'，正确。"
+        ],
+        "uncertainty": [
+          "壁土富",
+          "穌弦",
+          "堂卷",
+          "外所孫橫落槽",
+          "吉星自乃",
+          "口乞這人",
+          "敢"
+        ]
+      },
+      {
+        "id": "book035-b004688-p000-94b0eb988e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'婁促金剪火穿兩腳立穴'，candidate写作'婁促金剪火穿兩腳立穴'，'婁促金剪火'含义不明，应标注不确定性。",
+          "原文'三壹'，candidate写作'三壹'，'三壹'含义不明，应标注不确定性。",
+          "原文'夫太懸乳乃金水合形'，candidate写作'夫太懸乳乃金水合形'，'太懸乳'可能为'太陰垂乳'之误或简称，应标注不确定性。",
+          "原文'生氣疑聚而下垂'，candidate写作'生氣疑聚而下垂'，'疑'可能为'凝'之误，但candidate未标注。",
+          "原文'乳上光員'，candidate写作'乳上光圓'，'員'通'圓'，可接受。"
+        ],
+        "uncertainty": [
+          "婁促金剪火",
+          "三壹",
+          "太懸乳"
+        ]
+      },
+      {
+        "id": "book035-b004692-p000-001eb87af6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'腎癩'，candidate写作'腎癩'，含义不明，应标注不确定性。",
+          "原文'敢此星'，candidate写作'敢此星'，'敢'字可能为'盖'或'故'之误，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "腎癩",
+          "敢"
+        ]
+      },
+      {
+        "id": "book035-b004694-p000-b00e4b6573",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'巳酉丑年媽達'，candidate写作'巳酉丑年媽達'，'媽達'含义不明，应标注不确定性。",
+          "原文'敢此體'，candidate写作'敢此體'，'敢'字可能为'盖'或'故'之误，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "媽達",
+          "敢"
+        ]
+      },
+      {
+        "id": "book035-b004695-p000-385e7b2218",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'喝作金鷄鼓翼形'，candidate写作'喝作金鷄鼓翼形'，'喝作'是风水术语，指形象比喻，但candidate未标注其术语性质或不确定性。",
+          "原文'至毒須用人力鋤去尖頭'，candidate写作'至毒須用人力鋤去尖頭'，'至毒'含义不明，应标注不确定性。",
+          "原文'使會員淨'，candidate写作'使員淨'，'員淨'含义不明，应标注不确定性。",
+          "原文'主綴'，candidate写作'主綴'，含义不明，应标注不确定性。",
+          "原文'有左雙右單者須'，candidate写作'有左雙右單者，須（原文未完）'，处理得当。"
+        ],
+        "uncertainty": [
+          "喝作",
+          "至毒",
+          "員淨",
+          "主綴"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4726,
+    "completion_tokens": 1113,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4726,
+      "completion_tokens": 1113,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

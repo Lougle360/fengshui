@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-04T05:42:18.536969+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c7d998da9b6cf1e5e1907b7f170a5fac63ad1787c441c4ccbce36309541e755e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001457-p000-c9f59887c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容完全转述为段落，破坏了表格的原始结构和信息呈现方式，不符合古籍表格的释读要求。表格中的信息是分栏、分行、分列的，转述后导致信息混杂，难以对应。例如，将‘砂法’、‘1ノ’、‘獻典太南簿常京’等左侧标注与其右侧多行内容混在一起描述，丢失了表格的层级和关联关系。",
+          "候选句对部分难以理解的原文（如‘签歲二有百一毒子詹’）进行了直接复制，但未按指令要求标注其‘具体所指不详’，而是将其作为普通信息列出。",
+          "候选句将‘砂法’解释为‘栏目’，但‘砂法’是风水术语，属于locked_terms，应保留原样，不应被解释为‘栏目’。候选句的处理方式使其失去了作为专有术语的独立性。"
+        ],
+        "uncertainty": [
+          "表格中大量人名、官职、寿数组合文字（如‘签歲二有百一毒子詹’、‘為疑琳有四歲壽九十為信後’）的具体含义和断句方式无法确定。",
+          "表格的结构（如行列对应关系、‘砂法’等左侧标注的具体含义）存在多种解读可能。"
+        ]
+      },
+      {
+        "id": "book033-b001459-p000-51bcceef3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘霹公翻陳棘征松暫兩一冊馬牆’一句，具体所指不详。",
+          "‘餘理入翰林者四林公顯忠公仲猛公聯琳式公個商理學二餘路生進子懷內負墩’一段，文意断裂，具体所指不详。",
+          "‘自外山生者’之后原文结束，后续含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2609,
+    "completion_tokens": 443,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2609,
+      "completion_tokens": 443,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

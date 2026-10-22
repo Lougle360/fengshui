@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T16:22:04.777492+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "80ec9026762a635d90dac52320fc1b5f6fa30141b13c2e3796192ef5a92250e8",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000143-p000-71b1b367b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000144-p000-44f4272641",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000145-p000-a563820a7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000146-p000-a78a73b2ea",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未保留卫礼贤、卫德明、舒茨基的外文原名，不符合相关要求"
+        ],
+        "uncertainty": [
+          "卫礼贤、卫德明、舒茨基的外文原名未按要求保留，具体所指需结合相关资料确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1697,
+    "completion_tokens": 258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1697,
+      "completion_tokens": 258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

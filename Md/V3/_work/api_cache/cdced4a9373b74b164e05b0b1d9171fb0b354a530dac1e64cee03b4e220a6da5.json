@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-26T15:08:49.352765+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cdced4a9373b74b164e05b0b1d9171fb0b354a530dac1e64cee03b4e220a6da5",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000452-p000-485fdede56",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000464-p000-518d24fbbf",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘立地向’‘立兴向’‘退述更重’无明确释义，仅保留存疑"
+        ]
+      },
+      {
+        "id": "book002-b000468-p000-3ee418a105",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate擅自将“丁水来立午向”对应“水火不相射”，原文未明确对应关系，属于无依据添加；candidate未标注“而”字可能传抄错误的合理存疑，不如current严谨"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000469-p000-d24678fafe",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文多处晦涩术语无明确释义，均已标注存疑"
+        ]
+      },
+      {
+        "id": "book002-b000470-p000-2fb12f9392",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未标注“長里”“宁女”为原文存异字，直接照搬不如current说明“原文如此，非长男/中女”严谨；current明确指出文末“入地眼全卷六水”后似有缺漏，candidate未提及"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000478-p000-fa526a77e4",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述模糊断句不明，candidate擅自划分对应关系属于无原文依据的臆断，违背保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000480-p000-6b529d475e",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "current明确指出“与”字可能为“巽”的存疑，更严谨；candidate对“災之震兑”未说明原文可能讹误，直接沿用存在歧义风险"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7601,
+    "completion_tokens": 621,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7601,
+      "completion_tokens": 621,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

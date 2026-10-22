@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-26T16:21:00.435455+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "69ee8ca472d55b7ea3e70fc9d17c984d61eb6cdd051db0f3e22a05d2779ec062",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000543-p000-58e5a495fb",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000544-p000-c38a1352f5",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate对“幸心”的解释（“可能是OCR识别误差，或指某种判断心法”）无原文依据，对“取艮作用”的解释（“取艮位来布局”）属于无依据的扩展"
+        ],
+        "uncertainty": [
+          "“幸心”“力之巧”的具体含义原文无明确佐证"
+        ]
+      },
+      {
+        "id": "book003-b000548-p000-c3304e6e2a",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate仅保留原文未做必要释读，current对术语的解释符合allowed_glossary，且内容更完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000550-p000-a8e4986894",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“绳于申”“莽亥”“避尺经”的讹误判断无直接原文佐证，仅为合理推测"
+        ]
+      },
+      {
+        "id": "book003-b000555-p000-92185b120b",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“方的”的讹误判断无直接原文佐证，仅为合理推测"
+        ]
+      },
+      {
+        "id": "book003-b000556-p000-6f73121dc5",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000561-p000-b02fa34275",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000563-p000-45d3dea8d7",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate认为“鄺關”是“而阔”的讹误，无原文依据，属于无据猜测"
+        ],
+        "uncertainty": [
+          "“鄺關”的具体含义无明确佐证"
+        ]
+      },
+      {
+        "id": "book003-b000565-p000-6985279ee5",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate对“玉凡”“娥类”“开巨”“习”的讹误及含义解释均无原文依据，属于主观臆断"
+        ],
+        "uncertainty": [
+          "“玉凡”“娥类”“开巨”“习”“觚角”的具体含义均无明确佐证"
+        ]
+      },
+      {
+        "id": "book003-b000576-p000-6b7ebaac18",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“春五”的“春”为“卷”的讹误判断无直接原文佐证，仅为合理推测"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6698,
+    "completion_tokens": 934,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6698,
+      "completion_tokens": 934,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

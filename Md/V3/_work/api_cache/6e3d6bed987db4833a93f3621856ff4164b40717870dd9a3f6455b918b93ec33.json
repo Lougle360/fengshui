@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T18:49:19.296858+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6e3d6bed987db4833a93f3621856ff4164b40717870dd9a3f6455b918b93ec33",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000416-p000-f2805101f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为「吏郎尙書」，正确对应官职是「吏部尚书」，但原文此处「吏郎」的写法应保留原意？不，不对，另一个问题：原文「正德未」是「正德末年」吗？不对，原文是「正德[丁]未」？不对，原文写的是「正德未」，candidate直接写成「正德末年」属于无依据补全，还有「酉卯兼年乙的地」中「年乙」表述含混，candidate直接保留但未说明其含义不明，另外「先生父海日公」的「先生」前文未指，candidate未标注，还有「文魁天下武封侯」的翻译没问题？不对，再看：原文「塟後先生父海日公華中成化辛丑狀元」，candidate翻译成「葬后，先生之父海日公在成化辛丑年中状元」，但「華中」二字漏译了。哦对，还有「庚龍入首」的「龍」属于风水常用术语，这里locked_terms没列但也没译错？不对，漏译了「華中」。还有「正德未」：原文是「正德未」，candidate译成「正德末年」是错误的，因为「未」可能是干支「丁未」的脱字，不能直接等同于末年。还有「酉卯兼年乙的地」中「年乙」语义不明，candidate直接照抄但没有标注「具体所指不详」。另外，locked_terms里的「穴、水、入首」都正确使用了吗？「穴落于平洋地带」符合allowed_glossary的「穴」的定义，「水势逃流」符合「水」的定义，「庚龙入首」符合「入首」的定义。所以问题有：1. 漏译原文「華中」二字；2. 原文「正德未」语义不明确，candidate直接释为「正德末年」属于无依据的确定解释；3. 「酉卯兼年乙的地」中「年乙」表述含混，未标注含义不明。",
+          "uncertainty=["
+        ]
+      },
+      {
+        "id": "book030-b000417-p000-95a9b8599b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为二级标题「黃河水」，candidate自行添加破折号改为「黄河——水」，属于无依据修改标题内容，不符合标题释读需忠实原文的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000418-p000-738292d94b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「故濱河雨渥多爲都會」，candidate译为「因此临近黄河且雨水丰沛的地方多成为都会」，「雨渥」的准确含义未明，直接释为「雨水丰沛」属于无依据确定解释；2. 原文「黃河上通天通關係甚大」，candidate译为「黄河上通天文，关系重大」，原文「通天通」语义含混，直接释为「上通天文」属于无依据扩写；3. 原文「若一澄清則爲異王之應」，candidate译为「如果一旦变清，就是出现异事、帝王应世的征兆」，此处「异王」指不同寻常的帝王，不是「出现异事、帝王」，属于语义拆分错误；4. 原文「此乃南朝聖弟生是也」，「聖弟」语义不明，candidate直接释为「圣弟降生」未标注含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000419-p000-3de172b98e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为二级标题「江水」，candidate自行添加破折号改为「江水——水」，属于无依据修改标题内容，不符合标题释读需忠实原文的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000420-p000-af20f47934",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「江爲四寶之長」，candidate译为「长江是四渎之长」，「四寶」与「四渎」含义不同，属于专业术语误换；2. 原文「故金陵襟帶長江爲天下耀會良有以也」，「耀會」语义不明，candidate直接释为「都会」属于无依据确定解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000421-p000-02bb20d5e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000422-p000-d8d2fc3e5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000423-p000-5821c87163",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000424-p000-02b5de4cfe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「大幹龍多居江湖河悔之旁」，candidate译为「大干龙多居于江、湖、河、海之旁」，原文「悔」为讹字，直接释为「海」属于无依据补正，应标注原文此处疑为讹字；2. 原文「其水必以屈曲環逮住聚深緩爲佳」，candidate译为「这种水必须以屈曲环绕、停聚深缓为吉」，「環逮」语义不明，直接释为「环绕」属于无依据确定解释；3. 原文「峻而跌則皆不吉」，candidate译为「峻峭跌荡」表述不够通俗，且原文「峻而跌」指水势落差大，翻译不准确；4. 原文「葬書以水爲朱雀者忌溢謂之悲泣言有聲凶也」，candidate译为「《葬书》把水称为朱雀，忌讳水满溢，称之为悲泣，说水有声是凶兆」，此处语义理解有误，正确逻辑是：《葬书》将穴前的水归为朱雀类，忌讳水奔腾有声，称这种声响为悲泣，主凶，candidate将「忌溢」的表述错误对应，原文「忌溢」应为讹误，实际对应「有声」，candidate翻译混淆了语义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000425-p000-072c411996",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2477,
+    "completion_tokens": 1641,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2477,
+      "completion_tokens": 1641,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

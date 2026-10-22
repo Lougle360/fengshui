@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T15:49:47.841073+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "073dfded0eae01337cc8862c909a92cb417f80a72613843a4ac1800d79ee09d5",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000656-p000-87e53e71f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "方司出子水中者其谓之卽其掌含义不明",
+          "乐广具体所指不明"
+        ]
+      },
+      {
+        "id": "book026-b000660-p000-92b779036a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此陵門新甚明離狀論而文意易見”释读错误，候选将其拆分为“上一段论述形象应验的内容，条理很清晰。脱离性状来论述的话，文意容易理解”属于无依据拆分且语义偏差，“陵门”“离状论”均未做合理标注或保守释读",
+          "原文“龍身岸氣”是和“名章四詩”并列的内容，候选未明确说明其具体所指，且未标注不确定性"
+        ],
+        "uncertainty": [
+          "此陵門新甚明離狀論含义不明",
+          "龍身岸氣具体所指不明"
+        ]
+      },
+      {
+        "id": "book026-b000664-p000-32f90a5e86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 302,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1281,
+      "completion_tokens": 302,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

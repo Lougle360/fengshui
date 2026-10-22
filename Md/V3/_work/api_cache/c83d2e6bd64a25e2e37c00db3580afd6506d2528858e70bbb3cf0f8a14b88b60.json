@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-25T16:07:31.156719+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c83d2e6bd64a25e2e37c00db3580afd6506d2528858e70bbb3cf0f8a14b88b60",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000712-p000-bb65f1f7e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句“物象難有異同”被误译为“物象很难有完全相同的情况”，应为“物象很难有完全一致的异同判断标准”类表述；原文“貴通活濃之”中“濃之”未作释读，存在漏译；原文“舍塡房”重复出现，候选仅译一次，且“枝公出云田 来 兩斜 兼 山 见 此主 砂”属于原文OCR混乱内容，候选无依据释读为“枝状的公田、两斜兼山这类砂形出现，也会有对应的吉凶预兆”，属于无据增译"
+        ],
+        "uncertainty": [
+          "浓之他簾、舍填房 枝公出云田 来 兩斜 兼 山 见 此主 砂等原文字句混乱，具体所指无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000714-p000-299cd83965",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000715-p000-1d19a3af0b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文大量字句属于OCR错乱、语序混乱状态，候选无依据强行梳理文意，多处内容无原文支撑，例如“徐如之外的地势”“手形的砂山相互抱合”“同董说”“雨字石”“肩法说”等均为无据释读，将不确定内容写为确定事实；原文末尾“但出不”未正确释读，错误译为“只会有凶祸不会有吉兆”"
+        ],
+        "uncertainty": [
+          "原文整体语序错乱、大量字词含义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000716-p000-81ca748672",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000719-p000-c6d867e7c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“非瞽自則主傷胎”被漏译，候选仅保留“主伤胎”，丢失原文“非瞽即盲”的内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000720-p000-83f03861bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文属于OCR严重错乱内容，大量字词无法识别，候选无依据强行释读，例如“心属金”“赋庆箱出山、直袋林点、解主若日石这类内容，是说出现其中一种的话，主人家会出骄纵之人”“7、九是损伤之数”“青家应验有烟的话，家宅会有破损”等均为无据解读，将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "原文大量字句混乱、残缺，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000721-p000-f6a08b61cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000722-p000-530f11168f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“代有穿術”被误译为“代有穿穴之术”，“穿術”具体所指未明，无依据将其释为“穿穴之术”，属于增译"
+        ],
+        "uncertainty": [
+          "“穿術”具体含义未明"
+        ]
+      },
+      {
+        "id": "book026-b000723-p000-d189ecbe38",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文属于语序错乱内容，候选无依据将混乱字词释为“枫泪山”“眼槌山”“胸山”“胡胸山”“岁探山”等具体山名，属于无据释读，将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "原文大量山名相关表述语序混乱，具体所指无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000727-p000-3b5e1bcfa2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分字句残缺，“物 形 以 √ 吉善 啖主損傷F定至書”部分内容无法准确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3259,
+    "completion_tokens": 1178,
+    "cached_prompt_tokens": 2872,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3259,
+      "completion_tokens": 1250,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3259,
+      "completion_tokens": 1178,
+      "cached_prompt_tokens": 2872,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-10-18T07:02:53.370039+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0c4c1b0b9b40e5581394922407abe68f784fe7a9c7a88f061d90503cc2ad7608",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005787-p000-bd2db7f7d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "三七與二人",
+          "天地人中鬼卦直",
+          "壹中生氣五音雲",
+          "升玄雲隱梅單論"
+        ]
+      },
+      {
+        "id": "book035-b005788-p000-fbc03f5203",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "柱用裁"
+        ]
+      },
+      {
+        "id": "book035-b005791-p000-83cb30330b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘回坎山流水向東南’中的‘回’字，candidate 译为‘又說’，但‘回’在此处可能为‘又’的异体或误字，也可能指‘回旋’等，释读为‘又說’不够准确，应标注不确定性。",
+          "原文‘盡痕言之’中的‘盡痕’，candidate 译为‘盡痕’，未作任何处理，属于漏译或未处理的不透明术语，应标注不确定性。",
+          "原文‘之惠遠及於人’中的‘之惠遠及於人’，candidate 译为‘之惠遠及於人’，未作任何处理，属于漏译或未处理的不透明术语，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "山龍之脈捕隱公",
+          "凡患",
+          "一后禪師",
+          "十氏",
+          "如於山運有備",
+          "回",
+          "盡痕",
+          "洪節五行",
+          "傳閃",
+          "之惠遠及於人",
+          "譯塋"
+        ]
+      },
+      {
+        "id": "book035-b005794-p000-4f82068259",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘二士一’应为‘二十一秒’或类似抄写错误，candidate 保留‘二士一’未作处理，属于漏译或未处理的不透明术语，应标注不确定性。",
+          "原文‘今十抄’应为‘九十抄’或类似抄写错误，candidate 保留‘今十抄’未作处理，属于漏译或未处理的不透明术语，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "二士一",
+          "今十抄"
+        ]
+      },
+      {
+        "id": "book035-b005796-p000-3ac9b1f32e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘二十九妙七十五’中的‘妙’字，应为‘秒’的误写，candidate 保留‘妙’字未作处理，属于漏译或未处理的不透明术语，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "妙"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3400,
+    "completion_tokens": 665,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3400,
+      "completion_tokens": 665,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-24T01:30:49.086716+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "473d897021fe5b52e49bea3415cc4cfb4914f4ad618fe4f1112cb8f25e478870",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001333-p000-e35fa4ae56",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“不得宫姓则无害，商则为灾也”被译为“不能说宫姓就没有灾祸，商姓就会有灾难”，与原义相反，原义是“（土地的吉凶就像禽虎一样，）如果不对着宫姓的人就没有妨害，对着商姓的人就会成灾”。2. 原文“由缺二字而得卯未”被译为“就会因为缺漏而得到错误的结论”，无依据改写了原文残缺的干支表述，原文明确提到“卯未”，不能笼统译为错误结论。3. 原文“何异得兽不期则，不敢讯，举气缺足坐守无根也”译文表述不准确，原义是“和不指望捕获野兽就不敢行动、停下脚步坐守没有根据的情况有什么不同”，译文中“举气缺足”未准确对应且存在语义偏差。"
+        ],
+        "uncertainty": [
+          "原文存在“缺二字”“举气缺足”等残缺内容，具体字义无法完全确定。"
+        ]
+      },
+      {
+        "id": "book001-b001334-p000-4f912a0451",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001335-p000-e517f4f159",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001336-p000-a8b8bc9646",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“及其以柳姓为宫商”被译为“还有柳姓被归为宫”，漏译了“商”的表述，原义是柳姓被归入宫或商存在混乱，不是仅归为宫。2. 原文“苗裔自余，诸国准例皆然”被译为“其他各国的后代，按照惯例都是这样”，语序调整不当，原义是“（这些都是子姓的苗裔，）其余的各国，也都是按照这个规律（得姓）的”，译文对“苗裔自余”的断句和理解有误。3. 原文“又检春秋以陈卫，及秦并同水姓”被译为“又查阅《春秋》，陈、卫、秦都属于水姓”，补充了“都”的表述易造成误解，原文是“查阅《春秋》，把陈、卫和秦都一同归为水姓”，是当时的归类方式而非《春秋》明确记载的结论。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001337-p000-3d7aaa311b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为未完成的片段，结尾“不得”后内容缺失。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4612,
+    "completion_tokens": 700,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4612,
+      "completion_tokens": 700,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

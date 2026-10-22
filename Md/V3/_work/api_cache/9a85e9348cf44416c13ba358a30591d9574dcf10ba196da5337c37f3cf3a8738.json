@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T16:14:57.769275+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9a85e9348cf44416c13ba358a30591d9574dcf10ba196da5337c37f3cf3a8738",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001595-p000-ffd1230296",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中国的“计量”科学\n中国的数术\n朱子学是术数学吗"
+      },
+      {
+        "id": "book015-b001598-p000-72b67aafbb",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "大衍術",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001599-p000-bc98aa5a2d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秦九韶的易筮法",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001600-p000-20a75bef62",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "皇極経世学小史",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1492,
+      "completion_tokens": 170,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1400,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

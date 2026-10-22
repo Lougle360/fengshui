@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-04T03:10:53.584150+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "83a528eb0f8f01ef804a320f41696ca81ab757f2c7db3866185caa51115216d4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000367-p000-f519be478f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'才風是而青永無發' 中的 '青' 字未译出。",
+          "反义或误译：'月 VK地雖吉而葬多凶終無一發' 中的 '月 VK地' 被译为 '月窟之地'，原文为乱码 '月 VK地'，候选句将其解释为确定的地名，属于无依据扩写。",
+          "专业术语误换：'龙脉虽胜但吉' 原文为 '龍勝雖吉'，'胜' 与 '吉' 并列，候选句 '龙脉虽胜但吉' 语义不通，应为 '龙脉虽胜且吉' 或类似结构。",
+          "数字/干支/卦象/方位变化：无。",
+          "日文误译：无。",
+          "把推测写成事实：将乱码 '月 VK地' 解释为 '月窟之地'，属于将不确定解释写成确定事实。",
+          "古文/日文没有真正转换成现代中文：'永年凈物' 被译为 '山气主永年，其净物带来的祸福应验较慢'，'净物' 含义不明，候选句将其作为确定概念使用，未标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文 '成有嫩燉蟠斗蚊憶粒拘擬燧收排緹黯碎仙脉驅砥編炊經得吉也' 为严重乱码，候选句已标注。",
+          "'永年凈物' 含义不明。",
+          "'才風是而青永無發' 中的 '青' 字含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b000368-p000-198fd64d80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000369-p000-43230ec19d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文 '訓韻鏘蹤' 语义不明，候选句已标注。"
+        ]
+      },
+      {
+        "id": "book035-b000370-p000-66a94fafee",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文 '水后退自穴而身龍量由自' 语意不全，候选句已标注。"
+        ]
+      },
+      {
+        "id": "book035-b000371-p000-a70242767f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'十七' 未译出。候选句译为 '第十七条标题'，但原文是 '十七'，可能指第十七页或第十七条，但作为标题，应保留数字。",
+          "古文/日文没有真正转换成现代中文：标题 '地理天機會元卷一雪心賦 十七' 被意译为 '这是《地理天机会元》卷一中《雪心赋》部分的第十七条标题'，虽然通俗，但改变了原文的呈现形式（标题变成了陈述句）。对于 kind=heading，应更贴近原文结构，如 '《地理天机会元》卷一《雪心赋》十七'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000373-p000-04a79575d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000374-p000-ab190ad760",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'量氏曰劫害者言堂局中有凶山凶水其說有數端一者雲 門不河山高水謝' 中的 '雲 門不河山高水謝'，候选句译为 '云门不河，山高水泻'，但原文 '雲' 与 '門' 之间有空格，可能为 '雲門不河' 或 '雲、門不河'，候选句将其合并为一个固定词组 '云门不河'，属于无依据的确定化处理。应保留原文的模糊性。",
+          "专业术语误换：'四坤者甲庚丙壬乙辛丁癸乾坤艮巽'，候选句译为 '四冲指的是甲庚丙壬、乙辛丁癸，涉及乾坤艮巽'。原文 '四坤' 可能为 '四冲' 之误，但候选句直接改为 '四冲' 并解释，未标注原文用词。应指出原文为 '四坤' 并说明可能指 '四冲'。",
+          "把推测写成事实：将 '四坤' 直接解释为 '四冲'，未标注不确定性。"
+        ],
+        "uncertainty": [
+          "'雲 門不河山高水謝' 具体所指不详。",
+          "'四坤' 可能为 '四冲' 之误。"
+        ]
+      },
+      {
+        "id": "book035-b000375-p000-4cc22a84cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000376-p000-c7b4cf3838",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000377-p000-6e5abc4881",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3138,
+    "completion_tokens": 1366,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3138,
+      "completion_tokens": 1366,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

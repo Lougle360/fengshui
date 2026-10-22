@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T08:32:35.957875+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dd55f44ef6f9b031b00c3309daf1153b2541a90688b48bddbbaff4819f5fa960",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000215-p000-ff8b2fa34b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book008-b000216-p000-ec046463af",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在多处语义不通、逻辑混乱的内容，如‘左劝而长与市翻而匆吉’‘木法如此’‘不必屑屠于此’等，属于对原文的错误解读或无效释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000217-p000-b83fa81268",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处残缺、字迹模糊，候选释读内容多为无法准确对应原文的无效字符，无法形成通顺合理的释读"
+        ],
+        "uncertainty": [
+          "原文多处字迹模糊、残缺，部分内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book008-b000218-p000-7b2acd1acb",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处字迹模糊、残缺，表格内部分内容无法准确对应，候选释读存在多处语义不通、逻辑混乱的内容"
+        ],
+        "uncertainty": [
+          "原文多处字迹模糊、残缺，部分内容无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4936,
+    "completion_tokens": 366,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4936,
+      "completion_tokens": 366,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

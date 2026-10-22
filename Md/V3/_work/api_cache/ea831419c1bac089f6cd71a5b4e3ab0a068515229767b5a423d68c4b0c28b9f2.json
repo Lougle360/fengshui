@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-09-23T08:24:26.765328+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ea831419c1bac089f6cd71a5b4e3ab0a068515229767b5a423d68c4b0c28b9f2",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000074-p000-26a55c085b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘戍上出’，candidate译为‘水从戌方流出’。此处‘戍’与‘戌’字形相近，但原文为‘戍’，candidate改为‘戌’，属于方位变化，应保留原文用字‘戍’或明确指出原文为‘戍’字。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000076-p000-ba7b0b4db5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘水得相見之義若辰與丑上出水是見庚壬水口而非其偶謂之陽差陽差則傷男丙寅龍用乙氣來合乃爲陰陽正配而戍上出水爲陰陽相見之義若辰與丑上出水是見丁壬水口而失其類爲之陰錯陰錯則傷妻’。candidate将‘水得相見之義’译为‘关于水得相见的义理’，并作为独立句，但原文此句与后文‘若辰與丑上出水…’是连贯的，candidate的断句和补充‘另一例是’改变了原文的衔接方式，属于增译。",
+          "原文‘戍上出水’，candidate译为‘水从戌方流出’，再次将‘戍’改为‘戌’，属于方位变化。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000077-p000-9f44cb3432",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "丁癸辛未木日",
+          "乙不玉及经下卷之一"
+        ]
+      },
+      {
+        "id": "book003-b000078-p000-a2d5a8d934",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘逢內而逢甲庚壬水口出路者是妻遇夫于路’，candidate译为‘遇到‘逢内’且逢甲庚壬水口出路，这是妻遇夫于路’。此处‘逢內’可能为‘逢丙’之误，但candidate将其作为opaque_term处理并标注‘具体所指不详’，符合规则。然而，原文‘逢內’与‘逢甲庚壬’是并列关系，candidate译为‘且逢’，处理得当。但‘逢內’本身是否为专名存疑，此处标注可以接受。",
+          "原文‘木是去竇相通’，candidate译为‘木是去窦相通’并标注‘具体含义不详’。此处‘木’字可能为‘本’字之误，但candidate未做推测，直接保留并标注，符合规则。",
+          "原文‘千向上消息’，candidate译为‘千向上消息’并标注‘具体含义不详’。此处‘千’字可能为‘于’或‘干’字之误，但candidate未做推测，直接保留并标注，符合规则。",
+          "原文‘玄戶不通’，candidate译为‘玄户不通’，未加引号也未标注，但‘玄户’非allowed_glossary中的术语，应作为opaque_term处理，需加引号或标注。",
+          "原文‘崔鳴在陰’，candidate译为‘崔鸣在阴’，未加引号也未标注，但‘崔鸣’非allowed_glossary中的术语，应作为opaque_term处理，需加引号或标注。"
+        ],
+        "uncertainty": [
+          "逢内",
+          "木是去窦相通",
+          "千向上消息",
+          "玄户",
+          "崔鸣"
+        ]
+      },
+      {
+        "id": "book003-b000080-p000-c8003a7b36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "五玉人经下卷之"
+        ]
+      },
+      {
+        "id": "book003-b000082-p000-314807c968",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘右倒至成字上出水’，candidate译为‘右倒至成字上出水’。此处‘成’字可能为‘戌’字之误，但candidate未做推测，直接保留‘成’字，符合规则。但需注意，后文有‘戍’字，candidate也译为‘戍’，前后用字不统一（成/戍），但这是原文问题，candidate如实反映可以接受。然而，candidate在‘戍上出’处未加引号或标注，直接使用，考虑到‘戍’是地支，可以接受。",
+          "原文‘立巳過高滅視人物’，candidate译为‘立巳过高’并标注‘具体所指不详’。此处‘立巳’可能为‘立嗣’或方位‘巳’之误，但candidate未做推测，直接保留并标注，符合规则。",
+          "原文‘不一天機決二水交不及顏圓三十二云殂亦出玉壽也’，candidate译为‘不一天机决二水交不及颜圆三十二云殂亦出玉寿也’并标注‘此处文字可能有误，‘颜圆三十二’具体所指不详’。处理符合规则。"
+        ],
+        "uncertainty": [
+          "立巳过高",
+          "不一天机决二水交不及颜圆三十二云殂亦出玉寿也"
+        ]
+      },
+      {
+        "id": "book003-b000084-p000-6476aefbd6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "勇女一天地也"
+        ]
+      },
+      {
+        "id": "book003-b000089-p000-0b08d9fb42",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘陰從右旋自子亥戍而進’，candidate译为‘阴从右旋，自‘子亥戍’而进’并标注‘子亥戍的序列具体所指不详’。处理符合规则。但‘戍’字应保留原文用字。",
+          "原文‘詔天經下 春之 十’，candidate译为‘诏天经下春之十’并标注‘具体所指不详’。处理符合规则。"
+        ],
+        "uncertainty": [
+          "子亥戍",
+          "诏天经下春之十"
+        ]
+      },
+      {
+        "id": "book003-b000092-p000-867b752a39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "生千旺",
+          "生肝互用"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3607,
+    "completion_tokens": 1440,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3607,
+      "completion_tokens": 1440,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-10-17T23:21:23.061047+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6fa6d4aa25a8a54a7beac291c3c9442bfd4dc1f8dbaa58f7ae49c5a561c7490c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004928-p000-1619c5eec9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘乞’字可能泛指贫穷或乞讨的命运，此处译为‘沦为乞丐’是合理的推测。",
+          "‘跎’字疑为‘驼’的异体或讹写，指驼背，此推测合理。"
+        ]
+      },
+      {
+        "id": "book035-b004929-p000-07a16446a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：source 中‘惟有 形如覆磬得人憎’的‘惟有’后虽有空格，但 candidate 译为‘只有形如倒扣磬石的那种，才令人憎恶’，将‘惟有’与‘形如覆磬’断开，并增译了‘才’，改变了原文的并列或承接关系。原文‘惟有’可能指‘只有（这种星）’，但 candidate 的处理方式不够忠实。",
+          "术语误换：source 中‘只可作羅星’，candidate 译为‘只可当作‘罗星’’。‘罗星’是风水术语，但 candidate 未加引号，也未在 allowed_glossary 中定义，应作为 opaque_term 处理，需加引号引用。"
+        ]
+      },
+      {
+        "id": "book035-b004930-p000-83a76fcc47",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘有一體夫燥火者戈矛之象也’中的‘有一體夫’未译出。‘有一體夫’是‘有一种体式，那燥火……’或类似表述，表示对‘燥火’形态的进一步描述，候选句直接译为‘有一种‘燥火’星’，丢失了‘体夫’（体式）这一结构。",
+          "反义/误译：原文‘當路死沒人扛’意为‘（若穴）当路，会导致死人无人扛抬（收尸）’。候选句译为‘若‘穴’正对着路’，‘正对着’与‘当路’（位于/正对道路）含义基本一致，但‘会导致死人无人收尸’的表述将原文的凶兆描述得过于绝对和具体化，原文是风水凶兆的概括性描述，候选句处理为事实陈述，虽未严重偏离，但语气上可优化为‘主……’或‘会导致……’的凶兆描述。此处更关键的是‘当路’的‘当’字译法需统一。但主要问题是漏译。",
+          "专业术语处理不当：原文‘初敗中子次及長小’，候选句译为‘初败中房之子，次及长房和幼房’。将‘中子’解释为‘中房之子’，‘长小’解释为‘长房和幼房’，这是基于风水术数常识的合理推测和具体化，属于允许的浅显释义，不算增译。但‘中子’在原文中可能直接指排行中间的儿子，‘长小’指长子和幼子，候选句的译法将其房份化，虽可接受，但应在uncertainty中注明。候选句已标注，此处接受。",
+          "不确定表述处理：候选句对‘紫气攏燥’标注‘具体所指不详’，符合要求。"
+        ],
+        "uncertainty": [
+          "‘有一體夫’的具体语法和所指待考，可能为‘有一种体式’或发语词。",
+          "‘中子’、‘长小’的精确所指（是儿子排行还是房份）原文未明确，候选句的‘中房之子’、‘长房和幼房’为基于常识的解读。"
+        ]
+      },
+      {
+        "id": "book035-b004931-p000-e028cfe864",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：source 中‘關 第二燥火爲開口好處君知否’，candidate 译为‘关于第二‘燥火’星，名为‘开口’，好处在于此。’。原文‘關’字可能为标题或段落起始标记，candidate 译为‘关于’是推测，且未保留原字。根据规则，此类含混短语应原样引用或明确标注，不应赋予确定含义。",
+          "增译/推测：source 中‘氣自宜細辨別’，candidate 译为‘气脉自宜细细辨别’。原文‘氣’可能指气脉，但 candidate 增译了‘脉’字，属于无依据扩写。",
+          "术语误换：source 中‘水城散漫’，candidate 译为‘水城散漫’。‘水城’是风水术语，但 candidate 未加引号，也未在 allowed_glossary 中定义，应作为 opaque_term 处理，需加引号引用。"
+        ]
+      },
+      {
+        "id": "book035-b004937-p000-70cc14bb28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：source 中‘慧乳 第三燥火是懸乳此穴穿金水’，candidate 译为‘慧乳第三‘燥火’星是悬‘乳’，此‘穴’穿金‘水’’。原文‘慧乳’含义不明，candidate 未加引号引用，也未标注不确定性，直接作为标题的一部分，属于将不确定解释写成确定事实。",
+          "术语误换：source 中‘水城散漫’，candidate 译为‘水城散漫’。‘水城’是风水术语，但 candidate 未加引号，也未在 allowed_glossary 中定义，应作为 opaque_term 处理，需加引号引用。",
+          "增译/推测：source 中‘心性皙實’，candidate 译为‘心性皙实’。‘皙’字含义不明，candidate 未加引号引用，也未标注不确定性，直接译为‘皙实’，属于将不确定解释写成确定事实。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 547,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3615,
+      "completion_tokens": 1127,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1040,
+      "completion_tokens": 547,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

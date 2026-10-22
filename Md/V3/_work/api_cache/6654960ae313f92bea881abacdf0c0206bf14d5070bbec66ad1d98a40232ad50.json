@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-10-04T06:03:29.798961+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6654960ae313f92bea881abacdf0c0206bf14d5070bbec66ad1d98a40232ad50",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001474-p000-ec453f1327",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001475-p000-9b05a85159",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘尸白虎’误译为‘尸白虎’，应为‘右白虎’或‘白虎方’之误。原文‘尸’字疑为‘右’或‘白’的形讹或OCR错误。",
+          "将‘曰曜星現笏砂斜出貴當出外甥家’译为‘曰曜星现笏砂斜出，贵当出外甥家’，将‘曰’（说）误译为‘曰’（星名），导致语义不通。‘曰’在此处应为‘说’的意思。",
+          "将‘主人叹曰奈何翁曰休嗟休嗟还是自家后果’译为‘主人叹曰奈何？翁曰休嗟休嗟，还是自家后果。’，断句和释义有误。‘后果’应属下句，指‘后来果然’。原文应为‘还是自家。后果生女...’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001476-p000-4afcb6be38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001477-p000-d6032db75d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001478-p000-be6c6c0a3f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘地理人子多矢差五’语义不明，疑似有缺漏或讹误。candidate 仅作直译，未能提供任何解释或说明，不符合‘普通读者能读懂’的目标。"
+        ],
+        "uncertainty": [
+          "原文残缺或语义不明，无法确定具体所指"
+        ]
+      },
+      {
+        "id": "book033-b001479-p000-242dc37ac0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001480-p000-c00adef84f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文严重错乱，存在大量无法辨识的字符和断裂句读。candidate 仅将混乱字符串联，未做任何处理或说明，完全无法阅读，不符合‘普通读者能读懂’的目标。"
+        ],
+        "uncertainty": [
+          "原文严重错乱，存在大量无法辨识的字符和断裂句读，无法进行准确翻译，仅能保留原貌并说明情况"
+        ]
+      },
+      {
+        "id": "book033-b001481-p000-888f257f12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5451,
+    "completion_tokens": 670,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5451,
+      "completion_tokens": 670,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

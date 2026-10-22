@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T11:19:02.833392+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "28174292a0c37af9e2bcb96e9be3ea1960ce6970229ec6969ef47dfb2e79dc90",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000019-p000-b5916bfddf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "回句申木",
+          "桑穴",
+          "司"
+        ]
+      },
+      {
+        "id": "book013-b000021-p000-3ca2e7aded",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中疑似讹误的「裴」直接释为「正位」相关内容，属于无依据扩写；将「句言」直接释为「所说的」，未保留原术语的不确定性标注；「敗寅神路」未标注具体所指不详的风险"
+        ],
+        "uncertainty": [
+          "敗寅神路",
+          "句言",
+          "裴"
+        ]
+      },
+      {
+        "id": "book013-b000022-p000-03000c7a12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "宋神"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2036,
+    "completion_tokens": 227,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2036,
+      "completion_tokens": 227,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-23T16:59:48.877248+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "02e07ad607d489d23e8999d84898ad4ae58c625b71ec41cb584641bef81a89c0",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000775-p000-1a60ca76ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“卯未一水”是指两股水还是合为一股水，原文未明"
+        ]
+      },
+      {
+        "id": "book002-b000778-p000-4ba6bd44f9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“辰向长台寅二水朝来第一发续”中的“续”字，candidate译为“第一发福”，将推测（“续”可能为“福”之误）写成了事实。应标注为原文“第一发续”含义不详。",
+          "原文“寅水长坐旺丁财”中的“长坐”，candidate译为“文中提到‘寅水长坐旺’，但‘长坐’具体含义不详”，此处理正确，但“可能指丁财两旺”属于无依据的推测，应删除。"
+        ],
+        "uncertainty": [
+          "“续向线弦侧室之子”具体所指不详",
+          "“寅水长坐”中“长坐”的具体含义不详",
+          "“第一发续”中的“续”字含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000780-p000-3df3914509",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“库守由庄最乐怀出人尽是由会第者想衣冠何处来”具体含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000785-p000-4aeb441786",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“与向见乙丙二水为黄泉”解释为“可能为‘巽向’之误”，并将此推测作为事实进行后续翻译（“若为巽向，则见乙、丙二水为黄泉”）。根据规则，对于不确定的原文，应保留原短语并说明其含义不详，而非给出一个推测性的确定解释。",
+          "candidate将“左良水须发福”解释为“可能为‘左艮水’之误”，同样将推测写成了事实。应标注为原文“左良水”含义不详。"
+        ],
+        "uncertainty": [
+          "“与向”具体所指不详",
+          "“左良水”具体含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000789-p000-631feaa64e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“七家”具体含义不详",
+          "“七辰水”具体含义不详",
+          "“而同禄”具体含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000791-p000-519a756893",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“辛向见乾水为黄张”解释为“可能为‘黄泉’之误”，并将此推测作为事实进行后续翻译。应标注为原文“黄张”含义不详。",
+          "candidate将“王见乾乾见壬”中的“王”解释为“应为‘壬’之误”，并将此推测作为事实进行后续翻译。应标注为原文“王”字含义不详或可能为误字。",
+          "candidate将“良向乙水”中的“良向”解释为“应为‘艮向’之误”，并将此推测作为事实进行后续翻译。应标注为原文“良向”含义不详。",
+          "candidate将“查九星断语使明”中的“使明”解释为“可能为‘便明’之误”，并将此推测作为事实进行后续翻译。应标注为原文“使明”含义不详。",
+          "对于“右癸水乡发福”，candidate仅标注“含义不明”，处理正确。"
+        ],
+        "uncertainty": [
+          "“黄张”具体含义不详",
+          "“王”字具体所指不详",
+          "“良向”具体所指不详",
+          "“右癸水乡”具体含义不详",
+          "“使明”具体含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000798-p000-9012c11d02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“二房子”具体含义不详",
+          "“阳同巳口员墩起”具体含义不详"
+        ]
+      },
+      {
+        "id": "book002-b000799-p000-1ae4e2f0e9",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在严重乱码或OCR错误，如“1乙卯八煞”、“三勇乙”、“乙卯八！！三”等，无法进行有意义的释读。candidate的处理符合规则。"
+        ],
+        "uncertainty": [
+          "原文存在严重乱码或OCR错误，无法释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3421,
+    "completion_tokens": 1208,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3421,
+      "completion_tokens": 1208,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

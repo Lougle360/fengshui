@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T21:45:15.143209+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "78f3a6f50f10897e21c8843965a82a584f118564664c3d41eb30aa56aa7082ad",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b001073-p000-5b1271975e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b001074-p000-a3c93fc227",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在缺字、錯亂，部分內容難以完全確定"
+        ]
+      },
+      {
+        "id": "book030-b001075-p000-b36cfd4be2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“頓丁朴百風氣氣中宮”“庚賊在井玉 鄂穴六十九”表述较为晦涩，含义难以完全确定"
+        ]
+      },
+      {
+        "id": "book030-b001076-p000-76206b4673",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“上下原田亡法”“吐上皆在齊頭中盡”“咈緊處”“砂巾”表述晦涩，含义难以完全确定"
+        ]
+      },
+      {
+        "id": "book030-b001078-p000-be3642aa46",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“非仙人手艮不能扦”中的“艮”被误释为出手，此处“艮”属于locked_terms，不得随意解读；原文“豳士何如適子之間”释为“一般的地师怎么能明白？刚才的提问者”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文中“豳士何如適子之間”“手艮”“砂亦憂節高低”“抑明初地仙方亦明”表述晦涩，含义难以完全确定"
+        ]
+      },
+      {
+        "id": "book030-b001079-p000-ed9554edb3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“一繞 形陸坟”“火土互相氣氣”“造出中之氣樓上誦非凡夫俗于可一吻者”“武可地里故人卷”表述晦涩，含义难以完全确定"
+        ]
+      },
+      {
+        "id": "book030-b001080-p000-bed5ea44f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b001086-p000-2670559dc3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“語金魚則曰兩股”被释为“说到金鱼水，则是指两股水脉”属于无依据增译，原文未提及“水脉”含义；原文“《仙婆集》謂唯高山有徽試可”被释为“《仙婆集》说只有高山才有徽试”，后文“地理救人卷四鼎穴七十二”的归属错误，“可”字不应断入前句"
+        ],
+        "uncertainty": [
+          "原文中“彝者原其起乘其止”“水滴處曰澹語蝦鬚”“徽試”表述晦涩，含义难以完全确定"
+        ]
+      },
+      {
+        "id": "book030-b001087-p000-9ad9171eda",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文“之者是鈎元論指乳穴而言者非乳穴師高山意語懈眼則曰一漓”被释为“有说法认为《鈎元论》里提到的是乳穴，这类说法不对；还有擅长寻找高山乳穴的人提到‘懈眼’的时候，称相关的说法不够准确”属于完全无依据的解读，原文断句和含义均不明确，不应臆断；原文“以國其餘云”被释为“用来校正其余相关的说法”属于无依据增译"
+        ],
+        "uncertainty": [
+          "文中的‘懈眼’‘漓’‘开口穴’‘周口’‘金鱼’‘懈眼’‘虾鬚’‘蠏眼’‘乡眼’‘雨圖大陽’‘以國其餘’等表述的具体含义，以及《鈎元论》《仙婆集》的具体内容暂时无法准确考证"
+        ]
+      },
+      {
+        "id": "book030-b001088-p000-c31d9f158d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选未将古文转换为现代中文，属于直接照搬原文，不符合“普通读者能读懂的白话释读”要求；原文“塟彬雖高發甚遲”存在错字未标注，“臺髮”应为“毫发”未作说明，“六終”的含义未明确标注"
+        ],
+        "uncertainty": [
+          "原文存在缺字、錯亂，“塟彬”“臺髮”“六終”等部分內容難以完全確定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5677,
+    "completion_tokens": 1228,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5677,
+      "completion_tokens": 1228,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

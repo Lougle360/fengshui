@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T18:07:34.328172+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2e762e479aacc0c1fc302d7b52c45e2305eecd20f10726934a1cc138dcb15a5c",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000980-p000-0534acdab1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“鈎金一比金星出一比正體面壁削比類 木而員俱難下尋出比根盤小泡扦之”断句有误，候选错误拆分原文表述为“钩金一比，金星出一比正体”，且漏译了原句中连续的几个“比”的相关表述，语义与原文不符；原文“穴法倚中撞葬法啣珠坐”被错误断为“穴法采用倚中撞葬法，为啣珠坐的形式”，实际原文是穴法为倚中撞，葬法为啣珠坐，二者是并列的不同内容，候选混淆了穴法和葬法的对应关系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000990-p000-fe0a5e3ee3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴法倚中蓋塟法蠏眼坐”被错误断为“穴法采用倚中盖葬法，为蟹眼坐的形式”，实际原文是穴法为倚中盖，葬法为蟹眼坐，二者是并列的不同内容，候选混淆了穴法和葬法的对应关系；原文“天財”是风水术语，候选直接译为“天财星格局”缺乏allowed_glossary依据，属于无依据增释"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 927,
+    "completion_tokens": 369,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 927,
+      "completion_tokens": 369,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

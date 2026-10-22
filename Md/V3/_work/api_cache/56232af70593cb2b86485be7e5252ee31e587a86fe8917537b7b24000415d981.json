@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-10-16T13:36:08.141679+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "56232af70593cb2b86485be7e5252ee31e587a86fe8917537b7b24000415d981",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002434-p000-8ec0740e0a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“窮陽離脈太脫應知不根蟲蟻爛棺羽陰餘氣雄收最忌湊球檐開幷”句意含混，candidate将其拆解为“阳气穷尽而脱离脉气……会导致虫蚁蛀烂棺木。阴气有余而阳气收敛，最忌讳的是凑合球檐、开启并排。”，这属于将不确定的解释写成了确定事实，且“羽阴”一词被忽略或误译。“湊球檐開幷”是opaque_terms，应原样引用并说明其含义不详，而非赋予“凑合球檐、开启并排”的具体解释。",
+          "“脉象”一词在中医中常见，但用于风水“脉”的释读可能造成概念混淆，此处用“脉气”或直接保留“脉”更妥。但此问题相对次要。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002436-p000-d67a1faa33",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002437-p000-79cc3db823",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002438-p000-280b5fd975",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002439-p000-7cec44d6ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002440-p000-8b44deb307",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002441-p000-05547874ff",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“敦索”具体所指不详，candidate已保留原词并说明。"
+        ]
+      },
+      {
+        "id": "book035-b002442-p000-a44bb33eda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002443-p000-a76cbd2a64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002444-p000-e15e067354",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 563,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1607,
+      "completion_tokens": 563,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

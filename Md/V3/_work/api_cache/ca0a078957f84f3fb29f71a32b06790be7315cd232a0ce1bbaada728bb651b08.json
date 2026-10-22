@@ -1,0 +1,102 @@
+{
+  "created_at": "2026-10-04T05:51:41.246239+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ca0a078957f84f3fb29f71a32b06790be7315cd232a0ce1bbaada728bb651b08",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000559-p000-1c0458f096",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'君好都都周流無滯而好水山靜故仁者重厚不遷而好山此周'中，candidate将'君好都都'释为'君子喜爱它'，漏译了'都都'，且未按writer_uncertainty提示说明'都都'含义不详。candidate将'此周'解释为'可能与上句水的周流相对应'，属于对不确定内容的推测性解释，应改为明确标注'此周'含义不详。candidate将'是以取'释为'所以选取吉地'，增译了'吉地'，原文仅'取'。"
+        ],
+        "uncertainty": [
+          "'都都'的具体含义不详",
+          "'此周'的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000562-p000-f423ae0107",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'吉扦'的具体所指不详，可能指吉利的迁葬或点穴"
+        ]
+      },
+      {
+        "id": "book035-b000564-p000-15ce2790e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'吾聞東山趙先生作葬書問答有問 曰今之名鄉大家其先世問地多驗 不取但如是而已也'释为'有人问：当今的名门望族，他们的先世询问风水大多灵验，但并非仅仅如此而已'，其中'不取但如是而已也'的释读'但并非仅仅如此而已'不准确，原文'不取'可能为'不'或'否'，意为'不取'或'不是'，整句含义模糊。candidate将'遇與子孫之昌固己符默契盡天界之也'释为'遇到子孙昌盛，固然已经符合默契，尽是天界的安排'，其中'遇與'释为'遇到'不准确，'與'可能为'于'或'与'，含义不明。candidate将'牢籠刻前'、'百山盱之'、'天翟之'等直接列为片段，未在释读句中明确标注这些是不明短语，处理方式不一致。"
+        ],
+        "uncertainty": [
+          "'不取但如是而已也'的具体含义不详",
+          "'遇與'的具体含义不详",
+          "'牢笼刻前'的具体含义不详",
+          "'百山盱之'的具体含义不详",
+          "'天翟之'的具体含义不详",
+          "'双双山尖射之前切疑其典此章上势相属尽恐传垄之故不解'的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b000566-p000-53f06fbed8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'勿喪善以欺天 m TT 喪其善心而罔欺乎天哉'释为'不要丧失善心而欺骗上天。原文中‘m TT’疑似讹误，根据上下文可能为否定词，整句意为丧失其善心而妄图欺骗上天，这是不可能的'。问题在于：1. candidate将'm TT'推测为'否定词'并据此解释整句，属于对不确定内容的推测性解释，应仅标注其疑似讹误。2. candidate增译了'这是不可能的'，原文无此意。"
+        ],
+        "uncertainty": [
+          "'m TT'疑似讹误，具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b000567-p000-180bd848ea",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文从'古人 不善有餘'开始至结尾，存在大量无法识别的乱码和断裂词汇，candidate虽列出部分片段并标注不详，但整体上原文损坏严重，已无法进行有意义的保守释读，符合uncertain判定边界。"
+        ],
+        "uncertainty": [
+          "'铁期期山周川定'的具体含义不详",
+          "'霸压祈胜'的具体含义不详",
+          "'心鬼致神之'的具体含义不详",
+          "'十度风积水则会特发'的具体含义不详",
+          "原文后半部分存在严重损坏，无法释读"
+        ]
+      },
+      {
+        "id": "book035-b000568-p000-2e5232a596",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文'發明古訣以雪吾心 極至欲就淇功吁猶从可嘯至埃豬可杯姻其心以求其皆乎'中，后半部分包含大量无法识别的字符，candidate虽列出部分片段，但整体上原文损坏严重，已无法进行有意义的保守释读，符合uncertain判定边界。"
+        ],
+        "uncertainty": [
+          "'淇功'的具体含义不详",
+          "'埃猪'的具体含义不详",
+          "'杯姻'的具体含义不详",
+          "原文后半部分存在严重损坏，无法释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2261,
+    "completion_tokens": 1067,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2261,
+      "completion_tokens": 1067,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

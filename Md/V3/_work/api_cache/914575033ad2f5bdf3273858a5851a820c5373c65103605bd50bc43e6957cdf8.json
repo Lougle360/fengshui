@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-24T07:23:59.465073+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "914575033ad2f5bdf3273858a5851a820c5373c65103605bd50bc43e6957cdf8",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000063-p000-7936293f12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘宽而平者方为酉也’的‘酉’属于未识别的模糊文字，候选直接判定为‘酉地’缺乏依据，属于对不确定内容做了确定解释；原文‘半紫无金鱼砂属2’‘E集醒片运司’‘光系1设图’‘急秦线’‘小煙’‘理关开’等OCR残缺或含混内容，候选未做模糊标注，直接按字面释读，不符合含混内容的处理要求；原文‘界水不透头割助’被释为‘界水不会影响透头割助的情况’，属于含义偏离，原文未提及‘影响’相关表述；原文‘若见無有明赤何所擁百之爲上載載以見頂也’被释为‘如果没有明显的红色痕迹，怎么能确定上截的位置，来对应顶部的特征’，属于无依据增译，‘明赤’‘擁百’为OCR模糊内容，不能直接释为‘红色痕迹’‘确定’"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别残缺、语序混乱的内容，部分语句含义无法准确判定，如‘酉’‘光系1设图’‘E集醒片运司’‘急秦线’‘明赤’‘擁百’等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book009-b000066-p000-dc0cadbf08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文部分语句表述晦涩，‘分入字是開陽顯而施巾直’‘東陰吐氣’‘前徵起1’‘陽日上地日際而下者虛也’等表述具体含义难以完全明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3399,
+    "completion_tokens": 456,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3399,
+      "completion_tokens": 545,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3399,
+      "completion_tokens": 456,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

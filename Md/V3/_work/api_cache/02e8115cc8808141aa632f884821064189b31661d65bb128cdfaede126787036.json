@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-24T06:50:09.690228+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "02e8115cc8808141aa632f884821064189b31661d65bb128cdfaede126787036",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001427-p000-511db10a18",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“已酉”被误译为“酉时”，“已酉”为干支，应为年份或日期，不是时辰；原文“空居无为犹被其害”的主体是居于午宅的人，候选未明确易产生歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001428-p000-48f757e0c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001429-p000-30428de4ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“元女”具体所指不详"
+        ]
+      },
+      {
+        "id": "book001-b001430-p000-fa9a60a7c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“病不安嬖，幸乳母野王君主圣舍”断句错误，正确断句为“病不安，嬖幸乳母野王君王圣舍”，候选译为“身体不适，乳母野王君主圣的居所被太子临幸”属于断句误读，“嬖幸”的主语是安帝，不是太子，“野王君主圣”应为“野王君王圣”，王圣是人名，候选对人物和事件关系翻译错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001431-p000-f458b30e31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001432-p000-85d02680de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“莹穴”为“茔穴”（墓地墓穴）的形近字，候选沿用“莹穴”属于书写错误；原文“邀求不信之福”翻译为“祈求不可信的福运”不准确，应为“祈求虚无缥缈的福运”；原文“佇廊”未明确注释，普通读者不易理解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001433-p000-20da8f2108",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“已穿二坎丈余”翻译为“挖了两丈多深的两个坎”不准确，应为“已经挖了两个一丈多深的坎”；原文“惊曰”的主语是泓师，不是张说，候选主语翻译错误；allowed_glossary中“坎”为八卦之一，此处“坎”是土坑的意思，不应适用该术语解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001434-p000-352ba93a16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“坎”为八卦之一，此处“坎陷”是凹陷的意思，不应适用该术语解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001435-p000-9b56414415",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“沙护”翻译为“砂山护卫”正确，但原文写为“沙”，候选未统一表述；原文“当不违天甚，毋徇地理”翻译为“应当不要违背天道，不要拘泥于地理”不准确，应为“应当不要过分违背天道，不要盲从地理说法”；原文“近泥天星卦例方向”的“向”是方位，符合allowed_glossary，无问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001436-p000-e5499f7dbf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“沈冈”“浮冈”“飞冈”具体地形标准原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5243,
+    "completion_tokens": 1040,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5243,
+      "completion_tokens": 1040,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

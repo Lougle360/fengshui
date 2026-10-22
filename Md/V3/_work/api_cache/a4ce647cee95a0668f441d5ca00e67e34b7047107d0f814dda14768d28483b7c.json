@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T18:15:56.665537+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a4ce647cee95a0668f441d5ca00e67e34b7047107d0f814dda14768d28483b7c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001795-p000-5a3b08f4f9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘有所专向’的‘向’，allowed_glossary定义为建筑或穴位所朝的方位，此处释读未按该术语定义处理，存在专业术语误换问题"
+        ],
+        "uncertainty": [
+          "无"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 867,
+    "completion_tokens": 98,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 867,
+      "completion_tokens": 98,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

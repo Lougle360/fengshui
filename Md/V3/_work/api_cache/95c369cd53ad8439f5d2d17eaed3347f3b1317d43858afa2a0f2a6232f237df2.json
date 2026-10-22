@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T10:59:20.668974+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "95c369cd53ad8439f5d2d17eaed3347f3b1317d43858afa2a0f2a6232f237df2",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000074-p000-6bc33cbba3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book011-b000075-p000-a367cd372d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“八手龙神”释为“八手龙神”未明确其含义，属于未依据allowed_glossary的不确定释读；“梦出得杀文”的释读“否则会出得杀文”不符合原文语义，存在误译；“载定”的释读“判定”无依据，属于无依据扩写；“冲弦旺方”的释读“冲了旺方”漏译“弦”字，存在漏译；“沐浩”的释读“沐位”无依据，属于误换专业术语；“库方宜去来”的释读“库方适宜水去来”不符合原文语义，存在误译"
+        ],
+        "uncertainty": [
+          "“八手龙神”具体所指不详；“梦出得杀文”原文语义不明；“载定”原文未明；“冲弦旺方”的“弦”字含义未明；“沐浩”的含义未明；“库方宜去来”原文语义不明"
+        ]
+      },
+      {
+        "id": "book011-b000076-p000-e2aa7f49f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book011-b000077-p000-e262cdf38b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1891,
+    "completion_tokens": 414,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1891,
+      "completion_tokens": 414,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

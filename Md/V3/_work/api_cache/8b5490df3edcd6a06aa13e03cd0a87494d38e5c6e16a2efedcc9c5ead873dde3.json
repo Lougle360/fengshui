@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T22:59:13.584292+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8b5490df3edcd6a06aa13e03cd0a87494d38e5c6e16a2efedcc9c5ead873dde3",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004306-p000-004d9e6fe0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004307-p000-c60d680dbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004308-p000-a357f88d66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004309-p000-5524f8f200",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004310-p000-49d0cc05e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标注“揲”有dié、shé两个读音，候选仅标注了dié，存在信息遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004311-p000-6d1eb7ba6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004312-p000-f473f153cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004313-p000-e8f54aabe3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "此处“水”属于五行术语，allowed_glossary中“水”的定义为风水语境的河流等，不适用于此处，候选未对该语境下的“水”做区分，存在术语释义误用风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004314-p000-6b1c4651e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "此处“水”属于五行术语，allowed_glossary中“水”的定义为风水语境的河流等，不适用于此处，候选未对该语境下的“水”做区分，存在术语释义误用风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004315-p000-5d9678ff76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4178,
+    "completion_tokens": 688,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4178,
+      "completion_tokens": 688,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

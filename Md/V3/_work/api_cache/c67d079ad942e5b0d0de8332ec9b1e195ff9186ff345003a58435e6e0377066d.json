@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-15T05:20:34.244928+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c67d079ad942e5b0d0de8332ec9b1e195ff9186ff345003a58435e6e0377066d",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001938-p000-a8e70cc2cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate对source的释读存在大量无依据的扩写和改写，未能忠实反映原文的批判性论述。例如，source的核心是批判世俗对‘睡虎日’‘白虎日’的盲目禁忌，并指出关键在于‘理’是否‘周行’。candidate却加入了‘观察地势可以推知人的吉凶’‘祸患的根源在于土气不通’等原文没有的论断，并将原文的批判性论述淡化为一般性说理。",
+          "candidate将原文‘睡虎日’‘白虎日’等术语的处理方式与writer_uncertainty中的说明不符。writer_uncertainty指出‘具体所指不详’，但candidate在释文中直接使用了这些术语，并进行了‘并非绝对凶险’等确定性论述，这与‘具体所指不详’的标注相悖，应保持术语的模糊性，或明确指出其含义不明。",
+          "source中‘祸究之甚谓土通 福其至与凶厨书’等句，candidate释为‘祸患的根源在于土气不通，福气的到来与凶险的消除，其道理在于周遍运行而无遗漏’，这属于推测性翻译，且‘土气不通’‘周遍运行而无遗漏’等解释在原文中并无明确对应，属于增译。应更保守地处理这些难以理解的句子。",
+          "candidate整体风格偏向现代说理文，丢失了原文驳论文的论辩语气和结构。例如，原文‘予谓……’等直接引语和反问句式在candidate中未得到体现。"
+        ],
+        "uncertainty": [
+          "原文‘祸究之甚谓土通 福其至与凶厨书’等句文字错乱，含义难以确证。",
+          "‘睡虎日’‘白虎日’‘周堂’等术语的确切定义和来源不明。"
+        ]
+      },
+      {
+        "id": "book033-b001939-p000-0c08140cd5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate对source的释读存在严重偏离。source原文是一段关于修方（选择吉方进行修建）以催官、催财、祛病等具体效验的论述，并夹杂着对‘通书之例’的批判。candidate却将其完全改写为关于‘穴’、‘向’与‘月’配合的泛泛之谈，几乎完全脱离了source的核心内容。这是严重的主题偏离和漏译。",
+          "candidate中大量出现的‘穴’、‘向’与‘月令’‘日辰’配合的论述，在source原文中并无对应。source中虽有‘穴’字，但上下文并非讨论风水中的‘穴’与‘向’，而是讨论‘修方’。candidate依据allowed_glossary对‘穴’‘向’进行了解释，但将这些解释强加于source文本，属于无依据的扩写。",
+          "source中提到的‘修报黄田’‘修三台五库’‘修魁罡’‘修鬼运钱’等具体修方内容，在candidate中完全缺失。",
+          "candidate将source中‘因又月 向無1通 尼的月書 凶基周 之日 人哈吉者 宅州某既 其日 里所某五 上謂日行 堂年起 日云年例 皆者不 有禍異無 福月生 福 無月旺 無 憑相衰 退不 不同败 足不之 足 准幾可 準 十信削去不惑于君可亦宜矣世 信于推 削無 去柱相 不而生 惑鼓相 于 君刻之 于可 亦求據 宜求徒 类制執 世乎定 人即局 人 蹉無而 過通 道吉期 期之于 多機大一民则求錢地驗修因因禄使二周因又’这段混乱的文字，强行解释为关于‘月’‘穴’‘向’的论述，缺乏文本依据。实际上，这段文字可能包含OCR错误或原文损坏，应更保守处理。"
+        ],
+        "uncertainty": [
+          "source文本开头部分（‘因又月...足准几十信削去不惑于君可亦宜矣世’）文字混乱，难以断句和理解，可能包含大量OCR错误或原文损坏。",
+          "文中提到的各种‘修方’（如修报黄田、修三台五库等）的具体方法和理论依据不明。"
+        ]
+      },
+      {
+        "id": "book033-b001940-p000-65f469b467",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2669,
+    "completion_tokens": 1039,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2669,
+      "completion_tokens": 1039,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

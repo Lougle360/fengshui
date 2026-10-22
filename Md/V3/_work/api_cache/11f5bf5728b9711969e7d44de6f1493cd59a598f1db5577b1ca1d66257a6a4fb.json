@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T08:57:13.620282+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "11f5bf5728b9711969e7d44de6f1493cd59a598f1db5577b1ca1d66257a6a4fb",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000169-p000-796a637ea0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此处“顾瑪瑪之哉”具体所指不详"
+        ]
+      },
+      {
+        "id": "book009-b000170-p000-53ede30a3c",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语句不通顺，语义难以明确，存在日文混杂的情况，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原文语句不通顺，语义难以明确"
+        ]
+      },
+      {
+        "id": "book009-b000171-p000-17bef689d8",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文语句不通顺，多处语义模糊，无法形成准确释读"
+        ],
+        "uncertainty": [
+          "此处“微写”具体所指不详；“渝”具体所指不详；“闲数”具体所指不详；“不關面”具体所指不详；“卒十”具体所指不详"
+        ]
+      },
+      {
+        "id": "book009-b000172-p000-220584aa1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2327,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2327,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

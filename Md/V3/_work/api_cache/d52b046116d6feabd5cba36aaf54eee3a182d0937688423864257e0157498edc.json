@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-24T21:14:30.992475+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d52b046116d6feabd5cba36aaf54eee3a182d0937688423864257e0157498edc",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000218-p000-a54ea83699",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘今河水冲决而在于河之北’释读错误，原意指汴梁因黄河改道被隔在黄河北侧，候选误写为‘黄河冲决改道到了黄河的北边’；原文‘河绕可恃不可用也’释读为‘原本环绕的水已不可依靠’表述不准确，原意是黄河原本是可依恃的屏障，但形胜破坏后不可作为建都的依托；原文‘汾、之’存在脱漏，候选补为‘汾水’未标注脱漏处理；原文‘恒、泽’释读为‘恒水、衡水’错误，应为‘恒水、漳泽’类水系，无依据改作衡水；未对‘天苑垣’的风水垣局属性做通俗说明，普通读者难以理解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000219-p000-199f115e05",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000220-p000-60fad5d2b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到‘又西为石’即截止，候选自行补出‘石头城’及后续大段不属于本条source的内容，属于严重增译；原文‘汉改曰秣’存在脱漏，候选补为‘秣陵’未在uncertainty中明确标注；原文‘自东南朔长江而西’的‘朔’为‘溯’的通假，释读为‘沿着’不准确，应是逆长江流向向西；‘离’属locked_terms，候选改写为‘藩离’未按要求保留术语原字并标注含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000222-p000-a5df9bccfe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source开头为‘头城’，是前条‘石’字后的残文‘石头城’的误拆分，候选释读为‘地理格局以头城为核心’属于错误理解；原文‘委玉帛而朝’释读为‘捧着玉帛前来朝见’无问题，但‘藩离’的‘离’为locked_terms，未保留原字并标注含义；原文‘长江委流’释读为‘长江下游’不准确，‘委流’指河流的下游会聚段，并非泛指下游；‘玄武’属allowed_glossary术语，释读时未标注其风水含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000223-p000-93d70e573e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000224-p000-d3ab6f96aa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘巽’属allowed_glossary术语，释读时未标注其八卦/方位属性，普通读者难以理解‘巽风’的风水含义；‘天市垣’为风水垣局术语，未做通俗说明；原文‘吾邑传公少华伯通’候选写为‘傅公’，原文为‘传’，无依据改作‘傅’，属于字形误改"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000225-p000-143bfa5430",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘斗牛’‘轸翼’‘轩辕’‘枢府’‘辛地’‘廉贞’‘昴日’‘鬼金’‘文曲’‘少微’均为风水、星占专业术语，未做通俗注释，普通读者无法理解；原文‘八景宽容’释读为‘八景也很宽容’属于望文生义，‘宽容’指地形开阔足以容纳八景格局，表述错误；原文‘驻驛’为‘驻跸’的讹写，候选直接改作‘驻跸’未标注讹误处理"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000226-p000-d1869e6159",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5261,
+    "completion_tokens": 1042,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5261,
+      "completion_tokens": 1042,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

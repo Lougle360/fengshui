@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-25T12:17:17.908457+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d2ee3b8a4403a6ebc4425183915247bcdd84cfd347dc117944fc919463d803d5",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000959-p000-a76b239c80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字“兩畔汙酒”被误译为“河道两岸”，属于无依据增译，原文未提及“河道”相关表述；“汙酒”未释读，存在漏译"
+        ],
+        "uncertainty": [
+          "“官无休歌”的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000960-p000-f676ef1943",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“麻葬巳必丙王 乱淫邪”被误断为“在巳地安葬，必然会出现‘丙王’相关的乱淫邪事”，原文“麻”字未释读，存在漏译；“丙王”和“乱淫邪”的语义关联无原文依据，属于不当增译"
+        ],
+        "uncertainty": [
+          "“水如效蜜杰似孔”的具体含义无法确定",
+          "“丙王”的具体所指无法确定",
+          "“麻葬”的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000964-p000-4c104c36d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“助跛”被模糊释读为“跛足相关的状况”，属于未完整保留原文信息的不当简化；原文“促”被释为“短寿”无依据，属于无据增译"
+        ],
+        "uncertainty": [
+          "“气物宽取”“助跛”的具体含义无法完全确定"
+        ]
+      },
+      {
+        "id": "book024-b000965-p000-105fe7374c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“女見嬪婦上秦後”的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000967-p000-10401a8110",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“兌”的具体所指无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1435,
+    "completion_tokens": 512,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1435,
+      "completion_tokens": 512,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

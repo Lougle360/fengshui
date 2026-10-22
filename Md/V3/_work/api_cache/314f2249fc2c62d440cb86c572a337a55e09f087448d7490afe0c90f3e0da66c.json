@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T19:58:25.145712+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "314f2249fc2c62d440cb86c572a337a55e09f087448d7490afe0c90f3e0da66c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003196-p000-ca91f143e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003198-p000-5e8b41d0eb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“向”的allowed_glossary释义强行套用于此处，原文未明确“向”指建筑或穴位方位，属于无依据扩写；将“水”的allowed_glossary释义强行套用于此处，原文未明确“水”指风水语境中的河流水系，属于无依据扩写；将“一时”释为“一时”所共同舍弃，原文《王注》“一时所共弃舍”指该爻所处的时势被共弃，释读不准确；将崔颢、尚氏学的“禽”释义直接确定为事实，未标注为可备一说的观点，属于将推测写成事实"
+        ],
+        "uncertainty": [
+          "原文未明确“向”的具体所指，仅保留allowed_glossary的释义属于无依据扩写；原文未明确“水”的具体所指，仅保留allowed_glossary的释义属于无依据扩写；“一时”的具体含义原文未明，释读存在歧义；“禽”的释义存在不同观点，原文明确为可备一说，释读未标注该不确定性"
+        ]
+      },
+      {
+        "id": "book016-b003199-p000-73b3fc3937",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1499,
+    "completion_tokens": 375,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1499,
+      "completion_tokens": 375,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

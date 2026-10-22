@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-26T08:55:02.282696+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "359edcfeaaa31fd8cdad8f6737b95890aac10cc518d13165d8471e0fcf5eb33a",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000503-p000-42a531bdae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“不傾不歌”中“歌”的含义存疑",
+          "“方疑而正”中“疑”的含义存疑",
+          "“圓角軟法”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000505-p000-170d4f8818",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“土太瘦則隅陷則函”，candidate释读为“土过瘦就会角落塌陷，塌陷则为凶”，此处“函”未明确标注存疑即直接释为“凶”，属于将不确定表述写成确定事实；原文“水太肥則腔脛則凶”后接“木太瘦則枯枯則凶”，candidate称其与金、水、火、土的对应表述逻辑不一致，原文并无语序错误的依据，属于无依据判定原文逻辑问题"
+        ],
+        "uncertainty": [
+          "“腔脛”具体所指不详",
+          "“大太瘦則燥燥則立”中“大”疑为“火”的讹字，“立”的含义存疑",
+          "“隅陷則函”中“函”的含义存疑"
+        ]
+      },
+      {
+        "id": "book033-b000507-p000-3b9ae48284",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“限讲”具体所指不详",
+          "“濶入”的含义存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3134,
+    "completion_tokens": 457,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3134,
+      "completion_tokens": 457,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T03:50:09.691374+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6874fa619121e09deb0b2a3a9da851975ad7e39a9be95715ad175bcc18689ea3",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002072-p000-ac9cc83eb8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“媵理”应为“腠理”的通假，candidate释为“肌理”不准确，且原文“不如滤罗如灰囊”被误译为“肌理就像滤过的罗纱、灰囊一样”，完全颠倒文意，原文是说地气虚浮的话肌理不像滤罗反而像灰囊，属于反义错译；原文“内生气化之水外渗天雨之水皆腾漏不蓄之穴也”被误拆成“内部会生成气化的水，外部会渗透天雨之水，都是无法蓄积的穴”，逻辑错误，是气化水内散、天雨水外渗，两者都漏走不存才是腾漏不蓄的坏穴。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002073-p000-5fb8881fcd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是古籍卷次标题，“也理泰”应为古籍题名的一部分，未做通俗释读，直接保留原文，不符合“普通读者能读懂的白话释读”要求；若为不可解的残句应标注，此处未做任何处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002074-p000-73184557c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“三吉”“六凶”“天光下临地德上载”原文未释具体含义，candidate未加臆解符合要求。"
+        ]
+      },
+      {
+        "id": "book029-b002075-p000-28b13d7142",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“严神合朔”candidate简作“神合朔”属于合理省写，不影响语义，“严神”具体所指原文未明，未强解符合要求。"
+        ]
+      },
+      {
+        "id": "book029-b002076-p000-66394c6df7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“人之神鬼”具体所指原文未明，未强解符合要求。"
+        ]
+      },
+      {
+        "id": "book029-b002077-p000-ab7e4341b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“五土四备”属于风水专业术语，candidate未做任何注释也未标注含义不明，普通读者无法理解。"
+        ],
+        "uncertainty": [
+          "“五土四备”具体所指原文未明。"
+        ]
+      },
+      {
+        "id": "book029-b002078-p000-7c670b0c79",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“五土四俗忌黑色也”应为“五土四备忌黑色也”的讹写，candidate释为“五土四备忌讳黑色”正确，但前文“内脩四土”与前文的“五土四备”存在术语不一致，candidate未做说明，且“四势”“四土”未标注含义不明，普通读者无法理解；“二五交会”被释为“阴阳五行交会”属于无依据增译，“二五”具体含义未明，不应直接确定为阴阳五行。"
+        ],
+        "uncertainty": [
+          "“二五”“四势”“四土”具体所指原文未明。"
+        ]
+      },
+      {
+        "id": "book029-b002079-p000-af8ec4d76a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002080-p000-9334689ae5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002081-p000-c8edefedff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2292,
+    "completion_tokens": 1056,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2292,
+      "completion_tokens": 1056,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

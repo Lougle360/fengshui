@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T13:46:32.707994+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2b5ef9dcafe88ebf52e3f4256135e7bb111d6c34e74e241751f51bb537504a04",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000342-p000-a50253d3ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000343-p000-7c24ec4fec",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文卷2「理気」误译为卷26「理气」，属于内容错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000344-p000-a67b1c5972",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000345-p000-d6f65879ae",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2364,
+    "completion_tokens": 221,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2364,
+      "completion_tokens": 221,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

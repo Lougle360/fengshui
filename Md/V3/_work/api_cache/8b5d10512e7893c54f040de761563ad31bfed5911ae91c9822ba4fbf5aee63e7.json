@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-15T02:23:08.638889+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8b5d10512e7893c54f040de761563ad31bfed5911ae91c9822ba4fbf5aee63e7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001028-p000-3fb4dbce53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'无大 小明暗明堂偏狭'，candidate译为'明堂太小、暗明堂偏狭'，将'无大 小'合并并增译为'太小'，改变了原文结构，且'暗明堂'的译法可能将'明暗'拆解为两个概念，原文'明暗明堂'可能指明堂的明暗状态或'明堂'与'暗堂'，此处释读有过度解释风险。",
+          "原文'纵产不得比和'，candidate译为'即使能结出穴位，也无法达到比和的状态'，'结出穴位'为增译，原文'产'可能指产生、形成（如生气、吉应），不一定是'结穴'。"
+        ],
+        "uncertainty": [
+          "'无大 小明暗明堂偏狭'的确切断句与含义。",
+          "'产'的具体所指。"
+        ]
+      },
+      {
+        "id": "book035-b001031-p000-db92b1d7fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'游友'具体所指。",
+          "'纱者'具体含义。"
+        ]
+      },
+      {
+        "id": "book035-b001032-p000-daf9a95c46",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'结上之辞左右出悠然而离是为龙向风者去而复顾也'，candidate译为'左右流出悠然而离去，这就是龙向。所谓‘风’，是指气去而复顾'。将'龙向风者'拆分为'龙向'和'风'，并增译'气'，改变了原文结构。原文'龙向风者'可能是一个整体概念或'龙向'与'风'并列，释读存在不确定性。",
+          "candidate将'牧堂曰向背也'译为'牧堂说，这就是向背'，将'向背'直接对应'雌雄'，但原文是'地理之法不过雌雄二字牧堂曰向背也'，'向背'可能是对'雌雄'的另一种解释，candidate的'这就是'连接略显生硬，但尚可接受。"
+        ],
+        "uncertainty": [
+          "'龙向风者'的结构与含义。",
+          "'结上之辞'具体所指。",
+          "'左右出悠然而离'的具体所指。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1122,
+    "completion_tokens": 538,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1122,
+      "completion_tokens": 538,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

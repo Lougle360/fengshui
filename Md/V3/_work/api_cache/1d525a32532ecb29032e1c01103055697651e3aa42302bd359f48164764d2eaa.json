@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T01:45:40.023749+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1d525a32532ecb29032e1c01103055697651e3aa42302bd359f48164764d2eaa",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000104-p000-750e3ae485",
+        "verdict": "revise','confidence':'high','issues':['原文“造屋未威”的“威”被误释为“完成”，此处释读无依据，属于增译错误'],'uncertainty':['“造屋未威”语义不明，无法确定具体含义']"
+      },
+      {
+        "id": "book006-b000105-p000-dabfbaf7e9",
+        "verdict": "accept','confidence':'high','issues':[],'uncertainty':['原文末尾有缺字，无法确认完整含义']"
+      },
+      {
+        "id": "book006-b000106-p000-7fc118e743",
+        "verdict": "revise','confidence':'high','issues':['未将“忌官火盜”转换为普通读者易懂的现代汉语，属于古文未做白话释读'],'uncertainty':['“官火盜”具体指向不明，仅可知为需要避讳的三类事项']"
+      },
+      {
+        "id": "book006-b000107-p000-1ad4d1aeb6",
+        "verdict": "revise','confidence':'high','issues':['原文“可歇安寧”被误释为“可以平息災禍，獲得安寧”，属于无依据增译；原文未提及“平息災禍”的含义'],'uncertainty':['“龍虎入宮動土修濠可歇安寧”语义含混，无法确认“可歇”的具体指向']"
+      },
+      {
+        "id": "book006-b000108-p000-1fb31d3057",
+        "verdict": "accept','confidence':'high','issues':[],'uncertainty':['“宅天之年”为专有名词，具体定义未明']"
+      },
+      {
+        "id": "book006-b000109-p000-1c3b4ed92b",
+        "verdict": "accept','confidence':'high','issues':[],'uncertainty':['原文末尾“主伶行”含义不明']"
+      },
+      {
+        "id": "book006-b000110-p000-0c1659fec2",
+        "verdict": "accept','confidence':'medium','issues':[],'uncertainty':['原文部分语句晦涩，含义难以完全确认']"
+      },
+      {
+        "id": "book006-b000111-p000-7ae7197db6",
+        "verdict": "accept','confidence':'high','issues':[],'uncertainty':['“肘金語”为标题类专有短语，具体含义未明']"
+      },
+      {
+        "id": "book006-b000112-p000-ec3db728f3",
+        "verdict": "revise','confidence':'high','issues':['原文“絕輪到其年星位吉凶”释读有误，断句错误导致语义不通；“不相信的人，確實多有驗證”与原文“不信者誠之多驗”语义相反，原文意为不相信的人应当引起警惕，该内容多有应验'],'uncertainty':['“天凢”“功室”含义不明']"
+      },
+      {
+        "id": "book006-b000113-p000-6df804ec57",
+        "verdict": "revise','confidence':'high','issues':['原文“巳未”为干支讹写，通常应为“己未”，释读直接保留“巳未”未作风险标注；“東甫方”为专有方位名词，未说明是否为传抄讹误'],'uncertainty':['“巳未”大概率为“己未”的传抄讹误，“東甫方”具体所指不详']"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2046,
+    "completion_tokens": 877,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2046,
+      "completion_tokens": 877,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

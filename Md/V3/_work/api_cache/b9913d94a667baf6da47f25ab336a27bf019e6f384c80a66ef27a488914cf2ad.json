@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T14:15:33.778443+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b9913d94a667baf6da47f25ab336a27bf019e6f384c80a66ef27a488914cf2ad",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000038-p000-8d52a7a967",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000039-p000-3d0efd1ef3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000040-p000-349a0cfb51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000041-p000-c659617603",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "多处内容未转换成现代中文，仅保留原文句式：1. “大小遠逸”误作“大小、远近”漏译对应表述；2. “浹洽無有”断句错误，原文为“周徧浹洽，無有無氣之質”，此处未正确译出；3. “雖少大不同”“惟能權者優之”均未进行通俗释读，不符合“普通读者能读懂的白话释读”要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000042-p000-75b1fa1edd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“或是砂經 卷一”断句错误，原文“或是交界，或是砂，經 卷一”中“砂”为风水术语，不应与“經卷一”连读，导致术语误拆；多处语句仅照搬原文未作通俗转换，如“氣甘勢燠”“鐘氣勢之鎔養”等表述普通读者难以理解"
+        ],
+        "uncertainty": [
+          "原文中“余曜”含义不明"
+        ]
+      },
+      {
+        "id": "book028-b000043-p000-d08309195d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“星體狐微”误写为“星体狐微”，且未作通俗释读，“勿以平牟法消之”“與物宜之”等大量原文表述未转换成现代中文，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原文中“平牟”“狐微”含义不明"
+        ]
+      },
+      {
+        "id": "book028-b000044-p000-f7a8469fda",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“扒砂經卷伶倒”断句错误，原文“一角之上扒砂，經卷伶倒而氣可據”断句不当，且整段内容几乎均为原文照搬，未作符合要求的白话释读，“伶倒”“襃”仅保留原文未作标注或通俗处理"
+        ],
+        "uncertainty": [
+          "原文中“伶倒”“襃”含义不明"
+        ]
+      },
+      {
+        "id": "book028-b000045-p000-ae33718d28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“旋折旋屬變屬動”断句错误，原文为“土至角方折旋，折旋屬變屬動”，断句错误导致语义不通；大量内容仅照搬原文未作白话转换，普通读者无法读懂"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000046-p000-a6ecf18db5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "几乎全文照搬原文句式及表述，未进行白话释读，如“生口則有股，分股則氣隨，氣隨則意恊”“無體貼體”等表述普通读者无法理解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000047-p000-3a703048fe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "几乎全文照搬原文，未进行符合要求的白话释读，如“欲合星體爲氣中完具，外必形露氣勢之謂也”等表述未转换为普通读者能读懂的现代中文"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4266,
+    "completion_tokens": 968,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4266,
+      "completion_tokens": 968,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

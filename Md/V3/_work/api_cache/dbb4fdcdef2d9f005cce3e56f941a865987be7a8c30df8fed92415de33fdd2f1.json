@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-09-25T12:55:44.152138+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dbb4fdcdef2d9f005cce3e56f941a865987be7a8c30df8fed92415de33fdd2f1",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000386-p000-9f1994d101",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“六四半未”疑为OCR识别错误，“半未”应为“乙未”，candidate直接按“半未”释读未作标注；source中“武欠司”疑为“玄武司”类术语误识，“癸申”干支组合不存在（天干癸配地支应为癸酉、癸未等，无癸申），candidate未对上述明显讹误做风险标注，且直接认定“癸申对应官”属于将识别错误内容作为确定事实释读"
+        ],
+        "uncertainty": [
+          "“六一”“儿弟”“武欠司”含义不明，原文未作说明"
+        ]
+      },
+      {
+        "id": "book025-b000388-p000-a5ea5ed956",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“初九庚子九第”表述不通，疑为OCR讹误，candidate直接按原文释读未标注风险；source中“上六戌子良向丙仝山”的“良向”应为“艮向”，candidate将“艮向丙仝”拆分断句错误，正确断句应为“上六对应戌子，艮向，丙仝山”；“山雷颐係巽宮第七井萬本”中“井萬本”含义不明，candidate直接作为确定表述释读未标注；source末尾“是丙全山頭”的“全”应为前文“仝”的异写，candidate未说明二者对应关系"
+        ],
+        "uncertainty": [
+          "“九第”“爻年”“井萬本”“丙仝山”“丙全山头”具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000389-p000-63e77bcc8b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“初九庚一艮年”“六二庚寅見第”“六四丙戌牙”“六五丙乎爻”均为明显的OCR识别残损或讹误表述，candidate直接将其作为确定对应内容释读，未标注识别风险，属于将不确定的残损内容当作事实释读"
+        ],
+        "uncertainty": [
+          "“庚一艮年”“见第”“丙戌牙”“丙乎爻”具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000390-p000-f11ace7dd1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“六庚官”爻位表述不规范（周易爻位应为初、二、三、四、五、上，无“六庚”表述），疑为OCR讹误；“六四癸五第大五癸亥”表述混乱，存在识别错误，candidate直接将其作为确定对应内容释读，未标注风险；“上六癸酉姦”的“姦”在此语境下含义不明，candidate直接释为“为姦”属于无依据定性"
+        ],
+        "uncertainty": [
+          "“六庚”“癸五第大五”“姦”在此处的具体含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000391-p000-57c0238e75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“巽官第一卦屬太”表述残缺，“屬太”后缺字，candidate直接释为“属太”未标注残缺风险；“九一五亥”“九三至官”“九五辛巳子張九”“乾同知全”均为OCR识别讹误或残损内容，candidate直接按字面释读未标注风险；“九上”爻位表述不规范，应为“上九”，candidate未说明该表述异常；天风姤为乾宫卦，原文称“係乾卦居金”表述无误，但前文“巽官第一卦”与后文天风姤属乾宫存在矛盾，candidate未标注该逻辑冲突"
+        ],
+        "uncertainty": [
+          "“吴向辛金里”“风侯”“属太”“九一五亥”“至官”“子张九”“乾同知全”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1556,
+    "completion_tokens": 968,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1556,
+      "completion_tokens": 968,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

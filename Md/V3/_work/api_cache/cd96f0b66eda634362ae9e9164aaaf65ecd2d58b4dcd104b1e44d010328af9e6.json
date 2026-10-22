@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-18T11:45:05.347940+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cd96f0b66eda634362ae9e9164aaaf65ecd2d58b4dcd104b1e44d010328af9e6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006417-p000-4dc65e95f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量残缺字符，语意不明",
+          "无法确认具体地名或干支组合的完整含义"
+        ]
+      },
+      {
+        "id": "book035-b006418-p000-85ba50dbab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘向旅無妄’是四个卦名（向、旅、无妄）的并列或组合，并非‘旅卦变为无妄卦’。candidate 的解释无依据，且‘变为’是增译。应保留原文术语，说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006419-p000-52417fa0e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006420-p000-3830673d40",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘逢木金遇木而有用’的释读逻辑不清，原文‘逢木金’可能指遇到木或金，而非‘遇到木金时’。‘火星之墓之鄉’释为‘火星的墓库之乡’是直译，但‘火星’在风水术语中可能指五行之火或特定星宿，此处未明确，应标注不确定性。‘对宫乃丙戌土向’释读正确。‘虽曰冠带，亦是小墓’释读正确。‘故合作中格局’释为‘所以应当合作为中格局’，‘合作’在此处是‘合起来作为’或‘构成’之意，candidate 的‘应当合作’略有增译，但尚可接受。"
+        ],
+        "uncertainty": [
+          "‘逢木金遇木而有用’的具体逻辑不明",
+          "‘火星’在此处的具体指代（五行之火或星宿）不明"
+        ]
+      },
+      {
+        "id": "book035-b006421-p000-04fae437a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006422-p000-6006995fb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘戌婁金狗奎二至五’是一个整体，指戌宫对应的娄宿（金狗）和奎宿的度数范围。candidate 断句为‘戌娄金狗对应奎宿从二度到五度’，将‘奎’误读为奎宿，但原文‘奎二至五’很可能是指奎宿二度到五度，而‘戌婁金狗’是星宿组合名。释读应更明确：戌宫对应娄宿（属金，称金狗），奎宿从二度到五度。candidate 的表述易引起混淆。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006423-p000-30dd0ebc76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006424-p000-e9fbf196a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘向漸之困穴歸妹革’是两组卦名组合：‘向漸之困’和‘穴歸妹革’。candidate 释为‘穴位朝向是渐卦变为困卦，穴位归向是归妹卦变为革卦’，其中‘变为’是增译，无依据。应保留原文术语，说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006425-p000-91057e00c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘戊辰木穴分在在圾宮’中‘在在圾宮’应为‘在圾宫’，candidate 直译‘在在圾宫’保留了原文可能的讹误，但未标注。‘遇土爲才氣’中‘才氣’通‘财气’，candidate 用‘才气’可接受。‘對宮戊戊木向’中‘戊戊’可能为‘戊戌’之误，candidate 未修正也未标注。‘木入土亦爲才氣’释读正确。‘是胎養之宮’释读正确。‘合作生氣之才氣’中‘合作’释为‘合作’稍显生硬，应为‘合起来作为’或‘构成’。‘所可嫌者戊爲龜甲之空’释读正确。‘合作下中格局’释读同前。"
+        ],
+        "uncertainty": [
+          "‘在在圾宫’可能为‘在圾宫’的笔误",
+          "‘戊戊木向’可能为‘戊戌木向’的笔误"
+        ]
+      },
+      {
+        "id": "book035-b006426-p000-a1ecffd535",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘戌奎金狗奎一至婁二’结构与上一项类似。‘戌奎金狗’可能指戌宫对应的奎宿（金狗），‘奎一至婁二’指奎宿一度到娄宿二度。candidate 释为‘戌奎金狗对应奎宿从一度到娄二度’，表述不够清晰，易将‘奎一至婁二’误认为全是奎宿的度数。应明确：戌宫对应奎宿（属金，称金狗），奎宿一度到娄宿二度。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2002,
+    "completion_tokens": 1185,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2002,
+      "completion_tokens": 1185,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

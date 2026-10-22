@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-09-24T07:13:17.440045+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "be61ce17a80eb908ec0d489e8c90567401be50fe2c541915f03ee3b77fe4ce1e",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000038-p000-25d98204d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000039-p000-00f16ed57b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开篇对行、止的定义主语是‘尨（龙）’，candidate误改为‘气脉’，与原文不符",
+          "原文‘耄之行動未住曰行’的‘耄’为龙的异体/讹写，candidate未对应，且篡改原义为气脉",
+          "原文‘水之所分所幾此尤之行处也’‘山之所会此卷之止处也’中‘尤’‘卷’均为‘龙’的讹写，candidate误释为气脉，且漏译原句的核心主体",
+          "原文‘揚氏曰分牙布爪耄欲行藏牙稱欣尤哉住撓掉闪后尤歌去手足向前尨哉止’整体释读错误，原句是描述龙行、龙止的形态，candidate强行解读为气脉的状态，含义偏差极大",
+          "原文‘識龍行山脫部向前騰’candidate误译为‘顺着山的脉络向前延伸’，漏译‘脱部（脱卸剥换）’‘騰（腾跃）’的核心义",
+          "原文‘秋尤勒馬孰知止扎之災’candidate误译为‘秋气勒马，以此知晓气脉止的灾祸’，此处‘秋’为‘收’的讹写，‘止扎之災’应为‘止扎之基’类的吉义，candidate完全译反",
+          "原文‘如風林宿鳥烏有寧翼急水遊魚豈有蹤鱗’candidate误译为‘林中宿鸟，哪里会有固定的巢穴’，漏译‘风林’‘寧翼（安稳的翅膀，指停留）’，且篡改原义",
+          "原文大量‘尤’‘卷’‘耄’均为龙的讹写，candidate全程误释为气脉，属于核心主体误读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000040-p000-34114b1e79",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘典抑知誠中必形外見’candidate误译为‘要知道内心的真诚必然会表现在外’，此处‘誠中形外’是指内在的气脉必然会在外部显现形态，和人的‘内心真诚’完全无关，属于严重误译",
+          "原文‘其上必有動無動炁者何即凹突之穴暈是也’candidate误译为‘上方必然有动静，什么是动静？就是有凹凸的穴晕’，原句是说‘其上必有动气，什么是动气？就是凹凸的穴晕’，candidate把‘动气’错解为‘动静’，含义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000041-p000-83eb22154a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘倅質’释为‘本体’属于合理意译，但‘倅’原义为副，此处是否指附属质地原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000042-p000-f893069d00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘山倅不化毫無变動者止有流行之炁却無止畜之炁惟可行尤不可求穴’candidate误译为‘山的本体没有变化，只有流动的炁，却没有凝聚的炁，只能流动，不能求穴’，此处‘可行尤’的‘尤’是‘龙’的讹写，指只允许龙气通行，candidate漏译核心主体，且‘山倅’的释读无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000043-p000-de5c31f9ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘郭氏救語’candidate误译为‘郭氏在《葬书》中’，原文未提及《葬书》，属于无依据增译，‘救語’具体所指不详，candidate臆断为《葬书》",
+          "原文‘人之感觸天地之煞炁輕則病而重則死’candidate误译为‘炁轻就会生病，炁重就会死亡’，原义是感煞轻就生病、感煞重就死亡，candidate把煞的轻重错解为炁的轻重，含义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000044-p000-8d7bdb45d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000045-p000-d423057c2d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000046-p000-84015e09ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘規于地面之萬物太寒則凍死太早則燥死’candidate漏译该句，属于漏译",
+          "原文‘穴喜秋衛者以無衛則孤車孤車則寒而不煖也’candidate误译为‘穴喜欢砂护卫，因为没有护卫就会孤单’，原文‘秋衛’‘孤車’具体所指未明，candidate无依据臆断为‘砂护卫’‘孤单’，属于增译误释",
+          "原文‘吉穴太扦高而斧凶祸者’candidate误译为‘吉穴太靠近高处而导致凶祸’，‘扦’是指扦穴、点穴安葬，‘斧’为‘招’的讹写，candidate释为‘靠近’完全错误",
+          "原文‘太扦低而冷退者犯溫也’candidate误译为‘太靠近低处而导致衰败，是犯了卑弱的毛病’，‘冷退’是风水术语指人丁冷落、家道败退，candidate释为‘衰败’过于笼统，且‘犯溫’应为‘犯寒’，candidate释为‘卑弱’无依据",
+          "原文‘地理之李一乗生炁而已矣’candidate误译为‘地理的道理，不过是乘得生炁罢了’，‘李’为讹字，candidate直接臆断为‘道理’无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000047-p000-4e7b26af08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4046,
+    "completion_tokens": 1610,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4046,
+      "completion_tokens": 1610,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

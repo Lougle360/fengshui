@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-04T06:34:07.385063+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3964599b15069cef1f901207b51b0547a3aa90ddcfc9f3b63bc7ad1d86883afa",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000713-p000-6f46d9dc81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "只金",
+          "有点颖之忧"
+        ]
+      },
+      {
+        "id": "book028-b000714-p000-67ea4731b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘也要穴露全好’意为‘也需要穴场显露且完全完好’，candidate 译为‘穴完全完好也是好的’，漏译了‘也要’（也需要）的转折或并列关系，且‘穴露’译为‘穴完全完好’不够准确，‘露’有显露之意。"
+        ],
+        "uncertainty": [
+          "瘦藤絆日金水盤桓中吐陽金體格"
+        ]
+      },
+      {
+        "id": "book028-b000723-p000-7997ea7735",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘砂经 人卷三’应为‘砂经人卷三’，candidate 处理为‘砂经 人卷三’并标注不详，但此处更可能是书名或章节名，如《砂经》人字卷第三，应保留原文并标注不确定，而非直接断开。",
+          "原文‘此富拟陶朱之规模’意为‘这种格局的财富可比拟陶朱公的规模’，candidate 译为‘这种格局财富堪比陶朱公的规模’，准确，但‘拟’字含义未完全译出，可接受。",
+          "原文‘此富而好礼之规’意为‘这是富有且好礼的规范’，candidate 译为‘这是富而好礼的规范’，准确。",
+          "原文末尾‘横’字可能为衍文或段落标记，candidate 处理为‘末尾的‘横’字，具体所指不详’，可以接受。"
+        ],
+        "uncertainty": [
+          "南金间水木少金多土石时现",
+          "砂经人卷三",
+          "两金排菓三袅芦花形合僊桥势若云衢",
+          "横"
+        ]
+      },
+      {
+        "id": "book028-b000724-p000-231d97bdc4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘来而文止起而文断’可能指龙脉来势文雅而止、起势文雅而断，candidate 直接标注‘文止起而文断’不详，但‘文’字在风水中有‘文曲’等含义，或指形态文雅，此处处理过于保守，可尝试译为‘来势文雅而止，起势文雅而断’并标注不确定。",
+          "原文‘继缄穿无遮头掩而面对清’可能指继续穿行无遮挡，面对清秀之局，candidate 直接标注不详，处理过于保守。"
+        ],
+        "uncertainty": [
+          "文止起而文断",
+          "继缄穿无遮头掩而面对清"
+        ]
+      },
+      {
+        "id": "book028-b000731-p000-6910ce1b3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘求砂卷三’应为‘求砂卷三’，可能指《求砂》卷三，candidate 处理为‘求砂卷三’并标注不详，可以接受。",
+          "原文‘枝麓凌削解脱分明离形弄影门户清静清胜接目’是一连串描述，candidate 直接标注这些短语含义不详，处理过于保守，可尝试分段解释，如‘枝脚山麓凌厉削瘦，解脱分明，形态离奇如弄影，门户清静，景色清幽接目’并标注不确定。"
+        ],
+        "uncertainty": [
+          "求砂卷三",
+          "枝麓凌削解脱分明离形弄影门户清静清胜接目"
+        ]
+      },
+      {
+        "id": "book028-b000732-p000-c259ecfd72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "修发修落",
+          "凶恶潘慾"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2163,
+    "completion_tokens": 847,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2163,
+      "completion_tokens": 847,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

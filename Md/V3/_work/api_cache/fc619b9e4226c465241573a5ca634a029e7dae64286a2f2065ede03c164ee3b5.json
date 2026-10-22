@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T21:46:58.845501+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fc619b9e4226c465241573a5ca634a029e7dae64286a2f2065ede03c164ee3b5",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001723-p000-87ddf55194",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“开脾”属于未明确含义的专业术语，candidate未对该术语做模糊标注，直接按字面保留使用，不符合释读要求"
+        ],
+        "uncertainty": [
+          "“开脾处”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001724-p000-d88fa0c217",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“地势平缓过渡”相关表述，属于无依据增译，原文仅说没有像剑脊一样直下的情况适宜采取对应措施"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 832,
+    "completion_tokens": 197,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 832,
+      "completion_tokens": 197,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

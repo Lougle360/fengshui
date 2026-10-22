@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-10-15T16:21:16.913519+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "2585fcd20176e9db5b299b9f13cffb433f0b41bc357283a4b8989c6d568a15f3",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002356-p000-a2e52c0b1c",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_guidelines",
+        "action": "rewrite",
+        "modern_text": "天利山向中，壬山丙向为吉利，七巳山亥向为吉利，三四十六二朋乾山巽向为吉利，云月十利山向。艮山坤向、丙山壬向为不利山向。子山午向在年尅中，癸山丁向在年尅中，丑山未向在年尅中，寅山申向在年尅中，天甲山庚向在年尅中，卯山酉向在年尅中，陰地乙山辛向在年尅中，子天生官符。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文断句混乱，部分数字组合（如三四十六二朋）含义不明，可能为传抄错误",
+          "天甲山、子天生等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002357-p000-00b0b15552",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_guidelines",
+        "action": "rewrite",
+        "modern_text": "辰山戌向在年尅中，巽山乾向在年尅中，午山子向为退，丁山癸向为天退，未山五旁符，坤山艮向在年尅中，申山寅向在三殺年中，年尅年。",
+        "confidence": "medium",
+        "uncertainty": [
+          "未山五旁符断句不清，可能为未山、五旁符或五旁符年",
+          "年尅年重复出现，可能为衍文或强调"
+        ]
+      },
+      {
+        "id": "book033-b002358-p000-807f2c724c",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_guidelines",
+        "action": "rewrite",
+        "modern_text": "伏利山向中，坤山艮向为吉利，十三九十申山寅向为吉利，二三六肌庚山甲向为吉利，五十四酉山卯向为吉利，月五六X月丑山寅向为吉利，山甲山庚向为吉利，辰山戌向为吉利，乾山巽向为吉利。不利山向包括：巳山亥向为三殺，壬山丙向为丙手山壬空陰符，坐子山午向为殺地，癸山丁向为宁向殺，坐殺未山艮山为三，卯辛山乙向为吉利，山酉炙退旁符，乙陰亥山巳向为吉利，山辛十天退官，巽山乾向为府陰。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量错乱字符（如肌、X、炙、宁等），无法准确对应原意",
+          "断句极度混乱，多处山向与吉凶描述混杂，难以确定具体对应关系",
+          "府陰、三、宁向殺等术语含义不明"
+        ]
+      },
+      {
+        "id": "book033-b002359-p000-eca793fc47",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_guidelines",
+        "action": "rewrite",
+        "modern_text": "乙酉年大利山向中，巽山乾向为吉利，六肌丙山壬向为吉利，三五九月午山字向为吉利，十九肝一未山丑向为吉利，六七肌小利山向中，壬山丙向为吉利，坤山艮向为吉利，丁山癸向为吉利，西山卯冬星角戍山辰向为吉利，乾山巽向为冬煙後，亥山巳向为冬後。不利山向包括：子山午向为退，癸山丁向为天，丑山未向为伽合名符，寅山甲向为三後，辰山戌向为三縣，巳山亥向为榜中山寅向为二司段。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量疑似错字（如字、肝、伽、縣、榜等），导致部分山向与吉凶描述无法准确对应",
+          "冬星角、冬煙後、伽合名符、三縣、榜中山等术语含义不明"
+        ]
+      },
+      {
+        "id": "book033-b002360-p000-246a7c177f",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_guidelines",
+        "action": "rewrite",
+        "modern_text": "伏利山向中，艮山坤向为吉利，卯山酉向为吉利，三二三111六午山字向为吉利，乾山巽向为吉利。不利山向包括：壬山丙向为年尅，子山午向为年尅，癸山丁向为年尅，三殺年尅，丑山未向为年尅，三殺，寅山申向为十年尅地，官符，甲十山庚向为年尅，乙山辛向为年尅，辰山戌向为年尅，山士坐年为年尅，坤山艮向为年尅，陰符年尅，庚山山甲向为年尅，酉山戌山辰向为年尅，亥山巳向为三殺，羅天退。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在严重错乱（如三二三111六、山士、山甲等），无法准确还原原意",
+          "多处年尅、三殺、羅天退等术语重复出现，断句混乱，难以确定具体对应关系"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2275,
+    "completion_tokens": 1452,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2275,
+      "completion_tokens": 1452,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

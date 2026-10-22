@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:09:00.011199+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a031eb98fae40f33ffbf4ef0ead3b2bcb7a8bbdca8e82bf310e5887b83e1045c",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000956-p000-2597317662",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未提及的‘风水语境’强行赋予‘水石音’等术语含义，属于无依据扩写；‘升谦卦’原文仅提及‘升卦’，误将‘升卦’与‘谦卦’合并为‘升谦卦’，属于漏译与误写"
+        ],
+        "uncertainty": [
+          "■(d)的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 129,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1153,
+      "completion_tokens": 129,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

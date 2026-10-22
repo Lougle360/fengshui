@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-26T03:18:06.859248+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6f60cb83e3a3e87c91f9b9d1c0fa492292c2748b7352e874251edf6e2392c77b",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000018-p000-e92f5038f9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译“始册”信息，原文明确是《青囊经》始册的上卷，候选仅释为“《青囊经》的上卷”，信息不全"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000019-p000-e58f54b187",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000020-p000-be6891e715",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未对原文中多处符号残缺（〇、o、a等）及语义不明内容标注不确定性，将大量无法确定语义的零散文本直接按字面串读为确定表述，不符合含混内容的标注要求；未提及“水”的术语释义",
+          "候选将“宏十0一張水布同六錫火子途a共申不母闔宗”断为“宏十〇一章中，张水布同六锡火子途，共申不母阖宗”属于无依据断句，原文无“章中”相关表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000023-p000-f1a300f24f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量语序混乱、文字残缺的内容，候选随意调整原文语序、合并无关表述，将不可读的残损文本整理为存在确定对应关系的“某某对应某某”的结论，属于无依据增译；对“七流日本于四五口”的释义错误，原文“口”为残损字符，候选臆测为“〇”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000024-p000-5031866c79",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开篇“此齊之下言兆而蔣陰陰六立而一義而陰於推氏陰柔縱極成其一卑陽地原傳育生横臨四形陰然之之道曰陽於紀制”，候选错误断句为“蒋平阶在原传中说：此卷接下来论述兆象，阴柔纵极成其一卑，阳地之制”，无依据调整原文语序，属于误读；原文存在多处残损字符、语序颠倒、语义不明内容，候选将大部分内容直接抄录后仅在末尾标注“具体所指不详”，未对零散的不可读内容逐一标注风险，且部分表述存在无依据断句"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000025-p000-81b455ba61",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文“呎分星宿咷咧”的内容，该部分虽为生僻疑似讹误的内容，不应直接删除；“呎分星宿咷咧”未标注不确定性，候选直接简化为“星宿对应山川”属于无依据释义；未明确提及“五行”的术语释义"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5204,
+    "completion_tokens": 814,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5204,
+      "completion_tokens": 814,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-25T09:00:05.042677+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c76347cd37cbaac940b4a21309bc161a908429ed373721bc3bda9b301c94cdcf",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002466-p000-cdb60e4ac9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 释读中对\"坎\"的注释位置错误：原文\"甲子\"行第二列是\"大雪上坎卦休\"，注释应加在\"坎\"字后，而非\"甲子三七壬\"行第一列的\"坎\"不存在，属于错注；\n2. 释读中对\"癸丑\"行第一列的\"三三艮\"额外添加了\"（八卦之一）\"注释，原文此处仅为干支配数和艮的标注，按照规则，仅对卦象表述中的术语注释即可，此处属于不必要增注；\n3. \"庚寅\"行的\"财二七官\"\"无\"属于表格单元格拆分错误，原文是\"财二七\"\"官无\"两个单元格内容，释读错误合并为\"财二七官\"\"无\"，导致内容错乱；\n4. 原文中\"戊子\"行的\"丁一\"被误写为\"丁-\"，\"壬子\"行的\"丁七\"被误写为\"丁t\"，\"丁丑\"\"己丑\"行的\"丁二\"被误写为\"丁=\"，属于字符识别错误未修正。"
+        ],
+        "uncertainty": [
+          "表格中部分丁类数据识别错误，原字不明，含义无法确定；\"财二七官\"表述为表格拆分错误导致，修正拆分后对应原文为财二七、官无，无其他歧义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3727,
+    "completion_tokens": 345,
+    "cached_prompt_tokens": 3384,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3727,
+      "completion_tokens": 163,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3727,
+      "completion_tokens": 345,
+      "cached_prompt_tokens": 3384,
+      "usage_estimated": false
+    }
+  ]
+}

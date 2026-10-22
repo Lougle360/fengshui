@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T18:22:31.533573+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cf2d80c387d2a74373a75635400e5d2c6135eb88b04f6b07a17145cd3fb9f3b6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001858-p000-7847ac4996",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文的主语‘患上’（此处应为卦爻相关的主体，原文未明确，不可随意替换为‘时运困窘’）；将原文的‘时穷而行必’释为‘时运困窘而行事必然’属于无依据扩写，‘时穷’在此处为卦爻语境下的特定表述，不可随意译为‘时运困窘’"
+        ],
+        "uncertainty": [
+          "原文‘患上’的具体所指未明，‘时穷’的具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 797,
+    "completion_tokens": 157,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 797,
+      "completion_tokens": 157,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

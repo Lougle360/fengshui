@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-24T21:43:17.603583+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7a1d30aad3f0b6a0e4bcce4f63a7b585ffec88c608d092005a6d16fb7c82368f",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000424-p000-ac653e001d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“九蓋燈”被误译为“九盏灯”，“蓋”未释读",
+          "原文“設色紅差九條灸一里八紅”被拆解为“设置红色的差条，施行灸一里八红的做法”，属于无依据拆分文意，“紅差九條”“灸一里八紅”语义未准确释读",
+          "原文“此学造作能說是各佛务法”被译为“这类人为造作的学问，被说成是各位佛的务法”，“务法”属于未转换的古短语，未做通俗处理，且locked_terms中的“水”未按allowed_glossary释为风水语境中河流、水系及其来去形态，直接写为“风与水的排布”不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000425-p000-d9b1b01b35",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "抄方含义不明",
+          "青龙丙相照具体所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 948,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

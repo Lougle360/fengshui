@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-04T01:01:08.256220+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d9cd845c3369d237e51c8ab027e771712f8f59fd0223259ede844bfad4fb295b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000321-p000-66518421a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book028-b000322-p000-e58ea7e7dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'窄格'（原文'窄格'，candidate译为'地势狭窄紧凑'，但'窄格'是特定格局名称，应保留为'窄格'）。",
+          "漏译：'龍格獨腦'（原文'龍格獨腦'，candidate译为'龙脉格局独特'，'独脑'是特定术语，应保留为'独脑'）。",
+          "漏译：'夾穴水眞泉流溝對面仰看形如剖腹觀穴小股卽轉如捧中脉爲尚'（candidate将'夾穴水眞泉流溝'释为'夹在中间的穴地，其水脉如真泉般流淌，沟渠相对'，'真泉'是特定术语，应保留为'真泉'。'觀穴小股卽轉如捧中脉爲尚'释为'观察穴地，若小股脉气转向中央，以捧住中脉为上佳'，'小股'是特定术语，应保留为'小股'）"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000323-p000-98e1b4099e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'飛舞格'（原文'飛舞格'，candidate译为'飞舞格'，但'飛舞格'是特定格局名称，应保留为'飞舞格'）。",
+          "漏译：'龍端衞重'（原文'龍端衞重'，candidate译为'龙脉端正，护卫重重'，'衞重'是特定术语，应保留为'衞重'）。",
+          "漏译：'亦有張超'（原文'亦有張超'，candidate译为'共同出护'，'張超'是特定术语，应保留为'张超'）"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000324-p000-11cab03aba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'潛伏格'（原文'潛伏格'，candidate译为'潜伏格'，但'潛伏格'是特定格局名称，应保留为'潜伏格'）。",
+          "漏译：'亦有國意'（原文'亦有國意'，candidate译为'也有国意'，'國意'是特定术语，应保留为'国意'）。",
+          "漏译：'脈埋無跡稟行必中'（原文'脈埋無跡稟行必中'，candidate译为'脉气埋藏而无痕迹。其禀行必然中肯'，'禀行'是特定术语，应保留为'禀行'）"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000325-p000-ef4cc7ec3c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000326-p000-8dd22f41f2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000327-p000-c94e8757ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "增译：'文中提到'（原文'不多經卷也'，candidate译为'文中提到不多经卷也'，增加了'文中提到'，属于无依据扩写）"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000328-p000-2b2b1ea818",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000329-p000-f9d1b35376",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000331-p000-ecf45f120a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'走馬一體'（原文'走馬一體'，candidate译为'走马一体'，但'走馬一體'是特定格局名称，应保留为'走马一体'）。",
+          "漏译：'不九'（原文'不九'，candidate译为'不凡'，'不九'是特定术语，应保留为'不九'）"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2554,
+    "completion_tokens": 1096,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2554,
+      "completion_tokens": 1096,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

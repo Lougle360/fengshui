@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-25T07:29:42.807173+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c78153a372878f1a2aa0cd9abd20d92639feebcdc6621ca0945dc8c4f562b049",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002171-p000-07aae3745c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002172-p000-4698ca0705",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002173-p000-93cf2b5500",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“离”在原文语境中是“离开”的意思，allowed_glossary中“离：八卦之一”的定义不适用此处，候选释读将“离乡”译为“背井离乡”属于正确语义，但需注意该术语在本句的特定含义，不应误用八卦的释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002174-p000-c601ee2adf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002175-p000-0dfb076d55",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺字，内容不完整"
+        ]
+      },
+      {
+        "id": "book018-b002176-p000-b4b23033b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002178-p000-fcf93eb789",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002179-p000-dea6bdec2d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002180-p000-2154baa1b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002181-p000-d0f2676f60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 579,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2043,
+      "completion_tokens": 579,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T07:30:44.416758+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f3503a09d4e8010edc7fcb71d28d91633c5df1bd3916ece27236962a98306026",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002267-p000-ae6a512eaf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002268-p000-c299e090c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002269-p000-38dee2b04e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002270-p000-c6e290fa06",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002271-p000-70bfda9480",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002272-p000-a61d90834a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原条目为heading类型，原文格式是带##的标题，候选将其改写为普通陈述句，未保留heading层级标识，不符合kind=toc/heading的核对要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002273-p000-66aeea41b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002274-p000-70737158d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002275-p000-7bdda1723b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水潮即是山朝”被误译为“潮水汇聚即是山形朝拱”，此处“水潮”是指水流朝拱穴位，并非现代汉语的“潮水”，属于术语误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002276-p000-46312b2424",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原条目为heading类型，原文格式是带##的标题，候选将其改写为普通陈述句，未保留heading层级标识，不符合kind=toc/heading的核对要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3044,
+    "completion_tokens": 623,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3044,
+      "completion_tokens": 623,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

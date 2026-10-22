@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:33:33.825386+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e4ac7813ee9957b64236896479d46e5ab18214ed350fd48985b793f9d9b5d2d4",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000828-p000-27b76ca8b3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将干支纪月的‘五十一月’‘六十二月’释为‘都在申位’‘从戌位开始’，属于无依据扩写；‘黄道乃程黑道逸’的释读无明确依据，属于主观臆断"
+        ],
+        "uncertainty": [
+          "原文中‘五十一月’‘六十二月’‘黄道乃程黑道逸’具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000829-p000-49102ce5af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000830-p000-f0a9d77e9d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处残缺错乱，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺错乱，无法准确释读，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000831-p000-7bd93466fc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘日干’与‘巳’的搭配无依据，‘巳’为地支，不属于日干范畴，属于专业术语误换"
+        ],
+        "uncertainty": [
+          "原文中‘日干甲乙丙丁戊巳庚辛壬癸’的表述存在歧义，‘巳’是否为日干存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 350,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1138,
+      "completion_tokens": 350,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

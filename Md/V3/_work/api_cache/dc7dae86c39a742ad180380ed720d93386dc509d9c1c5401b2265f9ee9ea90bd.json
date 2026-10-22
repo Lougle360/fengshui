@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-24T22:52:24.588000+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dc7dae86c39a742ad180380ed720d93386dc509d9c1c5401b2265f9ee9ea90bd",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000871-p000-a97bba52fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000872-p000-1b1d598b39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000873-p000-2fc80ce24b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“安公時合局之水”被误译为“安放合局之水”，漏译“公时”相关表述，且擅自改动原文语序"
+        ],
+        "uncertainty": [
+          "原文存在多处字迹错乱、语句不通顺的情况，部分内容难以准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000875-p000-390353b25a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“金於《中州派言空與中，へ言空入門一即”中的日文假名“へ”未作处理，未转换为可理解的标注；“舉出正向丑向星局之例由到即可紅出在内外之”未明确标注“紅出”属于字形错乱无法释读，“向”属于locked_terms，未按allowed_glossary补充释义"
+        ],
+        "uncertainty": [
+          "原文语句存在语序混乱、字迹错乱的情况，部分内容难以准确翻译"
+        ]
+      },
+      {
+        "id": "book017-b000876-p000-c5abb274ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在字迹错乱的情况，部分内容难以准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000878-p000-e56e4b1df7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹错乱、语句不通顺的情况，部分内容难以准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000879-p000-58ad23de7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹错乱、语句不通顺的情况，部分内容难以准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000881-p000-a13ebe538f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“由届元一九九六午起十二午丙子”中的“午”“十二午”未标注为字形讹误；“甲子れ”的日文假名“れ”未作处理；“同七克应卯ー九九六车不同”的“卯”“车”未标注为字形讹误；“寒全水”属于语意不通的错乱内容，不应直接套用allowed_glossary中“水”的释义"
+        ],
+        "uncertainty": [
+          "原文存在多处字迹错乱、语句不通顺的情况，部分内容难以准确翻译"
+        ]
+      },
+      {
+        "id": "book017-b000882-p000-947cf9fd20",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "开头日文假名“ハ”未作处理，未转换为标注说明；“ハ通之初卯”未明确标注内容错乱无法释读"
+        ],
+        "uncertainty": [
+          "原文存在字迹错乱的情况，部分内容难以准确翻译"
+        ]
+      },
+      {
+        "id": "book017-b000884-p000-150b5b3384",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹错乱、语句不通顺的情况，部分内容难以准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3069,
+    "completion_tokens": 883,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3069,
+      "completion_tokens": 883,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

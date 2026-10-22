@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-17T18:48:05.386099+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c97cd95f31e07e58fac708c7d84386aab635e823f842c917734c5deabfb17563",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004373-p000-5282859d2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘上有一層巢燕穴中關手足下朝迎爭高穴在高停上’在candidate中被整体标注为‘具体所指不详’，但candidate将‘爭高穴在高停上’也包含在内，而原文‘爭高穴在高停上’含义相对明确（争高穴在高停之上），不应与前半句混淆标注。",
+          "原文‘若前 平 等中六前可以于下是’在candidate中被标注为‘具体含义不详’，但candidate将‘禹曰’后的内容也归入此句，导致断句错误。原文‘若前 平 等中六前可以于下是’应独立成句，candidate的标注范围不准确。",
+          "candidate将‘中攔穴第八’解释为‘下一节的标题’，这是无依据的扩写。原文‘中攔穴第八’是正文内容，应保留其原文表述，不应擅自解释为标题。"
+        ],
+        "uncertainty": [
+          "‘上有一層巢燕穴中關手足下朝迎’的具体所指",
+          "‘若前 平 等中六前可以于下是’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b004375-p000-9b12b2273a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘抱低’的具体含义",
+          "‘邊龍落右龍藏水砂兩畔’的具体所指",
+          "‘左若乳垂，扦左肾右’的完整含义"
+        ]
+      },
+      {
+        "id": "book035-b004377-p000-ec7b3121a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘專有有孔 即是左子六如無 年于升 龍’的具体含义",
+          "‘凡鼠子穴如人左右手回换一般，即于凹后’的完整含义"
+        ]
+      },
+      {
+        "id": "book035-b004381-p000-26dfa7110f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘禹曰’后的内容‘左右垂争如两手争曲落，扦四上穴乳前气前窠中穴是真，也要前有朝后有应，穴为真的’标注为‘语句不完整，具体所指不详’，但原文‘也要前有朝后有应，穴为真的’含义相对明确，不应与前半句混淆标注。candidate应更精确地指出不确定的部分。"
+        ],
+        "uncertainty": [
+          "‘兩 切要嘲城水后前遮亦有情’的具体含义",
+          "‘上是眞龍也有外垂爭如橫曲手向胸前爭前爭’的具体所指",
+          "‘左右垂争如两手争曲落，扦四上穴乳前气前窠中穴是真’的完整含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1974,
+    "completion_tokens": 736,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1974,
+      "completion_tokens": 736,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

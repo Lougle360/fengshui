@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-18T02:27:47.996573+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "ea17f4b8de68a6b702e46f24459684a8a1b5118da1dcf094027951a07a256431",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005197-p000-9352656f2c",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "此处为《地理天机会元》卷二十六关于九星正变堂气的表格内容，因原文存在大量 OCR 识别错误、字符乱码及排版错乱，无法准确还原表格中的具体数据、口诀及断句，仅能确认该表涉及金、火、水等五行生克关系，以及穴、水、明堂等风水要素的吉凶判断，具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文表格内容存在严重乱码和字符缺失",
+          "无法准确识别表格中的具体数值和对应关系",
+          "部分文字因 OCR 错误导致语义不明"
+        ]
+      },
+      {
+        "id": "book035-b005198-p000-854c5fa071",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "此处为《地理天机会元》卷二十六关于九星穴得扫荡堂气吉凶的表格内容。表格列出了不同穴星（如太阳、太阴、金水、紫气、天财、天罡、孤曜、燥火、扫荡）遇到扫荡堂气时的吉凶判断。其中，太阳、太阴、金水、紫气、孤曜穴得此堂气为上下相生，属吉气，主进人口、旺田庄或财旺；天财穴得此堂气为上下相克，凡事喜相半；天罡、孤曜、燥火、扫荡穴得此堂气则涉及相克或相济，吉凶各异，部分为凶气重凶或半凶。表格末尾注明“天机官板扫荡堂气二十六卷终”。",
+        "confidence": "medium",
+        "uncertainty": [
+          "部分原文字符存在模糊或识别困难，但整体结构可辨"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2737,
+    "completion_tokens": 494,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2737,
+      "completion_tokens": 494,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

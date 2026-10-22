@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:45:24.556657+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "381d2cf942b313fe09ff3f48bf427c3651ffb38f263f1b7f957f702bc58ed509",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000847-p000-ed1e631311",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《皇極經世書》中提到了元、會、運、世這四種時代劃分，但實際上最應該重視的，正如書名所暗示的，是1世等於30年。古時候把三十年稱作一世，難道是隨便說的嗎？要等到教化普遍普及、民眾的情緒才會開始發生一次變化。如果有治世之才，能接續前代興起，那麼即使民眾像夷狄一樣，經過三次變化也能建立帝道。王者有三次變化，以30年乘以3的時間來算，要實現理想社會並非不可能（出自《觀物篇六十》）。另外，正如孔子感慨道「善人治理國家需要一百年（即30年乘以3），還要以此戰勝殘餘、消除殺戮。這句話是真的啊」（出自《論語·子路》），伯的政治經過三十年會發生一次變化，成為王的政治；王的政治經過三十年會發生一次變化，成為帝的政治；帝的政治經過三十年會發生一次變化，成為皇的政治（出自《觀物篇五十九》）。邵雍把年表全部劃分為30年，無非是遵循中國文化傳統，認識到歷史發展中一世一變的重要性的結果。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000848-p000-dc727e51b0",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "邵雍的歷史觀以巨大的循環為其主要特徵。《皇極經世書》的年表確實記載了包含當世在內的129600年，而這129600年被稱為「日甲一」「經日之甲一」「經元之甲一」等，從命名來看，是以存在日乙第2元、日丙第3元……為前提的。宇宙即使在萬物滅亡、氣息消散之後，也會隨即開始新的再生。不過邵雍的循環史觀，正如「三皇是春，五帝是夏，三王是秋，五伯是冬」（出自《觀物篇六十》）所說，只不過是將基於陰陽二氣消長的季節循環展現在歷史之中罷了9）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中「9）」的註釋內容未在提供的文本中出現"
+        ]
+      },
+      {
+        "id": "book015-b000849-p000-493040916a",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 1.2 声音表",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000850-p000-2ce57eee11",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "邵雍的律呂聲音之學也極具個性。他依據自己制定的漢語字音的兩種音素——112個天聲（韻母與聲調）和152個地音（聲母與等位），記錄了所有存在的漢語字音。正因如此，它被視為瞭解宋代語音不可忽視的資料之一。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中「112」「152」的具體所指未在提供的文本中進一步說明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2289,
+    "completion_tokens": 931,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2289,
+      "completion_tokens": 931,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

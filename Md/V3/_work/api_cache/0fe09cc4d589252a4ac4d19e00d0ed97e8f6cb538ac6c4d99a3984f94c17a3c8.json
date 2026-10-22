@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-26T05:05:19.270798+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0fe09cc4d589252a4ac4d19e00d0ed97e8f6cb538ac6c4d99a3984f94c17a3c8",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002312-p000-54d1c25702",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002313-p000-428ab6f5be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是立、眠、坐三种山势对应气上浮、气下坠、气中藏，分别对应天、地、人三势三穴，候选错误将山势与气的对应关系打乱，表述为直立的山是仰势气下坠、还有和势气藏中间，完全违背原文含义",
+          "原文的「眠是山仰氣下墜」「坐是山和氣中蔵」被错误拆分对应，漏译了「眠」「坐」两种山形状态"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002314-p000-8d5c71f1ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002315-p000-82352883d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「情意相而無間」漏译导致语义不完整，应为情意相投无间",
+          "原文「峰特發直中取的」候选释为「在直脉中选取合适的位置」不准确，「的」指靶心，应为在直耸的山峰中选取正中的位置",
+          "原文「低則應心」候选释为「低的相互应和」错误，应是低的位置对应心口高度",
+          "原文「惟有朝山識幸心」候选释为「能体现心意」不准确，「幸心」原文所指不明，不应直接释为心意，应标注存疑",
+          "原文末尾「明堂證穴」是独立的小标题类表述，候选错误将其与前文合并为「明堂可用来验证穴的情况」并错误衔接前文的朝山相关表述"
+        ],
+        "uncertainty": [
+          "「識幸心」具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b002316-p000-4300bb35e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002317-p000-12312e66fd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「小界水」候选释为「小界的水」错误，小界水是风水术语，指穴周划分界限的水流，不应直译",
+          "原文「如盤盛杯如柄籍足」候选释为「如同盘子盛物、以盘为柄，依据足的情况」完全错误，应为如同盘子托着杯子、如同柄依托着底部，属于喻指明堂和穴的关系",
+          "原文「斷無一偏之堂」候选释为「绝没有偏斜的明堂」错误，应为绝不会有只有一侧偏斜的明堂（指明堂偏左则穴左，偏右则穴右，不存在只偏一方却穴在正中的情况）",
+          "原文末尾「茲舉以證穴 水勢證穴」是两个独立内容，前者指明堂证穴，后者是下一个主题水势证穴，候选错误合并为「这里举例用来验证穴的水势，即水势证穴」，混淆了两个主题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002318-p000-a96804643b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「書云水不亂灣」候选漏译，未准确表述为「书上说水不会无故弯曲，弯曲处必有气聚」的含义，仅直译「水不会乱弯」语义不全",
+          "原文「朝水宜高順水宜低」候选未明确说明是穴位的高度对应，即来朝的水适宜穴位偏高，顺流而去的水适宜穴位偏低，表述模糊"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002319-p000-0c28d799d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002320-p000-77fbc7028f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「直來多坐本沮」候选释为「直来的龙多坐本处」错误，「本沮」含义不明，不应擅自释为「本处」，应标注存疑",
+          "原文「樂星不對穴亦不真」候选释为「乐星不对穴，穴也不真实」不准确，应是乐山如果不与穴对应，穴也不是真穴"
+        ],
+        "uncertainty": [
+          "「本沮」具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002321-p000-25d226475e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2963,
+    "completion_tokens": 1269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2963,
+      "completion_tokens": 1269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

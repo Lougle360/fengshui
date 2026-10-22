@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-17T21:05:44.435219+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4b6eda3accac288068e96f8bbf4c81602b12afaa2d7b9d52cadc6a1bab85a1b3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004640-p000-487502f467",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004641-p000-f8116bff97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004642-p000-541095fc29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004644-p000-d6fd5c8602",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004645-p000-9c33df3b78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004646-p000-d59f390f87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004648-p000-30f2d41226",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004650-p000-381ae9c427",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为'金木原來似鳳飛'，candidate译为'木星和金星原来像凤凰飞翔'，将'金木'拆解为两个星体，但原文可能指'金星'和'木星'两种星形，或指'金木'作为一种星体名称。此处存在术语解释风险，应保留原文的含混性。",
+          "原文为'紫氣笏囊垂'，candidate译为'紫气星像笏囊下垂'，将'紫氣'解释为'紫气星'，属于无依据的确定化解释。",
+          "原文为'天財三體形有异凹腦展誥是雙腦'，candidate译为'天财星有三种不同的形体，凹脑和展诰是双脑'，将'天財'解释为'天财星'，将'凹腦展誥'解释为'凹脑和展诰'，均属于无依据的确定化解释。",
+          "原文为'貴人立馬容平腦玉屏風天罡張蓋形相幷孤曜如覆磬燥火尖刀最是凶掃蕩展旗同'，candidate译为'贵人星像立着的马，容平星脑顶平坦，玉屏风星像屏风，天罡星像张开的伞盖，孤曜星像倒扣的磬，燥火星像尖刀最为凶险，扫荡星和展旗星形状相同'。此处将'貴人'、'容平'、'玉屏風'、'天罡'、'孤曜'、'燥火'、'掃蕩'、'展旗'均解释为具体的星名，属于无依据的确定化解释。",
+          "原文为'九個星辰又雙九正體皆居者開口第二懸乳三太極暈中極四是弓腳五雙臂單股居六位七爲側腦不須凝沒胄八爲奇平面原來居第九'，candidate译为'这九个星辰加上双九正体星都居于此，开口星是第二，悬乳星是第三，太极晕中极星是第四，弓脚星是第五，双臂星是第六，单股星是第七，侧脑星是第八，奇平面星是第九'。此处将'開口'、'懸乳'、'太極暈中極'、'弓腳'、'雙臂'、'單股'、'側腦'、'奇平面'均解释为具体的穴格或星名，属于无依据的确定化解释。",
+          "原文为'九變不離母拔砂熟記在心胸'，candidate译为'九变星不离母星。拔砂诀要熟记在心胸'，将'母'解释为'母星'，将'拔砂'解释为'拔砂诀'，均属于无依据的确定化解释。",
+          "原文为'金精親授圖與訣天機皆漏泄'，candidate译为'金精亲自传授图与诀，天机全都泄露'，将'金精'解释为具体人物或神灵，属于无依据的确定化解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004651-p000-c37623a444",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004652-p000-cc715e9f43",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量OCR识别错误、乱码及残缺字符（如'臘綠汙堰腰修上自腿細巧星娠四圍調焗勢圍燦法汙吡嵴上漪'、'退瓶編數網略坊欣磁磁峨响映物碳鋼嚴破墩石莫宜安石虜土穴端無價 1也'等），导致句意严重断裂，无法进行可靠的语义核对。candidate的释读尝试保留了部分可辨识结构，但整体无法判断其准确性。"
+        ],
+        "uncertainty": [
+          "原文损坏严重，无法进行有效审校。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2520,
+    "completion_tokens": 1247,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2520,
+      "completion_tokens": 1247,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

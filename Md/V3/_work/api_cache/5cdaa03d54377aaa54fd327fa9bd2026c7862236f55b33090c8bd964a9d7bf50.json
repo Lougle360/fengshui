@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-26T12:10:54.002807+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-mini-260428",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5cdaa03d54377aaa54fd327fa9bd2026c7862236f55b33090c8bd964a9d7bf50",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000574-p000-7f8301ce75",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文的解读添加了原文未提及的相关事项，属于无依据的补充，不符合原文的严谨性要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000580-p000-83199bc24f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对原文的断句存在错误，将‘五凶三吉元机妙’错误断为‘五凶三吉，元机妙’，破坏了原文的韵律和语义连贯性；candidate准确解读了原文的风水术语和语义，符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000582-p000-8ed4e18336",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current将‘炎滴’错误解读为‘火气与水气’，不符合原文的特定风水术语含义；candidate保留了‘炎滴’的原文表述并结合语境解读，更准确"
+        ],
+        "uncertainty": [
+          "‘炎滴’的具体含义仍存在一定存疑空间"
+        ]
+      },
+      {
+        "id": "book001-b000585-p000-c551577266",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对‘孟仲季行’‘禄马隐行’‘顶中’‘窝内穿筋’等风水术语的解读不够精准，未结合风水语境；candidate的解读更贴合风水典籍的专业表述，准确完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000588-p000-ff3093f41f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current将‘阴阳死绝，生旺晦和’错误解读为‘阴阳处于死绝状态，或处于生、旺、晦、和等不同状态’，语义模糊；candidate准确解读了阴阳状态的分类，符合原文含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000594-p000-f7274f0dcb",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对原文中星曜的风水含义解读不够精准，未体现风水语境下的特定指向；candidate的解读更贴合风水典籍的专业表述，准确完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000597-p000-3d1a482408",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current对‘二五中子亡’的解读存在歧义，未明确是二房或五房；candidate准确解读了原文的房份对应关系，更清晰准确"
+        ],
+        "uncertainty": [
+          "‘燥火与扫荡’的具体影响仍存在一定存疑空间"
+        ]
+      },
+      {
+        "id": "book001-b000598-p000-02ca95d74d",
+        "winner": "current",
+        "candidate_verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "两版内容完全一致，无优劣差异"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000599-p000-1363a8fd77",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对‘金水得朋’‘紫气入宫’等风水术语的解读不够精准，未结合风水语境；candidate的解读更贴合风水典籍的专业表述，准确完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000601-p000-fbc5d5485a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对原文中星曜与方位的对应关系解读不够清晰，未体现风水典籍的专业表述；candidate的解读更贴合风水语境，准确完整"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5355,
+    "completion_tokens": 973,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5355,
+      "completion_tokens": 973,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

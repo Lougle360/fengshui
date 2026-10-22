@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-09-24T01:46:56.156991+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "51cf6f87d6bf4ea04a57fa2f179b9f38b8049541832dc6c0a68d0e8885f8a48c",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000104-p000-750e3ae485",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘造屋未威上財至’的‘威’被误释为‘完工’，无依据；‘後頭典旺’的‘典’未作处理，直接释为‘家运兴旺’不准确，原文无‘家运’相关表述"
+        ],
+        "uncertainty": [
+          "‘造屋未威上財至’的‘威’、‘後頭典旺’的‘典’具体含义不明"
+        ]
+      },
+      {
+        "id": "book006-b000105-p000-dabfbaf7e9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘紀全 主’属于残句，候选将其补为‘后续会出现相关的不利状况’属于无依据增译，且未标注原文残缺"
+        ],
+        "uncertainty": [
+          "原文末尾‘紀全 主’存在残缺，语义不完整"
+        ]
+      },
+      {
+        "id": "book006-b000106-p000-7fc118e743",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000107-p000-1ad4d1aeb6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘動土修濠可歇安寧’被释为‘动土疏浚濠沟可以平息灾祸，获得安宁’，无依据增译了‘平息灾祸’的含义，原文仅表述可获得安宁"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000109-p000-1c3b4ed92b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "伶行具体所指不明"
+        ]
+      },
+      {
+        "id": "book006-b000110-p000-0c1659fec2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘福過圍’被释为‘福分过盛’属于无依据推测；‘立見顏’被释为‘立刻会显现出不好的征兆’属于无依据增译，未明确标注两处短语含义不明，反而将推测作为确定表述"
+        ],
+        "uncertainty": [
+          "福过围、立见颜、福义具体所指不明"
+        ]
+      },
+      {
+        "id": "book006-b000111-p000-7ae7197db6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "肘金语具体所指不明"
+        ]
+      },
+      {
+        "id": "book006-b000112-p000-ec3db728f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘天凢’被直接等同于‘凡是’无依据；‘不信者誠之多驗’被释为‘不相信这个说法的人，相关的应验情况很多’属于语义理解错误，原文含义应为不相信的人应当谨慎对待，此类说法多有应验；‘功室細詳觀可久也’被释为‘相关内容可以在功室中仔细详细地观察考量，就能长期适用’属于无依据增译，未明确‘天凢’‘功室’含义不明就给出确定解释"
+        ],
+        "uncertainty": [
+          "天凢、功室具体所指不明"
+        ]
+      },
+      {
+        "id": "book006-b000113-p000-6df804ec57",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巳未’被误写为‘己未’，干支错误"
+        ],
+        "uncertainty": [
+          "东甫方具体所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1896,
+    "completion_tokens": 937,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1896,
+      "completion_tokens": 937,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

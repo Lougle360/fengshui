@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-24T11:02:39.380492+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9ee6683f510ef57a9506f1e6f24c4faec3ffa180caf87696c3e4d74ce70a78b8",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000127-p000-213fdb15f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“一節”“義心印”“元室”等术语具体所指未明"
+        ]
+      },
+      {
+        "id": "book011-b000128-p000-34b747606a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“官”“卦气”等术语具体所指未明"
+        ]
+      },
+      {
+        "id": "book011-b000129-p000-0162b90e22",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“颠倒二十四山有珠寶近順行，二十四山有火坑”释为“如果颠倒二十四山的方位，就会出现珠宝般的吉地；要是顺着二十四山的方位行事，就会出现火坑般的凶地”，与原文含义相反，原文应为“顺行二十四山有珠宝，颠倒二十四山有火坑”，释读反义"
+        ]
+      },
+      {
+        "id": "book011-b000130-p000-a0b7fd3add",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘元空’‘金龙一经一纬’的具体所指未明确，释读未作无依据认定，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 79,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1744,
+      "completion_tokens": 372,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1022,
+      "completion_tokens": 79,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-26T09:01:35.516137+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ac5040006de3d4d934e5bc9265b3468a86cf8d5675769d3bc1fe941c7f5b3885",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000257-p000-bb17084e3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 对日文内容的释读错误：原文中“吉学合れ在”“台な位だ名”“和出合”“地内不能”“朋于砂水”“创此州古者”“社合志”“力子方注藥”等内容均为OCR识别错乱的中文文字，并非日文，不应判定为日文并进行翻译。2. 将OCR识别乱码的“七卷一自四”拆分为“七卷、1”属于错误拆分，属于无依据提取内容。3. 对数字、干支的提取存在多处遗漏与错误：如原文中“壬寅”“己卯”“己丑”“戊子”“丙戌”“丁酉”“乙未”“甲午”“癸巳”“壬辰”“辛卯”“己丑”“戊子”“丁亥”“丙戌”“乙酉”“甲申”“癸未”“壬午”“辛巳”“庚辰”“己卯”“戊寅”“丁丑”“丙子”“乙亥”“甲戌”“癸酉”“壬申”“辛未”“庚午”“己巳”“戊辰”“丁卯”“丙寅”“乙丑”“甲子”等干支存在漏提，且错误提取了不存在的“2年、五二月、2、000、00、1”等乱码内容。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别残缺、错乱及文字混排的情况，除可明确识别的术语、干支、规则内容外，其余乱码部分具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3278,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3278,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

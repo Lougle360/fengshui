@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:55:22.987743+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6e324ba7ac38aaa07da08e6f3993abe194b84ea76fa6b77ce34b99b31169f8bb",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000018-p000-4a017a9d36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000019-p000-872cf507d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000020-p000-f11bf1ff0d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“子百载”误释为“子百载”，属于对原文表述的错误理解，且“六乡”未明确所指，不应直接释为“六乡之书”"
+        ],
+        "uncertainty": [
+          "原文中“子百载”含义不明，无法准确释读；“六乡”具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000021-p000-ea9cf94615",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“言 二”含义不明，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1926,
+    "completion_tokens": 309,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1926,
+      "completion_tokens": 309,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

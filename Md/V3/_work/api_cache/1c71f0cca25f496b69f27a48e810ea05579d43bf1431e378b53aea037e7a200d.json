@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T12:10:51.604428+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1c71f0cca25f496b69f27a48e810ea05579d43bf1431e378b53aea037e7a200d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000417-p000-96ab2a62e4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的‘鬼乐’‘帐峡燕蔽’‘肺侧龄’‘隐薇’等专名/短语赋予了确定含义，不符合要求；未明确标注‘鬼乐’‘帐峡燕蔽’‘肺侧龄’‘隐薇’等内容原文未明，存在把不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文中‘鬼乐’‘帐峡燕蔽’‘肺侧龄’‘隐薇’等短语具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000418-p000-c15ce097ae",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的‘本星’赋予了‘最为贴近’的确定含义，不符合要求；未明确标注‘本星’具体所指不详，存在把不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文中‘本星’具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000419-p000-bcfbd89250",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的‘南击之’‘拥券作挽篮’赋予了确定含义，不符合要求；未明确标注‘南击之’‘拥券作挽篮’具体所指不详，存在把不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文中‘南击之’‘拥券作挽篮’具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000420-p000-87b4107d94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘鬼尾’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 436,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1384,
+      "completion_tokens": 436,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

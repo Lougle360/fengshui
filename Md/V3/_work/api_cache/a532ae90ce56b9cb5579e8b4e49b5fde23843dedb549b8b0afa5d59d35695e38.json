@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-17T20:25:47.186682+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a532ae90ce56b9cb5579e8b4e49b5fde23843dedb549b8b0afa5d59d35695e38",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004555-p000-4ea28e1f34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004556-p000-3778638061",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容处理为一段连续叙述，完全破坏了原文的并列结构。原文是表格，每行包含两个独立的条目（格名、特征、解曰、要求、吉凶等），候选句将其混为一谈，导致信息归属混乱，无法对应。",
+          "候选句对原文的引用和解释存在多处不准确或增译。例如，将“深四”解释为“四木同荣”的格局，但原文表格中“深四”与“四木同荣”是分开的条目，候选句将其合并。",
+          "存在多处术语或描述误译。例如，“州胰审清声”被译为“州胰审清声”，语义不明，且未标注不确定性；“五马”被直接解释为官职，但原文“官至五马”可能为比喻或特定术语，候选句未作说明。",
+          "候选句将原文中“解曰”等提示性文字也融入叙述，但未明确区分原文引述与释读，导致行文不清。",
+          "候选句遗漏了表格中的部分标记（如“H”、“C”、“G”等），虽然这些可能是排版符号，但作为完整释读应提及或说明其存在。",
+          "候选句将“输苑之官”译为“翰林之官”，属于未经允许的术语替换（allowed_glossary中无此对应）。"
+        ],
+        "uncertainty": [
+          "原文表格格式复杂，部分文字可能存在OCR错误或语义含混（如“州胰审清声”、“五马”），准确的现代汉语释读存在困难。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3058,
+    "completion_tokens": 419,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3058,
+      "completion_tokens": 419,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

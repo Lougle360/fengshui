@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-04T00:21:46.348037+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1a7a432fd39bdfce55d1bd5635472956af83c34e9368088995e8774fcc5023ed",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000976-p000-de935cf465",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'在山鹿者即懸乳穴在星體之下者即脫殺穴其在正體之下思交劍水如月形藏龜所謂水邊花發水中紅者也宜用粘法'，candidate释为'在山麓鹿形处的，是悬乳穴，位于星体之下；在星体之下脱去煞气的，是脱杀穴；在正体之下，若交剑水如月形般藏龟，所谓水边花发、水中红，宜用粘法。' 存在多处问题：1. '在山鹿者' 被增译为'在山麓鹿形处的'，原文'鹿'可能为'麓'之误，但candidate直接解释为'鹿形处'，属于无依据扩写。2. '在星體之下者即脫殺穴' 被释为'在星体之下脱去煞气的，是脱杀穴'，'脱去煞气'是增译，原文仅'脱杀'。3. '其在正體之下思交劍水如月形藏龜' 被释为'在正体之下，若交剑水如月形般藏龟'，原文'思'字未译，且'交剑水'是opaque_term，应保留原样并说明不确定，candidate直接解释为'交剑水如月形般藏龟'，属于将不确定内容写为事实。4. '所谓水边花发、水中红' 原文是'所谓水邊花發水中紅者也'，candidate处理尚可，但整体句意因前述问题而扭曲。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000977-p000-49b0687d95",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'懸乳穴在垂乳 頭粘山麓處結 段脱穴宜用粘法以綴杖下之'，candidate释为'懸乳穴位于垂乳部位，在头部紧贴山脚处结穴，若出现脱穴的情况，宜采用粘法，用缀杖来下穴。' 存在增译和误译：1. '段脱穴' 被释为'若出现脱穴的情况'，'段'字未译，且'脱穴'是特定术语，不应解释为'脱穴的情况'。2. '以綴杖下之' 被释为'用缀杖来下穴'，'下穴'是增译，原文'下之'指下葬或点穴操作，但candidate的表述不够准确，且'缀杖'是风水术语，应保留原样或按allowed_glossary解释，但glossary中无定义，故应保留原词并说明不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000980-p000-b0121d54d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000981-p000-0130419236",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“张紫遗真人穴 ml”，ml具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000983-p000-e3eefa0c79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000984-p000-5d04968cc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000985-p000-ab4958d41b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重残缺，语序混乱，无法还原完整句意"
+        ]
+      },
+      {
+        "id": "book033-b000986-p000-7c7d59a542",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'若左右山低應案又低須就財祿而點地穴不可含遠山而點天穴與人穴侯也'，candidate释为'如果左右山低，案山也低，就应当就着财禄来点地穴，不可因为远处有山就点天穴或人穴。' 问题：'侯也' 被遗漏未译。'侯'在此处应为'凶'或'不好'之意，漏译导致语义不完整。",
+          "原文'如點天穴人穴則左右山皆蹄倒在脚下既踏落左右山應案山在脚下便是則山不上手定主資財耗散'，candidate释为'如果点了天穴或人穴，左右山就会像蹄子一样倒落在脚下；如果左右山和案山都在脚下，那就是山不上手，定主资财耗散。' 问题：'既踏落左右山應案山在脚下便是則山不上手' 的断句和逻辑关系在candidate中处理得有些生硬，但基本意思尚可，可接受。",
+          "原文'若左右山高大應案山亦高大遮蔽前山雖尋高處見前山分明合點天穴不可怕穴高水跌又玄武觜長反點人穴地穴俱為侯也'，candidate释为'如果左右山高大，案山也高大，遮蔽前山，虽然寻找高处见前山分明，合点天穴，也不怕穴高水跌；但如果玄武嘴长，反而点人穴或地穴，都属于侯（凶）的情况。' 问题：'不可怕穴高水跌' 被释为'也不怕穴高水跌'，语气和逻辑有细微偏差，原文是'合点天穴不可怕穴高水跌'，意思是'适合点天穴，不要怕穴高水跌'，candidate的'也不怕'稍显绝对，但整体意思接近，可接受。但'侯也'再次被处理为'（凶）'，属于合理推测，但未标注不确定性。",
+          "原文'若左右山應案山不高不低則當就財祿而點人穴為當不可怕玄武長水跌而點地穴'，candidate释为'如果左右山和案山不高不低，就应当就着财禄点人穴为当，不怕玄武长、水跌而点地穴'。问题：'不可怕玄武長水跌而點地穴' 被释为'不怕玄武长、水跌而点地穴'，逻辑反了。原文意思是'不要因为怕玄武长、水跌而去点地穴'，candidate释为'不怕...而点地穴'，意思相反。这是反义错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000987-p000-44cad48c8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000988-p000-3fa42c8074",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重残缺、错乱，无法还原完整句意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4358,
+    "completion_tokens": 1645,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4358,
+      "completion_tokens": 1645,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

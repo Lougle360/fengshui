@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T08:04:32.681884+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c36761c5eabfc26f63991f3740135b34010019714a0d4b92686529c53a2e10eb",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002491-p000-23832cedf4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文的‘龙虎凶格’‘第一格龙虎相斗’中的‘龙虎’指龙虎砂，候选误改为‘龙、水’，属于专业术语误换，与原文语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002492-p000-c510180f0b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中所有‘龙虎’相关的格局表述，候选均误改为‘龙、水’，与原文指代的龙虎砂含义不符，属于专业术语批量误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002493-p000-25ea407c69",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002495-p000-6bc7aa35fa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘反此同推’指白虎凶格和青龙凶格推算方法相同、仅左右相反，候选误译为‘推算方法与此相反’，属于语义反译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002498-p000-9c8a8be77d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002499-p000-c2c2da0abc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002500-p000-c62d2af80f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002501-p000-afcab037ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002504-p000-1f7ef10beb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002506-p000-21d1e851e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4793,
+    "completion_tokens": 612,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4793,
+      "completion_tokens": 612,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

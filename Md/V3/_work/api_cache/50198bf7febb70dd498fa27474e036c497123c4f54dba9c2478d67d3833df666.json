@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T18:21:53.995281+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "50198bf7febb70dd498fa27474e036c497123c4f54dba9c2478d67d3833df666",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001844-p000-e06ad0f61c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001845-p000-afbc75f186",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘邑人之灾’的释读存在偏差，原文明确为‘邑中人家将遭受诘捕的飞灾’，候选句仅笼统表述为‘这对邑中的人家来说就是一场灾祸’，未体现原文中‘诘捕’的特定含义，属于语义遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001846-p000-5ac3125a93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001847-p000-486fa2d85c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“玩颐”的含义未明确，释读未对该部分内容进行准确处理，存在歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 923,
+    "completion_tokens": 77,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1584,
+      "completion_tokens": 313,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 923,
+      "completion_tokens": 77,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

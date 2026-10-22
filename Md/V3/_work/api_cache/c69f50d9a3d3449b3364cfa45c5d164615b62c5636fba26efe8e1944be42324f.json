@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T06:45:47.552908+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c69f50d9a3d3449b3364cfa45c5d164615b62c5636fba26efe8e1944be42324f",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001919-p001-4fb72e0d3e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘黄副官’，候选错写为‘黄副宪’，官职名称错误，与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001926-p000-aeebdfb893",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘酥在盏’‘骑刑破杀’‘交剑水’‘鳖裙绝’为风水专业术语，原文未作解释，释读保留原表述符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1633,
+    "completion_tokens": 162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1633,
+      "completion_tokens": 162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

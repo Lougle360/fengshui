@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:12:57.891587+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f0e34e65fa5b34c66e5e3eb94163e2ad8dcabca4fae72c1468d3d8ca57f7819a",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000468-p000-bab8d9ff03",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000471-p000-c39887fc93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000472-p000-69c06ad05d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文末句「及開師樂不川」存在訛誤，無法確定含義"
+        ],
+        "uncertainty": [
+          "原文末句「及開師樂不川」疑有訛誤，含義不確定"
+        ]
+      },
+      {
+        "id": "book014-b000473-p000-32054657c8",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多處句段含義不確定，「閣扇獄掀」疑有訛誤"
+        ],
+        "uncertainty": [
+          "原文「凡全望火應較金頸木曲為吏四」「明昵驛」「志與木廣同」「四小泡微輝」等句段含義不確定，「閣扇獄掀」疑有訛誤"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1980,
+    "completion_tokens": 348,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1980,
+      "completion_tokens": 348,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

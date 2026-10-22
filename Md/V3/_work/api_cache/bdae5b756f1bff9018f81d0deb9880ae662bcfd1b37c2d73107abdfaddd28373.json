@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-09-25T09:45:25.737218+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bdae5b756f1bff9018f81d0deb9880ae662bcfd1b37c2d73107abdfaddd28373",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002597-p000-4579eec888",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002598-p000-9acbf178f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002599-p000-4f5ad43a36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002600-p000-58920bf299",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002602-p000-fe9b1a3e52",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的“乱离”是指动乱流离，属于普通词汇，此处的“离”并非locked_terms中规定的八卦之一，候选释读无需受术语限定，但原文结尾“此维术家之说，然亦不为无”存在脱漏，候选释读自行补出“道理”属于无依据增译，且未标注原文脱漏情况。另外原文“亦有全力”存在语义不通，应为“亦无全力”，候选释读译作“也没有全部的效力”属于合理校改，但未标注校改说明，不符合规范。"
+        ],
+        "uncertainty": [
+          "原文末尾存在脱漏，“然亦不为无”后缺少成分，具体内容不详；原文“亦有全力”疑为“亦无全力”的讹误，无其他版本佐证。"
+        ]
+      },
+      {
+        "id": "book018-b002603-p000-49d1345d72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002604-p000-1c403c3c75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不容诛矣”意为罪大恶极，即使诛杀也抵偿不了罪责，候选释读译作“不容诛杀”语义完全相反，属于严重误译。原文“离山”的“离”为八卦之一，符合locked_terms规定，候选释读未保留“离”的术语属性直接释读为“离山”属于未明确标注专业术语，但未改变含义，可补充说明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4637,
+    "completion_tokens": 755,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4637,
+      "completion_tokens": 755,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

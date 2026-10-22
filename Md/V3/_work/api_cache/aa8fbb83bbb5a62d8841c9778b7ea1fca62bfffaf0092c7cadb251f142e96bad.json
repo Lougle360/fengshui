@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-17T22:06:32.391845+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "aa8fbb83bbb5a62d8841c9778b7ea1fca62bfffaf0092c7cadb251f142e96bad",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004761-p000-0258153397",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004762-p000-87d7ad03be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'衣不畏右砂送水'，candidate译为'衣禄无忧，不畏惧右砂送水'，将'衣不畏'拆解为'衣禄无忧'和'不畏惧'，属于无依据的扩写。应保留'衣不畏'的含混性，或仅译为'不畏惧右砂送水'。",
+          "原文'領蘆'，candidate保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'领芦（具体所指不详）'。"
+        ],
+        "uncertainty": [
+          "原文'請舉登科'中'請舉'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004763-p000-0e089ea3b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'婦聯居斡龍大盡'，candidate译为'形势相关'并保留原词，但'妇联'一词在现代中文中有明确指代，此处理易引起误解。应直接保留原词并说明语意晦涩，避免任何现代概念的联想。",
+          "原文'生背跎'，candidate保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'生背跎（具体所指不详）'。"
+        ],
+        "uncertainty": [
+          "原文'吐名'语意不明。",
+          "原文'請舉'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004764-p000-1f7347a4ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004765-p000-fafb14e9a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'產粘穴'，candidate保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'产粘穴（具体所指不详）'。",
+          "原文'領蘆'，candidate保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'领芦（具体所指不详）'。",
+          "原文'考爬面'，candidate保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'考爬面（具体所指不详）'。"
+        ],
+        "uncertainty": [
+          "原文'尋萌樂'语意稍显晦涩。",
+          "原文'請舉'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004766-p000-55b6b9a5f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004767-p000-4cac944ee5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'轉運坑治'、'盤市驛'、'納栗官員'、'官擔'，candidate均保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'转运坑治（具体所指不详）'等。"
+        ],
+        "uncertainty": [
+          "原文'高伐'语意稍显晦涩。"
+        ]
+      },
+      {
+        "id": "book035-b004769-p000-246da428f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004770-p000-fb2f69dc45",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'朋王體'、'員金'、'轉水'、'轉土'，candidate保留原词但未加引号或说明，不符合opaque_terms处理要求。应明确标注为含混术语，如'朋王体（具体所指不详）'等。"
+        ],
+        "uncertainty": [
+          "原文'圖說見正體篇'等图说内容未提供。"
+        ]
+      },
+      {
+        "id": "book035-b004771-p000-24b7bc3239",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6165,
+    "completion_tokens": 1057,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6165,
+      "completion_tokens": 1057,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

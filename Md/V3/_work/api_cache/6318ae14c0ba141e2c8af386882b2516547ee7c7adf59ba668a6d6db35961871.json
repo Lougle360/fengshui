@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-17T08:19:37.667651+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6318ae14c0ba141e2c8af386882b2516547ee7c7adf59ba668a6d6db35961871",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002967-p000-dde0449436",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002968-p000-c0dea0392b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'若逢大領君試比奉秦着'含义不明，candidate将其解释为'应当像奉秦朝律令一样谨慎对待'，这是无依据的扩写和推测，将不确定的原文写成了确定事实。应保留原文的模糊性，或标注'原文此句含义不明'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002969-p000-7e9c20eb33",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002970-p000-7e1f5eb2fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002971-p000-2009a4e436",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002972-p000-dd23c96552",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'如韓柳歐穌之輩也'，candidate译为'如韩愈、柳宗元、欧阳修、苏轼之辈'。'歐穌'通常指欧阳修和苏轼，但'穌'字是'蘇'的异体或讹写，直接译为'苏轼'是合理的推测，但属于将不确定的原文（可能存在讹字）写成了确定事实。应标注原文用字，并说明通常的理解。",
+          "原文'若方有亦子貴金更爲第一'，candidate译为'若方有砂，亦主子贵，更为第一'。此处'若方有亦子貴金'文句不通，candidate的解读'若方有砂'是推测性补足，且将'金'字忽略或处理为'第一'的修饰，缺乏依据。应指出原文此句可能残缺或有误，含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002973-p000-a541e4d97d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在明显讹误或缺字，导致后半句含义不清，无法完整还原"
+        ]
+      },
+      {
+        "id": "book035-b002974-p000-56dc39db14",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'理姑繅系白如雪'，candidate完全照搬，未做任何解释或标注。作为白话释读，对于这种明显晦涩的短语，应明确标注'具体所指不详'或'原文此句含义不明'，而不是直接嵌入。",
+          "原文'洋洋流能充蒲之意'，candidate译为'洋洋流能充蒲之意'，这几乎是直译，且'充蒲之意'对现代读者而言依然费解。应指出此短语含义不明。",
+          "原文'四神八將 三陽水潮歸鬼鄉義門壽考同休光 輝也'，candidate处理为'四神八将指三阳水潮归鬼乡，义门寿考同休光辉。'，将原文的断句和逻辑关系做了整合，但'指'字的添加改变了原文并列或解释的语气，属于无依据的改写。应更贴近原文结构，或说明原文此处文意衔接方式。"
+        ],
+        "uncertainty": [
+          "部分词句如'理姑繅系'、'充蒲之意'含义晦涩，虽尝试依上下文推导，但具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002975-p000-f4018a5585",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002976-p000-bd308fb837",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'玉敵國富豪直無倫'，candidate译为'玉敌国富豪直无伦'，几乎是直译，'玉敌国'对现代读者而言含义不明。应标注'此短语具体所指不详'。",
+          "原文'天庚二方有水者主 艮之事無論總比者'，candidate译为'天庚二方有水者主艮之事，无论总比者'。'艮之事'、'总比者'均未解释，直接嵌入，读者无法理解。应指出这些术语或短语在上下文中含义不明。",
+          "原文'三軍 總莫之宮也'，candidate译为'三军总莫之宫也'，直译且费解。应标注'此句具体所指不详'。"
+        ],
+        "uncertainty": [
+          "原文'玉敌国'、'总比者'、'总莫之宫'等词句含义晦涩，虽依上下文推测与富贵、将相有关，但具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3256,
+    "completion_tokens": 1250,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3256,
+      "completion_tokens": 1250,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

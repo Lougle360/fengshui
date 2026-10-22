@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:47:38.488544+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "38fb7a5246de5b0114caeae8da34ccd38c6e6298f119436153d8745d9f99204a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002155-p000-72efbc4e31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002156-p000-d4a81f1de7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文《象传》内容存在断句残缺，候选句未保留原文残缺的表述，直接补全为完整卦象释读，属于对原文内容的不当补全"
+        ],
+        "uncertainty": [
+          "原文《象传》部分内容残缺，具体含义存在歧义"
+        ]
+      },
+      {
+        "id": "book016-b002157-p000-3483f4bde3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002158-p000-a6bc2d41c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1766,
+    "completion_tokens": 276,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1766,
+      "completion_tokens": 276,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

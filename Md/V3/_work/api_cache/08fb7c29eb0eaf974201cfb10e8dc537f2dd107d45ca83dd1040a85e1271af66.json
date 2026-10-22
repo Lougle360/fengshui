@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T07:18:23.244317+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "08fb7c29eb0eaf974201cfb10e8dc537f2dd107d45ca83dd1040a85e1271af66",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000046-p000-84f99c7620",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“皆龍 憂越不龍者”被误释为“皆爲龍的體現。那些看似不龍的”，漏译“憂越”相关内容，语义衔接错误；source中“所離廉 德之行者談玄說滯盡屬”被误释为“所践行的廉德之行。那些談玄說滯的，全屬空談”，属于无依据补译，原文“所離廉德之行者”未提及“践行”，“盡屬”后原文未明确内容，补“空談”无依据；source中“壽十九震通脉難於田中日度水矣”被释为“有人說是窮盡了，壽十九，震通脈難於田中日度水”，属于OCR残损内容直接照搬，未标注原文字义不明；source中“人霉標題”“善晉肖”“周粒頑衣狼”“泗别裏”“博養一作搏挖一作剩”等OCR错漏内容未明确标注为识别错误，直接掺入释读，可能误导读者；source中“仙蹤者古餉所作之名墓也”被误释为“尤在仙蹤是古人所作的名墓”，“古餉”未识别为OCR错误，释读不通；source中“多有奇迹今 廣 其藏見然必其心之靈目之巧”被误释为“如今廣泛收藏”，原文“廣其藏見”未明确为“收藏”，属于无依据释义；source中“或粗為傾敬”被直接照搬，“傾敬”为OCR错误未标注；source中“縣氣也”“取縣於龍”的“縣”为OCR错误未标注，直接照录释读"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱内容，如“壽十九震通脉難於田中日度水矣”“人霉標題”“善晉肖”“周粒頑衣狼”“泗别裏”“博養一作搏挖一作剩”“古餉”“傾敬”“縣氣”等，具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3256,
+    "completion_tokens": 543,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3256,
+      "completion_tokens": 543,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

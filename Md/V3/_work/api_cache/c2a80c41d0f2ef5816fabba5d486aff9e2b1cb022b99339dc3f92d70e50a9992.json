@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T09:25:41.660275+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c2a80c41d0f2ef5816fabba5d486aff9e2b1cb022b99339dc3f92d70e50a9992",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000259-p000-20da61addf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“迁阳穴”误释为“迁阳穴”（原文应为“扦阳穴”，属于专业术语误换）；“法塟其止”释为“法葬其止”但未明确风水语境下的含义；“不用饶成”释为“不用饶成”，未明确“饶成”的风水含义；部分语句逻辑衔接存在偏差，如“正穴必然具备枝左逆转”表述不通顺"
+        ]
+      },
+      {
+        "id": "book010-b000262-p000-da23d235b0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处OCR识别错误，如“牧国彙使陷”“抽轨生气”“阴卷”等均无法依据现有信息确定准确含义，保守释读无法成立"
+        ]
+      },
+      {
+        "id": "book010-b000264-p000-98a3f29936",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000268-p000-ad385000c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 342,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2043,
+      "completion_tokens": 342,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

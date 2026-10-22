@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T11:07:31.480334+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2f41a595188760d16e0358235830a8a231f5a882a95da810bf246a1acb7779ca",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000061-p000-c00acac630",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000062-p000-694acf84f5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "此处“宗廟”具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000064-p000-15f6a5b6cb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "此处“贪狼星”“文帝”具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000065-p000-fc5d8c057d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1544,
+      "completion_tokens": 236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

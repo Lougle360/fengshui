@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T15:27:47.173789+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "226f70efd026e511a28ddbba4eeb25cd702bc7eb362c81384c44eb99fa52bfe0",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001090-p000-5a362dec07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001091-p000-101ab27868",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "保留了原文日文引用未翻译，不符合将日文转换成现代中文的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001092-p000-b794a5234c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001093-p000-ccbffbbe37",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "保留了原文日文引用未翻译，不符合将日文转换成现代中文的要求"
+        ],
+        "uncertainty": [
+          "原文此处直接引用《周易折中》凡例内容，未对引用内容进行翻译，保留原文表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3184,
+    "completion_tokens": 280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3184,
+      "completion_tokens": 280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

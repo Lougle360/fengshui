@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T11:49:42.126313+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "df23d06ca9c5b531e434fe9f3ae027b78b4e8a48c7a635e207976019349eaa49",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000804-p000-ad63b4be32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000806-p000-32d269c6ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“穴下水城如遶抱”，候选误释为“穴场周围的水呈环抱之态”，把“穴下”改成了“穴场周围”，位置描述出错；原文“文兼森劍氣寒 印浮水面笏橫前”被误串译为“文才如森然剑戟般出众，气势如寒印浮于水面，笏板横陈于前方”，拆分错原句语义；locked_term“震”是八卦之一，候选写成“高震之人才”，未明确术语属性且无依据将其等同于人才类表述；额外冗余标注“（水）”属于不必要重复"
+        ],
+        "uncertainty": [
+          "“高震”具体所指原文未明，需标注不确定性"
+        ]
+      },
+      {
+        "id": "book024-b000807-p000-361ad89b45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000808-p000-f413ece2d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000811-p000-84b64c3ea9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序为“邪 後福必傾 來斜縱能 山尨已脉木 斜水侵山格”，候选释读语序调整无依据，“山尨已脉木”被误译为“山形高大，气脉已斜”，含义偏离原文；额外冗余标注“（水）”属于不必要重复"
+        ],
+        "uncertainty": [
+          "原文存在语序混乱、语义模糊处，需标注相关不确定性"
+        ]
+      },
+      {
+        "id": "book024-b000812-p000-3a183b1ddc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000813-p000-5f1ea6198d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000817-p000-f7ff5e130c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“池後安防瓶下 法青平三傾斜 脉更維更相方圓 扁持巴各有宣”释读无依据，“安防瓶下”被误译为“宜安放瓶形之物”，属于无依据增译；“法青平三倾斜”“扁持巴各有宣”等模糊内容被直接释读为确定含义，不符合要求"
+        ],
+        "uncertainty": [
+          "原文多处语句残缺、语义不明，需明确标注具体存疑段落"
+        ]
+      },
+      {
+        "id": "book024-b000818-p000-1bfd487768",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“尺八約永梭近”被误译为“大小约为尺八，形状似永梭”，属于无依据的确定性释读，“尺八”“永梭”的具体含义原文未明，不应直接解读为尺寸和形状描述"
+        ],
+        "uncertainty": [
+          "整句语义模糊，无法确定“尺八”“永梭”的具体所指"
+        ]
+      },
+      {
+        "id": "book024-b000819-p000-23b16d7f4b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1917,
+    "completion_tokens": 1001,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1917,
+      "completion_tokens": 1001,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

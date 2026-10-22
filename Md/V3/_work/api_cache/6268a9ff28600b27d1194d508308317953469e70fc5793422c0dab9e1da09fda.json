@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-16T14:51:17.372516+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6268a9ff28600b27d1194d508308317953469e70fc5793422c0dab9e1da09fda",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002565-p000-95e4a63e21",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将原文的‘午丁生意豈乘坎癸之重求合之者未之是牛下生向之舟而而而凡地水不于水成出合之所’进行了大幅度的意译和重组，但存在严重问题：1. 原文‘牛下生向之舟’被拆解为‘下生向的舟船’，‘牛’字被忽略，这属于漏译。2. ‘而而而’被完全忽略，未做任何处理，属于漏译。3. ‘不于水成出合之所’被解释为‘若不于水成之处相合，便无法成立’，这是基于猜测的扩写，原文并无此明确逻辑。candidate 试图构建一个完整的白话句子，但多处脱离了原文的词语和结构，未能忠实反映原文的混乱状态，也未明确标注这些不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002566-p000-859392a9c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "kind 为 heading，但 candidate 没有保留标题的格式（如‘##’）和原文的层级信息，而是将其改写为一句描述性的话。这不符合对标题类内容的处理要求，标题应尽量保持原样或进行最简明的直译，不应增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002567-p000-1f3566d164",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 几乎是对 source 的逐字直译，没有将其转换为‘普通读者能读懂的白话释读’。原文存在大量错乱字符，candidate 只是将其机械地串联成句，没有进行任何逻辑重组或白话解释，导致释读结果完全不可读，不符合 V3 目标。writer_uncertainty 中提到的‘最勉强的逻辑重组’在 candidate 中并未体现。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002568-p000-a348e945c0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "五狱四清",
+          "昆狱",
+          "仑山"
+        ]
+      },
+      {
+        "id": "book035-b002569-p000-889bb3a7d3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 几乎是对 source 的逐字直译，没有将其转换为‘普通读者能读懂的白话释读’。原文存在大量错乱字符，candidate 只是将其机械地串联成句，没有进行任何逻辑重组或白话解释，导致释读结果完全不可读，不符合 V3 目标。writer_uncertainty 中提到的‘最保守的重组’在 candidate 中并未体现。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002570-p000-81a9c04eec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 几乎是对 source 的逐字直译，没有将其转换为‘普通读者能读懂的白话释读’。原文存在大量错乱字符，candidate 只是将其机械地串联成句，没有进行任何逻辑重组或白话解释，导致释读结果完全不可读，不符合 V3 目标。writer_uncertainty 中提到的‘最保守的白话重构’在 candidate 中并未体现。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002571-p000-59814dd17b",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错字与语序混乱（如‘佳结’、‘桂角’、‘议周园匝’、‘曲蜥’、‘微庄案’等），导致句意难以确证。候选句已进行最保守的白话重构，保留了原文的模糊性，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b002572-p000-38e0f4bb4c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002574-p000-6d4c8b1082",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘平城’、‘变全’等词在风水语境中较为生僻或可能存在异文，但整体句意尚可推断。候选句处理得当。"
+        ]
+      },
+      {
+        "id": "book035-b002575-p000-3f76cefea4",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错字、衍文及语序混乱（如‘刘相木’、‘此氏亦金’、‘五纹庚’、‘氟辰’、‘双旺神坤五丁子三山休长良行’等），导致句意支离破碎，难以确证。候选句仅依据术语进行最保守的重构，未进行无依据的解释，符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2494,
+    "completion_tokens": 409,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5212,
+      "completion_tokens": 1191,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2494,
+      "completion_tokens": 409,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

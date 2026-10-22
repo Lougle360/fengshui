@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T09:02:26.868862+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9f5258df7bdb4be3c862790ef888a3e7bade1020368591d15c5dc5d0b88f9b67",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000120-p000-8d7cee0d79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000121-p000-85a50ec64b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“紅沉”释为“生气下沉”，无依据；将“泅水”误写为“泅水”（原文为“泗”）；将“秋術”误释为“秋术”，原文未明；将“祖公刘”误释为“祖公刘”，原文为“祖公刘”（此处为原文用字，非释读错误，但“秋術”“紅沉”“泅水”的释读存在问题）"
+        ],
+        "uncertainty": [
+          "原文中“紅沉”具体所指不详，释为“生气下沉”无依据；原文部分语句断句、用字模糊，如“聚在卒夷炁浮”“紅沉低理”等，释义为保守推测"
+        ]
+      },
+      {
+        "id": "book010-b000122-p000-33cc0c6237",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000123-p000-74b15f6edb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中模糊的推测性语句（如“秋术天机”“连祖公刘截断象川流”）当作确定事实释读，存在无依据扩写；部分语句释读不符合原文断句、用字模糊的情况，如“秋术天机”“连祖公刘截断象川流”等内容未明确标注为推测"
+        ],
+        "uncertainty": [
+          "原文中部分语句存在断句、用字模糊的情况，如“現去水孫抱斯為美”“相其阴阳定向首景岡”等，释义为保守推测"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1528,
+    "completion_tokens": 218,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2269,
+      "completion_tokens": 510,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1528,
+      "completion_tokens": 218,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

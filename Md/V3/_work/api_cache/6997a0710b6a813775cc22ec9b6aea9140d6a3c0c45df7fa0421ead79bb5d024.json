@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-24T21:59:33.679526+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6997a0710b6a813775cc22ec9b6aea9140d6a3c0c45df7fa0421ead79bb5d024",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000550-p000-2bc54ca41e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名「ね」未处理，原文表述「今ね其所1撰公心眼指」被误断为「如今1所撰写的《公心眼指》，错误将「公心眼指」加书名号且断句错误，原文「脊擇」被误译为「进行选择」，属于漏译和误译"
+        ],
+        "uncertainty": [
+          "「形童甫对此心领神」表述不完整，具体含义不详",
+          "「本益特野」「异提言空家」具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000551-p000-be982aee92",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「今亦恩公補足」被误译为「如今承蒙公补足」，漏译「恩」字；原文「限於體判」被误译为「限于体例」，属误译；原文「細言空水清之要上者」被误译为「仔细探究水的关键要义，这是上等的内容」，漏译「言空」，断句错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000552-p000-7e8c870548",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000553-p000-65c78b40f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000554-p000-6812490b48",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「端的應兮差」被误译为「确切地对应着差异」，属于误译，「差」在此处是否指差异无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000556-p000-10ebed3aa7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在日文假名「な」未处理，原文「皇說經紜一啞進說猜自唐宋以王猜誰者言社會猶倉玄甚至自行創亡法則」断句完全错误，将「進說猜」提前到「自唐宋以来」之前，「創亡法則」被误译为「创立亡法」，漏译「則」字，且随意断句导致语义完全偏离"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别错误，语义不通顺"
+        ]
+      },
+      {
+        "id": "book017-b000557-p000-f53fff9f10",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文日文假名「ね」「た」「っ」未处理，原文「四個た何謂っ四個一 7 四個二」被误译为「四个什么？四个一、7个四个二」，「7」是原文序号被误读为数量词，「志東屈而卦不司也」被误译为「志在东方，此卦不司职相关事务」，漏译「屈而」，属于误译"
+        ],
+        "uncertainty": [
+          "「经四住起父母」「位对」「官会三卦，总该八」具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000559-p000-074b7f8aa1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文字识别残缺，除明确留存的数字和字符外，其余内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000560-p000-7b466c7981",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「茫如捕分」被误译为「如同捕捉分数」，「捕分」属于无依据臆译；原文「是真以謎解誰」被误译为「真可谓是以谜解谜」，属于无依据补译，原文无「谜」字对应第二个「谜」的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000561-p000-a2991abc84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「細說幸誰」被误译为「仔细探究却不知其究竟」，属于无依据臆译，无对应语义支撑"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2360,
+    "completion_tokens": 1149,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2360,
+      "completion_tokens": 1149,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

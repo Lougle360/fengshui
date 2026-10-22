@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T22:26:42.071469+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "343a1e25488161862f9a09ec8fb7ff8335e0f6f64a50d9732b0bd49a9116397b",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001821-p000-1e4107a5ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "福德卦五鬼卦为福德五鬼在福德的具体含义",
+          "泰用的具体所指"
+        ]
+      },
+      {
+        "id": "book029-b001827-p000-8d59947c7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "五德的具体所指",
+          "绝命为五鬼的具体含义",
+          "泰用的具体所指"
+        ]
+      },
+      {
+        "id": "book029-b001829-p000-d982a9f298",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文的“不合陰湯”被误译为“不符合阴阳规则”，属于无依据释义，“陰湯”属于不明专名，不得随意解读；原文的“越鳳”未标注为身份不明人物，直接作为确定人名使用存在风险",
+          "原文“推水用此定吉凶”被释读为“推算水的相关情况时，用此卦判定吉凶”，存在偏差，结合语境应为“推算风水方位、水系相关的吉凶时用此卦”，但漏了和“向水”的对应关联"
+        ],
+        "uncertainty": [
+          "阴汤的具体所指",
+          "越凤的具体身份"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 324,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1290,
+      "completion_tokens": 324,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

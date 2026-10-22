@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T08:45:06.368893+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c47e7e4d4c150567d25bf02261c642556aecdcf87f70ad1288549b4e389926e9",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000282-p000-142547f87d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000283-p000-907939fc52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000284-p000-26767ee348",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“于变万化”为OCR识别错误，应为“千变万化”，candidate直接使用“千变万化”未标注识别修正情况；原文“触而、长之”为标点/识别错误，应为“触而长之”，candidate释为“触类旁通”虽含义相近，但未标注原文存在的讹误；原文“玄功可以盗天地之机”的“盗”释为“窃取”不符合风水术语的惯用表意，此处“盗”指契合、凭借天地规律，属于词义误释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000286-p000-54fc6c498e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000287-p000-561ffd5281",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR错乱，“叠天而下”被识别为“天而下”，已按可辨识文意补全相关表述"
+        ]
+      },
+      {
+        "id": "book023-b000289-p000-402ea867fd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“有珑中峙”的“珑”未释读，candidate直接释为“隆起的地势”无依据，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000290-p000-0afc3612cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000291-p000-b188a8df58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000292-p000-03396b3f6a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“受幕”的“幕”释为“承受幕气”无依据，属于无依据增译，未标注该术语的不确定性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000294-p000-ccdbb6021e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3009,
+    "completion_tokens": 718,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3009,
+      "completion_tokens": 718,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

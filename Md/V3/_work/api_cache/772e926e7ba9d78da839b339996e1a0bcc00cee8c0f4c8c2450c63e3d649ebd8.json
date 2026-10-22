@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:29:57.766758+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "772e926e7ba9d78da839b339996e1a0bcc00cee8c0f4c8c2450c63e3d649ebd8",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000760-p000-d8efdbe28f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在重复数字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000761-p000-e9379a938b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的“夾”误释为“夾”，“央”疑为OCR识别错误，未按要求标注其具体所指不详"
+        ],
+        "uncertainty": [
+          "“央”字疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000762-p000-b48bc1fc62",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未按要求标注原文重复干支及部分文字OCR识别错误的具体所指不详"
+        ],
+        "uncertainty": [
+          "原文存在重复干支，部分文字疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000763-p000-511ecea91e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未按要求标注部分文字OCR识别错误的具体所指不详"
+        ],
+        "uncertainty": [
+          "部分文字疑为OCR识别错误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1646,
+    "completion_tokens": 317,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1646,
+      "completion_tokens": 317,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

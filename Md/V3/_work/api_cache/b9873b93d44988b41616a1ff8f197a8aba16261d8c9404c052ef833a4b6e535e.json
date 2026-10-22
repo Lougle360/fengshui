@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-18T11:35:51.510425+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b9873b93d44988b41616a1ff8f197a8aba16261d8c9404c052ef833a4b6e535e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006366-p000-7a4caa4f36",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'向井之節'是专有名词或特定术语，candidate将其解释为'朝向井宿的节度'，属于无依据扩写，违反了opaque_terms处理原则。应保留原词或标注其含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006367-p000-ace6132636",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006368-p000-74246010e9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文的并列星宿与穴位描述，改写为'文中记载了...这些内容'的概括性叙述，属于增译，改变了原文的直陈风格和并列结构。应保持原文的并列列举形式。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006369-p000-1b890576e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006370-p000-cfa70f20c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006371-p000-b66642db78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006372-p000-9a6ade9ef4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006373-p000-5b6080fabb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006374-p000-b28b0dd89e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本几乎是原文的简单复制，未进行白话释读。原文为古文，候选文本仅添加了标点，未将其转换为现代中文，不符合V3目标'普通读者能读懂的白话释读'的要求。例如，'逢木木遇木为比和'、'木入金宫为鬼'等表述对普通读者而言仍显晦涩。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006375-p000-7511770789",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'财气之这们'中'这们'一词含义不明，candidate处理为'财气之这们'并加注推测，符合规则。但candidate将'是宜于九八中之生气六六之春意'断句为'是宜于九八中之生气六六之春意'，并将'六六之春意'与后文'坐财气之穴'连接，存在断句和语义重组风险，可能导致误译。建议保持原文短语的独立性，避免过度整合。"
+        ],
+        "uncertainty": [
+          "原文'财气之这们'含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 730,
+    "completion_tokens": 122,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2320,
+      "completion_tokens": 589,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 730,
+      "completion_tokens": 122,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

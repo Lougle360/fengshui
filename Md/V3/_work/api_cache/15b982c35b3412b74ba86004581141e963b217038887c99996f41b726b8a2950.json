@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-15T05:23:08.121665+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "15b982c35b3412b74ba86004581141e963b217038887c99996f41b726b8a2950",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001938-p000-a8e70cc2cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 中‘為察信之遂堂一合 禍究之甚謂土通 福其至與凶厨書 者理周行不路有 所謂周堂者不知其始有誰何行世已久泥之愈深如行嫁周堂通書所言行嫁白虎具有睡日死床’等关键内容完全改写为个人论述，严重漏译。candidate 中‘文中指出’、‘文中提到’、‘文中还提到’等表述将推测或解释强加于原文，而 source 本身是连贯的论述，并非在引用另一文本。candidate 自行添加了‘四极鳌布’这一 source 未出现的术语。candidate 将 source 中明确的批判对象（如‘儒者’、‘世俗’、‘拘于习俗’）和具体行为（如‘构于忌’）模糊化处理，未能准确传达原文的论辩焦点。"
+        ],
+        "uncertainty": [
+          "‘土通’、‘睡虎’、‘白虎’、‘信之遂堂’、‘理周行不路有’等术语的具体含义需进一步考证。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1162,
+    "completion_tokens": 286,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1162,
+      "completion_tokens": 286,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-24T23:18:52.321211+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cad3de3a4d2e124dd6e314ab0abc67b90cb74918abdc6fed6273356b259ee4ea",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001096-p000-e7d0dac8c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "赢私的具体所指"
+        ]
+      },
+      {
+        "id": "book017-b001097-p000-e264088c98",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“龍仍”误译为“龙脉”，无依据；原文“離仰而經商語官”误译为“离家谋生、经商和与官府打交道”，“離仰”含义无依据臆测，“語官”解释不准确；原文残留日文“然れ星”未作处理，直接译为“如果星象”无依据"
+        ],
+        "uncertainty": [
+          "“然れ星”含义不明，“離仰”语义未明"
+        ]
+      },
+      {
+        "id": "book017-b001102-p000-befff10c1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001106-p000-882164bbe6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“實有多）切獨公姓說”断句错误，臆造出“姓切獨公的人”，属于无依据增译；“尽人皆朝”未明确标注歧义直接按“推崇修习”解释，不符合要求"
+        ],
+        "uncertainty": [
+          "尽人皆朝的具体含义",
+          "原文缺字部分的内容",
+          "族是学的具体含义",
+          "“切獨公姓”相关表述语义未明"
+        ]
+      },
+      {
+        "id": "book017-b001107-p000-0a7e5c899b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "洩破有仔益的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1405,
+    "completion_tokens": 483,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1405,
+      "completion_tokens": 483,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

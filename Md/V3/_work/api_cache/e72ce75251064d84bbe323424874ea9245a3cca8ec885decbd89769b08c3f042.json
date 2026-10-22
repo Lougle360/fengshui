@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:48:15.995147+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e72ce75251064d84bbe323424874ea9245a3cca8ec885decbd89769b08c3f042",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000266-p000-c9fe2a7519",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处残缺、错乱，无法完整梳理文意"
+        ],
+        "uncertainty": [
+          "四時"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2792,
+    "completion_tokens": 65,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2792,
+      "completion_tokens": 65,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

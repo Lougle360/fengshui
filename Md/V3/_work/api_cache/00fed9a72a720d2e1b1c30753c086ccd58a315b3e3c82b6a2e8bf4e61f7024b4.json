@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T17:08:59.871282+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "00fed9a72a720d2e1b1c30753c086ccd58a315b3e3c82b6a2e8bf4e61f7024b4",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000718-p000-a9ebc93fcd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000719-p000-a7a7a8b456",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000720-p000-01224e7cce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“稿曰”被误译为“有注说”，原文“脫殺離雲月其光自顕”被断句错误释读，实际应为“脱杀离脉，云月其光自显”，不存在“就像月亮”的比喻义添加；原文未提及“下针”，属于无依据增译；原文“粘宂脉”未拆分，不应单独拆分出“宂”作为术语"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000721-p000-43a8e85ff2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宄”“瑀”“繇”等字被误读为“宂”“注”“从”，属于字形误认；原文“就殺撞入而避殺迎吉”前后矛盾，candidate未标注该矛盾反而强行顺译；原文“詳蓋”未完整释读，存在漏译；将“下穴”类操作误译为“下针”，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000722-p000-947cb87259",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“几种方法要结合使用”，属于无依据增译，仅需释为“使用粘、倚、撞（的方法）”即可"
+        ],
+        "uncertainty": [
+          "粘、倚、撞等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000723-p000-096ae6bc76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000724-p000-cd0d14f553",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宄”被误写为“宂”，属于字形误认；“入首”为风水术语，释读符合allowed_glossary规定，但“雌雄水合故其氣止也”释读为“所以它的气会停止”不符合风水逻辑，应为“所以气会聚止”"
+        ],
+        "uncertainty": [
+          "宄、四应、雌雄水、牝牡等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000725-p000-caa50ef272",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000726-p000-78f559ef53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宄”被误写为“宂”，属于字形误认；原文“陰揚冲合”被误译为“阴阳冲合”，属于形近字误译；“扦之”释为“下针”无依据，应为“扦葬”；“其氣偏枯故亢假”漏译“亢”字"
+        ],
+        "uncertainty": [
+          "宄等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000727-p000-3d6b2eeafd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兩遙送水”被误译为“两路远送的水”，应为“两侧远来的送水”；原文“陰陽相乗”被误译为“阴阳相承”，属于形近字误译；原文“員”为“圆”的古字，应标注或释为“圆”，不应直接保留“员”"
+        ],
+        "uncertainty": [
+          "硬面等术语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2293,
+    "completion_tokens": 1067,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2293,
+      "completion_tokens": 1067,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

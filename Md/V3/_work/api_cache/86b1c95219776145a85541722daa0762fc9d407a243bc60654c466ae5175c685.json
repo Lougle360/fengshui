@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T21:01:39.066816+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "86b1c95219776145a85541722daa0762fc9d407a243bc60654c466ae5175c685",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000119-p000-17aedd3bb7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“胡言”被误释为“说”，含义完全相反，原意指胡乱、没有依据的说法，释读需修正此处语义偏差"
+        ],
+        "uncertainty": [
+          "“一面九风”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000121-p000-dd8f33144e",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“象天士”“天多、方”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000122-p000-9352530f2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000123-p000-696e415587",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为并列的“南 坎”二字，无明确对应关系表述，candidate补出“对应”属于无依据增译，应保留原文并列形式并标注关系未明"
+        ],
+        "uncertainty": [
+          "南与坎的对应关系原文未明确说明"
+        ]
+      },
+      {
+        "id": "book017-b000124-p000-420cd07cb8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为并列的“巽零”二字，无明确对应关系表述，candidate补出“对应”属于无依据增译，应保留原文并列形式并标注关系未明"
+        ],
+        "uncertainty": [
+          "巽与零的对应关系原文未明确说明"
+        ]
+      },
+      {
+        "id": "book017-b000125-p000-0087a9f590",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文日文语序及残字未准确还原，“ハ九”未被释读，“是九”属于无依据补译，需标注日文部分内容残缺无法准确释读"
+        ],
+        "uncertainty": [
+          "“丙国”“即始”具体所指不详，日文残句语义未明"
+        ]
+      },
+      {
+        "id": "book017-b000126-p000-3f38715d59",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹不清、表述模糊的内容，无法准确释读具体含义"
+        ]
+      },
+      {
+        "id": "book017-b000128-p000-58c2b0fdc1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅列一白白、八白、九紫三个星组，candidate称“天之四吉”与原文计数矛盾，存在逻辑偏差，需标注数量不符问题；“な天之四吉”中的日文假名未说明，释读未标注原文缺漏第四吉的情况"
+        ],
+        "uncertainty": [
+          "“白白”“貧巨哉補粥王吉”具体所指不详，四吉仅列三个原文存在矛盾"
+        ]
+      },
+      {
+        "id": "book017-b000129-p000-ffa962db2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000130-p000-073fd54c2b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“阳事阴”释为“阳类事物由阴所促成”属于无依据扩写，原文未明确“事”的含义为“促成”；末尾多余的“0”无需保留在释读正文中，可标注为原文衍文"
+        ],
+        "uncertainty": [
+          "“化始”的具体定义原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 898,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2031,
+      "completion_tokens": 898,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

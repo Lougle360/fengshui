@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-25T11:30:29.770879+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "011bd2610800a84a249674f9e679c3c9377730ca90748ca823d5e3af6c96f430",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000713-p000-7571bf1d79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000714-p000-8460f3dff5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000719-p000-a33f401d4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的“六宜去一土白”被错误释读为“适宜，距离一土稍远”，含义与原文不符；“六”字漏译，无依据添加“距离”“稍远”语义"
+        ],
+        "uncertainty": [
+          "原文表述较为晦涩，部分语义无法明确"
+        ]
+      },
+      {
+        "id": "book024-b000720-p000-e2a6b8a5ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在残缺，部分内容无法确认"
+        ]
+      },
+      {
+        "id": "book024-b000723-p000-7f8bdbbe08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“东带缠身”格名被拆分，误将格名中的“水”提前替换为释义，导致格名表述混乱；“東帶水纏身”漏译方位“东”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000724-p000-8a978a1ebc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000728-p000-0dc899d0fe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“支富及人出”被误释为“会惠及子孙”，无依据添加“子孙”语义；“家壹厚代見小綿衣回青鎖及烏臺”释读为“家族虽曾丰厚，后代却会日渐衰微，衣物回青锁及乌台”属于无依据推测，与原文表述不符"
+        ],
+        "uncertainty": [
+          "原文存在部分内容无法确认"
+        ]
+      },
+      {
+        "id": "book024-b000729-p000-65981b0f32",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代中文，也未标注含义不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000730-p000-16e9e7610f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“金水”属于allowed_glossary中明确定义的术语，未替换为对应的释义"
+        ],
+        "uncertainty": [
+          "原文存在部分内容无法确认"
+        ]
+      },
+      {
+        "id": "book024-b000733-p000-16f88e9f5c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“赤名”被误释为“又名”，含义错误；“無宸”被误释为“不仅有威严”，语义与原文相反"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2124,
+    "completion_tokens": 848,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2124,
+      "completion_tokens": 265,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2124,
+      "completion_tokens": 848,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

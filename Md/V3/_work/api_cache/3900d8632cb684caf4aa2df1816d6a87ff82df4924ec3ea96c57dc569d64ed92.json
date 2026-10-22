@@ -1,0 +1,144 @@
+{
+  "created_at": "2026-09-24T23:33:52.084434+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3900d8632cb684caf4aa2df1816d6a87ff82df4924ec3ea96c57dc569d64ed92",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001235-p000-6b4e144c60",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的日文假名未在释读中明确标注含义不明，易让读者误以为该部分内容已准确释读"
+        ],
+        "uncertainty": [
+          "原文包含的日文假名‘サい’‘rぇ’含义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001237-p000-55b638ede9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“S2”属于无释义的乱码/识别残留，未标注含义不明；原文“己送露”释为“已经透露”无依据，“抑體之消息”释为“本体变化的相关信息”无可靠依据"
+        ],
+        "uncertainty": [
+          "原文“S2”符号不明，具体所指不详",
+          "原文“己送露”“抑體之消息”表述模糊，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001238-p000-bd50fb99b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘中0s’符号构成不明，具体所指不详",
+          "原文‘诊陽’疑为‘阴阳’的讹写，暂按阴阳释读",
+          "原文‘会 狼穴’疑为‘贪狼穴’的漏写，暂按贪狼穴释读",
+          "原文‘八六僅得其半’的具体计算逻辑原文未说明，此处仅按字面表述"
+        ]
+      },
+      {
+        "id": "book017-b001239-p000-311ecc1b6c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“得輔是成王去\\_者”的下划线属于识别缺漏未标注，“世移三吉”“西成五”释读无依据，属于无依据推测"
+        ],
+        "uncertainty": [
+          "原文存在缺漏字符，“得輔是成王去\\_”后半部分内容残缺",
+          "“世移三吉”“西成五”表述模糊，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001240-p000-121a2b048f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001242-p000-7bda8d3bd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001243-p000-19b3e9e223",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“戊乾”应为“戌乾”的识别错误未标注，“辰成王未配乾坤民骂”释为“辰与未配成乾坤”无依据，日文假名“Lも”未标注含义不明"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错误，“戊乾”疑为“戌乾”讹误，“辰成王未配乾坤民骂”部分字符无法确认",
+          "日文假名“Lも”含义不明，相关表述无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001244-p000-8acbe55c00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“字秘”释读无依据，“合精龍以会混”释为“配合精龙来融会贯通”属于无依据推测"
+        ],
+        "uncertainty": [
+          "“字秘”具体所指不详",
+          "“合精龍以会混”表述模糊，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001245-p000-702a911906",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“甲庚壬而”补为“甲庚壬丙”无依据，“宾壬”应为“寅壬”讹误未标注，“申庚、寅壬”仅两个宫位，与“四宫”矛盾未说明"
+        ],
+        "uncertainty": [
+          "原文“甲庚壬而”是否存在缺字无法确认，“申庚、寅壬”仅两宫，与“四宫”的矛盾原文未说明"
+        ]
+      },
+      {
+        "id": "book017-b001246-p000-7c96f3e4ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文无法识别的字符“一M”臆断释为“一层”无依据；将原文末尾无法辨识的“可紅”臆断释为“可以类推”无依据，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别错误，部分字符无法确认，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 673,
+    "completion_tokens": 117,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2539,
+      "completion_tokens": 1231,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2539,
+      "completion_tokens": 1116,
+      "cached_prompt_tokens": 2360,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 673,
+      "completion_tokens": 117,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

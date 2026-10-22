@@ -1,0 +1,200 @@
+{
+  "created_at": "2026-09-23T15:43:16.993377+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "26c42eba750ba40b0a26c9360e47a4270f2e4b8122d29fd81be1a9cec01fead9",
+  "response": {
+    "items": [
+      {
+        "id": "book004-b000101-p000-7ef4ecffbb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在大量OCR错误，但candidate未明确标注，而是直接按推测翻译，将不确定内容写成了确定事实。例如：'夷自爲局垣'释为'夷人自成格局，垣墙如龙如虎'，'國頭綺禮'释为'国头绮礼'，'畢孤者水之分也朝者水之今也'释为'毕孤者，水之分也。朝者，水之今也'，'鹿肉有情'释为'鹿肉有情'。这些都应明确标注为原文有误或所指不详，而非直接嵌入译文中。",
+          "'车马旋转'是增译，原文'车旋转'可能指某种地形或仪式，不应具体化为'车马'。",
+          "'如果老虎尊贵，就称为野尸'是对'自虎尊謂之野屍'的推测性解释，原文含义不明，应标注为不确定。",
+          "'绡帘、劫箭、割满、激悲泣'等词在candidate中直接列出，但未说明是原文疑误词或具体所指不详。",
+          "'得郭朴葬经卷郭井拳经卷一。四十四十王山高头不垂伏'，此句释读混乱，未处理原文的错乱（如'郭井拳经'），且将'四十四十王山'连读，应标注为原文错乱，无法确定。",
+          "'雀源于生气'至'穴若欲飞而去也'一段，candidate释读为连贯白话，但原文逻辑断裂，多处疑为错简或OCR错误，应标注为原文错乱，释读存疑。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误或脱漏，导致许多词句语义不明，逻辑断裂。candidate的释读在诸多地方是基于推测，而非可靠的文本基础。"
+        ]
+      },
+      {
+        "id": "book004-b000102-p000-d5100c2c29",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'因为水流虜王（此处疑为“虜”或“虜”字误，具体所指不详）减房山'：此处处理方式正确，标注了不确定性。但'减房山'的标注不够明确，应直接指出'减房山'语义不明。",
+          "'押朴葬经'：candidate标注'疑为“郭朴葬经”之误，但原文如此，保留原词'，处理得当。",
+          "'振往'：candidate标注'语义不明'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000103-p000-035078a6da",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'余郭朴《葬经》卷一的内容，共四十四处'：原文为'余郭朴塟經 卷一 四十四'，candidate将其解释为'这是余郭朴《葬经》卷一的内容，共四十四处'，这是将不确定的文本（'余郭朴'可能为'郭朴'之误，'四十四'可能为页码或条目数）写成了确定事实。应标注为'余郭朴葬经卷一四十四'具体所指不详。",
+          "'开皇夹竹之类'：candidate标注'具体所指不详'，处理得当。",
+          "'鬼灵至给屋罗'：candidate标注'具体含义不详'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000104-p000-69e2768c84",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处语义不明的词句，如'震有可笑者'、'孔窍之辟'、'肯是不'、'福福驰骋'、'政路'、'为不巫也'、'习斯补者'等，candidate均已保留原词并标注'语义不明'或'具体所指不详'，符合要求。"
+        ]
+      },
+      {
+        "id": "book004-b000105-p000-9daad78ade",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000106-p000-5bd4a27d89",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "'千只（此处疑为“千尺”或“千只”之误，具体所指不详）为势'：处理方式正确，标注了不确定性。",
+          "'然有大郭朴葬经卷一四十五'：原文在'然有大'处中断，candidate将其连读为'然有大郭朴葬经卷一四十五'，并将'大'字归入书名，这是对残缺文本的过度解读。应标注为'原文在“然有大”处中断，后续内容缺失，无法完整释读'。"
+        ]
+      },
+      {
+        "id": "book004-b000107-p000-da0d0ae45f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'大佐规楼'：candidate标注'语义不明'，处理得当。",
+          "'形从酉结'：candidate标注'“酉”字可能为“西”之误，但原文如此，保留原词'，处理得当。",
+          "'鹅凤柏省狮虎'：candidate标注'“柏省”语义不明'，处理得当。",
+          "'传写之让'：candidate标注'语义不明'，处理得当。",
+          "'左宋字相近'：candidate标注'具体所指不详'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000108-p000-4ad613f06d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000109-p000-5a54aeb2f9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'反包不画'：candidate标注'语义不明'，处理得当。",
+          "'备切朴葬禅卷一四十太'：candidate标注'语义不通，可能为“备切”或“朴葬禅”之误，具体所指不详'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000110-p000-797bce799d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000111-p000-b02b12deeb",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "'势如巨泪（此处疑为“巨浪”或“巨泪”之误，具体所指不详）'：处理方式正确，标注了不确定性。",
+          "'千秉之葬'：candidate标注'“千秉”语义不明'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000112-p000-2be37696fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000113-p000-61b4c7e031",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'踏却'：candidate标注'语义不明'，处理得当。",
+          "'水似带臻'：candidate标注'语义不明'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000114-p000-3e2a178bf5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000115-p000-42af791e18",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'香沓'：candidate标注'语义不明'，处理得当。",
+          "'劳如惊蛇'：candidate标注'语义不明'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000116-p000-9ce03f0cc8",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "'势叚'、'郁死'、'幽同九棘三福'、'不委蛇'、'何朝后应委'、'子戈兵死'：candidate对所有这些语义不明的词句都标注了'语义不明'或'具体所指不详'，处理方式符合要求。但整段原文逻辑极其混乱，candidate的释读试图将其串联成通顺白话，这可能掩盖了原文的严重错乱。应在整体uncertainty中强调原文可能严重错乱。"
+        ]
+      },
+      {
+        "id": "book004-b000117-p000-c479ec7222",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'流永'：candidate标注'语义不明'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000118-p000-0109ee7635",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'禁止之尚'：candidate标注'语义不明'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000119-p000-c72330733e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'王戾崛起'：candidate标注'语义不明'，处理得当。",
+          "'第朴葬经'：candidate标注'疑为“郭朴葬经”之误，但原文如此，保留原词'，处理得当。"
+        ]
+      },
+      {
+        "id": "book004-b000120-p000-b36594a409",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7886,
+    "completion_tokens": 2026,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7886,
+      "completion_tokens": 2026,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

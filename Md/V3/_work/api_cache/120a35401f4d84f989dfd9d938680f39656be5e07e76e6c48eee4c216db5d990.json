@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-25T15:29:09.617822+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "120a35401f4d84f989dfd9d938680f39656be5e07e76e6c48eee4c216db5d990",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000235-p000-a40fdccccb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘武臣之氏之以生’中‘氏’的具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b000237-p000-d7fde23fea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘土瀾木生’‘水瀾’中‘瀾’的具体含义不明",
+          "原文末尾‘R全’为讹字，据文意推测应为‘双全’"
+        ]
+      },
+      {
+        "id": "book029-b000241-p000-4b889e19fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000245-p000-020bc1e25a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘綿 氏 傳五   合’为残损内容，具体文意不明",
+          "‘然之數總度’的具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b000248-p000-acb986ceaf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘武武家 木次火故’存在讹误或残损，candidate释读为‘武家以木为次、以火为序’属于无依据的确定解读，违反含混内容不得强行赋予确定含义的规则"
+        ],
+        "uncertainty": [
+          "‘金母穿子’的具体含义不明",
+          "‘麻傳父母’中‘麻传’的具体含义不明",
+          "‘武武家 木次火故’为残损讹误内容，具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b000250-p000-e01f630f43",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "writer_uncertainty中提及‘原文无依据补加‘财星’概念’，但candidate文本并未出现‘财星’相关表述，属于标注错误"
+        ],
+        "uncertainty": [
+          "‘進納頭大卜式以之貴氣自在氏日財 不大 出’为残损内容，具体文意不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2327,
+    "completion_tokens": 597,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2327,
+      "completion_tokens": 597,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

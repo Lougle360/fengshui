@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-17T20:58:47.149289+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8b4f6b486d157642030409f3d030125f54b70ccd4a3463603399fbd26d47de8f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004612-p000-9920773799",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文为表格，包含卷次、书名、评者、评语等结构信息。候选文本将所有内容合并为一段连续叙述，丢失了原文的表格结构、分行及卷次与书名评语的对应关系。这不符合逐行核对标题、原顺序、层级的要求。",
+          "源文中“申集二十四卷”、“酉集二十六卷”、“戌集二十九卷”等是独立的卷集标题行，候选文本将其与前后内容直接连接，未体现其作为独立层级或分隔的标题作用。",
+          "源文“二十三卷”为独立一行，候选文本将其与前文连接，未体现其作为卷次标题的独立性。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1380,
+    "completion_tokens": 187,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1380,
+      "completion_tokens": 187,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

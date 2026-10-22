@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-18T11:47:21.578306+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "784d01307ad9d7c42a291e5d9a859e971ff743955be0bad3f1cd292ba000f4c8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006427-p000-f09733d164",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006428-p000-4a50287e6d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006429-p000-f56ea2ddc6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006430-p000-5ca6ee2707",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006431-p000-61000783b7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘是是直是生 之其之全 上 養之地’，candidate 将其改写为‘是直是生之全，上养之地’，虽尝试通顺化，但‘是直是生之全’的释义缺乏依据，且‘之全’与‘上养之地’的衔接逻辑不明。这超出了保守释读的边界，属于无依据的扩写。应保留原文的讹误状态并标注不确定性，而非自行构建逻辑。",
+          "原文‘對宮庚戌金向土能生辰角木蛟角一至三 戌奎木狼奎十五至十七 穴兑之旅’中，‘土能生辰角木’与‘蛟角一至三’之间，以及‘戌奎木狼奎十五至十七’与‘穴兑之旅’之间，原文无标点，candidate 用逗号连接，改变了原文的并列或承接关系，可能造成误解。应更忠实地反映原文的并列结构。",
+          "candidate 将‘穴兑之旅’释为‘穴兑之旅’，未做任何解释或标注，对于普通读者而言，‘之旅’的含义不明。应标注‘之旅’为原文术语，具体所指不详。"
+        ],
+        "uncertainty": [
+          "原文‘是是直是生 之其之全 上 養之地’存在明显讹误或脱漏，具体所指不详。",
+          "原文‘土能生辰角木蛟角一至三’的断句及‘蛟角’所指不明。",
+          "术语‘之旅’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006432-p000-7d8b40b22a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006433-p000-46c1705874",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "术语‘九八六六之春’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006434-p000-6c700b88f3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘戌奎木狼奎士二至十四’，candidate 释为‘戌奎木狼奎星宿第二度至第十四度’。‘士二’应为‘十二’的OCR错误，candidate 直接改为‘第二度至第十四度’，数字变化（‘二’变‘第二度’）且未标注原文讹误。应标注‘士二’可能为‘十二’之误，并保留原文数字的模糊性。",
+          "candidate 将‘穴履之师’释为‘穴履之师’，未做任何解释或标注，对于普通读者而言，‘之师’的含义不明。应标注‘之师’为原文术语，具体所指不详。"
+        ],
+        "uncertainty": [
+          "原文‘奎士二至十四’中‘士二’可能为‘十二’之误。",
+          "术语‘之师’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006435-p000-76b4db3c23",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "candidate 将原文复杂的HTML表格结构改写为纯文本段落，并自行划分‘行’，这改变了原文的呈现方式，可能导致信息层级或关联性丢失。作为审校员，应要求 candidate 保留表格结构或明确标注其改写行为，并指出原文为表格。",
+          "candidate 对大量OCR错误进行了通顺化改写（如‘分任’、‘小戏者’、‘尤凭呀’、‘桶本亏’等），但未在释读文本中明确标注这些是原文可能的讹误，而是直接给出了看似通顺的句子。这超出了保守释读的边界，属于无依据的扩写。应保留原文的讹误状态并标注不确定性。",
+          "candidate 将‘合作不格局’释为‘合作不格局’，未做解释。对于普通读者，‘不格局’含义不明。应标注‘不格局’为原文术语，具体所指不详。",
+          "candidate 将‘穴泰之比’、‘向否噬嗑’、‘穴大畜小畜’、‘向萃大过’、‘穴需之乾’、‘向晋之坤’等术语直接列出，未做任何解释或标注。对于普通读者，这些术语的含义不明。应标注这些为原文术语，具体所指不详。",
+          "candidate 将‘电’、‘班’等疑似地名或讹字直接保留，未标注其不确定性。",
+          "candidate 将‘井州’、‘并州’混用，未统一也未标注可能为同一地名的不同写法。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3346,
+    "completion_tokens": 1377,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3346,
+      "completion_tokens": 1377,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

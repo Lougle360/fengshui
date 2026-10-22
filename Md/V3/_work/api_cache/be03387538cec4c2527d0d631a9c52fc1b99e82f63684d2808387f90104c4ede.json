@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-25T09:55:41.546581+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "be03387538cec4c2527d0d631a9c52fc1b99e82f63684d2808387f90104c4ede",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002683-p000-886012eed3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及宿名相关内容，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“三分亥”的具体所指原文未明确说明"
+        ]
+      },
+      {
+        "id": "book018-b002684-p000-082d6c33c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及宿名相关内容，属于无依据增译；“正亥”属于传统术数方位/干支表述，不应随意拆解为“亥的占比为正分”，allowed_glossary中“水”的定义未合理应用，此处仅保留“水”术语未准确释读语境含义"
+        ],
+        "uncertainty": [
+          "“正亥”的具体术数指向原文未进一步说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 756,
+    "completion_tokens": 209,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 756,
+      "completion_tokens": 209,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

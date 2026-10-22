@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T16:15:03.510155+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b4c90310b13be6aa747c5651357fe54bc7a1e5c26899511e8a9c674dcf31f018",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001601-p000-31c683af64",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "律历的渊源与河图洛书、《孙子》中记载的天文与地理、中国自古以来的哲理与五行思想、中国的度量衡体系、术数式的思考方式与中国医学。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001611-p000-83dbe610dd",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "定价[本体7,000日元+税] 勉诚出版",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001612-p000-c5e9ef5c6d",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 数易中国思想史",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1477,
+    "completion_tokens": 284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1477,
+      "completion_tokens": 284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

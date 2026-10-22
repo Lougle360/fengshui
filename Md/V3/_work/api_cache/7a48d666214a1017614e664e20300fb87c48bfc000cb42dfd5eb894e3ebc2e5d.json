@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T09:57:12.914191+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7a48d666214a1017614e664e20300fb87c48bfc000cb42dfd5eb894e3ebc2e5d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000436-p000-252767cac4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000437-p000-116295f88c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文\"頃有即金貴連珠\"语义含混，候选释读将其确定为\"若出现连珠之形，即为金形的贵格\"，属于将不确定含义写成确定事实，存在无依据扩写问题"
+        ],
+        "uncertainty": [
+          "原文\"頃有即金貴連珠\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000438-p000-23d62fb561",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000439-p000-5eb5311bbe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1628,
+    "completion_tokens": 276,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1628,
+      "completion_tokens": 276,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

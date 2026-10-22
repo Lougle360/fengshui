@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:14:01.831023+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "efee4b99d098e96dc0de6651adfc6ded53ec9a16d723f363b954e8b382a96b6d",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000095-p000-84b045d97f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释文中存在多处对原文的误译、错解，如将‘四時不潤’误释为‘四季不干涸’，将‘三十六帳’误释为‘三十六帐之中’，将‘道卜賦’误释为‘《道卜赋》’，将‘水叔’误释为‘水叔’（原文应为‘水势’相关），将‘扛夹差送之山董’误释为‘扛夹差送之山董’（原文语义不明），还存在重复冗余、语句不通顺的问题，且未保留原文中部分模糊表述的不确定性标注"
+        ],
+        "uncertainty": [
+          "原文中‘四時’‘1’‘4’等内容语义不明，具体所指不详；原文中‘三十六帳’‘水叔’‘扛夹差送之山董’等表述模糊，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3104,
+    "completion_tokens": 241,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3104,
+      "completion_tokens": 241,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

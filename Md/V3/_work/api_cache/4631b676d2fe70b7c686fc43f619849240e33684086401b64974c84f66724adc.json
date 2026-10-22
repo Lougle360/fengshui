@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-09-25T13:01:51.925955+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4631b676d2fe70b7c686fc43f619849240e33684086401b64974c84f66724adc",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000404-p000-ac0ceafa49",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“子森”“第人”“全天火回”“太后础宫”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000405-p000-a30ab4da1e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第二爻是“巨丑子”，候选误释为“巨丑子孙”，擅自补出“孙”字无依据；原文第五爻是“壬甫寸”，候选保留无误，原文第六爻是“壬戌于縣”，候选保留无误，但原文明示第二爻带“子”字，不应擅自补全为“子孙”"
+        ],
+        "uncertainty": [
+          "原文中“巨丑”“壬甫寸”“于县”等表述含义不明，存在多处OCR识别错误"
+        ]
+      },
+      {
+        "id": "book025-b000406-p000-beeb205770",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“王一”“鬼”“爻母”“展未”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000407-p000-cb75a282b8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第一组内卦六二是“壬六一三丑百見”，候选未保留该部分内容，存在漏译；原文第二组最后是“水火濟係坎官常四卦屬水”，候选误作“水火济，系坎宫第四卦，属水”，将“坎官”改为“坎宫”、“常四”改为“第四”无原文依据"
+        ],
+        "uncertainty": [
+          "原文中“壬六一三丑百見”“朔”“第”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000408-p000-33291f3a76",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文初九是“巳卯子”，候选误释为“巳卯子孙”，擅自补出“孙”字无依据；原文九三是“巳亥兄卯”，候选误作“巳亥兄弟”，遗漏“卯”字"
+        ],
+        "uncertainty": [
+          "原文中“安母”“兄卯”“艮同丙全山水貴”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000409-p000-885ae874ef",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处OCR识别错误，多数表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000410-p000-66f9e2654c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“明”字后缺字，“至”字含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000411-p000-8e36fccbe4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文初九是“巳卯壬區”，候选漏译“壬區”二字；原文六二是“巳丑宮見”，候选误释为“巳丑官鬼”，擅自改写无依据；原文六五是“癸幸見第”，候选漏译“見第”二字"
+        ],
+        "uncertainty": [
+          "原文中“壬區”“癸幸”“癸賣之”等表述含义不明，存在OCR识别错误"
+        ]
+      },
+      {
+        "id": "book025-b000412-p000-4c67523191",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第二组内卦六三是“乙卯事”，候选误作“乙卯官鬼”，擅自改写无依据；原文第三组内卦初六是“乙未支”，候选漏译“支”字；原文第三组外卦九四是“丁亥子五”，候选漏译“五”字"
+        ],
+        "uncertainty": [
+          "原文中“癸玄十”“癸道十”“壬甲甲”“梦年”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000414-p000-6bef1b52b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文第二组内卦六二是“乙巳子孫”，候选误作“巳丑子孙”，干支“乙巳”错写为“巳丑”；原文第一组外卦九四是“巳酉見第”，候选漏译“見第”二字；原文第二组外卦九四是“庚于五”，候选误作“庚子五六”，多补“六”字无依据；原文第二组上六是“庚戌才興向辛全”，候选将“向辛全”单独拆分，断句无依据"
+        ],
+        "uncertainty": [
+          "原文中“爻月”“文母”“庚子五六”“才兴”等表述含义不明，“庚甲”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 1280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3204,
+      "completion_tokens": 12,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3204,
+      "completion_tokens": 1280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

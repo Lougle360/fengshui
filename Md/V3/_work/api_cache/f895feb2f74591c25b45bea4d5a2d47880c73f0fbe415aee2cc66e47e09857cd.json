@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-10-15T02:27:26.406966+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f895feb2f74591c25b45bea4d5a2d47880c73f0fbe415aee2cc66e47e09857cd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001034-p000-593bff28ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'殼將山高家大這'在candidate中被处理为'原文中“殼將山高家大這”这一短语的具体所指不详'，这符合规则，是允许的风险标注。",
+          "原文'與聲先向五更啼'在candidate中被处理为'原文提到“與聲先向五更啼”，但这一短语的具体含义也不详'，这符合规则，是允许的风险标注。",
+          "原文'前言掌心此言仰掌似乎重出'，candidate释为'前文提到“掌心”，此处又说“仰掌”，两者似乎有些重复'，准确且通俗。",
+          "问题在于'向月西'的翻译。'向'是locked_term，其allowed_glossary定义为'建筑或穴位所朝的方位'。candidate将其释为'朝向月亮西边的方位'，这超出了术语定义，将'向'具体解释为'朝向月亮西边'，属于无依据的扩写。应保留'向'的术语感，或更模糊地处理。例如，可译为'不必朝向西方（或西边）'，或标注'向'的具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001035-p000-9f62751ad2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'城門入國'处理为'“城門入國”这一风水术语'并标注不详，符合规则。",
+          "问题在于'朝公道'的翻译。原文'來龍宛轉朝公道'，candidate译为'来龙蜿蜒曲折地朝向正道'。'公道'在古文中常指'大路'或'公平、公正的道理'，但在此风水语境下，释为'正道'属于推测性解释，将不确定含义写成了确定事实。应标注其不确定性，例如译为'朝向“公道”（具体所指不详）'或'朝向某处（原文“公道”含义不明）'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001036-p000-8cd4bdffda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001037-p000-88d8d0f016",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001038-p000-bde54512b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'決之'标注为含义不详，符合规则。",
+          "问题在于'得氣正'的翻译。原文'以得氣正避害'，candidate译为'以便获得气正并避开灾害'。'气正'是一个风水概念，但将其直接译为'获得气正'，属于将含混术语（未在allowed_glossary中定义）解释为确定事实。应标注其不确定性，例如译为'以便得到“气正”（风水术语，具体所指不详）并避开灾害'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001040-p000-c602455202",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001042-p000-9e59381cb4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对'毛發'、'有夫有婦立夫婦有父有母應所生'、'天孤天用'的处理符合规则，标注了不确定性。",
+          "问题在于'北辰者水口内圓墩印也'的翻译。candidate译为'“北辰”指的是水口内的圆形土墩或石印'。原文'圓墩印'可能指圆形墩状物或印状物，但'土墩或石印'的'或'字是candidate添加的推测，原文并未区分材质。虽然不影响核心理解，但严格来说属于无依据的细节扩写。更保守的译法是'圆形墩状或印状的物体'或直接保留'圓墩印'并加引号。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001043-p000-b96aaae829",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2324,
+    "completion_tokens": 1008,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2324,
+      "completion_tokens": 1008,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

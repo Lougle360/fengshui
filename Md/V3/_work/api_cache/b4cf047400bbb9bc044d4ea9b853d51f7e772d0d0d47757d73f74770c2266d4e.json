@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T16:22:29.198817+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b4cf047400bbb9bc044d4ea9b853d51f7e772d0d0d47757d73f74770c2266d4e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000159-p000-0e100536bd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及张政烺的文章，未提及作者为张亚，候选句擅自添加了‘作者为张亚’的内容，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000160-p000-13a27e3e6e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000161-p000-43f65a0c36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000162-p000-a75de1472e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1475,
+    "completion_tokens": 235,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1475,
+      "completion_tokens": 235,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

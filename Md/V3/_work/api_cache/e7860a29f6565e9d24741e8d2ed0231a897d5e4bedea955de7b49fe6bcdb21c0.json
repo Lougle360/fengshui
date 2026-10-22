@@ -1,0 +1,157 @@
+{
+  "created_at": "2026-10-04T10:34:17.895789+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e7860a29f6565e9d24741e8d2ed0231a897d5e4bedea955de7b49fe6bcdb21c0",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001190-p000-cc7e2cea85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“九五星明白体势端重”释为“九五星体势明白、端正稳重”，存在专业术语误换。原文“九五星”可能指九星五星，是风水术语，但 candidate 将其作为普通描述，未保留其作为专有名词的可能。",
+          "candidate 将“护途枝脚”释为“护从的枝脚”，其中“护途”可能为“护从”或“护随”的误写，但 candidate 未标注此不确定性。",
+          "candidate 将“四全之地”释为“四全之地”，但结合上下文“至毒至毒四全之地”，此处“四全”可能为凶险之地的特定称谓，candidate 未标注其可能为专名或特殊含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001191-p000-4d5537dfa6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“蟆起主星体分明”释为“蟆起主星体势分明”，其中“蟆起”可能为“脉起”或“马起”等，是风水描述龙脉的术语，candidate 未标注此不确定性。",
+          "candidate 将“方贞带仓库鼓马旌旗交床藤杖衙刀诰印顺护随身”释为“方为贞带。若带仓库、鼓马、旌旗、交床、藤杖、衙刀、诰印等吉物顺护随身”，将“方贞带”断句并解释为“方为贞带”，可能改变了原意。“贞带”可能是一个专有名词，candidate 未保留其不透明性。",
+          "candidate 将“无挺半纪九年主子孙贵显”释为“无挺半纪，九年主子孙贵显”，其中“无挺”含义不明，candidate 未标注。",
+          "candidate 将“流行一见”释为“流行一见”，未解释，保留了原文的模糊性，可以接受，但整体因上述问题需修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001192-p000-d4bb046b8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001193-p000-aec77fef70",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“木直砂卷五 十四飞”直接抄录，未处理 OCR 错误或尝试解释，导致句子不通。作为释读，应指出此处原文可能有误或含义不明。",
+          "candidate 将“可铺可它”直接抄录，未处理。“它”可能为“拓”或“托”等误字，candidate 未标注。",
+          "candidate 将“罢用诸般吉山亦未爲不”释为“罢用诸般吉山，亦未为不”，语义不通。“未为不”可能为“未为不可”之缺，candidate 未标注。",
+          "candidate 将“只嫌左右與對面山花班赤石正縣龍穴主後代患眼禿頭手足等疾”释为“只嫌左右与对面山花斑赤石，正县龙穴主后代患眼秃头手足等疾”，其中“正县龙穴”可能为“正对龙穴”或“正悬龙穴”，candidate 未标注。",
+          "writer_uncertainty 中已指出问题，但 candidate 文本本身未以注释形式明确标出这些不确定点，而是直接呈现了可能错误的文本，不符合“普通读者能读懂”的目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001194-p000-8e371c74ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“田叚中左右前後有低小山或隔田微微爾過穴塲來做龍虎紫應包護”释为“若田段中左右前后有低小山，或隔田微微尔过穴场，来做龙虎紫应包护”，其中“紫应”可能为“此应”或“朝应”之误，candidate 未标注。",
+          "candidate 将“後龍不魯出帳”释为“后龙不鲁出帐”，其中“不鲁”含义不明，candidate 未标注。",
+          "candidate 将“田叚八粘局皆是假體”释为“田段八粘局皆是假体”，其中“八粘局”含义不明，candidate 未标注。",
+          "candidate 将“但犯一爐凝主凶多吉少”释为“但犯一炉凝主凶多吉少”，其中“一炉凝”含义不明，candidate 未标注。",
+          "candidate 将“卷五艮扦塟”释为“卷五艮扦葬”，可能误将“艮”（八卦方位）作为卷次或部分标题，但原文可能指“卷五”提及的“艮”方扦葬，candidate 处理不当。",
+          "candidate 将“平地砂水平內禍運”释为“平地砂水平，内祸运”，其中“水平”可能为“水破”或“水反”之误，candidate 未标注。",
+          "candidate 将“或有退夢退筆水牽之類退敗右映左山及外應”释为“或有退梦退笔水牵之类退败，右映左山及外应”，其中“退梦退笔水牵”含义不明，candidate 未标注。",
+          "writer_uncertainty 中已指出问题，但 candidate 文本本身未以注释形式明确标出这些不确定点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001195-p000-3722caa8c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“一重龍山如光净灣環回顧”释为“一重龙山如光净湾环回顾”，其中“光净”可能为“光润”或“光滑”之误，candidate 未标注。",
+          "candidate 将“則一房人財袤弱”释为“则一房人财袤弱”，“袤弱”可能为“衰弱”之误，candidate 未标注。",
+          "candidate 将“其四七十房子孫靡委不振”释为“其四七十房子孙靡委不振”，“靡委”可能为“萎靡”之误，candidate 未标注。",
+          "candidate 将“爲拜爲舞官誥幞頭拱喏累客無缺”释为“为拜为舞官诰幞头拱喏累客无缺”，其中“累客”可能为“列客”或“来宾”之误，candidate 未标注。",
+          "candidate 将“若只有龍山尖直斜飛縮擺昂頭腰風去水”释为“若只有龙山尖直斜飞缩摆昂头，腰风去水”，断句和“腰风去水”含义不明，candidate 未标注。",
+          "candidate 将“棟簾旋在左畔”释为“栋帘旋在左畔”，其中“栋帘”可能为“栋梁”或“帘幕”类比喻，candidate 未标注。",
+          "candidate 将“卷五補 +大叚弁隔溪澗山岡破碎”释为“卷五补 + 大段弁隔溪涧山冈破碎”，处理混乱，可能为衍文或注释混入正文，candidate 未标注。",
+          "candidate 将“江河肯山峰吉鹵皆無應驗”释为“江河肯山峰吉卤，皆无应验”，其中“肯山峰吉卤”含义不明，candidate 未标注。",
+          "candidate 将“穴中不見江河水過侃只見山巒禍福的應”释为“穴中不见江河水过侃，只见山峦祸福的应”，其中“过侃”含义不明，candidate 未标注。",
+          "writer_uncertainty 中已指出问题，但 candidate 文本本身未以注释形式明确标出这些不确定点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001197-p000-4de34b0478",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“固占右邊虎山”释为“固占右边虎山”，其中“固占”可能为“故占”或“专占”之误，candidate 未标注。",
+          "candidate 将“一重好蹲踞立穴”释为“一重好蹲踞立穴”，可能漏译或断句错误，应为“一重（虎山）好，蹲踞，立穴不凌压...”，candidate 处理不当。",
+          "candidate 将“被二扒砂經卷五十七重虎山雄壯高大通過”释为“被二扒砂经卷五十七重虎山雄壮高大通过”，明显是OCR错误（将“第二重”误为“二扒砂經卷五十七重”），candidate 未纠正或标注。",
+          "candidate 将“若止有三募”释为“若止有三募”，“三募”可能为“三房”之误，candidate 未标注。",
+          "candidate 将“詰軸樸頭拜舞山回曲右畔三房人財不”释为“诘轴朴头拜舞山回曲右畔，三房人财不”，句子不完整且“诘轴朴头”含义不明，candidate 未标注。",
+          "writer_uncertainty 中已指出问题，但 candidate 文本本身未以注释形式明确标出这些不确定点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001201-p000-04c33c3034",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001202-p000-db9b35edf4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“管二房五易八十一房”释为“管二房五易八十一房”，其中“五易”可能为“五房”之误，candidate 未标注。",
+          "candidate 将“如覆鐘覆釜側月王几車案覆月倉庫旗離扒砂經卷五 十九”直接抄录，未处理OCR错误（“卷五 十九”是页码混入）和“王几”、“旗离”等可疑词，导致描述混乱。",
+          "candidate 将“則土房人財耶相”释为“则土房人财耶相”，其中“土房”可能为“二房”之误，“耶相”可能为“兴旺”之误，candidate 未标注。",
+          "candidate 将“則五入十一房金興”释为“则五入十一房金兴”，其中“五入”可能为“五八”之误，candidate 未标注。",
+          "candidate 将“止有八十一房興耻”释为“止有八十一房兴耻”，其中“兴耻”可能为“兴衰”或“兴替”之误，candidate 未标注。",
+          "candidate 将“五八十一房主十二年內來蜃”释为“五八十一房主十二年内来蜃”，其中“来蜃”含义不明，candidate 未标注。",
+          "candidate 将“其江河背山峰不必識也”释为“其江河背山峰不必识也”，其中“背山峰”可能为“背后山峰”，candidate 处理尚可，但整体因前述严重问题需修订。",
+          "candidate 将“龍虎狹筆吉凶”释为“龙虎狭笔吉凶”，句子不完整且含义不明，candidate 未标注。",
+          "writer_uncertainty 中已指出问题，但 candidate 文本本身未以注释形式明确标出这些不确定点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001203-p000-94534bdc29",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“結乳穴於皆龍肢下”释为“结乳穴于皆龙肢下”，其中“皆龙”可能为“青龙”之误，candidate 未标注。",
+          "candidate 将“名 扒砂經 卷五 懷龜餘賣田山”直接抄录，未处理页码混入（“卷五”）和“懷龜餘賣田山”这个可疑专名，应指出其可能为山名或比喻，但具体不详。",
+          "candidate 将“又名賣同開人田山”释为“又名卖同开人田山”，含义不明，candidate 未标注。",
+          "candidate 将“筑主賒買得人田地契進不停”释为“筑主赊买得人田地契进不停”，其中“筑主”可能为“主”或“预示”之意，candidate 未标注。",
+          "candidate 将“名蹄刀殺子孫如三兄苑此地不出三五七年殺第三三男兩兄第”释为“名蹄刀杀，子孙如三兄苑，此地不出三五七年杀第三三男两兄第”，其中“三兄苑”、“第三三男两兄第”含义不明，candidate 未标注。",
+          "candidate 将“塟此地主殺第二男”释为“葬此地主杀第二男”，其中“地主”可能为“此地”之误或“地主”指地主，candidate 未标注。",
+          "candidate 将“筆主年半月日賈田几”释为“笔主年半月日贾田几”，含义不明，candidate 未标注。",
+          "candidate 将“可用工御去爲妙”释为“可用工御去为妙”，其中“御去”可能为“除去”之误，candidate 未标注。",
+          "writer_uncertainty 中已指出问题，但 candidate 文本本身未以注释形式明确标出这些不确定点。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6353,
+    "completion_tokens": 3275,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6353,
+      "completion_tokens": 3275,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

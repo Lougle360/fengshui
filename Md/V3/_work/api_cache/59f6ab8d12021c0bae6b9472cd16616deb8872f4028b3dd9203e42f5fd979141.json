@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T18:54:29.727490+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "59f6ab8d12021c0bae6b9472cd16616deb8872f4028b3dd9203e42f5fd979141",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002189-p000-4472a70bce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002190-p000-43f0511eaa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002191-p000-15b1599f91",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译了《象》曰的原文内容，未保留原文的引述格式，且未完整呈现原文的结构"
+        ],
+        "uncertainty": [
+          "原文中“咸其晦”的“晦”是否为“腓”的讹误，原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 201,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1311,
+      "completion_tokens": 201,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

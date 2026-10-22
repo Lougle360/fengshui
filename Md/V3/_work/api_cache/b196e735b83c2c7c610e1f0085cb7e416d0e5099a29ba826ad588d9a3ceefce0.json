@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-26T08:58:50.043695+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b196e735b83c2c7c610e1f0085cb7e416d0e5099a29ba826ad588d9a3ceefce0",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000517-p000-d2e31b5262",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000519-p000-a171a90357",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“審耳証”为笔误类讹字，candidate误写为“审核应证”，且后续“察其艮”无原文依据，原文此处应为“审其证，察其忌”，属于文意错误；原文“穴形非百物形象之形而取夫楊筮松四象腐金乳矣之丹”为讹误内容，candidate直接释为“杨筠松所说的四象窝、钳、乳、突之类的形态”属于无依据补全，违反了不确定内容不得写成确定事实的要求；原文“泰之吳董心機”candidate释为“参考吴、董两家的心得”属于无依据释义，该短语含义不明确不应直接确定解释"
+        ],
+        "uncertainty": [
+          "原文“楊筮松四象腐金乳矣之丹”“泰之吳董心機”两处文字存在讹误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3332,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3332,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T04:56:30.282552+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "67edd5855af6738a1ce8fe20771b7c0454a54b7062283c7fd6f6d2b38a80e6ae",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001467-p000-a5f54207e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001468-p000-8f7d962a7d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001469-p000-8aa502d46c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001470-p000-b1d2c258bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'真乳'属于风水专用术语，allowed_glossary中未收录该术语的解释，候选释读未对其进行说明，也未置于引号内保留原样，普通读者无法理解其含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001471-p000-10d9382e26",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'乳'属于风水专用术语，allowed_glossary中未收录该术语的解释，候选释读未对其进行说明，也未置于引号内保留原样，普通读者无法理解其含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001472-p000-fd948921bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'开枝'、'过形'属于原文中的专业术语，候选释读未对其含义进行标注说明，普通读者无法明确其在风水语境中的具体所指；对'针线'的解释属于无依据的推测，allowed_glossary中无相关定义，不应直接释为'针线般的紧密连接'"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001473-p000-c0df7c7b67",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'乳'、'龙虎'、'度峡'、'风吹水劫'属于风水专用术语，allowed_glossary中未收录上述术语的解释，候选释读未对其进行说明，也未全部置于引号内保留原样，普通读者无法理解其含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001474-p000-6207c4bb8e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原句未明确说明'用拙'的主语是释者本人，候选释读自行补出主语'我'属于无依据增译，改变了原文的泛指含义"
+        ],
+        "uncertainty": [
+          "原句'用拙不能争奈何'表述较为含混，无法确定具体指代对象"
+        ]
+      },
+      {
+        "id": "book018-b001475-p000-dd032a8b30",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'拙穴'属于风水专用术语，allowed_glossary中未收录该术语的解释，候选释读未对其进行说明，也未置于引号内保留原样，普通读者无法理解其含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001476-p000-a95b6a951b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'扦'是风水葬法专用术语，候选释读未对其进行说明，普通读者无法理解；'不扦浑是弃偏颇'的释读逻辑不通，未准确传达原文含义，原文意指不进行扦穴大多是因为放弃了看似偏颇的真穴位置"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2334,
+    "completion_tokens": 869,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2334,
+      "completion_tokens": 869,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

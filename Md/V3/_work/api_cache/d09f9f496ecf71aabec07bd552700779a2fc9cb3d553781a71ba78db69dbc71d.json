@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-26T07:15:46.223908+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d09f9f496ecf71aabec07bd552700779a2fc9cb3d553781a71ba78db69dbc71d",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000069-p000-d003709427",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000070-p000-525b810ff8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代汉语，仅对原文做断句处理，大量风水相关表述未做通俗释读，不符合V3白话释读目标"
+        ],
+        "uncertainty": [
+          "“墓之辰中房见中”“进宮羽音”具体含义原文表述模糊，暂无法明确释读"
+        ]
+      },
+      {
+        "id": "book034-b000071-p000-1c36e18f44",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代汉语，仅对原文做断句处理，大量专业表述未做通俗释读，且误增“一”字，原文“世代榮華”被误写为“世代一榮華”属于内容错误"
+        ],
+        "uncertainty": [
+          "“同厚營坌”“地尊曜玉鏡云”具体含义表述模糊"
+        ]
+      },
+      {
+        "id": "book034-b000072-p000-002ec7ae1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000073-p000-4dcec26517",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代汉语，仅对原文做断句处理，大量专业表述未做通俗释读，且“太木根貫屍”“盜奸淫惡疾”“天絕山水低降不妨宅同”“坎山艮水號同無限家寶，雪見湯休望子孫丞後業，中元方前保出生”等语句存在断句错误，语义不通"
+        ],
+        "uncertainty": [
+          "“化地都玉鏡云”“營坋”“天絕”“詩句部分用字存在传抄讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book034-b000074-p000-8b85757e45",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 核心内容未转换成普通读者能读懂的现代中文，大量文言表述未释读，仅对原文做了断句处理，不符合白话释读要求。2. “水路冲滋”“營场狐議入穴”“讓東墻”“如岡遶吉宅同一”“萬鑑倉籍花作灰”“剛有作房無暉礙”等表述未做通俗解释，普通读者无法理解含义。3. 未对locked_terms按照allowed_glossary的定义进行必要释读，仅原样保留术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000075-p000-bb69f55bc4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代汉语，仅对原文做断句处理，“如山峰圓作墓”断句错误，应为“如山峰圆，作墓”，“中易富”“後代人冷絕宅同”语义未做通俗释读，表述模糊"
+        ],
+        "uncertainty": [
+          "“化應龍五鐘云”“冷絕”具体含义不明"
+        ]
+      },
+      {
+        "id": "book034-b000076-p000-f694ed80b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000077-p000-4f30dfe12b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“變昂昂”“福蔭春家中身肅”“積蓄慳貪家業惟”“則孫雖少养孟嘗”的具体表述存在古书传抄可能带来的语序、用字误差，以上释读为结合风水语境的通顺化处理"
+        ]
+      },
+      {
+        "id": "book034-b000078-p000-926ae5410a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代汉语，仅对原文做断句处理，“水路冲激營”“不祥棺欹屍亂”“歷金水氣人隔疾凶死”“諸房凶出平案橫吉宅目一”“常被瘟火相龍書”等语句断句错误，语义不通，存在大量未释读的专业表述"
+        ],
+        "uncertainty": [
+          "“瓦濟”“化巡繩鏡云”“羅曉”“巖蠱”“龍書”等表述存在传抄讹误可能，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 877,
+    "completion_tokens": 183,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2923,
+      "completion_tokens": 1298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2923,
+      "completion_tokens": 1133,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 877,
+      "completion_tokens": 183,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

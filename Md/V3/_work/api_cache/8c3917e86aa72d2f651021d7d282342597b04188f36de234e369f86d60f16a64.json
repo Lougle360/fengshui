@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T13:17:55.399379+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8c3917e86aa72d2f651021d7d282342597b04188f36de234e369f86d60f16a64",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001126-p000-fda606af2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“脫穴影光穴焦巳見”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001127-p000-4905cb1869",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“o”“8”“2”“虢”“庚”“甘句”“阳挑滑土”“沙话”“府上の起”等无法明确释读的内容强行释读，存在无依据扩写问题；“國外用三合土堅築七寸井方墙方下臨溝可走棹西”“地千治 家原已滿口以上集作負證大可優”“井上如發頭形中刀庚現留隙冷聖水自港出蟲風不得人”“友有力之家府上の起 如地 8人 石地座棺 图 須景地方不可作成 2 池月大堆外 池歲溝廉外皆老土內起磚腳上覆方虢安缺”“十細沙碑灰和以黏米汁或用陽挑滑土沙話細甘句和土如乾糕歌不可太濕太温不使染且生內拆築舊一目之力然食易人相駁于乾湯不和如引客水”等内容存在漏译、错译，且将推测内容写成确定事实"
+        ],
+        "uncertainty": [
+          "原文中“o”“8”“2”“虢”“庚”“甘句”“阳挑滑土”“沙话”“府上の起”等具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1505,
+    "completion_tokens": 413,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1505,
+      "completion_tokens": 413,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

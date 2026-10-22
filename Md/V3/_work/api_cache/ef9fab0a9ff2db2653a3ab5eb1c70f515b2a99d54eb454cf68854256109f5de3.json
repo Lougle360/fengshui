@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-17T15:31:01.634808+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ef9fab0a9ff2db2653a3ab5eb1c70f515b2a99d54eb454cf68854256109f5de3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003975-p000-92489befce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘昨殒流星’释为‘昨日陨落的流星’是误译，原文‘昨殒’应指‘陨落的样子’或‘陨星形态’，而非时间上的‘昨日’。",
+          "将‘登科少年’释为‘登科及第的少年’是合理的增译，但‘娶贵女’后接‘位登侍从’逻辑稍显跳跃，原文‘娶贵女位登侍从’更可能指‘娶贵女’和‘位登侍从’是并列的两件事。",
+          "‘若有月星生左右或在前山隔岸成’释为‘若有月星生于左右或在前山隔岸形成’基本准确，但‘隔岸成’的‘成’字未译出，可能指‘形成’或‘成就’。",
+          "‘定生儿女作妃后’释为‘定生儿女，女儿可作妃后’是合理的增译，但原文‘作妃后’可能泛指子女中有人成为妃后，不特指女儿。",
+          "‘男娶公主传盛名’释为‘儿子娶公主，传扬盛名’准确。"
+        ],
+        "uncertainty": [
+          "三二官星的具体所指",
+          "‘昨殒流星’的确切形态描述"
+        ]
+      },
+      {
+        "id": "book035-b003977-p000-71246fe59c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘右祥云官星’的具体所指",
+          "‘右’字的含义（可能为方位或特定名称）"
+        ]
+      },
+      {
+        "id": "book035-b003986-p000-8d342d3768",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘中 媚之蘇橙蹋毗蒯衝機驩重子微非若雲當以物理推之則造化自得也’部分文字严重讹误或为乱码，candidate 仅标注‘具体所指不详，原文此处似有讹误’，但未能提供任何保守的、基于可识别字词的释读，导致整句语义断裂，无法判断释读是否准确。",
+          "‘风精微亦足为后学城矣’中‘城’字，candidate 标注‘可能为讹字’，但未提供可能的替代释读（如‘式’、‘范’等），导致句意不明。",
+          "由于关键部分原文损坏严重，candidate 的释读无法成立，应标记为 uncertain。"
+        ],
+        "uncertainty": [
+          "‘中媚之苏橙蹋毗蒯冲机欢重子微’的具体所指及是否为严重讹误",
+          "‘城’字的含义及是否为讹字",
+          "‘风精微’的具体所指",
+          "整段文字因讹误过多，难以进行可靠的保守释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 617,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1342,
+      "completion_tokens": 617,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

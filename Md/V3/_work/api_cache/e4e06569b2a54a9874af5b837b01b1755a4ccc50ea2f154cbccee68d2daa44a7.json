@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:27:58.973021+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e4e06569b2a54a9874af5b837b01b1755a4ccc50ea2f154cbccee68d2daa44a7",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000678-p000-5180aba908",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000682-p000-874499fdce",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": []
+      },
+      {
+        "id": "book014-b000683-p000-67bb3f7d8d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中存在OCR识别残缺的字符“C”，无法确认其具体含义，导致该部分释读无法成立"
+        ],
+        "uncertainty": [
+          "原文中“C”为OCR识别残缺，无法确认具体内容"
+        ]
+      },
+      {
+        "id": "book014-b000684-p000-d71dc096ca",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中存在日文假名“や”，未明确其含义，且“燕梦”属于无依据扩写，原文未提及该内容"
+        ],
+        "uncertainty": [
+          "原文中“や”的含义未明确，“燕梦”为无依据添加的内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1649,
+    "completion_tokens": 306,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1649,
+      "completion_tokens": 306,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

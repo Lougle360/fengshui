@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-24T01:30:02.895990+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ea2e6d2e9618ed3ed4918ad41fec9ba2f74682ddda7d2bcf53132b7adc95e0e8",
+  "response": {
+    "items": [
+      {
+        "id": "book007-b000008-p000-23a8e1feb2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“殊砂”为朱砂的异体写法，是书写符的颜料，与风水术语“砂”无关，候选错误套用allowed_glossary中“砂”的释义，将“殊砂”误释为穴场周围的山丘地形，属于专业术语误用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book007-b000010-p000-3fd14a0fb3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“青龙和合净茶米食”“家堂圣泉敖土地”原文未明确具体所指"
+        ]
+      },
+      {
+        "id": "book007-b000011-p000-86ef4777ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book007-b000013-p000-9d1211fcd2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“久保ム門”是日文表述，ム为“之”的异体写法，正确含义为“久保此门”属于正确释读，但原文末尾“家宅多崇禳解”中“崇”为“祟”的形近讹字，候选直接沿用错误写法，且未对该句语义做符合现代汉语的通顺转换，原句意为“家宅若多邪祟，可禳解”，候选未修正讹字也未通顺释读；另外“永達大古”语义不明未标注"
+        ],
+        "uncertainty": [
+          "“永达大古”语义不明确"
+        ]
+      },
+      {
+        "id": "book007-b000014-p000-6484d447c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“毗壹十二張”语义不明，候选擅自将其释为“按星盘方位的数量贴十二张”属于无依据增译；原文“速去麗禳之物無用矣”释读错误，“麗禳”语义不明，候选随意解读为“被禳解的事物就不会再作祟了”不符合原文"
+        ],
+        "uncertainty": [
+          "“毗壹”“麗禳”具体所指不详"
+        ]
+      },
+      {
+        "id": "book007-b000015-p000-415d6b8712",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句语义不明确"
+        ]
+      },
+      {
+        "id": "book007-b000017-p000-db27590e04",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“十二月簿气”“东秘訣袖機 十二”语义不明确"
+        ]
+      },
+      {
+        "id": "book007-b000018-p000-119846912d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book007-b000019-p000-de40cbad4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book007-b000020-p000-81566e18ef",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“操上”语义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2199,
+    "completion_tokens": 913,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2199,
+      "completion_tokens": 913,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-17T09:24:53.333896+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "09a1daf3befb3f3dae440e6874f923e01c23bc053d093ac77c006713facab192",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003154-p000-44a77a3a1b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'催立穴'被处理为'选定穴位'，但'催立'可能指催促或快速确立，候选句未保留原文动作的模糊性，应明确标注其含义不确定。",
+          "'官地'被解释为'以官地作为依托'，但原文未明确其具体含义，候选句将其作为确定事实处理，属于无依据扩写。",
+          "'后方为实'是对'后爲實'的直译，但'实'的含义不明，候选句未标注其不确定性。",
+          "'文内閣學士果兩'被处理为'文中还提到...具体所指不详'，但原文是记载内容的一部分，候选句将其与前面记载割裂，且未保留原文作为记载内容的语境。",
+          "'虔州如钟鼓乡般咚咚作响'是对'虔州鐘鼓鄉咚咚'的直译，但'钟鼓乡'可能为地名或比喻，'咚咚'含义不明，候选句未标注其不确定性。"
+        ],
+        "uncertainty": [
+          "催立穴",
+          "官地",
+          "后方为实",
+          "文内閣學士果兩",
+          "虔州鐘鼓鄉咚咚"
+        ]
+      },
+      {
+        "id": "book035-b003156-p000-906f63883c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "侧瓜侧向",
+          "闻斧穴",
+          "五位"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 325,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1246,
+      "completion_tokens": 325,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

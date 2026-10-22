@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-10-15T04:52:29.302070+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d8817220c06fa3049b76dbec4b8bb0c2a93ac25681660650577861df4375d4a9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001176-p000-45ff34377c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001177-p000-3011ff9861",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量文字错乱、倒置或残缺，导致句意难以连贯理解。候选译文虽尝试重组，但多处语义无法对应，如“六相江入梁兑来于钟中邑阳秀似环于陈而向城山南”等句，无法构成现代中文的合理逻辑。这超出了‘保守释读’的范畴，属于原文损坏导致无法成立的情况。"
+        ],
+        "uncertainty": [
+          "原文存在大量文字错乱、倒置或残缺，导致句意难以连贯理解，部分段落无法准确对应具体地理或风水逻辑。"
+        ]
+      },
+      {
+        "id": "book035-b001178-p000-492310b1cd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选译文将‘京兆古之涵大 江自雅 分流至附而 洽賊鄰居 卻其有大 有隆 環三邊’等错乱原文强行拼接为‘京兆古之涵，大江自雅分流至附，而洽贼邻居。却其有大，有隆，环三边。’，这并非合理的白话释读，而是对混乱原文的简单直录，未能形成可理解的现代中文句子。",
+          "候选译文将‘上周刀 比 觀天象上了南岡’处理为‘上周刀比，观天象上了南冈’，‘刀比’含义不明，应标注为不确定或原文错乱。",
+          "候选译文将‘令 附里’处理为‘令附里’，含义不明，应标注为不确定或原文错乱。",
+          "候选译文将‘五代 環其中此平垣萬四 唐晉周 宋 都 之 令 附里’处理为‘五代环其中，此平垣万四，唐晋周宋都之，令附里。’，其中‘万四’、‘令附里’含义不明，应标注为不确定或原文错乱。"
+        ],
+        "uncertainty": [
+          "原文部分段落存在严重错乱或脱漏（如‘上周刀比’、‘令附里’等），导致部分句意无法完全确证。"
+        ]
+      },
+      {
+        "id": "book035-b001179-p000-74569a8424",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺，仅存两字，无法构成完整语义。"
+        ]
+      },
+      {
+        "id": "book035-b001180-p000-568f6fd08b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001181-p000-01f8d20028",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选译文将‘地燕山春秋畤召公所之國遼金所堵陛雲燕最高象爲天市天占碣石草抱縈是也’处理为‘地燕山，春秋畤，召公所之国，辽金所堵。陛云燕最高，象为天市天占，碣石草抱萦是也。’。其中‘辽金所堵’、‘陛云燕’等表述在候选译文中未加任何说明，直接作为事实陈述，但原文可能为错讹或特定术语，含义不确定。应标注原文表述含混，具体所指不详。",
+          "候选译文将‘獨水言其所令附于此’处理为‘独水言其所令，附于此。’，其中‘言其所令’含义不明，应标注为不确定。"
+        ],
+        "uncertainty": [
+          "原文‘辽金所堵’、‘陛云燕’、‘言其所令’等表述较为晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001182-p000-5ea56f18a8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选译文将‘杆来龙最忌妄穿鑒’处理为‘杆来龙最忌妄穿鉴’，其中‘杆’字可能为‘扦’（勘定、选择）之误或特定术语，候选译文未加说明，直接使用‘杆’字，可能误导读者。应标注原文用字存疑。",
+          "候选译文将‘勞 長勞鑿 國而’处理为‘劳长劳凿。国而’，未能形成通顺的现代中文句子，且‘国而’含义不明。应标注原文错乱或脱漏，具体所指不详。"
+        ],
+        "uncertainty": [
+          "原文‘杆来龙’、‘劳长劳凿’、‘国而’等词句存在歧义或错乱，具体含义需结合上下文推测。"
+        ]
+      },
+      {
+        "id": "book035-b001183-p000-a0b44947a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001184-p000-6b5fe2e7d0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘封例见后，专部’语意未尽，可能指后续章节有详细记载。"
+        ]
+      },
+      {
+        "id": "book035-b001185-p000-adf20a4d0f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4459,
+    "completion_tokens": 1181,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4459,
+      "completion_tokens": 1181,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

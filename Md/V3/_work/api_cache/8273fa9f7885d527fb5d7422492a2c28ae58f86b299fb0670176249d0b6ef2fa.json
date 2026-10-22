@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T13:04:49.615289+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8273fa9f7885d527fb5d7422492a2c28ae58f86b299fb0670176249d0b6ef2fa",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001046-p000-81cb4cdb15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001047-p000-26162e717c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001048-p000-1f047ff299",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中语义不明的“酒赖矣”“目无水木化龙”“熟2”标注符号进行了确定化解释，属于无依据扩写；对“乾流”的解释不符合allowed_glossary中“乾”的定义，擅自添加了卦象相关内容"
+        ],
+        "uncertainty": [
+          "原文中“酒赖矣”“目无水木化龙”语义不明，“熟2”为标注符号，含义不详"
+        ]
+      },
+      {
+        "id": "book014-b001050-p000-0e7da161e3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对原文中语义不明的“述身瀑布”“珍味帘应”“云两案”进行了确定化解释，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“述身瀑布”“珍味帘应”“云两案”语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1995,
+    "completion_tokens": 359,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1995,
+      "completion_tokens": 359,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

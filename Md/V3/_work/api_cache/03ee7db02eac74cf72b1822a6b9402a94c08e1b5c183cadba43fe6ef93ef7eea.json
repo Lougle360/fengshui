@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-23T10:04:55.170453+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "03ee7db02eac74cf72b1822a6b9402a94c08e1b5c183cadba43fe6ef93ef7eea",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000254-p000-7eddcf7cee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文末尾'孰知止札之縣'，candidate译为'谁知龙脉止驻的具体位置所在？'，漏译了'札'字。'止札'可能指停止、驻扎，但'札'字未译出，且'縣'通'懸'，指悬处、所在，candidate处理为'具体位置所在'，虽可接受，但'札'字缺失。",
+          "2. 专业术语误换：原文'砂猶動馬'，candidate译为'砂势犹如动荡的马军'，将'动马'解释为'动荡的马军'，属于无依据扩写。'动马'可能指马匹活动或某种动态，但直接译为'动荡的马军'，增加了'军'的含义，不准确。",
+          "3. 反义或误译：原文'亦悟人矣'，candidate译为'只能说是误导人罢了'，将'悟人'（使人醒悟）解释为'误导人'，意思相反。"
+        ],
+        "uncertainty": [
+          "'狼湧'的具体比喻含义",
+          "'試'在此处确切指辨识还是试探",
+          "'縣'通'懸'指具体位置而非县境"
+        ]
+      },
+      {
+        "id": "book003-b000256-p000-681e82fbd6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'砂魂'这一术语的具体所指"
+        ]
+      },
+      {
+        "id": "book003-b000260-p000-d6a13f6144",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'璧'字的确切含义及是否为通假字",
+          "'钻'字的确切含义及是否为通假字"
+        ]
+      },
+      {
+        "id": "book003-b000268-p000-959d17fbcb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'微垣像列'的具体含义",
+          "'杂解'的具体含义"
+        ]
+      },
+      {
+        "id": "book003-b000270-p000-2dde0874f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'俶气王人无'一句的确切含义及是否存在文字讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2326,
+    "completion_tokens": 619,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2326,
+      "completion_tokens": 619,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T10:10:54.222175+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5a4458219074c56be4aad50465664b7b4ece961593582c97b0ff90ca878fe0d9",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000227-p000-518e8740dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000229-p000-7edd634a26",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句混乱语义不明，候选将残缺原文强行组合为通顺语句，属于无依据增译，且未标注原文残缺的情况"
+        ],
+        "uncertainty": [
+          "原文语序混乱，完整语义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000230-p000-c9f91b994d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文“冬到”，随意将“冬到”改写为“降临”不符合原文表述；漏译原文末尾“即大”的内容；“公乡”属于未在允许术语表中的含混专名，不应直接保留并作为确定表述，应标注语义不明"
+        ],
+        "uncertainty": [
+          "原文“富贵冬到”“即大”“公乡”语义不明"
+        ]
+      },
+      {
+        "id": "book024-b000232-p001-3df63d9623",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000234-p000-a584ad43e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000235-p000-2ff5914861",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“永口無閉”被改为“永无闭聚”属于无依据改写，原文“爹”未在候选中对应体现，且擅自认定“口”“爹”为OCR错误却未保留原文可识别内容，不符合保守释读要求；“流配为戌”语义不明未标注"
+        ],
+        "uncertainty": [
+          "原文“永口無閉”“爹”“流配為之戌”语义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000236-p000-44275bd6f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句混乱，候选强行将残缺内容组合为通顺语句，属于无依据增译，未标注原文残缺情况"
+        ],
+        "uncertainty": [
+          "原文语序混乱，完整语义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000237-p000-68fae0766c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000241-p000-aa39c522c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“青龍吞壞”“唧屍”属于未在允许术语表中的含混表述，候选将其作为确定事实描述，未标注语义不明；原文中的字符“0”无依据保留，应标注为原文识别不清内容"
+        ],
+        "uncertainty": [
+          "“青龍吞壞”“唧屍”语义不明，原文中“0”含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000242-p000-943ddaa015",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“右閨水”“陰人定”“見拋父母走”均属于语义不明内容，候选未标注相关歧义，直接作为确定表述释读"
+        ],
+        "uncertainty": [
+          "“右閨水”“陰人定”“見拋父母走”语义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1933,
+    "completion_tokens": 882,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1933,
+      "completion_tokens": 882,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

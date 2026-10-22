@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T18:11:04.869708+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "427b24cc31dd4504f0550d779d800451235e0ce0c058308a0471333752945bb8",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001748-p000-c6582683f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001749-p000-1a693c72e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001750-p000-a2af7b86ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001751-p000-ba7ea84d44",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未明确释读原文的爻辞归属，原文为《复》卦卦辞，候选句未说明该内容的属性，属于增译了\"此爻的情况\"的无依据表述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1936,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1936,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

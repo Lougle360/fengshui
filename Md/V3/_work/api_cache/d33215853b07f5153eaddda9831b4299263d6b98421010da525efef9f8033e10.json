@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-17T13:59:12.114236+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d33215853b07f5153eaddda9831b4299263d6b98421010da525efef9f8033e10",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003802-p000-e95717d4dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对表格内容的描述存在严重误译和漏译。源文本表格第一行文字'帝四二子字名姓祖高大王代十出季邦劉牆帝漢'，从右至左阅读应为'漢帝牆劉邦季出十代大王高祖姓名字子二四帝'，描述了汉高祖刘邦至汉景帝（二四帝）的世系。候选句未进行正确解读，仅罗列了混乱的字符。",
+          "源文本表格中的文字'格龍星金'、'格龍尺玉格'、'龍星水'等是并列的术语或条目，候选句将其描述为'涉及...等术语'，未能准确反映表格的结构和内容。",
+          "源文本表格右侧的文字说明'見經可於倍為末未龍雲有穴亦之...'等，从右至左阅读应构成连贯的句子，候选句仅罗列了字符，未进行任何释读，属于严重漏译。",
+          "候选句整体未能将表格内容转换为'普通读者能读懂的白话释读'，而是对混乱字符的简单罗列和模糊描述。"
+        ],
+        "uncertainty": [
+          "表格中图像的具体内容无法通过文字描述。",
+          "部分术语如'格龍尺玉格'、'龍星水'的具体应用语境需结合图像确认。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1353,
+    "completion_tokens": 331,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1353,
+      "completion_tokens": 331,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

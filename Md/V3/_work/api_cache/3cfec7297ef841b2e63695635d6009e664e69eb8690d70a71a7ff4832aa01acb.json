@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T14:38:39.197753+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3cfec7297ef841b2e63695635d6009e664e69eb8690d70a71a7ff4832aa01acb",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000835-p000-c031da1926",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“唐堯は即位したとある6)”的上标6)未在译文中体现，属于注释遗漏"
+        ]
+      },
+      {
+        "id": "book015-b000836-p000-0d2bde2db0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000837-p000-165e4112ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000838-p000-7731401dee",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“経世暦113,400年=”后内容未译出，属于漏译；“夏禹五”的译法未明确是否为原文的“夏禹五（年）”，存在歧义处理不明确的问题"
+        ],
+        "uncertainty": [
+          "原文末尾“経世暦113,400年=”后续内容缺失，无法确认完整信息"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3712,
+    "completion_tokens": 304,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3712,
+      "completion_tokens": 304,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

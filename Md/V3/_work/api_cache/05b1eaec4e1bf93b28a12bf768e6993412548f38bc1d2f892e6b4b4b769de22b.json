@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-09-26T05:06:32.336733+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "05b1eaec4e1bf93b28a12bf768e6993412548f38bc1d2f892e6b4b4b769de22b",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000330-p000-a6af4ea6de",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "文本整体漫漶错乱，大部分内容语序不通，无法准确释读完整含义"
+        ]
+      },
+      {
+        "id": "book032-b000331-p000-9b3808538b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000332-p000-f69f6c9385",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000333-p000-4063bb44e1",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“B4”为OCR识别残缺字符，无法确认具体内容"
+        ]
+      },
+      {
+        "id": "book032-b000334-p000-5f67bee48c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文语句语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book032-b000335-p000-619ef408dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在漫漶散乱问题，候选仅简单转录原文，未完成向现代中文的转换，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文存在部分语句语义不通，部分内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book032-b000336-p000-a2c9eeaa6b",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "文本语序混乱，部分表述漫漶，无法完整准确释读全部含义"
+        ]
+      },
+      {
+        "id": "book032-b000337-p000-7e0fe0dd33",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未完成，候选仅简单转录，未转换为现代中文白话，且未明确标注原文残缺情况",
+          "locked_term“乾”未按要求解释或说明语境，仅保留原文未释读"
+        ],
+        "uncertainty": [
+          "原文语句残缺，语义不完整"
+        ]
+      },
+      {
+        "id": "book032-b000338-p000-326d63e4e6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "部分语序错乱，部分表述的具体指向不够明确"
+        ]
+      },
+      {
+        "id": "book032-b000339-p000-4ecc6dc0d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3597,
+    "completion_tokens": 643,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3597,
+      "completion_tokens": 643,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

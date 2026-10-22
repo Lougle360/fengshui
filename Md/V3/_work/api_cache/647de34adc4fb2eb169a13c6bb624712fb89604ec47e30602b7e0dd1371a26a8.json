@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-09-26T08:55:50.169094+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "647de34adc4fb2eb169a13c6bb624712fb89604ec47e30602b7e0dd1371a26a8",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000245-p000-368382f257",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在多个连续动作：开生炁方的门、行生炁方的路、穿生炁方的井、食生炁方的水、造生炁方的碓/厕/栏，候选将这些动作合并表述为“在生炁方位的门…栏”，遗漏了“开、行、穿、食、造”等动作语义",
+          "原文“值母輕忽”应为“切莫轻忽”的形近讹写，候选释为“千万不要轻忽”语义正确，但“以溢百禍”应为“以致百祸”，候选释为“否则会招致各种祸患”语义正确，但前面动作漏译影响整体准确性",
+          "术语“水”未按allowed_glossary明确为风水语境中的水系相关含义，仅直接保留“水”未作符合要求的浅显释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000246-p000-cc544e5603",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“塟扮”语义不明，候选直接释为“丧葬”属于无依据臆译，不符合术语释读规则",
+          "原文“主君子加官祿”的“君子”并非指君主，候选释为“君主能加官进禄”属于语义误译，应为“士人、官宦”类身份",
+          "原文末尾“應如”表示“应验如下”，候选遗漏该语义，直接截止到“满一年就会应验”属于内容不完整"
+        ],
+        "uncertainty": [
+          "“塟扮”具体所指不详"
+        ]
+      },
+      {
+        "id": "book034-b000247-p000-e80ef13381",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“年月日時之南”语义不明，候选释为“年月日时的凶煞”属于无依据臆译",
+          "原文“報工”属于风水专用操作，候选未作说明直接保留，但并未明确其为不确定内容，存在将不明术语默认等同于普通“上报施工”的误导",
+          "原文“前七吉巳位 或干關煞玄方開張市肆”语义逻辑为“前七吉的巳位，若是在干关煞玄方位开设店铺”，候选直接将“前七吉巳位”单独成句，导致逻辑断裂"
+        ],
+        "uncertainty": [
+          "“年月日時之南”“干關煞玄方”“報工”具体所指不详"
+        ]
+      },
+      {
+        "id": "book034-b000248-p000-30519032e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "庫禮周具佐玄，原義不確定"
+        ]
+      },
+      {
+        "id": "book034-b000249-p000-236cfa46e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或方向”是“或者某个方位”，候选释为“或涉及向（建筑或穴位所朝的方位）”属于偷换概念，“方向”并非术语“向”，误用allowed_glossary的术语定义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000250-p000-bc8f51eb09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000251-p000-fe3e7b9c3a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "上元二十起距縣，原義不確定",
+          "中元二十九鐵，原義不確定",
+          "下元二十起大者起零年逐位推，语义模糊"
+        ]
+      },
+      {
+        "id": "book034-b000252-p000-96db4b186d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000253-p000-742e80071a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“逆尋年分順宮遊”是独立的起算规则，候选直接和前半句“下元七赤兌方是”连写，未拆分语义导致句子不通顺，不符合现代汉语表达要求",
+          "存在明显形近讹字“自星”应为“白星”，候选未做标注也未按正确语义释读，直接保留错误表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000254-p000-344a469003",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3067,
+    "completion_tokens": 1207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3067,
+      "completion_tokens": 1207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

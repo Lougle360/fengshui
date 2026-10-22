@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-16T08:16:27.378817+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "28872fe6297ccd1145db65b3ef142f246bcfa7131ea19029c137fb68434aba74",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002396-p000-c179fd0fdf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘巽山乾版六九’，candidate释为‘巽山乾向，对应数字六、九’，将‘版’字漏译。‘版’可能为‘向’的异体或误字，但释读时未作说明或保留。",
+          "原文为‘注段酉山卯程後戌山辰乾山巽’，candidate断句为‘注段酉山卯’和‘程後戌山辰乾山巽’，并称‘具体所指不详’。此处理基本可接受，但‘程後’可能为‘程后’或‘程後’的特定术语，释读未保留其作为不透明术语的形态。",
+          "原文‘年尅 年尅 年起’为重复或强调，candidate简化为‘文中还提到冬至后的‘年尅’以及‘年起’’，未体现原文的重复结构，可能遗漏了强调或特定格式信息。"
+        ],
+        "uncertainty": [
+          "‘版’字的确切含义。",
+          "‘注段’、‘程後’的具体所指。",
+          "‘年尅’重复出现的意图。",
+          "‘年起’的具体指代。"
+        ]
+      },
+      {
+        "id": "book033-b002398-p000-002f25d072",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘卯山酉十四肢乙山辛七五腳六’，candidate断句为‘卯山酉向，对应数字十四及‘肢’；乙山辛向，对应数字七、五及‘腳六’’。此断句将‘肢’与‘乙山辛’分离，但原文‘肢’与‘乙’直接相连（‘十四肢乙’），存在‘肢乙’为一个词或‘肢’属于前句的可能性。candidate的断句缺乏依据，且未说明此不确定性。",
+          "candidate将‘小九’、‘肢’、‘腳六’标注为‘具体含义不详’，处理得当。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 495,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1088,
+      "completion_tokens": 495,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

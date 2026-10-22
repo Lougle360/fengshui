@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T20:12:59.805673+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6d67b9f1e992075077677180554577c32532afe7c9a810c751758d105b9a526b",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001415-p000-0a856633d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“王尺”具体含义未明确，暂保留原词"
+        ]
+      },
+      {
+        "id": "book029-b001417-p000-431c569eb4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“狐”具体所指不详，“崇华”具体含义未明确，暂保留原词"
+        ]
+      },
+      {
+        "id": "book029-b001421-p000-fd0bc9c201",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“业”疑为断句衍字，暂未纳入释读"
+        ]
+      },
+      {
+        "id": "book029-b001423-p000-ca56c2fe48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“丰日”无法确认是OCR识别错误还是专有术语，含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001424-p000-a98e7071eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“十八才子登科第”被误释为“会出很多有才学的人科举及第”，数字“十八”被遗漏，属于信息偏差"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1904,
+    "completion_tokens": 390,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1904,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

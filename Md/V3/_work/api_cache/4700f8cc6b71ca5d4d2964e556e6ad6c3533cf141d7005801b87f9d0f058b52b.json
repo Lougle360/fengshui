@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T17:09:53.885892+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4700f8cc6b71ca5d4d2964e556e6ad6c3533cf141d7005801b87f9d0f058b52b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000788-p000-502be2289a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000789-p000-9b443af69a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000790-p000-1d4258e3eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000791-p000-ff64e30c5e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中《象》与《象传》的内容拆分，且未保留原文的标注格式，存在内容调整不当问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2123,
+    "completion_tokens": 237,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2123,
+      "completion_tokens": 237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

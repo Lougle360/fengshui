@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:09:07.642943+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ae2bf227b88a8ec19d5619b28b0600ca007fce247b36880f470956cd0098422c",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000090-p000-178098ae16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000091-p000-f4b9932f01",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语义含混，释读中对‘兵势’‘袁氏’等内容的解释无依据，属于推测性扩写，无法确定准确含义"
+        ],
+        "uncertainty": [
+          "原文‘貧須臨位未無兵紫草生從腳下來兩驗紅顏猶尙友袁斬新裁’语义含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000092-p000-08779e3043",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘金有名’语义含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000093-p000-6860a311e7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘流來推桴水生多勇士其中泥上聚應知白蟻結成巢’语义含混，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 319,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1213,
+      "completion_tokens": 319,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

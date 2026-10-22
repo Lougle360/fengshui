@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-17T15:20:30.321744+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b972ef3a5833834dd077c7c2c2771407a1a8801767b7f620e820040d1c2f6a5c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003957-p000-d152fce872",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘八’，candidate误译为‘第九部分’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003958-p000-a12168cefa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘金星出曜’作为论述内容，但source中它是表格的一个单元格标题，与下方文字的关系不明确，释读方式可能误导结构理解。",
+          "candidate将‘火星四火星飞扬’作为论述内容，但source中它是表格的一个单元格标题，与下方文字的关系不明确，释读方式可能误导结构理解。",
+          "candidate将‘文章科第侍從壹館第三第’释为‘文章科第侍从壹馆第三第’，其中‘壹館’含义不明，但candidate未标注不确定性。",
+          "candidate将‘左右五府地位官爵升家富千金厚福壽右舞袖官星第一第二格’释为‘左右五府地位官爵升家富千金厚福寿右舞袖官星第一第二格’，其中‘左右五府’、‘升家富’等短语含义不明，但candidate未标注不确定性。",
+          "candidate将‘高必元九火星所變故例言之’释为‘高必元九由火星所变’，‘高必元九’含义不明，但candidate未标注不确定性。",
+          "candidate将‘火金成器則有金曜生焉欽旺亦能生曜’释为‘火金成器则有金曜生焉，钦旺亦能生曜’，其中‘钦旺’含义不明，但candidate未标注不确定性。",
+          "candidate将‘木星若爲笏爲圭爲個爲娥眉爲一字爲蘆鞭等則極貴而秀’释为‘木星若为笏、为圭、为个、为娥眉、为一字、为芦鞭等，则极贵而秀’，其中‘为个’含义不明，但candidate未标注不确定性。",
+          "candidate将‘此即造化變換輕重處不可不察也’释为‘此即造化变换轻重处，不可不察也’，其中‘造化变换’含义不明，但candidate未标注不确定性。",
+          "candidate将‘吧面点’视为乱码字符，但source中它位于正文末尾，可能是一个独立的词或标记，直接归入乱码处理不够严谨，应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003959-p000-f073488de1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘重處不可不索也’释为‘重处不可不索也’，其中‘索’字含义不明，但candidate未标注不确定性。",
+          "candidate将‘廿七官星排束核十個八’释为‘廿七官星排束核十个八’，其中‘排束核’含义不明，但candidate未标注不确定性。",
+          "candidate将‘發揮日經法雲’释为‘发挥曰：经法云’，其中‘日’可能是‘曰’的误字，但candidate未标注不确定性。",
+          "candidate将‘右排束官星三元神童全家科第’释为‘右排束官星三元神童全家科第’，其中‘排束’、‘三元’含义不明，但candidate未标注不确定性。",
+          "candidate将‘木之實蓋有木之華方有木之實皆木星之秀所發達而成者也’释为‘木之实盖有木之华方有木之实，皆木星之秀所发达而成者也’，其中‘盖有木之华方有木之实’逻辑不通，可能存在文字错漏，但candidate未标注不确定性。",
+          "candidate将‘個回環出或至十數如束角’释为‘个回环出或至十数，如束角’，其中‘束角’含义不明，但candidate未标注不确定性。",
+          "candidate将‘束形，兩頭俱尖疏傷密狀元省’释为‘束形，两头俱尖疏伤密状，元省’，其中‘疏伤密状’、‘元省’含义不明，但candidate未标注不确定性。",
+          "candidate将‘2 元金屋地更有神童异人出也，若朝應星辰止平平無凶亦可爲侍從壹匏中’释为‘2 元金屋地更有神童异人出也，若朝应星辰止平平无凶亦可为侍从壹匏中’，其中‘2 元金屋地’、‘壹匏中’含义不明，但candidate未标注不确定性。",
+          "candidate将‘廿八官星如靴履更有秀峰相應起賜履上殿極顯榮蓋世動位聲譽地登’释为‘廿八官星如靴履，更有秀峰相应，起赐履上殿极显荣盖世动位声誉地登’，其中‘起赐履上殿’、‘盖世动位’含义不明，但candidate未标注不确定性。",
+          "candidate将‘變’、‘履形靴’、‘靴’、‘5 履’作为独立词列出，但未说明它们在表格中的位置关系，释读不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003961-p000-ed5064360e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003962-p000-bb95aa1793",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2494,
+    "completion_tokens": 1348,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2494,
+      "completion_tokens": 1348,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

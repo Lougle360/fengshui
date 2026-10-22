@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T07:05:57.254381+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "eb886a097f6ab01447f4a085dcd44313fad9b2144ecbb8300c1857806d0b676a",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000035-p000-6666b685b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格内大部分文字残缺错乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book008-b000038-p000-f7ab628265",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文提及的「罗经纳甲」「饶减」「张山食水」「净阴净阳」等风水专有名词未做通俗解释，普通读者难以理解；2. 原文中“本體亦無不王之理”存在讹字，candidate译为“本体也本就没有不正的道理”属于无依据推测，应标注原文讹误；3. 原文“穴畧接左則饑龍面滿虎畧挨右則鵝艮爾與半露虎而誠龍”存在语序错乱，candidate译为“穴稍微往左靠，就能饶减龙方、增益虎方；稍微往右靠，就能让艮方、庚亥未、兑丁相关的方位半露，龙虎布局得当”属于过度补全，未标注原文残缺错乱的情况；4. 原文最后“正宗 卷之上 十”，candidate译为“记载在本卷的上卷第十部分”属于无依据增译，原文仅提及属正宗技法，在卷之上第十相关位置，无法确定是第十部分"
+        ],
+        "uncertainty": [
+          "原文存在部分脱漏、语序错乱、讹字内容，部分表述释读存在一定不确定性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3096,
+    "completion_tokens": 384,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3096,
+      "completion_tokens": 384,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

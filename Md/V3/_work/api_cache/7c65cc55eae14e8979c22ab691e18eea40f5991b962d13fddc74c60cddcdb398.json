@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T06:51:26.546165+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7c65cc55eae14e8979c22ab691e18eea40f5991b962d13fddc74c60cddcdb398",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000122-p000-47d42248cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文论述'入手'特征的段落末尾，明确是'此入手之至精至微处，尤为紧要'，候选句误写为'这是入首最精微的地方'，将专业术语'入手'错换为'入首'，属于核心概念混淆",
+          "原文'而已癸为孤虚'对应亥支相关的孤虚干支应为己亥、癸亥，候选句表述正确，但后续原文'盖从甲子乙丑之金分来'中的'金分'是古代术数专有表述，候选句释为'大概是从甲子、乙丑的金分来的'属于未完成现代白话转换，普通读者无法理解含义",
+          "原文'其与分金纳音五行相为生克制化者也'是判断句式，候选句误译为'它和分金纳音五行相互生克制化，是真的'，冗余添加了原文没有的'是真的'表述，且语义表述生硬"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2806,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2806,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

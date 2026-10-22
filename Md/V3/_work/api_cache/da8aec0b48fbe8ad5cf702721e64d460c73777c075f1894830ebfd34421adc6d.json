@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-09-23T15:25:18.449418+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "da8aec0b48fbe8ad5cf702721e64d460c73777c075f1894830ebfd34421adc6d",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000633-p000-d40807c72c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "赤蛇绕即伽金理"
+        ]
+      },
+      {
+        "id": "book002-b000634-p000-ff997117e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "艮多二龙堪裁"
+        ]
+      },
+      {
+        "id": "book002-b000635-p000-1b3e322a26",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘丑龍二水多殺裁理叶金雞怡蛇害’，candidate释为‘丑方龙脉若遇二水多杀，其裁断之理与金鸡相合。文中还提到‘鸡怡蛇害’’。此处将‘叶金鸡怡蛇害’拆解并赋予‘与金鸡相合’的确定含义，属于无依据扩写。‘叶’可能通‘协’，但‘金鸡怡蛇害’整体含义不明，应整体视为一个含混短语，原文未明。",
+          "原文为‘巽巳雙流水尅水何能句救含哉’，candidate释为‘若巽巳双流水相克，怎能救得过来呢？’ 原文‘句救含哉’含义不明，candidate将其意译为‘怎能救得过来呢’属于推测，应标注不确定性。",
+          "原文为‘庚申乙卯同辛酉艮寅壬亥例僕亥已皆屬長生地’，candidate释为‘庚申、乙卯与辛酉，以及艮寅、壬亥，都遵循同样的例子。亥巳皆属长生之地’。此处将‘僕’字忽略未译，可能为‘仆’或‘卜’，含义不明，应标注。",
+          "原文为‘陽龍巳曰員墩起雖然懷孕也糧胎’，candidate释为‘若是阳龙，在巳日遇到员墩起势，虽然怀孕也会流产。’ 将‘糧胎’释为‘流产’是推测，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "叶金鸡怡蛇害",
+          "句救含哉",
+          "僕",
+          "粮胎"
+        ]
+      },
+      {
+        "id": "book002-b000640-p000-26dd11aa9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘辰戌二龙’，candidate误译为‘艮、辰、戌三方的龙脉’，数量与所指方位皆误。原文‘丑水入翻覆槨’指丑方水流入导致棺椁翻覆，candidate译为‘丑方的水流入，会导致棺椁翻覆’，虽含义接近，但‘入’字未明确译出，且‘翻覆槨’译为‘棺椁翻覆’稍显生硬，可优化为更通顺的现代汉语。原文‘巽向丑水入塚宅準同巳酉凶難當’指巽向时丑水入，其凶险程度与巳、酉方相同，candidate译为‘凶险程度与巳酉方相同’准确，但‘塚宅準同’的‘準同’译为‘相同’可接受。原文‘四真蕉袋非爲吉路死扛尸哭一場’指‘四真蕉袋’这条路不吉利，会导致‘路死扛尸’的惨状，candidate译为‘文中提到的‘四真蕉袋’并非吉路，会导致死扛尸体、痛哭一场’，将‘路死扛尸’这一特定描述拆解为‘死扛尸体、痛哭一场’，虽大意未失，但丢失了‘路死’（死于道路）的意象，且‘扛尸’与‘痛哭’的因果关系未明确，可更精确地释读为‘会导致人死于道路，需要扛尸而回，家人痛哭一场’。"
+        ],
+        "uncertainty": [
+          "‘四真蕉袋’具体所指不详，原文未明。"
+        ]
+      },
+      {
+        "id": "book002-b000641-p000-94ff7e05fe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘丑未寅甲遇葫瘋殘痼疾凶非免’，candidate释为‘若在丑、未、寅、甲方位遇到‘葫’，会引发疯癫、残疾或痼疾，凶险难免。’ 将‘葫’视为一个专有名词（可能指某种地形或煞）并直接引用，处理方式符合要求。但‘疯残痼疾’释为‘疯癫、残疾或痼疾’是合理的浅显释义。然而，原文‘四金对射’含义不明，candidate直接引用而未标注不确定性，应补充。"
+        ],
+        "uncertainty": [
+          "四金对射",
+          "葫"
+        ]
+      },
+      {
+        "id": "book002-b000643-p000-928a265350",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "大入卦水法"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 796,
+    "completion_tokens": 383,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2471,
+      "completion_tokens": 935,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 796,
+      "completion_tokens": 383,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

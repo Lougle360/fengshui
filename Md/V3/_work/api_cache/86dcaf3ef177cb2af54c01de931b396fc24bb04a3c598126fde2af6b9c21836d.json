@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-24T13:17:27.979736+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "86dcaf3ef177cb2af54c01de931b396fc24bb04a3c598126fde2af6b9c21836d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001125-p000-381a420d49",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001126-p000-fda606af2f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将风水术语“穴”的释义直接用于释读，未按要求保留术语的专业属性，且“焦巳”的释读无依据"
+        ],
+        "uncertainty": [
+          "焦巳具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001127-p000-4905cb1869",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处无依据的释读，如将日文“府上の起”误译为“府上的起造”，将OCR识别错误的字符（如“o”“8”“2”“虢”“庚”“甘句”“阳挑滑土”“沙话”等）强行释读为具体内容，不符合原文残缺的实际情况"
+        ],
+        "uncertainty": [
+          "原文中存在多处OCR识别错误或残缺，如“o”“8”“2”“虢”“庚”“甘句”“阳挑滑土”“沙话”等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001128-p000-2b4085954e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处无依据的释读，如将“抽穴成伽”“更英嫌”“中间片地泳然员”“闻苏”等无明确含义的内容强行释读，不符合原文的模糊性"
+        ],
+        "uncertainty": [
+          "抽穴成伽的具体所指不详",
+          "更英嫌的具体所指不详",
+          "中间片地泳然员的具体所指不详",
+          "闻苏的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2915,
+    "completion_tokens": 449,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2915,
+      "completion_tokens": 449,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-24T07:32:18.803673+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b872bdb329e65cdfd15c26fe8456b18885d5dbf0bcf47c6be8a07ea73be42d96",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000083-p000-f32c878314",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000085-p000-281669c563",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“其塟宜深”误写为“其葵宜深”，属于形近字错误；原文中“炁從下連”应释为“气从下方散走/脱走”，释读为“散走”符合文意但需确认字的对应，另原文“支壠契法”应为“支垄葬法”类含义，释读为“支垄、高垄的法则”存在表述偏差，原文是支和垄两类的法则，不是支垄和高垄；“息災炁浮”属于原文术语，allowed_glossary未收录，若不是锁定术语则无问题，此处主要问题是“葵”为笔误，“支壠契法”的“契”应为“葬”或类字，释读漏了“契”的校正说明"
+        ],
+        "uncertainty": [
+          "“开寓锄”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000086-p000-a2e46eb73c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000088-p000-21af7e4b84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“径曰淺深得東風水自成”的“東”为讹字，释读改为“宜”属于合理校正但需标注说明；“虾须界水”的释义未在allowed_glossary中收录，属于自行添加确定术语解释，不符合规则；原文“俗蓑卦例”的“蓑”应为“师”类讹字，释读为“世俗的风水先生”合理但需标注讹字；原文“正此羨也”的“羨”为讹字，释读为“道理”属于合理校正但需标注"
+        ],
+        "uncertainty": [
+          "“白法”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000089-p000-4f2148baa5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000090-p000-f37e499336",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“脉必而此穴法”存在脱字，释读补为“脉必沉”属于合理推测但需标注脱字；原文“有申立之理有變通之也”存在脱字，释读补为“既有固定的道理，也有变通的方法”属于合理推测但需标注脱字；原文“但癌穴時”的“癌”为讹字，释读为“葬穴”属于合理校正但需标注讹字"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000091-p000-d33da281ac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“無水刑不止”的“刑”为讹字，释读为“有水就不会止气”属于合理校正但需标注讹字；原文“夫地不倍穴者”的“倍”为讹字，释读已标注但原文“未有上分下合清白而不地者”的“不地”应为“不得地”，释读表述为“没有上分下合、水清地净却不能得地的情况”存在逻辑偏差，应为“从未有过上分下合清楚明晰却不能得地的情况”；原文“阳適之風”的“適”为讹字，释读为“阳和舒缓的风”属于自行添加确定解释，allowed_glossary未收录，不符合规则"
+        ],
+        "uncertainty": [
+          "“地不倍穴”的“倍”为讹字，按通义释为发福类含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4029,
+    "completion_tokens": 953,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4029,
+      "completion_tokens": 953,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

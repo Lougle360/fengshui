@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-25T07:33:38.424261+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e15679e691164a469931c6bdfaf09852b351e0d356616015ce6ce6b8bdacef6a",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000188-p000-1ee9f12932",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“干坤坎离”的“干”是八卦之一的乾卦，候选多次误写为“天干”，与locked_terms及allowed_glossary中的八卦“干（乾）”概念不符，属于专业术语误换",
+          "原文“正以干南坤北”被误写为“正因为天干居南、坤居北”，存在相同术语错误",
+          "原文“非干与震乎”被误写为“不就是天干与震吗”，存在相同术语错误",
+          "原文“后天干坤即先天之巽艮”被误写为“后天的天干、坤对应先天的巽、艮”，存在相同术语错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000189-p000-63d74ec83a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其大小贵贱只在龙势上定之”指地的格局/穴位的大小贵贱由龙势判定，候选写为“龙势的大小贵贱只在龙势上确定”属于语义冗余且表述逻辑错误，改变了原句的陈述对象"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000190-p000-d806e54467",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2758,
+    "completion_tokens": 442,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2758,
+      "completion_tokens": 442,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

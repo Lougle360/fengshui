@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T16:50:08.742246+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "84e48e2629b89c7322612c5d806a6c6fb19f594b3fc5032620a44b53756d00b4",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000607-p000-d5deed0fe4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文中“三地理恭赞玄机全书”的“三”被漏译，错误将“地理恭赞玄机全书卷三”作为独立书名处理，源文此处“三”是前文内容的一部分，衔接“下三”表述"
+        ],
+        "uncertainty": [
+          "“太粗太皆非福”中“太”后缺字，含义无法完全确定；“晋與”字义不明，保留原词"
+        ]
+      },
+      {
+        "id": "book029-b000608-p000-2f91a7c65e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“三合”此处为方位、度数相关表述，未套用风水体系的释义"
+        ]
+      },
+      {
+        "id": "book029-b000611-p000-9a3225d963",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文“狗子口瀾大氣中用粘火扦口中”被错误断句改写，漏译“火”相关表述，且将“粘火扦”拆分，不符合原文语序逻辑；allowed_glossary中“坎”为八卦之一，译文中“螺口坎背”未明确“坎”的术语属性，直接用作名词不符合要求"
+        ],
+        "uncertainty": [
+          "“火扦口中”原文断句存在歧义，本次按水口并列逻辑调整，未保留错误拆分的“火扦”表述"
+        ]
+      },
+      {
+        "id": "book029-b000613-p000-464313194b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000614-p000-93e293220f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文“下有三个字通看是合水上大个字小不字下出三乂”被错误断句为“下面有三个字，通看是合水。上面是大个字，小不字下出三乂”，逻辑拆分有误；源文“塟其所也”属于原文引郭璞语的脱漏（原文应为“葬其所会”类表述），译文中直接保留错误表述未标注脱漏风险"
+        ],
+        "uncertainty": [
+          "“上有三个字”“下有三个字”的具体所指不详；“王向”术语含义不明；“塟其所也”表述存疑，保留原文未擅改；“三分三合”为水法合水次数，未套用三合风水体系的释义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2294,
+    "completion_tokens": 656,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2294,
+      "completion_tokens": 656,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

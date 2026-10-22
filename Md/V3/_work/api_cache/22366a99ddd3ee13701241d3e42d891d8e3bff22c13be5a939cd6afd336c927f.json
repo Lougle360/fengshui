@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:08:02.362844+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "22366a99ddd3ee13701241d3e42d891d8e3bff22c13be5a939cd6afd336c927f",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000070-p000-0e4f140bfb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000071-p000-46a4f307b7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘少午’（应为风水方位术语‘午’，‘少’为衍字）误释为‘少午方位’，属于对原文文字的误读；将‘成材之子另歸陰閨中’释为‘成材之子另归阴闺’，语义模糊，未明确‘阴闺’的具体所指；‘服財穀空一徹骨費’释为‘服财谷空，彻底耗尽’，未明确‘一彻骨费’的具体含义，属于对原文语义的模糊处理"
+        ],
+        "uncertainty": [
+          "原文中‘少午’的‘少’为衍字，‘午’为风水方位术语，释读时误保留‘少’字；‘阴闺’具体所指不详；‘一彻骨费’的具体含义未明"
+        ]
+      },
+      {
+        "id": "book012-b000072-p000-183ffdf98c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000073-p000-b8292905d6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘休四’（应为风水术语‘休囚’，‘四’为形近误字）误释为‘休囚方位’，属于对原文文字的误读；‘張之食貧窮怨上天’释为‘财源会被张食耗尽，导致贫穷怨天’，语义模糊，未明确‘张之食’的具体所指"
+        ],
+        "uncertainty": [
+          "原文中‘休四’的‘四’为形近误字，应为‘休囚’；‘张之食’的具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1397,
+    "completion_tokens": 513,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1397,
+      "completion_tokens": 513,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

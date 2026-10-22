@@ -1,0 +1,159 @@
+{
+  "created_at": "2026-09-26T08:21:23.834455+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a09efb977c126e86668ddfb24059a007b9180a58b176fe395e9cc623c48725bd",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000379-p000-8d3c3b42e5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中",
+          "飢秋也及黃氏祖地論如林延墓",
+          "被拆分错读为",
+          "结作了方宪副祖、饥秋，还有黄氏祖地，论如林延墓",
+          "语义逻辑错误，原义为还有黄氏祖地的情况类似林延墓，此处断句错误；原文",
+          "憲馬丞相祖地",
+          "误拆为",
+          "出尚书张公；宪马丞相祖地",
+          "属于断句错误，",
+          "宪马",
+          "是马丞相的职衔前缀，不应拆分；locked_term",
+          "乾",
+          "未保留原意，此处单独作为人名后缀误读，属于误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000380-p000-e18e318f4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000381-p000-8a000f2c64",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文",
+          "屈曲擺相之東走西活動死轉",
+          "误译为",
+          "屈曲摆折，东走西动，活动变化",
+          "与原文表述不符，存在错译；原文末尾",
+          "珠丝",
+          "为未完成内容，译文直接保留后应明确标注为原文未竟"
+        ],
+        "uncertainty": [
+          "葵书、吴公、李淳风的相关论述具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000382-p000-cd298960de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000383-p000-7a4ebd635d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文",
+          "而落平田則服每得清平五以平受為常",
+          "被误译为",
+          "而落平田则以平受为常",
+          "漏译中间内容且断句错误；原文",
+          "賦曰窮源干仞不如平故一地是言平地以墩阜為貴也",
+          "误译为",
+          "赋中说：“穷源千仞，不如平”，这是说平地以墩阜为贵",
+          "漏译",
+          "故一地",
+          "相关内容；原文",
+          "十氏云",
+          "误译为",
+          "卜氏说",
+          "人名误读错误"
+        ],
+        "uncertainty": [
+          "七、林亦、万伊的具体所指不详；“平”“平西”“伊”等字存在OCR识别错乱情况"
+        ]
+      },
+      {
+        "id": "book033-b000384-p000-4261758833",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000386-p000-a5cd2d1439",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文",
+          "服落平洋",
+          "误译为",
+          "落平洋",
+          "漏译",
+          "服",
+          "字；原文",
+          "賂黜",
+          "被臆译为",
+          "略具形态",
+          "属于无依据释义，应保留原词并标注原文不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000387-p000-a9f0ea3b89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“刀客遣”三字存在OCR识别错乱情况，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000389-p000-eda5674c3d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文",
+          "有歸於當者",
+          "误译为",
+          "有归于尽者",
+          "与原文文字不符，存在错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000390-p000-189a6cb926",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“头氏”的具体所指不详; 原文末尾仅到中落未完成，译文已如实保留无问题。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4418,
+    "completion_tokens": 1070,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4418,
+      "completion_tokens": 1070,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

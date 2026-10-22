@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-17T15:34:45.452834+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "569b4a19cb229acf80764f247282375d13373642198660518037b2ab55b0bbc0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004002-p000-ea2a880b7f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量疑似OCR错误或乱码字符，导致句意完全无法通顺理解。候选句尝试翻译了部分可读内容，但中间大段乱码（如'旃论龙识训趾眶雌端弦赋纲祉狂眩赋端跡菇刲位谁欣总鼎陇姗址鯖难具举'）被直接复制，未作任何处理或说明，这不符合'普通读者能读懂'的目标。"
+        ],
+        "uncertainty": [
+          "原文损坏严重，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b004003-p000-ffa4690dde",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在漏译：'地 量亦然' 被译为'地量亦然'，但'量'字可能为'理'或'形'之误，或为'地量'这一术语，候选句未作任何说明。",
+          "存在推测性解释：'还在试图变回杖山，想要再次变作文星'是对'秀氣還 在誤變爲杖山欲復變爲文亦猶是耳'的推测性翻译，原文逻辑含混，候选句将其处理为确定事实。",
+          "存在术语处理不当：'杖衙'为opaque_term，应加引号或说明其含义不明，候选句直接译为'杖衙'，未作标记。",
+          "存在断句与理解问题：'其不安人 亦爲之 不安也' 译为'其不安人，亦为之不安也'，语义不通，可能为'其不吉，人亦为之不安也'之误，但候选句未作说明。"
+        ]
+      },
+      {
+        "id": "book035-b004004-p000-5f36dcb35f",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "存在严重漏译：表格第一列'崇da绒'被直接复制并标注为乱码，但未处理其可能为'崇带绒'或'崇大绒'等术语的可能性，也未说明其在表格结构中的位置含义。",
+          "存在增译：'表格内容释读如下：'为候选句自行添加的引导语，不属于释读内容。",
+          "存在结构混淆：候选句将表格内容按行罗列，但未清晰区分原表格的行列结构，例如'花'与'木之枝小而长，文星阁而长'的关系不明。",
+          "存在推测性解释：'疑似乱码，无法确认具体含义'、'只能根据上下文进行推测性翻译'等是合理的风险标注，但部分翻译（如'自机成展'译为'自机成展'）未加引号或说明，仍将其作为有效内容处理。"
+        ]
+      },
+      {
+        "id": "book035-b004005-p000-719d0534d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004006-p000-b68a99ccfb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2577,
+    "completion_tokens": 763,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2577,
+      "completion_tokens": 763,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

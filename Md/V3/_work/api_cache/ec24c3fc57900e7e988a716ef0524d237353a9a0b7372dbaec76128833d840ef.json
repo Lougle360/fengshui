@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T06:51:46.058833+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ec24c3fc57900e7e988a716ef0524d237353a9a0b7372dbaec76128833d840ef",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000021-p000-3aec4810ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "常舉百勿",
+          "地步y",
+          "后半段内容残损无逻辑，语义无法确认"
+        ]
+      },
+      {
+        "id": "book009-b000023-p000-dd65e0fdfd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处OCR错乱内容，部分语义无法完全确认"
+        ]
+      },
+      {
+        "id": "book009-b000027-p000-9672954e45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“禮山”为讹字，无法确认具体所指；“雋小堂”的“雋”为讹字，语义不确定；多处存在OCR识别错乱内容，部分语义无法完全确认"
+        ]
+      },
+      {
+        "id": "book009-b000028-p000-81e15b9099",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“何南襲帶”为讹错内容，具体术语无法确认；“乖”为讹字，语义不确定；多处存在OCR识别错乱内容，部分语义无法完全确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3002,
+    "completion_tokens": 314,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3002,
+      "completion_tokens": 314,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

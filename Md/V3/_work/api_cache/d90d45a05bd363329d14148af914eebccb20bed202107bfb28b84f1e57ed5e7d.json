@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-24T07:42:04.226777+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d90d45a05bd363329d14148af914eebccb20bed202107bfb28b84f1e57ed5e7d",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000070-p000-ca05fada1c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms要求保留的「穴」「砂」「水」「水口」术语，候选文擅自对这些术语添加了括号内的释义，未按要求原样保留术语，违反locked_terms保留规则",
+          "候选文未对原文中存在的OCR识别错误内容（如“熱嚴”“艷傣司”“粮ね”“臘已”等）按要求标注不确定性，未明确说明相关内容无法准确释读"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别错误的字符，如“熱嚴”“艷傣司”“粮ね”“臘已”“婁分氣”“自地不月”“博自蔡博硬換敢”“恬欲之處”“差票”“教里”“禹指爲類跌曲之料力之取”“制頁朝人”“臘已問局”“金以見其瓜之其也記然忽穴”“茹樂用大局”“彼殺”等，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4078,
+    "completion_tokens": 272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4078,
+      "completion_tokens": 272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

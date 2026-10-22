@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-18T02:11:09.212306+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "370f02b5a415af49f4b090eb3e66311340af88e557a7cd2ce38c499fbd7d179e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005174-p000-3fd2370c48",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "此表格内容涉及风水堂气歌诀的图解与解说，包含“宝盖”、“拜官格”、“右倒木”等堂形及其对应的九星气运吉凶判断。其中“宝盖”堂形得金水之形，乘九紫之气，若圆曲中出、周密平正宽阔，主富贵双全；“拜官格”堂形似木星，得木星之形乘一白之气，若平正不尖，主仕官清廉，若宽间平正、送锁周密，主拜官身入翰林；“右倒木”堂形得木星之形乘二黑之气，依斜右出，若陡泻崩倾，主后代伶仃，男女死亡，小房先受其害。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文表格结构严重错乱，部分文字（如“寶紫1 とX九”、“皇七 R 国 14 墨”等）无法准确辨识，仅能依据上下文及风水术语逻辑进行推断性重构。"
+        ]
+      },
+      {
+        "id": "book035-b005175-p000-305d3ae573",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档021 PDF第138页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005180-p000-437afa7933",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 《地理天机会元》卷二十六：九星正变堂气歌 第十",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005181-p000-2e590e37f7",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "此表格内容涉及不同堂形（横穴、拜官、倒左等）与九星气运（碧星、皇星、白星等）配合时的吉凶判断。其中“横穴”若得木气，无偏堂倾，明情斜得泻，主出木最凶，右星非出祸，名之宜右退，形败右乘家凶，横七业福木赤自应衰自微；“拜官”若得平气，此堂明平镇直得正，堂周中木不真密出，星崩木主名之倾体登，形科拜乘一横第褥五举拖，若黄可名成玉名几；“倒左”若得木气，无偏堂泻，明情侧得倒，堂主出木不出官，左星关自事名之锁，左退曰形败，左乘衣长横三食房房木碧自当艰受难祸。此外，还有“左进”、“右进”、“木倒左”等情形，分别对应不同的吉凶应验，如“左进”主贵进左，“右进”主贵进右，“木倒左”主木气皇川国立大等。具体吉凶需结合堂形、星气、方位等多重因素综合判断。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文表格内容极度混乱，大量文字缺失、错乱或无法辨识（如“全大九陽穴穴穴得得得得此此此木堂爲上下堂爲上下堂星爲上下堂吉凶相生吉氣當進人口田產相相克凡事尤喜相半克稱意中有木足凶凶凶氣氣氣半重重凶凶凶”等），仅能依据部分可辨识的风水术语（如“穴”、“木”、“星”、“堂”等）进行推测性重构，具体含义及对应关系存在较大不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2487,
+    "completion_tokens": 1038,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2487,
+      "completion_tokens": 1038,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

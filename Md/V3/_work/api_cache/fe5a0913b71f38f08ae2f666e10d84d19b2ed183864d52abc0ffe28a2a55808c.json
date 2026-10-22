@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-16T08:31:38.033995+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fe5a0913b71f38f08ae2f666e10d84d19b2ed183864d52abc0ffe28a2a55808c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001539-p000-5adc83a18e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘金帶些擺轉便是火后頭水重莫葬在金下剪之所謂葬水不葬火故雲名爲剪火’中，‘剪’的动作主体和对象不明确，candidate将其解释为‘剪除火气’，属于无依据的扩写。‘一般看八位大高官’被释为‘一般若见八位大高官的格局，便属此类’，将原文的陈述句（描述一种判断方法）改写为条件句（将‘八位大高官’作为‘此类’的充分条件），改变了原文的逻辑关系，属于误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001542-p000-a81b69b6a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘奇阴穴’、‘芦花木’、‘紫气’、‘藏头紫气凑头’、‘笪奔乳节无分眉水痕’、‘死鳝’、‘烟包’、‘死木’等术语的具体含义及判断标准，原文未详述",
+          "‘葬木不’后文缺失，具体结论不详"
+        ]
+      },
+      {
+        "id": "book035-b001546-p000-c24a961c39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘闪煞’的具体含义不详",
+          "‘流山木’、‘下山木’、‘贪狼木’等术语的具体定义及判断标准，原文未详述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 361,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1478,
+      "completion_tokens": 361,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

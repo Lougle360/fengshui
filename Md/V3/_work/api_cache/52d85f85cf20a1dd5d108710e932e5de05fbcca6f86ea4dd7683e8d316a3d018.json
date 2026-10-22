@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T14:06:43.456330+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "52d85f85cf20a1dd5d108710e932e5de05fbcca6f86ea4dd7683e8d316a3d018",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000510-p000-4ad715c350",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000512-p000-905346d34f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000514-p000-626be63349",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中存在未明确的符号标记（如原文的\\(\\bar{\\iota}\\bar{~}\\)），释读未涉及该部分，具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000516-p000-d0cd0207fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1126,
+    "completion_tokens": 233,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1126,
+      "completion_tokens": 233,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

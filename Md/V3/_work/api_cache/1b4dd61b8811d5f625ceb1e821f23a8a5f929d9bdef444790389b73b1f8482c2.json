@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-23T17:22:48.324836+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1b4dd61b8811d5f625ceb1e821f23a8a5f929d9bdef444790389b73b1f8482c2",
+  "response": {
+    "items": [
+      {
+        "id": "book005-b000168-p000-fce4c5d1d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“致使牛牲食祿寬”是结果，candidate 释为“致使牛牲食禄宽裕”并加“但”转折，将原文的肯定陈述变成了不确定的推测，改变了语义。应将“但文中提到的‘草岗时师’这一短语，具体所指不详。”作为独立的风险说明，不应与前半句构成转折关系。"
+        ],
+        "uncertainty": [
+          "草岗时师"
+        ]
+      },
+      {
+        "id": "book005-b000170-p000-c3cd9434f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "不堪巨石"
+        ]
+      },
+      {
+        "id": "book005-b000178-p000-2ab1e43cba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“空修”与“鲁班经 卷之二 七”是分开的，candidate 将“空修”解释为“此时若逢空亡之时进行修造则不吉”并连接到前文，这是无依据的扩写和确定化解释。“空修”本身是含混短语，应保留原样并标注不确定性，不应赋予“空亡”等具体含义。"
+        ],
+        "uncertainty": [
+          "空修"
+        ]
+      },
+      {
+        "id": "book005-b000181-p000-d52fc05f98",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“依古式八人二寸溪六尺八寸濶”是一个整体描述尺寸的短语，candidate 将其拆解，将“八人二寸溪”单独列为不详，而将“六尺八寸濶”遗漏未译。这属于漏译和错误切分。应将整个短语作为整体处理，说明其尺寸含义不明确。"
+        ],
+        "uncertainty": [
+          "蹐看",
+          "奇罗星",
+          "依古式八人二寸溪六尺八寸濶"
+        ]
+      },
+      {
+        "id": "book005-b000186-p000-2ec3b3715d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "好下夜闲挂马索",
+          "巳间",
+          "马旧下向门左边吉"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1513,
+    "completion_tokens": 530,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1513,
+      "completion_tokens": 530,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

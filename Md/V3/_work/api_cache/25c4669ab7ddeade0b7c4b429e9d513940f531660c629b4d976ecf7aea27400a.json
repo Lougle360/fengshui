@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-10-04T11:20:48.474213+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "25c4669ab7ddeade0b7c4b429e9d513940f531660c629b4d976ecf7aea27400a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000725-p000-2dd506a1d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000726-p000-989898d34c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘生 全者之地宜安其所止安止再得 之山無也不日是調止’语义断裂，candidate的‘全气之地适宜安葬在气停止之处，安止再得之山没有。这里说的不是调止。’属于无依据的猜测性扩写，未能忠实反映原文的残缺状态。应明确标注原文错乱，仅对可识别部分进行保守转述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000727-p000-4c7ce765f9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate‘宛委指复回环重复，指对业左右洪叠地卿潮海拱张之亿融结为全气也。宛委自复指后龙宛委屈曲而来冲委宛之意回环重复。’几乎是原文的逐字照录，未进行有效的白话释读，不符合V3‘普通读者能读懂’的目标。对于语义不明的部分，应明确说明其含义不清，而非直接堆砌原文。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000728-p000-a0d5b0e61b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000729-p000-2da71c5376",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate‘欲进而欲欲止而深 J 而狗暎鳞渐杯麒极峭饷聚榴微绣之日深。上句言山欲其朝抱不欲其偕逼冲突，这不孙故曰欲下。’前半句直接复制了原文的疑似乱码，未做任何处理或说明，未完成白话转换。后半句的释读‘上句言山欲其朝抱不欲其偕逼冲突，这不孙故曰欲下’也未能将‘这不孙故曰欲下’转化为通顺的现代中文。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000730-p000-f3a289d1ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000731-p000-da91826b19",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000734-p000-7d3923203a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000735-p000-8fbc829ea4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000736-p000-f1a22a296c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2118,
+    "completion_tokens": 673,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2118,
+      "completion_tokens": 673,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-18T01:38:03.585761+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "afd694fa47987aa1609e23102147e246fd5dba513e4d7fcfb6c457eecbd33b5b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005150-p000-ba7a982e63",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格内容概括为“列出了‘格向背’、‘格環玉’……等条目”，但原文表格结构复杂，这些“格”名是作为列标题出现的，且与下方“陰太鼻牽”等术语存在对应关系。候选句的概括方式未能反映这种表格结构关系，属于对原文呈现方式的误读。",
+          "候选句称“表格中出现了‘陰太鼻牽’、‘陰太面聚’……等术语，它们分别对应不同的‘格’法”，这是对原文结构的推测性解读。原文表格排版错乱，无法从提供的片段中可靠地确认“陰太鼻牽”等术语与上方列标题“格向背”等是“分别对应”的关系。候选句将此推测写成了确定事实。",
+          "候选句末尾的“文中虽提及‘穴’、‘水’、‘向’等概念……无法可靠地确认这些术语是否专门用于描述……”表述不当。原文“解”文部分明确出现了这些术语（如“穴”、“水”、“向”），并用于描述吉凶，候选句的“虽提及……但无法确认是否专门用于描述”逻辑矛盾，应直接说明在错乱文本中，这些概念的具体关联和论述难以厘清。"
+        ],
+        "uncertainty": [
+          "原文表格排版严重错乱，各单元格内容的归属和对应关系完全无法确定。",
+          "大量文字内容因排版问题导致语义断裂，无法进行连贯的释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1915,
+    "completion_tokens": 357,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1915,
+      "completion_tokens": 357,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T14:05:49.101657+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "303400715f0f58130a414508a5e2437a804d9de5f80008c96dd81ffd5c9b9029",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000481-p000-285dedadeb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的「204と」未译全，存在内容缺失"
+        ],
+        "uncertainty": [
+          "原文末尾「204と」的具体内容未完整呈现，释读仅为部分内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 87,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1006,
+      "completion_tokens": 87,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

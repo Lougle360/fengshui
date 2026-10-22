@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-15T04:44:27.264169+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "df6d4d3a7887db6f859baf888ea961568213d24d9dd5c0d23bc173346469333d",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001909-p000-94a69f89dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "挺穴的具体操作含义需结合更多上下文确认"
+        ]
+      },
+      {
+        "id": "book033-b001911-p000-0ac89462a6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文文字严重错乱，无法进行任何可靠的释读，candidate 仅能罗列破碎字词，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原文损坏严重，无法进行任何可靠的释读"
+        ]
+      },
+      {
+        "id": "book033-b001912-p000-e00dd8313b",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文文字严重错乱，无法进行任何可靠的释读，candidate 仅能罗列破碎字词，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原文损坏严重，无法进行任何可靠的释读"
+        ]
+      },
+      {
+        "id": "book033-b001915-p000-dba8a798cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001917-p000-c3ba5682ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘祭氏’，candidate 写作‘蔡牧堂祭氏’，将‘蔡氏’与‘祭氏’合并，可能造成人物混淆。应保留原文‘祭氏’或明确标注为引述蔡牧堂提及的‘祭氏’观点。",
+          "原文为‘護軍’，candidate 写作‘破军’，属于术语替换。locked_terms 未包含‘護軍’，但此处为九星固定名称之一，应保留原文‘護軍’或注明即‘破军’。",
+          "原文为‘廉為助’，candidate 写作‘廉为助’并标注句子不完整，处理正确，但‘助’后可能缺字，应更明确标注此处原文不完整。"
+        ],
+        "uncertainty": [
+          "‘廉為助’句子不完整，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4107,
+    "completion_tokens": 445,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4107,
+      "completion_tokens": 445,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

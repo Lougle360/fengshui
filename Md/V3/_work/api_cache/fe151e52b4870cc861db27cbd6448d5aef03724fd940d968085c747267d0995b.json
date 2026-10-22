@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-25T06:46:42.592732+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fe151e52b4870cc861db27cbd6448d5aef03724fd940d968085c747267d0995b",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001951-p000-d3407cb386",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001958-p001-ae0780f424",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未出现“也就是风水语境中的河流、水系及其来去形态，它还有个别名叫随龙水，同样属于水类”“属于水类”这类表述，属于无依据增译，且对“送龙水”的注释超出allowed_glossary给定的“水”的通用释义范围，不应额外附会定义；同时不必要的重复标注“属于水类”属于冗余释读，不符合通俗释读的要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 212,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1166,
+      "completion_tokens": 212,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

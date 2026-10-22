@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:51:24.635934+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "64e53a23651e858637bd85102a8ab66c3796db23dbab4d54f828376e3d3afbf6",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000937-p000-589e2bf158",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘因忠多端’语义含混，候选释读为‘因为忠多端的情况’无依据，属于无依据扩写；‘撫曳’‘衣製’‘舞袖’‘飘带’为风水相关专名，候选未保留原词，直接赋予含义，不符合要求"
+        ],
+        "uncertainty": [
+          "‘因忠多端’具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000939-p000-0a9eaac1c8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘沛員’‘大物’‘鍾祥’语义含混，候选释读为‘常有的形态’‘大的格局’‘聚集祥瑞之气’均无依据，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘沛員’‘大物’‘鍾祥’具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000940-p000-ef5ae87bf5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000941-p000-91e331e2ef",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘石骊’为风水相关专名，候选未保留原词，直接赋予含义，不符合要求；‘大物’语义含混，候选释读为‘大的格局’无依据，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘石骊’‘大物’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1515,
+    "completion_tokens": 399,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1515,
+      "completion_tokens": 399,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

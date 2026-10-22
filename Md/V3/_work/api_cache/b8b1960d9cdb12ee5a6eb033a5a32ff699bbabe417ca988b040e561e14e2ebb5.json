@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-18T07:56:41.050496+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b8b1960d9cdb12ee5a6eb033a5a32ff699bbabe417ca988b040e561e14e2ebb5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005896-p000-64ad72a205",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005897-p000-d3369f1119",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'虎能食狗'，candidate译为'金虎能食狗'，增加了'金'字，改变了原文的五行属性，属于无依据扩写。原文'生生金度'，candidate译为'生生金度为福'，'生生'含义不明，candidate直接当作'生生'处理，可能漏译或误译。原文'以于妨损伤福浅相半'，candidate译为'因为妨损伤福浅相半'，'以于'可能是'由于'或'以至于'的讹误，candidate处理为'因为'不够准确，且'妨损伤'含义模糊。原文'辛卯界差犯刘流神'，candidate译为'辛卯界差犯刘流神'，'刘流神'是专名，candidate未加引号或说明，可能误导读者认为有确定所指。原文'宜虚危土金不度来'，candidate译为'宜虚危土金不度来'，'不度来'含义不明，candidate直接照搬，未做任何说明，可能导致读者不解。"
+        ],
+        "uncertainty": [
+          "'生生金度'、'以于妨损伤'、'刘流神'、'不度来'等词句含义古奥，难以确证。"
+        ]
+      },
+      {
+        "id": "book035-b005898-p000-3490340824",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格内容为风水术数术语排列，candidate进行了忠实转述，但部分术语（如'倾卦'、'井木扦'）的具体含义未明，符合opaque_terms处理原则。"
+        ]
+      },
+      {
+        "id": "book035-b005899-p000-c0c1deee32",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'剩心四五度'，candidate译为'剩心四五度'，'剩'字可能为'乘'或'胜'之误，candidate直接照搬，未做说明。原文'人荼家零'，candidate译为'人荼家零'，'荼'字可能为'图'或'徒'之误，或为'荼毒'之意，candidate直接照搬，未做说明。原文'主换姓疯疾脚病房痊浮沉绝长败中'，candidate译为'主换姓疯疾脚病房痊浮沉绝长败中'，断句和含义均模糊，candidate直接串联，未做风险标注。原文'小未亦吉'，candidate译为'小未亦吉'，'小未'可能指'小房和未房'或'小运未运'，candidate未加说明。"
+        ],
+        "uncertainty": [
+          "'剩心'、'人荼家零'、'浮沉绝长败中'、'小未'等词句含义难以确证。"
+        ]
+      },
+      {
+        "id": "book035-b005900-p000-ec8a7a9cac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为风水术数术语排列，candidate进行了忠实转述，但'洒中'等术语含义未明。"
+        ]
+      },
+      {
+        "id": "book035-b005901-p000-f308a25bda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005902-p000-920d3adbf8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005903-p000-893dcd695f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005904-p000-1d84a6a8ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'危月燕管忆其山'，candidate断句为'危月燕管。忆其山'，将'管忆'拆开，'忆'字可能为'辖'或'记'之误，或'管忆'为星宿名的一部分，candidate处理可能不准确。原文'主不不败则绝'，candidate译为'主不不败则绝'，明显有衍文，candidate未做修正或说明。原文'佗腰曲背'，candidate译为'佗腰曲背'，'佗'可能为'驼'之误，candidate未做说明。原文'结气活落年'，candidate译为'结气活落年'，含义不明，candidate直接照搬，未做说明。原文'若得龙病穴不敢长久一 败'，candidate译为'若得龙病穴，不敢长久，一败'，断句和含义模糊，'一败'前有空格，可能为'一旦败'，candidate处理不够清晰。"
+        ],
+        "uncertainty": [
+          "'管忆'、'活落年'、'龙病穴'等词句含义难以确证。"
+        ]
+      },
+      {
+        "id": "book035-b005905-p000-cc4344b7ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4525,
+    "completion_tokens": 1198,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4525,
+      "completion_tokens": 1198,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

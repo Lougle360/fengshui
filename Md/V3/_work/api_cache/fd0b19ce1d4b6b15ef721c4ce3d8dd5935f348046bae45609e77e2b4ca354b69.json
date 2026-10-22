@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-26T16:05:05.323645+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fd0b19ce1d4b6b15ef721c4ce3d8dd5935f348046bae45609e77e2b4ca354b69",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000176-p000-114a0e675b",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "无依据添加“来木的具体含义不详”“伤公救贫之衞具体所指不详”的注释，原文可通顺理解不应随意加注；未保留“水口”“向”等专业术语的引号标注不符合术语使用规范"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000179-p000-27684ec3c5",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate对多处原文破损存疑内容标注更严谨，但错误将“绅五人经”认定为书名，原文末尾应为“生水逆流 绅（疑讹） 人经下卷之二”，书名判断无依据；current强行解读原文破损句存在错误"
+        ],
+        "uncertainty": [
+          "原文断句存在多处破损歧义，“肚去”“生富贵之期骤至而生如破旺”“绅五人经”等内容无足够文献佐证准确含义"
+        ]
+      },
+      {
+        "id": "book003-b000184-p000-b37e6fe458",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current无依据强行解读开头“帶矣歸酖之男官喪成財之子”，翻译内容与原文不符，属于杜撰；candidate明确标注开头存疑，其余内容翻译更贴合原文，出处标注更准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000191-p000-5c0b1fdbbe",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将锁定术语“庚甲”错误拆分作“庚、甲子”，违反术语不得擅改的规则；candidate保留“庚甲”术语完整，译文准确，出处标注更符合原文“集下卷之二”的表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000194-p000-a8030e23d7",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“交極則凡故主暮年發達”“不及則廢故主少年夭折”语义可通顺理解，candidate无依据标注为含义不详，属于过度存疑；current翻译符合原文逻辑，存疑标注合理"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000195-p000-63306cc508",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "candidate译文更通顺准确，“特意来朝到达明堂”“朝向前面的官旺方”“尸身被扛回家中”的表述比current更符合原文语境，无错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000199-p000-e1ae07f8ae",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对原文多处讹误、歧义内容强行解读，如将“仲于”直接改为“仲子”，“病欽慕絕去”错误解读为“病、沐、绝、去则吉”，均无原文依据；candidate明确标注存疑内容，不做无依据推断，更符合古籍整理保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000202-p000-a5d30da025",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current译文省略“生位与旺位的水”“人丁和财富”等表述，内容不完整；candidate表述更完整准确，存疑标注合理"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000206-p000-52a0912a76",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate未按规范翻译锁定术语“入首”，保留原字“節”未译，表述不规范；current术语使用正确，译文流畅符合专业要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000208-p000-0d6dadb6e2",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "current将原文“乙辛于癸”错误改为“乙、辛、癸”，漏译“于”字；candidate指出“里”疑为讹字更严谨，但“其子王人经”的标注两版均无足够依据确认准确含义"
+        ],
+        "uncertainty": [
+          "“乙辛于癸”的“于”是否为讹字、“里庚壬丙”的“里”正误、“其子王人经”的准确含义均无足够文献佐证"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4347,
+    "completion_tokens": 1251,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4347,
+      "completion_tokens": 1251,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T10:24:48.626079+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "219c074cbdc1ed7d11668c1eb3cfbb6ba3e6c2ba33df91cac5bad76a37ea08ee",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000284-p000-2e24cc9a1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000285-p000-d22262ab9a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水果朝”中“水”为风水术语，属于locked_terms，不应直接译为普通水果的“水”，“水果朝”含义不明，不能直接按字面释为“水果朝来”，且“9火吉”未明确标注含义存疑，属于将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "“9火吉”“水果朝”具体所指不明"
+        ]
+      },
+      {
+        "id": "book024-b000287-p000-210c116152",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“生地”属于未定义的风水专名，candidate未标注其含义不明，直接默认“生地”为具体可明确的地点类表述，属于将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "“生地”具体所指不明"
+        ]
+      },
+      {
+        "id": "book024-b000288-p000-e2ab338831",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000293-p000-ecf8cbcac9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000294-p000-42be9f2519",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000295-p000-87977cda96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000296-p000-10df8c9249",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“鎗甸”的含义不明"
+        ]
+      },
+      {
+        "id": "book024-b000298-p000-054c331e1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“良鎗”的“良”应为“艮”的形近讹误，“艮”属于locked_terms，candidate误写为“良”，属于术语错误"
+        ],
+        "uncertainty": [
+          "原文中“鑰”“良鎗（疑为艮鎗讹误）”的含义不明"
+        ]
+      },
+      {
+        "id": "book024-b000299-p000-f47a2ab301",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处难以识别的讹误或生僻专名，“抄佑”“形英”“搥然”“富責”“主充常”均无法明确含义，candidate的释读缺乏依据，属于无根据推测"
+        ],
+        "uncertainty": [
+          "原文“抄佑”“形英”“搥然”“富責”“主充常”含义均无法确定，整体语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1979,
+    "completion_tokens": 862,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1979,
+      "completion_tokens": 862,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

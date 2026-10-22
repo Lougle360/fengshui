@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T10:05:40.373495+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a50424fdecdf229d0376880b9ea94e8648a8ef189881c63ee80276a4f75e694a",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000525-p000-3165c55a00",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘吴’释为‘吴’无依据，原文未明确该字含义，属于无依据扩写；将‘剜’‘年’直接判定为讹误缺乏原文依据，属于主观臆断；‘夏分’未明确具体所指，释读时未标注歧义；‘a’‘o’‘o’‘o’未按要求保留原样，属于违规释读"
+        ],
+        "uncertainty": [
+          "‘刻二一初三初一三三二初二三初一三一初一三一初一十至時’的具体含义不详",
+          "‘a’‘o’‘o’‘o’的具体含义不详",
+          "‘夏分’的具体所指不详",
+          "‘吴’的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 198,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1246,
+      "completion_tokens": 198,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

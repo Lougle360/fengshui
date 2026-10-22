@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T17:27:15.406492+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d6373f7a2d509878e4c3e127bce35ba7ed25aef7174ff13d2041a3eaecd5db5a",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000798-p000-68efbceaec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“單股必須逆轉兩宮”被拆分為“單股必須逆轉，兩宮仍要湊成穴”，含义出现偏差，原句是指单股需逆轉兩宮这个位置，并且要湊成穴；原文“貴隈蔵局宜周密”被释为“貴在隱藏之局，應當周密”，“隈藏”是指局要曲奥藏聚，直接释为“隱藏之局”不够准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000799-p000-e5c2f2e861",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000800-p000-31db59b102",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“惟要堂氣聚前樂星聳後穴宜踏逸面喜張潮”被断句为“只需要堂氣聚集，前樂星聳立，後穴應踏逸面，喜愛張潮”，断句错误，正确语义应为“堂气要聚在前方，乐星要耸在后方，穴宜踏逸，面喜张潮”；原文“最忌案前飛走尤嫌宄內空飛走則是虛花空則是騰漏”被漏译“最忌”二字，导致语义缺少限定"
+        ],
+        "uncertainty": [
+          "原文中“太 CS 太”“S亢”“2”等字符模糊，无法确认具体含义"
+        ]
+      },
+      {
+        "id": "book029-b000801-p000-5c15f57beb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000802-p000-cd835d41a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“805”“氯”等字符模糊，无法确认具体含义"
+        ]
+      },
+      {
+        "id": "book029-b000803-p000-7acec0a31d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“潛踪難認開地理泰贊玄機全書○卷三”多了一个“開”字，候选未做标注也未处理，疑似原文残字未说明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000804-p000-650d009593",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“須恠之不同與端正而何異”被释为“須知恠之不同與端正有何差異”，属于增译“知”字且语义有误，原句是“（这些吉宂）虽有怪异和端正的不同，又有什么差异呢”；原文“最忌後龍失勢”被漏译“最忌”二字，语义丢失"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000805-p000-a964b0992b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000806-p000-be5a3eda50",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或出平之中高山要平中有窟平也要窟中有突”被断句为“或出在平之中，高山要平中有窟，平也要窟中有突”，断句有误，应为“或出自平地，或出自高山：平地要窟中有突，高山要平中有窟”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000807-p000-1660c90aff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蕩凢平面星辰”的“凢”是“凡”的异体字，候选误将“蕩凢”归入前面的字符列表，导致“凡”字丢失，语义断裂；原文“堂氣周賔主有情”被断为“堂氣周賓，主有情”，断句错误，应为“堂气周全，宾主有情”；原文“細推動靜”被释为“仔細推動靜”，漏译“究”类语义，应为“仔细推究动静”；原文“又背則家業消亡”的“又背”是“反背”的笔误？候选直接沿用“又背”但未说明，实际应为“反背”"
+        ],
+        "uncertainty": [
+          "原文中“陽太 陰太 水金 紫 氣 財天·天”等字符模糊，无法确认具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3272,
+    "completion_tokens": 1237,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3272,
+      "completion_tokens": 1237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

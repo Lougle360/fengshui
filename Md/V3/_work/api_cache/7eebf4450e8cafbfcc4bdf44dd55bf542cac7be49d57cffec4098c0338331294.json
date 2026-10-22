@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:09:41.523293+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7eebf4450e8cafbfcc4bdf44dd55bf542cac7be49d57cffec4098c0338331294",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000389-p000-4d7464b934",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘有势地’‘象鼻形’未明确具体所指，释读未作无依据扩写，符合要求"
+        ]
+      },
+      {
+        "id": "book014-b000390-p000-a514fdbab1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000392-p000-0901a83ac8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘鬼乐’未明确具体所指，释读未作无依据扩写，符合要求"
+        ]
+      },
+      {
+        "id": "book014-b000396-p000-b07c373202",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘正不可受橫亦無局斜側識徵’释读不准确，原文意为‘正处不能承受横势，也不存在局斜的情况，需识别征兆’，候选句将‘局斜’误译为‘局斜的情况’，且‘識徵’未明确为‘识别征兆’的准确表述，属于语义偏差"
+        ],
+        "uncertainty": [
+          "原文中‘口’‘灵光’未明确具体所指，释读未作无依据扩写，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1594,
+    "completion_tokens": 350,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1594,
+      "completion_tokens": 350,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

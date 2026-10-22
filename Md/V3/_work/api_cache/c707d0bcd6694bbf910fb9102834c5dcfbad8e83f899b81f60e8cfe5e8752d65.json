@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:35:22.777923+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c707d0bcd6694bbf910fb9102834c5dcfbad8e83f899b81f60e8cfe5e8752d65",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000844-p000-e138d891d6",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多为干支、卦名及零散字符，语义不明，无法准确释读，候选释读未解决原文的零散性问题"
+        ],
+        "uncertainty": [
+          "原文多为干支、卦名及零散字符，语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book010-b000846-p000-8a3cd2587d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多为风水相关零散术语，语义不明，无法准确释读，候选释读存在重复内容且未解决原文的零散性问题"
+        ],
+        "uncertainty": [
+          "原文多为风水相关零散术语，语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book010-b000847-p000-27e2f11dd4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中存在日文假名（如「え」「けし」「し」）未处理，候选释读未明确标注这些字符的来源或含义，属于未真正转换成现代中文的情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000849-p000-4777205685",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在数字重复、字符错乱问题，语义不明，候选释读未修正错乱内容，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文存在数字重复、字符错乱问题，语义不明，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2402,
+    "completion_tokens": 411,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2402,
+      "completion_tokens": 411,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

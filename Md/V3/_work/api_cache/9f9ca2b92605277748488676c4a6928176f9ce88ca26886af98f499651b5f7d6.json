@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-26T13:11:46.701071+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9f9ca2b92605277748488676c4a6928176f9ce88ca26886af98f499651b5f7d6",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000715-p000-a2111b9176",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水曜原来白蚁多”无“对应的方位”相关表述，属于无依据添加；“水浸乾时”被错误改写为“当水与乾对应的方位相关的水浸情况发生时”，篡改了原文“水浸到乾位时/水浸后乾处变干时”的原意，属于对术语“乾”的不当演绎；“岁岁年年”被缩减为“年年”，完整性不足"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000722-p000-9af0cb4622",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate添加了大量“具体所指不详”的说明，虽符合保守原则，但存在部分无依据增译：如将“为权武”改为“对应‘权武’”、“清贵人”改为“对应‘清贵人’”属于表述冗余；将“读书一举便成名”增译为“读书人参加科举就可以一举成名”，“参加科举”无原文依据；将“十干行龙”解释为“按十天干分布的龙走向”属于无依据演绎"
+        ],
+        "uncertainty": [
+          "原文中“权武”“清贵人”“正马”“禄”“四神”“悔”“牛羊”“煞伤”等术语确实无明确上下文释义，candidate的存疑说明有合理性，但增译内容缺乏依据，两版各有得失"
+        ]
+      },
+      {
+        "id": "book001-b000731-p000-2c86f7169c",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000732-p000-714b72d95a",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“龙辨支嚨”错误解释为“龙要辨别是支龙还是嚨，‘支嚨’的具体所指不详”，“支嚨”为风水专业术语，指支龙和垅龙（山龙），不应拆分且无依据标注不详；“芦花三袅”“繁蚁穿珠”为风水公认的地形喝形术语，标注“具体所指不详”属于错误存疑；增译“气的能量”“合格的风水宝地”等表述无原文依据；将“左旋右桓”解释为“左旋右转”属于表述不准确，“桓”为环绕之意，未准确传递原意"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5610,
+    "completion_tokens": 643,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5610,
+      "completion_tokens": 643,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

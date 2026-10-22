@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-04T02:28:09.073721+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "597792014d8eb5acfbc8a0ab481741e9103c9acd079fc254c087bbaac5867f35",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001193-p000-784ed09863",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "里人子顷知卷四下怪穴二十五"
+        ]
+      },
+      {
+        "id": "book033-b001194-p000-1818d4d0dc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘疣鑿作逆掬一臂為內堂富代出貴聯登科第也’是一个完整句子，描述一种做法及其效果。candidate将其拆解为‘文中提到“疣凿作逆掬”，具体操作含义不详，若以此形成一臂作为内堂，据说能世代富贵，连续考中科第。’，将原文的肯定陈述（‘富代出貴聯登科第也’）改为了不确定的‘据说能’，改变了原文的语气和确定性。应保守释读为‘将疣凿掉，做成逆掬的一臂作为内堂，就能世代富贵，接连考中科第。’，并对‘疣凿’的不确定性进行标注。",
+          "原文‘也有穴後是空槽王筋夾饅頭’是另一情况的描述。candidate释读为‘此外，也有穴后是空槽的情况，以及“王筋夹馒头”这一说法，具体所指不详。’，将‘王筋夹馒头’处理为独立说法，但原文结构更可能是‘穴后是空槽’和‘王筋夹馒头’并列描述穴后的两种形态。释读应保持这种并列关系，例如‘也有穴后是空槽，或是“王筋夹馒头”的情况。’"
+        ],
+        "uncertainty": [
+          "疣凿",
+          "王筋夹馒头"
+        ]
+      },
+      {
+        "id": "book033-b001199-p000-8c3af77c0d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "侯人",
+          "担凹乐起",
+          "贴身高"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 418,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1287,
+      "completion_tokens": 418,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

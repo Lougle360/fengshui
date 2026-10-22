@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-09-23T06:01:01.055066+00:00",
+  "candidate_model": "Qwen/Qwen3.5-122B-A10B",
+  "reference_model": "deepseek-ai/DeepSeek-V3.2",
+  "batches": [
+    {
+      "items": 32,
+      "source_characters": 2187,
+      "reference_nonaccept": [
+        "book001-b000085-p000-a5a4ff7f0e",
+        "book001-b000086-p000-8616eded07",
+        "book001-b000088-p000-5382f84b27",
+        "book001-b000094-p000-56f3bd77b1",
+        "book001-b000095-p000-0b12079717",
+        "book001-b000096-p000-8e4e28c4b1"
+      ],
+      "candidate_nonaccept": [
+        "book001-b000096-p000-8e4e28c4b1"
+      ],
+      "missed_reference_nonaccept": [
+        "book001-b000085-p000-a5a4ff7f0e",
+        "book001-b000086-p000-8616eded07",
+        "book001-b000088-p000-5382f84b27",
+        "book001-b000094-p000-56f3bd77b1",
+        "book001-b000095-p000-0b12079717"
+      ],
+      "extra_candidate_nonaccept": []
+    },
+    {
+      "items": 44,
+      "source_characters": 2195,
+      "reference_nonaccept": [],
+      "candidate_nonaccept": [
+        "book001-b000067-p000-aaf94809a9"
+      ],
+      "missed_reference_nonaccept": [],
+      "extra_candidate_nonaccept": [
+        "book001-b000067-p000-aaf94809a9"
+      ]
+    }
+  ],
+  "summary": {
+    "batches": 2,
+    "items": 76,
+    "source_characters": 4382,
+    "reference_nonaccept": 6,
+    "candidate_nonaccept": 2,
+    "missed_reference_nonaccept": 5,
+    "extra_candidate_nonaccept": 1,
+    "candidate_estimated_cost_rmb": 0.038318
+  },
+  "decision_rule": "候选裁判不得漏放 DeepSeek 已判非接受项；若有漏放，不得直接替换主裁判。"
+}

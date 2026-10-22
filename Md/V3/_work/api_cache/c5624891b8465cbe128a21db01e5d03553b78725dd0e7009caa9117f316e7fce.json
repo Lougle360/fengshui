@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-24T09:22:03.325866+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c5624891b8465cbe128a21db01e5d03553b78725dd0e7009caa9117f316e7fce",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000226-p000-fb9df5adc5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾残缺，无法确认完整含义"
+        ]
+      },
+      {
+        "id": "book010-b000227-p000-003c6fe23a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000228-p000-657defae06",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹模糊或错漏，如“外径云”“潘牙”“惜血堂”等，具体所指不详，此处为保守释读"
+        ]
+      },
+      {
+        "id": "book010-b000230-p000-6ce5ac3c92",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“那尸”具体所指不详",
+          "“嫉主”具体所指不详",
+          "“虎气”具体所指不详",
+          "“生气”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1539,
+    "completion_tokens": 268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1539,
+      "completion_tokens": 268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

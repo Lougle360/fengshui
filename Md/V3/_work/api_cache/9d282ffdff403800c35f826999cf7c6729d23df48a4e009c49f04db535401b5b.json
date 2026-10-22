@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-04T00:47:15.412403+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9d282ffdff403800c35f826999cf7c6729d23df48a4e009c49f04db535401b5b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000232-p000-46efd26e94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“奶陽”应为“陰陽”，系OCR误识",
+          "“配神監瞰雲尋地”句意不明，原文未明确此意"
+        ]
+      },
+      {
+        "id": "book035-b000237-p000-b4f9a91b76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“包畏”应为“包護”，系OCR误识"
+        ]
+      },
+      {
+        "id": "book035-b000238-p000-87ae15e9ba",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘穴 可喜者龍虎身上生峰’，candidate将‘穴 可喜者’释为‘穴可喜的地方’，将‘穴’与‘可喜者’断开理解，改变了原句结构，可能导致歧义。原文‘穴’字后直接接‘可喜者’，可能意指‘穴，可喜的是……’，或‘穴之可喜者……’。candidate的释读方式不够准确。",
+          "原文‘龍虎卯上’中的‘卯’字，candidate推测为‘身上’或‘之上’之误，但未在uncertainty中明确标注此推测，而是直接释读为‘龙虎身上’，将推测写成了事实。",
+          "原文‘秘 可惡者’中的‘秘’字，candidate推测为‘最’之误，并直接释读为‘最可恶的地方’，将推测写成了事实。应在uncertainty中明确标注此推测，或保留原文‘秘’字并说明其意不明。"
+        ],
+        "uncertainty": [
+          "“青馬系千屬雲背尼考走高山女”语意晦涩，具体所指不详",
+          "原文“因”应为“裀”，系OCR误识"
+        ]
+      },
+      {
+        "id": "book035-b000244-p000-e4c1996acd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“昇迹”可能为“异迹”或“升迹”之误",
+          "整段文字断句混乱，具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b000245-p000-6c704511f4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘更有六在石間搏龍骨 山上下土是自下而上里而表以天生土生于石周法大有之公’语意极不通顺，多处字词可能为OCR错误。candidate仅列出可能错误（如‘六’为‘穴’，‘周法’为‘穴法’），但未提供任何连贯的释读，未能达到‘普通读者能读懂的白话释读’这一目标。对于此类原文损坏严重、无法形成基本通顺句子的情况，应判为uncertain。"
+        ],
+        "uncertainty": [
+          "“六”可能为“穴”之误",
+          "“周法”可能为“穴法”之误",
+          "整段文字语意不通，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2030,
+    "completion_tokens": 662,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2030,
+      "completion_tokens": 662,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

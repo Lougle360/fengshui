@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-09-26T06:05:53.805651+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aade78096466f7c323ef55951fc6f3fcade3fc6b8d1c5d86fde7fa4fbb8b945f",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000012-p000-a29656be05",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000014-p000-d72f72ff35",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000015-p000-81ffe9f2e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "启陈发新，湖海拱辰具体所指不详",
+          "北戒山起于关的具体地望未明"
+        ]
+      },
+      {
+        "id": "book033-b000016-p000-9a686aa8c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“就于余閉其議論該連”存在讹误，candidate将其释为“拿来给我看，我看他们的议论完备连贯”属于无依据推断，违背了含混内容不得写成确定事实的要求；原文“藏遺器于造化”未明确含义，candidate释为“在自然造化中发挥作用”属于无依据扩写"
+        ],
+        "uncertainty": [
+          "藏遗器于造化具体所指不详",
+          "就于余閉其議論該連为原文讹误，语义难明"
+        ]
+      },
+      {
+        "id": "book033-b000018-p000-e7c0042cae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“舉芹洋”语义不明，candidate释为“考中秀才”属于无依据推断；原文“授吾鉛王上舍梓傳”存在讹误，candidate释为“我出资命王上舍刊刻流传”属于无依据推断"
+        ],
+        "uncertainty": [
+          "舉芹洋具体所指不详",
+          "授吾鉛王上舍梓傳为原文讹误，语义难明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4730,
+    "completion_tokens": 513,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4730,
+      "completion_tokens": 513,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

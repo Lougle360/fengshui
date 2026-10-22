@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T10:37:21.261618+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "63c1657bb839fb98fe1da556e20f2fce6f11651089a27bfc279167c599abe932",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000857-p000-a16c71fe2d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘官’‘纯命’‘霍震’‘史’等未明表述的释读错误标注为‘具体所指不详’，但‘霍震’‘史’的标注方式不符合要求，应保留原文表述并明确标注为‘原文未明’，而非自行标注‘具体所指不详’；‘史’为原文讹误，应直接标注为‘原文讹误’，而非与其他未明表述合并标注；将‘六親相刑’误释为‘六亲和顺’，属于专业术语误换；将‘金木土相尅’的主体误释为乾与巽、坎与离、坤与震，与原文不符；将‘絕命’的释读标注为‘原文讹误或未明表述’，但原文‘絕命’为术数术语，应保留原样，不得标注为讹误；‘官’的释读错误，原文‘共不合者皆官矣’并非指‘官’具体所指不详，而是指不配合的情况均为‘官’（术数术语，具体所指不详），释读时应明确标注‘官’为术数术语，具体所指不详，而非直接说‘具体所指不详’"
+        ],
+        "uncertainty": [
+          "‘官’为术数术语，具体所指不详；‘纯命’为术数术语，具体所指不详；‘霍震’原文未明，具体所指不详；‘史’为原文讹误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2410,
+    "completion_tokens": 373,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2410,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2410,
+      "completion_tokens": 373,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

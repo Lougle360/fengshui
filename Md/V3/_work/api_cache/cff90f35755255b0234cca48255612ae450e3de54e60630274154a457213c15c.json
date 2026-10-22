@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T19:10:00.082569+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cff90f35755255b0234cca48255612ae450e3de54e60630274154a457213c15c",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000494-p000-3f61391581",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000496-p000-2bca85f390",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在残损，“心射 難 言特”语义不完整，候选自行补出“水流”“断言其为吉”属于无依据增译，不符合原文残损的实际情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000498-p000-9f6025a40b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“来去皆無 情也 日 軍賊流離及少死”后有残损字符“dan  t”，候选未标注该残损部分，且自行将“日”释为“名为”属于无依据解读，原文“日”表意不明，不应作确定解释"
+        ],
+        "uncertainty": [
+          "原文“dan  t”为残损内容，语义不明；原文“日”字含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000499-p000-49c2f19eb9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000500-p000-6382f3d265",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000503-p000-08249fe095",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000504-p000-b3d5496399",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000505-p000-118caabff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000506-p000-8eb38ec9fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“求其庶幾者唯水星得半吉亦須龍眞穴不玉斧地理救人卷二”存在断句问题，“穴不”应为残损内容，候选自行补出“的条件”属于无依据增译，且原文“地理以向皆定吉凶水皆去其凶可知”的释读有误，应为“地理以向来定吉凶，水若是去势，其凶可以知晓”，候选误释为“由此可知（向）的重要性”属于偏离原文含义"
+        ],
+        "uncertainty": [
+          "原文“穴不”后接书名，存在残损，语义不完整"
+        ]
+      },
+      {
+        "id": "book030-b000507-p000-711f1e46fd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开篇“正方可”语义不完整，候选未做标注直接沿用，且“明巳然”的“巳”应为“已”的形近讹字，候选未说明该讹误情况，直接保留“明巳然”属于未完成现代中文转换"
+        ],
+        "uncertainty": [
+          "原文开篇“正方可”表意不完整，具体所指不明；“巳然”应为“已然”的形近讹字"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2141,
+    "completion_tokens": 853,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2141,
+      "completion_tokens": 853,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

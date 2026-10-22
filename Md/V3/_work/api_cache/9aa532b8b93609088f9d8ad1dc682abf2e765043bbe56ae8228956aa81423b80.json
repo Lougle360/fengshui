@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-17T09:13:38.335978+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9aa532b8b93609088f9d8ad1dc682abf2e765043bbe56ae8228956aa81423b80",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003110-p000-00f3de6e5c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文有‘后用  作日 地后结砌一空壙后葬棺於平基’，candidate中‘在穴后结砌一个空壙’未能体现‘后用  作日’的原文结构，存在信息缺失。",
+          "术语误换/含义变化：原文‘庚向’，candidate译为‘震山庚向’，但‘庚向’是具体方位，与‘震山’并列，candidate表述可能让读者误以为‘震山庚向’是一个整体术语。",
+          "数字/干支变化：原文‘绕九年’，candidate译为‘九年之后’，‘绕’字未译出，可能表示‘大约九年’或‘经过九年’，直接译为‘九年之后’不够准确。",
+          "把推测写成事实：原文‘俗作攀顯形贊受穴處’，candidate译为‘世俗做法是在攀显形赞受穴处用功’，将‘攀顯形贊受穴’当作一个确定的操作地点，但原文此短语含义不明，应保留其模糊性，如‘世俗称为攀显形赞受穴的地方’。"
+        ],
+        "uncertainty": [
+          "音金精先生具体所指不详",
+          "提刑祖具体所指不详",
+          "鱼袋桂腰边具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b003115-p000-3732a0c648",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘亥 窩攻入山受脈扦作 山 丙向’，candidate译为‘从亥窝攻入山受脉，扦作山向，丙向’，漏译了原文中‘山’前的空格或可能的缺字，直接合并为‘山向’可能不准确。",
+          "术语误换/含义变化：原文‘亥貫右耳’，candidate译为‘亥贯右耳’，但未解释‘贯右耳’的风水术语含义，对于普通读者仍显晦涩，不符合V3‘能读懂’的目标。应考虑更通俗的说明，如‘亥脉从右侧进入穴位’。",
+          "把推测写成事实：原文‘俗作燕窩仰天天 湖笑天龍等形’，candidate译为‘世俗将其称为燕窝、仰天湖、笑天龙等形’，将‘仰天天 湖’合并为‘仰天湖’是推测，原文可能有缺字或重复，应保留原文的模糊性，如‘世俗称为燕窝、仰天（天）湖、笑天龙等形’。"
+        ],
+        "uncertainty": [
+          "胡具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 639,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1209,
+      "completion_tokens": 639,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:57:11.176080+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9834e0174bc250f8ffd7f672c2cf4a326fa408bd12232669ea65510aaeaa14b1",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000948-p000-980520ea0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "幅任偏任生奸",
+          "鍾震逃运世笼忠真",
+          "腊颖"
+        ]
+      },
+      {
+        "id": "book014-b000949-p000-bbd4ed4820",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "表格内容存在大量OCR识别错误，无法准确解读"
+        ],
+        "uncertainty": [
+          "表格内容存在大量OCR识别错误，无法准确解读"
+        ]
+      },
+      {
+        "id": "book014-b000956-p000-89af5eef1f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾残缺，无法完整解读"
+        ]
+      },
+      {
+        "id": "book014-b000958-p000-bef91e2093",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文开头的数字\"3\"含义不明，原文末尾残缺，无法完整解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4578,
+    "completion_tokens": 261,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4578,
+      "completion_tokens": 261,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

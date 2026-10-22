@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-26T03:59:20.193390+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "695fbe854ab78a708497cb0e42bb9146928b141233e4604af032c88b650298c7",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000103-p000-77d4387dc7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量语序错乱、脱漏，无法直接梳理出完整通顺的逻辑，候选将错乱文本强行整理为连贯论断，属于无依据扩写，不符合保守释读要求；原文提及的‘五星’‘九星’‘八卦’‘雌雄交媾’‘吉凶祸福与山水阴阳、龙向水口关联’等核心内容未准确对应，存在过度推演"
+        ],
+        "uncertainty": [
+          "原文语序严重混乱，具体逻辑关系无法明确"
+        ]
+      },
+      {
+        "id": "book032-b000104-p000-6740b71da1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为零散的“姜”“山”“水”“福”“祸”等字重复堆叠，无完整语义，候选无依据添加“姜氏所言”“有山有水则有福”等连贯论断，属于无依据增译；原文未提及“有山无水则有祸”“有水无山则有祸”等对应表述"
+        ],
+        "uncertainty": [
+          "原文残缺错乱，无完整可解读语义"
+        ]
+      },
+      {
+        "id": "book032-b000105-p000-47baf0105b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000106-p000-bdc634ca56",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000107-p000-bb5fda18df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“施氏所言”相关内容，属于无依据增译；原文零散提及的“八排”“十”“四十”“龙”“水口”“玄空”等内容，候选过度整合成“妙会之法，八排之局，需看龙的来去、水口的合会，以及阴阳的分布”等连贯逻辑，属于无依据推演"
+        ],
+        "uncertainty": [
+          "原文残缺错乱，具体所指无法明确"
+        ]
+      },
+      {
+        "id": "book032-b000108-p000-49c9e60bba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000109-p000-d1835685e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000110-p000-3afd011e0b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文虽有残缺，但核心提及的“曹註已詳明”“龍來要收氣”“水口環抱”“撼龍經舊註”“明堂”“穴前氣旺”等内容，候选仅罗列零散词汇，未准确释读可明确的语义；罗列的词汇存在大量冗余重复，未做基础梳理"
+        ],
+        "uncertainty": [
+          "原文存在残缺，部分条目具体所指无法明确"
+        ]
+      },
+      {
+        "id": "book032-b000111-p000-0abbd0ee4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未明确提及“分步的四条原则”的对应划分，候选自行将内容归纳为四条原则，属于无依据增译；原文提到的“楊公”“雄雌”“挨星”等内容，候选未提及，存在漏译；原文未明确说第二条原则是“辨明卦气的旺衰，分清龙脉的五行属性”，属于过度推演"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5071,
+    "completion_tokens": 945,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5071,
+      "completion_tokens": 945,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

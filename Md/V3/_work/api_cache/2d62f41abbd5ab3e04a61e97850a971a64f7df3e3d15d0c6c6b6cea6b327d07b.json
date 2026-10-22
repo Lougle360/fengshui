@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T07:55:09.837335+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2d62f41abbd5ab3e04a61e97850a971a64f7df3e3d15d0c6c6b6cea6b327d07b",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000060-p000-ef3ff089a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“枝蔓于数十里之间”误写作“枝蔓干数士里之间”属于OCR识别错误，候选将“数士里”修正为“数十里”符合语境，可接受；但原文“高谕数尺”应为“高逾数尺”，候选中“不过高谕数尺而已”的“谕”属于误写，应改为“逾”；原文“朝乐”作为风水术语候选未作风险标注，若不属于allowed_glossary应明确标注存疑；缺字部分处理为“原文此处标注‘各有〔缺作自「缺]’”符合要求，但后续“对应有一块地方可以让它的力量完全发挥”属于对缺字后内容的直接释读，未明确说明缺字是否影响该句语义完整性，存在无依据推定风险"
+        ],
+        "uncertainty": [
+          "缺字部分“各有〔缺作自「缺]”的具体内容已缺失，无法确定含义；“朝乐”的具体风水含义未在允许术语表中，暂无法明确"
+        ]
+      },
+      {
+        "id": "book023-b000064-p000-de85ffc70b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾缺漏，“故言坦夷当”之后的内容无法确定"
+        ]
+      },
+      {
+        "id": "book023-b000069-p000-563f8497ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“金银炉底”的具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2334,
+    "completion_tokens": 418,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2334,
+      "completion_tokens": 418,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

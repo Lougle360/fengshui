@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T13:44:05.619536+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "46cf1b7c5aca9d046cda64705eaa2058a4bc1661493fa2678d3d36e693071c47",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000222-p000-80f4417ca5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000223-p000-64c8021f00",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR识别错误、断句混乱与缺字，无法还原确切内容"
+        ]
+      },
+      {
+        "id": "book026-b000224-p000-079d188671",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误改原文语序与语义逻辑，原文“下后人丁多退散”是指下葬后家中人丁多衰退离散，并非“后代子孫人丁眾多卻退散衰敗”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000227-p000-d1a88785da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句错误，“三十人千家註纂寄家藏”“德不孤必有隣看他侍從”“眼不明徒費力到底模糊”是独立语义单元，候选错误将“○”前的“侍從”与“眼不明”连读为“看那些侍從○眼不明的人”，不符合原文结构；且“三十人千家注纂”语义存疑，不应直接认定为“有三十人千家註纂寄藏於家”"
+        ],
+        "uncertainty": [
+          "原文中「○」為識別缺字，無法確認含義；「三十人千家註纂」表述含混，无法确定具体所指"
+        ]
+      },
+      {
+        "id": "book026-b000228-p000-5650860df4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "断句错误，原文开头“降親諱也侍從山之從送護衛也”是对“侍从”的注解，并非是“承接上文”的内容；“必有泉山環遠也”语义理解错误，原文意思是真龙周边必然有群山环绕护卫，并非“山環遠處必有泉脈”；“糧穢英辨而匹”识别错误，候选写成“最終只會糧穢英雜”属于无依据臆测"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000229-p000-28f507067f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR識別錯誤與斷句混亂，無法還原確切內容"
+        ]
+      },
+      {
+        "id": "book026-b000230-p000-346ad13996",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“2 五星万變結也”是OCR识别错误的乱码内容，不应直接引用作为原文内容；“傳懷生執以及生育形禮”属于语序错乱的识别内容，不应直接认定为原文提及的相关内容"
+        ],
+        "uncertainty": [
+          "原文存在缺字、语序错乱问题，部分语义难以准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000231-p000-c8992b7fee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中「二十九下」為識別存疑內容，無法確認含義"
+        ]
+      },
+      {
+        "id": "book026-b000233-p000-baf6fac10b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000234-p000-6cb24df1d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "断句错误，原文开头“此承上文四起下文之言也”是说明这段内容的承启作用，并非“承接上文「四起下文之言也」而言”；“論山可之而此不相離也”属于识别语序混乱，候选臆测为“論山形時也應遵循，山與水不相離”缺乏原文依据"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2650,
+    "completion_tokens": 998,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2650,
+      "completion_tokens": 998,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

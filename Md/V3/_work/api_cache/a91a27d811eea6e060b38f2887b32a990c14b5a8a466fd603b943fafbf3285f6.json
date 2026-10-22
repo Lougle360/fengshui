@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-26T10:01:58.370412+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a91a27d811eea6e060b38f2887b32a990c14b5a8a466fd603b943fafbf3285f6",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000765-p000-5857acc0fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“几穴星上夫而圓”存在文本讹误，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book033-b000769-p000-9e0e799102",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“获单”具体所指不详",
+          "“一脚转金一脚转水木大土者”等特殊表述的具体含义不明",
+          "“弦拔明白”存在文本讹误，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book033-b000773-p000-4a802d66a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“突面光囿”直接判定为讹误并释为“突面光洁圆润”属于无依据改定，应标注“突面光囿”存在文本讹误，具体所指不明，不应直接给出确定释义"
+        ],
+        "uncertainty": [
+          "“借乐安扦”具体所指不详",
+          "“拉稜分明”存在文本讹误，具体含义无法确定",
+          "“突面光囿”存在文本讹误，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 336,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2066,
+      "completion_tokens": 336,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

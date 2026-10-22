@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T01:31:26.198842+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0d9d8742b61e8ea481af2e591269ab72f87d1c862a0a4a3b2b5cb72b777fba2a",
+  "response": {
+    "items": [
+      {
+        "id": "book007-b000008-p000-23a8e1feb2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误将原文的'殊砂'（朱砂的异写）与术语'砂'混淆，错误套用allowed_glossary中'砂'的风水地形定义，原文'殊砂'即硫化汞类矿物颜料朱砂，与风水语境的'砂'无关"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book007-b000013-p000-9d1211fcd2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "永达大古具体含义不详"
+        ]
+      },
+      {
+        "id": "book007-b000014-p000-6484d447c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "毗壹十二张具体所指不详",
+          "麗禳之物无用矣具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 233,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1269,
+      "completion_tokens": 233,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

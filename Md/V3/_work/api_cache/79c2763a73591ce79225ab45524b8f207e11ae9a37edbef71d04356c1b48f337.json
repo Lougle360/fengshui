@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:07:27.664119+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "79c2763a73591ce79225ab45524b8f207e11ae9a37edbef71d04356c1b48f337",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000543-p000-96ef43fc0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000545-p000-ef3fa0c612",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000546-p000-19968182f3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「プロセス@⑥©@」的符号未明确对应，候选释读为「流程⑥、⑨」属于无依据的确定化处理，存在误译风险"
+        ],
+        "uncertainty": [
+          "原文中「プロセス@⑥©@」的具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000547-p000-334a47b49b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「©」「@」「⑥」等符号未明确对应，候选释读为「⑨」「@」「⑥」属于无依据的确定化处理，存在误译风险；原文中「左行の上と下 (P_{i-2}) に加え z」的「z」未明确含义，候选未标注该歧义"
+        ],
+        "uncertainty": [
+          "原文中「©」「@」「⑥」等符号的具体所指不详；原文中「左行の上と下 (P_{i-2}) に加え z」的「z」的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2972,
+    "completion_tokens": 383,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2972,
+      "completion_tokens": 383,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-16T08:54:34.847150+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "82d54263a5f78cb92e652c452a41b695f36f48680b4d481166b954c5423719c3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001660-p000-7e20da72ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘息中’解释为‘息脉的中间阶段’，这是无依据的扩写。原文‘继息为息中为伏派’结构不明，candidate将其拆解并赋予确定含义，不符合opaque_terms的处理原则。",
+          "candidate将‘勃郁’译为‘蓬勃郁结’，虽可接受，但‘郁结’在现代中文中多含贬义，与原文‘生气勃郁’的正面描述可能不符。建议改为‘旺盛’或‘充盈’。"
+        ],
+        "uncertainty": [
+          "‘继息’、‘息中’、‘伏派’的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b001661-p000-77fa85b1d7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘反穴五星反穴豈無水’译为‘关于反穴与五星的关系，文中设问反穴难道没有水吗？’，这是错误的。原文是‘反穴五星反穴豈無水’，应理解为‘反穴（对应）五星，反穴难道没有水吗？’或‘五星反穴，难道没有水吗？’。candidate的译法改变了原文结构，并添加了‘关于...的关系’这一无依据的概括。",
+          "candidate将‘金木星水爲逢此’译为‘金星和木星形成的反穴，水是逢应此穴的’，这是将不确定的原文（writer已标注uncertainty）写成了确定事实。应保留其不确定性，如‘金星、木星与水的关系在此处逢应（具体含义不详）’。",
+          "candidate将‘武拒尸’译为‘武拒尸’，保留了原文，但未作任何说明，对于普通读者而言完全无法理解。应标注为‘武拒尸（具体所指不详）’。",
+          "candidate将‘不斫之木’译为‘不斫之木’，保留了原文，但未作任何说明。应标注为‘不斫之木（未经砍伐的树木？具体所指不详）’。",
+          "candidate将‘湍至禍敗莫明其故’译为‘湍急而至，祸败莫明其故’，‘湍急而至’的主语不明，且‘湍至’可能指‘急流到来’或比喻祸败急速而至，candidate的译法不够清晰。"
+        ],
+        "uncertainty": [
+          "‘金木星水爲逢此’的具体含义",
+          "‘武拒尸’的具体所指",
+          "‘不斫之木’的具体所指",
+          "‘湍至’的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b001662-p000-60abf7c7ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘土架則爲則’的原文讹误及含义",
+          "‘神藏殺沒’的具体解释"
+        ]
+      },
+      {
+        "id": "book035-b001663-p000-8d91f1746e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘此刀至’的含义",
+          "‘旋同饭’的含义",
+          "‘心客同受不出百步’的含义",
+          "‘扦鉞產曰鈎穴’的含义"
+        ]
+      },
+      {
+        "id": "book035-b001666-p000-a58a9f4d2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘或然誤下瘟皇死’的含义",
+          "‘隐马藏车’的含义",
+          "‘土星不星’的含义"
+        ]
+      },
+      {
+        "id": "book035-b001670-p000-782f377b02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘汩汩童骨’的含义"
+        ]
+      },
+      {
+        "id": "book035-b001671-p000-5358a999da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘梅花梅寶’的含义",
+          "‘上次金土星結寶醫貧蓋遺珠’的含义",
+          "‘滚浪金’的含义",
+          "‘禽鬼’的具体所指",
+          "‘为粗’的含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3192,
+    "completion_tokens": 964,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3192,
+      "completion_tokens": 964,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

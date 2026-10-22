@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T20:28:16.840797+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fcad914b56a8857d9a8f5567c1cc8cf22d82b6c5541f0c35137d0057d422d1a9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003423-p000-bf04d2b1b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003426-p000-7fe232e8d2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘艮’直接释为‘八卦之一’的 allowed_glossary 对应含义，但此处原文‘以此处艮’的‘艮’是卦义相关，候选释读未明确对应 allowed_glossary 中‘八卦之一’的限定，且原文未提及‘两两相背’的具体所指，候选释读中‘也两两相背’属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘行其庭，不见其人’的具体含义未明确，原文未提及‘两两背部相对’相关内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 212,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1106,
+      "completion_tokens": 212,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

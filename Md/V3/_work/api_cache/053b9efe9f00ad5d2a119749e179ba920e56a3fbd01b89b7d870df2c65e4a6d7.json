@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-26T08:57:46.990965+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "053b9efe9f00ad5d2a119749e179ba920e56a3fbd01b89b7d870df2c65e4a6d7",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000517-p000-d2e31b5262",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“先須譽龍”“譽”是“辨”的形近讹字，candidate译作“辨别龙”符合文义，但source中“經曰恐君疑穴難取裁好向後龍身上別龍上生峰是根核”断句应为“經曰：恐君疑穴難取裁，好向後龍身上來，別龍上生峰是根核”，candidate错误断句为“要向后龙身上、别龙上寻找生峰”，语义偏差；source中“蓋從種類生出來”candidate漏译；source中“口是到頭結果無取”“口”是“只”的形近讹字，candidate译作“只是到了到头结果的地方没有可取之处”，存在语义重复"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000518-p000-24f1711df8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book033-b000519-p000-a171a90357",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“楊筮松”是唐代风水师杨筠松的讹写，candidate错误断为“杨筮、松”；source中“四象窩鉗乳突之屬”被误写为“腐金乳矣之丹”，candidate未作风险标注直接引用，存在术语误解；source中“審其證”被误写为“審耳證”，candidate未识别形近讹误，直接保留错误表述；source中“其禍必不旋踵而至矣”前“以親體納之泉窟之中”candidate误写为“以親體匱之穴，泉窟之中”，语义不通；source中“結作真偽自不能遁”candidate误写为“強結真為自不能遁”，语义偏差；source中“而為孝子之欲卜宅兆以安其親者”candidate误写为“而二人孝子之欲卜宅兆以盛其親者”，语义不通"
+        ],
+        "uncertainty": [
+          "原文存在多处形近讹误，部分表述模糊，具体所指不详；原文末尾内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5129,
+    "completion_tokens": 570,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5129,
+      "completion_tokens": 570,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

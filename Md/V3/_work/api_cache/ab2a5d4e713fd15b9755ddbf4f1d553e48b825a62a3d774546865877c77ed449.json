@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:22:48.562314+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ab2a5d4e713fd15b9755ddbf4f1d553e48b825a62a3d774546865877c77ed449",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000243-p000-6904f54664",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000244-p000-b05bacbb77",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000245-p000-f440986fd6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“尨穴”“罗桎”“罗径”“天卦”等未明确含义的术语赋予了确定解释，不符合术语使用规则"
+        ],
+        "uncertainty": [
+          "尨穴、罗桎、罗径、天卦等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000247-p000-ef4e91bc5b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语义不连贯，无法形成符合逻辑的释读内容"
+        ],
+        "uncertainty": [
+          "原文语义不连贯，无法明确具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1892,
+    "completion_tokens": 270,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1892,
+      "completion_tokens": 270,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

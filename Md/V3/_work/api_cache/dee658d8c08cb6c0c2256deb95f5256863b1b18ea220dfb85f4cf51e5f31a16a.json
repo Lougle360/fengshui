@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-17T18:14:38.055055+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dee658d8c08cb6c0c2256deb95f5256863b1b18ea220dfb85f4cf51e5f31a16a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004290-p000-cbc89e4ecb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本严重错乱导致无法连贯解读",
+          "“鬼之劉曰”具体所指不详",
+          "“龍巽角”具体所指不详",
+          "“三曜”具体所指不详",
+          "“穴”在文中的具体语境不明",
+          "“三年”的具体含义及上下文缺失"
+        ]
+      },
+      {
+        "id": "book035-b004299-p000-e61a2fc2e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘季公龍法之張’，candidate误为‘季公的龙法’；原文‘之張’可能指‘张氏’或‘张子微’，candidate处理为‘虽也较为简略’未准确对应。",
+          "原文‘總之以格論龍而與張氏同一見者’，candidate译为‘总体仍以“格”来论龙，与张氏的观点一致’，此处‘同一見者’指‘观点一致的人’或‘同一见解’，candidate处理为‘观点一致’可接受，但‘同一見者’的直译未体现。"
+        ]
+      },
+      {
+        "id": "book035-b004301-p000-d364737561",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘更有貪狼如笋出神童宰相握京權’，candidate译为‘若贪狼星如笋般生出，则出神童、宰相，掌握京城权柄’，此处‘如笋出’可能指星峰形态，candidate处理为‘如笋般生出’可接受，但‘握京權’译为‘掌握京城权柄’略显现代，可更通俗。",
+          "原文‘一个貪狼名獨步出知縣更有貪狼如開出神童后架火星出眾官出人拜相第二代出第第三代出宰相’，candidate译为‘一个贪狼星名为“独步”，可出知县；若贪狼星如开花般显现，则出神童，其后代可出宰相。第二代出第，第三代出宰相。’此处‘如開出’可能为‘如开花出’，candidate处理为‘如开花般显现’可接受，但‘后架火星出眾官’未译出，属于漏译。"
+        ]
+      },
+      {
+        "id": "book035-b004302-p000-27b41ab4e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004303-p000-eb1a993331",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘蘆花入梟世間稀’，candidate译为‘芦花入枭，世间稀有’，‘入梟’为术语，candidate保留原词可接受，但未说明其具体所指不详。",
+          "原文‘遠遠八穴爲狀元’，candidate译为‘远远八穴为状元’，‘八穴’可能指八个穴位或某种格局，candidate处理为‘八穴’保留原词可接受，但未说明其具体所指不详。",
+          "原文‘十八年八卿如未有福人十八年生貴子三十四十入舉狀元如無官星作神廟有官星出朝貴’，candidate译为‘十八年出八卿。若无福人，十八年生贵子，三十四十入举，状元若无官星，则作神庙；有官星则出朝贵’，此处断句和逻辑有歧义，candidate的断句和解释可能不准确，但属于文本含混，可接受。"
+        ]
+      },
+      {
+        "id": "book035-b004304-p000-7bbaa73993",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2730,
+    "completion_tokens": 809,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2730,
+      "completion_tokens": 809,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

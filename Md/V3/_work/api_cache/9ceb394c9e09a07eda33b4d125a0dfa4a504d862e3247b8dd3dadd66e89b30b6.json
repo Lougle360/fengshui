@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-24T23:30:22.271093+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9ceb394c9e09a07eda33b4d125a0dfa4a504d862e3247b8dd3dadd66e89b30b6",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001209-p000-8cba182502",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代中文，直接保留原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001211-p000-129fdd3071",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "业微斗具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001212-p000-61d71405a8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文断句存在错乱，“祔分但若出身一路”“一到頭勇若水土金”的表述难以完全确定原意"
+        ]
+      },
+      {
+        "id": "book017-b001213-p000-292abcd8c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此說抑龍”被误译为“这种说法是说，辨别龙脉时”，“抑龙”含义未准确对应，属于错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001214-p000-e386b2cee3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在缺字错乱，“書星”“砧”“都天室照經”等表述的具体含义难以完全确定，“一二四九”后内容残缺"
+        ]
+      },
+      {
+        "id": "book017-b001215-p000-43e3708d19",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001217-p000-0eccdb3076",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的乱码字符“4涼”“一や”未标注说明，直接保留在译文中未作风险提示，不符合含混内容的处理要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001218-p000-c75777e7a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“每一定穴れ口官一相对位置”被误译为“每一处确定穴位的位置，水口的位置就会相对应”，属于无依据扩写原意；原文“伪以公蔣章二氏乃說山形水形则的其所蔽矣”被误译为“因此蒋、章二氏才会说，山形水形的说法是被他们的见解所局限了”，含义完全相反，属于反义错译"
+        ],
+        "uncertainty": [
+          "原文存在假名转写的乱码，“穴百十八”“定穴れ口”等表述的具体含义难以完全确定"
+        ]
+      },
+      {
+        "id": "book017-b001220-p000-30e2cbb417",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在假名转写的乱码，“れ”的具体含义难以确定，整句表述的原意难以完全明确"
+        ]
+      },
+      {
+        "id": "book017-b001221-p000-61e489f39e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文乱码“3互”未标注说明，直接保留在译文中未作风险提示，不符合含混内容的处理要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2610,
+    "completion_tokens": 849,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2610,
+      "completion_tokens": 849,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

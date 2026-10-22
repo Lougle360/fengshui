@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-15T07:09:54.623403+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "67df99d98f14432fe4ed7e2b083734450d77e953d99229602c12064f35cfc129",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001398-p000-800df53c85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘歌雲左 流 聲’，candidate 译为‘左侧水流有声’，将‘左流声’拆解为‘左侧水流有声’，属于无依据的扩写。应保留原文的含混性，例如译为‘左侧水流声（具体所指不详）’或类似表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001399-p000-2d8a584069",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001400-p000-023ed4e897",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘應寅午戌生人年月’，candidate 译为‘适用于寅、午、戌年、月、日、时出生的人’，增译了‘日、时’。应译为‘适用于寅、午、戌年或月出生的人’或类似，不增加原文未提及的时间单位。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001401-p000-0a1576ee37",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001402-p000-fa1f6b6f52",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘高音人 力是’语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001403-p000-952477c0cb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘是最生’语义不完整，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001404-p000-3d80c1be5d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘兑山丑上巽上戲’，candidate 译为‘兑山在丑方，巽方有戏’，将‘丑上’和‘巽上’处理为两个独立的方位，并将‘戲’译为‘有戏’，属于推测性解释。应更保守地处理，例如译为‘兑山在丑方和巽方有戏（具体含义不详）’或类似，保留原文的并列结构和含混性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001405-p000-0b493c87ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘一不足堆上築二’，candidate 译为‘一是不足，二是在上面堆筑’，将‘堆上築’拆解为‘在上面堆筑’，并将‘二’与后续内容断开，导致语义不连贯。原文‘一不足堆上築二’可能是一个整体表述，意为‘第一项不足是在上面堆筑，第二项（不足）...’。candidate 的断句和解释缺乏依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001407-p000-f2785a947e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘不足栽竹木三不足造屋須有遮則無害’，candidate 译为‘三是不足，需要栽种竹木；四是不足，需要建造房屋，须有遮挡则无害’，将‘三’和‘四’作为序号，但原文‘三’前并无‘二’的明确对应（前一条为‘一不足堆上築二’），且‘栽竹木’和‘造屋’是两项措施，并非‘不足’的内容。candidate 的序号和语义划分有误。应更贴合原文结构，例如译为‘（若）不足，则栽种竹木；第三项不足，则建造房屋，须有遮挡则无害’或类似，但需注意与前一条的衔接。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001408-p000-8098acc32e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘宅則于大門或門樓限上安木星局則于塋前第二級上安木星局’存在明显脱漏或结构不清。candidate 译为‘宅则在大门或门楼限上安木星局；则于坟前第二级上安木星局’，将两个‘则于’处理为并列，但第二个‘则于’前缺少主语，且‘局’字重复。这可能是原文损坏或排版问题，candidate 的译法未能妥善处理，导致句子不通顺。",
+          "2. 原文‘取五吉避四凶又須避黃錄殺例見后此方法也’，candidate 译为‘取五吉避四凶，又须避开黄录杀。例见后。此方法也。’将‘黄录杀’作为一个专名处理，但未加引号或说明其不透明性。根据规则，此类未在 allowed_glossary 中定义的专名应视为 opaque_terms，需加引号或标注。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2206,
+    "completion_tokens": 1185,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2206,
+      "completion_tokens": 1185,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

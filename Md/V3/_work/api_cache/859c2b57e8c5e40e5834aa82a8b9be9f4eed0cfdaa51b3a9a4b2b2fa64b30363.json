@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-10-04T09:16:22.906978+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "859c2b57e8c5e40e5834aa82a8b9be9f4eed0cfdaa51b3a9a4b2b2fa64b30363",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001079-p000-8e0e55e950",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001080-p000-22568269e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将原文标题格式化为 Markdown 二级标题，属于增译。应保持为普通段落或直接保留原文。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001081-p000-9a23bc7a3f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘养萨’为 opaque_term，candidate 未加引号保留，而是直接作为普通词语使用。",
+          "‘五狐砂经’为 opaque_term，candidate 未加引号保留，而是直接作为普通词语使用。",
+          "‘春节’疑似为‘春節’（可能为‘春節’或‘春節’之误），candidate 译为‘春节’（Spring Festival），可能为误译。此处应为风水术语，应保留原词并标注不确定性。",
+          "‘圃于’一词含义不明，candidate 译为‘圃于’，未做解释或标注。",
+          "‘坎至而灌物物受泉而成生亦或似其濫矣’一句，candidate 译为‘坎至而灌溉万物，万物受泉而成生，也或许类似其滥’，‘类似其滥’含义模糊，未能清晰传达原文可能指‘泛滥’或‘过度’之意。"
+        ],
+        "uncertainty": [
+          "‘养萨’具体所指不详。",
+          "‘五狐砂经’具体所指不详。",
+          "‘春节’（原文‘春節’）在此处具体含义不详。",
+          "‘圃于’一词含义不明。"
+        ]
+      },
+      {
+        "id": "book028-b001082-p000-b5dc5fba02",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "‘养萨’为 opaque_term，candidate 未加引号保留。",
+          "‘五狐砂经’为 opaque_term，candidate 未加引号保留。",
+          "‘春节’疑似为‘春節’，candidate 译为‘春节’（Spring Festival），可能为误译。",
+          "‘圃于’一词含义不明，candidate 未做解释或标注。",
+          "‘坎至而灌物物受泉而成生亦或似其濫矣’一句，candidate 译为‘坎至而灌溉万物，万物受泉而成生，也或许类似其滥’，‘类似其滥’含义模糊。"
+        ],
+        "uncertainty": [
+          "‘养萨’具体所指不详。",
+          "‘五狐砂经’具体所指不详。",
+          "‘春节’（原文‘春節’）在此处具体含义不详。",
+          "‘圃于’一词含义不明。"
+        ]
+      },
+      {
+        "id": "book028-b001083-p000-d786d5a314",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "‘所而一以’语义不明，candidate 直接保留，未做解释或标注。",
+          "‘眩或’疑似为‘眩惑’之误，candidate 保留‘眩或’，未做修正或标注。",
+          "‘国阜’一词在风水语境中含义不明，candidate 保留‘国阜’，未做解释或标注。",
+          "‘十六作法’具体所指不详，candidate 保留原词，但未标注不确定性。",
+          "‘L’疑似为乱码或符号，candidate 保留‘L’，未做解释或标注。",
+          "‘章’字在此处语境中含义不明，candidate 保留‘章’，未做解释或标注。"
+        ],
+        "uncertainty": [
+          "‘所而一以’语义不明。",
+          "‘眩或’可能为‘眩惑’之误。",
+          "‘国阜’具体含义不详。",
+          "‘十六作法’具体指代不详。",
+          "‘L’疑似为乱码或符号。",
+          "‘章’在此处具体含义不详。"
+        ]
+      },
+      {
+        "id": "book028-b001084-p000-58049c2053",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001085-p000-33ff882a36",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘扒砂经卷田九焉’疑似为书名或篇名，但‘卷田九’语义不明，candidate 保留原词，但未标注不确定性。",
+          "‘碑’字在此处语境中含义不明，candidate 保留‘碑’，未做解释或标注。",
+          "‘烟楼’比喻义不明，candidate 保留‘烟楼’，未做解释或标注。"
+        ],
+        "uncertainty": [
+          "‘扒砂经卷田九焉’具体所指不详，‘卷田九’可能为 OCR 识别错误。",
+          "‘碑’在此处具体含义不详。",
+          "‘烟楼’具体比喻义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5623,
+    "completion_tokens": 1080,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5623,
+      "completion_tokens": 1080,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

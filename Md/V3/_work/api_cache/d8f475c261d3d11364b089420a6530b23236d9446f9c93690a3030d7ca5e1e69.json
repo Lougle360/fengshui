@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:10:42.371451+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d8f475c261d3d11364b089420a6530b23236d9446f9c93690a3030d7ca5e1e69",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000811-p000-f0042eae06",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中“兵众时而载运尸体归”的内容，且将“大无功也”释为“没有建立战功”，未体现原文“大无功也”的表述，存在语义缺失"
+        ],
+        "uncertainty": [
+          "原文“师或舆尸”的具体含义结合上下文存在一定歧义，释读时未明确相关风险"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 800,
+    "completion_tokens": 121,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 800,
+      "completion_tokens": 121,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

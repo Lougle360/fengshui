@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T06:38:13.584221+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0e548b8cb3c7b85d8f115d25c38313af0a57c9cdc2a4ec0aefc982503d889388",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000003-p000-12d05e6fec",
+        "language": "classical_chinese",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "此处为表格内容，原表格文字多为古籍序跋相关的零散语句，经整理后可明确的内容为：《地理臆解》引言部分提及谈论地理的人流派不一，难以完全相信却又不得不信，看似没有疑问却又不得不产生疑问；还有《指迷》《地理正宗》相关内容，以及山阴金六吉于乾隆午年仲春上澣所作的自序等，具体文字因表格排版零散，部分语句难以完整连贯解读。",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格内文字排版零散，部分语句残缺、语序混乱，难以完整准确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3055,
+    "completion_tokens": 187,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3055,
+      "completion_tokens": 187,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

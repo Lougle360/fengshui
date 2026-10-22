@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-23T16:01:54.624086+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "eb89fac114d683c8d3266df3d58435968710418e603cc1e6873c457d2421a0df",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001050-p000-6b600796b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001051-p000-cf1dc19cc0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "专业术语误换：原文‘坎’为八卦之一，是风水术语，candidate将其解释为‘坑洞或凹陷处’，并标注‘具体所指不详’，这属于误换。根据allowed_glossary，‘坎’应保留为‘八卦之一’的术语含义，或直接保留‘坎’字并说明其为风水术语，而非推测为物理形态。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 157,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 964,
+      "completion_tokens": 157,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

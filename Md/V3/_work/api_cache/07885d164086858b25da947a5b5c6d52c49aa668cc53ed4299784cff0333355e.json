@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-16T12:58:56.974386+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "07885d164086858b25da947a5b5c6d52c49aa668cc53ed4299784cff0333355e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002342-p000-e5d3b1ff09",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格，candidate 将表格内容合并为一段描述，破坏了原文的并列对照结构，不符合 V3 目标要求的逐项核对。",
+          "candidate 将原文中的形态名称（如“雲”、“如玉”）与断语混合叙述，导致信息对应关系模糊，普通读者难以区分每种形态的具体描述。",
+          "candidate 将原文表格中的占位符（如“U”、“n”）解释为“排版符号或占位符”，但原文中这些符号与形态名称并列，可能具有特定含义（如某种分类或标记），candidate 的“排版符号”解释属于无依据的推测，应保留原文符号并说明其含义不详。",
+          "candidate 对部分术语的释读存在偏差或增译：1. “伏辱”释为“形如伏犀”无误，但“变生变举”含义不明，candidate 未作说明；2. “菖包”释为“盘耸葛包、钟节生腰”含义不明，candidate 未作说明；3. “1横”应为“三横”之误，candidate 直接释为“起伏三横”，但原文为“1横”，可能为OCR错误或特殊符号，candidate 未保留原文形态并说明不确定性。",
+          "candidate 将“伏龜仰天杓柄坐乾后”释为“仰天杓柄坐乾后”，但“坐乾后”为风水方位术语，candidate 未明确其含义（如“坐落在乾卦方位之后”），且未说明“杓柄”的具体所指。",
+          "candidate 将“金驚實蓋”释为“金驚實蓋”，但“驚”可能为“擎”或“擎”之误，candidate 未说明此不确定性。",
+          "candidate 将“水若牽潛罷識進契”释为“若带水则主淫荡扛尸”，但原文“水若牽潛罷識進契”与“侧月蛾眉”并列，含义不明，candidate 的释读可能混淆了上下文。",
+          "candidate 将“衣紫中書若然流散教授爲儒”释为“主衣紫中书，若然流散则主教授为儒”，但“衣紫中书”为官职，“教授为儒”为职业，candidate 的释读将推测写成了事实，未说明原文的比喻或象征含义。",
+          "candidate 未保留原文表格的并列结构，导致信息组织混乱，不符合“普通读者能读懂”的目标，应分项列出每种形态及其断语。"
+        ],
+        "uncertainty": [
+          "伏龜仰天杓柄坐乾后",
+          "金驚實蓋",
+          "水若牽潛罷識進契",
+          "衣紫中書若然流散教授爲儒",
+          "U",
+          "n",
+          "O",
+          "0",
+          "2",
+          "{l",
+          "伏辱变生变举",
+          "菖包盘耸葛包钟节生腰",
+          "1横的具体形态"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2395,
+    "completion_tokens": 701,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2395,
+      "completion_tokens": 701,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

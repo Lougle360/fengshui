@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-15T04:28:48.431283+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7520056778d1d5911b9a1b3c5f543bc0e2df21a48076462c5f39277e6633dacd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001136-p000-d06aca761f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘峡闊峡’、‘陰’、‘圖池天蔭養’等术语作为普通文字描述，未按 locked_terms 或 opaque_terms 规则处理。这些是风水术语，应原样保留在引号内，不应被释读为‘等文字’。",
+          "candidate 将‘迎送纏托經雲送龍之山短在后托山不抱左右手纏龍纏過龍虎前三重五重福綿延’释读为‘该段文字与右侧多行图片并列，原文未明确其具体性质’，这属于增译和过度解释。原文只是并列呈现，candidate 不应添加‘与右侧多行图片并列’和‘原文未明确其具体性质’等判断性描述。",
+          "candidate 将‘間小者是’释读为‘原文排版中‘間小者是’与后续图片及文字的对应关系较为复杂，具体所指不详’，这属于增译和过度解释。原文只是并列呈现，candidate 不应添加‘对应关系较为复杂’等判断性描述。",
+          "candidate 对表格结构的描述（如‘左侧第一列包含跨行跨列的空白单元格’、‘其上方存在空白区域’、‘该段文字与右侧多行图片并列’）过于详细，超出了‘普通读者能读懂的白话释读’的范畴，属于对排版细节的过度描述，而非对内容的释读。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2818,
+    "completion_tokens": 355,
+    "cached_prompt_tokens": 2304,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2818,
+      "completion_tokens": 355,
+      "cached_prompt_tokens": 2304,
+      "usage_estimated": false
+    }
+  ]
+}

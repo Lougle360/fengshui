@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T19:39:21.973065+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "702c4fb37a32cf7516861daa6de655a16b1c8851874b3a72606ac6426cfaad53",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002970-p000-67b29043b9",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "九四爻，包无鱼，起凶①。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002971-p000-e5033c7173",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文九四，厨房中失去一条鱼，兴起争执必有凶险。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002972-p000-55b57df957",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①包无鱼，起凶：鱼，比喻初六；起，指行动，此处如同说争执。这两句说明九四阳刚之爻失其正位，相应的初六爻背弃自己，已承接九二爻，就像自己的“鱼”亡失，落入九二的“庖”中；阴爻象征民，“失鱼”就如同“失民”；因为“失民”而相争，将会更加孤立，所以有凶险。《王注》说：“九二拥有那条鱼，所以（九四）失去了它；没有民众（“民”，阮刻本写作“风”，根据汲古阁本改）却行动，失去相应的对象而妄动，因此有凶险。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002973-p000-c31ee9d78a",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 《象》曰：无鱼之凶，远民也。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1642,
+    "completion_tokens": 503,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1642,
+      "completion_tokens": 503,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

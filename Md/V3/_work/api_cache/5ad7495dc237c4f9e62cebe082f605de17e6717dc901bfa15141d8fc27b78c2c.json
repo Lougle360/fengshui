@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-10-15T01:29:56.760268+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5ad7495dc237c4f9e62cebe082f605de17e6717dc901bfa15141d8fc27b78c2c",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001604-p000-0ef18b72b4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为复杂表格，candidate 将其处理为连续段落，导致结构信息丢失，且部分单元格内容衔接生硬，不符合‘普通读者能读懂’的目标。例如‘中格贵砂’段落与‘卫上流格’段落之间缺乏明确分隔。",
+          "存在多处因OCR错误导致的误译或保留乱码，如‘去星’（可能为‘主星’或‘去星’之误）、‘蒋者’、‘劳察’、‘螟吟’、‘岂FEO’等，candidate 未明确标注这些不确定之处，而是直接照搬或猜测，可能误导读者。",
+          "部分术语处理不当，如‘价库’（可能为‘仓库’之误）未标注不确定性。",
+          "‘也理人子须知卷五下砂法’应为‘地理人子须知卷五下砂法’，candidate 未修正明显错字。",
+          "candidate 将‘卫上流格’与‘献穴间不见不忌花’合并为一段，但原文中‘卫上’与‘流格’可能分属不同单元格，且‘献穴间不见不忌花’与‘献花砂’内容应紧密相关，candidate 的处理可能混淆了原文的条目划分。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，OCR错误多，导致多个术语和句子含义不明，如‘去星’、‘蒋者’、‘劳察’、‘螟吟’、‘岂FEO’、‘价库’、‘卫上’等，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b001607-p000-eab15f23c7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将‘丹詔一名詔仙卓立土星旁有小峯者 是又一格以一字文星前生長峽亦是’译为‘丹诏又名诏仙，卓立于土星旁有小峰者，是又一格。以一字文星前生长峡亦是，皆极贵。’此处理解基本正确，但‘詔仙’、‘丹詔’为专有名词，candidate 未加引号或说明其可能为特定砂形名称，存在将专名普通化的风险。",
+          "引文‘經云纔有回家復脇 盈’译为‘经云：才有回家复胁盈。’此句明显残缺或OCR有误，candidate 仅做字面直译，未明确标注其含义不明、无法通读，不符合风险标注要求。"
+        ],
+        "uncertainty": [
+          "‘丹诏’、‘诏仙’可能为特定砂形名称，但原文未提供更多信息。",
+          "引文‘才有回家复胁盈’语义不明，可能为OCR错误或引文残缺，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book033-b001608-p000-d601dab9d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001609-p000-c2ed71b8c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001610-p000-2759e17546",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001611-p000-8c8aad72e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001612-p000-4d2bc5945c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001613-p000-e7fab34d1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3706,
+    "completion_tokens": 921,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3706,
+      "completion_tokens": 921,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-16T10:29:49.535615+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "192982b05fa74a15a2fe534e453ac826f7a11298b2babf291a634e919966fe85",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001945-p000-6f9071f206",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'比機公倒秋更付此'在candidate中被处理为'文中提到“比機公倒秋更付此”，这一短语的具体所指不详'，这是正确的风险标注。但candidate将'顾氏 以爲外傳而復之詩 故 予重編而 載之正篇'释读为'顾氏曾认为这是外传而将其复归，所以我重新编订并载入正篇'，其中'将其复归'是对'復之詩'的推测性解释，原文并未明确'復'的对象和方式，此处理超出了allowed_glossary的范围，属于无依据扩写。应保留原文的模糊性，例如标注'復之詩'含义不详。"
+        ],
+        "uncertainty": [
+          "比機公倒秋更付此",
+          "復之詩"
+        ]
+      },
+      {
+        "id": "book035-b001948-p000-978ac75207",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'钱眼停匀，针之若神'整体标注为不详，但原文是'钱眼停匀针之若神'，中间无逗号，可能是一个连贯表述，candidate的断句和标注方式可能改变了原文的语意单位。",
+          "candidate将'细看 砂现俭手衙转徵转之中水合正脉'释读为'细看砂的显现，“俭手衙转”和“徵转”的具体含义不详。水需与正脉相合'，这里将'俭手衙转徵转'拆分为两个不明短语，但原文是'俭手衙转徵转之中'，可能是一个整体描述，拆分处理可能不准确。",
+          "candidate将'突如浮卯浪分深浅窝如螺腌细认枫穴分三才'释读为'突如“浮卯”，浪分深浅；窝如“螺腌”，需细认“枫穴”。穴分三才'，这里将'浮卯''螺腌''枫穴'都加了引号作为不明术语处理，但原文'枫穴'可能是'穴分三才'的一部分（'细认枫穴分三才'），candidate的断句（'细认“枫穴”。穴分三才'）可能错误，导致'枫穴'被误认为一个独立的不明术语，而'穴分三才'这个清晰表述被割裂。",
+          "candidate将'周尺算零'标注为不详，但原文是'量到合处周尺算零'，可能是一个连贯的丈量描述，单独标注'周尺算零'可能割裂了上下文。",
+          "candidate最后一句'阴阳需调和'是补充性总结，原文'阴阳'后无下文，此补充属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "钱眼停匀针之若神",
+          "俭手衙转徵转之中",
+          "浮卯",
+          "螺腌",
+          "细认枫穴分三才（断句存疑）",
+          "量到合处周尺算零"
+        ]
+      },
+      {
+        "id": "book035-b001950-p000-6c1617d275",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "箕法",
+          "笄法"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1900,
+    "completion_tokens": 725,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1900,
+      "completion_tokens": 725,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

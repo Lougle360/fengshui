@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T04:10:28.501252+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bf40e7a497ede10d1c8749dbc1c8d1b287a57c0619f376cc8e44ecc6170c42b3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005368-p000-21a0020ae6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文的表格结构简化为三组描述，但原文表格是4列3行，共12个单元格，每个单元格包含形态名称、图像和口诀诗。candidate的描述（第一组四种、第二组四种、第三组四种）虽然总数正确，但分组方式与原文的视觉排列（按行）不完全对应，且未明确说明是表格形式。",
+          "candidate将口诀诗内容概括为“如‘家子前游認只不出業子朝龜分求見堀詩旺興孫應老明頭身蛇曰孫给上形’等”，但原文中每个形态下的口诀诗是独立且不同的，candidate仅列举了第一首诗作为代表，未能准确反映每个形态都有独立口诀诗的事实，存在信息遗漏。",
+          "candidate在末尾补充了“文中提到的‘穴’指...‘水’指...‘向’指...”的解释。但根据指令，只有allowed_glossary中的术语定义可以作为确定解释加入。此处candidate主动对这三个术语进行了解释，而这三个术语在locked_terms中，指令要求是“必须保留”。candidate的处理方式超出了审校员的职责范围，属于无依据的扩写。审校员只应判断释读是否准确，不应添加原文没有的术语解释段落。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2820,
+    "completion_tokens": 326,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2820,
+      "completion_tokens": 326,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

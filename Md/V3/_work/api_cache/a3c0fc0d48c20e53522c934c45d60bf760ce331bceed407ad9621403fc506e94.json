@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-04T03:07:18.745264+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a3c0fc0d48c20e53522c934c45d60bf760ce331bceed407ad9621403fc506e94",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000486-p000-d9cdc3e997",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘穴上者腰落也穴金者書落也’释读为‘气脉落在山腰的位置’和‘气脉落在山脊的位置’，但原文‘書落’含义不明，释读为‘山脊’缺乏依据，属于无依据扩写。应保留‘書落’为原文未明术语。",
+          "candidate 将‘此格獨龍而行之謂也’释读为‘此格则是独龙独行，原文称其为“独龙而行”，并非指骑龙’，其中‘并非指骑龙’为增译，原文仅对比骑龙穴‘所带甚多’，并未说此格‘并非指骑龙’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000490-p000-ef550d69c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘湖者朝也’释读为‘所谓“湖”，是指朝案之水’，将‘朝’解释为‘朝案之水’属于无依据扩写。原文‘朝’可能指朝向、朝对，不一定是水。",
+          "candidate 将‘斯謂之逾吉塟之所忌也’释读为‘这称为“逾吉”，是安葬所忌讳的’，但‘逾吉’字面意为超过吉祥，在语境中明显指不吉，candidate 直接引用‘逾吉’而未加说明，可能导致读者误解。应在 uncertainty 中明确标注此矛盾。",
+          "candidate 将‘經曰忌濟’释读为‘经书说：忌讳“济”’，但‘济’字含义不明，candidate 未加说明，应标注 uncertainty。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000491-p000-6122846bd5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“自”字在此处含义不明",
+          "“醒”字在此处含义不明",
+          "“患内”具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b000494-p000-91d76203c8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘平牟’释读为‘平垟’，但‘牟’字可能为‘垟’或‘原’之误，candidate 直接改为‘垟’属于推测，应标注 uncertainty。",
+          "candidate 将‘藥地而就子之謂也’释读为‘所谓“药地而就子”’，但未解释其含义，且未标注此短语含义不明，应补充 uncertainty。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000495-p000-da6c2905b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘向背不洞’释读为‘关于“向背不洞”’，但未解释‘不洞’含义，且未标注此短语含义不明，应补充 uncertainty。",
+          "candidate 将‘朝之羙者卽向之砂之不羙者 卽肯之’释读为‘朝案美好的，即为向；砂不美的，即为背’，并说明‘此处按“朝美为向，砂美为背”的逻辑修正理解’。但原文‘砂之不羙者 卽肯之’句意不通（‘肯’可能为‘背’之误），candidate 的修正属于推测性释读，应明确标注 uncertainty。",
+          "candidate 将‘卽將之勇者任之將之唯渚物’释读为‘就像将领勇猛，便任用之；至于“唯渚物”，原文语意不明’，处理得当，但‘渚物’含义不明，应补充 uncertainty。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2011,
+    "completion_tokens": 890,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2011,
+      "completion_tokens": 890,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

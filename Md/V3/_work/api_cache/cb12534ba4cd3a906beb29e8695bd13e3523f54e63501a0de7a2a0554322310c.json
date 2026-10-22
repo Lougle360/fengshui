@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-23T09:07:57.512236+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cb12534ba4cd3a906beb29e8695bd13e3523f54e63501a0de7a2a0554322310c",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000367-p000-6fefcd97f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'人凶方'在source中是一个整体，指代一个方位名称（五鬼人凶方），candidate将其拆解为'招致人凶的方位'，改变了原文的术语结构，属于专业术语误换。",
+          "'项羽先茔葬此冈'是举例，candidate添加'文中举例说'属于增译，且将'先茔'译为'先祖坟墓'，'此冈'译为'这座山冈上'，虽为浅显释义，但'冈'译为'山冈'不如'山岗'或'山冈'更贴近原文意象，但此点可接受。主要问题在于'人凶方'的误译。"
+        ],
+        "uncertainty": [
+          "'人凶方'具体是指方位名称还是描述招致人凶的方位，原文未明确区分"
+        ]
+      },
+      {
+        "id": "book001-b000368-p000-ee59bdd64d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'不得绝无山'的确切含义是强调必须有山，还是指不能断绝山的存在，原文表述较为特殊"
+        ]
+      },
+      {
+        "id": "book001-b000375-p000-90f49a95ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'三吉平洋，三吉水来，朝平洋三吉'结构紧凑，candidate译为'三吉方位在平洋，三吉水来，朝向平洋的三吉方位'，将'朝平洋三吉'拆解为'朝向平洋的三吉方位'，改变了原文的并列/递进关系，可能导致含义偏差。",
+          "'此即有文有武之象'译为'这就是有文有武的象'，'象'译为'象'不够通俗，应为'景象'或'格局'，但此点可接受。主要问题在于对'朝平洋三吉'的释读不准确。"
+        ],
+        "uncertainty": [
+          "'外卫'具体指代何种山水护卫，原文未做详细说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 472,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1107,
+      "completion_tokens": 472,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

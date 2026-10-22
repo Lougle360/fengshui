@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T19:43:33.982282+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "049ac6d3a17226604a4caf9c46be525e51e4836221fed719c347c75a8d1d3bda",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001314-p000-3c58a462a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001316-p000-f5fda3ed77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“醜惠”被误译为“丑陋、吝啬”，“惠”无吝啬义，属于词义误释；原文“苕髮見童死不羞”被误译为“苕髮出现，孩童不知羞耻”，“死不羞”含义理解错误，与原文语义不符"
+        ],
+        "uncertainty": [
+          "苕髮具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001317-p000-ac120dc0b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001318-p000-ee7d5efd03",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“风水语境中的河流、水系及其来去形态”是“水”的释义，被错误加在“臨官方”之后，属于术语释义错配"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001319-p000-4cb88d6cb6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001320-p000-5d7d34d736",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“金穀克盈”被误译为“金谷充盈”，“克”字漏译未体现；原文“乏食貧寒怨上天”被误译为“怨天尤人”，扩大了原文语义范围，原文仅指埋怨上天"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001321-p000-e85f929e7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001322-p000-4fc102f0c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“玉虛傾”未译，存在漏译；原文“更晋情”被误译为“更要合乎情理”，“晋情”词义理解错误，无确定依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001323-p000-e870257ca4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001324-p000-1a5f6c5d0b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“池湖開蓄富春申”被简化译为“若池湖蓄满水，主富贵”，漏译“春申”相关内容；原文“欠年終年不了人”被误译为“年终也无法满足所需”，语义理解错误；原文“水來兗軍千里外”被误译为“主千里之外有军队”，“兗”字漏译，且无依据添加“主”的推断"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2214,
+    "completion_tokens": 876,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2214,
+      "completion_tokens": 876,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

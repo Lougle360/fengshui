@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T18:22:20.386710+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d39e682474b3a00c92645ec7318d91f24ed553b1c36b5c34f64954ed879a19c7",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001852-p000-55332992a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001855-p000-4068d1f242",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在断句混乱、文字讹误，候选句未修正原文的错误断句与文字，且将原文拆分的《象传》内容拼接错误，原文应为《象》曰：“无妄之药，不可试也”，对应译文为“不妄为而染疾却不须服用药物，是因为不能胡乱试用”，候选句语序颠倒，语义混乱"
+        ],
+        "uncertainty": [
+          "原文存在文字与断句错误，具体所指需结合《周易》原文进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1046,
+    "completion_tokens": 206,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1046,
+      "completion_tokens": 206,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

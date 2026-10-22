@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:59:48.279278+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "023b790c5f7ee9fc8acdbf31c594cd571f33dc96cd002dfdd0511f6d232d954b",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001022-p000-3f2024582c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "氈員的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001023-p000-61e9c95031",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文有缺字，缺字处为○"
+        ]
+      },
+      {
+        "id": "book014-b001024-p000-46f6e42586",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "特邦的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001025-p000-270b87ef91",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在假名混杂、断句混乱的情况，部分语句语义不明，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文存在假名混杂、断句混乱的情况，部分语句语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 261,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1290,
+      "completion_tokens": 261,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

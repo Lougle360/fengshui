@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-09-25T18:59:32.751103+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9b6ece3c9b335f650f196701c073d1b491fbe6518f230f6d156583cae60de413",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000452-p000-d9d8a4cc28",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“來忤逝刑戮須”短语语义残缺，无法准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000455-p000-1445429b68",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“說可地理散人卷二鑑水四十三”被错误释读为“分明就是劫余的说法，是可靠的。内容出自地理散人所著书卷二《鉴水》第四十三篇”，此处“說可”语义未明，不能直接释为“是可靠的”"
+        ],
+        "uncertainty": [
+          "煬北门、自兎桥为具体地名，具体位置不详",
+          "原文“說可”语义未明"
+        ]
+      },
+      {
+        "id": "book030-b000456-p000-a8824ec064",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“造朝水領可發”中“領”字疑似讹字，暂按“按理”的语义推导释读；“退神”为风水术语，具体含义未在文中说明"
+        ]
+      },
+      {
+        "id": "book030-b000458-p000-1c92dc6de0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“唐瑁”具体所指未在文中说明；“夸情目”语义不明；“須開”语义残缺，无法释读"
+        ]
+      },
+      {
+        "id": "book030-b000460-p000-c8e7f3928b",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“凡看斷會一地俱要苗忌舊地必有此方侯痛新地必有此必有此方爲眞地”一段多处语义残缺，“苗忌”“侯痛”具体含义不明，无法完整准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000461-p000-3bc082a50f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“铜饌”具体所指不详，暂保留原词"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2876,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2876,
+      "completion_tokens": 592,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

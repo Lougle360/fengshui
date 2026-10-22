@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T20:33:14.784877+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "24956e87c7bc707ed0268b3ff28787c415411b6082a19ddbbaf678aecf0d379c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003488-p000-1a0b973500",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“渐”后的上标①、“善俗”后的上标②在候选释读中未体现，属于原文标注的注释序号，释读时未遗漏核心含义，仅标注形式可补全序号以更贴合原文"
+        ]
+      },
+      {
+        "id": "book016-b003490-p000-82cb0b7a21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003491-p000-b1c08171d5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选释读中冯当可的说法“德行要靠逐渐积累才能养成，风俗要靠逐渐引导才能改善”属于超出原文的扩写，原文仅为“德以渐而积，俗以渐而善”，未提及“引导”相关内容，存在无依据扩写问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1487,
+    "completion_tokens": 267,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1487,
+      "completion_tokens": 267,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

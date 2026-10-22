@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T09:56:39.595712+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3aabb71179a62eb03e4f155993755e961ee8982fa86a83c228855c4cdb9a981b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000424-p000-ee8c746adb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘坡朐’释为‘粟子包在剌包、胡桃肉藏在坚壳中’后又标注‘具体所指不详’，存在表述矛盾；‘被胎’的释读未明确对应原文‘被胎如頑金孤罡之類不大開深取水則不可下全胎如桐子梏於葉上輕浮而胎全露保胎如蓮子氟於運房微露而半含胎中也’的结构，存在语义混淆；‘午鋪之龍’释为‘午方铺展的龙脉’未结合风水语境明确方位含义，属于无依据扩写；‘氟於運房’释为‘浮在运房’未明确‘氟’为‘浮’的通假，‘運房’含义未标注具体所指，属于误释；‘梏於葉上’释为‘挂在叶上’未明确‘梏’的含义，属于误释；‘坡朐’的释读未保留原文术语，属于术语误换；‘被胎’的释读将推测内容写成确定事实，属于无依据扩写；‘脫煞作宕’的释读未明确‘宕’的含义，属于含混短语未标注风险"
+        ],
+        "uncertainty": [
+          "坡朐的具体含义",
+          "被胎的具体含义",
+          "午鋪之龍的具体方位含义",
+          "運房的具体含义",
+          "梏於葉上的具体含义"
+        ]
+      },
+      {
+        "id": "book010-b000425-p000-b17eafea8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "登高作心的‘心’的具体所指"
+        ]
+      },
+      {
+        "id": "book010-b000426-p000-dd6d4185e0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘豈之’‘鄭若’的释读未明确标注为原文残损导致的无法释读，属于未按要求标注风险；‘天巧’的释读未明确‘天巧’为风水术语，属于术语误换；‘分龍虎’的释读未明确‘龍虎’为风水术语，属于术语误换；‘四山峻峭’的释读未明确‘四山’为风水术语，属于术语误换"
+        ],
+        "uncertainty": [
+          "豈之的具体含义",
+          "鄭若的具体所指",
+          "天巧的具体含义",
+          "龍虎的具体含义",
+          "四山的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1738,
+      "completion_tokens": 592,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-03T23:51:48.579260+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e93a0e218ab11f49702acd5caf34d2dad5e6d92c97f3230f661796f22667ce5e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000117-p000-9f7ab0a802",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘門八國八’的具体组合含义不详"
+        ]
+      },
+      {
+        "id": "book035-b000122-p000-e09107d61d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘山之區曰金之曰土曲曰 水頭員身聳曰在峭火行龍’这一整句描述五星山形的原文拆解并赋予了确定解释（如‘方正的称为金’），但原文本身存在断句和含义模糊之处，这种解释缺乏依据，属于无依据扩写。应保留原文的模糊性，或明确指出原文描述不清。",
+          "候选句将‘在峭火行龍’单独提出为‘短语’，但原文中它可能是描述‘火’形山的一部分，将其割裂处理可能造成误解。",
+          "‘五星千变百化’中的‘千’字，原文为‘干’，候选句直接改为‘千’而未作说明，属于未标注的改动。"
+        ],
+        "uncertainty": [
+          "‘山之區曰金之曰土曲曰 水頭員身聳曰在峭火行龍’整句的确切断句与含义",
+          "‘干變’是否为‘千變’的讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 927,
+    "completion_tokens": 296,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 927,
+      "completion_tokens": 296,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

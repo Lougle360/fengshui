@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T07:50:48.029927+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ce70a9d3182465a56dcd669749bf31ec472125918105e3b1f16291fff474081b",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000044-p000-e35d504e36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000045-p000-b93154bd47",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000046-p000-ea213be842",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000047-p000-8d9696ca8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在缺字，已按可见内容改写"
+        ]
+      },
+      {
+        "id": "book023-b000049-p000-fe6d1c15ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000050-p000-7b8220d756",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文'亦必池塘以止内气'释为'也必定要修筑池塘来留住内气'属于无依据增译，原文未提及'修筑'的动作；'金鱼'属于未被列入allowed_glossary的风水专名，候选将其直接作为普通词汇使用，未做歧义标注，不符合规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000051-p000-aec2e63480",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000052-p000-6cfc577da9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000053-p000-61b3267f8a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文'外气形横'释为'外气的形态横阔'属于无依据释义，'形横'在风水语境中指外气（水流）横亘的形态，并非'横阔'"
+        ],
+        "uncertainty": [
+          "原文存在换行错乱，已按语义整合改写"
+        ]
+      },
+      {
+        "id": "book023-b000055-p000-5b18e36867",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3222,
+    "completion_tokens": 706,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3222,
+      "completion_tokens": 804,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3222,
+      "completion_tokens": 706,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

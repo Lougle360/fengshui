@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-26T03:50:20.279764+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aedc36932208b2b34bf0ac190f8b4c327e3ce4605204db1f5b3516051d2a745d",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000075-p000-9b844df8fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "全文语序错乱，多数内容语义无法明确，无法完成连贯释读"
+        ]
+      },
+      {
+        "id": "book032-b000076-p000-29b7a1b3fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本为未断句的错乱歌诀，多数内容无法明确连贯语义"
+        ]
+      },
+      {
+        "id": "book032-b000078-p000-e75fc293da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“生尅須憑五布行”被误释为“生克的判断需要依据五行运行的规律”，此处应保留含混说明，不可直接确定是“五行”；原文末尾“發少”语义不明，直接释为“发迹的人数较少”属于无依据的确定解释"
+        ],
+        "uncertainty": [
+          "“五布行”具体所指不详，“發少”语义无法明确"
+        ]
+      },
+      {
+        "id": "book032-b000079-p000-b011e541ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000080-p000-c7d60c0edc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本语序错乱，多数内容无法明确连贯语义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2619,
+    "completion_tokens": 379,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2619,
+      "completion_tokens": 379,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

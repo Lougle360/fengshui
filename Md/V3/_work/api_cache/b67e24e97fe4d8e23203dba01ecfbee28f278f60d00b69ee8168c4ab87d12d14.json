@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-25T03:38:28.380079+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b67e24e97fe4d8e23203dba01ecfbee28f278f60d00b69ee8168c4ab87d12d14",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001172-p000-1149165c82",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中《诗》的引语均缺失末尾的双引号，candidate也未补全，格式存在疏漏",
+          "source中大富穴的描述为“要起顶端正”，candidate改写为“要顶端端正”，遗漏了“起”字，不符合原文意思，“起顶”是风水专业表述，不应省略",
+          "source中“点食指”原文表述存疑，candidate直接保留未标注，未说明该表述的不明晰之处",
+          "source中“主绝灭”被candidate改写为“主家族绝后”，属于无依据增译，原文未明确限定为家族绝后，仅表述为绝灭，不应自行添加限定范围"
+        ],
+        "uncertainty": [
+          "“点食指”具体所指原文未明，无法确认是否为讹字或特定术语"
+        ]
+      },
+      {
+        "id": "book018-b001174-p000-306f357447",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2136,
+    "completion_tokens": 337,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2136,
+      "completion_tokens": 337,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

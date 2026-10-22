@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:40:43.034062+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "32f19878f2f5aa40deee48662e2a989358c1391bf81d5bc287d177950589dc8e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003011-p000-fbe26bfc36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003012-p000-cda93458bc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将allowed_glossary中定义为建筑或穴位所朝方位的术语“向”，在译文中未按指定释义处理，直接译为“向上”，属于专业术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003013-p000-388e00fbba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003014-p000-02e5a5156c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1688,
+    "completion_tokens": 234,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1688,
+      "completion_tokens": 234,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

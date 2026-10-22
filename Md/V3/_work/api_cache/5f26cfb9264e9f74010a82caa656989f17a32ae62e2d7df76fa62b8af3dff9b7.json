@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T07:09:18.802088+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5f26cfb9264e9f74010a82caa656989f17a32ae62e2d7df76fa62b8af3dff9b7",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000138-p000-07d1dbcc4d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为‘正为挨过七壬，则正壬之气斜斜贯耳，正气为无亏矣’，意思是正气没有亏损，候选释读写为‘正气就会亏损了’，语义完全相反。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000139-p000-108085e76d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000140-p000-d12bdde220",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾残缺，内容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2284,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2284,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

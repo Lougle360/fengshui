@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T08:39:43.207063+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3835d19ec931049addee674156478979ee9dcb4620b852e0b16b016b487ebfe7",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000234-p000-1e597e21cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中不确定的‘茲言出服’‘聞之無氣時六不員’等内容错误解读为确定的事实，违背了原文的不确定性表述，且对‘鬼’的释读未明确为风水语境中的相关专名，存在误释风险"
+        ],
+        "uncertainty": [
+          "原文中‘春鄴穴’‘聞之無氣時六不員’‘茲言出服’‘東出脈’‘鬼金水水火土’‘四九三十六鬼’‘孝順兩設’‘鬼山奇里’等内容含义不明，候选释读未标注这些不确定性，且将不确定内容当作确定事实解读"
+        ]
+      },
+      {
+        "id": "book008-b000235-p000-6d0625eca4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘十流不双’‘一员4’‘倣合非合’‘草服’‘单非宜’‘面人’‘误谒伏’‘三小六’‘端巧赠贵’‘蠢长’‘卷之下元’等含义不明的内容直接保留为原文引用，未明确标注其含义不明，且部分语句释读不通顺，存在语义混乱"
+        ],
+        "uncertainty": [
+          "原文中‘十流不双’‘一员4’‘倣合非合’‘草服’‘单非宜’‘面人’‘误谒伏’‘三小六’‘端巧赠贵’‘蠢长’‘卷之下元’等内容含义不明，候选释读未标注这些不确定性"
+        ]
+      },
+      {
+        "id": "book008-b000236-p000-517dab0ed3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘鬼教以民傳’‘遺玉尺’‘四暨’‘日闕’‘叔’‘二樂山’‘字锟合屬一獸’‘非辭論崩者’等含义不明的内容直接保留为原文引用，未明确标注其含义不明，且部分语句释读不通顺，存在语义混乱"
+        ],
+        "uncertainty": [
+          "原文中‘鬼教以民傳’‘遺玉尺’‘四暨’‘日闕’‘叔’‘二樂山’‘字锟合屬一獸’‘非辭論崩者’等内容含义不明，候选释读未标注这些不确定性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2841,
+    "completion_tokens": 580,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2841,
+      "completion_tokens": 580,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

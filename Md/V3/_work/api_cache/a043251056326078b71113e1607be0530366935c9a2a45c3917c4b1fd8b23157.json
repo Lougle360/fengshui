@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T06:22:24.205982+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a043251056326078b71113e1607be0530366935c9a2a45c3917c4b1fd8b23157",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000058-p000-a8fb0e96a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000059-p000-dc09ac539f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“水”的释义仅适用于作为独立风水术语的“水”，此处“五星不离水土体”的“水”是五星体系内的术语，不能擅自套用该释义；“离”在原文中是“离开、脱离”的普通动词含义，并非指八卦的“离”，误用allowed_glossary中的术语解释；“土星不作倚，五星皆有撞”的释读属于无依据增译，原文“作倚”“有撞”均未明确是“作倚星”“有撞星”，将动宾结构擅自解读为专有星名，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原文“倚”“撞”“益”“黏”的具体风水操作或形峦所指尚不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1515,
+    "completion_tokens": 262,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1515,
+      "completion_tokens": 262,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

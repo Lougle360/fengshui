@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-24T07:03:43.315946+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "13a9e4094cdc87de47665a6606825a0fe86cfc64c74a127ec958b6cd18db6f4c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000015-p000-7563290362",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“撥州新水文千卷”具体所指不详",
+          "“歎看左右脚”中“歎”为疑似讹字，短语含义不明",
+          "“三陽看城抑”中“抑”字含义不明，短语含义不明",
+          "“審寬之”具体含义不详"
+        ]
+      },
+      {
+        "id": "book010-b000016-p000-dd58e37f27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000018-p000-80d4993016",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "writer_uncertainty中错误加入了当前原文不存在的内容“‘三陽看城抑’中‘抑’字含义不明，短语含义不明”，属于冗余错误"
+        ],
+        "uncertainty": [
+          "“龍要有夾從只從龍身重”具体含义不详",
+          "“秋”疑似为“砂”的讹误，无法完全确定"
+        ]
+      },
+      {
+        "id": "book010-b000020-p000-fd6f4a3946",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“秋”疑似为“砂”的讹误，无法完全确定",
+          "“秋無本名不朋”中“朋”的含义不详"
+        ]
+      },
+      {
+        "id": "book010-b000021-p000-a0bccb96b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000022-p000-f13c1dc3e8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“充鳥”具体含义不详",
+          "“秋”疑似为“砂”的讹误，无法完全确定",
+          "“防送重”具体含义不详",
+          "“遞戴八風”具体含义不详",
+          "“以好有堆有探”中“以”疑似为“砂”的讹误，短语含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000023-p000-d1e859fc84",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000024-p000-ea7e67301a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“秋”疑似为“砂”的讹误，无法完全确定",
+          "“富秋所櫃倉庫”具体含义不详",
+          "“富水朝灣覆土”具体含义不详"
+        ]
+      },
+      {
+        "id": "book010-b000025-p000-16b2bc3714",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3037,
+    "completion_tokens": 708,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3037,
+      "completion_tokens": 708,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

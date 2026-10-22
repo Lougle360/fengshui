@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T22:49:40.714029+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "debbb58583840379c6fbae063fea495d01c59df9ce1d9c1d0c3f850a8b8a0382",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004165-p000-4086af606c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译了对“未济征凶”的释义内容：“事未成急于进取必有凶险”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004166-p000-689699f85f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004167-p000-c57042c557",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004168-p000-3abf22bd59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004169-p000-bd79b1e092",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004170-p000-b538a33498",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004171-p000-c6c538e08d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原作为爻辞后的《象》传原文标题，完整内容是“《象》曰：“贞吉悔亡”，志行也。”，候选改写为抽象解释，未保留原文完整标题内容，违反kind=toc/heading时的核对要求，不得摘要化"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004172-p000-31e56701bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004173-p000-3f59db6bc1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004174-p000-8319e8c40c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原作为爻辞原文标题，保留了标号和脚注标记“## 六五，贞吉，无悔；君子之光，有孚吉①”，候选未保留标题格式与原文结构，改为释义内容，违反heading类核对要求，不得摘要化或替换原文标题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2358,
+    "completion_tokens": 714,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2358,
+      "completion_tokens": 714,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

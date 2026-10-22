@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-25T21:45:54.176190+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bc193c362c7185acea56881f00b4128a3581c01c8a411b062a3d01bec86039a1",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b001088-p000-c31d9f158d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“總不外葬乘生氣馬認來龍八個字”被误写为“葬乘生气、认脉来龙”，存在字序错误，应为“葬乘生气、认来龙”。",
+          "2. 原文“此皆仙試可地理救人卷四點穴七十三”断句错误，被拆分为“这些都是前代堪舆家的经验。《地理救人》卷四‘点穴七十三’记载”，原文“仙試可”含义未明确标注，直接释为“前代堪舆家的经验”属于无依据释读。",
+          "3. 原文“六塲一定便移動半步不得”中的“六塲”被误释为“六个方位”，属于无依据的确定解释，该词未在允许术语表中，不应直接认定为方位。"
+        ],
+        "uncertainty": [
+          "原文“塟彬雖高發甚遲”中“塟彬”为疑似讹误，具体所指不详",
+          "“六終”为段落卷次结束标识，具体对应卷次划分仅据原文标注推断",
+          "原文“仙試可”语义不明，无权威释读依据",
+          "原文“六塲”具体所指不详，无依据认定为“六个方位”"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1715,
+    "completion_tokens": 333,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1715,
+      "completion_tokens": 333,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

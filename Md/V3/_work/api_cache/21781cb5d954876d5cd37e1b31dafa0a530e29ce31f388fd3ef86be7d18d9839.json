@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:44:28.567276+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "21781cb5d954876d5cd37e1b31dafa0a530e29ce31f388fd3ef86be7d18d9839",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000246-p000-9cad1a5b83",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处残缺、OCR识别错乱的内容，如‘八下’‘面已’‘堂秒’‘院’‘u三’‘烟花’‘我起谁树游储铁征’‘三十月将带’‘全面印’等，候选释读中对部分错乱内容的处理未明确标注，且存在将原文残缺处补写为确定内容的情况，如‘有……’‘……’等，不符合保守释读要求"
+        ],
+        "uncertainty": [
+          "原文多处残缺、OCR识别错乱的内容具体含义无法确定，候选释读中对这些内容的处理未明确说明，存在将不确定内容按确定内容释读的问题"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4235,
+    "completion_tokens": 192,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4235,
+      "completion_tokens": 192,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

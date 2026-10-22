@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-04T03:40:52.436216+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "6a7c054e6c8b91c59dd5e89e37f96fe800efdd1b5d7914f1dd94cc40b396bc06",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000541-p000-9223f556fe",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "原文字迹模糊且存在严重错乱，无法准确辨识其具体含义。其中可见“腾奔”“气云”“济环”“爱象”“气溺”“阴园”“四象”“氮氤”“阁四”等词，但组合关系不明，具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量疑似 OCR 识别错误，导致语义不通，无法进行有效白话释读。"
+        ]
+      },
+      {
+        "id": "book028-b000542-p000-610ed969cc",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "原文部分段落尚可辨识，但整体存在严重错乱。可辨识部分大意如下：土气被堵塞，廓气为空，火气被烧；纯气制变，封气弥漫，气障如火焰，嘘气灼热。四象之气如花蕾般牵引隐伏，四象之气如雾云般笼罩园囿。木气在春季繁荣，则交气发生；一变制纯，则化气发生。木气在春季繁荣，则嘘气必然旺盛；嘘气旺盛，则旋转周身不远。但原文中“塞廓土四空烧火四”“纯制变一纯制变”“封弥气障焰嘘气灼”等句存在严重语序混乱或字词错乱，具体所指不详。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处疑似 OCR 识别错误，导致部分句子语序混乱、字词不通，无法完全准确释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 472,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1237,
+      "completion_tokens": 472,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

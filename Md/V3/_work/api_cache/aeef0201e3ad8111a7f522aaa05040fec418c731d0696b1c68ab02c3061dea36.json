@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T12:14:28.619536+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "aeef0201e3ad8111a7f522aaa05040fec418c731d0696b1c68ab02c3061dea36",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000515-p000-85c75fd069",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的推测性表述\"故能卽变\"\"故须转凌\"释为确定的因果关系，属于把推测写成事实，违反释读规则"
+        ],
+        "uncertainty": [
+          "原文\"故能卽变\"\"故须转凌\"含义未明，释读时应明确标注具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000519-p000-50346cc0cd",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文\"畢在上弦卽靠上弦窩中又有層\"语义含混，无法形成准确的现代中文释读"
+        ],
+        "uncertainty": [
+          "原文\"畢在上弦卽靠上弦窩中又有層\"具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 221,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1135,
+      "completion_tokens": 221,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

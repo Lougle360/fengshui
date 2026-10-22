@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T12:21:41.793003+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c3c4ad879134a08b36410ad11d0da269f8244c0ef49b6292bffca3ce9aadb475",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000625-p000-b0bf64a24c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000626-p000-5d01702a6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000630-p000-9a682713a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000632-p000-1220539dee",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中\"其中必程\"语义残缺，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1589,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-26T04:19:01.349211+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ee6ed39e1a3bff486660662f22a9d22ae21af0dbb13ac49942271f19b1728ccf",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002187-p000-bf106fbcfd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文‘結平地腰間塟後全家白日飛昇鷄大同之’的归属错误，该内容属于歙县中塘洪梁竭内的方府尹祖地，释读中错误地将‘全家白日飞升’等内容与方府尹祖地关联的同时，未注意原文表格排版中‘科第二人’是方府尹祖地的后续结果，‘结平地腰间塟后全家白日飞升鸡大同之’属于另一处地的内容，存在信息归属混淆",
+          "原文‘歙縣烟村渡頭丙向出進士四五人’，释读错误将‘丙向’归入口诀内容，实际上歙县烟村渡头的地朝向是丙向，并非亥向，存在方位信息错配",
+          "原文‘草裏明珠形童德彰公扦’对应的地是方中宪的祖地，释读将其单独列为另一处地，归属错误"
+        ],
+        "uncertainty": [
+          "方中宪祖地相关记录末尾的“米”字具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b002202-p000-81677b0774",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002204-p000-ddd6b2fe31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1983,
+    "completion_tokens": 450,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1983,
+      "completion_tokens": 450,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

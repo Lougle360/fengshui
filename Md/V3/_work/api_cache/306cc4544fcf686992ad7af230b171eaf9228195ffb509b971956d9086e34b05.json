@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-17T09:41:22.617892+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "306cc4544fcf686992ad7af230b171eaf9228195ffb509b971956d9086e34b05",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003213-p000-3543143800",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“赫文”具体所指不详。",
+          "“照龙”与“照局向”的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b003217-p000-0e765022b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“陶雲當面朝入子孫貪寒無龍亦不吉”一句，candidate 将“陶雲”释读为“陶侃（或风水师陶某）说”，并拆分为两句。原文中“陶雲”可能指代一位风水师（如陶侃或陶某），但 candidate 将“陶雲”与“陶氏雲”混同处理，且将“當面朝入子孫貪寒無龍亦不吉”这一整句拆解并加入了推测性解释（“若无龙也是不吉”），这属于将不确定的断句和解释写成了确定事实。应保留原文的模糊性，仅说明“陶雲”所指不详，并将该句作为整体引用。",
+          "“徼福”释读为“求取福气”可以接受，但 candidate 在“陶氏雲”处再次推测为“陶侃（或风水师陶某）”，属于无依据的扩写。",
+          "“姑載付放”释读为“暂且记载并放置一旁存疑”基本准确，但 candidate 将“徐雲”推测为“徐侃（或风水师徐某）”，同样属于无依据的扩写。"
+        ],
+        "uncertainty": [
+          "“陶雲”具体所指不详。",
+          "“陶氏雲”具体所指不详。",
+          "“徐雲”具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1534,
+    "completion_tokens": 443,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1534,
+      "completion_tokens": 443,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

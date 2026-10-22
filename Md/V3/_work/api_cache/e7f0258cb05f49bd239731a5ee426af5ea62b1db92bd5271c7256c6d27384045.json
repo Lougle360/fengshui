@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T20:05:14.657941+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e7f0258cb05f49bd239731a5ee426af5ea62b1db92bd5271c7256c6d27384045",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003244-p000-c600cf4016",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“水火相息”的“息”存在“生长”“熄灭”两种不同解释，释文采用了其中一种，另一种解释未提及"
+        ]
+      },
+      {
+        "id": "book016-b003245-p000-7702688097",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1441,
+    "completion_tokens": 135,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1441,
+      "completion_tokens": 135,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

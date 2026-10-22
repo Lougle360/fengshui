@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-09-23T11:50:10.949726+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c6fb1abdb9af8f68eb431a70438c9d18d6d013ef73034c30d66abf1c17c3c697",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000344-p000-9ec044e56f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'糊而小者爲席帽'，candidate译为'糊而小者爲席帽'，未将'糊'字进行释读，可能导致现代读者不解。",
+          "原文'交秀砂名覆鐘'，candidate译为'但比大武金多了一份交秀，稱為覆鐘'，将'交秀'作为形容词增译，但'交秀'本身是术语，应保留原样并标注不确定性，或按allowed_glossary处理。此处未在allowed_glossary中，应视为opaque_term。",
+          "原文'哦曲'，candidate译为'哦曲'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'漲天水星'，candidate译为'漲天水星'，未释读，但已在uncertainty中标注，可接受。"
+        ],
+        "uncertainty": [
+          "哦曲",
+          "糊而小者",
+          "交秀砂",
+          "漲天水星"
+        ]
+      },
+      {
+        "id": "book002-b000345-p000-23daf2644b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'七五星砂體形象明然'，candidate译为'七五星砂的體形象明顯'，将'七五星'作为专名保留，但未标注不确定性。",
+          "原文'出龍結地'，candidate译为'山龍結地'，将'出'改为'山'，属于无依据的改动。应保留'出龍結地'并标注不确定性。",
+          "原文'平泮龍結地'，candidate译为'平泮龍結地'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'專卒洋之砂'，candidate译为'專見平洋之砂'，将'卒'改为'見'，属于无依据的改动。应保留'專卒洋之砂'并标注不确定性。",
+          "原文'房分均句'，candidate译为'房分均勻'，将'句'改为'勻'，属于无依据的改动。应保留'房分均句'并标注不确定性。"
+        ],
+        "uncertainty": [
+          "七五星",
+          "出龍結地",
+          "平泮龍",
+          "專卒洋",
+          "房分均句"
+        ]
+      },
+      {
+        "id": "book002-b000351-p000-f7b524ace0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'石與本者'，candidate译为'石與泥'，将'本'改为'泥'，属于无依据的改动。应保留'石與本'并标注不确定性。",
+          "原文'龍免穴的之原'，candidate译为'龍與穴的根源'，将'免'改为'與'，属于无依据的改动。应保留'龍免穴的'并标注不确定性。",
+          "原文'午法未詳'，candidate译为'法術未詳'，将'午法'改为'法術'，属于无依据的改动。应保留'午法'并标注不确定性。",
+          "原文'將大地去之也'，candidate译为'將大地棄之'，将'去'释为'棄'，可以接受。但'將大地去之'整体已在uncertainty中标注。",
+          "原文'將上色以誰人'，candidate译为'將上色隨意給人'，将'以誰人'释为'隨意給人'，属于推测性释读，应保留原短语并标注不确定性。",
+          "原文'擇地無也'，candidate译为'擇地無他法'，将'無也'释为'無他法'，可以接受。"
+        ],
+        "uncertainty": [
+          "石與本",
+          "龍免穴的",
+          "午法",
+          "將大地去之",
+          "將上色以誰人",
+          "擇地無也"
+        ]
+      },
+      {
+        "id": "book002-b000352-p000-9327e2e750",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'紗冲納彼'，candidate译为'紗沖納彼'，并标注'具体所指不详'，处理得当。",
+          "原文'生不正同止'，candidate译为'生不正同止'，并标注'具体所指不详'，处理得当。",
+          "原文'七五星砂體形象明然'，candidate在uncertainty中列出，但本段source无此句，可能是误植。本段source为'七'，是页码标记，candidate未包含，但页码标记在释读中通常可省略。",
+          "candidate将source中的日文假名'おろ言'译为'略言'，属于合理的推测性释读，但未标注不确定性。鉴于这是日文，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "おろ言"
+        ]
+      },
+      {
+        "id": "book002-b000353-p000-9e6706a5ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'及旺兩旺高明過一生'，candidate译为'及旺兩旺，高明過一生'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'渺煞見買鳩絕洩氣便消零'，candidate译为'渺煞見買鳩絕，洩氣便消零'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'智秋武有烛謝郁弢腰祿猶可朝柏子平云'，candidate译为'智秋武有烛謝郁弢腰祿猶可朝柏子平云，具體所指不详'，处理得当。",
+          "原文'纖則畝命'，candidate译为'纖則畝命'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'撥砂全在氏生剋御化'，candidate译为'撥砂全在氏生剋御化'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'宿妹魂社金星高聳爲七煞'，candidate译为'宿妹魂社金星高聳爲七煞'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'禮出師顧帽'，candidate译为'禮出師顧帽'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'數段仙餉唑隆伏傳繹原取織'，candidate译为'數段仙餉唑隆伏傳繹，原取織，具體所指不详'，处理得当。",
+          "原文'州二字是砂中之形'，candidate译为'州二字是砂中之形'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'醫居火位'，candidate译为'醫居火位'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'財毗經他方'，candidate译为'財毗經他方'，未释读，但已在uncertainty中标注，可接受。",
+          "原文'很產翰苑科甲政市'，candidate译为'很產翰苑科甲政市'，未释读，但已在uncertainty中标注，可接受。",
+          "candidate将source中的'止也砂太陽金水尙書侍從'译为'止也。砂太陽金水尙書侍從'，断句和保留原样处理得当。",
+          "candidate将source中的'火祖'译为'火祖'，保留原样，但未标注不确定性。",
+          "candidate将source中的'訣工詩賦善字畫'译为'訣工詩賦善字畫'，保留原样，但未标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5150,
+    "completion_tokens": 2601,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5150,
+      "completion_tokens": 2601,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

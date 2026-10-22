@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-18T04:07:20.667400+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cf0dc7296116b8a07a530f403388eccdd1fa069353f4264ef1cce843bffb9b0f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005366-p000-b3c04a4fc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文表格中的诗诀文字存在大量错乱、难以通读，可能为OCR错误或原文损坏。候选句仅描述了表格结构、标题和诗诀文字的排列，未对这些混乱文字进行错误解读，符合要求。",
+          "候选句正确标注了‘形蘭出不牛寒’、‘形骸象眼’、‘形車莞牛黄’、‘形象騎人仙’等短语‘具体所指不详’，处理得当。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2958,
+    "completion_tokens": 161,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2958,
+      "completion_tokens": 161,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

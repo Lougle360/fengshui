@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T23:27:42.909069+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d8d054f9f8376c01ef32c18528f3bd1b93718d847f0bd1b5b4c5406810f56fc5",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001171-p000-bfa783d0d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整句语义无法明确"
+        ]
+      },
+      {
+        "id": "book017-b001177-p000-921b816f6d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文的“罷”字未作释读，直接将“中口罷星”处理为“中口位置有星”缺乏依据，属于无依据推定含义",
+          "未明确标注“中口罷星”“大保屯半落头”属于语义不明内容，却将其融入确定释读表述，不符合含混内容的标注要求"
+        ],
+        "uncertainty": [
+          "“中口罢星”“大保屯半落头”的具体所指无法完全确定"
+        ]
+      },
+      {
+        "id": "book017-b001180-p000-40a5243cfb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“以星久龍由星主行”被释读为“以星作为龙的参照，龙脉的运行由星来主导”，其中“久龍”未得到合理解释，属于无依据调整原文语义进行释读"
+        ],
+        "uncertainty": [
+          "原文末尾“小星大、土、生形之方圗弟形伏也”表述模糊，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 341,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1028,
+      "completion_tokens": 341,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

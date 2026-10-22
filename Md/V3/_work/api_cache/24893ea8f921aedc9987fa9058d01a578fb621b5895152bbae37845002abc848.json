@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:03:03.814401+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "24893ea8f921aedc9987fa9058d01a578fb621b5895152bbae37845002abc848",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000111-p000-0e385e4f83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "部分文字存在OCR识别错乱情况，如“蓋爵下平地”“平無巳羔以”“有鄭”“非止有如”“國地”“月魄”“周師”“百第入”“國”“陰囊”“啖頸”“國”等，具体所指不详"
+        ],
+        "uncertainty": [
+          "部分文字存在OCR识别错乱情况，如“蓋爵下平地”“平無巳羔以”“有鄭”“非止有如”“國地”“月魄”“周師”“百第入”“國”“陰囊”“啖頸”“國”等，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3856,
+    "completion_tokens": 198,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3856,
+      "completion_tokens": 198,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

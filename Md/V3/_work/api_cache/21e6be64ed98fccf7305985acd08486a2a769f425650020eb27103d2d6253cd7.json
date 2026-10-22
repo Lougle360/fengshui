@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:27:24.574291+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "21e6be64ed98fccf7305985acd08486a2a769f425650020eb27103d2d6253cd7",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000307-p000-75ca1b58ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000308-p000-f0cc80170c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000309-p000-673b52b8de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000310-p000-475f4755e9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「墜者以墮為萊息象」的「萊」为OCR错误，candidate误释为「墮落之義」，与原文含义不符；「南井」应为「金井」的讹误，candidate未修正该错误"
+        ],
+        "uncertainty": [
+          "旺尤、紫微的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1527,
+    "completion_tokens": 268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1527,
+      "completion_tokens": 268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

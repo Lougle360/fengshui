@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-10-17T15:09:14.040143+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "140df746f124201eeac51a6a49d2262301970ddf0809eadef70d91d0bf177665",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003921-p000-e157ca17c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文表格中“全”字及数字“3”未在译文中体现。",
+          "2. 漏译：原文表格中关于“鳖裙官星”的整段内容（从“鳖”到“守臣”）未翻译。",
+          "3. 增译：译文末尾“文中还提到数字3”是总结性陈述，原文表格结构并未如此表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003922-p000-f4ad962f51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 反义/误译：原文“监司容易至以犁尖目之则短小可知惟其短小故止于卿監”，译文为“监司容易做到，以犁尖目之则短小可知，惟其短小，故止于卿监。”此处逻辑矛盾。原文意思是：因为形状短小（像犁尖），所以官位止于“卿监”；而“监司”是“容易至”的。译文“监司容易做到”与“故止于卿监”形成矛盾。应调整语序或逻辑表述，明确“监司”是较低/容易达到的职位，而“卿监”是因其短小而能达到的上限。",
+          "2. 专业术语误换/混淆：原文“監同科第興總蔭併珩乃瀧壯館不繩使”，译文处理为“监同科第兴总荫，并珩乃泷壮馆不绳使。”这未能将混乱的原文（可能含OCR错误）转换为可理解的现代中文，只是机械拼接。根据规则，对于OCR损坏部分，应明确标注其不可释读，而非强行翻译。",
+          "3. 专业术语误换/混淆：原文“或雲凡犂尖及乃槍更類不宜在祐泚銳排是只當看瞰拾濟證如何”，译文处理为“或云：凡犁尖及乃枪更类，不宜在祐泚锐排，是只当看瞰拾济证如何。”同样，未能处理OCR混乱部分（“祐泚锐排”、“瞰拾济证”），只是照搬。应指出这些短语具体所指不详。",
+          "4. 漏译：原文“彪頭上出反平而穴中見及射向穴者凶耳宮星不見者無害”未完整翻译。译文只到“官星不见者无害”，但遗漏了“彪頭上出反平而穴中見及射向穴者凶耳”这一重要条件句。",
+          "5. 数字/干支/卦象/方位变化：原文“十六官星出員阜”，译文为“第十六官星出员阜。”正确。但后续“右圆阜官星”中的“右”是方位词，译文处理为“右圆阜官星”，可以接受，但需注意这是对表格布局的描述。",
+          "6. 专业术语误换/混淆：原文“員阜小而肥低不平夷不可爲員月高無廉隅肉好不可爲壁”，译文为“员阜小而肥，低不平夷，不可为员月。高无廉隅，肉好不可为壁。”其中“员月”应为“圆月”或“满月”之误（根据上下文“满月员壁”），但作为opaque_terms处理，可以保留。"
+        ]
+      },
+      {
+        "id": "book035-b003923-p000-6557639b42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003924-p000-c2a166ffab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003925-p000-207c9b385a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 专业术语误换/混淆：原文“監司節銅龍氣貴進領内”，译文“监司节度，龙气贵进，领内”。将“节铜”改为“节度”是推测，且未标注不确定性。根据规则，对于疑似OCR错误但无法确证的，应保留原词或明确标注推测。此处应指出“节铜”可能为“节度”之误，但不确定。“领内”译文未加说明，直接保留，可以接受，但最好标注语意不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003926-p000-af3894f87f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003927-p000-560f1ecf1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003928-p000-a51863a3a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003929-p000-d4b84126cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3223,
+    "completion_tokens": 1198,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3223,
+      "completion_tokens": 1198,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

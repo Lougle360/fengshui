@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-25T17:45:37.765101+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dc42559ac8bb6270e575c9b70e4c309dcec330eb726dbefa94257dcac7d7c259",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000122-p000-eadc99e666",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "南细黎详具体所指不详",
+          "轩昴的具体风水含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000125-p000-dd92709e73",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "峰腰鹤盐具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000129-p000-8fc9ac9111",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“福無量”被误断为“福無此記”，candidate释为“福气无量”且后续错误补出“作记的人是伯”，属于对原文断句错误导致的语义偏差"
+        ],
+        "uncertainty": [
+          "谨平卯具体所指不详",
+          "号薄从事的准确含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000130-p000-ae50243d1f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "薩顏不悔具体所指不详",
+          "去則于此養成體局语义矛盾，具体含义不明",
+          "峽申之脉也具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000132-p000-0199953341",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "天狐天用、無親具体所指不详",
+          "牧喜、包幾具体含义不明",
+          "包爨具体含义不明",
+          "井數恢具体所指不详",
+          "點文了、丐了具体含义不明",
+          "陷石脊至高低句语义模糊，具体含义不详",
+          "好武去宋間可地崛敖人具体所指不详",
+          "樂久首、水胡具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3727,
+    "completion_tokens": 507,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3727,
+      "completion_tokens": 507,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:03:31.577695+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d7b1bb038767cb09b08bf392a4e1c591d957c53033a56b172558818ba8679221",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000132-p000-f1156ad1e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000133-p000-49bd912783",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000134-p000-bfd1465fd5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘九个星辰史变位’释读为‘九个星辰还有变位’，‘史’字未明确释读，存在漏释风险；‘燮臂’‘平腦’等术语未按要求保留为‘燮臂’‘平腦’，被赋予了确定含义，不符合术语处理规则；‘思謠’‘金精’等专名未明确标注具体所指，存在将不确定解释写成确定事实的问题；‘拨砂’未按allowed_glossary释义，存在术语误换风险。"
+        ],
+        "uncertainty": [
+          "原文中‘史变位’具体所指不详；‘思謠’‘金精’等专名具体所指不详。"
+        ]
+      },
+      {
+        "id": "book010-b000135-p000-3858f35c08",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘校脚’‘直剥’‘思謠’等术语未按要求保留，被赋予确定含义，不符合术语处理规则；‘校脚’‘直剥’‘思謠’等专名具体所指未明确标注，存在将不确定解释写成确定事实的问题；‘山家’未按allowed_glossary释义，存在术语误换风险。"
+        ],
+        "uncertainty": [
+          "原文中‘校脚’‘直剥’‘思謠’等专名具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 445,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2077,
+      "completion_tokens": 445,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

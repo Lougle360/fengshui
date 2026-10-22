@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T20:21:45.388916+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0b7dc694ee4bee36cd93defb0324ba37a295f616ce534576e22fdf73c656626d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003337-p000-77fe19d95b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003338-p000-90c214791f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《尚氏学》中“及于刑辟”释为“获罪受刑”，属于无依据的扩写，原文仅提及该说法可通，未明确九四实际获罪受刑；将“马王堆帛书本《周易》”简化为“帛书本《周易》”，虽不影响核心含义，但未完全保留原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003339-p000-27fb66da00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003340-p000-8a13cf8576",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2145,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2145,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

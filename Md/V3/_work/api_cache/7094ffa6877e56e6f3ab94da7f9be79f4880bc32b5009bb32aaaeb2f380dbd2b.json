@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T21:03:30.670077+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7094ffa6877e56e6f3ab94da7f9be79f4880bc32b5009bb32aaaeb2f380dbd2b",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000131-p000-88de23a683",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“分天八卦”为“先天八卦”形近讹误，释读错误；原文“阴阳柳生”是“阴阳相生”形近讹误，candidate写为“阴阳滋生”属于误读；原文“阳以相”存在残缺，candidate直接补为“阳用来辅助”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文“阳以相”表述残缺，具体含义未明"
+        ]
+      },
+      {
+        "id": "book017-b000133-p000-9ba9295053",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“旦可付有之之氣”存在讹误残缺，candidate释为“旦时就会具备这种气”属于无依据增译；原文“負內先天旺氣”残缺，candidate释为“背负内的先天旺气”语义不通，属于无依据释读"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺讹误，“旦可付有之之氣”“負內先天旺氣”具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000134-p000-584efbf583",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文多处文字残缺、语义混乱，candidate多处释读无依据：原文“物生物齊之用勇獨由之力生戮日化治者”语义不明，candidate释为“具备阴阳事物滋生的功用，唯独由力量产生，戮日化治的人”属于无依据臆测"
+        ],
+        "uncertainty": [
+          "原文残缺错乱严重，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b000135-p000-e0045bbfa7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000136-p000-de987f06c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000137-p000-ed16c2cbc7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“氣仍於地形產於天”断句错误，candidate释为“气仍在地形中产生于天”语义不通；原文“以立人已”存在讹误，candidate释为“以此确立人已有的相关内容”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文存在残缺讹误，“氣仍於地形產於天”“以立人已”具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000139-p000-76041519e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“於地成象谷五行”的“谷”为讹字，candidate直接释为“五行”属于漏注讹误；原文“星宿有奉，山川众有书”candidate释为“星宿有奉守，山川有众多事物”属于无依据增译；原文“立都立巴八立城立卿立室立y協言空之此子由星伯以庶天”存在大量残缺错乱，candidate释为“确立建都、立城、立室等事宜，协调相关内容，这是由星象对应天”属于无依据臆测"
+        ],
+        "uncertainty": [
+          "原文多处残缺错乱，无法准确解读完整语义"
+        ]
+      },
+      {
+        "id": "book017-b000140-p000-ba0940c676",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“少西掖”语义不明，candidate直接保留未做标注；原文“立方照曰極四七句經王德曾終，圍斡坤與垂光乾紀，七路握機流迪終路”存在大量错乱，candidate直接照搬原文未标注不确定性，不符合通俗释读要求"
+        ],
+        "uncertainty": [
+          "原文多处文字残缺、错乱，“少西掖”“立方照曰極四七句經王德曾終”等内容语义不明"
+        ]
+      },
+      {
+        "id": "book017-b000141-p000-84fabe6a0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000143-p000-cdd5599d8f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“東日天市語，医為少微垣”存在讹误，candidate释为“东边是天市，西边是少微垣”属于无依据臆改；原文“北曾此嘗徹垣訾徽面南故分君象二南曾大臣朝拱業微此即斗諸之用”存在大量错乱，candidate释为“北边是彻垣。面南所以分君象，二南是大臣朝拱，这就是斗诸的功用”属于无依据释读；原文“女民、历少微为士”存在讹误，candidate释为“东天市对应民众，少微对应士”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文多处文字残缺、错乱，语义衔接不畅，部分内容无法准确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2405,
+    "completion_tokens": 1307,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2405,
+      "completion_tokens": 1307,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

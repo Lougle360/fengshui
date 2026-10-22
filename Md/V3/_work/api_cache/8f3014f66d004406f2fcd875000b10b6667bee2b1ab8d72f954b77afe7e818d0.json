@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T08:58:54.911147+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8f3014f66d004406f2fcd875000b10b6667bee2b1ab8d72f954b77afe7e818d0",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000100-p000-369d8e60d0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“罗纹土宿歌”“鲁捉脉赋”“廖氏”“吴若”等未明确身份的专名随意添加释读，属于无依据扩写；将“伪梏”误释为“伪梏”（原文应为“伪梏”？不，原文是“伪梏”，候选译“伪梏”，但“伪梏”应为“伪梏”？不对，原文是“祗属偽梏矣”，候选译“只属于伪梏”，但“伪梏”应为“伪梏”，不过主要问题是将“罗纹土宿歌”等未明确的专名添加了无依据的释读，如“罗纹土宿歌”未明确身份却未标注，直接当作确定内容；还有“土缩中间似覆盃”“要生推”等原文含混内容未标注，直接按确定内容释读，违反规则"
+        ],
+        "uncertainty": [
+          "原文中“罗纹土宿歌”“鲁捉脉赋”“廖氏”“吴若”等专名身份未明，候选未标注；“土缩中间似覆盃”“要生推”等内容含混，候选按确定内容释读，存在歧义风险"
+        ]
+      },
+      {
+        "id": "book010-b000101-p000-eb737703cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000102-p000-7ee80aa6c9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“犴身”“尤典杀”“趙吉”等含义不明的词按确定内容释读，违反规则；“秋煞”“八射”等未明确的风水术语未标注，直接当作确定内容；“秋中有煞人不知貴賤最难匡仔佃消秋煞”中“仔佃”误释为“仔细”，“仔佃”应为“仔佃”（原文是“仔佃”，候选译“仔细”，属于误译）"
+        ],
+        "uncertainty": [
+          "原文中“犴身”“尤典杀”“趙吉”等词含义不明，候选按确定内容释读，存在歧义风险；“秋煞”“八射”等风水术语身份未明，候选未标注"
+        ]
+      },
+      {
+        "id": "book010-b000103-p000-d6cc9536a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2757,
+    "completion_tokens": 621,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2757,
+      "completion_tokens": 621,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

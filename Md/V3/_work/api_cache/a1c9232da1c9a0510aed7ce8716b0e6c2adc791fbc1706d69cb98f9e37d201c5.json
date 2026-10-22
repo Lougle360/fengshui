@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-04T11:14:03.054380+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a1c9232da1c9a0510aed7ce8716b0e6c2adc791fbc1706d69cb98f9e37d201c5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000699-p000-b55124ac97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘而 往天地 爲 升’语意断裂，无法确证其完整逻辑"
+        ]
+      },
+      {
+        "id": "book035-b000702-p000-2bc46e3b1c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘徐試可曰’的内容直接作为确定解释，但原文中‘徐試可曰’之后至‘也’字前的内容，与后续‘如冰撫紛恰側砂氣不曠風卿乘之師鎭氣飄嫩埃嶸坻雲法’一样存在严重错乱，无法通读。候选句将其处理为连贯的‘徐试可说：水是龙的血脉...’，属于将不确定的、可能损坏的文本解释为确定事实，不符合风险标注原则。应明确指出‘徐試可曰’之后的内容同样存在错乱，含义不详。"
+        ],
+        "uncertainty": [
+          "原文‘徐試可曰’之后至‘也’字前的内容，以及‘如冰撫紛恰側砂氣不曠風卿乘之師鎭氣飄嫩埃嶸坻雲法’一段，均存在严重OCR错误或原文损坏，无法还原原意"
+        ]
+      },
+      {
+        "id": "book035-b000705-p000-f43dfc773a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘纵使餘支流漫千條萬緒而’之后文字断裂且错乱，无法确证后续含义"
+        ]
+      },
+      {
+        "id": "book035-b000706-p000-a2e3cc53d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段原文存在严重OCR错误或原文损坏，无法还原原意"
+        ]
+      },
+      {
+        "id": "book035-b000710-p000-e44e42b7bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘如主差而源氣從上通室不而之朝定下通源子吉穴而生之，不能乘风水不干乎成’存在严重OCR错误或原文损坏，无法还原原意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2094,
+    "completion_tokens": 528,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2094,
+      "completion_tokens": 528,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

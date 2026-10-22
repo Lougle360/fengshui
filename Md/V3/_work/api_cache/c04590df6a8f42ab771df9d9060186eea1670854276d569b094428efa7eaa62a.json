@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-24T01:39:12.343487+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c04590df6a8f42ab771df9d9060186eea1670854276d569b094428efa7eaa62a",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000064-p000-84b1e15689",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巳上八日”含义未明，候选直接释为“自巳日起算的第八日”属于无依据的确定解释；原文“可餅工造作”中“餅”疑似为OCR或传抄讹字，候选直接认定为“饼工”无依据；原文“優造門”未准确释读，候选“优先建造门户”属于无依据推断。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000065-p000-e650dd68d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文干支存在两处抄写讹误：“巳丑”应为“己丑”、“巳亥”应为“己亥”，候选虽纠正了干支错误，但原文明确是“作門忌日”，候选错误释为“建造门户的适宜日期”，完全颠倒文意；原文“蒲成日”属于择日术语，候选拆分“蒲”“成日”无依据。"
+        ],
+        "uncertainty": [
+          "“蒲成日”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000067-p000-0ead003765",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“归钊龟立”具体所指不详",
+          "“水廨方”具体所指不详",
+          "“天蜂地哑日”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000068-p000-3f6c1b92a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“空水木日 忌金土日作”释读逻辑有误，候选表述为“逢空的水木日，禁忌在金土日进行相关作业”逻辑混乱，应为“空水木日为禁忌，金土日也禁忌相关作业”；原文“水”属于locked_terms，候选未按照allowed_glossary的定义释读，仅保留字面表述。"
+        ],
+        "uncertainty": [
+          "“空水木日”的具体规则不详"
+        ]
+      },
+      {
+        "id": "book006-b000069-p000-c190356bbc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巳未”应为“己未”，候选虽纠正干支但表述“正月二十九日属于这类禁忌时间”与原文逻辑不符，原文“上閱忌正月廿九日”意为“上阅类禁忌包含正月二十九日”，候选表述易造成误解。"
+        ],
+        "uncertainty": [
+          "“上阅”具体所指不详",
+          "“天乙绝气伏断”具体规则不详"
+        ]
+      },
+      {
+        "id": "book006-b000070-p000-c29f66405d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巳卯”应为“己卯”，候选虽纠正干支但未明确说明是修庙的适宜或禁忌日期，原文仅列干支未说明属性，候选释为“对应日期”过于模糊，未准确传递原文语境。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000071-p000-9909a9890c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“在今”具体所指不详",
+          "“六甲胎神占月”“牛胎四十月占”具体规则不详"
+        ]
+      },
+      {
+        "id": "book006-b000072-p000-7ced0f7300",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“龚哑月渗磨日”具体所指不详",
+          "“牛胎正七月占”具体规则不详"
+        ]
+      },
+      {
+        "id": "book006-b000073-p000-db3c8698c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2090,
+    "completion_tokens": 922,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2090,
+      "completion_tokens": 922,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

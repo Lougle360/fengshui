@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-24T22:00:01.900254+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "27a9ba21562dfb344f4f00ef61b7402151f87fc159052b4410145351e0ebf1c5",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000551-p000-be982aee92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「体判」具体所指未明，此处保留原词",
+          "「言空」的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book017-b000554-p000-6812490b48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「差」的具体含义原文没有足够上下文支撑，无法确定是指差错、差别还是其他含义"
+        ]
+      },
+      {
+        "id": "book017-b000556-p000-10ebed3aa7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大進”被误译为“大变化”，属于语义偏差；原文“王猜誰者”被误译为“有人所说的内容”，存在漏译和语义错配"
+        ],
+        "uncertainty": [
+          "日文假名「な」所在位置语义不明，结合上下文调整为顺承表述",
+          "「皇說經紜一啞」「倉玄」「創亡法則」「大進」的具体含义缺乏足够上下文支撑，无法准确判定"
+        ]
+      },
+      {
+        "id": "book017-b000560-p000-7b466c7981",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“如同茫如捕分”存在语意重复，“茫如”属于冗余表述；原文“是真以謎解誰”被译为“真的是用谜解未知的内容”属于无依据增译，不应自行补出“未知的内容”的表述"
+        ],
+        "uncertainty": [
+          "「捕分」具体含义不明，此处保留原短语",
+          "「是真以謎解誰」中「誰」的所指不明确，无法确定具体指代对象"
+        ]
+      },
+      {
+        "id": "book017-b000561-p000-a2991abc84",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「細說幸誰」语义不够明确，现有上下文不足以支撑完全准确的解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1566,
+    "completion_tokens": 551,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1566,
+      "completion_tokens": 551,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-15T05:47:28.715186+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0d314a3694e065e91bba52730ed456973f812b00b73f45acc95c4370f4c082f8",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001962-p000-570fe7638f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文整体逻辑断裂",
+          "具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b001964-p000-288ac932f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001965-p000-b07dcb7fd0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头‘阳的生成始于五，位于东方，其次序为：一、三、五、七、九。阴的生成始于二，位于西方，其次序为：二、四、六、八、十。’此段解释在source中无明确对应，属于无依据的扩写。source开头部分文字错乱，但可辨识‘阳则后吴 生始始五公 生于下行东 而也土位之河’等，candidate的解释超出了保守释读的范围。",
+          "candidate中‘五行之中土居中央，统摄四方’在source中无对应，属于增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001972-p000-3ea0ca6405",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate中‘表中包含数字“1”“7”“三三節”“0”“100”“二時”“三時”“956”“553”“六月”“00”“0000”等标记’将表格中的杂乱字符（如‘956PX553’、‘0O BAr’、‘OCCCC CCC’）解释为‘标记’，并称‘部分文字因识别错误而模糊’，这超出了对原文的释读，属于对表格内容的推测性描述。对于此类复杂表格，应仅说明其核心内容（如八卦名称、生成逻辑），而不应列举无法确认含义的字符。",
+          "candidate中‘核心内容仍可辨识：八卦按特定顺序排列，反映天地阴阳消长之理。’此句概括合理，但前半部分对杂乱字符的列举和解释应删除。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001974-p000-653218a276",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001975-p000-c82d3924ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001977-p000-717ab5acd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4112,
+    "completion_tokens": 568,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4112,
+      "completion_tokens": 568,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-17T15:52:42.880467+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "40b62a59d965eeceb46e74a41b8dc782f0c96e8607f10dea12e4c2376f4c6db3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004021-p000-cff5c9170d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在多处日文汉字误译或未转换。例如，原文中的“替不名竹帛勛世垂后世”、“雅歌從容作名”等句，candidate 直接照搬，未将其转换为现代中文或解释其含义，导致语义不通。",
+          "存在明显的OCR错误未处理。例如，“鬼量名抱頭”应为“鬼星名抱头”，candidate 未修正。",
+          "存在编号混乱和内容重复。原文中“八八鬼星名推屋內是”与“八八鬼星名推送屋內是非多倥偬”明显是同一编号下的内容，candidate 将其拆分为两个独立句子，破坏了原文的连贯性，且未说明此问题。",
+          "存在漏译。例如，原文“七二鬼星名劍履高科升爲相國位劍履上殿替不名竹帛勛世垂后世”中，“替不名竹帛勛世垂后世”在 candidate 中仅作字面保留，未进行任何释读，导致该句完全无法理解。",
+          "存在将推测写成事实的风险。writer_uncertainty 中已指出多处原文模糊之处，但 candidate 在释读时未明确标注不确定性，而是直接给出了看似确定的句子，如“当如郭分阳裴晋公名位既盛而退居休闻也”。",
+          "存在术语误用或未解释。如“沤气”、“肉痛”、“追胸”等词，candidate 直接保留，未按 opaque_terms 处理或说明其含义不明。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误、断句混乱及字词缺失，具体所指不详。",
+          "“郭分阳”、“裴晋公”等人名及具体典故，原文表述模糊，无法确认具体指代何人何事。",
+          "“八八鬼星名推屋內是”与“八八鬼星名推送屋內是非多倥偬”存在重复编号或内容混淆，原文不清。",
+          "“启继收缜摄称杯姑驰”等词组语义断裂，无法确解。",
+          "“一山钻怀一山接受内外”等句意不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004022-p000-a6b608b39e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在日文汉字误译或未转换。例如，“伸呤逢人，长是抹发起”句意不明，candidate 直接照搬，未进行有效释读。",
+          "存在明显的OCR错误未处理。例如，“色出人虎咬口下死”语义不通，candidate 未修正或说明。",
+          "存在将推测写成事实的风险。writer_uncertainty 中已指出“肉痛”、“追胸”等词罕见，但 candidate 未作任何风险标注，直接使用。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误、断句混乱及字词缺失，具体所指不详。",
+          "“肉痛”一词在风水术语中罕见，可能为误字。",
+          "“伸呤逢人，长是抹发起”句意不明。",
+          "“追胸”一词在风水术语中罕见，可能为误字。"
+        ]
+      },
+      {
+        "id": "book035-b004023-p000-8a505d19a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在日文汉字误译或未转换。例如，“欲营心不知耳”句意不明，candidate 直接照搬。",
+          "存在明显的OCR错误未处理。例如，“百六史为孝顺鬼”中“史”字应为“鬼”，candidate 未修正。",
+          "存在将推测写成事实的风险。writer_uncertainty 中已指出“沤气”等词罕见，但 candidate 未作任何风险标注。",
+          "存在断句错误导致语义混乱。例如，“纵百十一鬼名抛沙”中的“纵”字应为“百”，candidate 未修正，导致句子不通。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误、断句混乱及字词缺失，具体所指不详。",
+          "“沤气”一词在风水术语中罕见，可能为误字。",
+          "“欲营心不知耳”句意不明。",
+          "“说高强”句意不明。"
+        ]
+      },
+      {
+        "id": "book035-b004024-p000-9a20649f3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004025-p000-5e9909aef8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004026-p000-14ab69a5c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5792,
+    "completion_tokens": 1225,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5792,
+      "completion_tokens": 1225,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

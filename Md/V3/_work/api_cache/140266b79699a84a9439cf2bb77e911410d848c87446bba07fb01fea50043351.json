@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T11:40:25.000209+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "140266b79699a84a9439cf2bb77e911410d848c87446bba07fb01fea50043351",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000162-p000-c53bf0627a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          ""
+        ],
+        "uncertainty": [
+          "原文中“值貞狼”疑为“值貪狼”的讹误"
+        ]
+      },
+      {
+        "id": "book013-b000163-p000-0091b95a44",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          ""
+        ],
+        "uncertainty": [
+          "原文中“水八堂”疑为“水入堂”的讹误",
+          "“十四五”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1595,
+    "completion_tokens": 145,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1595,
+      "completion_tokens": 145,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

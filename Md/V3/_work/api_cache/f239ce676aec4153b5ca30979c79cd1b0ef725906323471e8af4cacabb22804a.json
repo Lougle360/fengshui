@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T19:54:57.994116+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f239ce676aec4153b5ca30979c79cd1b0ef725906323471e8af4cacabb22804a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003166-p000-75f29fefad",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：“困在葛蔓藟藤之间”，说明上六所处地位未曾稳当；“动辄后悔就要赶快悔悟”，说明前行可以解困并获得吉祥。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003167-p000-a1543c0713",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：“被葛藟这类藤蔓缠绕困住”，说明所处的位置并不妥当；“行事就生悔意，有了悔悟之心”，说明往前行进就能获得吉祥①。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003168-p000-e5f34f332f",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "注释①：“吉行”的意思就是“行事就能获得吉祥”。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003169-p000-41e1b84767",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "疏解：困卦的六爻里，只有上六的爻辞提到了“吉”，体现了“困顿到极点必然会转向亨通”的道理。易祓说：“阳刚的特质不会最终被困住，但是九二、九四、九五这三爻的爻辞都没提到‘吉’；阴柔的特质难免会受困，但上六一爻的爻辞唯独提到了‘吉’，这是因为困顿到极点就会产生变化。就像‘否’卦之后会接续‘泰’卦，虽然处在凶险的境地，最终还是能获得成功。”这段话出自《周易总义》。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1519,
+    "completion_tokens": 551,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1519,
+      "completion_tokens": 551,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

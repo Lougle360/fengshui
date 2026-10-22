@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:18:03.984453+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e3fa89e601db4a811e741d1da55e5e4fc921d933171f2b0efec9180570002c2e",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000134-p000-54ccbc88fd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的推测性表述（如“看似有动静之别”）作为确定内容释读，存在主观扩写问题；部分语句存在语序混乱、语义不通的情况，如“應歸曾至”“暗則故”等未按原文准确释读，且未对原文中明确标注的含混表述进行风险标注"
+        ],
+        "uncertainty": [
+          "此处“性中有情”“勢中有意”“應歸曾至”“性止處”“氣現偶的也”“心遇陽而旺”“借陰氣一及也”“現天不理者”“拋閃穴也”“暗則故”等表述具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1730,
+    "completion_tokens": 196,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1730,
+      "completion_tokens": 196,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

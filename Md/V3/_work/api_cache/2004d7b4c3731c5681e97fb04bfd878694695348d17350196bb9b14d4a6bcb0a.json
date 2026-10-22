@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:03:48.420491+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2004d7b4c3731c5681e97fb04bfd878694695348d17350196bb9b14d4a6bcb0a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000622-p000-55e598a251",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000623-p000-6819281558",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000624-p000-3307587157",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000625-p000-190454aaf0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘像九二，包蒙，吉①。纳妇，吉②；子克家③’的结构为卦爻辞与释文混排，候选释文将卦爻辞与释文的对应关系处理不当，未保留原文混排的结构特征，且释文‘又像儿 辈能够治家’与卦爻辞‘子克家’的对应逻辑未明确体现，存在语义对应偏差。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1392,
+    "completion_tokens": 296,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1392,
+      "completion_tokens": 296,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

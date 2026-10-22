@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:47:00.152178+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a0efb9a455ab6d8296fa3d59b81ad684406524ea1b809f0ee4db9721bee5f589",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000168-p000-09e02d9d66",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "1对应71，一为水、二为火、三为木、四为金、五为土，这是先天生数。木生火、火生土、土生金、金生水、水又生木，这是后天生成之理。东方属木、西方属金、南方属火、北方属水、中央属土，这是五行本方。先天之木为阳、火为阴、水为阳、金为阴、土为阳；后天之木、火为阳，金为阴，土为阴阳之间。木主文、金主武、火主禄、水主秀、土主富，这些都是美名；木主蠢、土主愚、金主顽、水主荡、火主凶，这些都是恶名。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000171-p000-801e101c0c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "天一生水、地六成之；地二生火、天七成之；天三生木、地八成之；地四生金、天九成之；天五生土、地十成之，这是河图生成之数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000172-p000-c5713caa7b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "承接之法多用后天，比如木下生火、土下生土这类情况；地理连数多用先天，火星或八、六合八六、七八为十。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句中“火星或或八六合八六 七 八爲 十”存在OCR识别错乱，语义难以完全明确"
+        ]
+      },
+      {
+        "id": "book014-b000173-p000-0ae3217f8f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "比如二火作为祖山、七火展开帐幕、一处憩息，五土排列成屏风、十土连接成城、一处憩息，四金如走马、九金如抛梭、一处憩息，一木为宗、六木如芙蓉、一处憩息，三木呈品字、八木如顿笏、一处憩息。在此之下或作五星归垣，或结成三垣之局，必定是圣贤居住或安葬之地，目前尚未见到实例，姑且说说其中的道理。图丁左火二。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句末尾“圗丁左 火二”存在OCR识别残缺，语义难以完全明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1830,
+    "completion_tokens": 728,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1830,
+      "completion_tokens": 728,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T12:56:40.114688+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f8afcc7c094136d5c44a05c268109352efcfc9a22585a368d9356a3cf1849866",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000942-p000-159fc3791d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "曜是穴的微曜，不是穴曜，在穴的位置上稍一处理就会断绝。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000943-p000-62ea56d707",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "大地的大曜，总体上向北延伸，展翅可达一百多里，光芒相连，气势自然贯通。若不是有仙眼般的眼力，谁能知晓其中的奥妙。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文开头的\"0000\"为可疑字符，无法确认含义"
+        ]
+      },
+      {
+        "id": "book014-b000944-p000-669ca67671",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "天上的日星光芒如此，由此仰望，可让人联想到螺、班，如同华、针，还有0.5的数值。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在多处缺字、错乱，\"螺班\"\"如华如针\"的具体所指不详，末尾的\"0.5\"含义不明"
+        ]
+      },
+      {
+        "id": "book014-b000946-p000-5da6f12fbc",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "关键在于，降止秀美的地方，截断水流不要太急。只是水的问题。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处缺字、错乱，\"關須而是\"\"降裏止秀\"\"截不骤\"\"赚。外。但 過。題要\"等内容残缺，无法完全确认原义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 508,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1603,
+      "completion_tokens": 508,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

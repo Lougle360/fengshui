@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-26T11:45:54.809872+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2015ae59e386e72195386f9fbc44a689495d26d83a14ca1bc095cce1dad9b7c3",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000116-p001-e2e5df091f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000117-p000-0e2b21cf2c",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文‘揆历’改为‘度量历’属于表述调整，无原文依据；‘周经’译为‘圆周总长度’与原文术语表述有差异，准确性待考"
+        ],
+        "uncertainty": [
+          "‘揆历’的准确释义、‘周经’的术语译法两版均未严格遵循原文表述，优劣难以判定"
+        ]
+      },
+      {
+        "id": "book001-b000119-p000-3d34e9504f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate未指出原文‘三个一万八千年总和为五万四千年’与记载‘三万二千四百年’的矛盾，存在信息遗漏；原文‘每宫三个三千三百六十数始、中、终’被candidate拆解为‘每个阶段对应三千三百六十数’属于曲解原文表述；‘仍九万七千二百年后’被译为‘再加上九万七千二百年’不符合原文语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000142-p000-007489d980",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2105,
+    "completion_tokens": 434,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2105,
+      "completion_tokens": 434,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

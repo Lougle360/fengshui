@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-23T06:14:04.511490+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c83f6b67d3fe9305a3b1adab09eab3ef8b0e6628fb113765230b9a7fd183b427",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000118-p000-263b2b4233",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000119-p000-3d34e9504f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘大劫十二区分，每宫三个三千三百六十数始、中、终’，candidate译为‘每个宫位包含三个“三千三百六十数”’，漏译了‘始、中、终’与‘三个三千三百六十数’的对应关系。原文‘大约一万八百年天始开，一万八百年地始辟，一万八百年人始生’是并列关系，candidate译为‘天开始开辟，地开始开辟，人开始诞生’，将‘辟’译为‘开辟’虽可接受，但‘天始开’与‘地始辟’的用词差异被抹平，且‘大约’一词未体现。原文‘共三万二千四百年’计算有误（三个一万八千年应为五万四千年），但candidate照搬数字而未标注此矛盾，属于事实性风险。原文‘浑天之劫运’的‘浑天’是专有概念，candidate未保留或说明。"
+        ],
+        "uncertainty": [
+          "‘浑天’的具体含义原文未明。"
+        ]
+      },
+      {
+        "id": "book001-b000120-p000-756d252c39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000123-p000-9bf2d2a314",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘盖地气必待天气盛而万物生，天炁衰而万物死。天无地道，无以宰乎’，candidate译为‘大地之气必须等待天气旺盛万物才能生长，天气衰微万物就会死亡。天如果没有地道，就无法主宰……（原文此处未完结，下接“德刑”）’。此处‘天炁’与‘天气’在原文中并用，candidate统一译为‘天气’，抹杀了用字差异，可能涉及不同概念。‘盖’字未译出，虽不影响核心语义，但丢失了语气。补出的‘下接“德刑”’是合理的上下文提示，不属于增译。"
+        ],
+        "uncertainty": [
+          "‘天炁’与‘天气’的用字差异是否具有特殊含义原文未明。"
+        ]
+      },
+      {
+        "id": "book001-b000124-p000-eb6beff021",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "德刑"
+        ]
+      },
+      {
+        "id": "book001-b000130-p000-89961dc0f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元女"
+        ]
+      },
+      {
+        "id": "book001-b000134-p000-d45aff2112",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000142-p000-007489d980",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘此例以貪巨、禄、文、廉、武破、辅、弼’，candidate译为‘此例以贪、巨、禄、文、廉、武、破、辅、弼为例’。原文‘武破’之间无顿号，可能表示‘武破’为一星或‘武、破’两星，candidate添加顿号将其明确为两星，属于对原文断句的确定化处理，有增译风险。原文‘辅星与弼星同合一卦’是陈述，candidate译为‘其中辅星与弼星同合一卦’，添加‘其中’以连接上下文，属于可接受的补足。"
+        ],
+        "uncertainty": [
+          "原文‘武破’的确切指代（是一星还是武、破两星）存在歧义。"
+        ]
+      },
+      {
+        "id": "book001-b000152-p000-e07b401b9d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元女"
+        ]
+      },
+      {
+        "id": "book001-b000157-p000-099170e28c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元女"
+        ]
+      },
+      {
+        "id": "book001-b000161-p000-89961dc0f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元女"
+        ]
+      },
+      {
+        "id": "book001-b000165-p000-f7c0d3f75b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000172-p000-e2d9f0f70c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元女"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3164,
+    "completion_tokens": 1042,
+    "cached_prompt_tokens": 0
+  }
+}

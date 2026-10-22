@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T09:44:26.370946+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d469825df7f182be285498226982af74ddb1d6e42902a3e5f8b5825ca8f74987",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006097-p000-3fc6c9f9b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格中大量具体的干支、六亲、神煞、奇门数据进行了高度概括，导致大量信息漏译。例如，原文表格中每个宫位下具体的干支组合（如“丙寅木丙子水丙戌土”、“庚辰才 丙奇”）、六亲关系（如“兄三 丙子父”、“才二 官一 庚寅兑”）、世应爻位置（如“八世名”、“八应八”）等具体内容均未在候选句中体现，仅以“列出了各宫位的干支、六亲、神煞...等数据”一笔带过，不符合“完整”释读的要求。",
+          "候选句将原文表格中三个局位的排布方式（如“巳”、“华”等表头，以及复杂的行列结构）完全转化为纯文字描述，丢失了原文以表格形式呈现的直观结构和对应关系。虽然释读可以解释内容，但作为对表格内容的核义，应指出其结构已被改变，且部分单元格的具体对应关系（如“巳”字与下方三行的关联）在描述中变得模糊。",
+          "候选句存在一处数字误译。原文为“兄九 x1 庚子父”，候选句概括为“以及丙寅、丙子、丙戌、庚辰、庚寅、庚子、1、丁亥...等干支数字”，将“x1”误当作数字“1”列出。此处的“x1”更可能是表示“兄九”重复一次或某种标记，而非干支数字“1”。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2050,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2050,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

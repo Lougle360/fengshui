@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T15:42:09.985726+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3b544ff67180c68c45178c77cf11fa9d5514d823d02b7b0e11e011bb3a045b00",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001250-p000-93ace4adc9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为日文标题，释读为现代汉语的“水与听觉”，其中“水”按allowed_glossary释义为风水语境中的河流、水系及其来去形态"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 761,
+    "completion_tokens": 86,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 761,
+      "completion_tokens": 86,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

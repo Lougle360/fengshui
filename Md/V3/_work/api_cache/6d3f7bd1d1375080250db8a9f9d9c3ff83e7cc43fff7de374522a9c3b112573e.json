@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-26T12:39:31.003676+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6d3f7bd1d1375080250db8a9f9d9c3ff83e7cc43fff7de374522a9c3b112573e",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000831-p000-cae2730f44",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文大量添加无依据的解释性内容，不符合‘不得接受无原文依据的解释’的要求；原文为文言诗歌体裁，candidate改动了原文的句式结构和表述风格，破坏了原文的原有形式；部分术语解释过度引申，背离了保留原文原貌的保守原则。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000832-p000-182943b84f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自修改原文既定的口诀标题，原文标题‘二十四山五行各属水法起长生诀’是风水领域固定的专业术语类标题，不得随意增改表述；candidate添加的解释性内容无原文依据，不符合专业术语不得擅改的要求。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1773,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1773,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

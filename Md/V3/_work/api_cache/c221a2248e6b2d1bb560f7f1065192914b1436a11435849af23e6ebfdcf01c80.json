@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:30:05.677296+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c221a2248e6b2d1bb560f7f1065192914b1436a11435849af23e6ebfdcf01c80",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000783-p000-607122f83e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "元代张理所创制的筮法，见于他自己所著的《易象图说内篇》卷下，这部书收录在《通志堂经解》中，很容易查阅。若用该书中的记载来补充黄宗羲的说明，张理的筮法如下：①将四十九根蓍草分为两部分，从右手的蓍草中取出一根，放在中间，全程不再使用；②将左手的蓍草每四根一组来数，若余数为一或三，就从右手的蓍草中取出三根或一根，合计为四根，作为奇数；若余数为二或四，就从右手的蓍草中取出六根或四根，合计为八根，作为偶数；这就是第一变；③第二变、第三变不再取出一根，直接数左手的蓍草，和之前一样区分奇偶；④根据三变得到的奇偶组合，确定四象。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000785-p000-cf02a8f26c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "季本的筮法，仅在使用四十八根蓍草、去掉挂一这一点上与正统筮法不同，其余内容全部相同；此时去掉挂一之后，若左边的蓍草余数为一，右边的余数就是二；左边余数为二，右边余数为一；左边余数为三，右边余数为四；右边余数为四，左边余数为三，这样一来，就和正统筮法的第二、第三变一样，各种情况出现的比例彼此相等。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000786-p000-1426df0cbc",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "以上三种筮法，老阳和老阴出现的比例均为八分之一，少阳和少阴出现的比例均为八分之三，这充分说明，这些改良的目的在于让阴阳出现的比例趋于均等。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000787-p000-f35d0bbdda",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "7) 原文为：“故以四十九蓍，分之為二，只用左手之數”。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1951,
+    "completion_tokens": 676,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1951,
+      "completion_tokens": 676,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

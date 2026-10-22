@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:18:28.640965+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b563005661cdd3982b20ba005504e9e1583416792edba0d50b3510bf2042d094",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000601-p000-a53a3e0665",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "如果龍的格局真實、星的形態真實、暈的形態真實、內暈真實，那麼無論是土質還是非土質，非土質的話是什麼呢？可能是沙穴，也可能是泥穴，或是水穴。滿山都是沙，而穴的位置獨自為沙，這就是氣眼穴。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000602-p000-e8f63a9c18",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "滿山都是泥，而穴的位置獨自為泥，這就是龍管穴。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000603-p000-5bf179999e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "滿山都不是水穴，而穴中有泉，這就是龍泉穴。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文末尾的「AA」為無意義字符"
+        ]
+      },
+      {
+        "id": "book014-b000604-p000-035beeb679",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "蒲山都不是石，正當暈的位置獨自長出一片大石，這就是石占穴。石的大小如同棺木，形狀也如同棺木。古時這個穴場，千秋萬代等待有德之人發掘並使用，因此取名石占穴。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1696,
+    "completion_tokens": 495,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1696,
+      "completion_tokens": 495,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-17T19:24:56.387012+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4950e5e497295ca712a1c7f6bc6e5c234cc5b858b54fb60b329d780c1fc89e2d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004463-p000-7f150b2895",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004464-p000-5cd5c263f6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘一種后肩分兩翼八般形穴或又牙’是描述一種形穴的類型，candidate將其拆分為‘八般形穴’和‘或又牙’，並將後者標為不詳，這改變了原文的結構和語意，屬於誤譯。原文‘名 大 實頭 長之是 以然是 曰 學 國者不’在candidate中被標為錯亂不詳，處理得當。但‘鶴鳳飛可不也身’的釋讀‘至於‘鶴鳳飛可不也身’，原文語意不明，具體所指不详’是正確的風險標注，不屬於增譯。然而，對‘一種后肩分兩翼八般形穴或又牙’的錯誤拆分是主要問題。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004466-p000-f78950f51c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1609,
+    "completion_tokens": 286,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1609,
+      "completion_tokens": 286,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

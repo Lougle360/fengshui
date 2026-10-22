@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T04:19:04.885705+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "797919ba8575386ad5862d3eef714afc8d9856fbb9355d2ead99bebcbe0e2059",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000176-p000-932d69ab2b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000207-p000-6ba59434d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000208-p000-67915ee4bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅列出「側腦」「平腦」「天財」三个名词，未明确说明二者属于天财的语义关系，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文短语结构模糊，未明确三个名词的逻辑关联"
+        ]
+      },
+      {
+        "id": "book036-b000209-p000-8e403aee99",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文「醜」可指十二地支的丑位，也可指丑陋，候选直接将其释为丑陋属于无依据确定含义"
+        ],
+        "uncertainty": [
+          "「醜」存在地支丑位与丑陋两种歧义，原文未明具体所指"
+        ]
+      },
+      {
+        "id": "book036-b000210-p000-7be07f8c08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000211-p000-ede107a1d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000228-p000-a2b3c8e2ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000229-p000-bc97486b52",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文未说明「突」的具体所指，候选释为「突出的对象」属于无依据确定含义"
+        ],
+        "uncertainty": [
+          "「突」的具体指向原文未明，可能是风水中的突穴、隆起地形等，无法确定"
+        ]
+      },
+      {
+        "id": "book036-b000230-p000-acdb4908ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000231-p000-6a9107adb9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "「糕虎」属于不明专名，候选未加引号保留且未标注含义不明，直接按字面释读存在风险；「驚」释为「驚訝」不准确，此处更偏向令人惊惧的含义"
+        ],
+        "uncertainty": [
+          "「糕虎」具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1630,
+    "completion_tokens": 772,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1630,
+      "completion_tokens": 772,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

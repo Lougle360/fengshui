@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T13:47:46.977598+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aff382879ff8460c79176e3ebf72a64b5687a9b5d98764fbeef5e5aca15ec67b",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000235-p000-7a6e60eef2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在OCR讹误，“栩會”“鐲者”“搆”“家註纂桥”“水之告也”等内容均辨识不清，候选将“鐲”解释为水系回环形态、“此四者”表述属于无依据增译，且漏注原文讹误风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000236-p000-038adfb47f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000237-p000-ec267195de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR错乱严重，多数语句无法辨识，候选大量添加原文不存在的内容，如“不会导致穴的气脉破败”“穴前的‘戈’形水不会带来凶险”“来水不宜渐缓，去水不宜直泻，横水不宜斜流”“城水是指贼水”“遇到屈曲平正的城水，都会产生大的凶祸”“木城水类似牵牛鼻的形状，火城水类似倒写的人字”“还要分清渭水的清浊，从声音来判断。水城指坑道、沟、梁、溪、河、江、清池、湖、滨、浦这类水系。比如在难浙之地，水系多，山形光润，属于平洋之地”等，均为无依据释读，不符合保守释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000238-p000-71c1637ff8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR存在错乱，“木似辛牛鼻上絕火”“倒書人字權土星平正多墜渚”“更分清渭論聲音”“難浙之地”等内容语义不明，候选将“土星水平正，大多会导致气脉坠落”“分清渭水的清浊，从声音来判断”“难浙之地属于平洋之地”等作为确定解释，属于无依据增译；且“颜靖 宛轉是金城”应释为“颜靖认为，形态宛转的是金城水”，候选表述遗漏“认为”类表述，易误解为颜靖是该定义的唯一出处"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000239-p000-bfa8154cf7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“木大二城斜射則凶”表述不清，候选释为“木城、土城斜射穴场则为凶”属于无依据解读，且原文未提及“穴场”，属于增译；“水土城抱身則吉”候选释为“水土城环抱穴身则为吉”，“穴身”属于无依据补出"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000241-p000-c3c3db3986",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000242-p000-15e4fffc2a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR存在错乱，“起凡人案墳宅”“水到壑”“疏魏於玄武山後而去也”“迢 富 意 虎亦然”“身下拘左右皆告也”等内容辨识不清，候选释为“一定是水系流到壑口，又在玄武山后迂回环绕而去”“富水也是如此，但关键在于水系要弯环抱身，拘束左右，才是吉兆”属于无依据增译，不符合保守释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000244-p000-814dc958ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“五户”“三门”“垣局”原文未明确定义，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000245-p000-bd84ac1c47",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR存在讹误，“病良死絕胎之地”“宜地一-水之所貴者在于出水五户緊閉而家蔵”“千家纂蝟寄家藏”等内容语义不清，候选释为“五户是病、良、死、绝、胎所在的方位”“五户要紧闭才能聚藏福气”“由千家纂汇集，属于私家收藏的版本”属于无依据解读，且原文“11”是页码标识，候选表述“《雪心赋直解》卷二11”不符合现代汉语表达规范"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000246-p000-eaad0b91a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3014,
+    "completion_tokens": 1288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3014,
+      "completion_tokens": 1288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

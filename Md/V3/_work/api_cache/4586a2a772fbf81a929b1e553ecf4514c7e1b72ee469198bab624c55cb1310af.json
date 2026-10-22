@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-15T15:56:24.421549+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4586a2a772fbf81a929b1e553ecf4514c7e1b72ee469198bab624c55cb1310af",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002300-p000-6375930fe2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为并列结构，candidate将其拆分为三个条件句，改变了原文的并列逻辑。原文是‘辛主魁解驟富上格龍及第翰苑財名進神水陰鼓水橫財水文秀水兌主富貴上格龍出后妃進神水陽鼓水金帶水天財水’，应理解为‘辛山见魁解水主骤富，为上格；见龙及第水、翰苑水、财名进神水、阴鼓水、横财水、文秀水，主富贵上格；兑山见龙出后妃水、进神水、阳鼓水、金带水、天财水，主富贵上格。’ candidate将‘兌主富貴上格’误译为‘若见龙出后妃水...则主富贵’，主语和结构均错。",
+          "‘水文秀水’应为‘文秀水’，candidate误增‘水’字。",
+          "‘兌主富貴上格’中的‘兌’是另一山向，candidate将其处理为辛山的条件，导致主语混淆。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002301-p000-a5811d969a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘艮 雜黄和 卵水 辰戌丑未黃泉 乾 甲乙法歷 寅午離鄉坤垣 丙午雙朝圗樣壬午桃花 未來去雷氣 午午卦’是风水口诀，断句与术语组合有多种可能。candidate将其强行解释为一系列‘若见...则犯...’的确定句式，并添加了‘艮山’‘乾山’等主语，属于无依据的扩写和确定化解释。",
+          "‘卵水’应为‘卯水’，但‘杂黄和卯水’含义不明，candidate未保留其含混性。",
+          "‘甲乙法历’‘坤垣丙午’‘壬午桃花’‘未来去雷气’‘午午卦’均为含混术语，candidate将其直接认定为凶兆，并赋予‘犯双朝图样’‘犯未来去雷气’等确定解释，不符合opaque_terms处理原则。"
+        ],
+        "uncertainty": [
+          "原文为高度简略的口诀，断句与具体所指均不确定，任何将其转换为完整现代语句的尝试都可能引入错误解释。"
+        ]
+      },
+      {
+        "id": "book033-b002302-p000-215c09bdea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002303-p000-3af53272db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘震巽褪 去神 無刺 凶制 福若 子午桃花 辰戌丑未黃泉 甲乙孤虛退神壬坎涸雜寅曜未 申文氣’断句困难，含义不明。candidate将其解释为‘震山若见巽水，主退神、无刺、凶制，福若子午桃花、辰戌丑未黄泉；若见甲乙孤虚退神，则犯壬坎涸杂寅曜未申文气。’ 这完全是基于猜测的结构化解释，将含混短语‘褪’‘无刺’‘凶制’‘福若’等直接当作确定的主谓或并列关系，并添加了‘若见...则犯...’的逻辑连接，属于无依据的扩写。",
+          "‘壬坎涸杂寅曜未申文气’是一个整体含混短语，candidate将其拆分为‘壬坎涸杂寅曜未申文气’并解释为‘犯...’，不妥。"
+        ],
+        "uncertainty": [
+          "原文可能为口诀或术语列表，断句与逻辑关系均不明确，无法进行可靠的现代白话释读。"
+        ]
+      },
+      {
+        "id": "book033-b002304-p000-565477b6f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002305-p000-cf6d4e11f7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘茂果’‘润离’等词在常见风水典籍中罕见，具体所指不详，candidate已保留原词并标注为凶水名目，符合要求。"
+        ]
+      },
+      {
+        "id": "book033-b002306-p000-48244576d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002307-p000-47431b5ad0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002308-p000-32f5deb37e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘克山凶水’可能为‘克山’或‘某山克’的简写，也可能是一个术语。candidate将其直接解释为‘克山若见凶水’，添加了‘若见’并将‘克山’作为主语，缺乏依据。",
+          "‘巳曜星 午桃花又退神’中‘又退神’的归属不明，candidate将其与‘午桃花’并列，可能不准确。"
+        ],
+        "uncertainty": [
+          "‘克山’具体所指不详，可能为某山向的克应或一个专名。"
+        ]
+      },
+      {
+        "id": "book033-b002309-p000-13fee464f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘庚主催官富貴催官水卦氣水陰皷水銖元水金魚印水 辛主文章富貴得女財文秀水女財水陰鼓水銖元水金魚印水 震山凶水 甲曜星兌退神娥眉乾坤元極子午桃花丙午回祿壬癸圖雜辰戌丑未黄泉’分为两部分：庚水、辛水的吉应，以及震山凶水的名目。candidate将‘震山凶水’及其后内容解释为‘震山若见凶水，则犯...’，结构正确。但将‘娥眉’‘乾坤元极’‘壬癸图杂’等含混术语直接列为‘犯’的对象，属于将不确定内容写成了确定事实，应保留原词并说明其性质。",
+          "‘乾坤元極’candidate写作‘乾坤元极’，与原文‘元極’用字不同，但音同，可接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3001,
+    "completion_tokens": 1473,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3001,
+      "completion_tokens": 1473,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

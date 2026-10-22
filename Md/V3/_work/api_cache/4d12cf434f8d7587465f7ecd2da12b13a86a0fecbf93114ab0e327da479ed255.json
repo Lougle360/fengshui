@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-03T23:49:06.616728+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4d12cf434f8d7587465f7ecd2da12b13a86a0fecbf93114ab0e327da479ed255",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000116-p000-04707b5065",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000117-p000-9f7ab0a802",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘門八國八’，是‘八国八门’的倒装或特定组合，candidate‘八方與八門’改变了原文的固定术语组合，属于专业术语误换。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000119-p000-ff1907ff59",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读存在多处严重漏译和误译。例如，原文‘取斗急脈 法’、‘次看入 手 取 放 缓 雙脈 送 取减 短單 合用’等关键操作术语被简化或遗漏。‘脉取何 突迎 直接 正 脈 取脈 曲脈 取之 曲 取脈 直高 取 正 粗 不 露脈 取 風 低嫩 散 不 失脈 脈取 泉 法 陽 陽脈 受陽 取 弃来缓或 入 糖 来 而 斗 毯或 避 卷而 湊檐或弃死 2 兩 族 生或 弃 粗 而 取 嫩 或 枕 暗 而 閃 明 或 枕 明 而作内乘生氣 外 接堂氣’这一段是倒杖法的具体操作口诀，candidate的释读未能准确、完整地传达其内容，且将‘糖’、‘毯’等字直接音译，未处理为可能的通假或讹字（如‘糖’或为‘堂’，‘毯’或为‘毯褥’之‘毯’），也未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000120-p000-241b4f1db2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000121-p000-7a5974b110",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000122-p000-e09107d61d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读存在严重错误。原文‘山之區曰金之曰土曲曰 水頭員身聳曰在峭火行龍’是对五星山形的描述，candidate释读为‘山的區位稱爲金，稱爲土，曲者稱爲水，頭圓身聳者稱爲火，峭者稱爲火行龍’，逻辑混乱且与风水常识不符。正确的理解应为：山形方正的为‘金’，横阔的为‘土’，曲折的为‘水’，头圆身耸的为‘木’，尖锐的为‘火’。‘在峭火行龍’可能是‘木星尖秀’或‘火星尖秀’的讹误。candidate未能正确辨识并处理这一专业术语描述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000123-p000-90232c78fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000126-p000-fda461ef67",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘五户當 必大與發’断句与语义模糊，candidate保留了原词并标注了不确定性，处理方式符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b000127-p000-f2e8c46dab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000129-p000-423aa37383",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3128,
+    "completion_tokens": 958,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3128,
+      "completion_tokens": 958,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

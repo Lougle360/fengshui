@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-16T14:56:35.345007+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "91400b7e43287784ba9d0f13bcede9176eff76ceaaf37c7e5af895cd17fb5c48",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002576-p000-d00a012253",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002577-p000-5eec28c5cc",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量严重OCR错乱、缺字、倒置及无意义字符，导致语义完全断裂，无法进行任何有意义的释读。候选文本基本是原文的直录，未进行有效的白话转换，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文严重损坏，无法进行可靠的释读。"
+        ]
+      },
+      {
+        "id": "book035-b002578-p000-0fc4ceb88f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002579-p000-fe3ca37c45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002580-p000-dd899485fc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选文本对原文的错字处理不当，将推测含义直接写入译文，如将'赵向'译为'赵向'（应保留原词或标注可能为'朝'），'林入金'译为'林入金'（应保留原词或标注可能为'临'），'庚百方'译为'庚百方'（应保留原词或标注可能为'庚酉方'或'庚辛方'）。这违反了'不能改稿'的原则，且将不确定的解释写成了事实。",
+          "候选文本未将'余氏补释曰'等注释性文字与正文区分开，也未对'赵生'等难以理解的术语进行风险标注。",
+          "部分句子（如'火龙幷多虚段不结，例与金木相'）语义不完整，候选文本未做任何说明。"
+        ]
+      },
+      {
+        "id": "book035-b002581-p000-ee6c8e8be7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002582-p000-73c01d51b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002583-p000-028ca5f83e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "candidate 对 source 中段（从'龙体头会于为而余能囚'至结尾）的释读，并非基于可理解的原文进行的白话转换，而是近乎直接复制了严重错乱的OCR文本（如'氧'、'氟'、'彝'、'绳'、'潮立向'等），导致整段文字语义完全不通，无法构成'普通读者能读懂的白话释读'。这超出了'为形成现代汉语句子而补出成分'的范畴，属于因原文损坏而无法进行有效释读的情况。"
+        ],
+        "uncertainty": [
+          "原文中段存在大量严重OCR错乱、字符缺失及语义不通，导致无法准确还原原文逻辑。candidate 未能提供任何有效的白话释读，仅复制了混乱的文本。"
+        ]
+      },
+      {
+        "id": "book035-b002584-p000-7bfe2c6d62",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在严重错乱和缺字，导致语义断裂，无法进行任何有意义的释读。候选文本基本是原文的直录，未进行有效的白话转换，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文严重损坏，无法进行可靠的释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1995,
+    "completion_tokens": 244,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5646,
+      "completion_tokens": 827,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1995,
+      "completion_tokens": 244,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

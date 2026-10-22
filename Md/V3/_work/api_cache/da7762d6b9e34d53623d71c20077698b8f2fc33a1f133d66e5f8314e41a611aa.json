@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-25T20:25:50.262584+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "da7762d6b9e34d53623d71c20077698b8f2fc33a1f133d66e5f8314e41a611aa",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001474-p000-9e73256ba5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "卷六四二的具体卷次编排含义"
+        ]
+      },
+      {
+        "id": "book029-b001477-p000-420e4ca631",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的“青諱泛水書云”被误拆为“如‘青諱泛水’相关记载所说”，漏译了“书云”所指的是《青讳泛水》这部书的记载表述；原文“乗其虚”对应的“乘其虚”在候选中表述正确，但“动静相乗”被误写为“动静相承”，字义不符，含义存在偏差"
+        ],
+        "uncertainty": [
+          "青諱泛水的具体所指"
+        ]
+      },
+      {
+        "id": "book029-b001481-p000-9210ac3dd0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“沈中心看有微窩扦之”被误释为“要深入探察中心部位”，此处“沈”应为“审”的讹写，意为仔细察看，“深入探察”的表述不准确；原文“子母公孫同一類乗虛綱細認資生”被直接标注为讹误脱漏，未先尝试合理断句释义，存在过度标注问题"
+        ],
+        "uncertainty": [
+          "乗虛綱細認資生的具体含义"
+        ]
+      },
+      {
+        "id": "book029-b001486-p000-0a7e9851e6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "濟環的具体含义",
+          "処央的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 424,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1553,
+      "completion_tokens": 424,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

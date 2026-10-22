@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T06:39:53.267274+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "837178297d5f1e7cb48260c30d74dab73bade1600865b9cf159e83bf592f27bf",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000014-p000-e33bd4ac5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“有名義”是“名称、含义”的意思，候选将其拆译为“名相关的含义”表述不准确，存在信息拆分偏差"
+        ],
+        "uncertainty": [
+          "“聽解凡例”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 678,
+    "completion_tokens": 95,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 678,
+      "completion_tokens": 95,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T12:19:13.615495+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "eaee7ef1245d82d6df4249bee051b9a5a8b557ab07d920347de3c1a28dbef0b6",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000617-p000-703f3d9c56",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘暈巾’具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000618-p000-5ffb9791b8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘發閒’释为‘在闲处发脉’无原文依据，属于无依据扩写；原文‘山面來這’表述含混，释读时未明确标注其含义不确定"
+        ],
+        "uncertainty": [
+          "‘發閒’具体所指不详，原文‘山面來這’表述含混"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 962,
+    "completion_tokens": 177,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 962,
+      "completion_tokens": 177,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

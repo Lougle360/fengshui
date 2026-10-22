@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-10-15T07:32:43.793099+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e6d9801253f79a601e778962a3ded86afccedb23cdece61fd8556896ee565470",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002099-p000-0c4e53ffa8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'巳未大凶'可能指'巳年与未年大凶'，也可能指'巳、未（方位）大凶'，candidate 直接确定为'巳年和未年大凶'，将不确定解释写成了确定事实。",
+          "原文'金井 三 分坤'，candidate 释为'金井位于三分坤位'，将'分坤'解释为'位于...位'，属于无依据扩写。",
+          "原文'申曹'、'金叟'为不透明术语，candidate 直接作为方位或名称使用，未加引号或说明，可能误导读者。"
+        ],
+        "uncertainty": [
+          "'金井'、'申曹'、'金叟'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002100-p000-125611eff4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002101-p000-130d3aae91",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'从 庚子大吉'，candidate 释为'从庚子年大吉'，将'从'字与'庚子'连读，可能改变了原文结构或含义。",
+          "原文'三 五金 分箕分牛坟女 分士 甲心良 癸'，candidate 释为'三五金分箕分牛坟女分士，甲心良，癸。'，将原文空格/断句完全忽略，直接连读，可能造成语义错误。"
+        ],
+        "uncertainty": [
+          "'三五金'、'分箕分牛坟女'、'甲心良'等术语含义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002102-p000-c10e6ac1cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'癸卯半吉林 卯房'，candidate 释为'癸卯年半吉林，卯房'，将'吉林'作为地名或状态，但原文可能为'癸卯半吉，林卯房'或其他断句，candidate 的断句无依据。",
+          "原文'翼 甲午大凶土昴'，candidate 释为'翼，甲午年大凶土昴'，将'翼'单独列出，但'翼'可能为星宿名，与'土昴'并列，candidate 的处理过于简化，可能遗漏关联。"
+        ],
+        "uncertainty": [
+          "'正阱'、'土昴'等术语具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002103-p000-8d2ee5fa59",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "'參坤'、'丙六半吉政'、'分宵'等表述含义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002105-p000-c7d19901d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002106-p000-419f5b3794",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002107-p000-ca15fbbea5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'丑龍 几一穴'，candidate 释为'丑龙，有一穴'，将'几'字直接替换为'一'，属于擅自修改原文数字。'几'可能为'幾'（几）的简写，意为'多少'或'几乎'，也可能为'凡'的误写，直接改为'一'无依据。",
+          "原文'壬山丙艮龍 凡八穴'，candidate 释为'壬山丙向、艮龙，凡是八穴'，在'壬山丙'后补'向'字，虽符合常见格式，但原文此处无'向'字，属于增译。且'壬山丙艮龍'的断句也可能不同。"
+        ],
+        "uncertainty": [
+          "'几一穴'原文可能有缺字或误写，具体含义存疑。"
+        ]
+      },
+      {
+        "id": "book033-b002108-p000-677a507e60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002109-p000-7b2ae494a4",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，含义不明，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2122,
+    "completion_tokens": 1037,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2122,
+      "completion_tokens": 1037,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

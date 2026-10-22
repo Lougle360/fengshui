@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T11:49:03.353196+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7a9fd2d048fc3fc8a4e1c14f8d048e39fffe5f1f26514e5ece7d3d050c2dd93a",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000787-p000-cfc9d75525",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文后半段“富你壹”“子孫罡責”“登金虜百”“遠聲名遠九重”存在语序混乱、疑似文字脱漏讹误的情况，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000789-p000-6b316541ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“官來 穴用求”表述存在讹误或语序混乱，candidate直接释读为“官员会来到这里，要寻找穴”属于无依据确定含义，不符合要求；“有永前流”的“永”为原文讹字，candidate直接认定为“水流”未作说明，存在不当"
+        ],
+        "uncertainty": [
+          "原文中“六鴻”“宛過以永城”“僥挹而度六重在幞頭”“抄佑龍格”的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000798-p000-a86622c0a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“抄佑格最穴良下”语义含混且存在讹误可能，candidate直接释读为“抄佑格的等级最高，穴属于良下等次”属于无依据确定含义，不符合要求"
+        ],
+        "uncertainty": [
+          "“冬抄佑龍格”“抄佑格最穴良下”的具体所指尚不明确"
+        ]
+      },
+      {
+        "id": "book024-b000800-p000-9b6ca739be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000802-p000-ebe253e257",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“青尨”语义不明，candidate直接释读为“青尨地区”属于无依据赋予确定含义，不符合要求"
+        ],
+        "uncertainty": [
+          "“青尨”的具体所指尚不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1561,
+    "completion_tokens": 511,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1561,
+      "completion_tokens": 511,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

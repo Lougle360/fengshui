@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T09:59:31.243392+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "55143c2a742116b3ae2d297001ef6050ce65f2e83884c988c91d6ebfc4eea5b1",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000464-p000-1096ff8803",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘蜈松’误译为‘蜈蚣’，‘松针’‘钳里’‘眠犬’未按原文保留，擅自添加了原文没有的解释，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中‘蜈松’‘钳里’‘眠犬’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000465-p000-59146d0a80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘昧刚煞’具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000466-p000-a70aa88519",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘中蓄’误译为‘中蓄’（原文应为‘中富’？），‘翼阿’未按原文保留，擅自添加了原文没有的解释，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中‘中蓄’‘翼阿’具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000467-p000-5655b6a612",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘先板’误译为‘先板定’，‘凌犯’未按原文保留，擅自添加了原文没有的解释，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中‘先板’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1502,
+    "completion_tokens": 375,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1502,
+      "completion_tokens": 375,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

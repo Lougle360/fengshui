@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-10-04T01:55:49.973003+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2de1554739505d609b39a4a896252f5163c1567df0d383843411e45fa64d6a22",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000324-p000-d94c62b31e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文推测性内容（如‘尺滁’可能为‘尺餘’之误，‘鎔冰’可能为‘融冰’）以确定语气写出，应明确标注为不确定。",
+          "对‘以平詳呼洲倣均量’的处理不当，应直接指出原文此句含义不明，而非在释读中保留原句。",
+          "对‘無不定峭山要消詳’的释读（‘大意是务必登高选址’）是过度推测，原文并未明确此意，应仅指出原文词句含义不明。",
+          "对‘仓禾’的处理不当，应直接指出原文此词含义不明，而非在释读中保留原词。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000325-p000-535a430461",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文推测性内容（如‘戲’字可能为‘洩’或‘襲’之误）以确定语气写出，应明确标注为不确定。",
+          "对‘被風吹戲河不慎哉’的释读（‘含义不确定’）是正确的，但处理方式应更直接，指出原文此句含义不明即可。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000327-p000-0a9b5ecdab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文推测性内容（如‘事出’、‘統或點點’等词可能存在OCR错误）以确定语气写出，应明确标注为不确定。",
+          "对‘事出’、‘統或點點’的处理不当，应直接指出原文此词含义不明，而非在释读中保留原词。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000328-p000-d6f69e6296",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文推测性内容（如‘鋪鑒’可能为OCR错误，‘卿殼’可能为‘青殼’或‘傾殼’之误，‘錦鄉’可能为‘錦繡’之误）以确定语气写出，应明确标注为不确定。",
+          "对‘鋪鑒’、‘卿殼’、‘錦鄉’的处理不当，应直接指出原文此词含义不明，而非在释读中保留原词。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000329-p000-a292a6e032",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文推测性内容（如‘關東’可能为‘關鎖’之误，‘漁’字可能为‘魚’或‘弓’之误）以确定语气写出，应明确标注为不确定。",
+          "对‘關東’、‘漁’的处理不当，应直接指出原文此词含义不明，而非在释读中保留原词。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000331-p000-4a74e51f8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘來刊則水劫是曰難裁 無夾從則風吹無餘氣水’存在严重OCR错误或残缺，词句逻辑不通，含义难以确定。"
+        ]
+      },
+      {
+        "id": "book035-b000332-p000-bf4f595e22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘左止过左过空点此無益而有害之地土脈運行何妨斷絕 血也衛者氣也氣旺則脈行氣衰則血竭土者氣之體有土斯有氣土脈運行’存在严重OCR错误或残缺，词句逻辑不通，含义难以确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2827,
+    "completion_tokens": 904,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2827,
+      "completion_tokens": 904,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

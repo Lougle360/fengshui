@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-17T16:04:01.434192+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "86f7273c9fd7e397a178143ec2a4903672df195dc4a2905637656f06b69fb9a5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004028-p000-93f8c2a356",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格结构，candidate将其改写为连贯段落，导致原文的图文对应关系（如“右夫妻鬼星仁宦如意對爵及妻發揮曰”等位于表格右侧的注释）被模糊化处理，改变了原文的呈现方式，属于增译和改写。",
+          "candidate将原文中不确定的OCR识别字（如“关”、“DN”）直接删除或忽略，未作任何说明，可能导致信息遗漏。",
+          "candidate将原文中语义不明的“舞”字在译文中直接保留为“舞”，未按writer_uncertainty中的说明进行风险标注（如“可能为‘务’或‘无’之误”），导致现代读者无法理解。",
+          "candidate将“不金为穷显官”释读为“不金为穷显官”，语义不通，且未作任何说明。原文此处应为“不啻为穷显官”或类似表达，属于OCR错误未处理。",
+          "candidate在“二之力量减于五，三之力量减于二”的释读中，未说明“二”、“五”、“三”具体所指（可能指星格序号），容易造成读者困惑。"
+        ],
+        "uncertainty": [
+          "原文为表格，部分文字位置（如“右...发挥曰”）与主体内容的对应关系在纯文本释读中难以完全保留。",
+          "“莽聚”一词含义不明，candidate直接沿用，未加说明。",
+          "“之玄”的具体形态描述（如“屈曲折叠如之玄字”）存在歧义，candidate未说明这是对形状的比喻。"
+        ]
+      },
+      {
+        "id": "book035-b004031-p000-f43445ca15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2318,
+    "completion_tokens": 428,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2318,
+      "completion_tokens": 428,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

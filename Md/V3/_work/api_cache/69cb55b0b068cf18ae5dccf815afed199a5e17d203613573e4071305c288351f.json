@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:07:44.573622+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "69cb55b0b068cf18ae5dccf815afed199a5e17d203613573e4071305c288351f",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000548-p000-0d07df52ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000549-p000-f3970a4f1e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中存在无法识别的乱码字符 $t = \\phi _ { } > t _ { } > t$，候选译文中未处理该乱码，且未明确说明该乱码的存在"
+        ],
+        "uncertainty": [
+          "原文中的乱码字符 $t = \\phi _ { } > t _ { } > t$ 具体含义不详"
+        ]
+      },
+      {
+        "id": "book015-b000551-p000-0090b2207e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中存在多处无法识别的乱码字符，候选译文中未处理这些乱码，且未明确说明乱码的存在"
+        ],
+        "uncertainty": [
+          "$P _ { i } \\ \\xi \\ r _ { i }$ 的具体含义不详",
+          "$r _ { k - 1 } \\hbar \\colon \\hat { \\boldsymbol { \\mathrm { 5 } } }$ 的具体含义不详",
+          "原文中其余乱码字符的具体含义不详"
+        ]
+      },
+      {
+        "id": "book015-b000552-p000-a42d60a28c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1933,
+    "completion_tokens": 381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1933,
+      "completion_tokens": 381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

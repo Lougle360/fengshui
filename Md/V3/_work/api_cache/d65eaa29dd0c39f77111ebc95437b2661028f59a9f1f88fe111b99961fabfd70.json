@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T06:59:57.027809+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d65eaa29dd0c39f77111ebc95437b2661028f59a9f1f88fe111b99961fabfd70",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000035-p000-d2480d0ced",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原表格首行“分豐之義”应保留“分豐”术语原样，候选错译为“分豐的含義”但未明确“分豐”原文即此，且未标注该术语含义不明；\n2. 原文“翼言砂之蝦類是言水之分”候选错译，实际应为“‘翼’说的是像虾须类的砂，是说水的分界”，候选误解为“翼说的是砂的虾类”，属于语义误读；\n3. 原文“見制開之則又在毬善面上”中“見制開之”候选直接保留未标注识别错乱，属于未处理不可读内容；\n4. 原文“字名義”“夢嶺水詳下老發脈節金面名裘”“指遙  一卷之上       州通”等表格排版错位内容，候选未标注原文排版错乱、含义不明，直接按字面硬译；\n5. 原文“皆市环林以時體架姆面胎面鐵球制域研俄环區也指述卷之上茵”属于OCR识别混乱，候选直接硬译未标注不可读；\n6. 原文“俗之金星楊”候选未标注“楊”为识别错误或语义不明，直接保留；\n7. 原文“亦卽生九金星面立穴也”中“生九”为识别错乱，候选直接保留未标注；\n8. 原文“捲之曰偏史明望闕則湊殺”中“偏史”为识别错乱，候选直接保留未标注；\n9. 原文“在貫於一糧之來”中“一糧”为识别错乱，候选直接保留未标注。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱、表格排版错位内容，包括“毬善”“談字旁”“一糧”“生九”“偏史”“市环林以時體架姆面胎面鐵球制域研俄环區”等，具体所指不详；表格单元格跨列、错位问题严重，部分文字无法对应正确语境，语义难以完全确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2669,
+    "completion_tokens": 537,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2669,
+      "completion_tokens": 582,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2669,
+      "completion_tokens": 537,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-10-17T12:41:13.677984+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f20376539bda99b2d3c6fb90a16329f60bd55eccc4eee3555c3ea8d7dc6756d9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003685-p000-7d227679b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003687-p000-e8cac10d3a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘廉言猩’被释读为‘却很少论述星体’，‘猩’字可能为‘星’之误，但candidate未标注此不确定性。原文‘憔優劣呼’被释读为‘这两者各有优劣’，‘憔’字可能为‘孰’或‘较’之误，candidate未标注此不确定性。原文‘伏損防曲之綻耀師河似歌膜星其本也’被处理为短语并标注不详，但释读中‘这一短语’的指代不够清晰，且‘綻耀師河似歌膜星其本也’的断句和含义完全不明，candidate的释读未能有效传达原文的断裂和模糊性。"
+        ],
+        "uncertainty": [
+          "‘廉言猩’可能为‘少言星’之误。‘憔優劣呼’可能为‘孰优劣乎’或‘较优劣乎’之误。‘伏損防曲之綻耀師河似歌膜星其本也’整句含义不明，可能包含讹字或术语。"
+        ]
+      },
+      {
+        "id": "book035-b003688-p000-54541f4b7d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003689-p000-c1e07ce7c3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘水星變作千絲墜’，candidate将‘水星’处理为locked_term ‘水’，并引用术语定义‘风水语境中的河流、水系及其来去形态’。但此处‘水星’是风水五星（金木水火土）之一，指代一种山形，并非指河流。candidate的术语替换错误，导致语义改变。原文‘玉犍’被处理为opaque_term并标注不详，但candidate未将其置于引号内，不符合opaque_terms的处理要求。"
+        ],
+        "uncertainty": [
+          "‘水星’在此处应为风水五星之一的山形，非指河流。‘玉犍’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003690-p000-6c3009ab1b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘衛托迎關出蓮藥’含义不明。‘犢鼻’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003691-p000-f4a0d2f6b8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘水出納后手纏’，candidate将‘水’处理为locked_term并引用术语定义。但此处‘水’与‘出納后手纏’连读，可能指水流或水口，candidate的释读‘水出纳后手缠托’过于直译，未形成通顺的现代中文句子，且‘出纳后手缠托’含义不明，未有效传达原文的模糊性。"
+        ],
+        "uncertainty": [
+          "‘幷幢穿心三五重天馬馬室旗鼓付槍刃劍戟橫豎出甲杖兜鍪幷鞍薹日月捍門’整句含义不明。‘頡槍馬’含义不明。‘挽甲麗濯之’含义不明。‘江不自日月捍’含义不明。‘水出納后手纏’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003692-p000-dd4192f53d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘前三百四一里師明行字之也’含义不明。‘泉山方得有所統揖也’含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2522,
+    "completion_tokens": 913,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2522,
+      "completion_tokens": 913,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

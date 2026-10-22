@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-25T21:01:35.245922+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9630ab5bc216b3712042527d01a785b9daff819a9c15ddb5a7f688e6eb45a573",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001617-p000-1a50a09eaa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文源出《金篆玉涵经》的内容为“管山定宿”方法，candidate误将“持世宿、备起局、推四吉”也归入出自《金篆玉涵经》的内容，与原文表述不符；原文“丙寅氏丁次周而復始”指丙寅对应氐宿、丁卯对应某宿依次循环，candidate写“丁卯对应房宿”属于无依据增译，且与后文“癸亥房”的循环逻辑矛盾"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001620-p000-e4c6a1f43d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“六甲九下穴格”具体所指不详",
+          "原文“初分為正氣其初分為生氣”存在语义重复，疑似存在讹误"
+        ]
+      },
+      {
+        "id": "book029-b001622-p000-bffe1eb48b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“震兌橫而六子縱”的“六子”指八卦中乾坤所生的震、坎、艮、巽、离、兑六子卦，candidate误译为“其余六卦纵向排列”，与“震兑”属于六子卦的事实矛盾，属于术语理解错误"
+        ],
+        "uncertainty": [
+          "原文“損益生爲”疑似是“损益生焉”的讹误"
+        ]
+      },
+      {
+        "id": "book029-b001625-p000-c25141b228",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故四十八位合甲乙壬癸者為孤虛”存在数字矛盾，前文明确百二十分金中仅72位为凶，其中孤虚位应为48位之外的凶位，candidate直接保留该矛盾表述未做风险标注；原文“戊巳乃帛甲空亡”candidate在uncertainty中标注为“帛甲是龟甲的讹误”，但释读正文中直接写作“戊、己属于龟甲空亡”，属于将推测写成事实"
+        ],
+        "uncertainty": [
+          "原文“二十四位合成巳者”的“巳”疑似是“戊己”的讹误",
+          "原文“將陰陽差錯脈”语义未完，存在内容缺损",
+          "原文“日家消臧”疑似是“日家消长”的讹误",
+          "原文“戊巳乃帛甲空亡”的“帛甲”疑似是“龟甲”的讹误"
+        ]
+      },
+      {
+        "id": "book029-b001626-p000-f680960f44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“虛空亡遜避巳盡”的“巳”疑似是“已”的形近讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3567,
+    "completion_tokens": 809,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3567,
+      "completion_tokens": 809,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

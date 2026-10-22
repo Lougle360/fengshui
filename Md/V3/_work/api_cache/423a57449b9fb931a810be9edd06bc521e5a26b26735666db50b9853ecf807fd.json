@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-25T14:55:14.196438+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "423a57449b9fb931a810be9edd06bc521e5a26b26735666db50b9853ecf807fd",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000140-p000-3332b5c875",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000141-p000-c5b02b9ff3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000142-p000-e5f4f0ee57",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“冬則歇矣”被误译为“到了冬天水量就会减少”，“歇”此处指泉水干涸断流，与“有固定水量”的描述对应更准确；原文“枯涸之地亦吉塟之所忌”释读逻辑错误，原文意为干涸无泉的地方是吉利葬地所忌讳的，候选释义表述易引发歧义，应明确为“干涸无泉的地方，是适宜安葬的吉地所要忌讳的”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000143-p000-6cb7c80046",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“地支”被误释为“地脉支派”，allowed_glossary明确“地支”指子丑寅卯辰巳午未申酉戌亥，属于术语错译"
+        ],
+        "uncertainty": [
+          "“重平挣”具体地形特征未明",
+          "“顿水”具体所指未明"
+        ]
+      },
+      {
+        "id": "book028-b000144-p000-c774b72e7e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“腰结”具体特征未明",
+          "“仰高骑能”具体穴型特征未明",
+          "“食夫工情性最多漫天皆水”具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b000146-p000-f958d267bd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兠金池不可緩聚元辰之水使之不洩”被误读，原文意为兜金池的作用是让元辰水缓聚不泄漏，候选释读错误理解为“不能让元辰水缓慢聚积，以免发生泄漏”，语义完全相反；原文“不洩則反水矣”逻辑理解错误，结合上下文应为水不泄漏就不会形成反水，候选表述逻辑矛盾"
+        ],
+        "uncertainty": [
+          "“边阳边但成其界割为善”疑脱漏“阴”字，此处依文义补出参考",
+          "“兜金池”“元辰水”“明水交逸”具体所指未明"
+        ]
+      },
+      {
+        "id": "book028-b000148-p000-c4d7c6092e",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“如孤是燥火三星肢体须石”具体含义不详",
+          "“乘除”此处指风水调整方法，具体操作未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3056,
+    "completion_tokens": 785,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3056,
+      "completion_tokens": 785,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

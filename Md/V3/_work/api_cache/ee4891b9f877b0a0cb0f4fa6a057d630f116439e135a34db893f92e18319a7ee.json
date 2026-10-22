@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-09-26T13:06:57.020014+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ee4891b9f877b0a0cb0f4fa6a057d630f116439e135a34db893f92e18319a7ee",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000439-p000-263a725917",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无原文依据添加'以上关于方位宜忌的具体适用对象（龙脉、水流或其他）不明确'，属于过度存疑；原文无必要额外标注'折水''注向'含义不详，current翻译更忠实原文且无冗余内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000441-p000-897f584490",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对大量风水术语无依据标注'具体含义不详'，属于过度存疑，破坏原文可读性，current准确翻译原文且保留术语原貌，更符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000445-p000-fdc02cd7a7",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据添加'此处“水”具体指风水语境中的水流还是对应方位，不明确'，allowed_glossary已明确水的定义，属于多余存疑，current表述更准确稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000467-p000-3b366e333c",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current错误添加'文中提到“太岁之音叶穴”，意指'的冗余说明，candidate忠实翻译原文，无额外臆造内容，表述更通顺准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000472-p000-1e6857283a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对'骨，多主宿疾'翻译错误，误译为'骨相显露'，candidate结合风水语境准确解释为骨的相关格局，且对各术语的解释符合allowed_glossary规定，表述更通顺完整，无篡改原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000514-p000-eff016eb95",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据对多个风水术语标注'具体所指不详'，属于过度存疑，current忠实翻译原文，无冗余内容，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000516-p000-e59d32e7ee",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据对多个术语标注'具体所指不详'，属于过度存疑，current准确翻译原文，保留术语原貌，更符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000520-p000-01f6184b3f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据对多个术语标注'具体所指不详'，属于过度存疑，current翻译忠实原文，无冗余内容，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000522-p000-25375db194",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "current错误对'沐卵连珠列垒生'添加无依据的形态解释，candidate虽标注部分内容不详，但current存在臆造解释问题，两版各有不足"
+        ],
+        "uncertainty": [
+          "原文部分诗歌类比喻表述无明确注释，两版的处理方式均存在瑕疵"
+        ]
+      },
+      {
+        "id": "book001-b000525-p000-5fd3b2e330",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无依据对多个术语标注'具体所指不详'，属于过度存疑，current准确翻译原文，无冗余存疑内容，更稳妥"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6664,
+    "completion_tokens": 998,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6664,
+      "completion_tokens": 998,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

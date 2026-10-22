@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T12:15:57.485688+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dbf6e765fd0cdc6a27667aa2f2ac3a0be0e0d90a3d773204a97231883fda973f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000564-p000-e9f48d70f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000565-p000-053f36473c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000566-p000-107313c5d1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的\"鲁性命、舟出、染山、穿山服\"等原词直接释读为确定的风水术语，属于无依据的扩写"
+        ],
+        "uncertainty": [
+          "鲁性命、舟出、染山、穿山服等原词含义不详"
+        ]
+      },
+      {
+        "id": "book014-b000570-p000-410c8973f4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1351,
+      "completion_tokens": 284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

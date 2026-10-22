@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-26T13:15:33.299486+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "550c87623bc576f4127b3d5b1c417e44de237b825be2b4d75ea417619cbe2859",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000741-p000-d6634fb9a8",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文原注部分无明确释义的内容，候选版已标注‘具体所指不详’，符合存疑要求"
+        ]
+      },
+      {
+        "id": "book001-b000747-p000-5330d5bcdf",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000749-p000-34240069c3",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版擅自标注‘脑冲’‘腧气乘’‘虎雷’等术语为具体所指不详，上述术语属风水通用专业术语，有明确行业释义，无原文依据不得随意标注存疑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000750-p000-9e5188b29f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版擅自标注‘卯穴挨厨丑也’‘乙辰臭水土灾临’‘甲同午戌木根侵’为具体所指不详，上述内容属原文明确记载的风水断语，无证据证明无法释义，不得随意标注存疑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000752-p000-5847ee31a6",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版擅自标注‘罚。’‘寅木戌瘟戮乾蚁’为具体所指不详，‘罚’为断语前缀，‘寅木戌瘟戮乾蚁’为明确的断语内容，属风水通用表述，不得随意标注存疑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000753-p000-6c4bf525ef",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版擅自标注‘金鸡啼向扶桑东，气冲脑散亏神功’等多句原文断语为具体所指不详，上述内容属风水峦头理气的常规隐语表述，无原文依据不得随意标注存疑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000754-p000-4d7834441b",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版将‘庵观中人入泉扃’擅自解释为‘主庵观中的人离世’，无原文依据；‘合收裁’‘拜命黄金街’‘入泉扃’属风水专业断语，候选版释义不符合行业共识，且原文未存损，不得自行臆解"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 8004,
+    "completion_tokens": 717,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 8004,
+      "completion_tokens": 717,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

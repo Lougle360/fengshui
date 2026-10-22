@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T07:02:04.918671+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "05371d1aee2d17fee8a7262682da4865f97a7499b18fe2ffd3de449328951c74",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000035-p000-6666b685b4",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "uncertain",
+        "modern_text": "此处为风水相关的表格残页，文字多有残缺错乱，部分内容无法辨识，具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "表格内多数文字残缺、错乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book008-b000038-p000-f7ab628265",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "所有要素汇聚于天心，那么明堂也会是正的。不过明堂本就没有不正的道理，若本体不正，明堂自然也不正。本体也本就没有不正的道理，若只想着走捷径，本体就会不正。因为天工不会出错，而人的巧思反而会让它出错。这里的天心指的是明堂，不过穴的中心也可称为天心。只需看它所有的朝向是否分明，只需看前方罗经的纳甲，不要先定好要减多少。关于罗经纳甲的具体内容，详见相关篇目。要亲近财禄，还要让张山的水势完备，近处的案山不能过于高峻美好，远处的朝山却要有二城四端的格局，净阴净阳要作为罗经纳甲的对应，这有什么难的？而用罗经定向的人，先有纳甲的说法，阳龙取甲的方位，乾甲为阳向，阴龙取阴向，称为净阴净阳，这绝对不能依从。以坤乙坎癸申辰离壬寅戌十二位为阳的方法，是按照亲法来的。穴稍微靠近左边，就会让龙气充足、虎气饱满；稍微靠近右边，就会让艮位的气半露，虎气和龙气都很真诚，明堂就没有不正的了。这又是用人为的方法来辅助天工，而非出自本体之外。财禄亲近了，又能得到张山的水势，收聚的水就会更多，这是好上加好。再看它的朝案完备，属于正宗的内容，在本卷之上第十部分。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“本體亦無不王之理”的“王”字疑为“正”字的讹误，暂按“正”字释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3261,
+    "completion_tokens": 581,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3261,
+      "completion_tokens": 581,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

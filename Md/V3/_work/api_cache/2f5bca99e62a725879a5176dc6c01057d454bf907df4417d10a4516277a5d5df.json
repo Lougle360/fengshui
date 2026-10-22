@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T19:35:58.114551+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2f5bca99e62a725879a5176dc6c01057d454bf907df4417d10a4516277a5d5df",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002867-p000-ed2d13205d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002868-p000-8bfb55861b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002870-p000-a27d12a594",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘扬于王庭’释为‘将小人的罪恶在君王的朝廷上公布出来’属于无依据扩写，原文未明确所扬内容为小人罪恶；将‘孚号有厉’释为‘心怀诚信地号令众人戒备危险’属于无依据扩写，原文未明确‘孚号’的对象为众人、‘厉’的含义为戒备危险；将‘告自邑’释为‘从城邑发布政令’属于无依据扩写，原文未明确‘告’的内容为发布政令；将‘即戎’释为‘动用武力’属于无依据扩写，原文未明确‘即戎’的具体含义为动用武力"
+        ],
+        "uncertainty": [
+          "原文中‘扬于王庭’‘孚号有厉’‘告自邑’‘即戎’的具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 993,
+    "completion_tokens": 324,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 993,
+      "completion_tokens": 324,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

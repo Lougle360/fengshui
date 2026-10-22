@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-16T11:34:19.151087+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "708ef1ebe249de4d4accbe3bb808e19b8d85a7489cd6e386fcc4a5968570ec5f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002205-p000-bee5dc327d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘下穴爲父朝爲母父母相逢龍勢住’中，‘朝’指‘朝山’，candidate 译为‘朝拜的山势’不准确，应明确为‘朝山’或‘案山’。",
+          "原文‘白虎青龍爲子乳’中，‘子乳’指‘子孙’，candidate 译为‘子女’虽可接受，但‘乳’字未译出，且‘如同子女’后接‘应当环抱’是增译，原文无此意。",
+          "原文‘粼姻伯叔若圍圓’中，‘粼姻伯叔’candidate 处理为‘文中提到‘粼姻伯叔’’并标注不详，但前文已将其与‘白虎青龙’并列，此处应视为对‘白虎青龙’的进一步比喻（如亲属关系），而非独立短语。candidate 的表述割裂了文意。",
+          "原文‘下穴當作主山主爲父案爲母謂未婦對偶龍住成形夾從龍山爲兄弟不可無也反也’中，‘未婦對偶’candidate 处理为标注不详，但结合上下文‘主爲父案爲母’，‘未婦’可能为‘夫妇’之误或特定术语，candidate 未尝试联系上下文做最浅显的推测性解释（如‘比喻夫妇配对’），仅标注不详，未达到V3‘普通读者能读懂’的目标。",
+          "最后一句‘若龙脉反背，原文仅言‘反也’，未明确吉凶。’是增译，原文‘反也’可能指‘反背’或‘相反’，但未言明是龙脉反背，candidate 添加了具体情境。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002206-p000-e95b6007e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘逆龍卷穴難尋討細脈迎朝福深眞’中，‘細脈迎朝’candidate 译为‘细脉迎向朝山’，正确。但‘福深眞’译为‘福气深厚’，漏译‘真’字。",
+          "原文‘揚揚大水逆西關下了使生國之寶’中，‘下了’指‘下葬于此’，candidate 译为‘则能使国家生出宝物’，主语模糊且‘下葬’之意未译出。",
+          "原文‘逆虎卷穴上東林細脈迎 朝福轉深’中，‘逆虎’candidate 标注不详，但结合前文‘逆龍’，‘虎’应指‘白虎’或与龙相对的虎形山势，candidate 未做此最基础的关联推测。",
+          "原文‘揚揚大水東宮鎖下了爲宜满国敏大日也不见出之’中，‘下了爲宜’candidate 译为‘下葬为宜，原文未明确‘最’适宜’，此处‘为宜’即‘是适宜的’，candidate 添加的‘未明确‘最’’是多余的辨析。",
+          "最后‘满国敏大日也不见出之’candidate 标注不详，但‘满国’‘不见出之’大意可推测（如全国难寻），candidate 未做任何浅显的推测性解释，仅标注不详，未达到释读目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002207-p000-62e2f1a1aa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘堂傾復瀉要令當面水陽朝列土分榮五馬小山須去大處尋’中，‘要令當面水陽朝’candidate 译为‘要令当面之‘水’阳朝’，‘阳朝’未解释，读者难懂。‘列土分荣’未译。",
+          "原文‘五馬小山須去大處尋’中，‘五马小山’candidate 标注不详，但结合后文‘大山须去小处觅’，‘五马小山’应指一种小山形，candidate 未做此最基础的关联推测。",
+          "原文‘高欲齊眉低應心’中，‘低应心’candidate 译为‘低应心’，未解释‘心’指胸口或中心，读者难懂。",
+          "原文‘急慢脈性也大持小小特大 當下其地齊應者避奈也’中，‘急慢脈性也大持小小特大’candidate 标注不详，但‘急慢脉性’可推测指山脉缓急的特性，‘大持小小特大’可能指大小搭配，candidate 未做任何浅显的推测性解释。‘避奈也’candidate 标注不详，但‘避奈’可能为‘避煞’或‘无奈’之误，candidate 未做任何推测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002212-p000-f48d7cf0a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘入gr 五’为OCR错误，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002214-p000-55a783ec19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘爲報山人娜地理須看尋龍記’中，‘娜地理’candidate 标注不详，但‘娜’可能为‘那’或‘挪’之误，或为语气词，candidate 未做任何最浅显的推测（如‘那地理’指风水地理）。",
+          "原文‘忽然紫氣山回抱三壹朝伏好’中，‘三壹朝伏好’candidate 标注不详，但‘三壹’可能为‘三台’或‘三峰’之误，‘朝伏好’大意可解，candidate 未做任何浅显的推测性解释。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1806,
+    "completion_tokens": 1342,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1806,
+      "completion_tokens": 1342,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

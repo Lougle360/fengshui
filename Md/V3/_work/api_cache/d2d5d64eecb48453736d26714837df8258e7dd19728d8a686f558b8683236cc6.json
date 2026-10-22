@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-24T23:22:32.056311+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d2d5d64eecb48453736d26714837df8258e7dd19728d8a686f558b8683236cc6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004486-p000-bf9b09855c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004487-p000-803f39b490",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文意为‘以上内容说明的是第四章’，候选释读为‘以上内容是第四章的说明’，语义与原文相反，属于误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004488-p000-9df7c703df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004489-p000-a87fef3bd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004490-p000-e84b1b3327",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《周易》卦名写为《成》是讹误，正确卦名是《咸》，候选将原文讹误的《成》修正为《咸》属于合理校正；但locked_terms规定“龙”的定义为风水中山脉、地势及气脉的来势和行度，候选将“龙蛇之蛰”的“龙”释为动物龙，不符合locked_terms的要求，属于术语误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004491-p000-cc77662df7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms规定“龙”的定义为风水中山脉、地势及气脉的来势和行度，候选将“龙蛇之蛰”的“龙”释为动物龙，不符合locked_terms的要求，属于术语误译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5013,
+    "completion_tokens": 525,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5013,
+      "completion_tokens": 666,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 5013,
+      "completion_tokens": 525,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

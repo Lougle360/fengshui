@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T19:51:47.586277+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "89ecd0c95cb28f88f21c6d9e375dfba18c3615227c4ab402700bca576417d551",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003121-p000-eb1e2bd470",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003122-p000-ad5b10fc3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003123-p000-253657027e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文排版错乱、OCR识别存在偏差，候选释读对原文错位字词的修正无依据"
+        ],
+        "uncertainty": [
+          "原文存在文字错位，“人于幽只得退入”应为“入于幽谷”的排版错乱，“规”为“觌”的形近讹字，候选释读未明确标注该不确定性，且对原文的修正缺乏可靠依据"
+        ]
+      },
+      {
+        "id": "book016-b003124-p000-d2eccf9f81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1999,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1999,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

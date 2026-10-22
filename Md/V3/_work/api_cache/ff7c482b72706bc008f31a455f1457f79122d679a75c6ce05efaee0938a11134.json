@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T12:59:32.380586+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ff7c482b72706bc008f31a455f1457f79122d679a75c6ce05efaee0938a11134",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001008-p000-201934df55",
+        "modern_text": "文中提到‘此龍虎或一重兩重以玉交牙多重繼必前山之腳室中宜平’，其中‘玉交牙’‘多重繼’‘前山之腳室’等術語具體所指均不詳。",
+        "confidence": "medium",
+        "uncertainty": [
+          "玉交牙",
+          "多重繼",
+          "前山之腳室"
+        ]
+      },
+      {
+        "id": "book014-b001010-p000-87e0839c9c",
+        "modern_text": "原文存在OCR識別錯亂，無法確認準確含義，僅能識別出數字‘183’及部分零散文字‘也海兜必作案曲货式大’。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1347,
+    "completion_tokens": 208,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1347,
+      "completion_tokens": 208,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

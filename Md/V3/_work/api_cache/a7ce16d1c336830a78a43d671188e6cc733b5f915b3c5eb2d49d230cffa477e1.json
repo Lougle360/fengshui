@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T11:32:27.457398+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a7ce16d1c336830a78a43d671188e6cc733b5f915b3c5eb2d49d230cffa477e1",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000114-p000-e1c9c6b925",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「官一收」具體所指不詳",
+          "「立故」具體所指不詳",
+          "「百與三千維」具體所指不詳",
+          "「啟曰」具體所指不詳"
+        ]
+      },
+      {
+        "id": "book013-b000115-p000-0032bcde50",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate將原文中「宜奴倒左之陰外夫陰逆上而行」誤譯為「適合收取倒左的陰水。因爲陰逆上而行」，遺漏「奴」「外夫」等原文內容；「要申」原文為「要申癸三」，candidate遺漏「癸三」；「陰外水」原文為「陰外夫」，candidate誤譯為「陰外水」，與原文不符"
+        ],
+        "uncertainty": [
+          "「山龍人四名寶臨經徵肯火孫息也」具體所指不詳",
+          "「陰外夫」具體所指不詳",
+          "「要申癸三」具體所指不詳"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 302,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1296,
+      "completion_tokens": 302,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

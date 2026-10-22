@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-25T19:43:07.504829+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1ffd1484f1997de9fbfa53e5b364212c3884c96044964eb0b22d94cb902c46db",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001302-p000-3327c4cf3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "疑綠鑑以照地理的具体含义",
+          "钳口、风门、锁节丁文、金关石寮、龟印虹津、六相清英、六替千维的具体所指"
+        ]
+      },
+      {
+        "id": "book029-b001303-p000-9c4eeb552e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末句为“城門西 地理泰贊玄歲全書合卷六”，候选将“城門西”释为“框住西门”属于无依据的确定解释，且未保留原文断句处的含混性，存在误译；原文提及“晃孫”，候选释为“后代断绝”，“晃孫”语义未明，属于无依据臆测"
+        ],
+        "uncertainty": [
+          "断城法、车论域门、禽鬼、大小梅花、六建、三阳、三吉、三乂、财禄建金、城琊、禽曜兽星的具体所指",
+          "晃孫的准确含义",
+          "“玄歲”是否为“玄机”讹误",
+          "“城門西”的准确含义"
+        ]
+      },
+      {
+        "id": "book029-b001304-p000-199f9e02d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "金鱼帶、捍門、三殺水、天心、捲瓦空亡、倒貲黃泉、滴漏水、點水、樓臺皷角、牙刀嘴、數錢水、哭聲水、八字水、火城水、雌雄格局、玄機五局的具体所指",
+          "人荒臧的准确含义",
+          "原文“山出源在崑”是否漏“崙”字存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3847,
+    "completion_tokens": 447,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3847,
+      "completion_tokens": 447,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

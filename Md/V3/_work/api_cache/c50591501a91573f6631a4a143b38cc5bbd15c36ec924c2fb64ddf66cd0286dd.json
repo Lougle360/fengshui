@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:23:01.346278+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c50591501a91573f6631a4a143b38cc5bbd15c36ec924c2fb64ddf66cd0286dd",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000656-p000-1c9805077b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘一大十二’语义未完，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000658-p000-6f13f44926",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000659-p000-4e27f1274e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘安棺卧玉也正当蠹魄之心’语义模糊，未按原文准确释读，存在主观增改"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000660-p000-4b351f1de8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘凡’字语义未完，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2945,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2945,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

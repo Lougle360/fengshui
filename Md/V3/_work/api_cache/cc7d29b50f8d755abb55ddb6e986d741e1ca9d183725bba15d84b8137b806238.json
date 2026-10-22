@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-24T22:13:11.176668+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cc7d29b50f8d755abb55ddb6e986d741e1ca9d183725bba15d84b8137b806238",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000332-p000-5b39d1b8fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000333-p000-adc0f70533",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000334-p000-7479d15851",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文标题中的“出身”二字，标题释读不完整，与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000335-p000-e398118389",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“更于离祖察行踪”的“离”是动词，意为离开，候选错误将其标注为八卦之一的“离”，属于术语误释；原文“宏开阔帐而穿心出脉”候选释为“宏阔的帐幕从穿心处出脉”语序调整后含义有偏差，原意指龙脉从开阔的帐幕中心穿出，建议调整表述使语义更准确"
+        ],
+        "uncertainty": [
+          "原文此处“子微云：‘龙无星曜’”后内容残缺"
+        ]
+      },
+      {
+        "id": "book018-b000336-p000-b2597361db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到“指吉为”，属于内容残缺，候选擅自补出“凶，是非颠倒，祸福错乱了”，属于无依据增译，超出原文范围"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000338-p000-5d5ec9f1dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为前文“指吉为”的后续内容“凶，是非颠倒，祸福谬戾矣”，与前一段（book018-b000336）内容连贯，候选未承接上文，错误独立释读，且“这就会造成判断结果为凶”语义与原文“指吉为凶”不符，属于语义误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000339-p000-e4d9a291f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000340-p000-2214383695",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是刊刻卷端题名，实为“《绘图地理人子须知》（即重刊《人子须知资孝地理心学统宗》）卷二”，候选错误表述为“它又被重刊为”“以下是该书的第二卷”，与古籍题名的实际含义不符，属于语义误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000341-p000-a24efa8543",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000342-p000-23f4ceba30",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处内容残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3690,
+    "completion_tokens": 888,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3690,
+      "completion_tokens": 888,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

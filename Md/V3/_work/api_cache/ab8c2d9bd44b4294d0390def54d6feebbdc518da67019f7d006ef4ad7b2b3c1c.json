@@ -1,0 +1,135 @@
+{
+  "created_at": "2026-10-17T10:37:02.998726+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ab8c2d9bd44b4294d0390def54d6feebbdc518da67019f7d006ef4ad7b2b3c1c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003340-p000-e131af8894",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头'观察地势可以推知人的情况，而判断将来的变化，也可以用已经发生的事情来验证。'是凭空增译，source中无此内容。",
+          "'兄山位于巽向，坐乾穴'：source为'兄山巽向坐乾穴'，'兄山'可能是'兑山'的OCR错误，但locked_terms未包含'兑'，且candidate未标注此不确定性，直接释为'兄山'。",
+          "'穴位于二宫'：source为'穴二宮'，candidate释为'穴位于二宫'，但'二宫'具体所指不明，candidate未标注此不确定性。",
+          "'龙脉太乙盖向，坐人卦贪狼向，地支天医龙。'：source为'尽龙太乙盖向坐人卦贪狼向地支天医龙'，'尽龙'可能为'尽龙'或'尽龙'，candidate漏译'尽'字。",
+          "'分金方法使用辛酉气，从右侧运行注入并布设。'：source为'分金用辛酉气从右行注而布'，candidate将'布'释为'布设'，可接受，但'注而布'的'而'连接关系未体现。"
+        ],
+        "uncertainty": [
+          "'兄山'可能为'兑山'之误。",
+          "'二宫'具体所指不详。",
+          "'尽龙'含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b003341-p000-3fdfdbaf70",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003342-p000-ab6f407dbc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003343-p000-3677bbc0f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'坐人卦巨门向，地卦武曲。'：source为'坐入卦巨门向地卦武曲'，'入卦'可能为'人卦'之误，candidate直接改为'人卦'，但locked_terms未包含'人卦'，且未标注此不确定性。",
+          "'公金。'：source末尾为'公金'，candidate直接释为'公金。'，但'公金'含义不明，candidate未标注此不确定性。"
+        ],
+        "uncertainty": [
+          "'入卦'可能为'人卦'之误。",
+          "'公金'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003344-p000-a9f9586076",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003345-p000-a33c274fec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'坐人卦巨门向，地卦巨门。'：source为'坐人卦巨门向地卦巨门'，candidate释读准确，但'人卦'、'地卦'为opaque_terms，candidate未将其置于引号内或标注不确定性。",
+          "'葬蠣其乘'：source为'葬蠣其乘'，'蠣'字可疑，可能为'非'或'离'等字之误。candidate释为'如果葬法不是乘气'，将不确定的'蠣'直接解释为'不是'，属于将推测写成事实。"
+        ],
+        "uncertainty": [
+          "'人卦'、'地卦'具体所指不详。",
+          "'葬蠣其乘'中'蠣'字可能为错字，原文含义不确定。"
+        ]
+      },
+      {
+        "id": "book035-b003346-p000-7f7f00471a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'坐人卦巨门向，地卦巨门。'：source为'坐人卦巨门向地卦巨门'，candidate释读准确，但'人卦'、'地卦'为opaque_terms，candidate未将其置于引号内或标注不确定性。"
+        ],
+        "uncertainty": [
+          "'人卦'、'地卦'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003347-p000-752ea70c4f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'使正巽脉贯穿棺木进入左侧耳朵。'：source为'使正巽脈貫棺入左耳'，candidate增译'木'字（棺木），可接受，但'正巽脉'的'巽'与山向'震山'不符，可能为'震'脉之误，candidate未标注此矛盾或不确定性。",
+          "'人卦天医向，天卦巨门。'：source为'人卦天醫向天卦巨門'，candidate释读准确，但'人卦'、'天卦'为opaque_terms，candidate未将其置于引号内或标注不确定性。"
+        ],
+        "uncertainty": [
+          "'正巽脉'在'震山'语境下可能为'正震脉'之误。",
+          "'人卦'、'天卦'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003348-p000-9fde900fcd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'坐地卦武曲向，天卦巨门。'：source为'坐地卦武曲向天卦巨門'，candidate释读准确，但'地卦'、'天卦'为opaque_terms，candidate未将其置于引号内或标注不确定性。"
+        ],
+        "uncertainty": [
+          "'地卦'、'天卦'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003349-p000-f920bf393d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'坐人卦廉贞向，地卦贪狼。'：source为'坐人卦廉貞向地卦貪狼'，candidate释读准确，但'人卦'、'地卦'为opaque_terms，candidate未将其置于引号内或标注不确定性。"
+        ],
+        "uncertainty": [
+          "'人卦'、'地卦'具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3415,
+    "completion_tokens": 1404,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3415,
+      "completion_tokens": 1404,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

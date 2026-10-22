@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T07:11:06.661960+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "63f107560230e86f119c63e29b41cfcaddc6717966a59a07a26f753e3a0b7066",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000180-p000-fac37d1669",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陶公所謂頡起則時人曉會牽連非達士難言是也”翻译错误，原意为“龙脉突兀隆起的情况普通人能明白，龙脉牵连隐微的情况不是通达之士难以讲清”，候选翻译误将后半句合并为前半句，丢失“会牵连”对应的语义；“泥中藏欢”属于原文生僻表述，未标注不确定性直接直译不妥；“兩邊道送之水”翻译为“两侧的水”漏译“道送”的水流走势特征"
+        ],
+        "uncertainty": [
+          "“泥中藏欢”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book033-b000181-p000-d6a73773e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "古诗文句读错误，“龜魚螺蚌形宛如水中生”不应拆分；“水中自有真龍聚”前不应叠用“水中生”；“沒牛泗暗”语义含混未标注不确定性，直接直译不妥"
+        ],
+        "uncertainty": [
+          "“沒牛泗暗”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book033-b000182-p000-f564741244",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原OCR识别的“哭起”应为“突起”的讹误，候选翻译已修正但说明中提到“已按上下文语境保守改写”，但原文表述为“哭起支阜”未明确标注该讹误；“過度”应为“过脉”类风水术语，翻译为“过度”属于语义错误；不确定项中提到的“聞鉗”不属于本条原文内容，误加"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000183-p000-05957215ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000184-p000-fb294efbf2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000185-p000-45437d190e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": "该条目属于篇目名称类内容，应补充白话释义说明为“《论少祖》，江右山人所撰”，不应直接保留古文原文未作释读",
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000186-p000-b68bd378c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000187-p000-391d38d207",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": "该条目属于署名类内容，应补充白话释义说明为“（与前文作者）一同撰写”，不应直接保留古文原文未作释读",
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000188-p000-3f248aedff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原OCR“口用源流”翻译为“口用源流”未作合理修正，语义不通；“小則巍曰祖宗”语义含混，未标注不确定性直接直译不妥；杨筠松语“先尋霧氣哉正龍”句读错误，应标注为句读存疑"
+        ],
+        "uncertainty": [
+          "“巍曰祖宗”“口用源流”为OCR识别误差，具体原文无法完全确定"
+        ]
+      },
+      {
+        "id": "book033-b000189-p000-fa10c2df3b",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文“須穴祖宗”应为“须察祖宗”讹误，翻译为“必须以祖宗为依据”语义不准确；“又富於少祖”应为“又须于少祖”讹误，翻译为“又要丰富少祖”完全背离原文语义；“各八派”为OCR识别错误，无法明确语义；“不過 2一11口 能去”属于OCR残缺，直接保留无意义"
+        ],
+        "uncertainty": [
+          "原文存在大面积OCR识别残缺与讹误，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 1056,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3677,
+      "completion_tokens": 1056,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

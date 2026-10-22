@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-25T09:48:36.845727+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a970c90fb7e415aacf24ec424a5928886cd90cdeb71724e55460ca2447908f4e",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002606-p000-0ec7f1c3b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002607-p000-c5f9fa7fbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文无“原文作‘罚切如此’，应为‘恳切如此’”的相关依据，属于无依据的改字与增译，违反释读规则；“水泉”应符合allowed_glossary中“水”的定义，此处将“水泉”拆分为“水的泉脉”表述不准确，原文“穴中水泉之害”是指穴位中存在水与泉的危害，应保留“水泉”的对应释读且符合术语规范"
+        ],
+        "uncertainty": [
+          "洛河作为风水理气相关概念的具体含义未明"
+        ]
+      },
+      {
+        "id": "book018-b002612-p000-7d3e4ce406",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002613-p000-02826ba2cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002614-p000-cf140026e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2167,
+    "completion_tokens": 369,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2167,
+      "completion_tokens": 369,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

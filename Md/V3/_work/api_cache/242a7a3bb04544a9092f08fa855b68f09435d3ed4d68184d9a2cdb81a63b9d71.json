@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-18T12:02:10.854998+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "242a7a3bb04544a9092f08fa855b68f09435d3ed4d68184d9a2cdb81a63b9d71",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006479-p000-9ef470569e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'井二至觜'释读为'井宿第二度至觜宿（某度）'，但source原文'井二至觜'更可能指'井宿第二度至觜宿（第一度）'或一个固定范围，candidate的'某度'是过度不确定的推测，原文并未明示终点度数不详。",
+          "candidate将'申觜火猴'释读为'申、觜、火、猴'的组合，但原文可能是一个整体术语或对应关系，candidate的拆分和'对应关系'的表述是猜测，未提供依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006480-p000-c468c1616d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'庚畢月鳥'释读为'庚、毕、月、鸟的组合'，但原文可能是一个整体术语或对应关系，candidate的拆分和'组合'的表述是猜测，未提供依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006483-p000-ccef56d631",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'金甲心月狐'释读为'金、甲、心、月、狐的组合'，但原文可能是一个整体术语或对应关系，candidate的拆分和'组合'的表述是猜测，未提供依据。",
+          "candidate中出现'赠宿'，但source原文为'贈'，可能是'赠'的异体或通假，但'赠宿'并非标准二十八宿名称，此释读可能错误。应保留'贈'字并说明其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006486-p000-3db1f8f56a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'辛胃土雉'释读为'辛、胃、土、雉的组合'，但原文可能是一个整体术语或对应关系，candidate的拆分和'组合'的表述是猜测，未提供依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006487-p000-8e7b59db3a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'分野之次 辛酉 冀州清河縣令冀州中 山郡寅尾火虎尾十一至十三'释读为涉及多个并列名称和组合，但原文结构可能是在列举分野对应关系（如辛酉对应冀州，清河县令对应冀州中山郡等），candidate的释读过于松散，未能清晰传达这种可能的对应结构。",
+          "candidate中'寅尾火与虎的对应方式'的表述不准确，原文'寅尾火虎'更可能是一个整体术语（如星宿、五行、动物的组合），而非'寅尾火'与'虎'的对应。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 675,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1149,
+      "completion_tokens": 675,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

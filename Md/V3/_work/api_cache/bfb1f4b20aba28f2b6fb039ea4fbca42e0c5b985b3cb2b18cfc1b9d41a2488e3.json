@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:00:34.347327+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bfb1f4b20aba28f2b6fb039ea4fbca42e0c5b985b3cb2b18cfc1b9d41a2488e3",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000090-p000-c99f5ef099",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book011-b000091-p000-3ca2eb2355",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“杏阴阳印”“方光空制化法”“三合幣珠”的“幣”误译为“珠”，“倒中”未保留原表述且未标注歧义，“段倒”未处理，“八堂”未明确是否为风水术语，“一陽水龍”未明确是否为风水术语，“壬”“子”“甲卯”“乙辰”“丁未”“辛金局”“左出辰”“右来於卯”“於未出”“未宮”“方光空制化法”“漾射禄”“歸庫之水”“三合幣珠”“王天”均未标注为含混专名或保留原表述，存在将推测内容当作确定解释的问题"
+        ],
+        "uncertainty": [
+          "杏阴阳印、方光空制化法、段倒、八堂、一陽水龍、壬、子、甲卯、乙辰、丁未、辛金局、左出辰、右来於卯、於未出、未宮、漾射禄、歸庫之水、三合幣珠、王天的具体所指均不明确"
+        ]
+      },
+      {
+        "id": "book011-b000092-p000-bbcd7a6d82",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book011-b000093-p000-01fffd3450",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "品折的具體含義、御街在此處的具體所指，均不確定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2107,
+    "completion_tokens": 475,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2107,
+      "completion_tokens": 475,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

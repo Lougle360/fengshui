@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-15T02:49:06.338914+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d9d9a9a7068e90878363e7e78e5ab06182b8936df348fe87f758afc5a6393971",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001766-p000-48ae66d10d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格内容（如‘城背星火’、‘城背星金’等图示标签）解释为‘展示了不同星形背城的水法图示’，并列举了这些标签。这是对表格结构的解读，而非对表格内具体文字（如‘五星背城诗日’等）的释读。原文表格包含多行多列，有诗句、图示标签和独立评注（如‘土城土星水坊楊平而方年吉只一格’），候选句未能完整、准确地处理这些内容，存在漏译和误译。例如，未释读‘五星背城诗日方正横平號土城有凶有吉要詳明悠洋深瀦知為美事流嚮峻禍非輕’及‘土城土星水坊楊平而方年吉只一格’等文字。",
+          "候选句将‘事流嚮峻禍非輕’误写为‘事流响峻祸非轻’，‘嚮’应为‘向’或‘响’的异体，但‘响’在此处不通，应为‘向’（趋向）或‘嚮’（同‘向’）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001778-p000-fcc2e41b96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 347,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2077,
+      "completion_tokens": 347,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

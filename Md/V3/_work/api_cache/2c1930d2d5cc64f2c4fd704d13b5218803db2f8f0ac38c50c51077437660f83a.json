@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T10:22:50.777792+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2c1930d2d5cc64f2c4fd704d13b5218803db2f8f0ac38c50c51077437660f83a",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000732-p000-783408fff5",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "uncertain",
+        "modern_text": "此处为表格，表格内容存在多处残缺、错乱，无法完整释读。表格顶部标题为“年神從歲納音起者”，表格内包含“乾亥震艮離壬 乾亥水”“年尅山家”“子午年”“寅申年”“辰戌年”“乙庚年 兄丁已山丙乙”“先丁山”“丙辛年”“乾夾雜壬震艮水”“丙乾亥兄丁 冬至復尅”“震艮巳”“水土山”“戌”“乾奕先丁”“與乾亥先丁”“震艮離壬 戊癸年”“水土震艮”“上二層核每甲丙戊真壬者乃位甲年申寅年 甲申甲辰甲戌感其不丙字者乃休丙子丙午”“壬”“乾来先丁”“冬至後尅 乾吏兑丁”“丙寅西申南辰西成社題堰”“丑未年”“如酉年”“巳亥年”“月神隨四序者”“春夏”“秋 冬”“戊丑辰”“未”“四忌”“甲子丙子 八龍 2 鳥”“庶子壬子 九虎”“四窍”“乙亥丁夾辛亥”“癸亥”“四耗”“壬子夘戊午辛酉”“四廢”“庚申辛酉壬子癸女甲寅卯丙午丁巳”“五虛”“巳酉丑申子辰亥卯未寅午戌”“丁五丁巳甲辰甲申丁未丁亥甲戊甲寅”“月神從月音起者”“月尅山家”“正二三四五六七八九十十十八風”“山兌丁丙し”“乾亥震艮 甲己年 兌丁已山”“水土乾夾離壬”等内容，部分文字无法识别或含义不明。",
+        "confidence": "low",
+        "uncertainty": [
+          "表格内多处文字残缺、错乱，部分内容无法释读"
+        ]
+      },
+      {
+        "id": "book010-b000734-p000-17016a7760",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "坐煞、向煞，对应八山，还有翎毛禁向、六害陰中太歲陰中煞、小耗淨攔煞。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000735-p000-078ae0f7da",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处文字残缺、错乱严重，无法完整释读，仅能识别出“孝龙当公黑星明堂天刑蚩尤黑星”“震丙戌”“震戊辰”“震戊辰”“震”“震”“震”等零散内容，其余文字无法确认含义。",
+        "confidence": "low",
+        "uncertainty": [
+          "文字残缺、错乱严重，无法完整释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2851,
+    "completion_tokens": 726,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2851,
+      "completion_tokens": 726,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

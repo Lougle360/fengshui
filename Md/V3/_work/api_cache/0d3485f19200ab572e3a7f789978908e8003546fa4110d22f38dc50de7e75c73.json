@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T08:40:18.656576+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0d3485f19200ab572e3a7f789978908e8003546fa4110d22f38dc50de7e75c73",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000244-p000-e4d83f8e70",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在断句错乱、文字残缺问题，语义不通顺，无法进行准确的白话释读"
+        ],
+        "uncertainty": [
+          "原文语句残缺，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book008-b000245-p000-0b047c4d53",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在文字错乱、语义不通问题，部分内容难以准确解读"
+        ],
+        "uncertainty": [
+          "原文语句混乱，部分内容无法明确其确切含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1586,
+    "completion_tokens": 158,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1586,
+      "completion_tokens": 158,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

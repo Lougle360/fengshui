@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-25T03:09:58.180446+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "772c065188ea5ce9124e01496d6e0e99c15c5ff285d6b0a8cf6678f0a4f49068",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000027-p000-d010e23c84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文书名与注释类内容混称为“引用书籍”不符合原文结构：原文每行列的是“典籍名+对应注本/阐释著作名”的对应组合：《玉尺经》对应董氏明旨、《混元子》对应吴公解义、《灵辖经》对应廖公泄天机、《白龙记》对应入式歌，候选释读未体现这种对应关系，错误拆分组合后笼统列为并列的8种书籍，与原文表述结构不符。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 792,
+    "completion_tokens": 160,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 792,
+      "completion_tokens": 160,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

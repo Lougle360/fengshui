@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-26T10:03:46.279746+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c1a482b4f07f18103ce92a5338b3e79cd832e426496cd86f0fb69faee0ad44ed",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000775-p000-66e0885bb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“横脉宜審龍来左”为未完成语句，candidate未明确标注该截断情况，易使读者误以为释读完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000777-p000-5ce1e55bc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“分晚”为“分明”讹写，“疑聚”用字保留原字，含义为凝注聚集"
+        ]
+      },
+      {
+        "id": "book033-b000778-p000-eb5bc54957",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“畫”为“盡”讹写，“哀”为“衰”讹写"
+        ]
+      },
+      {
+        "id": "book033-b000782-p000-de01538d8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“婆单”为风水专用术语，具体含义未明；“一脚转大”的“大”疑似讹字，原文保留"
+        ]
+      },
+      {
+        "id": "book033-b000784-p000-772c14777e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“两挫鸞環”为原文原词，candidate未将该短语加引号保留原表述，直接默认为正确表述释读，不符合对不确定内容的处理要求"
+        ],
+        "uncertainty": [
+          "“两挫鸾环”的“挫”疑似“掬”讹写，原文保留；“囿”为“圆”的讹写"
+        ]
+      },
+      {
+        "id": "book033-b000787-p000-db53b13ad7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乐亦所形”存在残缺，candidate自行释为“乐也会随形态调整”属于无依据增译；原文未提及“整体”相关表述，“整体形体虽然偏斜”的“整体”属于多余增译"
+        ],
+        "uncertainty": [
+          "“弦校分明”的“校”为“棱”讹写；结尾“平面水星穴俗”为原文截断，语意未完；“乐亦所形”原文存在残缺，语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3884,
+    "completion_tokens": 622,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3884,
+      "completion_tokens": 622,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

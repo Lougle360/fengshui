@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:38:06.340393+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8c5464b40c787c2f21a9250c2159e6064dfe62a3ccf16219a231a738e956f244",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000877-p000-bfc86c0616",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "遇到坎卦，出现坤卦，数字为0，对应3D零数，与丑、女、男相关，寄灵于坤卦，兴于乾卦，对应数字30、八。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“3D”“零”“丑”“女男”“寄灵”等表述含义不明，“兴乾30八”的数字对应关系无法确定"
+        ]
+      },
+      {
+        "id": "book010-b000878-p000-a47a07d2a6",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "离卦需依照后天八卦的方位，才能与洛书的数字相契合。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000879-p000-33144a8169",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这是依照《时宪书》所记载的三元九宫，也与王肯堂《笔尘》中记载的以人命论住宅的说法相符合。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000880-p000-7b6f724ec4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "艮、震、巽、离、坤、兑卦，对应天玉、福、绝、延、生、官、坎，五行中的生、建、绝被称为六，艮、震、巽、离、坤、兑的说法，元光、天、离、六、震，生艮、祸、乾、生坤，天、六、雄、延、震、亚、坎，金、尘、还、艮、施、就、祸、坤，能、震、延、坎、绝、免，翼、秘、艮、五、乾，龙、离、生、震、天、坎，天、坤、天、巽、六、艮，巽、还、乾、五、却，五、翼、绝、艮，生数、坤、坎、五、复、坤、兑。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文语句零散、多处表述含义不明，无法梳理出完整通顺的语义，仅按原顺序保留可辨识的卦名及零散术语"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1853,
+    "completion_tokens": 652,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1853,
+      "completion_tokens": 652,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

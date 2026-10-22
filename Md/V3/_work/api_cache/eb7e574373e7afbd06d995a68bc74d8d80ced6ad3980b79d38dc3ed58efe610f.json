@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T12:40:04.823553+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "eb7e574373e7afbd06d995a68bc74d8d80ced6ad3980b79d38dc3ed58efe610f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000846-p000-55e193e29d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000848-p000-c76dec3810",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句存在残缺，部分内容无法明确释义"
+        ]
+      },
+      {
+        "id": "book014-b000849-p000-5bc5e55eb3",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "\"虚面之禅\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000851-p000-891bc259b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1621,
+    "completion_tokens": 245,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1621,
+      "completion_tokens": 245,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

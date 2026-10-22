@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-25T12:51:06.028794+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3be5fb700162442b52f1bf9b5453a12f0ced597e2192125b8ec874c69204cba8",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000376-p000-a556886d39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘五六二’表述有误，易卦爻位无‘五六二’的说法，原文该位置为‘六二’，candidate误保留为‘五六二’；原文‘大五’表述也不符合易卦爻位命名规则，原文该位置为‘九五’，candidate未指出该表述异常直接沿用，且对‘耳才’‘子無’‘虎弟’‘震向夫 庚’这些含义不明的短语未做风险标注，直接释读为确定表述不符合要求"
+        ],
+        "uncertainty": [
+          "‘五六二’‘大五’不符合易卦常规爻位命名，疑似原文讹误；‘耳才’‘子無’‘虎弟’‘震向夫 庚’具体含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000380-p000-3bf61b9849",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "見萬具体所指不详",
+          "六癸百兄卯亥未全存在识别误差，具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 978,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 978,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

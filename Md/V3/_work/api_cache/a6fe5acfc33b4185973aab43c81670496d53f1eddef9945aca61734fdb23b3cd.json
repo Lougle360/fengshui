@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T08:17:11.856814+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a6fe5acfc33b4185973aab43c81670496d53f1eddef9945aca61734fdb23b3cd",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000125-p000-7921a9051d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book008-b000126-p000-784eafca80",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的推测性表述（如“居心区大”“振薄区大”“脉粗纯”“求其辞薄之处”“势行则帝亲”等）直接作为确定事实释读，存在无依据扩写问题；将“弦伎”误释为“弦棱”，属于专业术语误换；“组关”未按要求保留原词，被赋予确定含义，不符合规则"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1901,
+      "completion_tokens": 200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

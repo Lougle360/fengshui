@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T10:13:57.661446+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "94af4b8363db64348d0ffa4ea616eb5ede3f738a4797095f59316d3573e4e470",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000626-p000-bfd4dc76a7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存疑的‘退斯鎮’‘午丁’‘炙退’‘死灸’‘告君子癸’等内容强行释为具体方位，属于无依据扩写；‘脩蓋’未明确释读，‘申酉成’应为‘申酉戌’的讹误未修正；‘退者退山不退向’‘三殺者可向不可坐’中‘向’的术语使用虽符合定义，但原句语义混乱未梳理"
+        ],
+        "uncertainty": [
+          "原文存疑的‘退斯鎮’‘午丁’‘炙退’‘死灸’‘告君子癸’具体所指不详，释读时应标注为‘原文未明’"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 197,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1062,
+      "completion_tokens": 197,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

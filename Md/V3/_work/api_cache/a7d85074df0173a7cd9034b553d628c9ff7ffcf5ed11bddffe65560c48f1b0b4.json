@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:40:21.051911+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a7d85074df0173a7cd9034b553d628c9ff7ffcf5ed11bddffe65560c48f1b0b4",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003003-p000-8bc684f1ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003004-p000-4e4a1cb5c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003005-p000-7d9f5aff95",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003006-p000-dee70210fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将《象》曰的原文与译文内容混排，打乱了原文的表述顺序，存在内容错位问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1657,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1657,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

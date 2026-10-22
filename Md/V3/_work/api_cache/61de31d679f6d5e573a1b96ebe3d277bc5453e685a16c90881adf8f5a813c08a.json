@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-25T00:01:55.351817+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "61de31d679f6d5e573a1b96ebe3d277bc5453e685a16c90881adf8f5a813c08a",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001374-p000-e066a23287",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "令内是情水产言空的配合所指不明，公音喜公天玉的具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001377-p000-cd31648caf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中残留的日文假名“ろ”“ね”“わえる”“の”“れ”“に”“ちる”具体含义不明，“东印侯修”“注佚批花”“云手哉”所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001378-p000-de8a517d09",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“糾體用之別”的“糾”未准确释读，候选释为“辨明”与“糾”的含义不符；原文“安徘门”应为原文原词，候选保留该写法无误，但“地理辦正真诀”的“辦正”释读为“辨别出正确的”属于过度引申，原文“辦正”应为“辨正”之意，应保留原义的模糊性，不应直接认定为“辨别出正确的”"
+        ],
+        "uncertainty": [
+          "“明字氏”“安徘门地理”的具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001382-p000-93f131cec5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不需要隆山路路尋龍脈世”的“隆山”未明确标注语义不明，候选直接使用“隆山”未做风险提示；句末“世”字候选仅标注未明确语义，但应说明属于原文语序或讹误，不应直接保留在通顺的释读语句中，应调整为“相传懂得这个口诀就不需要翻山越岭到处寻找龙脉了（原文句末有“世”字，语义不明）”"
+        ],
+        "uncertainty": [
+          "“天般_即运盘”“山水星も星即是主主接”具体含义不明，“隆山”语义不明，句末的“世”字未明确语义"
+        ]
+      },
+      {
+        "id": "book017-b001385-p000-4b14180b23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“如果生經動即必追帝自未，充死靜則必凶得雲去”语义完全不明，候选直接将其作为确定释读内容，未明确标注该部分属于无法准确释读的内容，违反了含混内容不得写成确定事实的规则；“山头州定空大去”“生八立门”语义不明，候选未做风险提示直接使用，属于问题"
+        ],
+        "uncertainty": [
+          "原文中的日文假名“の”“ノ”具体含义不明，“三六儀九是の靈人皆”“生八立门”“山头州定空大去”“玄今之理”“州諸多作以福遠凶”“追帝自未”“充死静则必凶得雲去”的具体语义均不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2050,
+    "completion_tokens": 875,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2050,
+      "completion_tokens": 875,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T13:20:39.429695+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d410e80879b2d8b0a8a0c351a9a0b7196fbcf25f35602e2f0f48dee7dd06eef5",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000052-p000-424aaaa36a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000053-p000-cab148b517",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000054-p000-dc2748b30a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000055-p000-6b5f6b6d9c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对locked_terms「五行」「水」的释义超出allowed_glossary规定的范围，原文未明确「五行」「水」的具体所指，不得擅自添加额外释义"
+        ],
+        "uncertainty": [
+          "原文未明确「五行」「水」的具体所指，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1432,
+    "completion_tokens": 253,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1432,
+      "completion_tokens": 253,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

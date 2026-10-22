@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-24T22:49:26.471515+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5af5cd9c1bcfe35bef17293854c55e83b97a1dc18fa8c75e8d023942973c2c45",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000845-p000-fdcb30c492",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“諾自提網習領經結其意”被完全错译，candidate释义与原文内容完全不匹配，无对应依据。"
+        ],
+        "uncertainty": [
+          "原文表述晦涩，无上下文辅助确认准确含义。"
+        ]
+      },
+      {
+        "id": "book017-b000847-p000-197a3ee5bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“父母下三去指排能出星”被错译为“父母下三去排定後，所有星曜皆為吉星”，“指排能出星”的含义未准确体现；原文“八且向百未水不出卦”被错译为“即使百条水都不出卦”，“八且向百未”的内容完全漏译且逻辑被篡改；原文“即得天地自然而成之佳擇”的“即得”被错译为“也能得到”，逻辑关系反转。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000848-p000-28e0d4c0a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“即顏例顏之空起父母之三般”被错译为“是顏例的空起父母三般卦”，“顏之空起父母之三般”的表述被简化，丢失原文信息；原文“此以明言外謂”被错译为“這是明確說出，言外之意是”，含义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000849-p000-194260b1d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乃大告之局”被错译为“属于完全错误的说法”，无依据；原文“书牟未所见地仰認为大去之速云揆宅主人破敗衰絕之雙己有七八宗”被错译为“是我从来没有见过的谬论。有人认同‘大去之速’的说法，称使用这种方法会导致住宅主人破败衰绝，相关的案例已经有七八宗”，“书牟”“地仰”“揆”“雙”等内容均无对应释义，属于主观臆测；原文“1八1 一 八 一”未做标注直接引用，未说明属于原文乱码；原文“堂俗佳之三般卦即”被错译为“和世俗流传的所谓三般卦根本不是一回事”，含义完全偏离。"
+        ],
+        "uncertainty": [
+          "原文存在语序混乱、字符残缺问题，部分语义无法准确确认。"
+        ]
+      },
+      {
+        "id": "book017-b000851-p000-865bde8bb6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“七運”，candidate擅自增译该内容，无依据；原文“九官星星達起”被错译为“九宮星曜達起”，“九官”与“九宫”术语不符，且“星星達起”的含义未准确释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000852-p000-70d3413302",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文本存在字符OCR识别错乱，无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b000853-p000-b955cc4cc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000854-p000-018efc5869",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其上山下れ即可如 o乾山巽白同例”被错译为“其上山下即可如乾山巽向（八卦之一，卦象及五行、方位依原文语境确定）、巽山乾向（八卦之一）的同例”，原文的“れ”“o”“白”等内容未标注说明，且擅自增译“巽山乾向”，原文无相关表述；“乾”“巽”的术语注释位置错误，不应标注在“乾山巽向”“巽山乾向”之后。"
+        ],
+        "uncertainty": [
+          "原文存在不明字符，部分语义无法确认。"
+        ]
+      },
+      {
+        "id": "book017-b000855-p000-9d26042521",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“且言之M謂三般卦局”中的“M”未标注说明属于识别错误；原文“九富”被错译为“九宮”，术语不符。"
+        ],
+        "uncertainty": [
+          "原文存在识别错误字符“M”，含义不明。"
+        ]
+      },
+      {
+        "id": "book017-b000857-p000-fcf0cb7429",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2278,
+    "completion_tokens": 1275,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2278,
+      "completion_tokens": 1275,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

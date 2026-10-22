@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-25T21:02:59.572838+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4f66bdbaac9d15e8681d83a3c385a45b50fe281d303d4b637db92f9b2bf3d159",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000890-p000-ed1112d1ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量语义未明内容，“婚蔣微祥發其同課”“愛業庠”“玉書家訂”均无明确可证释义，候选无依据补出“与我是同学”“我们彼此订交”等内容，属于无依据增译，且漏译原文“婚”“發”“愛業庠”等信息"
+        ],
+        "uncertainty": [
+          "原文语义含混，无法准确释读"
+        ]
+      },
+      {
+        "id": "book030-b000891-p000-169330ce2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000892-p000-c2a2d88cfa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“初未腰分皆可作”被误译为“最初、中间、末尾的段落都可以作为安葬的位置”，漏译“分落”，且“四落”是风水专有概念，并非普通“段落”；原文“局勢必須完完半聖豈寬字爲妙”被误译为“局势必须完整，以‘完’字为妙”，完全错译“半聖豈寬”内容；原文“大盡非風吹水刼門饑彌單傳故喜素雄”被误译为“大尽并非指风吹水劫、门庭狭小、单传一脉的情况，因此以‘雄’字为喜”，错译“門饑彌”“素雄”含义；原文“豈有不貫由的”被误译为“并非所有气脉不贯穿的情况都不可用”，语义完全相反，原文是反问“哪里有气脉不贯穿还能取用的”"
+        ],
+        "uncertainty": [
+          "原文“半聖豈寬”“門饑彌”“素雄”等表述具体所指需结合风水专业文献进一步确认"
+        ]
+      },
+      {
+        "id": "book030-b000893-p000-873d420b88",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000895-p000-4ab4372ebb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾残缺，内容不完整"
+        ]
+      },
+      {
+        "id": "book030-b000896-p000-b5ff731636",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“縣穴”应为“悬穴”的通假或形近讹字，属于风水术语，候选误写为“县穴”，术语翻译错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000897-p000-291903d829",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“直來而捷背者名順結”中的“捷背”未准确释读，候选直接保留“有捷背”属于未完成白话转换"
+        ],
+        "uncertainty": [
+          "“捷背”为风水专属表述，具体含义待考"
+        ]
+      },
+      {
+        "id": "book030-b000898-p001-4a93e177fd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是图的标题“斜受闪结图”，为古籍自右向左的书写顺序，候选错误拆分单字释读，完全误解原文含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000903-p000-20967c4a94",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“債結”为讹字，候选误改为“横结”；原文“不圖形同”被误译为“与……所说的情形相同”，语义完全相反，原文是“不要（认为）形态相同”"
+        ],
+        "uncertainty": [
+          "“債結”具体对应何种风水结法待考"
+        ]
+      },
+      {
+        "id": "book030-b000904-p000-0518b7dc44",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“端救人卷田歸”语义未明，候选无依据认定为《端救人卷》“田归穴”，属于无依据增释"
+        ],
+        "uncertainty": [
+          "原文“端救人卷田歸”表述含混，无法确认是否为书名、篇名及具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2230,
+    "completion_tokens": 1163,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2230,
+      "completion_tokens": 1163,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

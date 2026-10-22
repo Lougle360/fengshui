@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T21:59:19.349413+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d76691321e72fcfb38add44e9d32c74c79f409188afa8c35965b8928525f5975",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000032-p000-7dd71bf192",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000034-p000-d16c387ff7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是“地理通天”，译文仅译为“贯通地理”，漏译了“通天”的含义，与原文表意不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000035-p000-427e4f5dd9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000036-p000-f99702704a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“九個星辰行日月”译文为“九个星辰运行于日月之间”属于无依据增译，原文未提及“之间”的方位表述；原文“三回天地定乾坤”译文“循环三次天地便确定了乾坤”表意不够准确，“三回”的具体所指原文未明，不应直接释为“循环三次”"
+        ],
+        "uncertainty": [
+          "“三回”的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book031-b000037-p000-123b85088a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“三回天地逆滿乾坤”译文“循环三次天地便逆合乾坤”表意不准确，“三回”“逆滿”的具体所指原文未明，不应直接释为“循环三次”“逆合”"
+        ],
+        "uncertainty": [
+          "“三回”“逆滿”的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book031-b000039-p000-cd5076e48b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“河圗慶為洛書”译文为“河图又化为洛书”，“慶”字含义未明，此处直接释为“化”属于无依据推测；原文“而成十道”译文沿用“十道”但未标注歧义，“十道”具体所指原文未明确"
+        ],
+        "uncertainty": [
+          "“慶”的具体含义、“十道”的具体所指原文未明确说明"
+        ]
+      },
+      {
+        "id": "book031-b000040-p000-cc392d9020",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“真龍出入左右秋持”译文为“真龙出入左右如同秋季持守”，“秋持”含义未明，此处释读属于无依据推测"
+        ],
+        "uncertainty": [
+          "“秋持”的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book031-b000042-p000-707c070b5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000043-p000-0e61e600a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "后天八卦的注释误用了“先天”的术语解释，allowed_glossary中“先天”的定义是“术数中表示先天卦序或本体关系的概念”，不应套用于后天八卦的注释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000045-p000-81b6e5e298",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“六七八九十節是一二三四五”译文为“六七八九十节就是一、二、三、四、五”，“節”的具体含义未明，此处释读不准确；原文“度化無數個一二三四五”译文断句错误，将“度化”拆为“一二三四五度”“化”，与原文语义完全不符；原文“自有先後八卦合數之根苗”译文为“自然也是先后天八卦合数的根由”，“根苗”误译为“根由”，且擅自添加“天”字将“先后八卦”改为“先后天八卦”，与原文不符"
+        ],
+        "uncertainty": [
+          "“節”的具体含义原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3701,
+    "completion_tokens": 1101,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3701,
+      "completion_tokens": 1101,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

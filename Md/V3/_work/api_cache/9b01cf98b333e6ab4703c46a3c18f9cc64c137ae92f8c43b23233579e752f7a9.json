@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T05:37:06.872792+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9b01cf98b333e6ab4703c46a3c18f9cc64c137ae92f8c43b23233579e752f7a9",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000102-p000-b8d50f39c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“刑祸之方缩复缩，犹恐灾殃枉相逐”被误译为“刑祸方位若一再缩小，还是怕灾殃会无端降临”，语义相反：原文本意为刑祸方位要尽量缩了又缩，即便如此尚且怕灾殃无端找上门，并非“一再缩小还怕灾殃”的错误逻辑；原文“至微不消，厚福所临也”被误译为“即使有厚福也难以留存”，语义相反：原文本意为（福德方拓展适度的话）哪怕极微小的福分也不会消损，是厚福降临的表现；原文未对“刑祸之方戒侵拓也……所临也”这段注文加括号闭合，候选释读将该段注文末尾与后续原文一同纳入括号闭合，存在范围错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000103-p000-70dfd2a41f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000104-p000-fe94a71770",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故为受殃”被误译为“这样才能承受福运”，语义完全相反：原文本意为如果衰败了还不迁移就会遭受灾殃；原文“计口半造”被误译为“按照人口数量减半建造住宅”，表述不准确：应为“根据人口数量的需求来建造房屋，不用造过大的”，并非严格按人口数减半的标准建造"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000105-p000-95601978df",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文仅截取到“得利者所作”，句子不完整，没有后续内容支撑，无法准确释读完整语义"
+        ],
+        "uncertainty": [
+          "原文为不完整的截断句，完整含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2212,
+    "completion_tokens": 498,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2212,
+      "completion_tokens": 498,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

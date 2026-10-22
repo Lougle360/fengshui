@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T18:10:46.610836+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "247a6394da321369f3fdfac5ed595b4b7fd6701cf1bebf3d51a495b63a574a0e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001739-p000-5f0c1ca94a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“终无尤也”的“尤”指过失，释读准确"
+        ]
+      },
+      {
+        "id": "book016-b001740-p000-0b96e61f2d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001742-p000-25ab6d4f5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中存在两个注释标记，未附注释内容，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 184,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1238,
+      "completion_tokens": 184,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

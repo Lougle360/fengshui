@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-15T04:36:19.152174+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "136bc62bbb75aaa45605d906478d218122114981cb01f453a4438b7046cebe3b",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001896-p000-7a63b347d7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘载来下硬’解释为‘载’字可能是讹误，并标注‘具体所指不详’。但原文‘载来下硬’与前句‘硬来下软’结构对称，应为‘（山势）载（重、厚）而来，则点穴于坚硬处’之意，属于对仗句式的风水术语。candidate的推测性解释（讹误）缺乏依据，且未提供原文短语的直接引用。",
+          "candidate将‘宽处要官’解释为‘官’字含义不明。但‘官’在风水术语中常指‘官星’或‘官鬼’，此处可能指‘宽处要（有）官（星）’。candidate仅标注不明，未引用原文短语‘宽处要官’，也未说明其可能为术语。",
+          "candidate将‘员取其失，尖取其负’解释为‘失’、‘负’字含义不明。但‘员’通‘圆’，‘失’可能通‘室’或‘实’，‘负’可能指‘背负’或‘依附’。candidate仅标注不明，未引用原文短语，也未说明其可能为对仗术语。",
+          "candidate末尾‘舒’字未译完，与下一段开头‘旷处要紧夹’断开，导致语义不完整。应注明此处原文未完，或与下一段合并处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001898-p000-3fda8274cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头‘旷处要紧，夹紧处要舒旷’与上一段末尾‘舒’字衔接，但未说明原文的连续关系，且‘夹紧处要舒旷’的‘舒旷’与前文‘舒’字重复，可能断句有误。原文应为‘舒旷处要紧夹，紧夹处要舒旷’，candidate的断句导致对仗结构丢失。",
+          "candidate将‘无气无龙须下有龙’断句为‘无气无龙须下（此处...）有龙则...’，并加入推测性解释。但原文应为‘有气要扦无气，无龙须下有龙’，即‘有气时要扦在无气处，无龙时须向下寻有龙处’。candidate的断句和解释改变了原意，且未引用原文短语进行风险标注。",
+          "candidate将‘刚取其柔，柔取其刚’置于‘有龙’之后，但原文‘有龙’二字可能为衍文或与前句连读。candidate的处理使语义关系不清晰，且未说明原文的歧义。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 613,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1607,
+      "completion_tokens": 613,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

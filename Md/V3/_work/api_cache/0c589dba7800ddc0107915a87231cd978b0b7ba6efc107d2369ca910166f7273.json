@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T17:03:25.025772+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0c589dba7800ddc0107915a87231cd978b0b7ba6efc107d2369ca910166f7273",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000614-p000-7b63ca3ec8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中「水」的定义为风水语境中的相关内容，但此处《本义》中「泉，水之始出者」的「水」并非特指风水语境的水，属于术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000615-p000-23b0cb3139",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中「水」的定义为风水语境中的相关内容，但此处两处「水」均非特指风水语境的水，属于术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000616-p000-0f9b86b5aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000617-p000-3591e2e206",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1656,
+    "completion_tokens": 309,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1656,
+      "completion_tokens": 309,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

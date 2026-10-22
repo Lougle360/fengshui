@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-10-04T10:09:57.276395+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dc9217b3dff280db8cb49f9a0a8f122ba0fbbd430929a62c13e7eb3d9f3595f2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000640-p000-7225d66e2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000641-p000-d87951ab5f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'稱龍'在句末，译文将其译为'所以称龙'并作为完整句子，但原文此处明显脱漏或错乱，译文不应将其处理为确定结论。应标注原文此处可能不完整。",
+          "原文'餘益也滿擬也'，译文将'擬'译为'拟'，但'拟'在此处含义不明，应保留原文'擬'并标注其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000642-p000-6cace5bbe6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'左縫謂這銳虎'，译文处理为'左缝具体所指不详'，这是正确的风险标注。但随后'要看何邊先到及左右長短強弱生死微著有情無情'，译文直接将其与'左缝'的判断标准连接，原文逻辑关系不明确，译文不应建立这种确定的解释关系。",
+          "原文'強而死者則 家賓經曰'，译文将'則'字忽略，直接引用《家宾经》，改变了原文的承接关系。",
+          "原文'相誠之弱而生者則之左過小有情'，译文直接将其作为《家宾经》引文的一部分，但原文此处文字错乱严重，译文不应将其作为确定的引文内容进行翻译，应标注原文错乱，含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000643-p000-fc8c2a51fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000644-p000-b6a45253df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000645-p000-43e7eab91b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对原文进行了大量重构和增补，超出了释读范围，变成了基于推测的意译。例如，原文'宜宜 挨取 左 則關 内鎖 乘交 氧固 于此 右陰 而鎖 外陽 迎關 水之 謂 也'，候选句释为'宜于左边，则内乘气于左而外迎水于右，这叫阴锁阳关'，其中'乘气于左'、'迎水于右'、'阴锁阳关'等关键解释在原文中并无明确对应，属于无依据的扩写。原文'必 鐘 關于右'，候选句释为'钟关于右'，'钟'字的含义不确定。原文'山水當面特來朝者關鎮雖順何防水遇宮橫棟者關鎮須逆爲善'，候选句断句为'山水当面特来朝者，关镇虽顺，何防水遇宫横栋者？关镇须逆为善。'，将'何防'理解为'何妨'，并将'横栋'改为'横栋'，虽属合理推测，但改变了原文用字。原文末句'禍福有'明显残缺，候选句直接截断，未做任何标注。"
+        ],
+        "uncertainty": [
+          "原文存在严重错乱、脱漏和疑似错字（如'氧固'、'鐘'、'棟'），导致无法进行准确、完整的白话释读。"
+        ]
+      },
+      {
+        "id": "book035-b000646-p000-b938aba042",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000647-p000-91ecb62cae",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'人各姓人'，译文照搬为'人各姓人'，未作任何处理。根据上下文，此处应为'人各姓不同'或类似含义，但原文错乱。译文应标注此处原文可能错乱，含义不明，而不是直接保留不通的句子。",
+          "原文'善异'，译文照搬为'善异'，未作处理。应标注此处原文可能错乱。",
+          "原文'番择'，译文照搬为'番择'，未作处理。根据上下文应为'审择'或'抉择'，但译文未作说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000648-p000-9566c2eb9b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'妍媸魂好'，译文改为'妍媸好恶'，这是合理的推测性修正，但应标注原文为'魂好'，推测为'好恶'。",
+          "原文'比的當知所趙避爲是'，译文将'趙避'直接译为'趋避'，未标注原文用字。应标注原文为'趙避'，可能为'趋避'之误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000649-p000-d2946ceddf",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文严重残缺且关键词语义不明（'变熊'、'魂'），无法进行可靠的保守释读。译文'变熊'、'魂'的保留无法让读者理解。"
+        ],
+        "uncertainty": [
+          "原文'变熊'、'魂'含义不明，且句子不完整，无法确定原意。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 413,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3252,
+      "completion_tokens": 1191,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1206,
+      "completion_tokens": 413,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

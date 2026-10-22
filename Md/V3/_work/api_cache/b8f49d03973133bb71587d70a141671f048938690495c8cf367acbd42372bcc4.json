@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:54:47.392636+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b8f49d03973133bb71587d70a141671f048938690495c8cf367acbd42372bcc4",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003162-p000-2b6bbf07e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003163-p000-af5622f355",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处内容未完整，《王注》的引文仅有开头，下文缺漏"
+        ]
+      },
+      {
+        "id": "book016-b003164-p000-92147f0660",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003165-p000-c71c812408",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1965,
+    "completion_tokens": 215,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1965,
+      "completion_tokens": 215,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

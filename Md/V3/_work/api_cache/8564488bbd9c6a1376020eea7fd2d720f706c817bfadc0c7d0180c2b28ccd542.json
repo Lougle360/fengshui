@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T16:48:39.365702+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8564488bbd9c6a1376020eea7fd2d720f706c817bfadc0c7d0180c2b28ccd542",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004109-p000-7ccd208d48",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'右夺秀鬼星文章科名荣显福寿貴而且富文在中其 明  主文年名學'，candidate将其拆分为两部分，并将'文在中其 明  主文年名學'整体标注为'文字残缺且排版特殊，具体所指不详'。但原文'文在中其 明  主文年名學'与前半句'右夺秀鬼星文章科名荣显福寿貴而且富'在语义上可能连贯，candidate的断句和解释可能割裂了原文，存在漏译风险。",
+          "candidate将'如石笋石尖鋒穎火明而'释读为'如石笋石尖，锋颖火明而'，并标注'句子未完'。此处理可接受，但'锋颖火明而'的释读稍显生硬，'锋颖'与'火明'的并列关系不够清晰。"
+        ],
+        "uncertainty": [
+          "原文'文在中其 明  主文年名學'的确切含义和句读。",
+          "'锋颖火明而'的具体所指及后续内容。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 686,
+      "completion_tokens": 288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

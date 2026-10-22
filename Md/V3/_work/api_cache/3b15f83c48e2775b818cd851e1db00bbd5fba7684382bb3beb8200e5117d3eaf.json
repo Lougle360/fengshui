@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T14:42:55.109754+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3b15f83c48e2775b818cd851e1db00bbd5fba7684382bb3beb8200e5117d3eaf",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000067-p000-1d33bee159",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000068-p000-d40db06bfe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000069-p000-1fae862381",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000071-p000-74809e2ca0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000072-p000-f592286926",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000073-p000-8b6727c525",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“三節四鄭不生水”，candidate误写为“三节四邻都不生水”，“鄭”字未核实就擅自改为“邻”，属于无依据改动原文内容；原文“有金無水祿存星寺觀廟神靈”，candidate译为“会有寺观庙神的神灵作祟”，原文未提及“作祟”，属于无依据增译含义"
+        ],
+        "uncertainty": [
+          "“三節四鄭”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000074-p000-5614598f86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“量金須用口金魚”，candidate直接保留未作符合普通读者理解的白话释读，也未标注该短语含义不明；原文“窩口休尋踏高犯天罡殺”断句有误，candidate译为“窝口处不要踏高，否则会犯天罡杀”不符合原文节奏，且未说明“天罡杀”为风水神煞术语"
+        ],
+        "uncertainty": [
+          "“量金須用口金魚”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000075-p000-046ff41890",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“鬥開人遭着”，candidate译为“斗开的人会遭祸”，“斗开”未作释读也未标注不明；原文“內反事難逃”，candidate译为“内部的反事难以逃脱”语义模糊，未转换成通顺现代中文"
+        ],
+        "uncertainty": [
+          "“斗开”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000076-p000-a899a05631",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一地理參皆玄機”，candidate译为“全是地理玄机”，漏译“一地理參”内容，且未标注该部分含义不明；原文“出人跏”“跏跛”未作通俗释读，普通读者无法理解含义"
+        ],
+        "uncertainty": [
+          "“一地理參”具体所指不详；原文末尾的卷次与数字“一 1”含义不明"
+        ]
+      },
+      {
+        "id": "book029-b000077-p000-bb4d915c4a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在大量未转换为现代中文的原文短语，如“遭迍”“喽囉”“開脛脾”“一媚産雙童”“魚住屋”“抱養人請舉”等，普通读者无法理解；原文“代便遭迍”前内容缺失，candidate未标注；断句多处错误，如“家貧薄定主”“外死及生離”断句不符合原文语义；对“水”的术语注释直接插入译文中，不符合释读规范"
+        ],
+        "uncertainty": [
+          "原文开篇“代便遭迍”前内容缺失，语义不完整；“遭迍”“喽囉”“開脛脾”“一媚産雙童”“魚住屋”“抱養人請舉”等短语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2855,
+    "completion_tokens": 1038,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2855,
+      "completion_tokens": 1038,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

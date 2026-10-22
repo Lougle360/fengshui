@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-17T06:27:03.455504+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8e2c76c5f101f789c7fb83bb797621d04076df094728072adadc0bd33acfdc44",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002771-p000-83502f8425",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'端正則子孫必正大端厚欽斜例向則子孫陰佞魂惡'中，'欽斜'应为'欹斜'（倾斜之意），candidate误作'倾斜且出现“例向”的情况'，将'欹斜'与'例向'合并解释，改变了原文结构。'例向'是opaque_term，candidate将其与'欹斜'合并为'倾斜且出现“例向”的情况'，属于无依据扩写。原文'如砂員了孫而后知之也'，candidate处理为'文中还提到...这一短语的具体含义不详'，这是正确的风险标注，但前半句'观察地形的形象以及龙气是否秀气，就可以知道这个家族的子孙情况'漏译了'以及其龍氣之秀否'中的'否'（是否）。"
+        ],
+        "uncertainty": [
+          "例向",
+          "如砂員了孫而后知之也"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 825,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 825,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

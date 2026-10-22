@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:06:42.438406+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "90cca763930f0cfc424938041d5ec44f5ec0e0e94277d37fabf8f919d5293985",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000040-p000-a1775d9f35",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的推测性表述（如“如果辰方位的水来到”“戌方位的克制”）当作确定事实释读，未保留原文模糊性；“沛土”“龜法之誅”等术语未按要求处理，属于无依据扩写；“丘橡杨七尺云八曜”释读错误，原文未明确相关内容，擅自添加含义"
+        ],
+        "uncertainty": [
+          "原文中“沛土”“龜法之誅”“丘橡杨七尺云八曜”等内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000041-p000-7d1907185c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文断句错误，将“青囊心卯德張配陰水局法”错误断为“青囊心卯德張配陰 水局法”；“養泣水”“丁午亭官水”等内容具体所指不详，未标注风险"
+        ],
+        "uncertainty": [
+          "原文中“養泣水”“丁午亭官水”等内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000043-p000-c1670e0297",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“闹水”“载壬丙主大发人丁”“六秀水入堂沙合格台居风”等内容具体所指不详，未标注风险；“闹水”未按要求保留原术语"
+        ],
+        "uncertainty": [
+          "原文中“闹水”“载壬丙主大发人丁”“六秀水入堂沙合格台居风”等内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000044-p000-6e07e626f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1505,
+    "completion_tokens": 478,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1505,
+      "completion_tokens": 478,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

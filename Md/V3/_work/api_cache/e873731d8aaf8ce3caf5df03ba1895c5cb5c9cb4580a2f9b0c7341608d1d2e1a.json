@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-26T03:28:34.240731+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e873731d8aaf8ce3caf5df03ba1895c5cb5c9cb4580a2f9b0c7341608d1d2e1a",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000037-p000-3bbe82ea4a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在严重语序混乱、文字讹脱，大量语句无完整可辨识的语义逻辑，候选释读多处为无充分依据的文意推演，例如将原文零散文字组合为“枯天批文的排布”“依托卷册的本体的六种变化”“推究顺着甲的变化而形成的万种形质”等表述均缺乏足够原文支撑，部分内容与可辨识的原文文字对应不上"
+        ],
+        "uncertainty": [
+          "原文缺损严重，仅能做极模糊的文意推测，所有释读内容均不具备确定性"
+        ]
+      },
+      {
+        "id": "book032-b000044-p000-6ab354d65d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“故其踪必”后内容有缺，无法确定完整语义；“陽山在陰在水美”表述简略，仅能按字面梳理，无法进一步明确具体判定规则"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1520,
+      "completion_tokens": 273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

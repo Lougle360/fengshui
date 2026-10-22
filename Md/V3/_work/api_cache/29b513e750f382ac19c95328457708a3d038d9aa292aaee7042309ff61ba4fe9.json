@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-18T07:04:25.943151+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "29b513e750f382ac19c95328457708a3d038d9aa292aaee7042309ff61ba4fe9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005797-p000-ef9b33844b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005798-p000-b2abd7a504",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘張十度仙七十二分四十二抄七十五止’中的‘仙’字疑似为‘内’或‘度’的OCR错误，candidate直接译为‘仙宿’无依据，且‘张宿十度仙宿’的表述不通。",
+          "原文‘丁山自抑一度内至星二度’中的‘抑’字疑似为‘翼’的OCR错误，candidate译为‘翼宿’是合理的推测，但根据规则，对于OCR错误导致的含混，应标注不确定性，而非直接改写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005799-p000-068c75ff0a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘至十八芳内七分八十一抄二十五止’中的‘十八芳’应为‘井十八度’的OCR错误，candidate译为‘十八宿’不准确且无此星宿名。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005800-p000-f3891193de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘申山自舉十四度内…至井二度内八十五分九十三抄止十五止’表述混乱，candidate断句为‘延伸至井宿二度以内八十五分九十三抄为止，至十五度。’未能清晰对应原文结构，且‘至十五度’的‘十五度’前缺星宿名，释读不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005801-p000-ba0139ec7d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005802-p000-317de23dfa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005803-p000-191464e3b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005804-p000-742a87c4ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘辛山自粉七度至胃十度’中的‘粉’字疑似为‘壁’的OCR错误，candidate译为‘壁宿’是合理的推测，但根据规则，对于OCR错误导致的含混，应标注不确定性，而非直接改写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005805-p000-6190d9ad9e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘至奎十度内二十六分十八抄至二十五止’表述有误，candidate照搬为‘二十六分十八抄至二十五为止’语义不通，应指出原文此处可能损坏或存在OCR错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005806-p000-9dc0df4cf3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘亥向自危十六度内…孫小雪中氣壬向危一度初…’中的‘孫小雪中氣’含义不明，candidate将其作为‘壬向’的修饰语处理为‘孙小雪中气壬向’，但‘孙’字可能为‘大’或‘立’等字的OCR错误，或为衍文。直接释读为确定内容不妥。",
+          "原文‘子自女七至虛九’应为‘子山’，candidate译为‘子山’正确，但未在uncertainty中说明这是根据上下文补出的‘山’字。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 841,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2066,
+      "completion_tokens": 841,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-17T09:16:40.582994+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "97d120f48ab938f98397634c475789adf4e9ca29c7dd8fc4a26fc566fe8f2056",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003126-p000-63a246ff1b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'乾湖'为locked_term，candidate将其解释为'乾湖'，但'乾'为八卦方位，'湖'为水体，此处'乾湖'可能指特定方位的水体或地名，candidate直接保留'乾湖'但未明确其不确定性，且未在引号内引用，不符合opaque_terms处理要求。",
+          "原文'壙械'，candidate解释为'葬具受损'，但原文仅提及'壙械'，未明确受损，属于无依据扩写。应保留原词并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003131-p000-bebc56d544",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'仰仰 天湖'，candidate处理为'仰势。文中提到'仰仰天湖''，但'仰仰'与'天湖'的关系不明，candidate的断句和解释（'呈现仰势'）可能改变了原意。应更保守地处理为'仰仰天湖'（具体所指不详）。",
+          "原文'癸湖天'，candidate处理为'文中还提到'癸湖天''，但未将其作为opaque_term置于引号内并明确其不确定性。",
+          "原文'不以穴下山 去水傾爲忌 也葬即緣福'，candidate断句为'不以穴下山去水倾泻为忌讳。葬地即缘于福泽。'，但原文'去水傾'可能指去水倾泻，'葬即緣福'逻辑不清，candidate的'葬地即缘于福泽'是推测性解释，应更保守地说明原文含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003135-p000-df5edbd134",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'系令'是否即'县令'不确定",
+          "'囊'指气聚如囊，但具体形态未详"
+        ]
+      },
+      {
+        "id": "book035-b003139-p000-714072de54",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'先牆下子孫'，candidate解释为'文中提到'先牆下子孙''，但未将其作为opaque_term置于引号内并明确其不确定性。且后续'描述其即使贪婪也不自住，不脱离佃客奴隶'是对原文'至貪亦不自住不脫佃客奴隸'的直译，但'不自住'含义不明，candidate的'不自立还是不住宿不确定'已标注，但整体解释仍显得确定。应更保守地说明该句具体含义不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1902,
+    "completion_tokens": 658,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1902,
+      "completion_tokens": 658,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:55:34.291959+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a540fbdd7fa9c33c3b5a4d9a484cdb4feb01b556cd270d11073dd397a159eacf",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000407-p000-1c248d9c83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000408-p000-ef05ec2bce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000409-p000-60704427f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000410-p000-a86688ea98",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不详的“嫉主”直接释读为“嫉主”，未标注其具体含义不详的风险"
+        ],
+        "uncertainty": [
+          "原文中“嫉主”的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1375,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1375,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

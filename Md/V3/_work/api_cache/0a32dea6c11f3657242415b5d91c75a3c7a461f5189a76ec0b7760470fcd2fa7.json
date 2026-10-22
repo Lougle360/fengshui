@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:15:00.813870+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0a32dea6c11f3657242415b5d91c75a3c7a461f5189a76ec0b7760470fcd2fa7",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000651-p000-218690db5f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "如果在甲巳年、月、日、时进行正阴符占，艮、巽二山会出现大凶的情况，这就是正阴符。傍阴符占时，丙、辛二山会出现凶象，弗卦就是榜阴符。比如乾带甲、兑带丁巳、丑，都忌讳乙、庚二字；艮常丙、巽衲辛、坤事乙、坎袖癸申辰、震袖庚亥未、离带壬寅戍。",
+        "confidence": "medium",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000652-p000-d78ba41a77",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "月凶方：正、二、三、四、五、六、七、八、九、十、十、十二。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文中“十十十二”疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000653-p000-c55d092a5e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "年年命塵方：酉、戍、亥、子、丑、寅、卯、辰、已、午、未、申森麼；子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥；需论年命、产月命座方。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文中“已”“森麼”疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000654-p000-a3b29a3bfa",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "主口舌破财的，是每月的权日。应当以此来论方道，比如落壙之时，主葬师忌讳站在这个方位，犯己上年命座、月命座、名葬主、葬师命座方，只取金井月合方：亥、子、丑、寅、卯、辰、己、午、未、申、酉、戍，还有休八产日。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“权日”“壙”“己上”“金井”“休八产日”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1746,
+    "completion_tokens": 661,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1746,
+      "completion_tokens": 661,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

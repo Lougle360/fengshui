@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-18T06:15:46.332722+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "814cc4d757affcf53441074c8dc970fe223dea8956905af711e7c57fc7a9a4fa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005706-p000-0fa88e5371",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'二百六十五度'译为'依据二百六十五度'，但source为'二百六十五度'，与周天360度或365.25度等常见说法不符，可能为原文笔误或特指，candidate未标注此数字异常，直接作为确定事实使用。",
+          "candidate将'究禽宿之或伏或行番星辰之或生或死'译为'考察禽宿是潜伏还是运行，审察星辰是生是死'，其中'番'译为'审察'是合理的，但'禽宿'与'星辰'对举，candidate处理为并列关系，而source结构为'究禽宿之或伏或行番星辰之或生或死'，'番'可能为动词'审察'，也可能与'星辰'构成'番星辰'这一专名，candidate选择前者但未标注另一种可能，存在风险。",
+          "candidate将'辛一分入中辰氐宿氤氳'译为'辛一分入中，辰氐宿氤氳'，断句和解释为确定事实，但source此句为引文，含义隐晦，candidate未明确标注其具体所指不详，存在将推测写为事实的风险。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005708-p000-16f433e831",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'五廿'解释为'可能为‘五十’或‘五尺二十’之误'，这属于对不确定原文的推测性解释，且未明确标注原文'五廿'含义不明，直接给出了可能选项，违反了'不得认定为某流派、人物、神名、数理含义或现代概念'的边界。",
+          "candidate将'本渾天番度六十初子之妙'译为'这原本就是浑天番度六十、初子之妙'，并将'初子之妙'标注为'具体所指不详'，但'浑天番度六十'也被处理为确定事实。source中'浑天番度六十初子之妙'整体是一个含混短语，candidate将其拆解并部分确定化，存在风险。应整体视为opaque_terms或明确标注其含义不确定。",
+          "candidate将'吉凶或同坐而同分金一至禍一至福'译为'吉凶或许同坐而同分金，一个导致祸，一个导致福'，其中'同分金'被直接使用术语'分金'，但source中'分金'是否为locked_term '分金'的确定含义在此语境下并不明确，candidate未标注此不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 648,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1401,
+      "completion_tokens": 648,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T06:39:25.143962+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4828c156d34ea8bc2666a934d877dd4bc509c1537802bf31aa253dba008f316b",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000013-p000-ce76734bcf",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这部书里的名称、定义前后重复出现，有的前面有详细注释后面就简略，有的后面有详细注释前面反而简略。如果不做标识，就会在简略的地方完全不明白说的是什么；想要前后互相对照，又一时找不到地方。一定要凭空把它详细说明，不仅在情势上做不到，也不符合体例。因此我在正文标题上方列出相关条目，说明某一义项见于某篇某节，或是某一内容具备某篇某节的注释，让读者容易查阅，不至于有找不到的困扰。另外，这部书的建筑或穴位所朝的方位（向）原本是钞本流传，抄写的人或许有不能通晓文义的地方，所以多有错乱。就像近来刊刻的堪舆类经书尚且以讹传讹，其余的更不必说。我多方寻求缮写本，彼此对照才确定了定本。其中明知有误但各本都相同的，也不直接修改，只是保留原字，在正文下方并列该字，并且在注释中详细说明某字应当作某字来纠正。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000014-p000-e33bd4ac5f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "凡是注释中引用的、名称定义散见于其他书籍而非这部书本文正宗内容的，都依照凡例处理。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000015-p000-e7b1e7e110",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "遇到议论稍有不同但各有值得探寻的意味、应当备考的内容，大多在本注释下详细说明其义理；但也有顺着原文推演、来不及另起炉灶的情况，初学者未必能明白，就又补充义理来衔接，并列在上方，以供博览。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1703,
+    "completion_tokens": 547,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1703,
+      "completion_tokens": 547,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

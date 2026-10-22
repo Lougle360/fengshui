@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T14:26:23.637562+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4e3e01808c5b1e71cc1a47664e583482f9ef57e87e98d18462264f04feb6af50",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000727-p000-70175e897e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "清代的焦循在《易通释》的最后一项中，提及秦九韶的筮法所完成的精妙经文解释，还说道蓍卦发微中“所说的大衍五十，其用四十有九的含义，在经书中是契合的”，这应当是明确的论断。因为筮法的解释恰好就是对这两句话的说明。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000728-p000-5cdf624650",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秦九韶的筮法中，将未知的左手之数记为X，把一揲以下的余数依次记为1、r₂、r₃、r₄，若使用高斯记号⑰来表示②与③，那么它就是",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中数学符号的排版存在错乱，无法完全确认符号的准确含义"
+        ]
+      },
+      {
+        "id": "book015-b000730-p000-be7b00763d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "可以这样表示。秦九韶借助这个易筮法的例子，进行一般化处理后",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在缺字，无法确认完整含义"
+        ]
+      },
+      {
+        "id": "book015-b000732-p000-73eb54cbdd",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "整数m₁、m₂、…、mₖ，以及r₁、r₂、…、rₖ为任意值",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在无法识别的箭头符号，无法确认其准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1781,
+    "completion_tokens": 524,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1781,
+      "completion_tokens": 524,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

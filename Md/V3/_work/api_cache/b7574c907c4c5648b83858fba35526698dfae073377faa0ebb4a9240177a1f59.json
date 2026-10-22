@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-17T23:42:49.439080+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b7574c907c4c5648b83858fba35526698dfae073377faa0ebb4a9240177a1f59",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005011-p000-3eb7f96bbe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容以纯文本列表形式呈现，丢失了原文表格的二维结构信息。原文表格通过行列布局关联了不同的‘太阳’形态、序号、描述和‘格’的分类（如正格、变格），这种结构关系在候选句的线性描述中变得模糊不清，属于信息缺失。",
+          "候选句第五行‘第六太陽號莫股’中的‘莫股’与原文‘第六太陽號莫股’一致，但原文此处‘莫股’疑似‘單股’的OCR识别错误（因同一行有‘單股太陽單’）。候选句未指出此潜在的文字讹误或不确定性。"
+        ],
+        "uncertainty": [
+          "原文表格中多处使用字母（如C、E、U、O）和数字（如2、3），其具体含义不明。候选句照录了这些符号，但未说明其含义不详。",
+          "原文有‘鳳風展翅’，‘鳳風’可能为‘鳳凰’或‘鳳翼’之误。候选句照录‘鳳風’，未指出可能的文字问题。",
+          "原文‘問無龍虎官職此中生’一句，‘問無’可能为‘雖無’或‘間無’之误，含义不明。候选句照录，未指出不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b005012-p000-946ebaff63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1711,
+    "completion_tokens": 390,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1711,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

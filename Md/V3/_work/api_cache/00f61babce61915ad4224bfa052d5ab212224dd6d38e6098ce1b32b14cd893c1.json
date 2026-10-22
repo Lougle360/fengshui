@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T07:00:04.869658+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "00f61babce61915ad4224bfa052d5ab212224dd6d38e6098ce1b32b14cd893c1",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000032-p000-07e7fbead4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“救日”属于原文内容，candidate未提及，存在漏译；source中“所以止邊去水”表述完整，candidate译为“拦住向外流去的水”，对应“去水”准确，但漏译“邊”的相关表述；source中“艮言龍從何來”是原文整句起始，candidate将“艮言龍從何來”加引号，额外解释“这里的艮是八卦之一”虽符合allowed_glossary，但需注意原文“法也艮言”实际应为“法也，艮：言龙从何来”的断句逻辑，当前candidate断句表述易误导读者认为“艮言龍從何來”是整句引用的固定短语"
+        ],
+        "uncertainty": [
+          "“何賤在於龍龍若眞時砂水從不在失員如畫裏”存在缺讹，具体含义无法确定",
+          "“曩城”具体所指不详",
+          "原文“山卽水口也”语义存疑",
+          "“艮”的具体含义依原文语境确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 274,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1098,
+      "completion_tokens": 274,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

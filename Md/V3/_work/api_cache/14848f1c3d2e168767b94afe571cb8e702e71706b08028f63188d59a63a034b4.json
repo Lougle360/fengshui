@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T20:23:13.049051+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "14848f1c3d2e168767b94afe571cb8e702e71706b08028f63188d59a63a034b4",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003354-p000-5f995b2974",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "allowed_glossary中对“水”的定义为风水语境中的河流、水系及其来去形态，此处释为“水要从井里打出来才能发挥作用”未采用该定义，属于未按指定术语释义的情况"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 939,
+    "completion_tokens": 104,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 939,
+      "completion_tokens": 104,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

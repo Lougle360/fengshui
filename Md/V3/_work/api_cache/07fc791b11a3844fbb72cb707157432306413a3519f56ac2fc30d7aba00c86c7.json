@@ -1,0 +1,135 @@
+{
+  "created_at": "2026-10-15T06:39:17.169153+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "07fc791b11a3844fbb72cb707157432306413a3519f56ac2fc30d7aba00c86c7",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002034-p000-5e1b542dd0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的竖排文字错误地重组为连贯句子，导致语义完全不通，且未处理原文的断句和层次。例如，'牌立下步 牌三天' 被重组为 '牌位立定后，步法需走三天'，这是无依据的增译和改写。原文应为星宿步天歌诀，candidate 未能识别其歌诀体例，也未保留原文的术语和结构。"
+        ],
+        "uncertainty": [
+          "原文为星宿步天歌诀，内容涉及星官、方位、占卜等，但排列混乱，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002036-p000-40ec921ff6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的乱码和断句不清的文字强行重组为句子，如 '傅畔尾一下#鱼在五后子黑热西火说一在星尾星官天所江以四列横中一个'，这并未实现 '普通读者能读懂的白话释读'，而是制造了新的、更混乱的文本。对于此类严重损坏的原文，应标注为 uncertain 或进行保守的、保留原文结构的处理，而非强行串联。"
+        ],
+        "uncertainty": [
+          "原文存在大量乱码及断句不清，语义无法通顺理解。"
+        ]
+      },
+      {
+        "id": "book033-b002037-p000-d86d9d3dd9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的片段直接拼接成句子，如 '宝四星十度为口古为公注在炁为水在肖为豹下三星'，这并非释读，而是照搬。未对 '口古'、'肖为豹' 等含混短语进行任何说明或风险标注，也未形成可读的现代汉语句子。"
+        ],
+        "uncertainty": [
+          "原文'宝四星十度为口古为公注在炁为水在肖为豹下三星'等句语义晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002038-p000-2be60cc3dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的竖排混乱文字直接串联成长句，如 '宁天黄眠步防渊狗天。天汗主色渊歌回海玄十背也中大鱼补黑其人紫主星状。'，这完全不符合白话释读的要求。未识别原文可能为歌诀或列表，也未对无法理解的部分进行风险标注，只是机械重组。"
+        ],
+        "uncertainty": [
+          "原文为竖排且断句混乱，包含大量生僻组合，语义难以通顺理解。"
+        ]
+      },
+      {
+        "id": "book033-b002039-p000-1d84eb8ba9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的混乱文本（可能涉及星宿与列国对应）直接拼接，如 '瓜之瓜君步值主津郑西四。张女九在一星心工个越晋如主及下仲箕。'，这没有进行任何释读或梳理，只是将汉字连在一起，无法为读者提供任何有效信息。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，包含大量地名与星名混杂，语义难以通顺理解。"
+        ]
+      },
+      {
+        "id": "book033-b002040-p000-9925f7d4b4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的片段重组为 '主垒如人立围连为亦遇员跌丧。' 等句，这并非释读，而是制造了新的、无意义的句子。未尝试理解原文可能的结构（如步天歌句式），也未对无法理解的部分进行明确的风险说明。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，'主垒如人立围连为亦遇员跌丧'等句语义不明。"
+        ]
+      },
+      {
+        "id": "book033-b002041-p000-e66d29ca81",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的混乱文字串联成段，如 '居主补之天言天至子王尼歌所乘宿乌星。'，这完全不是白话释读。未处理原文的层次和可能的关键词（如坟、墓、丧葬），也未对无法理解的部分进行有效标注。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，包含大量生僻组合，语义难以通顺理解。"
+        ]
+      },
+      {
+        "id": "book033-b002042-p000-b8d7f89ba5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的混乱文本（可能涉及室宿）直接拼接，如 '室二星出速歌十黑人布雨度。'，这没有进行任何释读。原文中夹杂英文字母'E'，candidate 也未处理或说明。整体上，candidate 未能将古文/日文转换成现代中文。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，包含大量生僻组合，语义难以通顺理解。"
+        ]
+      },
+      {
+        "id": "book033-b002043-p000-eb920dbb51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的极度混乱的文本（可能涉及胃宿及相关星官）直接串联，如 '胃三星十匹如墓陵足熬山天北河仓旱中叙热积四上星1雉步质根天明大歌则陵名人主大星'，这完全不符合释读要求。未处理数字'1'、乱码'雉步'等，也未形成任何可理解的句子。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，包含大量生僻组合及疑似乱码，语义难以通顺理解。"
+        ]
+      },
+      {
+        "id": "book033-b002045-p000-653ebf4a04",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 的大段混乱文字（可能涉及井宿、鬼宿等）不加任何断句和解释地拼接成一个超长段落，如开头'雨同候主中是观兵常水丘军天也度为源下市哥狼怪常亦一军上八一为孙之诸良市北星一野子疑疾光曰河横...'，这完全不是白话释读。原文中的数字'444'、符号'！'等也未处理。candidate 未能实现任何程度的语义转换或梳理。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，包含大量生僻组合及数字符号，语义难以通顺理解。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5625,
+    "completion_tokens": 1549,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5625,
+      "completion_tokens": 1549,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

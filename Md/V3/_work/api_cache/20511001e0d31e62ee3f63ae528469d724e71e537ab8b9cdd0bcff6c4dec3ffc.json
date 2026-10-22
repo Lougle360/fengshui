@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T16:43:16.725605+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "20511001e0d31e62ee3f63ae528469d724e71e537ab8b9cdd0bcff6c4dec3ffc",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000448-p000-605aca3680",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这是在说明《坤》卦六二爻阴爻居于阴位，柔顺中正，所秉持的“坤”德最为深厚。《楚辞·远游》说：“屈原履方直之行，不容于世”，就是用“直、方”的品德来称赞屈原作为臣子的忠正。朱熹指出：“《坤》卦中惟这一爻最纯粹。盖五虽尊位，却是阳爻(引者注：指阳位)，破了体了；四重阴而不中；三又不正。惟此爻得中正，所以就这说个直方大，。”(《折中》引《朱子语类》)",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000449-p000-db3cca4919",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "六三爻，含章可贞①；或从王事， ；的章关可以有",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在缺漏，语句不连贯，无法准确释读"
+        ]
+      },
+      {
+        "id": "book016-b000450-p000-28d473e195",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "而谨守臣职至终。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000451-p000-0d46f8c044",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "无成有终②。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1647,
+    "completion_tokens": 491,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1647,
+      "completion_tokens": 491,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

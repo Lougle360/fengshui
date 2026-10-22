@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:04:52.360143+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "23bb7726b45d6f66a39b455c78959eb63efdcc04f67f36702441cfa393ed4925",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000337-p000-054a7bcdd3",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "如果面向內部，背部就一定朝向外部；如果面向我，背部就一定朝向他人；如果面向山，背部就一定朝向水；如果面向水，背部就一定朝向山。也有背向分出一支，又朝向另一处的情况，这属于漏气。有的是自行结作，有的形成小的龄地。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000338-p000-10330fad5b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "也有从左边看是背，从右边看也是背的情况，这属于覆体，背部朝向天，这种行龙不能被人利用。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000339-p000-67ed38b892",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "也有从左边看是面，从右边看也是面的情况，这是龙局大成的地方，枝枝都有结果，节节都有开花，不过必然有一处是主结。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000340-p000-f90a282cc4",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "如今用树木来比喻山，确实很贴切。树木果真有成千上万棵，除了被秕虫蛀坏的之外，都是好果子，没有什么特别奇异的。只有用人来比喻山，才最为贴切。人的五官四肢、全身的骨骼关节，每一处都是穴，而真正的主穴只在男女二根处。如果从格局来看，必然是两跨所开之处，才是与司……（此处缺字，具体所指不详）",
+        "confidence": "medium",
+        "uncertainty": [
+          "日文原文中「うC」为缺字，无法确认含义；「司」后缺字，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1708,
+    "completion_tokens": 575,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1708,
+      "completion_tokens": 575,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

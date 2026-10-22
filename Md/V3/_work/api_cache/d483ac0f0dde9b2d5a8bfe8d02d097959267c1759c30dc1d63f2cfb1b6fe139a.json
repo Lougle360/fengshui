@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:08:04.379058+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d483ac0f0dde9b2d5a8bfe8d02d097959267c1759c30dc1d63f2cfb1b6fe139a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000946-p000-7997c023c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在多处漏译、错译：如将原文的‘遯’误写为‘遁’，‘観’误写为‘观’，‘豊’误写为‘丰’，‘未済’误写为‘未济’，‘既済’误写为‘既济’，‘夬’误写为‘央’，‘頤’误写为‘颐’，‘姤’误写为‘姤’，‘訟’误写为‘讼’，‘遯’误写为‘遁’，‘苯’为OCR错误，‘议’为OCR错误，‘股’为OCR错误；部分行的卦象对应关系混乱，如世之运的卦象排列不符合原文结构；未按原文表格的行列层级呈现，将同一行的卦象拆分至不同行，且部分卦象的序号对应错误"
+        ],
+        "uncertainty": [
+          "003、006、053、060、069、076、093、108、129、132、211、228、236、237、238、232这些数字对应的卦位内容原文未明确记载，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6540,
+    "completion_tokens": 333,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6540,
+      "completion_tokens": 333,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

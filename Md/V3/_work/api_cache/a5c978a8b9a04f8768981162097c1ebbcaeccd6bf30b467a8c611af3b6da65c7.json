@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-25T13:59:31.937207+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a5c978a8b9a04f8768981162097c1ebbcaeccd6bf30b467a8c611af3b6da65c7",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000072-p000-0d25a27eb1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“吴黄龙午中”是黄龙年间的午年，未明确是丙午年，candidate直接写“黄龙丙午年”属于将不确定内容写成确定事实",
+          "原文“兼有客止”是指有客到访时举止得体，candidate表述为“平时待客举止得体”虽语义接近但补出的“平时”无原文依据，且原文“夫妻相重”前与“客止”是并列关系，未明确是待客时夫妻相重，candidate断句逻辑偏差"
+        ],
+        "uncertainty": [
+          "蛸寄著辑具体所指不详"
+        ]
+      },
+      {
+        "id": "book027-b000073-p000-d7d0203653",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“和好合塟地而扦之穴”指选好合葬地后扦定穴位，candidate表述为“家人将夫妻二人合葬在选好的地穴中”遗漏“扦穴”的风水操作环节",
+          "原文“生一烽榭同根二身相抱而合成一樹”说明“烽榭”是树的名称，candidate表述为“坟上长出‘烽榭’，这棵树同根分作两干”虽保留原词，但未明确标注“烽榭”是疑似树名的不明术语，表述易引发歧义",
+          "原文“封其里曰比肩墓”“又曰雙梓”指封其乡里为比肩里，墓称双梓墓，candidate表述为“将这座墓封为‘比肩墓’，又叫‘双梓墓’”属于误解原文的封赏对象"
+        ],
+        "uncertainty": [
+          "烽榭具体所指不明，暂保留原词",
+          "小比局具体含义不详"
+        ]
+      },
+      {
+        "id": "book027-b000074-p000-59c3794bd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "王樊相关段落与前文承接关系不详"
+        ]
+      },
+      {
+        "id": "book027-b000077-p000-93a71948a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“眇招魂所以能承前人之德”中“眇”是讹字或残字，candidate直接表述为“招魂的仪式之所以能够承接前人的德行”属于遗漏不确定内容，未标注该字存在残缺",
+          "原文“兒地理書云”中“兒”是讹字，应为“見”，candidate表述为“之前地理书上说”虽语义通顺，但未说明原字存在讹误"
+        ],
+        "uncertainty": [
+          "“篤火于而反膺天脊”存在讹字，具体含义不详，暂保留原词"
+        ]
+      },
+      {
+        "id": "book027-b000078-p000-3a4b6a0080",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“新利初放”所指不详，candidate直接解释为“新鲜的荔枝刚开花”属于无依据的确定释义",
+          "原文“鄉黨 江右明師擇地師代爲遍覓”存在断句残缺，candidate表述为“乡里有来自江西的高明风水师，替他到处寻找上好的风水穴”属于补出无依据的内容，原文未说明风水师是乡里的",
+          "原文“偕張”后内容残缺，candidate补出“和张姓一同去寻觅”属于无依据增译"
+        ],
+        "uncertainty": [
+          "骑寄著辑具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2470,
+    "completion_tokens": 878,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2470,
+      "completion_tokens": 878,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

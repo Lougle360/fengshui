@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-16T13:00:36.118759+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a59e10d20c772913592b5c08d5b2092928a88aa8b70de0c574e28464a570103f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002346-p000-d0155bf6c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002349-p000-8ed4c74dab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002350-p000-c86de722a7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句对原文进行了大量重组和意译，但未能清晰表明这是对错乱原文的推测性解读。例如，将‘者如蓋傳 是犀天日 也牛弧凡’重组为‘是指山势如盖伞般传递，又如犀牛仰望天日，像牛背上的弧光’，并将‘崔州星发源于嵬县’等句作为确定事实写出，这超出了保守释读的边界。应明确指出原文错乱，仅能尝试辨识部分词汇，具体含义不详。"
+        ],
+        "uncertainty": [
+          "原文排版错乱严重，大部分句子无法构成通顺的现代中文，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002351-p000-99ff78eb8f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将表格内容（如‘芦花三袅十穿九旺’、‘十二劫煞之图’、‘天劫于职之’等）直接解释为确定含义（如‘代表旺气所在，主文武官僚正鞭金甲’、‘展示了十二种劫煞的图示’、‘对应于职之劫’），这是无依据的扩写。对于表格中的术语和短语，应原样保留并说明其对应关系，或明确指出含义不明，而不应自行赋予确定解释。例如，‘天劫于职之’应保留原样或说明‘天劫’与‘职之’对应，但具体所指不详。"
+        ],
+        "uncertainty": [
+          "表格中部分术语（如‘芦花三袅十穿九旺’、‘天劫于职之’、‘地劫我道僧’等）具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002352-p000-da6ffc7718",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002353-p000-7fb5dfd7f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002356-p000-336d9661dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002357-p000-e32082b138",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "候选句仅将原文乱码字符按顺序排列，未形成任何有意义的现代中文句子，不符合‘普通读者能读懂的白话释读’的目标。对于此类严重损坏的文本，应明确指出原文无法通读，仅能辨识部分词汇，而非尝试重组出无意义的句子。"
+        ],
+        "uncertainty": [
+          "原文为竖排乱码或严重OCR错误，字句破碎且逻辑断裂，无法进行有意义的释读。"
+        ]
+      },
+      {
+        "id": "book035-b002361-p000-cb4481bd06",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "候选句同样只是将错乱的原文按顺序排列，未形成通顺的现代中文句子。例如，‘炭晡山姓锈羁嚬坎禔品’完全无法理解。对于此类文本，应明确指出原文错乱，含义不明，而非直接输出无意义的字符串。"
+        ],
+        "uncertainty": [
+          "原文存在大量错别字、缺字及语序混乱，导致句意不明，无法进行有意义的释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3764,
+    "completion_tokens": 886,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3764,
+      "completion_tokens": 886,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T22:21:37.805952+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "227d93c775dbb8b1d6cd0897c29a79ec6d70d462f23ac900342275eb7831bc02",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000167-p000-d411ee4d46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000180-p000-c87edbf837",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此說四局中之複祥”被误译为“这种说法讲的是四局中的祥瑞”，“複祥”未准确释读，属于语义偏差；原文“四垣帝宿正是四馬主人”中“主人”被译为“主星”，属于无依据增译，原文未明确“主人”是星官，不应擅自具象为“主星”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000184-p000-61aadd7a09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1547,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1547,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

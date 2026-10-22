@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:56:31.862438+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "23821bbac5c58dac1e479784b3600dceca9d50abb9c57551ed05ee7b912c8066",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000038-p000-19920aa663",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000039-p000-799de4640d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000040-p000-9dd649b8fd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中语义含混的“水财三久”“三父”“正尺”“密旨”“师”等术语赋予了确定含义，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "此处“水财三久”“三父”“正尺”“密旨”“师”等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000041-p000-745e79d6e7",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“江南龍來江牝望江四龍去望江東”存在明显断句或文字讹误，候选释读无法成立"
+        ],
+        "uncertainty": [
+          "此处“江牝”具体所指不详，原文“望江四龍”语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1806,
+    "completion_tokens": 315,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1806,
+      "completion_tokens": 315,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

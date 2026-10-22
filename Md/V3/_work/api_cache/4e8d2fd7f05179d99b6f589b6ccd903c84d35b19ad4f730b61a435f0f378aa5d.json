@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T19:34:17.385214+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4e8d2fd7f05179d99b6f589b6ccd903c84d35b19ad4f730b61a435f0f378aa5d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002816-p000-dc55a725ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002817-p000-5145462b81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002818-p000-0a0c68be8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002819-p000-1367532f5a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《象》辞的内容“下不厚事也”释为“下位者不必承担厚重的事务”，属于无依据的扩写，原文未明确“不必承担厚重事务”的含义，仅提及“下不厚事”，释读超出原文限定范围"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1634,
+    "completion_tokens": 270,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1634,
+      "completion_tokens": 270,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

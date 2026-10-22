@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T17:49:01.698439+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "767c793c25859cec19f13735baa6e183f66b10589cf65243af9493eb9ffd466c",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000875-p000-68f58e0566",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000876-p000-2948d8bed6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000877-p000-989a21e6a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000878-p000-5427f034b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000879-p000-a611cf5055",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“兩界金魚水蔭腮生”被误译为“两侧有金形的水荫庇”，与原文表述不符；原文“坡捨宜就坡扦之”漏译了“坡捨”相关语义，且将“坡捨”错解为“坡脚”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000880-p000-47dea32bf1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中的“地理本贊玄機全書○卷四”属于正文中间混入的卷次标注，不应直接嵌入《怪穴赋》的释读内容中，需调整位置或明确标注其为卷次标识；原文中“如兠主之女”被误译为“如同兜主的女儿”，“兠主”语义未明，不应直接按字面直译；原文“如曉足之人”被误译为“如同跛脚的人”，“曉足”无“跛脚”含义，属于无依据释义；原文“如剪火之金”直译未贴合风水术语语境，无依据扩写；原文“如硬面之太陽兮如飽煖之太陰”无依据直译，易误导读者；原文“今五品不親”“坐以五星兮穴以四金”“內全三形兮外集八門”“或架空兮反挿武離胎弓就唇”等专业术语未标注不确定性，直接按字面翻译属于无依据释读；原文多处“弓”字为语助词，被误译为“如同”“就”等实义，属于语法理解错误；原文末尾“乃百福之旦”误译为“便是百福的开端”，“旦”无“开端”的确定释义，属于无依据释义"
+        ],
+        "uncertainty": [
+          "“四應”“五品”“龍神”“五星”“四金”“三形”“八門”“武離胎”等风水专名含义无确定依据，需标注存疑"
+        ]
+      },
+      {
+        "id": "book029-b000881-p000-4a3839d895",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000882-p000-2fffcd50a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000883-p000-3864a28666",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“進忌壓出忌露”被误译为“忌讳压出凸起，忌讳穴露在外面”，断句错误，应为“進忌壓，出忌露”，且“進”“出”为风水葬法专业术语，无依据释读为“压出凸起”属于错误；原文“穴法量綴枕其兩角葬法中作大忌傷體”被误译为“穴法要斟酌缀枕其两角；葬法中是大忌，会损伤本体”，断句错误，应为“穴法量綴，枕其兩角，葬法中作大忌傷體”，语义理解错误"
+        ],
+        "uncertainty": [
+          "“綴枕”“兩角”等葬法术语含义无确定依据，需标注存疑"
+        ]
+      },
+      {
+        "id": "book029-b000884-p000-8ac509e1db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“盡處圓如竹筒難裁”被误译为“圆如竹筒难以裁断”，“難裁”为风水语境下难以点穴的含义，并非物理上难以裁断，属于释义错误；原文“穴法撞中 倚塟法截蕩珠深坐休傷其幹”断句错误，应为“穴法撞中倚，葬法截蕩珠，深坐休傷其幹”，释读断句错误导致语义偏差"
+        ],
+        "uncertainty": [
+          "“撞中倚”“截蕩珠”等葬法术语含义无确定依据，需标注存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2902,
+    "completion_tokens": 1182,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2902,
+      "completion_tokens": 1182,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

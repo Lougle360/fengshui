@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T14:45:34.307611+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "da94e18379efc216b55bc1c542f2b99978285f0a2066b17f4caeef0b39cebf3d",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000847-p000-ed1e631311",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「伯の政治」应为「五伯之政治」，候选句漏译「五」，导致含义偏差；原文「観物篇六十」「観物篇五十九」未保留，属于专业文献引用的必要信息缺失；原文「善人，邦を為めること百年(=30年×3)」的释读未明确标注括号内的换算关系，易造成误解"
+        ]
+      },
+      {
+        "id": "book015-b000848-p000-dc727e51b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“129,600年”的千分位分隔符在译文中改为“129600年”，属于不影响含义的格式调整"
+        ]
+      },
+      {
+        "id": "book015-b000849-p000-493040916a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000850-p000-2ce57eee11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“112”“152”的具体所指未明确，译文中直接保留数字，未添加额外解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1578,
+    "completion_tokens": 216,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2361,
+      "completion_tokens": 151,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1578,
+      "completion_tokens": 216,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

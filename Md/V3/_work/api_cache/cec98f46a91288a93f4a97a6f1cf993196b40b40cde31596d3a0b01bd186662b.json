@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T23:20:37.537223+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cec98f46a91288a93f4a97a6f1cf993196b40b40cde31596d3a0b01bd186662b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004476-p000-7baea48338",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“爻也者，效天著也”存在文字脱漏，现有释读仅按给定字面表述，无法确定其完整准确含义"
+        ]
+      },
+      {
+        "id": "book016-b004481-p000-ae7556e876",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文含义为“（以上内容）说明前面的是第三章”，候选释读将逻辑关系倒置，错误表述为“上面的内容说明这部分是第三章”，与原文意思相反"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 826,
+    "completion_tokens": 188,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 826,
+      "completion_tokens": 188,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

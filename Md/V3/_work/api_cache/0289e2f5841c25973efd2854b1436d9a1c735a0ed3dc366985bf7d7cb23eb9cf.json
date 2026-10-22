@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-25T18:44:17.722450+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0289e2f5841c25973efd2854b1436d9a1c735a0ed3dc366985bf7d7cb23eb9cf",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000367-p000-2267b0841f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“卷二鑑十十八”，候选释读为“卷二 鑑十八”，数字译出错误，多出来的“十”未作标注处理"
+        ],
+        "uncertainty": [
+          "原文“十十八”是否为衍文或抄写错误不明确"
+        ]
+      },
+      {
+        "id": "book030-b000370-p000-52f483e873",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故吉辨之字水玄字水二形明白”，候选误将“吉”断句到前半句，认为“所以是吉利的”，实际“吉辨”是指在风水判断中区分这两种水形，语义理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000371-p000-ffe0b6bd06",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在重复、讹误（“琪芳”“徵 一分”“新塘徑亦然似 局之嫌新塘祖亦然”内容错乱），仅按可辨识部分释读，部分语义无法完全确定"
+        ]
+      },
+      {
+        "id": "book030-b000373-p000-8d648de820",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兵水喜魂光疾外田夏高起護穴”“如了”语义模糊，候选无依据释读为“喜欢其光曜灵动；外田夏季高起护卫穴”“就像这样”，属于无依据扩写；“平令”未明确标注语义不明，直接释读为“平令会导致退败消耗”无依据"
+        ],
+        "uncertainty": [
+          "“兵水”“魂光疾”“平令”“如了”等表述含义均不明确"
+        ]
+      },
+      {
+        "id": "book030-b000374-p000-8de4971b1f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“猶大欣義殊”候选释读为“仍十分欣赏，实在是错了”，无依据添加“实在是错了”的语义，原文未表否定评价；“遂日玉斧”含义不明，未作标注直接释读为“于是说玉斧”不准确"
+        ],
+        "uncertainty": [
+          "“大欣義殊”“玉斧”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000375-p000-a9c21084ce",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“日消之”具体操作含义未明，仅按字面逻辑释读"
+        ]
+      },
+      {
+        "id": "book030-b000376-p000-3b930541c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“清意彎曲廷方得利，不均江師及地塘水庄有清爲眞地”，候选无依据添加“方正的格局才会得利，不均的格局则不行”的语义，属于增译；“廷方”“不均江师”语义未明确标注不明，随意释读无依据"
+        ],
+        "uncertainty": [
+          "“清意”“廷方”“不均江师”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000377-p000-d648036003",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“立要之立五門來取屈西朝懷出喜回流反顧”“點商而流來入口”“護衞太身”语义模糊，候选未标注不明直接释读，属于无依据推测；“太身”应为“本身”或风水专指，释读为“太身”未说明"
+        ],
+        "uncertainty": [
+          "“立五门”“屈西朝怀”“点商”“太身”具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000379-p000-d9f5d09256",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“欲軍取之”候选释读为“想专门取用”，“軍”为讹字未标注，直接按“专”释读无依据"
+        ],
+        "uncertainty": [
+          "“欲軍取之”中“軍”是否为讹字、具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000382-p000-578529d9f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“丁財該囑”“俟後文棺用事琢玉斧”语义模糊，候选未标注不明直接字面释读，“丁财该嘱咐”不符合风水语境表达逻辑，“棺用事琢玉斧”无依据释读"
+        ],
+        "uncertainty": [
+          "“丁财该嘱”“后文棺用事琢玉斧”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2675,
+    "completion_tokens": 1258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2675,
+      "completion_tokens": 1258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

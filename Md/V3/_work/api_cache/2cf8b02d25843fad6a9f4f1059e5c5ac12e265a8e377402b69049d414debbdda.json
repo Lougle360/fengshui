@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T14:04:58.671353+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2cf8b02d25843fad6a9f4f1059e5c5ac12e265a8e377402b69049d414debbdda",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000002-p000-c3984f63aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“青理參費言機舍 展之奏一”具体所指不详",
+          "“堯夫每乗以四之法”中“乘以四”的具体运算规则不明",
+          "“王索仙婆”的具体含义不详"
+        ]
+      },
+      {
+        "id": "book029-b000004-p000-9e59440e36",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文结尾为“余謂人地理泰皆玄機全書○卷一”，candidate释为“我认为人、地、理，都属于玄机的范畴。全书共分卷一及后续卷次”存在错误：一是误读“地理泰”为分述“地、理”，漏释“泰”字；二是原文仅标注“卷一”，无“后续卷次”相关表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“天地造孔會於一元”具体所指不详",
+          "“探天也之根”中“也”疑为原文讹字"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3807,
+    "completion_tokens": 304,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3807,
+      "completion_tokens": 304,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

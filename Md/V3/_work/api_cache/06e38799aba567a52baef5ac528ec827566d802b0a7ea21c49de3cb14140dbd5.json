@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-18T00:53:23.973105+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "06e38799aba567a52baef5ac528ec827566d802b0a7ea21c49de3cb14140dbd5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005092-p000-f90dd08b0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格内所有解释性文字因OCR错误或原文残缺导致语义完全无法通读",
+          "“马甲带”、“头牛”、“春行马五”、“门马金”、“面疑”等标题短语的具体所指不详",
+          "“财天水多相破”、“财天水金顶偏”等条目对应的吉凶判断逻辑无法还原",
+          "“解”字后的长段文字无法进行有效的断句和释义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2714,
+    "completion_tokens": 155,
+    "cached_prompt_tokens": 2176,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2714,
+      "completion_tokens": 155,
+      "cached_prompt_tokens": 2176,
+      "usage_estimated": false
+    }
+  ]
+}

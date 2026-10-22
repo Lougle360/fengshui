@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T09:06:31.112660+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "13f5999c042c75721fc432d693f60a8dbc33ffb9919f1856d1aefb1ad68cc26b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000148-p000-f19cc39173",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文断句及部分字词含义难以明确，仅能基于可辨识内容改写"
+        ],
+        "uncertainty": [
+          "原文中“骨由團樂”“此播最言”“和腔”等字词含义难以明确，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000149-p000-10ac3a63bc",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文断句混乱，多处字词无法辨识，释读内容存在多处语义不通顺的情况"
+        ],
+        "uncertainty": [
+          "原文中“弹龙而者”“身鹏以”“风南”等字词含义难以明确，具体所指不详，释读内容无法准确对应原文"
+        ]
+      },
+      {
+        "id": "book010-b000150-p000-f5f08abdd1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文断句混乱，多处字词无法辨识，释读内容与原文字词对应度极低"
+        ],
+        "uncertainty": [
+          "原文中“漸蕭條”“勉退多最上”“凶滩者”“郵主穴出”“傳發龍以”“大编”“失踏”“序难”“老伦”等字词含义难以明确，具体所指不详，释读内容无法准确对应原文"
+        ]
+      },
+      {
+        "id": "book010-b000151-p000-758ee2c128",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文断句及部分字词含义难以明确，仅能基于可辨识内容改写"
+        ],
+        "uncertainty": [
+          "原文中“天拆”含义难以明确，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1483,
+    "completion_tokens": 449,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1483,
+      "completion_tokens": 449,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

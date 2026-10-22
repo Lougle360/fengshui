@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T10:29:15.827526+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "46a3e4eefab82507d459b08501ff3eb6dd2114e58e08d301c0d2ac3d4608d435",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000748-p000-0bd16b8724",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000749-p000-78d36053bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000750-p000-d4c887cc07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000751-p000-0a9ee8ee87",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中\"丁如\"\"辛如\"\"癸郊\"的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1145,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

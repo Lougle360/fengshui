@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T11:17:56.318341+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d7aab02b226c17ab3d2e770716ad956c36c864aac245008526a83e82f3e9b73f",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000178-p000-a7ee3e3563",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的术语如‘关斧’‘人檐’‘翻区’‘平规’‘盘柜’‘歹裁’‘脏’等直接释读为确定含义，不符合要求，应标注‘具体所指不详’"
+        ],
+        "uncertainty": [
+          "关斧",
+          "人檐",
+          "翻区",
+          "平规",
+          "盘柜",
+          "歹裁",
+          "脏"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1240,
+    "completion_tokens": 126,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1240,
+      "completion_tokens": 126,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

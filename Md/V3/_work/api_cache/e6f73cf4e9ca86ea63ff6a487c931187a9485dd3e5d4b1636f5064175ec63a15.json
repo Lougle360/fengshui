@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T08:59:55.530728+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e6f73cf4e9ca86ea63ff6a487c931187a9485dd3e5d4b1636f5064175ec63a15",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000112-p000-612dfb18cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000113-p000-8f380b4608",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“卷家”“抓秋法”“油窄形”“尤”等术语未明确释读，候选释读未标注其具体所指不详，存在将不确定解释当作确定事实的问题"
+        ],
+        "uncertainty": [
+          "“油窄形”具體所指不详",
+          "“卷家”具體所指不详",
+          "“抓秋法”具體所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000114-p000-05d34f6152",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000115-p000-7ace6f9ed2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“尤”“卷背”“灰線草蛇”“尤息”等术语未明确释读，候选释读未标注其具体所指不详，存在将不确定解释当作确定事实的问题"
+        ],
+        "uncertainty": [
+          "“尤”在此處的含義具體所指不详",
+          "“卷背”具體所指不详",
+          "“灰線草蛇”具體所指不详",
+          "“尤息”具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 391,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2066,
+      "completion_tokens": 391,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

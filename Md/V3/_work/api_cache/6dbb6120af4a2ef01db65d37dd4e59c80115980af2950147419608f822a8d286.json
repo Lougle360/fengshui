@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-04T10:10:36.728548+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6dbb6120af4a2ef01db65d37dd4e59c80115980af2950147419608f822a8d286",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001570-p000-d2bc42c859",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001571-p000-94e12c427d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001572-p000-aebad9701f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001574-p000-004b903c0e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格内容完全重组为列表，并添加了编号和标题（如“本表内容如下：”），这属于结构上的增译和改写，超出了释读范围。",
+          "原文表格中存在多处OCR错误或模糊字符（如“本我 分矢大力 n”、“五一格雷 ”、“御 WMA臺”），候选句未保留原文的模糊性，也未说明原文有损坏，而是直接给出了看似通顺的解释，这可能导致信息失真。例如，“五一格雷”被直接解释为“五雷”，但原文形态不明。",
+          "候选句对部分术语的解释超出了allowed_glossary的范围，例如对“镜台”、“杯盘”、“五雷”、“龙楼凤阁”、“帘幕”、“御伞”、“御台”等形态的描述，虽然基于原文，但将其作为确定解释给出，而非保留原文的模糊性。",
+          "部分释读存在语义风险：1. “上格黽主封公侯”中的“黽”可能为“龍”之误，候选句直接释为“上等的龙脉”，虽合理但未标注原文用字之异。2. “賤罷主掌大權”中的“罷”可能为“龍”之误或另有含义，候选句释为“低贱的龙脉主掌大权”，逻辑与前文“低贱”矛盾，且未标注原文用字问题。3. “簾悞貴砂”中的“悞”可能为“幕”或“幄”之误，候选句直接释为“帘幕贵砂”，未标注原文用字之异。4. “示雖高聳特異則貴”句意不明，候选句释为“虽然高耸特异，但贵气有限”，属于推测性解释，且未标注原文含混。",
+          "候选句将“御臺”与“御臺前有日月”分为两项，但原文表格中“御 WMA臺”与“御臺”可能为同一项或相关项，结构处理过于主观。"
+        ],
+        "uncertainty": [
+          "原文表格部分文字因OCR或原书损坏难以准确识读，如“本我 分矢大力 n”、“五一格雷 ”、“御 WMA臺”、“簾悞貴砂”、“賤罷主掌大權”等，其确切含义存在不确定性。",
+          "“示雖高聳特異則貴”一句原文含义不明。",
+          "表格中“中”、“杯2盤”等单元格的归属和具体含义不明确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2648,
+    "completion_tokens": 709,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2648,
+      "completion_tokens": 709,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

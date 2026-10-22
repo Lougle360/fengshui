@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:13:58.051672+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b43222a7431a2a74217299c326d5aab8dabf6ad4af78e138bc5e05ef5f1e6c5a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000637-p000-a2d4748692",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处公式符号残缺、格式混乱，候选译文中保留的公式符号残缺部分未明确标注，无法确认准确含义"
+        ],
+        "uncertainty": [
+          "原文中存在多处公式符号残缺、格式混乱，无法完全确认其准确含义"
+        ]
+      },
+      {
+        "id": "book015-b000639-p000-c2d0dff16a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在公式符号残缺、格式混乱，候选译文中保留的公式符号残缺部分未明确标注，无法确认准确含义"
+        ],
+        "uncertainty": [
+          "原文中存在公式符号残缺、格式混乱，无法完全确认其准确含义"
+        ]
+      },
+      {
+        "id": "book015-b000641-p000-e4bd1d28ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000642-p000-a63cc82083",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在公式符号残缺、格式混乱，候选译文中保留的公式符号残缺部分未明确标注，无法确认准确含义"
+        ],
+        "uncertainty": [
+          "原文中存在公式符号残缺、格式混乱，无法完全确认其准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1531,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1531,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

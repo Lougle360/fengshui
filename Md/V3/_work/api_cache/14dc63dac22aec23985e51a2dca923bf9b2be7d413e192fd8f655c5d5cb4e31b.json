@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T14:47:35.541131+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "14dc63dac22aec23985e51a2dca923bf9b2be7d413e192fd8f655c5d5cb4e31b",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000445-p000-70e07e07cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错乱、残缺内容，多数表述无法准确解读"
+        ]
+      },
+      {
+        "id": "book026-b000446-p000-3460ccf534",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量文字错乱、残缺，夹杂不明字符Ne2，无法完整解读"
+        ]
+      },
+      {
+        "id": "book026-b000447-p000-2259c27fae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000451-p000-7c564dc0c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000453-p000-c974c8a887",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量文字错乱、残缺，无法完整解读"
+        ]
+      },
+      {
+        "id": "book026-b000454-p000-4533a7b2ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000456-p000-967109be51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“山有惡形當面來朝者禍福”表意含混，仅可辨认“山有恶形当面来朝”的表述，未明确对应“会招致灾祸”的确定吉凶判定，属于将不确定内容释为确定事实；原文“登穴不見”是指在穴场看不见湍急的水，candidate误写为“不见去向”，与原文意思不符"
+        ],
+        "uncertainty": [
+          "原文“山有惡形當面來朝者禍福”的吉凶指向原文表述模糊，无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000457-p000-f6557acee7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错乱、残缺内容，多数表述无法准确解读"
+        ]
+      },
+      {
+        "id": "book026-b000458-p000-d87cefeb90",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“移濕就燥”意思是离开潮湿的地方，趋近干燥的地方，candidate释为“移向湿润，靠近干燥”与原文含义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000459-p000-bda2450e53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“向之凶者宜不響載助切王儲具五邑”“肉水泉砂石皆為凶空則還之良”“亦當有辨地”等内容存在错乱，candidate将错乱部分强行释读为“方位凶险的，就不适合”“比如肉、水泉、砂石都属于凶险的情况，空阔的地方则合适，也需要仔细辨别”属于无依据扩写，把不确定内容当作确定事实；原文未提及“还要仔细分辨”的表述，属于增译无依据内容"
+        ],
+        "uncertainty": [
+          "原文存在文字错乱，多数内容无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3071,
+    "completion_tokens": 815,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3071,
+      "completion_tokens": 815,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

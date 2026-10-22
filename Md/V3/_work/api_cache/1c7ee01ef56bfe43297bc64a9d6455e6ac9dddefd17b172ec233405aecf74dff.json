@@ -1,0 +1,147 @@
+{
+  "created_at": "2026-10-17T12:48:19.746996+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1c7ee01ef56bfe43297bc64a9d6455e6ac9dddefd17b172ec233405aecf74dff",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003703-p000-cfb027d322",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头'观察地势可以推知人的情况，而要判断将来的变化，也可以用已经发生的事情来验证。'是凭空添加，source中无对应内容。",
+          "'帛从丙方流出'中'丙方'为方位，locked_terms未包含，但方位属于'数字/干支/卦象/方位变化'检查项，此处未发现误译，但需注意。",
+          "'土星出金子'的'金子'可能指'金星'或'金形'，candidate直译为'金子'，但结合上下文'土星出金子'可能为风水术语，指土星生出金形/金星，candidate未明确其为术语，也未加引号或说明，存在专业术语误换风险。",
+          "'此龙原本是从土星中生出，从土星中生出的金子渐渐秀丽奇异，是清贵的龙脉。'中'从土星中生出的金子'表述重复且可能混淆，source为'此龍元是土星中來從土星中生 出金子漸漸秀异爲清貴之龍'，candidate处理为两个分句，但'从土星中生出的金子'作为主语承接'渐渐秀丽奇异'，与source'出金子渐渐秀异'结构不同，易生歧义。"
+        ],
+        "uncertainty": [
+          "'土星出金子'中的'金子'具体指金星、金形还是其他，原文未明。"
+        ]
+      },
+      {
+        "id": "book035-b003704-p000-e8198ec39a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate末尾'有沮洳之地却无石蛇，则不吉。'是依据writer_uncertainty的推测进行的扩写，source原文'有沮汝之地郤'语义残缺，candidate不应将其补足为确定事实。应保留原文残缺状态或仅说明不确定性。",
+          "'清单单屈曲而出'中'清单单'疑似对source'清單單'的直译，含义不明，candidate未加说明，可能造成读者困惑。",
+          "'足以为凭'是增译，source'足'可能指'足够'或'脚'（与前文'微有脚'呼应），candidate解释为'足以为凭'无依据。",
+          "'下圭包其初'含义不明，candidate未加任何说明，直接保留，不符合'普通读者能读懂'的目标，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "'清單單'具体含义不详。",
+          "'下圭包其初'具体所指不详。",
+          "'有沮汝之地郤'语义残缺，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003705-p000-a06295eb8f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将source末尾的注释'7 MT 拋梭之龍左接右右接左皆非穿以下在出如火星之變 本是員龍人所不義多以偏斜而見弃此欠切有磋也'直接复制到译文中，未进行白话转换，不符合'古文/日文没有真正转换成现代中文'的要求。",
+          "'人所不义'应为'人所不识'之误，candidate保留'人所不义'，未按规则处理疑似误字（writer_uncertainty已标注，但candidate未在译文中体现此不确定性）。",
+          "'欠切有磋也'应为'欠切磋也'，candidate保留'欠切有磋也'，未按规则处理。"
+        ],
+        "uncertainty": [
+          "'7 MT'含义不明。",
+          "'人所不义'疑似'人所不识'之误。",
+          "'欠切有磋也'疑似'欠切磋也'之误。"
+        ]
+      },
+      {
+        "id": "book035-b003706-p000-bfb2c9a888",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将source末尾的注释'又本是眞龍以 員缺皆佩玉形水星先起 金般殿名玉珂佩名垂珠 波浪來此變 爲玉珂也'直接复制到译文中，未进行白话转换。",
+          "'金般殿名'candidate保留原词并标注了不确定性，但整体注释部分未翻译，导致译文混杂古文，不连贯。"
+        ],
+        "uncertainty": [
+          "'金般殿名'疑似'金銮殿名'之误。",
+          "注释部分'又本是眞龍以 員缺皆佩玉形水星先起 金般殿名玉珂佩名垂珠 波浪來此變 爲玉珂也'具体含义需结合上下文理解。"
+        ]
+      },
+      {
+        "id": "book035-b003707-p000-8479c5f094",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003708-p000-0b925bb22d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'精笔砚呀'，candidate 直接照录'精笔砚呀'，未按规则处理为'精笔砚'（具体所指不详）或标注'呀'字疑似衍文。candidate 在 uncertainty 中虽有说明，但正文未作处理，仍可能误导读者。",
+          "原文'玉琴微'，candidate 直接作为星名使用，未按 opaque_terms 规则处理。应将其视为含混专名，在引用范围内说明，如'此星名为“玉琴微”'，而非直接认定为星名。",
+          "原文'为处士或高士宣诏，布衣直上殿'，candidate 直译，但'宣诏'、'布衣直上殿'为古代特定场景，现代读者可能不解。应补充说明这是比喻，指此类地形可能出隐士或受朝廷征召的平民，或标注'具体所指不详'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003709-p000-68e6a2d276",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'夜义'，candidate 写作'夜义'，并在 uncertainty 中说明'具体所指不详'，符合规则。但正文中'夜义头上出尖笋'、'夜义头上本可畏'等句，'夜义'作为专名未加引号或明确标注为专有名词，可能被误读。建议在首次出现时加引号或说明。",
+          "原文'烨烨或是火星'，candidate 断句为'烨烨或是火星'，语义不通。可能应为'烨烨，或是火星逢着土'，指火焰明亮，可能是火星（星体）遇到土（星体）所生。candidate 处理有误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003710-p000-4d2fc18482",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003711-p000-b5ca015038",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003712-p000-57ba6ba6e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将source末尾的注释'高山左右壁立如閣閣然有小山生出者正如閣 門爲土内官爲爲木宣 麻皆木之類皆屬木'直接复制到译文中，未进行白话转换。",
+          "'笔山面壁立如闺阁'中'笔山'可能为比喻，candidate未加说明。",
+          "'皙'字可能为'晰'或'昔'之误，candidate保留'皙'，未加说明。",
+          "'才更看穴是何里，出门之而内之山相有，而前麻是也。'句意晦涩，candidate仅保留原句并标注不确定性，但未尝试进行任何能让普通读者理解的释读（如分解短语、说明可能指代关系），不符合V3目标。"
+        ],
+        "uncertainty": [
+          "'笔山'具体形态不详。",
+          "'皙'字疑似误字。",
+          "'才更看穴是何里，出门之而内之山相有，而前麻是也。'具体含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 538,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3240,
+      "completion_tokens": 1775,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1568,
+      "completion_tokens": 538,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

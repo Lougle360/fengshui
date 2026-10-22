@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-15T07:29:20.449823+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "268f280f0590d8bb434070972e2acd367f78836fdfe45ebe0b5f6fa609f793f9",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002089-p000-7436e984f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "政尾",
+          "震辰宫"
+        ]
+      },
+      {
+        "id": "book033-b002090-p000-6a3b0ab915",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乙比申房"
+        ]
+      },
+      {
+        "id": "book033-b002092-p000-71840d5193",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "離官",
+          "政御"
+        ]
+      },
+      {
+        "id": "book033-b002093-p000-d337b39630",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘虚正乙丑半吉 分牛 癸辛丑半吉 水正水 丑斗庚寅大吉’，candidate将‘癸辛丑半吉’释读为‘癸辛丑年也属于半吉’，但原文‘癸辛丑’并非一个标准干支纪年，可能是‘癸丑’和‘辛丑’的合称或误写，释读为确定年份不准确。",
+          "原文‘丑斗庚寅大吉’中，‘丑斗’与‘庚寅’之间无明确连接词，candidate释读为‘文中还提到“丑斗”和“庚寅”，并指出庚寅年是大吉之年’，将‘庚寅’直接认定为年份是合理的，但‘丑斗’与‘庚寅’的关系未明确，释读未体现原文的并列或承接关系。建议调整为‘……癸辛丑年也属于半吉，文中提到“水正水”；接着提到“丑斗”和“庚寅”，并指出庚寅年是大吉之年。’"
+        ],
+        "uncertainty": [
+          "水正水",
+          "丑斗"
+        ]
+      },
+      {
+        "id": "book033-b002094-p000-ba6d5bd5aa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘未甲申大吉政’，candidate释读为‘文中提到“未甲申大吉政”，具体所指不详’。原文‘未甲申’可能指‘未年、甲申年’或‘未、甲申’，释读为单一短语‘未甲申’并标注不详是合适的，但未明确其可能为干支组合。建议在uncertainty中补充说明‘未甲申’可能指代不明。",
+          "原文为‘坤参兑宮’，candidate释读为‘文中提到“坤参兑宮”，其中“坤”和“兑”是八卦之一，但“参”字含义及整体结构不详’。释读准确，但‘参’可能为星宿名（参宿）或动词，建议在uncertainty中补充此可能性。",
+          "原文末尾有数字‘11’，candidate完全漏译。数字在风水术数中可能有特殊含义，漏译属于严重问题。"
+        ],
+        "uncertainty": [
+          "未甲申大吉政",
+          "参",
+          "水胄",
+          "四五五分",
+          "末尾数字‘11’的含义"
+        ]
+      },
+      {
+        "id": "book033-b002095-p000-8d5ccadf6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘己 卯半吉’，candidate释读为‘己卯年属于半吉’。原文‘己’与‘卯’之间有空格，可能表示‘己年’和‘卯年’或‘己卯年’，释读为‘己卯年’是合理的推测，但应标注不确定性。建议在uncertainty中说明原文格式特殊。",
+          "原文为‘乙戊午大凶’，candidate释读为‘文中提到“乙戊午大凶”，具体所指不详’。‘乙戊午’非标准干支，可能是‘乙午’和‘戊午’的合称或误写，释读为单一短语并标注不详是合适的。",
+          "原文末尾为‘冰 T’，candidate释读为‘文中还提到“冰 T”，具体所指不详’。‘T’可能是字母、符号或OCR错误，释读准确。"
+        ],
+        "uncertainty": [
+          "己 卯的书写格式",
+          "大水五土正木七水正水",
+          "分柳分張分翼辰彰分氏申角",
+          "丙巳張",
+          "乙戊午",
+          "冰 T"
+        ]
+      },
+      {
+        "id": "book033-b002098-p000-de5bea521a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘辛甲八 吉’，candidate释读为‘文中提到“辛甲八 吉”，具体所指不详’。释读准确，但‘八’可能是数字或‘分’的误写，建议在uncertainty中补充说明。",
+          "原文为‘丁鬼丙星已張分氏分軫’，candidate释读为‘文中提到“丁鬼丙星已張分氏分軫”，具体所指不详’。其中‘已張’可能是‘己張’（己日与张宿）的误写，但candidate未指出可能为干支/星宿组合。建议在uncertainty中补充说明可能涉及干支和星宿。",
+          "原文为‘甲 庚辰 巽’，candidate释读为‘文中提到“甲 庚辰 巽”，其中“巽”是八卦之一，但“甲”和“庚辰”在此处的具体含义及关系不详’。释读准确，但‘甲’可能是天干或‘甲日’，‘庚辰’可能是干支，建议在uncertainty中补充说明。"
+        ],
+        "uncertainty": [
+          "辛甲八",
+          "正土正火三火正土五土",
+          "丁鬼丙星已張分氏分軫",
+          "甲",
+          "庚辰"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1949,
+    "completion_tokens": 1222,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1949,
+      "completion_tokens": 1222,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

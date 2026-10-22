@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T19:05:44.316912+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "96d9625ced0575f6cc2cfbda64d8283729ce26855f7dd1bfef57ae7060962e7e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002408-p000-4d8a88e1c0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译了原文中明确的‘六三’‘获得众人信允’的内容，将‘获得众人信允’简化为‘众人信任’，改变了原文的具体指向，且未保留原文的卦爻信息‘六三’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002409-p000-96ebc7ee66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002410-p000-d7b5749bfe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 202,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1195,
+      "completion_tokens": 202,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

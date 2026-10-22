@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:40:57.378346+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "23ad84c38d00ea127c8cc60e22d9a520149b79bf20e39b1f198adaf541a44944",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000868-p000-9e27d43472",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000870-p000-0ad008860b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘開空’误释为‘開闊’，‘光藥’误释为‘光潔’，‘薙光室’误释为‘選擇光潔之地作為居室’，‘醴相’误释为‘醜態’，存在多处原文词义误换；未保留‘穴’‘向’‘水’等风水术语的特定释义，且对原文的断句和语义理解存在偏差，导致释读与原文含义不符"
+        ],
+        "uncertainty": [
+          "原文中‘光藥’‘薙光室’‘醴相’等短语具体所指不详，释读时未标注相关歧义说明"
+        ]
+      },
+      {
+        "id": "book014-b000871-p000-75c6c74fe8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘石光眞如梳者’误释为‘忘記石頭光潔如梳的’，‘叙 C 古釵如又篦如比皆摘愛爲節不 篦’等残损原文未按保守释读处理，存在语义误读；未保留原文的断句和残损部分的标注，导致释读与原文实际内容不符"
+        ],
+        "uncertainty": [
+          "原文存在多处残损（如‘忘’‘叙 C’‘不 篦’等），具体含义不详，释读时未标注相关歧义说明"
+        ]
+      },
+      {
+        "id": "book014-b000872-p000-a865ef1dff",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘巳見’误释为‘已見’，‘蟻眉’误释为‘蟻眉之形’，‘龍穴’误释为‘龍、穴’，‘未人之爲者’误释为‘未人之輩’，‘淫沙’误释为‘屬淫沙’，存在多处词义误换；未保留‘穴’‘水’等风水术语的特定释义，且对原文的断句和语义理解存在偏差，导致释读与原文含义不符"
+        ],
+        "uncertainty": [
+          "原文中‘蟻眉’‘露花等沙’‘飛燕堆衣’等短语具体所指不详，释读时未标注相关歧义说明；原文中‘貴而可議’的具体所指不详，释读时未标注相关歧义说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1652,
+    "completion_tokens": 629,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1652,
+      "completion_tokens": 629,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

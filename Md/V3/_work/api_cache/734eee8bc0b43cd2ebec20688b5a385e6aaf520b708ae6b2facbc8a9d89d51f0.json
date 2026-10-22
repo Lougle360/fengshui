@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-26T10:01:26.403575+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "734eee8bc0b43cd2ebec20688b5a385e6aaf520b708ae6b2facbc8a9d89d51f0",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000764-p000-e01736d581",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000765-p000-5857acc0fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“几穴星上夫而圓”存在文本讹误，候选将其释读为“穴星位於上方且形體圓滿”属于无依据确定释义，不符合原文含混内容的标注要求；“其未必圓”的“其”指代木星穴的木体，候选未明确表述导致指代模糊"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000766-p000-87c173e412",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000769-p000-9e0e799102",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“鉗穴有長短獲單曲直”的“獲單”属于未明确的术语，候选将其替换为“橫直”属于无依据改译；“一脚轉水木大土者”等特殊表述候选释读错误，存在无依据修改原文内容的问题；“拉稜分明”原文讹误，候选写作“弦棱分明”无依据；“兩掬彎環”候选写作“兩彎環抱”改变原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000771-p000-1b060cbaba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000773-p000-4a802d66a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“借樂安扦”属于风水专业操作术语，候选未做通俗释义也未标注含义不明，普通读者无法理解；“拉稜分明”候选写作“棱線分明”无原文依据；“突面光囿”为原文讹误，候选直接写作“突面光圓”未标注文本异常"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000774-p000-334c01f7fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4031,
+    "completion_tokens": 599,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4031,
+      "completion_tokens": 663,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4031,
+      "completion_tokens": 599,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

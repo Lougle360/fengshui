@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-15T07:28:06.795809+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "65a3a8bd3d836d8ba5994425768126aa3f613d848892e5cb4d5f513286b4bb56",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001431-p000-a15ff71bab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001432-p000-8d66b53183",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘因錢之正篇’，candidate译为‘因此将其附在钱氏的正篇之后’。‘钱之’可能指‘钱氏’或‘钱某’，但‘附在...之后’是增译，原文仅说‘因钱之正篇’，未明确是‘附在之后’。应调整为更贴近原文的表述，如‘因此将其编入钱氏的正篇’或‘因此附于钱氏正篇’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001433-p000-b990802261",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001435-p000-6e1f185a9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001438-p000-1d8419444c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001440-p000-fcd54baf43",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文‘甲廖丙壬上得财’译为‘甲廖丙壬上得财’，未做任何解释或标注，但‘甲廖’一词费解，可能为‘甲向’或‘甲卯’之误，或为专名。作为opaque_terms处理，应加引号或标注其含义不明。同样，‘因女人未方丙必乱’中的‘未方’（未方）是方位，但整体句意含混，candidate未标注不确定性。应添加uncertainty说明这些短语具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘甲廖丙壬上得财’、‘因女人未方丙必乱’等句具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001441-p000-b1b5cebb1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001443-p000-f221c09d22",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘少亡人悲器’译为‘少亡人悲器’，未做解释或标注，此短语含义不明。‘马山斜出足’同样晦涩。应将这些opaque_terms置于引号内或明确标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "‘少亡人悲器’、‘马山斜出足’等句具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001444-p000-dd4ea75957",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "candidate将疑似错字或费解词如‘玛富贵’、‘某上金下火’、‘银内乱’等直接放入译文中，未做任何风险标注。这些应视为opaque_terms，需加引号或说明其含义不明。此外，‘女子息音气身’句意不清，candidate也未标注。应添加uncertainty说明这些部分难以确解。"
+        ],
+        "uncertainty": [
+          "‘玛富贵’、‘檐山若斜仄，银内乱’、‘某上金下火’、‘女子息音气身’等句具体所指不详，原文可能存在错漏。"
+        ]
+      },
+      {
+        "id": "book035-b001445-p000-4230f64dd4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘无龙虎’等句意简略，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3078,
+    "completion_tokens": 835,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3078,
+      "completion_tokens": 835,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

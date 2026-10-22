@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T10:35:36.228810+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "06ebeeac3639e8f3b580be9d68cad5278f78b512218180381467b3465dcdefc6",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000850-p000-c1c03b7993",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "子、丑、寅、如辰、巳、午、未、申、酉、戌，夾坤、丁、丙、巽、乙、甲，限癸、壬、乾、辛，與申、未、午、巳、辰、卯、寅、丑、子，夾戌、酉，成也。辰、卯、寅、丑、子、亥，一百案羃中，乾、兌、艮、離、坎、坤、震、巽，熏谷番乾、兌、艮、離、坎、坤、震、巽中，紫皆兌、艮、離、坎、坤、震、巽中，乾羃一百余，艮、離、坎、坤、震、翼中，乾、兌、岳熏谷，離、坎、坤、震、巽中，乾、兌、艮，音霫紫，坎、坤、震、巽中，乾先艮、離，羔羅一百，坤、震、巽中，乾、兌、艮、離、坎谷簧熏，震、巽中，乾、兌、艮、離、坎、坤九紫，音舊，巽中，乾、兌、艮、離、坎、坤震。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量OCR识别错乱的内容，多处文字无法确认准确含义，如\"如辰\"\"案羃\"\"熏谷番\"\"霫紫\"\"羔羅\"\"谷簧\"\"音舊\"等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000852-p000-fb833b4798",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "子午智日，辰、戊、丑、未日，郊午醇，展未贞，已申点，午卯，未越辰，申实巳，酒郊午，丑成辰未，寅已申寅申色，亥日。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在OCR识别错乱的内容，多处文字无法确认准确含义，如\"展\"\"已申点\"\"酒郊午\"\"丑成\"\"寅申色\"等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000853-p000-54c78d716d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "用後至冬，紫谷羅善熏百；用後至夏，真震、坤、坎、离、艮、兑、乾中，震、坤、坎、离、艮、兑、乾中巽，坤、坎、离、艮、兑、乾中巽震，坎、离、艮、兑、乾，中兴震、坤，离、艮、兑、乾中巽震坤坎，艮兑乾中巽震坤坎离，兑乾中巽震坤坎离艮，乾中翼震坤坎离艮兑，中巽震坤坎离艮见乾。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在OCR识别错乱的内容，多处文字无法确认准确含义，如\"紫谷羅善熏百\"\"真\"\"翼\"\"见\"等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000854-p000-e3b3eab15f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "冬至後，子午卯酉日為上元，一白起手耶；冬至後，辰戌丑未日為中元，七赤起子時；冬重復，寅申巳亥日為下元，四林起李明；夏至後，子年卯酉日為上元，九紫起甲子。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中\"冬重復\"\"四林\"\"李明\"等内容无法确认准确含义，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2028,
+    "completion_tokens": 997,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2028,
+      "completion_tokens": 997,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

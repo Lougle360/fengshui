@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:52:58.347266+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a15df6b473079be88dfb70f511d3d5302b4bf946eb60721437061fc113c87287",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000922-p000-09458fa436",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "张行成利用《挂一图》来考察历史事件的“运数”，相关内容见于《通变》卷十一。所谓大运，指的是①元经会的运卦与②会经运的世卦；所谓小运，指的是③运经会的年卦与④世经年的月卦，共四类。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000923-p000-b9dd56c4a2",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "首先是对运卦的考察，张行成将《挂一图》的256卦对应1元，4爻对应1运，以第1运升卦（1）的六五爻到蒙卦（2）的九二爻为起点，计算对应特定星运的卦爻（正数）。例如，日甲为1、月巳为6、星癸为180，从辰未2156年到辰申2157年的尧的治世，第180运（即第2149世至2160世）对应贲卦（128）的九三、六四、六五、上九爻，由于1爻对应3世（即90年），因此第2156世与2157世对应的是贲卦的六五爻。张行成将贲卦定为尧的运卦，正是他在《挂一图》中寻求易卦与星运一一对应关系的结果。不过对于世卦，他认为“随大运（运卦）的变化而消长”，并提出“遇到奇卦就取后卦，遇到偶卦就取前卦，将两卦合并对应十二世，一奇一偶交替使用”。就上述例子而言，贲卦是第128卦，属于偶数位，因此取前卦无妄卦（127）的6爻，再与贲卦的6爻合并，对应第180运的12世的世卦。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000924-p000-d3dea3875f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "另一方面，对于小运的年卦，张行成将1世换算为1月，1年换算为1日，将升卦（1）的六五爻到蒙卦（2）的九二爻对应子月的己巳日（6日），将无妄卦（23）的初九爻到九四爻对应丑",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文此处存在缺漏，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book015-b000925-p001-fcab3a28d6",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "图6-17 既济原理图",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 791,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2059,
+      "completion_tokens": 791,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

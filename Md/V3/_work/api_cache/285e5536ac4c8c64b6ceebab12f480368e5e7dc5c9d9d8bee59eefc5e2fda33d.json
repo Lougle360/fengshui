@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T10:05:52.428753+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "285e5536ac4c8c64b6ceebab12f480368e5e7dc5c9d9d8bee59eefc5e2fda33d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000527-p000-3f93113197",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000528-p000-d9db0ae224",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000529-p000-332e7b6418",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000530-p000-88cdaf783a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「己葵墓塋」「才位」「剌山家」的表述未明確，釋讀時擅自將「己葵墓塋」改為「已經存在的墓塋」，將「才位」改為「才位」（未明確含義），將「剌山家」改為「剌山家」（未明確含義），存在無依據擴寫與模糊處理的問題"
+        ],
+        "uncertainty": [
+          "原文中「己葵墓塋」「按荊楚記」「午氣」「歲官交承」等表述的具體所指未明確，暫按原文保留"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1972,
+    "completion_tokens": 368,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1972,
+      "completion_tokens": 368,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

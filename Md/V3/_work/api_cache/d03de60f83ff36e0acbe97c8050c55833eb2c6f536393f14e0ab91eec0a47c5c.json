@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T15:26:26.272440+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d03de60f83ff36e0acbe97c8050c55833eb2c6f536393f14e0ab91eec0a47c5c",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001073-p000-e5061f8d8d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "引用了《学启蒙》本图书篇中的一段文字。引用的部分是在前面“河圖以五生數統五成數”这句话之后的一节。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001074-p000-5f841052ef",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "洛書以五个奇数统摄五个偶数，各自处于不同的方位。这是因为阳数（奇数）统摄阴数（偶数），由此产生变化。这正是数的功用所在。（洛書以五奇數，統五偶數，而各居其所。蓋主於陽以統陰，而肇其變。數之用也。）这一节和河图篇一样，从根本上规定了洛书篇的考察方向。康熙帝及其词臣们想要率先证明的，无非是“洛书是数的本源，是乘除产生的缘由”这一术数或数学基础论的命题。根据他们的认识，应当证明这一论点的理由在于“数学虽多，乘除能涵盖一切”（邵雍语）。但关于乘除这一命题得以成立的理论依据，仅见于《易·说卦传》中“参天两地而倚数”一句，即天数以三展开，地数以二展开。也就是说，根据《说卦传》，三对应天数，二对应地数。天地相合抚育万物，但因为“是太极之体”，所以无法自行展开。这就是“数”依托二与三产生的缘由。不过三的乘方会以3、9、27、81、243……这样的序列展开，二则以2、4、8、16、32……这样的序列展开，若舍去成数（10）并留下余数，就只会剩下位于洛书四正位的3、9、7、1，以及位于四维位的2、4、8、6，这些基数",
+        "confidence": "medium",
+        "uncertainty": [
+          "此处“成数”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b001075-p000-dce2eaa0b3",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "构成了2与3的等比数列。他们《数理精蕴》的作者将洛书判定为“乘除的本原”，理由就在于此。原本主张应将乘除的本源归于洛书的术数命题，以明确形式被提出，是在《周易折中》卷二十一的启蒙附论篇中。此外《大传》（《易·说卦传》）中说：“参天两地而倚数。”天数以三自行展开，地数以二自行展开，这就是乘除的本源。……洛书以三二作为数的功用之始，缘由就在于此。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001077-p000-5989a73ab6",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "（又《大传》说：“参天两地而倚数。”天数以三运行，地数以二运行，这就是乘除的本源。……洛书以三二作为数的功用之始。）",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2348,
+    "completion_tokens": 868,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2348,
+      "completion_tokens": 868,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

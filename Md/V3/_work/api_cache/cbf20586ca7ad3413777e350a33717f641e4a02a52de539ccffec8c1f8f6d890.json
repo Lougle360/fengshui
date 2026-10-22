@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-24T21:21:55.176671+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cbf20586ca7ad3413777e350a33717f641e4a02a52de539ccffec8c1f8f6d890",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000262-p000-c2c0bf2a6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000263-p000-cd910235ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000265-p000-6f01fb860f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“祖言”释义为“前代流传的说法”不准确，“祖言”应指祖师、先辈的言论；原文未提及“是经过拣选后的结论”，属于无依据增译，原文“擇”承接上下文，此处不应脱离原语境添加释义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000267-p000-a9c11ce5aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "左旋右族",
+          "右详",
+          "未你天不內",
+          "众言经分之大秘气",
+          "何然大地不相逢此实己说",
+          "阴阳秘魯"
+        ]
+      },
+      {
+        "id": "book017-b000268-p000-3a60a578ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“執定此說甚荒書”释义错误，“荒书”不是“荒疏的书籍里的内容”，应指这套说法本身十分荒谬；原文“勘砂”被误译为“勘破”，“砂”是风水专业术语，应按allowed_glossary保留其含义，不得替换为“勘破”；原文“風谷郑”未做说明直接引用，未标注存疑。"
+        ],
+        "uncertainty": [
+          "荒书",
+          "风谷郑一山一十"
+        ]
+      },
+      {
+        "id": "book017-b000269-p000-5ba94227d2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "宇義禮",
+          "阳龙得山陽水陰龍陰山陰"
+        ]
+      },
+      {
+        "id": "book017-b000271-p000-f7372a67be",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "寓不淺食る自见之少用",
+          "經則巧謂陰陽朝凡"
+        ]
+      },
+      {
+        "id": "book017-b000272-p000-37384625e2",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "存大鸿",
+          "西论",
+          "不益",
+          "今阳"
+        ]
+      },
+      {
+        "id": "book017-b000273-p000-f9116ee0b9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "舍阳"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2501,
+    "completion_tokens": 689,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2501,
+      "completion_tokens": 65,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2501,
+      "completion_tokens": 689,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

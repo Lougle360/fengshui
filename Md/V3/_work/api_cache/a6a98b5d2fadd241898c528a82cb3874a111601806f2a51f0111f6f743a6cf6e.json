@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T15:09:10.939568+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a6a98b5d2fadd241898c528a82cb3874a111601806f2a51f0111f6f743a6cf6e",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000960-p000-7ef6c126c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "部分条目如「可二十三街」「舌十七薛」「甲一多七歌」「乙二良十陽 丙三千一先」「二仙」「四刀三簫」「四」「戊五妻十二齊」「孔一世」等内容含义未明，原文未明确具体所指"
+        ]
+      },
+      {
+        "id": "book015-b000962-p000-30b710a322",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾「「東・董・送・屋」这些」未完整表述，存在内容缺失"
+        ]
+      },
+      {
+        "id": "book015-b000963-p000-c28dd7bb33",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文「独創」译为「具有独创性」，属于对原文含义的扩写，原文仅提及结构相似，未明确说明具有独创性，存在无依据扩写问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1977,
+    "completion_tokens": 276,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1977,
+      "completion_tokens": 276,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

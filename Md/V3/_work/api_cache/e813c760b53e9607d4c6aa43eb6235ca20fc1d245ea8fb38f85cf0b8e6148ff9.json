@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-24T00:59:39.265193+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e813c760b53e9607d4c6aa43eb6235ca20fc1d245ea8fb38f85cf0b8e6148ff9",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000002-p000-4c6d828fe2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000003-p000-15b816a367",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“故爲咎者豈是不按藏經內值吉神可用之日所以致此”是反问逻辑，意为“出现灾祸难道不是因为没按藏经里的吉神可用日行事才导致的吗”，候选译文中“所以做這事的人出了問題”属于误译，原句“爲咎”是指出现灾祸、凶咎，并非“做这事的人出问题”；“臣今藏經內錄如來選擇紀奏”中“選擇紀”是指选择吉凶的记录，候选译文译为“如來選擇的吉日”属于缩小语义范围，且漏译“紀”的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000004-p000-2d11fd65d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000005-p000-9a96447c56",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000006-p000-5959ace6b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“返善爲惡”意为原本行善的事反而变成招恶的结果，候选译文译为“會使行善者受妨礙、為惡者更甚”属于完全误解原义，语义错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000007-p000-87b7b03d29",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“返善爲惡”含义同前条，候选译文译为“行善者受妨礙、為惡者更甚”属于误译，语义错误"
+        ],
+        "uncertainty": [
+          "原文中“巳巳”疑為“己巳”的訛誤，“返”字後有缺字"
+        ]
+      },
+      {
+        "id": "book006-b000008-p000-d2ffd04dd7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“撿齋還福者”是指在此日捡斋、还福的人，候选译文译为“庚午日是青衣童子在世檢查齋事、還福的日子”逻辑错误，“還福”的主语是行事的人，不是青衣童子；“典旺”原文未明确含义，候选译文直接释为“典業興旺”属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000009-p000-ba453c6c76",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“選愿者”语义含混，候选译文直接处理为“若有人在此日行事”属于模糊处理不准确，且“選愿”未明确标注不确定性；“撿齋選愿”的主语是三途饿鬼，候选译文表述易让人误解为行事者的动作，逻辑错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000010-p000-13b2a4d641",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“撿齋還愿者”是指在此日还愿的人，“撿齋”的主语是判官，候选译文译为“是判官在世檢查齋事、還愿的日子”逻辑错误，“還愿”的主语是行事者，不是判官"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000011-p000-beb6acc972",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“巳卯”疑為“己卯”的訛誤"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2129,
+    "completion_tokens": 991,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2129,
+      "completion_tokens": 118,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2129,
+      "completion_tokens": 991,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

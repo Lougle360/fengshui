@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:00:00.100963+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ca26518054f9a667fc5d8dde8b1bc011cb80c0d6801b3f67f67903b2897e6912",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000082-p000-e1a45e10db",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘酉給岩內辛秀在外’释为‘酉给岩内辛秀在外’，语义不通，属于误译；‘文尅云下武封侯未二句’释读错误，原文‘文尅云下武封侯未二句’应为‘文尅云下武封侯未二句’的表述存在断句错误，原文‘其課曰一條辛水向東流文尅云下武封侯未二句公欲封公公不見公遇騎牛截斷頗後果以丁丑不利’的正确释读应为‘其课曰：一条辛水向东流，文尅云下武封侯；第二句是公欲封公公不见，公遇骑牛截断，颇后果以丁丑不利’，但候选释读中‘文尅云下武封侯未二句’的断句和释读存在错误，且‘酉給岩內辛秀在外’的释读不符合原文语义，属于误译；‘收山不起’释读为‘收山不起之地’，补加‘之地’属于合理补充，但‘酉給岩內辛秀在外’的释读错误，导致整体释读存在问题。"
+        ],
+        "uncertainty": [
+          "原文中‘酉給岩內辛秀在外’语义不明，候选释读未明确标注，属于未处理的含混短语。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1026,
+    "completion_tokens": 345,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1026,
+      "completion_tokens": 345,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-24T01:22:24.358572+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "26040c762b0908818445fcd5e7f94f0eaa103b308451f5db433a7341a1dc18f3",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000856-p000-07a36a94db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000857-p000-6bfbe3ffa0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘女皆甲子周輪本命事’被误译为‘均按甲子周轮对应本命之事’，遗漏了‘女性’这一主体，属于漏译；原文‘男左寄坤’被误译为‘男性以“坤”为寄宫’，未体现‘左’的限定，含义有偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000858-p000-06652a034e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多处提及‘坐向’，候选仅重点译‘向’，多次遗漏‘坐’的概念，导致‘合命又合坐向者’被误写为‘既合命又合坐“向”的’，语义不全"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000861-p000-3bbcf6de6d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘财旺寿高者宜安延年灶’被误译为‘想要财旺寿高的，适合安置延年灶’，增译了原文没有的‘想要’，改变了原意；原文‘将床与灶日向本命之吉方安之’被误译为‘就将床与灶的日、向、本命的吉利方位来安置’，断句错误，语义不通；原文‘门主灶並床与灶日五者’被误译为‘门、主、灶、床与灶的日、五者’，表述冗余且逻辑不清；原文‘另以口朔乾向’被误译为‘另外在朔日以乾“向”’，断句错误，漏译‘口朝向’的含义；原文‘自當有于’被误译为‘自然应当有子’，此处‘于’应为‘子’的讹写，但候选未标注相关不确定性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000862-p000-aefd462444",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000863-p000-73e91a9543",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000864-p000-9ea8e06a68",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘宜由小大申由由人大’属于原文讹误，候选直接译为‘适宜从小神位流向大神位’，未标注原文存在讹误的情况；原文‘山小而竟大’被误译为‘山小而竟无中神’，属于无依据增译；原文‘山中入大’被误译为‘山中无小神’，含义偏差；原文‘小宜短中宜長大宜更長耳’被误译为‘小神对应的沟口适宜短，中神对应的沟口适宜长，大神对应的沟口适宜更长’，增译了原文没有的‘对应的沟口’，属于误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000865-p000-20adf3269d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "书凶2的具体含义未明确",
+          "休因应为休囚的原文异写，此处依常见术语保留原意"
+        ]
+      },
+      {
+        "id": "book002-b000866-p000-a0b74e24e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3999,
+    "completion_tokens": 941,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3999,
+      "completion_tokens": 941,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

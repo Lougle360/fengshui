@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-25T20:48:19.031482+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a8a2c5ff2693525351f41f7830c65f96edd545d110f4030e50bafa7d9428d981",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001568-p000-c663f3b83c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“郎將虎貴”的“虎貴”应为“虎贲”，候选译对“虎贲”符合常识，但原文“三箇灵蘆候雲兩”表述为三颗灵芦星、两颗候云星属于无依据确定，原文此处表述含混，不应直接认定数量分配；原文“常陳七星不相誤”释为“排布和数量都没有误差”偏离原意，原意指常陈七星的排布特征是七颗星依次排列没有错漏；专业术语“明堂”误用allowed_glossary定义，此处“明堂”是天文星官名，并非风水语境的穴前空间，不得使用该释义。",
+          "原文“烏列帝後從東定”被错误拆分星官为“乌列、帝后”，原意是乌色排列的帝后星从东侧开始确定位置，星官划分错误。"
+        ],
+        "uncertainty": [
+          "“三箇灵蘆候雲兩”的星数分配原文表述不清晰",
+          "“乌三公”“乌列”的“乌”具体所指未明"
+        ]
+      },
+      {
+        "id": "book029-b001570-p000-00d049a354",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“下元一宮名天兩扇垣墻二十二”断句错误，应为“下元一宫名天市，两扇垣墙二十二”，候选误译为“下元一宫名为天”，断句错误导致宫名错译；原文“三无之象無相侵”释为“三无之象不会互相侵扰”无依据，因“三无之象”具体所指不详，不应直接解读其属性；“四箇做茫宦者星”仅标注“做茫”识别不清即可，不应直接认定为“相关文字识别不清”表述模糊，应准确标注是“做茫”二字存疑。"
+        ],
+        "uncertainty": [
+          "“做茫”二字原文识别不清，含义不明",
+          "“三无之象”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001573-p000-d58991f52e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“志”应为“秀”的识别讹误，已标注"
+        ]
+      },
+      {
+        "id": "book029-b001575-p000-e31a194f19",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“足底通自竅”的“自”应为“开”的识别讹误，已标注",
+          "“包轉間”的“包轉”应为“包浆”的识别讹误，已标注"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2142,
+    "completion_tokens": 793,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2142,
+      "completion_tokens": 793,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-26T05:19:16.646181+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9873521b7809bb6acdd65c541bf774559beb558b864259588836fc151871b018",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002362-p000-277627681c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘牛全’属于原文含混内容，candidate直接认定‘应为讹误，依星宿五行常规对应当为牛金’，属于将不确定解释写成确定事实，不符合术语解释规则，未采用保留原短语加风险标注的规范处理方式。"
+        ],
+        "uncertainty": [
+          "“市子”为未识别字符，具体含义不详",
+          "原文“牛全”所指不明，是否对应星宿五行的牛金存疑"
+        ]
+      },
+      {
+        "id": "book029-b002366-p000-ca21252275",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“七十二地理恭赞玄机全书○卷十一”为窜入正文的版刻标识，不计入正文内容"
+        ]
+      },
+      {
+        "id": "book029-b002368-p000-1b98e516bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002371-p000-4fef1960f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“于观地理恭赞玄机全书○卷十一”为窜入正文的版刻标识，不计入正文内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2225,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2225,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2225,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

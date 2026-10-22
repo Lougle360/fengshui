@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-09-23T16:16:57.414603+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "720cf6f8916d6baeb03eff574e0a31436f1f461b8001a2e5af2c1a93a208a987",
+  "response": {
+    "items": [
+      {
+        "id": "book005-b000006-p000-af1ab929be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“恨数具立”译为“仔细挑选好木头”，这是无依据的推测。原文“恨数具立平坦处斫伐”语意不明，candidate应保留原文短语并标注不确定性，而非自行解释。",
+          "candidate将“此用人力以所爲也”译为“这是为了节省人力”，这是无依据的推测。原文含义不明，candidate应保留原文短语并标注不确定性。",
+          "candidate将“百班经 卷之”处理为“如果原文提到‘百班经卷之’，但此处文字残缺，具体所指不详”，这是正确的风险标注，但“如果原文提到”属于不必要的增译，直接说“原文有‘百班经卷之’，但此处文字残缺，具体所指不详”即可。此问题轻微，但为保持严格，建议修订。"
+        ],
+        "uncertainty": [
+          "恨数具立的含义",
+          "此用人力以所爲也的含义",
+          "百班经卷之后的残缺内容"
+        ]
+      },
+      {
+        "id": "book005-b000007-p000-8ab89c44de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "黄杀方、皇帝入座、九天大尘的具体所指"
+        ]
+      },
+      {
+        "id": "book005-b000008-p000-9cc3da956f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“水长先放在吉方”中的“水长”解释为“指风水语境中的河流、水系及其来去形态”，这是无依据的推测。allowed_glossary中仅定义了“水”，并未定义“水长”。“水长”应作为opaque_term处理，candidate不应赋予其确定的风水含义。",
+          "candidate将“月造宅用深浅阔狭高低相等尺寸合格方可为之也”译为“每月建造住宅时，深浅、阔狭、高低的尺寸必须相等且合格，才可以进行”，其中“每月”是增译，原文“月造宅”含义不明，可能指“每月造宅”或“择月造宅”。candidate应保留原文短语并标注不确定性。"
+        ],
+        "uncertainty": [
+          "西定成開日十又空明星黃道天德月德○巳祐段斧頭龍虎灰天職日月砧危日山縣九十里正四廢魁罷日素口山裹紅篇朱雀起工架馬的具体含义",
+          "水长中的长字含义",
+          "月造宅的具体所指"
+        ]
+      },
+      {
+        "id": "book005-b000012-p000-d9561aba7e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "鲁功经是否为鲁班经之误",
+          "无巳出火避的具体含义"
+        ]
+      },
+      {
+        "id": "book005-b000016-p000-e111e15784",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "便马的具体含义",
+          "原文重复是否为讹误"
+        ]
+      },
+      {
+        "id": "book005-b000018-p000-e540ecdb8a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "百无日的具体含义",
+          "自起符后一任的具体含义"
+        ]
+      },
+      {
+        "id": "book005-b000019-p000-adf744c056",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "若注是否为之法或之注之误",
+          "自空用年得运白作造的具体含义",
+          "实班经是否为鲁班经之误"
+        ]
+      },
+      {
+        "id": "book005-b000020-p000-9885d311ba",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "杀但的具体含义",
+          "砾扇是否为吉日或吉时之讹"
+        ]
+      },
+      {
+        "id": "book005-b000021-p000-0361ce053e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "騰家是否为东家之误",
+          "三秩独火、小儿柔打头火、紧柔占的具体含义",
+          "住县是否为住宅或住居之误",
+          "祸神是否为福神之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2980,
+    "completion_tokens": 978,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2980,
+      "completion_tokens": 978,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

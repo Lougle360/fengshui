@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T18:18:28.371015+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e67ce2cd91a09cb3f1c4f9197d04d68020278d884091350e8d757d2b0e73ac83",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001047-p000-19646c7472",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001048-p000-db11dbf03b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为“也理奉贊玄機全書”，候选将其补正为《地理參贊玄機全書》，属于无依据增译，原文未明确“也理”为“地理”的讹写，不得直接改动"
+        ],
+        "uncertainty": [
+          "“麓蟄”“陰出陰畫”的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b001049-p000-303aa1968b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“前後但 陰”中“但”字未释读，候选译为“前后皆阴”无依据，属于误译；原文“太活棋盤作官印封”属于独立表述，未明确与前后葬法的关联，候选直接顺接存在逻辑增译风险"
+        ],
+        "uncertainty": [
+          "“截蕩燾窠坐”“太活棋盤作官印封”“邨珠”的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b001050-p000-70889a7953",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“後有應樂從”，候选译为“後有應樂峰”属于无依据增译，原文未提及“樂”为山峰类地貌，不得自行补充含义"
+        ],
+        "uncertainty": [
+          "“雙棲梁”“應樂從”的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b001051-p000-b2b28c11fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001052-p000-e615bff154",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“契法口大太極作口小啣珠”断句无依据，候选释读为“契法用口太極作，口小啣珠”属于无依据拆分，且“卧蚕授水”被译为“臥蚕帶水”，“授”与“帶”含义不符，属于误译"
+        ],
+        "uncertainty": [
+          "契法、口太極的具体含义不詳"
+        ]
+      },
+      {
+        "id": "book029-b001053-p000-3557ff0a29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "幕府垂簷、簾漲天水、懸乳、乾流花假精的具體含義不詳"
+        ]
+      },
+      {
+        "id": "book029-b001055-p000-75dde67f84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为“死理奉贊玄機全書”，候选补正为《地理參贊玄機全書》属于无依据增译，原文未明确“死理”为讹字，不得自行改动"
+        ],
+        "uncertainty": [
+          "“奠法”“燕窠坐”的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b001056-p000-b3dd82b55e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001057-p000-a1cd53fea7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“法用啣珠”中“法”未明确是葬法或其他类方法，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2608,
+    "completion_tokens": 908,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2608,
+      "completion_tokens": 908,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

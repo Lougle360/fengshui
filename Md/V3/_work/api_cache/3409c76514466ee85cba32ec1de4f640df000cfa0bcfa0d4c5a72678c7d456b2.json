@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-15T06:56:58.359203+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3409c76514466ee85cba32ec1de4f640df000cfa0bcfa0d4c5a72678c7d456b2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001367-p000-3a7d5926ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文‘后發先進’未译出。",
+          "2. 专业术语误换/错译：原文‘蟲絲金水擔蕩穴忌紫無穴忌’含义不明，但candidate将其拆解为‘虫丝金水担荡的穴位忌讳紫，没有穴位的忌讳’，这属于无依据的扩写和确定化解释。对于此类opaque_terms，应保留原文短语并标注不确定性，而非强行拆分和赋予含义。",
+          "3. 数字/方位变化：原文‘高者名爲玉壹’中的‘玉壹’，candidate作‘玉壹’，虽字形一致，但此术语未在allowed_glossary中定义，应视为opaque_terms并加引号引用，candidate未加引号，有将其当作确定名称之嫌。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001368-p000-7dd369926d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文‘巾身塋內巾塋一半不開水溝’中的‘巾塋’未译出。candidate译为‘巾身和塋内巾塋一半不开水沟’，但‘巾塋’本身是含混专名，不应被拆解为‘巾身和塋内巾塋’。应将其整体视为opaque_terms并加引号引用。",
+          "2. 专业术语误换/错译：原文‘凡高山平地穴吞必用此’中的‘吞必’，candidate译为‘吞必都要用’，将其当作确定动作。‘吞必’是含混术语，未在allowed_glossary中，应加引号引用并说明所指不详，而非解释为‘都要用’。",
+          "3. 专业术语误换/错译：原文‘脈穴諸體宜葬后便發出女貴名擁山’中的‘發出女貴名擁山’，candidate译为‘便会发出女贵，名称叫拥山’，将‘发出女贵’当作确定事实。原文‘发出女贵’是风水术数中的一种吉凶表述，candidate的译法过于直白且未保留其作为专业表述的模糊性，建议调整为‘便主发女贵，名为拥山’或类似保留术语感的译法。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001370-p000-5bc0396454",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义残缺，具体所指不详。candidate 已保留原短语并标注不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b001371-p000-2d28f5447f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 专业术语误换/错译：原文‘術家有法拆之’中的‘拆之’，candidate译为‘拆除它’。在风水语境中，‘拆’可能指化解、调整，而非物理拆除。此处译法过于字面，可能误导。",
+          "2. 专业术语误换/错译：原文‘取天財位或右木位折起’、‘取太陰位或才位折起’中的‘才位’，candidate作‘才位’。原文可能是‘財位’的异写或误字。candidate直接沿用‘才位’而未加说明，可能造成混淆。对于此类疑似讹字，应保留原字形并标注不确定性。"
+        ],
+        "uncertainty": [
+          "部分方位术语和具体操作细节在原文中表述简略，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001372-p000-027db76ab2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001373-p000-66dd7f0172",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 专业术语误换/错译：原文‘番擇是非令’含义不明，candidate直接保留‘番择是非令’而未做任何处理。根据V3目标，对于此类opaque_terms，应加引号引用并说明所指不详，而非直接嵌入白话句子中。candidate的译法使句子不通顺。",
+          "2. 数字/方位变化：原文列出了‘乾、甲、坤、乙、壬、癸’和‘艮、丙、巽、辛、丁、庚’两组方位，candidate译文中遗漏了‘甲’和‘庚’。核对发现candidate实际包含了‘甲’和‘庚’，此条撤回。但‘庚’在candidate中为‘庚’，与原文‘庚’一致，无误。"
+        ],
+        "uncertainty": [
+          "原文末尾‘得贪’后内容缺失，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001374-p000-8b1b1da126",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 专业术语误换/错译：原文‘折霉要如長蛇屈曲之狀’中的‘折霉’，candidate直接保留。此术语未在allowed_glossary中，应视为opaque_terms并加引号引用，或说明所指不详。直接保留使句子含义不清。",
+          "2. 专业术语误换/错译：原文‘色陳大殺方’中的‘色陳’，candidate直接保留。此术语未在allowed_glossary中，应视为opaque_terms并加引号引用，或说明所指不详。"
+        ],
+        "uncertainty": [
+          "原文末尾‘阴阳双’后内容缺失，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001375-p000-45e068fa4b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 专业术语误换/错译：原文‘辰則水亦如陰陽雙辰折之’中的‘辰’和‘陰陽雙辰’，candidate译为‘辰则水亦如阴阳双辰折之’。‘辰’可能指时辰、方位（地支），‘阴阳双辰’是含混术语。candidate直接沿用而未加引号或说明，使读者无法区分这是术语引用还是普通叙述。应将其作为opaque_terms处理。",
+          "2. 专业术语误换/错译：原文‘墓水就兜金弦作使’中的‘作使’，candidate译为‘作使’。此短语含义不明，应视为opaque_terms并加引号引用或说明所指不详，而非直接嵌入句子。"
+        ],
+        "uncertainty": [
+          "原文末尾‘当于兜金弦作’后内容缺失，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001376-p000-d99ffb18d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001377-p000-052fb1fa56",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义残缺，具体所指不详。candidate 已保留原短语。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3284,
+    "completion_tokens": 1780,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3284,
+      "completion_tokens": 1780,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:01:37.796495+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f3bb35c25b3d1a30bdd4ae38186325bf3df9412185e74dc57062f9c96eca278c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000492-p000-839c2600e6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘丙丁己午’‘戊己辰戌丑未’‘壬癸亥子’‘夾子’‘辰戍丑未’等表述，候选释读时将‘己午’改为‘巳午’，‘夾子’改为‘子月’，‘辰戍’改为‘辰戌’，属于对原文字词的擅自修改，未严格遵循原文内容；‘四辛卯’的释读中‘天干中的四廢’原文未明确‘四廢’所指，属于无依据扩写；‘修中宮’释为‘修治中宮’，虽不影响含义，但未严格对应原文表述"
+        ],
+        "uncertainty": [
+          "原文中‘夾子’具体所指不详，候选释读为‘子月’属于推测性修改；‘四廢’原文未明确含义，候选释读为‘天干中的四廢’属于无依据扩写"
+        ]
+      },
+      {
+        "id": "book010-b000493-p000-03c693b90c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000494-p000-4cd4b79f47",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘己月’‘日月’‘丑未月’的表述，候选释读时擅自修改为‘巳月’‘辛日’‘丑未月’，属于对原文字词的擅自修改，未严格遵循原文内容；‘得令’‘得祿’等术语未明确对应含义，属于含混表述"
+        ],
+        "uncertainty": [
+          "原文中‘己月’‘日月’具体所指不详，候选释读时擅自修改为‘巳月’‘辛日’，属于推测性修改；‘得令’‘得祿’的具体含义原文未明确，属于含混表述"
+        ]
+      },
+      {
+        "id": "book010-b000495-p000-fba5d8c4e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1756,
+    "completion_tokens": 517,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1756,
+      "completion_tokens": 517,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

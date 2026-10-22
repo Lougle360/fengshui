@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T09:20:10.132517+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0996fba7a540cf8047e3ac5d8965ef8d4f72950438bf19cd0a6e612ff42965c7",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000212-p000-fb5a152464",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文后半段残缺，语义不完整，释读无法形成完整通顺的内容"
+        ],
+        "uncertainty": [
+          "原文后半段残缺，语义不完整，释读无法形成完整通顺的内容"
+        ]
+      },
+      {
+        "id": "book010-b000213-p000-75f9b9e7c4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文开头的“nT”无法辨识，疑为OCR错误，导致释读开头语义不明"
+        ],
+        "uncertainty": [
+          "原文开头的“nT”无法辨识，疑为OCR错误，导致释读开头语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 981,
+      "completion_tokens": 200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

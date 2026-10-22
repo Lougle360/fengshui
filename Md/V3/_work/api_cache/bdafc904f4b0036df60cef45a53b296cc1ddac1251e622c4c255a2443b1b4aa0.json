@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-15T07:03:13.936213+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bdafc904f4b0036df60cef45a53b296cc1ddac1251e622c4c255a2443b1b4aa0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001379-p000-c0c8edf72d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘得巨斗爲一折歸癸輔星卦乙山武曲也是歸乾巨斗水也’中，‘也是歸乾巨斗水也’的释读存在歧义。candidate将其处理为‘也是归乾方‘巨斗’水’，但原文结构可能意指‘乙山武曲星，也是归乾方，而‘巨斗’水也（在此处）’。candidate的断句和连接词添加改变了原意的可能性，应更保守地处理为‘乙山为武曲星，也是归乾方，（此处）‘巨斗’水也’。",
+          "原文‘此是發坐下水轉辛艮山武曲水也’中，‘發坐下水轉辛’的释读不明确。candidate译为‘这是发坐下水转辛方’，但‘发坐下水’是风水术语，其具体含义未在allowed_glossary中定义，candidate未作任何说明，直接作为确定事实释读，属于无依据扩写。应保留原短语并说明其含义不详。",
+          "原文‘如此貪狼水用翻卦數在庚上是花羅水也’中，‘用翻卦數在庚上’的释读不准确。candidate译为‘贪狼水用翻卦数在庚方上’，将‘在庚上’等同于‘在庚方上’，但原文可能指在庚（山或向）上进行翻卦推算。candidate的释读简化了可能的技术操作，应更准确地表述为‘贪狼水，用翻卦数推算，在庚（位）上是‘花羅水’。’"
+        ],
+        "uncertainty": [
+          "术语‘巨斗’、‘花羅水’含义不详，已按规则保留。",
+          "短语‘發坐下水’含义不详，candidate未作说明。"
+        ]
+      },
+      {
+        "id": "book035-b001382-p000-dc39aaaf6a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "歌诀‘藻 之 富 家 名全是’原文残缺，含义不详。",
+          "歌诀‘之 明’原文残缺，含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001383-p000-809d775f6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "歌诀‘房方多’原文残缺，含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001385-p000-0f2d1bf86a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘臨乾申坤乙壬癸名橫財水歌支 臨艮巽門綠衣水’的断句和连接存在问题。candidate将其处理为‘水流临乾、申、坤、乙、壬、癸，名为横财水。歌诀部分原文残缺，仅存‘歌支’二字，后文接‘临艮巽门绿衣水’。’这种处理将‘歌支’与后文强行断开并解释为‘歌诀部分’，但‘歌支’很可能就是‘歌云’的误写或残缺，且与后文‘临艮巽门绿衣水’可能同属一句歌诀内容。candidate的释读割裂了原文可能的连贯性，并做出了无依据的推测（‘歌诀部分原文残缺’）。应更保守地处理，例如：‘名为横财水。歌诀（或‘歌云’，原文‘歌支’）内容接‘临艮巽门绿衣水’……’，并指出原文此处文字可能错乱或残缺。",
+          "原文‘歌雲 之 最音子 材之水家必富’中，‘之 最音子’的释读，candidate直接保留并说明残缺，这是正确的。但后续‘材之水家必富’的释读‘材之水家必富’存在OCR或原文错误（‘材’可能为‘财’），candidate未作任何说明直接照录。对于明显的疑似错字，应在uncertainty中标注，而非当作确定文句。建议在uncertainty中增加说明。"
+        ],
+        "uncertainty": [
+          "原文‘歌支’处文字可能错乱或残缺，具体所指不详。",
+          "歌诀‘之 最音子’原文残缺，含义不详。",
+          "歌诀中‘材之水家必富’的‘材’字，可能为‘财’字之误，但原文如此。"
+        ]
+      },
+      {
+        "id": "book035-b001386-p000-59755647d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "诗句‘超全避’原文残缺，含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1809,
+    "completion_tokens": 1075,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1809,
+      "completion_tokens": 1075,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

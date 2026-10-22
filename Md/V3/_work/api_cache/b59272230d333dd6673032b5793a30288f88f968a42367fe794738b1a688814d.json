@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T09:01:46.534569+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b59272230d333dd6673032b5793a30288f88f968a42367fe794738b1a688814d",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002467-p000-76b2088b0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文第五行对应丁的位置是“丁-”，属于OCR识别错误，候选直接释为“丁一”属于无依据认定；第十行原文丁的位置是“丁-”，候选释为“丁一”同样属于无依据认定；第十五行原文丁的位置是“丁-”，候选释为“丁一”无依据；第十七行原文丁的位置是“丁t”，属于OCR识别错误，候选释为“丁七”无依据；第十九行原文官的位置是“官-”，候选释为“官一”无依据。2. 原文第十七行干支为“丁巳七三丙”表述存在歧义，候选直接作为确定干支罗列，未标注歧义。3. 原文第十八行干支为“庚午三七丙”表述存在歧义，候选直接作为确定干支罗列，未标注歧义。4. 原文第十行卦象为“复大过卦”，表述存在歧义，候选直接作为确定卦名罗列，未标注歧义。"
+        ],
+        "uncertainty": [
+          "1. 多处“丁-”“丁t”“官-”的OCR识别结果无法确定正确内容。2. “丁巳七三丙”“庚午三七丙”的干支搭配含义不明确。3. “复大过卦”是单卦名还是复卦组合不明确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4129,
+    "completion_tokens": 343,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4129,
+      "completion_tokens": 343,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

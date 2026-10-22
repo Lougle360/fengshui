@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T19:23:42.482882+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bb52f7a0bfce501cf5f164ef81a61558c28ebb9d05e42c5192a45cf867e45486",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002638-p000-a106473877",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：高山上有积水，象征“行走艰难”；君子因此当行走艰难之时反求于自身、努力修美道德。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002639-p000-8b45312bdf",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：山上有水，这就是蹇卦的卦象；君子因此在行事艰难之时，会反过来要求自身，修养完善自身的品德。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002640-p000-850794484f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①山上有水，蹇：解释蹇卦的卦象，下卦为艮（象征山），上卦为坎（象征水）。《正义》说：“山是险峻的岩石，水是阻碍的危难；水积聚在山上，更加增添了危难，所以说‘山上有水，蹇’。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002641-p000-0c3b943200",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②反身修德：反身，就是反过来要求自身。这是说明君子观察蹇卦的卦象，领悟到身处蹇难之时，必须先反过来要求自身、修养完善自身的品德，之后才能渡过蹇难。《正义》说：“在蹇难之时，不可以贸然前进，只应当反过来要求自身，修养完善自身的品德，道业成就、品德树立之后，才能渡过险难。所以说君子以反身修德。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1741,
+    "completion_tokens": 491,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1741,
+      "completion_tokens": 491,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

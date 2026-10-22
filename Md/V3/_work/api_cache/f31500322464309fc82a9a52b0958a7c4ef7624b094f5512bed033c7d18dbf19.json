@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T04:34:46.951612+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f31500322464309fc82a9a52b0958a7c4ef7624b094f5512bed033c7d18dbf19",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000493-p000-c58766c196",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“悲法言有林凶也”释读错误，原文并非指“有林的情况是凶险的”，此处断句和含义均存在偏差，且“敝满”应对应原文“弊满”，释读未准确对应原文字义"
+        ],
+        "uncertainty": [
+          "原文“謂之悲法言有林凶也”表述存在断句歧义，确切含义待考"
+        ]
+      },
+      {
+        "id": "book036-b000495-p000-04ebe5f582",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“浜兆”的具体所指未明确，此处释读为“浜”是保守处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 224,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1332,
+      "completion_tokens": 224,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

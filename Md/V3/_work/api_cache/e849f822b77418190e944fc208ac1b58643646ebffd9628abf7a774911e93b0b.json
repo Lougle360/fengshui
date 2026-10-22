@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-23T12:11:18.033487+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e849f822b77418190e944fc208ac1b58643646ebffd9628abf7a774911e93b0b",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000721-p000-596ed870db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "'四个星辰五墓龙'的具体含义不详，原文未作解释。"
+        ]
+      },
+      {
+        "id": "book001-b000724-p000-ba1190bc23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将'酒'单独处理为'文中提到'酒'，其具体含义不详'，但原文'酒，巳亥为奴婢'中，'酒'很可能与'巳亥'并列，指代某个方位或干支，候选句的断句和解释可能错误。",
+          "候选句将'一举 登科第'释读为'一举考中科举'，但原文'一举'与'登科第'之间有明显空格，可能表示'一举'与'登科第'是并列或不同的内容，候选句的合并处理可能不准确。",
+          "候选句将'庚壬二向穴分明'释读为'庚、壬两个朝向的穴位界限分明'，但原文'庚壬二向'可能指庚向和壬向，也可能指庚壬这个组合的向，候选句的解读存在歧义。",
+          "候选句将'朱紫满朝廷'释读为'身穿朱紫官服的人布满朝廷'，这是合理的引申，但原文'朱紫'可能直接指代高官，候选句的释读略有扩写，但尚可接受。主要问题在于前两点。"
+        ],
+        "uncertainty": [
+          "'酒'字在文中的具体所指不详。",
+          "原文'一举 登科第'的准确含义存在不确定性。",
+          "'庚壬二向'的确切指向存在不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 377,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1075,
+      "completion_tokens": 377,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

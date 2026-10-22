@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-24T09:26:54.359224+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5df55acebf71bcdb959a9bd64fc2b5af1c743bde7ccf463e98463f4a4dbbbf38",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000296-p000-dc2eb0d999",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000298-p000-d4972b969a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句中“长长”含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000299-p000-0f19694d2b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“オキ”为日文假名，含义不明；“土牛”“尤经”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000302-p000-18ad0ecb80",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原句“穴撞亦”语义残缺，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原句“穴撞亦”语义残缺，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1559,
+    "completion_tokens": 285,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1559,
+      "completion_tokens": 285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

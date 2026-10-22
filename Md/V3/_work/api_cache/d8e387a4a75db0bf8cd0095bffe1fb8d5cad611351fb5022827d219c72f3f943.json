@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-10-04T03:24:31.144214+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d8e387a4a75db0bf8cd0095bffe1fb8d5cad611351fb5022827d219c72f3f943",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001220-p000-da2e31f430",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘舟賣與人身姓重買成幾年不敢塟’被释为‘文中提到‘舟賣與人身姓重買成幾年不敢塟’，具体所指不详’，但‘身姓重’可能指‘姓氏重要’或‘身份贵重’，candidate未尝试任何保守释读，直接归为‘具体所指不详’，属于未尽责的漏译。‘千貫錠’被原样保留并加引号，但未说明是钱财单位，也未标注其不确定性。‘假六明堂’、‘隨大朔對秀’、‘見龍虎詭衛’、‘對者聖穴圖’、‘南安專氏阻也’、‘反尾甚遠也’、‘吉平司司最旨’等短语，candidate仅说‘这些短语的具体含义不详’，但未按规则将其作为opaque_terms处理（即未放入引号内并说明原文如此）。‘上也在永 上地在永’被释为‘这部分文字严重错乱，含义不明’，但原文可能为‘上也在永，上地在永’或存在OCR错误，candidate未尝试任何可能的断句或说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001222-p000-e605dda000",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘富貴未父’这一短语的具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b001225-p000-1c93c51faa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘點音穴’被释为‘慣‘點音穴’之人，具体所指不详’，但‘點音穴’可能为‘点阴穴’之误或特定术语，candidate未将其作为opaque_term放入引号内。‘聚六十年出進貴’被释为‘其中‘聚’字含义不明，可能是‘距’或‘恰’之误’，但原文‘聚’字可能为‘距’或‘恰’，candidate的推测是合理的，但未明确标注为推测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001227-p000-6a0c3e0471",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘也里’二字可能为误字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b001232-p000-57131e7c6a",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文严重错乱，语义完全不通，candidate仅说‘严重错乱，语义完全不通，具体所指不详’，但未尝试任何可能的断句或指出可能为OCR错误，导致连保守释读都无法成立。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3600,
+    "completion_tokens": 630,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3600,
+      "completion_tokens": 630,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

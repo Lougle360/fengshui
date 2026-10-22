@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-24T07:54:28.598462+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a0bae909a074ea9dc78938b45c95ff44c05d82dd7c6112bb0e7ed19655e2d596",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000081-p000-d18f65276e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "部分内容存在推测性表述，如‘蚕突、粗杲、德这类形态是虚象’未明确依据，‘今日水午的说法也是这个意思’属于无依据扩写，‘五六七是交仗的情况’未对应原文含义，多处OCR缺漏内容未明确标注为原文缺漏，部分风水术语的释读未严格依据allowed_glossary，如‘蛮头马’未按要求保留原表述或明确具体所指不详"
+        ],
+        "uncertainty": [
+          "OCR有缺漏的内容",
+          "部分风水术语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3135,
+    "completion_tokens": 170,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3135,
+      "completion_tokens": 170,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

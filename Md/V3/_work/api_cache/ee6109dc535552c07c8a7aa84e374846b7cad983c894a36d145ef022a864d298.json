@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-26T16:13:44.898719+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ee6109dc535552c07c8a7aa84e374846b7cad983c894a36d145ef022a864d298",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000375-p000-eec601cdf8",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000380-p000-899af7a219",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“暗金所修”，candidate擅自改为“暗金所伤”，无原文依据；原文表述“下之发富贵显达人财两旺”，candidate删改语义不符合原文保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000381-p000-169ad07923",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000387-p000-d5106c9ba8",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“主人經”无法确认是否为泛指“某经”，candidate改动无明确依据"
+        ]
+      },
+      {
+        "id": "book003-b000396-p000-a773edca2e",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000397-p000-59ca4a8870",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亦是兌”无上下文佐证，candidate擅自解释为“也属于兑的范畴”，无原文依据；原文“亂見亥艮而富貴尤奇”无“反而”的语义逻辑，candidate添加属于主观增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000398-p000-02b104c9b8",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“借配千亥艮”，“千”字存疑，candidate直接改为“借配于亥、艮”，擅自删去存疑内容，不符合保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000402-p000-6a1108fc5b",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“名馳毫管”无明确释义，candidate擅自解释为“以文才扬名”，无原文依据；原文“納卦於勇”存疑，candidate直接表述为“在‘勇’位纳卦”，属于无依据解读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000404-p000-d27a0df346",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“若川巽向羅主發富”，“川”“羅主”存疑，candidate擅自改为“如果采用巽向，罗城主发富”，无原文依据，属于主观臆改"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000413-p000-9a3c686215",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3656,
+    "completion_tokens": 936,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3656,
+      "completion_tokens": 936,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

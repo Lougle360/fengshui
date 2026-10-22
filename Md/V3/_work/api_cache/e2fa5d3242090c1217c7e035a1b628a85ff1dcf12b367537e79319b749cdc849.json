@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-16T10:42:55.568989+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e2fa5d3242090c1217c7e035a1b628a85ff1dcf12b367537e79319b749cdc849",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002004-p000-2d3b20da28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'若差饒減動瘟皇'释读有误。'饒減'并非'宽恕或减免灾祸'，而是'饶减'，指（风水操作中）过多或过少。全句意为：如果在此处操作出错，无论是做过了头（饶）还是做得不够（减），都会惊动瘟皇（引发瘟疫）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002006-p000-20a478f9e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002008-p000-aa04b50620",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不完整且语义断裂。原文'所得陽'后明显有内容缺失（可能为'所得陽……'或'所得陽氣'等），candidate 在未标注的情况下直接结束，造成信息不全。此外，'牝牡相乘之所得陽'的断句和释义可能存在问题，但主要问题是未处理原文的残缺。"
+        ],
+        "uncertainty": [
+          "原文'所得陽'后内容缺失，导致释读无法完整。"
+        ]
+      },
+      {
+        "id": "book035-b002010-p000-4c0a94dcc1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'猶枯從之望花'释读不准确。'從'在此处应为'木'的异体或讹字，'枯木之望花'是常见比喻。candidate 译为'枯木丛中望花'，虽在uncertainty中提及，但正文释读未采用更合理的'枯木'，且'丛'的译法缺乏依据，影响句意清晰度。建议直接译为'就像枯木盼望开花一样'。"
+        ],
+        "uncertainty": [
+          "'從'字的准确含义存在不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 438,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1080,
+      "completion_tokens": 438,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

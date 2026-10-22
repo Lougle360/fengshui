@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-25T13:52:41.280254+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f92f3c5ea296b540fb08f99899b82444095edbbca133abe5035044317c8271e9",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000063-p000-82bf6efb87",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文人名是林达性枢，候选误拆为‘名林达，字性枢’，属于事实错误；原文末尾‘地理碎事 千端寄著輯’是说地理相关的零散事项有上千条，编者搜集辑录，候选写‘共上千条，编者将它们收集整理成辑’表述虽接近，但前半处人名错误需修正；原文‘若淹蠅逐’的文意是如果沉溺于像苍蝇逐利般的状态，候选表述通顺但人名错误为核心问题"
+        ],
+        "uncertainty": [
+          "洛啟祔賒商其村夫斗書方可膺天和具体所指不详"
+        ]
+      },
+      {
+        "id": "book027-b000065-p000-48e2a5cf48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "黄牛起懣的具体风水含义未明"
+        ]
+      },
+      {
+        "id": "book027-b000066-p000-b627987321",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文署名是‘憺漪’，候选误写为‘憺绮’，属于人名错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000070-p000-bf315a9412",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文未提及人物是方孝孺，候选无依据将主人公确定为方孝孺，属于把推测写成事实；原文‘生家時母方娠數月先生誕焉’的表述并未指定是方孝孺，扩写无依据"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2532,
+    "completion_tokens": 454,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2532,
+      "completion_tokens": 454,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T14:16:37.439524+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6e76966a9cec5e05bc6c5dcd883de3a630520ec42f4bd9e7bc9696745173318e",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000008-p000-e8404a03df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 源文中的“也把恭”属于未识别的OCR讹误内容，候选释读未标注该讹误，直接忽略处理不符合要求；2. 源文最后一行“定局部”后存在内容缺失，候选释读未标注该内容不完整的情况；3. 源文左侧标注“十一”“秘诀”“卷”“部”，候选释读直接判定为“共十一卷，属秘诀部”缺乏明确依据，属于无依据推定；4. 源文将“費玄機金書目録”和“寶玄機金書日錄”并列存在异文，候选释读直接确定为《费玄机金书》目录，未标注异文问题"
+        ],
+        "uncertainty": [
+          "源文中“也把恭”的具体含义不明，“費玄機金書目録”与“寶玄機金書日錄”的异文无法确定何者为正，“释恨”的具体所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2665,
+    "completion_tokens": 260,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2665,
+      "completion_tokens": 260,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

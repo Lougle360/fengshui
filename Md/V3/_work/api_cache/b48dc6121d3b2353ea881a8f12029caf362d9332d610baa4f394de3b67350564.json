@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-15T05:05:36.155466+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b48dc6121d3b2353ea881a8f12029caf362d9332d610baa4f394de3b67350564",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001936-p000-a3713d2559",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量严重OCR识别错误、乱码及断句缺失，导致语义支离破碎，无法进行任何有意义的白话释读。候选文本仅为字符的简单拼接，未形成可理解的现代汉语句子，也未对原文的混乱状态进行任何说明或风险标注。",
+          "候选文本未处理原文中的非文本符号（如'#'），也未指出大量无法对应具体含义的字符组合（如'杀黄血山官一'、'哭尾道砧山棘'等）属于无法释读的opaque_terms。",
+          "locked_terms（'水'、'向'）在候选文本中虽出现，但上下文完全混乱，候选文本未指出其含义无法确定。",
+          "候选文本未遵循'普通读者能读懂的白话释读'目标，也未对原文的不可读性进行说明。"
+        ],
+        "uncertainty": [
+          "原文OCR损坏严重，连保守的、保留原文短语的释读都无法成立。"
+        ]
+      },
+      {
+        "id": "book033-b001937-p000-f25acf180e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量严重OCR识别错误、乱码及断句缺失，导致语义支离破碎，无法进行任何有意义的白话释读。候选文本仅为字符的简单拼接，未形成可理解的现代汉语句子，也未对原文的混乱状态进行任何说明或风险标注。",
+          "候选文本未指出大量无法对应具体含义的字符组合（如'杨追相三连吉星书公寻矛元猪者太所'等）属于无法释读的opaque_terms。",
+          "locked_terms（'水'、'坎'）在候选文本中虽出现，但上下文完全混乱，候选文本未指出其含义无法确定。",
+          "候选文本未遵循'普通读者能读懂的白话释读'目标，也未对原文的不可读性进行说明。"
+        ],
+        "uncertainty": [
+          "原文OCR损坏严重，连保守的、保留原文短语的释读都无法成立。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4621,
+    "completion_tokens": 459,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4621,
+      "completion_tokens": 459,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

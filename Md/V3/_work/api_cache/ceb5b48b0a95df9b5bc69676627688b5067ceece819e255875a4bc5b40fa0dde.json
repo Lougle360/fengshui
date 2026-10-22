@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T03:41:41.312789+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ceb5b48b0a95df9b5bc69676627688b5067ceece819e255875a4bc5b40fa0dde",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001191-p000-78250f54ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001192-p000-c3cd9bf82f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001193-p000-b8ac48c3c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001194-p000-7e7527599e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001195-p000-7503d024c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对“阴阳家”的“阴阳”注释错误，此处“阴阳家”是指以阴阳五行学说为基础研究术数、占卜吉凶的流派，直接释作“描述事物相反相成、消长转化的两类属性”不符合语境，且原文“非阴阳家所谓祸福者也”意思是“不是阴阳家所说的（能决定）祸福（的那种说法）”，候选释为“并非阴阳家所说的祸福”语义偏差，漏了核心的判断指向：选择地的好坏不是阴阳家说的那种会直接带来祸福的东西，而是地好则神灵安、子孙盛的自然道理"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001196-p000-44b98b41da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“无不遭罹发掘暴露之变”意思是“没有不遭遇被挖掘暴露的变故的”，候选释为“就会全部遭到挖掘暴露的变故”语义过重，“无不”是大概率会遇到，不是“全部都会”；另外locked_terms中的“水”“离”在此处并非风水术语“水（河流水系）”和八卦“离”，原文“水泉”就是泉水，“乱离”是离散，误套术语注释不符合语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001197-p000-5d7b183bbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001198-p000-03465a97fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001199-p000-3c20f6d25c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001200-p000-b5e90cccf0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“气以生和”的含义未解释清楚，普通读者难以理解，且未说明“童山”的具体所指，不符合“普通读者能读懂”的要求"
+        ],
+        "uncertainty": [
+          "“气以生和”的具体内涵，“童山”的定义原文未在上下文明确释明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2826,
+    "completion_tokens": 806,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2826,
+      "completion_tokens": 806,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

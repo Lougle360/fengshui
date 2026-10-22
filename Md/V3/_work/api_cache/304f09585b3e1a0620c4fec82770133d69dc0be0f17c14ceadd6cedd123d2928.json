@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-04T02:12:47.443960+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "304f09585b3e1a0620c4fec82770133d69dc0be0f17c14ceadd6cedd123d2928",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001171-p000-4fb1cbe264",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001172-p000-ac7d70af4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001174-p000-c2bdb7e27c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'怡泉瀝'为含混短语，candidate将其作为确定含义'怡泉沥'直接写入句子，未标注不确定性。根据规则，opaque_terms虽为空，但此类含混专名不得被候选句赋予确定含义，应保留原短语并明确标注其含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001176-p000-b7fa4e678b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'聚分水伶倒'为含混短语，candidate将其作为确定含义'聚分水伶倒'直接写入句子，未标注不确定性。根据规则，此类含混短语不得被候选句赋予确定含义，应保留原短语并明确标注其含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001179-p000-8d375fd3b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2653,
+    "completion_tokens": 315,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2653,
+      "completion_tokens": 315,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

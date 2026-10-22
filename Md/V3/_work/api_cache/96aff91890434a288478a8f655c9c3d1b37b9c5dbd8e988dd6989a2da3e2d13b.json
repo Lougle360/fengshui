@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T06:58:49.648639+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "96aff91890434a288478a8f655c9c3d1b37b9c5dbd8e988dd6989a2da3e2d13b",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002057-p000-b627216a5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002058-p000-385b362631",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002059-p000-d78a5fb053",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002060-p000-8aeefc014b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“非陵谷变迁，亦气运使之耳”，意思是“不仅仅是陵谷变迁，也是气运导致的”，候选误译为“并非是陵谷变迁，而是气运导致的”，完全改变了原文语义，属于反译错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002061-p000-50f906eaab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002063-p000-d1fe74c946",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002064-p000-670da6cabe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“软弱荡皮”属于风水专业表述，候选未作通俗释读也未标注含义，普通读者无法理解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002065-p000-eb1296683a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002066-p000-a41db9cad0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002067-p000-0731b940eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确是“穴星八病”，候选列出的病症共17种，错误拆分了原文四言韵句的对应关系，违背原文“八病”的设定，属于严重误释"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3151,
+    "completion_tokens": 690,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3151,
+      "completion_tokens": 690,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

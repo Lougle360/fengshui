@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T15:04:09.712493+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c0f4a05036340c63097690cf0196bd6fec576691a44d50c2c12f1b472794c8d4",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000115-p000-8183fd40f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000116-p000-65b2e7fc70",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句应为「尖而有脚号乘龙，脚下横拖为带剑」，候选将「尖而有脚号乘龙」误拆为「而有脚状的形态，称为乘龙脚下横拖」，断句错误导致语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000118-p000-70cc1b6e5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000119-p000-45478e9e77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「貪狼似巨例似空」不应直接释为「贪狼星类似巨门，类似空亡」，「巨」未明确为巨门，「空」未明确为空亡，属于无依据确定专名含义；原文末尾「十」未在候选中提及，存在漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000120-p000-379370030a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句应为「員無欹斜四面同，平若臥蚕在高頂，直如决眷引繩來，似筆頭挿高塔」，候选误断为「圆没有欹斜，四面同样平；如同卧蚕在高顶」，导致「圆」的特征与「平」的特征混淆；「决眷」属于未释读的古文短语，未转换为现代中文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000121-p000-afca297109",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「帳裡微微似欹料帶舞下來如鼠尾」断句错误，候选释为「帐幕里面气脉走势微微有些倾斜，料想它盘旋舞动着向下延伸的形态就像老鼠的尾巴」，将「料」误作动词「料想」，实际应为形容形态的表述，语义偏差；原文「羅星地理恭皆玄機全書」误释为「以上内容出自《玄机全书》」，漏译原文相关表述，且无端补充书名号"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000122-p000-752bad469c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「抱養燦」候选释为「名为抱养，又为患眼、堕胎山」，直接认定「燦」为衍字且未保留原文标注的风险提示，属于无依据删改"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000123-p000-f95e75b196",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「貪巨羅星方與尖輔弼武曲員扁眠」断句错误，候选释为「贪、巨、罗星方正，尖、辅弼、武曲圆扁眠」，将罗星与贪巨并列，实际应为贪狼、巨门形的罗星方正尖挺，辅弼、武曲形的罗星圆扁平卧，语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000124-p000-48409970e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「臣門星」候选误写为「巨门星」，字形相近导致术语误换，含义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000125-p000-a7f9cd24ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「不尖不負其體方」候选释为「不尖不辜负其体」，断句错误，应为「不尖不凹，形体方正」，语义偏差；原文「張枝業不多」的「枝業」、「開咉少」的「咉」、「背兵頗類平尖貪」的「背兵」、「貪狼直去如僧奉」的「僧奉」均未释读，属于未转换为现代中文的古文短语；原文「若是地理參皆玄機全書卷一」漏译，未在候选中体现"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4540,
+    "completion_tokens": 1200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4540,
+      "completion_tokens": 1200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

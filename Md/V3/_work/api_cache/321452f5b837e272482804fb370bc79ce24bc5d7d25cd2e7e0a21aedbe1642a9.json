@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-24T07:39:18.839796+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "321452f5b837e272482804fb370bc79ce24bc5d7d25cd2e7e0a21aedbe1642a9",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000076-p000-212241a008",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“顧人不卷之上”被误释为“要顾念人，看卷上的内容”，断句错误，原文此处“不卷”属上，应是“出脉顾人不，卷之上”，释读不符合原文语序与语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000077-p000-8e5ccd235f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“阴佛”“鱼为氐纯”“易仰”等词含义不明"
+        ]
+      },
+      {
+        "id": "book009-b000078-p000-cf1f08c5f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“覆箕权”“凶雕”“醜惡那堪相”“金刚肚”“鸭公公唐”“虾蟆背”等词含义不明"
+        ]
+      },
+      {
+        "id": "book009-b000079-p000-07b1e22438",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "之背音佩字",
+          "荀之背亦作偏音者",
+          "背字则当僧",
+          "作德音",
+          "以姓怡直向肯",
+          "砂之眞公神与又翻"
+        ]
+      },
+      {
+        "id": "book009-b000080-p000-7a6b40c2d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“而知其生氣在常少則知今之錯”断句错误，释读拆分语义不通顺，原文应为“而知其生气在，常少则知今之错”，且末尾“卷之上”是卷次标识，不应混入正文语义"
+        ],
+        "uncertainty": [
+          "原文中“常少”“转字”等词含义不明"
+        ]
+      },
+      {
+        "id": "book009-b000081-p000-8ccff3711b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“叶交互”“地马”“面父”“此宇”等词含义不明"
+        ]
+      },
+      {
+        "id": "book009-b000082-p000-1d4cab4fad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“亦祖山分龍”被误释为“也祖山分龙”，语义不通，“亦”是承接前文的虚词，未正确衔接；“版外虽或似背”中的“版”无依据保留且未标注，原文“者版外”断句错误，应为“者，外虽或似背”"
+        ],
+        "uncertainty": [
+          "原文中“版”“鹅毛碗”“取裁”“黏”等词含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6358,
+    "completion_tokens": 754,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6358,
+      "completion_tokens": 754,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

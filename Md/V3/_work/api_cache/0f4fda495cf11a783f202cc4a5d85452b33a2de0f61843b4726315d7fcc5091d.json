@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T15:26:40.564643+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0f4fda495cf11a783f202cc4a5d85452b33a2de0f61843b4726315d7fcc5091d",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001078-p000-030b5e4bfd",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "这是最初的情况，而关于洛书中数字的等比展开，可参考同书卷19启蒙上篇的集说中所引用的宋代赵汝楳的说法。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001079-p000-1da6ad969f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "即便数字的本体毫无错乱地确立，若不发生变化，就不可能实现其展开。洛书中的阳数以3为基数向左运行，阴数以2为基数向右运行，便是出于这个原因。就阳数而言，1乘以3得到3，3位于东方；3乘以3得到9，9位于南方；9乘以3得到27，7位于西方；27乘以3得到81，1又回到北方。即便如此不断累乘直至亿兆之数，其余数的位置也不会发生变化。另一方面，就阴数而言，2乘以2得到4，4位于东南方；4乘以2得到8，8位于东北方；8乘以2得到16，6位于西北方；16乘以2得到32，2又位于西南方。即便到了亿兆之数，情况也是一样的。八个方位确定后，5位于中央，数字的功用便得以完成。圣人所说的‘参伍以变，错综其数’，指的就是这类情况。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001080-p000-a92168afee",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "（本体确立了，若不发生变化，数字就无法运行。所以阳数以3为基数向左运行，阴数以2为基数向右运行。1乘以3得到3，3位于东方；3乘以3得到9，9位于南方；9乘以3得到27，7位于西方；27乘以3得到81，1又回到北方。如此向上累乘，直至亿兆之数，其余数的位置都是如此。2乘以2得到4，4位于东南方；4乘以2得到8，8位于东北方；8乘以2得到16，6位于西北方；16乘以2得到32，2又位于西南方。向上直至亿兆之数，情况也是如此。八个方位",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001081-p000-cefe5dbe79",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "已经排列好，5仍位于中央，数字的功用得以贯通。圣人所说的参伍以变，错综其数，指的就是这类情况。）这样记载，从这一点来看，乘除说源自赵汝楳，这是完全不容置疑的。赵汝楳的这段文字出自《易雅》图书释第十八卷。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2080,
+    "completion_tokens": 774,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2080,
+      "completion_tokens": 774,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

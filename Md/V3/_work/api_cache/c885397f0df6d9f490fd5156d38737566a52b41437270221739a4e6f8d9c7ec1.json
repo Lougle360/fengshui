@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-10-18T11:33:03.613760+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c885397f0df6d9f490fd5156d38737566a52b41437270221739a4e6f8d9c7ec1",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006346-p000-eeb056e438",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006347-p000-d0aab3b8e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘未 州大原近坤 雍州糜門郡’，candidate释为‘未州大原靠近坤，属于雍州糜门郡’。原文‘未’与‘州’之间有空格，可能表示‘未’是地支或独立词，而非‘未州’。candidate将其合并为‘未州’，可能改变了原意。此外，‘属于雍州糜门郡’是增译，原文并未明确此归属关系。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006348-p000-94e0fea567",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006349-p000-b63d87ca1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006350-p000-56a01a447b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006351-p000-63c5160c03",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文‘坤未 雍州庭代 郡郡 穴益之暌’进行了过度解释和重组。原文是并列的短语或条目，candidate却将其改写为一段说明性文字，并加入了‘文中提到’、‘此外，文中还列出了’等连接词，改变了原文的并列结构。对于‘雍州庭代郡郡’和‘益之暌’，candidate的处理（‘这些短语的具体所指不详’）符合规则，但整体释读方式偏离了原文的呈现形式。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006352-p000-0afea6110b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006353-p000-69b3eca8bc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b006354-p000-d1778a77b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006355-p000-c060daeb01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1917,
+    "completion_tokens": 584,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1917,
+      "completion_tokens": 584,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

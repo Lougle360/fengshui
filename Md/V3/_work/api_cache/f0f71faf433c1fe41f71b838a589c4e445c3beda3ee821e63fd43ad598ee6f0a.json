@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-04T06:04:54.659710+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f0f71faf433c1fe41f71b838a589c4e445c3beda3ee821e63fd43ad598ee6f0a",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000674-p000-cd7bc9afd2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000675-p000-53049e3c61",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘龍格強’，candidate 增译为‘龙脉的格局强梁有力’，添加了‘格局’和‘有力’，超出了原文范围。应更贴近原文，如‘龙格强梁’或‘龙脉格局强梁’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000676-p000-47a7fd1643",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘梁規模’，candidate 译为‘规模宏大’。原文‘梁’可能指‘强梁’或‘栋梁’，与‘规模’组合含义不明。candidate 将其确定为‘宏大’是推测，缺乏依据。应保留原文的模糊性，如‘梁的规模’或‘强梁的规模’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000678-p000-da6c5b9745",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘繆落平和穴體之規 模止落處陽落更好’中，‘繆落’可能指‘缪氏认为’或‘缪氏关于落脉’，但candidate 直接译为‘缪氏认为’是推测，原文并未明确是‘缪氏’。应更保守，如‘落脉平和是穴体规模的标准，止落在平处，若是阳落则更好’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000679-p000-98b118df2e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000680-p000-8b8a689edd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘土無斜頑金規模’译为‘土无斜顽，是五星的规模’。原文‘金規模’可能指‘金的规模’，而非‘五星的规模’。candidate 将‘金’替换为‘五星’，改变了原意。应译为‘土无斜顽，是金的规模’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000681-p000-205316c867",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文文字顺序错乱，无法确切还原具体描述"
+        ]
+      },
+      {
+        "id": "book028-b000682-p000-1fbab76617",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000683-p000-a73cf16ba2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文文字顺序错乱，无法确切还原具体描述",
+          "片段‘天曼’、‘腹坦罡天’、‘股横曜孤’等具体含义不详"
+        ]
+      },
+      {
+        "id": "book028-b000684-p000-cc75c33525",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2354,
+    "completion_tokens": 696,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2354,
+      "completion_tokens": 696,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

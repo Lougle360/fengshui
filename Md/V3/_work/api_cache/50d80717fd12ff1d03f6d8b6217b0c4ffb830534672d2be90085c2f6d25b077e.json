@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-09-24T07:10:27.219812+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "50d80717fd12ff1d03f6d8b6217b0c4ffb830534672d2be90085c2f6d25b077e",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000038-p000-13c95afb44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000039-p000-061ddd3f66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "赤急",
+          "伤馆"
+        ]
+      },
+      {
+        "id": "book009-b000040-p000-9ca9feb87e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000041-p000-62d7c928d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "董小龙能出"
+        ]
+      },
+      {
+        "id": "book009-b000046-p000-a08308c2c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“前夫必成小地”的“夫”是“去”的形近讹字，候选译文中误写为“往前延伸”前的原表述逻辑无误，但原文“武旨首分”“八星”未做模糊标注，且“梧桐枝亦假島龍成地”的释读存在歧义，原文是“梧桐枝也有假的，岛龙能结成真地”还是“梧桐枝形态的龙脉即使是假的，搭配岛龙也能成地”表意不明确，候选直接释读为前者属于无依据确定；另外原文“前夫必成小地”的“夫”应是“去”的讹字，候选虽然译对了含义，但未标注讹字情况？不对，再看原文：“大八字小護帶少者前夫必成小地”，候选译的是“往前延伸一定会结出小地”，这里“前夫”是“前去”的讹写，候选没有标注，且“武旨首”“八星”属于未明确的术语，候选直接使用未做说明，还有“梧桐枝亦假島龍成地”的断句问题，原文是“梧桐枝亦假，岛龙成地”还是“梧桐枝亦假岛龙成地”？不对，原source是“梧桐枝亦假島龍成地武旨首分 龍入首言”，候选译的“梧桐枝也有假的，岛龙能结成真地。有关于武旨首分龙入首的说法”，这里“武旨首分龙入首”原文是断开的“武旨首分 龍入首言”，候选把“武旨首”和“分龙入首”合并，属于无依据合并，且“武旨首”“八星”属于未在术语表中的专名，候选未标注不确定性"
+        ],
+        "uncertainty": [
+          "武旨首",
+          "八星",
+          "梧桐枝亦假島龍成地的断句与准确含义"
+        ]
+      },
+      {
+        "id": "book009-b000047-p000-8fec8d1e08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“令在因分面得者也”的“令”应为形近讹字，此处按照“全”的含义译出"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2371,
+    "completion_tokens": 808,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2371,
+      "completion_tokens": 808,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

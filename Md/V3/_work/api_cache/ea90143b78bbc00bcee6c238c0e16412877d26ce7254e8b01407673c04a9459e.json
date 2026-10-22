@@ -1,0 +1,198 @@
+{
+  "created_at": "2026-09-23T14:49:21.298981+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ea90143b78bbc00bcee6c238c0e16412877d26ce7254e8b01407673c04a9459e",
+  "response": {
+    "items": [
+      {
+        "id": "book004-b000042-p000-891daf6f74",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'委蛇東西或為南北'，candidate译为'有时向东向西，有时向南向北'，将'或'译为'有时'，有将选择关系弱化为并列关系之嫌，且'东西''南北'在此处更可能指代方向不定，而非具体东西向或南北向。",
+          "原文'呌瀉之地多石'，candidate译为'叫作泻地之地多石'，'呌'通'叫'，但'泻地'为风水术语，指地势低洼、水流倾泻之地，此处直接译为'叫作泻地之地'，术语处理不当，应保留'泻地'并加引号或说明。",
+          "原文'壠之行屬當求不脊以爲骨也'，candidate译为'垄脉的行进则应当寻找非脊之处作为骨'，'不脊'译为'非脊之处'，释义不准确，'不脊'可能指非山脊的平坦或低缓处，但直接译为'非脊之处'过于直白且可能偏离原意。",
+          "原文'此章大界與丘權之骨圖身之支意同耳'，candidate译为'这一章的大意与《丘权之骨图》中关于身体支脉的意旨相同'，将'大界'译为'大意'，推测成分较大，'大界'可能指大的界限、范围或主旨，但不确定。且'丘權之骨圖'为书名，应保留原样并加书名号或引号。"
+        ],
+        "uncertainty": [
+          "'不脊'的确切含义。",
+          "'大界'的确切含义。"
+        ]
+      },
+      {
+        "id": "book004-b000043-p000-0de67a9b84",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000044-p000-1070f43964",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000045-p000-e34a2fa903",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'榮迁漕層拱疊衛'，candidate译为'荣迁漕层拱叠'，'榮迁漕層'可能为地名或特定称谓，candidate未加引号或说明，直接音译，处理不当。",
+          "原文'此章良'，candidate译为'这一章很好'，'良'译为'很好'，虽为常见释义，但在古籍评注语境中，'良'可能特指'良善''佳'，译为'很好'可以接受，但略显口语化。"
+        ],
+        "uncertainty": [
+          "'榮迁漕層'的具体所指。"
+        ]
+      },
+      {
+        "id": "book004-b000046-p000-d02cfa0e14",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'如其秘則如數二三辨黑自'，candidate译为'如同其秘法，就像数二三、辨黑白一样容易'，将'辨黑自'推测为'辨黑白'，并补出'一样容易'，属于无依据扩写。'自'可能为'白'之误，但candidate未标注不确定性。",
+          "原文'冕委自復回還重復'，candidate译为'冕委自复回还，重重复复'，并在uncertainty中说明可能讹误，但'冕委'一词未加引号或说明，直接音译，处理不当。应作为opaque_term处理。"
+        ],
+        "uncertainty": [
+          "'辨黑自'的确切含义及是否为'辨黑白'之误。",
+          "'冕委'的具体所指。"
+        ]
+      },
+      {
+        "id": "book004-b000047-p000-8e801463e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000048-p000-2e8b3bfe7c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'權衛之山'，candidate译为'权卫之山'，未加引号或说明，'權衛'可能为特定风水术语或形容，candidate直接音译，处理不当。",
+          "原文'俗逼舊突'，candidate译为'俗逼旧突'，未加引号或说明，'俗逼''旧突'含义不明，candidate直接音译，处理不当。应作为opaque_term处理。",
+          "原文'諸畜之水'，candidate译为'诸畜之水'，未加引号或说明，'諸畜'可能为'诸水'之误或特定说法，candidate直接音译，处理不当。"
+        ],
+        "uncertainty": [
+          "'權衛'、'俗逼舊突'、'諸畜'的具体含义。"
+        ]
+      },
+      {
+        "id": "book004-b000049-p000-89d4cfe454",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000050-p000-cd6de75b52",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'水沉醫則土壞高厚氣冲和則草木茂盛'，candidate译为'水沉则土坏，高厚气冲和则草木茂盛'，漏译了'醫'字。'醫'可能为'則'之误或另有含义，candidate直接忽略，属于漏译。"
+        ],
+        "uncertainty": [
+          "'醫'字在此处的含义或是否为讹字。"
+        ]
+      },
+      {
+        "id": "book004-b000051-p000-c4166e6aba",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'犹万金之皆'句意不完整，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book004-b000052-p000-7af2aad1d4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本存在大量疑似OCR错误、乱码、缺字和衍文（如'LAuA'、'之诛'、'禹木一守'、'水随之而北'等），导致文意支离破碎，无法进行可靠的语义核对。candidate的翻译是在严重损坏的原文基础上进行的，无法判断其准确性、完整性和通俗性。"
+        ],
+        "uncertainty": [
+          "原文严重损坏，无法进行有效审校。"
+        ]
+      },
+      {
+        "id": "book004-b000053-p000-d0c8c08907",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000054-p000-16fc30610b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000055-p000-e1fe2bdf8a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'粘華山麓'，candidate译为'粘华山麓'，未加引号或说明，'粘華'可能为地名或特定称谓，candidate直接音译，处理不当。",
+          "原文'禍褥'，candidate译为'祸褥'，未加引号或说明，'禍褥'含义不明，candidate直接音译，处理不当。应作为opaque_term处理。",
+          "原文'金魚'，candidate译为'金鱼'，未加引号或说明，'金魚'在风水中可能指穴前左右两股交会的水流或砂水形态，是术语，candidate直接译为'金鱼'而未说明，处理不当。应作为locked_term或allowed_glossary处理。"
+        ],
+        "uncertainty": [
+          "'粘華'、'禍褥'的具体含义。",
+          "'金魚'在此处的确切风水含义。"
+        ]
+      },
+      {
+        "id": "book004-b000056-p000-08bfc0c0ee",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本存在大量疑似讹误或乱码（如'三丈名字交求'、'武十分十字'、'不观'、'十入'等），导致关键句意不明，无法进行可靠的语义核对。candidate的翻译是在严重损坏的原文基础上进行的，无法判断其准确性。"
+        ],
+        "uncertainty": [
+          "原文严重损坏，无法进行有效审校。"
+        ]
+      },
+      {
+        "id": "book004-b000057-p000-3f79b56a29",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'饒備'，candidate译为'饶备'，未加引号或说明，'饒備'含义不明，candidate直接音译，处理不当。应作为opaque_term处理。",
+          "原文'三集聚頭'，candidate译为'三聚头'，未加引号或说明，'三集聚頭'可能为风水术语，candidate直接音译，处理不当。应作为opaque_term处理。",
+          "原文'雷其所廢'，candidate译为'雷其所废'，未加引号或说明，且与前文逻辑断裂，可能为衍文或另起一句，candidate直接音译并置于段末，处理不当。"
+        ],
+        "uncertainty": [
+          "'饒備'、'三集聚頭'、'雷其所廢'的具体含义及与前文关系。"
+        ]
+      },
+      {
+        "id": "book004-b000058-p000-d6400022e7",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本存在严重讹误或乱码（如'非莫辨'、'鲁察'、'不率'、'岁年观不四'等），导致句意极不明确，无法进行可靠的语义核对。candidate的翻译是在严重损坏的原文基础上进行的，无法判断其准确性。"
+        ],
+        "uncertainty": [
+          "原文严重损坏，无法进行有效审校。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5805,
+    "completion_tokens": 2282,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5805,
+      "completion_tokens": 2282,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-25T04:25:54.325223+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "031dd710810bb3c5941b4933b1fa91cc5061a2f2d893c6f70146ce63d9c862db",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000377-p000-bd3069fb73",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“金水原來似風三台紫無號貴”被误断为“金水原本似风三台，紫无号贵人”，断句错误导致语义拆分不当；原文“身多報”被误译为“身形多收敛”，“報”无“收敛”含义，属于无依据释义；原文“過高而達”的“達”应是“遠”的形近讹误，candidate未指出形近讹误风险直接保留“达”表述不符合要求；原文“賤格龍出僧道之官”被译为“贱格龙会出僧道类的人士”，错误添加“人士”替换原文的“官”，改变原文表述"
+        ],
+        "uncertainty": [
+          "“贞而甚”的“甚”表意不明",
+          "“似风三台”具体所指有待进一步考证",
+          "“贞俛”具体含义不详",
+          "“年涌”具体含义不明",
+          "“投嫁身臃”具体所指不详",
+          "“达”应为“远”的形近讹误，具体含义需结合校勘确认"
+        ]
+      },
+      {
+        "id": "book036-b000384-p000-7fe346873d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“仓犀翱极四件”具体所指不详"
+        ]
+      },
+      {
+        "id": "book036-b000385-p000-fc077fac0b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“員從燥火”被误断为“圆，从燥火”，断句错误，且“員”对应上文的“貞俛”，此处误译为“圆”属于形近字误释；原文未出现“从”的语义，属于拆分错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000386-p000-858343dc26",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“供祖山”是“做祖山”的讹写，candidate无依据译为“供祖山使用”，属于增译错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000388-p000-c348b372a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“發巡”是“發逃”的形近讹误，candidate未指出讹误风险直接保留“发巡”表述不符合要求"
+        ],
+        "uncertainty": [
+          "“发巡”应为“发逃”的形近讹误，具体含义需结合校勘确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1891,
+    "completion_tokens": 674,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1891,
+      "completion_tokens": 674,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

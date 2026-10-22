@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-10-15T05:28:52.692370+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2ba82b00bc57b875604ebb50ed270be4207c589a1949b4d87383fdd90932015f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001217-p000-5d0b1edb30",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的‘填平冢’被译为‘填平坟墓’，但‘冢’在风水语境中常指坟丘或墓地，译为‘坟墓’虽可接受，但‘填平’与‘最不可居’的关联需注意。更关键的是，‘人多坎河下爾’被译为‘因为人多处于‘坎’位之下’，并称‘原文提到‘坎河’’。但source原文为‘人多坎河下爾’，‘坎河’可能是一个专有名词或特定表述，candidate将其拆解为‘坎’位和‘河’并加入‘因为’的因果逻辑，属于无依据的扩写和确定化解释。应保留‘坎河’为不透明术语，说明其具体所指不详。‘令人集平明作’被译为‘文中还说‘集平明作’’，但source是‘令人集平明作’，candidate漏译了‘令人’（让人/使人）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001221-p000-e33e8ba23b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "山人台系母学本也五气市近 蔭受具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b001222-p000-317a5766a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘只相星辰而而 形出’，candidate译为‘只能观察星辰与地形的显现’。‘而而’可能为衍文或‘面’之误，但candidate处理为‘与’连接‘星辰’和‘地形’，并将‘形出’译为‘显现’，属于合理的浅显释义，可以接受。但‘上而之 者 其以 有 所 家之大法’一句，candidate处理为‘文中提到‘上而之者，其以有所家之大法’’，但source原文在‘之’和‘者’之间有空格，可能表示此处有缺字或为‘之上者’。candidate将其作为一个完整短语引用并说明语义不清，做法正确。然而，对‘界水则上乘’的解释，candidate译为‘遇到界水则停止或上升（原文‘上乘’含义不明）’，其中‘停止或上升’是candidate的推测，而source仅‘上乘’二字。应更严格地说明‘上乘’含义不明，避免加入‘停止或’这类具体推测。"
+        ],
+        "uncertainty": [
+          "上而之者，其以有所家之大法具体含义不详",
+          "界水则上乘中的上乘含义不明"
+        ]
+      },
+      {
+        "id": "book035-b001225-p000-cb2187f473",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "避下手上手者庶幾在運占主若是虛花無朝具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b001226-p000-cf92719f6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为‘廢主仇窮寡第五生怕明堂跌決是破家業泄主家’，candidate译为‘这会导致主人遭遇仇怨、贫穷和寡居。第五条忌讳是生怕‘明堂’出现跌决的情况，这会导致家业破败并泄掉主家的运势。’。问题在于：1. candidate开头‘这会导致’中的‘这’指代不明，source开头‘廢主仇窮寡’前无连接词，可能是承接上文，candidate补出‘这’属于增译，且将‘廢主’译为‘导致主人遭遇’可能不准确，‘廢’可能有废黜、衰败之意。2. ‘第五生怕明堂跌決’中的‘第五’可能指第五条，但candidate将其处理为‘第五条忌讳’，加入了‘忌讳’一词，属于无依据的增译。应更保守地译为‘第五条是生怕明堂跌决’。3. ‘泄主家’后可能缺字，candidate译为‘泄掉主家的运势’是合理的补充，可以接受。"
+        ],
+        "uncertainty": [
+          "泄主家的具体含义需结合上下文理解"
+        ]
+      },
+      {
+        "id": "book035-b001227-p000-46035e6134",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "退則具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1519,
+    "completion_tokens": 965,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1519,
+      "completion_tokens": 965,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

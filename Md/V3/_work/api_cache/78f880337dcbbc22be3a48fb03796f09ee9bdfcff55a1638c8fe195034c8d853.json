@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-17T14:19:39.911683+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "78f880337dcbbc22be3a48fb03796f09ee9bdfcff55a1638c8fe195034c8d853",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003837-p000-d5a97723d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将表格内容错误地归纳为列表，并擅自添加了编号和解释，改变了原文的呈现形式。原文是一个复杂的表格，包含图像和文字，其布局和对应关系是核心信息，不能简化为一个列表。",
+          "候选文本错误地将‘图之经门宅七’、‘图之径门宅三’、‘门吉便内’等表述解释为独立的‘水形名称’，这是无依据的扩写。原文中这些是图表标题或方位描述，并非水形。",
+          "候选文本遗漏了大量原文中的关键文字信息，如‘富大’、‘羊牛多’、‘讼官’、‘舌口’、‘舌口庆病’等，以及多个‘吉’、‘凶’判断，未能完整反映表格内容。",
+          "候选文本错误地将‘水剑抽’、‘水剑交’、‘水剑带’、‘水枪抛’等术语归类为‘水形名称’，这超出了允许的术语表范围，属于无依据的推测性解释。",
+          "候选文本在最后一段声称‘表中还包含大量图像符号，代表不同水形或方位’，这是对图像内容的推测，原文并未明示。"
+        ],
+        "uncertainty": [
+          "原文为包含图像和文字的复杂表格，其确切布局和所有图像符号的含义难以仅通过文字释读完全确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3743,
+    "completion_tokens": 324,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3743,
+      "completion_tokens": 324,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

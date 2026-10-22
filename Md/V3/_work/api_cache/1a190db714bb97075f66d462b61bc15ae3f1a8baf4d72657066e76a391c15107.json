@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T14:07:45.030159+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1a190db714bb97075f66d462b61bc15ae3f1a8baf4d72657066e76a391c15107",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000307-p000-a647807056",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000308-p000-2eb95266d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "末尾的“千”语义不明，未做标注说明，直接按原字保留不符合要求，应标注该字含义无法确认"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000309-p000-fe63b9df85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“堂寬無物理合辯於周鬪”误译为“堂局宽阔，若其形态合乎常理”，与原文“無物”的语义完全相反；原文“美合求於環聚”的“美”义漏译，未体现出美好的吉地的相关语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000310-p000-f254911017",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“以誠風得水田生不生者勢孤援寡”释读错误，原文逻辑为田生养不出对应势孤援寡，候选释读为“若能生养则说明气脉势孤援寡”语义完全相反；“本券主為寒如龍脉”中“券主”为不明术语，未做标注直接释读为“券主为寒”属于无依据解读，且原句存在语序错乱，应标注语义不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000311-p000-68ab44fdee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“周交”为不明术语，未加引号保留且无依据释为“周交方位”，“對朝”无依据释为“对应朝局”，属于无据增译，原文语义模糊应做更保守的标注，不应强行解读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000313-p000-f10f3067de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "无依据认定“望要”“交从矢楚”“龙魏”为书名，原文“一”无依据释为“共一卷”，存在大量无据增译；原句文字错乱，多数内容无法解读，不应强行串译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000315-p000-2935852b07",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "末尾的“麦”语义不明，未做标注说明，直接按原字保留不符合要求，应标注该字含义无法确认"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000316-p000-952efa23d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "鹤膝、蜂腰、鬼刼、蛛絲馬跡、龍神、落泊均为风水专业术语，此处仅做字面释读，具体含义需结合风水专业语境确定"
+        ]
+      },
+      {
+        "id": "book026-b000317-p000-b2e4133ec7",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量文字错乱、脱漏、语序混乱问题，无法进行有效释读，候选直接强行串译，未标注多数内容无法识别，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000318-p000-b79f9f65c7",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量文字错乱、断句错误、语序混乱问题，仅“龙”的术语释读正确，其余内容无法有效释读，候选强行串译无意义，不符合要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2460,
+    "completion_tokens": 1028,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2460,
+      "completion_tokens": 1028,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

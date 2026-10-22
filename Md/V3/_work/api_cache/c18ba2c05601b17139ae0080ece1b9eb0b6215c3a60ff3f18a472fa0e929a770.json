@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T23:11:45.147582+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c18ba2c05601b17139ae0080ece1b9eb0b6215c3a60ff3f18a472fa0e929a770",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001047-p000-66c704c903",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001049-p000-5eecc7827b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“天王經內佳下”具体所指不明"
+        ]
+      },
+      {
+        "id": "book017-b001051-p000-de5ec285ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“王午卯酉”无可靠校勘依据时不得直接判定为讹误并改作“子午卯酉”，应先保留原文表述再标注存疑；原文“器血伝例”未准确释读，不得擅自简化为“等相关流传的内容”"
+        ],
+        "uncertainty": [
+          "“王午卯酉”“器血伝例”含义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001052-p000-0998150d8c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“資胸射勝割”“言情水之胡說”语义未明，不得擅自推断为“‘言情水’是没有根据的说法”，属于无依据增译；原文“或為言情水之胡說水經便曹傷”断句错误，释读逻辑不符合原文语序"
+        ],
+        "uncertainty": [
+          "“資胸射勝割”“言情水之胡說”“水經便曹傷”具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 412,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1214,
+      "completion_tokens": 412,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

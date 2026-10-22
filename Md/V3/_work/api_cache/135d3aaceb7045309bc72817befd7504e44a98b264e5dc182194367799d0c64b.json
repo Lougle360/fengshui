@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-04T05:47:26.437590+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "135d3aaceb7045309bc72817befd7504e44a98b264e5dc182194367799d0c64b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000666-p000-b3a56303ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整句语义不明，疑似文本错乱"
+        ]
+      },
+      {
+        "id": "book028-b000668-p000-a9f72827d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "短语含义不明"
+        ]
+      },
+      {
+        "id": "book028-b000670-p000-60d4338009",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘规棋’、‘规梗’、‘模为曾’等原文用词替换为‘规模’，改变了原文用字，应保留原文用词并说明其含义不详。候选句将‘麻之生死’释读为‘脉理的生死’，这是无依据的推测，原文‘麻’字可能为‘脉’之误，但应标注为不确定。候选句将‘牛由人为主造化’释读为‘似乎涉及天机与人为造化的关系’，这是过度解读，应直接说明该短语含义不详。候选句将‘八无星肃’和‘河岳醉山’处理为短语，但原文‘八無星肅皆是廣地非山處皆是水河岳醉山水脉是生氣’的断句和含义均不确定，候选句的拆分和解释缺乏依据。"
+        ],
+        "uncertainty": [
+          "规惔",
+          "牛由人为主造化",
+          "麻之生死",
+          "八无星肃",
+          "河岳醉山",
+          "规棋",
+          "规梗",
+          "模为曾"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1646,
+    "completion_tokens": 340,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1646,
+      "completion_tokens": 340,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

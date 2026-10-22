@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-23T13:48:49.342528+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2dfc391f9176801e8a82a4c11a1ad9e278913154739fd865f786560ee0fc7ead",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000809-p000-945bd24aec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000819-p000-4da87d6ee7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘只用天干不用地支，水法皆然’明确说明水法只用天干，不用地支。但候选句后续又详细解释了地支的‘大神’‘中神’‘小神’分类，并说‘地支不问坐向，放水来去并凶’，这与前文‘不用地支’的规则存在矛盾。候选句未处理或解释这一矛盾，可能导致读者困惑。",
+          "原文‘有大神若八干，水不来只’句意不完整，候选句处理为‘若有大神如八干方位，但“水”不来只……（原文此处似未完，具体所指不详）’。此处理方式可以接受，但‘如八干方位’的补充解释可能超出了原文‘若八干’的明确所指，建议更贴近原文表述，例如‘若有大神（如八干），水不来只……’。"
+        ],
+        "uncertainty": [
+          "原文末尾‘水不来只’后文缺失，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1522,
+    "completion_tokens": 294,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1522,
+      "completion_tokens": 294,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

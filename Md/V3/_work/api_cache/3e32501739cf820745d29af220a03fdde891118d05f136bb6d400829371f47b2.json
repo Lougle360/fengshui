@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T22:13:08.677642+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3e32501739cf820745d29af220a03fdde891118d05f136bb6d400829371f47b2",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000098-p000-7b171a2a3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000099-p000-ab08201b01",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘善讀辨正者固如是耶’是反问语气，不应译为肯定陈述‘善于研读辨正的人本就该如此’，语义与原文相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000102-p000-15936e22e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000103-p000-f689a19330",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘四桂’为讹字，对应上下文应是‘四柱’，候选译为‘四桂’无依据；原文‘五行金木水次土’为‘金木水火土’的讹写，候选译对但‘水’此处是五行的水，不属于风水语境的河流含义，无需对应locked_terms的风水‘水’释义；原文‘星晨’是‘星辰’的讹写，候选已修正，可接受"
+        ],
+        "uncertainty": [
+          "‘有臣求立’原文语义不明，候选直译未标注不确定性"
+        ]
+      },
+      {
+        "id": "book031-b000104-p000-01caca6061",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在语序错乱，候选自行调整语序后加入的‘关联’无原文依据；原文‘盡湘關’是‘盡相關’的讹写，候选译对但未标注原文讹误；‘雄與雌 玄空卦內推’原文断句应为‘雄與雌交，玄空卦內推’，候选断句错误导致语义不通"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000105-p000-dd89cb4a1c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘一遁入玄空之圗’‘下卦交則卦卦交奇絕 多多多’语义较晦涩，候选释读为合理推测"
+        ]
+      },
+      {
+        "id": "book031-b000107-p000-98c5545023",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000108-p000-094b202893",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘贫而至弼’原文语义不明，候选直接直译未标注不确定性；allowed_glossary中‘三元’的释义对应此处语境合理，但‘贫而至弼’属于无依据内容不应直接作为确定表述"
+        ],
+        "uncertainty": [
+          "‘贫而至弼’具体所指不详"
+        ]
+      },
+      {
+        "id": "book031-b000110-p000-c91ce9d104",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000111-p000-a3c94ea618",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2881,
+    "completion_tokens": 897,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2881,
+      "completion_tokens": 897,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

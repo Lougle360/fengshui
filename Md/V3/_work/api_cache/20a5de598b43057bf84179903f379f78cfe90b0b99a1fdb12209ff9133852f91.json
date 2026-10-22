@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:13:34.819252+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "20a5de598b43057bf84179903f379f78cfe90b0b99a1fdb12209ff9133852f91",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000622-p000-879a5065ac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为“李廣將軍箭詩造奕論”，未提及该著作论述风水术数，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000623-p000-a9b5b5a6f5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“天干有箭支無箭”释为“天干中有箭的對應方位，若沒有箭的對應方位”，属于无依据的主观阐释，原文未明确“箭支”对应方位"
+        ],
+        "uncertainty": [
+          "“箭支”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000624-p000-9fb2bca018",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“甲唐山”释为“甲唐山”，未明确其具体所指，属于无依据的确定化处理；将“帝星入中宮”释为“有帝星進入中宮”，属于无依据的主观阐释；将“干祿甚衆”释为“做官的人很多”，属于无依据的主观阐释"
+        ],
+        "uncertainty": [
+          "“甲唐山”具体所指不详；“帝星”具体所指不详；“干祿”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000625-p000-ac2fe4d77f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为“炙退三殺詩山方並忌”，未提及该著作关于山方忌讳，属于无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1764,
+    "completion_tokens": 448,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1764,
+      "completion_tokens": 448,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

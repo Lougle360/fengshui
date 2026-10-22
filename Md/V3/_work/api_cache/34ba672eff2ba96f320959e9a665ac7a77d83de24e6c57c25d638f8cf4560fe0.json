@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T07:22:21.609761+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "34ba672eff2ba96f320959e9a665ac7a77d83de24e6c57c25d638f8cf4560fe0",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000048-p000-65e96ef3d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000049-p000-0beffe333e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000050-p000-32234ed2ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头表述为“凡地茲分尤穴秋水之四端”，候选误改为“尤其要关注穴、水、向这四个方面”，存在信息偏差：原文“四端”实际是龙、穴、砂、水（原文此处“尤”“秋”为讹字，候选误加入未在原文出现的“向”凑成四端，且将原文“不外莫乗生炁之一語”错误保留“莫乘生炁”，结合上下文应为“不外乎乘生炁这一句话”，属于文意理解错误；原文“尨勢推左則左為生右為死耄勢推右”中“耄勢”候选未修正，上下文对应应为“龙势”，却错误释读为“龙势偏向左边”“龙势偏向右边”，且后文“直尨却向橫中撞橫尨却向直中接”候选断句错误，断为“直龙就朝向横处，横龙就朝向直处，中间撞击，横龙就朝向直处中间衔接”，属于语句拆分错误；原文并无“向是用来承接这生炁的”相关表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文“尤”“秋”“戎”“耄”“踰”“尨”为讹字，具体所指需结合版本校勘确认"
+        ]
+      },
+      {
+        "id": "book010-b000051-p000-1d50e1142a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000052-p000-5baf1726c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若見水割風吹”候选错误释读为“如果见到水被割、风被吹”，应为“如果出现水割脚、风吹穴的情况”，属于被动语态误用导致文意偏差；原文“反炁狗音以蔭所生之法也”候选错误释读为“反过来炁拘取来荫庇所生的方法”，原文“狗音”为讹误，候选未标注风险直接释为“拘取”属于无依据臆断；原文“後毋蔭前兒前妻蔭後子”候选断句错误，断为“后毋荫前，儿前妻荫后子”，应为“后母不荫庇前子，前妻荫庇后子”，断句错误导致语义不通；原文未出现“搆”字，候选将“梏其根”错误改为“搆好树根”，属于讹字处理不当"
+        ],
+        "uncertainty": [
+          "原文“倅”“狗”“音”“臾臾”“煩蛉”为讹字或衍文，具体含义需校勘确认"
+        ]
+      },
+      {
+        "id": "book010-b000053-p000-8910f947f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标题为“論佶局”，候选漏译“佶”字，直接写作“论局”，属于信息遗漏"
+        ],
+        "uncertainty": [
+          "原文“佶”疑为讹字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000054-p000-8e1bcdaa9f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“頎”“戎”为讹字，具体含义需校勘确认"
+        ]
+      },
+      {
+        "id": "book010-b000055-p000-44fe7e8558",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000056-p000-dbc87e4cba",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“尤”“尤虎”为讹字，具体所指需校勘确认"
+        ]
+      },
+      {
+        "id": "book010-b000057-p000-3ec0d9ada0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 1108,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3737,
+      "completion_tokens": 2961,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3737,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3737,
+      "completion_tokens": 1108,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

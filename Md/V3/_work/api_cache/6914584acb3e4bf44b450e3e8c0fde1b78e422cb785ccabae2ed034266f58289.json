@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-17T23:13:20.251906+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6914584acb3e4bf44b450e3e8c0fde1b78e422cb785ccabae2ed034266f58289",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004915-p000-14a716a21c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“弓腳先來最罕逢”中“弓腳”是孤曜星的一种形态，candidate译为“弓脚形态”不够准确，应保留“弓脚”作为专有名词并说明其形态特征，或直接保留原词。",
+          "“曲窕水中”译为“曲折蜿蜒的水中”是合理的浅显释义，但“窕”字有幽深之意，可考虑补充。不过此非关键错误，主要问题在“弓腳”的处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004916-p000-001a909f70",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004917-p000-72683f64ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source是明确的标题格式，candidate将其解释为“这是...的第三十一条标题”，属于增译和改写。对于heading类，应直接保留或稍作格式调整，不应改变其作为标题的性质。例如可译为“地理天機會元 卷二十四穴格 三十一”或“《地理天机会元》卷二十四 穴格 三十一”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004919-p000-5879bb6313",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004921-p000-85fd0481e8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“宜壓煞們開孤作塋”中“們”字，candidate直接处理为“适宜压制煞气，开辟孤地作为坟茔”，忽略了“們”字。应指出此字可能为衍文或误字，或保留原貌并说明。",
+          "“合呂格者”中“呂”字，candidate保留原词“吕”是正确的，但未在uncertainty中明确标注其含义不详。",
+          "“司監”、“親職”、“内侍”等官职名，candidate直接沿用，可以接受，但最好能加注说明为古代官职。",
+          "“初生亮發之人則氣盛也至生六趾之人則氣衰也”译为“初生亮发之人则气盛也；至生六趾之人则气衰也”，其中“亮发”含义不明，应保留原词并标注不确定性。",
+          "“宜作水堆”译为“宜作水堆”，但“水堆”在风水语境中含义不明，应保留原词并标注为不透明术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004922-p000-c55a511772",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004923-p000-a84d337dd4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004924-p000-dd40e8c641",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本严重残缺错乱，多处语句不通（如“孤曜有二茶槽竹規水斜流生離去外州”、“體皆如杆義又不可下穴與側腦相似 大陽有”），candidate试图进行连贯翻译，但许多词汇（如“茶槽”、“竹规”、“杆”）在标准风水术语中含义不明，且“大阳有”后文缺失。这种状态下，任何试图形成通顺现代中文的释读都包含大量推测，无法保证准确性。"
+        ],
+        "uncertainty": [
+          "原文严重残缺且错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b004925-p000-9a47904e12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004926-p000-cfb97a78ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "与id为book035-b004917-p000-72683f64ad的条目类似，source是标题格式“地理天機會元 卷二十四·穴格 三十二”，candidate将其解释为“这是...的第三十二条标题”，属于增译和改写。应直接保留或稍作格式调整。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3299,
+    "completion_tokens": 1043,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3299,
+      "completion_tokens": 1043,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

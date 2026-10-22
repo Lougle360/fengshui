@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:35:08.350808+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "eea1b248f5cd8707d11db9af21397ee1b4b8bd8082456885a24a6b3f9440284e",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000728-p000-d54d4159dd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘洪路’释为‘宽阔道路’无依据，属于无依据扩写；将‘發掘坑坎’释为‘有八卦之一的坎的不好’，误将‘坑坎’拆分为‘坑’与‘坎’，且把‘坎’的八卦含义错误套用于此处，原文‘坑坎’指坑洼之地，并非八卦之坎；将‘有人行路如繩纏頭’释为‘有像绳索缠头一样的人行路径的不好’，属于无依据扩写，原文仅指路径如绳缠头，并非人行路径；将‘有惡相令人惜’释为‘有令人惋惜的恶相的不好’，属于无依据扩写，原文仅指恶相令人怜惜，并非‘令人惋惜’"
+        ],
+        "uncertainty": [
+          "原文‘洪路’具体所指不详，释为‘宽阔道路’无依据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1001,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1001,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

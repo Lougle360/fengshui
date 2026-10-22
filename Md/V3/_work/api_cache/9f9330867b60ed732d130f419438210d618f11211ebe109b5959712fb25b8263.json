@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-18T10:34:06.952221+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9f9330867b60ed732d130f419438210d618f11211ebe109b5959712fb25b8263",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006184-p000-0f361849b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006185-p000-7403656563",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘利長中富厲仙曰宜坐庚辰及壬辰穴’中的‘長中’（长房、中房）被简化为‘长房’。",
+          "反义/误译：原文‘水去主出兩肩兩割乙爲官星大吉’中的‘水去主出’被译为‘若水去主出’，增加了假设连词，改变了原文陈述事实的语气。",
+          "专业术语误换/不准确：原文‘太玄經曰心月孤管山產於東地體出於坎成於南離死婦無位氣而伏生落於岩穴之地’中的‘死婦無位’被直译为‘死妇无位’，未作任何说明，可能造成严重误解。根据V3目标，对于此类明显晦涩或可能包含特殊术语的短语，应标注其含义不明。",
+          "数字/干支/卦象/方位变化：原文‘已酉辛酉去’中的‘已酉’（干支）被误写为‘已酉’，但候选句写为‘已、酉’，将干支拆解为两个独立的字，改变了原意。"
+        ],
+        "uncertainty": [
+          "‘两肩两割’、‘水屋草木嫩小’、‘五旬内有黑色禽应门’等短语含义晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006186-p000-e501cd0fde",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘胃土雉管局七辰’、‘三乙应清明中候’、‘不入十六龙’等术语在原文中无明确定义，具体所指不详。",
+          "‘坎高者子孙富，坤畜者子孙长寿’句式简略，‘坎高’、‘坤畜’的具体所指仍不明确。"
+        ]
+      },
+      {
+        "id": "book035-b006187-p000-e469eacaa0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘浮才衣食’、‘承参之职’等表述含义模糊，具体所指不详。",
+          "‘六玄经’内容涉及具体灾祸与应验，原文未提供背景。"
+        ]
+      },
+      {
+        "id": "book035-b006188-p000-94965bb1cc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘壬辰在艮遁得复卦’、‘坤官一世卦’等涉及卦象推演，原文未说明具体方法。",
+          "‘庚子才允’、‘庚寅鬼乾’等短语含义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006189-p000-e6741944da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006190-p000-86e93e741c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "‘分事而呼其谷之管也七’语句残缺或含义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006191-p000-87c84c69f4",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "‘宅不然，贵人服’语义不完整，可能为残句，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006192-p000-2809866e19",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘青衣于门发’、‘后有青蛇盖冢’等描述涉及具体征兆，原文未解释其象征意义。"
+        ]
+      },
+      {
+        "id": "book035-b006193-p000-c1d91e1e11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3228,
+    "completion_tokens": 956,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3228,
+      "completion_tokens": 956,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

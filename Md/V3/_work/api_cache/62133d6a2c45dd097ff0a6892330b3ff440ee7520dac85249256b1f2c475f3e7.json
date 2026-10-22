@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T15:49:56.196225+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "62133d6a2c45dd097ff0a6892330b3ff440ee7520dac85249256b1f2c475f3e7",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001299-p000-a1af43587e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001300-p000-21865d3113",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001301-p000-e44185842b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中「井戸水」的「水」属于allowed_glossary定义的风水语境术语，候选译文中直接译为「井戸水」未按术语定义处理，存在专业术语误换问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001302-p000-6041cf2772",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中「水」属于allowed_glossary定义的风水语境术语，候选译文中未出现该术语相关内容，无对应误译问题，但需确认是否遗漏相关表述；候选译文中对「権」的补充说明属于无依据扩写，原文未明确提及「权指的是秤的砝码」，存在推测写成事实的问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2257,
+    "completion_tokens": 339,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2257,
+      "completion_tokens": 339,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

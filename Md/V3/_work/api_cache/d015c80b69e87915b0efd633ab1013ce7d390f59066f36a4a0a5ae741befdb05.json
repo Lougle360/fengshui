@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-25T09:07:30.936481+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d015c80b69e87915b0efd633ab1013ce7d390f59066f36a4a0a5ae741befdb05",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000447-p000-47f062f4e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000448-p000-db6dc07221",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确表述安葬后是‘男女不利’，候选译文中仅提及‘对女性不利’，漏译了对男性不利的内容",
+          "原文‘中央四凹’释为‘中央有四处凹陷’有误，此处‘四凹’指四周凹陷，并非四处凹陷"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000450-p000-2576122b0f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000451-p000-6262ab743a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语句不完整，后半部分具体含义无法准确释读"
+        ]
+      },
+      {
+        "id": "book023-b000453-p000-508469d1ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000454-p000-4708d87cfc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘以其凶而弃之也’，是陈述语气，候选译文中添加了原文没有的‘不可’，语义与原文相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000456-p000-3b6b021c8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000457-p000-209d5c8529",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘丈理枯燥’含义不明，候选译文直接保留‘丈理’未作说明，未转换成普通读者能理解的表述",
+          "原文‘石使相祖曾文遄下托手穴’的断句存疑，候选译文断为‘石使相祖、曾文遄的下托手穴’无明确依据，属于无依据确定专名关系"
+        ],
+        "uncertainty": [
+          "‘丈理’具体所指不详",
+          "‘石使相祖曾文遄下托手穴’的人物从属关系不明确"
+        ]
+      },
+      {
+        "id": "book023-b000459-p000-aabe62c3c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘凶祸伏逃’的含义未完整释读，候选译文仅译出‘凶险灾祸潜伏’，漏译了‘逃’相关的语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000461-p000-e8036b75ba",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘鱼之鬣’的具体所指普通读者可能不熟悉，原文未作进一步说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2155,
+    "completion_tokens": 779,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2155,
+      "completion_tokens": 779,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

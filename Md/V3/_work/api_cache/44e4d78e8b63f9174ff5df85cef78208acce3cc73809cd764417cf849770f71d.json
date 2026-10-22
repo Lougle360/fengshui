@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-26T08:52:38.770311+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "44e4d78e8b63f9174ff5df85cef78208acce3cc73809cd764417cf849770f71d",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000493-p000-45f83a24d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000496-p000-9061442f3d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "里人子页知具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b000497-p000-c1f84ee391",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000498-p000-16f0329742",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“牛田”未给出明确释义依据，candidate直接认定其指农耕产业属于无依据增译"
+        ],
+        "uncertainty": [
+          "以角系二日具体所指不详",
+          "牛田具体含义未明"
+        ]
+      },
+      {
+        "id": "book033-b000499-p000-c69924e35b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“有弦有校”，candidate直接认定为“有弦有棱”的讹误缺乏依据，属于无依据校改"
+        ],
+        "uncertainty": [
+          "倒木圓挎具体所指不详",
+          "有弦有校具体含义未明"
+        ]
+      },
+      {
+        "id": "book033-b000501-p000-60aadb489b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "山沱曲濫具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000502-p000-5362c873b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文两处“大之吉者也”，candidate直接认定为“火之吉者也”的讹误缺乏依据，属于无依据校改"
+        ],
+        "uncertainty": [
+          "水裡石梁具体所指不详",
+          "两处“大之吉者也”是否为讹误未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3073,
+    "completion_tokens": 567,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3073,
+      "completion_tokens": 519,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3073,
+      "completion_tokens": 567,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

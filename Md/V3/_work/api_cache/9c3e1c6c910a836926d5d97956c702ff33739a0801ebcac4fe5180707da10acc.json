@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:15:01.665546+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9c3e1c6c910a836926d5d97956c702ff33739a0801ebcac4fe5180707da10acc",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000532-p000-fc4ac213a6",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《地拳》卷二 穴二三",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000536-p000-1e42613fba",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "窝有后先",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000538-p000-bf1c5e836f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处文字残缺错乱，无法准确释读",
+        "confidence": "low",
+        "uncertainty": [
+          "原句文字残缺，无法明确其含义"
+        ]
+      },
+      {
+        "id": "book014-b000539-p000-1fe3468e9d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "凡是钳口，必然有合毡；没有合毡却有漏槽的，必定是界水、祸水，并非针；真正的钳顶，气脉必定充足；钳中心圆润洁净，有生气，名为金；需看银槽，观察晕",
+        "confidence": "medium",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1575,
+    "completion_tokens": 389,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1575,
+      "completion_tokens": 389,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T03:50:47.794552+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0ee5361152a70e533fa6bec0987bbccf4a435a937d8cb40244c1c846280d64d0",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001246-p000-a2e3192f87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001248-p000-4dcae9ae65",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“穿膊”“脑”“脚头”“尖嘴”等属于风水地形描述的专名，未在allowed_glossary中有明确释义，candidate直接将其作为确定的位置/形态表述，未做必要的歧义标注，不符合含混专名不得赋予确定含义的要求；“浪痕”原文表意含混，candidate直接释为向下垂落的形态，属于无依据的确定解释"
+        ],
+        "uncertainty": [
+          "“穿膊”“脑”“脚头”“浪痕”“尖嘴”具体所指的地形特征原文未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1031,
+    "completion_tokens": 239,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1031,
+      "completion_tokens": 239,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

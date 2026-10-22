@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-24T23:34:59.104094+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a627cadeff328ce5791c100a1c283da61578e7ade7eb78f348ccdf7b4a43a8ed",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001248-p000-4b9233259f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001249-p000-975d15a5e2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“页取”“宜的”“风次”等表述疑似OCR识别错误，已按上下文语境保守改写"
+        ]
+      },
+      {
+        "id": "book017-b001250-p000-95c815d3c6",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在日文假名与乱码混杂的情况，部分内容无法准确识别"
+        ]
+      },
+      {
+        "id": "book017-b001251-p000-bfc5a93aa9",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处OCR识别错误，部分内容无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001252-p000-121a2b048f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001254-p000-f2c53828ef",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“倉狼”疑似“贪狼”的OCR识别错误，已按上下文语境保守改写"
+        ]
+      },
+      {
+        "id": "book017-b001255-p000-7c1798b4bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001256-p000-b7e0e49bd9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“笙”疑似“巽”的OCR识别错误，已按上下文语境保守改写"
+        ]
+      },
+      {
+        "id": "book017-b001257-p000-7e778c7cc6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处OCR识别错误，部分内容无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001258-p000-b98ef2cd77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子經唯以經稅为生”被误译为“子孙后代仅以经商为生”，语义不符；原文“仍事擇雀”被误译为“仍注重择地”，专业术语误换，“擇雀”并非择地含义"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2391,
+    "completion_tokens": 743,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2391,
+      "completion_tokens": 743,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

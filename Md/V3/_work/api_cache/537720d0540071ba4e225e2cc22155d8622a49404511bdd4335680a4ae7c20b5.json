@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T05:38:02.328585+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "537720d0540071ba4e225e2cc22155d8622a49404511bdd4335680a4ae7c20b5",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000102-p000-b8d50f39c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000104-p000-fe94a71770",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000105-p000-95601978df",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文仅截取到“得利者所作”，句子不完整，无法准确释读完整语义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2170,
+    "completion_tokens": 175,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2170,
+      "completion_tokens": 175,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

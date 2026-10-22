@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:38:03.165604+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c94a59a86c25a510b8e9b57d8b31da980097b3933040ff8b523cb238f7be3695",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000337-p000-0c73919ff4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000338-p000-98043b9d71",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘今之尺当八寸为则’的‘当’‘为则’未准确释读，‘按尺法不牧堂父子皆精於律品’的‘不牧堂’‘律品’存在误释，‘以夢遣’的‘夢遣’未明确释读，‘量墉’的‘墉’未结合语境准确释读"
+        ],
+        "uncertainty": [
+          "‘不牧堂’‘律品’‘夢遣’‘量墉’的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000339-p000-9e1a53f0cf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘惟居穴及四 凶穴不巳’的‘居穴’‘四凶穴’‘不巳’未准确释读，‘外星尺’的‘外星’未明确释读，‘小绝’的具体所指未明确"
+        ],
+        "uncertainty": [
+          "‘居穴’‘四凶穴’‘不巳’‘外星’‘小绝’的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000340-p000-99c7836fdf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘牝牡交拂’的‘交拂’未准确释读，‘彼甲’‘四亥’的具体所指未明确，‘峰峦之秋’的‘秋’未准确释读"
+        ],
+        "uncertainty": [
+          "‘牝牡交拂’‘彼甲’‘四亥’‘峰峦之秋’的具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 503,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1658,
+      "completion_tokens": 503,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

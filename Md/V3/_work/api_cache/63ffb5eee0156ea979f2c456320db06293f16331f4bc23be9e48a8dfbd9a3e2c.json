@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-26T09:38:17.495810+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "63ffb5eee0156ea979f2c456320db06293f16331f4bc23be9e48a8dfbd9a3e2c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000015-p000-e971942b9b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“卜則巍精 評 語意明顯一展卷令人解順”，candidate误写为“卜则巍精评”，错误合并了“精”与“评”的所属，“精”是描述《雪心赋》旧集的属性，“评”是目录后单独的评语项，并非“卜则巍精评”的表述。",
+          "原文“布帛粟不可以淺淡葉”存在讹误，candidate直接释为“不能因为它浅淡就忽视”属于无依据扩写，原文“葉”字义不明，不得直接推导为“忽视”的含义。",
+          "原文“非仟術示易至此”存在讹字，candidate释为“不是寻常的方术能达到这般水平”属于无依据解读，“仟術”“示易”语义不明，不得随意推定含义。"
+        ],
+        "uncertainty": [
+          "原文“布帛粟不可以淺淡葉”“非仟術示易至此”存在文字讹误，具体含义无法明确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1654,
+    "completion_tokens": 271,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1654,
+      "completion_tokens": 271,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

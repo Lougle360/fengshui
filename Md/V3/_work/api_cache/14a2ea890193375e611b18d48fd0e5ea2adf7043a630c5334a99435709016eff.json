@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-17T23:03:58.452387+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "14a2ea890193375e611b18d48fd0e5ea2adf7043a630c5334a99435709016eff",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004889-p000-c0ccc2a180",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘天望’在candidate中未处理，应标注为不确定。",
+          "原文‘穴血’在candidate中释为‘具体所指不详’，但原文‘穴血’与‘侧脑太阳带火脚者’并列，可能为专名或特定形态，candidate处理方式符合规则，但需确保引号使用。candidate中‘穴血’未加引号，应加引号以明确其为原文保留的术语。",
+          "原文‘动高脑气脉’在candidate中释为‘具体所指不详’，但原文‘动高脑气脉’是专名，应加引号。candidate中未加引号。",
+          "原文‘左右仙宫’在candidate中未加引号。",
+          "原文‘令号偏斜怪穴’在candidate中未加引号。",
+          "原文‘踏逆面’、‘张朝’在candidate中未加引号。",
+          "原文‘一四七位衣禄’在candidate中释为‘具体含义不详’，但未加引号。",
+          "原文‘己宫’在candidate中未加引号。",
+          "原文‘红旗出洞形’在candidate中未加引号。",
+          "原文‘由己宫之勢而行脈’中的‘己宫’，candidate写为‘己宫’，但原文为‘己宫’，可能为‘巳宫’之误。candidate应保留原文‘己宫’并标注不确定，或根据上下文判断为‘巳宫’但需注明。此处candidate直接写为‘己宫’，未处理此差异。",
+          "原文‘心性拗執行事秉決’中的‘秉決’，candidate写为‘秉决’，为合理简化，可接受。",
+          "原文‘至生歪头之人则气衰也’中的‘歪头’，candidate写为‘歪头’，为合理白话，可接受。"
+        ],
+        "uncertainty": [
+          "天望",
+          "穴血",
+          "动高脑气脉",
+          "左右仙宫",
+          "令号偏斜怪穴",
+          "踏逆面",
+          "张朝",
+          "一四七位衣禄",
+          "己宫",
+          "红旗出洞形"
+        ]
+      },
+      {
+        "id": "book035-b004891-p000-72c1c65dd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘有四天’在candidate中释为‘具体所指不详’，但未加引号。",
+          "原文‘安墙’在candidate中释为‘具体所指不详’，但未加引号。",
+          "原文‘摇拳’、‘叠指’在candidate中未加引号。"
+        ],
+        "uncertainty": [
+          "有四天",
+          "安墙"
+        ]
+      },
+      {
+        "id": "book035-b004895-p000-2ea45aafa5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘一四七位衣禄’在candidate中未加引号。",
+          "原文‘行果敢已事’中的‘已事’，candidate写为‘已事’并标注不确定，但原文为‘已事’，可能为‘己事’或‘已事’之误。candidate应保留原文‘已事’并标注不确定。此处处理符合规则，但未加引号。",
+          "原文‘跎背’在candidate中未加引号。",
+          "原文‘吐舌’、‘张胆’在candidate中未加引号。"
+        ],
+        "uncertainty": [
+          "一四七位衣禄",
+          "已事",
+          "跎背"
+        ]
+      },
+      {
+        "id": "book035-b004897-p000-7128437f3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘惟有少年相繼入泉塋無板山上理’在candidate中释为‘具体所指不详’，但未加引号。",
+          "原文‘不受正’在candidate中未加引号。"
+        ],
+        "uncertainty": [
+          "惟有少年相继入泉塋，无板山上理",
+          "不受正"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3272,
+    "completion_tokens": 937,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3272,
+      "completion_tokens": 937,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

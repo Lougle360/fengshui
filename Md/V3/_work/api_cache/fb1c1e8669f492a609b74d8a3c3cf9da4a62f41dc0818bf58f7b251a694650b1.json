@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-03T23:56:59.907405+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fb1c1e8669f492a609b74d8a3c3cf9da4a62f41dc0818bf58f7b251a694650b1",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000931-p000-b66f4955c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译书名：source为'玉峰寶傳云山有石骨有沙骨'，应理解为《玉峰宝传》云：山有石骨，有沙骨。candidate误译为'《玉峰宝传》与《云山》书中论述'，将'云山'误作书名。",
+          "漏译：source'此龍若帶星辰出為土穴必脆巧清秀出入必渾厚沈家堅固禁耐富則必威貴則必顯子孫亦必綿遠'，candidate将'沈家堅固禁耐'译为'家宅坚固，禁受风煞'，'禁耐'意为'坚固耐久'，'风煞'为增译。",
+          "误译：source'此龍定是不帶星辰出為嵯峨簾穴'，candidate将'嵯峨簾穴'译为'嵯峨的帘穴'，'嵯峨'形容山势高峻，'簾穴'为特定穴形，不应拆解为'的帘穴'。",
+          "误译：source'泉溜石濕'，意为泉水在石上流淌湿润，candidate译为'泉水流淌在石上湿润'，基本准确，但'泉溜'更强调水流动态。",
+          "误译：source'出人必庸醜愚頑難訓'，candidate译为'出人必庸丑愚顽难训'，'出人'指所出之人，即后代，candidate未明确。",
+          "误译：source'按寶傳此論沙骨之地其結穴必是穴星疙頭主屍乾骨枯而不可塟子微又有玄武憔悴玄武涸燥之說'，candidate将'子微'误译为'子孙微贱'，'子微'疑为引用另一作者（如谢子微）之名，应保留为专名。",
+          "误译：source'宋儒謂擇其地之美者則神靈安何為地之美亦以土肉之深厚草木之茂盛為驗而巳矣'，candidate译为'宋儒说：选择地势美好的地方，神灵就会安宁。何为地之美？也是以土肉深厚、草木茂盛为验证而已。'，'宋儒'泛指宋代儒者，candidate未明确此泛指。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000932-p000-c1c2457d87",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：source'凡立穴貴其收歛束聚忌其散漫'，candidate译为'凡是立穴，贵在收敛束聚，忌讳散漫'，准确。但后文'若穴塲嬾坦潤蕩而無思水又無突窩'，candidate将'無思水'译为'没有思虑之象'，'思水'可能为'四水'或'巳水'之误，或指特定水形，不应臆解为'思虑之象'，应保留原词并标注不确定。",
+          "误译：source'于此下之主黃腫貧困漸以絕人不可不慎幽冷'，candidate译为'在此处下葬，主黄肿贫困，逐渐导致人丁断绝，不可不慎重，这是幽冷之地。'，将'幽冷'作为总结性判断，但source中'幽冷'可能为下一节标题或连接词，candidate处理为句内成分，可能混淆结构。"
+        ],
+        "uncertainty": [
+          "'無思水'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000933-p000-5a5db07a41",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000934-p000-7502b9f46b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：source'而魂懷不豈人子安親之心哉'，candidate译为'而魂怀不豈？人子安亲之心哉？'，'不豈'疑为'不宁'或'不安'之误，candidate保留原词并加问号，但未明确提示可能为讹误。",
+          "误译：source'且感名生人不生子嗣'，candidate译为'且感名生人，不生子嗣'，'感名生人'语义不明，可能为'更感冥中生人'或'更兼名位生人'之误，candidate直译未提示不确定。",
+          "误译：source'塟書謂枯觀得氣者'，candidate译为'《葬书》谓：枯观得气者'，'枯觀'可能为'枯棺'或'枯骨'之误，candidate直译未提示不确定。",
+          "误译：source'六細'，candidate保留为'六细'，但未提示此为可能的小标题或段落标记，语义不明。"
+        ],
+        "uncertainty": [
+          "'魂懷不豈'、'感名生人'、'枯觀'、'六細'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000935-p000-23d5cca4d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：source'富穴處夫銳微細也'，candidate译为'富穴处夫锐微细也'，'富穴處'可能为'穴处'之误或特定术语，candidate直译未处理。",
+          "误译：source'要共處起突復有鉗口有色東方可 蕩軟'，candidate译为'要共起突，复有钳口，有色东方，方可荡软'，'有色东方'语义不明，可能为'有秀色于东方'或'有气色于东方'之误，candidate直译未提示不确定。",
+          "结构问题：candidate将整段作为连续论述，但source可能为条目式列举，'尖細者'为小标题，candidate未体现此结构。"
+        ],
+        "uncertainty": [
+          "'富穴處'、'有色东方'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000936-p000-fca1770fc9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：source'常穴處塌濶蕩壙軟如牛皮嬾坦者是也'，candidate译为'常穴处塌阔荡，软如牛皮，懒坦者是也'，'常穴處'可能为'穴处'之误或泛指，candidate直译。",
+          "误译：source'若漢下之主'，candidate译为'若汉下之主'，'漢下'可能为'穴下'或'葬下'之误，candidate直译未提示不确定。",
+          "误译：source'至為四惡不可不慎'，candidate译为'至为四恶，不可不慎'，'四恶'可能指前文列举的几种恶形，candidate未明确关联。"
+        ],
+        "uncertainty": [
+          "'常穴處'、'漢下'、'四惡'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000937-p000-a19b564287",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：source'若不知避思而強于頑急處鑿穴'，candidate译为'若不知避思而强于顽急处凿穴'，'避思'可能为'避忌'之误，candidate直译未提示。",
+          "误译：source'八正穴處宜皮面光彩忌惡石峻'，candidate译为'八正穴处，宜皮面光彩，忌恶石峻'，'八正'可能为'凡正'或'穴正'之误，或指八方，candidate直译未提示。",
+          "误译：source'云惡殺戮軍配爭聞之禍'，candidate译为'云恶杀戮军配争闻之祸'，'军配争闻'语义不明，可能为'军旅配争'之误，candidate直译未提示。",
+          "误译：source'却穴間不見其巉若可畏之形而為石山王穴者'，candidate译为'却穴间不见其巉若可畏之形，而为石山王穴者'，'巉若'可能为'巉岩'之误，candidate直译。",
+          "误译：source'圗具下'，candidate译为'图具下'，意为图在下面，但未提示此为原文指示，可能被误认为正文内容。"
+        ],
+        "uncertainty": [
+          "'避思'、'八正'、'军配争闻'、'巉若'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000938-p000-406cfa87ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误译：source'也里一夏知卷四上穴法'，candidate译为'此处为卷四上穴法之结束题记，署名为'也里一夏知''。此句可能为卷次标题或署名，但'也里一夏知'疑似非汉语人名，可能为音译或讹误，candidate直接认定为署名，缺乏依据。应保留原句并标注不确定。"
+        ],
+        "uncertainty": [
+          "'也里一夏知'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000939-p000-cfa552f2cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'竺天三'三字，无法确认为完整语句或专有名词，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b000940-p000-138ddc6e19",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'格穴巧石'四字，无法确认为完整语句，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4135,
+    "completion_tokens": 2200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4135,
+      "completion_tokens": 2200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

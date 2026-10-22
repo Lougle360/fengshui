@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T10:29:48.896882+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "406b929d38ec4d92ea75edaf9888932006b48885851aab07c76deaa2fe451d98",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000756-p000-a1231b9927",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘炒’误释为‘开始’，‘良中’未按原文标注的不确定处理，‘艮兄’未保留原文表述且无依据释读，‘农’未按原文标注的不确定处理，存在无依据扩写及误译问题"
+        ],
+        "uncertainty": [
+          "原文中‘农’‘炒’‘良中’‘艮兄’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1000,
+    "completion_tokens": 133,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1000,
+      "completion_tokens": 133,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

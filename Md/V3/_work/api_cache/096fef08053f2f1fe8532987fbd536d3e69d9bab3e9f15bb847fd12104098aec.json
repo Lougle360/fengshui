@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T17:55:55.968781+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "096fef08053f2f1fe8532987fbd536d3e69d9bab3e9f15bb847fd12104098aec",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001478-p000-06a87291e9",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：水泽上有大地，象征“监临”；君子因此花费无穷的思虑教导百姓，发扬无边的美德容纳养育民众。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001479-p000-ff315e2fa2",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：泽上有地，这就是临卦的卦象；君子因此要施行教导、费尽思虑，永无止境，以无边的德行容纳、保护百姓。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001481-p000-1a8adb1aba",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①：泽上有地，临：这是解释临卦的卦象，临卦下卦为兑（兑为泽），上卦为坤（坤为地）。《集解》引用荀爽的话说：“泽位卑下，地位居高，这是高下相邻的卦象。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001482-p000-8b84fa77e8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②教思无穷，容保民无疆：这里的“教”“思”都作动词用，意思是施行教导、费尽思虑。这是说明君子观察临卦的卦象，领悟到统治百姓时，应当花费无穷的心思教导百姓，并用无边的德行容纳、保护百姓。《程传》说：“君子观察亲临百姓的卦象，就会施行教导、费尽思虑，因为君子亲临百姓，就会产生教导的念头”；“观察容纳包容的卦象，就会产生容纳保护百姓的心意”。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1723,
+    "completion_tokens": 562,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1723,
+      "completion_tokens": 562,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

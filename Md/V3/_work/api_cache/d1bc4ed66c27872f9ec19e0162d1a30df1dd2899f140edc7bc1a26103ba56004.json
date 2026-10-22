@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T13:58:48.943295+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "d1bc4ed66c27872f9ec19e0162d1a30df1dd2899f140edc7bc1a26103ba56004",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003802-p000-e95717d4dc",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "此处为《地理天機會元》卷十九《玉髓經》第十七部分的表格内容。表格第一行显示：帝四二子字名姓祖高大王代十出季邦劉牆帝漢，以及龍單莢飛。表格主体部分包含多行多列的图文对照，其中涉及格龍尺玉格、龍星水等术语。表格右侧文字说明：见经可于倍为末未龙云有穴亦之，今有以遗所而有未之载，识子名微标以之世故人，载也龙至法于固经详中，格系不单可龙一中概之，发挥曰以土三。表格中包含若干图像，具体图像内容无法通过文字描述，但整体结构显示为风水术数中的龙脉、穴位、水法等相关内容的对照表。",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中部分文字因图像遮挡或模糊，无法完全确认其准确含义",
+          "表格中的图像内容无法通过文字描述，具体所指不详",
+          "部分术语如'格龍尺玉格'、'龍星水'等，虽在allowed_glossary中有解释，但在此处具体应用语境需结合图像进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1686,
+    "completion_tokens": 356,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1686,
+      "completion_tokens": 356,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

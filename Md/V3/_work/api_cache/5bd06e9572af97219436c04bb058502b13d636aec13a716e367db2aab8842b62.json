@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-18T01:36:00.185521+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5bd06e9572af97219436c04bb058502b13d636aec13a716e367db2aab8842b62",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005148-p000-e06fae5dad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005149-p000-e6eba307bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本对原文表格结构进行了大幅度的重新组织和改写，将原本并列的十种格局（每列一种）强行拆解为十段，并添加了‘第一列’、‘第二列’等顺序说明，这是对原文结构的重大改变，属于增译。",
+          "候选文本试图将大量OCR错误、断句混乱的原文强行解读并串联成看似通顺的句子（例如‘此象如龍系鼻牽，主退財。若太流直，則陽不為大，主家貧...’），这超出了‘保守释读’的范畴，将不确定的推测写成了确定的事实。",
+          "原文中许多术语组合（如‘陽太鼻牽’、‘格流直’）及其对应的‘解曰’内容，因原文损坏严重，其确切含义不明。候选文本将其作为确定的解释给出，违反了‘opaque_terms 必须原样处在引号引用范围内，不能被候选句赋予确定含义’的原则。",
+          "候选文本遗漏了表格中的图像标记（<img src=\"...\"/>），虽然图像内容无法翻译，但作为原文的一部分，应在释读中有所提及（例如说明‘此处有图’），或至少保留标记。",
+          "候选文本将原文中疑似标记的‘D’、‘C’直接忽略或融入句中，处理方式不当。对于无法确认含义的符号，应保留原样或明确标注。"
+        ],
+        "uncertainty": [
+          "原文表格内容存在大量OCR识别错误和断句混乱，无法准确还原其完整语义和逻辑结构。",
+          "表格中‘陽太鼻牽’、‘格流直’等术语组合的具体风水含义因文本损坏而无法确定。",
+          "表格内‘解曰’部分的文字破碎，难以进行可靠的连贯释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3570,
+    "completion_tokens": 496,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3570,
+      "completion_tokens": 496,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

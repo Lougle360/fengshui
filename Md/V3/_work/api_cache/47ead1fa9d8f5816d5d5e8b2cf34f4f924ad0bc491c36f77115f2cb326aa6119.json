@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-17T10:01:57.534234+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "47ead1fa9d8f5816d5d5e8b2cf34f4f924ad0bc491c36f77115f2cb326aa6119",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003257-p000-5a52656b92",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文本为表格，candidate 未保留表格结构，而是转为连续段落，导致信息组织方式完全改变，不符合‘只负责判错，绝对不能改稿’的原则。",
+          "candidate 将大量原文中明确存在的文字（如‘关’、‘C’、‘人’、‘墙合此式’、‘国关’、‘中关’、‘《明》’、‘老告’、‘FCOR’、‘资’、‘高’、‘C’、‘围机岭’等）直接处理为‘文字残缺，具体所指不详’，但原文中这些文字清晰可辨，并非残缺。这属于误译或漏译。",
+          "candidate 将原文中明确的术语（如‘博龙’、‘剥龙’）也标注为‘文字残缺’，但它们在原文中完整。",
+          "candidate 将原文中明确的‘《明》’（可能指《明书》或朝代）也处理为残缺，不妥。",
+          "candidate 将‘FCOR’（可能是外文或符号）也处理为残缺，但原文如此，应保留或说明。",
+          "candidate 将‘十步亥以三十年也’处理为残缺，但原文此句完整。",
+          "candidate 将‘主痼疾平淡’的‘淡’字也处理为残缺，但原文中‘淡’字独立存在。",
+          "candidate 的转述方式（‘以下仅能依据可辨识部分进行转述’）不符合任务要求。任务要求是‘只负责判错’，不能自行改写或概括。正确的做法是逐项核对 candidate 对 source 的释读是否准确、完整。",
+          "candidate 未能区分哪些是原文表格中的单元格内容，哪些是 candidate 的补充说明，导致语义混淆。"
+        ],
+        "uncertainty": [
+          "原文为复杂表格，部分单元格合并关系及文字对应关系可能因 OCR 或排版导致解读困难。",
+          "部分术语如‘畏奏’、‘辐奏’、‘骤’、‘赖仙’、‘局密’、‘特朝’、‘乘’、‘博龙’、‘剥龙’、‘痼疾平’的含义需专业考证，candidate 未提供解释，符合要求。",
+          "部分文字如‘FCOR’、‘国关’、‘中关’、‘老告’、‘围机岭’可能为专名或符号，含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2424,
+    "completion_tokens": 602,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2424,
+      "completion_tokens": 602,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

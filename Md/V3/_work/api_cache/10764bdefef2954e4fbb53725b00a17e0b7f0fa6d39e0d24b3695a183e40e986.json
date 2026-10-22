@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-25T14:04:00.621676+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "10764bdefef2954e4fbb53725b00a17e0b7f0fa6d39e0d24b3695a183e40e986",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000003-p000-b78a02b40c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "福胎未能萬一隅始莫方",
+          "緒家攻旁經公稻前正途",
+          "储家影如而店真",
+          "滋陽帝價之倍",
+          "固室佛廖公原不作聪翩自杼神機而摹甚書者乃以叔教之優則廖公書征昭伊戚星",
+          "候家工極樵"
+        ]
+      },
+      {
+        "id": "book028-b000005-p000-dcc0b82973",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘賜一品眼’误释为‘获赐一品服’，‘眼’为衍文或讹字，不得随意替换为‘服’；原文‘修撰園史正侯胡鮮’断句错误，该句与朱之蕃身份无关，不应并入朱之蕃的职衔描述中；原文目录卷之二条目存在拆分错误，‘外集可要旨’‘旨會旨’不应并列，‘外集下可要旨會旨’为连贯条目，‘太圗’前‘龍砂水格’中‘水’属于locked_terms，应准确对应，不得遗漏相关语义关联"
+        ],
+        "uncertainty": [
+          "“賜一品眼”具体讹误内容不明",
+          "外集下相关条目名称表述模糊",
+          "卷之二条目排列存在错乱，部分条目归属不清晰",
+          "“未卷之三”表述不明，目录结构不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2112,
+    "completion_tokens": 389,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2112,
+      "completion_tokens": 389,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

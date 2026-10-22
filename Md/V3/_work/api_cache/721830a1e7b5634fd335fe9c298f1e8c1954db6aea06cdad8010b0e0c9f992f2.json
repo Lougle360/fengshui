@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-24T12:40:17.221048+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "721830a1e7b5634fd335fe9c298f1e8c1954db6aea06cdad8010b0e0c9f992f2",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000852-p000-63bb38b450",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“改侯醫”“侍僞”“朔我”“合形及於登”等表述含义未明"
+        ]
+      },
+      {
+        "id": "book014-b000854-p000-8e4ae5eede",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文“碧山除臘樓閣重重天”释为“碧山除腊处楼阁重重”，“腊”的含义未明确，“大拜大封”未明确具体所指，属于将含混短语作确定解释"
+        ],
+        "uncertainty": [
+          "腊",
+          "大拜大封"
+        ]
+      },
+      {
+        "id": "book014-b000856-p000-806ce1bceb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文“朝天閩”“叩帝聞”作确定释读，未标注其含义未明，属于将含混短语作确定解释"
+        ],
+        "uncertainty": [
+          "朝天闽",
+          "叩帝闻"
+        ]
+      },
+      {
+        "id": "book014-b000858-p000-d65c866081",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文“特秀”“特一中”作确定释读，未标注其含义未明，属于将含混短语作确定解释"
+        ],
+        "uncertainty": [
+          "特秀",
+          "特一中"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1705,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1705,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

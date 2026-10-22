@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-04T11:34:01.495611+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "45d1982478bd96e05709288a46f7eb6815d02413d640a5944f5b9b36e402ff56",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000748-p000-636abbac55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“才字八言”译为“关于‘才字八言’的论述”，这是增译，原文并未说明是“论述”。",
+          "candidate将“立陰陽頒明爲生氣不分鳥死氣論”译为“确立阴阳并阐明其理，是为了分辨生气与死气”，其中“頒明”译为“阐明其理”是合理的浅释，但“不分鳥死氣論”的“鳥”字应为“為”的OCR错误，candidate直接处理为“分辨生气与死气”是正确的，但应注明原文用字问题。",
+          "candidate将“橫過之 山如餘如刀尖利傾水是皆所害之類”译为“横穿而过的山峦如同鱼脊，或如刀尖般锋利倾斜，水流直泻”，其中“如餘”的“餘”字可能为“魚”之误，candidate译为“鱼脊”是推测，应标注不确定性。",
+          "candidate将“皆爲形殺”译为“都称为形杀”，其中“形杀”为专业术语，应保留原词并用引号标注，而非直接解释。"
+        ],
+        "uncertainty": [
+          "原文‘鳥’字疑为‘為’之误。",
+          "原文‘如餘’疑为‘如魚（脊）’之误。"
+        ]
+      },
+      {
+        "id": "book035-b000750-p000-1e1fb5e4f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“之不可葬者五氣以生和而童山不可葬也”译为“有五种情况不可安葬：一是气以生和为美，而童山不可葬”，其中“五氣以生和”的“五”字可能与前文“之不可葬者五”相连，candidate的断句和解释（“五种情况”）是合理的推测，但应标注不确定性。",
+          "candidate将“卻有一等石山段理潤溫光如卵殼草木不可立水自然不產開井而得五爭土冗者又不可因彼而弃此也”译为“但是，也有一类石山，其纹理温润光亮如同蛋壳，草木无法生长，水自然不产，若开井却能得到五色土，这种情况也不应因为石山而废弃此地”，其中“五爭土冗者”应为“五色土穴者”之误，candidate译为“五色土”是合理的推测，但“冗”字处理为“穴”并省略未译，应标注原文用字问题及推测。"
+        ],
+        "uncertainty": [
+          "原文‘五氣以生和’断句存疑，可能指‘五种不可葬的情况，气以生和为美……’。",
+          "原文‘五爭土冗者’疑为‘五色土穴者’之误。"
+        ]
+      },
+      {
+        "id": "book035-b000751-p000-4e910d98e8",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本存在严重OCR错乱（如“无麻酰怀嗣姑艫一穗隄職鄰毗”），导致语义无法连贯理解。candidate的释读（“此处原文存在较多残缺与错乱……仅能确认其讨论的是石山与穴位的忌讳关系”）是对现状的合理描述，但已超出保守释读的范畴，无法判断其准确性。"
+        ],
+        "uncertainty": [
+          "原文存在严重OCR错乱，无法进行可靠的白话释读。"
+        ]
+      },
+      {
+        "id": "book035-b000752-p000-329668e027",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000754-p000-bdbe59a762",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本存在严重断句与文字错乱（如“徐忽自右出势有偏有花所以最其漢正相之不”），导致语义无法连贯理解。candidate的释读（“此处原文存在较多断句与文字错乱……仅能确认其讨论势、形、方位的优先级及辨别方法”）是对现状的合理描述，但已超出保守释读的范畴，无法判断其准确性。"
+        ],
+        "uncertainty": [
+          "原文存在严重断句与文字错乱，无法进行可靠的白话释读。"
+        ]
+      },
+      {
+        "id": "book035-b000760-p000-38f3d8900e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000761-p000-9f364a0fe0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000762-p000-c8f6b84841",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘图总地上’语义不明，可能为图名或版式说明。"
+        ]
+      },
+      {
+        "id": "book035-b000763-p000-996ce4c541",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000765-p000-39e663aa20",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2643,
+    "completion_tokens": 1236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2643,
+      "completion_tokens": 1236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

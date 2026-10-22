@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T17:38:15.183481+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c31f53d29d587550ff5fb3ed4727b5adab734fd3bd32636714b4c3c00c38d0b8",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001168-p000-f62bc89dde",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001169-p000-e8bc66d8f5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文仅有的‘无悔’释为‘未获同志也不觉悔恨’，原文未提及‘未获同志’，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文‘同人于郊’的具体所指存在歧义，释为‘在荒远的郊外和同于人’属于常见解读，但并非唯一确定解释"
+        ]
+      },
+      {
+        "id": "book016-b001170-p000-eb85121243",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001171-p000-8e25bcca5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘同人于郊，无悔’的具体内涵存在歧义，释为‘处于荒远之地、难寻志同道合之人’‘远离内部纷争’属于常见解读，并非唯一确定解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1303,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-16T10:39:26.337715+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1cff49609c445d67fe8928f822641654ad48ec984c611b2d9fa5f72d2b89c3aa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001994-p000-a6d575c3d7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘或窠或仰’释读为‘或如窠穴、或如仰势’是增译，原文仅描述两种形态，未明确其为比喻。‘分消息’释为‘分辨吉凶消长’过于具体，原文仅指分辨变化或情况。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001995-p000-0658ebcfe7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘珠乳’是风水术语，指一种吉形，但候选句将其解释为‘珠乳这样的吉形’，属于增译，应直接保留‘珠乳’并说明其为吉形。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001996-p000-af1ebb559f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001997-p000-baa554d4d3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘強者陰兮性最剛’释读为‘其中强脉属阴，其性质最为刚硬’存在反义风险。原文‘強者陰兮’可能指‘强脉属阴’，但候选句将‘其中’（指代纯阳纯阴中的强脉）加入，可能改变了原意。应更直接地翻译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001998-p000-643c090c0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001999-p000-3308940c0e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘法書中所說的’加入，原文为‘法中謖’，‘謖’可能为‘謂’之误，但候选句的补充可能改变了原文的表述方式。‘机公’应保留为专名，候选句未加引号或说明。‘消乏之病’释为‘消乏的毛病’稍显口语化，但可接受；‘正此之說歟’释为‘正是这个说法’准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002000-p000-7566369f5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002001-p000-b20c36b42b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘若借陽噓陰吸回強字與陰同一理’释读为‘若借用阳气嘘、阴气吸的原理，其道理与强脉相同’存在漏译和误译。‘回’字未译，且‘强字与阴同一理’可能指‘强’字与‘阴’字道理相同，候选句释读为‘其道理与强脉相同’可能不准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002002-p000-395d5a987c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘如若龍陽必脫氣前縮后迎有重輕’释读为‘如果龙脉属阳，必然会出现脱气、前缩后迎的情况，需要辨别轻重’存在增译。原文‘前縮后迎’可能指两种具体操作或现象，候选句将其解释为‘情况’并加入‘需要辨别轻重’，属于无依据扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002003-p000-6e145f52fe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘若是純陰純得取’释读为‘如果是纯阴或纯阳的格局’存在增译。原文‘純得取’可能为‘純陽取’之误或另有含义，候选句直接改为‘纯阳’并加入‘格局’一词，缺乏依据。‘要請明’释为‘需要明师指点’是推测，原文可能仅指需要明白、清楚。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1872,
+    "completion_tokens": 909,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1872,
+      "completion_tokens": 909,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

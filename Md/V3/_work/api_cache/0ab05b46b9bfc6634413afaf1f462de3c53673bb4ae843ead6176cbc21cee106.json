@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-16T10:00:52.821159+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0ab05b46b9bfc6634413afaf1f462de3c53673bb4ae843ead6176cbc21cee106",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001850-p000-e8987537af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001854-p000-a32823c2c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“肋文不觀中正發福須敎吉半之成只儼高低相代之所乾濕漸劉之間細尋中處之法”一句，candidate 译为“肋文不观中正，发福须教吉半之成，只宜在高低相代之所、干湿渐刘之间，细细寻找中处之法。”其中“肋文”“渐刘”为 opaque_terms，candidate 未加引号，也未明确标注其含义不详，而是直接作为普通词语使用，这赋予了其不确定的含义。正确的处理应是保留原词并说明其义不明。",
+          "原文“饒減不得芳成就而已”，candidate 译为“饶减不得，方成就而已。”其中“芳”字可能为“方”之误，但 candidate 未作说明，直接替换为“方”，属于未标注的推测性修改。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001855-p000-d977d8ee36",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“鬼氣圓滿”译为“鬼气圆满”，未加引号或说明其含义模糊，这不符合对 opaque_terms 的处理要求。应明确标注“鬼气”具体所指不详。",
+          "candidate 将“開金取水”译为“开金取水”，未加引号或说明其含义模糊，这不符合对 opaque_terms 的处理要求。应明确标注“开金取水”具体所指不详。",
+          "原文“官爵悠此法卻不可錯認頑硬天罡以誤人也”，candidate 译为“官爵悠远。此法却不可错认顽硬天罡，以误人也。”其中“悠”字后可能脱漏“远”或类似字，candidate 直接补为“悠远”，属于未标注的推测性增译。应标注原文可能不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001856-p000-bb47e1280c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“上雄直卸下層檣稍”，candidate 译为“上雄直卸，下层檣稍。”其中“檣稍”为 opaque_terms，candidate 未加引号，也未明确标注其含义不详，而是直接作为普通词语使用。正确的处理应是保留原词并说明其义不明。",
+          "原文“釘水兩分”，candidate 译为“钉水两分”。其中“钉水”为 opaque_terms，candidate 未加引号，也未明确标注其含义不详，而是直接作为普通词语使用。正确的处理应是保留原词并说明其义不明。",
+          "candidate 在 writer_uncertainty 中标注了“檣稍”“钉水两分”等词义不明，但译文本身并未体现这种不确定性，而是直接使用了这些词。这属于内部标注与译文实践不一致。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001857-p000-8e29ebeca2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“成困頊養尸無孟少年亡 耗家虛不過能養尸而已”，candidate 译为“成困颃养尸，无孟少年亡，耗家虚，不过能养尸而已。”其中“頊”“无孟”为 opaque_terms，candidate 未加引号，也未明确标注其含义不详或可能讹误，而是直接作为普通词语使用。正确的处理应是保留原词并说明其义不明或可能讹误。",
+          "原文“不可不漢也”，candidate 译为“不可不汉也。”其中“漢”字可能为“慎”或他字之误，candidate 未作说明，直接保留“汉”，属于未标注的推测性处理。应明确标注此字可能讹误，含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001858-p000-3ad665cc89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001859-p000-5b1b73ab0f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001864-p000-fafc0e6be5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“無之事不避轉跌之煞又宅三羽官利見刊名王屯千盔色成刀戈真之”，candidate 译为“无之事不避，转跌之煞。又宅三羽官，利见刊名王屯千盔色成刀戈真之。”此段文字语义极度混乱，疑似OCR错乱或原文严重残缺。candidate 虽在 writer_uncertainty 中标注，但译文仍试图将其组织成连贯句子（如“无之事不避”），这超出了保守释读的范畴，可能误导读者认为原文有此连贯含义。更稳妥的做法是直接说明此段文字无法通读，具体所指不详，或仅保留原词不强行翻译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001865-p000-b414fb1fe3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001866-p000-de33f43bce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3669,
+    "completion_tokens": 1333,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3669,
+      "completion_tokens": 1333,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

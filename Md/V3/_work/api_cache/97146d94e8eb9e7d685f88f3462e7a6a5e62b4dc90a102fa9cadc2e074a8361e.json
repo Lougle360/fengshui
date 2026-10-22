@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T09:20:10.773735+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "97146d94e8eb9e7d685f88f3462e7a6a5e62b4dc90a102fa9cadc2e074a8361e",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002501-p000-fd7639e139",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002502-p000-9a8ee8609f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002504-p000-3dee4877f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002505-p000-8ea29c31e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002506-p000-c7832e008a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中'龙'的定义属于风水领域的特定含义，但原文'在肖为龙'中的'肖'指星宿对应的动物类象，此处不应套用风水龙脉的释义，属于术语误用。原文'险阴'被误写为'阴暗'，语义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002507-p000-f5579436ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'亢池六星近摄提'被误写为'克池主舟楫迎送'，属于文字讹误。原文'将军阵里震威霜'被误译为'将军在阵中施展震（八卦之一）威'，此处'震'为形容词表震撼、威猛，并非八卦之震，属于无依据附会术语。原文'骑官下三车骑位'表述错误，原文为'骑官下三车骑位'译文应准确对应，且原文'阵车氐下骑官次'被译为'阵车星在氐宿下方、骑官星的位置'语义不准确，应为阵车在氐宿下方、骑官星的旁边/次序位置。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002508-p000-06da3d3362",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中'明堂'的定义属于风水穴位的特定含义，此处《步天歌》所指为天文星官中的明堂，并非风水明堂，属于术语误用。原文'旁罚主皮金赎罪'被译为'旁罚星主用金钱赎罪'，漏译'皮'的含义，且'皮金赎罪'是古代用皮和金赎罪的制度，不应简化。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002509-p000-adade7acf5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002510-p000-433b6e1ca8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002511-p000-3ce86962a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中'龙'的定义属于风水龙脉含义，原文'苍龙尾'是传统天文四象中的苍龙，并非风水龙脉，属于术语误用。原文'尾上天江四横是'被误写为'大江主水'，文字讹误，应为天江星。allowed_glossary中'水'的定义是风水水系含义，此处天江星主的水旱之水、鱼子主的水旱之水属于自然天象范畴的水，不应套用风水术语释义。原文'在官之伤也'译为'对应官员的伤亡'语义不准确，应为'主官场上的损伤/灾祸'。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4251,
+    "completion_tokens": 928,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4251,
+      "completion_tokens": 928,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

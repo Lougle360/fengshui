@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T00:33:32.250238+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fa1accf838cd77978cc5291514dfdda96185d33f8fa9fef6b4163df59822de32",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000572-p000-2d5703ef43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000573-p000-4b524e4657",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000574-p000-7b514dcc55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中明确“离”为八卦之一，此处原文“离乡”的“离”是“离开”义，不属于术语，无需保留locked_terms的术语属性，但candidate中“离开家乡”释读符合上下文语义，然而locked_terms列有“离”，需确认此处“离”是否为术语，但原文“离乡”是普通词汇，释读无错误，仅locked_terms标注可能存在偏差，不过核心释读准确，无其他问题？不对，再看：原文“更不回身直为地”，candidate译为“它不回身直向穴位”，此处原文未提“穴位”，属于增译？哦，原文“更不回身直为地”，是说干龙不回身直接成地，candidate加了“直向穴位”，属于无依据增译。对，这个是问题。还有“定有缠关交结秘”译为“一定有缠护关锁交合的奥秘”，“缠关”原文未明确是“缠护关锁”，属于无依据释义。另外“纵有融结”的“融结”是风水术语，allowed_glossary未收录，candidate直接保留用法，没问题？不对，先看问题：1. “更不回身直为地”释为“它不回身直向穴位”，原文无“穴位”相关表述，属于增译。2. “缠关”未被纳入allowed_glossary，candidate将其解释为“缠护关锁”属于无依据的确定释义，违反规则4。3. locked_terms中的“离”此处是普通“离开”义，并非作为八卦术语使用，candidate释为“离开”符合语义，无问题，但上述两个问题存在。所以verdict是revise，issues列这两点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000575-p000-755a1c218b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000576-p000-a76f8f7397",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary未收录“仓库”作为风水术语的定义，candidate将“龙神带有仓库耳”释为“关键在于龙带有仓库的格局”，属于对“仓库”赋予了风水领域的确定含义，违反规则4，“仓库”属于普通词汇，原文未明确其风水专指义，不应直接释为“仓库的格局”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000577-p000-f798a6cc24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000578-p000-c53e81ae13",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“消息夺神功”的“消息”指吉凶消长的道理，candidate释为“其中的奥妙”虽宽泛，但无大错；2. “外洋”是风水术语，指穴前远方的开阔区域，allowed_glossary未收录，candidate直接沿用“外洋”未标注，且未说明含义，可能导致读者误解为地理上的外洋；3. “不贵其见而贵其不见”candidate译为“可贵的是看不到，而不是看到”，语序颠倒，原文意思是“不看重能见到的，而看重不能见到的”，释读语序有误，含义偏差。4. “花假”是风水术语，指虚假的穴位，allowed_glossary未收录，candidate释为“虚假的东西”过于笼统，未明确语境含义，且无依据。5. “门户”是风水术语，指水口等门户格局，allowed_glossary未收录，candidate直接释为“自有门户”未说明是风水层面的门户，易被误解为普通门户。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000579-p000-e27df1fcd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000580-p000-f6c07832c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000581-p000-4403701f9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 1190,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3683,
+      "completion_tokens": 1190,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

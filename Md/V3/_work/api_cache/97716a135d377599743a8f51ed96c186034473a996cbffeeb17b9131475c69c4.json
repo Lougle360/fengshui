@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T06:33:24.490036+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "97716a135d377599743a8f51ed96c186034473a996cbffeeb17b9131475c69c4",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000078-p000-ded84e385a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000079-p000-134be6c38d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文的“以实投虚”误释为“以实攻虚”，“投”在此处为风水乘气的专业动作，无“攻击”含义，属于释读错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000080-p000-842f0eefc0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文后半段残缺，未能完整释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2019,
+    "completion_tokens": 223,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2019,
+      "completion_tokens": 223,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

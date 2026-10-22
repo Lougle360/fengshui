@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-24T21:10:56.968972+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e0712e57de30904b90fc370c721e60340d43c47475a93cd5967d28fb414f6ae9",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000198-p000-04765ba303",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“左石执法”是“左右执法”的讹写，候选直接保留错误表述未作说明；原文开头“其数。宫外明堂布政宫，三个灵台候云雨。圖之形地垣微太”是太微垣相关内容的开头，候选遗漏“其数”及对应关联表述；存在重复表述问题：原文“左太微垣列形于地之局势大略也”仅出现一次，候选前后重复两次“太微垣的形局对应于地的局势大略”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000200-p000-94a84503b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000201-p000-aee9ac6e66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000202-p000-1572c62f9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“谓无风以散之，有水以界之也”翻译错误，候选译为“是说没有风就会散气，有水就能界气”，与原意“（此处风水好是因为）没有风来吹散气，有水来界住气”含义相反；原文“之玄屈曲”是风水专业术语，指龙脉走势曲折如“之”“玄”字形，候选译为“曲折蜿蜒”虽大致表意但未保留术语特征，且未做标注；原文“落平洋”为风水术语，指龙脉进入平坦开阔区域，候选仅译“落于平洋”未做必要通俗说明，不符合普通读者读懂的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000204-p000-d3eef48795",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处未完整，内容有缺失"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4331,
+    "completion_tokens": 550,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4331,
+      "completion_tokens": 550,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-25T19:04:03.247082+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9463d7632d7bb754a6bdfa33201f2c4aed94a0ae5f763f3c69775ee27f68ebf6",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000462-p000-ad35b8e245",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“请暨”的具体对应地名无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000464-p000-b17997c8ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“廣狄”是“廣狹”（宽窄）的讹写，candidate错误将其列为无法识别内容；原文“龍遠堂寬所爲正法畢竟大了龍近堂小形勢乃宜”误译，原文意为“龙脉长远则明堂宽阔是正法，但若龙脉近却明堂太宽就不合适，龙脉近则明堂狭小的形势才适宜”，candidate译法完全颠倒原文逻辑；原文“山谷寬好是角平陽狹好是當”应是“山谷宽好是宜，平阳狭好是当”的讹写，candidate未准确梳理；原文“能身分”是“從身分出”的讹写，candidate错误列为无法识别内容；原文“要肯”是“要旨”的讹写，candidate错误列为无法识别内容；原文“廖金精明堂入武”未完整释读，不应随意推测为“收入武系的典籍中”，应标注语义不明"
+        ],
+        "uncertainty": [
+          "原文存在多处错讹、脱漏及无法识别的字符，部分表述语义无法完全确定"
+        ]
+      },
+      {
+        "id": "book030-b000468-p000-0dde256d93",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“發富余靜現寺頭場視之”误译为“我静思后到寺头场去查看”，原文无“静思”语义；原文“狃宅”语义不明，不应直接作为地名使用，应标注所指不详；原文“古塚二二十”是“古塚二三十”的讹写，candidate译为“二十来座古坟”不准确，应说明原文表述存疑"
+        ],
+        "uncertainty": [
+          "原文有多处语序残缺，部分语义只能根据上下文合理补全"
+        ]
+      },
+      {
+        "id": "book030-b000472-p000-27bbe06e54",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此艮藏斷字宇處世金朱又云”断句错误，正确断句应为“此《艮藏》断字。宇世金朱又云”，candidate译法完全错误；原文“四水朔拜”是“四水朝拜”的讹写，candidate直接保留“朔拜”未作说明；原文“層居有情”是“層巒有情”的讹写，candidate译为“层层山势排布有情”属于合理补义，但应说明原文讹写情况；原文“隱隱靠着地呦”的“呦”是“坳”的讹写，candidate译为“地坳”正确，但应标注原文讹写；原文“至曬底畹九毬虛致謝言昨晚舉子先生造坟之佳兆也”断句错误，应为“至晒底，畹九趋谢，言昨晚生子，是先生造坟之佳兆也”，“毬虛”是“趨（趋）”的讹写，“舉子”是“生子”的讹写，candidate错误将其列为无法识别内容"
+        ],
+        "uncertainty": [
+          "“平阳四巾”的具体含义无法确定，原文末尾表述残缺"
+        ]
+      },
+      {
+        "id": "book030-b000477-p000-70c7f203e0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“造祸”疑似笔误，与前文语义矛盾；原文末尾表述残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4233,
+    "completion_tokens": 922,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4233,
+      "completion_tokens": 922,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

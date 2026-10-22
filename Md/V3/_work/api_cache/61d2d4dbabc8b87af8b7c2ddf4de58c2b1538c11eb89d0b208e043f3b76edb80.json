@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-10-16T09:25:14.619236+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "61d2d4dbabc8b87af8b7c2ddf4de58c2b1538c11eb89d0b208e043f3b76edb80",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001750-p000-5be0bfc85d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘欲來水欲征二位’，candidate释为‘它欲来的“水”与“欲征二位”’，将‘欲來水’拆解为‘欲来的水’，改变了原文结构，可能误译。原文可能指‘欲来水’与‘欲征二位’两个概念。",
+          "原文‘佛雄系之山山地其水來者交’，candidate释为‘其山势为“佛雄系之山”’，但原文‘佛雄系之山山地’结构不明，candidate的断句和解释可能不准确。",
+          "原文‘曉了仙人直正雇’，candidate释为‘若懂了“仙人直正雇”’，但‘雇’字可能为‘顾’或他字之误，candidate未处理此潜在讹误，直接引用可能误导。",
+          "原文‘上論’在句末，candidate添加‘文中最后提到“上論”，但前文意未尽，且“上論”在句法上承接不明’，这是对原文结构的评述和推测，属于无依据的扩写，应删除。"
+        ],
+        "uncertainty": [
+          "欲征二位",
+          "佛雄系之山",
+          "仙人直正雇",
+          "上論"
+        ]
+      },
+      {
+        "id": "book035-b001757-p000-5e1491d608",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘龍抱虎似開弓平陽山谷一般同’，candidate释为‘龙抱虎，好似拉开的弓，但“平陽山谷一般同”具体含义不详。’将‘平陽山谷一般同’处理为独立不明短语，但原文可能为‘龙抱虎似开弓，平阳山谷一般同’，意指此形势在平阳和山谷都相同。candidate的断句和‘但’字的添加可能扭曲原意。",
+          "原文‘是地龍如 子州 老考 滿吉’，candidate释为‘此地龙如“子州老考”，具体所指不详，满吉。’将‘子州’、‘老考’、‘滿吉’合并处理，但原文有空格分隔，可能为并列或独立术语，candidate的合并可能不准确。"
+        ],
+        "uncertainty": [
+          "平陽山谷一般同",
+          "子州老考"
+        ]
+      },
+      {
+        "id": "book035-b001759-p000-653517b3c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘偏尋上水迎明封’，candidate释为‘偏寻上“水”，“迎明封”具体所指不详’，但‘迎明封’可能是一个完整术语或动作，candidate将其与‘上水’割裂，可能误译。",
+          "原文‘后有奉 下衡中謂下山水’，candidate释为‘后有“奉”，具体所指不详，下衡中谓下山水。’但‘奉’后接‘下衡中’，可能‘奉’是‘奉下’或他词的一部分，candidate的断句可能错误。",
+          "原文‘盤旋在平妲’，‘平妲’可能为‘平旦’或‘平坦’之讹，candidate未处理此潜在讹误，直接引用可能误导。",
+          "原文‘玉內緝游筐’、‘玉女巧緝游筐’，candidate均标注不详，但未说明可能为‘玉女巧缉游丝’之类的讹误或特定术语，直接引用字形可能不助于理解。"
+        ],
+        "uncertainty": [
+          "飛絲脈",
+          "迎明封",
+          "奉",
+          "平妲",
+          "玉內緝游筐",
+          "玉女巧緝游筐"
+        ]
+      },
+      {
+        "id": "book035-b001760-p000-f52dfabbbb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "堆緝脈",
+          "楊楊大水"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1801,
+    "completion_tokens": 977,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1801,
+      "completion_tokens": 977,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T13:53:20.373127+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "594a6bd9713d209ba92408993ae9923f3f971041e2bc9f2ba61770fff7fd569d",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000407-p000-1be4ec04e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000408-p000-65d7e07baa",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "针对朱熹理气论的“術数”批判不绝于耳，原文未明确该批判的具体指向，仅保留原表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 126,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1474,
+      "completion_tokens": 126,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

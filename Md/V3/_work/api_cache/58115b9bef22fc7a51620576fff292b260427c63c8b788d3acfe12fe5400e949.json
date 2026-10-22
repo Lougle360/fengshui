@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-25T20:33:35.232527+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "58115b9bef22fc7a51620576fff292b260427c63c8b788d3acfe12fe5400e949",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000832-p000-4380eafd3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“又云鬼樂可有可無固巳而鬼長奪氣據正理未嘗不是”，candidate释为“又有人说，鬼乐可有可无，这已经是定论”错误，“固巳”是“固然如此”之意，并非“已经是定论”；原文“見共鬼刼”的“共”为“其”的讹写，candidate写作“它的”虽可，但原文“咏玉斧 卷三操砂四十國”末尾的“四十國”语义不明，candidate直接保留未作标注，存在信息遗漏风险"
+        ],
+        "uncertainty": [
+          "“鬼樂”“鬼長奪氣”“鬼刼”“太陽金”“金欽兩殿”“操砂四十國”具体所指不明确"
+        ]
+      },
+      {
+        "id": "book030-b000833-p000-b5f3d26ea5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“釵頭”“天穴”具体含义未明"
+        ]
+      },
+      {
+        "id": "book030-b000835-p000-bedf9dbe24",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“精光怡穴”语义含混，candidate直接保留未做通俗释读也未标注不明；原文“四勾種”“間君”“地戶不宜夢關為”“女常家源”“龍生談角”“秀豕五斧”均为语义不明内容，candidate仅笼统标注整体不确定，未对明确可识别的错讹或含混点单独标注；原文“撥砂冊十五”candidate保留正确，但前文“曲三元”未按照allowed_glossary做必要的通俗说明也未标注"
+        ],
+        "uncertainty": [
+          "“精光怡穴”“格君”“四勾種”“禽”“地戶”“夢關為”“女常家源”“曲三元”“曜星”“龍生談角”“秀豕五斧”具体所指不明确"
+        ]
+      },
+      {
+        "id": "book030-b000836-p000-b8a33f4235",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“爪采鬼監起的下而四句方是說疆星”语义不通，疑似OCR识别错误，candidate直接保留未标注讹误；原文“古穴中邯”的“邯”为讹字，candidate未标注；原文“斷濰鄉”“飛冉冉之非”语义不明，candidate仅笼统标注，未说明是原文讹误导致"
+        ],
+        "uncertainty": [
+          "“施地除燄氣”“爪采鬼監”“疆星”“濰鄉”“中邯”“四物”具体所指不明确"
+        ]
+      },
+      {
+        "id": "book030-b000837-p000-9374c25a8b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“東朔主”具体身份未明，“官鬼禽曜”具体风水含义未做说明不影响通俗理解"
+        ]
+      },
+      {
+        "id": "book030-b000838-p000-fc6c758270",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000839-p000-6c50efb481",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅为五个单独汉字，语序不通，无法确定语义，推测为标题或错简"
+        ]
+      },
+      {
+        "id": "book030-b000842-p000-c741253b4b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000843-p000-fa7f7164a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000844-p000-a4122a6859",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "表格内存在大量OCR识别错误内容，如“y谷”“酉十七”“下苏”“夸巾”“废上贵人”“共所应”“上龙格”“僧造蒙巴 UW”“皇土里”“入朔面圣”“樂成名妓”“魯道而君”“脊木屋”“掘砂四十九”“威震夸夏”“优少五十”“玉堂實人”“簾幙黃人”“數龜水風帔”“號政公孤”“玉皆貴人”“增級重重”等均为讹误，candidate未标注这些识别错误；原文“撰砂”应为“拨砂”，属于locked_terms“砂”相关的固定术语，candidate保留错误写法；“巉雌”“狐独”“功动”“鑒隆”等也为明显讹字，未标注"
+        ],
+        "uncertainty": [
+          "表格内大量识别错误内容无法确定原本语义，部分风水格局名称具体含义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 728,
+    "completion_tokens": 53,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5400,
+      "completion_tokens": 1313,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 728,
+      "completion_tokens": 53,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

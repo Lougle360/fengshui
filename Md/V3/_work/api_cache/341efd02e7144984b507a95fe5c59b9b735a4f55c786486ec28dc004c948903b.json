@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-25T19:14:21.830995+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "341efd02e7144984b507a95fe5c59b9b735a4f55c786486ec28dc004c948903b",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000496-p000-2bca85f390",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在残损，整体语义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000498-p000-9f6025a40b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有残损，“日”的含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000506-p000-8eb38ec9fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文开头“五星皆有背城”内容，未提及该部分存在"
+        ],
+        "uncertainty": [
+          "“穴不”为残损内容，语义不完整"
+        ]
+      },
+      {
+        "id": "book030-b000507-p000-711f1e46fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "开篇“正方可”语义不完整，无法确定含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1468,
+    "completion_tokens": 299,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1468,
+      "completion_tokens": 299,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

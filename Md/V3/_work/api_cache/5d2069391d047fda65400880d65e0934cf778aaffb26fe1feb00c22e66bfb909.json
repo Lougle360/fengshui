@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T17:48:35.863928+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5d2069391d047fda65400880d65e0934cf778aaffb26fe1feb00c22e66bfb909",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001382-p000-882039746f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001384-p000-219019380d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001385-p000-8dfa3433b7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的“贞凶”误释为“要贞凶”，属于对原文告诫内容的误读；删除了原文括号内的《屯》卦九五爻译注相关内容，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原文中括号内的《屯》卦九五爻译注相关内容未保留，“贞凶”的具体含义需结合《屯》卦相关内容进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 231,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1237,
+      "completion_tokens": 231,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-16T14:41:00.826944+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a43564c757c492381b3a26f48f2c8f8968d7b11c8df6f211bd99bfe7526bf1a2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002549-p000-b68ff8c966",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "是日",
+          "楊",
+          "廖",
+          "倒倒隨局取用",
+          "雲陰陽發明五楊行顯廖前倒人"
+        ]
+      },
+      {
+        "id": "book035-b002551-p000-9ae1369a1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘二十八 之 年其列宿’在候选句中释读为‘二十八 之 年’，但结合上下文，此处‘年’字很可能是‘宿’字的讹误或OCR错误，应指‘二十八宿’。候选句未指出这一可能的讹误，而是直接引用错乱原文，未能完成有效的白话释读。候选句将‘發速’解释为‘发迹还是发展迅速’，属于对不确定含义的推测性解释，不符合‘可以保留原短语并明确说“具体所指不详”’的规则，应改为直接说明‘發速’含义不明。"
+        ],
+        "uncertainty": [
+          "馬紫徵",
+          "莊天咸",
+          "微南極",
+          "剛 罕",
+          "太 居阜",
+          "都濕",
+          "發速"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1528,
+    "completion_tokens": 306,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1528,
+      "completion_tokens": 306,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

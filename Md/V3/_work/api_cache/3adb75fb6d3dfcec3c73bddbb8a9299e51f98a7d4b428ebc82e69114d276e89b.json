@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T11:45:00.219726+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3adb75fb6d3dfcec3c73bddbb8a9299e51f98a7d4b428ebc82e69114d276e89b",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000062-p000-01fa487236",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“起王方”“丝征”“段鞭”“范拟”等未明含义的短语直接释读为具体说法，属于无依据扩写；“如售六”的释读不符合原文语境，原文未提及“如售六”的相关内容，属于误译"
+        ],
+        "uncertainty": [
+          "玉鞭天一",
+          "起王方",
+          "丝征",
+          "段鞭",
+          "范拟",
+          "如售六"
+        ]
+      },
+      {
+        "id": "book014-b000064-p000-13b6c8aa8a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“方命式”“喝形”等未明含义的短语直接释读为具体说法，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "方命式",
+          "喝形"
+        ]
+      },
+      {
+        "id": "book014-b000071-p000-750be94fbb",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文末尾残缺，部分语句语义不通，无法准确释读，释读内容存在大量与原文不符的错误，属于无法成立的保守释读"
+        ],
+        "uncertainty": [
+          "原文末尾残缺，部分语句语义不通，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2352,
+    "completion_tokens": 351,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2352,
+      "completion_tokens": 351,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

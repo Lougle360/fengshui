@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:19:03.884702+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ee27f2382f42a500aaedc4b1f04f272687516a1be0cc961bb1ea1de1a644adde",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000614-p000-639e5799b0",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "晕层之中有晕心，多是碗状的大白土，正处在金井的正中，这才称得上得穴。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000615-p000-ab8c07cb0f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "晕心起初看不见，挖井挖到快要见底的时候才能看见，见到这个就是正穴。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000617-p000-703f3d9c56",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "从晕层中看穿山，就像粗晕是石质、嫩晕是土质一样。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中\"暈巾\"疑为\"暈中\"的OCR讹误，暂按\"暈中\"改写"
+        ]
+      },
+      {
+        "id": "book014-b000618-p000-5ffb9791b8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "山面来势的地方，这便是真穿山；气脉穿过祖山，在闲处发脉，这便是真穴，是真气透地而出的地方。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在OCR残缺错乱，部分文字难以完全辨识，已按可确认内容改写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 456,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1585,
+      "completion_tokens": 456,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

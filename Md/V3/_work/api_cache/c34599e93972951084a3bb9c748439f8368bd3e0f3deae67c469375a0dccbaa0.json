@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T17:34:54.866873+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c34599e93972951084a3bb9c748439f8368bd3e0f3deae67c469375a0dccbaa0",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001093-p000-0dea19063d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001094-p000-a48cf7fb3a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": []
+      },
+      {
+        "id": "book016-b001095-p000-0f44979c52",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文仅提及《象》曰：“大人否，亨”，不乱群也①，未明确释读“不乱群也”的具体含义，候选句将其释为“大人不会被群党所扰乱”属于无依据扩写"
+        ],
+        "uncertainty": [
+          "“不乱群也”的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book016-b001096-p000-a6c87a44da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1558,
+    "completion_tokens": 272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1558,
+      "completion_tokens": 272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

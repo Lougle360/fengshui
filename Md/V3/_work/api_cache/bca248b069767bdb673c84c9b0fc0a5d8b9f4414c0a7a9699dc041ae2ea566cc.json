@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T15:50:26.455147+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bca248b069767bdb673c84c9b0fc0a5d8b9f4414c0a7a9699dc041ae2ea566cc",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001311-p000-f9337f913a",
+        "language_hint": "japanese",
+        "kind": "prose",
+        "locked_terms": [],
+        "opaque_terms": [],
+        "allowed_glossary": {},
+        "source": "たいそう こせん ずいひん  \n十二律は低音から黄鐘・大呂・太族・夾鐘・姑洗・中呂・蕤賓・林鐘·なんりょ ぶえき  \n夷則・南呂・無射・応鐘といい，五声と同じく管長9寸の黄鐘から，三分\n損益法によって1オ表10-1 五声クターブ内にその12の管長絶対音高をさだめた(表10-2)。",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "十二律从低音开始，依次为黄钟、大吕、太族、夹钟、姑洗、中吕、蕤宾、林钟、南吕、夷则、无射、应钟。与五声相同，以管长9寸的黄钟为基准，通过三分损益法，在五声音阶的八度范围内确定了这十二律的管长及绝对音高（表10-2）。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文中「1オ表10-1」「五声クターブ」的表述含义不明，按原文直译保留相关表述"
+        ]
+      },
+      {
+        "id": "book015-b001313-p000-c2e1757fc6",
+        "language_hint": "mixed",
+        "kind": "html",
+        "locked_terms": [],
+        "opaque_terms": [],
+        "allowed_glossary": {},
+        "source": "<table><tr><td></td><td>律長</td><td>相生関係</td><td>振動数</td><td>セント値</td></tr><tr><td>宮</td><td>1</td><td>基音</td><td>n</td><td>0</td></tr><tr><td>商</td><td> $2 ^ { 3 } / 3 ^ { 2 }$  1</td><td> $\\textcircled { 1 } \\textcircled { 1 }$ </td><td>3²/2³n</td><td>203.9</td></tr><tr><td>角</td><td> $2 ^ { 6 } / 3 ^ { 4 }$  l</td><td> $\\mathbb { H } \\times 4 / 3$ </td><td>3⁴/2⁶ n</td><td>407.8</td></tr><tr><td>徵</td><td>2/3 l</td><td> $\\overleftrightarrow { \\Xi } { \\times } 2 / 3$ </td><td>3/2 n</td><td>702.0</td></tr><tr><td>羽</td><td> $2 ^ { 4 } / 3 ^ { 3 }$  l</td><td>商×2/3</td><td>3³/2⁴n</td><td>905.9</td></tr></table>",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "| 音名 | 律長 | 相生関係 | 振動数 | セント値 |\n| ---- | ---- | -------- | ------ | -------- |\n| 宮 | 1 | 基音 | n | 0 |\n| 商 | $2^3/3^2$ l | ①① | $3^2/2^3$n | 203.9 |\n| 角 | $2^6/3^4$ l | ㊉×4/3 | $3^4/2^6$n | 407.8 |\n| 徵 | 2/3 l | ㊣×2/3 | 3/2 n | 702.0 |\n| 羽 | $2^4/3^3$ l | 商×2/3 | $3^3/2^4$n | 905.9 |",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中「相生関係」列的①①、㊉、㊣符号含义不明，按原文保留符号"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1813,
+    "completion_tokens": 1067,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1813,
+      "completion_tokens": 1067,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

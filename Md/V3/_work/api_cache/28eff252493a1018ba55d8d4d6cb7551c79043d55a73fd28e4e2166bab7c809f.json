@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-25T05:39:31.275576+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "28eff252493a1018ba55d8d4d6cb7551c79043d55a73fd28e4e2166bab7c809f",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000106-p000-68d343412d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source开头“遂心”被错误释读为“行事顺遂的人不会有这类问题”，原文无“不会有这类问题”相关表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "物业滋川的具体含义",
+          "龙骧虎步除龙之外部分的具体含义"
+        ]
+      },
+      {
+        "id": "book021-b000109-p000-c2e9882841",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "阳宅从亥起之后的原文内容缺失，完整含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2068,
+    "completion_tokens": 223,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2068,
+      "completion_tokens": 223,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

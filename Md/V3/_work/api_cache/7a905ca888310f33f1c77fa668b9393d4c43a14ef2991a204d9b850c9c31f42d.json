@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T07:23:48.678347+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7a905ca888310f33f1c77fa668b9393d4c43a14ef2991a204d9b850c9c31f42d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000050-p000-32234ed2ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中的“尤”“秋”为讹字，具体所指暂不明确",
+          "原文“尨勢”的“尨”暂保留原字，未擅自改为“龙”"
+        ]
+      },
+      {
+        "id": "book010-b000052-p000-5baf1726c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“后毋蔭前兒前妻蔭後子”被误译为“后母不荫庇前母所生的儿子，前妻能荫庇后妻所生的儿子”，存在两处错误：一是“毋”在此处应为“母”，但原句逻辑为后母荫庇前母的儿子、前妻荫庇后妻的儿子，译文中的“不荫庇”与原文语义相反；二是“現煩蛉”被误译为“现有的螽斯相关的事例”，“煩蛉”即“螟蛉”，与“螽斯”所指不同，属于概念误换"
+        ],
+        "uncertainty": [
+          "原文“反炁狗音”为讹误，具体所指不详",
+          "原文“抱界秉嗣道复臾臾炁不相属”语义暂不明确"
+        ]
+      },
+      {
+        "id": "book010-b000053-p000-8910f947f2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2101,
+    "completion_tokens": 399,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2101,
+      "completion_tokens": 399,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T20:58:36.104554+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b481d70a809fd374caf68516f6af98265efe0064b106b28de9fa7cf2a65e8511",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000142-p000-ce7f0c1ada",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000146-p000-a5d22ffa2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘方河为狭，此淮济为阔’存在表述误差，候选释为‘这一段河道比黄河其他河段狭窄，比淮水、济水要宽阔’错误，应为‘比黄河主河道窄，比淮水、济水宽’；原文‘览百川之弘北’候选误释为‘看百川的宏壮’，‘弘北’属于原文异写或讹误，不应直接臆解为‘宏壮’；原文‘与漾水合，沔水即汉水’语序处理有误，候选未准确说明此处是沔水与漾水汇合的逻辑，存在语义歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000147-p000-05d64b98c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘截河南渡’候选释为‘横穿黄河，向南渡过河道’表述不准确，应为‘横穿黄河，向南渡过后继续东流’逻辑更顺；原文‘济发源为名。今济州乃发源也’候选释为‘是因济水发源于这一区域而得名，现在的济州就是济水的发源地’存在事实偏差，兖州得名是因位于济水与黄河之间，并非济水发源于兖州，济水发源地是王屋山，此处释义混淆"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000150-p000-d16eed7300",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘其川漳拙长’中‘拙长’二字存在讹误，具体所指难以确定，此处依据上下文未强行拆分造水名"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4446,
+    "completion_tokens": 504,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4446,
+      "completion_tokens": 504,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

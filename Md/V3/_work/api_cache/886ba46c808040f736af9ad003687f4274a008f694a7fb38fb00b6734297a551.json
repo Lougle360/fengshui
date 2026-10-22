@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:03:51.769547+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "886ba46c808040f736af9ad003687f4274a008f694a7fb38fb00b6734297a551",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000625-p000-190454aaf0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘被蒙稚者所环绕’对应‘包蒙’，候选释读未明确‘包蒙’为卦爻辞原文，且将‘纳妇，吉’‘子克家’的释读合并为‘还像儿子能够治理家业一样’，遗漏‘纳妇，吉’的释读，存在内容缺失"
+        ],
+        "uncertainty": [
+          "原文中‘被蒙稚者所环绕’的具体所指是否为‘包蒙’的准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 845,
+    "completion_tokens": 150,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 845,
+      "completion_tokens": 150,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

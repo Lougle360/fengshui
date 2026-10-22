@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-26T06:34:41.548938+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2aa80a3c99d0db202bf7baa0ce1c4dd743760fa999b131d07e56fec37fcc42b9",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000102-p000-777d85f965",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000104-p000-ce48070c52",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“道化天下”释为“以道教化天下”存在歧义，原文指以道德教化天下，此处表述易被误解为道教相关的教化"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000105-p000-aad5700ce3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到“非長”为止，候选释读存在大量原文没有的内容，属于无依据增译；“言音戶矣弓老主”释为“所说的音户、弓老这类内容”缺乏依据，属于无据臆测"
+        ],
+        "uncertainty": [
+          "原文中“言音戶矣弓老主”“益中榦之尊也”“經山黑水”“貊澤”“張子檄”“涇水出安定在雍州之西自西而南入渭水而北是為渭汭”“渭水出鳥鼠同穴西為雍州之西山至涇水所屬之地則為北”“非有蕭闕”等内容语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book033-b000106-p000-6c92a65564",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到“秦即其地”为止，候选释读存在大量原文没有的后续内容，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000107-p000-4faff995a3",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“也里人子”语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000108-p000-12d578c932",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000110-p000-b9ac85442a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“熊且居其右”原义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5276,
+    "completion_tokens": 601,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5276,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 5276,
+      "completion_tokens": 601,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

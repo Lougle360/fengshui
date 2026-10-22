@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T06:26:44.031128+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c73fc5ab29db347e4907253018cb8387bbbf9c9d465f5f9f63cb6bb530233e55",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000610-p000-f09f1e368c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000611-p000-b7cfd0e152",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000612-p000-0a3308715f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'不知產處尾順逆于是乎混淆不可別矣'，candidate译为'都会让人不知产气之处，导致顺逆混淆而无法分辨'。'產處尾'三字连读，'尾'字可能为'之'字之误或另有含义，candidate将'產處尾'处理为'产气之处'，存在漏译和推测。应更保守地处理，例如译为'不知其发源与终结之处，顺逆于是混淆而无法分辨'，或保留原文并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000613-p000-b6501b0dda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000614-p000-c373b82902",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'龍勢自左來而随 龍出脈而結地者惟逆山逆 水然也'，candidate译为'龙势自左来而随龙出脉结地者，唯有逆山逆水'。原文'随 龍出脈'中间有空格，可能为'随龙出脉'或'随龙出脉'，但candidate处理为'随龙出脉结地者'，将'随龙出脉'与'结地'直接连接，可能改变了原文的断句和逻辑关系。原文'逆山逆 水'中间有空格，candidate处理为'逆山逆水'，未保留空格可能存在的分隔含义。",
+          "原文'鄭監莫書釋注曰陽青黑爲死 以 皮搏言之以秀嫩光 淨圓厚涌動爲生枯老肝腫破碎直硬爲死 類皆之之'，candidate译为'郑监莫书释注说：阳青黑为死，以皮搏言；以秀嫩光净圆厚涌动为生，枯老肝肿破碎直硬为死。此类说法皆如此。'。原文'以 皮搏言'中间有空格，candidate处理为'以皮搏言'，未保留空格可能存在的分隔含义。原文'類皆之之'，candidate处理为'此类说法皆如此'，将'之之'解释为'如此'，属于推测性意译，缺乏依据。应更保守地处理，例如译为'...为死。類皆之之（原文如此，具体所指不详）。'"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000615-p000-9d958a5f1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000616-p000-129c0f0d19",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'厚中取薄擊簿爲生而厚爲死短中取長則長爲生而短爲死大中取小測小爲生而大爲 瘦中取肉飽中取餓方爲生氣'，candidate译为'厚中取薄，击薄为生而厚为死；短中取长，则长为生而短为死；大中取小，测小为生而大为死。瘦中取肉、饱中取饿方为生气'。原文'大中取小測小爲生而大爲'后直接接'瘦中取肉'，candidate补'死'字并分段，属于推测性补全。原文'測小'可能为'则小'之误，candidate直接译为'测小'，未标注可能为讹字。",
+          "原文'然細推之如 死直中取曲則曲爲生而直爲死'，candidate译为'然而细细推究，如死中取曲，则曲为生而直为死'。原文'如 死直中取曲'，candidate处理为'如死中取曲'，漏译了'直'字，且改变了结构。可能应为'如直中取曲'或'如死直中取曲'，candidate的译法不准确。"
+        ],
+        "uncertainty": [
+          "原文部分段落存在重复或错乱，candidate的梳理可能不完全符合原意。"
+        ]
+      },
+      {
+        "id": "book035-b000617-p000-bb550822b8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾'各有'后内容残缺，无法完整翻译。"
+        ]
+      },
+      {
+        "id": "book035-b000618-p000-ec2b865e51",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文'服有有有自而脉之'及后续部分文字错乱严重，candidate译为'脉有有有自而脉之...'并加注，但'脉有有有自而脉之'本身不成句，无法构成有效的保守释读。即使作为保留原文的引用，也无法形成有意义的现代汉语句子，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文'服有有有自而脉之'及后续部分文字错乱严重，无法准确还原原意。"
+        ]
+      },
+      {
+        "id": "book035-b000619-p000-abba751c7b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文整段文字极度错乱，candidate尝试拼凑的句子如'脉行遇风诚也，水散知脉来谓气行界结脉而限穴之水则处有害止左无之则也不前定大去后穴抵是自地以荡然理有无不莫脉蔽见要无故其于气风难察者得矣。'完全不通顺，且包含大量原文未出现的连接和断句，属于无效的现代汉语转换。不符合V3'普通读者能读懂'的目标。"
+        ],
+        "uncertainty": [
+          "原文整段文字严重错乱，语序颠倒，字词缺失，无法准确还原原意。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3518,
+    "completion_tokens": 1402,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3518,
+      "completion_tokens": 1402,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

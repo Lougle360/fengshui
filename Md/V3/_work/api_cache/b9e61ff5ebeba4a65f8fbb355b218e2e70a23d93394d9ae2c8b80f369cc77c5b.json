@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-10-04T08:34:06.400083+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b9e61ff5ebeba4a65f8fbb355b218e2e70a23d93394d9ae2c8b80f369cc77c5b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000972-p000-6b63a27d38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "踏节四头"
+        ]
+      },
+      {
+        "id": "book028-b000975-p000-663a5753c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘天財之體’被译为‘财的形态’，‘财’字为无依据的增译，应保留‘天财’原词或按opaque_terms处理。原文‘得龍穴之氣多氣多而禍自厚’中‘禍’被译为‘福泽’，属反义错误，应为‘祸患’。原文‘頼砂水之輔重輔重而勢自大’中‘輔重’被译为‘强力辅助’，‘重’字含义未译出，应为‘辅助厚重’或‘辅助有力’。原文‘托樂’被译为‘依托和乐神’，‘乐神’为无依据的增译，应保留‘托乐’原词或按opaque_terms处理。"
+        ],
+        "uncertainty": [
+          "天财之体",
+          "托乐"
+        ]
+      },
+      {
+        "id": "book028-b000976-p000-ee86eca7b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘金水木火凹腦不同’被译为‘金、水、木、火以及凹脑等类型’，将‘金水木火’拆解为四种独立类型，可能改变了原文作为一组术语的含义，应保留‘金水木火凹脑’原短语。原文‘半儀眞的’被译为‘这三者’，指代错误，应为‘半仪的真确之处’或保留原词。"
+        ],
+        "uncertainty": [
+          "天财之体",
+          "金水木火凹脑",
+          "穴星",
+          "静珠",
+          "倒气",
+          "悬胆",
+          "半仪"
+        ]
+      },
+      {
+        "id": "book028-b000978-p000-d7ee4c1023",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘嗣龍之穴有三順騎例騎正騎是也’被译为‘有三种骑乘的法则，其中骑正骑是主要的一种’，将‘例骑’误译为‘法则’，且‘骑正骑是主要的一种’为无依据的增译。原文应为‘嗣龙之穴有三种：顺骑、例骑、正骑’。原文‘四前而向’被译为‘面向前方’，‘四’字漏译，应为‘四面向前’或保留原词。原文‘龍春’被译为‘龙脉’，‘春’字漏译，应保留‘龙春’原词或按opaque_terms处理。"
+        ],
+        "uncertainty": [
+          "嗣龙",
+          "顺骑",
+          "例骑",
+          "正骑",
+          "四前而向",
+          "穴星傍落",
+          "两边转竹夹轴",
+          "龙春"
+        ]
+      },
+      {
+        "id": "book028-b000979-p000-a11e44f868",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘龍之地最不論水第一重砂’被译为‘最不需要过分计较‘水’的因素，而第一重‘砂’’，‘最不論水’译为‘最不需要过分计较’语气过强，且‘第一重砂’的‘重’字未译出，应为‘龙的穴地最不讲究水，而第一重砂’。原文‘天澤之多受諸山之輔’被译为‘因为这里接受的山体辅助众多’，‘天泽’漏译，应保留原词或按opaque_terms处理。原文‘多出僊清貴之類’被译为‘多能出仙风道骨或清贵之人’，‘僊’译为‘仙风道骨’为增译，应为‘仙’或‘仙人’。"
+        ],
+        "uncertainty": [
+          "龙之地",
+          "天泽",
+          "仙清贵"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1964,
+    "completion_tokens": 828,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1964,
+      "completion_tokens": 828,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T17:33:51.993314+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "902c3cd60ae0fa96081f9654ca05ae33be4e7433f82f73ad73214976fd3293e6",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000808-p000-8c83bcaf46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "睢淮取穴法具体所指未明"
+        ]
+      },
+      {
+        "id": "book029-b000810-p000-44fe176dbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "雌雄父处具体所指未明"
+        ]
+      },
+      {
+        "id": "book029-b000811-p000-e7392ee6d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘即育之稍水啞之禪學機關如何問荅’属于含义模糊的表达，候选将其释为‘就像培养出只会说空话的庸师，对禅学的关键机关一窍不通，别人询问也答不上来’属于无依据的确定解释，不符合术语释读规则；且未对原文提及的‘稍水’保留模糊标注并说明具体所指不详，而是将其融合进自行补充的语义中"
+        ],
+        "uncertainty": [
+          "稍水具体所指未明",
+          "“即育之稍水啞之禪學機關如何問荅”句含义未明"
+        ]
+      },
+      {
+        "id": "book029-b000816-p000-fa4779268d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2048,
+    "completion_tokens": 355,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2048,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2048,
+      "completion_tokens": 1704,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2048,
+      "completion_tokens": 355,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

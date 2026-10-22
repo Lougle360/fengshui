@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-24T01:17:35.038331+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e8224501a223c42b1991a6176f7e4a478ff725cf4c8c0fb926eaaf968d47eceb",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000024-p000-2151cd0a7f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000025-p000-5425830bfd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“县入下四角大神”语义未明，候选将其直接写为“县入下四角大神在世”属于无依据确定表述；原文“返善爲惡”释为“反而会善变为恶”逻辑不通，原文实际意为原本向善的人会转为作恶，或是求善反得恶报，表述不准确"
+        ],
+        "uncertainty": [
+          "“县入下四角大神”具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000027-p000-3854877a31",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "开头“信用者三年內傷人日此日大凶”语义未明，候选直接释为“信用者三年内伤人之日，这一天大凶”属于无依据确定表述；原文干支“巳酉”有误，应为“己酉”，候选未标注该讹误风险"
+        ],
+        "uncertainty": [
+          "开头“信用者三年內傷人日”具体含义不详"
+        ]
+      },
+      {
+        "id": "book006-b000029-p000-bd8400d52f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“諸聖不受愿心不明”断句错误，候选释为“诸位圣人不接受愿心、心意不明的日子”逻辑不通，应为“诸位圣人不接受愿求，（在此日发愿）心意无法上达”，表述错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000032-p000-dbded8099b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头干支“王戍”为“壬戌”的讹误，候选未标注；原文“二多巳巳”语义未明，候选直接保留且未明确标注属于含混内容；原文“忌刀砧柔斧頭殺龍虎受死天賊月破危日山九土鬼正四廢魁罡日”断句错误，候选将“柔斧头”“杀龙”拆分错误，“杀龙虎受死”是完整神煞术语，拆分不当；多处干支“巳卯”“巳酉”“巳未”均为“己卯”“己酉”“己未”的讹误，候选未标注相关讹误风险"
+        ],
+        "uncertainty": [
+          "“二多巳巳”具体所指不详",
+          "“竹木不蛙”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1683,
+    "completion_tokens": 624,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1683,
+      "completion_tokens": 624,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

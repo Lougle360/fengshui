@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-25T02:00:15.772444+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "220c63691eaca55d76ec9d507d283e94e5bae4e7521db54fc6861a70f3602a01",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001809-p000-bfa4ba3550",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文多处字句讹脱、语义不通，candidate将不通顺的古文强行释读为通顺的确定表述，存在多处无依据增译：如“聲翁聚一而後一望腹列皆其珍膳為假如一山義宗司凡貝少而一家独體，其循皆否”含义完全不明确，candidate自行解读为“聚集一处后，四周的山丘都成了它的珍馐美味。比如一座山的义宗司，大多只有一处，而一家独体，其余各处都不是这样”属于无依据释义"
+        ],
+        "uncertainty": [
+          "原文存在严重讹脱，“樂須”“聲翁聚一”“一望腹列”“珍膳”“義宗司”“凡貝少而一家独體，其循皆否”“寸陵”等表述均无上下文可考，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001811-p000-c0700fcac6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“沈四神八國”“净阴”“净阳”属于风水专业概念，原文未明确定义，释读仅保留字面表述；原句存在断句错乱，已标注调整"
+        ]
+      },
+      {
+        "id": "book017-b001812-p000-cf414f72b4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“然其去凶贫屋次安若乎陽安，務宇並伯而立則字所謂砂矣”存在字句讹脱，含义不明，candidate自行释读为“若砂的去势凶，贫屋就会不安，就像阳安、务宇并排而立，这就是所说的砂”属于无依据释义；将原文“衛树对門”拆分译为“灯柱、卫树、对门”语义偏差，原文指的是对着大门的灯柱、卫树，不是三类并列事物"
+        ],
+        "uncertainty": [
+          "“陽安”“務宇”“並伯而立”表述无上下文可考，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001813-p000-2b6ac4309b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source多处字句讹脱，如“巾公詞”“碧塑祿印星當日馬”“言宿之星”“疯疾經身、乙辰れ，及河自益”“附有子而母明父音望神投浴”“一次百參，維以悉辨”均语义不明，candidate将上述内容直接保留作为确定表述，未标注其不可解，且部分内容释读无依据：如“碧塑禄印星当日马”“及河自益”“一次百参，唯有悉辨”均属于强行解读"
+        ],
+        "uncertainty": [
+          "原文存在大量讹脱用字，除明确的干支、卦位表述外，其余多数内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001815-p000-17bad1d1e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source存在大量讹脱如“公玄核賦等る而戊類”“王文生我之制”“直卦氣切应4微”均语义不通，candidate直接保留乱码字符“4”且未明确标注多数内容不可解，仅标注“具体所指不详”但释读仍将不通内容直译，未说明无法准确释读"
+        ],
+        "uncertainty": [
+          "原文讹脱严重，除“《玉尺论》”“砂”外其余内容均无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001816-p000-05bc71ee79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001818-p000-83049f3656",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“此語重盈玉尺大者”“八卦王仍”“以貴陰財陽日目”“定知古人之文在此而不在生”均存在字句讹脱，candidate自行将“貴陰財陽日目”改为“贵阴贱阳为目”属于无依据改译，“此语重盈玉尺大者”“八卦王仍”“定知古人之文在此而不在生”语义不明，candidate未标注其不可解"
+        ],
+        "uncertainty": [
+          "“重盈玉尺大者”“八卦王仍”“貴陰財陽日目”“古人之文在此而不在生”表述无上下文可考，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001819-p000-8a900550dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“羽其四語”“本主衄隆，殺翟变多文曜龍身微賤牙刀化作屠刀”“沙中之人生”“朵封采菲兮以下體”“故特舉而在之”均存在字句讹脱或语义不明，candidate除标注具体所指不详外，释读仍将不通内容直接直译，部分表述存在无依据断句：如“杀翟变多”为自行断句，原句“殺翟变多文曜龍身微賤”语义不通，不应拆分释读"
+        ],
+        "uncertainty": [
+          "除“沙里淘金、石中辨玉”的比喻义可大致推断外，其余多数内容因讹脱无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001820-p000-a8f8ebce51",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“令素能”具体含义不明确，已标注"
+        ]
+      },
+      {
+        "id": "book017-b001821-p000-cc0721f628",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句“排誰己凶”存在讹脱，具体含义待考，已标注"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3010,
+    "completion_tokens": 1450,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3010,
+      "completion_tokens": 1450,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T12:50:11.222455+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "269fe2dae28f34d7af173d4c92c5209213c6aa6d9b190c3fe0cb7d073a64456f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000915-p000-1d89fe4b92",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“髓、竈”释为“髓、竈”未按要求标注为“具体所指不详”，违反术语处理规则；原文末尾“士大”未完整释读，candidate补全为“士大夫”属于无依据扩写；原文“諱城而立”未明确含义，candidate未标注风险；原文“跋艷”未明确含义，candidate未标注风险；原文“凡鎮水星辰”在该条目末尾首次出现，candidate提前释读该内容属于漏译前文衔接部分且无依据补全"
+        ],
+        "uncertainty": [
+          "髓、竈的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000916-p000-5235e3731c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000917-p000-4d1f7deedf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000918-p000-ef51043cc4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2387,
+    "completion_tokens": 361,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2387,
+      "completion_tokens": 361,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

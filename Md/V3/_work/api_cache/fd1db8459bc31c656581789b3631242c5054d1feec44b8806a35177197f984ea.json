@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-18T11:23:35.811650+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fd1db8459bc31c656581789b3631242c5054d1feec44b8806a35177197f984ea",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006302-p000-ddf3b7d4ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘甲子金穴分在坎宮逢水及金木相生相合是以列于九八中之相氣對宮’中，‘九八中之相氣對宮’是一个整体术语，candidate将其拆解为‘九八中的相气对宫’并标注‘具体所指不详’，这改变了原文术语的结构和含义，属于误译。应整体保留为不解释的术语。",
+          "原文‘得甲午金向逢火受克又爲沐浴之地是金穴金向爲比和’中，‘得甲午金向’意为‘得到甲午金向’，candidate译为‘该穴得甲午金向’基本准确，但‘向甲子’的翻译存在歧义（见下条）。",
+          "原文‘又向甲子爲接氣之空’中，‘向甲子’与前面的‘甲午金向’对应，应指‘朝向甲子（方位）’。candidate译为‘向甲子’并标注为不确定，但‘向’字在中文中易与前面的‘金向’混淆，且未明确其为方位。应译为‘朝向甲子方位’并保留其作为术语的不确定性。",
+          "candidate将‘孤虚败穴’译为‘孤虚败穴’，未加引号或说明，但‘孤虚’是风水术语，应作为opaque_term处理，置于引号内或明确标注其术语性质。"
+        ],
+        "uncertainty": [
+          "‘九八中之相氣對宮’的确切含义不详。",
+          "‘向甲子’的确切所指（是具体方位还是其他含义）不详。",
+          "‘孤虚’作为风水术语，其具体内涵不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 855,
+    "completion_tokens": 430,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 855,
+      "completion_tokens": 430,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

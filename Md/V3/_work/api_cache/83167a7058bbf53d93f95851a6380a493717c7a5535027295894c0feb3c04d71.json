@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T08:51:35.746352+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "83167a7058bbf53d93f95851a6380a493717c7a5535027295894c0feb3c04d71",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002424-p000-a14209f09b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002425-p000-77ad669a43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002426-p000-8c7f18fbb8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002427-p000-2a72d79cc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002428-p000-8a84eac2fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002429-p000-17438b6b32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺漏，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book018-b002431-p000-5cb452c4c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原表格文字顺序错乱，已按语义调整为通顺表述"
+        ]
+      },
+      {
+        "id": "book018-b002433-p000-17eb868c89",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“戌以阳支而配离从火，申、辰以阳支而配坎从水，故十二位为阳也”，候选改为“因此十二地支中戌、申、辰属于阳支”，与原文逻辑不符，原文是解释十二阳位的构成，并非仅说明戌、申、辰为阳支"
+        ],
+        "uncertainty": [
+          "原文此处“故震、”后内容残缺，无法完整释读"
+        ]
+      },
+      {
+        "id": "book018-b002434-p000-61d1608402",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002435-p000-dcf6c7c296",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5200,
+    "completion_tokens": 621,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5200,
+      "completion_tokens": 621,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

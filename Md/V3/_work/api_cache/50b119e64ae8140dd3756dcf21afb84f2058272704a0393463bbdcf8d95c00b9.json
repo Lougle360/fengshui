@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-15T16:10:46.625240+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "50b119e64ae8140dd3756dcf21afb84f2058272704a0393463bbdcf8d95c00b9",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002330-p000-8050193bb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘生出乾申金为退神吉’，candidate译为‘生出乾金与申金为退神，主吉’，但原文‘吉’字可能修饰‘生出乾申金为退神’整体，或存在断句歧义。candidate将‘吉’直接赋予‘退神’可能不准确，需明确原文的吉凶判断是针对‘生出’这一行为还是‘退神’本身。",
+          "原文‘尅入卯巽水正配不凶’，candidate译为‘克制入卯木与巽水为正配，不凶’。原文‘卯巽水’可能指卯方和巽方的水，或卯木与巽水。candidate译为‘卯木与巽水’，将‘卯’解释为木，改变了原文可能指方位的含义，且‘巽’在allowed_glossary中仅为八卦之一，未明确其五行，此处解释为‘水’缺乏依据。"
+        ],
+        "uncertainty": [
+          "原文‘生出乾申金为退神吉’的断句与吉凶归属存在歧义。",
+          "‘卯巽水’的具体所指（是方位还是五行）不明确。"
+        ]
+      },
+      {
+        "id": "book033-b002331-p000-674577a27b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘尅入午火雖水凶’，candidate译为‘克制入午火，虽然水势凶险，但此处仍论吉凶’。此处理解有误。原文‘雖水凶’可能意为‘即使（遇到）水（也）凶’，或‘虽（然是）水（但）凶’，指克制入午火这一行为，即使涉及水（可能指午火被水克？），也主凶。candidate增译‘但此处仍论吉凶’改变了原意，且将‘水凶’拆解为‘水势凶险’并作为让步条件，缺乏依据。"
+        ],
+        "uncertainty": [
+          "‘尅入午火雖水凶’一句的含义不明确，可能指克制入午火，即使（与之相关的）水也凶，或另有含义。"
+        ]
+      },
+      {
+        "id": "book033-b002332-p000-7b73998b64",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘尅出壬癸吉為進神吉’，candidate译为‘克制出壬水与癸水为进神，主吉’。此处‘吉’字位置特殊，可能为‘壬癸’的一部分（如‘壬癸吉’），或为‘尅出壬癸’的结果描述。candidate将其处理为‘壬水与癸水’，忽略了‘吉’字，可能漏译或误译。",
+          "原文‘尅入寅申木為退神正不 子山屬水’，candidate译为‘克制入寅木与申木为退神，属于正配不凶。子山属于水。’原文‘正不’后接‘子山屬水’，可能为‘正不凶’的省略，但candidate将‘正不’与‘子山屬水’断开，并补全为‘属于正配不凶’，虽为合理推测，但原文表述模糊。"
+        ]
+      },
+      {
+        "id": "book033-b002333-p000-d8a6459f95",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002334-p000-76bafa4e16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘丁向午水入田地金銀積’，candidate译为‘丁向若见午水流入田地，主金银堆积’。此处‘入田地’可能指水流流入田地这一形态，candidate译为‘流入田地’可以接受，但需注意‘田地’可能非实指，而是泛指。",
+          "原文‘子向子水入官貴登科第’，candidate译为‘子向若见子水流入官位，主登科第显贵’。此处‘入官貴’可能为‘入官貴’（流入主官贵），candidate拆解为‘流入官位’并补‘显贵’，略显增译。更保守的译法可为‘子向若子水流入，主官贵登科第’。",
+          "原文‘進甲向卯水至富貴更無比’，candidate译为‘进甲向若见卯水到来，主富贵更无比’。‘進甲向’可能为‘甲向’之误或特定名称，candidate保留‘进甲向’原样处理可以接受，但需标注不确定性。"
+        ]
+      },
+      {
+        "id": "book033-b002335-p000-b0c694b4db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘十退神水至凶至凶不可信用’，candidate译为‘十种退神水到来主凶，大凶不可信用’。此处‘至凶至凶’为强调，candidate处理为‘主凶，大凶’可以接受。",
+          "原文‘巳向水流丁打馬去朝京’，candidate译为‘巳向若水流向丁，称为打马去朝京’。‘打馬去朝京’为比喻或术语，candidate保留原短语并说明‘称为’可以接受。",
+          "原文‘午向水流丙五馬坐專成’，candidate译为‘午向若水流向丙，称为五马坐专’。原文为‘五馬坐專成’，candidate漏译‘成’字。",
+          "原文‘辛向水流丁也是足田’，candidate译为‘辛向若水流向丁，也是田产牛马充足’。参照前文‘癸向亥水朝也是足田牛’，candidate补‘牛马’可以接受，但‘足田’可能仅指田产充足。"
+        ]
+      },
+      {
+        "id": "book033-b002336-p000-6abadb1a0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘牛戌向水流乾金寶如沙積’，candidate译为‘牛向与戌向若水流向乾金，主金宝如沙堆积’。‘牛戌向’可能指‘丑向’与‘戌向’，但‘牛’通常对应‘丑’，candidate译为‘牛向’可能不准确，应保留‘牛’字并标注不确定性。",
+          "原文‘乾向水流乾富貴出全’，candidate译为‘乾向若水流向乾，主富贵’。漏译‘出全’二字，可能意为‘富贵俱全’。"
+        ]
+      },
+      {
+        "id": "book033-b002337-p000-4017129f34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002338-p000-b14b481bcc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002339-p000-d6e01f6b4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3622,
+    "completion_tokens": 1539,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3622,
+      "completion_tokens": 1539,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

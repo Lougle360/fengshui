@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:08:54.603305+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "51c65854646b1badb9b6a07cab6e37f913be7021c2facc50c78313dca1662136",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000571-p000-2c8748e4e8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "衙刀形的事物，若尖利且呈湾抱之状则为吉；杀刀形的事物，若呈削直梗直之状则为凶。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000572-p000-dfd83ccf65",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "金箱形的事物，或是山形，或是石形，形态方正且体积较小。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000573-p000-85e1df050b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "玉印形的事物，或是山形，或是石形，形态圆润且体积较小。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000574-p000-6e6a5daa8e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "西笔形的事物，形态尖秀，呈散斜而开张之状。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾\"又者\"语义不明，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 408,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1516,
+      "completion_tokens": 408,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

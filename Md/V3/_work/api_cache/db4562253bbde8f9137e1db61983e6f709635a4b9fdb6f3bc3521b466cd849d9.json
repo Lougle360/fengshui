@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-25T04:09:25.816487+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "db4562253bbde8f9137e1db61983e6f709635a4b9fdb6f3bc3521b466cd849d9",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000210-p000-0bd8e82214",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000212-p000-05189295ee",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“經之陰者生化物清之母也”“陽者生化物情之父也”存在文字讹误无法准确释读",
+          "“即從東南巽角順 成為陰明矣”存在文本残缺，具体指向不明"
+        ]
+      },
+      {
+        "id": "book020-b000214-p000-475427d760",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“定店向艮從酉向卯從戌向辰移”断句理解错误，原文是“定店向，艮从酉向卯，从戌向辰移”，候选误译为“从艮位朝向酉位朝向卯位移动”，背离原文含义；原文“移將及上”漏译，且无端添加“这类移转及相关行动”属于无依据增译；原文“關厚”含义未明，候选直接译为“厚实”属于无依据释读；原文“天之德者宅之财命也”对应“天德、月德”，候选仅提及天德，漏译月德相关内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000216-p000-f56fcb1d99",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“牆院完金三寶”存在OCR讹误",
+          "末尾“宅統之宅理 五”文本残缺，具体指向不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3376,
+    "completion_tokens": 431,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3376,
+      "completion_tokens": 43,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3376,
+      "completion_tokens": 431,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

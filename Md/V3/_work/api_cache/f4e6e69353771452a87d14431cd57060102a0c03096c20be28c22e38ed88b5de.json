@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-15T07:00:31.429010+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f4e6e69353771452a87d14431cd57060102a0c03096c20be28c22e38ed88b5de",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002064-p000-0a1d0698b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将表格内容概括为一段描述性文字，但原文是结构化的表格数据，包含多列历法名称和多行宿度数值。候选文本未能保留表格的对比结构，而是将数据混在一起列举，这不符合对表格内容的忠实释读要求。",
+          "候选文本中列举的数值（如“九十二度”“七十九度”“八十二度”“十二九度”“二十八二度”“三十三度”“七六度”“三十三二十度”“六九度”“六三十四十八度”等）与原文表格中的数值（如“九度太”“十二度太”“十六度少”等）存在大量不符，且候选文本自行组合或误读了大量数字，属于严重的数字变化错误。",
+          "候选文本将“统天”“开禧”“会天”“授时大统”等历法名称简单罗列为“等”，未能清晰对应表格的列结构，且将“授时大统”与“天授时大统”混淆。",
+          "候选文本中“表中可见的具体数值包括...等”的列举方式，将原本分属不同宿和不同历法的数据混为一谈，并引入了大量原文没有或识别错误的数字组合，造成了信息的严重失真和混淆。"
+        ],
+        "uncertainty": [
+          "原文表格存在大量OCR乱码和符号错乱，部分单元格内容确实无法准确识别。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2178,
+    "completion_tokens": 337,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2178,
+      "completion_tokens": 337,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

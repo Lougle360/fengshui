@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T02:42:52.743548+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "527cc71476d2b118307210d9ba2dd1731191b7929fb9fa7e8d534d94f5c41960",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000301-p000-1fcc4649a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000302-p000-728dff64b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000310-p000-2032776626",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘将及百年，乃出贵先’被错释为‘此地将近百年就会先出贵人，因为赵探花的祖父精通堪舆学’，属于逻辑关系错置，原文是先出贵人的时间节点在葬后将近百年，并非‘将近百年就会先出贵人’，且原文无‘因为’的因果关联表述；原文‘至今人才富贵鼎盛’的主体是赵志皋家族，并非‘当地’，属于指代错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000311-p000-00d7547e2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2353,
+    "completion_tokens": 337,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2353,
+      "completion_tokens": 337,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-18T01:20:19.292882+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5828bdfecf41ea9544629f371378945290cf3e54fba2273fe4cdb51ebdaf99a7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005123-p001-cfa6593ead",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原内容为图像占位符，无法提取具体文字或数据，仅能说明版面结构"
+        ]
+      },
+      {
+        "id": "book035-b005124-p000-fb286c2cf0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005125-p000-4bdb239f8a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水城堂氣’是一个专有名词或固定短语，candidate将其拆解为‘水城与堂气’并添加‘讲述’，属于无依据的扩写和解释。应保留原文短语，或明确标注其为一个整体概念，具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005126-p000-6110c2ac99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005127-p000-2a525ab433",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1912,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1912,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

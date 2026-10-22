@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:10:49.262873+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cf84d18d7a39e652bb6108fc3bec604b66c31dc3eae6596de84e8bac56211a4f",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000129-p000-a1dc0de942",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文表格文字残缺错乱，无法完整释读，候选释读仅提及涉及部分风水术语，未对原文内容进行有效释读"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺、错乱的文字，部分内容无法辨识"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4296,
+    "completion_tokens": 94,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4296,
+      "completion_tokens": 94,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

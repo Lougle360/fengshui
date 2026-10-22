@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-15T03:21:48.065956+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6910d12a9902bdfed2d5f14237bf514dc5e34a19f10575caf805eee82fee88c7",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001815-p000-9fa4188c34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001817-p000-36cf0bf48d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误译：'鸣珂'在原文中明确为水声的一种比喻，candidate 解释为'如同佩戴玉饰行走发出的声音'，属于无依据的扩写。应保留'鸣珂'原词或直译为'如同玉饰相击之声'，但不可增加'行走'等动作。",
+          "术语误译：'磔鼓'在原文中为一种水声名称，candidate 解释为'婺婺关关，如同擂鼓一般'，但'婺婺关关'本身是拟声描述，candidate 将其与'如同擂鼓一般'并列，易生歧义。应明确'磔鼓'是名称，其声如擂鼓。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001819-p000-7367b78318",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001820-p001-4badd863e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b001821-p000-9f24e577b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001822-p000-4a43f278af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001823-p000-a2b1dd2e00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误译：'金水行龙'是风水术语，指龙脉形态，candidate 译为'金水行龙'正确，但后文'奇巧无本身龙虎'中，'龙虎'指左右砂手，candidate 直译为'龙虎'可以接受，但整体句子'奇巧无本身龙虎'的翻译'奇巧无本身龙虎'略显生硬，可优化为'形态奇巧，但缺少本身的青龙、白虎砂手'以更通俗，但当前版本未达'误译'，仅表述不够流畅，暂不判错。",
+          "数字/干支错误：'今改东公甲戌进士'，candidate 译为'今改东公甲戌进士'，保留了'改东公'，但原文'改东公'可能为人名或称号，candidate 未加说明，存在歧义。但根据规则，opaque_terms为空，且未赋予确定含义，故不算误译。但'甲戌'为干支，翻译正确。"
+        ]
+      },
+      {
+        "id": "book033-b001824-p000-f793679b59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001827-p000-c947634267",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格中明显为乱码的字符（如'jo'、'文西低文'）直接嵌入译文，未做任何处理或说明，这不符合'普通读者能读懂'的目标，且可能误导读者。应将这些无法辨识的字符明确标注为原文损坏或乱码。",
+          "候选句将原文表格的标题行（如'火 穴下深槽'）与内容行合并为一句，破坏了原文的条目结构，可能导致信息混淆。应保持条目分隔，或明确标注条目标题。",
+          "候选句末尾的'也里人子页六下水法 13'处理不当，应明确其为页码或页脚信息，而非正文内容。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，部分单元格内容存在乱码，难以准确还原其原始条目划分和对应关系。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2141,
+    "completion_tokens": 244,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4164,
+      "completion_tokens": 702,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2141,
+      "completion_tokens": 244,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

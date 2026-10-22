@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-18T03:49:18.295961+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f4b4601574b9deb76d70622990d22f4018a49f24e8bdbdbef2e2eeac17d49e17",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005348-p000-215e493156",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'形瓚執侯王'误写为'形瓚執侯王'（原文为'形瓚執侯王'，但'瓚'字可能为'瓚'的异体或误写，但candidate未保留原字形或说明），'錢鑄匠巧形'误写为'錢鑰匠巧形'（'鑄'误为'鑰'），'弓鸞士壯'误写为'弓鸞士壯'（'鸞'误为'鸞'，但'鸞'与'鸞'可能为异体，需核对图像），'蚣昊地伏'误写为'蚣昊地伏'（'昊'误为'昊'）。这些是OCR或转录错误，导致术语未按locked_terms要求保留原样。",
+          "candidate将'形虎臥形恩'、'謝笏執形'等短语拆解并单独讨论'形恩'、'執形'等，但原文中这些是完整的形局名称，不应被拆解为独立短语并赋予'具体含义不详'的解读，这属于对opaque_terms的不当处理。candidate应整体保留这些形局名称，并说明其整体含义不详。",
+          "candidate重复列出了'形虎臥形恩'、'謝笏執形'等形局名称，与开头列表冗余，且表述混乱。",
+          "candidate提到'文中还提及...等短语'，但source仅为表格，并无额外'文中'叙述，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "原文为表格，部分文字可能存在OCR识别错误或异体字，需对照图像核实。所有形局名称的具体含义均不详，属于opaque_terms，应整体保留并标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1911,
+    "completion_tokens": 426,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1911,
+      "completion_tokens": 426,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

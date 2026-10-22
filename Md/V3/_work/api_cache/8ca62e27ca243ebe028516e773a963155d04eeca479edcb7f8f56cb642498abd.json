@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-18T04:19:40.214278+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8ca62e27ca243ebe028516e773a963155d04eeca479edcb7f8f56cb642498abd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005375-p000-20ab962888",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文诗句的释读存在多处不准确或增译。例如，将‘勝女生簾看三穴祥嫦人秀幕乳穴如雲詩帝娥賢麗貴高分何捧曰欽達人明月’释读为‘此形如仙女嫦娥在帘幕中观看，三处“穴”地秀丽如贵人，形似云朵捧月。诗句云：“明月如云捧，钦达人秀。”’ 原文诗句结构混乱，candidate的释读过于通顺且添加了原文没有的‘仙女嫦娥’等描述，未能忠实反映原文的断句和可能存在的错乱。其他诗句的释读也存在类似问题。",
+          "candidate将原文表格中每一行的标题（如‘形月捧雲祥’）和下方的配图、解说文字，整合为连贯的段落描述，并补充了‘配图显示如...之象’等原文没有的概括性语句。虽然这有助于理解，但属于对原文结构的改写和增译，不符合‘只负责判错，不能改稿’以及‘不得重复整段原文’的要求。原文是表格形式，candidate应指出其结构，但不应将表格内容重新组织为描述性段落。",
+          "candidate对部分术语的释读超出了allowed_glossary的范围。例如，将‘朝山’‘靠山’作为确定解释加入，但这些术语不在allowed_glossary中，属于含混专名，不应被赋予确定含义。",
+          "candidate将‘形寶卸駝駱’释读为‘形如骆驼卸宝之象’，但原文标题为‘形寶卸駝駱’，candidate在描述中写为‘形寶卸駱駱’，存在不一致。",
+          "candidate将‘形花蘭木’的诗句释读为‘花蘭木，花心開’，但原文为‘福兒遮要切穴最木绵蘭詩富托蘭心開花扦花曰花’，candidate的提取不准确，且未保留原文的混乱感。"
+        ],
+        "uncertainty": [
+          "原文表格中的文字（如‘勝女生簾看三穴祥嫦人秀幕乳穴如雲詩帝娥賢麗貴高分何捧曰欽達人明月’）可能因古籍排版、OCR错误或原文本身存在错简、乱码，导致诗句难以通读。candidate试图将其整理为通顺诗句的做法，可能掩盖了原文的混乱状态，真正的含义存在很大不确定性。",
+          "原文为表格形式，配图与文字对应关系复杂，candidate的描述性整合可能未能完全准确反映原文的图文对应逻辑。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2959,
+    "completion_tokens": 596,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2959,
+      "completion_tokens": 596,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

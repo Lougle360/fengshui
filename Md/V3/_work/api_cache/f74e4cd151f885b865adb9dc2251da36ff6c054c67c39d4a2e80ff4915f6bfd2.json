@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-09-25T05:06:31.347688+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f74e4cd151f885b865adb9dc2251da36ff6c054c67c39d4a2e80ff4915f6bfd2",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001501-p000-f187380c4c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乃其祖上舍公墓也”被误译为“原来是他祖上的合葬墓”，“上舍公”是先祖的号/尊称，不是“合葬墓”，语义错误。",
+          "原文“次年辛酉，仪翁发魁”中“发魁”指科举考试中获得头名（一般指乡试解元），译为“乡试中举”不够准确，缩小了含义范围。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001503-p000-7a7a5e3102",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多次出现“待郎”为“侍郎”的形近讹字，candidate原样保留“待郎”未修正，属于明显识读错误。",
+          "原文“屯左地葬待郎之父”与前半段“右地在绩溪西八都”衔接突兀，candidate未加任何说明直接保留，逻辑断裂未作合理补注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001505-p000-1f270d09a4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“木火秀丽”“流神驳杂”为风水专业术语，无权威歧义说明，保留原表述合理。"
+        ]
+      },
+      {
+        "id": "book018-b001506-p000-b5993f5c5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“水木垂头”“曲乳穴”“乐托”为风水专业特定表述，无统一通俗释读，保留原文表述及合法释义符合要求。"
+        ]
+      },
+      {
+        "id": "book018-b001507-p000-4a37195dee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文干支为“巳山亥向”，candidate误写为“已山亥向”，干支用字错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001509-p000-2e342f1d50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“左单提穴”“捍门之格”为风水专业格局表述，无通用通俗释读，保留符合要求。"
+        ]
+      },
+      {
+        "id": "book018-b001510-p000-980a6463ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“嘉靖甲辰状元及第”被误译为“嘉靖甲辰年考中进士”，“状元及第”是进士第一名，与普通“考中进士”等级差异巨大，语义错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001512-p000-5ce6c18d12",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺，无法完整解读"
+        ]
+      },
+      {
+        "id": "book018-b001515-p000-371c911fb4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“换骨顿异”“余曜”“分劫”为风水专业术语，无权威通俗释读，保留原表述合理。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5865,
+    "completion_tokens": 802,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5865,
+      "completion_tokens": 802,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

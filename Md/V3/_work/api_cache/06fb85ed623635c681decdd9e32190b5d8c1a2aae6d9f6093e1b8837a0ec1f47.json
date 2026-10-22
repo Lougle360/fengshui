@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-18T00:57:06.805619+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "06fb85ed623635c681decdd9e32190b5d8c1a2aae6d9f6093e1b8837a0ec1f47",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005095-p000-8bf0816df7",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档021 PDF第111页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005099-p000-6ade0dea45",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十五，讲述砂格八。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1195,
+    "completion_tokens": 231,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1195,
+      "completion_tokens": 231,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

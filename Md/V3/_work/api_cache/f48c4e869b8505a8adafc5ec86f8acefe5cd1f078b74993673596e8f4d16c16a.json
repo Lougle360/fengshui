@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-16T10:57:31.137231+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f48c4e869b8505a8adafc5ec86f8acefe5cd1f078b74993673596e8f4d16c16a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002074-p000-f9374ead53",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'咎休取'意为'吉凶征兆难以捕捉'，candidate译为'吉凶祸福的征兆便难以捕捉'，含义准确，但'咎休'是'吉凶'的另一种说法，此处释读无误。然而，'脉路来粗总不成'译为'这样的脉路即便看似粗大，终究无法形成有效的格局'，其中'有效的格局'是增译，原文仅说'总不成'，即终究不成、无效。应避免添加原文未明确的概念。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002075-p000-045cb84a39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002076-p000-2fd4f0fffc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'论明暗章第十八惟葬其生休葬死'，candidate仅译出'第十八章 论明暗'，漏译了'惟葬其生休葬死'这一重要内容。应补充完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002077-p000-6810341e87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002078-p000-d3762c3ec9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002079-p000-538193b0c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头'关于明暗的论述：只应安葬生气，不应安葬死气。'是合理的概括。但后续将'必世而荣'和'必世而枯'中的'世'译为'百代'，属于过度具体化。'世'可泛指世代、长久，译为'世代'或'长久'更稳妥。此外，'鹿鹿蠢蠢'译为'杂乱蠢动、毫无生气'，'鹿鹿'可能通'碌碌'，意为平庸、杂乱，此译可接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002080-p000-817d7a6f6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002081-p000-f4735e6dc6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002082-p000-e95d744191",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'丙边明暗来交会'译为'丙方明暗之气在此交会'，'丙方'指方位（南方），此译准确。'相合雌雄水到爻'译为'雌雄相合，风水语境中的河流、水系及其来去形态（水）流到爻位之处'，将'水'按allowed_glossary处理正确。但'爻'是风水/易学术语，指交、位，此处译为'爻位'可以接受，但最好加引号或说明其术语性质，不过根据规则，未在opaque_terms中，且未赋予超出原文的确定含义，可接受。主要问题是'水到爻'的释读略显生硬，但未违反规则。"
+        ],
+        "uncertainty": [
+          "'爻'的具体所指在风水中可能有多种解释，此处释读为'爻位'是基于常见理解，但原文未明确。"
+        ]
+      },
+      {
+        "id": "book035-b002083-p000-e326e5d3c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1810,
+    "completion_tokens": 836,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1810,
+      "completion_tokens": 836,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

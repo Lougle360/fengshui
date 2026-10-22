@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T07:13:51.173924+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a47bb0a3e785ce04071bcbbdaf5b546c26d1e9d66e131b8f5571e62430646371",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000192-p000-3f9be17ad2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000193-p000-bd45336bd3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR语序错乱，候选直接按错乱语序释读，逻辑矛盾：“少起重山祖少”“少祖无大星辰作少祖山”语义不通，未标注此处原文识别错误，错误释读为“先升起高祖山、少祖山，少祖山没有大的星辰作为少祖山”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000195-p000-9606a52d77",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“火少”“祖S”“水水蘆鞭”“入者”等表述存在OCR识别错乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000198-p000-f65d8c1d21",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“次場正座此星貼近枕靠”误释为“次场正座的主星贴近枕靠”，正确语义应为穴场正对着这座少祖山，贴近倚靠少祖山，此处主语理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000202-p000-43a4ec1478",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“委靡八穴”为OCR识别错误，候选误释为“龙脉委靡，形成穴场的地方力量轻弱”，未标注此处原文识别错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000203-p000-3caf4855af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“却又再起高大由又為少祖”为OCR识别错误，候选自行补为“却又再升起高大的山作为新的少祖山”，属于无依据增译，未标注此处原文识别错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000204-p000-02b2b6d29a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000205-p000-dee1605adb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“迷入首”“紀旺午葬甲登嘉靖丙辰進士”为OCR识别错乱，候选误释为“龙脉进入入首处时”“纪旺午下葬甲地，嘉靖丙辰年考中进士”，且原文无“众多子孙都很兴旺”相关表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文中“迷入首”“紀旺午”“葬甲登”等表述存在OCR识别错乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000206-p000-63cf992aab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000207-p000-939cac6688",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“磊落奔 騰”是排版空格非识别错误，“嘉靖癸耳”为OCR识别错误，候选误列“磊落奔 騰”“二十餘里乃大斷過峽翻身逆盤為回龍顧祖之勢”为识别错乱，且原文“離龍扦丁山癸向”未说明“离龙”属于无依据直接释读专名，“欲移而氣生”释为“想要迁移却因气脉生成而作罢”属于过度推测"
+        ],
+        "uncertainty": [
+          "原文中“嘉靖癸耳”表述存在OCR识别错乱，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3888,
+    "completion_tokens": 1057,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3888,
+      "completion_tokens": 1057,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

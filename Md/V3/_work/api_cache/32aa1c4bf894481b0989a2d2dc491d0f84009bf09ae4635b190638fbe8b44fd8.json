@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T11:12:00.629095+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "32aa1c4bf894481b0989a2d2dc491d0f84009bf09ae4635b190638fbe8b44fd8",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000135-p000-94d51066ac",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文语序错乱的内容按风水术数常见逻辑调整断句与表述，存在主观调整，未完全忠实于原文语序，且对原文中‘迎接迎’‘慄準’‘減法’等表述的释读缺乏明确依据，存在推测性改写"
+        ],
+        "uncertainty": [
+          "原文语序错乱，释读时按风水术数常见逻辑调整了断句与表述，存在一定主观调整，未完全忠实于原文语序"
+        ]
+      },
+      {
+        "id": "book012-b000136-p000-044c6b9790",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语义晦涩，多处表述模糊，无法完成有效释读，仅保留原句，未形成符合要求的释读内容"
+        ],
+        "uncertainty": [
+          "原文语义晦涩，多处表述模糊，释读仅保留原句，未完成有效释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 241,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1082,
+      "completion_tokens": 241,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

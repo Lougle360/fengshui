@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-25T06:24:11.990945+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a543cb74a6a22af5ab9167dcb7ef6c189875e30f73403a9d83147e1c3e4a600d",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001839-p000-782083b52a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate表格内容不完整，末尾仅残留'如人坐云端。吕梁洪乃其水口山，有子房庙，亦灵感。</td><td colspan='，'缺失了原文从'《经》曰：",
+          "直到'贱龙主卖酒、僧道'的全部内容",
+          "原文部分单元格的图文对应关系被破坏，如横琴条目下的'案正宜'相关图文信息丢失、龙楼凤阁条目下的'宣作正案'位置错误，不符合原文表格的单元格内容对应规则",
+          "原文单元格中的乱码文本'橋仙宜居水案正作宜橋 仙pdktne窘'未保留，属于漏译",
+          "原文末尾多个条目（仙桥、上天梯、群仙簇队、奠杯、银瓶盏筋等）的所有内容在candidate中完全缺失，漏译严重"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6192,
+    "completion_tokens": 242,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6192,
+      "completion_tokens": 242,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

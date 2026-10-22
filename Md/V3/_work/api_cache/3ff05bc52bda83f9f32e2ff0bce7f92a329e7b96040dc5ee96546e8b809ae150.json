@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-25T14:30:26.325333+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3ff05bc52bda83f9f32e2ff0bce7f92a329e7b96040dc5ee96546e8b809ae150",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000070-p000-0175488141",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘非爲正功乃喜埋蔵’是否定喜埋藏的意思，candidate译为‘却适合被埋藏’，与原文表意完全相反；原文‘實玩’意为供玩赏的器物，candidate误译为‘实际是供人赏玩的好物’，将中性表述改为褒义，不符合原文语境。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000072-p000-46d56357ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“授之於僥則實批”中“僥”“批”为存疑文字，含义不明",
+          "“若凶齊囟”中“囟”为OCR识别存疑字符，相关表述语义待考"
+        ]
+      },
+      {
+        "id": "book028-b000073-p000-a0704af3c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘非龍格可畧’意思是不能在龙格上疏忽，candidate译为‘不是龙格可以忽略不计的情况’，表意含混，不符合原文语义。"
+        ],
+        "uncertainty": [
+          "“途重”为未明确术语，含义不详"
+        ]
+      },
+      {
+        "id": "book028-b000074-p000-ca9a145a83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000075-p000-ea9c80b6fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“尤金”为未明确术语，含义不详",
+          "“斗角”含义未明，“見斗角之朝者實射也”的具体所指待考"
+        ]
+      },
+      {
+        "id": "book028-b000077-p000-1a7a52a8c7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“竅身者和其過也”“斬褥有界其混也”为未明确风水术语，含义不详",
+          "“薰萊”含义未明，“以薰萊自致透微”具体含义待考",
+          "“是枯之類也”具体所指暂不明确"
+        ]
+      },
+      {
+        "id": "book028-b000078-p000-c74aa76bf1",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“開鍵來止交加萬有不齊”含义模糊，具体所指待考",
+          "“竊發閒見”语义未明，相关表述的准确含义待考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4068,
+    "completion_tokens": 673,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4068,
+      "completion_tokens": 673,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

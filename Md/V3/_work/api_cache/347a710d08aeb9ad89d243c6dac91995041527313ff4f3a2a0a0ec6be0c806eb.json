@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:41:09.383554+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "347a710d08aeb9ad89d243c6dac91995041527313ff4f3a2a0a0ec6be0c806eb",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000007-p000-3e495baf5c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘向’（按allowed_glossary指方位）误译为‘我（向）与’，未按术语定义处理，属于专业术语误换"
+        ],
+        "uncertainty": [
+          "原文‘向’的含义因allowed_glossary仅定义为建筑或穴位所朝方位，此处语境中该术语的具体所指需明确"
+        ]
+      },
+      {
+        "id": "book014-b000008-p000-ca1837a58d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "戊子年具体所指的年份不详"
+        ]
+      },
+      {
+        "id": "book014-b000009-p000-8455fa88b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "己丑年具体所指的年份不详"
+        ]
+      },
+      {
+        "id": "book014-b000010-p000-db09f5f91d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1281,
+      "completion_tokens": 280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

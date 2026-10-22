@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T19:59:14.226118+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1ebf188cc6fe9801b89d29d6f0e930b356419ac8af2da77176989000624694f5",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003208-p000-a40b321769",
+        "language": "mixed",
+        "content_type": "古籍注释",
+        "action": "rewrite",
+        "modern_text": "这里汇总《井》卦九二的爻辞，两句分别取对应的意象来解释：前一句说的“射鲋”，比喻任用人才时没有用到他擅长的领域，属于用材不当；后一句说的“瓮敝漏”，比喻人才没有得到他人的举荐提拔。《周易学说》引用李士珍的说法：“瓮破了之后水（风水语境中的河流、水系及其来去形态）就会往下漏，不管有没有人去打水结果都一样；这就好比君主任用贤才，发现了人才却不举荐，就算举荐了也不优先重用，本质上和没发现这个人才是一样的。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003209-p000-a9ca15c691",
+        "language": "modern_chinese",
+        "content_type": "古籍译文",
+        "action": "preserve",
+        "modern_text": "译文九三，水井掏治洁净却不被汲食，使我心中隐隐凄恻；应该赶快汲取这清澈的井水，君王圣明君臣将共受福泽。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003210-p000-461eca5c10",
+        "language": "classical_chinese",
+        "content_type": "周易爻辞原文",
+        "action": "rewrite",
+        "modern_text": "九三爻的爻辞说：水井已经淘干净了，却没有人来打水饮用，这让我心里感到难过；这时候是可以前来汲水的，如果君主圣明，君臣都能一同享受到这份福泽。注①、注②为原文附带的标注位置。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003211-p000-66cd7b3ed3",
+        "language": "mixed",
+        "content_type": "古籍注释",
+        "action": "rewrite",
+        "modern_text": "以下是对“井渫不食，为我心恻”的匡正解释：“渫”读音为xiè，意思是把井里的污泥掏出来，让水（风水语境中的河流、水系及其来去形态）变得洁净；“为”字按照《王注》的解释，就是“使”的意思。这句话说的是九三爻处在《井》卦下卦的最上位，属于阳刚居正的位置，但下方没有对应的阴爻可以依凭，就好比水井已经修治得很干净，却没有人来汲水饮用，所以才会发出“心恻”的感叹。《集解》引用荀爽的说法：“渫就是去除污秽浊物，让水变得清洁的意思。九三爻的位置是得正的，所以说‘井渫’；不能占据阴位，就好比贤才得不到任用，所以说‘不食’，自己的主张得不到推行，所以才会‘我心恻’。”注①为原文附带的标注位置。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1659,
+    "completion_tokens": 796,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1659,
+      "completion_tokens": 796,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-26T04:44:41.214453+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5a543bc9e5cbdb73ff387d53636c67365682ff917060ac81aa8c429d90ae4f08",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000242-p000-b10c4b71e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“精晚”实为“精曉（通晓）”的形近讹写，候选误写为“精通通晓这些内容”的表述存在字误对应问题，且原文“某方省水”的“省”释为“少”缺乏依据，属于无据释义",
+          "原文“细石考宽”未明确标注含义存疑，候选直接表述为“加以考量”属于将不确定内容作确定处理，不符合要求"
+        ],
+        "uncertainty": [
+          "“细石考宽”具体所指不详",
+          "“省水”的“省”确切含义未明"
+        ]
+      },
+      {
+        "id": "book032-b000266-p000-69bd74be49",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1064,
+    "completion_tokens": 236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1064,
+      "completion_tokens": 236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

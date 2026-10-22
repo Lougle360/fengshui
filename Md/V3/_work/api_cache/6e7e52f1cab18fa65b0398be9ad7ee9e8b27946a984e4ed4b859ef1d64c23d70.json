@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T01:28:26.700457+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6e7e52f1cab18fa65b0398be9ad7ee9e8b27946a984e4ed4b859ef1d64c23d70",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b005049-p000-d3fc726d63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005050-p000-e054522d14",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘五生数’指五个生数（一、二、三、四、五），‘五成数’指五个成数（六、七、八、九、十），候选误译为‘五这个生数’‘五这个成数’，与原文含义完全相悖"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005051-p000-b0b151133a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文提及的成数包括六、七、八、九、十，候选遗漏了‘十’，只提到六、七、八、九，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005052-p000-657b9db603",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005053-p000-920691fc50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005054-p000-11d6833989",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘虚五分十’的含义是虚置中央的五，将十分散配置，候选译为‘虚去五、用十’表述不准确，存在歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005055-p000-7e94bd4571",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005056-p000-ac5cb10d35",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005057-p000-5e43728616",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005058-p000-cf34081dc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4273,
+    "completion_tokens": 704,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4273,
+      "completion_tokens": 704,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

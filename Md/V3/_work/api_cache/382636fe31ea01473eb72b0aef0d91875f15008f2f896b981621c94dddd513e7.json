@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T13:48:24.414064+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "382636fe31ea01473eb72b0aef0d91875f15008f2f896b981621c94dddd513e7",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000354-p000-1bc510fee6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文最后一句未完整译出，存在漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000355-p000-4d9e0d08f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "星气、内学、图纬、台官的具体所指，原文未明"
+        ]
+      },
+      {
+        "id": "book015-b000356-p000-2c4f68df84",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "此处“畴人传”的具体所指，原文未明确说明"
+        ]
+      },
+      {
+        "id": "book015-b000357-p000-f33a2987f2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "此处“造化”的具体所指，原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2240,
+    "completion_tokens": 255,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2240,
+      "completion_tokens": 255,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

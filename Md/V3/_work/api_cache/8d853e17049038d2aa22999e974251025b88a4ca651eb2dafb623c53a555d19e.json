@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-26T08:16:55.980959+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8d853e17049038d2aa22999e974251025b88a4ca651eb2dafb623c53a555d19e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000351-p000-c352351865",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在重复、残缺段落，部分语句语义不完整，已按可辨识内容释读"
+        ]
+      },
+      {
+        "id": "book033-b000352-p000-75aec27830",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明显为残断错字，candidate未做任何释读说明，仅原样保留错谬内容，不符合“普通读者能读懂的白话释读”要求"
+        ],
+        "uncertainty": [
+          "原文错讹，无法识别具体含义"
+        ]
+      },
+      {
+        "id": "book033-b000353-p000-709d925e06",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“云牙布爪結穴”语义不明，未纳入释读"
+        ]
+      },
+      {
+        "id": "book033-b000354-p000-0bafc068d4",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量残缺、错乱文字，仅能整理可辨识内容，无法完整释读"
+        ]
+      },
+      {
+        "id": "book033-b000356-p000-557294eea8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及四世祖名“安”，candidate擅自增译“朱安”属于无依据添加内容；原文“行恭二名豈蔻”语义不明，candidate直接当成确定事实表述，未做标注；“吳景鸞下”未按风水语境通俗释读为“吴景鸾主持下安葬/点穴”，保留古语句式读者不易理解"
+        ],
+        "uncertainty": [
+          "“行恭二名豈蔻”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000357-p000-f7aa16704b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000358-p000-ff5ccffd0c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“比人首”应为“比入首”的形近讹字，candidate未做辨识直接保留错字；原文“莫知为万仞山巅”释读错误，正确含义是“（两旁拱卫的山很高）人们不知道穴位是在万仞山的山顶”，candidate原样照搬未释读；“有人執此等大地”属于误译，原文是“谁能认识是这样的大地”；“固非一穴之也所能孕”原文讹字“也”应为“力”，candidate未做说明"
+        ],
+        "uncertainty": [
+          "“走馬”“娥眉”“文星”为风水形峦术语，未做通俗释义不影响整体理解"
+        ]
+      },
+      {
+        "id": "book033-b000359-p000-55d8d0c98f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宣但贵也”是“岂止贵而已”的意思，candidate误译为“虽然富贵”，语义相反；“石檢在前”语义不明未标注；“不利初代宅”未释读为“对初代居住/安葬的人家不利”，读者不易理解"
+        ],
+        "uncertainty": [
+          "“石檢”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000361-p000-df6962cbec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000362-p000-8769ecfa0b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“巍峩翁捉”“不可殫巡”语义不明，已原样保留标注"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5640,
+    "completion_tokens": 1012,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5640,
+      "completion_tokens": 1012,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

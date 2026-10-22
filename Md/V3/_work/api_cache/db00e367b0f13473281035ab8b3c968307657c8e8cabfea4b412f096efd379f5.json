@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-09-26T16:22:11.371106+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "db00e367b0f13473281035ab8b3c968307657c8e8cabfea4b412f096efd379f5",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000583-p000-2715be059e",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000587-p000-c9811c6139",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文开头‘大從小而祥雲捧月以小輔大而羣鴈賔鴻’理解错误，原文核心是大龙脉结穴砂的簇拥关系，candidate误表述为‘大的砂被小的砂簇拥’；candidate将原文‘三四地面’错误保留，实际应为‘三四百地面’；candidate错误保留原文‘负成方’未做通顺化处理，还擅自将原文‘朝堂顧局’改为‘朝堂、顾盼局域’，不符合原文语境"
+        ]
+      },
+      {
+        "id": "book003-b000590-p000-f73bfa8132",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000605-p000-edd044d9a7",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000608-p000-20b31f6798",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000613-p000-efe2149f6f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current错误将原文‘左石無關界水入’理解为‘左右没有山石作为界水，且没有水流汇入’，属于无依据增译，原文‘關’是关拦之意，并无山石相关表述；current擅自将‘蛮皮’译为‘荒芜的蛮皮之地’，缺乏原文依据"
+        ]
+      },
+      {
+        "id": "book003-b000616-p000-fb9f0529da",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate错误保留原文讹字‘薪刻’，实际应为‘新刻’；candidate仅简单拆分原文未做通顺表述，不符合古籍整理通俗化要求，且未对内容属性进行必要说明"
+        ]
+      },
+      {
+        "id": "book003-b000619-p000-dd6a7a67c4",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000623-p000-2e19feb6cc",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current无依据将原文‘乾里丁亥卯未’改为‘乾位里的丁、亥、卯、未’，擅自增译‘位里的’；current无依据将原文残缺的坐向内容补充为‘坐向则需参考《玉尺经》卷六的记载’，属于主观臆测，不符合保守原则"
+        ]
+      },
+      {
+        "id": "book003-b000624-p000-17493c113d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7107,
+    "completion_tokens": 941,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7107,
+      "completion_tokens": 941,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T14:52:52.279009+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2ec1d9acf0001b62ff6eeded167056465fdfe00d79db1f1228030683cdcc806b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000921-p000-c8d02e1a7f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文开头的「の九五・上六」未明确对应某卦，候选释读补入「某卦」，与原文标注的不确定性一致，未改变含义"
+        ],
+        "uncertainty": [
+          "原文开头的「の九五・上六」所对应的卦名未明确，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 110,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1352,
+      "completion_tokens": 110,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

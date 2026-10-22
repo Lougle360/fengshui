@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T06:38:10.091038+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7884b5623faff83b625bd1656bad746d0022c3e5693f87ac73e690b9068013e5",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000737-p000-ca954afa1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000738-p000-fa76816a75",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000739-p000-2ca665e4b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘吾翁’译为‘父亲’是推测，原文可能指老师或尊长。应改为‘我的老师’或‘我的尊长’等更中性的表述。",
+          "将‘尼聖’译为‘尼山圣人’并解释为‘讲学’，是具体化推测。应保留‘尼圣’并说明指代不详，或译为‘如同尼圣（孔子）那样浑然一理’。",
+          "将‘武侯之陣列八圖’译为‘武侯的八阵图’是合理的，但‘神出鬼没’是增译，原文无此义。应改为‘如同武侯布列八阵图那样变化莫测’。",
+          "将‘翁其天砂經 卷授乎’译为‘父亲难道是传授《天砂经》吗？’是推测，且‘天砂經’书名号是添加的。应改为‘老师难道是传授天砂经卷吗？’并说明‘天砂经’具体所指不详。",
+          "将‘弁圖授受之式於後’译为‘并在后文附上图解和传授的体式’准确，但‘弁’通‘辨’，此处可译为‘辨别图式与传授的体式列于后文’更贴切。"
+        ]
+      },
+      {
+        "id": "book028-b000740-p000-2b72c9254d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘穿慱’疑似‘穿博’或‘穿剥’之误，此处依文意译为‘穿博而来’，具体所指不详。",
+          "原文‘行龍之處多不受穴’与后文‘穴亦有見於行也’存在辩证关系，保留原意。",
+          "原文‘出之不可棄而棄亦有見於出行’句式复杂，依文意译为‘出脉不可弃，而弃也有见于出脉’。"
+        ]
+      },
+      {
+        "id": "book028-b000741-p000-05e16ad7f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000744-p000-28730e4c70",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘開繫’译为‘开系’是音译，未解释。应保留‘开系’并说明具体所指不详，或根据上下文推测为‘开张、关联’之意。",
+          "将‘生結胎之處’译为‘生结胎之处’准确，但‘以遠遠較之自得’译为‘只要从远处比较，自然能明白其中的道理’是合理的释义。"
+        ]
+      },
+      {
+        "id": "book028-b000745-p001-dd0f119441",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘病务如’疑似残句，无法确定完整含义，仅保留原词并说明。"
+        ]
+      },
+      {
+        "id": "book028-b000746-p000-f2bac997c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘动虾’‘死鳅’‘伶行’等词在风水语境中具体所指不详，保留原词。",
+          "原文‘脉峽疑似’疑似残句，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000748-p000-e5e71a2725",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘两颉护鼻脉者，月也’整体保留，但‘月也’疑似有误或为比喻，candidate未处理此疑点。应在uncertainty中说明‘月也’具体所指不详。",
+          "将‘脉尽处可乘，峡尽处莫穴’译为‘脉尽处可乘，峡尽处莫穴’准确。"
+        ]
+      },
+      {
+        "id": "book028-b000749-p000-595455e31c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘强进生顺之外，贵龙何如’疑似残句，无法确定完整含义，仅保留原词并说明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3157,
+    "completion_tokens": 1105,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3157,
+      "completion_tokens": 1105,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

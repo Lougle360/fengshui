@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:21:53.565712+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7844b530d5bee9acf5b56ec0cee5c5de670c3e52d5ae8ee4fe3c5e38b8d925d2",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002588-p000-7e2ca96ebc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002590-p000-086c396333",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中“今取胡氏说”前的“(《周易口义》)”“(《群经平义》)”两处出处标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002591-p000-d9f61a32d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002592-p000-a6f07caba2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "①此处原书标注的注释内容未在当前提供的文本中出现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1767,
+    "completion_tokens": 263,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1767,
+      "completion_tokens": 263,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-23T09:54:54.017990+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "421fcb91b1983df25888ede25d933f9a85d39a16dd9b1d841fa6045bcec31a94",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000236-p000-c5e016121c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'水朝'，candidate释为'水朝来'，但后文'戌乾辰兌來臨'释为'有气或水来临'，增加了原文没有的'气'，属于无依据扩写。应统一处理为'水'的来去形态。",
+          "'自肓喑啞'释为'自盲或喑哑'，'肓'字OCR可能有误，但candidate未标注不确定性，直接写作'盲'，可能改变了原意。"
+        ],
+        "uncertainty": [
+          "'自肓喑啞'的'肓'字原文可能为'盲'或'肓'，含义不明。"
+        ]
+      },
+      {
+        "id": "book003-b000239-p000-8333630b60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000244-p000-ae3f89ec39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'乙辰木中火也'释为'乙辰是木中之火'，但原文'乙辰'可能指乙、辰两个方位，或乙辰这个组合，candidate将其作为一个整体'乙辰方位'处理，未明确其结构，且未保留writer_uncertainty中'乙辰木中火的具体所指'的标注。",
+          "'祖拳廢而遜流也'释为'导致祖业荒废而流落他乡'，'祖拳'释为'祖业'是推测，'遜流'释为'流落他乡'也是推测，candidate将其写为确定事实，未标注不确定性。应保留原文短语并说明含义不明。"
+        ],
+        "uncertainty": [
+          "'乙辰木中火'的具体所指。",
+          "'祖拳廢而遜流'的具体含义。"
+        ]
+      },
+      {
+        "id": "book003-b000248-p000-fd2d90c186",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1504,
+    "completion_tokens": 471,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1504,
+      "completion_tokens": 471,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

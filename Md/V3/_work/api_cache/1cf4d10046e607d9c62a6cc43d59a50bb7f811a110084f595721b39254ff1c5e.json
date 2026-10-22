@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-26T10:00:38.242656+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1cf4d10046e607d9c62a6cc43d59a50bb7f811a110084f595721b39254ff1c5e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000734-p000-8327ab98cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000739-p000-e4faceb4f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000743-p000-aa854a2bd7",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR识读误差，“获脑”“结六”均为存疑表述，“两脑同高”为推测修正内容，无确凿版本依据"
+        ]
+      },
+      {
+        "id": "book033-b000752-p000-daea110947",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“借乐安圩鰥亦所”存在断句歧义，“圩鰥亦所”具体所指不详，本次按风水术语通用逻辑修正断句为“借乐安存，形骸虽偏”，仅为合理推测"
+        ]
+      },
+      {
+        "id": "book033-b000756-p000-44c52eeb9b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“高山有似龍格平地有似羅星但龍格未作羅星孤寒”被误译为“高山上的平面金星有类似龙格的，平地上的平面金星有类似罗星的，但龙格如果没有形成罗星就会孤寒”，与原义偏差，原义为高山的平面金星像龙格、平地的像罗星，二者的区别是龙格不会形成（平面金星的穴）、罗星性质孤寒"
+        ],
+        "uncertainty": [
+          "“高申”具体所指不详；“控拔”“凑肆”为风水专用表述，“凑肆”按文义推测为“凑脉”，无确凿版本依据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2602,
+    "completion_tokens": 520,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2602,
+      "completion_tokens": 520,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T22:26:34.997683+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "93bc7ed9d3d1fa5cbfcb6fb07aef5b471b989e3e5b82a43d05d5759f590cdd87",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000189-p000-ec0e6b5f69",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000191-p000-84df4665bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“聚貧狼法”存在笔误，candidate直接沿用“貧狼”，未对应上下文反复出现的“贪狼”，属于术语错写；原文“甲庚丙壬為正向脉取貪狼護正龍”释读时漏译“脉取贪狼护正龙”核心语义，仅译“甲庚丙壬为正向”，内容不完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000198-p000-352ae3eeca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“坎離一起一落點至震中艮所謂坭落汾也至巽坤離所謂躍龍門也挨盡復在離宮逆輪轉前謂涕海翻身也”中，candidate将“涕海”改为“渤海”属于无依据改字，原文表述未明时不得擅自替换字；原文“實葉言立成掌訣”释读为“因此编成掌诀”表述不准确，该句含义未完全疏通，属于含混语句未标注"
+        ],
+        "uncertainty": [
+          "“坭落汾”“跃龙门”“涕海翻身”为术数专用口诀，具体操作细节原文未详"
+        ]
+      },
+      {
+        "id": "book031-b000201-p000-5e874ea0be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“年没身方六曰蒸然可坐而定”存在讹脱，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4138,
+    "completion_tokens": 449,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4138,
+      "completion_tokens": 449,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

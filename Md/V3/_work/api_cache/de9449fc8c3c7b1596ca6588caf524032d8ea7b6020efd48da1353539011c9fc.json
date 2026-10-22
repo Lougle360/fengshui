@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-16T11:02:52.667571+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "de9449fc8c3c7b1596ca6588caf524032d8ea7b6020efd48da1353539011c9fc",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002095-p000-31861bc751",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002100-p000-87615aa9c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘莫脫陰陽造化功’是祈使句，意为‘不要脱离阴阳造化的功用/规律’。candidate译为‘切记不要脱离阴阳造化的功夫’，将‘功’译为‘功夫’（指技艺、本领）不够准确，更贴切的现代白话应为‘功用’、‘作用’或‘规律’。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 747,
+    "completion_tokens": 148,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 747,
+      "completion_tokens": 148,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-24T20:38:22.241280+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c8b6420211fcb9ff30bf621a87dfd4c6ac5a7df8c3b21b5917a3f3742ab0503e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003502-p000-f5a532d527",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003504-p000-2c247490a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003505-p000-7887100793",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003507-p000-cc880296c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003508-p000-3865db4ae1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“饮食衎衎”被误写为“饮食衎衍”，存在文字错讹；2. 原文虞翻表述为“承三应五”，candidate错误译为“上承九三、下应九五”，六二爻位在九三之下、九五之上，应为上应九五、下承九三，爻位关系译写错误；3. 《纂疏》原文是引《诗经·魏风》的“素餐”义来解释“不素饱”，candidate错误译为“《诗·魏风》中说近承九三，远应九五”，语义逻辑完全错误；4. 原文《纂疏》“《诗·魏近承三”明显是OCR断句残损，candidate直接补为“《诗·魏风》中说近承九三”属于无依据补写，将推测内容写成了事实"
+        ],
+        "uncertainty": [
+          "原文《纂疏》开头“《诗·魏近承三”存在OCR断句残损，完整表述无法确定"
+        ]
+      },
+      {
+        "id": "book016-b003509-p000-16113a0c09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003511-p000-d5c82a2299",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2318,
+    "completion_tokens": 581,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2318,
+      "completion_tokens": 581,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

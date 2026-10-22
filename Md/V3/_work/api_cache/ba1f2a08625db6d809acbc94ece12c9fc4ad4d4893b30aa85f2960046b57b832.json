@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-24T20:57:22.989083+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ba1f2a08625db6d809acbc94ece12c9fc4ad4d4893b30aa85f2960046b57b832",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000141-p000-694e5c2e5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000142-p000-ce7f0c1ada",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘故天下有源之水，河为第一。古人祭川，先河后海，重其源也’中‘先河后海’是先祭黄河后祭海，候选误译为‘先祭祀河流源头，后祭祀大海’，将‘河’的具体所指泛化，语义错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000143-p000-dfa8d2c282",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000144-p000-28346b815b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000145-p000-76a4615703",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000146-p000-a5d22ffa2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘绿崖散漫’的‘绿’是‘缘’的通假，意为沿着崖壁，候选误译为‘绿色的崖壁’，语义错误；2. 原文‘殆未滥觞矣’意为几乎还没达到仅能浮起酒杯的极微水量，候选误译为‘还没有达到水势微弱的状态’，语义完全相反；3. 原文‘览百川之弘北’的‘北’为‘壮’的形近讹字，候选误译为‘宏大’虽大致含义接近但未准确对应，但核心错误为前两项；4. 原文‘此淮济为阔’的‘此’是‘比’的讹字，候选直接译为‘比淮水、济水宽阔’是正确的，此处无错；5. 原文‘经积石而为中国河’的‘中国’指中原地区，候选译为‘中原的黄河’准确，此处无错。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000147-p000-05d64b98c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘始禹导水流而为济，截河南渡’意为大禹疏导济水，济水穿过黄河南岸向北流（济水是横穿黄河的古水系），候选误译为‘截住黄河向南渡过’，语义完全错误；2. 原文‘济发源为名。今济州乃发源也’意为兖州因济水发源于此而得名，现在的济州就是济水的发源地，候选译为‘济水因发源而得名。现在的济州就是因发源而得名’，语义错误，混淆了得名主体。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000149-p000-3fe2e5dde5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000150-p000-d16eed7300",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘其川河沸’的‘沸’是‘泲’（济的古字）的讹字，候选误译为‘沸水’，属于专有名词误释；2. 原文‘其川漳拙长’的‘拙长’为‘漳水、潞水’相关的讹误，候选误拆为‘漳水、拙水’，属于无依据造水名；3. 原文注‘此九州川界’意为这是九州的疆域界限，候选误译为‘这是九州的河流边界’，语义错误；4. 原文‘其浸颍湛’对应的注释标记②，候选将标记放在‘湛水’之后，位置正确，此处无错；5. 原文‘其浸波溠’的注释标记④，候选放在‘溠水’之后，位置正确，此处无错。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000151-p000-25f94d2900",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5095,
+    "completion_tokens": 1147,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5095,
+      "completion_tokens": 1147,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

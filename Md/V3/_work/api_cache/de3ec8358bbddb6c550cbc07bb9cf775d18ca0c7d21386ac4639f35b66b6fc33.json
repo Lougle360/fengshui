@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T12:12:32.529482+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "de3ec8358bbddb6c550cbc07bb9cf775d18ca0c7d21386ac4639f35b66b6fc33",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b003396-p000-0bcb019e1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003397-p000-c50e756b62",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘坤、艮土克入为退神’，指坤、艮土作为克方来克，是被动承受克入，候选译文中‘坤、艮土被克入’属于语义反转，将克入的主动方变成了被克的对象"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003398-p000-279f9032f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003399-p000-2c2eb79ec3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003400-p000-c99b905942",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003401-p000-5c8c4e70eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文主语为寅山，所有生克关系的主体都是寅山，候选译文错误将主语替换为‘壬、子、癸三个方位的水’，完全改变了原文的五行生克逻辑：原文是壬癸水生寅木为进神、寅木克坤土为进神、寅木生丙丁巳火为退神、乾申金克寅木为正配不凶，译文所有生克的主体和关系全部错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003402-p000-707bcadf44",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003403-p000-2e161ac8a7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文主语为甲山，所有生克关系的主体都是甲山，候选译文错误将主语替换为‘壬、子、癸三个方位的水’，完全改变了原文的五行生克逻辑：原文是壬癸水生甲木为进神、甲木克坤土为进神、甲木生丙丁火为退神、乾申金克甲木为正配不凶，译文所有生克的主体和关系全部错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003404-p000-55a6a307f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003405-p000-541cbedeee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文主语为乙山，所有生克关系的主体都是乙山，候选译文错误将主语替换为‘壬、癸两个方位的水’，完全改变了原文的五行生克逻辑：原文是壬癸水生乙木为进神、乙木克坤辰戌土为进神、乙木生丙丁火为退神、乾申金克乙木为正配不凶，译文所有生克的主体和关系全部错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2295,
+    "completion_tokens": 854,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2295,
+      "completion_tokens": 854,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T10:29:36.804345+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "db5b766f33a167b089f55f7d70ad829940718ec96c2aa01f5a327d0a3ad00f9d",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000753-p000-9a66489f42",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中讹误的「諭」字直接保留未标注，「不酒」二字未明确说明具体所指不详，且「雞虎水猶龍土星免犬木騎馬金歸申丑」未按原文保留原样，存在随意改动的问题"
+        ],
+        "uncertainty": [
+          "「諭」字疑为「論」字的讹误，「不酒」二字具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 142,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1198,
+      "completion_tokens": 142,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

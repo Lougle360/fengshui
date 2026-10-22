@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-18T04:42:45.189083+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "73c5535572ce3749b1c79be0c5f423fc7f97682f2779849d701250bbdab250f0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005449-p000-0660bb2d28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘贪巨禄文廉武破辅弼’九星，candidate误写为‘贪狼、巨门、禄存、文曲、廉贞、武曲、破军、左辅、右弼这九颗星’，原文是八山对应八星（辅弼常合论），candidate误增为九星且错列‘右弼’。",
+          "原文‘乾弼離破軍’等是具体对应关系，candidate概括为‘乾山对应离卦’等，丢失了具体的星曜对应（如乾山对应弼星，离山对应破军星）。",
+          "原文表格内容复杂，candidate仅以‘例如，乾山对应离卦，震山对应离卦，兑山对应兑卦等’概括，遗漏了大量具体的卦象组合与方位关系信息，属于严重漏译。",
+          "原文‘起例從七變對宮起貪狼如乾七變爲離離與震對從震上起貪狼捷法從間宮起貪狼’，candidate释读为‘从七变的对宫起贪狼星。例如，乾山七变对应离卦，离卦与震卦相对，则从震卦上起贪狼星。另有捷法，即从间宫起贪狼星。’此部分释读基本准确，但前文大量信息缺失，导致此规则孤立无依。",
+          "原文‘此卦從天父卦七變而來蓄坐穴以此定吉凶絕’，candidate释为‘此卦例源自天父卦的七变规律，用于确定穴的吉凶，若判断为绝命或五鬼，则需参考福德卦进行参详。’其中‘蓄坐穴’未译出，‘绝’字可能为‘诀’或与后文‘命卦五鬼卦’相连，candidate自行补全为‘若判断为绝命或五鬼，则需参考福德卦进行参详’，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，部分对应关系（如‘疆 游桃 五’、‘命卦五鬼卦在天地卦爲福德絕命爲五鬼可參’）含义不明，candidate未处理或说明。",
+          "‘蓄坐穴’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b005452-p000-7ba13bba1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 611,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1691,
+      "completion_tokens": 611,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

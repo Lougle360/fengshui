@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:35:08.283369+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "386bfd9fa9ca9c77d099edf8a16cfcb72a6d25da14fc9ace258c15f4c6ae720b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001101-p000-2e0645fb9d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001102-p000-66538a80ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001103-p000-998b3ee2e3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary中‘离’的定义为八卦之一，但原文‘畴离祉’的‘离’并非指八卦，此处术语误换，未按allowed_glossary的定义处理，属于专业术语误换问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001104-p000-834f02ad29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1566,
+    "completion_tokens": 247,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1566,
+      "completion_tokens": 247,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

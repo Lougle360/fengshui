@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-18T08:35:00.240581+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0d93ac4d408c70f9163b803cb2becc34568067c62b12bd990387ed9bce75f83a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005992-p000-46937408dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将HTML表格内容描述为一段叙述性文字，但未能准确、完整地传达表格的结构和内容。例如，未能清晰说明‘乙六丙七丁八’与‘斗木獬 持特世’在同一行的左右关系，以及‘才八 官’、‘八’、‘八世’、‘父’等条目在表格中的具体位置和关联。这属于对源信息的简化处理，未能忠实反映原文的布局和数据关系，不符合‘完整’的要求。",
+          "候选句将‘坤 乾 兑 艮 離’描述为‘坤、乾、兑、艮、离’，虽然顺序一致，但原文是空格分隔，候选句使用了顿号，虽不影响理解，但严格来说未保留原格式。不过，主要问题在于结构描述不清。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005995-p000-03e7c207d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘金因妻才起家’中的‘金’具体指代不明，可能指五行之金，也可能指星宿属性。",
+          "‘五音及绝户孤寡田地’的断句和具体含义模糊。",
+          "‘须是水是入局’中的‘水是’可能为笔误或特定术语，含义不明。",
+          "‘终患羊两差错煞’中的‘羊两’具体所指不详。",
+          "‘平平中小’可能指运势平顺及利于中房小房，但原文表述模糊。"
+        ]
+      },
+      {
+        "id": "book035-b005998-p000-83ece40afc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘在旺中小吉’中的‘在旺中’具体指在旺度中还是处于旺盛状态，原文未明。",
+          "‘尾金木水度去’具体指尾宿的金、木、水度，原文表述简略。",
+          "文中关于箕宿水土度的描述有重复，可能为传抄错误。",
+          "‘横过室去不妨’具体指水流横向经过室宿，原文未明。",
+          "‘土离中水来去’中的‘土离’具体指代不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2614,
+    "completion_tokens": 587,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2614,
+      "completion_tokens": 587,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

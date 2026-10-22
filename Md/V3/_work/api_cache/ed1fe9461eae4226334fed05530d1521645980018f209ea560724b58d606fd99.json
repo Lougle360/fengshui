@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T14:07:37.516494+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ed1fe9461eae4226334fed05530d1521645980018f209ea560724b58d606fd99",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000548-p000-0d07df52ce",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秦九韶针对《蓍卦发微》，将包含数值在内的大衍求一术的各项计算过程都详细记录下来，还为每一个计算过程都绘制了布算的图。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000549-p000-f3970a4f1e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "其细草与算图，针对上述 $n x \\equiv 1 ( \\bmod m )$ 运用大衍求一术计算的话，结果如下所示。",
+        "confidence": "medium",
+        "uncertainty": [
+          "公式 $t = \\phi _ { } > t _ { } > t$ 含义不明"
+        ]
+      },
+      {
+        "id": "book015-b000551-p000-0090b2207e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "秦九韶按照上述过程计算 $P _ { i } \\ \\xi \\ r _ { i }$，确认n与m互素，利用其间产生的 $r _ { k - 1 } = 1$ 来推导 $P _ { k - 1 }$。也就是，基于最初的条件(n，m)=1以及互除法的性质 $( n , \\ m ) = ( n , \\ r _ { 1 } ) = \\cdots = ( r _ { k - 1 } , 0 ) = r _ { k - 1 }$，关注其中 $r _ { k - 1 } = 1$ 的情况，求出此时的 $P _ { k - 1 }$。",
+        "confidence": "medium",
+        "uncertainty": [
+          "符号 $\\xi$、$\\hbar$、$\\hat { \\boldsymbol { \\mathrm { 5 } } }$ 含义不明；符号 $\\Xi \\subset \\Sigma$ 含义不明"
+        ]
+      },
+      {
+        "id": "book015-b000552-p000-a42d60a28c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "但是 $n x \\equiv 1 ( \\bmod m )$ 的解为 $x \\equiv ( - 1 ) ^ { k - 1 } P _ { k - 1 } ( \\bmod m )$，其正负必然会随着k的奇偶发生变化。因此，秦九韶将“右上余1”作为确定乘率的条件，以此解决正负的问题。也就是，当k为奇数时，",
+        "confidence": "medium",
+        "uncertainty": [
+          "符号 $\\mathcal { D }$ 含义不明；原文在此处未完结"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1980,
+    "completion_tokens": 708,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1980,
+      "completion_tokens": 708,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

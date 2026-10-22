@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T10:30:37.103644+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6569f820c883c7c57acb58151e5c4fb05bcd3dd861a9bb6c53faefe91ec8f0f4",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000772-p000-820dbb0071",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘九八九十’的顺序应为‘八、九、十’，候选句将其调整为‘八月、九月、十月’，但遗漏了原文的‘九’‘八’顺序颠倒的问题，且原文的‘土’未明确所指，候选句直接保留未标注，存在歧义未说明的问题"
+        ],
+        "uncertainty": [
+          "原文中的‘土’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 766,
+    "completion_tokens": 135,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 766,
+      "completion_tokens": 135,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-09-23T15:21:10.161646+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b6ca2c9e2ac9a153e8772b48c34e635d7701bb9ffe8366bf4a93dac338c86cc1",
+  "response": {
+    "items": [
+      {
+        "id": "book004-b000067-p000-89b4a0c895",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘君木之波’解释为‘其气旺盛，说的是纳气充盈的状态’，这是无依据的扩写，source中‘君木之波’是含混短语，应保留原词并标注不确定。",
+          "candidate将‘郭朴塟经’解释为‘文中还提到‘郭朴塟经’，具体所指不详’，这是正确的风险标注，但source中明确写为‘郭朴塟径’，candidate误写为‘郭朴塟经’，属于OCR或转写错误。",
+          "candidate将‘绝经’与‘郑宗’标注为语意不明是正确的，但source中为‘绝经’和‘郑宗’，candidate误写为‘绝经’和‘郑宗’，需修正。",
+          "candidate中‘四极鳌布’未在source中出现，属于无依据增译。"
+        ],
+        "uncertainty": [
+          "君木之波",
+          "郭朴塟径",
+          "绝经",
+          "郑宗"
+        ]
+      },
+      {
+        "id": "book004-b000068-p000-167dbfbd52",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘时寺’解释为‘隆峙’，这是无依据的扩写，source中‘时寺’是含混短语，应保留原词并标注不确定。",
+          "candidate将‘不模柳情势’解释为‘岂不是支侧明争而不模柳情势端明’，这是对source中‘不模柳情势端明’的误读和扩写，应保留原短语并标注不确定。",
+          "candidate将‘撞断石过独’解释为‘五害指撞、断、石、过、独’，这是正确的术语解释，但source中为‘撞断石过独’，candidate误拆为‘撞、断、石、过、独’，需核对原文是否确为五者并列。",
+          "candidate将‘朱他外篇祧’标注为语意不明是正确的，但source中为‘朱他外篇祧’，candidate误写为‘朱他外篇祧’，需修正。"
+        ],
+        "uncertainty": [
+          "时寺",
+          "不模柳情势",
+          "朱他外篇祧"
+        ]
+      },
+      {
+        "id": "book004-b000069-p000-1aba0e867e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "藿",
+          "湲泥"
+        ]
+      },
+      {
+        "id": "book004-b000070-p000-11fcf8aa6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "卜垄"
+        ]
+      },
+      {
+        "id": "book004-b000072-p000-641d0e3b2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "侯肤有问",
+          "文具义祠",
+          "仁权于上",
+          "玄柴",
+          "兹操"
+        ]
+      },
+      {
+        "id": "book004-b000073-p000-783e118232",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "郭井奉经"
+        ]
+      },
+      {
+        "id": "book004-b000074-p000-ac720fb614",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘夹主虾气之水’标注为语意不明是正确的，但source中为‘夹主虾气之水’，candidate误写为‘夹主虾气之水’，需修正。",
+          "candidate将‘严乾就湿’标注为语意不明是正确的，但source中为‘严乾就湿’，candidate误写为‘严乾就湿’，需修正。",
+          "candidate将‘至押朴葬经’标注为语意不明是正确的，但source中为‘至押朴塟经’，candidate误写为‘至押朴葬经’，需修正。",
+          "candidate中‘郭井奉经’未在source中出现，属于无依据增译。"
+        ],
+        "uncertainty": [
+          "夹主虾气之水",
+          "严乾就湿",
+          "至押朴塟经"
+        ]
+      },
+      {
+        "id": "book004-b000076-p000-2bf8bed4a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000078-p000-22e1788c21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "物无阴阳进天背原"
+        ]
+      },
+      {
+        "id": "book004-b000079-p000-87d23b725a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "郭梓董礼卷"
+        ]
+      },
+      {
+        "id": "book004-b000080-p000-97a720df3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book004-b000081-p000-a1afb9a296",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘日力之巧’解释为‘日力之巧’，但source中为‘日力之巧’，candidate误写为‘日力之巧’，需核对原文是否为‘目力之巧’（前文有‘目力之巧’）。",
+          "candidate将‘趋金游缺’标注为语意不明是正确的，但source中为‘趋金游缺’，candidate误写为‘趋金游缺’，需修正。"
+        ],
+        "uncertainty": [
+          "日力之巧",
+          "趋金游缺"
+        ]
+      },
+      {
+        "id": "book004-b000083-p000-5f0b3cf752",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6115,
+    "completion_tokens": 1351,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6115,
+      "completion_tokens": 1351,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

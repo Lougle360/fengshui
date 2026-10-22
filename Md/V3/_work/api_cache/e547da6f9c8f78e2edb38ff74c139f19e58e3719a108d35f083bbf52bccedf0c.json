@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:21:23.445487+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e547da6f9c8f78e2edb38ff74c139f19e58e3719a108d35f083bbf52bccedf0c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000214-p000-aef0b2714b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文脱漏错讹的“乌人”“长厥”“作见”等表述译为“人口伤亡”“子孙后代”“怪异的梦”，属于无依据扩写，不符合原文含义不明的情况"
+        ],
+        "uncertainty": [
+          "原文存在多处脱漏、错讹，“乌人”“长厥”“作见”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000215-p000-1f38a894bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000216-p000-51613dd45c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺漏，“内午”“内晚”“初朝”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000217-p000-75c9653126",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“莫相憐”译为“不要怜惜”，属于无依据扩写，原文未明确“莫相憐”的具体指向；将“全局歌中備此篇”译为“其余全局的相关内容，歌诀中已有详细记载，此篇仅作补充”，属于无依据扩写，不符合原文含义"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1357,
+    "completion_tokens": 367,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1357,
+      "completion_tokens": 367,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

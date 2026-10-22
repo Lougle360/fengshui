@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T23:29:44.320343+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4037db3476954f7bf5fed8e4f0c6951b4ac12d0ea6726c1a3b956252591e2c80",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001200-p000-df4f822c5c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“一元之一え之去凶依え而定宅六之坐山及向方”存在疑似识别误差的字符“え”，无法准确释读；“此即、山、向之文名報”中的“文名報”具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001202-p000-cfe9f9897c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“無非由有形以舉會形依时而用其去”表述晦涩，部分含义难以确定；“豈有諸般き作者”中的“き”疑似OCR识别错误，“諸般き作者”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001205-p000-5dde686b14",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“众每非日推版元氣聚散吉凶之公式以及用此元氣之計算而已”存在识别误差，候选将“众每非日推版”译为“众人往往不是推究”属于无依据的确定释读，与原文含混语义不符；原文“宏空三诀”被默认等同于玄空相关内容但未明确标注不确定性，不符合要求"
+        ],
+        "uncertainty": [
+          "原文“众每非日推版元氣聚散吉凶之公式以及用此元氣之計算而已”存在疑似OCR识别误差的内容，语义难以完全确定；原文开头的“宏空三诀”与后文的“玄空”是否为同一内容无法确认"
+        ]
+      },
+      {
+        "id": "book017-b001207-p000-459dc31f0c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“全渠堂上 起星尼類聚裝成的妙訣”存在多处疑似OCR识别错误的内容，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1571,
+    "completion_tokens": 492,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1571,
+      "completion_tokens": 492,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:50:27.151357+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "62040ae88d75f68a1cc9f6a6ea32c493feda214c07012e05f27065cf6f89bb52",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000920-p000-31bb27c1ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "石延丁的具体含义不详",
+          "裙破的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000921-p000-e9aa14fcc3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘簿筏’释为‘簿筏’未明确是否为风水语境特定事物，‘不骨结’‘馀秀’的释读未依据给定术语，存在语义模糊风险"
+        ],
+        "uncertainty": [
+          "骨结的具体含义不详",
+          "馀秀的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000922-p000-c436d9ede3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "‘自作自为’‘沙体’的释读未依据给定术语，存在语义模糊风险"
+        ],
+        "uncertainty": [
+          "自作自为的具体含义不详",
+          "沙体的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1364,
+    "completion_tokens": 251,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1364,
+      "completion_tokens": 251,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-15T05:27:53.118716+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1920df331a1d7eb9d79bbaecb226222d3816f9df98a92fbcbf00d25afee34ee1",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001946-p000-12b68b61f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001947-p000-35c0750d68",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001948-p000-c2176c0631",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“玩马”应为“玩焉”之误，candidate未标注此OCR或原文疑误。",
+          "“怜壬之中”的“怜”字，candidate直接沿用，未标注其可能为“邻”或他字之误。",
+          "“董公子去重”释为“董公子去重”，未明确标注此为原文专名，具体所指不详。",
+          "“与其分金则本于陈希夷……非即颐初大雪末而卦气起中孚之说？”一句，candidate处理为陈述加疑问，但原文为连续引用和反问，释读在语气和逻辑连接上不够清晰，易造成理解困难。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001949-p000-fe1e57fa40",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001950-p000-722b89a6e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4531,
+    "completion_tokens": 327,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4531,
+      "completion_tokens": 327,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T16:38:05.850792+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9fb940c6c8ddda92cb014bcf12168ec7cce0b50db0bc45121a916f465b2415c1",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000297-p000-7fb0aca732",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000298-p000-feada246bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000299-p000-9e01156020",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选内容混入了原文未有的释文内容，将《本义》的释文与原文混淆，且未按要求仅释读source内容，反而混入了额外的释文语句，属于对原文内容的不当增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000300-p000-cfddd63200",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1632,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1632,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T16:24:16.840955+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "da1c45994f05de2e447afebcaa1adab13076a8d1cf702f12aced55814bd5d39f",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000225-p000-7070271332",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000226-p000-84c806c9e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000227-p000-0dbc1165b9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原句语义残缺，无法明确具体含义"
+        ]
+      },
+      {
+        "id": "book016-b000228-p000-4fec3d1e38",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原句未完整表述“九”的含义，存在缺漏"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 229,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1512,
+      "completion_tokens": 229,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

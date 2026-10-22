@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-10-16T11:08:57.032234+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f3880fb946d14c1ed63900005f279224d8b6aaad7eb798eb1785fc75e18f57c8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002125-p000-5c854afd1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "离枕球檐的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b002128-p000-d510c22130",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水中裁’是‘在水里裁剪’或‘依据水来裁剪’的意思，candidate 释为‘依据‘水’的形态进行裁剪’属于无依据的扩写，且‘原文未明确说明具体操作细节’是多余的增译。应保守释读为‘（将）顽金打破，在水中裁剪’或类似，并标注不确定性。"
+        ],
+        "uncertainty": [
+          "顽金打破的具体指代",
+          "水中裁的具体操作"
+        ]
+      },
+      {
+        "id": "book035-b002129-p000-1ee984b61e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘淋頭割腳楊分秘雲’应断句为‘淋頭割腳。楊分秘雲：……’，candidate 将其整体视为一个待解释的短语‘淋头割脚杨分秘云’，导致后续‘或有尽阴者……’等内容被误判为‘杨分秘云’的引述内容，造成严重漏译和结构混乱。",
+          "原文‘放棺要饒二分避球湊檐下放出五七寸下棺不可關脈此謂之割腳’是描述‘脉如剑脊’（小人之相）时的做法，candidate 释读中缺少了关键前提‘放棺要饒二分’，且将‘避球湊檐下’与‘放出五七寸’的并列关系处理得不够清晰。",
+          "原文‘卻要湊球避檐個字上放棺不可饒減以接其氣爲之淋頭不割腳’是描述‘脉如仰掌’（君子之相）时的做法，candidate 释读中‘在‘个字’上放棺’的表述不够准确，原文‘個字上’可能指‘个字’形状的位置或结构。"
+        ],
+        "uncertainty": [
+          "杨分秘云的具体含义",
+          "关脉的具体含义",
+          "三易合角的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b002132-p000-c3b184a364",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "鞠水取两边门暗鱼水腮切的具体含义",
+          "顽面硬面的具体指代"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1573,
+    "completion_tokens": 536,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1573,
+      "completion_tokens": 536,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

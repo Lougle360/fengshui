@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-10-04T00:15:15.703590+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "46c9392464817e0b62dc7385df6b3bc3a1438f35ccc3fc9b1db682940a926da4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000154-p000-3cb0852391",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "活友活此 峽ク姝蠟 廟餼也",
+          "山勢不"
+        ]
+      },
+      {
+        "id": "book035-b000155-p000-9f1ebbd92e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "經去勢如驚蛇屈曲歌斜滅國亡家",
+          "德不孤必有憐看他侍從也大自之出入作是不少也出地理有定多明自大地中從少而成小地青出"
+        ]
+      },
+      {
+        "id": "book035-b000157-p000-263499d6aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "的業員",
+          "有年見下月也"
+        ]
+      },
+      {
+        "id": "book035-b000158-p000-a8afba144a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "穿割箭射之合避而之心中地生有也此者水之 也合者者水之"
+        ]
+      },
+      {
+        "id": "book035-b000161-p000-2d3589f2fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘五户不關何足取’，candidate 释为‘穴虽奇，“五户”不关，何足取？’，但‘五户’是 opaque_term，不应被 candidate 直接引用并赋予‘门户’的确定含义。应将其视为原文片段，说明其含义不详。",
+          "原文为‘若無間問使不足取’，candidate 释为‘若无间问，则不足取’。‘间问’是 opaque_term，candidate 将其作为确定术语使用，不妥。应说明其含义不详。",
+          "原文为‘五元辰當心直出’，candidate 释为‘“五元辰”当心直出’，并推测‘“五”字可能为衍文或误植’。此处理符合规则，但‘元辰’是 opaque_term，candidate 在后文解释‘“元辰”者，穴前之“水”当心直出’时，将其与‘穴前之水’等同，这超出了 allowed_glossary 的定义（‘水’的定义是‘风水语境中的河流、水系及其来去形态’，并未特指‘穴前之水’）。应避免这种具体化解释。"
+        ],
+        "uncertainty": [
+          "五元辰",
+          "池若"
+        ]
+      },
+      {
+        "id": "book035-b000165-p000-ff8663bef1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘撞主人才不吉’，candidate 释为‘撞主人才不吉’。‘主人才’是 opaque_term，candidate 将其作为确定短语使用，未说明其含义不详。",
+          "原文为‘抱塡宛轉是金城’，candidate 释为‘“抱塡宛轉是金城”，“抱塡”疑似文字有误’。此处理符合规则。但后续‘木似牽牛鼻索’、‘優火類到書人字樣’、‘水形屈曲之玄明’等句，candidate 仅对第二句标注了不确定性，对第一、三句则直接引用，未说明其整体含义可能不明确或文字有误。应统一说明这些诗句片段文字错乱，含义不详。",
+          "原文为‘土星平正多澄渚’，candidate 释为‘土星平正，多澄渚’。‘澄渚’是 opaque_term，candidate 未说明其含义不详。",
+          "原文为‘更有轉變清溝聲如淮之水’，candidate 释为‘更有转变，清沟声如淮之“水”’。‘清沟声’是 opaque_term，candidate 未说明其含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2616,
+    "completion_tokens": 896,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2616,
+      "completion_tokens": 896,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

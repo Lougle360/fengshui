@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T18:25:28.189817+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "24b8cb52a4b0a4afdca6abd71af731e4e71f0103d58bfea5d9b2aa75c6f7e18b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001932-p000-bdaa9328b0",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：山下有雷，这就是颐卦的意象；君子因此言语谨慎，饮食节制。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001933-p000-70938df241",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：山下响动着震雷(下动上止、如口嚼食)，象征“颐养”；君子因此慎发言语以养德，节制饮食以养身。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001934-p000-ee5d696339",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①山下有雷，颐：解释颐卦的意象是上为艮山、下为震雷。《集解》引用刘表的话：“山在上方静止，雷在下方响动，这就是颐卦的意象。”（可参阅卦辞译注中引用的郑玄之说）",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001935-p000-bbdfaecd06",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②慎言语，节饮食：这是说明君子效法颐卦的养正之道，通过谨慎言语来修养品德，通过节制饮食来修养身心。《正义》记载：“前代儒者说：‘灾祸从口中说出，病患从口中进入。’因此在颐养之时要做到谨慎、节制。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1684,
+    "completion_tokens": 498,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1684,
+      "completion_tokens": 498,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

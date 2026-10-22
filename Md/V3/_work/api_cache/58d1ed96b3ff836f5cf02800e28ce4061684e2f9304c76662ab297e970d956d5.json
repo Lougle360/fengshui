@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-26T16:09:37.974721+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "58d1ed96b3ff836f5cf02800e28ce4061684e2f9304c76662ab297e970d956d5",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000211-p000-b30055037f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000218-p000-40ab075a7f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“王出聰明女人”属古籍传抄讹误，结合语境应为“主出聪明女子”，candidate无依据保留“王出聪明女人”并质疑“王”的含义，属于过度存疑；原文“殊朝”指殊胜的朝应水，candidate无依据标注其含义不明，属于不必要存疑；“亥聯寅甲巽庚”无需额外推测，candidate增加无依据解释不符合保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000219-p000-6b59bb6241",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“異亥”为“巽亥”的讹误，“巽亥至文”指巽亥主文运，candidate无依据标注“異亥至文”含义不明，属于过度存疑；原文“甲卯”是同一方位组合，candidate拆分“甲方、卯方”不符合术语惯例"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000221-p000-56adbb6074",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000223-p000-793bf057e2",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“木盛火烈，其性威烈”是解释巳丙水出武将的原因，逻辑清晰，candidate无依据质疑其逻辑关系，属于错误存疑；current明确区分可通顺部分与存疑部分，更符合出版要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000227-p000-6f8309de55",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“直射綱小”的“綱”含义不明，“偏室武職”含义不明，均已明确存疑，符合保守原则"
+        ]
+      },
+      {
+        "id": "book003-b000228-p000-f862e94401",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“扛處之福”原文语义不明，已明确存疑，符合要求"
+        ]
+      },
+      {
+        "id": "book003-b000232-p000-462ff9d34b",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“成”疑为“戌”讹误，已明确存疑；“火王”含义不明，已标注，符合保守原则"
+        ]
+      },
+      {
+        "id": "book003-b000236-p000-c5e016121c",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“自肓喑啞”的“肓”为“盲”的讹误，“戍乾辰兌來臨”结合上下文指水来临，current表述通顺准确；candidate无依据保留讹误并过度存疑，且额外推测“肓”为讹误不符合“不得擅改、明确存疑”的要求，表述不如current稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000244-p000-ae3f89ec39",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“申地子壬辰會局”的“地”为衍文，应为“申子壬辰会局”，candidate错误保留“申、地”拆分，属于解读错误；“乙辰木中火也”结合上下文是五行方位类象，含义清晰，candidate无依据标注其不明；“祖拳廢而遜流也”的“拳”为“业”的讹误，指祖业荒废流落，candidate无依据标注其含义不明，属于过度存疑"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4331,
+    "completion_tokens": 1074,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4331,
+      "completion_tokens": 1074,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

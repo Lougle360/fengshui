@@ -1,0 +1,211 @@
+{
+  "created_at": "2026-09-23T14:45:42.069317+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "97fd77d557577d86d6f4e9ee4e66491d979f2d5a6fd154414c725ef10490976a",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000553-p000-4d1b62d540",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'倉板水朝貧暮富殊不知是煞水混來怎見得煞水混來就不好'误译为'卻不知這是倉板水朝來，貧富變化極快，殊不知這是煞水混雜而來，怎麼能見得煞水混雜就不好呢？'，逻辑和语义完全相反。原文是反问'怎见得煞水混来就不好'，意为'怎么见得煞水混来就不好呢？'（即煞水混来是好的），但candidate译为'怎麼能見得煞水混雜就不好呢？'，并前置'殊不知這是煞水混雜而來'，将原文对'煞水混来不好'的质疑，变成了对'煞水混来'的确认和对其'不好'的质疑，导致语义颠倒。",
+          "candidate在'比如亥向，面前戌、乾、壬、子、癸方位都有倉板水來'之后，擅自添加了'土氣來名為五鬼開判，有犯此者全家被誅殺。'等大段内容。这些内容属于下一段（id: book002-b000554-p000-ba3ca82dd3）的source，不应在此处出现，属于严重的段落错位和增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000554-p000-ba3ca82dd3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头'土氣來名為五鬼開判，有犯此者全家被誅殺。'是重复了上一段末尾的错误内容，本段source开头应为'來名爲五鬼開判有犯之者全家誅裁'，且应与前文'倉板水來'相连。candidate的'土氣來'是擅自添加的解释。",
+          "candidate将'乙丙須異水先巳說明矣'译为'乙丙須異水先巳說明'，漏译了句末语气词'矣'，虽不影响核心语义，但未完整对应。",
+          "candidate将'祿存祿存眼家滅門'译为'祿存眼家滅門'，漏译了一个'祿存'，可能为笔误或OCR问题，但未忠实于source。",
+          "candidate将'家敗人山'译为'家敗人亡'，'山'应为'亡'的OCR误，但candidate直接修正而未标注，应保留原貌或标注。",
+          "candidate将'害入'译为'害人'，'入'应为'人'的OCR误，但candidate直接修正而未标注，应保留原貌或标注。",
+          "candidate将'丙望'译为'丙向'，'望'应为'向'的OCR误，但candidate直接修正而未标注，应保留原貌或标注。",
+          "candidate末尾'舉一局而八局皆可，二十四山合局破局，九星斷語。'与source'舉一局而八局皆可鄉二十四山合局破局九星斷語'相比，多了一个句号，且'鄉'字被遗漏或误处理。'鄉'可能为'向'或'與'等字的OCR误，但candidate直接省略，未做任何处理或说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000555-p000-1dbe9ac69c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文部分字句（如'坤巾粕'、'申面鼻'）語義模糊，可能為OCR誤識或特殊隱語，此處依上下文保守譯為相關意象，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000556-p000-acc9772caa",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文多處字句（如'宋禍'、'擦天類'、'臘梨翁'）語義極度模糊，可能為OCR嚴重誤識或特殊隱語，此處僅能依字面保守轉譯，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000557-p000-84e1a92399",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'水流北極肅殺值襟懷鄙瑣寬洪'释读为'水流向北方的極地，帶來肅殺之氣，若這種氣場影響人的襟懷，會使人變得鄙瑣，反之則寬宏大量。'，这是大幅度的意译和扩写。source是高度凝练的古文，candidate应更贴近字面，例如：'水流向北方极地，肃杀之气充盈，关乎襟怀是鄙琐还是宽洪。'，并标注不确定性。candidate的释读加入了因果和假设关系，超出了保守释读的范围。",
+          "candidate将'若還來主跛能履鰥寡繼贅人無跡'释读为'如果這種格局來主宰，可能會導致跛腳者能行走，但鰥寡之人繼嗣無跡可尋。'，同样属于过度解释。'跛能履'字面是'跛子能走路'，但风水术语中可能为特定吉凶意象，candidate将其解释为'导致跛腳者能行走'，并将'鰥寡繼贅人無跡'拆解为'鰥寡之人繼嗣無跡可尋'，赋予了确定的社会关系含义，这超出了allowed_glossary的范围，应保留原短语并标注不确定。",
+          "candidate将'乾亥雙行無瘵天戌乾暗啞并盲龍'拆分为两句并补充连接词'而...則另當別論'，改变了原文的并列结构。应更保守地处理为：'乾与亥双行则无痨病之灾；戌与乾（双行？）则主暗哑并眼盲。'并标注不确定性。"
+        ],
+        "uncertainty": [
+          "跛能履",
+          "鰥寡繼贅人無跡",
+          "天戌乾暗啞并盲龍"
+        ]
+      },
+      {
+        "id": "book002-b000558-p000-d612900f0a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文極短且語義不明，可能為殘缺或特殊隱語，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000559-p000-8969c36173",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000560-p000-0f1ca9f2be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000561-p000-af15ce1e0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000562-p000-cfbca2f5a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'破局跛足多瘋癲其方有峯非吉位文筆由來應畫工木笏多生道士類'释读为'若格局破敗，多見跛足、瘋癲之人；該方位若有山峰，並非吉位。文中提到的文筆，原本應指畫工之技；木笏多見於道士之類。'，这是将一系列并列的、可能为歌诀的短语，强行整合成现代白话论述，并添加了'文中提到的'、'原本應指'等解释性词语，改变了原文的文体和语气。应更保守地逐短语处理，例如：'破局则主跛足、多疯癫；该方有山峰也非吉位。文笔由来对应画工，木笏多生道士类。'并标注不确定性。",
+          "candidate将'辛酉二龍來打混子孫世受風鄭累'释读为'辛酉二龍來交混，子孫世代遭受風災與鄭姓之累。'，将'風鄭累'拆解为'風災與鄭姓之累'，赋予了'郑姓'这一具体含义，这是无依据的扩写。'風鄭'很可能是一个固定术语或OCR错误，应保留原词'風鄭累'并标注不确定。",
+          "candidate在末尾添加了'此外還提到子癸合局。'，但source末尾就是'子癸合局'，candidate应直接译为'子癸合局'，而不应添加'此外還提到'这样的转述词。"
+        ],
+        "uncertainty": [
+          "文筆由來應畫工",
+          "木笏多生道士類",
+          "辛酉二龍來打混",
+          "子孫世受風鄭累"
+        ]
+      },
+      {
+        "id": "book002-b000563-p000-abf92d3dee",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'六指國'、'家即岱'語義模糊，可能為OCR誤識或特殊隱語，此處依上下文保守譯為相關意象，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000564-p000-59f0bb7731",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'六指'、'母猜驚鳳池'語義模糊，可能為OCR誤識或特殊隱語，此處依上下文保守譯為相關意象，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000565-p000-820b929fd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000566-p000-35d8d8277e",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文多處字句（如'龍耳女'、'因員墩子樂'、'沿于言混流于'）語義極度模糊，可能為OCR嚴重誤識或特殊隱語，此處僅能依字面保守轉譯，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000567-p000-37cbb3d0e8",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文'了便'、'宗親'等處語義不明，可能為OCR誤識或殘缺，具體所指不詳。"
+        ]
+      },
+      {
+        "id": "book002-b000568-p000-cdbd113f85",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000569-p000-61519752f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000570-p000-1457cb1a0d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'破局虛癆死少年'释读为'若格局破敗且虛損，易致少年患虛癆而死。'，添加了'且虛損'、'易致'、'患'等词，属于意译。应更贴近字面，如：'破局（则主）虚劳，少年死。'",
+          "candidate将'卯龍庚向水申來'释读为'卯龍朝向庚方，水從申方流來'，准确。",
+          "candidate将'人命犯此遭刑也逃鼠絕亾實堪哀'释读为'人命若犯此格局，將遭刑罰，即便逃脫也難免絕亡，實屬可悲。'，将'逃鼠'解释为'逃脫'，'絕亾'解释为'絕亡'，是合理的推测，但'鼠'可能是'竄'、'殊'等字的OCR误。candidate直接意译而未保留原字或标注，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "逃鼠絕亾實堪哀"
+        ]
+      },
+      {
+        "id": "book002-b000571-p000-22c5dcbc50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000572-p000-bae4179703",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5877,
+    "completion_tokens": 2731,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5877,
+      "completion_tokens": 2731,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

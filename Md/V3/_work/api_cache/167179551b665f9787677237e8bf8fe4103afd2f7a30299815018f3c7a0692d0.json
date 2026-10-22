@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-04T02:54:08.044439+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "167179551b665f9787677237e8bf8fe4103afd2f7a30299815018f3c7a0692d0",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000475-p000-f0c8f42f28",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000476-p000-8f8b8bdcfd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000477-p000-915a26c80b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘貼春穴’、‘就頂穴’、‘寄腰穴’是特定术语，candidate 将其作为普通描述性短语处理，未明确其为术语或名称，可能导致读者误解。应保留其作为专有名词的形态，或明确标注其为特定称谓。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000478-p001-51d2bfdbea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000479-p001-0281c41311",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000481-p000-8b583a5ca3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘五吉四內’是特定术语，candidate 未作任何解释或保留，直接译为‘五吉还是四内’，普通读者无法理解其含义。应将其视为不透明术语处理，或根据允许的术语表进行解释（但术语表中未定义）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000482-p000-558aba60a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000483-p000-94a2a5c13c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘紫氣極貴之格’中的‘紫氣’是特定术语，candidate 直接译为‘紫气极贵’，未作任何说明，普通读者可能无法理解。应将其视为不透明术语处理。",
+          "2. 原文‘木之體’、‘土之體’、‘水體’、‘土體’中的‘體’指五行形体，candidate 译为‘形体’可以接受，但‘水體’、‘土體’的翻译与‘木之體’、‘土之體’不一致，且‘水體’的译法（‘水体的穴’）可能引起歧义。建议统一处理为‘木的形体’、‘土的形体’、‘水的形体’、‘土的形体’。",
+          "3. 原文‘芽根穴’、‘流金穴’是特定术语，candidate 将其作为普通描述（‘寻找芽根’、‘寻找流金’）处理，未明确其为术语或穴名。应保留其作为专有名词的形态，或明确标注其为特定称谓。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000484-p000-52e3b0356e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000485-p000-1ac9f4b4dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2297,
+    "completion_tokens": 732,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2297,
+      "completion_tokens": 732,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

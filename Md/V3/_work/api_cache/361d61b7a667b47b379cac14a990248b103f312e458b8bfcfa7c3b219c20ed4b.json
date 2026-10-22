@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-26T05:41:08.574555+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "361d61b7a667b47b379cac14a990248b103f312e458b8bfcfa7c3b219c20ed4b",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002542-p000-a72280a6ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002543-p000-cc8d359aea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句为丑、未对应马，卯、酉对应鸡，辰、戌对应猪，乾、巽对应牛，癸、丁对应羊，候选译对原句断句错误，将未对应卯，与原文含义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002544-p000-fd3fa5fcb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原本书名是《地理赞玄机全书》，候选误写为《地理赘玄机全书》，与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002545-p000-5827b3534f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002546-p000-90b48c860b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“坐軫度九十度”不符合星宿度数常规（轸宿总度数不足九十），但候选直接按字面释读未作风险标注；原文“金水日月七”不应释为“各七”，属于无依据增译；原文宜高耸的山是奎、斗、星、井，候选多写了奎、壁，漏了星，与原文不符"
+        ],
+        "uncertainty": [
+          "原文中“乎”字含义不明"
+        ]
+      },
+      {
+        "id": "book029-b002547-p000-69709fcc7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002548-p000-01f07b3087",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002551-p000-87a6ae3c9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“张月鹿管局”候选误写为“张月免管局”，属于形近字误释；原文“金水日月三”“金水日月六”不应释为“各三”“各六”，属于无依据增译；原文“适宜星房毕胃山高，房室斗水长”候选漏译“室”属于漏译"
+        ],
+        "uncertainty": [
+          "原文“翌度”含义不明"
+        ]
+      },
+      {
+        "id": "book029-b002552-p000-f1c95064ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理無賛玄機金書○卷十二 十九”属于断句问题，候选释为《地理赘玄机金书》卷十二十九错误，原书名应为《地理赞玄机金书》，且“十九”是衍文或后续内容标识，不应并入卷次；原文第三丁龙适宜的水是兑、艮、巽、震，候选表述正确，但“卷十二十九”的释读完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002553-p000-4d001ca160",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3269,
+    "completion_tokens": 833,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3269,
+      "completion_tokens": 833,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

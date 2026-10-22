@@ -1,0 +1,137 @@
+{
+  "created_at": "2026-10-15T03:55:06.434973+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "278218ce4992d66403ac09b8d62aa3e07104616aa6220178a85f53db65b1c41d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001102-p000-cf29304030",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001103-p000-2c1d03cd8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001104-p000-1090b0198d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'好由庚酉辛乾'，candidate译为'喜好庚、酉、辛、乾'，但'由'字未译出。'由'在此处可能表示'经由'、'从'或'以...为吉'，漏译可能改变原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001105-p000-3114208cb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'好亥竺子癸'，candidate译为'喜好亥、子、癸、寅、申、巳、亥等方位或时辰'，其中'竺'字未译出，且增加了原文没有的'寅、申、巳'。'竺'可能是'子'的异体或误字，但释读不应擅自增补。原文'乐寅申巳亥'在candidate中与'好亥竺子癸'合并，导致方位/干支罗列混乱且增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001106-p000-107b864b0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'好寅甲卯乙巽樂乙辛丁癸'，candidate译为'喜好寅、甲、卯、乙、巽，以乙、辛、丁、癸为乐'，将'樂'字后的内容处理为另一句，但原文结构是'好...樂...'，candidate的断句和释义可能改变了原文的并列或递进关系。'揉矫'一词含义不明，但已在uncertainty中标注，可接受。"
+        ],
+        "uncertainty": [
+          "揉矫"
+        ]
+      },
+      {
+        "id": "book035-b001107-p000-2d0e61f909",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'樂辰戈丑未國表正寅位'，candidate译为'以乐辰、丑、未，畏惧表正寅位'。此处理解有误且不完整。'戈'、'國'字未译出，且'表正寅位'的'表正'含义不明，candidate直接译为'畏惧表正寅位'，将不确定的'表正'当作确定含义（如'正对'）使用，违反了opaque_terms处理规则。应保留'表正寅位'原短语并说明其意不明。"
+        ],
+        "uncertainty": [
+          "原文'樂辰戈丑未國表正寅位'中'戈'、'國'等字疑似衍文或误字，此处按'丑、未'及'表正寅位'理解"
+        ]
+      },
+      {
+        "id": "book035-b001108-p000-0cd50e57df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'于心性为狼戾...于行事为果敢'部分，candidate重复了'在心性上表现为'和'在行事上表现为'，导致'刚毅'和'果敢'的归属与原文顺序不符。原文顺序是：于心性为狼戾，于行事为暴虐，于相貌为雄伟，于心性为刚毅，于行事为果敢。candidate将'刚毅'和'果敢'分别归入'心性'和'行事'是正确的，但表述结构混乱，应调整以清晰对应原文。",
+          "'在人品上属于师生'翻译不准确。原文'于人品为师生'，结合上下文，'师生'更可能指'师'与'生'两种身份或状态，而非现代意义的'师生关系'。candidate译为'师生'易产生歧义，应保留原文短语或明确其指代不明。",
+          "'在喜好上偏爱符法'翻译无误，但'在官职上属于闲师、边臣、都使'中，'属于'一词稍显现代，但尚可接受。更准确应为'对应'或'表现为'。",
+          "'在子孙上表现为财畜耗散，在奴婢上表现为逃亡'翻译不准确。原文'于子孙为财畜为耗散为奴婢逃亡'是并列关系，指对子孙的影响是财畜、耗散、奴婢逃亡。candidate拆分为'在子孙上'和'在奴婢上'，改变了原文结构，可能造成含义偏差。应合并为'在子孙方面，表现为财畜、耗散、奴婢逃亡'。",
+          "'以乐子、午、卯、酉'翻译错误。原文'乐子午卯酉'，'乐'在此处为动词，意为'喜好'或'以...为乐'，与前面的'好巳丙午丁'并列。candidate译为'以乐子、午、卯、酉'，将'乐'误解为名词或地名，严重偏离原意。应译为'喜好子、午、卯、酉（方位）'。",
+          "'畏惧正亥方位'翻译基本正确，但'正亥'可能特指亥的正位，candidate处理为'正亥方位'可以接受。",
+          "'以寅、午、戌为祸应之期'翻译正确。"
+        ],
+        "uncertainty": [
+          "'甲胃'可能为'甲胄'之误，指铠甲和头盔，象征武备。candidate保留'甲胃'并标注不确定，符合要求。",
+          "'于人品为师生'的具体含义不确定，可能指具有师长或学生的特质，或指代某种社会角色。"
+        ]
+      },
+      {
+        "id": "book035-b001109-p000-cf1e94139b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文'于相貌爲臃腫...于相貌爲古怪'，candidate译为'在相貌上表现为臃肿...在相貌上表现为古怪'，连续出现两个'相貌'描述，未做区分或说明，可能原文有误或分类不同，释读应有所提示。2. 原文'以樂子午上酉'，candidate译为'以乐子、午、上酉'。'上酉'含义不明，candidate将其作为一个固定组合处理，但未加引号或说明，违反了opaque_terms处理规则。应保留'上酉'原样并标注不确定性。3. 原文'于凶禍爲羅賴公方'，candidate译为'表现为罗赖公方'。'罗赖公方'含义不明，candidate未加引号或说明，直接当作确定含义使用，违反了opaque_terms处理规则。"
+        ],
+        "uncertainty": [
+          "囹圄",
+          "知折",
+          "上酉"
+        ]
+      },
+      {
+        "id": "book035-b001110-p000-7213e0d806",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文'于相貌爲限衰'，candidate译为'在相貌上表现为限衰'。'限衰'含义不明，candidate未加引号或说明，直接当作确定含义使用，违反了opaque_terms处理规则。2. 原文'于人品爲昌憂'，candidate译为'在人品上属于昌忧'。'昌忧'含义不明，candidate未加引号或说明，直接当作确定含义使用，违反了opaque_terms处理规则。3. 原文'爲奴婢兆'，candidate译为'奴婢兆'。'兆'字未译出，可能表示征兆、众多或其他含义，漏译可能改变原意。"
+        ],
+        "uncertainty": [
+          "限衰",
+          "昌忧",
+          "曹连",
+          "奴婢兆"
+        ]
+      },
+      {
+        "id": "book035-b001111-p000-1d7d3d5925",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 989,
+    "completion_tokens": 601,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4542,
+      "completion_tokens": 1323,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 989,
+      "completion_tokens": 601,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

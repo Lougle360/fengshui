@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-16T08:49:54.139679+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "24ff2e9ef9ec6b6a00d4ff7e10282aae84b5aa2371e547e7eba832010213f5eb",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001642-p000-84dc72e0a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001644-p000-da59029ee4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001645-p000-43ce69668f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“尸脈急趕先到山微斜逆受其氣最要后樂”中，“尸脈”为专业术语，candidate译为“尸脉”但未加引号或说明，且“急赶”的译法可能过于直白，未能准确传达其风水术语含义。",
+          "原文“水則堪其分流抓派之機”中，“堪”应为“勘”或“勘测”之意，candidate译为“勘察”正确，但“抓派”译为“抓派”未加引号或说明，属于opaque_terms处理不当。",
+          "原文“若穴近土星不同休咎有异不可撞用之”中，“休咎”译为“情况”不够准确，应为“吉凶”。candidate在后续句子中译为“吉凶有异”，此处应统一。"
+        ]
+      },
+      {
+        "id": "book035-b001646-p000-79df2a8b80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“朝穴暮器”被标注为语义不明，candidate未在译文中体现此不确定性，而是直接与“撞穴”关联，可能造成误读。应在uncertainty中明确列出。",
+          "原文“撞穴必寬平容納于此分別”中，“于此分别”意为“在此处进行区分/辨别”，candidate译为“必须是宽平容纳之地”后接“如果不仔细分辨形势”，将“于此分别”的含义后置且弱化，语义衔接不够紧密。"
+        ]
+      },
+      {
+        "id": "book035-b001649-p000-d427c64ab2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001650-p000-41d1536c31",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“脈架也與前五星架火同小异”中，“架火”可能为“架”的一种或笔误，candidate译为“五星架火”未加引号或说明，属于opaque_terms处理不当。",
+          "原文“用工罄槍頭引水繞之”中，“用工罄”语义不明，candidate译为“用工罄”未加引号或说明，属于opaque_terms处理不当。"
+        ]
+      },
+      {
+        "id": "book035-b001652-p000-ac623bb7c5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“扦其书”中“书”字在风水语境中含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001656-p000-f845168b92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001657-p000-a9e3f77c17",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“水淫稚子尤虫惑”语义晦涩，具体所指不详",
+          "原文“金石东于龙砾”语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b001658-p000-9076ab7866",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“关东水城”中“关东”具体所指不详，可能为地名或特定术语",
+          "原文“扛峡”语义不明，具体所指不详",
+          "原文“无缨”语义不明，具体所指不详",
+          "原文“若过不宛”语义晦涩，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3786,
+    "completion_tokens": 925,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3786,
+      "completion_tokens": 925,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

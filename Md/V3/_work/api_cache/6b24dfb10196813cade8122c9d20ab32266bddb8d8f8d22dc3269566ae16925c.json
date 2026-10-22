@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-25T01:18:32.886820+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b24dfb10196813cade8122c9d20ab32266bddb8d8f8d22dc3269566ae16925c",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001623-p000-7b10e0b34f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001624-p000-126f793f8d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“正子年偏三度”存在OCR错误，候选改为“正子偏三度”属于无依据调整；原文开头“伝么玉尺之言”语义不明，候选直接认定为《玉尺经》的说法属于无依据增译；“此堂非都为大凶”原文字句错乱，候选释为“都城不是会大凶吗”无原文依据"
+        ],
+        "uncertainty": [
+          "原文OCR识别错乱，多处语句无法明确语义"
+        ]
+      },
+      {
+        "id": "book017-b001626-p000-ac2a519fb4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“言流沙”候选擅自改为“谈论地理”，偏离原文表述；原文“石不問抑龍而水，之亦由耳言而得俗術，你又悟見为省”存在大量OCR错乱，候选释为“根本不考虑来龙和水势的情况，只是道听途说，又领悟到了什么呢”属于无依据臆译"
+        ],
+        "uncertainty": [
+          "原文OCR识别错乱，大部分语句无法明确语义"
+        ]
+      },
+      {
+        "id": "book017-b001627-p000-147f62cc73",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“八卦十四卦之父母也有四卦纯四卦纯凶之理”存在OCR错误，候选改为“八卦是十四卦的父母，其中有四卦纯吉，也有四卦纯凶的道理”擅自补入“吉”字属于无依据增译；原文“八千十二支”“是地收地”“修卦體集何干ま”存在OCR错乱及日文混杂，候选释为“就像天干十二支一样”“只应当看它是否能收纳地气”“不应当看它属于哪一卦体”均无原文依据"
+        ],
+        "uncertainty": [
+          "原文OCR识别错乱且混杂日文，多处语句无法明确语义"
+        ]
+      },
+      {
+        "id": "book017-b001628-p000-c3edf12410",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在“菱一卦”“ノ今一7”“一支人凶之書”等大量OCR错乱、日文及乱码，候选保留的“还有7一支人凶的相关记载”属于无法释读的乱码内容，且未标注清楚无法释读的范围"
+        ],
+        "uncertainty": [
+          "原文OCR错乱严重且混杂日文，基本无法通读，语义完全不明"
+        ]
+      },
+      {
+        "id": "book017-b001630-p000-ea75645cbb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001631-p000-9c5549fd0c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“天玉、天”存在缺字，候选直接认定为《天玉经》属于无依据增译，未明确标注原文缺字情况"
+        ],
+        "uncertainty": [
+          "原文末尾缺字，具体所指典籍不明确"
+        ]
+      },
+      {
+        "id": "book017-b001632-p000-494282175f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“又狗所謂三吉六多”存在OCR错误，候选改为“又有所谓三吉六秀”属于无依据调整；原文“考之天官家言，紫微經在中國之壬實方”候选改为“《紫微经》中说中国的壬实方”属于语序和语义篡改；原文“地之二十四平支上應到容”存在OCR错误，候选改为“地的二十四山对应天上的星宿”属于无依据臆译"
+        ],
+        "uncertainty": [
+          "原文OCR识别错乱，多处专有名词（壬实方、宣良方、二十四平支等）语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001633-p000-2c1cabe56e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“三吉六为水注见都天”存在OCR错误，候选改为“三吉六秀的水的相关内容，见于《都天宝照经》”属于无依据增译，擅自补入“秀”“宝照经”等内容"
+        ],
+        "uncertainty": [
+          "原文OCR识别残缺，具体表述不明确"
+        ]
+      },
+      {
+        "id": "book017-b001634-p000-843f467dc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2564,
+    "completion_tokens": 1234,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2564,
+      "completion_tokens": 1234,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

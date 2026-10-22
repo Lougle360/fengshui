@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:03:58.633845+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "88238d3820676a31bc2cb7394e019e0fda6d0bab30e3d83d5b0abed3ed8fdd38",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000626-p000-a2cad3ca19",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000627-p000-fcf686801c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000628-p000-9212820aa2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000629-p000-6279c585a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句存在排版错乱，已按文意整理为通顺语句"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1603,
+      "completion_tokens": 207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

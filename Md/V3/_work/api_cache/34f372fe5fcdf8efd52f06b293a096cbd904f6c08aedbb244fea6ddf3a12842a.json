@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T09:35:29.304370+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "34f372fe5fcdf8efd52f06b293a096cbd904f6c08aedbb244fea6ddf3a12842a",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002532-p000-e0b4e7f61a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "《步天歌》原文表述为“轩辕东头西内平”，候选释读为“轩辕星东边是西内星，西内星下方有三颗名为天相的星”，与原文“平下三个名天相”即内平星下方是天相星的逻辑不符，存在语序和星官位置描述错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002533-p000-660a7c4971",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“明堂”的定义为风水语境下的穴前空间，此处原文是天文领域的星官相关“明堂”，误用了风水领域的术语定义；且“离”为locked_terms，原文此处无“离”相关内容，但术语定义应用场景错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002534-p000-68749cf882",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "步天歌中\"野取\"含义不详"
+        ]
+      },
+      {
+        "id": "book018-b002535-p000-2a415dce00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“水”的定义为风水语境的河流等，此处原文是天文星占中“在炁为水”的五行类象，误用风水领域定义；“向”此处为动词“朝向”，与locked_terms中风水方位类的“向”无关，术语应用错误；《步天歌》原文“四星似张翼相近”释读为“四星似张宿翼相近”表述不通顺，应为“四星与张宿、翼宿相近”；原文“左辖右辖附两星”释读为“左辖右辖依附在两侧”遗漏了“两星”的表述，信息不全。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002536-p000-71c1056559",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“悬象于天”释读为“悬于天”，遗漏了“象”即天象的含义，语义缺失。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002537-p000-6018aa44ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002538-p000-b20f505d72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002539-p000-b1ae515667",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002540-p000-b8b4156032",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002541-p000-fba477dcc9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2816,
+    "completion_tokens": 1034,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2816,
+      "completion_tokens": 1034,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

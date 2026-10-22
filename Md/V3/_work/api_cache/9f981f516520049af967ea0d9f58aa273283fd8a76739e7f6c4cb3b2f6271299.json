@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:01:53.055591+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9f981f516520049af967ea0d9f58aa273283fd8a76739e7f6c4cb3b2f6271299",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000496-p000-a19d8d3c34",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘坡日’应为‘破日’，候选译文中误将‘冲岁’理解为‘与岁星相冲’，属于对术数术语的误换，且漏译‘坡日’（应为‘破日’）的核心凶煞属性，导致语义偏差"
+        ],
+        "uncertainty": [
+          "原文‘坡日’应为‘破日’，具体所指未明确"
+        ]
+      },
+      {
+        "id": "book010-b000497-p000-65ebf92552",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘四废’的具体所指未明确，‘炁’为‘气’的异体字，释译中已转换为现代中文‘气’，符合要求"
+        ]
+      },
+      {
+        "id": "book010-b000498-p000-e597008978",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘荒燕日’应为‘荒芜日’，候选译文中误将‘春己酉丑夏申子辰秋夾卯未冬寅午戊’断句错误，且‘夾卯未’应为‘秋卯未’，属于对术数术语的误换和断句偏差"
+        ],
+        "uncertainty": [
+          "原文‘荒芜日’的具体所指未明确，‘失令休囚’的具体含义未明确"
+        ]
+      },
+      {
+        "id": "book010-b000499-p000-5f02a63162",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘荒芜日’的具体所指未明确，‘四废日与荒芜日相兼’的具体判定标准未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1346,
+    "completion_tokens": 433,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1346,
+      "completion_tokens": 433,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

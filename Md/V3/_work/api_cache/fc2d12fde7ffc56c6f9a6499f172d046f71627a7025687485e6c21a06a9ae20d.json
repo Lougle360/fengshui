@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-16T10:53:11.071060+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fc2d12fde7ffc56c6f9a6499f172d046f71627a7025687485e6c21a06a9ae20d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002054-p000-d33036de6d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002055-p000-0cdcc78323",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'抱腮'在风水术语中通常指山形或水势的环抱形态，但候选句将其译为'有环抱之势'，虽属合理引申，但原文'下抱腮'结构简略，直接译为'下部有环抱之势'可能过度具体化，建议保留'下抱腮'原词并加引号说明，或更保守地处理为'下部呈抱腮之形'。",
+          "'饶减半'在风水术中常指增减、调整的法则，候选句译为'饶减之法可减半使用'，将'半'理解为'减半'，但原文'饶减半'可能意指'饶减'与'半'两种操作，或'饶减'的程度为一半，存在歧义。建议标注原文含混，不宜确定为'减半使用'。"
+        ],
+        "uncertainty": [
+          "'眞聚上分下抱腮'的具体地形或气脉形态不详，'抱腮'的精确风水含义需结合上下文。",
+          "'明得二分饒減半'中'二分'所指不明，可能指两种气脉、两种地形，或阴阳、主客等二分概念；'饒減半'的操作方式亦不明确。"
+        ]
+      },
+      {
+        "id": "book035-b002056-p000-f8eb22c5b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate‘明聚散真真假假章第十五’中‘真真假假’为增译，原文为‘明聚散眞假章第十五’，应释为‘明辨聚散真假的第十五章’或类似表述，保留‘真假’即可。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002057-p000-e24a64c2ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002058-p000-40a372765f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此句语义未尽，可能是过渡或标题性短语，candidate处理为陈述句是合理的释读方式。"
+        ]
+      },
+      {
+        "id": "book035-b002059-p000-9dd1b747e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002060-p000-981ef715c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002061-p000-de6aab82da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘论单脉双脉章第十六散须无合下分開上分下合爲眞穴’整体作为一句释读，并添加了‘这是...的内容，文中指出：’等连接语，这属于为形成现代汉语句子而进行的合理补充，可以接受。但释读‘下方分开、上方分开而下方相合的’存在逻辑矛盾（‘上方分开’原文无对应），且‘脉气散开时不能与它脉相合’是对‘散须无合’的合理意译，但‘下方分开’是对‘下分開’的直译，与后文‘上分下合’的衔接不清晰。建议调整表述，使其更连贯地反映原文‘散须无合，下分開；上分下合爲眞穴’的并列或对比关系。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002062-p000-63fbaba103",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘横糊’释为‘横糊’保留了原词，但未做任何解释或说明，对于现代读者可能造成理解障碍。应指出‘横糊’可能为‘含糊’或‘模糊’之误，或直接按可能含义释读并标注不确定性。‘朝貪暮富術非輕’释为‘朝贪暮富的术法并非轻率之事’是合理的意译。‘阳来阳受，脉若无情’释读准确。"
+        ],
+        "uncertainty": [
+          "‘横糊’一词具体所指不详，可能为讹字或特定术语。"
+        ]
+      },
+      {
+        "id": "book035-b002063-p000-0b4fdc26fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 590,
+    "completion_tokens": 295,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1709,
+      "completion_tokens": 846,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 590,
+      "completion_tokens": 295,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

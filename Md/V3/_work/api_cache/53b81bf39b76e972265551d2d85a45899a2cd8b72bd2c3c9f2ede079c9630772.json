@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-15T04:31:14.750881+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "53b81bf39b76e972265551d2d85a45899a2cd8b72bd2c3c9f2ede079c9630772",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001137-p000-7006211ec6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001138-p000-2f3aabca6e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘全屆入式歌’，candidate未作任何释读，仅重复原文，不符合‘普通读者能读懂的白话释读’目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001140-p000-86ecb9c3ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘正方’可能指特定的方形格局或方位，candidate释为‘在正方之地’属于推测性解释，原文未明。2. 原文‘得入宅’可能指获得进入宅地的吉兆或方法，candidate释为‘若要获得入宅的吉地’属于扩写。3. 原文‘局勢必須完者未形穴枝作城郭也’句读和含义模糊，candidate将其拆解并释为‘其局势必须完整。如果尚未形成具体的穴，那么枝脉应当像城郭一样环绕护卫。’，将推测性断句和解释写成了确定事实，且‘枝脉应当像城郭一样环绕护卫’是对‘枝作城郭’的过度解读，原文未明其具体动作和关系。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 869,
+    "completion_tokens": 322,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 869,
+      "completion_tokens": 322,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-09-24T01:32:16.907000+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fe4dd4e42afeaa4240d5740ebc616f91988b980fa4834627e99d5ec3a70d52ca",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000054-p000-fdec988d4c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“要安续世益后”是择吉术语，候选误拆分断为“宜安續世益後之事”属于断句错误；原文“普護守成兵吉兵寶造倉庫”语序被打乱，且擅自添加原文无依据的“可”字改变原意",
+          "原文“黃道大明要安续世益后天月二德及金天成天廟咸勲福厚吉期”是并列的吉庆择吉神煞/吉期术语，候选拆分断句错误导致语义偏差"
+        ],
+        "uncertainty": [
+          "部分术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000055-p000-af80e7c919",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000056-p000-3c5ab4dcb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“前三條俱邑”无“属邑中事宜”的含义，候选擅自添加无依据释义；原文“受死水消瓦解”被拆分为“受死、水消瓦解”错误，且“水”属于locked_terms，此处“水消瓦解”是固定择吉神煞术语，不得拆分且无需替换allowed_glossary中风水语境的“水”释义；原文“大殺入塞”被错写为“大殺入、塞鼠宄”，断句错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000057-p000-5d2822e31e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“造厨”前无“忌”字，属于擅自添加原文没有的否定含义，改变原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000058-p000-a27c4f9edc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000059-p000-9df3c716d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000060-p000-ff0eda2541",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“五祥定成開日”被错误断为“五祥定成开日”，“定、成、开”是择吉建除十二神的三个吉日，应拆分；原文“黑天牢”被错写为“黑天气”，属于术语错误；locked_terms“朱雀”此处是择吉神煞术语，误用allowed_glossary中风水形势的释义，不符合语境；原文“天丈”应为“天丈”即“天杖”择吉神煞，候选无依据保留且未标注歧义；原文无“神煞或不利的日子”“移动类的事宜”“进行修理作业”等表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000061-p000-5a49d3f587",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“朱雀”此处是择吉神煞术语，误用allowed_glossary中风水形势的释义，不符合语境；原文“九土鬼”被错写为“九土見”，属于术语错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000062-p000-3a1ebefcc0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“掃舍空除滿日”是指扫舍宜用空、除、满日，候选错误拆分为三个并列术语，断句错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000063-p000-a6b3858bad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2352,
+    "completion_tokens": 1050,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2352,
+      "completion_tokens": 1329,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2352,
+      "completion_tokens": 1050,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

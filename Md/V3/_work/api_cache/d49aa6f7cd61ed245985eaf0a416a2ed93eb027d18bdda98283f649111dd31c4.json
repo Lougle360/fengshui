@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-25T11:53:16.173666+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d49aa6f7cd61ed245985eaf0a416a2ed93eb027d18bdda98283f649111dd31c4",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000823-p000-749a0fe7f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巨侵”应为“巨浸”，释读中写“巨浸”是对的，但对“若太追前魚富貴難為子嗣”断句错误，原句应是“若太追前，虽富贵，难为子嗣”，此处误将“虽”认作“魚”，且错误断为“就算有鱼、富贵”，违背原文含义；原文“三須代之撫房”的“三須”被误释为“第三代”，无依据；原文“以瓦依氣故也”未标注含义存疑，直接作为原因释出不合要求"
+        ],
+        "uncertainty": [
+          "“魚富貴難為子嗣”的具体关联不明确",
+          "'三須代之撫房'的具体所指不明确",
+          "'以瓦依氣'的具体含义不明确"
+        ]
+      },
+      {
+        "id": "book024-b000824-p000-88b5e7643c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“精永深圍鑑足居海”语义含混，释读中“足够临近海水的地方”属于无依据的臆测，将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "“精永深圍鑑足居海”的具体语义不明确",
+          "'喜刃情'的具体含义不明确"
+        ]
+      },
+      {
+        "id": "book024-b000830-p000-963b69fc8d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陰宅亦亙同”被误释为“阳宅遇到这种情况也是一样的”，属于词义错译，“陰宅”不能替换为“阳宅”；原文“此桥上石衆敗之方於也”语义不通，释读中“这是桥上的石头多处在败方的缘故”属于无依据的臆测"
+        ],
+        "uncertainty": [
+          "“陰宅全急面振直冲”的具体表述细节存疑",
+          "'召指'的具体含义不明确",
+          "“此桥上石衆敗之方於也”原文语义不通"
+        ]
+      },
+      {
+        "id": "book024-b000833-p000-e9b9b0a363",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“松衣”“浮風”“枝金”的具体含义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 618,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1418,
+      "completion_tokens": 618,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

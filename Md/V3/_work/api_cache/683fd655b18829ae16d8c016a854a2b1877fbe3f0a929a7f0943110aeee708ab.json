@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-25T21:19:30.081430+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "683fd655b18829ae16d8c016a854a2b1877fbe3f0a929a7f0943110aeee708ab",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000931-p000-7b601756bd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source开头的「附廖公正變穴格井詩歌」未译，存在漏译；原文「一拉粟徐誠可地理救人卷血縣穴十二」语义存在识别讹误，候选直接认定为著作名称属于无依据释读，且「四十字一拉粟」未做不确定性标注"
+        ],
+        "uncertainty": [
+          "「廖公正變穴格井詩歌」「一拉粟」「血縣穴十二」疑似存在原文讹误或OCR识别错误，具体含义无法确认"
+        ]
+      },
+      {
+        "id": "book030-b000932-p000-2c6b69824f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000933-p000-2bbc6e549b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "「清光」「朝纲」为风水领域特定表述，候选未做歧义标注，直接采用通用语义释读不符合要求；「大陽九變第」原文疑似脱字，候选直接认定为「第一式」属于无依据补充"
+        ],
+        "uncertainty": [
+          "「大陽九變第」疑似脱字，具体所指不详；「清光」「朝纲」在风水语境中的具体含义未明"
+        ]
+      },
+      {
+        "id": "book030-b000934-p000-062d1b57fa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "「火由金」属于含义模糊的专业表述，候选未做不确定性标注；原文语序零散，候选未标注该部分为零散罗列的条目"
+        ],
+        "uncertainty": [
+          "「火由金」的具体含义无法确认，该部分内容为零散罗列的条目，语义不连贯"
+        ]
+      },
+      {
+        "id": "book030-b000935-p000-99f17e358e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "「燥擺雙」「燥擺左」「燥石擺左」「擺右開口太陽」均为风水特定形法术语，含义模糊，候选未做不确定性标注；「生氣口中有時人喝作燕形」断句错误，原文应为「生氣口中有，時人喝作燕形」，候选释读语序有误"
+        ],
+        "uncertainty": [
+          "「燥擺雙」「燥擺左」「燥石擺左」「擺右開口太陽」的具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000936-p000-1ac8603ccb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000937-p000-b34dd87e9d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "「金博」「永木」「企」「憾」均疑似OCR识别错误或生僻术语，候选未做不确定性标注；该部分为零散罗列的条目，候选未说明语义不连贯"
+        ],
+        "uncertainty": [
+          "「金博」「永木」「企」「憾」疑似识别错误，具体含义无法确认，该部分为零散条目，语义不连贯"
+        ]
+      },
+      {
+        "id": "book030-b000946-p000-3ab897f18d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格中部分文字存在OCR识别错乱，如“JF”“Fo”“K”“m”等，无法确认具体含义"
+        ]
+      },
+      {
+        "id": "book030-b000960-p000-930461bcdb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文开头「正」字未译，漏译；「撥千子丙午四砂紐」「撥朝出卯砂大武金星以作下財俾伊格曾」「武貴或白云八爲官東湖主云扳被穴法」「二三大振」「本孝」「員曲其堪龍頭盡處拋頭」「漸慚寬放夫更」「索爲卻亥得以遇余余處」等表述存在OCR讹误或语义断裂，候选直接按字面串联释读属于无依据解读"
+        ],
+        "uncertainty": [
+          "文中存在多处OCR识别错乱，如“繄”“振”“厕吹正”“刼徵”“扳被”“千子”等，大量语句语义断裂无法确认具体含义"
+        ]
+      },
+      {
+        "id": "book030-b000963-p000-0fe77711b1",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格中存在多处OCR识别错乱，如“L”“CC”“jv”“4ao0”“AGSU0”“W0C”等，无法确认具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4720,
+    "completion_tokens": 1259,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4720,
+      "completion_tokens": 1259,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

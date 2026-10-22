@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-10-04T10:12:47.459045+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b4ffb64539618e86fa90136c2ebe18d87cccef3ff00f1ff6496182ed1b45ee7e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000641-p000-d87951ab5f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘稱龍’处明显脱漏或错乱，译文无法补全其完整含义",
+          "‘擬’字在此处含义不明，保留原字"
+        ]
+      },
+      {
+        "id": "book035-b000645-p000-43e7eab91b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选译文对‘宜宜 挨取 左 則關 内鎖 乘交 氧固 于此 右陰 而鎖 外陽 迎關 水之 謂 也’进行了无依据的扩写和重构，超出了保守释读的边界。",
+          "候选译文将‘何防’理解为‘何妨’并改字，将‘横栋’改为‘横栋’，属于推测性改字，应保留原字并标注不确定性。",
+          "候选译文对原文末句‘禍福有’的处理仅为‘直接截断’，未按规范标注其残缺状态。",
+          "候选译文整体更像是对原文混乱处的猜测性解读，而非基于原文的保守释读。"
+        ],
+        "uncertainty": [
+          "原文‘宜宜 挨取 左 則關 内鎖 乘交 氧固 于此 右陰 而鎖 外陽 迎關 水之 謂 也’语序混乱，无法可靠释读",
+          "‘鐘’字含义不确定",
+          "‘何防’与‘横栋’的解读存在推测成分",
+          "末句‘禍福有’明显残缺"
+        ]
+      },
+      {
+        "id": "book035-b000647-p000-91ecb62cae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘人各姓人’语意不通，可能为错乱",
+          "‘善异’处原文可能错乱",
+          "‘番择’具体所指不详，推测为‘审择’或‘抉择’"
+        ]
+      },
+      {
+        "id": "book035-b000648-p000-9566c2eb9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘魂好’推测为‘好恶’之误",
+          "‘趙避’推测为‘趋避’之误"
+        ]
+      },
+      {
+        "id": "book035-b000649-p000-d2946ceddf",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文‘變熊’、‘魂’等关键词语义不明，且句子严重残缺，导致无法进行任何可靠的保守释读。候选译文仅指出问题，未提供符合V3目标的‘普通读者能读懂的白话释读’。"
+        ],
+        "uncertainty": [
+          "‘變熊’含义不明",
+          "‘魂’字在此处语义不明",
+          "原文严重残缺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2280,
+    "completion_tokens": 645,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2280,
+      "completion_tokens": 645,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

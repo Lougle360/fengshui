@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-18T10:42:33.266790+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "aad1aa3f90220ff85dfa0d5a5f7291f45ea3759341504b479151e013c88fc36e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006204-p000-b50d137f1e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“甲子、癸巳在離宮遁得遲卦” 漏译“甲子癸已在離遁得遲卦”中的“甲子癸已”，原文是“甲子癸已”作为一个整体在离宫，candidate拆分为“甲子、癸巳”并改变了原文组合。",
+          "“六寄任坤在兌” 误译。“六寄任坤在兌”指“六”寄于“任坤”在兑宫，candidate译为“六寄任坤在兌宮”虽保留了原词，但“任坤”是opaque_term，不应被“任坤”这个组合赋予确定含义，应加引号或说明。",
+          "“庚、酉、辛上，辛己子孫在乾亥上” 误译。原文“庚酉辛上辛己子孫乾亥上”应理解为“庚、酉、辛”方位上，“辛己”子孫在“乾亥”上。candidate断句为“庚、酉、辛上，辛己子孫在乾亥上”，将“上”字归入前句，改变了原文结构，且“辛己”可能是“辛巳”之误，但candidate未标注此不确定性。",
+          "“辛丑才星在辛未，才在坤” 误译。原文“辛丑才星上辛未才在坤”应理解为“辛丑”才星在“辛未”才星之上，而“才”在坤宫。candidate译为“辛丑才星在辛未，才在坤”，丢失了“上”字表示的上下关系，语义改变。",
+          "“主青泥木石，不入十六龍” 误译。原文“主青泥木石不入十六龍”应理解为“主青泥、木、石，不入十六龙”，candidate断句为“主青泥木石，不入十六龍”，将“青泥木石”连读，可能误导为一种物质。"
+        ]
+      },
+      {
+        "id": "book035-b006205-p000-e941aae469",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“武都二权”具体所指不详。",
+          "“空穴”具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b006206-p000-3259775e0a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“甲了乙巳在巽得雷风恒卦” 误译。原文“甲了乙巳”中“甲了”应为“甲子”或“甲寅”之误，candidate虽在uncertainty中标注，但释读正文仍直接使用“甲了”，未做任何处理（如加引号或说明），不符合“普通读者能读懂”的目标，应修正为“甲子（原文作‘甲了’，疑误）”。",
+          "“辛酉管其地主石沙少石而燥，不入十六龍” 误译。原文“辛酉管其地主石沙少石而燥入十六龍”中“入十六龍”前无“不”字，candidate误增“不”字，改变了原意。",
+          "“庚午子不坤” 处理不当。此句为opaque_term，candidate虽在uncertainty中说明，但释读正文直接译为“庚午子不坤”，未加引号或说明其含义不明，易使读者误解为可理解的句子。应明确标注为晦涩短语。"
+        ]
+      },
+      {
+        "id": "book035-b006207-p000-b3b3725963",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“局已山”具体所指不详，可能为“局巳山”之误。",
+          "“是紫”后文似有缺漏。"
+        ]
+      },
+      {
+        "id": "book035-b006208-p000-05e8c30520",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“坐丁向，向丁亥” 误译。原文“坐丁已向丁亥”指坐丁巳向丁亥，candidate漏译“巳”字，且断句错误，导致坐向不明。",
+          "“辛酉鬼中寄坤” 误译。原文“辛酉鬼中寄坤亥高子孫難達艮”应断为“辛酉鬼中寄坤。亥高，子孙难达艮。” candidate译为“辛酉鬼中寄坤。亥高子孙难达，艮高主富寿。” 将“亥高”与后文错误连接，且改变了“艮高主富寿”的原文顺序和关联（原文“艮高主富寿”是独立语句，与“亥高”句并列）。"
+        ]
+      },
+      {
+        "id": "book035-b006209-p000-d6dd508bfe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“张月兔管山” 误译。原文为“张月鹿管局”，前文亦为“张月鹿”，candidate误作“张月兔”。",
+          "“未勉而生” 处理不当。此句为opaque_term，candidate在uncertainty中说明，但释读正文直接译为“未勉而生”，未加引号或说明其含义不明。",
+          "“得丑于本” 处理不当。此句为opaque_term，candidate在uncertainty中说明，但释读正文直接译为“得丑于本”，未加引号或说明其含义不明。",
+          "“矢之者” 处理不当。此句为opaque_term，candidate在uncertainty中说明，但释读正文直接译为“矢之者”，未加引号或说明其含义不明。",
+          "“主子孙兴量来官富贵” 误译。原文“主子孙兴量来官富贵”中“兴量”可能为“兴旺”之误，但candidate未标注此不确定性，直接使用“兴量”，易造成误解。"
+        ]
+      },
+      {
+        "id": "book035-b006210-p000-8334b2f509",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006211-p000-7ceb878cb1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006212-p000-a26ba97293",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“庚午才已卯子孙并在离” 误译。原文“庚午才已卯子孫幷在離”中“已卯”应为“己卯”或“巳卯”之误，candidate虽在uncertainty中标注，但释读正文仍直接使用“已卯”，未做任何处理，应修正。",
+          "“庚戊鬼巽” 误译。原文“庚戊鬼巽”中“庚戊”应为“庚戌”之误，candidate未修正也未标注此明显错误。"
+        ]
+      },
+      {
+        "id": "book035-b006213-p000-c2cb7e1bca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“庚午禄无同在申位” 误译。原文“庚午祿無同在申位”中“無同”可能为“午同”或“元同”之误，或为特定术语，candidate直接译为“禄无同在申位”，未标注不确定性，且“无同”含义不明。",
+          "“应六旬仙进东方人田” 处理不当。此句为opaque_term，candidate在uncertainty中说明，但释读正文直接译为“应六旬仙进东方人田”，未加引号或说明其含义不明。",
+          "“能筋骨之穴” 处理不当。此句为opaque_term，candidate在uncertainty中说明，但释读正文直接译为“能筋骨之穴”，未加引号或说明其含义不明。",
+          "“遇水得木，遇得才帛无失” 误译。原文“遇水得木遇得才帛無失”中第二个“遇得”可能为衍文或“遇金”之误，candidate直接译为“遇水得木，遇得才帛无失”，未处理此问题。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4696,
+    "completion_tokens": 1902,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4696,
+      "completion_tokens": 1902,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

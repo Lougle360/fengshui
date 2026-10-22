@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-23T13:38:10.839277+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "750bc16c48c711abc2686687e79555ded2c18a151ca387516deb870328cc4223",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000464-p000-518d24fbbf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘水水二局’释读为‘水局和水局（或指水与水的某种组合）’，但原文为‘水水二局’，可能指两种水局或特定组合，candidate的推测性解释‘或指水与水的某种组合’超出了allowed_glossary范围，且未明确标注原文含混。",
+          "candidate将‘退述更重’释读为‘退败更为严重且持续时间更久’，但原文为‘退述更重更悠久’，‘退述’可能为‘退败’或‘衰退’之误，candidate将推测写成事实，且未将‘退述’作为opaque_term处理。",
+          "candidate在末尾添加了‘其中‘立地向’、‘立兴向’以及‘退述更重’等词句，原文可能传抄有误，具体所指不详。’，这属于对不确定性的说明，但未在uncertainty中列出，且‘立地向’、‘立兴向’应作为opaque_terms处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000468-p000-3ee418a105",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘坤水來向說’释读为‘关于坤水来向的说法’，但原文可能是一个标题或特定术语，candidate未将其作为opaque_term处理，且未明确标注其含义不详。",
+          "candidate将‘而水來立巽向’中的‘而’推测为‘卯’字之误或表示转折，但原文可能为‘卯水來立巽向’，candidate的推测性解释超出了allowed_glossary范围，且未明确标注原文含混。",
+          "candidate将‘丁水來立午向’中的‘丁’与‘午’的关系解释为‘不明’，但未将‘丁水’作为opaque_term处理，且未明确标注原文含混。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000469-p000-d24678fafe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘地六改’释读为‘地六改离卦中间空虚’，但原文为‘乾三連地六改離中虛坎中滿’，可能为‘乾三连，坤六断，离中虚，坎中满’之误，candidate未将‘地六改’作为opaque_term处理，且未明确标注原文含混。",
+          "candidate将‘麟右七’中的‘麟’解释为‘含义不明’，但未将‘麟右七’作为opaque_term处理，且未明确标注原文含混。",
+          "candidate将‘局四町’、‘足八謝糠’、‘肩一’解释为‘含义不明’，但未将这些作为opaque_terms处理，且未明确标注原文含混。",
+          "candidate将‘皆數也’解释为‘具体指奇数还是特指洛书数，原文未明’，但原文可能指‘皆奇数也’，candidate的推测性解释超出了allowed_glossary范围，且未明确标注原文含混。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000470-p000-2fb12f9392",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘長里’释读为‘原文如此，非长男，具体所指不详’，但原文为‘震為長里’，可能为‘震為長男’之误，candidate未将‘長里’作为opaque_term处理，且未明确标注原文含混。",
+          "candidate将‘宁女’释读为‘原文如此，非中女，具体所指不详’，但原文为‘離爲宁女’，可能为‘離爲中女’之误，candidate未将‘宁女’作为opaque_term处理，且未明确标注原文含混。",
+          "candidate将‘入地眼全卷六水’解释为‘这似乎是书名及卷次，但‘水’字后似有缺漏，具体所指不详’，但原文可能为‘入地眼全卷六 水法’或类似，candidate的推测性解释超出了allowed_glossary范围，且未明确标注原文含混。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000472-p000-b95a70094c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乾甲水夫",
+          "断句位置"
+        ]
+      },
+      {
+        "id": "book002-b000473-p000-9fff82da32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "水火不相樹"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2786,
+    "completion_tokens": 1100,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2786,
+      "completion_tokens": 1100,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

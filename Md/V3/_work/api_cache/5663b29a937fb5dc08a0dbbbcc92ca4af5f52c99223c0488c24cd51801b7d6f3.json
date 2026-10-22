@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-23T14:20:06.610111+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5663b29a937fb5dc08a0dbbbcc92ca4af5f52c99223c0488c24cd51801b7d6f3",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000854-p000-dcc6bf454c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘龙虎兔来雄’具体指代的风水格局不详",
+          "‘须寻卯乙觅仙踪’中‘仙踪’的具体含义不详"
+        ]
+      },
+      {
+        "id": "book001-b000856-p000-8e000fcb73",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水甲山庚壬，子及坤申’的释读不完整。candidate将其处理为‘水与甲山、庚、壬方位，以及子、坤、申方位的水流情况’，但原文结构更可能是指‘水’与‘甲山’（坐向）及‘庚、壬’（方位）的关系，或‘水’在‘甲山’、‘庚’、‘壬’等方位的组合。candidate未清晰传达这种可能的坐向与方位组合关系，且‘二水名为贪狼位’的释读过于模糊，未点明‘贪狼’是风水九星之一，属于allowed_glossary未涵盖但原文明确提及的专业术语，应保留原词并说明其属性。"
+        ],
+        "uncertainty": [
+          "原文‘水甲山庚壬，子及坤申’的断句和方位组合存在歧义",
+          "‘贪狼位’的具体风水含义需专业解释"
+        ]
+      },
+      {
+        "id": "book001-b000857-p000-ae6e14183d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘税产’后内容可能残缺",
+          "‘金鸡’具体指代的风水方位或格局不详"
+        ]
+      },
+      {
+        "id": "book001-b000859-p000-080ab9a4f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘火乙山辛’中‘辛’是独立方位还是与‘乙山’构成坐向关系，原文未明",
+          "‘猴鼠’‘犬方’为生肖代方位，具体对应地支需结合上下文确认"
+        ]
+      },
+      {
+        "id": "book001-b000863-p000-5724389d06",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘虎牛’‘马上’为生肖代方位，具体对应地支需结合上下文确认",
+          "‘内抱长吉昌’的具体含义不详"
+        ]
+      },
+      {
+        "id": "book001-b000867-p000-86f1163510",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘钱财龙摆去’的具体含义不详",
+          "‘虎头回’具体指代的风水格局不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2173,
+    "completion_tokens": 577,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2173,
+      "completion_tokens": 577,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

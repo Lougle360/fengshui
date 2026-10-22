@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:37:40.213273+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bcb77a69b938c61dd3ed55613fce5cbd017794cd2966d68efc71f88ec280c868",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000820-p000-493cfdcc7a",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《皇極經世書》大致由兩部分構成：①邵雍親自撰寫的六十二篇觀物篇，以及②門人弟子記錄邵雍生平言論的觀物外篇；其中觀物篇又分為③三十四篇歷年表、④十六篇聲音表、⑤十二篇論說（見表6-1）。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000821-p000-45da9c4afc",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "論說內容僅出現在觀物篇末尾的十二篇（即觀物內篇）與觀物外篇中，而關於歷年、聲音的數表占了全書近八成的篇幅。不過明代胡廣等人奉敕編撰的《性理大全》（1415年）所引用的《皇極經世書》，並未引用觀物內外篇也就是論說部分（見表6-2）。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000822-p000-c17951fa01",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "表6-1 《皇極經世書》的結構\n| 篇號範圍 | 類別 | 內容 |\n| --- | --- | --- |\n| 篇1~12 | 歷年表 | 「以元經會」 |\n| 篇13~24 | 歷年表 | 「以會經運」 |\n| 篇25～34 | 聲音表 | 「以運經世」 |\n| 篇35~38 | 聲音表 | 平聲與開音 |\n| 篇39～42 | 聲音表 | 上聲與發音 |\n| 篇43～46 | 聲音表 | 去聲與收音 |\n| 篇47~50 | 聲音表 | 入聲與閉音 |\n| 篇51〜62 | 論說 | — |\n| 觀物外篇 | — | — |",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000823-p000-f889d94969",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "這一點是很明顯的：《性理大全》本經歷了依據蔡元定《纂圖指要（皇極經世指要）》的解釋進行的有意改編。蔡元定（1135年－1198年）是朱熹的高徒，作為確定宋明象數學框架的大學者而聞名。蔡元定的《皇極經世指要》以邵雍之子邵伯温（1057年－1134年）的家傳解釋《皇極經世內外篇解》為基礎，不過",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2156,
+    "completion_tokens": 834,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2156,
+      "completion_tokens": 834,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-24T01:17:39.357543+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5b6b9b88c3fe2d1fcad39ffbcd9ce9f35cea73d174a77527364b5a6a46220eb0",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001324-p000-82a8705bae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在三处脱漏标记①②③，脱漏部分具体内容不详，故保留标记不做补译",
+          "“断以检其要”前的脱漏部分①内容缺失，相关语义不完整",
+          "“乃为②微”中脱漏的②内容缺失，该短语具体含义不详",
+          "“③蚕种”中脱漏的③内容缺失，该短语具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1896,
+    "completion_tokens": 137,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1896,
+      "completion_tokens": 137,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

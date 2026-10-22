@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T08:04:57.633717+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ace18ede400d9c93d69e86883b46a1a98533902f6eb72ec8ebc10ada355a6133",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000116-p000-ab07ebcbe2",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文多处语句残缺、语义混乱，如‘大身之非’‘简角’‘亥之十项阙’‘国及性身’‘太礼’‘舆’‘汝不’‘幹分落为枝’‘轮奏’‘桂胜而段’等均无法明确释读，候选释读存在大量无依据扩写与误译，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文多处残缺，部分内容无法确定含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2375,
+    "completion_tokens": 146,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2375,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2375,
+      "completion_tokens": 146,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

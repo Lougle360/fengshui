@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T15:48:54.822394+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3a1a0b12864ae676e18bbdf4224dfcf7dd527f594d526f8b78a7346bc82b90e4",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001286-p000-48d18fcbbb",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中国的医学理论，将五脏、六腑、十二经脉等归属于五行（木、火、土、金、水五种分类及其关系体系），用相生与相克来解释人体生理及病理上的关系。具体而言：①木对应肝、胆、足厥阴肝经、足少阳胆经；②火（君火）对应心、小肠、手少阴心经、手太阳小肠经；③相火对应心包、三焦、手厥阴心包经、手少阳三焦经；④土对应脾、胃、足太阴脾经、足阳明胃经；⑤金对应肺、大肠、手太阴肺经、手阳明大肠经；⑥水对应肾、膀胱、足少阴肾经、足太阳膀胱经（图9-5），以上就是其基本的归属关系。另外，疾病的转移（传变）分为相生类传变与相克类传变，相生类传变中，病变有从母脏传到子脏的情况（母病及子），也有相反的情况（子病犯母）；相克类传变中，相克太过的情况（相乘），也有相克向相反方向发展的情况（相侮）。据说如果没有五行学说，中国医学就无法成立，可见其影响之广泛且深远。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001288-p000-717a6a6d39",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "1) 原文记载：“《易》上说：上天显现出天象，预示吉凶，圣人取法天象创制了八卦（乾、坤、震、巽、坎、离、艮、兑八种卦象）。黄河出现河图，洛水出现洛书，圣人取法它们创制了《洪范》。圣人推行其中的道，珍视其真义。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001289-p000-e09365d7e7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "2) 原文记载：“刘向父子认为帝王出自震（八卦之一），所以伏羲氏最初承受木德，之后以母德传子德，循环往复，从神农、黄帝开始，历经唐、虞、三代，到汉代获得火德。因此汉高祖刚兴起时，有神母在夜间号哭，显现出赤帝的符瑞，旗帜徽章于是定为赤色，这是自然得到了天统。从前共工氏凭借水德（风水语境中的河流、水系及其来去形态相关的五行属性）介于木德与火德之间，与秦朝的气运相同，不符合五行的次序，所以都不能长久。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001290-p000-52d67395e5",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "3) 引自狩野直喜《读书饕馀》（みすず书房，1980年版）。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2193,
+    "completion_tokens": 817,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2193,
+      "completion_tokens": 817,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

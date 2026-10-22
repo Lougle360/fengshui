@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T16:13:53.673268+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e1766061d4e0dd9966ed64c84fe957b011388026de65358e6f75866fc1634f12",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001557-p000-a325155f8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001558-p000-961f6e948f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中「『七略』の数術」「『七略』の方技」「『七録』」「『後漢書』方術伝」「ディシプリン」等内容，且将原文中「術技」「方術」的不确定含义直接作为确定概念释读，未标注风险"
+        ],
+        "uncertainty": [
+          "術技",
+          "方術"
+        ]
+      },
+      {
+        "id": "book015-b001559-p000-e23dd7638e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中「『疇人伝』」「『後漢書』方術伝」「『新唐書』方技伝」「李淳風」等内容，将原文中「神秘術」「技・芸」的不确定含义直接作为确定概念释读，未标注风险"
+        ],
+        "uncertainty": [
+          "神秘术",
+          "技・芸"
+        ]
+      },
+      {
+        "id": "book015-b001560-p000-ff8a7d0545",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中「大分类」「小分类」的不确定含义直接作为确定概念释读，未标注风险"
+        ],
+        "uncertainty": [
+          "大分类",
+          "小分类"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2939,
+    "completion_tokens": 412,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2939,
+      "completion_tokens": 412,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

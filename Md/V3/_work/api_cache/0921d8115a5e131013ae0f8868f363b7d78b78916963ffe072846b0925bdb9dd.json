@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-25T03:15:10.911930+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0921d8115a5e131013ae0f8868f363b7d78b78916963ffe072846b0925bdb9dd",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000535-p000-5ccac65f12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000536-p000-c2abc24841",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000538-p000-db633882ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“离山而出”的“离”是动词离开之义，allowed_glossary中“离”为“八卦之一”的释义不适用此处，候选释读未对该术语的错误使用进行修正，直接按动词义释读但未明确此处“离”不属于术语范畴，存在术语误用风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000539-p000-678c9d95e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000540-p000-a239ebd43f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000541-p000-5ce9511447",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000542-p000-8392979408",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000544-p000-e40f0d2ed3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4164,
+    "completion_tokens": 472,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4164,
+      "completion_tokens": 472,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

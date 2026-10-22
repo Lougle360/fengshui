@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-23T04:24:20.827906+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f408c3fd315132e307f8ed5f5f958e57401a9136c4937dbea21548cbd929e111",
+  "response": {
+    "items": [
+      {
+        "id": "book001-s000008",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“鳌极”、“鳌布”、“元女降质”等术语的具体所指不详，原文未明。"
+        ]
+      },
+      {
+        "id": "book001-s000037",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“元钧”为locked_terms，应保留原词，不应释读为“元钧”。",
+          "“两间”释读为“天地之间”属于允许的浅显释义，但“德刑”释读为“德与刑”过于简化，原文“德刑”可能为特定术语组合，应保留原词或标注不确定性。",
+          "“九万七千六百之元气，一十二万九千六百之元钧”中的数字是具体数值，释读无误，但“元钧”处理有误。",
+          "“虎贲”为locked_terms，应保留原词，不应释读为“虎贲般的强兵”。"
+        ],
+        "uncertainty": [
+          "“鳌极”、“鳌布”、“元女降质”、“德刑”、“神化”等术语的具体所指不详，原文未明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1529,
+    "completion_tokens": 256
+  }
+}

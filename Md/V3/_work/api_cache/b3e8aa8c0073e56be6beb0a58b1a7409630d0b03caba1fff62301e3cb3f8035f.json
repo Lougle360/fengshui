@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-16T13:07:50.355478+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b3e8aa8c0073e56be6beb0a58b1a7409630d0b03caba1fff62301e3cb3f8035f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002374-p000-88558d5a00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘倒景肥后十二爲落頭’，candidate 释读为‘前十二种情况称为‘倒景肥后’，后十二种情况称为‘落头’’，存在反义错误。原文意思是‘以上十二（种情况）是倒景肥后，十二（种情况）是落头’，并未区分‘前’与‘后’。candidate 添加了‘前’、‘后’的时序或顺序关系，改变了原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002382-p000-39c4bfbb85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译和数字错误。原文‘只有四六爲祖麒靖’中，‘四六’应指‘四个’（四六为祖），candidate 释读为‘只有四个作为祖穴’正确，但漏译了‘麒靖’（应为‘麒麟’）。原文‘其单十 穴之中又各生 三 一穴使是三十六穴’，candidate 指出‘单十穴’所指不详，但释读为‘在剩下的十二个穴之中’属于无依据扩写。原文‘三f 一十六穴’的‘三f’应为‘三十’的误写，candidate 已指出，但‘三f’本身是原文字符，应在uncertainty中标注，而非在issues中作为错误。"
+        ],
+        "uncertainty": [
+          "‘麒靖’可能为‘麒麟’的异写或误字。",
+          "‘其单十穴之中’的‘单十穴’具体所指不详。",
+          "‘三f一十六穴’中的‘三f’应为‘三十’的误写。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1003,
+    "completion_tokens": 452,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1003,
+      "completion_tokens": 452,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

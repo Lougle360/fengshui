@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T06:15:09.693223+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "187ad1a366339d705a5a56c9bf54155b1ac88ebd9536af7f2faf409dd7b8b277",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000064-p000-9bb90025d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000065-p000-ea79aaef24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000066-p000-22aca1c167",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000067-p000-e843c8c477",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000068-p000-9a34f1d26b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“九峯蔡氏”被误释为“有九座山峰。蔡氏”，错误拆分了固定人名表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000069-p000-a82f5b9775",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“三汲”是“三级、三重”的通假，候选补注正确，但“郭景纯以为自上二千五百馀里”释读模糊，未完整传递郭璞对昆仑山高度的注释含义；“伏流地中万三千里”误译为“三千里”，数字错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000070-p000-a38c48a80e",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文“十四步二尺六寸”与前文“总论中国之山”逻辑矛盾，疑似原文上下文断裂或讹误，候选直接按字面翻译未标注此逻辑矛盾。"
+        ],
+        "uncertainty": [
+          "“十四步二尺六寸”所指对象不明，疑似原文存在讹脱"
+        ]
+      },
+      {
+        "id": "book033-b000071-p000-ecf5f34aa7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“北首以画会稽”应为“北首以尽会稽”，“画”是形近讹译；“建康其一支为衡山”语序调整错误，原文是江南诸山远边一支分散为湖南闽广尽于两浙，其中一支为衡山尽于洞庭九江之西，再一支度桂岭等，候选误将“建康”归属到衡山支脉，语序混乱导致地理脉络错误；“闕中”应为“关中”，形近误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000072-p000-5813bc3297",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“西倾朱园”应为“西倾朱圉”，形近误译；“蜀东诸山皆幡冢”应为“蜀东诸山皆嶓冢分支”类表述，原文“正谓其”后残缺，候选直接作“正是说它们”虽标注残缺，但“幡冢”是“嶓冢”的形近误写；“分晋豕易滋漳洹卫”中“晋豕”语义不通，疑似原文“晋地、易水”类讹脱，候选直接照录未标注。"
+        ],
+        "uncertainty": [
+          "原文末句残缺，语义未竟；“晋豕”疑似讹字，所指不明"
+        ]
+      },
+      {
+        "id": "book033-b000073-p000-cbcb4c302e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“峙天日”应为“峙天目（山）”，形近误译；“尽昇润”语义不明，疑似“尽升润州”类讹脱，候选直接照录未标注；“导況水”应为“导沇水”，形近误译；“导浴”应为“导洛”，形近误译。"
+        ],
+        "uncertainty": [
+          "原文末句残缺，语义未竟；“昇润”疑似讹字，所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5146,
+    "completion_tokens": 979,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5146,
+      "completion_tokens": 979,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

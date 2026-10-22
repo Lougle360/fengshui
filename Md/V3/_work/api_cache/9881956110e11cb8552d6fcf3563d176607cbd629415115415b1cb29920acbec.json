@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-26T11:46:42.649465+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9881956110e11cb8552d6fcf3563d176607cbd629415115415b1cb29920acbec",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000196-p000-42658bac66",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000201-p000-9727bf384a",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate自行判定“乾与破、武、辅辅、德福并列出现”无原文排版依据，原文结构混乱无法确认并列关系，candidate漏识别原文“文 申 禄 庚 E”内容，将“庚E”拆分表述不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000232-p000-943bce93c2",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000272-p000-f04247992c",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate遗漏原文“伏吟中子夭”中的“伏吟”前提对应关系，错误表述为“坎山子来坎，主中子夭折”，且额外臆断“‘坎山子来坎’的具体含义原文未明确说明”，current准确对应原文四句话的逻辑关系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000287-p000-9e1fb01543",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "current提及“水流向巽方”“朝廷的高爵位”属于无原文依据的增译，candidate未添加额外臆断内容，但“王家具体指代不详”表述符合原文信息边界"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 500,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2589,
+      "completion_tokens": 500,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

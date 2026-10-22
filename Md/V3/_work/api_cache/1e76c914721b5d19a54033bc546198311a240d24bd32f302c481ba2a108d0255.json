@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T13:40:19.950664+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1e76c914721b5d19a54033bc546198311a240d24bd32f302c481ba2a108d0255",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000187-p000-49b16699fc",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "接下来是南宋尤袤的《遂初堂书目》，需要注意的是，和《七略》一样，它将历书与前述的天文、形法归为一类，统称为数术家类。《隋书·经籍志》《新唐书·艺文志》《明史·艺文志》的分类同样是分为历数（历算）、天文、五行，由此可以判断，清代以前数术观没有根本性的变化，这一点的意义不小。因为可以说，《七略》将占卜书与历算书归为同一类的分类方法，在清代以前没有大的变化。另外，《遂初堂书目》将算书归入杂艺类，数术家类中没有算书应处的位置，但从其他书目可以明确看出，历学与算学的结合非常紧密，将历书与算书分开，应当说是尤袤的过失。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文末尾的“3)”为注释标记，未译出具体内容"
+        ]
+      },
+      {
+        "id": "book015-b000188-p000-686c917406",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "以上分析了数术分类表，不得不得出这样的结论：在《四库全书》之前，历算书是归属于术数的，这一结论也可以通过《四库全书总目提要》与《书前提要》的用词差异来明确。例如梅文鼎的《勿庵历算书记》是优秀的数理科学书籍，《四库全书总目提要》对《勿庵历算书记》予以表彰，",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000189-p000-1e0890ca49",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "称《勿庵历算书记》融会贯通了中西所有方法，每一点都抓住了要领，完全没有门户之见。因此，虽然它只有论述而没有具体方法（属于概说类书籍），仍被归入《四库全书》的天文算法类，作为各类方法的纲领。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000190-p000-1a7028f31e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这都是因为它融会贯通了中西各类方法，每一点都抓住了要领，完全没有门户之争的偏见。所以虽然只有论述而没有具体方法，",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2108,
+    "completion_tokens": 699,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2108,
+      "completion_tokens": 699,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

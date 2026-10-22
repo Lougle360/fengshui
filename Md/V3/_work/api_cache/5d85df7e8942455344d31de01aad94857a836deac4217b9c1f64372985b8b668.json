@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-10-04T04:20:15.055625+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5d85df7e8942455344d31de01aad94857a836deac4217b9c1f64372985b8b668",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001340-p000-e27d096c1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001341-p000-180b081e45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001345-p000-958c95c189",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001346-p000-de2cf32609",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001347-p000-8b094e92bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘穴前八字水交于在邊遠從右去’，candidate译为‘穴前八字水交于左边，远从右去’。‘在邊’应为‘左边’之误，但candidate处理为‘左边’并补充‘远从右去’，逻辑上‘交于左边’与‘远从右去’方向矛盾，可能原文有误或OCR错误，candidate未标注此不确定性。",
+          "原文为‘丁上文筆插天穴中不見出’，candidate译为‘丁上文笔插天。穴中不见出。’‘穴中不见出’指穴中不见文笔峰，candidate断句正确但未明确‘出’指文笔峰显现，可接受，但语义稍显模糊。"
+        ]
+      },
+      {
+        "id": "book033-b001348-p000-c932ffe7c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001349-p000-da086d48a1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘地理人子須矢卷王’疑似OCR错误或原文残缺，含义不明。candidate译为‘此处题记为：地理人子须矢卷王。’属于保守直译，但未标注原文可能损坏或识别错误，导致无法进行有效释读。"
+        ]
+      },
+      {
+        "id": "book033-b001350-p000-2c2878b941",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001351-p000-73063e7fa4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001354-p000-e9f5c75b4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6049,
+    "completion_tokens": 572,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6049,
+      "completion_tokens": 572,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-23T10:30:44.757397+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "829cc046aeef3cbd76d6e32cacfdd77f289b9fd01077a309b59d75e0954f70c7",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000564-p000-7a7a9dc25c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘形巨微’释读为‘如同巨门星但显得微小’，原文‘巨微’可能指巨大与微小两种形态，或指‘巨门星’与‘微’（微小），但candidate将其合并为‘如同巨门星但显得微小’，解释过于具体且可能偏离原意。",
+          "candidate将‘妆台梳洗画蛾眉’释读为‘像妆台上梳洗并画着蛾眉的样子’，原文可能以‘妆台梳洗’和‘画蛾眉’两个意象形容山形，candidate的释读基本合理，但‘并’字连接略显生硬。",
+          "candidate将‘破楼破殿形倾危’释读为‘破楼破殿般形态倾危的景象’，原文‘形倾危’即形态倾危，candidate释读准确。"
+        ],
+        "uncertainty": [
+          "‘形巨微’的具体含义不确定，可能指形态巨大与微小并存，或与巨门星相关但原文未明确。",
+          "‘顿鼓传鼙继恩顺’短语含义不明，candidate已标注不确定，符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 657,
+      "completion_tokens": 280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

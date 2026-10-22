@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T19:58:04.507658+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fa370e920ebed405f1379cb01562924302912baa07863caeb532eb88bb22318a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003191-p000-d5ed4005d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文开头“上有分”语义不完整，具体所指不明；原文存在“君子德)”的录入残缺，已按通顺逻辑补全表述"
+        ]
+      },
+      {
+        "id": "book016-b003192-p000-5a6fca25ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003194-p000-65433acf22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003195-p000-42b947f48b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "桔槔的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2284,
+    "completion_tokens": 237,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2284,
+      "completion_tokens": 237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

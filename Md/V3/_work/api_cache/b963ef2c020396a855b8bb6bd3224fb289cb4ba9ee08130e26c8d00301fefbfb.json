@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T12:38:13.192705+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b963ef2c020396a855b8bb6bd3224fb289cb4ba9ee08130e26c8d00301fefbfb",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003680-p000-8992962905",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘定有黃上金色是’应释为‘必定有黄色和金色的土石’或类似，但candidate‘带有黄色和金色的土石’中‘带有’一词不够准确，原文‘是’为判断词，强调存在，建议改为‘必定有黄色和金色的土石’。",
+          "原文‘許紫石分明生任里’中‘任里’为opaque_term，candidate将其释为‘在任里生长’并写为确定事实，这是不允许的。应保留‘任里’为含混短语，并明确标注其具体所指不详。",
+          "原文‘澡石赤土見分明’中‘澡石’为opaque_term，candidate直接使用‘澡石’并写为确定事实，这是允许的，因为其在writer_uncertainty中已标注，但candidate未在释读中明确标注其不确定性，应补充说明。",
+          "原文‘左右虛來相應 又加一尺土内有紅黃石’应释为‘左右两侧有虚空之气相互呼应，再向下挖掘一尺的土层，内部会有红色和黄色的石头’，candidate‘左右两侧会有虚空之气相互呼应，若再向下挖掘一尺的土层，内部会有红色和黄色的石头’中‘若’字为增译，原文为直接陈述，应删除‘若’字。",
+          "原文‘內有紫石依然斷’应释为‘内部依然会有紫色的石头（或：可以断定有紫色的石头）’，candidate‘内部依然会有紫色的石头’可以接受，但‘斷’字含义未完全译出，可补充说明‘据此可以断定’或类似，但非必须。",
+          "原文‘大石生來在兩邊’应释为‘会有大石头在两边生成’，candidate正确。",
+          "原文‘黃紫石色及生氣’应释为‘黄色和紫色石头的颜色以及生气的状况’，candidate正确。"
+        ],
+        "uncertainty": [
+          "‘澡石’具体所指不详。",
+          "‘生任里’中‘任里’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 926,
+    "completion_tokens": 472,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 926,
+      "completion_tokens": 472,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

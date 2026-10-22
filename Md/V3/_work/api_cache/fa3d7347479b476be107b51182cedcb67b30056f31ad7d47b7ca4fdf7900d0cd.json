@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T19:51:20.739903+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fa3d7347479b476be107b51182cedcb67b30056f31ad7d47b7ca4fdf7900d0cd",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003117-p000-c32d045ddb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003119-p000-14b4164eaf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未明确说明此处‘泽无水’的‘水’是否为风水语境中的水系，按allowed_glossary的释义进行了释读"
+        ]
+      },
+      {
+        "id": "book016-b003120-p000-ebaeccf8ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 176,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1234,
+      "completion_tokens": 176,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

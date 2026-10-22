@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-23T15:25:37.257315+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "39af30741b928d0274d90b16c6f993e53d9bf5c459e5a66c239447a379ba692f",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000959-p000-e81483e7b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘破禄’与‘三吉’的具体所指不详",
+          "‘破禄不得’与‘三吉不得破禄’的具体逻辑关系原文未明"
+        ]
+      },
+      {
+        "id": "book001-b000961-p000-9c3a20bb0c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘局正有奇’被译为‘格局有正局也有奇局’，虽为意译，但‘局正’二字在原文中可能指‘格局的正体’，或‘局’与‘正’是并列关系，此处理解存在风险，应明确标注原文结构含混。",
+          "原文‘势难转武’被译为‘气势难以转武’，‘转武’含义不明，候选句未作任何说明，属于漏译或未处理的不透明术语。",
+          "原文‘息阴避彭’和‘混一’在候选句中虽标注‘具体含义不详’，但‘混一’的翻译‘早知混一’直接采用了原词，未提供任何现代中文的对应解释或说明，不符合‘普通读者能读懂’的目标。"
+        ],
+        "uncertainty": [
+          "‘局正有奇’的确切结构及‘正’、‘奇’的具体所指不详",
+          "‘转武’、‘息阴避彭’、‘混一’的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1204,
+    "completion_tokens": 375,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1204,
+      "completion_tokens": 375,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

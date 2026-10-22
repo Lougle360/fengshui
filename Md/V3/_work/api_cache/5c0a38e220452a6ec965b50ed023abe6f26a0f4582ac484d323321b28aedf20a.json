@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-10-04T07:21:07.289060+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5c0a38e220452a6ec965b50ed023abe6f26a0f4582ac484d323321b28aedf20a",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000797-p000-236b88fbb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "\"拋騎龍\"、\"拋穴\"的\"拋\"字未譯出，可能為\"拋\"或\"抱\"的異體或誤字，釋讀為\"騎龍\"、\"穴\"遺漏關鍵動詞，導致語義不完整。",
+          "\"織繪不嫌外山之散\"中的\"織繪\"未譯出，可能為\"織繪\"或\"織繢\"，指繪製圖形或織錦，釋讀為\"繪圖\"不準確且未處理\"織\"字。",
+          "\"倦宮偏喜前砂之清\"中的\"倦宮\"未譯出，可能為\"倦宮\"或\"眷宮\"，釋讀為\"宮位\"未處理\"倦\"字，含義不明。",
+          "\"竦絲馬跡\"應為\"蛛絲馬跡\"的誤寫，但candidate未指出原文可能的訛誤，直接使用\"蛛絲馬跡\"而未加說明。",
+          "\"成穴將逃\"釋為\"則能形成穴場\"，將\"逃\"（逃逸、消失）誤譯為反義的\"形成\"，語義完全相反。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000799-p000-0848ba9868",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "\"兼體\"、\"貼體\"、\"本形\"、\"本星\"為風水術語，具體所指流派或定義未明，candidate已保留原詞並描述其關係，符合要求。"
+        ]
+      },
+      {
+        "id": "book028-b000800-p000-5a7e5eb345",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source為孤立短句\"金貼出\"，candidate僅複述並標注上下文缺失。但作為釋讀，未提供任何可能的語義推測或結構分析，無法判斷是否準確。根據規則，OCR或原文損壞導致無法成立保守釋讀時用uncertain。"
+        ],
+        "uncertainty": [
+          "此處為孤立短句，上下文缺失，具體所指詳見原文，無法確定其完整語義。"
+        ]
+      },
+      {
+        "id": "book028-b000801-p000-cad45dafd9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "\"暈形本不大見大見則謬子皆知求暈切勿太刻太刻則狐疑逐意登山一見指爲定規無察察爲明以亂初見\"的斷句和釋讀有誤。candidate斷為\"暈形本不大，若見到大則為謬誤，世人皆知。尋求暈形切勿太過苛刻，太過苛刻則會產生狐疑。登山一見便指為定規，沒有細察。細察才能為明，以免打亂初見。\" 其中\"無察察爲明以亂初見\"應為\"無察察為明，以亂初見\"（不要以苛察為明，以免擾亂最初的直覺判斷），candidate釋為\"沒有細察。細察才能為明，以免打亂初見\"，邏輯矛盾且偏離原意。",
+          "\"聲要如微風之波脉要如灰中之綫\"中的\"聲\"可能為\"暈\"或\"星\"的誤字，candidate直接譯為\"聲\"，未指出可能的訛誤或提供保守處理（如保留\"聲\"並說明可能指某物）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000802-p000-9f51ef443e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "\"書體\"可能為\"舒體\"或\"抒體\"的誤寫，具體所指未明，candidate已保留原詞，符合要求。",
+          "\"寄者穴之盡貼者穴之止\"中的\"盡\"與\"止\"含義相近但略有區別，candidate釋為\"盡頭\"與\"停駐\"，為合理推測。"
+        ]
+      },
+      {
+        "id": "book028-b000803-p000-94c4feb370",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000804-p000-a13b04cad3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘木火反見發福’是风水术语，指木星、火星形态的山反而能发福。candidate译为‘都有木火反見發福’，未将‘木火’作为术语解释，也未说明‘反見’的含义，普通读者无法理解。应保留‘木火’并加引号说明，或按allowed_glossary方式处理，但此处未定义，故需修订为保留术语并说明其指代不明或为风水星体形态。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000805-p000-cf3f7302a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘火星燥矣’‘水星潤矣’中的‘火星’‘水星’是风水术语，指山体形态（五星形体），非天文行星。candidate直译为‘火星燥熱’‘水星潤澤’，未作说明，易导致误解。应加引号或说明其为风水星体形态。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000806-p000-e0153832ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000807-p000-253fa2c211",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘含壁不當雨金就身所案者皆然也’含义晦涩，可能为风水术语或描述地形。candidate译为‘含壁不當雨，金就身所案者皆然’，未解释其意，也未标注不确定性，普通读者无法理解。应保留原短语并说明‘具体所指不详’或‘原文未明’。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1506,
+    "completion_tokens": 441,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2545,
+      "completion_tokens": 1704,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1506,
+      "completion_tokens": 441,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

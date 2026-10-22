@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-26T09:11:01.190693+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "06484b182c79d19e9564238ff3ae7c4b0e068047a4a01b064b908be17f0949f1",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000558-p000-0cb1fdc97d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“身俯则须微乳面仰多是微乳”，候选错写为“地势仰面向上的多是钳中带有微窝”，与原文语义相反",
+          "原文“顶头囿正”候选误写为“顶端要圆正”，“囿”为原文用字，未按原样保留或说明差异",
+          "原文“元辰直辰”仅标注疑似讹误，未说明属于微有乳形的禁忌范畴，存在信息遗漏",
+          "原文“星长合格”候选误写为“星体符合格局”，“长”字含义遗漏，属于信息偏差",
+          "原文“界水淋头”候选前后分别写为“界水淋头”“界水沐头”，表述不一致，存在用字错误"
+        ],
+        "uncertainty": [
+          "元辰直辰疑似存在文字讹误，具体所指待考",
+          "播尤州为原文留存表述，疑似存在文字讹误，具体所指待考"
+        ]
+      },
+      {
+        "id": "book033-b000560-p000-fadf4ff559",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "该段表述存在疑似OCR识别错误或原文损坏情况，八拾、双钳、三設具体含义与所指均不明确，且与前文记载的钳形八格内容不符，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2113,
+    "completion_tokens": 423,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2113,
+      "completion_tokens": 423,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T14:02:56.565876+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ed32b91580332307af2464fba1c1cab6ce9f0d8119c3680e50d52c36c1adc8b9",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000003-p000-b78a02b40c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘公遠其神髓’被误译为‘公却远离其神髓’，与上下文褒扬廖公的语境矛盾，语义反译；原文‘候家工極樵’被误译为‘候家的工匠极尽巧思’，‘樵’无‘巧思’含义，属于无依据释读；原文原文‘滋陽帝價之倍’被误译为‘滋阳帝的书价倍增’，属于无依据臆断专名含义；原文存在多处OCR或传抄讹误（如‘稻前正途’‘影如而店真’‘聪翩’‘征昭伊戚星’‘穗合成式’‘廖以渡起’等），未标注原文模糊直接给出确定释读，违反含混内容处理规则；部分语句逻辑断裂，未如实反映原文语序混乱的问题"
+        ],
+        "uncertainty": [
+          "原文存在大量讹误、语序混乱，除已明确可识别的语义错误外，多处表述具体所指无法准确考证"
+        ]
+      },
+      {
+        "id": "book028-b000005-p000-dcc0b82973",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘南京禮部名侍郎’被误写为‘南京礼部右侍郎’，属于无依据补改官职名称；原文‘賜一品服 朱之蕃撰’遗漏‘赐一品服’‘撰’信息，属于漏译；原文‘外集可要旨’被误写为‘外集要旨’，‘園史正侯胡鮮’信息遗漏，属于内容讹漏；目录层级、条目归属未明确区分，未如实标注原文目录表述存在的错乱问题"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2212,
+    "completion_tokens": 440,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2212,
+      "completion_tokens": 440,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

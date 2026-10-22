@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-25T17:23:04.952637+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4efb2ecf1a0e5c7a0842a92b910a178abc0f3c5a845b340c0340d22d7c0181eb",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000018-p000-38cda63c7b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“余師向劾四彈子砂水要訣”中“向”属于locked_terms，是风水术语，候选将其释为“向劾”的人名用字，违反locked_terms保留要求；原文“故人巒頭歌括”候选误写为“故人所传的《峦头歌括》”，且原文“遣化在”未完整释读，漏译最后部分内容；原文“今增釋本故人巒頭歌括”断句错误，误将两部分合并表述；原文“煞洩”候选误写为“煞池”，语义偏差。"
+        ],
+        "uncertainty": [
+          "后明具体所指不详",
+          "衡头为峦头的形近讹字属推测",
+          "森柰罗外具体所指不详",
+          "《四弹子砂水要诀》与作者关联未明确"
+        ]
+      },
+      {
+        "id": "book030-b000023-p000-c82b6c1644",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“試可”是徐之鎮的号或字无明确依据，候选直接认定为字属于无依据增译；原文无“字”相关表述，属于额外添加确定信息。"
+        ],
+        "uncertainty": [
+          "潭库具体所指不详",
+          "试可是否为徐之镇的字无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000024-p000-07b203fce0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“及场廖变言九曜张李广言龙格兼之十曾蔡训”断句属参考文意的推测，“十”字具体所指不明",
+          "“使干记诵”中“干”字语义不明，暂按便于记诵解释"
+        ]
+      },
+      {
+        "id": "book030-b000026-p000-c49f5b8d90",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“义括阴阳两字”后疑似脱文内容不明",
+          "“閒”按“平日里”解释属推测",
+          "“人闻”为“人间”的形近讹字属推测"
+        ]
+      },
+      {
+        "id": "book030-b000027-p000-c140a38dba",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "點陽浙五的具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000028-p000-7de449ae75",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“丝”为“此”的形近讹字属推测",
+          "“山飞”“水走”为风水术语，此处按常规语境解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2644,
+    "completion_tokens": 739,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2644,
+      "completion_tokens": 739,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

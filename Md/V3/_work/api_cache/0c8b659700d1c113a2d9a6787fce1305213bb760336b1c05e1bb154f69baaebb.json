@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T07:47:02.273966+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0c8b659700d1c113a2d9a6787fce1305213bb760336b1c05e1bb154f69baaebb",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000071-p000-731db6abe2",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR缺漏、讹误及残缺残句，如“似無轉讀而不国”“彼亦自”“有亂宗自”“牛月太陰”“能出版”“大入物非特責也”“福義管陶促，字土行著有，提壓服捉脉，二学本此”“提脈之妻”“龍厭籍”“兩少者”“☆”“數枝謹出其”“誤海則正脈自在為味道去”“妻融悟”“師安”等，均无法明确具体含义",
+          "“殉疑當作立言”属于校勘推测，并非原文确定内容",
+          "“周嘩者”“楊空佈陣”“進瓜脈”“出嶂銀合與叛”“葛古榮”“晟”“邈結道篇”等短语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3786,
+    "completion_tokens": 257,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3786,
+      "completion_tokens": 269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3786,
+      "completion_tokens": 334,
+      "cached_prompt_tokens": 3384,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3786,
+      "completion_tokens": 257,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

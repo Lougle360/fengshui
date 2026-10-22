@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:10:03.856896+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0d136d313eef91e14e9cc58c5de8b7570c3c0e73044d9d74a4dc3d7ef1c37c60",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000092-p000-5509a348c0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选释读存在大量原文残缺错乱内容的随意拼接，未区分原文可释读部分与不可释读部分，且存在将原文零散内容错误整合为完整段落的问题，部分内容属于OCR识别错误导致无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原文中多处内容因残缺错乱无法准确释读，如‘首見 雖小異自と一寸為 其俊六者名之亦不 者須善理會 者’‘波骨三宵乾陰生陰 之縣乳單股平中 之所無穴占專指水 解 勝交媾故爲造化之妙’等，候选释读未明确标注这些内容的不可释读性，反而将其错误整合为风水相关内容进行解读，不符合原文实际情况"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3550,
+    "completion_tokens": 220,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3550,
+      "completion_tokens": 220,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

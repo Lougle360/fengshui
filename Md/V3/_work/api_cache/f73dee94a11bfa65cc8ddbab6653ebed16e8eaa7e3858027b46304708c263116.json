@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-04T05:25:54.823323+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f73dee94a11bfa65cc8ddbab6653ebed16e8eaa7e3858027b46304708c263116",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000624-p000-3f821bdeb3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“画”字的具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b000625-p000-0db994ce33",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘所要取清穴要取明龍要取變化砂要取有情水口要取屈曲明堂要取恢宏’是并列结构，candidate将‘所要取清’单独解释为‘脉要清’，属于无依据的增译。应译为‘所要选取的，脉要清，穴要明……’或保留原文并列结构。",
+          "原文‘龍不變化扒砂經則九砂若無情則僞’，candidate译为‘龙不变化则砂经，砂无情则伪’，其中‘扒砂經則九’被遗漏或误译，导致语义不完整。"
+        ]
+      },
+      {
+        "id": "book028-b000628-p000-c04cfeb445",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“纵尽龙有天则气脉彼巳先得被他斩截”的具体逻辑关系和含义不详",
+          "“生气若不知审穴晕佈土氣失脉淺深然後方爲盡穴所捨”的断句与具体所指不详"
+        ]
+      },
+      {
+        "id": "book028-b000629-p000-cc44ba5861",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘峰當面以聳援爲澗水當朝以屈曲爲羨’，candidate译为‘山峰当面耸立，以援手为涧；水当朝拜，以屈曲为羡’，其中‘以聳援爲澗’的‘澗’被译为‘涧’，但结合风水术语‘水口’等，此处‘澗’可能为‘涧’的异体或通假，但‘以援手为涧’的解释缺乏依据，且‘聳援’作为一个词（高耸的援手/护卫？）被拆解。",
+          "原文‘四圍肢腳凌爍嵯峨峻削破碎’，candidate将‘凌爍’作为opaque term处理，但‘嵯峨峻削破碎’是清晰的描述，candidate未译出‘峻削破碎’（峻峭、陡削、破碎）。",
+          "原文‘砂經 卷 溯湃’，candidate将其整体作为opaque term处理，但‘溯湃’（形容水势汹涌）与‘砂經 卷’的关联不明，可能原文有错乱或脱漏，candidate未尝试进行任何保守的断句或说明。",
+          "原文‘遇風 叭名之曰忌宗禍不旋踵’，candidate译为‘遇风“叭”，名为“曰忌宗”’，将‘叭’和‘曰忌宗’均处理为opaque term，但‘曰忌宗’的断句应为‘名曰忌宗’，‘曰’是‘名’的动词（叫做），candidate的断句有误。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1929,
+    "completion_tokens": 671,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1929,
+      "completion_tokens": 671,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

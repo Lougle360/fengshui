@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-18T06:53:47.562336+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "570fee7c9f95f43255843b0731186aa01a5e6758d49ce7d9042aa82bc1c77862",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005784-p000-ea850c6c85",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005785-p000-4ad450bd1e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“寝关利害”被译为“寝关利害”，未作解释，普通读者无法理解。应明确其含义或标注为特殊用语。",
+          "原文中“虽有眼九亦饭为术矣”被译为“虽有眼九亦饭为术矣”，完全照搬，未作任何解释或风险标注，属于未转换的古文/日文。",
+          "原文中“番其刑杀生旺之灵”的“番”字，译为“番”，未作解释，可能为“审察”等义，此处未转换。",
+          "原文中“右避窃途寇盗之侵凌”的“右避”译为“右避”，未作解释，属于未转换的古文。",
+          "原文中“将见未紫坠殃”的“未紫”译为“未紫”，未作解释，属于未转换的古文。",
+          "原文中“时乙菊月”译为“时乙菊月”，未作解释，属于未转换的古文纪年方式。",
+          "原文中“又顾罔旧集天機二书定仙外金卦用法”的“仙”字，candidate中遗漏，导致句意不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005786-p000-e1ba9de0d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“《宽镜》本卦法”，candidate作“《宽镜》”，但source为“寶鏡”，存在OCR或原文差异，应统一或注明。",
+          "原文中“由坐穴以推山水吉凶”前有“田内”二字，candidate遗漏，导致句意不完整。",
+          "原文中“或得之昭向”的“昭向”，candidate作“昭向”，未作解释，可能为“朝向”或特定术语，此处未转换。",
+          "原文中“五亲内卦子父才官兄弟也”的“才”，candidate作“才”，但通常作“财”，存在术语不统一或OCR问题。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2878,
+    "completion_tokens": 574,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2878,
+      "completion_tokens": 574,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

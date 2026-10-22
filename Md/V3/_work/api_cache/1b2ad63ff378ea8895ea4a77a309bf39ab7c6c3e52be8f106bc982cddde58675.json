@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-25T14:28:54.370712+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1b2ad63ff378ea8895ea4a77a309bf39ab7c6c3e52be8f106bc982cddde58675",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000359-p000-79b5f2a135",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "贡陈之相具体含义不明"
+        ]
+      },
+      {
+        "id": "book026-b000367-p000-b91fdfe61d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理自有神”无“护持”相关表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000369-p000-72404a0940",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“可凡經非題旨也宜詳之”存在OCR或断句讹误，候选释读“详细来看整段内容都有脉路可寻，凡是这类内容都不属于题旨的范畴，应当详细探究这段内容”属于无依据推测，与原文无法对应"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000371-p000-181574f40d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“指左雙臂右雙曾者其名義不常生矣”内容完全未翻译，存在漏译；原文“遇抱與穴有情”被误释为“遇到环抱穴”，语义理解错误，应为遇到环抱、对穴有情的形势"
+        ],
+        "uncertainty": [
+          "公空、右仙宮左帝授、古華提、邊車邊雙、主參省古臺、權書舟以索的具体含义均不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 421,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1350,
+      "completion_tokens": 421,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

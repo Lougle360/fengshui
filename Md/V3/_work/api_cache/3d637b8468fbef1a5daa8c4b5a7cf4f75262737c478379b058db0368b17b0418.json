@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T09:06:10.029538+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3d637b8468fbef1a5daa8c4b5a7cf4f75262737c478379b058db0368b17b0418",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000140-p000-6a305cf7db",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处字迹错乱、缺漏，部分语句难以完全准确还原，释读时保留了原文的模糊表述"
+        ],
+        "uncertainty": [
+          "原文多处字迹错乱缺漏，部分语句含义难以完全准确还原"
+        ]
+      },
+      {
+        "id": "book010-b000141-p000-47086b9046",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文字迹错乱严重，语句难以完全准确还原，无法形成合理的释读内容"
+        ],
+        "uncertainty": [
+          "原文字迹错乱，语句难以完全准确还原"
+        ]
+      },
+      {
+        "id": "book010-b000142-p000-c6ff78218d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文字迹错乱严重，语句难以完全准确还原，无法形成合理的释读内容"
+        ],
+        "uncertainty": [
+          "原文字迹错乱，语句难以完全准确还原"
+        ]
+      },
+      {
+        "id": "book010-b000143-p000-45c130ba02",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文字迹错乱严重，语句难以完全准确还原，无法形成合理的释读内容"
+        ],
+        "uncertainty": [
+          "原文多处字迹错乱缺漏，部分语句含义难以完全准确还原，如“奔巢的指爪得甲，整立共新火建往”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1347,
+    "completion_tokens": 346,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1347,
+      "completion_tokens": 346,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

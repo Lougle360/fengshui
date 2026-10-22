@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-25T12:46:15.431351+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "784fc5adfca9b12c496c2bb5d02cc9c021936bbfe5c27222fd7d8c7a3c523d1a",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000093-p000-f226b1b9f4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "其十人物象塞鸞含义不详",
+          "閒寶者含义不详"
+        ]
+      },
+      {
+        "id": "book026-b000094-p000-10e081379e",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文字识别混乱，无法有效释读"
+        ]
+      },
+      {
+        "id": "book026-b000095-p000-d922370c0c",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文字残缺模糊，无法有效释读"
+        ]
+      },
+      {
+        "id": "book026-b000096-p000-e23264db82",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“龙禿内合”被误释为“龙砂虎砂内侧水交汇”，属于无依据增译；原文“聖六由之而成氣由之而緊龍 由之混入中外看”“非六也”“結 時 有 ÷ 明止 水 交方是六用”等多处含“六”“÷”的模糊内容，候选释读将其归为与小明堂、吉地相关的表述，存在把不确定推测写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文多处识别为“六”“÷”的文字存疑",
+          "水口紫關含义不详",
+          "純路含义不详",
+          "“龙禿内合”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1711,
+    "completion_tokens": 386,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1711,
+      "completion_tokens": 386,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

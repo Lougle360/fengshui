@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-26T06:59:30.174882+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8ede63b7d8cdc6e4916b8eb648987848fbb7beeed5c4b2663f8f7cf807eaf5c2",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000132-p000-ef9cbefe42",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘蹤異跡崩洪怪石’被错误拆分，candidate将‘蹤異跡’单独列为状态，遗漏了‘蹤異跡’是描述崩洪怪石相关脉络踪迹特征的语义，断句错误。2. 原文‘蓋其行度之遠故能備具諸格之氣勢之宏故能發現英華之妙’被错译为‘大概是因为山脉穿行的距离足够远，所以能具备各类格局的宏大气势，才能显现出灵秀的妙处’，原句是并列的三层因果逻辑的第一层：行度远→备具诸格；第二层是气势宏→发显英华之妙，candidate错误合并了两层逻辑，语义偏差。3. 原文‘大地多大話’被译为‘描述大地的言语多有夸张’，此处‘大话’是风水术语指描述大地格局的表述气象宏大，并非日常语义的‘夸张’，属于术语误释。4. 原文‘若鳳越’属于无依据专名认定，allowed_glossary未收录该专名含义，candidate直接将其作为人名引用释读，不符合规则，应标注所指不详。"
+        ],
+        "uncertainty": [
+          "1. ‘晚卸’具体含义暂不明确，已标注风险符合要求。2. ‘天汉’‘天满’‘赵旗’‘列鼓’等风水格局专名未标注所指，存在歧义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1633,
+    "completion_tokens": 371,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1633,
+      "completion_tokens": 371,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

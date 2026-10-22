@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-17T18:45:28.341483+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b52b1a1b10b32124bd7f9145dc3914f048819857f705d7739e0fd758968b4854",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004362-p000-b361687b2a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'禹曰'后的内容全部处理为引文解释，但原文'一等龍自高山跌落大宜以望龍法之又以青爲仙師尋水經之行也曰'语义连贯，candidate将其拆解为'一等龙脉从高山跌落，最宜用望龙法，又以“青”为仙师寻水经之行。文中又说：“两是合处是也”'，结构混乱且'又以青爲仙師尋水經之行也曰'的释读不准确，'青'可能指代人或书名，但candidate直接引述并称'具体所指不详'，处理方式不当。",
+          "candidate将'或结平洋盘弦是也'释为'指有的结穴在平原地带呈盘弦状'，'盘弦'是opaque_term，应保留原词并说明含义不明，而非自行解释为'呈盘弦状'。"
+        ],
+        "uncertainty": [
+          "“如之玄崛曲如珠丝恢城落下大坪有影无形”的具体含义",
+          "“青”的具体所指",
+          "“两是合处是也”的具体含义",
+          "“盘弦”的具体形态"
+        ]
+      },
+      {
+        "id": "book035-b004364-p000-1020baab39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“纵脉腕开弓无仰睡”的具体含义",
+          "“内外三关是大重”中“大重”的确切含义",
+          "原文末尾“扦之不”后残缺内容"
+        ]
+      },
+      {
+        "id": "book035-b004366-p000-10c912bf4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“将相公侯指目前而之有多前”的具体含义",
+          "“左居右天二之”的具体含义",
+          "“太玄”的具体所指",
+          "“龙楼金阙”的具体所指",
+          "“辅弼”的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b004368-p000-aaa8bf55d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'观性性垂落争低'释为'观察特性，特性垂落争低'，'性性'可能是'星'的误写或特定术语，此处释读依据不足，应标注为含义不明。",
+          "candidate将'上三穴咽喉两肩窠'释为'上三穴指咽喉、两肩窠'，并将'咽喉'、'肩窠'作为具体部位解释，但这些都是opaque_terms，应保留原词并说明含义不明，而非确定为人体部位。",
+          "candidate将'心头三穴是中插也'、'脐肾三穴是也'释为具体穴名，但'心头'、'脐肾'是opaque_terms，应保留原词并说明含义不明。"
+        ],
+        "uncertainty": [
+          "“观性性垂落争低”的具体含义",
+          "“咽喉”、“肩窠”的具体所指",
+          "“心头三穴”的具体所指",
+          "“脐肾三穴”的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b004370-p000-22fd8cdb3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“应高揖下或揖中”的具体含义",
+          "“龙住上强逢虎”的具体含义",
+          "“龙稀有分明处”的具体含义",
+          "原文末尾“但认微”后残缺内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2353,
+    "completion_tokens": 765,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2353,
+      "completion_tokens": 765,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

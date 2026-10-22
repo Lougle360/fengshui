@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-24T01:33:53.827639+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "adeab20324c5e5e6765b3d91042489a4f2f947821d94238d4f25f12557eda092",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000054-p000-fdec988d4c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文神煞条目断句错误：原文‘守成兵吉兵寶’应为‘守成、兵吉、兵寶’，候选误断为‘守成兵、吉兵、寶’；原文‘天廟’是独立条目，候选误将其与前字组合为‘成天廟’；‘咸勲’后漏译‘福’字，原文为‘咸勲福厚’，候选拆为‘咸勲、福厚’错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000056-p000-3c5ab4dcb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文干支‘巳未’书写错误，应为‘己未’；原文‘財離歲空’是两个独立神煞‘財離、歲空’，候选断句正确；原文‘地火伏斷’是独立条目，候选断句正确；原文‘大殺入塞’断句正确；locked_terms中的‘朱雀’此处为择吉神煞，不属于allowed_glossary规定的‘穴前方的形势称谓’范畴，不应套用该释义；‘前三條俱邑’标注含义不详符合要求"
+        ],
+        "uncertainty": [
+          "前三條俱邑的具体含义不详"
+        ]
+      },
+      {
+        "id": "book006-b000057-p000-5d2822e31e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000061-p000-5a49d3f587",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文干支‘巳卯’应为‘己卯’、‘巳亥’应为‘己亥’、‘巳酉’应为‘己酉’、‘庚戍’应为‘庚戌’；原文‘九土見八風’候选误写为‘九土鬼、八风’，属于无依据增改内容；locked_terms中的‘朱雀’此处为择吉神煞，不属于allowed_glossary规定的‘穴前方的形势称谓’范畴，不应套用该释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000062-p000-3a1ebefcc0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1532,
+    "completion_tokens": 572,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1532,
+      "completion_tokens": 572,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T16:58:52.197644+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fe973b1a9a727a970abc44c039e5dff2ea622093ae37a395c6671fe1266fd0e1",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000517-p000-794834964f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“实心以体”未译完，存在内容缺失"
+        ],
+        "uncertainty": [
+          "原文末尾“实心以体”未明，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1016,
+    "completion_tokens": 81,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1016,
+      "completion_tokens": 81,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

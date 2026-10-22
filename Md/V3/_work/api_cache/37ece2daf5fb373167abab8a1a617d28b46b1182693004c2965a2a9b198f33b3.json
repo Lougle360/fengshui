@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T01:35:10.860721+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "37ece2daf5fb373167abab8a1a617d28b46b1182693004c2965a2a9b198f33b3",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001690-p000-b6037a9b67",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“圓者为全”的“全”含义不明确",
+          "“三五一”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001692-p000-e61bef9b18",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“水”前的主语承接前文言“以龙而言”的形态对应，此处不应将“水”前的修饰语误作“弯曲的形态”，前条source已单独说明“曲者為地理辨正真读……”，本条“水”对应形态原文未作“曲者”限定，属于逻辑承接错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001694-p000-1c77c9d8f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“寵山雜”具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001697-p000-e609284cb1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的“曲”字未作处理，未说明该字是衍文、讹字还是漏译内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001700-p000-be6e31762d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“素龍”具体所指不详",
+          "“起背”具体含义不明",
+          "“系體”具体含义不明",
+          "“夾從輪助”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1435,
+    "completion_tokens": 462,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1435,
+      "completion_tokens": 462,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

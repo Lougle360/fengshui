@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T13:58:43.858802+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b581ff73c1a16c69ddf973bebae99d61b83301fe8bdf921a9eccb67cab132e9b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000442-p000-77e8e909f1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "该方法的前半部分，是计算满足上述式子的最小数值。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000444-p000-fd6275949b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "并得出了该数值，但这不过是将一般解设为",
+        "confidence": "medium",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000446-p000-fc32ba705d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "而已。另外后半部分的解法，是针对余数r₁（<3）、r₂（<5）、r₃（<7）以及名为$\boldsymbol{\boldsymbol{\rho}_5}$的联立同余式",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中「ほかな $\\zeta$ ない」的「$\\zeta$」为特殊符号，具体含义不明；原文中「か」的使用存在歧义，此处按上下文保守译出"
+        ]
+      },
+      {
+        "id": "book015-b000448-p000-5dedefe773",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "而言的。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 419,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1576,
+      "completion_tokens": 419,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

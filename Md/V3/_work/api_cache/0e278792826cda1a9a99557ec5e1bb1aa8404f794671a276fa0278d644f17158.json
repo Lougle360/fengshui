@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:59:30.172635+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0e278792826cda1a9a99557ec5e1bb1aa8404f794671a276fa0278d644f17158",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001005-p000-3ad7386550",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b001008-p000-201934df55",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘玉交牙’‘多重繼’‘前山之腳室’等未明確含義的術語按確定含義釋讀，屬於無依據擴寫"
+        ],
+        "uncertainty": [
+          "‘玉交牙’‘多重繼’‘前山之腳室’具體所指未明"
+        ]
+      },
+      {
+        "id": "book014-b001010-p000-87e0839c9c",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR識識別錯亂，無法確認準確含義"
+        ],
+        "uncertainty": [
+          "原文存在OCR識識別錯亂，無法確認準確含義"
+        ]
+      },
+      {
+        "id": "book014-b001011-p000-3374a928b0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "將‘形’‘木’等未明確含義的術語按確定含義釋讀，屬於無依據擴寫"
+        ],
+        "uncertainty": [
+          "‘形’‘木’具體所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1492,
+    "completion_tokens": 348,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1492,
+      "completion_tokens": 348,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

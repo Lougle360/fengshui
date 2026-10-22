@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-15T05:53:39.290791+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a9a3a22f3b9d99b473a582fedbddbae622d638d4db703ed54a446709a62509ec",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001978-p000-88c0439222",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将“只據見行周易”译为“只能依据通行的《周易》文本”，但原文“次第行列多不同者”明确指排列顺序不同，candidate 未译出“次第行列”这一关键信息，属于漏译。",
+          "candidate 将“極 河齒洛書皆可”处理为“文中提到‘极 河齒洛書皆可’，但‘河齒’具体所指不详，且‘皆可’之后的内容原文未明。”，这是正确的风险标注，但原文“極”字未译出，且“河齒”疑似“河圖”之误，candidate 未指出此疑似讹误，可补充说明。",
+          "candidate 将“有以識其翼矣”译为“从而能够认识并理解《周易》的辅助作用”，其中“翼”译为“辅助作用”是合理的浅显释义，可以接受。但“矣”字未译，不过不影响整体语义。"
+        ],
+        "uncertainty": [
+          "‘河齒’疑似‘河圖’之误。"
+        ]
+      },
+      {
+        "id": "book033-b001983-p000-bb87eec50d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001984-p000-56cbe02fd6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source 文本严重错乱，存在大量无法识别的字符和颠倒的语序，无法构成连贯的语义。candidate 正确指出了原文的损坏状态，并说明无法进行有效改写。这符合 OCR 或原文损坏导致连保守释读都无法成立的情况。"
+        ],
+        "uncertainty": [
+          "原文严重错乱，无法准确还原原本含义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2375,
+    "completion_tokens": 430,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2375,
+      "completion_tokens": 430,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

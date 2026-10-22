@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T19:34:03.667373+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bd21e3857315fe8ca3dd9bd23b4a21ba0e5a4e939d4cd8bb70d7581fbc8b19f5",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002812-p000-76e9a53882",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002813-p000-99bc5f411b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary中未对‘迁’作出释义，candidate将‘迁’释为‘向往’不符合原文‘迁，就也，犹言向往’的原意，属于误释；allowed_glossary中‘向’的定义为‘建筑或穴位所朝的方位’，与原文语境无关，此处不应使用该术语释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002814-p000-77fb86f8d9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处未完整表述，存在缺漏"
+        ]
+      },
+      {
+        "id": "book016-b002815-p000-6dea241d92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 282,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1738,
+      "completion_tokens": 282,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

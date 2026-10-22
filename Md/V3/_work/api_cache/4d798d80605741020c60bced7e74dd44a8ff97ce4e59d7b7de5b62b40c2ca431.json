@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:09:14.034439+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4d798d80605741020c60bced7e74dd44a8ff97ce4e59d7b7de5b62b40c2ca431",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000963-p000-c28dd7bb33",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate未完整译出原文最后部分，遗漏了原文的「独創」相关内容，且未对「独創的具体含义」进行标注说明"
+        ],
+        "uncertainty": [
+          "独創的具体含义未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 896,
+    "completion_tokens": 94,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 896,
+      "completion_tokens": 94,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

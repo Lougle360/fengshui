@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-26T10:28:15.480000+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7159ca106b0c2a20f5b2a539ee30446feb9334ee7c745bdbc2b3327100766708",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000867-p000-2b31ccad60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“諸”为未竟表述，没有后续内容可补全"
+        ]
+      },
+      {
+        "id": "book033-b000868-p000-1fa15d3069",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000869-p000-afd28621ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“横龙天也里子页口卷三下穴法”原文表述不完整，难以准确释读"
+        ]
+      },
+      {
+        "id": "book033-b000871-p000-f400b67241",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“皆龍虞定穴之大法也”中“龍虞”应为讹字，候选未注明该讹字情况，直接释读为“勘定”属于无依据推定；原文“皆真不以龍虎二山而取則焉”语义释读有误，原文本意为“这些都很正确，但也不能仅凭龙、虎二山来选取穴位”，候选先肯定结论再说明不能只凭龙虎，表述逻辑与原文不符；“侖裏正之”未标注为含义不明，仅在不确定性中提及，未在释读中明确其不可释读属性"
+        ],
+        "uncertainty": [
+          "“虎山壓塚須避其皮而依龍”中的“皮”为讹字，无法确定原本所指；“侖裏正之”含义不明确；“龍虞”为讹字，具体原字不详"
+        ]
+      },
+      {
+        "id": "book033-b000872-p000-7835ac686a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“三塔兩塔”未明确属于不明术语，直接保留未加标注，存在无依据默认其为地貌或建筑的风险；“送禍穴亦偏”推定“禍”为“高”的讹字缺乏充分依据，属于过度推定"
+        ],
+        "uncertainty": [
+          "“纏馥”“取悔”“畫”均为讹字，是根据文意推定的正字；“葛漢氏”未见于允许的术语表，具体身份不详；“禍”是否为“高”的讹字无法确定；“三塔兩塔”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3681,
+    "completion_tokens": 585,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3681,
+      "completion_tokens": 585,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-25T08:05:56.710881+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4b9f82e18194792e9e8e79d18d8df1473500ddf8180fe304e2ad2f5aa15fddfc",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002297-p000-3d8e2b4c67",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或山云贵而不富”被误译为“有的说山贵就会富”，含义完全相反；原文“已”是“巳”的形近字，对应地支巳，candidate中存在漏改的“已”，干支有误；存在无依据表述“难道还能让水流入‘于于怀’吗”，原文“入于于怀”是“入于怀”的笔误，不应保留错字直接引用；原文“不拘作单向双朝之赋”被误译为“不被作单向双朝的赋文束缚”，含义偏差",
+          "uncertainty: []}, {",
+          "id\": \"book018-b002298-p000-8c0ff41f4e",
+          "verdict\": \"accept",
+          "confidence\": \"high",
+          "issues\": [], ",
+          "uncertainty\": []}, {",
+          "id\": \"book018-b002299-p000-f10ad647de",
+          "verdict\": \"revise",
+          "confidence\": \"high",
+          "issues\": [",
+          "原文“或山云贵而不富”被误译为“有的说山贵就会富”，含义完全相反；原文“已”是“巳”的形近字，对应地支巳，candidate中存在漏改的“已”，干支有误",
+          "uncertainty\": []}, {",
+          "id\": \"book018-b002300-p000-8a08493574",
+          "verdict\": \"accept",
+          "confidence\": \"high",
+          "issues\": [], ",
+          "uncertainty\": []}]}  "
+        ]
+      },
+      {
+        "id": "book018-b002298-p000-8c0ff41f4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002299-p000-f10ad647de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或山云贵而不富”被误译为“有的说山贵就会富”，与原文含义相反；原文“木绝申而亥、卯、局”存在脱漏，候选自行补为“亥、卯、未会合成木局”属于无依据增译；原文“长长帝旺俱高耸”保留叠字“长长”含义未明，候选未做标注直接按普通表述释读存在风险；原文“死墓绝乡水去长”的“水去长”被译为“水流流出时间长”，属于词义误读，此处“长”指水流悠长而非时间久长"
+        ],
+        "uncertainty": [
+          "原文“木绝申而亥、卯、局”存在脱漏，具体合局所指原文未明"
+        ]
+      },
+      {
+        "id": "book018-b002300-p000-8a08493574",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1997,
+    "completion_tokens": 316,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4586,
+      "completion_tokens": 440,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1997,
+      "completion_tokens": 316,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

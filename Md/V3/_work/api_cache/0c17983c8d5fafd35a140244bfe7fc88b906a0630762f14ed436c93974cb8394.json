@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:56:55.351543+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0c17983c8d5fafd35a140244bfe7fc88b906a0630762f14ed436c93974cb8394",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000429-p000-316e46c4bf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘得 o水’的缺字未作标注，直接释为‘得水’属于无依据补全；‘護徨’疑为‘護砂’的讹误未在释读中体现，存在专业术语误换风险；‘威如八字’的释读未明确其为原文含混表述，直接定为分流形态属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中‘得 o水’的缺字无法确认，具体所指不详；‘護徨’疑为‘護砂’的讹误，原文未明确，具体所指不详；‘威如八字’原文表述含混，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 189,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1081,
+      "completion_tokens": 189,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

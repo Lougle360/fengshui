@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-16T10:32:07.453149+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e7d77136fed8179bf5d5d8030a278b335f8bd5099253621cc31b10b167441027",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001964-p000-d74e478b54",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001965-p000-1695891a2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001966-p000-10b3565741",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001967-p000-3b0dedca18",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘淮曾楊二公之復世亦不外乎是’，candidate 译为‘即使是杨公、曾公再世，也不过是阐明这个道理罢了。’其中‘淮’字未译出，可能指‘淮’地或‘淮’姓人物，属于漏译。",
+          "原文为‘生生這道息矣’，candidate 译为‘生生不息的大道就会止息。’其中‘這’字应为‘之’或‘者’的异体或误写，译为‘的’或‘者’更准确，但此处‘生生之道’的译法基本达意，可视为浅显释义。但‘這’字处理不明确，建议在uncertainty中标注。",
+          "原文为‘今謝公泄地理之眞機’，candidate 译为‘如今谢公泄露了地理的真正关键’，其中‘泄’字译为‘泄露’带有贬义，在古籍中常为中性或褒义的‘阐发’、‘揭示’，建议用更中性的词语。"
+        ],
+        "uncertainty": [
+          "原文‘生生這道息矣’中的‘這’字，可能为‘之’或‘者’的异体或误写，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001968-p000-ae7d8c36fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001969-p000-ca54a79041",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001970-p000-53fffc3468",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘要識準標染與淺’，candidate 译为‘要识别准绳的标度，必须分清深浅。’其中‘染’字未译出，属于漏译。‘染’可能指‘沾染’、‘浸染’或为‘深’的误写或特定术语，需处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001971-p000-934796c684",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001972-p000-bd01cd92d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001973-p000-4e7ab7adb9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘上言陰陽二字及地理之樞機也’，candidate 译为‘上文所说的“阴”和“阳”二字，是地理学的枢纽关键。’其中‘及’字译为‘是’，但‘及’通常意为‘以及’或‘关系到’，此处可能为‘乃’或‘即’之误，或表示‘以及是’，译法不够准确。",
+          "原文为‘察脈路來情之順羲’，candidate 译为‘观察脉路来情的顺逆’。其中‘羲’字应为‘逆’的异体或误写，译为‘逆’正确，但应在uncertainty中标注字形问题。",
+          "原文为‘以定后接前迎之趨舍’，candidate 译为‘以此决定后接前迎的趋舍’。其中‘后接前迎’是风水术语，译法可以接受，但‘趋舍’译为‘趋舍’略显文言，可考虑更通俗的‘取舍’或‘选择’。",
+          "原文为‘放送生死之理’，candidate 译为‘是放送生死之理’。‘放送’可能为‘放’和‘收’或‘生’和‘死’的并称，或为‘放棺’与‘送气’的简写，译法过于直译，含义不清，属于专业术语误译或未转换。",
+          "原文为‘將棺枕居短處一二分’，candidate 译为‘将棺木枕在短处一二分’。‘枕’译为‘枕在’可以接受，但‘短处’指脉路短的一侧，译法基本达意。"
+        ],
+        "uncertainty": [
+          "原文‘察脈路來情之順羲’中的‘羲’字，可能为‘逆’的异体或误写。",
+          "原文‘放送生死之理’中的‘放送’，具体所指不详，可能指安放棺木与引导生气的某种法则。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2188,
+    "completion_tokens": 1092,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2188,
+      "completion_tokens": 1092,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

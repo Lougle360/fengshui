@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T12:11:10.322752+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7f74b87a5b3b96b6abd993fa2df51e96c4992d2ed32fd66e11578c1e4c3fc65f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000421-p000-94a2535e5c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘人脉’误释为‘动脉’，‘迁高骨穴’的表述存在歧义，‘不动于富’未明确对应风水语境的含义，‘扦之’未明确为风水术语‘扦穴’，‘迁此’未明确为风水语境的迁葬或取穴操作"
+        ],
+        "uncertainty": [
+          "原文‘人脉’是否为风水术语存疑，‘迁高骨穴’具体所指未明，‘不动于富’的含义未明确"
+        ]
+      },
+      {
+        "id": "book014-b000422-p000-7c56f682a1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘四扦团中’误释为‘四扦团中’，‘申指倒处’未明确为风水术语，‘余曜’未明确为风水术语，‘不可遥’未明确为风水语境的不可远取之意"
+        ],
+        "uncertainty": [
+          "原文‘四扦团中’具体所指未明，‘申指倒处’的含义未明确"
+        ]
+      },
+      {
+        "id": "book014-b000423-p000-a94ba6ece2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘木本交星’‘张木’‘著鞭’的具体所指未明，‘眠木木星’的形态未明确"
+        ]
+      },
+      {
+        "id": "book014-b000425-p000-6228f3a480",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘百眼服’误释为‘百眼服’，‘穿’未明确为风水术语‘穿脉’，‘死眼穴’未明确为风水术语，‘烂肉破支’‘朽蹈入’的表述存在歧义"
+        ],
+        "uncertainty": [
+          "原文‘百眼服’具体所指未明，‘朽蹈入’的含义未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1744,
+    "completion_tokens": 484,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1744,
+      "completion_tokens": 484,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

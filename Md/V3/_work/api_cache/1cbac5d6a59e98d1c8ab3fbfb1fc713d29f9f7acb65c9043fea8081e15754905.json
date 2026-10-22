@@ -1,0 +1,138 @@
+{
+  "created_at": "2026-09-26T16:23:49.632527+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1cbac5d6a59e98d1c8ab3fbfb1fc713d29f9f7acb65c9043fea8081e15754905",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000625-p000-5567d878ea",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将原文‘丰居益动’误拆为‘丰满居益动’，‘失斜’应为‘歪斜’，‘曲摺之玄经’误为‘曲折玄经’，‘箭割穿助’误为‘箭割穿助’未修正，‘性得其生明则吉休四’误译未修正"
+        ],
+        "uncertainty": [
+          "原文‘從木’‘木神’‘丰居益动’‘箭割穿助’存疑，‘玄经’疑为‘之玄’讹误均已明确标注"
+        ]
+      },
+      {
+        "id": "book003-b000627-p000-879cb076bd",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘不能生玉尺经’未提及‘产生生旺之气’，但candidate‘不能产生效用’表述模糊，无原文依据；current对‘砂’的解释符合allowed_glossary，更准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000631-p000-a1d32b3082",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "current保留原文首字‘矣’，candidate删除无依据；current明确‘实、毕’二字拆分标注，candidate合并为‘实毕’未说明拆分必要性；current标注‘太丁可能是“人丁”之误或特定称谓’更严谨，candidate仅提‘可能是“人丁”之误’不够全面"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000633-p000-17cd6384ed",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将原文‘来去背凶’误译为‘来去背凶出久失度’，‘主尺经卷六九’的猜测无原文依据；candidate修正表述，严格保留原文存疑内容，标注更规范"
+        ],
+        "uncertainty": [
+          "‘左何’‘主尺经卷六九’存疑均已明确标注"
+        ]
+      },
+      {
+        "id": "book003-b000639-p000-922e03f42e",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000640-p000-767f4160ef",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将原文‘難有美惡’误译为‘难有美恶而无吉凶’，应为‘虽有美恶而无吉凶’；current对‘百主尺经卷六十二’的猜测无原文依据，candidate仅标注存疑更保守"
+        ],
+        "uncertainty": [
+          "‘生莊’‘百主尺经卷六十二’存疑均已标注"
+        ]
+      },
+      {
+        "id": "book003-b000643-p000-f499f9cf05",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘合煞者以三合制之’简化为‘以三合来处理’不够准确，原文‘制’‘合’‘制’的操作逻辑有特定含义；current对原文断句的标注更贴合原文语序，candidate调整语序后部分原文细节丢失"
+        ],
+        "uncertainty": [
+          "‘得砂’‘全姚’‘秀水特朝’存疑两版均标注，核心信息准确性差异不明显"
+        ]
+      },
+      {
+        "id": "book003-b000646-p000-00827403d4",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current将原文‘鉢囚方’漏译，‘巽智’误改为‘巽巳’无依据，‘龍輕’漏译未标注；candidate保留原文所有表述，对存疑内容逐一标注，更符合保守原则"
+        ],
+        "uncertainty": [
+          "‘鉢囚方’‘巽智’‘少经方’‘龍輕’‘宗喬’存疑均已明确标注"
+        ]
+      },
+      {
+        "id": "book003-b000647-p000-4b3b09669c",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current断句混乱，将‘难穴难岁处立向’误译为‘都难穴难处立向’，原文出处标注错误；candidate修正断句，明确标注‘衰友’疑为‘衰方’讹误，出处标注符合原文"
+        ],
+        "uncertainty": [
+          "原文末尾脱文成疑已标注"
+        ]
+      },
+      {
+        "id": "book003-b000650-p000-1afced0543",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current保留原文讹误‘八于十于’未修正，将‘凡俗可知’误译为‘凡俗可知’不符合上下文逻辑，应为‘凡俗不可知’；candidate修正翻译错误，对讹误和生僻术语标注更全面"
+        ],
+        "uncertainty": [
+          "‘八于十于’‘牧掣’‘国墓’‘曲煞乘生’存疑均已标注"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 8212,
+    "completion_tokens": 1327,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 8212,
+      "completion_tokens": 1327,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ],
+  "composed_from_subbatches": true
+}

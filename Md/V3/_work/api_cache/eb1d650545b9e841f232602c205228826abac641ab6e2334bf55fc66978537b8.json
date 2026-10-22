@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-25T06:13:38.093772+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "eb1d650545b9e841f232602c205228826abac641ab6e2334bf55fc66978537b8",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000045-p000-ad75439eb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“龙气纯阳，其性至淫”的“至淫”错误释读为“极为灵动”，与原文含义不符",
+          "将原文“一水流”误写为“一片水”，属于表述错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000046-p000-2c5e74ac49",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2090,
+    "completion_tokens": 148,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2090,
+      "completion_tokens": 148,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

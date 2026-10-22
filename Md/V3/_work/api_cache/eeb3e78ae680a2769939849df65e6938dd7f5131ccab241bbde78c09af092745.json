@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T07:45:54.948277+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "eeb3e78ae680a2769939849df65e6938dd7f5131ccab241bbde78c09af092745",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000080-p000-7a6b40c2d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“背來駝我者誤認爲轉”释读错误，原文意思是“背对我、向我拱来的地形”属于错误被认作“转”的情况，候选释为“把背对着我、向我拱来的地形错误认成是‘转’”后又混淆了“无背无面而生转抱来者亦認爲轉”的逻辑，且原文“生气在常少”是指生气通常稀少，候选释为“生气本就常处于稀少的状态，由此可知当下的误区”表述没问题，但“能得到下砂朝向的格局，十个里有七八个”翻译错误，原文是“下砂者十格七八”即下砂符合朝向的格局十个里占七八个，就不用担心上砂不向，此处逻辑有误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book009-b000081-p000-8ccff3711b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“地馬”“面父”具体所指不详",
+          "“腰軟而而不飽外背內而者爲向無大小八字面飽而慶不軟內背外面者爲背”存在脱字，语义不明",
+          "“此宇指下砂”的“宇”为字形讹误，暂按“此字指下砂”理解"
+        ]
+      },
+      {
+        "id": "book009-b000082-p000-1d4cab4fad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“外不像背而內有稜角相向者版外雖或似背而內無稜相向者宜棄”存在脱字，语义不明",
+          "“節節鵝毛碗”具体所指不详"
+        ]
+      },
+      {
+        "id": "book009-b000083-p000-c4bbabbd99",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“本身六有官鬼禽 逐龍旺 龍虎向者爲小地”存在脱字，语义不明",
+          "“官在穴前鬼不等眞龍旺氣之所迸也在穴後曜在 龍虎別外舟 卽飛揚而去”存在脱字，“鬼不等”“龍虎別外舟”具体所指不详",
+          "“然亦當觀具家 分龍出帳道”存在脱字，语义不明",
+          "“峽等就供詳”存在脱字，语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3547,
+    "completion_tokens": 656,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3547,
+      "completion_tokens": 656,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

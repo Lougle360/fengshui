@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:06:06.248989+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "779b0b247d8aafc4fd235431679bc3e1b84b7ad6041ae50eea8a82043644b6d0",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000019-p000-3482e03949",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000020-p000-e510188af4",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原句文字生僻，具體所指不詳"
+        ]
+      },
+      {
+        "id": "book012-b000021-p000-6858c2d058",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000023-p000-170e214b28",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「千」字疑為OCR識別錯誤，具體所指不詳"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1530,
+    "completion_tokens": 231,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1530,
+      "completion_tokens": 231,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

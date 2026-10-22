@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-26T05:27:01.366440+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d4ba22975102616c805625501416722eecd398d5aecad9053dd70f18b818adb8",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002428-p000-a4e58f7ad0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“穿并”疑似“穿井”的讹字，释读为开凿水井存在讹误风险"
+        ]
+      },
+      {
+        "id": "book029-b002438-p000-ff4a733a53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“忌丙午丁山水”被误释为“忌讳丙、午、丁对应的山和水”，原文明明分开列“忌丙午丁山水”“忌未申山水”，释读混淆了忌的对象类别",
+          "原文“第三亥龍宜寅卯巽巳六來”释读为“适宜寅、卯、巽、巳六方的水来”无依据，原文未明确“六”指六方，属于把不确定表述写成确定事实",
+          "原文“騰雲未2”中的“2”属于OCR或标注残留，未作说明直接释读为“腾云在未2”不符合通俗释读要求，应标注该字符异常",
+          "原文“猪”字后未接续内容，释读直接保留“猪”未标注语义断裂，存在信息缺失",
+          "原文“坐牛度二度度合”释读遗漏了重复的“度”相关的原文表述问题，未标注语义存疑",
+          "原文“地理秦贊玄機全書 ○卷十二 地理賛玄機全書○卷十二”两处书名存在“秦”字有无的差异，释读未标注该版本异文，直接合并为同书内容属于不严谨"
+        ],
+        "uncertainty": [
+          "“第三亥龍宜寅卯巽巳六來”中的“六”具体指代不明",
+          "“丙六丁穀將”原文语义未完全明确",
+          "“八將山寅申巳亥子午丑未”“八將山寅申巳亥卯酉辰戌”为对应大富贵的条件，表述逻辑存在一定模糊性",
+          "两处卷首书名存在“秦”字差异，不确定是否为同一书籍的异写",
+          "“騰雲未2”中“2”为异常字符，具体含义不明",
+          "“猪”字后原文断裂，后续内容缺失",
+          "“坐牛度二度度合”存在重复“度”字，语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2045,
+    "completion_tokens": 617,
+    "cached_prompt_tokens": 1848,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2045,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2045,
+      "completion_tokens": 617,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T16:13:17.060754+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7fc7bba70502e6b6329229e22c0dc23b3c74c521404fb5d85625f2fd4af7f485",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001542-p000-aa7e5cce1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001543-p000-23b952be0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001544-p000-5666886f1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001545-p000-7c7c50f575",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中第7章的刊载刊物仅标注为「中国研究集刊」列号，候选译文中补加了「编」字，属于无依据增译；第10章的「はかり」原文未明确指度量衡，候选译文中直接译为「度量衡」，属于对含混专名的强行确定解释；原文第7章未标注「刊载于」的明确表述，候选译文中补加了「刊载于」，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文中第7章的「中国研究集刊」未明确标注卷号或期号，具体信息不详；原文第10章的「はかり」具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1688,
+    "completion_tokens": 344,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1688,
+      "completion_tokens": 344,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

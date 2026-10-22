@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-26T10:33:14.203516+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ca5949d752a0e577cedd32b608152aef7664513e9029e02bbeb8746060f92c62",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000898-p000-93a09a8d0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处缺字、错字，语句无法连贯解读"
+        ]
+      },
+      {
+        "id": "book033-b000899-p000-8bf060a427",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000901-p000-e9c666eb0e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文地名是“休孟縣”，候选误写为“休宁县孟县”，地名篡改；“不立穴下鋪八百丁”断句错误，被误拆为“不立穴，铺八百丁”，语义理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000902-p000-ab2a5903e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亦禪矣哉”的“禪”是“神奇、神异”义，候选误释为“禅意”，语义错误；原文“渠不信與”是“难道不可信吗”，候选误写为“难道不被人相信吗”，主语混淆"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000903-p000-9c7c98aafa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“入首”是风水术语，候选误写为“人首”，术语书写错误；原文末尾“臃腫 腫”为下一段起首的重复字，候选未标注，存在信息遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000904-p000-08b4aef8be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000905-p000-6a4307e271",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000906-p000-5196f6682b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“诸冢塟書莫不以蛇窩蟻穴為成而時俗以掘地得生氣之說飾其非”的意思是“所有葬书都不把蛇窝蚁穴当成吉穴的征兆，世俗却用掘地得生气的说法掩饰错误”，候选理解完全相反，语义完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000907-p000-dc09068810",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文整体残缺错乱，除可识别的“穴”之外，其余内容文意无法明确"
+        ]
+      },
+      {
+        "id": "book033-b000908-p000-9f520cc474",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3559,
+    "completion_tokens": 780,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3559,
+      "completion_tokens": 780,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

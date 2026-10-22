@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T06:35:27.783401+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "94049ea5416fc6dadc54ec5ac0258a508d0516a1954edc0d67a2a86740c0168f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002789-p000-e99d1105bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格结构，清晰地列出了书名、作者/评者、评语和卷次，且卷次与书名是逐行对应的。候选句将表格内容改写为一段叙述性文字，并将所有卷次合并到末尾，这破坏了原文的目录（toc）结构，导致信息对应关系模糊。例如，读者无法从候选句中直接看出《穴法心鏡舊集》对应二十三卷、《附萬成叔葬法舊集》对应申集二十四卷等。",
+          "候选句将“申集二十四卷”、“酉集二十六卷”、“戌集二十九卷”中的“申集”、“酉集”、“戌集”等表示分集的信息与卷号合并叙述，但原文中它们是独立的条目，与书名并列，这种处理方式丢失了原文的层级信息。",
+          "候选句在描述《穴格舊集》时，将原文“四部中此爲獨勝”译为“在四部之中此書獨勝”，这里的“四部”具体指代不明，原文也未明确，候选句将其作为确定事实陈述，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "原文“四部中此爲獨勝”中的“四部”具体指哪四部，含义不明确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1416,
+    "completion_tokens": 307,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1416,
+      "completion_tokens": 307,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

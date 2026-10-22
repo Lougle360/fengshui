@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T10:15:04.631343+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e628864e84ea353c132bba8799a56eaadbea5931ef6a1b1f6d284ad3d3335fef",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000651-p000-218690db5f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“弗卦”“艮常丙”“巽衲辛”“坤事乙”“坎袖癸申辰”“震袖庚亥未”“离带壬寅戍”等表述语义含混，candidate将其释为确定含义，存在误释风险"
+        ],
+        "uncertainty": [
+          "原文中“弗卦”“艮常丙”“巽衲辛”“坤事乙”“坎袖癸申辰”“震袖庚亥未”“离带壬寅戍”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000652-p000-d78ba41a77",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR识别错误，“十十十二”无法准确释读"
+        ],
+        "uncertainty": [
+          "原文中“十十十二”疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000653-p000-c55d092a5e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR识别错误，“已”“森麼”无法准确释读"
+        ],
+        "uncertainty": [
+          "原文中“已”“森麼”疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000654-p000-a3b29a3bfa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“权日”“壙”“己上”“金井”“休八产日”等表述语义含混，candidate将其释为确定含义，存在误释风险"
+        ],
+        "uncertainty": [
+          "原文中“权日”“壙”“己上”“金井”“休八产日”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1633,
+    "completion_tokens": 447,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1633,
+      "completion_tokens": 447,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

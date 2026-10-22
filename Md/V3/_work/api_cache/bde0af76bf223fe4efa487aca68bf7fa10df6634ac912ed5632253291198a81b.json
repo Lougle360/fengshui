@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-24T15:29:05.196412+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bde0af76bf223fe4efa487aca68bf7fa10df6634ac912ed5632253291198a81b",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001113-p000-c6193ff23e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「図書の易範の先を開くゆえんなり」的具体所指不详",
+          "「図書学」的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 88,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1220,
+      "completion_tokens": 88,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

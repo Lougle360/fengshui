@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T09:47:40.019666+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "10ca3f1d7a31e389820b6a9ea2d08fc99f105f5ca866474e12066baa90b1fd60",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002605-p000-cec388a955",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002606-p000-0ec7f1c3b8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“水”在原文“水泉沙砾”里属于风水语境下的相关概念，候选释读未按要求保留“水”的术语属性，也未依据allowed_glossary对应释义，直接译为普通含义的水，不符合术语使用规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002607-p000-c5f9fa7fbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“水”在原文“穴中水泉之害”里属于风水语境概念，候选将“水泉”标注引号但未明确对应“水”的术语属性，不符合术语使用规则",
+          "原文“罚切如此”应为“恳切如此”，候选释读为“言辞如此恳切”虽语义通顺，但需确认原文讹误是否已标注，此处存在原文表述与释读对应性问题",
+          "原文“俾洛河阴阳之源”的“洛河”是风水理气相关概念，候选直接译为“洛河”易被误解为实际河流，存在歧义未标注"
+        ],
+        "uncertainty": [
+          "“洛河”在此处的具体所指是否为风水理气相关的专有概念，原文未明确"
+        ]
+      },
+      {
+        "id": "book018-b002608-p000-d9140996f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002609-p000-64258f40ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002610-p000-5152605ddf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002611-p000-e711d71afd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002612-p000-7d3e4ce406",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“运祚促”在此处指家族运势短促，候选释读为“国运短促”不符合语境，属于语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002613-p000-02826ba2cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“运祚促”在此处指家族运势短促，候选释读为“国运短促”不符合语境，属于语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002614-p000-cf140026e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“运祚促”在此处指家族运势短促，候选释读为“国运短促”不符合语境，属于语义偏差"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3887,
+    "completion_tokens": 775,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3887,
+      "completion_tokens": 775,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-26T04:50:04.607801+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b5a7cd36d9acf4b491066957212d3ee32651a35b6c66512a1a4d850685b31cc8",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000288-p000-0c2aa0dde3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量缺字和语序混乱的内容，候选释读将大量无明确对应关系的残缺文本直接赋予确定含义，不符合风险标注要求，例如“能平訣州”“容洋口只總十分墓道住a”等残缺内容被释读为“涉及平定州郡的要诀。平洋地区的墓道旁”属于无依据推断；“猶縣撐撐”等无法解读的内容未标注不明，直接纳入释读逻辑"
+        ],
+        "uncertainty": [
+          "原文缺字、乱序严重，多数内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000289-p000-270a6e3be6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "目标是转换成普通读者能读懂的现代中文，候选几乎完全保留古文原句，未做白话释读，不符合要求；将“午○○而乘水氣”等残缺内容直接按现有残字顺读为“午時乘水氣見氣山”属于无依据补字推断，未标注内容残缺"
+        ],
+        "uncertainty": [
+          "原文OCR残缺、语序混乱，多数内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000290-p000-48879f7b86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000291-p000-342ba29b0b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未出现“寅、申、巳、亥”相关内容，候选自行添加该类方位，属于无依据增译；“各甲此空而指言地之四正”等残缺内容被释读为“洋地的方位如果要合元，坐向对应并非一定要拘泥于四正位”属于过度推断，部分残缺内容未标注不明"
+        ],
+        "uncertainty": [
+          "原文语序混乱、存在缺字，部分表述含义无法完全确定"
+        ]
+      },
+      {
+        "id": "book032-b000292-p000-ad58df09bd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未出现“寅、申、巳、亥”相关内容，候选自行添加该类方位，属于无依据增译；“各甲此空而指言地之四正”等残缺内容被释读为“洋地的方位如果要合元，坐向对应并非一定要拘泥于四正位”属于过度推断，部分残缺内容未标注不明"
+        ],
+        "uncertainty": [
+          "原文缺字较多，部分兼向规则的具体表述不清晰"
+        ]
+      },
+      {
+        "id": "book032-b000293-p000-7b46dd7f38",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文语序存在错乱，部分逻辑关联需结合风水语境梳理"
+        ]
+      },
+      {
+        "id": "book032-b000294-p000-56443967d6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文缺字、乱序情况较多，部分专有表述没有足够参考信息，难以完全准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000295-p000-52d55db53e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000296-p000-a4de098940",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "目标是转换成普通读者能读懂的现代中文，候选几乎完全保留古文原句，未做白话释读；原文末尾残缺的“三星五”未标注内容不完整，直接照搬不符合要求"
+        ],
+        "uncertainty": [
+          "原文OCR残缺，末句无法确认完整含义"
+        ]
+      },
+      {
+        "id": "book032-b000297-p000-635c53b8dd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“天心正运”属于未列入允许术语表的专有概念，仅保留原文表述未做额外解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5258,
+    "completion_tokens": 987,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5258,
+      "completion_tokens": 987,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

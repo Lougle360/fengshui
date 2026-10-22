@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-26T09:50:20.547504+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e1e794f0082b43d8d6b7e4dc189595dba8cd6a5ce488d497cd10a0e8839b480b",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000682-p000-93225be46f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000684-p000-a18bf05de2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000686-p000-5860a4c111",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“曰不然令彼貴氣歸子冢耳”前的对话并非“见李德鸿没有回应”，而是国师先问“今起而卫之乎”，之后自己否定这个方案，原文无李德鸿不回应的表述，属于无依据增译",
+          "原文“詔”是告知的意思，此处直接保留“告知”的释读准确，但需注意原文末尾确实截断"
+        ],
+        "uncertainty": [
+          "原文末尾“于是國師詔盧曰前”表述不完整，后续内容缺失"
+        ]
+      },
+      {
+        "id": "book033-b000688-p000-171895ee1c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“蓋以而突令氣融聚在中”存在缺字，仅能根据上下文推断大意"
+        ]
+      },
+      {
+        "id": "book033-b000689-p000-af757244d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2175,
+    "completion_tokens": 418,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2175,
+      "completion_tokens": 418,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

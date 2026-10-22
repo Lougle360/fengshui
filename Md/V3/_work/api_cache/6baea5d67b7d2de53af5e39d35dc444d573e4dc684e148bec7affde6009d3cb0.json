@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T12:10:38.210393+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6baea5d67b7d2de53af5e39d35dc444d573e4dc684e148bec7affde6009d3cb0",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000413-p000-a1767d2ef9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘通峽精徽’‘帳’‘振’等术语含义未明，释读未作无依据确定解释，符合要求"
+        ]
+      },
+      {
+        "id": "book014-b000414-p000-0012f8e4b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘木体侧眠’‘掌’‘案’等术语含义未明，释读未作无依据确定解释，符合要求"
+        ]
+      },
+      {
+        "id": "book014-b000415-p000-a5cf60cbc4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘一股为护’释为‘一股为护’的含义未明，释读中添加‘是真人形乳穴’属于无依据扩写；‘背欲肥厚不須問鬼不用特衆’释读为‘背要肥厚，不需要问鬼，不用特意追求众多’，‘问鬼’‘特众’含义未明，释读未明确标注；‘帳幔湛之’释读为‘帐幔笼罩’，‘湛’含义未明，释读未明确标注；‘孔頭雅上’释读为‘孔头雅正’，‘雅上’含义未明，释读未明确标注"
+        ],
+        "uncertainty": [
+          "原文中‘一股’‘护’‘问鬼’‘特众’‘帳幔湛之’‘孔頭雅上’等术语含义未明，释读未明确标注，存在无依据扩写问题"
+        ]
+      },
+      {
+        "id": "book014-b000416-p000-97b2efaf0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘过献’术语含义未明，释读未作无依据确定解释，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 470,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1225,
+      "completion_tokens": 470,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

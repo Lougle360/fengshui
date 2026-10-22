@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-26T04:44:15.210442+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cd6b23a8a3902003b7e6682148876ade26fdefb0029af56dd130eca5266edbc8",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000242-p000-b10c4b71e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文中的“猴星”“細石考寬”被漏译",
+          "源文“某方省水某方多水”被错误释读为“哪个方位的水势旺盛、哪个方位的水势微弱”，“省水”指水少、“多水”指水多，与“旺盛”“微弱”含义不符，且未按规则保留原意",
+          "源文“曉得猴星大五行”被简化为“通晓大五行的相关内容”，遗漏了关键表述“猴星”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000249-p000-1956bac030",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹模糊、断句混乱的情况，难以准确解读"
+        ]
+      },
+      {
+        "id": "book032-b000254-p000-a2977fb0a7",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹模糊、无法辨识的内容，无法准确解读"
+        ]
+      },
+      {
+        "id": "book032-b000258-p000-c64bb2710a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹模糊、无法辨识的内容，无法准确解读"
+        ]
+      },
+      {
+        "id": "book032-b000260-p000-d2e24d54ff",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000261-p000-d8c79dc810",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处字迹模糊、无法辨识的内容，无法准确解读"
+        ]
+      },
+      {
+        "id": "book032-b000266-p000-69bd74be49",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文“貧賤安墳富貴興”被错误释读为“贫贱之人若能安于安葬，也能使富贵兴盛”，原意是贫家安葬得法可催发富贵，并非“安于安葬”",
+          "源文“沙曲”应对应风水术语“砂曲”，释读中“若是砂曲星辰正”表述正确，但前文中的“沙”未统一为规范术语表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000267-p000-d658e5f493",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000268-p000-ad238dac2a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文明显存在文字错乱、语序颠倒，候选释读将大量无明确依据的推断写成确定事实，不符合规则要求",
+          "候选释读自行认定存在《申羊明二》篇，属于对含混专名赋予确定含义，违反术语使用规则",
+          "源文大量不可辨识内容被过度释读，超出保守释读范围"
+        ],
+        "uncertainty": [
+          "原文存在文字错乱、语序颠倒的情况，部分语句无法准确释读",
+          "原文提到的‘申羊明二’篇名具体所指不清"
+        ]
+      },
+      {
+        "id": "book032-b000269-p000-628ef64ecb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "源文存在大量缺字、错字及语序混乱内容，候选释读将部分无明确原文依据的风水常识推断写成确定事实，存在过度释读问题",
+          "源文中部分零散口诀内容被整合为连贯表述，未明确标注部分内容为合理推断，不符合规则要求"
+        ],
+        "uncertainty": [
+          "原文存在多处缺字、错字及语序混乱的情况，部分语句含义无法完全确定",
+          "原文提到的部分口诀类内容表述零散，只能依据风水常识做大致梳理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3267,
+    "completion_tokens": 950,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3267,
+      "completion_tokens": 950,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

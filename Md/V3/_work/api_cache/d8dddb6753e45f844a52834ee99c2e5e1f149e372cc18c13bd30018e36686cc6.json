@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-04T08:06:03.627894+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d8dddb6753e45f844a52834ee99c2e5e1f149e372cc18c13bd30018e36686cc6",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000901-p000-53cbd01b8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "向比之方",
+          "龍春"
+        ]
+      },
+      {
+        "id": "book028-b000906-p000-47271370cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘則體紫炁’整体视为一个可能讹误的专名，并加入‘文中提到’等引导语，属于增译。应直接释读‘則體紫炁’为‘则体紫炁’，并标注其含义不明。候选句对‘扒砂經 人卷三’的处理符合要求。"
+        ],
+        "uncertainty": [
+          "則體紫炁"
+        ]
+      },
+      {
+        "id": "book028-b000908-p000-5a261cdacb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "昔可立穴",
+          "足首轉圖帶詠"
+        ]
+      },
+      {
+        "id": "book028-b000911-p000-152676dc3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "朋珠",
+          "比之金"
+        ]
+      },
+      {
+        "id": "book028-b000912-p000-83040fad15",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘砂經 六卷三’处理为独立标注，但原文中该短语与后续正文直接相连，无明确分隔。候选句的断句方式（‘正文提到：’）属于对原文结构的增译性解释。应直接释读‘砂經 六卷三 正體貼體有轉脚之情...’，并将‘砂經 六卷三’视为可能混入的标注。"
+        ],
+        "uncertainty": [
+          "砂經 六卷三",
+          "本仙無穴"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1727,
+    "completion_tokens": 396,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1727,
+      "completion_tokens": 396,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

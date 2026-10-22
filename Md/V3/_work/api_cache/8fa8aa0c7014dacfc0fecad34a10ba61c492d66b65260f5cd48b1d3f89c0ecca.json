@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-04T07:10:16.495700+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8fa8aa0c7014dacfc0fecad34a10ba61c492d66b65260f5cd48b1d3f89c0ecca",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001546-p000-9364394d11",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“木星秋列而身似水體”的释读存在偏差。'木星'是风水术语，指山形，'秋列'可能指其排列状态，'身似水體'可能指山体形态如水波或柔顺，而非'如同水体的走势'。候选句将'身似水體'解释为'行进至山脚时又展开面势'，这与原文结构不符，原文是'至山足又開面出蛾眉文星'，'至山足'是另一个动作。候选句将'要頭頂秀麗有文筆台蓋相應者之為合格'释读为'必须头顶秀丽，并且有文笔台与之相应'，基本准确，但'台蓋相應'可能指'台'与'盖'两种事物相应，候选句简化为'文笔台'一项，可能漏译。"
+        ],
+        "uncertainty": [
+          "'木星秋列'的具体含义不明。'身似水體'的具体形态不明。'文筆台蓋'的具体所指不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 690,
+    "completion_tokens": 268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 690,
+      "completion_tokens": 268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

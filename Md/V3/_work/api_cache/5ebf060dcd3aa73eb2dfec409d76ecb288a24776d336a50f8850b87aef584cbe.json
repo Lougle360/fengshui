@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T17:08:26.588657+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5ebf060dcd3aa73eb2dfec409d76ecb288a24776d336a50f8850b87aef584cbe",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000703-p000-861433a08c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000710-p000-281de54983",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文‘但把交襟 氣骨’存在断句缺漏，candidate将其直接释读为‘只需考察交襟和气骨的状态’属于无依据补全，原文此处语意不完整，不应直接按完整语义释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000713-p000-c9227dd7b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文‘就中點宂’被误释为‘进行点穴的相关操作’，‘宂’未明确对应‘穴’的含义，属于无依据释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000714-p000-dbc48cae1c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "木中出床",
+          "前堂三人长",
+          "或片或片"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1560,
+    "completion_tokens": 314,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1560,
+      "completion_tokens": 314,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

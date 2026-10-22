@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:14:50.835164+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "91eb1b5c2a8bb09b0b04cb2ece7c97f7edb867f7fbe6939224f9391671c2f881",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000679-p000-85d185eed5",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "1) 算法说：用3来计数，余数为2，就取140；用5来计数，余数为3，就取63；用7来计数，余数为2，就取30。将这些数相加，得到233，再减去210，结果就是所求的数。凡是用3来计数余数为1的，就取70；用5来计数余数为1的，就取21；用7来计数余数为1的，就取15。所得结果在106以上的，就减去105，结果就是所求的数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000680-p000-323955d3eb",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "2) 对于正整数m，若整数a与b的差能被m整除，即a - b = k m（k为整数），则称a与b以m为模（modulus）同余，记作a≡ b(mod m)。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000681-p000-52aff3c314",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "3) 秦九韶在第3卷「天时类」的治历演纪中，也处理了一次同余方程组问题，但他并未采用中国剩余定理的解法。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000683-p000-0aa0fc63e3",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "4) 依次被命名为蓍卦发微、古历会积、推计土功、推库额钱（以上为第1卷），分糶推原、程行计地、程行相及、积尺寻源、余米推数（以上为第2卷）。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1779,
+    "completion_tokens": 539,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1779,
+      "completion_tokens": 539,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

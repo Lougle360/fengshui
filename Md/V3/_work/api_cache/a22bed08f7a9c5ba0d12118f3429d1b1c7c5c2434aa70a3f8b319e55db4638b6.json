@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-16T11:21:09.740281+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a22bed08f7a9c5ba0d12118f3429d1b1c7c5c2434aa70a3f8b319e55db4638b6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002164-p000-9de9e9e994",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002167-p000-a8c756d581",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘何巽’是locked_term，必须保留原词，不能释读为‘为何反而要抛弃尸骸呢？文中最后提到‘何巽’’。候选句将‘何巽’拆解并添加了推测性解释，违反了术语锁定规则。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002168-p000-436c7d1f3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘突金鹿蠢號蠻膚’和‘論突金頑金固出暇鬢氣塊耳章辯’两个短语合并处理，并称‘后一短语的具体含义不详’，这属于不当的合并与概括。原文是两个并列的短语，应分别处理，并明确标注各自的不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002169-p000-9c5cfa37e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘出眞’标注为含义不详，但将‘棋面出眞認暇鬢氣乳珠’整体解释为‘明师在棋面中辨认出‘暇鬢氣乳珠’’，这构成了对‘棋面’和‘暇鬢氣乳珠’的确定解释，而原文并未提供依据。应将整句视为含义不明的opaque_terms处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002171-p000-0d32786e17",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 407,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1164,
+      "completion_tokens": 407,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

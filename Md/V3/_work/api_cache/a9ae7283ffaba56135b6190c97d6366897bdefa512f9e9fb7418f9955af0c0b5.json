@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-09-24T21:43:03.787983+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a9ae7283ffaba56135b6190c97d6366897bdefa512f9e9fb7418f9955af0c0b5",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000418-p000-bc29fa1692",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000420-p000-8e0cf22e9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000421-p000-fec62e112f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘L此直可謂全诚生書彼之心限要’语义残缺，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000422-p000-3bc24df3fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000424-p000-ac653e001d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文无反问语气，候选擅自添加‘吗’改变原句语义；locked_terms中的‘水’属于风水核心术语，候选未按术语对应规则保留其风水语境属性，误将‘风水’笼统释读为顺应自然的概念，未区分‘水’的术语含义"
+        ],
+        "uncertainty": [
+          "原文“风水即之自然凡造作則去言空之逆甚達即是此·當見俗師教人門頂安七盞燈九蓋燈設色紅差九條灸一里八紅，此学造作能說是各佛务法”语义混乱，多处残缺，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000425-p000-d9b1b01b35",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘抄方’含义不明，候选直接保留未做歧义标注，不符合含混短语的标注要求；‘青龍丙相照’属于风水专业表述，未说明是否可明确释义，存在释义风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000426-p000-32c04935ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘物動猜錯3°’中的‘3°’属于原文残留标注，候选直接照搬且未说明其含义，存在无依据保留非文本内容的问题；‘沈故’身份不明，未标注为具体所指不详；‘啞證’‘青龍印’属于含混术语，未做标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000427-p000-69da55f99c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "猜中3啞的具体含义不详",
+          "努訓的具体含义不详",
+          "主奚的具体含义不详",
+          "一天口的具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000429-p000-3049c5f653",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文多处语义混乱、残缺，“七逢”“九”“青意与语”等表述含义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000431-p000-6f39c763e5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“芬山”“實際形桴兩裁”“陽語陰龍皆生姓者”表述含义不明，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2863,
+    "completion_tokens": 849,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2863,
+      "completion_tokens": 849,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

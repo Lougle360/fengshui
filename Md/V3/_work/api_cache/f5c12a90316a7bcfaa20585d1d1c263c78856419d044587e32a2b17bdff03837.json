@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T10:16:03.010490+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f5c12a90316a7bcfaa20585d1d1c263c78856419d044587e32a2b17bdff03837",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000243-p000-077aeddbab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000244-p000-34b16b06bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000245-p000-e286af1551",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“白虎御屍”被误释为“白虎压覆穴场”，且allowed_glossary未收录“御屍”的确定释义，属于无依据扩写；原文“貧老無見”被释为“贫穷终老、无所依靠”，无对应术语依据，属于自行释义"
+        ],
+        "uncertainty": [
+          "“白虎御屍”“貧老無見”具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book024-b000246-p000-7c03b15d4d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“憂盧無穷”被释为“无限的忧虑与灾祸”，无术语依据，属于自行引申释义；未对专名“青龍吞塚”进行保守处理，未标注含义不确定性"
+        ],
+        "uncertainty": [
+          "“青龍吞塚”“憂盧無穷”具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000247-p000-83d53ddacf",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“青龍抱体”“達京華”的具体风水对应含义未明"
+        ]
+      },
+      {
+        "id": "book024-b000250-p000-b9f6e3784d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "其余残缺内容含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000251-p000-e5dcc7fd05",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“挹其身”释为“环绕穴场”属于无依据增译，“挹其身”具体指向未明，不得直接做确定释义；将原文“解状才”释为“高中科举”属于无依据增译，该短语没有明确对应科举相关的训诂依据，不能做确定解释"
+        ],
+        "uncertainty": [
+          "“挹其身”“解状才”的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book024-b000254-p000-607a450307",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "其余残缺内容含义无法确定"
+        ]
+      },
+      {
+        "id": "book024-b000255-p000-3fc29f4d10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000258-p000-6416f48c87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 698,
+    "completion_tokens": 140,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1998,
+      "completion_tokens": 810,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 698,
+      "completion_tokens": 140,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

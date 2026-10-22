@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:12:59.939096+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "074bf75b1e5f311ca6b77ab6be2ba5fd27760eaae4ba5aab7c4498fc90203710",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000604-p000-f6b9062b5b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "在这些组合当中，(1)首先处理最右端的[25,20]，使用⑧以等数5约分20，将[25,20]变为[25,4]。接着考虑末位的4与六位的50，使用⑧以等数2约分50，将[50,4]变为[25,4]。同样地，从末位的4与五位的60、四位的100、三位的110中，得到[15,4][25,4][55,4]。另外使用⑧将[120,4]变为[120,1]。至此末位的处理结束，元数是",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000606-p000-1608b170f3",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "发生变化。(2)关注七位的25，考虑其与上位各数的关系。如此一来",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000608-p000-282a108eee",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "得到。(3)另外从五位的3与上位各数的关系中，得到26, 8, 11, 1, 3, 1, 25, 1。(4)最后考虑一位的26与二位的8的等数，将定母定为13, 8, 11, 1, 3, 1, 25, 1。无需再次说明，上述结果与将各数分解为素因数，选取各因数中指数最大的数所得的结果相等。另外也想简单介绍一下复数格的算法。秦九韶说。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000611-p000-8b77a6464c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "③从复数中确定定母时，对于尾位10以上的各问数，求出问数的公约数即总等，保留1位，约分其他各位，从而求出元数。⑤得到元数之后，将两个数依次组合，分别求出等数，（若等数是总等的偶数约数）则用该值约分其中一个数使其变为奇数，再将该值与另一个偶数相乘。（若等数是总等的奇数约数）则用该值约分其中一个数使其变为偶数，再将该值与另一个奇数相乘。⑥若约分后两个数仍存在同类的数，则互相相减求出续等（进一步的等数）。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2107,
+    "completion_tokens": 764,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2107,
+      "completion_tokens": 764,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

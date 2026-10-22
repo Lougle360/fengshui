@@ -1,0 +1,191 @@
+{
+  "created_at": "2026-09-23T09:58:55.857765+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9d8b1a7d626cbf4c186e349210b808c1bd8a741cdff94d6f0f1f78bfb66562d5",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000254-p000-7eddcf7cee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'砂如狼湧'，candidate译为'砂丘如同狼群湧動'，将'狼湧'理解为'狼群湧動'属于无依据的扩写。'狼湧'更可能是一种形容砂势汹涌的比喻，如'如狼般奔涌'。",
+          "原文'誰試方來之跡'，candidate译为'誰能試探其來時的痕跡？'，'試'在此处更可能是'辨识、察看'之意，而非'试探'。",
+          "原文'亦悟人矣'，candidate译为'才算悟道'，语义有偏差。'悟人'在此处是'使人醒悟'或'误导人'（结合上下文批评术师，应为后者）之意，candidate的译法变成了正面评价。",
+          "原文'孰知止札之縣'，candidate译为'誰知止駐紮的縣境所在？'，'縣'通'懸'，意为'悬念、着落'，指龙脉止驻的具体位置。译为'县境'是误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000255-p000-b1f191636b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000256-p000-681e82fbd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'砂魂'，candidate译为'砂魂'但未加引号或说明。此为opaque_term，应原样保留在引号内或明确标注为原文术语，不应直接融入译文。此处应视为术语误换风险。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000257-p000-9e1a897d80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000258-p000-1fe1c8ee15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000259-p000-0c84407518",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000260-p000-d6a13f6144",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'注氣疑神璧招之而不來'，candidate译为'注氣疑神，璧招之而不來'，保留了'璧'字但未处理。'璧'可能为'臂'之误或通假，意为'以臂招之'。candidate未译出或说明，造成语义断裂。",
+          "原文'前關後鑽將拒之而不去'，candidate译为'前關後鑽將拒之而不去'，保留了'鑽'字。'鑽'在此处可能通'攢'，意为聚集、阻拦。candidate未译出或说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000261-p000-1aac15e046",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000262-p000-bdc1ca3f5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000263-p000-d257e703f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000264-p000-2fd309ca5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000265-p000-f8feeda355",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'沙去而不 頭'，candidate译为'沙丘（砂）离去而不结聚'。根据上下文及'沙去而不頭'的表述，'不頭'应指砂不回头、不内聚。candidate的'不结聚'释义尚可，但将'沙'明确替换为'沙丘（砂）'属于允许的术语解释，且加了括号说明，可以接受。但原文'沙'字可能为'砂'之误或通假，此处candidate处理方式无大碍。主要问题在于：candidate将'这四句话旨在说明...'这段解释性文字写成了确定事实，而原文'將以發龍行未住之勢如下文所云'是作者在阐述其理解，candidate的译法模糊了原文注释与正文的界限，有将注释内容直接作为原文确定含义的风险。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000266-p000-8b6102a6a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000267-p000-b6bfe013e1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'微垣星散而不願'，candidate译为'微垣中的星辰分散而不愿聚合'。'微垣'是opaque_term，candidate未加引号或说明，直接将其作为'微小的垣局'或类似概念进行解释，属于无依据的扩写。应保留'微垣'原词并标注不确定性。"
+        ],
+        "uncertainty": [
+          "微垣"
+        ]
+      },
+      {
+        "id": "book003-b000268-p000-959d17fbcb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'若微垣像 列'，candidate译为'若微垣像列'。'微垣'是opaque_term，candidate未加引号或说明，直接使用。",
+          "原文'豈有雜 解'，candidate译为'豈有雜解？'。'雜解'含义不明，candidate未译出或说明，造成语义模糊。"
+        ],
+        "uncertainty": [
+          "微垣",
+          "雜解"
+        ]
+      },
+      {
+        "id": "book003-b000269-p000-c6ca01b3ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000270-p000-2dde0874f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'俶氣王人無'，candidate照录为'俶氣王人無'。此句语义不通，可能文字有脱误或讹字。candidate未作任何说明或保留原貌处理，直接放入译文，导致读者无法理解。应标注不确定性或指出原文可能存疑。"
+        ],
+        "uncertainty": [
+          "俶氣王人無"
+        ]
+      },
+      {
+        "id": "book003-b000271-p000-6c15bc6668",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'立穴之法耳終非正龍自止氣蓄之地也'，candidate译为'确立穴位的法则，终究不是指那些正龙自行停止并蓄积气脉的地方'。此处理解有误。原文意思是'（上述那种斩截之法）只是立穴的一种方法罢了，终究不是正龙自行停止、气脉蓄积的地方'。candidate将'立穴之法耳'的主语理解错了，导致整句逻辑偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000272-p000-9ffc112c60",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000273-p000-60933385fb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4753,
+    "completion_tokens": 1834,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4753,
+      "completion_tokens": 1834,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

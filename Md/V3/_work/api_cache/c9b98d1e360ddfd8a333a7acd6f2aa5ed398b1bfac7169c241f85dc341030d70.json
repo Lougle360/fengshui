@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-04T05:52:11.632753+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c9b98d1e360ddfd8a333a7acd6f2aa5ed398b1bfac7169c241f85dc341030d70",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001462-p000-5928990eab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文为‘口砂法’，是一个术语或方法名称。候选句将其解释为‘文中提到了“口砂法”’，并推测‘口’字可能是衍文或术语，具体所指不详。这属于对不确定内容的过度解释和风险标注，而非对‘口砂法’这一术语本身的释读。候选句应直接处理‘口砂法’这个术语，例如保留原词并说明其含义不明，或根据上下文（如有）进行推测，而不是描述‘文中提到’这一行为。"
+        ],
+        "uncertainty": [
+          "源文‘口砂法’含义不明，‘口’字可能为缺字、衍文或术语一部分。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 606,
+    "completion_tokens": 175,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 606,
+      "completion_tokens": 175,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

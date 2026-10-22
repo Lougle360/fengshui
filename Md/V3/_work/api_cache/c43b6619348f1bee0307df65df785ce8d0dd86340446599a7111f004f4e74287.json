@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T07:30:09.169044+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c43b6619348f1bee0307df65df785ce8d0dd86340446599a7111f004f4e74287",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000060-p000-c5169bae43",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文中“《超奧經》同”相关内容",
+          "专业术语表述错误：原文“在左右水總室責至爲龍身受洋受洋者得水之蔭也”被误释为“在左右的属于砂的范畴”，与原文语义不符",
+          "对原文“凡龍身左右有興”“欠前兩邊復從之山爲大龍虎”“只要大”等残缺内容未做标注，直接跳过未说明存在缺漏"
+        ],
+        "uncertainty": [
+          "原文为OCR识别的表格内容，存在多处断句混乱、文字残缺，部分语句释读为保守推测"
+        ]
+      },
+      {
+        "id": "book008-b000063-p000-66fd75af6c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兇之大地在前雨又不能用”存在OCR讹误，candidate释为“凶险的大地就在面前却又不能使用”属于无依据臆测，未标注该句存在识别讹误",
+          "原文“氣椒弘大”中“椒”为讹字，candidate直接释为“气脉宏大”未标注该字存疑",
+          "原文“親爲正幹之護從當不能有相公侯於此焉出”语义不通，candidate释为“作为正干的护卫随从，公侯之类的贵人就会从这类格局中生出”属于无依据增译，与可识别的原文文字矛盾"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000064-p000-3ef5408acc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量残缺、讹误、语序错乱，多处语句无法准确释读，现有释读为保守处理，不确定内容较多"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4734,
+    "completion_tokens": 446,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4734,
+      "completion_tokens": 446,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

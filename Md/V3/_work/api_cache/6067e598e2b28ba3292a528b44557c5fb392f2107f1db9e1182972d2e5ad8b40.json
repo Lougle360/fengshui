@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:05:39.846138+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6067e598e2b28ba3292a528b44557c5fb392f2107f1db9e1182972d2e5ad8b40",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000679-p000-a3cd652246",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000680-p000-b4734a2846",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《正义》中‘亦去水远也’释为‘也远离水’，未结合allowed_glossary中‘水’的定义（风水语境中的河流、水系及其来去形态），属于专业术语误换，未准确对应术语含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000681-p000-98c6882b13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000682-p000-141831954c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1569,
+    "completion_tokens": 254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1569,
+      "completion_tokens": 254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

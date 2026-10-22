@@ -1,0 +1,158 @@
+{
+  "created_at": "2026-10-18T11:58:15.349412+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "52cf72888fd877336f2f0c7320967728374540f0fd5e88339b5150a90ed893c4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006468-p000-a41cbc81ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'未井木獬井十九至十七'释为'未井木獬井星度从十九度至十七度'，但原文是'未井木獬井十九至十七'，未明确是'星度'，且'十九至十七'的度数顺序可能为降序，candidate未标注此不确定性。",
+          "candidate将'丑斗木犴斗十五至下七'释为'丑斗木犴斗星度从十五度至下七度'，'下七'是特定术语，candidate未标注其含义不明。",
+          "candidate将'穴升之節'释为'穴位于升之节'，但'升之节'是卦变术语，candidate未标注其具体所指不详。",
+          "candidate将'向無妄之蒙'释为'向位于无妄之蒙'，但'无妄之蒙'是卦变术语，candidate未标注其具体所指不详。",
+          "candidate将'未味 雍州蜀門郡 分野之次 益州漢中'释为'未味，雍州蜀门郡，是分野的次序，对应益州汉中'，但原文'未味'与'雍州蜀门郡'之间无标点，关系不明，candidate的解读可能增译。",
+          "candidate将'电限 楊州丹陽郡 幽州太原郡'释为'电限，杨州丹阳郡，幽州太原郡'，但'电限'含义不明，candidate未标注。",
+          "表格结构在candidate中被拆解为'左侧列'、'中间列'、'右侧列'，但原文是跨行列，candidate的重新编排可能改变了原表意逻辑。"
+        ],
+        "uncertainty": [
+          "'未井木獬井十九至十七'等星宿度数的具体含义及顺序。",
+          "'下七'的具体含义。",
+          "'升之节'、'无妄之蒙'的具体卦变含义。",
+          "'未味'、'电限'的具体含义。",
+          "原文表格的行列对应关系。"
+        ]
+      },
+      {
+        "id": "book035-b006469-p000-6d272088bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006471-p000-e7e08a633d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'辛未木穴分在未宮逢土土見土爲比和'释为'辛未木穴分位于未宫，遇到土，土见土为比和'，但原文'逢土土見土'可能指'逢土，土见土'，candidate的断句和释读（'遇到土，土见土'）基本合理，但'土见土'的'见'字是术数术语，candidate未标注。",
+          "candidate将'是以列于九八之中'释为'因此列入九八之中'，但'九八'含义不明，candidate未标注。",
+          "candidate将'合作格局'补充为'合作格局为中下'，原文无'中下'，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "'土见土'中'见'的具体术数含义。",
+          "'九八'的具体含义。"
+        ]
+      },
+      {
+        "id": "book035-b006472-p000-a5e040d3e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'癸未木穴分在未宮逢土木見土'释为'癸未木穴分位于未宫，遇到土，土见土'，但原文是'逢土木見土'，可能为'逢土，木见土'，candidate的释读（'遇到土，土见土'）可能错误，且未标注歧义。",
+          "candidate将'是以不列于九八之春'释为'因此不列入九八之春'，但'九八之春'含义不明，candidate未标注。",
+          "candidate将'癸空于丑'释为'癸空于丑'，但'空'是术数术语，candidate未标注其具体含义。",
+          "candidate将'合作下格局'释为'合作下格局'，准确。"
+        ],
+        "uncertainty": [
+          "'逢土木見土'的准确断句和含义。",
+          "'九八之春'的具体含义。",
+          "'空'的具体术数含义。"
+        ]
+      },
+      {
+        "id": "book035-b006473-p000-353bed9751",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'甲申水穴分在申宮逢 秉水爲丑'释为'甲申水穴分位于申宫，遇到水，水为丑'，但原文'逢 秉水爲丑'有空格，'秉水'可能为'壬水'或特定术语，candidate释为'遇到水'可能漏译'秉'字，且未标注不确定性。",
+          "candidate将'是以列于九六中之生氣'释为'因此列入九六中的生气'，但'九六'含义不明，candidate未标注。"
+        ],
+        "uncertainty": [
+          "'秉水'的具体含义。",
+          "'九六'的具体含义。"
+        ]
+      },
+      {
+        "id": "book035-b006474-p000-27dd9f0318",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate开头将'地理天機會元卷三十五叢珠金秘 七'释为'地理天机会元卷三十五丛珠金秘第八'，但原文是'七'，candidate改为'八'，数字变化。",
+          "candidate将'水入木宮受向又是病敗之鄉'释为'水入木宫受向，又是病败之乡'，但'受向'可能为'受向'或'受向'有特定含义，candidate未标注。",
+          "candidate将'又元甲申俱爲補氣之孤虛'释为'又元甲申俱为补气之孤虚'，但'元甲申'、'补气'、'孤虚'含义不明，candidate未标注。",
+          "candidate将'申參水猿參八至井一'等星宿度数行释读时未标注'星度'等为补充说明，且未标注度数顺序等不确定性。",
+          "candidate将'穴词同人'、'向明夷之益'等释读时未标注卦变术语的具体所指不详。",
+          "candidate将'申庚，益州汉中郡，甲分野之次，幽州广阳郡益州真定郡幽州右北平'释读时，原文排版为跨行，candidate的线性解读可能改变原对应关系。",
+          "candidate将'丙申火穴分在申吕逢金'释为'丙申火穴分在申吕，逢金'，但'申吕'可能为'申宫'之误或特定术语，candidate未标注。",
+          "candidate将'是枝葉陽根木有虧'释为'是枝叶阳根木有亏'，含义不明，candidate未标注。",
+          "candidate将'州巴耶              甲        州玄郡申庚'释为'州巴耶，甲，州玄郡申庚'，但'州巴耶'、'州玄郡'可能为地名误写，candidate未标注。",
+          "candidate将'戍申土穴分在申宮逢金'释为'戍申土穴分在申宫，逢金'，但'戍申'可能为'戊申'之误，candidate未标注。",
+          "candidate将'曰磕葉'释为'曰磕叶'，含义不明，candidate未标注。",
+          "candidate将'戍空龟甲'释为'戍空龟甲'，含义不明，candidate未标注。",
+          "candidate将'庚申木穴分在申宮逢金木遇金爲鬼煞'释为'庚申木穴分在申宫，逢金，木遇金为鬼煞'，但原文'逢金木遇金'可能为'逢金，木遇金'，candidate断句合理。",
+          "candidate将'宜列于九八這中'释为'宜列于九八这中'，但'九八这中'可能为'九八之中'之误，candidate未标注。",
+          "candidate将'申軫水蚓參三至觜'释为'申轸水蚓参三至觜'，但'参三至觜'可能为星宿度数，candidate未标注不确定性。"
+        ],
+        "uncertainty": [
+          "'受向'的具体含义。",
+          "'元甲申'、'补气'、'孤虚'的具体含义。",
+          "星宿度数的具体含义及顺序。",
+          "卦变术语的具体含义。",
+          "原文表格的行列对应关系。",
+          "'申吕'的具体含义。",
+          "'枝叶阳根木有亏'的具体含义。",
+          "'州巴耶'、'州玄郡'的具体所指。",
+          "'戍申'是否为'戊申'之误。",
+          "'磕叶'的具体含义。",
+          "'空龟甲'的具体含义。",
+          "'九八这中'是否为'九八之中'之误。",
+          "'参三至觜'的具体星宿度数含义。"
+        ]
+      },
+      {
+        "id": "book035-b006476-p000-eeaf5432ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006477-p000-59f9b112c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'申壁月鳥壁四至六'释为'申壁月鸟壁星度从四度至六度'，但原文未明确是'星度'，candidate的补充未标注为推测。"
+        ],
+        "uncertainty": [
+          "'申壁月鳥壁四至六'是否确指星宿度数。"
+        ]
+      },
+      {
+        "id": "book035-b006478-p000-c637537475",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3314,
+    "completion_tokens": 2248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3314,
+      "completion_tokens": 2248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:11:24.667500+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "35b8f1b6b30cfe424b27071b639c5e19178b8bb091bc713951582520aa920766",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000126-p000-0c01213f82",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《玉尺》中‘曜方佛至闲室遭刑，重遇刀砂，难免宪法’释为‘曜方佛至闲室遭刑，重遇刀砂，难免宪法’，未明确‘宪法’‘曜方佛至闲室遭刑’等术语的具体含义，且‘曜杀’‘逆龙’等术语未按要求保留或明确标注为风水语境术语，存在误释风险；‘以曜杀之为祸最将烈也’释为‘以曜杀为祸，最为猛烈’，未明确‘曜杀’为风水语境术语；‘仙师相传’释为‘仙师相传’，未明确‘仙师’为风水语境术语；‘以龙论名’‘只坐山取’‘以水而’未完整释读，存在漏译风险"
+        ],
+        "uncertainty": [
+          "‘曜方佛至闲室遭刑’‘宪法’‘仙师’‘曜杀’‘逆龙’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000127-p000-06c1521ac3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000128-p000-5a8830f9ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000129-p000-0a1faacabe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘攻龙坤兔震山泪，巽鸡乾一两，兑蛇头艮虎离名为役曜，犯之名为墓一齐休’中‘坤兔’‘震山泪’‘巽鸡’‘乾一两’‘兑蛇头’‘艮虎离’‘墓一齐休’等术语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 476,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1427,
+      "completion_tokens": 476,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

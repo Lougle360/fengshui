@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-15T15:53:45.494596+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e753e929bedff1d20c6b20734692fca237d9d4028e96ee26edb5412821eb3138",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002291-p000-391d38d207",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002292-p000-956dcd033e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文‘徐善 述繼’解释为‘徐善述继续撰写’，这是对不明确专名（人名）和动作（‘繼’的对象）的确定性扩写。原文格式特殊，断句和含义均不确定，应保留原文短语并说明不确定性，而非给出推测性解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002293-p000-80e96cb61e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文‘祭氏发挥云’解释为‘这里的‘祭氏’可能是‘蔡氏’之误’，这是对不明确专名的确定性推测，应保留‘祭氏’并说明所指不详。",
+          "候选句将原文‘其生尅相間者九美’解释为‘其生克相间者九美，‘九美’含义不明’，此处‘九美’是opaque_term，候选句将其置于引号外并直接解释为‘含义不明’，这属于赋予确定含义（即‘含义不明’这个判断）。应将其作为原文短语引用，并说明其含义不确定。",
+          "候选句将原文‘玄用卦为’解释为‘原文此处‘玄用卦为’后接‘此先予兄’，存在脱文或断句问题’，这是对原文结构问题的确定性判断。应仅说明‘玄用卦为’与‘此先予兄’连接处含义不明，而不断言存在‘脱文或断句问题’。",
+          "候选句存在多处重复解释，如对‘水出长生墓旺之方’段落的处理，虽为解释但略显冗余，但未构成语义错误，故不列为issue。"
+        ],
+        "uncertainty": [
+          "原文‘克八’可能是‘克入’的形近误字",
+          "原文中两个‘口’字可能是缺字或模糊",
+          "‘封例’可能是‘卦例’之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2118,
+    "completion_tokens": 472,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2118,
+      "completion_tokens": 472,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

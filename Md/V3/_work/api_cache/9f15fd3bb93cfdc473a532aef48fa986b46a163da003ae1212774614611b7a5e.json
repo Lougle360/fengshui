@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-04T00:18:11.585371+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9f15fd3bb93cfdc473a532aef48fa986b46a163da003ae1212774614611b7a5e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000169-p000-079d9abded",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文“圖水辰元”改为“图示水辰元”，属于增译。原文“圖”可能为“图”或“圖”的异体字，但“示”字为无依据添加。应保留原文或进行最保守的释读，如“图水辰元”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000172-p000-569108b477",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000174-p000-1e57e6db4c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000177-p000-d2f85235fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将“公雲”释读为“公云说”，存在冗余。“云”即“说”，释为“公云”或“公说”即可。",
+          "候选句将“侯 嬾 杯覩牀去褚蜥加地不敬中去不直不服”处理为“此处具体所指不详”是恰当的，但原文此句与“体亦与牛角意同”相连，候选句的断句和表述（“此处具体所指不详”）使其与前文割裂，语义不连贯。应调整为更通顺的表述，如“原文中‘侯懒杯睹床去褚蜥加地不敬中去不直不服’等词句语义晦涩，但其意亦与牛角相似。”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000178-p000-e09e10ad27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000179-p000-d22229fa56",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将“千内必告富貴之地”释读为“千内必告富贵之地”，并标注为“表述较为隐晦”。此处理基本正确，但“千内”一词可能为“于内”或“其内”之误，候选句未作任何提示或保留原词，直接使用“千内”可能误导读者。应保留“千内”并说明其可能为讹字。",
+          "候选句将“若成門准不廣範全交牙截水者不甚高聳而低矮”释读为“若成门准不广，范全交牙截水者不甚高耸而低矮”，断句和释义均存在较大问题，导致句子不通。“成门准不广范全”语义不明，可能为“城门关锁不周密”或类似含义，但候选句未作风险标注，而是直接进行了不确定的断句和释读，这超出了保守释读的边界。应整体标注为语义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000180-p000-4f657e74c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000182-p000-19eed80cbb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“纵初年”后似有缺文，导致语意不完整，无法确知后续内容。"
+        ]
+      },
+      {
+        "id": "book035-b000183-p000-9a61047b6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将“開則僅可舉其大略”释读为“开则凶。仅可举其大略”，其中“开则凶”为增译。原文“开则仅可举其大略”意为“如果（门户）敞开，则（其作用）仅能列举其大略”，并未直接断言“凶”。候选句的增译改变了原文的逻辑和语气。应改为“开则仅可举其大略”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000184-p000-17d93dc82a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2283,
+    "completion_tokens": 1005,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2283,
+      "completion_tokens": 1005,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

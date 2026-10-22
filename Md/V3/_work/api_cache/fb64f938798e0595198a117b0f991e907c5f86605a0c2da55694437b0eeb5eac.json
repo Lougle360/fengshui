@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-16T11:25:34.365544+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fb64f938798e0595198a117b0f991e907c5f86605a0c2da55694437b0eeb5eac",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002184-p000-9230568c0d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'三易五慶'是含混专名，candidate将其解释为'三易五庆的道理'，并赋予'回环贯通'的确定含义，这超出了allowed_glossary的范围，属于无依据扩写。应保留原短语并标注不确定性。",
+          "'斯文留与子孙看'译为'这篇文辞将留给子孙后代阅读'，'文辞'的增补虽为形成句子所需，但'斯文'在此语境下更可能指'这篇文章/道理'，而非特指'文辞'，虽非严重错误，但可更精确。"
+        ],
+        "uncertainty": [
+          "'三易五慶'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002185-p000-47c334676a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002186-p000-205f92028b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'晨師'译为'早晨的师傅'，将'晨'字坐实为时间，可能误译。'晨師'可能是人名、尊称或特定称谓，不应直接解释为'早晨的师傅'。应保留原词或标注不确定性。"
+        ],
+        "uncertainty": [
+          "'晨師'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002187-p000-8e574fcd5c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002188-p000-0ad3389dae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002189-p000-7765bdb832",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002190-p000-5709173f8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002191-p000-3270a2a917",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002192-p000-576f4924dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002193-p000-754e5ae154",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1819,
+    "completion_tokens": 568,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1819,
+      "completion_tokens": 568,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

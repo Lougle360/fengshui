@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T19:03:12.935457+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f0db137614ab1be7fe13813a881570c51cca8ca8a6ad5fba43d1cb4a300f521d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002343-p000-a3b576b52e",
+        "modern_text": "《象传》说：九二爻“守持正固可获吉祥”，是由于阳刚居中的缘故。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002345-p000-edd825a0c1",
+        "modern_text": "九三爻：小人妄用强盛，君子虽强不用；守持正固以防危险，若像大羊强触藩贞厉，羝羊触藩，赢其角，篱，羊角必被拘累缠绕。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中\"篱\"的表述含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 190,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1203,
+      "completion_tokens": 190,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

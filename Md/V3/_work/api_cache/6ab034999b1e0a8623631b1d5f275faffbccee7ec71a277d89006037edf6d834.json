@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T16:16:03.889198+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6ab034999b1e0a8623631b1d5f275faffbccee7ec71a277d89006037edf6d834",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000379-p000-4892355cef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“多嗣”，候选误译为“少嗣”，含义相反；原文“一遙無也”未译，遗漏内容；原文“如此計子孫利害重者宜審擇之”句读理解错误，候选断句导致语义偏离，原义是“像这种情况，关乎子孙利害重大的，应当审慎选择”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000381-p000-4cef0d2542",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000382-p000-54060c6804",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000383-p000-7bc6dcd7c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“長位”候选误译为“主位”，术语不符；原文“一技”属于未明确含义的专名，候选直接保留未加说明，且“养的儿子”属于无依据释义，原文“主養子而皆富貴”的“養子”未被允许做确定释读，应保留原表述或标注不确定；原文“前啚”未译，遗漏内容，“啚”同“图”，指前文的图对应的情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000385-p000-b8d009990b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000386-p000-c64febef0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000387-p000-786a07ec8a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“獨峯為就試龍非中出”断句错误，候选理解为“独峰是参加考试的龙，不是从中出”不符合原义，应为“独峰是应试的（物象），龙脉不是从中而出，才是上等贵格”，候选语序拆分错误导致语义偏离"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000389-p000-9c4a92ae86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000390-p000-7c7988d344",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000391-p000-18bcfb4cfa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“玉級”对应前文“王陛九級”，候选作“玉级”暂可，但“大穿心”是风水专业术语，候选未加说明直接译为“大穿心的证验”，且“證過”译为“证验”属于无依据释义，未在允许术语表内，应保守处理；原文“偏斜中特者”候选译为“偏斜中特别突出的”虽可，但“皆為貴”原文是“都属于贵格”，候选“都称为贵气”表述不够准确"
+        ],
+        "uncertainty": [
+          "“大穿心”具体风水形态原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1838,
+    "completion_tokens": 948,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1838,
+      "completion_tokens": 948,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

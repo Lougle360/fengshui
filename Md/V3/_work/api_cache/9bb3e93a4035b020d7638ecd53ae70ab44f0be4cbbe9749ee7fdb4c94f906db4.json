@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T20:30:19.022857+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9bb3e93a4035b020d7638ecd53ae70ab44f0be4cbbe9749ee7fdb4c94f906db4",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003451-p000-a359f5b27e",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "这段内容是说明六二爻柔顺居中、处于合适的位置，向上承接九三爻，行动没有不符合“正”的要求，却被强行制止。孔颖达说：这是“施止不得其所”的情况，相关论述出自《正义》。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003452-p000-518ac99330",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 九三，艮（八卦之一）其限，列其夤，厉薰心①",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003453-p000-452fcced81",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文九三，抑止腰部的运动，以至断裂背夹脊肉（身体上下中分），危险像烈火一样薰灼其心。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003454-p000-9ce806a5f6",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这部分是对“艮（八卦之一）其限，列其夤，厉薰心”的考辨解释：“限”是界的意思，句子里指人体上下的交界部位，也就是腰部。《释文》记载“马融说限就是腰，郑玄、荀爽、虞翻的说法和马融一致”；“列”是“裂”的通假字；“夤”读音为yín，《释文》引用马融的解释说它是“夹脊肉”。这三句是说明九三爻处在《艮》卦上下卦的中间位置，就好比人体的腰；腰部的活动被制止，脊肉断裂，所以会招来“薰心”的危险，它的凶险是很明显的。《王注》里说：“限是身体的中间位置，九三爻对应两个卦象的中间，所以说‘艮其限’；夤是背脊中间的肉，制止的作用施加到腰部（“限”在阮元刻本里写作“身”，这里依据《举正》改作“限”），中间的身体被 split，所以说‘列其夤’，会有忧患危险像火一样熏灼内心的情况。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1135,
+    "completion_tokens": 94,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1645,
+      "completion_tokens": 724,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1135,
+      "completion_tokens": 94,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

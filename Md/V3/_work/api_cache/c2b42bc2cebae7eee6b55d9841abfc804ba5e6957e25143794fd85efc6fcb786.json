@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-17T11:26:20.823967+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c2b42bc2cebae7eee6b55d9841abfc804ba5e6957e25143794fd85efc6fcb786",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003468-p000-e1e08d6dce",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“有与张庚丁水入木方”一句，原文“有與張庚丁水入木”含义不明，candidate将其作为确定事实译出，属于无依据扩写。应保留原文模糊性，例如译为“有‘与张庚丁水入木’（具体所指不详）”。",
+          "“白蚁飞入子癸龙”一句，原文“白蟻飛子癸龍”含义不明，candidate将其作为确定事实译出，属于无依据扩写。应保留原文模糊性，例如译为“‘白蚁飞子癸龙’（具体所指不详）”。",
+          "“要耳点穴”应为“右耳点穴”的OCR或原文错误，candidate未修正也未标注，导致方位错误。",
+          "“就在丙子上点穴”一句，原文“即就丙子上點穴”含义不明，“丙子上”可能指丙方与子方之间，candidate直译可能导致方位不确。"
+        ],
+        "uncertainty": [
+          "原文“有與張庚丁水入木”、“白蟻飛子癸龍”、“丙子上”等短语具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003469-p000-d056f6396f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003470-p000-a47e0f8ffc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003471-p000-5878861b33",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文为口诀体，部分断句与具体吉凶应验对象需依上下文推断，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003472-p000-0116003ded",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003473-p000-2e41211bb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003474-p000-97427a1282",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003475-p000-f8e34e2823",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“午了堪丙丁不见何虽重”一句，原文含义不明，candidate直接照搬而未标注其不确定性，属于漏译风险。应补充说明，如“‘午了堪丙丁不见何虽重’（原文如此，含义不明）”。",
+          "“消亥中房”一句，原文含义不明，candidate直接译出而未标注其不确定性，属于漏译风险。应补充说明，如“‘消亥中房’（具体所指不详）”。",
+          "“有聊名科甲之应”一句，原文“有聊名”含义不明，candidate直接译出而未标注其不确定性，属于漏译风险。应补充说明，如“‘有聊名’（具体所指不详）科甲之应”。"
+        ],
+        "uncertainty": [
+          "原文“午了堪丙丁不见何虽重”、“消亥中房”、“有聊名”等短语具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003476-p000-52e1408584",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003477-p000-579230e176",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文为口诀体，部分术语如“顶标一宫”“脱奴就主”具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3036,
+    "completion_tokens": 829,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3036,
+      "completion_tokens": 829,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

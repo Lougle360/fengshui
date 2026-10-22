@@ -1,0 +1,186 @@
+{
+  "created_at": "2026-09-23T12:08:28.189914+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9147117d5b3511f276eeee26e8e0a7f44100aba8a0e46077305a40f3e3c8288f",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000368-p000-3a3cd39c72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000369-p000-0853482ad9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000370-p000-ba488c35a8",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处严重文字错乱（如“二于左六”“数次菅十”“二体九七六”“离来六子排”“凭矫辍”），导致语义完全不通，无法进行有效的白话释读。候选句仅能按字面直译，未能达成‘普通读者能读懂’的目标。"
+        ],
+        "uncertainty": [
+          "原文文字错乱，具体所指无法确定。"
+        ]
+      },
+      {
+        "id": "book002-b000371-p000-6a6df497a3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句‘托长老说：六子公位，如青龙从后过去，则长房之砂从案山过来，则四房之砂矣；白虎从后过去，则三房之砂，从案山过来，则六房之砂矣。’逻辑和标点混乱，未能清晰表达原文的并列关系。原文应为：青龙从后过去则长房之砂，从案山过来则四房之砂；白虎从后过去则三房之砂，从案山过来则六房之砂。候选句的表述容易引起误解。"
+        ],
+        "uncertainty": [
+          "原文‘艮寅甲为四’后文缺失，语义不完整。"
+        ]
+      },
+      {
+        "id": "book002-b000372-p000-c55e9b43b0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘左先绝右空兮右零丁朝坐空旷二五难兴’语义模糊，可能为传抄讹误。候选句仅作字面直译，未能提供可理解的释读，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文‘右空兮’‘右零丁朝坐空旷’‘二五难兴’等句语义模糊，可能为传抄讹误，无法确切解释。"
+        ]
+      },
+      {
+        "id": "book002-b000373-p000-d05d82650e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量疑似OCR错误或文字错乱（如‘鳞有也’‘獗祖’‘纸者个房’‘明占部山’），语义完全不通。候选句仅作字面直译，未能提供可理解的释读，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文文字错乱，具体所指无法确定。"
+        ]
+      },
+      {
+        "id": "book002-b000374-p000-a090bf878e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000375-p000-01b0cf3f73",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000376-p000-991e4d3cab",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句‘参军可尸’语义不通，且未加任何说明。对于这种明显讹误，应在释读中标注其不确定性，而非直接照搬。建议改为‘参军可尸（原文如此，疑有讹误）’或类似处理。"
+        ],
+        "uncertainty": [
+          "原文‘参军可尸’语义不通，可能为传抄讹误。"
+        ]
+      },
+      {
+        "id": "book002-b000377-p000-661f78c82a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000378-p000-e9bc317443",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000379-p000-e48d53b224",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000380-p000-62242d046a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000381-p000-d85d694263",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000382-p000-908647ae3b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000383-p000-14a6664375",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句‘七李桂林郁’‘催官嵬’‘驷砚’等词直接照搬，未加任何说明。这些词语义不明，可能是传抄讹误或专有名词，直接放入白话释读中会造成读者困惑。应在释读中标注其不确定性。"
+        ],
+        "uncertainty": [
+          "原文‘七李桂林郁’‘催官嵬’‘驷砚’等词语义不明，可能为传抄讹误或专有名词。"
+        ]
+      },
+      {
+        "id": "book002-b000384-p000-d68b272bfc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000385-p000-ab365fcb71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘甲砂洪’语义不完整，可能为标题或残句。"
+        ]
+      },
+      {
+        "id": "book002-b000386-p000-118ddeeb3d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句‘坤砂如道九生’‘樗离声’‘贼旗斜侧’等句直接照搬，未加任何说明。这些词语义模糊，可能是传抄讹误，直接放入白话释读中会造成读者困惑。应在释读中标注其不确定性。"
+        ],
+        "uncertainty": [
+          "原文‘坤砂如道九生’‘樗离声’‘贼旗斜侧’等句语义模糊，可能为传抄讹误。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7632,
+    "completion_tokens": 1487,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7632,
+      "completion_tokens": 1487,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

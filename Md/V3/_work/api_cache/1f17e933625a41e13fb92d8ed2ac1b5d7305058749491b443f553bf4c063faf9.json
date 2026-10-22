@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-25T21:39:04.968602+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1f17e933625a41e13fb92d8ed2ac1b5d7305058749491b443f553bf4c063faf9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001677-p000-896ccdb7ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001678-p000-d5bd569678",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001679-p000-50d65b702c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“坚而不副”具体含义不详"
+        ]
+      },
+      {
+        "id": "book029-b001680-p000-28d336b03c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“金窝”“掬手”“高而帶火”“開腦塟”为风水专业操作及术语，具体规范不详"
+        ]
+      },
+      {
+        "id": "book029-b001682-p000-36c811e9f8",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "整句为残句，语义不完整，无法准确释读"
+        ]
+      },
+      {
+        "id": "book029-b001683-p000-3e09d2dbdd",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文首字识别不清"
+        ]
+      },
+      {
+        "id": "book029-b001684-p000-f5d0529423",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“伏宜侵其半陰陽之作”语序释读偏差，原句义应为“宜伏、宜侵其半，作阴阳（穴）”，候选句断句错误导致语义不通顺；原文“斬頸嘴而小”后缺对应宾语，释读补义无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001686-p000-d3b9ae18a3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“蟾宮”“太阴”“半月”为风水地形术语，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2667,
+    "completion_tokens": 604,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2667,
+      "completion_tokens": 604,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

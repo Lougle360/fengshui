@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T16:11:57.750954+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6f759bb99bb688653e99a56cbdb547cf64d41c94cb75919fd62c449d7d0f6240",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001526-p000-7f0f2fe067",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001527-p000-38a68c4539",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001528-p000-634ccfd7fe",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未提及的‘太阳运行二十五分’添加至候选句，属于无依据扩写；未按allowed_glossary对‘水’的定义处理，此处‘水’为计时用的漏壶之水，非风水语境的水系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001529-p000-121dc044be",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未按allowed_glossary对‘水’的定义处理，此处‘水’为计时用的漏壶之水，非风水语境的水系"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1944,
+      "completion_tokens": 284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

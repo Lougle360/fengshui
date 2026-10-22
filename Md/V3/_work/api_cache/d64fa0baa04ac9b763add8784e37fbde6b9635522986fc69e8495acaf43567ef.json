@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-04T00:14:34.031881+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d64fa0baa04ac9b763add8784e37fbde6b9635522986fc69e8495acaf43567ef",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000956-p000-ae41fd0592",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'微 易 體 之 草木使穴陽光净然後可庶不致悞切勿草率苟且'，candidate释为'微易体之草木，使穴阳光净，然后可庶不致误，切勿草率苟且。'，此句原文有脱漏或讹误，'微易体之草木'语义不明，candidate将其作为确定语句释出，属于将不确定解释写成事实。应指出原文此处有讹误或难以确解。",
+          "原文'留皆為二氣交感'，candidate释为'瘦留，这些都称为二气交感'，'瘦留'应为'瘦陷'之误，candidate未指出此讹误，并直接释读'瘦留'，可能误导。",
+          "原文'凡陰陽穴皆當減若不饒減則氣直米正穴必偏枯疏 見惟此交感之穴則取陰陽之中不用饒減最為貴格'，candidate释为'凡是阴穴或阳穴，都应当进行减饶，若不进行减饶，则气脉直冲，正穴必偏枯。疏见唯有这种交感之穴，取阴阳之中而不需减饶，才是最贵的格局。'。'疏见'应为'独'或'惟'之误，candidate未指出并直接释为'疏见'，不妥。且'气直米正穴'，'米'应为'来'之误，candidate释为'气脉直冲'，虽意译但未指出原文讹误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000958-p001-cbaec430de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为'下瘦 陽 上肥'，candidate释为'下部瘦削为阳，上部肥厚为阴。'。原文'下瘦 陽 上肥'，可能为'下瘦为阳，上肥为阴'的简写或图示说明。candidate释读方向正确，但原文'陽'字在'下瘦'与'上肥'之间，candidate的断句和释义是合理的推测。然而，根据指令，对于这种简略或图示文字，若原文未明确给出判断，candidate将其作为确定事实释出，属于将不确定解释写成事实。应指出原文简略，此为推测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000961-p000-6e700a3b12",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000965-p000-6ff58e4ea9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为'地理人子須矢卷四上'，candidate释为'此处题记为：《地理人子须矢》卷四上。'。书名'須矢'应为'须知'之误，candidate未指出此讹误，直接照录'须矢'，不妥。应指出原文'矢'可能为'知'之讹。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000966-p000-c4c90b07e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000967-p000-bf76a903d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000968-p000-e292a0238d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'人穴欲黼殺等'，candidate释为'人穴有欲黼杀等'。'欲黼殺'语义不明，可能为'有辅杀'或'有黼黻'之误，或为某种穴法名称。candidate将其作为确定名称'欲黼杀'释出，属于将不确定解释写成事实。应指出原文此处有讹误或难以确解。",
+          "原文'天財搭脊者皆是也'，candidate释为'天财搭脊者皆是'。'天财'为风水星体名，locked_terms中未包含，但属于专业术语，candidate直接使用，未加引号或说明，但考虑到上下文为解释'骑刑穴'，且'天财'是风水常见术语，此处可接受。但严格来说，opaque_terms为空，此类专名应原样引用。不过，此处'天财'在原文中明确出现，candidate未改变其含义，可视为保留原词。但'搭脊'亦为术语，candidate未加说明。综合判断，此处风险较低，但为严谨计，标注为revise。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000970-p000-712b6469ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000971-p000-c39aa85009",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000974-p000-2a0b3cd968",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处残缺与错乱，部分字句难以确解",
+          "具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 1273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3572,
+      "completion_tokens": 1273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

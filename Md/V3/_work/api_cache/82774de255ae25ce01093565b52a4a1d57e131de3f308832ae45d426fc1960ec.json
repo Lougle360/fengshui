@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-10-17T09:21:42.470642+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "82774de255ae25ce01093565b52a4a1d57e131de3f308832ae45d426fc1960ec",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003140-p000-b6a496f154",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003141-p000-7a57e87896",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘女績游筐盞内浮酥和印浮水面水中浮卯法’这一系列比喻，解释为‘如同女子绩麻游筐、盏内浮酥、印浮水面、水中浮卯之法’，并直接与‘以盖穴冠脉而葬’连接。原文中‘法以蓋穴冠脈而葬’是独立的操作法则，并非对前面比喻的总结。候选句的表述方式模糊了原文结构，可能误导读者认为这些比喻本身就是‘法’。",
+          "候选句‘一并安葬时忌讳破突’中的‘一并安葬时’是增译，原文‘幷葬忌破突’中的‘幷’更可能表示‘同样’或‘也’，指高山窝中突穴的安葬同样忌讳破突，而非指多个棺椁一并安葬。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003144-p000-07856c0e8c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘壬向丙自丁潮归巽南砂’的释读‘壬向丙自丁潮归巽南砂’完全照搬了原文，没有进行白话转换，不符合V3目标。",
+          "候选句‘乘亥气耳入向丙丁水田丘朝穴出程’的释读‘乘亥气耳入向丙丁水田丘朝穴出程’同样完全照搬原文，未进行白话转换。",
+          "候选句‘列秀主大富贵永远不替’的释读‘列秀主大富贵永远不替’也基本照搬原文，未进行白话转换。",
+          "候选句整体上只是对原文进行了断句和少量词语替换，未能将古文的句式和语序转换为现代中文的流畅表达，多处保留了原文的语序和省略，导致可读性差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003145-p000-e1e224ad64",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘亥气贯穿左耳，就脉胝平窝上突’的释读‘亥气贯穿左耳，就脉胝平窝上突’基本照搬原文，未进行白话转换。‘脉胝’等词对普通读者而言晦涩。",
+          "候选句‘棺壙稍泄攻矣，下乘气耳入前就窝作明堂’的释读‘棺壙稍泄攻矣，下乘气耳入前就窝作明堂’同样基本照搬原文，未进行白话转换。",
+          "候选句整体上只是对原文进行了断句和少量词语替换，未能将古文的句式和语序转换为现代中文的流畅表达，多处保留了原文的语序和省略，导致可读性差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003148-p000-dad5496b23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003149-p000-57e8aec245",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003152-p000-7fecbb8265",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003153-p000-1a77afb50b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘宜昔宛陵南湖负南漪葬场儒坊合’的释读‘宜昔宛陵南湖负南漪葬场儒坊合’完全照搬原文，未进行白话转换，地名和结构对普通读者难以理解。",
+          "候选句‘棺贯右耳乘亥脉坐壬向’的释读‘棺贯右耳乘亥脉坐壬向’基本照搬原文，未进行白话转换。",
+          "候选句‘丙丙砂秀列即主富贵’的释读‘丙丙砂秀列即主富贵’基本照搬原文，未进行白话转换。",
+          "候选句整体上只是对原文进行了断句和少量词语替换，未能将古文的句式和语序转换为现代中文的流畅表达，多处保留了原文的语序和省略，导致可读性差。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2706,
+    "completion_tokens": 1069,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2706,
+      "completion_tokens": 1069,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

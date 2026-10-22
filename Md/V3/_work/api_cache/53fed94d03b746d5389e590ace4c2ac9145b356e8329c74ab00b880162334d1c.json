@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:11:36.674463+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "53fed94d03b746d5389e590ace4c2ac9145b356e8329c74ab00b880162334d1c",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000426-p000-ca4e0e464c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“纳者一佛龙后节出有嫩乳一家建之驿张万金生子俊秀师地小穀起之号非家改于死复葬故处不效益方气议以矣拔山图尽处”的内容释读为“纳者一佛龙的后节长出嫩乳，一家建了这个穴，驿张万金，生子俊秀，是地师小穀起的名号，不是他家改葬到死的地方，所以效果不好”，存在将原文未明确的内容确定化的问题，原文未提及“驿张万金”“地师小穀起”的具体所指，也未明确“非家改于死复葬故处”的含义，属于无依据扩写；将“直岗穷尽皆杀气”释读为“直岗穷尽的地方都是杀气”，未保留风水术语的模糊性，属于将推测内容写成事实；将“指鹿”释读为“指鹿为马”，属于无依据添加成语，改变原文含义"
+        ],
+        "uncertainty": [
+          "原文中“纳者一佛龙后节出有嫩乳一家建之驿张万金生子俊秀师地小穀起之号非家改于死复葬故处不效益方气议以矣拔山图尽处”的具体含义未明，释读时需标注风险"
+        ]
+      },
+      {
+        "id": "book014-b000433-p000-b92e9ac5c8",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "将原文中“有则无人守录虏”释读为“有火就无人守录虏”，属于对原文的错误解读，原文“守录虏”含义不明，不应随意补全；将“势熏大”释读为“势熏大”，属于对原文的错误释读，原文“势熏大”含义不明；将“灯花剪焰必水花若是金花用不得其余入火皆成灰”释读为“灯花剪焰，必须是水花，如果是金花就不能用，其余入火的都会成灰”，属于对原文的错误解读，原文“灯花剪焰”“水花”“金花”含义不明，不应随意释读"
+        ],
+        "uncertainty": [
+          "原文中“守录虏”“势熏大”“灯花剪焰”“水花”“金花”等内容的具体含义未明，释读时需标注风险"
+        ]
+      },
+      {
+        "id": "book014-b000434-p001-6b1030a07e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000437-p000-5b45a12823",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2483,
+    "completion_tokens": 677,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2483,
+      "completion_tokens": 677,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

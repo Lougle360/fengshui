@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-25T20:46:04.289445+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3ce272b2be7ad2673b86cf25edcc57f7ff99d271d3a1ecb454db3464237a0b63",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001556-p000-48c5740bbc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001559-p000-6401c5e22a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "中興的具體含義"
+        ]
+      },
+      {
+        "id": "book029-b001565-p000-73d6cc0604",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“第一號曰為太于”的“太于”candidate未标注具体所指不详，存在无明确依据的直接沿用风险；原文“第四名橫”被candidate误译为“第四顆名為權”，属于文字错译；原文“一負星”表述存疑，candidate直接译为“一顆負星”未标注不确定性，属于把不明表述作确定释读",
+          "原文“史柱史各一烏”被误拆为“史星、柱史星各有一顆，烏御女星有四顆”，断句错误导致含义偏差；原文“杠作柄象畢蓋形”译为“樣子類似畢蓋”表述模糊，未准确对应“杠作为柄，整体形制类似畢蓋”的原意"
+        ],
+        "uncertainty": [
+          "大嘗座",
+          "太于",
+          "次山輔",
+          "天梧星的具體含義",
+          "一負星的具體含義"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2388,
+    "completion_tokens": 366,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2388,
+      "completion_tokens": 366,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

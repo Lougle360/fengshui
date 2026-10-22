@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-25T17:28:39.765247+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bb0aabe6923932aacbbf1082460c812a9326363edd8b9eeaab43719de195bb37",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000798-p000-68efbceaec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000800-p000-31db59b102",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头讹误符号后的术语应为“侧脑星辰”，candidate误拆分出“S亢”作为单独术语，属于断句错误；“穴宜踏逸”未作明确说明也未标注不确定性，属于未处理的含混内容；candidate将“水”的注释插在“天阳、阴、水”的术语罗列中间，打断了术语列表的连贯性，属于释读逻辑不当"
+        ],
+        "uncertainty": [
+          "原文开头的“太 CS 太 金 紫 天陽 陰 水 氣 財天 孤 2 無燥 紐罡 曜 宂火 蕩 會 S亢”含讹误字符，具体所指不明；“穴宜踏逸”“面喜张潮”“堂气”“乐星”“案前飞走”“宄内空”“虚花”“腾漏”未明确释义，含义待考"
+        ]
+      },
+      {
+        "id": "book029-b000803-p000-7acec0a31d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“潛踪難認”后的“開”字疑似残字，具体语义无法确定"
+        ]
+      },
+      {
+        "id": "book029-b000804-p000-650d009593",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“口為憑須恠之不同與端正而何異”的释读有误，正确语义应为“以（某种判断依据，原文开头缺字导致以‘口为凭’的表述存疑）为依据，这些宂虽然有怪异和端正的不同，又有什么差异呢”，candidate漏注开头“口为凭”的存疑属性，且未说明“穿空穿薄”“夹坚夹软”“后龙”“前案血情”等术语的不确定性，属于未处理的含混内容"
+        ],
+        "uncertainty": [
+          "原文开头缺字，“口為憑”的具体所指不明；“穿空穿薄”“夹坚夹软”“后龙”“前案血情”等术语未明确释义，含义待考"
+        ]
+      },
+      {
+        "id": "book029-b000806-p000-be5a3eda50",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“惟有一休或出平之中高山要平中有窟”的断句与释读错误，candidate误拆为“或者出自平地，或者出自高山”，原文“或出平之中高山”语义应为“或者出于平地、或者出于高山”的表述存在讹误或断句问题，“一休”未释读也未标注，属于漏译与未处理含混内容"
+        ],
+        "uncertainty": [
+          "“惟有一休”的“一休”具体所指不明；《葵经》是否为古籍异名待考；“支塟其巔”的具体含义需结合风水语境确认"
+        ]
+      },
+      {
+        "id": "book029-b000807-p000-1660c90aff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“水”“穴”的注释插在开头的术语罗列中间，打断了术语列表的连贯性，属于释读逻辑不当；“灵光目出于頂中”的“目”为讹字的可能性未标注，直接释为“从顶中生出”属于将存疑内容作为确定事实；“胎息”“血脉反背”等术语未说明不确定性，属于未处理的含混内容"
+        ],
+        "uncertainty": [
+          "原文开头“陽太 陰太 水金 紫 氣 財天·天 無孤 無燥 掃罡 穴曜 穴火 蕩”的术语组合具体所指不明；“灵光目出于頂中”的“目”疑似讹字，具体语义存疑；“胎息”“血脉反背”等术语未明确释义，含义待考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2453,
+    "completion_tokens": 1042,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2453,
+      "completion_tokens": 1042,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

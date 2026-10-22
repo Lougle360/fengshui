@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-24T08:25:45.521613+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "79899a4bba74677255f8d2a9598f1862debfc42340526416dc18a6286289e1ec",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000179-p000-7b6ae9bb7a",
+        "modern_text": "文中所述内容语义混乱，无法准确释读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量OCR识别误差，语义混乱"
+        ]
+      },
+      {
+        "id": "book008-b000180-p000-363d36b1d9",
+        "modern_text": "如今有人只将第一百十注当作分金，用于坐穴立向，本文所说的分十二支与十二之后的疏，是罗盘各层的排列，都属于分金，具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "蒲義含义难以确定",
+          "羅鉅含义难以确定",
+          "一百二十井不售十一支含义难以确定"
+        ]
+      },
+      {
+        "id": "book008-b000181-p000-de8e20f87f",
+        "modern_text": "文中部分文字含义难以完全确定，无法准确释读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在OCR识别误差，多处文字含义难以完全确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3144,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

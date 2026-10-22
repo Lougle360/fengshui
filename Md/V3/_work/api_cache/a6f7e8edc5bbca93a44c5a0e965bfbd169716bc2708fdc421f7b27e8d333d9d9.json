@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-25T16:39:44.998390+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a6f7e8edc5bbca93a44c5a0e965bfbd169716bc2708fdc421f7b27e8d333d9d9",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000778-p000-a89c70dbf5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“泥昆疏出”具体含义不详"
+        ]
+      },
+      {
+        "id": "book026-b000780-p000-7ffb77bc84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“龍震”未明指“属震的龙”，该解释无依据，属于将不确定表述判定为确定事实",
+          "locked_terms“震”的义项为八卦之一，不得直接和“龙”绑定释读为“属震的龙”"
+        ],
+        "uncertainty": [
+          "原文末尾“轉不- - 也”存在文字缺漏，完整语义无法确定",
+          "“龍震”的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book026-b000781-p000-20a695ece6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“鸞動崔神傷氣”被作为状况直接引用但未标注不确定，且“崔神”属于不明专名，应明确说明该短语含义不详，不得直接表述为“导致‘鸞動崔神傷氣’的状况”而不做风险提示"
+        ],
+        "uncertainty": [
+          "“崔神”具体所指不详",
+          "“鸞動崔神傷氣”整体含义原文未明"
+        ]
+      },
+      {
+        "id": "book026-b000785-p000-8470e5414d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未明确说明声响的来源"
+        ]
+      },
+      {
+        "id": "book026-b000786-p000-e33b371a3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“水其蔡如奉亮而者此衰為也”具体含义不详",
+          "“常月水舊文良昌自連龜”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1685,
+    "completion_tokens": 469,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1685,
+      "completion_tokens": 469,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

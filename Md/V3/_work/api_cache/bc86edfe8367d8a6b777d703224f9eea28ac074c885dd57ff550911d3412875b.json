@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T07:58:57.412423+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bc86edfe8367d8a6b777d703224f9eea28ac074c885dd57ff550911d3412875b",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000107-p000-e6ca4e363b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量OCR错乱、残缺，候选释读中多处语句不通顺，部分内容无法对应原文含义，如“斜滅國亡家皆無地步之說也，其見於《葬經》入式歌云：好”“東多但山之面有隱顯橫偏閃側淺深大小多寡特”“則一如貪，不必太能”等内容均为OCR残缺导致无法准确释读，候选释读未修正此类问题，仍保留混乱语句”],",
+          "uncertainty=["
+        ]
+      },
+      {
+        "id": "book009-b000108-p000-140a5b6ba1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量OCR错乱、残缺，候选释读中多处语句不通顺，如“者故為正體日，之類者詞也”“補義分心者，人字雨分之脈亦顯”“此事要，服數欲”“干徽突經，面願面河”“必7”等内容均为OCR残缺导致无法准确释读，候选释读未修正此类问题，仍保留混乱语句”],",
+          "uncertainty=["
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4275,
+    "completion_tokens": 315,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4275,
+      "completion_tokens": 315,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

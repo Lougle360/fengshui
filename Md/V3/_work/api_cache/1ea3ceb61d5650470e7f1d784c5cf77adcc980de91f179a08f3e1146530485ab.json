@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T16:14:11.958071+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1ea3ceb61d5650470e7f1d784c5cf77adcc980de91f179a08f3e1146530485ab",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001566-p000-531d5876b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001568-p000-492b88a7da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001569-p000-f25fb26375",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译了各著作的出版社及出版年份信息"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001570-p000-08a396e007",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1240,
+    "completion_tokens": 210,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1240,
+      "completion_tokens": 210,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

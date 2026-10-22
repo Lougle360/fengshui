@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-17T15:12:47.596913+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a58eaf0d0cd62b4e85b2efa809e02e47307ca04bc570e56ffa1617839b9a1fd6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003931-p000-bf90e47e82",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003932-p000-a3d6da8734",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003933-p000-723ff6b5cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "术语误换：原文‘发挥曰展纸水 出亦方正如削’，candidate 释为‘展纸水出亦方正如削’，将‘水’直接释为河流，但此处‘水’可能指官星形态（如水流状），allowed_glossary 的定义在此处应用不恰当，属于过度确定化解释。应保留‘水’字并说明其形态特征，而非直接定义为‘河流、水系’。",
+          "漏译：原文末尾‘但土星域弯或’未完整译出，candidate 仅保留‘但土星域弯或’，未处理其含义或说明残缺。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003936-p000-03b541c109",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003938-p000-90378e62b7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003939-p000-ad95e705cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003940-p000-c474f99f6f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将推测写成事实：原文‘木里委’含义不明，candidate 直接保留并标注‘等词句意不明’，但‘木里委’本身未加引号或明确说明为原文引用，可能误导读者以为这是一个可理解的专名。应明确标注为原文引用并说明其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003941-p000-4920f3c0c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003942-p000-044b89ba37",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003943-p000-23ef544894",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "术语误换：原文‘所变水发木秀，非外有水’，candidate 直接释为‘所变水发木秀，非外有水’，其中‘水’‘木’可能指五行属性或形态，但 allowed_glossary 中‘水’的定义为‘河流、水系’，此处直接套用可能不准确，属于过度确定化解释。应保留原字并说明其可能指五行或形态。",
+          "将推测写成事实：原文‘昨屯经云’‘燮门子彻之论’‘进籽例’等短语语义不清或疑似 OCR 错误，candidate 直接保留而未加引号或明确说明其含义不确定，可能误导读者。应明确标注这些为原文引用并说明其含义不详。",
+          "漏译/结构混乱：原文为表格结构，candidate 转换为纯文本时，部分内容（如‘号’‘石山华立，石尖大赞者不为凶’）的上下文关系可能丢失，且‘员才不竖帽...’一段与前后文衔接不清，释读未能清晰反映原文可能的层次或注释关系。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3342,
+    "completion_tokens": 981,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3342,
+      "completion_tokens": 981,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

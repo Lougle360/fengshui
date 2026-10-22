@@ -1,0 +1,130 @@
+{
+  "created_at": "2026-10-04T06:58:43.719150+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dfdaed42d1589f961b12866423cb96ca63468a6e85901d2906d23eeaecef2cd4",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000765-p000-4f60e05742",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000766-p000-617e21f232",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "反义：原文'金水有蕩漾真金不移'，candidate译为'金水形态虽有荡漾之象，但真金不移'，将'真金不移'解释为'真金不移'，但结合上下文'水星不畏突'，此句应是说金水形态（此处可能指一种星体形态）虽有荡漾之象，但其真金（本质）不移。candidate的'真金不移'表述易与'真金'混淆，且'不移'的释读不够清晰。",
+          "漏译：原文'如不犯瘠眩之毒純如珠乳之微就頂立火何傷'，candidate译为'如果不犯瘠眩之毒，纯如珠乳之微，就顶立火，又有什么伤害？'，基本准确，但'瘠眩'为opaque_terms，应保留原词并说明具体所指不详，而非直接翻译为'瘠眩之毒'。",
+          "增译：candidate末尾'不振的弊病在于此。'为无依据的扩写，原文'不振之獘'仅为'不振之弊'，未说明'在于此'。"
+        ]
+      },
+      {
+        "id": "book028-b000767-p000-bb2027ba07",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语处理不当：'站弦法'、'撞悬乳'、'就窃法'、'无缀抗砂'均为opaque_terms，candidate直接使用而未加引号或说明，且'没骨就软'、'悬乳就珠'等短语也未明确标注为原文保留的含混术语。",
+          "增译：candidate末尾'经卷。'单独成句，但原文'经卷'前无句读，可能为'抗砂经卷'的一部分或卷末标识，candidate处理为独立句子，改变了原文结构。"
+        ]
+      },
+      {
+        "id": "book028-b000768-p000-bf84f8572d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文孤立，上下文缺失，无法确定完整语义，仅能保留原词并说明具体所指不详。"
+        ]
+      },
+      {
+        "id": "book028-b000769-p000-fca2fe6783",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'毫十里扒砂得之'语义模糊，'毫'可能指细微之处，'十里'或为虚指或误字，此处按字面直译并保留原意，未做过度引申。"
+        ]
+      },
+      {
+        "id": "book028-b000771-p000-0abd7bd949",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "OCR错误处理不当：原文'杰 0 紫 0 星 氣'，candidate直接保留'杰0紫0星气'，但未明确说明这些是疑似OCR错误或无法确认的字符，仅在后文uncertainty中提及，不符合'原样处在引号引用范围内'的要求。应将这些字符作为opaque_terms处理。",
+          "术语处理不当：'鸾大则熔气愈博'中'鸾'字未标注为可能误字或opaque_terms。"
+        ]
+      },
+      {
+        "id": "book028-b000772-p000-49e9b97edd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：原文'腦平 凹 立执 砂經'，candidate译为'脑平凹，立执砂经。'，但'立执砂经'语义不明，candidate未标注为opaque_terms或说明具体所指不详。",
+          "增译：candidate末尾'灭。'单独成句，但原文'灭'前无句读，可能为前文'难侯'的一部分或误字，candidate处理为独立句子，无依据。"
+        ]
+      },
+      {
+        "id": "book028-b000773-p000-5824648c1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '退一步善' 直译为 '退一步善'，未进行符合 '普通读者能读懂的白话释读' 目标的通俗转换。这属于未将古文真正转换为现代中文。",
+          "candidate 将 '消详' 直译为 '消详'，未进行符合 '普通读者能读懂的白话释读' 目标的通俗转换。这属于未将古文真正转换为现代中文。",
+          "candidate 将 '不之弃' 直译为 '不之弃'，未进行符合 '普通读者能读懂的白话释读' 目标的通俗转换。这属于未将古文真正转换为现代中文。"
+        ],
+        "uncertainty": [
+          "'退一步善' 的准确白话含义存在不确定性。",
+          "'消详' 的准确白话含义存在不确定性。"
+        ]
+      },
+      {
+        "id": "book028-b000774-p000-3bb25d6c9f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '得法无伤吉葬' 直译为 '得法无伤吉葬'，未进行符合 '普通读者能读懂的白话释读' 目标的通俗转换。这属于未将古文真正转换为现代中文。",
+          "candidate 将 '转处是金而受转处是水也' 直译为 '转处是金而受转处是水也'，未进行符合 '普通读者能读懂的白话释读' 目标的通俗转换。这属于未将古文真正转换为现代中文。",
+          "candidate 将 '穴不尽见本形' 直译为 '穴不尽见本形'，未进行符合 '普通读者能读懂的白话释读' 目标的通俗转换。这属于未将古文真正转换为现代中文。"
+        ],
+        "uncertainty": [
+          "'得法无伤吉葬' 的准确白话含义存在不确定性。",
+          "'转处是金而受转处是水也' 的准确白话含义存在不确定性。"
+        ]
+      },
+      {
+        "id": "book028-b000775-p000-95342edf76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文孤立，上下文缺失，无法确定完整语义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1133,
+    "completion_tokens": 498,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3414,
+      "completion_tokens": 1392,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1133,
+      "completion_tokens": 498,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

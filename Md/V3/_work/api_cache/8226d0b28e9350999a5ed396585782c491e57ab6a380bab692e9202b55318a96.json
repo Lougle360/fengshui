@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-16T13:45:42.727316+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8226d0b28e9350999a5ed396585782c491e57ab6a380bab692e9202b55318a96",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002457-p000-50df98f723",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘惟有黄泉不可流水可行’是一个完整的句子，candidate将其拆解为‘只有黄泉之水不可流动’，遗漏了‘水可行’的语义。‘水可行’应指（除黄泉外）其他水可以流动或可行。",
+          "‘三步器啾啾’的翻译处理不当。candidate将其作为原文引用并说明‘具体所指不详’，这符合规则。但‘原文提到’的表述不准确，它本身就是原文的一部分，并非被‘提到’。建议调整为‘原文中有‘三步器啾啾’一句，其具体所指不详’。",
+          "‘后遭分事退田牛’的释读不完整。candidate将‘分事’作为不确定术语处理是允许的，但‘退田牛’被释为‘导致田产和牛只退失’，‘退失’一词不够准确，原文‘退’更可能指‘退减、损失’或‘退还’（如分家产），而非‘丢失’。"
+        ],
+        "uncertainty": [
+          "‘分事’的具体所指。",
+          "‘退田牛’的确切含义，是田产和耕牛减少，还是因分家而分割田产和牛只。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 287,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 672,
+      "completion_tokens": 287,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

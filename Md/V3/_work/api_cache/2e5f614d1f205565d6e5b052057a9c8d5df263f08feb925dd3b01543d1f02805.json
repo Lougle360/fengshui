@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-15T01:45:50.897725+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2e5f614d1f205565d6e5b052057a9c8d5df263f08feb925dd3b01543d1f02805",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001627-p000-2f7e4957fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001629-p000-dcf2aa4bb1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘其盡處為貴氏地精 龍脈到頭逆轉頓起穴星成正體太陽關鉗結穴後復自本身抽出起太陰文星之案’中，‘地精’可能为‘地’与‘精’的误断或组合，candidate译为‘精龙脉’可能不准确。原文末尾‘上地在樂平十三卯上名生原申申遠寅日司日日’存在明显错乱，candidate处理为‘上地在乐平十三卯上，名生原，申申远寅日司日日’虽标注了不确定性，但‘十三卯上’可能为‘十三都’之误，且‘申申远寅日司日日’完全无法理解，应更明确地指出原文损坏。"
+        ],
+        "uncertainty": [
+          "原文末尾部分文字存在明显残缺或错乱，导致具体含义难以完全确认。"
+        ]
+      },
+      {
+        "id": "book033-b001630-p000-0e62630186",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001632-p000-b4acc1894b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001633-p000-cd90139113",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文严重错乱，candidate仅列出零散字词，无法构成任何有意义的释读。根据规则，当OCR或原文损坏导致连保守释读都无法成立时，应使用uncertain。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱、倒置或缺失，无法还原完整语义。"
+        ]
+      },
+      {
+        "id": "book033-b001634-p000-a761372daf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001635-p000-5d8c3b3cd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001636-p000-37e320528e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文严重错乱，candidate仅列出零散字词，无法构成任何有意义的释读。根据规则，当OCR或原文损坏导致连保守释读都无法成立时，应使用uncertain。"
+        ],
+        "uncertainty": [
+          "原文存在大量错乱、倒置或缺失，无法还原完整语义。"
+        ]
+      },
+      {
+        "id": "book033-b001637-p000-3c57c25a5f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001638-p000-cd0511e3ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5454,
+    "completion_tokens": 677,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5454,
+      "completion_tokens": 677,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

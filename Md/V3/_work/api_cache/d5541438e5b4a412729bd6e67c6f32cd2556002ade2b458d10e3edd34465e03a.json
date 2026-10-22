@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-24T00:55:30.676049+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d5541438e5b4a412729bd6e67c6f32cd2556002ade2b458d10e3edd34465e03a",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000803-p000-58fa74517f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“夾煞”译为“带煞”不准确；“長房丁”无依据释为“长房人丁兴旺”，属于错译增意，原文仅指长房对应丁位，无兴旺含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000804-p000-63b6ccdc72",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“遊蕩于敗”译为“家人会游荡败家”不准确，应为游荡致败；“一祠壽齊”译为“一处祠堂福寿双全”不准确，未体现全族/全祠人寿命齐长的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000805-p000-6019ddbda3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一房丁二屬卯”译为“主长房人丁”不准确，应为长房对应丁位，无“主人丁”的含义增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000806-p000-d95f1755d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“與向一辰水”译为“与向为辰位的水”不准确；“百溺”漏译；“只怕三絕仲承殃”无依据译为“只怕三房、四房会遭殃”，原文“仲”指二房，与前文“長二兩房無干碍”矛盾，属于错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000809-p000-8bd299f3f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“已向”均误译为“巳位”，干支“已”“巳”混淆；“入口火山向尅水”译为“对应火山煞，灾祸轻缓”不准确，原文是向为巳位水入口，火山向克水灾祸轻缓，存在语序和含义错译；“人財雨旺”的“雨”是“兩”的通假，译为“积累财富”不准确，应为丁财两旺；“可憐”译为“值得羡慕”不准确，“可怜”在此应为可叹、可贵类含义，无依据释为羡慕"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000810-p000-2e83fbb2db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“雙負明人”译为“双明人”不准确，漏译“负”；“乙水上常一二房喜福壽雙全人財肝”末尾“肝”为讹字，candidate无依据译为“人丁、财运兴旺”，属于增译，应标注原文讹误不明；“两遭殃”未说明是哪两房，原文对应长二房？不，原文丙丁水夹前方，三房先遭殃？不对，原文“丙丁二水夾前方廉貞煞曜兩遭殃”，candidate未明确，且“雙負明人”含义不明未标注"
+        ],
+        "uncertainty": [
+          "“雙負明人”“人財肝”原文表意不明，存在讹字可能"
+        ]
+      },
+      {
+        "id": "book002-b000813-p000-2d79966562",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“康貞水局”实为“廉貞水局”，candidate虽纠正但未标注原文OCR/传抄错误？不对，原文写“康貞”，candidate直接改为“廉贞”属于改稿，违反判错规则，应指出原文是“康貞”，candidate无依据改为“廉贞”；“又爲陽及水”的“陽及水”含义不明，candidate直接套用术语水的解释，未标注不明；“主風聲”译为“主名声败坏”不准确，原文“風聲”指涉男女风化的名声问题，过于具体无依据；“發貴真”译为“出贵，是真的”过于口语化且不准确，应为“确实发贵”"
+        ],
+        "uncertainty": [
+          "“康貞”“陽及水”原文表意不明，存在讹字可能"
+        ]
+      },
+      {
+        "id": "book002-b000814-p000-55b364197a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000815-p000-fc68f6724a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巾水”不属于allowed_glossary，candidate无依据释为“风水语境中的河流、水系及其来去形态”，属于无依据释义，应标注“巾水具体所指不详”；“丁助豪富”译为“主人丁、财运兴旺”不准确，应为丁位助力豪富"
+        ],
+        "uncertainty": [
+          "“巾水”具体所指不详"
+        ]
+      },
+      {
+        "id": "book002-b000818-p000-d5867a88c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3004,
+    "completion_tokens": 1327,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3004,
+      "completion_tokens": 1327,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

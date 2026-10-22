@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T04:15:33.760049+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dc314390352be02da54fde513130426046cab922f0188daa87a28f506f93712b",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001004-p000-ba32893207",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "倒木圆挎的具体含义原文未明，已标注具体所指不详"
+        ]
+      },
+      {
+        "id": "book019-b001006-p000-de1ab00cd9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001008-p000-a3625bc805",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms明确要求保留“水”字，allowed_glossary定义“水”为风水语境中的河流、水系及其来去形态，候选释读将原文的“高山之水”“平冈之水”“平地之水”均替换为“水星”，违反locked_terms保留要求，且违背术语定义，属于专业术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001010-p000-9794a9f481",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“得水相连”中的“水”属于locked_terms，且allowed_glossary定义“水”为风水语境中的河流、水系及其来去形态，候选释读将其译为“与水星形的峰峦相连”，属于专业术语误换，不符合术语定义要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1542,
+    "completion_tokens": 390,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1542,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

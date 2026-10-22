@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T13:50:07.620038+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "74a7d3a16a3a613fd25b5f32cc2e673059f85ab4c9a20bcdb44caad88a18555e",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000062-p000-b9012900af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000063-p000-82bf6efb87",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文开篇“洛啟祔賒商其村夫斗書方可膺天和”释读错误，“洛启祔赊商”语义未明，候选直接释为“洛启赊商，他是个村夫，斗胆上书”无依据；2. 原文“福建林達性樞”人名释读错误，应为“林达，字性枢”，候选误合并为“林达性枢”作为全名；3. 原文“逢僞作邦券”应为“伪造地契”，“邦券”释读无据；4. 原文末尾“地理碎事 千 端寄著輯”是编辑注语，候选错误混入父亲的托梦内容，且释为“破坏了风水地理的细碎事，共有上千种，我把它们都记录下来了”完全不符合原文语义，此句不属于梦境内容"
+        ],
+        "uncertainty": [
+          "“洛啟祔賒商其村夫斗書方可膺天和”原文语义晦涩，无法准确释读"
+        ]
+      },
+      {
+        "id": "book027-b000064-p000-a860ffad18",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "司的具体所指不详"
+        ]
+      },
+      {
+        "id": "book027-b000065-p000-48e2a5cf48",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“葬後倘獲福更不可忽待子正持此說”释读错误，候选错误断句为“安葬之后，如果得到了福运，更不能忽视，要等到子时正，秉持这个道理”，实际应断为“葬后倘获福，更不可忽待地师，子正持此说”，“子正”是人名，不是子时正；2. 原文“縣長自葬後”释读错误，候选误为“县令亲自安葬”，实际是“从安葬之后”，“縣長”应为“從”字讹误或断句错误；3. 原文“外于非命”应为“死于非命”，候选释为“遭遇意外的灾祸”不准确；4. 原文“有飛符取其首”释读错误，候选误为“有紧急的符命来捉拿他”，实际是“有飞符前来取他的首级”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000066-p000-b627987321",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“見樹根一坎下有石甃”的“坎”是指土坑，allowed_glossary中“坎：八卦之一”不适用于此处语境，候选错误将此处的坎释为八卦之一；2. 原文“士方啟其穴”的“穴”是指之前埋白银的坑，不是风水意义上的葬穴，allowed_glossary中“穴”的定义不适用于此处，候选错误套用风水术语释读；3. 原文“軍民呼庚癸”是指军民乞粮，候选释为“军民都在求助”不够准确；4. 原文“貴糴贱糶”是高价买粮低价卖粮，候选释读正确，但将“自不量”的绰号来源解释错误，原文“有自不量之事”是指詹氏的行为超出常人度量，候选释为“自不量的人”不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000067-p000-50b7963330",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000068-p000-17b9bf1761",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000069-p000-9e9c73f009",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“乞緩三日春回天上”断句错误，候选误为“恳请您宽缓三日，等春气回升”，实际“春回天上”是朱衣人的表述，语义待考，不应随意释为春气回升；2. 原文“見蠅不顧”的“蠅”应为“蛇”字讹误，候选保留“蛇”的释读正确，但未标注讹误；3. 原文末尾“地理碎事 淵著輯”是编辑注语，释读正确"
+        ],
+        "uncertainty": [
+          "“春回天上”具体语义不详"
+        ]
+      },
+      {
+        "id": "book027-b000070-p000-bf315a9412",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选内容完全与原文不符，原文是讲方孝孺出生及被灭族的事，候选全部是b000071的相关内容，属于完全错配，漏译全部原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000071-p000-c4d2a7c2ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4821,
+    "completion_tokens": 1382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4821,
+      "completion_tokens": 1382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

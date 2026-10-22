@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-24T22:06:40.819682+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9f94bdedeb38738213ecbd8c90fd994f199fa118203120ca5962bc591cc77b90",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000297-p000-ad9a1f603a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000298-p000-9b72f70350",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000299-p000-a6c072aca1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000300-p000-195976a47a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000301-p000-c9f5819607",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000302-p000-e7963d14ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "表格第一行两个标题被颠倒且语序调整：原文第一格标题为‘圖祖少近穴’，第二格为‘圖吉不粗少’，候选改为‘近穴少祖圖’‘少祖不粗吉圖’，改变了原文标题的原字顺序，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000303-p000-79f857f920",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000304-p000-c703826483",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4978,
+    "completion_tokens": 472,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4978,
+      "completion_tokens": 472,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T02:28:15.844194+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8576054b730c1b4e77a8b0ab6920af5d56fbd89565713ab26d929db7eb95b2d9",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000216-p000-122b23c5e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“当门六个黑市楼”指对着垣门的六颗星是黑市楼，候选释为“垣门内有六颗名为黑市楼的星”位置表述不准确；原文“二十八宿随其阴”应指二十八宿对应阴阳方位/属性，候选释为“随其阴阳变化”无依据；原文“以次别有五行吟”是另有专门的五行歌诀，候选释为“另有关于五行的论述”表述不准确，且“三元”属于locked_terms，候选未按要求保留原术语的核心所指，擅自将“三元之象无相侵”的“三元”模糊化处理，不符合术语使用要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000217-p000-d28bb4f041",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000219-p000-d200101eba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000220-p000-aee9ac6e66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000222-p000-2c00073aef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“浴日月而浸乾坤”指大海水域容纳日月升降、浸润天地，候选释为“日月在这里运行，乾坤在这里浸润”表述不符合语境；“乾”“坤”属于locked_terms，应保留原术语的易卦指向，候选擅自将其释为“天地”不符合术语使用要求；原文“九河既通”是上古黄河下游九条河道已经疏浚通畅，候选释为“九条河道汇聚的地方”表述不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000223-p000-f8e4b50a59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000224-p000-cfd87187d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000225-p000-a455dde645",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“然地理之应亦或然也”被误译为“不过地理与风水的契合或许也是一种必然”，“或然”意为有可能、不一定，和“必然”语义完全相反，属于反义错译",
+          "原文“迫二代”被误译为“超越夏商二代”，“迫”是接近、追及的意思，并非超越，属于词义误译",
+          "locked_terms中的“龙”虽然原文确指风水龙脉，但此处未违反locked_terms保留要求，无相关问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000226-p000-dfc762d5ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000228-p000-ed7999959c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 162,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3821,
+      "completion_tokens": 800,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1035,
+      "completion_tokens": 162,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

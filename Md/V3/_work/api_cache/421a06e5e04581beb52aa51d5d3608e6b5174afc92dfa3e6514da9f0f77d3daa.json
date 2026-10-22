@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-18T01:37:28.076303+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "421a06e5e04581beb52aa51d5d3608e6b5174afc92dfa3e6514da9f0f77d3daa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005150-p000-ba7a982e63",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容概括为'阴太鼻牵、阴太面聚、阴太脚割、阴太头襄、阴太股射、阴太身反、阴太胸蕩等穴、水、向的吉凶判断'，但原文表格中这些术语（如'阴太鼻牵'）是作为独立的'格'（如'格向背'）的注解或名称出现的，候选句的表述方式将它们直接等同于'穴、水、向'的吉凶判断，存在过度概括和简化，可能丢失了原文表格中'格'与'阴太...'之间的对应关系。",
+          "候选句称'原文表格文字存在严重错乱、缺字及语义不通，无法准确还原其具体含义'，这是对原文状态的描述，可以接受。但随后又说'仅能确认此处讨论的是风水学中关于穴位形态、水流走向与朝向关系的多种格法'，这属于对模糊内容的确定化解释。原文表格内容错乱，无法可靠地确认其讨论的具体主题就是'穴位形态、水流走向与朝向关系'，这种概括缺乏依据。",
+          "候选句末尾的'具体所指不详'是合适的风险标注，但前面的概括性陈述与之矛盾。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，文字错乱，无法确定'阴太鼻牵'等术语的确切含义及其与上方'格'名的对应关系。",
+          "表格中'解曰'以下的具体解释文字错乱严重，无法进行任何可靠的释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1873,
+    "completion_tokens": 391,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1873,
+      "completion_tokens": 391,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

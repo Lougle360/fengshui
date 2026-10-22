@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-09-26T13:41:10.076791+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "696a91b26fbebf619a66d6b0d97bf836158ef9b10070029579de7fcf6f05d593",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001060-p000-c7266169d9",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“缙云人杨公高弟”无明确标点断句依据，存在两种歧义可能，候选版本直接断为“是缙云人，为杨公的高徒”属于擅改原文歧义，无依据地确定了断句方式，不符合保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001114-p000-d4e52c0aa7",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001205-p000-748208d095",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001208-p000-5bd736ee5b",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及“贵池葬地经”，未明确说明是张宗所著，候选版本擅自添加“著有《贵池葬地经》”的表述，属于无原文依据的增改；原文“卜其宅者，多留谶焉”指张宗为他人占卜宅地多留谶语，候选版本表述存在歧义，且核心信息增改不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001250-p000-cd20e37e05",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“方向用以卒其言”并非指“墓穴的朝向也最终应验了他的话”，候选版本擅自将“向”解读为穴位朝向并添加相关表述，属于无依据的错误解读，且与原文含义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001287-p000-94e8100ab9",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001316-p000-43325f4966",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“周元肃王向祗”是人名，候选版本擅自将“向”解读为穴位朝向，表述为“周元肃王的墓穴朝向祗位”，属于对原文内容的错误曲解，无任何依据"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3880,
+    "completion_tokens": 824,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3880,
+      "completion_tokens": 824,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-25T17:50:22.844481+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5f403ea7a6c670c9b2454c2547d1616cc3623848b7b57cc5a06e4d95ca926ff0",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000140-p000-33d48f80ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“廖氏白00”具体身份不详"
+        ]
+      },
+      {
+        "id": "book030-b000141-p000-d4013d2146",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“帳快”具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000142-p000-a882330feb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一難曰砂之秀麗也”释读为“第一个人答不上来，就说好在砂的秀丽”有误，此处“一難”是指第一个疑问，而非“第一个人答不上来”；原文“晋書立言巳自說破 私吉何嘗不在寶上”被拆分解释，且candidate中“有榛相关的内容，如果闭着眼判断就知道没有依据”逻辑混乱，原文“否則說立說妙都是無處有榛 則關眼便知無據”语义破损，不应强行串联释义；原文“可地理杖八卷一 尋龍二十六”释读为“以上内容出自《地理杖》卷一的‘寻龙二十六’篇目”，“可”字未合理处理，应为原文残损标识"
+        ],
+        "uncertainty": [
+          "“有榛”具体含义不详",
+          "“私吉何嘗不在寶上”具体含义不详",
+          "“真南”具体含义不详",
+          "“從振”具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000143-p000-b49cbb0a44",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“出二難”释读为“这就引出第二个问题”正确，但“三難曰峰巒之磊落也”释读为“第三个人答不上来，就说峰峦磊落”有误，“三難”是指第三个疑问，而非“第三个人答不上来”；原文“五難今又執人而問之”的“五難”是第五个疑问，candidate释读为“这是第五个问题”正确，但“歲可地掖人來”为原文残损内容，candidate未标注，直接漏译"
+        ],
+        "uncertainty": [
+          "“新末”具体含义不详",
+          "“平飞鸠”具体形态含义不详",
+          "“刃龙”具体含义不详",
+          "“不得巖者”具体含义不详",
+          "“歲可地掖人來”为原文残损，语义不明"
+        ]
+      },
+      {
+        "id": "book030-b000144-p000-3837b3aa63",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“財然”通“才然”，指才是这样",
+          "“不嫌”具体含义不详"
+        ]
+      },
+      {
+        "id": "book030-b000145-p000-dfc5568d54",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“服晴聞徐計可地禮故人卷一尋龍二十”释读为“以上内容出自‘徐计可地礼故人’卷一的‘寻龙二十’篇目”有误，“服晴”为原文残损内容，不应归入书名，应标注为残损；原文“辨富之大小貴之輕重于此辨肖有生死魂鴈年月見分”释读为“分辨福气的大小、贵气的轻重，分辨生肖对应的生死、魂鴈年月的区分”有误，“肖”的含义无依据，属于无据增译"
+        ],
+        "uncertainty": [
+          "“干”为通假或讹字，应为“上”的含义",
+          "“魂鴈”具体含义不详",
+          "“服晴”为原文残损，语义不详"
+        ]
+      },
+      {
+        "id": "book030-b000146-p000-47f7c3c1f4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“學問懶如河洛納用犬這屯麤”具体含义不详",
+          "“心慢”具体含义不详，应为“心授”讹误",
+          "“膝朧”具体含义不详，应为“朦胧”讹误"
+        ]
+      },
+      {
+        "id": "book030-b000147-p000-823063b2af",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“祖母其發福祖地”具体语义不明",
+          "“甲成”应为干支讹误，具体对应干支不详",
+          "“手頭由”具体含义不详",
+          "“論水卽在龍神峽中窩聚內堂則水不走漏可”句末“可”语义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5305,
+    "completion_tokens": 1131,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5305,
+      "completion_tokens": 1131,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

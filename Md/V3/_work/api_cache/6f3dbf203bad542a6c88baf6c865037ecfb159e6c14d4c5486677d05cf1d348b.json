@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-09-25T20:26:43.864432+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6f3dbf203bad542a6c88baf6c865037ecfb159e6c14d4c5486677d05cf1d348b",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000807-p000-864cd37c54",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000808-p000-2390f5ec6a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "未湊",
+          "以春秋發",
+          "上建",
+          "郡唯閣"
+        ]
+      },
+      {
+        "id": "book030-b000809-p000-68421e5d58",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘金水士’被误写作‘金、水、土’，属于字形讹误的错误认定，未按要求标注为含混内容，而是直接赋予了确定含义；原文‘此論朝凶之’被释为‘这段是论述朝山吉凶的’，错误增译了‘吉’的含义，原文仅提及凶的相关内容"
+        ],
+        "uncertainty": [
+          "平步青臺",
+          "烂禾钱",
+          "七星所結",
+          "金水士"
+        ]
+      },
+      {
+        "id": "book030-b000811-p000-cb6e86343e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "田國萼盡難口節",
+          "教側探頭側面"
+        ]
+      },
+      {
+        "id": "book030-b000813-p000-bbaef09ca4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘低而逼者更好壓而有情者大肅對此者終爲無益’被错误断句释为‘穴位低矮而被山逼压的，都不好；即使压迫但有情的，过于肃杀终究没有益处’，语义理解错误，原句应为‘低而逼者更好’‘压而有情者大肃，对此者终为无益’，存在反义误读；原文‘宜茫所囊’被释为‘应当避免’，属于无依据释义，原文含义不明应标注"
+        ],
+        "uncertainty": [
+          "趙懷",
+          "綱僇",
+          "宜茫所囊"
+        ]
+      },
+      {
+        "id": "book030-b000814-p000-effb84c95b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘撞背來龍却不全’被释为‘撞背来龙的情况则不需要鬼乐山’，属于无依据增译，原文仅说撞背来龙鬼乐不全，未提及不需要；原文‘遶近’直接认定为‘远近’讹误无足够依据，应标注为含混内容而非直接修改"
+        ],
+        "uncertainty": [
+          "遶近",
+          "撞背來龍却不全"
+        ]
+      },
+      {
+        "id": "book030-b000815-p000-944a754f39",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "圃圓"
+        ]
+      },
+      {
+        "id": "book030-b000816-p000-e27dacee6e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘并無樂者將棄之頭鬼者’断句错误，释为‘完全没有乐山的地就可以舍弃，鬼山是拖在穴位后方的’，属于无依据断句，原句‘頭’字归属不明，不应直接纳入前半句；原文‘背後必須仰不則肝氣湧失’断句错误，释为‘背后必须呈仰势，否则肝气湧失在穴中’，属于错误断句，‘仰不則’语义不通，应标注为残缺或含混内容；原文‘九名地’直接认定为‘多地’讹误无足够依据，应标注为含混内容"
+        ],
+        "uncertainty": [
+          "豈非伯飛旦",
+          "肝氣湧失",
+          "九名地",
+          "并無樂者將棄之頭鬼者",
+          "背後必須仰不則"
+        ]
+      },
+      {
+        "id": "book030-b000817-p000-43ebb2c0ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "圆乘鬼作龍东结面"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3874,
+    "completion_tokens": 1057,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3874,
+      "completion_tokens": 1237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3874,
+      "completion_tokens": 1057,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

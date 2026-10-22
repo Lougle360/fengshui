@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:37:27.884442+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d8aa8ae2ca1cb21120976c592a954f82614b3048d959a19d4262dd38ee311815",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000859-p000-493668b3b2",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "天干所属为甲，木属内，大属，大属，戊属土，金属水属地。夫所属子、栋、耳、马，有寅、有卯、有辰，为土、大、坤（八卦之一）、土、未、金、土、申。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文断句及部分字词含义存疑，已按可辨识内容保守改写"
+        ]
+      },
+      {
+        "id": "book010-b000860-p000-d72174eb61",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "人各有不同，因此住宅的宜忌也各不相同。所以祖孙有的兴盛有的衰败，父子有的显达有的废弃，夫妇前后娶妻的灾祥各不相同，兄弟长幼的吉凶也不一样。有的住在这里多有坎（八卦之一）珂，迁到那里却安稳兴旺，都是命与住宅是否相合导致的。古人不了解命不如《易》，所以从卦来推演命理，其次从宅舍各事的宜忌来配合人的命，这样就能趋向适宜而不违背。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中‘坎珂’含义存疑，‘珂’字疑为衍文或讹误，已按‘坎’字保留并保守处理"
+        ]
+      },
+      {
+        "id": "book010-b000861-p000-83253aa117",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 天地八卦（八卦）五行（木、火、土、金、水五种分类及其关系体系）所生之理，则福泽流传于后代，祥瑞汇聚于自身了",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000862-p000-e1310f6ca4",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "| 八 | 七 | 六 | 五 | 四 | 三 | 二 | 二 |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n| 坤（八卦之一，卦象及五行、方位依原文语境确定） | 艮（八卦之一） | 坎（八卦之一） | 巽（八卦之一） | 震（八卦之一） | 離 | 兌 | 乾（八卦之一，卦象及五行、方位依原文语境确定） |\n| 太陰 | 少陽 | 少陰 | 太陽 |\n| 陰 | 陽 |",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中部分内容的对应关系存疑，已按原表结构及可辨识内容整理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2093,
+    "completion_tokens": 671,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2093,
+      "completion_tokens": 671,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

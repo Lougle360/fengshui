@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T15:29:17.130820+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1013a96e017fb9450fcecebc49143546537c7e866b740c5fcb8a6189611c419a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001115-p000-584b33151b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001117-p000-1067b14942",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001118-p000-b8499ca21c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001119-p000-cb5758e5b3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对原文中未提及的「水」添加了风水语境的注释，属于无依据扩写，违反了术语解释的规则"
+        ],
+        "uncertainty": [
+          "原文中「水」的具体所指未明确，不应添加额外注释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1835,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

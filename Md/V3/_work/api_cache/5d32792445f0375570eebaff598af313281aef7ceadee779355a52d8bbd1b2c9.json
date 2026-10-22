@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-25T20:05:56.325918+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5d32792445f0375570eebaff598af313281aef7ceadee779355a52d8bbd1b2c9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001375-p000-c6b792dd15",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "卷次翻译错误，source提及《地理奉赞玄機全書》卷六 十三，candidate误写为“卷六十”",
+          "末句来源判断错误，source中“明堂歌”是下文标题或原文组成部分，并非前文内容出自《明堂歌》",
+          "讹误判断无依据，source原文为“頗逆之勢”，无版本佐证的情况下直接认定“頗”为“順”的讹误不符合要求，应保留原字并标注存疑"
+        ],
+        "uncertainty": [
+          "“頗逆之勢”的“頗”字含义存疑，疑似讹误"
+        ]
+      },
+      {
+        "id": "book029-b001377-p000-a05e72ab13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘暴’疑似为‘抱’的讹误",
+          "原文‘慱’疑似为‘博’的讹误",
+          "‘春属’具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001381-p000-4aa7bf9601",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“投正”未翻译，candidate将其直接省略；原文未明确“三楚”对应周谊、“新安”对应李希烈，也未明确“门”为二人身份，candidate自行对应属于无依据增译",
+          "原文“全閱”的主语包含前文的吕元、杜诗，candidate仅表述为周谊、李希烈参与校阅，属于信息遗漏"
+        ],
+        "uncertainty": [
+          "原文‘三楚 新安 門 復所周誼 樵山李希烈 全閱’断句存在歧义，‘投正’含义及所属人物存疑"
+        ]
+      },
+      {
+        "id": "book029-b001382-p000-8eab03c950",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "无版本佐证的情况下直接认定末尾第二个‘补’为衍字不符合要求，应标注存疑而非直接判定为衍字"
+        ],
+        "uncertainty": [
+          "原文末尾第二个‘补’疑似为衍字"
+        ]
+      },
+      {
+        "id": "book029-b001383-p000-0c3d5f8e86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "讹误判断无依据，source原文为“帳幔周遗”，无版本佐证的情况下直接认定“遗”为“圍”的讹误不符合要求，应保留原字并标注存疑",
+          "原文“察其複”未完整翻译，candidate译为“观察地形的重复情况”属于无依据增译，该短语含义存疑应标注"
+        ],
+        "uncertainty": [
+          "“帳幔周遗”的“遗”字疑似为“圍”的讹误",
+          "“察其複”含义存疑"
+        ]
+      },
+      {
+        "id": "book029-b001384-p000-987dc93373",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "卷次翻译错误，source提及《地理奉贊玄機全書》卷六 十七，即卷六第十七部分，candidate误写为“卷六十七”",
+          "增译无依据，source未提及“帐幔骨眷的要求也不能完全忽视”，属于无原文依据的扩写"
+        ],
+        "uncertainty": [
+          "“帳幔骨眷”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4544,
+    "completion_tokens": 883,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4544,
+      "completion_tokens": 883,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-25T06:35:46.655728+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3d13b9a9eeb92e60350cb6ad6aefdc9eee2a5de927fa18bf39fbf33a87336083",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000089-p000-c6117e7fd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将风水术语“顽金”误译为“坚硬的金属”，“顽金”是风水峦头术语，属五行分类的峦头形态，并非实际金属；“开窝”误译为“开掘出窝形”，“开窝”是峦头自身的形态特征，并非人工开掘的动作"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000090-p000-3e128f977a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“骑刑剪燥，开孤结荡”中“结荡”被误写为“载荡”，字形错误；原文“法度也”未限定为“安葬的法度”，属于无依据增译限定范围；“骑刑、剪燥、开孤、结荡”均为风水专业操作术语，未做标注且无对应依据的情况下直接作为已知术语列出，不符合含混专名处理要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000091-p000-4781a2b5be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标题为“葬之条。”，释读遗漏了末尾的句号，kind为toc类需严格核对原文标点，不得遗漏内容"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 373,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1944,
+      "completion_tokens": 373,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

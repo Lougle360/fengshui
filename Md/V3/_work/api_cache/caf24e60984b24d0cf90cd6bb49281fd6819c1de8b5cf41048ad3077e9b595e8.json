@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-26T09:14:32.839080+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "caf24e60984b24d0cf90cd6bb49281fd6819c1de8b5cf41048ad3077e9b595e8",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000291-p000-9485cbd23e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000292-p000-05c78c8c8f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“關煞友”被误译为“关煞之处”，“友”字含义未作合理处置，属于漏译相关内容；原文“人丁天爽”被误译为“人丁夭折”，二者语义不符；原文“直待幾百年後開集盡絕地此用也”语序处理有误，释读逻辑不通，应明确是几百年后旧冢的痕迹、气脉完全散尽才能使用，现有表述存在语义偏差"
+        ],
+        "uncertainty": [
+          "“关煞友”具体所指不明确，“開集盡絕地此用也”原句语序存在歧义"
+        ]
+      },
+      {
+        "id": "book034-b000293-p000-32c2d45393",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000294-p000-ed85322e98",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“甲丙戌庚壬陽年在對冲乙丁巳辛癸陰陽懼夫五”释读错误，“甲丙戊庚壬”是阳干，“乙丁巳辛癸”应为“乙丁己辛癸”阴干，现有释读将阳年飞星位置表述错误，且“陰陽懼夫五”的保守释读未清晰标注风险，直接按“阴阳都惧怕五黄”释读属于将不确定内容作确定解读"
+        ],
+        "uncertainty": [
+          "“法徒順飛”“陰陽懼夫五”原文表述晦涩，含义暂不明确"
+        ]
+      },
+      {
+        "id": "book034-b000295-p000-e2ab7817f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“三白寶浮”疑为“三白寶函”的讹误，“州”字含义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1509,
+    "completion_tokens": 528,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1509,
+      "completion_tokens": 528,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

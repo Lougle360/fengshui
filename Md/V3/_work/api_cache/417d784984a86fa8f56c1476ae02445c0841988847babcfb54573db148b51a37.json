@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:33:57.201088+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "417d784984a86fa8f56c1476ae02445c0841988847babcfb54573db148b51a37",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001999-p000-db128ccec9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002000-p000-9e66019fab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002001-p000-c26eba29d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002002-p000-4739c20308",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将非风水术语的‘龙钟’替换为风水术语‘龙’，不符合术语使用规则"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 244,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1420,
+      "completion_tokens": 244,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

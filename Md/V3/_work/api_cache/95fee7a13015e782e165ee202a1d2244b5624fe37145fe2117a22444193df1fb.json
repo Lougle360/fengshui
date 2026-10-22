@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T21:10:28.019487+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "95fee7a13015e782e165ee202a1d2244b5624fe37145fe2117a22444193df1fb",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000196-p000-31a753e05b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“天以太乙当门路”被误写为“天乙、太乙星正处在宫门的位置”，存在术语错写，“天太”应为原表述保留，不应拆分为“天乙、太乙”",
+          "原文“以次却向前门数”被译为“这些星位是按照从前门往后门的顺序依次排布的”，与原义相反，原义是从后门往前门依次计数",
+          "locked_terms“向”的释读不符合allowed_glossary定义，原文“太尊只向三公明”中的“向”未按“建筑或穴位所朝的方位”释读，且此处“向”为星官位置指向，不属于该术语适用的风水语境，却未做标注说明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000197-p000-c1d733f95b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "opaque_terms“虎贲”已原样保留，未被赋予确定含义，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2858,
+    "completion_tokens": 341,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2858,
+      "completion_tokens": 341,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

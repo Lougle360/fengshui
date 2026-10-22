@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T09:38:12.642416+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e3327d45fe45a7c789a855fc8c0c7f5a24026d3c1a7d2abd37f4d5b1acb8f319",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000338-p000-98043b9d71",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义未明的‘不牧堂’‘律品’‘以夢遣’‘量墉’直接释读为确定内容，违反术语释读规则，应标注具体所指不详"
+        ],
+        "uncertainty": [
+          "今之尺当八寸为则中‘当’‘为则’的含义未明确",
+          "按尺法不牧堂父子皆精於律品中‘不牧堂’‘律品’的含义未明确",
+          "以夢遣的具体所指不详",
+          "量墉中‘墉’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000339-p000-9e1a53f0cf",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘居穴’的具体所指不详",
+          "‘四凶穴’的具体所指不详",
+          "‘不巳’的具体所指不详",
+          "‘外星尺’的‘外星’具体所指不详",
+          "‘小绝’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000340-p000-99c7836fdf",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘牝牡交拂’的具体所指不详",
+          "‘彼甲’的具体所指不详",
+          "‘四亥’的具体所指不详",
+          "峰峦‘之秋’的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1806,
+    "completion_tokens": 398,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1806,
+      "completion_tokens": 398,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

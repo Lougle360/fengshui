@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-23T10:20:18.235326+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4bf807b9623083356c65be7677ddebf3429240c6f4ce882e738fdbab4cd254ba",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000546-p000-266d8e81a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“廉贞间武练真宝”具体所指不详",
+          "“电掣雷轰风扫袅”并列意象",
+          "“风铃檐马珂珰小”具体所指不详"
+        ]
+      },
+      {
+        "id": "book001-b000547-p000-f216b49bda",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘不遇谏龙终犯燥’中的‘谏龙’是opaque_term，但candidate未将其置于引号内，也未明确标注其含义不详，而是直接使用，这不符合处理规则。",
+          "原文‘旗下将军台伏奸’是opaque_term，candidate同样未将其置于引号内或明确标注含义不详。",
+          "candidate将‘开国成家自天召’处理为事实陈述，但原文含义可能为比喻或描述，candidate未标注其不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000548-p000-17e45ea474",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“顺制非间”的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 995,
+      "completion_tokens": 272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

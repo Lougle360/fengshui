@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-17T16:21:07.398105+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "81998031cd1a083775fb42c2b23faf0c8636985843fdcc78de21dad76a43d44b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004056-p000-6037a1ad40",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘贷泄如北’、‘针英风惊远戌’、‘莎稠叠’、‘发泄赘庞’、‘见效逃于旌幢’等原文含混短语直接译出，未标注不确定性，可能误导读者。",
+          "candidate将‘瑶壹’、‘鸾壹’等opaque_terms直接译为‘瑶壹’、‘鸾壹’，未加引号或说明，可能被误认为确定概念。",
+          "candidate将‘木气盛旺龙脉贷泄如北’译为‘文中还提到木气盛旺，龙脉贷泄如北’，未明确‘贷泄如北’含义不明，属于风险未标注。",
+          "candidate将‘气盛旺发泄赘庞一峰未高显也’译为‘气盛旺，发泄赘庞，一峰未高显也’，未标注‘发泄赘庞’含义不明。",
+          "candidate将‘见效逃于旌幢’译为‘见效逃于旌幢’，未标注此短语含义不明。",
+          "candidate将‘瑶壹宝殿开’译为‘此是瑶壹宝殿，开人高科’，未标注‘瑶壹’含义不明。",
+          "candidate将‘居凤阁并鸾壹’译为‘居凤阁并鸾壹’，未标注‘鸾壹’含义不明。"
+        ],
+        "uncertainty": [
+          "华盖三壹鬼盖",
+          "臣盖星卧三壹",
+          "贷泄如北",
+          "针英风惊远戌",
+          "莎稠叠",
+          "发泄赘庞",
+          "见效逃于旌幢",
+          "瑶壹",
+          "鸾壹"
+        ]
+      },
+      {
+        "id": "book035-b004057-p000-425c4edaa8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004064-p000-39d200d876",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘即应之效亦如兄之显焕掀轰刀’语义晦涩，‘兄’字可能为衍文或通假，‘掀轰刀’具体所指不详，此处仅做字面直译，保留原意。"
+        ]
+      },
+      {
+        "id": "book035-b004065-p000-abc851a5fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004066-p000-5ba5a6d81a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文明显重复错乱处合并整理，但未在译文中明确标注原文存在重复错乱，可能导致读者误以为原文逻辑清晰。",
+          "candidate将‘六小之别因是又’等断裂语句直接整合进译文，未标注其原文可能残缺或错乱。"
+        ],
+        "uncertainty": [
+          "原文存在明显重复与错乱（如‘发挥曰’、‘刘注云’及‘小而尾尖者是龙’等句重复出现），整理时已合并重复内容，但部分语句逻辑衔接仍显生硬，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004067-p000-eb10eaa661",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘仁穷外朝’、‘朵变剑于主兵’等含义不明的短语直接译出，未标注不确定性，可能误导读者。",
+          "candidate将‘龟等星辰盖罕见矣’译为‘龟等星辰盖罕矣’，未标注‘龟等星辰’具体所指不详。",
+          "candidate将‘此金量之旺气’译为‘此金量之旺气’，未标注‘金量’含义不明。"
+        ],
+        "uncertainty": [
+          "原文‘仁穷外朝’、‘朵变剑于主兵’等词句义晦涩，‘仁穷’可能为‘人穷’或特定术语，‘朵变’可能为‘多变’或通假，具体所指不详，此处依字面及上下文逻辑进行保守释读。",
+          "‘龟等星辰’、‘金量’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 897,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3683,
+      "completion_tokens": 897,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

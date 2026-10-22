@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T08:57:30.619044+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1ffc6a303f7fb7303ed4d5a81b0292435bb3cacd1670644080fc647fadbdf47d",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002798-p000-f77301d733",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“不识龙脉”译为“认不清龙”有误，遗漏术语“脉”；2. 原文“涉猎古断”译为“涉猎古代的断案内容”无依据，风水语境中“古断”指古代风水术的断验结论，并非司法断案；3. 原文“白云岂复为谦辞哉”译为“白云先生又何必说这些谦虚的话呢”语义偏差，原义是“白云先生难道会说谦虚的话吗”，意在强调白云先生所言为实，不是谦辞"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002799-p000-09c5f89cad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“东宫问曰”译为“东宫的人问”有误，此处东宫指当时尚为太子的皇帝本人，并非东宫的其他人；2. 原文引用杨筠松的话漏译前半句“其官也，其曜也，其生也，其死也，其去也，其来也”，属于漏译；3. “崔巽”中的“巽”是人名，并未涉及八卦术语的使用，无需额外关联allowed_glossary中“巽”的定义，此处翻译无错但需注意术语使用边界，不影响整体判定"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002800-p000-7a69dc4c3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是卷名标题“地理人子须知卷二十三”，候选句添加了冗余表述“这里是”“的”，不符合标题释读的对应要求，应直接保留标题的正式性，译为“地理人子须知卷二十三”即可"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002801-p000-340705d994",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002803-p000-a27f295081",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“喝砂”属于风水专有操作术语，原文未明确定义，候选句保留原文表述符合要求"
+        ]
+      },
+      {
+        "id": "book019-b002804-p000-b1060c2c6a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“席帽”“玉鱼”“金鱼”属于古代砂形对应器物，候选句表述符合原文含义"
+        ]
+      },
+      {
+        "id": "book019-b002805-p000-c4e1cf1f6e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002806-p000-32fe9cf630",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002807-p000-4b58b371cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002808-p000-2a3f72cc37",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4085,
+    "completion_tokens": 929,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4085,
+      "completion_tokens": 929,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-24T23:40:54.036033+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1bb2eb6cb0303e229f67b901137b0fae2819e72db0c2a9b3749842c81a6eeb89",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001260-p000-aea304fc2b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多处OCR讹误（如“更加終勇”“一殊不紅宅位”“尔受俗響則好未仍以嗤也”等）存在大量语义不明内容，候选释读无依据补全逻辑、添加原文不存在的“我对此感到奇怪”“子孙会受益”等表述，属于无据增译，且曲解了原文模糊处的含义"
+        ],
+        "uncertainty": [
+          "原文讹误过多，核心语义无法准确还原"
+        ]
+      },
+      {
+        "id": "book017-b001261-p000-3d015bae99",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句“貧狼厚之限素座坐向穴中人未紅立宅每貴”存在讹误，候选无依据将“貧狼”改为“贪狼星”，并补出“契合贪狼星的格局”“还未显贵”等原文没有的内容，属于无据增译；“两纪”释为二十四年属于常识范围内的合理转换，无问题"
+        ],
+        "uncertainty": [
+          "原文“貧狼厚之限素座”“未紅立宅每貴”表述模糊，准确含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001262-p000-c8823b48ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“不易泛公三之而己”“一十二午八二十四年日真太”“不生三辛即宿去之”等多处表述讹误或语义不明，仅能保留原文出现的相关信息"
+        ]
+      },
+      {
+        "id": "book017-b001264-p000-3037bc6390",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“八而以谷而不巨”属于未释读的含混内容，未明确标注语义不明；日文假名“細れ”直接改为“细而”未说明原文本情况"
+        ],
+        "uncertainty": [
+          "原文“八而以谷而不巨”语义不明，日文原文部分表述语序混乱"
+        ]
+      },
+      {
+        "id": "book017-b001265-p000-de17dfe2f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“當筆地仰的人開材”存在讹误，候选无依据释为“当选择地势的人开掘墓穴”，属于无据增译；“貧狼”直接改为“贪狼龙”无依据"
+        ],
+        "uncertainty": [
+          "原文“當筆地仰的人開材”语义不明，“貧狼”是否为“贪狼”异写无法确认"
+        ]
+      },
+      {
+        "id": "book017-b001266-p000-efe5ab45d4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“立安出墳為会龍”“主人有禮客為重”表述较晦涩，仅做了字面释读"
+        ]
+      },
+      {
+        "id": "book017-b001267-p000-c31eada03f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此総待排龍訣”释为“此内容需参考排龙诀”不准确，“待”无“参考”含义；保留了未释读的日文假名“れ”和原文乱码符号“L”，未标注为无法释读的内容；“白木要分未能”释为“区分尚未明确”属于无据猜测"
+        ],
+        "uncertainty": [
+          "原文“白木”所指不明，日文混杂部分字符、乱码无法准确释读，“龙对山山起砧”相关表述语义不明"
+        ]
+      },
+      {
+        "id": "book017-b001268-p000-7843b024c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "单个日文字符语义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001270-p000-91f66a3d7d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“州總位空”“陰者後來龍”“撐龍”等风水专指含义不明确，仅做字面释读"
+        ]
+      },
+      {
+        "id": "book017-b001271-p000-124844303f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“侯興平洋墓宅司”“非治龍”“陽書定空處撥擺蹤”等表述语义晦涩，仅能做字面保留"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2366,
+    "completion_tokens": 1191,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2366,
+      "completion_tokens": 1191,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

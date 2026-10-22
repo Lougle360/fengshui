@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-25T16:20:44.306192+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "02a092521cb08ae390a789b426980874500de3c5159318d21d56c695eab9c533",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000728-p000-e36d42387f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“吉矣伏草蛇形隱報多毒善要鼠輅螟舩鷹鸛等物為應案 以 制之如 無 亦主損害身已 而為凶 有也龍經云如 雜如虎各有穴形落真時穴可想虎”，候选错误解读为“有这些应证就会转为吉地”，原文未提及有应证则吉，仅说明无应证主凶；且漏译原文末尾“如杂如虎”等内容，对《龙经》引文的释读完全偏离原文。"
+        ],
+        "uncertainty": [
+          "辂、螟、舩的具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000729-p000-a38dca3edc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“章曆并眼七看背如何却出貴可並觀之蜈蚣鉗裏眠犬懷中”，候选无依据增补“看地要从七个方面观察”的表述，原文“并眼七”语义未明，属于臆测释义。"
+        ],
+        "uncertainty": [
+          "“章曆并眼七”的具体含义未明"
+        ]
+      },
+      {
+        "id": "book026-b000730-p000-08658e38d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR识别结果语序混乱、残损严重，候选自行串联语义并补充“形局”“顾盼或众物簇拥之处”等无依据内容，属于过度臆测。"
+        ],
+        "uncertainty": [
+          "原文残损混乱，整体语义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000731-p000-0a76c9e21a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“凡此惡形制之有法”意为“这些凶恶的形局，都有克制的方法”，候选错误翻译为“形制恶劣且有规制的情况”，语义完全相反。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000732-p000-46c3291d99",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000734-p000-9980361dfd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文字错乱，除数字“5”外其余内容无法明确含义"
+        ]
+      },
+      {
+        "id": "book026-b000735-p000-750948bedd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字为“羅”，候选漏译该字，且“千一述”被错误释读为“千篇一律的说法”，语义无依据。"
+        ],
+        "uncertainty": [
+          "“羅”“千一述”的具体含义未明"
+        ]
+      },
+      {
+        "id": "book026-b000737-p000-278567a849",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“取舟楫於前難貴遊魚於上水”无后半句“才是吉地”的表述，属于无依据增译；且“舟楫”不属于allowed_glossary中可释义的术语，候选自行添加“风水语境中的河流、水系及其来去形态”的解释违规。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000738-p000-c77386ad9f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“莫注 之 可水 行者荷葉不堪重載瓜藤僅可小裁”语义为“水行的荷叶形地不堪重载，瓜藤形地仅可小裁”，候选错误解读为“不可认为行走的荷叶形地不堪重负，瓜藤形地仅可小裁”，语义完全相反；且“舟楫”不属于allowed_glossary中可释义的术语，候选自行添加解释违规。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000739-p000-7a87a48364",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文残损语序混乱，候选自行串联语义，补充“误字可以酌情省略，重复的表述也可适当删减”“气脉厚重”等无依据内容，属于过度臆测。"
+        ],
+        "uncertainty": [
+          "原文部分文字残损，部分表述的具体含义难以完全确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2424,
+    "completion_tokens": 1186,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2424,
+      "completion_tokens": 1186,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

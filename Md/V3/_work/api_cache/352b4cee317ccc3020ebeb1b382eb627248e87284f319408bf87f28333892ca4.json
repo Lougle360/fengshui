@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-10-04T11:35:19.375047+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "352b4cee317ccc3020ebeb1b382eb627248e87284f319408bf87f28333892ca4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000748-p000-636abbac55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'不分鳥死氣論'释为'为了分辨生气与死气'，并推测'鳥'为'為'之误。但原文'不分鳥死氣論'可能为'不分鸟死气论'，指'不分鸟（某种形态或方位）的死气来论'，或'鸟'字为'与'、'为'等字之误，但candidate直接改写为'为了分辨生气与死气'，改变了原文可能的句意结构。",
+          "candidate将'如餘'推测为'鱼脊'之误，并作为解释加入正文，这超出了允许的推测范围。对于opaque_terms或不确定字词，应保留原样并说明不确定，而非给出具体推测。",
+          "candidate将'皆爲形殺'释为'都称为“形杀”'，但原文'形殺'后接'横过之山如餘如刀尖利倾水是皆所害之類'，candidate将'横过之山'与'如餘如刀尖利倾水'并列，但原文可能'形殺'指前文反弓斜飞等，'横过之山...'是另一类所害，candidate的断句和归类可能不准确。"
+        ],
+        "uncertainty": [
+          "原文'不分鳥死氣論'的确切含义和断句存在不确定性。",
+          "'如餘'的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000750-p000-1e1fb5e4f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'之不可葬者五氣以生和而童山不可葬也'断句并释为'文中提到有五种情况不可安葬...气以生和为美，而“童山”不可安葬'，但原文可能为'之不可葬者五：气以生和，而童山不可葬也...'，即列举五种不可葬的情况，第一种是'气以生和，而童山不可葬'。candidate的释读改变了原文可能的列举结构，将'五'与后文割裂。",
+          "candidate将'五爭土冗'推测为'五色土穴'之误，并作为解释加入正文，这超出了允许的推测范围。应保留原样并说明不确定。"
+        ],
+        "uncertainty": [
+          "原文'之不可葬者五氣以生和'的断句及'五'字的具体指代存在不确定性。",
+          "'五爭土冗'的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000751-p000-4e910d98e8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文后半部分'无麻酰怀嗣姑艫一穗隄職鄰毗'等字句存在严重错乱，具体所指不详。candidate已明确标注此不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b000754-p000-bdbe59a762",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中'徐忽自右出势有偏有花所以最其漢正相之不'等字句存在严重断句与文字错乱，具体所指不详。candidate已明确标注此不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2065,
+    "completion_tokens": 737,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2065,
+      "completion_tokens": 737,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

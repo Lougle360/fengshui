@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-15T15:14:14.720656+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bb162df0fd928f28193472b659fa8d30b05f38fdb3bac9e714898ec0d94a9dd8",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002180-p000-d0dcc8416f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002181-p000-dccac58468",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘金馬上階乾在天為天廐蓄馬之所也’，意指‘金馬上階’的乾位在天象中对应天廐。候选句将‘金馬上階’处理为‘金馬山位于午位’，并拆解了‘金馬上階乾’的连贯表述，改变了原文结构，可能导致误解。应译为‘金馬上階’的乾位……或‘乾位（在金馬上階中）对应天廐……’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002182-p000-f4f3151ae9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘才縱橫太陽升殿房虛弗星四日宿在子午卯酉之位’中，‘才縱橫’与‘太陽升殿’、‘房虛’、‘弗星’应为并列的星宿或格局名称。候选句将‘才縱橫’与‘太陽升殿’等并列处理，但‘才縱橫’含义不明，且‘弗星四日宿’的断句和解释存疑。候选句的译法（‘才纵、横、太阳升殿、房虚、弗星四日宿’）虽标注了不确定性，但将‘四日宿’仅与‘弗星’关联，可能割裂了与前文的联系。更稳妥的译法应为‘才纵、横、太阳升殿、房虚、弗星（此四者？）等日宿位于……’，并明确标注原文断句和含义不清。",
+          "原文‘敵國之’后文有缺，候选句译为‘敌国之君’属于无依据的扩写，应译为‘敌国之……’或‘敌国……’，并标注后文缺失。"
+        ],
+        "uncertainty": [
+          "原文‘才縱橫’、‘弗星四日宿’的具体所指及断句存疑。",
+          "原文‘敵國之’后文似有缺漏，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002183-p000-7687e9dd6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘去王多今八一’语义残缺或错乱，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002184-p000-1b89d6a769",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘心危畢張四月宿在甲庚丙壬之位’，‘四月宿’可能指‘四个月宿’或‘四星宿在四月’。候选句译为‘心、危、毕、张四星宿在四月’，将‘四月’理解为时间，但更可能是指‘四个星宿’。应译为‘心、危、毕、张这四个月宿，位于甲、庚、丙、壬四位’。",
+          "原文‘主男為駙馬亥作官妃五氣朝元’，‘亥作官妃’可能指‘女子为妃’（亥为阴支），但直接译为‘女子为妃’略失精确，且‘五氣朝元’是另一格局，并非‘亦称’。应译为‘主男子为駙马，女子（亥）为妃。另有格局‘五氣朝元’……’。"
+        ],
+        "uncertainty": [
+          "原文‘四月宿’的确切含义（是四个星宿还是四个月宿在四月）存疑。"
+        ]
+      },
+      {
+        "id": "book033-b002185-p000-9cb5ae1dc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002186-p000-1c47d7a7af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘丙午丁三位’误译为‘丙、午、丁三位’，原文‘午’为地支，candidate将其与天干‘丙’‘丁’并列，改变了原文的术语组合与含义。原文‘丙午丁’应指丙、午、丁三个方位或干支组合。",
+          "candidate将‘星柳张三宿在馬’译为‘星、柳、张三宿在马’，‘在馬’含义不明，可能指星宿分野或对应关系，candidate直译可能导致读者误解。",
+          "candidate将‘尊帝富前’直译，未处理其语义不通顺的问题，也未按writer_uncertainty的提示说明‘具体所指不详’，而是作为确定陈述保留，易造成误解。"
+        ],
+        "uncertainty": [
+          "原文‘马、丁、柳、丙、长更无贾益’含义不明。",
+          "原文‘尊帝富前’语义似有缺漏或讹误。"
+        ]
+      },
+      {
+        "id": "book033-b002187-p000-4abcafab8b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002188-p000-cc53317d1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002189-p000-94cac3e314",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巽為更點有峰叢秀主貴’，候选句译为‘巽位若有山峰丛秀，主贵’，漏译了‘為更點’。‘更點’可能指时辰或报时点，是巽位的一个象征或别称。应译为‘巽位对应更点（时辰），若该方位有山峰丛秀，主贵’。"
+        ],
+        "uncertainty": [
+          "原文‘更點’的具体风水含义或象征不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 796,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2266,
+      "completion_tokens": 1409,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 796,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

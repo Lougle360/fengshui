@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T10:29:54.750014+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "179785dc92812912076433f4d06ebacdac089c28de52c5dd92ab97d67c565ebb",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000760-p000-d8efdbe28f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "正、二、三、四、五、六、七、八、九、十、十、十二、十二。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文存在重复数字，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000761-p000-e9379a938b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "戌、辰、甲、未、壬、丙、丑、庚、戌、庚；申、子、辰年，乾中、巽、震、坤、坎、離、艮、兌、乾中、兌；夾、巳、乙、申、癸、丁、寅、辛、央、辛。",
+        "confidence": "medium",
+        "uncertainty": [
+          "“央”字疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000762-p000-b48bc1fc62",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "甲、未、壬、丙、丑、庚、戌、庚、戌、辰、巳、酉、丑年，震、坤、坎、離、艮、兌、乾中、兌、乾中、巽、乙、申、癸、丁、寅、辛、亥、辛、亥、巳。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在重复干支，部分文字疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000763-p000-511ecea91e",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "丙、丑、庚、戌、庚、戌、辰、甲、未、壬；寅、午、戌年，離、艮、兌、乾中、兌、乾中、巽、震、坤、坎；丁、寅、辛、亥、辛、亥、巳、乙、申、癸。",
+        "confidence": "medium",
+        "uncertainty": [
+          "部分文字疑为OCR识别错误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1822,
+    "completion_tokens": 594,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1822,
+      "completion_tokens": 594,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

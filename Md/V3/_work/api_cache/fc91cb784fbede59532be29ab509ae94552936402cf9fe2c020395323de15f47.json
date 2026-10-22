@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-16T12:29:04.940686+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fc91cb784fbede59532be29ab509ae94552936402cf9fe2c020395323de15f47",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002294-p000-4b62ea1307",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'廉破终须作武臣'，candidate 误译为'贪狼、巨门、武曲、破军、廉贞等星若作为鬼星出现，上格者主大贵，中格者终须成为武职官员'。原文'廉破'指廉贞、破军二星，candidate 增译了贪狼、巨门、武曲，并添加了'上格者主大贵，中格者'等原文没有的层级划分，属于无依据扩写。",
+          "原文'其外皆为紫客'，candidate 译为'其余情况多被视为虚名客星'。'紫客'是特定术语，candidate 将其解释为'虚名客星'，属于对 opaque_terms 的确定性解释，且未加引号引用。",
+          "原文'救贫治乱非关数'，candidate 译为'并非单纯由命数决定'。'数'在此处可能指术数、定数，candidate 解释为'命数'，属于对 opaque_terms 的确定性解释，且未加引号引用。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002295-p000-5cf50910e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002296-p000-84df5f6ed8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002297-p000-fa010ef23d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002298-p000-20a9c5f0d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002299-p000-1e77cba98a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002300-p000-fefa06ad94",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'禽鬼兽曜官比辰太华名为六吉星'，candidate 译为'禽星、鬼星、兽星、曜星、官星、比星、辰星、太华星，名为六吉星'。原文列举了八个星名，但称为'六吉星'，此处存在数量矛盾。candidate 直接罗列八个星名并称'六吉星'，未处理原文的歧义或矛盾，且'比星'、'辰星'、'太华星'等 opaque_terms 被直接当作确定星名译出，未加引号引用。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002301-p000-a5e99076aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002302-p000-f190955349",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'关东吞脸一齐应'，candidate 保留原句，未做解释，符合 opaque_terms 处理原则。"
+        ]
+      },
+      {
+        "id": "book035-b002303-p000-0f9cee44b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'安穴不得吴凡人'，candidate 译为'安穴不得吴凡人'，保留了'吴凡人'这一 opaque_terms，但未加引号引用，且未明确标注其含义不详。",
+          "原文'杨分把作真金宝'，candidate 译为'杨分把作真金宝'，保留了'杨分'这一 opaque_terms，但未加引号引用，且未明确标注其含义不详。",
+          "原文'要识曾杨直口诀'，candidate 译为'要识曾杨直口诀'，保留了'曾杨'这一 opaque_terms，但未加引号引用，且未明确标注其含义不详。",
+          "原文'穴空迁定人丁绝'，candidate 译为'穴空迁定人丁绝'。'迁定'含义不明，candidate 直接连用，未做任何说明或标注，可能造成读者误解为'搬迁决定'。此处应视为 opaque_terms 处理不当。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3046,
+    "completion_tokens": 1066,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3046,
+      "completion_tokens": 1066,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

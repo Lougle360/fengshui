@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:14:40.071669+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d3fb38102fb748e486db8933f79d3213f9c3c779d1299f5c7bcd0fb74d5835d4",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000520-p000-c9a0d98b13",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘上弦又井’未作释读，属于漏译；‘隱陛’释为‘隐伏潜藏’不准确，‘陛’应为‘堞’之误，指隐伏如城堞般的状态；‘讀主’释为‘研读经典的人’不符合原文，原文应为‘讀書’，指读书之人；‘川’释为‘通晓’不符合原文，原文应为‘點穴’相关的操作，此处存在多处误译与漏译"
+        ],
+        "uncertainty": [
+          "‘上弦又井’具体所指不详，原文未明"
+        ]
+      },
+      {
+        "id": "book014-b000522-p000-2ec6ac452c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘艮水’未按术语定义释读，‘艮’为八卦之一，此处应明确为‘八卦之艮对应的水势’；‘如如箭’释为‘水势像箭一样直’不准确，‘如如’应为‘如而’，指水势如箭般直；‘灘稍低藏氣不藏煞’释读不完整，未明确其风水语境下的含义；‘水帥氣’释为‘水带着气’不准确，应为‘水为气之帅’；‘但知有氣不知有水但見提氣不見是水’释读逻辑混乱，不符合原文语义"
+        ],
+        "uncertainty": [
+          "‘水中卧’‘水底眠’具体所指不详，原文未明"
+        ]
+      },
+      {
+        "id": "book014-b000525-p000-f5feb01e25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000526-p000-80881e3a74",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘開窩’未作明确释读，属于漏译；‘上中下暈氣’释读不准确，应为‘上中下三部分的晕气’；‘穴的位置’属于无依据扩写，原文未提及穴的位置确定"
+        ],
+        "uncertainty": [
+          "‘開窩’具体所指不详，原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1615,
+    "completion_tokens": 544,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1615,
+      "completion_tokens": 544,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

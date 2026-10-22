@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-04T02:31:48.624433+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3f7a1fc95b4d478e6cd371338a29d16992c022f4058b82a00526265179f43c7c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000357-p000-60c3935dea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重残缺错乱，无法还原句意"
+        ]
+      },
+      {
+        "id": "book035-b000358-p000-e3c60e8404",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重残缺，无法还原句意"
+        ]
+      },
+      {
+        "id": "book035-b000359-p000-e9e3c58160",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘或運擇 水能避其凶’释读为‘或选择“水”能避开凶险’，原文‘運擇’与‘水’之间似有空格或断句，释读可能将‘運擇’（可能指择日、运筹）与‘水’直接连读，存在漏译或误译风险。原文‘差于毫厘之間則禍福捷于影響之應’的‘影響’指影子和回声，candidate释为‘影子和回声’正确，但‘捷于’释为‘迅速’稍弱，可更明确为‘像……一样迅速’或‘立刻’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000360-p000-191e875932",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘徐試可曰貢人求地但聞恕人浮論言吉便雲吉言凶便雲凶此堪升而 不可隱也’释读为‘徐试可曾说：‘贡人求地，只听说别人浮泛议论，说吉就吉，说凶就凶，这是堪舆学不可隐瞒的真相。’’原文‘貢人’可能为‘官人’或‘贵人’之误，‘堪升’可能为‘堪舆’之误，candidate直接释为‘堪舆学’并补‘真相’，虽为推测但未超出合理范围。但‘恕人’释为‘别人’可能不准确，原文或为‘他人’或‘俗人’。candidate将‘信日者不從眾論’释为‘相信日子的人不随众论’，‘日者’可能指择日师，此释读合理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000363-p000-cd7b5fa2bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘徹而不聚豈眞瓏融皓卿’释读为‘气脉不聚，哪里是真龙？山势险峻、岩石粗大，“水”流倾泻，则气脉无法融聚。’原文‘徹而不聚豈眞瓏融皓卿’疑似有错字或残缺，‘瓏’可能为‘龙’，‘皓卿’可能为‘气聚’或‘穴聚’之误。candidate将‘皓卿’忽略，直接释为‘气脉无法融聚’，虽符合上下文但属推测。原文‘山峻石粗流水急豈有眞龍’与‘山險峻石粗流水傾瀉則氣’可能为重复或补充，candidate合并释读，未保留原文结构，但未改变核心含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000364-p000-b7f8235a5c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘入眼者定是有情 入人之眼如此定是山水有情埃’释读为‘进入眼中的一定是有情之象。进入人眼如此，定是山水有情。’原文‘埃’可能为‘矣’或‘也’之误，candidate未处理。candidate将‘覆者富貴這祖塡必得山川之正氣 空之眞山川之正氣 覆富貴家之地必得龍’释读为‘覆护富贵之家，必定得到山川的正气。空之真气，覆护富贵家之地，必定得到龙脉的正气。’原文‘覆者富貴這祖塡’可能为‘覆护富贵之祖坟’或类似含义，candidate释为‘覆护富贵之家’稍显笼统。‘空之眞山川之正氣’句意不明，candidate释为‘空之真气’并连接下文，属推测。"
+        ],
+        "uncertainty": [
+          "原文存在部分字迹模糊，如‘瓏融皓卿’疑似为‘龙融气聚’之误，但依据规则未擅自修正，仅按上下文意译"
+        ]
+      },
+      {
+        "id": "book035-b000365-p000-358c67fc85",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重残缺，无法还原句意"
+        ]
+      },
+      {
+        "id": "book035-b000366-p000-2566321615",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重残缺，无法还原句意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2767,
+    "completion_tokens": 1080,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2767,
+      "completion_tokens": 1080,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

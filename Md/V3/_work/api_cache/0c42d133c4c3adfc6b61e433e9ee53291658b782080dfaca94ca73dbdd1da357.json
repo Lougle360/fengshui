@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:41:01.782213+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0c42d133c4c3adfc6b61e433e9ee53291658b782080dfaca94ca73dbdd1da357",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000002-p000-4470d78d27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000003-p000-ca39dc1d47",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“水泉螻蟻之鄉”的“水”误译为“水”，未按allowed_glossary标注为风水语境中的河流、水系及其来去形态；将原文中“戰慄”误译为“震懼”，不符合allowed_glossary中“震”为八卦之一的定义，属于术语误换"
+        ],
+        "uncertainty": [
+          "原文中“水泉螻蟻之鄉”的“水”为风水术语，具体所指为风水语境中的河流、水系及其来去形态，释读时未按规范标注"
+        ]
+      },
+      {
+        "id": "book014-b000004-p000-f22195498d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000005-p000-e16ab36401",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3118,
+    "completion_tokens": 314,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3118,
+      "completion_tokens": 314,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

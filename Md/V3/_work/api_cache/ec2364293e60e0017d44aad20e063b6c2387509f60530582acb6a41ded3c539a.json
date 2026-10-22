@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-10-15T08:18:04.057878+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ec2364293e60e0017d44aad20e063b6c2387509f60530582acb6a41ded3c539a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001487-p000-895aa234d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘若生金穴去安堵見職反遭屯’中，‘去安堵’与‘見職反遭屯’是并列或因果关系，candidate译为‘原本安定的处境反而可能遭遇困顿’，将‘安堵’（安定、安居）处理为‘原本安定的处境’，并将‘去’（离开、失去）的含义融入‘反而可能遭遇困顿’，属于无依据的扩写和推测。应更保守地处理，例如‘如果生成金穴，则会失去安定，见到官职反而会遭遇困顿’。",
+          "原文‘木星后頭逢見土子孫定開庫若見’后文缺失，candidate译为‘若见到土形，则具体所指不详’，但原文‘若見’后无宾语，可能指代前文或后文内容，candidate自行补足‘土形’并下结论‘具体所指不详’，属于无依据的增译和判断。应直接说明‘若见’后文缺失，含义不明。"
+        ],
+        "uncertainty": [
+          "木火脫來見土穴",
+          "若生金穴去安堵"
+        ]
+      },
+      {
+        "id": "book035-b001492-p000-f50ed018d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "水星迢遲若流勢寺觀神壇位此爲文曲不安堵男女定淫奔"
+        ]
+      },
+      {
+        "id": "book035-b001498-p000-02ae0ed01c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水星若帶金星體凶孫多秀麗’，candidate译为‘若水星带有金星体，原文称‘凶孙’，但后文又说子孙多秀丽...此处‘凶’字与后文描述似有矛盾，具体所指不详’。此处理将‘凶孙’作为原文短语引用并加入分析，但‘凶孙’并非原文明确短语，原文是‘凶孫多秀麗’，candidate的断句和解释（‘凶孙’）属于主观推测。应更保守地译为‘水星若带有金星体，凶？孙多秀丽’，并标注‘凶’字含义不明或与后文矛盾。",
+          "原文‘水昨橫波蛾眉樣’，candidate译为‘若水昨横波蛾眉样’，保留了‘水昨’这一不明确表述并标注不详，但‘水昨’可能是‘水作’的讹误，candidate未做任何说明或保留原样，直接使用‘水昨’可能导致读者困惑。应更明确地指出原文用字可能为讹误。",
+          "原文‘碓碓失不祿’，candidate译为‘碓碓失不禄’，保留了‘碓碓’并标注不详，但‘碓碓’可能是叠字形容或讹误，candidate未做任何说明。应指出该词含义不明。",
+          "candidate中多次出现‘若...若...’的句式，将原文的并列描述全部改写为假设条件句，虽然有助于现代读者理解，但改变了原文的陈述语气，属于风格上的过度处理。虽非严重语义错误，但偏离了忠实反映原文风格的要求。"
+        ],
+        "uncertainty": [
+          "凶孫",
+          "天刑水星出太保高出將軍好",
+          "水昨橫波蛾眉樣",
+          "碓碓失不祿"
+        ]
+      },
+      {
+        "id": "book035-b001499-p000-688914960b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "鎮京壹",
+          "天蓋地蓋起"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2100,
+    "completion_tokens": 792,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2100,
+      "completion_tokens": 792,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

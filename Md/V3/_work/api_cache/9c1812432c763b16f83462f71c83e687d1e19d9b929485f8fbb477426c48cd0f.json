@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-18T01:09:59.759106+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9c1812432c763b16f83462f71c83e687d1e19d9b929485f8fbb477426c48cd0f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005107-p000-2831b8a2f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题翻译不准确。原文为“地理天機會元 卷二十五 砂格 十”，是明确的章节标题。candidate 将其解释为“关于‘砂格’的第十部分标题”，属于增译和推测。应直接译为“《地理天機會元》卷二十五 砂格 十”或类似，保留其标题格式和层级。",
+          "未保留原文的层级标记“##”所指示的标题属性。kind=heading 时，应核对标题内容、顺序和格式。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 605,
+    "completion_tokens": 161,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 605,
+      "completion_tokens": 161,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

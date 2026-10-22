@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:18:04.224881+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cf662e8b315c468ec17353aed95d1ac24915e62902fbb6bd2bd631a57bade674",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000590-p000-d39ea7b337",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中‘豬色’（应为‘赭色’）误写为‘猪色’；‘麽黃’（应为‘牡黄’）误写为‘麽黄’；‘臺裂’（应为‘坼裂’）误写为‘臺裂’；对‘有水無疑’的释读错误，原文意为‘（土）若再有坼裂，（此处）有水是确定无疑的’，而非‘风水语境中的河流、水系及其来去形态就无疑了’，属于对allowed_glossary中‘水’的不当使用与误释"
+        ],
+        "uncertainty": [
+          "原文中‘石華自相至細閒到中間’的‘閒’含义未明，释读未明确标注该歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1034,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1034,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

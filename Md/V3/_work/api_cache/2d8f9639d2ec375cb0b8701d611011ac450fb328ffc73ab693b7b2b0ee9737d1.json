@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-25T12:14:23.856819+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2d8f9639d2ec375cb0b8701d611011ac450fb328ffc73ab693b7b2b0ee9737d1",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000937-p000-05ffa07c6d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“足敗”是“又科”的并列属性，candidate错误将其拆分为独立情况；原文“多臨”的对象是“韌笏水格它死家”，candidate错误表述为“这类情况多出现于门前有水的地方”，偏离原文语义；原文“從疾人死骨”的核心信息未完整译出，仅简化为“患病乃至死亡”，存在信息漏损"
+        ],
+        "uncertainty": [
+          "又科",
+          "韌笏水格",
+          "枕笏为宫",
+          "尨停",
+          "衣逆的具体含义不详"
+        ]
+      },
+      {
+        "id": "book024-b000940-p000-8d6059ab9c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "優的具体含义存疑，此处暂释为接连不断"
+        ]
+      },
+      {
+        "id": "book024-b000949-p000-992d12e304",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巳水”是“沮如”修饰的对象，candidate错误断句为“沮如位置的水”，属于句读错误；原文“乾”是“半彊平”的并列描述对象，candidate错误将“乾”绑定到下句“积垢生苔”的位置主体，语义拆分错误"
+        ],
+        "uncertainty": [
+          "沮如巳水半彊平",
+          "隆扦巳",
+          "龕的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 411,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1267,
+      "completion_tokens": 411,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

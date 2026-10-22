@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-10-04T04:59:04.262012+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0482c384f50a5129a6e8985634cc46d86dbb93fef86c110e49a7e5935371fb94",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000518-p000-769407afb8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000519-p000-80e69a7c4c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘外 生一 頭’，candidate译为‘外方生出一枝，头部回转’，将‘頭’解释为‘头部回转’属于无依据扩写。‘頭’可能指山体或水流的‘头’（起始或突出部分），但candidate将其与‘回头’合并，并添加‘形成护托之势’，超出了保守释读范围。应保留‘外生一头’的模糊性，或明确标注推测。",
+          "candidate将‘须要 外生一枝回头护托为吉也’合并处理，但原文‘回头外 生一 頭’与‘须要 外生一枝回头护托为吉也’之间可能存在并列或解释关系，candidate的整合可能简化了原文结构。"
+        ],
+        "uncertainty": [
+          "‘外 生一 頭’的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000520-p000-50b7ab23e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000521-p000-625b75a00f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘回如肘臂 臂者’，candidate译为‘回环如肘臂弯曲之状’。原文可能为‘回如肘臂’或‘回如肘臂者’，candidate添加‘弯曲之状’属合理浅释，但将‘臂者’处理为‘弯曲之状’则不够准确。‘臂者’可能指‘像手臂一样’或为衍文，candidate未保留此模糊点。",
+          "‘直鼠’译为‘直硬如鼠’属推测，但未标注不确定性。应明确‘直鼠’具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘就身生案’具体所指不详。",
+          "‘直鼠’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000522-p000-50b5b9f551",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000523-p000-d92eb9d44a",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文‘出及其 也’存在缺字或语意断裂，candidate直接译为‘出及其也’并保留在句中，但未明确标注此短语含义不明，可能导致读者困惑。应指出‘出及其也’具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘出及其也’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000524-p000-7becfa3e66",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文‘可來有有 于大小的手’，candidate译为‘皆可来朝；若有大小手（此处具体所指不详）’。将‘可來有有’处理为‘皆可来朝’属推测，且未明确标注‘有有’可能为衍文或误字。‘大小的手’解释为‘水口护卫’是无依据的确定解释，超出了allowed_glossary范围，应仅保留为‘大小手’并标注具体所指不详。",
+          "原文‘不用勞神而不用’，candidate译为‘则不用劳神而不用（此处具体所指不详）’。此处理基本正确，但前半句‘泉水顺流而散漫’与后半句的逻辑关系未明确，可能造成语义断裂。应更清晰地指出原文此处语意不连贯。"
+        ],
+        "uncertainty": [
+          "‘可來有有 于大小的手’具体所指不详。",
+          "‘不用勞神而不用’具体所指不详，且与上文逻辑关系不明。"
+        ]
+      },
+      {
+        "id": "book035-b000525-p000-1946f32bec",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘何勞闐眼’，candidate译为‘何必劳烦闢眼（此处具体所指不详）’。将‘闐眼’改为‘闢眼’并加注，但‘闢眼’同样非常用术语，此修改无依据。应保留‘闐眼’原词并标注具体所指不详。",
+          "原文‘魄惡則堂氣山無朝移夕改之勢’，candidate断句为‘魄恶则堂气无朝移夕改之势’，漏译了‘山’字。应调整为‘魄恶则堂气、山无朝移夕改之势’或类似，以更贴近原文结构。"
+        ],
+        "uncertainty": [
+          "‘闐眼’一词具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000527-p000-60d799c03d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1800,
+    "completion_tokens": 1037,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1970,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1800,
+      "completion_tokens": 1037,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

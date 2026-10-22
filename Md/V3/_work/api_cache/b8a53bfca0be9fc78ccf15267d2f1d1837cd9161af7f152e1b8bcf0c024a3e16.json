@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T13:43:44.275236+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b8a53bfca0be9fc78ccf15267d2f1d1837cd9161af7f152e1b8bcf0c024a3e16",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000253-p000-4b8d29af34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000254-p000-c3d396ad36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000255-p000-5860bf1876",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000260-p000-3ce5c62aad",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文仅为不完整的日文假名「ろう」，无法确定其对应内容，候选释读「罢了」无依据"
+        ],
+        "uncertainty": [
+          "原文为不完整的日文假名片段，语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1695,
+    "completion_tokens": 247,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1695,
+      "completion_tokens": 247,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-04T12:16:28.915958+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2bd09ef8d6d5f4d0a041558ad06e97eb6bc1f1ae3dd19d418f2220fb4ab3e8be",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000880-p000-f906a10976",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "此处“祖气”具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b000881-p000-5e900f4cad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译“与长不肯欹斜失尊体”中的“与长”，原文描述峰端既“正方”又“长”，candidate仅译“正方”。",
+          "“四向谩成龙虎穴”中的“谩成”意为“徒然形成”或“空成”，candidate直译“谩成”未作解释，可能导致现代读者不解。",
+          "“间气来此偶生峡”中的“间气”为风水术语，candidate未作任何说明，可能导致读者困惑。"
+        ]
+      },
+      {
+        "id": "book035-b000882-p000-ca32c9bb7d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“小公分处乱生枝”中的“小公分处”与前文“小公分处夹龙行”重复，candidate未作区分或解释，可能导致读者混淆其具体所指。",
+          "“番龙归此地”中的“番龙”为术语，candidate未作任何说明，可能导致读者困惑。",
+          "“重重宛课”中的“宛课”含义不明，candidate未作风险标注。",
+          "“外山归至令”中的“归至令”含义不明，candidate未作风险标注。",
+          "“贪覆巨员”中的“贪覆”含义不明，candidate未作风险标注。"
+        ]
+      },
+      {
+        "id": "book035-b000886-p000-edba0ae726",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1773,
+    "completion_tokens": 393,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1773,
+      "completion_tokens": 393,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

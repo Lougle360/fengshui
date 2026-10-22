@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-25T00:26:38.685979+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "874bf27d02068151faee31a949d02ed58ec76d2b222d449b5862fae2d8863995",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001476-p000-2375358c5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001477-p000-8817b2e35c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘非但識九官挨排即可成辨’被误译为‘非但要识别九宫挨排，才能分辨清楚’，语义逻辑相反：原文意思是只懂九宫挨排不足以分辨，释读写成了要识别九宫挨排才能分辨，属于反义错误；此外‘九官’应为‘九宫’，属于字形误释"
+        ],
+        "uncertainty": [
+          "原文‘四之龍用四謂位一四謂龍用曰正位’断句与具体含义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001478-p000-d5d48788fb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘三节父’‘宗枝勇’‘夏山’‘孟山’‘仲山’具体所指无权威依据，仅按字面释读"
+        ]
+      },
+      {
+        "id": "book017-b001480-p000-6c0d347829",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在明显语序错乱、缺字，释读虽标注保守改写，但核心含义无法确认，部分释读内容缺乏原文依据"
+        ],
+        "uncertainty": [
+          "原文整体残缺混乱，含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001481-p000-c3db4252f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘令福文理’含义不明，释读无依据添加‘相契合’的语义，属于无依据增译，将不确定表述写成确定事实"
+        ],
+        "uncertainty": [
+          "原文表述过于简略，具体含义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001483-p000-a3fe6f9d09",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文并非日文，属于OCR识别错误或字形残损，释读错误标注为‘日文原文’，且未明确说明内容残损无法释读，直接转写无意义内容不符合要求"
+        ],
+        "uncertainty": [
+          "原文文字残损，无法识别准确含义"
+        ]
+      },
+      {
+        "id": "book017-b001484-p000-c0f8b07a3e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘陽桑獨魚貧之彭’属于不可解的残损内容，释读直接保留并作为确定表述，未标注该部分含义不明，属于将不确定内容当成事实；‘抑雅義公天出星更要’被无依据释为‘天出星更重要’，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文大量语句残损错乱，‘陽桑獨魚貧之彭’‘抑雅義公天出星更要’等内容具体含义无法确认"
+        ]
+      },
+      {
+        "id": "book017-b001485-p000-4831a35452",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001487-p000-0ac4c70de3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘榮松’应为‘榮枯’，属于字形误释；‘王治參高’无依据释为‘王治的情况也有高低不同’，属于无依据增译，该短语具体所指不明，不应妄加解释"
+        ],
+        "uncertainty": [
+          "‘招回丰卦’‘王治參高’具体含义存疑"
+        ]
+      },
+      {
+        "id": "book017-b001488-p000-c431526223",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘生識於脈’被误释为‘要识别脉的生成’，语义偏差；‘主真宗要紅吉地’断句错误，将‘要红吉地’拆分，‘紅吉地’无依据直接释读，未说明该术语具体所指不明"
+        ],
+        "uncertainty": [
+          "‘祖宗蜂腰鶴膝主真宗’‘紅吉地’具体含义存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2206,
+    "completion_tokens": 1035,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2206,
+      "completion_tokens": 1035,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

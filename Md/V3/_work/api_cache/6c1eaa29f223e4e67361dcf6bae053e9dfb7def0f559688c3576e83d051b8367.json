@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-17T05:03:30.791627+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6c1eaa29f223e4e67361dcf6bae053e9dfb7def0f559688c3576e83d051b8367",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002616-p000-af96c26f1c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文‘壬癸略似悠 而炊則易腿來 人 性急驟發富貴而其退’中，‘腿來’未被译出，candidate直接处理为‘炊烟易散’，未体现原文的‘腿來’这一异常表述，应标注为原文存疑。",
+          "2. 增译/误译：原文‘他如坤龍則發道尤遠于坎龍 但坎雜一龍主 才而坤爲老陰 必出孤寡故陽龍如坤申左衿 仙 人 氣溫用 也’中，‘坎雜一龍主 才’被译为‘坎龙混杂，只主才学’，‘混杂’为增译，原文仅说‘坎杂一龙’。‘故陽龍如坤申左衿 仙 人 氣溫用 也’被译为‘所以阳龙如坤申左衿，仙人认为气温适宜使用。’此处‘陽龍如坤申左衿’与‘坤为老阴’逻辑矛盾，且‘氣溫用’含义不明，candidate将其解释为‘气温适宜使用’缺乏依据，应保留原文并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002617-p000-d48759e558",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "1. 原文严重残缺，语序混乱，关键逻辑缺失。candidate的释读基本是原文的直排，未形成可理解的现代汉语句子，不符合V3目标。例如‘来山而身大，子所出不以而安能中。’无法理解。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002618-p000-aa9a5e726b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002619-p000-e60315e775",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 误译：原文‘巳申當二四之偏不識其意皆明陽龍之穴固不如陰龍而以上十山爲肩而申當乎二之偏巳當乎四之偏是不得乎氣之正而稟氣之偏者此巳申之龍左衿所’中，‘皆明陽龍之穴固不如陰龍’被译为‘皆明阳龙之穴固不如阴龙’，此处‘皆明’可能为‘皆言’或‘皆表明’之意，candidate直译为‘皆明’不通顺。‘而以上十山爲肩’被译为‘而以上十山为肩’，但前文并未明确列出十山，此处逻辑断裂，应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002620-p000-94eb1eaa5d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译/误译：原文‘小生止積雖有成胎這象而空陽剝體終蹈孤虛之咎 之力而入首之處又得四獸讚聚砂水會堂’中，‘小生止積’被译为‘小生止积’，含义不明，应保留原文并标注。‘之力而入首之處’被译为‘力而入首之处’，缺主语，但candidate未标注此处的断裂。‘讚聚’被译为‘攒聚’，可接受，但‘讚’可能是‘攒’的异体或误字，应标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002621-p000-f1e082e6a5",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "1. 原文多处文字错乱脱漏（如‘尤 龍踩黄龍’、‘若既以’、‘刑湯’），导致核心逻辑完全断裂。candidate的释读试图串联，但多处（如‘尤龙踩黄龙’、‘刑汤绝丁’）无法形成合理语义，不符合V3‘普通读者能读懂’的目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002622-p000-f86326cfcc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 增译/误译：原文‘凡坎離而求一節之長丑未而廢四金之氣以南出有而之之下之有進人所’语义含混。candidate将其解释为‘凡是涉及坎离而求一节之长，在丑未之时废弃四金之气，向南而出，至于下位有所进益，这都是人所共知的。’其中‘在丑未之时’、‘向南而出，至于下位有所进益’、‘这都是人所共知的’均为无依据的推测和增译，将不确定内容写成了事实。应将含混部分保留原文并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002623-p000-e54fa440f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002624-p000-349092f1ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 存在漏译：原文为‘三吉不秀等龍實鍾秀氣萬富貴之樞機’，candidate 译为‘三吉不秀等龙，实钟秀气，万富贵之枢机’。其中‘万’字应为‘为’的误写或OCR错误，但candidate未修正或标注，导致语义不通。",
+          "2. 存在误译/错字未处理：原文‘巽風辛之疑’，candidate 作‘巽风辛之疑’。此处‘风’字应为‘见’的误写或OCR错误，结合上下文‘艮见丙，兑见于巽’的句式，应为‘兑见于巽，辛之疑’。candidate未修正或标注，导致文句错乱，含义不明。",
+          "3. 存在误译/错字未处理：原文‘玉尺陰中無一言及九量’，candidate 作‘玉尺阴中无一言及九量’。‘九量’应为‘九星’的误写，candidate未修正或标注，导致术语错误。",
+          "4. 存在误译/错字未处理：原文‘有天宣卦取用者’，candidate 作‘有天宣卦取用者’。‘天宣卦’应为‘天星卦’或他种卦名之误，candidate未修正或标注，导致术语含义不明。"
+        ],
+        "uncertainty": [
+          "原文‘巽風辛之疑’、‘九量’、‘天宣卦’等处文字错乱，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002625-p000-1a9a6fe5e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 459,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3554,
+      "completion_tokens": 1492,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1165,
+      "completion_tokens": 459,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

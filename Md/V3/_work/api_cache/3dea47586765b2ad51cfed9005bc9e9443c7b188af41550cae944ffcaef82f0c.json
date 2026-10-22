@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T13:12:40.351012+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3dea47586765b2ad51cfed9005bc9e9443c7b188af41550cae944ffcaef82f0c",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000160-p000-7e20f2e4a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“代 貧窮山山”内容未释读，属于漏译"
+        ],
+        "uncertainty": [
+          "原文中“五千業纂”“斷法”“年年哭法不舊”等内容语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000161-p000-112323876f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水 書 来 此 地1”中“書”字未释读，属于漏译"
+        ],
+        "uncertainty": [
+          "原文中“此地1”的“1”为可疑标记，具体含义不详"
+        ]
+      },
+      {
+        "id": "book026-b000162-p000-4c5256f219",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000163-p000-c10efac636",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“夫山之聚觀 衆 地者若舍其衆凶取其一吉欲尋而用地則 平欲雖切所得末由”句中，candidate将“平”字遗漏，属于漏译；原文“而夫者反成凶”无“失去的”相关表述，属于无依据增译，且将“夫”误释为“失去的”与原文含义不符"
+        ],
+        "uncertainty": [
+          "原文中“淨美也寫病也”“翁文發也”等内容语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000164-p000-e89982ac96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000165-p000-4020108b59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000167-p000-7d35381585",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR錯亂、殘缺內容，無法準確釋讀，具體所指均不詳"
+        ]
+      },
+      {
+        "id": "book026-b000168-p000-22851ecb3c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000169-p000-3876b5eeef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此二向意 義相承”句中无证据表明“向”是术语，candidate将“二向”解释为“两个‘向’（建筑或穴位所朝的方位）”属于无依据的术语判定，超出allowed_glossary的使用前提；原文首句“例杖地理正訣也卦例卦位定例也”语序释读错误，“例杖”应为“杖例”，对应前文“倒杖之法”“卦例之非”，candidate释读与原文语序逻辑不符"
+        ],
+        "uncertainty": [
+          "原文中“二十于家註纂”“寄家戲”等内容语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000170-p000-51721cf586",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾书名是“卦心賦直解”表述错误，candidate未标注该名称讹误，直接沿用不符合要求；原文存在大量OCR错乱内容，candidate释读时将大量不可辨内容直接对应为风水通用术语解释，多处属于无依据增译，未明确区分原文可确认内容与推测补充内容；原文中“農頓粘處長塾之倚即是 龍之脉體穿形形謂杖 二减缀中則入仰俯撞”等明确存在的讹误、脱漏内容未做风险提示，直接纳入释读逻辑不够严谨"
+        ],
+        "uncertainty": [
+          "原文存在部分文字语序混乱、脱漏的情况，部分表述的具体指向无法完全确定，仅能结合风水类文献的通用内容梳理大意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3381,
+    "completion_tokens": 1028,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3381,
+      "completion_tokens": 1028,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

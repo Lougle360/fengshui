@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T15:50:11.766376+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "45ae2178b1d5251d4e31bc9984e13004aa1f4688c72f055d5b2df7fe725306cb",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001307-p000-72728a3ad3",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "劉歆提出的以同一基准推导出度量衡单位的思路（黄鐘秬黍之说），必然会让人联想到法国大革命时期创立近代米制的思想。1799年完成的这套单位体系，以地球子午线的四千万分之一为基准，确定了长度单位米，再由米推导出容量单位升，最后定义1升水的重量为1千克；除了理论的基本结构中以地球取代黄鐘、以水取代秬黍之外，这套体系与劉歆的制度完全相同。薮内清将这套制度称为「中国的米制」（出自《中国科学的传统与特色》，载于《中国的科学》，中央公论社，1975年，第46页），理由就在于此。薮内的解说虽简洁，却切实精准地阐述了黄鐘秬黍之说的特质。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001308-p000-9ec8534051",
+        "language": "japanese",
+        "content_type": "heading",
+        "action": "translate",
+        "modern_text": "## 2 度量衡与声律",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001309-p000-4c189975cc",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中国音乐的音体系由三部分构成：（1）确定相对音高的「声」（音阶），（2）标示绝对音高的「律」（音律），（3）其结合方式的「旋宫・转调」（调）；黄鐘是该音律的基础音。在制度上一度获得稳定发展的汉代体系，以五声十二律为基本结构。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001310-p000-e3fb0ab303",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "五声指的是宫、商、角、徵、羽，由五声音阶（五声音阶）构成；它将1个八度（即振动数比为2:1的绝对协和音程，1200音分），通过完全协和关系的振动数比3:2（纯五度，702音分）与4:3（纯四度，498音分）进行分割。所谓「五声之本，生于黄鐘之律」，其计算方法为：（1）借用律长来标示相对音高，以黄鐘管的9寸为基准；（2）将前一管长乘以2/3（三分损一）或4/3（三分益一），以此确定各管长。这就是所谓的三分损益法（表10-1）。另一方面，",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾存在残缺，内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2188,
+    "completion_tokens": 773,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2188,
+      "completion_tokens": 773,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

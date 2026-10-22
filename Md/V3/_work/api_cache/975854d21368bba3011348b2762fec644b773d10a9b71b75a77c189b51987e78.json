@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-04T02:05:05.816683+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "975854d21368bba3011348b2762fec644b773d10a9b71b75a77c189b51987e78",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000334-p000-25f1b36ef3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘或或水前穴同中有病’含义不明，candidate 将其解释为‘水流在穴前出现缺陷，导致穴中带有病态’，属于无依据的扩写和确定化解释。",
+          "原文‘必欠發福必重監穴之胚胎于峽’中‘必重監’含义不明，candidate 译为‘甚至灾祸深重。观察穴的胚胎’，将‘重監’解释为‘灾祸深重’并补出‘观察’动作，缺乏依据。",
+          "原文‘如人受胎一同胎中有病’中‘一同’疑似‘一样’或‘一但’之误，candidate 处理为‘一样’可以接受，但整体对混乱原文的整合存在风险。"
+        ],
+        "uncertainty": [
+          "原文存在多处文字重复与错乱（如‘或或’、‘有有’、‘竣前’），部分词句含义需结合上下文推断。"
+        ]
+      },
+      {
+        "id": "book035-b000336-p000-3eec68dee0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘清券’疑似‘清秀’或‘清健’之误，此处按文意通顺处理。"
+        ]
+      },
+      {
+        "id": "book035-b000337-p000-d03b7c616d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘必須三浙于神冰干者’，candidate 译为‘必须对水流进行三折。所谓一折’，将‘三浙’解释为‘三折’可以接受，但凭空补出‘一折’并以此解释后文的天干地支，属于无依据的增译和结构重组。原文‘神冰干者’后直接列举天干八卦，并未明确说这是‘一折’。",
+          "原文‘三折祿馬上褂雲是也’，candidate 译为‘三折禄马上挂’，将‘褂雲’处理为‘挂’可以接受，但未保留原文‘云’字可能表示引述的痕迹。"
+        ]
+      },
+      {
+        "id": "book035-b000338-p000-fbb09a5f6c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘發蒙而巳金在人隨機而變也’，candidate 译为‘这不过是发蒙启蒙罢了。金在人，也是随机而变的。’将‘金在人’作为一个独立短语保留并标注不确定，符合要求。但‘发蒙而巳’译为‘发蒙启蒙罢了’稍显冗余，但可接受。",
+          "原文‘六大高而易發花先發而早凋和通而有人大法氣之穴大帝君大雄花若先用亦平名长穴中是’，文字错乱严重。candidate 试图将其串联成通顺句子（‘纸上的图形虽然高大容易显现，但花朵先开却容易早凋。如果通达且有人，大法气之穴，大帝君、大雄花若先用，也是平名长穴中。’），这属于对无法确定含义的原文进行了过度的、确定性的解释和逻辑连接，不符合‘风险标注’原则，应保留原文的破碎感或明确指出无法通读。"
+        ]
+      },
+      {
+        "id": "book035-b000339-p000-56a1f9e2a8",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘坤与雲問君爲’语义未完，疑似残句或错乱，无法完整翻译。"
+        ]
+      },
+      {
+        "id": "book035-b000340-p000-cf2a1b3e95",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000342-p000-b2330662a5",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文‘餘欠奇改正’过于简略，缺乏上下文，具体指代不详。"
+        ]
+      },
+      {
+        "id": "book035-b000344-p000-78022414d8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘出草蛇以耳聽蛤出峽龜以眼觀兒’，candidate 译为‘出草蛇以耳听，蛤出峡龟以眼观儿。’并推测‘蛤’字疑似有误。但将‘出草蛇’和‘蛤出峽龜’作为两个并列主语处理，可能割裂了原文结构。原文可能是一个整体比喻，意为‘（如同）出草的蛇用耳朵听，（如同）出峡的龟用眼睛看儿’。candidate 的断句和解释有待商榷。",
+          "原文‘此二句借譬立穴之宜偏如蛇以 耳聽龜以眼顧兒也舊作實’，candidate 译为‘这两句借用比喻来说明立穴的适宜之处，就像蛇用耳朵听、龟用眼睛看孩子一样。旧本作实。’将‘宜偏’解释为‘适宜之处’可能不准确，‘偏’可能指‘偏侧’‘偏向’。且‘旧作实’含义不明，candidate 直接保留未解释，可以接受。"
+        ]
+      },
+      {
+        "id": "book035-b000345-p000-a6ba1467f1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘雖而而類 似體其雌明舸之也’，candidate 译为‘虽然类似体，其雌明舸之也。’这基本是字面直译，未转换成现代中文，且未明确标注其含义不明。不符合V3‘普通读者能读懂’的目标。应指出此句文字错乱，含义无法理解。",
+          "原文‘爲今之計先先以積德爲本用財擇師三者兼德’，candidate 译为‘为今之计，先以积德为本，用财择师，三者兼德。’其中‘三者兼德’的‘三者’指代不明（积德、用财、择师？），candidate 未作说明。"
+        ]
+      },
+      {
+        "id": "book035-b000346-p000-6ec285ebd6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 565,
+    "completion_tokens": 43,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2683,
+      "completion_tokens": 1497,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 565,
+      "completion_tokens": 43,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:08:56.122153+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1fc74079c2d8bc60ab3f5d8f5960f1e298f0a9344cc43cb2578ececf339b1197",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000086-p000-2a70d3016b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘貪狠’误译为‘貪狼、武曲星’，原文仅提及‘貪狠’，未出现武曲星在此处的重复表述；将‘文康’误译为‘文曲、廉貞星’，原文未提及廉貞星，且‘文康’未明确对应文曲星；‘霞半絕胎’未明确对应‘氣脈屬於霞半絕胎的狀況’，属于无依据扩写；‘官莊’未明确对应‘官星、莊星’，属于无依据扩写；‘養生’未明确对应‘養生位’，属于无依据扩写；‘伏’未明确对应‘隱伏’，属于无依据扩写；‘俗冠帶’未明确对应‘俗稱冠帶位’，属于无依据扩写；‘七曜一齊分’未明确对应‘七曜星的狀況各自分別’，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘霞半絕胎’‘官莊’‘養生’‘文康’‘貪狠’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000087-p000-bbe4ed6b65",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "末尾的字母m含义不明"
+        ]
+      },
+      {
+        "id": "book012-b000088-p000-a2c8184577",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘巨興’误译为‘巨門星’，原文未提及巨門星；‘文敗中房’‘祿敗季改襄’‘于受貧寤’等表述未准确对应原文，属于无依据扩写；‘有一穴何愁大地不相道’未明确对应‘有一穴「穴」，何愁大地不相合’，属于无依据扩写；‘穴’已按allowed_glossary释义，但原文未明确提及‘穴’的具体位置，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘貪頭’‘巨興’‘中武曲’‘三房家必隆’‘文敗中房’‘祿敗季改襄’‘于受貧寤’‘破祿文廉要坐巨輔武收入’‘一穴’等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000089-p000-130d4204cf",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文断句及含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 636,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1336,
+      "completion_tokens": 636,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

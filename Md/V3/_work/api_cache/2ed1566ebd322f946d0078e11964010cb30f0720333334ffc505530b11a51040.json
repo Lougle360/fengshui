@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T21:47:12.820602+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2ed1566ebd322f946d0078e11964010cb30f0720333334ffc505530b11a51040",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000473-p000-e842ccac39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“庸專的闢證”文字含混，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000476-p000-74e5ca923e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“水”属于风水语境特指水系相关概念，候选句将其释为“水相关的从业者”不符合allowed_glossary给出的定义，属于术语误译"
+        ],
+        "uncertainty": [
+          "化械、时门交哉、現谷、五仍、五乃別者具体所指不详",
+          "原文末尾“自”字后内容残缺"
+        ]
+      },
+      {
+        "id": "book017-b000481-p000-5edfb85dad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "公能、經天功用、双七到向、七中破龍赤巨門龍、七之生辨三真读、青意無語、軍證考級洩金氣具体所指不详",
+          "“破军全”具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1383,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1383,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

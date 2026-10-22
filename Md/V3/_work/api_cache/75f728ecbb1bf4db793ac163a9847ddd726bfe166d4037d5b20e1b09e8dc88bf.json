@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T12:42:56.275789+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "75f728ecbb1bf4db793ac163a9847ddd726bfe166d4037d5b20e1b09e8dc88bf",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000892-p000-46c18c6683",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000896-p000-7bc26d2216",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR识别错误，\"顺後兒\"的\"兒\"无法辨识，\"鬼\"的具体含义未明确，保守释读无法成立"
+        ],
+        "uncertainty": [
+          "原文中\"顺後兒\"的\"兒\"属于OCR识别错误，具体所指不详；原文中\"鬼\"的具体含义未明确，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 173,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1314,
+      "completion_tokens": 173,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

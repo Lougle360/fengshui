@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:45:21.868674+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9cbb214dfeb2b99efdd5c22ecb73d3b1139da708cd0beae57c0ee4e8d1ea27ec",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000390-p000-55b29785da",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000391-p000-a4a064e476",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000392-p000-0fe0206cb3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000393-p000-061259f549",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语义晦涩，部分内容难以准确释读，候选释读未形成通顺合理的现代中文语句，存在明显的语义断裂与不通顺问题"
+        ],
+        "uncertainty": [
+          "原文语义晦涩，部分内容难以准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2162,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2162,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

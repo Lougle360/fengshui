@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:01:22.057577+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6a4fd394f9f383c5fcd55ba1a4130d9648899e796e3bf0bc1d4de57ba887a6e7",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000107-p000-d5487c34d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000108-p000-8563b0e58a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000109-p000-8944236bc0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“遂肥”“不青”“援外國”等表述含义不明，候选释读存在无依据扩写问题，将“遂肥”释为“于是让”、“不青”释为“以乾为标准”均无原文依据，“援外國”释为“援引外国的说法”也缺乏支撑"
+        ],
+        "uncertainty": [
+          "原文中“遂肥”“不青”“援外國”等表述含义不明，暂按原文保守改写"
+        ]
+      },
+      {
+        "id": "book011-b000110-p000-f748c69bc9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“明所以禍福為胡亂”含义模糊，候选释读无法准确对应原文含义"
+        ],
+        "uncertainty": [
+          "原文“明所以禍福為胡亂”含义模糊，暂按字面保守改写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2077,
+    "completion_tokens": 342,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2077,
+      "completion_tokens": 342,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

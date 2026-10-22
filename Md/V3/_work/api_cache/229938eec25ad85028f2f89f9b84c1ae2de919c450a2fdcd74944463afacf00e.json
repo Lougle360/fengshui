@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T11:09:47.237121+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "229938eec25ad85028f2f89f9b84c1ae2de919c450a2fdcd74944463afacf00e",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000102-p000-85b278baf6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘几’误释为‘几’，原文‘情過而几呂墨八旬方陰會’中‘几’为存疑的古字，不应直接释为‘几’；‘于方始出’的‘于’为衍字，释读时未修正；‘陰木一局’的‘一局’未明确释读，属于漏译；‘歸戊廟’的‘戊’未按风水术语释读，属于漏译；‘過亢’的释读未结合风水语境，属于误释；‘情過而几呂墨八旬方陰會’的‘呂墨’‘陰會’为存疑术语，释读时未标注不确定性，属于违规"
+        ],
+        "uncertainty": [
+          "原文‘情過而几呂墨八旬方陰會’中的‘几’‘呂墨’‘陰會’具体所指不详，原文未明"
+        ]
+      },
+      {
+        "id": "book012-b000104-p000-31fd33e0b9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘成’误释为‘戌’，属于字形误判；‘直過五方’的‘五方’未按风水语境释读，属于漏译；‘出夫丑’的‘夫’为存疑术语，释读时未标注不确定性，属于违规；‘條丁火庫’的‘條’为衍字，释读时未修正；‘逆云’的‘逆’为存疑术语，释读时未标注不确定性，属于违规"
+        ],
+        "uncertainty": [
+          "原文‘出夫丑’中的‘夫’、‘逆云’中的‘逆’具体所指不详，原文未明"
+        ]
+      },
+      {
+        "id": "book012-b000105-p000-b8a07c4a88",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘永不歸非’误释为‘永不歸非’，属于字形误判；‘出夫辰’的‘夫’为存疑术语，释读时未标注不确定性，属于违规；‘黃泉水’的‘黃泉水’未按风水语境释读，属于漏译"
+        ],
+        "uncertainty": [
+          "原文‘出夫辰’中的‘夫’、‘黃泉水’具体所指不详，原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1317,
+    "completion_tokens": 569,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1317,
+      "completion_tokens": 569,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

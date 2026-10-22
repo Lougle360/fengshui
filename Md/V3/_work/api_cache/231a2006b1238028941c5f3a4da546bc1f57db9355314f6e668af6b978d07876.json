@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-25T03:21:52.430784+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "231a2006b1238028941c5f3a4da546bc1f57db9355314f6e668af6b978d07876",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001096-p000-2b40865233",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句应为《莆田萧负外祖地绘图·地理人子须知》，是书名/篇名组合，candidate错误理解为“萧负的外祖绘制地理图供后人了解知识”，完全偏离原文含义，存在漏译和语义错解：未保留“地理人子须知”的篇目性质，且错误补出“供后人了解相关知识”的无依据内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001099-p000-2c9fddc03f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“登乡会二魁”指乡试、会试均位列前两名，并非“考中乡试、会试的第一名”，存在术语含义错解；专业术语释义符合allowed_glossary要求，其余内容释读准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001101-p000-fda383a4d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“取螺蛳吐肉”表述不完整，后续内容缺失"
+        ]
+      },
+      {
+        "id": "book018-b001102-p000-95ab6b1f16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001103-p000-f4c7b67272",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“十道无偏”指穴位的前后左右上下等十个基准方向无偏差，candidate译为“十个方向都没有偏差”表述模糊，存在浅近释义不准确问题；其余内容释读准确，术语符合规定"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001105-p000-ba16c168a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在排版错乱，正确对应关系应为：“太极静而生阴，故圆晕瘦陷者为阴，谓有窟之形状，故为动中之静，即窝中有窝、突中有窟之穴也。开茔宜浅，不宜深。太极动而生阳，故圆晕肥起者为阳，谓有突之形状，故为静中之动，即泡中有泡、窟中有突之谓也。开茔宜深，不宜浅。”candidate未梳理原文错乱语序，直接照搬断句错误的原文，导致语义混乱、阴阳属性与开茔深浅的对应关系完全颠倒；且“上太极定穴”多余补充穴的释义属于不必要重复"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001106-p000-fd653215e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001108-p000-f84206b84d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001109-p000-920ed88b26",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“或上截肥起，下”表述不完整，后续内容缺失"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5795,
+    "completion_tokens": 889,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5795,
+      "completion_tokens": 748,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 5795,
+      "completion_tokens": 889,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

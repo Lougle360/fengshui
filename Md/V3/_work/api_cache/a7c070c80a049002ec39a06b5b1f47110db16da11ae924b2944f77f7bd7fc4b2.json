@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-17T10:23:18.258733+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "Qwen/Qwen3.5-122B-A10B",
+  "request_sha256": "a7c070c80a049002ec39a06b5b1f47110db16da11ae924b2944f77f7bd7fc4b2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003302-p000-4767e8abfa",
+        "modern_text": "文中列出了一串干支序列：丙午、壬壬、了丙、庚申、申申、申申、庚丁、未癸、癸丑、丁辛、酉乙、乙卯、辛。",
+        "confidence": "medium",
+        "uncertainty": [
+          "了丙",
+          "壬壬",
+          "申申",
+          "未癸",
+          "酉乙",
+          "乙卯"
+        ]
+      },
+      {
+        "id": "book035-b003304-p000-acb3ac9fcb",
+        "modern_text": "文中接着列出了另一组包含地支、天干和八卦的序列：辰辰、戊兑、酉己、離午、戊坎、子戊、巳巳、己亥、亥己、巽辰、戊乾、戌戊、艮丑、巳坤、未己。其中乾、坤、巽、坎、艮、兑均为八卦之一，具体卦象及五行方位依原文语境确定。",
+        "confidence": "medium",
+        "uncertainty": [
+          "辰辰",
+          "戊兑",
+          "酉己",
+          "離午",
+          "子戊",
+          "巳巳",
+          "己亥",
+          "亥己",
+          "巽辰",
+          "戊乾",
+          "戌戊",
+          "艮丑",
+          "巳坤",
+          "未己"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 398,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1151,
+      "completion_tokens": 398,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

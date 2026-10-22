@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T09:06:18.313355+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ccc6c216a1a57a09d869da982cafc23648da53d94bde4bac9ba1c9d03499ea8c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000144-p000-e68ac46577",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处原文语义模糊，无法明确解读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原句“最吉主發違甚建不甚佛速”语义不明，无法确定确切含义"
+        ]
+      },
+      {
+        "id": "book010-b000145-p000-629ba46b32",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "弱是瘦稜，嘈。弱龍的出身，其本勢微弱，如同瘦馬背負重物，如同孤雁在風火中飛行，水射其屬，尖徊屈由險峻差寂，此格最凶，主孤紳賁。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句中“瘦稜”“嘈”“徊屈由”“險峻差寂”“孤紳賁”语义模糊，无法确定确切含义"
+        ]
+      },
+      {
+        "id": "book010-b000146-p000-91e33775a8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "順是匍脛，句前，往。北順龍的出身，其本勢曲抱如星華，水翻春宗惠祖膽前在後行。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句中“匍脛”“句前”“星華”“春宗惠祖膽”语义模糊，无法确定确切含义"
+        ]
+      },
+      {
+        "id": "book010-b000147-p000-aa85f1175f",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## d",
+        "confidence": "high",
+        "uncertainty": [
+          "原标题仅保留字符“d”，无其他可解读内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1607,
+    "completion_tokens": 518,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1607,
+      "completion_tokens": 518,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

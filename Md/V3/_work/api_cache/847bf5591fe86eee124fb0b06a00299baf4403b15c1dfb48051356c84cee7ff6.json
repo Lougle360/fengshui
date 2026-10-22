@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T20:13:41.943085+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "847bf5591fe86eee124fb0b06a00299baf4403b15c1dfb48051356c84cee7ff6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003300-p000-47fc6307b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003301-p000-bb18ac61ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的孤立“新”字来源与含义无法确定"
+        ]
+      },
+      {
+        "id": "book016-b003302-p000-df490a2f64",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate漏译了《仲氏易》的书名号，且存在标点符号使用不规范问题；未明确标注“《双剑诊易经新证》”的书名号，属于格式疏漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003304-p000-c3cd108b15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2492,
+    "completion_tokens": 269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2492,
+      "completion_tokens": 269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

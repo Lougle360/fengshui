@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-04T03:34:16.793946+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "63ba4a2cc757800d05e987a1389a41509af2c7755c96686bb6fa070872e108c0",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001246-p000-777310599d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘九人二分矢國差正’，candidate释为‘共有九人，其中两人是二分矢国的差役。’存在严重误译。‘二分矢國’可能是一个地名或特定称谓，但candidate将其拆解为‘两人是二分矢国的差役’，将‘二分’理解为‘两人’，将‘矢國’理解为‘国’，并添加‘差役’一词，均无依据。‘差正’可能指差役或官名，但整体释读偏离原意。"
+        ],
+        "uncertainty": [
+          "二分矢國"
+        ]
+      },
+      {
+        "id": "book033-b001247-p000-821f7e4867",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001250-p000-6beaf37022",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001251-p000-c0f69962d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001252-p000-9d98f63c2e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘壬戌年莖之後五年生尚書公’，candidate释为‘尚书公生于壬戌年，即茎年之后第五年。’将‘莖之後五年’解释为‘茎年之后第五年’，但‘莖’字含义不明，可能为干支误字或特定纪年法，candidate将其作为确定纪年‘茎年’处理，属于无依据扩写。应保留‘莖’字并标注不确定性。"
+        ],
+        "uncertainty": [
+          "莖之後五年"
+        ]
+      },
+      {
+        "id": "book033-b001253-p000-4f8c15cc1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001254-p000-7c8b1d9d95",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001255-p000-b978f0c1a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001256-p000-3ac7980c72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001257-p000-2b832372ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3520,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3520,
+      "completion_tokens": 592,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

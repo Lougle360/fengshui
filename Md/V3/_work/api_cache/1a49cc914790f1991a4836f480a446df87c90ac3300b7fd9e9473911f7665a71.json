@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T08:39:58.065101+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1a49cc914790f1991a4836f480a446df87c90ac3300b7fd9e9473911f7665a71",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000239-p000-5e2636cf23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000240-p000-80e24d488c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“拋長”後文義殘缺，難以確切釋讀"
+        ]
+      },
+      {
+        "id": "book008-b000241-p000-6308aae2f9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多處缺字、斷句混亂，難以確切釋讀"
+        ],
+        "uncertainty": [
+          "原文多處缺字、斷句混亂，難以確切釋讀"
+        ]
+      },
+      {
+        "id": "book008-b000242-p000-fb25126ad4",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文多處缺字、訛誤，難以確切釋讀"
+        ],
+        "uncertainty": [
+          "原文多處缺字、訛誤，難以確切釋讀"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2298,
+    "completion_tokens": 288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2298,
+      "completion_tokens": 288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

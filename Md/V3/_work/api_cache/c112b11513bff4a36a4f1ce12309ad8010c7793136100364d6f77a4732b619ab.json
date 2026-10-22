@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-10-18T11:32:05.800540+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c112b11513bff4a36a4f1ce12309ad8010c7793136100364d6f77a4732b619ab",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006336-p000-161f0fea62",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为星宿名称及度数（如“二至柳”），candidate仅列出名称，未提及度数，属于漏译。且原文“丁鬼金羊鬼二至柳”结构可能为“丁鬼、金羊、鬼二至柳”，candidate将其拆分为四个独立名称，未体现“至”所表示的度数范围关系。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006338-p000-ed8ecd61d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“壬子木穴分在坎宮逢水則生是爲沐浴之地故列于九八中之生氣對宮得壬午木回木陷火宮受泄爲死氣”，candidate断句为“壬子木穴位于坎宫，遇到水则生气，这是沐浴之地，所以列在九八中的生气对宫。得到壬午木回木，陷入火宫受泄，成为死气。”其中“回木”应为“回木”或“木回”，但candidate将其作为不确定项处理，而原文“壬午木回木”可能指壬午（纳音为木）的木属性回归或重复，candidate未提供任何可能的解释，直接标注为不确定，处理过于保守且未尝试基本释读。2. “推木入水”应为“推木入火”之误（因前文为“木陷于火”），candidate照抄“推木入水”并标注不确定，未指出可能的原文错误或矛盾。3. “受泛”可能为“受克”或特定术语，candidate标注不确定是合理的。"
+        ],
+        "uncertainty": [
+          "回木的具体含义",
+          "推木入水与上下文矛盾",
+          "受泛的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b006340-p000-c2373ff08d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "未”可能指地支未宫，也可能指未达到某种状态",
+          "空”的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b006343-p000-8d3830d72c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“水養于未故九八之中科爲無氣”，candidate释为“水‘养’于未，具体所指不详。所以九八之中‘科’为无气，具体所指不详”。此处“养”和“科”可能为风水术语（如十二长生中的“养”位，“科”可能指科甲、功名），candidate仅标注不确定，未提供任何术语背景的可能解释，过于保守。2. 原文“故衰敗無氣對宮得丁未水向水入土宮亦爲逢煞”，candidate断句为“所以衰败无气。对宫得到丁未水向，水入土宫，亦为逢煞”，此处“对宫得丁未水向”与前文“丁丑水穴”对应，释读基本准确，但“逢煞”的“煞”未在locked_terms或opaque_terms中，candidate直接使用，可接受。"
+        ],
+        "uncertainty": [
+          "养”在十二长生中的含义",
+          "科”的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1559,
+    "completion_tokens": 727,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1559,
+      "completion_tokens": 727,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

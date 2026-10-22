@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-09-26T14:58:00.122042+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "93ab6a6846744a2ae544ee47a804f559255e43124e5e56100f3a2c0503c76850",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000343-p000-cd76d25f23",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current错误将“肥圆正主富”前的“富贱”连读为口诀，属于对原文断句错误；current将原文“两峰”误释为“雨峰”可能为误；对不明缺漏的标注更准确，未擅自增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000344-p000-9ec044e56f",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对原文“曲而带圆”漏译“曲”字；对原文不明术语“糊”“交秀”未标注存疑，candidate标注更严谨；对原文末尾截断的“四”明确标注，更符合古籍整理规范"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000345-p000-23daf2644b",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文通顺的“出龍结地”“平泮龍结地”“專卒洋之砂”“房分均句”均标注为不明，属于过度存疑；current对原文讹误“專卒洋”径改为“見平洋”、“均句”径改为“均勻”符合古籍通例，candidate无依据标注存疑属于错误；原文“總喜開面有情向我”被candidate擅自增译为“偏好开阔朝向有情、朝向穴场”属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000346-p000-13df0cb6e1",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current擅自对“乾潘”“如庭”作无依据翻译，candidate对不明术语标注存疑符合规范；candidate明确说明“分金”内容依原文保留，符合专业术语不得擅改的要求；current将“挐州神俗云”的俗谚擅自增译“禍事就會像庭院一樣堆積”属于无依据臆测"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000349-p000-6d81c9907e",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate错误保留原文讹误“下上鐵用”，“鐵用”为“仔細”的形近讹字，current径改为“需要上下仔细”符合通例，candidate无依据存疑属于错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000351-p000-f7b524ace0",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“石與本”为“石與泥”的形近讹字、“龍免穴的”为“龍與穴的”的讹字、“午法”为“秘法”的形近讹字、“將上色以誰人”为“將上穴以許人”的讹字，current均已按通例校正，candidate无依据标注存疑属于错误；对原文讹误的校正current更符合古籍整理保守性原则，未擅自标注不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000352-p000-9327e2e750",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文开头“おろ言”为异体/讹误字符，candidate标注推测“略言”同时存疑，比current直接认定为“略言”更严谨；对原文末尾截断的“七”明确标注，符合规范"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6417,
+    "completion_tokens": 989,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6417,
+      "completion_tokens": 989,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

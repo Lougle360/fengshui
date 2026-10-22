@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:26:00.644085+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8c8b6e9929e23b73b1aec6325c738427cfaf3a54549649a92e8d27a78255ea14",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001944-p000-b74c51b074",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001945-p000-b1046b9465",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001947-p000-9842c24590",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在缺字错乱，无法完整释读，仅整理可确认内容"
+        ],
+        "uncertainty": [
+          "原文存在缺字错乱，“六二‘往前进发必有凶 《象》日：六二‘征凶’，行失类险”部分文字有误，已按可确认内容整理"
+        ]
+      },
+      {
+        "id": "book016-b001948-p000-b73dadee86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1788,
+    "completion_tokens": 284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1788,
+      "completion_tokens": 284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

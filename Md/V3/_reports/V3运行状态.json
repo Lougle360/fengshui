@@ -1,0 +1,71 @@
+{
+  "current_books": [],
+  "transient_retries": {},
+  "state": "budget_blocked",
+  "current_book": 35,
+  "updated_at": "2026-10-18T12:03:39.228997+00:00",
+  "writer_model": "Qwen/Qwen3.5-35B-A3B",
+  "repair_model": "Qwen/Qwen3.5-122B-A10B",
+  "escalation_model": "Qwen/Qwen3.5-122B-A10B",
+  "judge_model": "deepseek-ai/DeepSeek-V3.2",
+  "max_repair_rounds": 1,
+  "max_concurrent_api_requests": 2,
+  "model_routes": {
+    "Qwen/Qwen3.5-35B-A3B": [
+      {
+        "provider": "siliconflow",
+        "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+        "api_key_env": "SILICONFLOW_API_KEY",
+        "remote_model": "Qwen/Qwen3.5-35B-A3B",
+        "max_concurrent_requests": 2,
+        "max_concurrent_model_requests": 1
+      }
+    ],
+    "Qwen/Qwen3.5-122B-A10B": [
+      {
+        "provider": "siliconflow",
+        "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+        "api_key_env": "SILICONFLOW_API_KEY",
+        "remote_model": "Qwen/Qwen3.5-122B-A10B",
+        "max_concurrent_requests": 2,
+        "max_concurrent_model_requests": 1
+      }
+    ],
+    "deepseek-ai/DeepSeek-V3.2": [
+      {
+        "provider": "siliconflow",
+        "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+        "api_key_env": "SILICONFLOW_API_KEY",
+        "remote_model": "deepseek-ai/DeepSeek-V3.2",
+        "max_concurrent_requests": 2,
+        "max_concurrent_model_requests": 1
+      }
+    ]
+  },
+  "parallel_workers": 1,
+  "usage": {
+    "prompt_tokens": 48790717,
+    "completion_tokens": 18657424,
+    "cached_prompt_tokens": 279378,
+    "estimated_cost_rmb": 149.50059,
+    "by_provider": {
+      "siliconflow": {
+        "prompt_tokens": 10987990,
+        "completion_tokens": 5170600,
+        "cached_prompt_tokens": 54400,
+        "estimated_cost_rmb": 48.22059
+      }
+    }
+  },
+  "segments_total": 35221,
+  "segments_writer_completed": 35171,
+  "segments_judged": 35171,
+  "segments_uncertain": 14182,
+  "books_total": 36,
+  "books_rendered": 33,
+  "recovery_note": "Usage aggregate restored after sparse-state overwrite; cost preserved conservatively above last authoritative value.",
+  "external_api_cost_rmb": 0.0,
+  "combined_estimated_cost_rmb": 149.50059,
+  "background_pid": 12052,
+  "last_error": "预算保护触发：并行安全余量后可用预算不足，正式任务 ¥149.50，外部测试 ¥0.00，上限 ¥150.00"
+}

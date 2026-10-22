@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:56:05.626068+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1a74285b9e19cf552d86ded959f4f1fda82d770435680efe5bbb6787948c4ae4",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000030-p000-4d8b55abcc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000031-p000-ec7bbe2619",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「陽公山水看雌雄」中的「山水」误释为「水」，违反术语使用规则，allowed_glossary中「水」的定义为风水语境中的河流、水系及其来去形态，此处「山水」应指山与水的整体风水格局，不得随意替换为「水」"
+        ],
+        "uncertainty": [
+          "原文「陽公山水看雌雄」中「陽公」具体所指未明，可能为风水术语或特定人物，释读未标注该不确定性"
+        ]
+      },
+      {
+        "id": "book011-b000032-p000-8b9cf0e10e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「同學 訂」误释为「一同學習校訂」，「同學訂」应为「同學者校訂」或「同學訂正」，释读存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文「沛陽正宗臣著」中「沛陽正宗」具体所指未明，可能为风水流派或著作名称，释读未标注该不确定性"
+        ]
+      },
+      {
+        "id": "book011-b000033-p000-50370c61bc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将「今合會公問湍曰」误释为「如今結合公眾問詢的內容，可知」，「公問湍」应为特定人物或术语，释读存在无依据扩写，违反规则"
+        ],
+        "uncertainty": [
+          "原文中「爾他書非養老卽年老」二字的出处及含义未明，释读未标注该不确定性；「默禪師舌囊心印」具体所指未明，释读未标注该不确定性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 473,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1343,
+      "completion_tokens": 473,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

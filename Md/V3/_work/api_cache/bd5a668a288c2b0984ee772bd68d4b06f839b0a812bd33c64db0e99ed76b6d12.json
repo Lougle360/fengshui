@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T15:14:14.921728+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bd5a668a288c2b0984ee772bd68d4b06f839b0a812bd33c64db0e99ed76b6d12",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000996-p000-c0d010a7d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000997-p000-c8bb820a16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000998-p000-3639b50556",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“術数類数学属的な数理思考”误译为“术数类数学属性的数理思考”，存在语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000999-p000-dffd4f8bde",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2566,
+    "completion_tokens": 237,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2566,
+      "completion_tokens": 237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

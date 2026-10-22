@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:12:22.589106+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "278ae0b242400c1b9dc438f298edc9a0850540e751ef4420b9f31691fc111cc1",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000599-p000-5f2bb048e4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“时白”“三白之方”“大奇帝星”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000600-p000-13f508ac24",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "对原文中“莫先君则犯四旺”“天置四旺大然粟”“堂旺”“四旺”“四旺煞”“四旺之宫”等内容的释读存在主观臆断，未严格依据原文模糊表述进行保守释读，且将不确定的“四旺”相关含义作为确定事实进行解释，违反了释读规则"
+        ],
+        "uncertainty": [
+          "“第五苓相主”“退择秘典”“宽具源”“养郎水”具体所指不详；“天置四旺大然粟”“堂旺”“四旺”“四旺煞”“四旺之宫”“四旺”等术语的具体含义需结合风水语境进一步考证"
+        ]
+      },
+      {
+        "id": "book010-b000602-p000-6f29f1b55e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处残缺，语义不连贯，无法准确解读，释读内容为主观推测，不符合保守释读要求"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，语义不连贯，无法准确解读"
+        ]
+      },
+      {
+        "id": "book010-b000603-p000-0387dca814",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“こュ山”为日文假名，无法准确解读；部分山方名称的具体含义需结合风水语境进一步考证"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2937,
+    "completion_tokens": 470,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2937,
+      "completion_tokens": 470,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

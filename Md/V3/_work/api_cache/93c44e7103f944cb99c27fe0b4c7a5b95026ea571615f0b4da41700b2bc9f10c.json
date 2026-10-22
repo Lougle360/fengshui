@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T01:27:02.800546+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "93c44e7103f944cb99c27fe0b4c7a5b95026ea571615f0b4da41700b2bc9f10c",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000048-p000-1531c10cb8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“甲成”为干支讹误，候选直接修正为“甲戌”未标注来源；原文“乙五內寅”断句错误，“五內”不属于干支范畴，不应与“寅”合并为干支项"
+        ],
+        "uncertainty": [
+          "“乙”“五內”的具体所指原文未明，干支序列存在脱漏讹误"
+        ]
+      },
+      {
+        "id": "book006-b000052-p000-06035fdb94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“造橋染”中的“染”字疑似讹误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 842,
+    "completion_tokens": 192,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 842,
+      "completion_tokens": 192,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

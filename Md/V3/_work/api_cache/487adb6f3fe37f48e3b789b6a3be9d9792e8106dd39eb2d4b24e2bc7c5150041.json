@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T19:53:44.518769+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "487adb6f3fe37f48e3b789b6a3be9d9792e8106dd39eb2d4b24e2bc7c5150041",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003150-p000-69f635521d",
+        "language": "modern_chinese",
+        "content_type": "注释",
+        "action": "preserve",
+        "modern_text": "注释①：有与，意思是被外物所赞许佑助，让人事事称心如愿。《正义》里说：“虽然所处的位置并不妥当，但因为秉持谦逊的态度，所以会得到万物的支持。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003151-p000-66a939e3d4",
+        "language": "modern_chinese",
+        "content_type": "义理阐释",
+        "action": "rewrite",
+        "modern_text": "阐释这一爻之所以失去妥当的位置、遭遇困顿却最终能有好结果，有一个重要的原因：阴阳（描述事物相反相成、消长转化的两类属性）相互感应呼应，终究难以被阻碍隔绝。俞琰说：“卦的六爻里，第二爻和第五爻都属阳刚，第三爻和上爻都属阴柔，只有初爻和第四爻是刚柔相互呼应的，所以特意用‘有与’来表述这个特点。”（出自《周易集说》）",
+        "confidence": "high",
+        "uncertainty": [
+          "末尾的单独“A”字符属于未识别内容，含义不详"
+        ]
+      },
+      {
+        "id": "book016-b003152-p000-9170ac008a",
+        "language": "modern_chinese",
+        "content_type": "爻辞译文",
+        "action": "preserve",
+        "modern_text": "九五爻的译文：君主施用削鼻、砍脚这类酷刑来治理民众，导致自己在尊贵的君位上陷入困窘；不过后续可以慢慢摆脱困境，此时举行祭祀活动是有利的。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003153-p000-6c95d38d81",
+        "language": "classical_chinese",
+        "content_type": "周易爻辞",
+        "action": "rewrite",
+        "modern_text": "九五爻的爻辞为：施用劓刑、刖刑，在赤色的绶带所象征的尊位上陷入困顿；之后慢慢会有脱离困境的出路，适合举行祭祀活动。",
+        "confidence": "high",
+        "uncertainty": [
+          "①②对应的注释未见于本段原文，具体内容不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1517,
+    "completion_tokens": 587,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1517,
+      "completion_tokens": 587,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

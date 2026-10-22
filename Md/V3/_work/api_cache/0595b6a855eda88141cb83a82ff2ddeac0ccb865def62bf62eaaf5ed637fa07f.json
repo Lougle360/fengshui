@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-15T16:20:47.763338+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "0595b6a855eda88141cb83a82ff2ddeac0ccb865def62bf62eaaf5ed637fa07f",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002351-p000-3038816211",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_table",
+        "action": "rewrite",
+        "modern_text": "大利的坐向包括：坐艮山向坤山（三、八数），坐寅山向申山，坐巽山向乾山，坐甲山向庚山（二数），坐辰山向戌山（五、三、四、五数），坐戌山向辰山，坐乾山向巽山，坐壬山向丙山。年地杀在子山午山（三、二数）。裁癸山丁向，坐丑山向乙山，年克巳山亥山，天官符在丙山壬山。坐午山，克官符。坐未山。坐庚山。坐甲山，阴榜酉山卯山，政辛山乙山，退罗。坐亥山，三杀在巳山。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量重复字符（如'山山山山'、'向向'）及疑似OCR识别错误（如'肌甲'、'肌'、'年地殺村'、'年尅'、'天官符丙壬坐年'等），导致部分方位、数字及神煞名称的对应关系无法完全确认。"
+        ]
+      },
+      {
+        "id": "book033-b002352-p000-1b9c9c6c82",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_table",
+        "action": "rewrite",
+        "modern_text": "大利的坐向包括：坐壬山向丙山（浮），坐癸山向丁山（五、三、四数），坐丑山向未山（任、三、五、二数），坐巳山向亥山（正、二、七数）。不利的坐向包括：坐艮山向坤山（阴符），坐丙山向壬山（阴符），坐午山向子山（天官符）。利的坐向包括：坐未山向丑山（地官），坐申山向寅山（三杀），坐庚山向甲山（三杀），坐辛山向乙山（饷后旁），坐戌山向辰山（三杀）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在乱码（如'膳'、'胚'、'任'、'前'、'炙退'、'餉後旁'），部分神煞名称与方位的对应关系需结合上下文推断，但原文表述不清。"
+        ]
+      },
+      {
+        "id": "book033-b002354-p000-6d81832e7d",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_table",
+        "action": "rewrite",
+        "modern_text": "伏利的坐向包括：坐寅山向申山（七、三数，服六），坐坤山向艮山（二、九数），坐庚山向甲山（正、四、六数，九、月）。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002355-p000-c04a2b70d1",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_table",
+        "action": "rewrite",
+        "modern_text": "大利的坐向包括：坐巽山向乾山（正、四数），坐巳山向亥山（五、四、六数），坐丁山向癸山（五、九数），坐未山向丑山（六、七八数）。小利的坐向包括：坐丑山向未山，坐艮山向坤山，坐坤山向艮山，坐戌山向辰山，坐乾山向巽山，坐亥山向巳山。不利的坐向包括：坐壬山向丙山（年），坐子山向午山（炙退），坐癸山向丁山（褪），坐寅山向申山（三杀），坐甲山向庚山（坐长），坐卯山向酉山（西三），坐乙山向辛山（辞旁），坐辰山向戌山，坐丙山向壬山（浮），坐午山向子山（年克），坐申山向庚山（新），坐庚山向甲山（向杀），坐酉山向卯山（官），坐辛山向乙山（向杀）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在大量疑似OCR错误（如'肌'、'址'、'炙退'、'褪'、'坐長'、'西三'、'辭旁'、'新'、'向殺'等），部分神煞名称与方位的对应关系表述混乱，需保守处理。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1928,
+    "completion_tokens": 1211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1928,
+      "completion_tokens": 1211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

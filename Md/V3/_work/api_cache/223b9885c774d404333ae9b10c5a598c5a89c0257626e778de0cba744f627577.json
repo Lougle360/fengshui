@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-15T01:08:15.557282+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "223b9885c774d404333ae9b10c5a598c5a89c0257626e778de0cba744f627577",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001579-p000-c885cc5138",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'上 宜作正業格上 貴 梯 天'结构松散，candidate将其整合为'上方适宜作为正业格局。上方为贵格，形如阶梯，名为天梯。'，存在增译和过度解释。'正業格'被释为'正业格局'，'貴 梯 天'被释为'贵格，形如阶梯，名为天梯'，均属无依据的扩写。原文可能为断句或术语罗列，candidate将其构建为完整句子并赋予确定含义，不符合'普通读者能读懂的白话释读'目标，应更保守地处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001580-p000-fab2a95942",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001581-p000-8a91a33cf2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001582-p000-43168f9a9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001583-p000-32ad5a2ec5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为'孟奠'，candidate释为'此处指奠孟。'，颠倒了词序。这属于反义或误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001584-p000-9c8f120f75",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001585-p000-8d7c18bafb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'奠杯之形橫到者是或有盤或無盤或開或合皆為奠孟品字本吉若到品字開關展布則吉'，candidate释为'奠杯的形状，横过来的是奠孟。无论有盘或无盘，无论开启或闭合，都称为奠孟。品字形本为吉利，如果呈品字形且开启、展开、铺陈，则更为吉利。'。问题在于：1. '横到者是'被释为'横过来的是奠孟'，将'到'理解为'倒'或'过来'，推测成分较大。2. '若到品字開關展布則吉'中的'到品字'被释为'呈品字形'，'開關展布'被释为'开启、展开、铺陈'，存在增译和过度解释。应更贴近原文进行释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001587-p000-ac7c2a8162",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001588-p000-ba6044ab48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001589-p000-5bebca5053",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'米牙'含义不明，candidate保留原词并标注不确定，符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 758,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1676,
+      "completion_tokens": 758,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

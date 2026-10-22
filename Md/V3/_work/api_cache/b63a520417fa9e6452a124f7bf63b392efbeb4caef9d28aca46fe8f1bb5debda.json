@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-09-25T22:35:28.882102+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b63a520417fa9e6452a124f7bf63b392efbeb4caef9d28aca46fe8f1bb5debda",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001880-p000-0296954e6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为普通读者能读懂的现代白话，直接保留了原文文言表述，不符合V3白话释读目标"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001881-p000-95707d0c36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001882-p000-d4ffa0a707",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001883-p000-71eda810f3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“更有二十八舍間星穴”释读存在专业术语误译，“間星”不是“间星穴”的组成部分，正确表述应为“还有对应二十八宿的间星所对应的穴”；原文“廡破龍”误写为“廨破的龙脉”，字形识别错误导致术语误用；原文“朝迎矗匕”误释为“朝山迎立”，属于无依据改写，该短语原文表述模糊应标注歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001884-p000-9a57b7cc06",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“倒亥傾摧”误释为“倒侧倾斜”，“亥”为原文保留字形，无依据推断为“侧”属于错译；原文“黍諸侯”误释为“兼并诸侯”，“黍”为原文讹字，应标注原文未明而非直接推断为“兼并”；原文“觀星裁八始為真”误释为“观察星峰来裁定穴位才是真方法”，“八”为原文残字，无依据推断为“穴”属于错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001885-p000-bc11c15fbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“無夷利”误释为“没有什么好处”，“夷利”语义含混，无依据推断为“好处”属于错译；原文“三刼推興秘”误释为“推演其中的隐秘”，“興”字未释读，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001886-p000-fa326fe07f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001887-p000-7cf2b0b269",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代白话，直接保留原文篇名文言表述，不符合白话释读要求，应释为《疑龙经》博换篇"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001888-p000-3753ab623a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一博一換一峰起”中“博换”为风水术语“剥换”的异体写法，未按通用术语释读，易造成误解；原文“肅武”无明确术语定义，直接作为确定星名使用不符合规则，应标注原文未明；原文“十日”应为“第十”的讹写，释读为“第十部分”属于合理补正，但需标注原文为“十日”的歧义"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6587,
+    "completion_tokens": 956,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6587,
+      "completion_tokens": 956,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

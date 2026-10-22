@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:28:03.181468+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dd69f0d7e7d7691f8322fb5fb5d0ff399dbc783aa3ff0c1bee1cc17b5ab4911c",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000683-p000-67bb3f7d8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          ""
+        ],
+        "uncertainty": [
+          "原文中存在OCR识别残缺的字符“C”，无法确认其具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 71,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1115,
+      "completion_tokens": 71,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

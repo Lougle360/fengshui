@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T14:08:57.176324+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5ce02720485ef832d7a1d2bc791d1dd30cfdbf971b314d65b1b2bcb5205afea1",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000575-p000-ba5eee3b38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000577-p000-8ad6f8d547",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「司式」「他の素因数 $p _ { 2 } , p _ { 3 } , \\cdots , p _ { r } \\ell = 2 \\ell \\cdot \\tau$」部分表述残缺，候选译文中对残缺内容的处理未明确标注，且「该解」指代不明，未明确对应前文的哪个解"
+        ],
+        "uncertainty": [
+          "原文中部分数学符号及表达式的含义需结合上下文确认"
+        ]
+      },
+      {
+        "id": "book015-b000579-p000-617f392924",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「$\\geq x > 5$」「$\\boldsymbol { \\dot { \\varsigma } }$」「$\\oslash$」等字符存在识别错误或残缺，候选译文中直接保留或处理不当，且「最小公倍数」的对应关系未明确"
+        ],
+        "uncertainty": [
+          "原文中部分数学符号、表达式及字符的含义需结合上下文确认，部分字符存在识别错误"
+        ]
+      },
+      {
+        "id": "book015-b000580-p000-5a06aad0cd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文末尾存在残缺，候选译文中未明确标注原文内容不完整"
+        ],
+        "uncertainty": [
+          "原文末尾存在残缺，内容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2055,
+    "completion_tokens": 421,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2055,
+      "completion_tokens": 421,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

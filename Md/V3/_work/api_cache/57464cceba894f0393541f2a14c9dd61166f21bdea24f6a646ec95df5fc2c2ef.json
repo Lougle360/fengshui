@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T09:21:53.027351+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "57464cceba894f0393541f2a14c9dd61166f21bdea24f6a646ec95df5fc2c2ef",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000222-p000-f2b8e36313",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文无标点处随意添加标点，且未对‘仲受廢’的语义不明情况进行标注，不符合要求"
+        ],
+        "uncertainty": [
+          "仲受廢语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000223-p000-62383fe0a6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未对‘木园水、土关’的语义不明情况进行标注，不符合要求"
+        ],
+        "uncertainty": [
+          "木园水、土关语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000225-p000-1eaada2d7c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate未对‘On、計o、电’的语义不明情况进行标注，不符合要求"
+        ],
+        "uncertainty": [
+          "On、計o、电语义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1193,
+      "completion_tokens": 258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

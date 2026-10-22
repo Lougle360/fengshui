@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T07:44:21.198923+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ef7026c4eda1b6d23092d4da27c5f9cde274b389a211e3fd654065d7056ff39d",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000071-p000-731db6abe2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中存在的OCR缺漏、语义不通的残句（如“似無轉讀而不 国”“彼亦自”“有亂宗自”“牛月太陰”“能出版”“大入物非特責也”“福義管陶促，字土行著有，提壓服捉脉，二学本此”“提脈之妻”“龍厭籍”“兩少者”“☆”“數枝謹出其”“誤海則正脈自在為味道去”“妻融悟”“師安”等），候选未标注“原文缺漏/讹误，含义不明”，直接保留残缺语序或错字，不符合普通读者可读的要求；候选将原文不确定的校勘内容（如“殉疑當作立言”）直接作为释读内容的一部分，未明确标注是校勘推测，存在将疑似校改当成原文事实的问题"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别错误、文字残损，如“殉疑當作立言”“周嘩者”“楊空佈陣”“出额”“穿儀”“岐”“粲自”“灑”“葛古榮”“眞董”“妻融悟”等，均无法明确具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3514,
+    "completion_tokens": 340,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3514,
+      "completion_tokens": 340,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

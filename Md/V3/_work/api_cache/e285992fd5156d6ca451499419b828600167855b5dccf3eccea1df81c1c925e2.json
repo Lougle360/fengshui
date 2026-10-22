@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-25T09:00:55.432838+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e285992fd5156d6ca451499419b828600167855b5dccf3eccea1df81c1c925e2",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002466-p000-cdb60e4ac9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "表格结构错误：庚寅行的'财二七'和'官无'被误合并为'财二七官'，拆分后两个单元格内容有误，原source中庚寅行对应列依次为'财二七'、'官无'，不应合并",
+          "自行补注超出规定范围：非locked_terms的'金水'不允许套用allowed_glossary中'水'的释义进行注解，allowed_glossary仅允许对单独列示的'水''坎''艮'术语进行对应解释",
+          "原source中戊子行的'丁-'被误改为'丁一'，属于数字错误",
+          "原source中壬子行的'丁t'被误改为'丁七'，属于识别错误未标注且擅自修改",
+          "原source中丁丑行的'丁='被误改为'丁二'，属于识别错误未标注且擅自修改",
+          "原source中己丑行的'丁='被误改为'丁二'，属于识别错误未标注且擅自修改"
+        ],
+        "uncertainty": [
+          "戊子行的'丁-'、壬子行的'丁t'、丁丑行的'丁='、己丑行的'丁='原文识别存疑，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 299,
+    "cached_prompt_tokens": 2360,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3678,
+      "completion_tokens": 299,
+      "cached_prompt_tokens": 2360,
+      "usage_estimated": false
+    }
+  ]
+}

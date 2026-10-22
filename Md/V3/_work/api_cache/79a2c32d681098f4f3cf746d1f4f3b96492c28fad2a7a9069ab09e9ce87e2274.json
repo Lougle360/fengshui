@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T09:18:55.514598+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "79a2c32d681098f4f3cf746d1f4f3b96492c28fad2a7a9069ab09e9ce87e2274",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000201-p000-79db0fd274",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "具备旺盛的条件，是乡居的必要要求，龙神落位后，向首要随龙确定，立向时，住宅的首要要点是要依据穴有星入的情况来判断。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“4 a”为可疑字符，无法确认含义"
+        ]
+      },
+      {
+        "id": "book010-b000202-p000-d9342910c7",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "城市居住的地气会有推移变化，历经数代，怎能长久延续？乡居的龙脉如果来势长远，世代就会绵长平稳。大凡乡居，要看龙脉是否平正，源头总隐于阴处；如果是高山，就寻找其顶部，龙脉起伏升高都在眼前，撤落到平洋地带最为奇特，四周忌讳有倾危的地形，左右高低的山势要像子孙一样拱卫，前方有迎势、后方有拥势，朝山有意向，住宅前方有一条横水环抱，水流下斗、迂回曲折，子孙朝揖，正主端庄，没有反柄，自然映照出已经形成的态势。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“鄉洺”“尨”“撤”“平洋湖”“鄉洺”“尨”“撤”“平洋湖”等字符疑似OCR识别错误，无法确认准确含义；“映し巳”为日文残句，无法完整译出"
+        ]
+      },
+      {
+        "id": "book010-b000203-p000-86da6a6792",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "星象最为清晰，田庄桑林的详细情况，详见穴星部。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000204-p000-39adaad68a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "职天，如果扦葬孤辍空权，当代就能见到；从见郎燥火星辰出现，可知洋社在他方，投河的情况从那里停止；如果设立神坛，其余的典制最为……",
+        "confidence": "low",
+        "uncertainty": [
+          "原文多处字符OCR识别错误，语义残缺，无法完整解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1757,
+    "completion_tokens": 642,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1757,
+      "completion_tokens": 642,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-24T16:14:52.550805+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cc0f4b1b0aa1e4fc968e860f8527420f8d8775cd2f0686525162e059d960d96a",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001592-p000-c439c9fbc0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“震”为戴震的名字，allowed_glossary中“震”的定义为八卦之一，此处未采用该定义，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 861,
+    "completion_tokens": 85,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 861,
+      "completion_tokens": 85,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

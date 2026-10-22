@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-26T12:54:14.393784+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "005113244fd69f48e04af270a16074548521a242eee68fbc98e296500163edb2",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001333-p000-e35fa4ae56",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 源文‘家所以成相，故世无人方而有卜宅’，candidate将‘世无人方’错译为‘世上没有相人之术’，实际‘人方’是指以人的方术（相人术）类比相宅，current译‘世上没有以人的面相来类比的说法’更准确；",
+          "2. 源文‘至刑德皆同，此一家非本论占成居而得吉凶者也’，candidate错译为‘刑德占验都是适用于一家之内的人，不属于本论讨论的占验已建成住宅吉凶的范畴’，属于无依据增改，current译‘至于刑德的说法都是一样的，这是一家之言，并非原本讨论占卜已建成住宅吉凶的内容’更贴合原文；",
+          "3. 源文‘智所不知，相必亦未知也’，candidate错译为‘智慧所不知道的，那些未知事物也一定不知道’，完全偏离原文‘相宅也不知道’的语义，current译‘智慧所不知道的，相宅也一定不知道’准确；",
+          "4. 源文‘由缺二字而得卯未’，candidate误删‘的内容’，表述不完整；",
+          "5. 源文‘举气缺足坐守无根也’，candidate直接保留原文残缺表述，不符合通俗翻译要求，current译为‘停下脚步坐守没有根据的情况’更清晰规范。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001336-p000-a8b8bc9646",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 源文‘《诗》称相其阴阳’的‘阴阳’是泛指方位、朝向等地理要素，candidate无依据限定为‘宅地的阴阳’，属于过度增译；",
+          "2. locked_terms包含‘向’（建筑或穴位所朝的方位），candidate在‘向’后擅自加注‘（姓氏）’，属于无依据的错误解释，原文此处的‘向’是姓氏，无需额外标注且不符合locked_terms不得擅改的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001337-p000-3d7aaa311b",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "源文最后一句‘法既一定，不得’，current译为‘制度已经确定之后，就不能’，将‘法’明确译为‘制度’更符合语境且通俗；candidate直接保留原文半句式‘法既一定，不得’，未完成翻译，不符合出版要求。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6190,
+    "completion_tokens": 773,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6190,
+      "completion_tokens": 773,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

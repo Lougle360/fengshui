@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T17:32:52.871929+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "837b8e26df76ce016cd420f82905c0c91a4d0b1d05b72707ecc561f2e58c2b41",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001044-p000-9c1f66e8f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001045-p000-2de3c70226",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001046-p000-c74a827f5f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“皆失实也”释为“阴爻都失去了殷实”，原文未明确“实”指殷实，属于无依据扩写；将“中心愿也”释为“阴爻内心都有应下的意愿”，原文未明确“中心愿”的主体为阴爻，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文“皆失实也”“中心愿也”的具体所指未明确，释读时不应添加无依据的限定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1510,
+    "completion_tokens": 263,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1510,
+      "completion_tokens": 263,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

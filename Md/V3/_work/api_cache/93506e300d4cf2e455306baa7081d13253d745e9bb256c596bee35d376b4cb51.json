@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-09-24T13:59:20.072865+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "93506e300d4cf2e455306baa7081d13253d745e9bb256c596bee35d376b4cb51",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000465-p000-5a118d0f96",
+        "modern_text": "可以这样表述。顺便说一下，大衍术主要由两种计算方法构成，分别名为总数术和求一术；其中大衍求一术是确定乘率$x_i$的计算方法，大衍总数术是计算总和$\\begin{array} { r } { \\sum x _ { i } m _ { 1 } \\cdots m _ { i - 1 } m _ { i + 1 } \\cdots m _ { k } r _ { i } } \\end{array}$的方法。另外，解的存在条件是“法が二つずつ互いに素”，这是因为必须求出乘率；文中还出现了无法识别的特殊符号“$\\boldsymbol { \\dot { \\zeta } }$”“$\\boldsymbol { \\dot { \\mathsf { L } } }$”“$z$ o”，具体所指不详。",
+        "confidence": "medium",
+        "uncertainty": [
+          "无法识别的特殊符号“$\\boldsymbol { \\dot { \\zeta } }$”“$\\boldsymbol { \\dot { \\mathsf { L } } }$”“$z$ o”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1326,
+      "completion_tokens": 288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

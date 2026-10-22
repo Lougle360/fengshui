@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-16T13:26:38.940886+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d160ef58e128adc412a596009dcb0901179af2980ccbab2e087063e54cfeaa4f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002404-p000-88644354a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘針排機兩性任狀灶曲熱社隨松艦號類核機所腦是醫所廟艦炸之中數反核發神公類理群’处理为‘此段文字為原文殘缺或亂碼，無法確切釋義，具體所指不詳’，但source中此段文字与后续内容在同一表格单元格内，candidate将其单独列为第一点，破坏了原文的表格结构，属于不当处理。",
+          "candidate将‘針法要領’作为小标题，但source中并无此标题，属于增译。source中‘爲法其兩撇即分水也直落即來脈也善衛者只用此個字便是然上牢劉氏有至寶經懷玉經等文皆是立標淮之法’是连贯段落，candidate将其拆分为‘針法要領’和‘淺深之法’两部分，并添加了‘問曰：葵法既已書寫，又不知淺深之法。答曰：’，但source中为‘問葵法既書又不知淺深之法曰淺深小明堂爲淮’，candidate的‘葵法既已書寫’与‘葵法既書’含义有出入，且添加了对话形式，改变了原文风格。",
+          "candidate在‘附十二落頭名字於后’的列表中，将source表格中的图形符号（如C、口、G、心、隐、E、X、C、O、C、<、R）全部省略，仅保留了文字描述，导致信息缺失。这些符号可能是穴形图示或标记，其缺失使得释读不完整。",
+          "candidate将‘幷穴’、‘釣穴’、‘墜穴’、‘斬穴’、‘截穴’等条目用列表形式呈现，但source中这些条目与前面的描述（如‘此物上下大中間細…’）是并列的表格内容，candidate的处理方式改变了原文的并列关系，且遗漏了部分条目对应的图形符号和简短描述（如‘截穴’后source有图形‘R’，candidate仅列出‘截穴’）。"
+        ],
+        "uncertainty": [
+          "表格中‘針排機兩性任狀灶曲熱社隨松艦號類核機所腦是醫所廟艦炸之中數反核發神公類理群’一段文字确实难以解读，可能为乱码或损坏。",
+          "表格中的图形符号（字母、符号）具体含义不明，可能代表穴形或标记。"
+        ]
+      },
+      {
+        "id": "book035-b002406-p000-e1112580c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘其餘’之后内容缺失，candidate标注‘其余的情况原文未作具体说明’是合理的风险标注。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2496,
+    "completion_tokens": 632,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2496,
+      "completion_tokens": 632,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

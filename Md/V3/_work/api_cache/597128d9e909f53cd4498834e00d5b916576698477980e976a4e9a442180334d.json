@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-25T14:45:01.125118+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "597128d9e909f53cd4498834e00d5b916576698477980e976a4e9a442180334d",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000434-p000-51973714d7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文多为零散残缺的单字/短语，无完整连贯语义，candidate自行整合出完整逻辑属于无依据增译；将“凡地之理就自然時候勿謂陰借造之馬化微”等大量原文内容漏译；“金测也凡”“龍而但地之明觀之山之真关水吉之相起投下造不文化必之引意也离造”等内容未释读也未标注残缺"
+        ],
+        "uncertainty": [
+          "原文整体残缺语序混乱，仅“楊可妙”“金”“龍”“水”“吉”“陰”“离”“馬化新微”等零散字符可辨识，完整含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000435-p000-09bcfceeae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文为“山本靜勢求動處”，candidate错译为“山脈靜止是尋找動脈的關鍵”，语义偏差，正确含义应为山本来是静止的，要在静止的态势中寻找动的地方"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000436-p000-95ec634b6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文是“停留動者龍脉之退卸”，candidate错译为“停留是龙脉退卸之处”，语义颠倒，原文指流动的龙脉退卸的状态就是停留"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000438-p000-5c65588369",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文为OCR识别混乱的零散字符，无连贯语义，candidate自行构建完整逻辑属于无依据增译；原文未出现“舞”“天馬躍翔”相关表述，属于臆造内容；大量原文零散字符未释读也未标注残缺"
+        ],
+        "uncertainty": [
+          "原文OCR识别错误较多，语序混乱，完整含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000439-p000-150d65d2a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“悠揚”是形容水流形态平缓悠长，candidate译为“悠遠動人”不准确，“動人”属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000440-p000-27455e9681",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000441-p000-4c219d646b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source前半部分“動上 纯 所可勢來昭止是為全氣也言山 勢 固2′”为残缺混乱内容，candidate直接照抄未标注残缺；原文“此康震則是明堂之所在也”表述不通，candidate直接按“震是八卦之一，這裡便是明堂之所在”释读属于无依据解读；原文“主 家 註”是指注者为“主家”，candidate译为“是主家註的版本”属于多余表述且未明确注者信息"
+        ],
+        "uncertainty": [
+          "原文前半部分内容残缺混乱，“此康震則是明堂之所在也”语义不明"
+        ]
+      },
+      {
+        "id": "book026-b000442-p000-1579f18b2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“斷肽傳火”“交牙銷真氣”语义不明，candidate译为“斷脈傳火”“交牙銷灼真氣”属于无依据推测，未标注不确定性；“銷”字含义未明，不应直接释为“銷灼”"
+        ],
+        "uncertainty": [
+          "“斷肽傳火”“交牙銷真氣”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000443-p000-7e61f49476",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000444-p000-6e8d822802",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“聚憲”语义不明，candidate直接释为“聚氣”属于无依据推测，未标注不确定性"
+        ],
+        "uncertainty": [
+          "“聚憲”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2538,
+    "completion_tokens": 1197,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2538,
+      "completion_tokens": 1197,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

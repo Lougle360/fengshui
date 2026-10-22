@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-26T07:47:07.220241+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "492deffd9e4f15dd724faee86380c889626684751c6788950ae55af8d00442d1",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000152-p000-523bb2c223",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“毗動中右旺寅庚午乙酉日”被断句错误，原句为七赤金毗动、中右方旺于寅午庚酉乙日，候选错误拆分干支为寅、庚午、乙酉日，属于干支信息误读；原文“山水平伏國速吉直配作”被释为“国运可快速获吉”无依据，原文未提及“国运”；原文“属金卦管宅長天門之位正陽山也”被拆分错误，原句是乾山属金卦，为天门之位、正阳山，管宅长，候选语序混乱导致语义偏差；原文“此山宣坎離兌方響特生子孫登科及第”中“宣”为“宜”的形近误读？候选直接保留“响特生”未标注歧义外，额外增译了无依据的语义"
+        ],
+        "uncertainty": [
+          "毗动中右旺寅的具体逻辑不明",
+          "响特生的具体含义不明",
+          "诸九不吉的具体指向不明"
+        ]
+      },
+      {
+        "id": "book034-b000154-p000-4996235bd9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "山峰相愿的具体含义不明",
+          "下元六的具体指向不明"
+        ]
+      },
+      {
+        "id": "book034-b000155-p000-f5bd6fca61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "长勿和著家一白的具体含义不明",
+          "宝海卷中之后的七具体指向不明"
+        ]
+      },
+      {
+        "id": "book034-b000157-p000-da3e17584d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“紫炁遶棺凶人安泰”断句错误，原文是紫炁绕棺则凶、人安泰属于吉兆的内容，候选错误添加“（对应吉局则）”属于无依据增译，且将“凶人安泰”断为紫炁绕棺的后续语义，属于逻辑误读；原文“主旺宅長子孫”被错误断为“主旺宅，长子孙”，实际是“主旺宅长、子孙富贵”，语义拆分错误"
+        ],
+        "uncertainty": [
+          "紫炁绕棺对应的具体吉凶判定逻辑原文表述存在歧义"
+        ]
+      },
+      {
+        "id": "book034-b000159-p000-714651be3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "如山峰尖之后原文内容不全",
+          "官少蕴的具体含义不明",
+          "败田月的具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2316,
+    "completion_tokens": 702,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2316,
+      "completion_tokens": 356,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2316,
+      "completion_tokens": 512,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2316,
+      "completion_tokens": 702,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

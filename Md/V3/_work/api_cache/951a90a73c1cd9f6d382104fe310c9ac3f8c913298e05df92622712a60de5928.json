@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-10-15T07:42:32.469749+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "951a90a73c1cd9f6d382104fe310c9ac3f8c913298e05df92622712a60de5928",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001456-p000-794a4b1ddf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'盖金銮'被译为'覆盖金銮'，含义不明，可能指水星形态覆盖或对应金銮殿，但释读未明确此模糊点，也未标注不确定性。'子孙画聊盟'译为'子孙画聊盟'，未进行任何解释或标注，属于漏译或未处理的不明短语。"
+        ],
+        "uncertainty": [
+          "'盖金銮'的具体所指不详。'子孙画聊盟'含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001457-p000-516faa35c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句基本为原文的断句和简单重复，未进行白话释读，不符合'普通读者能读懂的白话释读'目标。例如'水星入侍郎臣，双举同科，拜紫宸'等句未作解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001458-p000-cf2f32c5e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001459-p000-d46267393b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001460-p000-76ff90a02c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001461-p000-338dcf8317",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句基本为原文的断句和简单重复，未进行白话释读，不符合'普通读者能读懂的白话释读'目标。例如'火星见火，两相伤，定主为官不久长'等句未作解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001462-p000-261f0d4ec9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句基本为原文的断句和简单重复，未进行白话释读，不符合'普通读者能读懂的白话释读'目标。例如'火金相克，主瘟丘公讼，抽军出远乡'等句未作解释。'火金星仄窃'含义不明，释读未处理。"
+        ],
+        "uncertainty": [
+          "'火金星仄窃'含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001463-p000-aeaba687e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句基本为原文的断句和简单重复，未进行白话释读，不符合'普通读者能读懂的白话释读'目标。例如'火木星龙起势高，金吾上将执金刀'等句未作解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001464-p000-2617e89c62",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句基本为原文的断句和简单重复，未进行白话释读，不符合'普通读者能读懂的白话释读'目标。例如'火星盖水发龙行，此星返逆绝人丁'等句未作解释。'合沽'、'跏瞎'等词含义不明，释读未处理。"
+        ],
+        "uncertainty": [
+          "'合沽'、'跏瞎'含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001465-p000-a4555ea9c2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为韵文，candidate 基本为直译，未转换为现代白话文。'火星见土行相行类'句可能为'火星见土行相生类'或误字，释读未处理。'覃后昆发后'含义不明，释读未加说明。'更军贼烧窟法司门'句未解释。"
+        ],
+        "uncertainty": [
+          "整段韵文的风水含义。'火星见土行相行类'的准确读法。'覃后昆发后'的含义。'更军贼烧窟法司门'的具体所指。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1696,
+    "completion_tokens": 659,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2172,
+      "completion_tokens": 1169,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1696,
+      "completion_tokens": 659,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

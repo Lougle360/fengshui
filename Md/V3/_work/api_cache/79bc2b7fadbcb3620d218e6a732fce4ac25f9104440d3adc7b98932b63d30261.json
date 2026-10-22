@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-25T05:01:02.672702+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "79bc2b7fadbcb3620d218e6a732fce4ac25f9104440d3adc7b98932b63d30261",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000286-p000-6ae555c5ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不可至十”含义理解错误，原文指（某规则下）不能到十的位置，不是“不能数到十”；原文“中雞二針”是“中针、缝针”的讹写，candidate虽译对术语但未标注此处原文讹误；“本位之正则”未准确译出，漏译“则”对应的规则含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000292-p000-0d7adffc71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“青囊敘”引文中“星”“受”为衍字或讹字，已结合上下文语义做通顺处理",
+          "原文“繒甲”应为“纳甲”的形近讹字，按术数常用术语“纳甲”释读"
+        ]
+      },
+      {
+        "id": "book020-b000294-p000-a8ff7de1f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2450,
+    "completion_tokens": 314,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2450,
+      "completion_tokens": 314,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

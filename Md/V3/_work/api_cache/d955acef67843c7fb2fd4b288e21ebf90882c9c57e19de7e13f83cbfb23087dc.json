@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-25T05:30:05.226601+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d955acef67843c7fb2fd4b288e21ebf90882c9c57e19de7e13f83cbfb23087dc",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000084-p000-18ebb1576d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“举一千从”被误译为“遵循一定的规律运转”，属于原义偏离，该短语未得到准确释读。",
+          "2. 原文“经之阴者”被误译为“经文中所说的阴”，此处“经”并非指代经文，属于含义错解。",
+          "3. 原文注“即从东南巽角顺之戌为阴明矣”被误译为“也就是从东南巽角的戌位作为阴明之位”，遗漏了“顺之”的含义，不符合原文表述。",
+          "4. 原文“何异公忠受爵，违命变殃者乎”被误译为“这和对公忠之人授予爵位、违背命令招来灾祸的情况有什么区别呢”，逻辑关系错解，原意指“（顺阴阳则亨逆则否的道理）和为公尽忠就受封爵、违背命令就生灾祸的道理有什么不同”，当前译法将二者割裂，语义偏差。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2895,
+    "completion_tokens": 267,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2895,
+      "completion_tokens": 267,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

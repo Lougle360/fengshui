@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-26T12:19:15.778467+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8d069f34cdf400f2b13668e77dcccbe7854ca2fa23a30109244efe768e23875c",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000732-p000-714b72d95a",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版对原文进行了大量无依据的自由意译和增释，不符合古籍整理保守准确的要求：1. 擅自改写原文表述，如将“水无龙，则阳盛而阴弱。而气无以生”译为“水所在的区域如果没有龙，就会阳盛阴衰，气也无法生成”，添加了原文无的“水所在的区域”等表述；2. 对专业术语进行不当扩释，如“龙辨支嚨”被译为“辨别龙要看支脉和龙势”，未忠实保留原文术语；3. 多处增入原文没有的解释内容，如“满足这些条件之后才能成为合格的风水宝地”“辨别砂要看是顺向朝向穴场还是逆向背离”等均为无原文依据的添加；4. 误译原文内容，如“水若合宜，只怕百步而止”被译为“水只要形态合宜，哪怕只在百步之外停聚也会有不足”，与原文语义偏差；5. 自行补充原文未说完的内容，原文末尾为“吐穴隐”，候选版擅自补为“穴位就隐藏在其中”，不符合原文存疑的要求。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3404,
+    "completion_tokens": 323,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3404,
+      "completion_tokens": 323,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

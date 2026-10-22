@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T11:33:42.732026+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cdf69a378eb8c94a5754e766e56c5cf6ac98f505732eafe370dd62494182e6d7",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000734-p000-4f0f13b860",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“秋合人”未翻译，属于漏译；原文“天鸿日”应为“天鸿曰”，candidate虽释义为天鸿说，但原文“秋合人”内容缺失，导致语义不完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000738-p000-d223de6383",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地形鵝周大端的位”中“鵝”字未对应翻译，candidate擅自将“鵝周”改为“圓周”，属于无依据改写；“家富足錢財若是”语序调整后逻辑不符，原文是“若在鹅周大端的位置，家富足钱财”，candidate语序倒置有误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000739-p000-4eb6fffbcb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅存残句，无法确定完整含义"
+        ]
+      },
+      {
+        "id": "book024-b000740-p000-0bb481f248",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“兜優僻”未翻译，属于漏译；原文“入丁”被译为“人丁兴旺”虽语义相近，但“兜優僻”内容缺失，且“永来”应为“来永”？不对，原文是“永来屈曲鈎”，candidate译为“若來得屈曲”，但漏了“兜優僻”的处理，未标注也未翻译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000741-p000-39944e5a5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000743-p000-59fb322f97",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“六此”“後”未翻译，属于漏译；“尖射六”中的“六”未作处理，擅自省略，且未标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000744-p000-706181c765",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000745-p000-a5b0ed472c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子者友為大吉之元挹身格云”中“子者友”未正确翻译，candidate擅自省略该内容，属于漏译；“具降”被译为“有降福”属于无依据增译，原文未提及“福”，仅为“具降”，含义不明不应臆测；“元巳水是真在來去皆結產巨公”中“真在”未翻译，漏译内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000747-p000-bd8aac8229",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文为疑似残句，无有效语义可释读，candidate直接保留原文但未标注语义不明，不符合通俗释读要求"
+        ],
+        "uncertainty": [
+          "原文语义不明，无法释读"
+        ]
+      },
+      {
+        "id": "book024-b000749-p000-14dda0a740",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“再月氣”中“月氣”属于无术语依据，不应直接保留未作说明；“穴須憂米龍陰陽花 卷”中“米龍陰陽花”为不明专名，candidate直接照搬未标注含义不明，且“卷”字未说明是原文残卷标识，易误导读者"
+        ],
+        "uncertainty": [
+          "“月氣”“米龍陰陽花”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2140,
+    "completion_tokens": 1062,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2140,
+      "completion_tokens": 1062,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

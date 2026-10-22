@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T14:06:04.649487+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c9fbb889d76a5d48646aa6d2a69225def712fb239cb0fadfa2e71af81c5cd1d7",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000493-p000-d3a215df89",
+        "modern_text": "为方便起见，暂且延后详细说明大衍求一术，现在假设通过@求一术，已经由奇数和定母确定了乘率的值。在「余米推数」题中，乘率分别为x₁=15、x₂=5、x₃=11。此时，将乘率乘以衍数，得到用数，再将该值乘以已知的余米数，相加后得到总数。从这个总数中减去衍母的倍数，所得结果就是要求的篱的容量（X=3193）。简单来说，大衍总数术以「所求数≡总数(mod衍母)」的形式，",
+        "confidence": "high",
+        "uncertainty": [
+          "衍数的具体数值及对应表达式、用数的具体数值及对应表达式、余米数的具体数值及对应表达式、总数的具体数值及对应表达式、衍母的具体数值及对应表达式"
+        ]
+      },
+      {
+        "id": "book015-b000496-p000-3c9a313108",
+        "modern_text": "从以上分析来看，大衍总数术与中国剩余定理1对1对应，这是毋庸置疑的。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2110,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2110,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

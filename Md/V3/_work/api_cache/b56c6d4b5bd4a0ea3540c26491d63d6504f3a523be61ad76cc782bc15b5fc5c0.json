@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-24T20:57:36.777973+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b56c6d4b5bd4a0ea3540c26491d63d6504f3a523be61ad76cc782bc15b5fc5c0",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000094-p000-801da278d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "天之雅日卯地元龍明 甲人元龍公乙坛天元龍具体含义不详",
+          "忌幼的“幼”具体所指未明",
+          "伝用梦巨門中的“梦”字含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000098-p000-47645511f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "旅神、涼神的具体含义原文未详细说明"
+        ]
+      },
+      {
+        "id": "book017-b000100-p000-3f84a613c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "日文假名“ね”无对应中文译法",
+          "欲宜隱歲之出紅宜通暢宜開陽断句混乱，含义不明",
+          "星定恆山出然表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000101-p000-aad674dd6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子手間”应是OCR识别错误，candidate误写为“子、午之间”，属于无依据修正"
+        ],
+        "uncertainty": [
+          "“四莫季乙丁孔山”具体含义不明",
+          "“收钦須將生氣象半關”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000104-p000-cb76a08d62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段前文存在大量识别错误，语义无法解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1913,
+    "completion_tokens": 473,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1913,
+      "completion_tokens": 473,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-10-15T02:30:48.037074+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "47b9d9a95277fd6f6d0b7537be6ae15aaaffdcec63645ca9cfc29e912973b87e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001753-p000-f571d09264",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文表格第一行有‘销贸’标题，candidate 直接作为段落开头，未明确其为标题。",
+          "2. 漏译：原文表格第二行有‘室 (10’ 的页码标记，candidate 将其混入正文末尾，未清晰标注。",
+          "3. 漏译：原文表格第三行有‘局 (o)’ 的标记，candidate 完全遗漏。",
+          "4. 漏译：原文表格第四行有‘码’的标记，candidate 完全遗漏。",
+          "5. 增译：candidate 在‘室塞’段末尾添加了‘页码标记为10和3。’此信息原文无对应，属于无依据扩写。",
+          "6. 结构混乱：candidate 将表格中分列的内容（如‘销贸’、‘室塞’、‘倾倒’、‘逼窄’、‘偏侧’）处理为连续段落，未体现原文的条目化结构。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001758-p000-b9e0b9cbee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001759-p000-2a09f20400",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文在‘吴公口诀云：明堂’处中断，后续内容缺失，无法完整翻译该口诀。"
+        ]
+      },
+      {
+        "id": "book033-b001760-p000-2e22554966",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘其形工一’及‘睡理外贼增钳毗寺锤结贿三格’等句存在严重 OCR 识别错误或原文残缺，导致部分术语含义难以确证，译文仅保留原词结构并做通顺处理，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b001763-p000-134a7aacbf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文表格中‘正去水求’、‘右去S’两行，candidate 仅保留标题并加注，但未体现其在表格中的独立行结构。",
+          "2. 结构混乱：candidate 将表格内容处理为连续段落，未清晰区分‘诗曰’、‘直木城’、‘横木城’、‘斜木城’、‘正去水求’、‘右去S’、‘单火城’、‘双火城’等独立条目。",
+          "3. 页码标记处理不当：原文表格末尾有页码标记‘2’，candidate 将其混入‘双火城’描述中，应独立标注或保留原结构。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3605,
+    "completion_tokens": 747,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3605,
+      "completion_tokens": 747,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

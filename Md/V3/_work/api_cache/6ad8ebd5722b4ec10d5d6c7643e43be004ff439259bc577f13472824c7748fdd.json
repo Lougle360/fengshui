@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T11:06:59.429802+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6ad8ebd5722b4ec10d5d6c7643e43be004ff439259bc577f13472824c7748fdd",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000046-p000-320341b456",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000047-p000-c3bd87da7b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": []
+      },
+      {
+        "id": "book012-b000048-p000-f8c726482a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000049-p000-8990e1a494",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“非春知其”“何多符食”“從嶺坐大”“乾坤卯今金同坐皆明”等表述存在明显释读偏差，属于无依据的臆改，不符合原文含义"
+        ],
+        "uncertainty": [
+          "原文中“十個退神靈如鬼，十四進神卯鬼雪是”“非春知其”“何多符食”“從嶺坐大”“乾坤卯今金同坐皆明”等表述含義不確定，未擅自解讀"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1990,
+    "completion_tokens": 319,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1990,
+      "completion_tokens": 319,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

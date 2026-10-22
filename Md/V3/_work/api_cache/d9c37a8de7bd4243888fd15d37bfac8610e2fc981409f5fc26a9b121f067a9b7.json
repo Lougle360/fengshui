@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T01:17:00.588556+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d9c37a8de7bd4243888fd15d37bfac8610e2fc981409f5fc26a9b121f067a9b7",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005119-p000-c12c3b8701",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将表格内容处理为连续的段落描述，严重改变了原文的呈现结构和信息组织方式。原文是带有跨行跨列结构的表格，包含明确的条目分类和图文对应关系，而候选文本将其简化为一系列“第几行包含……”，丢失了表格的层级、并列和视觉分隔信息。",
+          "候选文本对表格中大量重复的“建”字进行了概括性描述（如“罗列了‘馬祿才六人地天建建建建建建建水去’”），这属于不当的摘要化处理，改变了原文的精确表述。原文中重复的“建”字可能有特定含义或计数作用，不应合并。",
+          "候选文本将表格中独立的图像标签（<img>）统一描述为“表格中多处配有图示，但具体图示内容未在文字中详述”，这未能忠实反映原文中图像与特定文字条目（如“照后主一函”、“星官朝”等）紧密相邻、可能作为图示说明的对应关系。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 265,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2059,
+      "completion_tokens": 265,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

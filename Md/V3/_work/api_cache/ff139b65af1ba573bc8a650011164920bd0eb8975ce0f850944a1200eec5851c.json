@@ -1,0 +1,130 @@
+{
+  "created_at": "2026-10-18T08:12:45.413634+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ff139b65af1ba573bc8a650011164920bd0eb8975ce0f850944a1200eec5851c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005937-p000-58b2e80348",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'乙已界犯關煞流神宜斗金木火度中來去出公卿將相'，candidate 将'乙已界'释为'乙巳界'，但原文为'乙已'，干支有误，应保留原文'乙已'并标注不确定性。",
+          "原文'胃昂畢三宿度中軫水金火木軫五土度中來去'，candidate 断句为'胃、昂、毕三宿度中，轸水、金、火、木、轸五土度中来去'，但原文'軫五土度中'可能指'轸宿五度土度中'，candidate 的断句可能改变了原意，应更保守地处理。",
+          "原文'柳水度中來去旺人富貴'，candidate 释为'柳水度中来去，旺人富贵'，但原文'柳水度中'可能指柳宿的水度，candidate 未明确标注'水'为星宿五行属性，存在歧义。",
+          "原文'壁水度中來去吉'，candidate 释为'壁水度中来去吉'，同样未明确'水'为星宿五行属性。",
+          "原文'唯忌土度中來去大凶'，candidate 释为'唯忌土度中来去，大凶'，但前文已有'轸五土度中'，此处'土度'可能泛指土属性的星度，candidate 未标注此不确定性。"
+        ],
+        "uncertainty": [
+          "'乙已界'可能为'乙巳界'之误，但原文如此。",
+          "'軫水金火木軫五土度中'的断句和具体所指（是轸宿的水、金、火、木度，以及轸宿五度的土度？还是其他组合？）存在歧义。",
+          "'柳水度'、'壁水度'中的'水'指星宿的五行属性（水度），非风水中的'水'。",
+          "'土度'可能指土属性的星度，具体对应哪些星宿不详。"
+        ]
+      },
+      {
+        "id": "book035-b005938-p000-4fab334af9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005939-p000-815f500858",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005940-p000-0c27409587",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005941-p000-d3bc3a68cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005942-p000-3898f9b68d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'壁水偷管憶或作龍蛇出洞形'，candidate 释为'壁水偷管，或作龙蛇出洞形'，但'壁水偷管'含义不明，candidate 未标注其为不透明术语或存在歧义。",
+          "原文'氣上在穴生蛇下水黃蛇下水黃蛇搏鼠形皆合正乙山形合法'，candidate 断句为'气上在穴生蛇，下水黄蛇，下水黄蛇搏鼠形，皆合正乙山形合法'，但原文重复'下水黃蛇'，可能为衍文或特定描述，candidate 的处理可能简化了原文结构。",
+          "原文'女虛危三宿度中來去凶'，candidate 释为'女、虚、危三宿度中来去凶'，但'女'宿在星宿体系中通常为'女宿'，candidate 未明确其为星宿名。",
+          "原文'忌水度凶'，candidate 释为'忌水度凶'，但'水度'指星宿的水属性度，非风水'水'，candidate 未标注此区别。"
+        ],
+        "uncertainty": [
+          "'壁水偷管'具体所指不详。",
+          "'氣上在穴生蛇下水黃蛇下水黃蛇搏鼠形'的句读和具体描述存在歧义。",
+          "'女'宿作为星宿名，在此语境中需明确。",
+          "'水度'指星宿五行属性，非风水中的水流。"
+        ]
+      },
+      {
+        "id": "book035-b005943-p000-6f4f026bfa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005944-p000-4ad95399ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005946-p000-fd3b31d337",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在明显重复段落：'山木穴入朝一發便絕异姓同居合活有衣食必有其事亦不久迨后人遇此山水不可妄扦'。candidate 按原样重复释读，但未在释读中明确标注此重复可能为错误或需注意。根据判定边界，对于原文明显问题（如重复），candidate 应标注不确定性，而非简单重复。"
+        ],
+        "uncertainty": [
+          "原文段落明显重复，可能为抄录或 OCR 错误，具体正确原文不详。"
+        ]
+      },
+      {
+        "id": "book035-b005947-p000-39376ebfb3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'宜胃昂華三宿金水火土度中朝入'，candidate 释为'宜胃、昂、华三宿金水火土度中朝入'，但'華'宿可能为'畢'宿之误（前文有'胃昂畢'），candidate 未标注此可能错误或歧义。",
+          "原文'柳水土金度中來去'，candidate 释为'柳水土金度中来去'，但'柳水土金度'可能指柳宿的水、土、金度，candidate 未明确标注'水''土''金'为星宿五行属性。",
+          "原文'忌木度中水來去凶'，candidate 释为'忌木度中水来去凶'，但'木度中水'可能指木度中的水来去，或'木度'和'水'来去，断句和含义不明，candidate 处理过于简化。",
+          "原文'婁宿度中去亦大凶'，candidate 释为'娄宿度中去亦大凶'，但前文有'娄小空房进舍'，此处'娄宿度'可能指娄宿的度，candidate 未标注其与前述'娄'的关系。"
+        ],
+        "uncertainty": [
+          "'華'宿可能为'畢'宿之误。",
+          "'柳水土金度'的具体组合和含义不详。",
+          "'忌木度中水來去凶'的断句和具体所指不详。",
+          "'娄宿度'与前述'娄小空房'的关系不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3744,
+    "completion_tokens": 1600,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3744,
+      "completion_tokens": 1600,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

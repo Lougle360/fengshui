@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T03:02:20.772679+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7c2a68fb556842001d8dec1edae57dc53bf425664b87b7b44503a0cefd0d108a",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b002017-p000-6ed17cde27",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“字东傅”的具体含义，“傅”的准确释义，相关表述的具体所指有待考证"
+        ]
+      },
+      {
+        "id": "book017-b002023-p000-f172a353e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“向”被误写为“岭向派”，违反了必须保留原术语的要求；将“画贡”直接释读为“画贡内容多是表达痛心激愤的情绪”属于无依据的确定释义，原文“画貢”表意不明，不应赋予确定含义；原文“嶺向派”的“向”属于locked_terms，需原样保留，不应随意组合为派名"
+        ],
+        "uncertainty": [
+          "“畫貢”的具体含义，“夷乌”的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1125,
+    "completion_tokens": 254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1125,
+      "completion_tokens": 254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

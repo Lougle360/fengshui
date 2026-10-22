@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-26T05:54:08.238776+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d826f9b4f2d2d34154166fc6b18de4db1bae707567f0aa8c46870f37ee95e54e",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002604-p000-ecc5b034bf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002611-p000-b37e091695",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文将‘黄泉水’列为忌放的主体，候选释读错误将‘丙虎水丑’拼接为‘丙虎水位于丑位’，且拆分原句结构，把黄泉水的禁忌对象和归属关系译错，语义与原文不符"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 757,
+    "completion_tokens": 156,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 757,
+      "completion_tokens": 156,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T06:29:47.057855+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "03b6c9025660833526ad36084e50a35fdb2e7b324567138779d970e837e6b5c9",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000071-p000-a57cfffd8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000072-p000-8adcb2822f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000073-p000-adadb4228d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译，原文开头包含“皮；”二字，对应上句内容，候选人未将其译出"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2084,
+    "completion_tokens": 176,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2084,
+      "completion_tokens": 149,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2084,
+      "completion_tokens": 176,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

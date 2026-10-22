@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T16:21:40.889079+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f8bbc27da56ba7b5e17702b564e52cb5cdba35a1e9d3210e457429cef433c40e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000132-p000-8873e25423",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000134-p000-369dd6ee4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“向”为locked_terms，候选释读未保留该术语的特定含义，且将“扬榷”释为“辨别”、“推展”释为“发展”，未严格遵循术语使用要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 166,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1078,
+      "completion_tokens": 166,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

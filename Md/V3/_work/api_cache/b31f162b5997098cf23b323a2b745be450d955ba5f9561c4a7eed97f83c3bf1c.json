@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T18:09:30.401949+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b31f162b5997098cf23b323a2b745be450d955ba5f9561c4a7eed97f83c3bf1c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001706-p000-fb1bf1559a",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 《象》传说：山附于地，剥①；上以厚下安宅②。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001707-p000-dcb2eab4f5",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：高山颓落委附在地面，象征“剥落”；居上者因此丰厚基础、安固宅屋。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001708-p000-a7a00035d4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "匡释①山附于地，剥：解释《剥》卦的卦象是上为艮（八卦之一）、下为坤（八卦之一，卦象及五行、方位依原文语境确定）。《集解》引用卢氏的话说：“山原本高耸于地面之上，如今却依附在地面，显然是被剥落了。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001709-p000-8c51d1327f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②上以厚下安宅：“上”指居上位的人；“厚”“安”都用作动词，意为“加厚”“安固”；“下”指下位，如同说“基础”。这句是说居上位的人观察《剥》卦的卦象，领悟到要加厚基础、安固宅屋，以此防止“剥落”的道理。《正义》说：“剥的含义是从下往上发展的，所以居上位的人应当加厚下方的基础，安定众人的居所，以此防止剥落的发生。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1705,
+    "completion_tokens": 550,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1705,
+      "completion_tokens": 550,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

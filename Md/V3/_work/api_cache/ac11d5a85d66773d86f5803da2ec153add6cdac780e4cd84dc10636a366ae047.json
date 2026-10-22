@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:02:43.273809+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ac11d5a85d66773d86f5803da2ec153add6cdac780e4cd84dc10636a366ae047",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000129-p000-0162b90e22",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文的‘頗顛倒’（意为‘多有颠倒’）误释为‘顺着’，语义完全相反，属于反义误译"
+        ],
+        "uncertainty": [
+          "原文‘頗顛倒’的具体所指未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 828,
+    "completion_tokens": 104,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 828,
+      "completion_tokens": 104,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

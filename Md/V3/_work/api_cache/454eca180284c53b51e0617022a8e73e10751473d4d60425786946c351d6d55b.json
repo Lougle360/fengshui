@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T23:35:21.493109+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "454eca180284c53b51e0617022a8e73e10751473d4d60425786946c351d6d55b",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001250-p000-95c815d3c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在日文假名、乱码及残缺内容，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001258-p000-b98ef2cd77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句“重令狼龍”被误译为“看重贪狼龍”，未忠实原文表述；原文“怨公福”被误译为“带来的福报”，含义篡改；原文“辦非巨富而有文秀之秦”被误译为“虽然不是巨富之家，却有文秀的风气”，存在无依据扩写与含义篡改；原文“子經唯以經稅为生”被误译为“子孙就只能靠缴纳税款相关的营生过活”，存在含义偏差；原文“仍事擇雀”被误译为“还从事‘择雀’相关的事宜”，未忠实原文表述"
+        ],
+        "uncertainty": [
+          "“經稅”具体指代的营生类型未明确，“擇雀”的具体含义原文未说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 959,
+    "completion_tokens": 279,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 959,
+      "completion_tokens": 279,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

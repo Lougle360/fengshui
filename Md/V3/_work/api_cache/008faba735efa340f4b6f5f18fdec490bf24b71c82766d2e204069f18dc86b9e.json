@@ -1,0 +1,204 @@
+{
+  "created_at": "2026-09-23T11:50:57.134142+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "008faba735efa340f4b6f5f18fdec490bf24b71c82766d2e204069f18dc86b9e",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000436-p000-e482966e01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义晦涩，具体所指不详，此处仅做字面直译，未做引申解释。"
+        ]
+      },
+      {
+        "id": "book003-b000438-p000-274ccd3864",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000439-p000-4086101f63",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“血脉在外精神在裡雖雄媾合玄從尾底言山水交合之處即精神聚會之處”一句，candidate 断句为“血脉在外，精神在内。虽然雄雌交合，但玄妙的道理要从尾底来说。山水交合的地方，就是精神聚会的地方。” 其中“雄雌交合”是对“雄媾合”的推测性解释，原文“雄媾合玄”含义不明，candidate 将其明确为“雄雌交合”并引申为“玄妙的道理”，属于无依据扩写。应保留原文短语并标注不确定性。",
+          "原文“龍底穴左肩脉之盡 男女玄牝之門是陰陽妙合之眞境也”，candidate 译为“龙底穴左肩脉的尽头，是男女玄牝之门，是阴阳妙合的真实境界。” 其中“男女玄牝之门”是对“男女玄牝之門”的直译，但“男女玄牝”本身是含混术语，candidate 未标注其不确定性。",
+          "原文“育水魯之處指穴反于水頭上尋穴是棄 其所止取其所脉”，candidate 译为“是养育水气的地方。如果指着穴反在水头上寻找穴，这是舍弃它所止息的地方而取它所脉动的地方。” 其中“育水魯之處”含义不明，candidate 将其解释为“养育水气的地方”属于推测，应保留原词并标注不确定性。“脉动”一词是现代引申，原文“脉”指脉络，宜用更中性的词如“脉络”或保留“脉”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000441-p000-5ce4dae72d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000442-p000-425ca9190f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000443-p000-d55ddab0d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不頸堂局自開不端不正者”，candidate 译为“不颈堂局，自开不端不正者”。其中“不頸堂局”含义不明，candidate 直接保留而未做任何说明，导致现代读者无法理解。应标注其不确定性。",
+          "原文“東牽西潔”，candidate 译为“东牵西洁”。“洁”字在此处可能为“掣”或“扯”之误，但 candidate 未标注此可能的文字问题，直接音译可能导致误解。",
+          "原文“子孫逃寬軍徒刑橫”，candidate 译为“子孙逃宽，军徒刑横”。“逃宽”含义不明，candidate 直接保留而未做说明。应标注其不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000445-p000-76f863458d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文重复，可能为传抄错误或强调，此处保留原意直译。"
+        ]
+      },
+      {
+        "id": "book003-b000446-p000-20b19cd5a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“則氣滇不收”，candidate 译为“则气滇不收”。“滇”字在此处含义不明，可能是“填”或“淀”之误，意为停滞、积聚。candidate 直接保留“滇”字而未做说明，影响理解。应标注其不确定性。",
+          "原文“成四維受氣”，candidate 译为“成四维受气”。“四维”是风水术语（通常指乾、坤、艮、巽四个方位），但 allowed_glossary 中未包含，candidate 未做解释，直接保留，对于普通读者可能费解。应标注其可能为方位术语。",
+          "原文“作震向疆受”，candidate 译为“作震向疆受”。“疆受”含义不明，candidate 直接保留而未做说明。应标注其不确定性。",
+          "原文“要避雙金真氣”，candidate 译为“要避双金真气”。“双金”是风水术语，但 allowed_glossary 中未包含，candidate 未做解释，直接保留，对于普通读者可能费解。应标注其可能为特定术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000447-p000-452c96a2a6",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选句未进行任何白话释读，仅将原文文字无空格排列，不符合‘普通读者能读懂的白话释读’目标。原文语义不明，候选句未提供任何解释或风险标注。"
+        ],
+        "uncertainty": [
+          "原文‘受直氣阴沙長 形風蜈天上’语义不明，字词组合异常，可能为OCR错误或原文损坏，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book003-b000448-p000-c0e06343f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000449-p000-2deaffa48e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“能體出身沙頭長直或二三里遠中間有水挿入內王尺經 卷之四”，candidate 译为“能体出身沙头长直，或二三里远，中间有水插入内。” 并标注了不确定性。但 candidate 完全删除了原文末尾的“王尺經 卷之四”，这可能是书名或页码信息，属于漏译。即使可能是衍文，也应保留并标注，而非直接删除。"
+        ],
+        "uncertainty": [
+          "原文存在 OCR 识别错误或漏字（如“内王尺经”），此处根据上下文推测为“内”，并保留“尺经”作为可能的书名残留，但语义不完整。"
+        ]
+      },
+      {
+        "id": "book003-b000450-p000-63edf147c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或耳受農受皆可”，candidate 译为“或耳受、农受皆可”。“农受”含义不明，candidate 直接保留而未做说明。应标注其不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000451-p000-d69c4a84d9",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“谢关”“斜阅”“多币”等词含义不明，可能是特定术语或 OCR 错误，此处仅做字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000452-p000-b581948b22",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000454-p000-4d8727cb3a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“业外”语义不明，可能是“案外”之误，但无法确证，故保留原词直译。"
+        ]
+      },
+      {
+        "id": "book003-b000455-p000-867d7ae6b4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“回阅”可能为“回环”或特定术语，但证据不足，保留原词直译。"
+        ]
+      },
+      {
+        "id": "book003-b000456-p000-8a638d4583",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“更得襲閑雙徽福力尤建”，candidate 译为“更得袭闲双徽，福力尤建”。“袭闲双徽”含义不明，candidate 直接保留而未做说明。应标注其不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000457-p000-bb419d3bb4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000458-p000-71244172e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000460-p000-8cd75c2d63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 594,
+    "completion_tokens": 126,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5068,
+      "completion_tokens": 2097,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 594,
+      "completion_tokens": 126,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

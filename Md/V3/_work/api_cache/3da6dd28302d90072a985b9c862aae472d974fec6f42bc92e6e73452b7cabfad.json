@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T07:14:49.565277+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3da6dd28302d90072a985b9c862aae472d974fec6f42bc92e6e73452b7cabfad",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000059-p000-d6161bbc32",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“必是坏明之穴”误释为“必是显明的好穴”，含义完全相反；将原文“其垂头之情”误写为“其乖头之情”，字形错误导致含义偏差；直接对原文残损语句强行串联释读，未标注对应内容属于残句语义不明，易误导读者认为是完整通顺的表意；原文出现的日文假名“ゾ”“べ”未标注，直接忽略混入上下文处理不符合要求；原文“雉长而平不甚峻而”“极长而平在”等明显残断内容未明确标注为残句，直接和后续内容拼接释读"
+        ],
+        "uncertainty": [
+          "表格存在大量OCR识别错误、语句残损、文字讹误内容，多数风水相关表述因上下文断裂无法明确具体含义；部分生僻风水术语无权威注释无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2970,
+    "completion_tokens": 235,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2970,
+      "completion_tokens": 235,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

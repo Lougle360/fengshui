@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-09-25T04:27:29.577791+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0b00631030520dcb71f7659ccddae2a261ba5956d4830ca9d7576742b451bf28",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000395-p000-f9fb5f6f9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "出典大歲的具体含义"
+        ]
+      },
+      {
+        "id": "book036-b000400-p000-2df4f4e85d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "高人低者是的具体含义"
+        ]
+      },
+      {
+        "id": "book036-b000405-p000-d9fc8b6301",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "e 屬的具体含义",
+          "知制諸經筵的具体所指"
+        ]
+      },
+      {
+        "id": "book036-b000410-p000-b36e744365",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“咸震夷裏”的“震”为震慑之义，不属于allowed_glossary中规定的“八卦之一”的术语使用场景，此处无需按术语要求限定，释读为“声威震慑边远少数民族地区”无误，但需注意locked_terms“震”的保留要求不适用该语境下的语义释读，且原文“節鐵”释为“节铁”未明确说明该专名具体所指，存在表述模糊问题"
+        ],
+        "uncertainty": [
+          "節鐵的具体含义"
+        ]
+      },
+      {
+        "id": "book036-b000418-p000-8f9daad954",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "人貴誥展的具体含义"
+        ]
+      },
+      {
+        "id": "book036-b000420-p000-3e38363055",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不扶不舒”释为“不偏斜不舒展”属于无依据释义，“扶”“舒”在风水语境中的具体含义未明确，不应直接释为偏斜、舒展，应标注该短语具体所指不详"
+        ],
+        "uncertainty": [
+          "不扶不舒的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2125,
+    "completion_tokens": 495,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2125,
+      "completion_tokens": 495,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

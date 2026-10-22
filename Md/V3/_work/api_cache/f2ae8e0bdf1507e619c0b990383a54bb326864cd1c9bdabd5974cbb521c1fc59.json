@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T18:28:49.476191+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f2ae8e0bdf1507e619c0b990383a54bb326864cd1c9bdabd5974cbb521c1fc59",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004323-p000-bbd90a6b24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文表格结构已完全破坏，无法还原列与行的对应关系",
+          "大量字符为OCR识别错误或原书残损，如't声'、'1'、'夏兮'、'氧功'等，具体所指不详",
+          "文中出现的'龙宝厌斯波'、'龙星拐铁'等短语，因上下文缺失，具体含义不详",
+          "无法确定'太乙官'、'云中太真'等词在文中的确切指代",
+          "原文中'登科'、'富'、'贵'等词虽可识别，但缺乏完整的判断句式，无法还原其风水断语的具体内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1733,
+    "completion_tokens": 200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1733,
+      "completion_tokens": 200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

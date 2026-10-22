@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-25T18:53:02.297802+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c64e6ae3dd2c578e2db6810d1edae6a3365af8595d0454b03d3ec55211a33933",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000426-p000-709eeb67db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "干支错误：原文为“戌寅”，实际不存在该干支组合，候选直接作“戌寅年”未作讹误标注，且将“当固田水”误译为“正对着的田水”，原文“固”应为讹字，未标注风险",
+          "原文“仓駁門極然”释为“就像仓驳门的样子”不准确，“极然”语义未体现，且原文“伤尤主富盛”误译为“尤其主家会富足兴盛”，漏译“伤”字语义，未说明“伤”在此处的含义或标注歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000433-p000-5e2f76ca9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "陵案幼杀具体含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000434-p000-e3b16342a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“姚 徐誠可地理檄人卷二 鑑水三十九”标注为不属于正文内容依据不足，未说明判定理由，且“平如片正而不偏”被拆分释读为“总归要以平整、端正不偏斜为可贵，原文用‘平如片’来形容这种平整的状态”，割裂原文语句，不符合原意"
+        ],
+        "uncertainty": [
+          "“平如片”的具体表述含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000435-p000-2e79c66c65",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不槩而堂局”被误译为“可堂局”，“不槩”语义未准确释读，也未标注歧义；原文“收侯卷二鑑水四十”误释为“侯卷二鑑水四十”，漏译“收”字，且直接判定不属于正文依据不足；原文“職聚”被误译为“收拢”，未标注该词含义存疑的风险",
+          "擅自修正原文重复讹误内容，未保留原文问题标注直接改为通顺表述，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原文存在重复讹误内容“初塟時人不以爲意目下 九年初塟時人不以爲意目下見歲歲增產子餘金不知其他堂局之偏者曾于”，含义难以完全确定",
+          "“田水層層朝八堂來”的“八”疑为“入”的讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2281,
+    "completion_tokens": 621,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2281,
+      "completion_tokens": 621,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

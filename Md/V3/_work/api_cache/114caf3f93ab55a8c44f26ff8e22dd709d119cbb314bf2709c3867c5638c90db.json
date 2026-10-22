@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:00:59.151092+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "114caf3f93ab55a8c44f26ff8e22dd709d119cbb314bf2709c3867c5638c90db",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000100-p000-e4a6afc4e2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处断句与文字错乱，释读时未体现该情况，且将“午卯西”误写为“卯酉”，属于干支误换；“號街”“內有其第”等断句错误，导致语义偏差"
+        ],
+        "uncertainty": [
+          "原文存在多处断句与文字错乱，难以完全准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 825,
+    "completion_tokens": 121,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 825,
+      "completion_tokens": 121,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:37:49.785491+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1b1c817943f4ce8ed78cbeda6264a293abf8a951a4d111b57e47e5db1b167f34",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000869-p000-e6572c1eea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾的「1司」含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000870-p000-acddfcb4fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000871-p000-e8a2134081",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中的「戊實台」含义不明，「二八4」的数字格式存疑"
+        ]
+      },
+      {
+        "id": "book010-b000872-p000-c3b748c44d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中的「三ん六」「六ミ九」字符含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 235,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1173,
+      "completion_tokens": 235,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T21:11:59.913539+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "582c7b58cd8122dbf221566a1bdda9e6a752364ba3728fb9ac83547c685b13bc",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000198-p000-04765ba303",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“左石执法”是原文讹字，candidate直接称“原本的‘左石执法’是‘左右执法’的讹写”属于无依据增注，原文未明确标注该讹误，不应自行订正；source中“圖之形地垣微太”“圖之星天垣市天”“圖之形地垣市天”为图题，candidate未做对应说明，也未保留原标注；allowed_glossary中“明堂”指穴前开阔空间，此处是太微垣对应的星官/宫室类明堂，未做区分，存在术语误用风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000202-p000-1572c62f9c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3778,
+    "completion_tokens": 253,
+    "cached_prompt_tokens": 1336,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3778,
+      "completion_tokens": 253,
+      "cached_prompt_tokens": 1336,
+      "usage_estimated": false
+    }
+  ]
+}

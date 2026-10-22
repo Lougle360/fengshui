@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:35:27.953420+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2c71c4777b80a5b3917506461a40af63783a95fc1d75c087000333d187b377bb",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001105-p000-d1fb5a8a1a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“离”为《周易》卦爻术语，按allowed_glossary定义为八卦之一，此处释读未明确对应该术语的卦象属性，仅保留原义，符合要求"
+        ]
+      },
+      {
+        "id": "book016-b001106-p000-d064629acc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001107-p000-99230acf7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001108-p000-5f78f6bc42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1851,
+    "completion_tokens": 237,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1851,
+      "completion_tokens": 237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

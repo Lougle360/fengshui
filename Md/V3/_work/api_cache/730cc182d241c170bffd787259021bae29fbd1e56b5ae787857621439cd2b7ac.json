@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T11:39:09.196546+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "730cc182d241c170bffd787259021bae29fbd1e56b5ae787857621439cd2b7ac",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000136-p000-7ebc4a6150",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000137-p000-5fca82b34a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“拼山併向”“拆盡諸道理”“虜公易舉”“畢城”“折蓋諸道理”“保贊”“水位却無紡”“二龍先行一龍上內反兼抱卷二折行二”“白手置田豐”等内容语义含混，释读未明确标注相关歧义，存在将不确定解释当作确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文中“拼山併向”“拆盡諸道理”“虜公易舉”“畢城”“折蓋諸道理”“保贊”“水位却無紡”“二龍先行一龍上內反兼抱卷二折行二”“白手置田豐”等内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000138-p000-09a984a801",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000139-p000-b8dbf5faf5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 388,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2059,
+      "completion_tokens": 388,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-04T11:07:49.749811+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3e6f398d473284c9a168505bf8ac2f44c1828d6f842e842c9db04557cce265b3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000685-p000-329668e027",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000686-p000-d327733e95",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘圖氣生乘葬’，疑似标题或短语，candidate 将其解释为‘圖解中關於氣的生發與乘載，以及安葬的相關內容’，属于无依据的扩写和确定化解释。应保留原文或标注其含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000687-p000-c8eac97bb8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000688-p000-04ec1ca0a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000689-p000-305274349c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000690-p000-ac06836367",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000691-p000-7c8a83414a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000692-p000-2fd841f70c",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在严重OCR错误，语意完全断裂。candidate 的处理方式（指出OCR混乱，无法释读）符合要求，但原文损坏程度已无法进行任何可靠的保守释读。"
+        ],
+        "uncertainty": [
+          "原文存在嚴重 OCR 識別錯誤，語句斷裂，語意不明，無法確定具體所指。"
+        ]
+      },
+      {
+        "id": "book035-b000694-p000-4d81380ff8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000695-p000-d77cb6dfe9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate 将‘陳方朔’释读为‘陈方朔’，但原文为‘陳方朔’，可能是‘東方朔’的OCR错误。candidate 未标注此不确定性，而是将其作为确定事实叙述。此外，对‘今上山引 矣 西 來尖矣山以 而鐘鳴’的处理过于顺畅，原文此处同样混乱，应明确标注语意不明。"
+        ],
+        "uncertainty": [
+          "原文‘陳方朔’可能为‘東方朔’之误。‘今上山引 矣 西 來尖矣山以 而鐘鳴’部分语意不明，存在OCR错误或脱文。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 619,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2063,
+      "completion_tokens": 619,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

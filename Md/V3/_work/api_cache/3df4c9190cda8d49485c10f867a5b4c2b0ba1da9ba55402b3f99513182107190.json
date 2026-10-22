@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-09-25T10:40:20.505065+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3df4c9190cda8d49485c10f867a5b4c2b0ba1da9ba55402b3f99513182107190",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b003005-p000-4cb5d07b8e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字为地支“未”，候选误写为八卦“离”，属于核心信息错误",
+          "原文水名是“色衣水”，候选仅将“色衣水”括注为水的通用含义，未完整保留水名结构",
+          "原文“主痨瘵、暗疾、贼盗、风声、离乡、孤寡、僧道、伶仃”是并列的事象，候选误将“僧道、伶仃”合并为“僧道伶仃之人”，拆分了并列结构",
+          "locked_terms中的“离”不应在此条目出现，属于张冠李戴"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003006-p000-055ebcd959",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003007-p000-aa8deaff43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003008-p000-60467280eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003009-p000-13e3bad631",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“主骤发富贵”包含富贵两层含义，候选仅译为“骤然发家致富”，漏译“贵”的相关内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003010-p000-7d9ec03bca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003011-p000-2c6cb674cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003012-p000-fcff464c94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003013-p000-f76aea0c0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文水名是“财禄水”，候选遗漏了该水名，仅保留水的通用释义，属于信息缺漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b003014-p000-664b4a0f5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2137,
+    "completion_tokens": 688,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2137,
+      "completion_tokens": 688,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

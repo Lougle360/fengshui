@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-17T23:47:50.888876+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "916b454b0d249df6813842313cce97bf40a113cc472c8f7b4c73540bae74e6fd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005024-p000-62baf7ae52",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格内容概括为一段描述性文字，但source是包含多行多列、图文混合的复杂表格，candidate未能逐项对应呈现其结构、位置关系和图文对照关系，属于严重的漏译和结构改变。",
+          "candidate将表格中的文字内容（如穴形名称、诗句、格类标注）合并为一个长列表，破坏了原文的并列、对照和层级关系，且未保留原文的换行和分列。",
+          "candidate未提及表格中图像的具体位置（如‘拳摇右’、‘格正’等文字与图像的对应关系），仅笼统说明为‘图文对照’，未能忠实反映source的布局。",
+          "candidate中‘本表为风水术数中关于“金水”穴形分类的图示说明’属于对表格主题的概括，但source本身并未提供此类明确的主题句，属于无依据的扩写。",
+          "candidate末尾‘图中图像部分因 OCR 识别限制...’等说明是审校员的附加评论，不属于对source内容的释读，应删除。",
+          "candidate将‘格正’、‘格变’、‘正变’等术语与穴形名称混列，未能体现它们在表格中作为独立列（可能表示穴形变体或吉凶属性）的定位。"
+        ],
+        "uncertainty": [
+          "source为复杂表格，其确切的解读方式（如各列含义、图像与文字的具体对应规则）可能存在多种理解，但candidate的处理方式已超出保守释读的范畴。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3598,
+    "completion_tokens": 357,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3598,
+      "completion_tokens": 357,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

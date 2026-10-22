@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-25T21:39:13.229718+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "59dd34233b21edc391d6b01391d768d43d2de5216d3ce194006577a35ff7760c",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b001048-p000-c01cd5b61e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“若窟形寬酒中須有突”误译为“如果窟形宽阔，棺内要有突”，此处“酒中”应为原文讹误，候选无依据将其释为“棺内”，与原文语义不符"
+        ],
+        "uncertainty": [
+          "“正求輿架折窟狹用正濶用求”断句和含义不明",
+          "“架淺折收賔形狹小縣夾虛雨棺則正打葬之無屍”语义模糊",
+          "“瘡”为讹字，所在句语义不明",
+          "“眞氣邽書聚中”语义不明",
+          "“傅布水”具体含义不详",
+          "“曲折冰出去”具体做法不明"
+        ]
+      },
+      {
+        "id": "book030-b001052-p000-cffae20977",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“架起故棺法”中“故”应为讹误",
+          "“突象開井有四法”后续名目数量与前文矛盾，原文可能有缺漏讹误",
+          "“侯併與斜插突單用挨雙併中正斜偏捕同”具体含义不明",
+          "“因左卷四鼎穴六十三”语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1581,
+    "completion_tokens": 351,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1581,
+      "completion_tokens": 351,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

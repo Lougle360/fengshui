@@ -1,0 +1,142 @@
+{
+  "created_at": "2026-09-23T17:20:36.738189+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "33f0d807edea83cdd7e7ededf6b5fed5565c180bae40dce52aec6d791ed313f5",
+  "response": {
+    "items": [
+      {
+        "id": "book005-b000138-p000-80279f1623",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“拿斧先量正柱次首左邊轉身柱”一句，candidate译为“先拿斧头测量正中的柱子，接着测量左侧的转身柱”，漏译了“次首”一词，且“正柱”译为“正中的柱子”可能不准确，原文可能指“正柱”这一构件。",
+          "“粗太”译为“粗大的木材”是推测，原文可能为“粗大”或“粗太”的误写，但candidate未标注不确定性。",
+          "“正数”译为“正数时不可有零头”，含义模糊，candidate未标注不确定性。",
+          "“天星”、“七十二地星”作为术语，candidate直接引用并加引号处理，符合要求。",
+          "“水椹”作为opaque_term，candidate直接引用并加引号处理，符合要求。但“此人家水椹”译为“此人家用的‘水椹’”，将“人家”理解为“人家用的”是推测，原文可能指“人家”这一建筑类型，candidate未标注此不确定性。",
+          "“荷業線”译为“‘荷业线’”，直接引用，符合要求。",
+          "“柁驅戒倣貼稍”译为“‘柁驱戒仿贴稍’”，直接引用，符合要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000140-p000-06c9764cc8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“潤一丈三尺三分高”译为“‘润’一丈三尺三分高”，将“润”作为未解术语引用，但“润”在此处可能通“阔”，指宽度。candidate未将此可能性作为不确定性标注。",
+          "“長天尺”译为“长‘天尺’”，直接引用，符合要求。",
+          "“義官位”、“官字”、“官义”作为未解术语，candidate直接引用，符合要求。",
+          "“大吉財二字上見各天星吉地德星兄”译为“大吉。‘财’二字上见各‘天星’、‘吉地’、‘德星’。”断句和释义可能不准确，原文可能为“大吉财二字上，见各天星、吉地、德星”，candidate未充分标注此处的句读和含义不确定性。",
+          "“中門兩邊俱后格式家房之也”处理为文句不通并标注，符合要求。",
+          "“見孫方有尊甲县小期大之故”处理为文句不通并标注，符合要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book005-b000141-p000-c2def89c04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“壮修”、“城枝”、“演开八字”、“壮架”、“一林光”、“闻尖的”、“骨班经”等术语含义不明，candidate已加引号引用并列入uncertainty，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000145-p000-988ad7e8b9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“乡”、“要雷出吴上盘仔”、“枢”、“大吉用止佐半合角好”、“柱脾相”、“土厨”、“一尺岗齿栉枉止好”、“下曜眉勒水前柱砾”、“雕播”、“前楣带岭”、“火熖屏”等术语或文句含义不明，candidate已加引号引用或标注文句不通，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000149-p000-8773f082f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“纍杆”、“不逾定里外管垒内营”、“不俱”、“木木火土”、“生伤杜日景死惊开”、“禄角旗枪之势”、“我接下门之羞”、“斑经”等术语或文句含义不明，candidate已加引号引用或标注文句不通，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000151-p000-6e29f11d87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“业背”、“不白”、“选阳”、“上油”、“原”等术语含义不明，candidate已加引号引用或直接引用，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000154-p000-809b6bb612",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“溪枋”、“捐枋枪门”、“成对刀”、“闲之目”等术语含义不明，candidate已加引号引用或直接引用，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000156-p000-1f4da9d193",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“神厨仿”、“若徙双月而起自下而上若单日而起自酉而东者”、“屋凡事尾阔”等文句含义不明，candidate已直接引用，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000157-p000-35851e0eb7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“垂昂插序”、“规横奥”等术语含义不明，candidate已加引号引用，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000159-p000-fdb94249ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“不可走祖”含义不明，candidate已加引号引用，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000161-p000-93b6de8480",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“风字廓”、“散水”、“逐寺廊”、“结中开楼盘心透上真见钟”、“六角祸杆”、“则为也”等术语或文句含义不明，candidate已加引号引用或标注文句不通，处理得当。"
+        ]
+      },
+      {
+        "id": "book005-b000166-p000-c23f3fd372",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“倒栏杀”、“牛黄杀”、“王牛犊”、“在辟半性怕寒”、“在上含下作栏者”、“东方采禄木”、“六自”等术语或文句含义不明，candidate已加引号引用或标注文句不通，处理得当。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5261,
+    "completion_tokens": 1530,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5261,
+      "completion_tokens": 1530,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

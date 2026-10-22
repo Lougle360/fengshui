@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-24T07:14:40.560560+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aaefe8a77261ef77e628da38f8b320c54eb483bcab21bbf3dea69b0e4cbfde8f",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000039-p000-00f16ed57b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "枚利氏所言‘德婦風翼游麟’具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000040-p000-34114b1e79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000042-p000-f893069d00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“山倅不化”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000043-p000-de5c31f9ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“郭氏救語”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000046-p000-84015e09ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“卑溫”被误译为“寒凉”，二者含义不符；原文“太旱則燥死”被误写为“太早則燥死”，属于形近字误释"
+        ],
+        "uncertainty": [
+          "“秋衛”具体所指不详",
+          "“孤車”具体所指不详",
+          "“地理之李一乗生炁而已矣”存在讹字，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3459,
+    "completion_tokens": 375,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3459,
+      "completion_tokens": 375,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

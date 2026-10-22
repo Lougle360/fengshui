@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-09-25T07:17:42.394048+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f9334ddd32b59ea30d72ec25bfe910adfbb093ca878cc779d304f884241e83e4",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000161-p000-11810133dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘犯之必定损工’，候选错译为‘触犯了必定损伤人丁’，语义不符；原文‘不妨发贵要之人’，候选错译为‘不妨发贵之人’，断句错误导致语义偏差；原文‘壬亥拱揖穴坚牢’，候选错写为‘于亥拱揖穴坚牢’，文字讹误；原文‘如破长生则损长’，候选增译为‘比如破长生就损伤长房’，原文未提及‘房份’相关内容，属于无依据扩写；原文‘于中小皆然’，候选增译为‘对于中小房份都是这样’，同样是无依据添加‘房份’概念，不符合释读要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2877,
+    "completion_tokens": 207,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2877,
+      "completion_tokens": 207,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

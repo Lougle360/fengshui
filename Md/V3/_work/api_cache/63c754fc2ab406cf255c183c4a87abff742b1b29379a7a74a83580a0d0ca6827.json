@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T13:33:05.536148+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "63c754fc2ab406cf255c183c4a87abff742b1b29379a7a74a83580a0d0ca6827",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000154-p000-512d489da8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000155-p000-08f2866c18",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000156-p000-972bf51c9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000157-p000-3b439e1f2c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对《易》中语句的释读重复标注了乾、坤的术语解释，存在冗余表述"
+        ],
+        "uncertainty": [
+          "原文中“乾坤”的具体卦象、五行、方位信息原文未明确，释读中添加的相关内容属于无依据扩写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2059,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2059,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T13:40:54.133746+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "335f925bba6c8fd2480fe37eae46946afe791f92a6fd24893339366f94236bb8",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000201-p000-fd66dff81a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000202-p000-b55b467891",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘その舌の根の乾かぬうちに’并非指‘在这之后不久’，而是指‘话音刚落、还没等话说完’，候选句对该短语的理解有误，导致语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000204-p000-48ad08809b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000205-p000-cd769ec3b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1766,
+    "completion_tokens": 248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1766,
+      "completion_tokens": 248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

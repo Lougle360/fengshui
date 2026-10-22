@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T08:42:17.833582+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a77754858c797a87fb2e8108a02054cf7bce1857782c74aef4b7c2733075ee00",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000270-p000-bfc926fe8c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘而珑止，珑来而支止’被误译为‘珑停止时，支就随之停止’，与原文表述顺序和含义不符；原文‘支平珑隆’被拆写为‘支平珑，隆支’导致含义割裂；原文‘嫩珑’被误写为‘嫩城’，属于文字错误；原文‘行支于上’被误译为‘在上面支行’，语序调整后违背原文动宾搭配逻辑。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000272-p000-1903ac0aa3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乘金",
+          "相水",
+          "印木的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1521,
+    "completion_tokens": 211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1521,
+      "completion_tokens": 211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

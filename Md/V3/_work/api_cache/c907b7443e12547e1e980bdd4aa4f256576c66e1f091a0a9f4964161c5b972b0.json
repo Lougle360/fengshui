@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T06:46:01.908197+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c907b7443e12547e1e980bdd4aa4f256576c66e1f091a0a9f4964161c5b972b0",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001951-p000-d3407cb386",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中的“上堂”是风水术语，指穴前的明堂区域，candidate误译为“在堂上讲说风水时”，含义完全错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001952-p000-77609907ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001953-p000-b4f38aa11c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001954-p000-55ff1e83c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001955-p000-193f8a0061",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "source原文末尾未写完，candidate如实保留未补全"
+        ]
+      },
+      {
+        "id": "book018-b001956-p000-eb331c1c9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001957-p000-a1dd928c78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "source原文末尾未写完，candidate如实保留未补全"
+        ]
+      },
+      {
+        "id": "book018-b001958-p001-ae0780f424",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“送龙水”“随龙水”“三龙水”的注释误用了allowed_glossary中“龙”的释义，上述术语核心是“水”，应对应“水”的术语定义，注释对象错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001959-p000-19d92648b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为卷次标题，kind为heading，candidate将标题改写为说明性语句，不符合标题核对要求，遗漏了原文的标题层级标记##，且改变了标题的呈现形式"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001960-p000-e9b2bef114",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4106,
+    "completion_tokens": 724,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4106,
+      "completion_tokens": 724,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

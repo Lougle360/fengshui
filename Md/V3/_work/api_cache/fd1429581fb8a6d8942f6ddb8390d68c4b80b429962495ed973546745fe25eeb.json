@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-10-17T07:01:29.975496+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fd1429581fb8a6d8942f6ddb8390d68c4b80b429962495ed973546745fe25eeb",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002812-p000-a9565ea7d3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘三陽火氣官旺之方庚震火’释为‘三阳是火气官旺之方，庚、震亦属火’，但原文‘庚震火’是‘庚震火’三字连读，可能指庚、震方位属火，也可能是一个专有组合或术语。candidate将其拆解为‘庚、震亦属火’，属于无依据的确定化解释，且未保留原文‘庚震火’这一可能为术语的表述。",
+          "candidate将‘金魚卸街’释为‘金鱼卸街’，但原文是‘金魚卸街’，‘卸’与‘卸’字形不同，可能为OCR错误或异体字，candidate未标注此不确定性。",
+          "candidate将‘此殘節宜入評水章內意因上文故述在此’释为‘此残节宜放入评水章内，因上文缘故而在此叙述’，但原文‘意因上文故述在此’中的‘意’可能表示‘本意是’，candidate处理为‘因上文缘故’稍显简化，但尚可接受。主要问题在于前两点。"
+        ],
+        "uncertainty": [
+          "‘庚震火’的确切含义和结构",
+          "‘金魚卸街’中‘卸’字的准确性"
+        ]
+      },
+      {
+        "id": "book035-b002814-p000-043c9dada0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘庚屋主故曰’释为‘文中提到‘庚屋主’，具体含义不详，故曰。’但原文是‘庚屋主故曰’，‘故曰’是连接词，意为‘所以说’，candidate将其拆解为‘具体含义不详，故曰’，属于误译，且未处理‘庚屋主’这一可能为术语或短语的整体性。",
+          "candidate将‘三吉即亥震庚或雲貪狼巨門武曲巒頭木土金星是也’释为‘三吉即亥、‘震’、庚，或说是贪狼、巨门、武曲，峦头为木、土、金星。’但原文‘或雲’后是‘貪狼巨門武曲巒頭木土金星是也’，这是一个完整的解释，candidate将其拆分为‘或说是贪狼、巨门、武曲，峦头为木、土、金星’，虽未改变含义，但‘峦头为木、土、金星’的表述可能简化了原文‘巒頭木土金星’的结构。主要问题在于第一点。"
+        ],
+        "uncertainty": [
+          "‘庚屋主’的确切含义"
+        ]
+      },
+      {
+        "id": "book035-b002817-p000-ce8f2345b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘惟忌辛山十文富相親難養遇房异姓人’的确切含义"
+        ]
+      },
+      {
+        "id": "book035-b002820-p000-e1592274cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘窕’释为‘窕’，但原文是‘窕’，‘窕’与‘窕’字形不同，可能为‘穴’的异体字或OCR错误。在风水语境中，此处很可能指‘穴’。candidate未标注此不确定性，且直接使用了可能错误的字形。",
+          "candidate将‘以節穴’释为‘以节‘穴’’，但原文是‘以節穴’，‘節’可能通‘结’，意为‘结穴’。candidate保留‘节’字，未做通假说明或标注不确定性，可能导致误解。",
+          "candidate将‘不節濫’释为‘不节滥’，但原文是‘不節濫’，‘節濫’可能是一个词组，意为‘节制泛滥’。candidate的释读基本合理，但未标注‘節’字的通假或歧义。主要问题在于前两点，特别是‘窕’字的处理。"
+        ],
+        "uncertainty": [
+          "‘窕’是否为‘穴’的异体字或OCR错误",
+          "‘以節穴’中‘節’字是否通‘结’",
+          "‘不節濫’中‘節’字的准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1972,
+    "completion_tokens": 939,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1972,
+      "completion_tokens": 939,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

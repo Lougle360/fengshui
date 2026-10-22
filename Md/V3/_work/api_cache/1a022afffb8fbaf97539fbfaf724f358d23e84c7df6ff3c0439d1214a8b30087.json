@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:05:42.394952+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1a022afffb8fbaf97539fbfaf724f358d23e84c7df6ff3c0439d1214a8b30087",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000343-p000-94ff8d5cc1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘皎’释为‘皎，具体所指不详’，但未明确‘皎’为原文存疑的专名，且原文‘諦之以背面反向人爭意北冀不可段每也っ’为日文残句，直接保留未做必要说明，同时‘固有峽穿到此及步其處却不成局無局不言皎’中‘皎’的释读未遵循原文存疑标注，存在语义模糊处理不当问题"
+        ],
+        "uncertainty": [
+          "原文中‘皎’的具体所指不详，‘諦之以背面反向人爭意北冀不可段每也っ’为日文残句，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 189,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 991,
+      "completion_tokens": 189,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

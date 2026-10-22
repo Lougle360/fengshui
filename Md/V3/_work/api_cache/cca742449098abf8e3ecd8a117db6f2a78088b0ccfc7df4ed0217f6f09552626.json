@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T16:14:20.144131+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cca742449098abf8e3ecd8a117db6f2a78088b0ccfc7df4ed0217f6f09552626",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001575-p000-e7c4daf6f1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "发行所 勉诚出版株式会社",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001576-p000-38c12bfc5c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "邮编101-0051 东京都千代田区神田神保町3-10-2",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001578-p000-78276ac85c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "〈出版详细信息〉http://bensei.jp",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001579-p000-f2ca1ee826",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "印制 刷本 太平印刷社",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中\"刷本\"含义不明，暂保留原词"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1522,
+    "completion_tokens": 358,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1522,
+      "completion_tokens": 358,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

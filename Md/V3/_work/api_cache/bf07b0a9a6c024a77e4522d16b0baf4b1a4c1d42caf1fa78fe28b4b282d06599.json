@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-17T23:25:05.202540+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bf07b0a9a6c024a77e4522d16b0baf4b1a4c1d42caf1fa78fe28b4b282d06599",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004942-p000-0fae28f26f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "腎癩",
+          "出陳",
+          "剪例"
+        ]
+      },
+      {
+        "id": "book035-b004943-p000-8245cc6abe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘穿長者下穴’、‘穿中心下穴’中的‘穿’字，candidate 解释为‘穿’字含义不详，但结合上下文，‘穿’应指在（长脚）或（中心）处‘穿’（即点穴、下葬），是风水点穴的常用动作，不应列为不确定。candidate 将‘可妨水口無關’释为‘可妨水口无关’，‘可妨’含义不详，但原文‘可妨’可能是‘可防’的讹误或通假，意为‘可以防止水口无关锁’，candidate 未指出此可能，直接列为不确定，处理不当。candidate 将‘登左右’释为‘登左右观察’，‘登’字含义不详，但‘登’在此处意为‘登上、登临’，是勘察动作，不应列为不确定。candidate 将‘二五八位’列为不确定，但原文明确说‘此星本蔭二五八位衣祿’，‘二五八位’是风水术数中的一种方位或命理分位，属于专业术语，candidate 应保留原词并说明其具体所指不详，而非直接解释为‘具体所指不详’（这本身是允许的），但candidate在释文中直接写‘二五八位具体所指不详’，这属于在释读中加入了不确定标注，而规则要求‘opaque_terms 必须原样处在引号引用范围内’，此处处理方式与规则不符，应直接用引号引用‘二五八位’并说明含义不详。candidate 将‘令字旗形’列为不确定，但原文明确说‘此體多爲令字旗形’，‘令字旗形’是一种形状描述，candidate 应保留原词并说明其具体所指不详，而非直接解释为‘具体含义不详’（这本身是允许的），但candidate在释文中直接写‘令字旗形具体含义不详’，这属于在释读中加入了不确定标注，而规则要求‘opaque_terms 必须原样处在引号引用范围内’，此处处理方式与规则不符，应直接用引号引用‘令字旗形’并说明含义不详。"
+        ],
+        "uncertainty": [
+          "剪火",
+          "攏燥",
+          "穿水",
+          "挽先"
+        ]
+      },
+      {
+        "id": "book035-b004949-p000-288819af85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将‘即中’列为不确定，但原文‘刑部即中’可能是‘刑部郎中’或‘刑部主事’等官职的讹写或简称，candidate 未指出此可能，直接列为不确定，处理不当。candidate 将‘尖六则’列为不确定，但原文‘至尖六则之人则气衰也’中‘尖六则’可能指某种身体特征或命理现象，candidate 应保留原词并说明其具体所指不详，而非直接解释为‘具体含义不详’（这本身是允许的），但candidate在释文中直接写‘尖六则具体含义不详’，这属于在释读中加入了不确定标注，而规则要求‘opaque_terms 必须原样处在引号引用范围内’，此处处理方式与规则不符，应直接用引号引用‘尖六则’并说明含义不详。candidate 将‘礼’列为不确定，但原文‘此礼多为猛虎出林形’中‘礼’字可能是‘体’字之误，candidate 未指出此可能，直接列为不确定，处理不当。"
+        ],
+        "uncertainty": [
+          "剪火",
+          "攏燥",
+          "剛矛相濟",
+          "疊指",
+          "天心折水",
+          "星步",
+          "二五八位"
+        ]
+      },
+      {
+        "id": "book035-b004950-p000-ef1b2d4a98",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "单没",
+          "跏跛析足"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3505,
+    "completion_tokens": 928,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3505,
+      "completion_tokens": 928,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

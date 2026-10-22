@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:41:26.340251+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "262c3266362a25309ac4c342a1b46746851007b264e37fa4c569c3ec59a8c8af",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000873-p000-5bd79b70dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000874-p000-49c2af93df",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中不确定的表述如\"散後闕\"\"童童女省\"\"侍備\"\"倚增靠壁\"\"峰屯蟻張\"\"徙兵\"\"天珍地禍\"等直接译为确定含义，未标注原文未明的情况；将\"李必需貴飛隨龍穴\"的\"李\"直接译为李姓之人，属于无依据扩写；将\"天乙太乙巳屬尊星\"误译为\"天乙乙巳太乙\"，存在干支误换问题"
+        ],
+        "uncertainty": [
+          "散後闕、童童女省、侍備、倚增靠壁、峰屯蟻張、徙兵、天珍地禍具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000875-p000-6ccdda4c63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000876-p000-56c0d43323",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将\"0\"直接译为缺字，未按要求标注为原文损坏或不确定；将\"侍賴案\"\"侍伊呂是\"\"夾案侍周召是\"等不确定表述直接译为确定名称，未标注原文未明的情况"
+        ],
+        "uncertainty": [
+          "侍賴案、侍伊呂是、夾案侍周召是具体所指不详；原文中\"0\"为损坏缺字"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2523,
+    "completion_tokens": 465,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2523,
+      "completion_tokens": 465,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

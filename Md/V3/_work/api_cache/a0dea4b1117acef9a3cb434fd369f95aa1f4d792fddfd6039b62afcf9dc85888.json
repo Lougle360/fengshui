@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-26T12:35:04.622094+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a0dea4b1117acef9a3cb434fd369f95aa1f4d792fddfd6039b62afcf9dc85888",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000780-p000-1bb1efd21a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000781-p000-43fef88124",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000782-p000-b7b247eb94",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版擅自对书名添加不必要的引号拆分，且无依据标注“元女具体所指不详”，原文仅为卷次标题，无需额外增释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000785-p000-c2dcfeb003",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选版遗漏原文开篇的“相会”表述，且擅自将原文口诀类内容拆分增译过多无依据的解释，不符合保守翻译原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000787-p000-66db09f974",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为歌诀体，候选版擅自改译为散体解释，破坏原文体裁，且添加了无原文依据的“砂水特征”“运势”等表述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6394,
+    "completion_tokens": 523,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6394,
+      "completion_tokens": 523,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

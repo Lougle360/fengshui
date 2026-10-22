@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T06:27:12.170596+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "179128927f0be949bf141ede57eda21549fd375cc68227f7394801a1ff48647c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005718-p000-7dae70da40",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译了'也知道'。'思過半矣'是固定表达，意为'能想明白一大半'或'能领悟大部分道理'，候选句的'领悟其中一半的道理'释义不够准确，且将'思過半矣'与'重二度夫書'强行拆分为前后句，原文是连贯的一句话。"
+        ],
+        "uncertainty": [
+          "'重二度夫書'具体所指不详，候选句的处理方式可以接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 135,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 610,
+      "completion_tokens": 135,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

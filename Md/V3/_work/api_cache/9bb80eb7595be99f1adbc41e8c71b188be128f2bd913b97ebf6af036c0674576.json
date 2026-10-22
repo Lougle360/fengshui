@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T11:54:10.510893+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9bb80eb7595be99f1adbc41e8c71b188be128f2bd913b97ebf6af036c0674576",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000289-p000-49f0bb02ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中「嫁娜」「有麼」「我等」未在释读中明确标注为不确定内容，属于未按原文保留不确定标注的问题"
+        ],
+        "uncertainty": [
+          "「嫁娜」「有麼」「我等」具體所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000290-p000-3234b90f10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中「士大崩洪」「閒渡」未在释读中明确标注为不确定内容，属于未按原文保留不确定标注的问题"
+        ],
+        "uncertainty": [
+          "「士大崩洪」「閒渡」具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 201,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1216,
+      "completion_tokens": 201,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

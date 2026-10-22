@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-24T11:04:29.292868+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3536390d2bc84ded00b00fa0b4d865a82e7a73ac99cf6b30a93701689d505810",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000139-p000-6a2238b947",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000140-p000-2bc3ddf34c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将\"天心之離突\"释为\"天心的離突之處\"，\"離突\"含义未明，属于无依据确定解释；\"穴掌模样\"未明确具体所指，释为\"穴掌模样\"未做风险标注"
+        ],
+        "uncertainty": [
+          "\"離突\"具体含义不详",
+          "\"穴掌模样\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000141-p000-44f280db25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000142-p000-ca9f5c6c29",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将\"五\"释为\"五种\"，原文未明确\"五\"具体指代的内容，属于无依据确定解释"
+        ],
+        "uncertainty": [
+          "原文中\"五\"具体指代的内容不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 338,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1202,
+      "completion_tokens": 338,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

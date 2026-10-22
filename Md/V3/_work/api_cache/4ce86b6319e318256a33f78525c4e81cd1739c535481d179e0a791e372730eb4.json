@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-25T02:56:11.397766+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4ce86b6319e318256a33f78525c4e81cd1739c535481d179e0a791e372730eb4",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001981-p000-23c6c999f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不此是仍龍之大禮”语义存在讹误，候选直接释为“如果不是这样，那就是龙的大礼仪”属于无依据解读，未说明原文存在错讹可能；“鞋关星”属于未明确的术语，候选未标注其具体所指不详的风险，不符合V3要求"
+        ],
+        "uncertainty": [
+          "“不此是仍龍之大禮”原文疑似讹误，确切含义不明",
+          "鞋关星具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001982-p000-e3170df2a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001983-p000-b905b2a044",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“說明龍順水直解為大者”语义不通顺，候选未说明此处原文表述存在歧义或讹误，直接直译不符合白话释读的通俗性要求，未明确标注歧义风险"
+        ],
+        "uncertainty": [
+          "《玉尺》间章具体所指不详",
+          "“龍順水直解為大者”确切含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001984-p000-590db7f399",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选未将风水术语转化为普通读者可理解的表述，“甲卯”“兑”“丁午”“坎”等专业术语未补充必要的基础说明，也未标注含义不明的风险，普通读者无法读懂"
+        ],
+        "uncertainty": [
+          "整句表述为风水专业理气断语，具体应用规则未明"
+        ]
+      },
+      {
+        "id": "book017-b001985-p000-b181612f46",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "直涂具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001986-p000-0a9e0df2ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“全世五意蔭於胎山穴平易夫九”存在多处语义不明的表述，候选直接直译未说明原文可能存在讹误，“平易夫九”的断句无依据，属于无确定含义的内容，未明确告知读者原文无法准确释读的风险"
+        ],
+        "uncertainty": [
+          "“全世五意”“平易夫九”具体所指不详，前半句原文疑似讹误，确切含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001988-p000-0b5c2265dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "艾象具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001989-p000-7b6e435385",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“山脈陰陽分两黑”“此是天此造化功”存在明显讹误，“两黑”“天此”均为不通表述，候选直接直译未说明原文存在文字讹误的情况，属于无效释读"
+        ],
+        "uncertainty": [
+          "“两黑”“天此”均为原文讹误，整句确切含义无法考证"
+        ]
+      },
+      {
+        "id": "book017-b001990-p000-3ef20faac0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陽版出身”“陰脈去身陰的宗”语义不明，“陽版”疑似“陽脈”的讹误，候选直接按字面释为“阳脉出身阳到底，阴脉去身阴的宗”未说明原文可能存在的文字讹误，后半句“阴的宗”表述不符合现代汉语规范，也未解释含义"
+        ],
+        "uncertainty": [
+          "“陽版”疑似讹误，“阴的宗”确切含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001991-p000-061d620f97",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文整句语义不通，多处表述疑似讹误，候选直接直译未说明原文存在的讹误风险，普通读者完全无法理解其含义"
+        ],
+        "uncertainty": [
+          "“无份”“锡落”“丰有”具体所指不详，整句原文疑似讹误，确切含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 1146,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1901,
+      "completion_tokens": 1146,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

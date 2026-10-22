@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T10:21:58.191036+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b2d21af0daab5e4e5b8d004d23ee2014342c1e5f2816075775813a9c092a6078",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000273-p000-e9bcf0ff9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“當百至小子賣田地官事頻之福患凶長子橫七”整体语义模糊，无法明确具体含义"
+        ]
+      },
+      {
+        "id": "book024-b000276-p000-dc6b598b25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的“盤經”未做释读，候选将其释为“永保家业”属于无依据增译，语义不匹配"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000282-p000-707f6e4299",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“龍虎兩相聞”被释为“龙、虎两处的山势相对”属于无依据释义，“相闻”的具体风水含义不明确，不应直接释为相对；“多山咎”释为“大多是山形不佳导致的”不准确，原文是说这类忤逆的情况多属于山形引发的凶咎，释义逻辑存在偏差"
+        ],
+        "uncertainty": [
+          "“龍虎兩相聞”的具体风水含义原文未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 977,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

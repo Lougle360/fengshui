@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:23:37.584658+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e8a417142aba211eb2075d44537b16d9b4cd1c1ee73266ed27da56708fe96917",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000740-p000-88c28c7a8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“郊”“夹”“邱”“奕”等词含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000741-p000-3c76e0de22",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在将推测内容写成确定事实的问题，如“伏罪界日、夹、寅、巳、申这些方位若有道路遭遇火灾”“这些都不属败日”“丑、戌、年干、甲、乙、丙、丁、戊、巳、库、辛、壬、癸这些干支”“只需用修方法摄年”等表述无原文依据；存在OCR识别误差，如“天努”疑为“天帑”之误；部分断句及字词存在OCR识别误差"
+        ],
+        "uncertainty": [
+          "原文中“伏罪界日”“库”“翌”“奕”“笠”“姐”等词含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000742-p000-e1683e0b94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000743-p000-dac8aac536",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在将推测内容写成确定事实的问题，如“日凶方为子、丑、寅、如、辰、己、午、未、申、酉、戌、夹”“岁禁方为南、东、北、西、东北、西南、东北、西南”“太岁方为子、丑、寅、邱、辰、己、午、未、申、酉、戍、夹”等表述无原文依据；部分断句存在OCR识别误差"
+        ],
+        "uncertainty": [
+          "原文中“如”“邱”“绅”“孝”“控”“苏”等词含义不明，具体所指不详；部分断句存在OCR识别误差"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3747,
+    "completion_tokens": 509,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3747,
+      "completion_tokens": 509,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

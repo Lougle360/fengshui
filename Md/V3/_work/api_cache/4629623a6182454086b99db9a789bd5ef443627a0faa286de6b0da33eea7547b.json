@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-04T03:30:24.686875+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4629623a6182454086b99db9a789bd5ef443627a0faa286de6b0da33eea7547b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000403-p000-9ccd6e2bc9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000409-p000-4a8af53cdf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文‘入穴見眾山之背去失井離鄉’释读为‘进入穴场，看见众山的背面离去，这便是失井离乡。’，其中‘离去’是增译，原文‘去’字可能表示‘离去’或‘方向’，但直接释为‘离去’并连接‘这便是失井离乡’可能改变了原意。原文‘山頭向外謂之離鄉砂左邊’是独立陈述，候选句将其处理为对前文的解释并添加‘文中提到’，改变了原文结构。此外，原文‘左邊’后可能接续其他内容，但候选句将其解释为‘之后的内容似乎缺失或含义不完整’，属于无依据的推测性扩写。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 940,
+    "completion_tokens": 272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 940,
+      "completion_tokens": 272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

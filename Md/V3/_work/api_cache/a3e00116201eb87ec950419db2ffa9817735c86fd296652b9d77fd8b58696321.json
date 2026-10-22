@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-09-25T21:57:17.042501+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a3e00116201eb87ec950419db2ffa9817735c86fd296652b9d77fd8b58696321",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000012-p000-78c37c54d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000013-p000-68b8a5f6c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000015-p000-7242cf2254",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "隔四位族排的具体排布规则",
+          "三匝七四位的含义"
+        ]
+      },
+      {
+        "id": "book031-b000016-p000-5214ada923",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "开头“荀”字的具体含义",
+          "省中阳的身份"
+        ]
+      },
+      {
+        "id": "book031-b000017-p000-4028ba2fc5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“當霆”疑似“遁甲”的讹误，candidate直接作“遁甲”未加标注；原文“其訣至被其用至神至奇至驗至盛”语义存在讹脱，candidate将其释读为“相关的诀窍流传到被广泛使用的时候，极为神妙、极为奇异、极为灵验、极为盛行”属于无依据增译，不符合原文含混的实际状态；原文“用以催福無奇驗”应为“无不奇验”的讹脱，candidate直接补“不”字未加标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000021-p000-5e088d675f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“第三十三四四十四五圗”表述存在讹脱，candidate直接认定为“第三十三、三十四、四十五幅图”属于无依据释读，未标注原文表述的讹误风险；原文“擇日用素玩此”断句应为“平素把玩这些（图）”，candidate断为“第三十五到第四十三幅图是择日相关的内容。平素把玩研读这些内容”属于断句错误，导致“择日”后原文语义被拆分得不通顺"
+        ],
+        "uncertainty": [
+          "总将的含义",
+          "度北的含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2870,
+    "completion_tokens": 621,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2870,
+      "completion_tokens": 621,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

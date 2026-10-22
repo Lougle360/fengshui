@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T14:51:10.673662+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "abd9a9e1652f5ff81d821415ca080207fd2fd7f661169c5bc4c04cb8735a3e97",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000914-p001-c76692dbca",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "图6-16 挂一图",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000915-p000-ec038512ae",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "此处记载了“元日甲”十二会的运数与世数。例如位于子的方位的“月会子”，关于“星运”记载为“甲一至癸十，甲十一至癸二十，甲二十一至癸三十”，关于“辰世”记载为“子一至亥一百二十，子一百二十一至亥二百四十，子二百四十一至亥三百六十”，皇",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾“皇”字残缺，无法确认完整含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1440,
+    "completion_tokens": 259,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1440,
+      "completion_tokens": 259,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

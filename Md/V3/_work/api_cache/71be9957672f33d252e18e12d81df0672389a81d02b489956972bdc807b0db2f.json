@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T01:08:24.834473+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "71be9957672f33d252e18e12d81df0672389a81d02b489956972bdc807b0db2f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000268-p000-6a0a44d5f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，字词重复且逻辑断裂，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000270-p000-9053b70b9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅为名词罗列，缺乏完整句法结构，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000274-p001-06c8607af9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，无法确定具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000275-p000-8ad9b5eba6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将原文含混的表述（如“合法血入自機”、“此香身”、“回龍順的只者道托之山為主”）解释为确定的风水操作，存在无依据扩写。应保留原文的模糊性，说明其具体所指不详。"
+        ],
+        "uncertainty": [
+          "原文断句困难，部分字词（如“合法血入自机”、“此香身”、“回龍順的只者道托之山為主”）含义模糊"
+        ]
+      },
+      {
+        "id": "book035-b000276-p000-8c30d83b7d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000277-p000-76e439f4a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000278-p000-287e2c5429",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000279-p000-fe0e9e9880",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句对原文错乱部分（“狹有可可而不而失之”）进行了补全和解释（“若朝迎之山过于狭窄，虽有堂气可越，但容易失之偏颇”），这超出了保守释读的边界。应指出原文文字错乱，含义不明。"
+        ],
+        "uncertainty": [
+          "原文“狹有可可而不而失之”存在明显的文字错乱或脱漏，含义不明"
+        ]
+      },
+      {
+        "id": "book035-b000280-p000-36c904ffda",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将原文“更看護纏”解释为“更要看护缠护之情”，将“此訣直”解释为“此诀须知”，将“其形或偏側而不相顧矣”与《裁穴篇》内容连接，这些处理在断句和释义上存在推测，且未明确标注不确定性。应更保守地处理断句和模糊短语。"
+        ],
+        "uncertainty": [
+          "原文断句困难，部分字词（如“更看護纏”、“此訣直”、“其形或偏側而不相顧矣”）含义模糊"
+        ]
+      },
+      {
+        "id": "book035-b000281-p000-50fe8e76dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语句重复且逻辑断裂，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2119,
+    "completion_tokens": 799,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2119,
+      "completion_tokens": 799,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

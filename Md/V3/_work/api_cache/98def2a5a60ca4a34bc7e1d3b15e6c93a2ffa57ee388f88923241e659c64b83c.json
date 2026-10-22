@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-24T11:11:41.608180+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "98def2a5a60ca4a34bc7e1d3b15e6c93a2ffa57ee388f88923241e659c64b83c",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000130-p000-5efc7e1162",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处漏译、错译及原文未明内容的不当确定化处理：1. 原文中艮卦的官鬼爻地支为酉，候选误写为西；2. 震卦的官鬼相关表述原文为‘文畝’，候选直接释为‘官鬼文畝’，未标注原文未明；3. 离卦的官鬼相关表述原文为‘已亥為官鬼久’，候选误写为‘巳、亥為官鬼久’，且未标注原文未明；4. 原文末尾‘兌忌青表心印續編 八疆倒於’为残文，候选未保留原文残貌，直接混入释读内容；5. 坎卦的官鬼相关表述原文为‘戌辰爲官鬼父故’，候选未标注原文未明；6. 巽卦的官鬼相关表述原文为‘辛酉爲官鬼女故’，候选未标注原文未明"
+        ],
+        "uncertainty": [
+          "官鬼父故具体所指不详",
+          "官鬼文畝具体所指不详",
+          "官鬼女故具体所指不详",
+          "官鬼久具体所指不详",
+          "青表心印續編 八疆倒於为残文，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 318,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1116,
+      "completion_tokens": 318,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-04T11:08:14.507825+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "297db710acccca5a84b41f93ebe05753b1eb6886bdcc179e030ac7b5a36450dd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000686-p000-d327733e95",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "圖氣生乘葬"
+        ]
+      },
+      {
+        "id": "book035-b000692-p000-2fd841f70c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "矣之明香里來服大者入有分合或非元於毛是合氏族生那其老是他未是不 塲畢矣若見 則生氣飄蕩而脈寒氣冷矣"
+        ]
+      },
+      {
+        "id": "book035-b000695-p000-d77cb6dfe9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将原文‘陳方朔’推测为‘東方朔’之误，并作为确定事实写出。根据规则，对于含混专名，不得认定为某具体人物。应保留原文‘陳方朔’并说明其具体所指不详。"
+        ],
+        "uncertainty": [
+          "自 至 于方 皆今上山引 矣 西 來尖矣山以 而鐘鳴",
+          "陳方朔",
+          "此鐘身出于"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 257,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1111,
+      "completion_tokens": 257,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

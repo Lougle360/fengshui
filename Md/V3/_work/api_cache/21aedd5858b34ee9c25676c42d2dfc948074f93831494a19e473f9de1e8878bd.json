@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-26T13:18:23.069463+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "21aedd5858b34ee9c25676c42d2dfc948074f93831494a19e473f9de1e8878bd",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000781-p000-43fef88124",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自添加大量无原文依据的解释内容，比如将“庚水权谋敦义睦”扩充为“庚水对应人事方面，主掌权谋、重敦厚义气、能促和睦”，原文未明确标注允许此类释义，违反古籍校注保守性原则；多处过度引申原文含义，如将“兴家进产却因亲”改为“兴家置产往往得益于亲戚助力”，属于无依据增译；专业语境下随意发挥原文表意，破坏原文原貌。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000782-p000-b7b247eb94",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自在书名《九天元女青囊海角经》中添加不必要的引号，书名格式不符合规范，属于对原文的不当改动。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000785-p000-c2dcfeb003",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate遗漏原文开篇的“相会，阴阳相泊”核心表述，自行改写为“阴阳二气交汇融合”，属于对原文内容的缺失和篡改；将原文“眠乾坐温”解释为“朝向适宜选乾位”属于无原文依据的主观释义，违反保守原则；多处添加原文未提及的内容，如“穴位后方要倚靠祖山，前方要有近案”等，属于过度发挥。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000787-p000-66db09f974",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate完全改写原文开篇“凡看地，从何起”的原句表述，破坏原文歌诀的原有句式；自行添加“要判断风水地的好坏”等无依据的引导语，改动原文原貌。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000788-p000-e5252dbf93",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate添加大量无原文依据的解释，如将“如覆釜，是金星”扩充为“形状像倒扣的锅的，是金星形的山峦”，原文未允许此类释义；自行添加“它行进时走势屈曲是相生的吉兆”“出现这种破损形态一定会有刑伤之灾”等引申内容，属于过度发挥，破坏原文保守性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000816-p000-88c152db55",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自添加原文未提及的术语解释，如将“看随从”解释为“要看龙身的随从砂山”，将“公孙”“天乙”“太乙”“拜龙”自行注解为砂山形态，均无原文依据，属于无依据增释；过度引申原文含义，改动原文原有表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000819-p000-4da87d6ee7",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文“只用天干不用地支，水法皆然”调整语序为“所有水法的规则都是只用天干、不用地支”，表述略有改动但核心含义未变；candidate对原文未完结部分的标注比current更明确，但二者均未改动核心专业术语和原文核心内容，各有优劣。"
+        ],
+        "uncertainty": [
+          "原文本身存在内容残缺，两版对残缺部分的处理方式不同，缺乏足够依据判定哪版更符合古籍出版标准。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5554,
+    "completion_tokens": 941,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5554,
+      "completion_tokens": 941,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

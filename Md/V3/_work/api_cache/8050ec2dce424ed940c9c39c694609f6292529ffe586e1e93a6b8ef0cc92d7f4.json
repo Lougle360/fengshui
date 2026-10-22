@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-15T15:41:38.285482+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "8050ec2dce424ed940c9c39c694609f6292529ffe586e1e93a6b8ef0cc92d7f4",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002261-p000-86b801c3ad",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_rule",
+        "action": "rewrite",
+        "modern_text": "震山见戌乾水、艮山见未坤水、兑山见丑癸水、巽山见戌水、离山见艮寅水、坎山见丙午水、乾山见卯水、坤山见巳水。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002262-p000-4671f1f9ed",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_rule",
+        "action": "rewrite",
+        "modern_text": "子癸水会破坏阴局，巽巳水会破坏阳局。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002263-p000-b00aa01f3c",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_rule",
+        "action": "rewrite",
+        "modern_text": "亥卯未三合见同水，主雷惊基及伤人。震山见亥未二水来去，必主雷惊。赖氏云：未水来去，龙入宸，霹雳一声驾西东。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“才才”疑似衍文或误植，无法确认具体含义，故在译文中未作对应翻译。",
+          "“龙入宸”中“宸”的具体所指不详，此处仅保留原词。"
+        ]
+      },
+      {
+        "id": "book033-b002264-p000-c5cc2b7689",
+        "language": "classical_chinese",
+        "content_type": "feng_shui_rule",
+        "action": "rewrite",
+        "modern_text": "戌乾四风射水、乙辰凹风射水、癸丑凹风射水、未坤凹风射水。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文开头“才才”疑似衍文或误植，无法确认具体含义，故在译文中未作对应翻译。",
+          "“四风射水”等术语的具体所指不详，此处仅保留原词。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1654,
+    "completion_tokens": 649,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1654,
+      "completion_tokens": 649,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

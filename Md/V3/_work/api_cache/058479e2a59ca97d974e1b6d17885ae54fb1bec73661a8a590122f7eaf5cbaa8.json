@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T12:12:30.069607+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "058479e2a59ca97d974e1b6d17885ae54fb1bec73661a8a590122f7eaf5cbaa8",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000444-p000-2afe843a28",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000449-p000-aa0851ccda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000450-p000-721cd362bd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘山調絕體’释为‘山調絕體’未明确其含义，属于未处理的含混短语；‘上形’未明确所指，属于未处理的含混短语；‘朝應金箱玉印之顏’释为‘朝應金箱玉印之顏’未明确其含义，属于未处理的含混短语；‘無穴面妄穴之’释为‘無穴面妄穴之’未明确其含义，属于未处理的含混短语"
+        ],
+        "uncertainty": [
+          "山調絕體，具體所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000452-p000-546473a03c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘淮有缺’释为‘淮有缺’未明确其含义，属于未处理的含混短语；‘韋’释为‘韋’未明确其含义，属于未处理的含混短语；‘竄’释为‘竄’未明确其含义，属于未处理的含混短语；‘金鎧法馬’释为‘金鎧法馬’未明确其含义，属于未处理的含混短语；‘鬬斧便闌’释为‘鬬斧便闌’未明确其含义，属于未处理的含混短语；‘壽削’释为‘壽削’未明确其含义，属于未处理的含混短语；‘龍貞’释为‘龍貞’未明确其含义，属于未处理的含混短语；重复出现‘牛體金星...此穴最贵，但要龍貞’的内容，属于冗余释读"
+        ],
+        "uncertainty": [
+          "淮有缺，具體所指不详",
+          "韋，具體所指不详",
+          "竄，具體所指不详",
+          "金鎧法馬，具體所指不详",
+          "鬬斧便闌，具體所指不详",
+          "壽削，具體所指不详",
+          "龍貞，具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2780,
+    "completion_tokens": 599,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2780,
+      "completion_tokens": 599,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

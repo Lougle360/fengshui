@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T15:11:47.984048+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7c3e2f6cb1c7ab401367285814ede904e950fa1dba85df7963a4c0f778885ab9",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000498-p000-a229544b83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000499-p000-efda6f785c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量未校改的OCR乱序内容，候选将乱序文字强行连缀成文，部分语句逻辑不通，且未明确标注哪些内容属于难以确认的乱序部分；locked_terms“穴”“水”未依据allowed_glossary做符合普通读者理解的通俗释读，仍保留风水专有术语未解释"
+        ],
+        "uncertainty": [
+          "原文OCR错乱严重，除“枕龍鼻者恐傷於唇○點龜肩者恐傷於殼”“出草蛇以耳聽蛤○出峽龜以眼顧兒”外，中间大部分乱序文字文意无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000500-p000-927f155aa6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "大段文字漫漶，多数零散短语语义无法确认"
+        ]
+      },
+      {
+        "id": "book026-b000503-p000-e37bf361c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“穴”未依据allowed_glossary做通俗释读，普通读者难以理解“穴”的风水含义；“葬凶”未做浅显说明，宜补充为“不恰当的安葬方式”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000504-p000-c56feabd15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000505-p000-b75af6664a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR错乱，文意难以确定"
+        ]
+      },
+      {
+        "id": "book026-b000506-p000-24eb42bcdd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms“穴”“向”未依据allowed_glossary做通俗释读；“作當辰法”语义不明，未标注不确定性，属于将不确定内容写成确定释读；原文“皆來知吉也”误译为“都是不瞭解吉凶的表現”，语义相反"
+        ],
+        "uncertainty": [
+          "“作當辰法”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000507-p000-77d38ee0ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量OCR乱序内容，候选将乱序文字强行连缀成文，多数语句逻辑不通，未明确标注乱序部分；locked_terms“穴”“向”未依据allowed_glossary做通俗释读；“手午對指南舒也”误译为“子午對指南針”，存在文字错译"
+        ],
+        "uncertainty": [
+          "原文OCR错乱严重，除开篇“向對向也方方位也”及关于子午针、正缝针的部分内容外，大部分乱序文字文意无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000508-p000-4aeff2acf9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及“年月有一端雪心賦直解 二卷”，候选自行补出“年月有一點失誤，反而會成為吉地的深殃”，属于无依据增译；应仅保留可明确释读的“山川有小的瑕疵，不会减损真龙带来的厚福”，并标注“年月有一端”后内容存在断句混乱，原文标注有《雪心賦直解》二卷"
+        ],
+        "uncertainty": [
+          "“年月有一端”后续文字断句混乱，与前半段语义衔接不明"
+        ]
+      },
+      {
+        "id": "book026-b000509-p000-5a33437f57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3220,
+    "completion_tokens": 1077,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3220,
+      "completion_tokens": 1077,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

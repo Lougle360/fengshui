@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T15:42:07.224231+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "35d3d635788139a2dab18e3c38923a3cbb13417bf34c2db33858a3bdb0620d78",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001247-p000-fa71e8c26e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中对各异常现象的具体解释（如稼穡不成指天災也ないのに農産物が不作になる等）未在译文中体现"
+        ]
+      },
+      {
+        "id": "book015-b001248-p000-530c9c70e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中对各异常现象的具体解释（如詩妖指時の悪政を嘆く歌謡が流行する等）未在译文中体现"
+        ]
+      },
+      {
+        "id": "book015-b001249-p000-4fa07d3fcf",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中作为五行概念的「水」错误替换为风水语境中的「水」，不符合原文含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001250-p000-93ace4adc9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中作为五行概念的「水」错误替换为风水语境中的「水」，不符合原文含义"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 317,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1576,
+      "completion_tokens": 317,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

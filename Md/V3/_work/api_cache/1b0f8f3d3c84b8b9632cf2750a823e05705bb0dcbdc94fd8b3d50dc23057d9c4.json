@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-04T01:33:34.896254+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "1b0f8f3d3c84b8b9632cf2750a823e05705bb0dcbdc94fd8b3d50dc23057d9c4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000308-p000-794c657f6d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "山势呈现出峨嵯且杂乱无章的状态。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000309-p000-1f4acddac1",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "如果地势舒缓，则四周形势平和，朝向自然，这样的地方平和而吉利；或者如果山上有恶形，但正面朝向而来，灾祸就会迅速降临。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾存在无法识别的字符（'迪 M'），已忽略该部分，仅对可辨识的地理吉凶判断内容进行释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 270,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1168,
+      "completion_tokens": 270,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

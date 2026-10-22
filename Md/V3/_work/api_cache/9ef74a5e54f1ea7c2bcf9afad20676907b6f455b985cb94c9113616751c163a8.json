@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T11:22:07.340426+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9ef74a5e54f1ea7c2bcf9afad20676907b6f455b985cb94c9113616751c163a8",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000063-p000-b69b83293a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "并非星宿井龙的五行体系，而是以人首一节为核心来推演其从哪一卦生成。若不清楚它生成的根源，即便使用九星水法也毫无用处。不过排龙有阴阳顺逆的分别，而搭配水局来确立坐向，都在玄卦之内。这里不说地卦，是为了节省文字。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000064-p000-58b46c1a8b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "比如左行的甲卯龙，其入首是乾卦生成，应当搭配右行的癸水成局。然而癸水是震卦生成，水流须倒向左方从未坤方位流出，这一龙与水的情况，可知其源自乾、震二卦。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000065-p000-f97d7d8ad5",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "又如右行的甲卯龙，其入首是离卦生成，应当搭配左行的丙火合局。然而丙火是艮卦生成，水流须倒向石方从戌乾方位流出，这一龙与水的情况，可知其源自离、艮二卦。此处有缺字，原句为“天王經心印 卷之二 六”，具体缺字内容无法确认。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句中“水須倒石出戌乾”存在缺字，“天王經心印 卷之二 六”为卷次题记，部分内容残缺"
+        ]
+      },
+      {
+        "id": "book013-b000066-p000-9613c30590",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "其余情况可依此类推。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1844,
+    "completion_tokens": 571,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1844,
+      "completion_tokens": 571,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

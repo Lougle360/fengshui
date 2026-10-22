@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-04T06:54:36.693410+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1dff440cdac7ba919b276211fe70d443d0c5181bb5f1ee0c71370931863ff052",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001519-p000-cc4224debc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001520-p000-8a90896737",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘此砂主 武’，candidate译为‘这种砂主掌武职’。‘主’在此处是‘主应’、‘预示’的意思，译为‘主掌’有歧义，易误解为掌管、管理。应译为‘这种砂预示武职’或‘主应武职’更准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001521-p000-321373c721",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘有邊鞍功’是‘若有边鞍则主掌功绩’的推测依据。但‘边鞍’是风水术语，具体形态不详，candidate将其作为确定条件（‘若有边鞍则…’）释读，属于将推测写成事实。应保留原文‘有边鞍功’的模糊性，或明确标注其含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001522-p000-edc69fc945",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将表格内容处理为连续散文，破坏了原文的表格结构（kind=html）。虽然V3不要求保留表格格式，但应清晰分段或分项描述，以反映原文的并列条目关系。当前释读段落冗长，条理不清。",
+          "存在多处OCR识别错误导致的原文损坏（如‘正一文曇貴星’、‘宜居星成’、‘王出者星星求暑羅星’、‘务方在焉是文星在水是羅星’、‘夏宜作正业交器程宜旁出’等），candidate直接音译或意译这些损坏部分（如‘正一文昙贵星’、‘宜居星成’、‘王出者星星求暑罗星’、‘务方在焉是文星在水是罗星’、‘夏宜作正业交器程宜旁出’），未标注原文可能损坏或含义不明，易误导读者。",
+          "对部分损坏或含混术语（如‘框腫’、‘不靜不斜’、‘要年忌破碎’、‘陆胎患眼’、‘螟蛉泉’）进行了直译或猜测性翻译（如‘框肿’、‘不静不斜’、‘也要年忌破碎’、‘陆胎患眼’、‘螟蛉泉’），未标注其不确定性。",
+          "将‘上格貴4’、‘中贵.9’等标记解释为‘表格中上格贵4的标记需保留’、‘表格中中贵.9的标记需保留’，这不属于释读，而是编辑说明，不应出现在面向读者的释读文本中。应忽略或仅作技术性标注。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂且多处文字损坏，难以进行完整、准确的保守释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2877,
+    "completion_tokens": 714,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2877,
+      "completion_tokens": 714,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

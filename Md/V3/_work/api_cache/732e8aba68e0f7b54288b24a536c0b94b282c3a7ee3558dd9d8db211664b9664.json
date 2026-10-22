@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-24T23:20:24.061917+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "732e8aba68e0f7b54288b24a536c0b94b282c3a7ee3558dd9d8db211664b9664",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001108-p000-ec94b5f763",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“收山出然誤”存在文字错乱，无法确定释义",
+          "“無兼为沙說”语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001109-p000-bb2b809f51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“相達大比能幾人個之是知心”语义错乱，无可靠释义依据",
+          "“不種此對節”语义错乱，无可靠释义依据",
+          "“楊公叮字曾公安慎重私傳”语义错乱，无可靠释义依据",
+          "“勿轻公人擇地”语义不明确，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001111-p000-de96e937a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“收山王然訣”语义不明，无法释读",
+          "“此房句切為人耗讀通公天玉》全又何常な說此訣半全也”存在大量错乱字符，无可靠释义依据"
+        ]
+      },
+      {
+        "id": "book017-b001113-p000-d447d74679",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文包含日文假名“ね”，属于错乱字符，整句语义无法释读"
+        ]
+      },
+      {
+        "id": "book017-b001114-p000-5d97ce2793",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读内容中未提及原文的“赤须”存在无依据改字为“必须”的错误，与标注的writer_uncertainty不符，未对该错误情况进行说明"
+        ],
+        "uncertainty": [
+          "“赤须ね山”包含日文错乱字符“ね”，无法释读",
+          "“王水”语义不明，无可靠释义依据",
+          "原文“赤须”不应无依据改为“必须”"
+        ]
+      },
+      {
+        "id": "book017-b001116-p000-3187f6c08d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文包含无法识别的字符“F”，无法进行有效释读"
+        ]
+      },
+      {
+        "id": "book017-b001119-p000-04d0eefc23",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语序或文字错乱，无依据认定为署名内容，语义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1971,
+    "completion_tokens": 629,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1971,
+      "completion_tokens": 629,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

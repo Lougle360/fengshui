@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-26T09:59:59.822417+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e73ec36f0b5a98e3bc90a63da20e5b35d339d138e39052ace2c7265b1c5888bc",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000730-p000-afbb915c97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000734-p000-8327ab98cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中窩鉗二穴左右两臂的分類描述誤譯，原文是「一脚轉金一脚轉水木火土者、一脚轉水一脚轉金木火土者、一脚轉木一脚轉金水火土者、一脚轉火一脚轉金木水土者、一脚轉土一脚轉金木水火者」共五種雙腳轉五行的類型，加上單一轉五行的五種，合計二十體； candidate 將其誤拆分為「一腳轉金、一腳轉木火土、一腳轉水、一腳轉金木火土、一腳轉木、一腳轉金水火土、一腳轉火、一腳轉金木水土、一腳轉土、一腳轉金木水入」，其中「金木水入」為誤寫，原文是「金木水火」，且分類邏輯錯誤",
+          "原文「鉗穴有長短隻单曲直」的表述未準確對應，candidate 寫為「長短、隻曲、直之分」，拆分方式不符合原文列舉的特徵組合"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000736-p000-fab7ea5b97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000739-p000-e4faceb4f3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文「乳土光圓」被譯為「乳光圓潤」，遺漏了「土」的表述",
+          "原文「四間彎環」被譯為「四邊彎環」，含義有偏差"
+        ],
+        "uncertainty": [
+          "「弦拔」「藏堅」「流神」屬於風水專業術語，allowed_glossary 未收錄，釋讀為「弦線清晰明白」「鉗中藏堅」「流神符合法度」屬於合理推測，但無明確術語依據"
+        ]
+      },
+      {
+        "id": "book033-b000743-p000-aa854a2bd7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「獲腦同高」被誤譯為「腦與穴同高」，「獲」字含義未明的情況下直接對應「穴」屬於無依據增譯",
+          "原文 OCR 存在誤讀可能，原文應為「頭高頭低而中凹結穴者曰扳鞍穴，兩腦同高而中凹結穴者曰擔凹穴」，candidate 沿襲 OCR 誤讀的「獲腦」並隨意釋讀為「腦與穴同高」不符合要求"
+        ],
+        "uncertainty": [
+          "原文「獲腦」為 OCR 識別可能存在的錯訛，具體含義不確定"
+        ]
+      },
+      {
+        "id": "book033-b000747-p000-eda1319a07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000752-p000-daea110947",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「借樂安圩鰥亦所形體雖偏」斷句及釋讀錯誤，candidate 譯為「借樂安圩，即使是鰥居之處也可以。形體雖偏」屬於無依據增譯，原文語義存在斷句歧義，不應隨意解讀為「鰥居之處也可以」"
+        ],
+        "uncertainty": [
+          "「借樂安圩鰥亦所」為含混表述，具體含義不詳"
+        ]
+      },
+      {
+        "id": "book033-b000755-p000-36f10af8cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000756-p000-44c52eeb9b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「或出高申」被誤譯為「或出於高處」，「申」可能為方位或其他術語，不應直接省略釋為「高處」",
+          "原文「控拔明白」被譯為「控拔明白」未作通俗釋讀，且後文「穴宜揭高就脈」被誤寫為「穴宜高就脈」，遺漏「揭」字",
+          "原文「穴宜湊肆避簷」的「肆」為誤譯，應為「湊脈避簷」類含義，「肆」屬於無依據釋讀"
+        ],
+        "uncertainty": [
+          "「高申」「控拔」「湊肆」「蘸球」屬於風水專業術語，allowed_glossary 未收錄，釋讀存在不確定性"
+        ]
+      },
+      {
+        "id": "book033-b000762-p000-56a5f1189a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「庚申辛酉全水生人」被誤譯為「庚申年、辛酉年出生且五行属水的人」，「全水」含義不確定，不應隨意解讀為五行屬水",
+          "原文「到直果斷入咸畏服」被誤譯為「為人刚直果断，周围的人都畏惧服从」，「到直」「入咸」屬於 OCR 誤讀，candidate 隨意釋讀不符合要求",
+          "原文「不于寵榮」被誤譯為「不追逐恩宠荣耀」，「于」應為「干」的誤寫，釋讀含義雖接近但依據不足",
+          "原文「至生厝啞之人」被誤譯為「要是生出哑的人」，「厝啞」為誤讀，應為「瘖啞」，且「厝」字隨意省略不符合要求"
+        ],
+        "uncertainty": [
+          "「全水生人」「到直」「入咸」「厝啞」存在 OCR 識別錯訛可能，具體含義不確定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3742,
+    "completion_tokens": 1541,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3742,
+      "completion_tokens": 1541,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

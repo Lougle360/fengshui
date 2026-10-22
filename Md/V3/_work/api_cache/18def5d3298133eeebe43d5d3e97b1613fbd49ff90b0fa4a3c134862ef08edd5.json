@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:38:24.120515+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "18def5d3298133eeebe43d5d3e97b1613fbd49ff90b0fa4a3c134862ef08edd5",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000802-p000-1a9edafd8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000803-p000-60ea94d871",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘眞龍東氣’应为‘眞龍之氣’，候选句误译为‘真龙的生气’，虽含义相近但未准确对应原文表述；‘私有結作’应为‘亦有結作’，候选句误译为‘也会单独形成结作’，与原文表述不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000804-p000-12c799d9f4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘或有帳纏卸下相連不跌斷雖甚有 指有力’存在OCR识别错误，候选句直接按识别后的内容释读，未标注原文可能存在的损坏情况；‘橫過不見起不見止’的释读未明确是横向延伸的案山既看不到起点也看不到终点，表述不够清晰"
+        ],
+        "uncertainty": [
+          "原文‘或有帳纏卸下相連不跌斷雖甚有 指有力’存在OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000805-p000-315273b45e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘案低爲腳所躡非手所據’的释读不符合风水语境，案山为穴前山体，不可能被‘脚所踩’，候选句存在语义误读"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1511,
+    "completion_tokens": 423,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1511,
+      "completion_tokens": 423,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

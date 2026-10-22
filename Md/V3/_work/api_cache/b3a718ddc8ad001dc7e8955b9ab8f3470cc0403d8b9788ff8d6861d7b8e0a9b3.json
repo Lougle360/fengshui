@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T15:28:46.481388+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b3a718ddc8ad001dc7e8955b9ab8f3470cc0403d8b9788ff8d6861d7b8e0a9b3",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001107-p000-96753b9697",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001108-p000-556dbd1de5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001109-p000-b199afdb83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001110-p000-4f618adf86",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文未明确的「一時の盛をなす」译为“一時の盛をなす”，未按要求标注为具体所指不详，属于未处理含混短语的问题"
+        ],
+        "uncertainty": [
+          "原文「一時の盛をなす」具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3525,
+    "completion_tokens": 265,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3525,
+      "completion_tokens": 265,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

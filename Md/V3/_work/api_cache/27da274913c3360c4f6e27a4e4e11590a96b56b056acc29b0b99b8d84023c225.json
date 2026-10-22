@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:37:53.748702+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "27da274913c3360c4f6e27a4e4e11590a96b56b056acc29b0b99b8d84023c225",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000873-p000-2515b20773",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "庚、庚申、八二五",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000874-p000-e1cb2bc3d4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "辛酉八二、七二四",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000875-p000-63e565e127",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "壬寅四一、八壬成九六三、六三癸酉五八、五六八、癸美、九六三、北日",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在多处字迹错乱或残缺，无法明确完整含义"
+        ]
+      },
+      {
+        "id": "book010-b000876-p000-cd0fb7cd0d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "小字标注的前一组数字是男命的三元（以三元、九运等时序结构为核心的一类体系）九宫相关内容，后一组数字是女命的三元（以三元、九运等时序结构为核心的一类体系）九宫相关内容",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 411,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1543,
+      "completion_tokens": 411,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

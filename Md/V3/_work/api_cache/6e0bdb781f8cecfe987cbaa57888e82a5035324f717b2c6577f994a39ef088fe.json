@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T17:21:58.296481+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6e0bdb781f8cecfe987cbaa57888e82a5035324f717b2c6577f994a39ef088fe",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000905-p000-e894afa2c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000906-p000-6cffe8e800",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000907-p000-50b78007d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000908-p000-7c5093b88b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在排版混乱，候选句将卦爻辞与释文重复列出，属于不必要的增译，未按原文准确呈现译文格式"
+        ],
+        "uncertainty": [
+          "原文排版混乱，卦爻辞与释文的对应关系需进一步明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1694,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1694,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

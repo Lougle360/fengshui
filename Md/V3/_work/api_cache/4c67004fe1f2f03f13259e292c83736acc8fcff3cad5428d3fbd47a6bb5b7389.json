@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-24T09:32:15.188787+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4c67004fe1f2f03f13259e292c83736acc8fcff3cad5428d3fbd47a6bb5b7389",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000324-p000-9c6d99bcf8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000325-p000-9c2f972409",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘炙穴’释为‘对应人体的炙穴’无依据，原文未明确‘炙穴’的具体含义，属于无依据扩写；‘蒙故居’释为‘蒙昧时代人们安葬遗骨的地方’无依据，原文未明确‘蒙故居’的具体所指，属于无依据扩写；‘江差一指’释为‘江差一指’，但原文未明确‘江’的具体所指，属于含混短语未标注风险"
+        ],
+        "uncertainty": [
+          "‘炙穴’具体所指不详",
+          "‘蒙故居’具体所指不详",
+          "‘江差一指’中‘江’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000326-p000-840846df7e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘桎’具体所指不详，未标注风险；‘对宋’具体所指不详，未标注风险；‘朱省’具体所指不详，未标注风险；‘斉眉’‘麽心’未明确含义，属于含混短语未标注风险；‘桎云’‘歌诀’的归属未明确，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘桎’具体所指不详",
+          "‘对宋’具体所指不详",
+          "‘朱省’具体所指不详",
+          "‘斉眉’‘麽心’具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000327-p000-d181ef9539",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘桂’具体所指不详，未标注风险；‘平義’具体所指不详，属于含混短语未标注风险"
+        ],
+        "uncertainty": [
+          "‘桂’具体所指不详",
+          "‘平義’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1740,
+    "completion_tokens": 498,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1740,
+      "completion_tokens": 498,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

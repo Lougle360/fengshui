@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-17T04:51:43.911433+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "030a0d5a307b2a3a5204e62b4d16edb365dab4661d832f31b04c4d349779ce24",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002599-p000-43eded73ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002602-p000-3ab433f8a0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“哪流涌水似鱗交簇擁向外試識方來之”后接“叠顺水趨槍絕無回頭反背之勢”，candidate将“叠顺水趨槍”译为“叠顺水‘趋枪’”，但“趋枪”作为opaque_terms处理，应加引号并说明所指不详，而candidate未加引号且未明确标注其不确定性。",
+          "原文“水從砂去如魚之”后接“眞龍出身其送從之砂夾畏推擁如浪之涌重重疊”，candidate将“如魚之”补为“如同鱼鳞”，虽合理但原文此处有缺字，应在uncertainty中说明。",
+          "candidate将“哪流”译为“水流”，并在uncertainty中标注“原文‘哪流’可能指水流，但字面存疑”，符合要求。"
+        ],
+        "uncertainty": [
+          "原文“试识方来之”后似缺字，推测为“势”",
+          "原文“如鱼之”后似缺字，推测为“鳞”",
+          "“趋枪”具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002603-p000-ddf00b7c11",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“如弓弃”具体所指不详",
+          "“如越屯伏”具体所指不详",
+          "“鬼送从”具体所指不详",
+          "“入肯”具体所指不详",
+          "“左躇”具体所指不详",
+          "原文“不容”后似有缺文"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1888,
+    "completion_tokens": 402,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1888,
+      "completion_tokens": 402,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

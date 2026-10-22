@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-25T03:50:02.153187+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8ac8a96d77c03410f4b782861ca6b2c07262b967e4859f7216aad106f7e39053",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000818-p000-c61645e112",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中‘久不远乡’误译为‘长久不能返乡’，二者语义相反，应为‘长久不还乡/返乡’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000821-p000-d513393614",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘是何料事于豫如目前也哉’误译为‘这是多么像预料眼前事一样准确啊’，未准确译出‘于豫（预先）’的含义，应为‘这是多么能预先料事如同看眼前的事物一样啊’；原文‘各各不爽’误译为‘每一次都没有差错’，此处指前述不同时机凿断的结果都契合预期，未准确传达对应性；对‘离乡砂’的‘离’未按locked_terms要求保留原术语关联，且allowed_glossary中‘离’为八卦之一，不应直接与‘离乡砂’合并释义而不保留原术语特征"
+        ],
+        "uncertainty": [
+          "鬼刦具体所指不详",
+          "“凿天”的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book019-b000822-p000-34ea9b3fbb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2321,
+    "completion_tokens": 412,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2321,
+      "completion_tokens": 412,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "writer_model": "doubao-seed-2-0-mini-260428",
+  "repair_model": "doubao-seed-2-0-pro-260215",
+  "escalation_model": "doubao-seed-2-0-pro-260215",
+  "judge_model": "doubao-seed-2-0-pro-260215",
+  "max_concurrent_api_requests": 1,
+  "routes": {
+    "doubao-seed-2-0-mini-260428": {
+      "provider": "volcengine-ark",
+      "api_url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      "api_key_env": "ARK_API_KEY",
+      "remote_model": "doubao-seed-2-0-mini-260428",
+      "max_concurrent_requests": 1,
+      "max_concurrent_model_requests": 1,
+      "stream": true,
+      "omit_body_fields": ["enable_thinking"],
+      "body_overrides": {"thinking": {"type": "disabled"}},
+      "prices": {"input": 0.1, "output": 1.0}
+    },
+    "doubao-seed-2-0-pro-260215": {
+      "provider": "volcengine-ark",
+      "api_url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      "api_key_env": "ARK_API_KEY",
+      "remote_model": "doubao-seed-2-0-pro-260215",
+      "max_concurrent_requests": 1,
+      "max_concurrent_model_requests": 1,
+      "stream": true,
+      "omit_body_fields": ["enable_thinking"],
+      "body_overrides": {"thinking": {"type": "disabled"}},
+      "prices": {"input": 1.6, "output": 8.0}
+    }
+  }
+}

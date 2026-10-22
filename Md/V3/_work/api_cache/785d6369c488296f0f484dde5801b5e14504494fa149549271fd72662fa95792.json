@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-10-18T11:39:15.953860+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "785d6369c488296f0f484dde5801b5e14504494fa149549271fd72662fa95792",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006386-p000-0155885d3b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006387-p000-57535c9679",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘九八六六之春’含义不明，candidate直接释为‘九八六六之春’未作解释或标注，属于漏译或未处理含混短语。",
+          "原文‘坐生氣而况死氣故合作中格局’，candidate释为‘坐生气而兼死气，因此属于合作中的格局’，将‘合作中’（可能为‘合作中格局’或‘合作为中格局’）简化为‘合作中的格局’，含义可能改变。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006388-p000-0f345584ac",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "革之晉的具体卦象关系或位置指代不详"
+        ]
+      },
+      {
+        "id": "book035-b006389-p000-3db1f8f56a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006390-p000-3753aa3215",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文‘向蒙這冀’含义不明，candidate释为‘山郡的向位蒙受此冀州’属于无依据的推测性扩写，应保留原文短语并标注其含义不清。"
+        ],
+        "uncertainty": [
+          "向蒙這冀的语法结构及具体含义不清，原文可能存在缺字或错乱"
+        ]
+      },
+      {
+        "id": "book035-b006391-p000-7dc641cddf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘兑卯日鷄昴六至八’，candidate释为‘兑卦对应卯日的日鸡’，但‘兑卯’可能指‘兑’与‘卯’的组合或关联，直接释为‘兑卦对应卯日’可能不准确。‘日鸡’为昴宿别称，但‘卯日’与‘日鸡’的关系原文未明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006392-p000-817182f758",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006393-p000-342ea92d91",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "同人解的具体卦象关系或位置指代不详"
+        ]
+      },
+      {
+        "id": "book035-b006394-p000-68b0ec7b51",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文‘舞州州常山郡’表述不清，可能为‘舞州，常山郡’或存在其他结构。candidate释为‘辛酉对应舞州，州治位于常山郡’，增加了‘州治位于’这一推测性解释，属于无依据扩写。"
+        ],
+        "uncertainty": [
+          "舞州的具体指代及与常山郡的关系在原文中表述不清"
+        ]
+      },
+      {
+        "id": "book035-b006395-p000-dbb0aa0e1a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "向師之賁的具体方位指向或卦象关联不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1765,
+    "completion_tokens": 739,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1765,
+      "completion_tokens": 739,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

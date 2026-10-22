@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T15:35:31.799373+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a8bc93c6e3efae7fcdd8a74e8276c6b809a3fd1269e527dbbdd01820d4bb2441",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001176-p000-e563cfeea8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001177-p000-8db330b453",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001178-p000-690ad9ed16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001179-p000-ed0216329d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“越には，天恩が施され，福が生じる”的主体应为对应星纪分野的吴、越区域，候选句误将“越地”作为天恩施加的对象，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文未明确“天恩”的具体所指，仅为占星术相关的传统表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1809,
+    "completion_tokens": 278,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1809,
+      "completion_tokens": 278,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

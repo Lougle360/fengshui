@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-15T07:11:11.744015+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8679129a81f36457ae0d62a26573adcbb7313bc25a0fa102e73d85d5b9833661",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001398-p000-800df53c85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘臨丙庚名銀河水’中‘臨’字未译出，漏译。candidate 译为‘水流朝向丙方和庚方’，但原文‘臨’可能指水口、水流朝向或临近方位，释读不完整。",
+          "‘歌雲左 流 聲’的释读‘相关歌诀写道‘左 流 聲’，具体所指不详。’正确，但前半句漏译‘臨’导致整体不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001400-p000-023ed4e897",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001404-p000-3d80c1be5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "兑山丑上巽上戲的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b001405-p000-0b493c87ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘其法論來山以乾甲坤乙爲例如乾甲山不可放寅申水之類’中，‘乾甲山’、‘坤乙山’是风水术语，指特定山向组合。candidate 译为‘乾山或甲山’、‘坤、乙’，将组合拆解为并列，改变了原意，属于专业术语误换。",
+          "‘又其路怕風吹一不足堆上築二’中，‘一不足堆上築二’释读为‘原文提到‘一不足堆上築二’，具体所指不详。’正确，但前半句‘又其路怕風吹’译为‘另外，道路怕风吹’无误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001407-p000-f2785a947e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘不足栽竹木三不足造屋須有遮則無害’是承接上条‘一不足堆上築二’的列举。candidate 译为‘若不足，则栽种竹木；第三项不足，则建造房屋，须有遮挡则无害。’将‘不足’理解为条件句‘若不足’，但原文‘不足’更可能指前文列举的‘不足’事项（如‘一不足’、‘二不足’），此处‘不足栽竹木’即‘第二项不足是栽竹木’，‘三不足造屋’即‘第三项不足是造屋’。释读将列举关系误译为条件关系，改变了逻辑。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001408-p000-8098acc32e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘宅則于大門或門樓限上安木星局則于塋前第二級上安木星局’是并列结构，描述两种不同情况：‘宅’的情况和‘局’（应指墓局）的情况。candidate 译为‘宅则在大门或门楼限上安木星局；原文接着说‘则于塋前第二級上安木星局’，此处结构不清。’未能识别‘局’的主语转换，导致结构混乱，属于漏译和逻辑关系误判。应释读为：对于阳宅，则在大门或门楼限上安木星局；对于墓局，则在坟茔前第二级上安木星局。",
+          "‘取五吉避四凶’是风水常见原则，candidate 直接引用未解释，但符合‘允许引用必要短语’规则，可接受。",
+          "‘黃錄殺’释读为‘具体所指不详’正确。"
+        ],
+        "uncertainty": [
+          "黃錄殺的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1581,
+    "completion_tokens": 832,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1581,
+      "completion_tokens": 832,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

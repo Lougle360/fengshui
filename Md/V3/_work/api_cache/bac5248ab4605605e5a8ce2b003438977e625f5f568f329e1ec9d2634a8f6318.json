@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T16:53:35.067891+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bac5248ab4605605e5a8ce2b003438977e625f5f568f329e1ec9d2634a8f6318",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000631-p000-70aca6d0cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序拆分错误，原句为两句诗+注文的结构，“詩放棺切忌直當择 曰氣從耳入微斜受”断句有误，候选将“詩”“曰”按普通发语词处理，且漏译原句诗歌体裁特征，“氣從耳入微斜受”错误释读为“氣從耳穴處入微，需斜向承接”，原文“微斜受”是指稍微斜着承接，并非“入微”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000632-p000-f81f8c1c81",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“天庭蓋二放棺”断句错误，候选释为“天庭蓋二處放棺”无依据，原文此处句读存疑，不能直接认定是“二处”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000633-p000-5e112f7833",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000634-p000-6ef3b64466",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“不用饒”是风水术语，指不用避让、无需多留余地，候选释为“不用寬容”不符合专业语境，属于误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000635-p000-b6e43a33ba",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“歆分之勢”“乘刪柔相濟之宜”“勁色已關”释读无依据，属于不确定内容直接写为确定解释；“放置中和之氣”原文无对应表述，属于增译。"
+        ],
+        "uncertainty": [
+          "歆分、乘刪、勁色已關具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000638-p000-c456c53f3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“倚穴用之”指在倚穴的情况使用，候选释为“是倚仗穴使用的”语义错误，违背allowed_glossary中“穴”的定义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000639-p000-464313194b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000641-p000-06721a0af8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“撞宂用之”指适用于撞宂的情形，候选释为“是撞宂使用的”语法不通，未转换成通顺的现代中文。"
+        ],
+        "uncertainty": [
+          "撞宂具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000642-p000-7aa5a9ad03",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“聞堂”“倒校穴”“借倚扦之”均为未明确的术语，候选直接按字面释读属于无依据解释；“本塟其傍”“塟”是“葬”的异体字，释读正确但“倒校穴”未做模糊标注。"
+        ],
+        "uncertainty": [
+          "聞堂、倒校穴、借倚扦之具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000643-p000-bdf82054e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为诗+注结构，“詩到頭急殺尚崔嵬”“曰放棺脫殺秉生氣綴杖能教撥似雷”，候选直接保留原句未做通俗释读，不符合白话释读要求；“不可回”释为“不可迴避”错误，原文指来势迅猛无法回绕避让。"
+        ],
+        "uncertainty": [
+          "“撥似雷”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2268,
+    "completion_tokens": 1015,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2268,
+      "completion_tokens": 1015,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

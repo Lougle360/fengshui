@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T11:19:14.210743+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "029c208a5a4cea29724fabf15026e2797d86d14f1b9e59fc2365412897904a0b",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000023-p000-e0b5351317",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000024-p000-89de0511a2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“氏云”“五尺云”的表述直接释为“某氏说”“五尺云”，未明确标注“具体所指不详”，存在把不确定解释写成确定事实的问题；原文中“水为第，水为于”的表述未明确含义，释读时未标注相关说明，存在语义模糊问题"
+        ],
+        "uncertainty": [
+          "“氏云”“五尺云”的具体所指不详；“水为第，水为于”的具体含义未明"
+        ]
+      },
+      {
+        "id": "book013-b000025-p000-f948f36ac7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000026-p000-09ee631467",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2304,
+    "completion_tokens": 327,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2304,
+      "completion_tokens": 327,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

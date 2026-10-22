@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-04T03:07:43.282655+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "94efd1c522e1ad3ccf370e15e940146a7227eb4439bd84e2bee6d54c5b1b94d2",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001200-p000-ea70287532",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "后乐具体所指不详",
+          "孝顺鬼具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b001201-p000-e6e86f1751",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001202-p000-9f95d84f10",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘转针着正形官不绝’中‘转针着正形’是风水操作术语，candidate 译为‘转针着正形’未作白话解释，普通读者难以理解。",
+          "原文‘贪狼入穴如拖枪’中‘贪狼’是星体/山形术语，candidate 直接保留‘贪狼星’未作解释，不符合 V3 目标。",
+          "原文‘鬼乐’是术语，candidate 直接保留未作解释。"
+        ]
+      },
+      {
+        "id": "book033-b001203-p000-82d2605273",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘横龙却向直中扦，直山却向横中处’是风水点穴方法，candidate 直译‘横龙却向直中扦，直山却向横中处’未作白话解释，普通读者难以理解。",
+          "原文‘鬼乐’是术语，candidate 直接保留未作解释。",
+          "原文‘托乐’是术语，candidate 直接保留未作解释。"
+        ]
+      },
+      {
+        "id": "book033-b001204-p000-df285d6aab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001205-p000-e1093d07b4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文末句‘也全之无山者水工’语义不明，candidate 仅按字面转述，未提供任何可能的解释或说明，导致释读不成立。"
+        ]
+      },
+      {
+        "id": "book033-b001206-p000-6141ccc275",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001207-p000-6ff893a52b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘要鍬皮苞節認玄微’是‘还有一种怪穴，要锹皮苞节认玄微’的完整描述。候选句将其拆分为‘还有一种怪穴，要锹皮苞节认玄微’，这属于为形成现代汉语句子而补出主语和连接词，是允许的。但‘还有一种怪穴’的‘还’字，在原文‘也有怪穴’中已有‘也’字对应，此处增译‘还’字虽不改变含义，但原文‘也有怪穴’是承接前文‘反掌之地’的另一种情况，候选句处理得当。整体语义准确，无漏译、反义等问题。因此，维持原判为accept。"
+        ]
+      },
+      {
+        "id": "book033-b001208-p000-deedcf304d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘故曰芑節認玄微’中‘芑’字，候选句写作‘芑’。但前文（id: book033-b001207-p000）及本段开头均为‘苞節’，且‘芑’字在古文中可通‘苞’或指植物初生，此处可能为‘苞’之讹误或异写。候选句直接转写为‘芑’，未作说明，可能导致读者困惑。应标注此文字差异或按‘苞’理解。"
+        ]
+      },
+      {
+        "id": "book033-b001209-p000-172fde9828",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘粗中細也’语义简略，可能指穴位形态或气脉粗细变化，但缺乏上下文支撑，具体所指不详。候选句保留原短语并标注了不确定性，符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1489,
+    "completion_tokens": 447,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3361,
+      "completion_tokens": 663,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1489,
+      "completion_tokens": 447,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

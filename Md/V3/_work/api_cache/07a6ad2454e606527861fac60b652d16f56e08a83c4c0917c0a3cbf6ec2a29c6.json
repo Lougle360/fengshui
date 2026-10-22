@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-25T11:51:01.311068+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "07a6ad2454e606527861fac60b652d16f56e08a83c4c0917c0a3cbf6ec2a29c6",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000806-p000-32d269c6ed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary明确震为八卦之一，候选将其释为“与震相关的显贵之人”属于无依据增译，原文未提及“显贵”相关表述"
+        ],
+        "uncertainty": [
+          "“高震”具体所指不明"
+        ]
+      },
+      {
+        "id": "book024-b000811-p000-84b64c3ea9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文语序较为混乱，候选自行调整语序后添加的“即便有可取之处”属于无依据增译；“脉木”被释为“脉气已属木性”无术语依据，属于臆测"
+        ],
+        "uncertainty": [
+          "“山尨已脉木”的具体含义尚存争议"
+        ]
+      },
+      {
+        "id": "book024-b000817-p000-f7ff5e130c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“安防瓶下”具体所指不详",
+          "“法青平三倾斜”具体所指不详",
+          "“扁持巴各有宣”具体所指不详"
+        ]
+      },
+      {
+        "id": "book024-b000818-p000-1bfd487768",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“尺八约永梭近”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 389,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1313,
+      "completion_tokens": 389,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

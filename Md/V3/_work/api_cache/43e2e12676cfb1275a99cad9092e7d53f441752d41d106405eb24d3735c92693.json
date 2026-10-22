@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T05:22:35.912792+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "43e2e12676cfb1275a99cad9092e7d53f441752d41d106405eb24d3735c92693",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000360-p000-4d5b64d95b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000361-p000-507960f122",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000362-p000-e1463e3a32",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR识别缺漏，“或五度六7 第四曆透地龍”为识别出的可疑内容，含义无法完全确定"
+        ]
+      },
+      {
+        "id": "book020-b000364-p000-3f6a528292",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000365-p000-8af3234037",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“且朱蔡未嘗不大享地理之福”被误译为“况且朱蔡未必没有大享地理之福”，“未尝不”是双重肯定，意为“确实是、的确”，译文的“未必没有”变为推测，与原义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000366-p000-ad547662e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000367-p000-69f82d7e02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000368-p000-803bf703e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子初之在壬平者”被误译为“子初对应壬平的位置”，原文为“壬半”，“平”是译文误写；原文“至丑而乃關”应为“至丑而乃闢”，译文错写为“完成地辟的过程”虽语义通顺但未明确标注此处原字可能的讹误；原文“凡六目七分”的“六目”未做释义，“目”应为“日”的讹写，译文直接保留“六目”未加说明；原文末尾“亦昔第四地龍”是OCR残留内容，译文直接释为“也就是昔第四地龙”不准确，应标注为可疑内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000369-p000-7199750132",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“凡六目七分”的“六目”应为“六日”讹写，译文保留“六目”未作说明，易造成读者困惑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000370-p000-07e66cc20b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4170,
+    "completion_tokens": 855,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4170,
+      "completion_tokens": 855,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T08:54:21.491183+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8130bea1c5121e56adc83729bc53881c6a591250bd2ea48c2a46c33426f77fca",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002756-p000-e29a26439a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002758-p000-500b84f473",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002759-p000-87b5bce681",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文末尾仅为“葬”字，并无“这里是安葬的位置”相关含义，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002761-p000-a04e76f7ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002762-p000-fbd7562301",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处重复“乐平黄尚书祖地：右地”，已按可辨识内容整理"
+        ]
+      },
+      {
+        "id": "book019-b002763-p000-b77826df4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002766-p000-9d372e60dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002768-p000-bf06c73e64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002769-p000-7b02d3008d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source是二级标题，带有##标记，candidate遗漏了##标记"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002770-p000-04f50adff9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5381,
+    "completion_tokens": 631,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5381,
+      "completion_tokens": 631,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

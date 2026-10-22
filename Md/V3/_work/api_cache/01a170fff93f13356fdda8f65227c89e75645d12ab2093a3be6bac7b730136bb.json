@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T22:48:42.101688+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "01a170fff93f13356fdda8f65227c89e75645d12ab2093a3be6bac7b730136bb",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000832-p000-248ee07644",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“故公天玉特筆關之”的“關之”释为“点明这一问题”不准确，此处“關”是批驳、纠谬的意思，不符合原意；source中“是宅穴此同正山正向正”的含义被误读为“不管是宅的穴还是正山正向的情况”，原文表述存在语序混乱，该解释缺乏依据"
+        ],
+        "uncertainty": [
+          "B針对含义不明",
+          "筆始於庚也具体所指不详",
+          "俗得一春取兼具体含义不详",
+          "公天玉具体身份无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000840-p000-b4d2bdc71c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“以你可據是星”属于OCR识别错误的乱码内容，直接保留原句且未标注属于OCR错误，未说明该句无法正常释读，不符合要求；“而安星又集子上山下水是即男女丁皆不利”的逻辑被误读，原文断句应为“而安星又集子上山下水，是即男女丁皆不利”，候选将“是即”归入前文表述，导致语义拆分错误"
+        ],
+        "uncertainty": [
+          "凡立る中る为乱码，含义不明",
+          "以你可據是星中“你”的指代对象无法确定",
+          "集房書本張具体所指不详",
+          "所謂っ道龍、っ失其從中っ为乱码，含义不明",
+          "排龍見福存、文曲·貞具体含义不明",
+          "安星又集子上山下水的逻辑无法明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 435,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1365,
+      "completion_tokens": 435,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

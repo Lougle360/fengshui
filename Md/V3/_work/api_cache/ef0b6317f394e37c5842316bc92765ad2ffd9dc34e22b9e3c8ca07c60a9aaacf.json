@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-15T04:32:21.214246+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ef0b6317f394e37c5842316bc92765ad2ffd9dc34e22b9e3c8ca07c60a9aaacf",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001141-p000-a15f6d57d7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格中的术语（如“洪崩蚌螺”“模峽石”“崩目節”等）全部解释为“水势如洪崩，形态似...”，这是无依据的扩写。原文仅为术语名称，没有提供形态描述。候选句的释义（如“形态似蚌或螺”“形态为石”“崩势如目”等）是自行添加的，不符合V3目标。",
+          "候选句将表格内容重新整理为1-15的列表，并添加了“具体包括：”等引导语，这是对原文结构的增译。原文是表格，候选句应描述表格内容，而非重构为列表。",
+          "候选句对“图下注云”的处理不当。原文注文为“十眞水故遏崩名迹難廖水洪官唤尋氏其乃贵作脈雲形石此崩石崩有梁中洪上山十渡生有留洪格脈”，语义晦涩。候选句先将其部分内容作为“图下注云”的引文，然后又重复了一遍原文，并说“具体所指不详”。正确的做法是直接说明“图下注云”的原文内容，并指出其含义不明，不应先自行概括再引用。",
+          "候选句开头“巳上十大崩洪之格石骨度水露迹者是：”的翻译“此表列举了十种属于‘崩洪’格局的形态，其特征为石骨显露、水迹清晰。”可以接受，但后续内容问题严重。"
+        ],
+        "uncertainty": [
+          "表格中术语的具体含义不明。",
+          "图下注文含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2224,
+    "completion_tokens": 390,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2224,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

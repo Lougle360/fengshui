@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-10-16T11:32:41.125920+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1b7c60af068ac02e650537bb939521714cec54b429cbc45b66e266a0fb625da2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002205-p000-bee5dc327d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘粼姻伯叔’释为‘伯叔辈的山势’无依据，原文‘粼’可能为‘邻’或‘鳞’的异体，整体短语含义不明，应保留原文并标注不确定性。",
+          "将‘未妇对偶’释为‘未嫁女子寻找配偶’是推测，原文‘未妇’可能指‘夫妇’或‘未’为‘夫’之误，不应赋予确定含义。",
+          "‘若龙脉反背，则不吉’是增译，原文‘反也’仅表示‘反之’或‘反背’，未明确吉凶。"
+        ],
+        "uncertainty": [
+          "‘粼姻伯叔若围圆’具体所指不详。",
+          "‘未妇对偶’具体所指不详。",
+          "‘反也’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002206-p000-e95b6007e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘逆虎卷穴上东林’释为‘虎山逆行卷曲，穴位于东方林间’是推测，原文‘虎’可能指‘白虎’或‘虎形山’，‘东林’也可能为地名或泛指，不应赋予确定含义。",
+          "将‘东宫锁’释为‘东宫锁住’是推测，原文‘东宫’可能指东方宫位或特定方位，不应赋予确定含义。",
+          "‘则最为适宜’是增译，原文‘下了为宜’仅表示‘下葬为宜’，未明确‘最’。"
+        ],
+        "uncertainty": [
+          "‘逆虎卷穴上东林’具体所指不详。",
+          "‘东宫锁’具体所指不详。",
+          "‘满国敏大日也不见出之’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002207-p000-62e2f1a1aa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘五马小山’释为‘五马小山’未作解释，应标注其含义不明。",
+          "将‘急慢脉性也大，持小小特大’释为‘急慢脉性也大，持小小特大’未作解释，应标注其含义不明。",
+          "将‘齐应者避奈也’释为‘齐应者避奈也’未作解释，应标注其含义不明。",
+          "候选句未对晦涩短语进行风险标注，不符合要求。"
+        ],
+        "uncertainty": [
+          "‘五马小山’具体所指不详。",
+          "‘急慢脉性也大，持小小特大’具体所指不详。",
+          "‘齐应者避奈也’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002208-p000-e9eb2b2842",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002209-p000-9b41a05694",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘蟠带从’后似有缺字，句意未完。"
+        ]
+      },
+      {
+        "id": "book035-b002210-p000-855b5c44b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002211-p000-f7a78ef668",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002212-p000-f48d7cf0a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘入gr 五’释为‘入（此处具体所指不详）’处理不当，原文‘gr 五’明显为OCR错误，应标注为疑似识别错误，而非简单省略。"
+        ],
+        "uncertainty": [
+          "原文‘入gr 五’疑似OCR识别错误，无法确定具体含义。"
+        ]
+      },
+      {
+        "id": "book035-b002213-p000-0e218ef5aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002214-p000-55a783ec19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘娜地理’释为‘娜地理’未作解释，应标注其含义不明。",
+          "将‘三壹朝伏好’释为‘三壹朝伏好’未作解释，应标注其含义不明。",
+          "候选句未对晦涩短语进行风险标注，不符合要求。"
+        ],
+        "uncertainty": [
+          "‘娜地理’具体所指不详。",
+          "‘三壹朝伏好’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2492,
+    "completion_tokens": 1009,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2492,
+      "completion_tokens": 1009,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

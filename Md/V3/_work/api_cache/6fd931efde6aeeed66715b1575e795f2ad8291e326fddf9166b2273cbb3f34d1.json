@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T12:09:59.755408+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6fd931efde6aeeed66715b1575e795f2ad8291e326fddf9166b2273cbb3f34d1",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000915-p000-1f89601e3d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为未断句的残损内容，存在大量语义不明之处，候选释读将不确定的内容强行解释为确定语义，如‘子嗣左知天舞看后出宗穷行夜子桥相强阻岂龙安’属于断句混乱的残句，候选将其翻译为‘子嗣从左侧知晓天运，后续出现的宗族穷尽于夜间出行的孩子，桥被强行阻拦，难道是龙安？’属于无依据的臆译，不符合含混内容的标注要求"
+        ],
+        "uncertainty": [
+          "原文整体断句错乱、语义残损，多数内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book024-b000917-p000-2811fcaae6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000918-p000-4900a63be4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘歇更薰多走作交流一败不’属于残损语句，语义不明，候选将其翻译为‘回头、歇更、薰多等情形，形成交流之象，一旦失败就无法挽回’属于无依据臆译；原文‘鴻去还消’被错误翻译为‘水流远去后还会回流’，语义完全不符"
+        ],
+        "uncertainty": [
+          "原文存在断句错乱、部分内容残损，‘歇更薰多’‘一败不’‘鴻去还消’语义不明"
+        ]
+      },
+      {
+        "id": "book024-b000920-p000-539aa59f99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000921-p000-986da402f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000923-p000-8024a402ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为残损乱序语句，‘著解不須澆此悞矣良 此水入明堂開能云直’语义不通，候选将其翻译为‘注释不必拘泥于此，这是个错误。这条水流入明堂，怎能说它是直的？’属于无依据臆译，对‘澆’‘開’等字的释义完全没有依据"
+        ],
+        "uncertainty": [
+          "原文语序混乱、存在残字，无法准确释读"
+        ]
+      },
+      {
+        "id": "book024-b000926-p000-7dd2ad1a83",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘瘟瘧’为古文术语，未转换成普通读者能读懂的现代中文，应补充释读为‘瘟疫、疟疾’类疾病，或标注语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000927-p000-19d15ab303",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘攻宅有此主傷家苦’被错误翻译为‘住宅出现这种情况，主家道衰败，主人内心痛苦’，属于无依据增译，原文‘攻宅’语义未明确解读，‘傷家苦’并非指主人内心痛苦；原文‘疾患月疾’语义不明，候选将其翻译为‘各类疾病以及每月发作的疾病’属于臆测"
+        ],
+        "uncertainty": [
+          "原文‘攻宅’‘月疾’语义不明"
+        ]
+      },
+      {
+        "id": "book024-b000931-p000-1c351ef8e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000933-p000-4a52ac360e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘魚吉’语义不明，候选直接翻译为‘属于吉兆’属于臆测；原文‘為已予’语义不明，候选翻译为‘已经预示吉兆’属于无依据增译；原文‘六不渗 六可扦葬’语义不明，未做标注直接释读属于错误；原文‘天嚴福’被错误翻译为‘得到上天庇佑’，无释义依据"
+        ],
+        "uncertainty": [
+          "原文‘魚吉’‘為已予’‘六不渗’‘六可扦葬’‘天嚴福’语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1983,
+    "completion_tokens": 1088,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1983,
+      "completion_tokens": 1088,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

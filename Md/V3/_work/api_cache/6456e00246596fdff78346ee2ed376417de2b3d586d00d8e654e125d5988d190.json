@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-24T01:07:59.491428+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6456e00246596fdff78346ee2ed376417de2b3d586d00d8e654e125d5988d190",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000836-p000-3e7b1d5382",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000837-p000-83f5d0b95a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文人名断句不明，候选将「雲門黃中植稔安袁豐年」合并表述易造成人物混淆，原文开头的「r 理齋」字符未做对应说明，人物归属与断句存在不准确问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000838-p000-7c4e9be284",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000839-p000-d6909f8c84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「几戊乾亥」候选误写为「凡戊、乾、亥」，且「戊」应为「戌」的OCR讹误，未做风险标注；2. 原文「壬子癸皆坎宅」候选误断为「壬子、癸」；3. 原文「未坤申皆坤宅」候选讹作「未、坤、巾」，未修正或标注；4. 原文「其卦以乾坤艮巽為西四宅」候选漏写「巽」；5. 原文「消息盈盧」应为「消息盈虚」，候选直接写为「消息盈虛」未标注讹误；6. 原文「坎離濟」应为「坎離既濟」，缺字未标注；7. 原文「貪巨祿文廉武破」候选误写为「貪、巨、祿、來」，「來」为讹字未标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000840-p000-d2c0ae89af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000841-p000-0dcd2b9b27",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「虞延生禍絕五天六」为讹误，候选直接删除，新增了重复的「巽延生禍絕五天六」属于错漏；2. 原文「卦地黍之」候选改为「卦地辨之」，未标注原字讹误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000842-p000-f0b9d5d224",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000843-p000-6c42196e72",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「遂棟生人」语义不明，候选直接沿用未标注；2. 原文「則州巽天五六之法」候选改为「則用巽天五六之法」，未标注原字讹误；3. 原文「第三棟六煞水內」语义不通，候选未做说明；4. 原文「禍害土生絕命 三金不生延年金」缺字未标注；5. 原文「謂景後一棟」候选沿用未说明讹误；6. 原文「入杖五火凶」语义不明未标注；7. 原文末尾「此爲化宅相生之」缺字，候选直接沿用未标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000844-p000-2439175e98",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「門宅房皆為官也」候选误写为「皆爲宮也」，「官」为讹字未标注说明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000845-p000-f98e1dc63b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文「飛到本坐吉門飛得吉星到木坐」断句错误，候选断为「飛到本坐吉；門飛得吉星到木坐」语义不通；2. 原文「凶內飛得凶星爲木坐」语义不明未标注；3. 原文「從門土繞屋一數」候选改为「從門上繞屋一數」未标注原字讹误；4. 原文「開廁癘牛欄」候选将「癘」单独列出，未说明此处应为讹字，语义不通"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4761,
+    "completion_tokens": 1145,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4761,
+      "completion_tokens": 1145,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

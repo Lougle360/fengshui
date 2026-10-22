@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-04T01:44:35.593542+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "c0e143f90fc062964ce98881cbac0734edaa1d58e531f1d7e78ec9a3a8bd3f28",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000311-p000-23e9f60838",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "众多星宿纷纷拱卫，使这处微垣尊居于帝座之位。明堂照应着笔架山，其形态如三座山峰排列，前后如椒房般有序。此星象万里之内难得一见，此龙脉亦极为罕见。紫微星即北辰星，是天之枢纽。月亮大，以年为单位，太阳在年身上，日上将星拱卫，而泉星也来拱卫。北斗星在斗时位于天中等位，上相、上将在四垣之中，天乙、太乙等星宿在时位。人若能识得这些星象，便能知晓天机。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中'月大以年身上日上將'断句与含义模糊，此处根据上下文推测为描述日月星宿的层级关系，具体所指不详。",
+          "原文末尾'人 識識得之 T'存在明显 OCR 残缺或乱码，'T'字无义，仅能根据前文推断为'人若能识得'之意。"
+        ]
+      },
+      {
+        "id": "book035-b000315-p000-fbe695f66f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "王重包裹着红莲瓣，穴位于花心之中，左右有众多山势拱卫缠绕，穴就居在其中。《指南》记载：云嵯峨山势断续，高悬分瓣，形状如同出水莲花，或似乱花垂蕊，穴居中，一穴仁安。杨公云：断续藕脉带线，奉相相连，接下平区。莲花偏爱浮清水，荷叶圈圈似月圆，花心叶里堪安。王为官员常在帝王遗地。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1362,
+    "completion_tokens": 525,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1362,
+      "completion_tokens": 525,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

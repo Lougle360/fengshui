@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T18:04:47.380703+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "839662a9d7da7f5e55eef43811b81027e81ed716136b7db5db380825fd7e3855",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000965-p000-ca06a6991e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000966-p000-c86262df86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未作断句标点，候选自行断句后将「開面有脚」拆分至下句，不符合原文语序；存在未转换的繁体异体字，如「側」「捲」「雲」「腳」「豐」未改为对应简体字「侧」「卷」「云」「脚」「丰」；原文末尾「地貴平而」语义未完，候选未作标注说明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000967-p000-41cedff4c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000968-p000-a07a01dd6c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅照搬原文，未转换为普通读者能读懂的现代白话，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000969-p000-8ed9505b81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000970-p000-7ed459b2c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅照搬原文，未转换为普通读者能读懂的现代白话，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000971-p000-aafcb3aff0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "「孤曜」为风水专有术语，普通读者可能不理解其具体含义"
+        ]
+      },
+      {
+        "id": "book029-b000972-p000-62a8d0f2b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「褶褥」「裀褥」「龍虎」为风水领域专有表述，未作通俗解释普通读者较难理解"
+        ]
+      },
+      {
+        "id": "book029-b000973-p000-e87d3f07a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「撞倚葬法」「临盘坐」属于风水葬法专业术语，具体操作方式未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b000974-p000-c6a8d84747",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「拈指全星」为风水地形专有名称，无通用解释普通读者较难认知"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2148,
+    "completion_tokens": 721,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2148,
+      "completion_tokens": 721,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

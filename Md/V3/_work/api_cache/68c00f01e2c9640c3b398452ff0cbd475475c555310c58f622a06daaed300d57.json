@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-25T05:32:52.355329+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "68c00f01e2c9640c3b398452ff0cbd475475c555310c58f622a06daaed300d57",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000084-p001-1308163146",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为‘从戌向辰移’，候选误写为‘从戌向戌的移转’，方位对应错误",
+          "原文‘及上官所住’候选漏译‘所住’，仅保留‘上官任职的地方’，内容不全",
+          "原文‘若一阴阳往来’候选简化为‘如果阴阳往来’，漏译限定词‘一’，语义偏离",
+          "原文‘行不得度’候选释为‘行走没有法度’，属于脱离风水语境的误译，此处‘行’指宅居移转方向的选择，‘度’指相关规则，该翻译不符合原文术数语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000085-p000-38ba8e7baa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及‘宜翻刑祸，添益’，未出现‘增益福德方，改移墙壁，就能消除灾祸，招来大吉昌’的相关内容，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000086-p000-637b7dc602",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文内容为‘福德，改移墙壁，即消灾，致其大吉昌也〕夫辨宅’，候选释读内容与原文完全不符，属于严重错译，原文无任何关于‘移来的方位为准、街北街东/南街西建阴阳宅’的相关表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000087-p000-aef78dab95",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文内容为‘者，皆取移来方位，不以街北街东为阳，〔不妨是’，候选释读内容与原文完全不符，原文无‘不管远近，一里、百里、千里、十步、百步都是一样的。另外这两种住宅的修建，只看天道、天德、月德’的相关表述，属于严重错译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000088-p000-f74d7ea7ac",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘不防作’是‘不妨作’的通假，且后文对应‘阳宅居之吉’，候选仅标注语义不明未做合理保留，且漏译‘不妨作阳宅，居之吉’的相关内容"
+        ],
+        "uncertainty": [
+          "原文末尾‘不防作’是通假字，后续内容承接至下一段，此处单独提取时语义不完整"
+        ]
+      },
+      {
+        "id": "book021-b000089-p000-66b9f625e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处仅列举数值，未完整表述后续内容，释读如实保留现有语义"
+        ]
+      },
+      {
+        "id": "book021-b000090-p000-7a5c3b4bef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3163,
+    "completion_tokens": 753,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3163,
+      "completion_tokens": 753,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

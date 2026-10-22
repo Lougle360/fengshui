@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-09-23T10:28:58.104932+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "94646c3726f3688d72ccbbc0c60fcdf7b4039f62cde15d0a189c03d05890608e",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000294-p000-26c9ed016e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘異見辛’结构不明，candidate 将其明确为‘异方与辛方’，属于无依据的确定解释，应保留原文短语并标注不确定性。",
+          "原文‘乾沖霄’指乾方山峰高耸冲霄，candidate 释为‘乾方冲霄而起’可以接受，但‘富貴依誰可並’译为‘富贵无比，无人能比’略显增译，可调整为‘富贵无人能及’更贴近。",
+          "原文‘巽辛二方爲天帝司文章典籍之地’译为‘巽方和辛方是天帝掌管文章典籍的地方’准确。",
+          "原文‘巽辛二 得氣’应为‘巽辛二方得氣’，candidate 处理正确。",
+          "原文‘乾艮二峯不起則或’译为‘如果乾方和艮方两座山峰不耸起，那么或许...’准确，省略号处理得当。"
+        ],
+        "uncertainty": [
+          "‘異見辛’的具体结构及含义"
+        ]
+      },
+      {
+        "id": "book003-b000295-p000-41787b10f4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘文齊而貴不大貴重富而不厚’译为‘文章齐整而显贵，但富贵不够厚重’基本准确，但‘文齊’可能指文采或文星齐备，candidate 的‘文章齐整’略显生硬。",
+          "原文‘止爲流要翰林之職’译为‘也仅能担任‘流要翰林’之职’正确，并标注了‘流要’含义不明。",
+          "原文‘必復得乾艮兩峯高聳始應內遇艮食萬鍾之祿再逢乾異全朝聲名王謝’译为‘必须再得乾方和艮方两座山峰高耸，才能应验。届时内遇艮方，可得万钟之禄；再逢乾方，则全朝声名显赫，如王谢家族。’其中‘異’字应为‘巽’，candidate 误作‘乾方’，导致‘乾巽同朝’的对应关系错乱。原文‘再逢乾異全朝聲名王謝’应指再逢乾方和巽方，则全朝声名如王谢。candidate 后文‘若再见乾方和巽方同朝耸拔’正确，但前文此处错误。",
+          "原文‘爲艮丙爲天市垣財貨所居之處’译为‘艮方和丙方是天市垣财货所居之处’准确。",
+          "原文‘王謝得是地氣應之故也’译为‘王谢家族得此地气应验，故有此结果。’可以接受。"
+        ],
+        "uncertainty": [
+          "‘流要’一词的具体含义"
+        ]
+      },
+      {
+        "id": "book003-b000297-p000-2808d8650c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘罗’具体所指不详",
+          "原文‘異’字在前后文中可能均指‘巽’"
+        ]
+      },
+      {
+        "id": "book003-b000298-p000-477e81012a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘正南西于坎離’句读和含义模糊",
+          "‘韩列’具体所指不详"
+        ]
+      },
+      {
+        "id": "book003-b000301-p000-9dfdfd8947",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘官等沙助’、‘母峯’等术语含义不明"
+        ]
+      },
+      {
+        "id": "book003-b000304-p000-07e33dcf15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘几护应’中的‘几’字可能通‘机’或为‘其’之误",
+          "‘抄拈’具体所指不详",
+          "‘友致伤人’语义不通，可能为误字"
+        ]
+      },
+      {
+        "id": "book003-b000307-p000-e3278c0526",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘娥居山’可能为‘娥眉山’之误",
+          "‘离百’中的‘百’字可能为衍文",
+          "‘来胫’具体所指不详"
+        ]
+      },
+      {
+        "id": "book003-b000310-p000-71bf7ef46a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘王文翰轨誉者’含义不明，可能为人名及事迹或传抄之误"
+        ]
+      },
+      {
+        "id": "book003-b000312-p000-c56358614a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘掘兵权于关处’语义不通，‘掘’字可能为误字",
+          "末尾‘人’字可能为衍文"
+        ]
+      },
+      {
+        "id": "book003-b000313-p000-24a3bc506e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "起首‘八若’可能为‘若’之误或另有含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4006,
+    "completion_tokens": 1215,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4006,
+      "completion_tokens": 1215,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

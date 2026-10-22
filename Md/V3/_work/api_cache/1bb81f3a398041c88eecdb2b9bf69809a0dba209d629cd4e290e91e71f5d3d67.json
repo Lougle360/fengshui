@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-26T07:10:38.270929+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1bb81f3a398041c88eecdb2b9bf69809a0dba209d629cd4e290e91e71f5d3d67",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000048-p000-3681fd6536",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“火于生气”的具体作用机制原文未详细说明，此处按有助益生气运势的语境释读"
+        ]
+      },
+      {
+        "id": "book034-b000049-p000-3171a7815d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“震山兑方”之后的内容存在缺损，candidate仅用省略号带过后直接衔接出处，未明确标注此处原文有缺损，不符合释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000052-p000-cc85354659",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文最后“在生左”含义不明，candidate直接将其认定为祷告对象“在生左”，属于给未明确的专名赋予确定指向，违反释读规则"
+        ],
+        "uncertainty": [
+          "“全家主恭亡君”语义不明，无法准确释读",
+          "“急報在生左”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book034-b000056-p000-7f6c5b36e6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“殺一五數人造確則滅禍”语义不明，“造確”具体含义无法确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2318,
+    "completion_tokens": 354,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2318,
+      "completion_tokens": 354,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

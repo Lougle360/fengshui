@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-25T11:43:19.397525+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dca85862c97ec1eb97325ef0fdc156eda96d257143a8bf900bbbbedb6ddee1ac",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000171-p000-ce82bc1261",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文提到“所得的数为争阳，偶数为净阴”，候选将“所得的数之者为争阳”误表述为“所得的数属于争阳”，遗漏了对数字奇偶属性的前提区分，且“净阴”写作“淨陰”可保留但需统一，同时原文“其得人數隅也是兌爲淨陰”“其得九數詩也是離爲淨陽”等OCR错乱内容，候选直接按通顺逻辑改写未标注对应原文讹误风险"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR错乱：“艮居西兆”“後天之離其得七數也見乾爲净陽”“其得人數隅也是兌爲淨陰”“其得九數詩也是離爲淨陽”“其得十數蕭子天坐 十五”，相关释读为保守推断"
+        ]
+      },
+      {
+        "id": "book025-b000172-p000-58cae25ded",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“平陽非他陰陽之比也”，候选误译为“将净阴、平阳与其他阴阳的区别开来”，此处“平陽”应为“净阳”的OCR讹误，候选未做风险标注直接采用“平阳”表述，违背原文净阴净阳的核心语境"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR错乱：“先大之坎”“其得九敗也是”“坎爲凈陽”“巾辰合坎”“其得八教偶也是”“中爲淨陽”“遵川先天而遺後天者”“平陽非他陰陽之比也”，相关释读为保守推断"
+        ]
+      },
+      {
+        "id": "book025-b000173-p000-b9ef9d2eea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000174-p000-7f330b2155",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“五兆榮行者是穴內分給之妙用也”，候选擅自将“分給”释为“分金”，“分金”为风水特定术语，不在allowed_glossary中且无原文依据，属于无依据增译；原文“循環者如乾一麥而爲巽再焚而爲艮三変而爲巾坤一変而為雲再疫而為兌三変而爲乾者”的OCR错乱内容，候选直接改作“乾一变而为巽，再变而为艮，三变而为坤；坤一变而为震，再变而为兑，三变而为乾”，未标注对应原文讹误风险"
+        ],
+        "uncertainty": [
+          "原文“乾一麥而爲巽再焚而爲艮三変而爲巾坤一変而為雲再疫而爲兌三変而爲乾”“彊子天星 十六 室”为残损内容，相关释读为保守推断"
+        ]
+      },
+      {
+        "id": "book025-b000175-p000-0f8c8d14b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兆者機古之所山也”为OCR错乱，候选直接译为“兆，就是机，是古代所说的山”，属于将讹误内容当作事实释读，未标注语义不确定风险"
+        ],
+        "uncertainty": [
+          "原文“兆者機古之所山也”“兩循裘者”存在OCR错乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book025-b000176-p000-d1a26ad87f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000177-p000-ec4a1a06a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“巽申癸二合已酉丑”，候选误改为“巽、庚、癸三合，巳、酉、丑也三合”，擅自添加“庚”字，违背原文表述；原文“故名愛山”，候选误改为“所以名叫双山”，属于无依据改写"
+        ],
+        "uncertainty": [
+          "原文“剝撫彊子天星 十七”为残损内容，相关释读为保守推断"
+        ]
+      },
+      {
+        "id": "book025-b000178-p000-cc0cfc9f8b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000179-p000-6b812b5b78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000180-p000-5567e6086b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子寅辰聖辛兼巳”，候选擅自改作“子寅辰巽辛兼巳”，将讹误的“聖”直接替换为“巽”，未标注风险；原文“其流去處必於休凶之方”，候选误改为“其流去处必于休囚之方”，将“休凶”改为“休囚”，与原文表述不符"
+        ],
+        "uncertainty": [
+          "原文“四局者言前也”“子寅辰聖辛兼巳”“其來土之方皆雲屈曲北夫明堂必要靜定其情如湍初有脊惡不忍過去之者若大明堂不靜雖”存在OCR残缺，相关释读为保守推断"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6319,
+    "completion_tokens": 1333,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6319,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 6319,
+      "completion_tokens": 1333,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

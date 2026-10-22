@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-10-04T00:45:35.149473+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "401df7fa1bde5df9e580b0bb33c2bd960443f07efc7c5efa64bed19da7fd1b5d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000232-p000-46efd26e94",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“奶陽”应为“陰陽”，candidate译为“阴阳”正确，但原文OCR有误，应注明。",
+          "原文“配神監瞰雲尋地”句意不明，candidate译为“若要寻找神灵监临、云气环绕的吉地”属于无依据扩写，原文未明确此意。",
+          "原文“龍經雲雌若爲龍 雄作應雄若爲龍 雄 聽 命”断句应为“雌若爲龍，雄作應；雄若爲龍，雌聽命”，candidate断句有误且将“雌聽命”误译为“雄山则听从命令”，导致反义。",
+          "原文“山勢無情左右飛走 則謂之 雌 雄 不顧”candidate译为“如果山势无情，左右飞走，这就叫做雌雄不顾”正确，但“决 不结穴 也”译为“决不会结穴”正确，但原文有空格，应视为同一句。"
+        ],
+        "uncertainty": [
+          "原文“配神監瞰雲尋地”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000233-p000-be323f786e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000234-p000-a30909157c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000237-p000-b4f9a91b76",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“左右包畏過穴”应为“左右包護過穴”，candidate译为“左右包护必须超过穴的范围”正确，但“畏”字OCR有误，应注明。",
+          "原文“者 胎 穴也”应为“胎者，穴也”，candidate译为“这里的胎，指的就是穴”正确，但断句有调整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000238-p000-87ae15e9ba",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“青馬系千屬雲背尼考走高山女”语意晦涩，candidate译为“如青马系千属云背，如尼考走高山”属于无依据扩写，应保留原文并标注不确定性。",
+          "原文“要帶褥帶因”应为“要帶褥帶裀”，candidate译为“要带有褥带因”未修正错字。",
+          "原文“穴 可喜者龍虎身上生峰”candidate译为“穴可喜的地方，是龙虎身上生出峰峦”正确。",
+          "原文“既得龍虎護胎又貴乎龍虎卯上更重聳起高峰”中“卯上”可能为“身上”或“之上”之误，candidate译为“龙虎卯上”未处理此疑点。",
+          "原文“秘 可惡者泥水地邊尋穴”应为“最可惡者泥水地邊尋穴”，candidate译为“穴可恶的地方”未修正错字。“秘”字OCR有误。"
+        ],
+        "uncertainty": [
+          "原文“青馬系千屬雲背尼考走高山女”具体所指不详。",
+          "原文“卯上”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000239-p000-421d664cdc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000244-p000-e4c1996acd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“奇脈昇迹水之大是生水道 之 橫水迫界氣況深淵大澤穴生水底道眼知之”断句混乱，candidate译为“这是奇脉昇迹，水之大者。生水道之横水迫界，气况深渊大泽，穴生水底，道眼知之”基本按字面翻译，但“昇迹”可能为“异迹”或“升迹”之误，未标注。",
+          "candidate将整段作为陈述句处理，但原文可能为描述或口诀，释读未体现其可能为引文或特殊格式。"
+        ],
+        "uncertainty": [
+          "原文“奇脈昇迹水之大是生水道 之 橫水迫界氣況深淵大澤穴生水底道眼知之”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000245-p000-6c704511f4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文“更有六在石間搏龍骨 山上下土是自下而上里而表以天生土生于石周法大有之公”语意极不通顺，多处字词可能为OCR错误（如“六”可能为“穴”，“周法”可能为“穴法”等），candidate仅按字面翻译，无法形成可理解的释读，不符合“普通读者能读懂”的目标。"
+        ],
+        "uncertainty": [
+          "原文严重损坏或OCR错误，无法进行可靠释读。"
+        ]
+      },
+      {
+        "id": "book035-b000246-p000-cb081fbcbc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000247-p000-febb674dc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2698,
+    "completion_tokens": 1196,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2698,
+      "completion_tokens": 1196,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

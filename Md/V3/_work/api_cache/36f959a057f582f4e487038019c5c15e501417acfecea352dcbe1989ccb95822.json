@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:46:57.665807+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "36f959a057f582f4e487038019c5c15e501417acfecea352dcbe1989ccb95822",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000918-p000-d9d0d7cc13",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘父添設神位於其中’的主语误改为‘父亲’，原文未明确该‘父’的具体所指，属于无依据扩写；‘東宅命’的释读未依据allowed_glossary，属于对术语的不当解释；‘去來俱吉之方’的释读存在模糊处理，未明确对应原文语境的方位属性"
+        ],
+        "uncertainty": [
+          "原文中‘父添設神位於其中’的‘父’具体所指未明，释读为‘父亲’缺乏依据"
+        ]
+      },
+      {
+        "id": "book010-b000919-p000-25d46ff6a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000920-p000-4ba3295f0f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000921-p000-3b5f168e46",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘牡年’未被保留为opaque_terms，属于对原文术语的不当处理；‘北方大屋’的释读未依据allowed_glossary，属于对术语的不当解释；‘致破財’‘死傷致絕’的释读存在模糊处理，未明确对应原文语境的含义"
+        ],
+        "uncertainty": [
+          "原文中‘牡年’的具体所指未明，释读时未保留原术语，存在风险；‘北方大屋’的具体属性未明，释读时未明确其风水语境的含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2637,
+    "completion_tokens": 424,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2637,
+      "completion_tokens": 424,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

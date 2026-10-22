@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-25T02:10:44.350329+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0632c1bc4c3dcb4c646b80e80be6a79ee570023fda9d23f34790794b4c6060bd",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000138-p000-22fa03019b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘兖州在济河之间，济发源为名’的含义是兖州因位于济水与黄河之间，且以济水作为名称来源，而非‘兖州的名称正是取自济水的发源地’，存在语义误解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000141-p000-bd5898690c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“漳拙长”具体所指不详",
+          "原文“莆田”应为“圃田”的讹误",
+          "原文注“此九州岛岛岛川界”为版本讹误，应为“此九州川界”"
+        ]
+      },
+      {
+        "id": "book019-b000147-p000-b9584f6831",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘凡称经者，即杨筠’并未提及杨筠松，候选直接补充为‘就是杨筠松的著作’属于无依据增译；原文‘松三龙经’的表述未明确为经名，候选直接称此句出自《松三龙经》属于无依据认定"
+        ],
+        "uncertainty": [
+          "“岷山山县”表述存疑，具体所指不详",
+          "“山汀”具体所指不详",
+          "原文“以人于海”是“以入于海”的讹误"
+        ]
+      },
+      {
+        "id": "book019-b000151-p000-b4799afa91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000152-p000-5e9e6889c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“湄州”具体所指不详",
+          "原文“西行”疑似为“东行”的讹误，表述存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3601,
+    "completion_tokens": 483,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3601,
+      "completion_tokens": 483,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

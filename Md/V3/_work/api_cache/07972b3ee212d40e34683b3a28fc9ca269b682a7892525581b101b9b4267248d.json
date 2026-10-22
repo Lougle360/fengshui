@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-17T13:15:41.449993+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "07972b3ee212d40e34683b3a28fc9ca269b682a7892525581b101b9b4267248d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003759-p000-ceddc1774c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选文本将原文的表格结构（多栏、多行）强行合并为连续的段落，破坏了原文的并列或对照关系，导致信息组织方式改变。例如，原文中标记为'CC'、'K'、'EC'的栏位内容被线性排列，可能混淆了不同条目或注解的归属。",
+          "候选文本对'不耳是正之本之所'的释读'不耳是正之本之所'，只是照搬原文，并未进行有效的白话转换或说明其含义不明，不符合V3目标。",
+          "候选文本对'烏省不貴耶'的释读'烏省不貴耶'，同样只是照搬原文，未进行有效的白话转换或说明其含义不明。",
+          "候选文本对'變變金由無所生之根'的处理为'變變金由無所生之根'，并标注为可能OCR错误，但释读句'此龍金木成器，必變木制成器，變變金由無所生之根，是以小吉'逻辑不通，未能提供清晰的白话解释，且将推测（'按變金理解'）直接写入正文而未明确标注为推测。"
+        ],
+        "uncertainty": [
+          "原文为复杂表格，OCR识别混乱，导致部分文字归属和句序难以准确还原。"
+        ]
+      },
+      {
+        "id": "book035-b003760-p000-821150d4b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003761-p000-350df8b804",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2850,
+    "completion_tokens": 384,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2850,
+      "completion_tokens": 384,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

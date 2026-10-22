@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-25T17:42:36.190600+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bd4f00bbf2cb5e77b494622836da094539bbb711944d778f1cd814f8520c4ebc",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000830-p000-174cf334e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000832-p000-d2dd45d45d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标注的是《机全书》卷四，页码为七，不是卷四、卷七两部卷册，此处数字与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000834-p000-8b6d403dbd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "三比之气具体所指尚不明确"
+        ]
+      },
+      {
+        "id": "book029-b000836-p000-78ac628967",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000838-p000-c0796d3a07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“突土金难画”具体含义尚不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1902,
+    "completion_tokens": 338,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1902,
+      "completion_tokens": 338,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T17:04:09.844892+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "11938313ec8d568173ed0887d5f8a808ff47a7a8f060f857a237e91af29d5581",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000630-p000-4f8bc63f04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000631-p000-aab64cb2d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000632-p000-0b4ff4a653",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "该释读将原文的爻辞内容与白话含义合并，不符合仅释读原文的要求，且对“金夫”“不有躬”的解释无依据，属于扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000633-p000-7b65dec162",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1744,
+    "completion_tokens": 247,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1744,
+      "completion_tokens": 247,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

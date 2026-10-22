@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-24T01:23:23.826824+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c1a4220cce1e79847f06a2cdb161ce83c796c18e8ed245ddd7ce1b8ebd1a52c8",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000034-p000-a6a30ba5cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“之亥”作为日期表述，具体所指未明"
+        ]
+      },
+      {
+        "id": "book006-b000035-p000-fc384e909c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“免全”含义未明，候选释为“无需全部避讳”属于无依据的确定解读",
+          "allowed_glossary中“明堂”的定义为“穴前相对开阔、汇聚的空间”，此处原文的“明堂”属于择日相关的神煞/黄道类术语，并非风水穴场的明堂，误用了术语解释"
+        ],
+        "uncertainty": [
+          "“同安”具体所指未明",
+          "“免全”具体含义未明"
+        ]
+      },
+      {
+        "id": "book006-b000038-p000-7e1231c847",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“自漢創自馬寺始”释为“自汉代创建马寺开始”存在漏译，“馬寺”通常指“白马寺”，原文表述是“汉代从创建白马寺开始”，候选漏了“白”字相关的信息，且不应直接简写为“马寺”而不做标注",
+          "原文“忌向南方起工破木”指忌在朝向南方的方位动工破木，候选表述未明确“向南方”是指动工的方位朝向，存在歧义"
+        ],
+        "uncertainty": [
+          "“神在忌神鬼隔”的具体含义未明"
+        ]
+      },
+      {
+        "id": "book006-b000041-p000-3e18242ed8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“空甲”、“渡日绝全”的具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 451,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1318,
+      "completion_tokens": 451,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

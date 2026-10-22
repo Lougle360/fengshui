@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-17T11:33:53.702937+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4b62f105ca26dc130a12b6a53748c7c2cc09a5c4fcaba3dfc7ecb201cb91b9ce",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003498-p000-9578b678e1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'不分生死阴阳理'，candidate释为'便不分生死，只论阴阳之理'，将'不分'理解为'不论'，但原文更可能指'不区分生死与阴阳的道理'，或'不辨生死阴阳之理'，candidate的释读改变了原意，有反义风险。",
+          "原文'那得天财济世人'是反问句，candidate释为'但哪里能得到天财来救济世人呢？'，保留了反问语气，但'但'字添加了转折关系，原文并无此逻辑连接，属于无依据的增译。"
+        ],
+        "uncertainty": [
+          "六六春金心"
+        ]
+      },
+      {
+        "id": "book035-b003499-p000-1daade6917",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'壬不逢乾生富貴癸無艮 親顯工名'，candidate将其拆解为'壬方若不逢乾方则生富贵'和'癸无艮亲显工名'，并称后者'具体断句和含义不详'。但原文'癸無艮 親顯工名'中间有空格，可能为'癸无艮亲，显工名'或'癸无艮，亲显工名'等不同断句。candidate将前半句'壬不逢乾生富貴'解释为确定事实，而原文此句与后句结构相似，同样存在断句和含义模糊的问题（如'壬不逢乾生富貴'可断为'壬不逢乾，生富贵'），不应只将后半句标注为不确定。",
+          "candidate将'未生白蚁离乡，巳酉损阴人'释为'若未生白蚁则离乡，若巳、酉方受损则损阴人'，添加了'若...则...'的条件关系，并将'巳酉损阴人'理解为'巳、酉方受损'，但原文'巳酉'可能指巳酉年、巳酉方或巳酉组合，直接释为'巳、酉方'是未经允许的确定解释。",
+          "candidate在解释'壬不逢乾生富贵'时，使用了'意指'一词，将推测写成了事实。"
+        ]
+      },
+      {
+        "id": "book035-b003504-p000-d3988b0875",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003507-p000-f8ca5342b8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'辛水特朝邮官非水长子并胜'，candidate释为'辛水特朝，原文提到‘邮官非水’，具体所指不详，但推测可能指尤其招惹官非，此时长子运势并胜。'。此处'邮官非水'应为'邮官非水'（可能为'尤官非水'的讹误或特定术语），candidate将其作为opaque_term处理并引用是正确的，但后续'但推测可能指尤其招惹官非'属于对opaque_term的确定解释，违反了'opaque_terms必须原样处在引号引用范围内，不能被候选句赋予确定含义'的规则。",
+          "原文'卯内原藏震乃震庚之中子第一'，candidate释为'卯内原藏震卦，乃是震与庚之间的中子，位居第一。'。'震庚之中子'是含混短语，candidate将其解释为'震与庚之间的中子'，并赋予'位居第一'的确定含义，这是未经允许的确定解释，应作为opaque_term处理。",
+          "原文'庚向乃子母之地'，candidate释为'庚向是子母之地'，但'子母之地'是含混术语，candidate未标注其不确定性，直接作为事实陈述。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1825,
+    "completion_tokens": 889,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1825,
+      "completion_tokens": 889,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

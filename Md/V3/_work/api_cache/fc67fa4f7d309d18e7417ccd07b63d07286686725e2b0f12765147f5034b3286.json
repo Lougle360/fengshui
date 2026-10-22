@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-16T10:58:22.576539+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fc67fa4f7d309d18e7417ccd07b63d07286686725e2b0f12765147f5034b3286",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002074-p000-f9374ead53",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'咎休取'释为'吉凶的征兆便难以捕捉'，'取'字未译出，存在漏译。'咎休'译为'吉凶的征兆'是合理的引申，但'取'（获取、捕捉）的含义丢失。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002076-p000-2fd4f0fffc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002079-p000-538193b0c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句开头'关于明暗的论述指出：只应安葬生气，不应安葬死气。'是前一条内容的重复，属于增译。原文此段直接开始描述'生'与'死'脉的特征，并未重复章旨。",
+          "'鹿鹿蠢蠢'译为'杂乱蠢动、毫无生气'，'鹿鹿'的释义（如'粗疏'、'忙碌'）不够准确，存在不确定性，但未在uncertainty中标注。",
+          "'必世而荣'/'必世而枯'译为'必定能延续世代而荣耀'/'必定会延续世代而枯败'，'世'（世代）的释义准确，但'延续'为补足语义的增译，可接受。"
+        ],
+        "uncertainty": [
+          "'鹿鹿蠢蠢'的具体含义存在不确定性，可标注。"
+        ]
+      },
+      {
+        "id": "book035-b002082-p000-e95d744191",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'丙邊'译为'丙方'，将方位词'边'（侧边、旁边）误译为'方'（方向），改变了原文的空间关系描述。",
+          "'水到爻'译为'水便流到了“爻”位之处'，将'爻'作为确定的风水位处理，但原文'爻'可能指爻位、交会点或泛指位置，属于含混专名，不应赋予确定的风水术语含义，应保留在引号内并标注不确定性。"
+        ],
+        "uncertainty": [
+          "'爻'的具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 495,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1098,
+      "completion_tokens": 495,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

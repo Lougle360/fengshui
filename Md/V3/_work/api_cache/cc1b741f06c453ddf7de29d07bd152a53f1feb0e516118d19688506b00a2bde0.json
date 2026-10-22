@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-25T09:44:08.671586+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cc1b741f06c453ddf7de29d07bd152a53f1feb0e516118d19688506b00a2bde0",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000107-p000-f85cb77f36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000108-p000-1bec2b0930",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“中閉”误写为“其中”",
+          "原文“蒸擁團聚”误写为“簇擁團聚”",
+          "原文“衙意”误写为“衙役”，属于形近义错",
+          "原文“主咸震邊疆”中“震”为专业术语，不应直接保留未释读且不符合allowed_glossary使用要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000109-p000-d2d96a01b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000112-p000-b41f51a452",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000113-p000-518224471d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000115-p000-c277afaf0d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其呈秀”误写为“呈秀”，漏译指代成分导致语义偏差",
+          "原文“富而不願”属于原文表述保留但未做通俗释读，普通读者无法理解含义",
+          "原文“自相轅者”“天砂包乗”属于含混术语未标注不确定性，直接当作确定表述保留"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000117-p000-aa7f7cd571",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“孝第忠信”应为“孝悌忠信”，属于字形误用",
+          "原文“官相見左六先發次房”语义含混未标注不确定性，直接按原文断句保留",
+          "原文“歎嘴”“天進”属于含混术语未标注不确定性，直接当作确定表述保留"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000118-p000-f4d274f9ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000120-p000-f85cb77f36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000121-p000-7a5195a79e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“炤應”未作通俗释读，普通读者无法理解",
+          "原文“如堯不且如竹也”语义不通未标注不确定性，直接当作确定表述保留",
+          "原文“元武”“木割”“包暴”“聚緊木”属于含混术语未标注不确定性，直接当作确定表述保留"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3389,
+    "completion_tokens": 796,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3389,
+      "completion_tokens": 796,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

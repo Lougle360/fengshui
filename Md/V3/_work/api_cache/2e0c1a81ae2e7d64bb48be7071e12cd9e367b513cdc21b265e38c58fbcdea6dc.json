@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-25T22:04:14.163611+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2e0c1a81ae2e7d64bb48be7071e12cd9e367b513cdc21b265e38c58fbcdea6dc",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001758-p000-7f04ec43e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“無塋員堆而作之”释读错误，原文意为不要建造圆形坟堆，候选译为“不要堆筑圆形的坟堆来施工”逻辑偏差，应为“不要堆筑圆形坟堆，直接在此施工”；原文“有有”仅标注疑似多余即可，无需额外增译无关表述"
+        ],
+        "uncertainty": [
+          "“有有”疑似为衍文"
+        ]
+      },
+      {
+        "id": "book029-b001759-p000-7608ee6b58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“負者”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001766-p000-ba6babe678",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“第三巨門祿文三文曲四為尊”释读错误，候选漏译“禄存”的排序表述，将“第三禄存、第四文曲”误写为“第三位是禄存，第四位是文曲，最为尊贵”，与原文“第四文曲为尊”的表述不符；原文末尾“○卷八 十日”释读错误，候选译为“末尾标注有‘十日’字样”，漏译卷八的标识，且“十日”为卷末标注内容，无需单独解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001767-p000-aa385c6415",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“六中起匕名絕命”的“匕”疑为“七”的讹字",
+          "“坐冗”疑为“坐向”的讹误",
+          "“錯原骨定峽”中“錯”“原骨”“定峽”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2384,
+    "completion_tokens": 459,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2384,
+      "completion_tokens": 459,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

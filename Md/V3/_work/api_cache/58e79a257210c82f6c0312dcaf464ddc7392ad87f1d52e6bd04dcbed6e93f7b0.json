@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-17T18:20:06.032308+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "58e79a257210c82f6c0312dcaf464ddc7392ad87f1d52e6bd04dcbed6e93f7b0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004318-p000-2248114d20",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格第一行标题的具体含义不详。",
+          "表格主体部分文字结构破碎，无法构成连贯语句，具体含义不详。",
+          "表格后续行所列标题及其对应术语组合的具体含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3382,
+    "completion_tokens": 89,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3382,
+      "completion_tokens": 89,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

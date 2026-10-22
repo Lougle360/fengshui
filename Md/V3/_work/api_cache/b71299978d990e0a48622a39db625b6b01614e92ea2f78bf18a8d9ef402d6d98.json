@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T19:08:34.126423+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b71299978d990e0a48622a39db625b6b01614e92ea2f78bf18a8d9ef402d6d98",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000478-p000-6faba8cec0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“若逄火又井木直水城逢此不堪親”，意指遇到火、井木（星宿/五行类属）当值时，水城逢这种情况不宜亲近，候选误将“火又井木直”解读为“火、井、木对应的水城”，语义理解错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000479-p000-b23eac2251",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000480-p000-4ed551168f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000481-p000-f885331d2f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为“去皆可”，候选自行增译“来”字，与原文语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000482-p000-b3f372d1d9",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“金腰要虎”为风水专业隐语，无对应释义依据，无法确认具体含义"
+        ]
+      },
+      {
+        "id": "book030-b000484-p000-2fe99516cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000485-p000-7430d60c2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不但梁顯及富盛”语义未明，候选直接释为“不仅能彰显富贵，还能带来兴盛”属于无依据臆译；原文“水自右來左去曰左金版要龍抱虎”应为“水从右来向左去，称为左金，（另有一种）要龙抱虎的（形制）”，候选断句错误，将“要龙抱虎”并入左金版的名称定义，不符合原文表述逻辑"
+        ],
+        "uncertainty": [
+          "“梁顯”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000487-p000-798b0ccfb3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“世康事”表述略有不通，疑似存在传抄讹误，暂按原文保留"
+        ]
+      },
+      {
+        "id": "book030-b000488-p000-914bb90188",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“雪心賦九曲入明堂當朝宰相”是《雪心赋》的文句，意为（如果有）九曲水流入明堂，（主家会出）当朝宰相，候选释为“《雪心赋》中说九曲水入明堂，当朝宰相”未补全逻辑关系，读者易误认为是直接引用的断句，未完成白话转换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000490-p000-d23a3d3d99",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“F”字符无法识别，已按上下文语境保守处理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2001,
+    "completion_tokens": 823,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2001,
+      "completion_tokens": 823,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

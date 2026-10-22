@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-17T16:52:29.714590+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a05a254a6df0a5f7a0f47bb9adc5a79e7e601fd589cd8e2119c710afc61c4b1a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004115-p000-b821fe7836",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'玉经'释读为'《玉髓经》'，属于无依据的扩写。原文'玉经'可能指《玉髓经》，但此处应保留原文'玉经'或明确标注为不确定。",
+          "candidate将'官鬼曜星'解释为'讨论官鬼曜星的内容'，属于增译。原文仅为标题，未表明是'讨论内容'。"
+        ],
+        "uncertainty": [
+          "'玉经'具体指代何书不确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 590,
+    "completion_tokens": 142,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 590,
+      "completion_tokens": 142,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

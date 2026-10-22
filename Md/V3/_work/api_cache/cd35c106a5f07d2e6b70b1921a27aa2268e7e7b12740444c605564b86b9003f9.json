@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T17:08:02.069190+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cd35c106a5f07d2e6b70b1921a27aa2268e7e7b12740444c605564b86b9003f9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000703-p000-861433a08c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“七箇建星三箇吉會者真仙術”断句及释读错误，原意为七个建星里有三个是吉星，能掌握这种相合的方法才是真仙术，候选将“三箇吉會者真仙術”误释为“三個吉會的是真正的仙術”，语义偏差；原文“一箇星休分十穴”中的“星休”并非“一个星休”，断句错误导致含义扭曲"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000705-p000-706a1c0f9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000707-p000-b44617c8c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000708-p000-303aa4eb29",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句末尾有缺字，无法确认完整信息"
+        ]
+      },
+      {
+        "id": "book029-b000710-p000-281de54983",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“但把交襟 氣骨若有交襟龍受氣”断句释读错误，原意为只需考察交襟、气骨的状态，如果有交襟说明龙已经受气，候选误将“交襟的氣骨”连读，语义偏差；locked term“水”未按照allowed_glossary补充释义，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000711-p000-c47de3b43a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000713-p000-c9227dd7b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“就中點宂更不抽脈曰盡”释读错误，“點宂”应为点穴的相关操作，候选误释为“點出冗長之處”，含义偏差；原文“須當四頭端的”中的“端的”是“端正、准确”的意思，候选未作通俗化处理，保留原词不符合白话释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000714-p000-dbc48cae1c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“粘之法繼倚是”断句错误，“繼倚”并非“粘的方法是繼續”，而是粘的方法接着是倚的相关内容，断句错误导致语义完全偏差；原文“或片或片死邊有邊無”释读错误，候选擅自补出“活邊”，属于无依据增译；locked term“水”未按照allowed_glossary补充释义，不符合要求"
+        ],
+        "uncertainty": [
+          "原句部分表述模糊，部分术语的具体含义难以完全确认"
+        ]
+      },
+      {
+        "id": "book029-b000716-p000-b0335fe3f4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句部分表述模糊，部分术语的具体含义难以完全确认"
+        ]
+      },
+      {
+        "id": "book029-b000717-p000-1af3a188a6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原句部分表述模糊，部分术语的具体含义难以完全确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2571,
+    "completion_tokens": 988,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2571,
+      "completion_tokens": 988,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

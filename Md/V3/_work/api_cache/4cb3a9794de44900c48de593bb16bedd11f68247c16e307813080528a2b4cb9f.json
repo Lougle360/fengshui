@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-25T13:59:47.873904+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4cb3a9794de44900c48de593bb16bedd11f68247c16e307813080528a2b4cb9f",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000264-p000-90d98a14a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亦不能怨述也”存在OCR讹误，候选误释为“没办法全部详尽叙述”，不符合字形对应逻辑；原文“用心目”被误释为“用心去体悟体察”，漏译“目”对应的实地勘验含义"
+        ],
+        "uncertainty": [
+          "“怨述”应为讹字，具体本字不明"
+        ]
+      },
+      {
+        "id": "book026-b000265-p000-8a17313e34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“论木”与前后文论述水的内容关联不明，原文未做进一步说明"
+        ]
+      },
+      {
+        "id": "book026-b000266-p000-145f0e56cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“曾若九如伏自承”部分被擅自替换为“曾文辿曾经提到”，属于无依据增译人物；原文“玄水 流国奴”被误释为“玄空水流为奴”，属于无依据添加风水术语；原文“盖星草或 常 而紫落平地”“有如盖中之 如馬 缘 河最雜 如柔中之 山 君雁不見彼 共脉有氏 曰尋龍之法看其蔡耳穴”存在大量漫漶，候选多处补译内容无原文依据，将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "原文字迹漫漶严重，多数内容语义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000268-p000-29385af04c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“四廟廟隸至州出”字迹不清，候选擅自释为“四庙隶属于州的管辖范围，相关的迹地”属于无依据补译；原文“潛藏於森森平湖”被误释为“潜藏在草木繁盛的平湖水边”，漏译平湖主体，添加原文无有的“水边”表述"
+        ],
+        "uncertainty": [
+          "原文开头“四廟廟隸至州出”存在字迹不清，语义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000269-p000-814794946e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“龜血遠也”语义不明，候选直接释为“龟血的痕迹延伸得很远”属于无依据臆测；原文“蘇森深磨貌”被擅自调整为“‘苏森’是深深磨砺的样子”，未明确该短语属于原注的属性；原文“蝟寄家藏”被误释为“是猬寄私家收藏的版本”，“猬寄”语义不明，属于无依据认定为收藏者名称"
+        ],
+        "uncertainty": [
+          "“龟血远也”“苏森”“猬寄”语义均无明确依据，无法确定准确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1723,
+    "completion_tokens": 832,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1723,
+      "completion_tokens": 832,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T21:24:03.512106+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5cf1f23702483d57471afb0b57ee19b0e22bd444d4d842fa13fa3c8d8def10e1",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003686-p000-280bc1ef8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003687-p000-db118be76a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003688-p000-63e8fbc9dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms 中的“离”属于原文明确标注的动词释义，是《释言》训“斯”为“离”（离开义），allowed_glossary 中“离：八卦之一”的定义不适用于此处，候选未混淆术语含义，但原文提到“二得敌故取灾”，候选误写为“六二与初六是敌对的”，属于无依据增写爻位对应关系，背离原文内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003689-p000-f98f10ee0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003690-p000-daae94cc6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003691-p000-512bcfdcb6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“爻贱其行”是指爻辞贬斥初六的行为，候选误译为“爻的行为卑贱”，属于语义理解错误，背离原文原意"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003692-p000-c409dc0581",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 是 heading 类型，为爻辞原文标题，要求保留原文结构，候选直接替换为释读内容，未保留原爻辞标题格式，违反 kind=heading 的核对规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003693-p000-617f680e05",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003694-p000-22aa7ceda7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003695-p000-b42035acf6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3116,
+    "completion_tokens": 735,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3116,
+      "completion_tokens": 735,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

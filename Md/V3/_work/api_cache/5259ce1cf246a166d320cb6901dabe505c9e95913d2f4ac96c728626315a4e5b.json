@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T10:03:22.109898+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5259ce1cf246a166d320cb6901dabe505c9e95913d2f4ac96c728626315a4e5b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000510-p000-1c93614391",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确定义的「被時」「不朵」「一炁」「己申」「己合」「小修」「共埋葬」「純杵」等表述强行解释为确定含义，存在无依据扩写问题；「戊祿到己申」「己合」「不遇的嫌隙」等表述未明确标注具体含义未明的风险，不符合要求"
+        ],
+        "uncertainty": [
+          "原文中「被時」「不朵」「一炁」「己申」「己合」「小修」「共埋葬」「純杵」等表述，具体含义均未明確，「吳」疑為OCR錯誤"
+        ]
+      },
+      {
+        "id": "book010-b000511-p000-efdf278aaa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中「汶」疑為「沒」的訛誤、「吳」疑為OCR錯誤、「元桎」未明確是否為特定典籍名稱等不确定内容未明确标注，存在无依据扩写问题；「神藏煞汶」「帰垣入局之姒」等表述未明确标注具体含义未明的风险，不符合要求"
+        ],
+        "uncertainty": [
+          "原文中「汶」疑為「沒」的訛誤，未標註該不確定性；「吳」疑為OCR錯誤，未標註該不確定性；「元桎」未明確是否為特定典籍名稱，無依據認定為《元桎》；「神藏煞汶」「帰垣入局之姒」等表述具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1809,
+    "completion_tokens": 421,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1809,
+      "completion_tokens": 421,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

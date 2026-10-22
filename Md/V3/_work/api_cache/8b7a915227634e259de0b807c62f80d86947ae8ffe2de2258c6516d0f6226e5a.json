@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:54:56.192713+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8b7a915227634e259de0b807c62f80d86947ae8ffe2de2258c6516d0f6226e5a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001450-p000-0a0040b299",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文未明确的‘承以德’释为‘以美德继承先人的事业’，属于无依据扩写，原文未指明继承的是先人的事业，也未明确美德的具体指向"
+        ],
+        "uncertainty": [
+          "原文‘承以德’的具体所指未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 777,
+    "completion_tokens": 109,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 777,
+      "completion_tokens": 109,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

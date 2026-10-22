@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:41:12.803346+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fbec936abddd32434b0ba8cd19bae750561e512dfff14e9d74bcad584ca87ca2",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000007-p000-3e495baf5c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘向’（按allowed_glossary应为‘建筑或穴位所朝的方位’）误释为‘从前’，属于专业术语误换"
+        ],
+        "uncertainty": [
+          "原文‘向’的具体所指未明确，按给定术语定义无法适配此处语境"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 842,
+    "completion_tokens": 106,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 842,
+      "completion_tokens": 106,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

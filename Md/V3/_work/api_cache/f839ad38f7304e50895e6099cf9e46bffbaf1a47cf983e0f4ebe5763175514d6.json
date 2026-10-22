@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:05:31.829598+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f839ad38f7304e50895e6099cf9e46bffbaf1a47cf983e0f4ebe5763175514d6",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000002-p000-7ced3e69e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000003-p000-e9e11a5398",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book012-b000004-p000-a40f34dfe6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"三四卦陽順\"被误译为\"第三、四层是阳顺生图\"，存在层级对应错误；\"六盤盈縮閣\"未明确\"六\"的层级属性，且\"盈縮閣\"属于含混术语，未按要求标注\"具体所指不详\""
+        ],
+        "uncertainty": [
+          "\"盈縮閣\"具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000005-p000-9a4793195d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"四隔\"疑为\"四隅\"之误，\"天盤於之畧得\"存在缺漏，\"河國\"具体所指不详，候选译文中将\"河國\"译为\"河国\"并赋予\"说天一生水\"的确定含义，属于无依据扩写；\"奇漢心印續通\"的归属及含义未明确，候选译文中直接译为\"奇汉心印续通\"并置于句中，存在术语处理不当问题"
+        ],
+        "uncertainty": [
+          "原文中\"四隔\"疑为\"四隅\"之误，\"天盤於之畧得\"存在缺漏，\"河國\"具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1935,
+    "completion_tokens": 439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1935,
+      "completion_tokens": 439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

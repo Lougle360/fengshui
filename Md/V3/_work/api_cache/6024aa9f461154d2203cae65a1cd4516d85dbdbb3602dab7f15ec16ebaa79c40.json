@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T10:59:53.944275+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6024aa9f461154d2203cae65a1cd4516d85dbdbb3602dab7f15ec16ebaa79c40",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000082-p000-e1a45e10db",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘酉给岩内辛秀在外’误释为‘酉给岩内辛秀在外’，存在语义不通的错误；将‘公欲封公公不见公遇骑牛截断’误释为‘第二句是公欲封公公不见，公遇骑牛截断’，属于对原文的错误拆分与误读；‘颇后果以丁丑不利’漏译‘颇’字，且‘后果’表述不符合原文含义"
+        ],
+        "uncertainty": [
+          "原文中‘酉给岩内辛秀在外’语义含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000083-p000-3f720b001c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000084-p000-2eb4115768",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000085-p000-20188b487a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1894,
+    "completion_tokens": 317,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1894,
+      "completion_tokens": 317,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

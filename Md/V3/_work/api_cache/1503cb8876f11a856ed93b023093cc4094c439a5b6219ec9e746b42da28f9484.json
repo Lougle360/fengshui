@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-25T14:32:37.481516+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1503cb8876f11a856ed93b023093cc4094c439a5b6219ec9e746b42da28f9484",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000041-p000-73d79fd05e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的书名是《地理恭皆玄機全書》，候选误写为《恭皆玄機全書》，漏了“地理”二字。"
+        ],
+        "uncertainty": [
+          "“如緝悠細消息”的具体含义无法完全确定，此处按探查细微讯息的语义释读",
+          "“門宗祖侵雲漢”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000043-p000-a8d9a0da89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“毛異認雎雄”具体所指不详",
+          "“弯匕”的具体含义无法完全确定，此处保留原词"
+        ]
+      },
+      {
+        "id": "book029-b000045-p000-19e054c720",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“句帶脉勢盤族”具体所指不详",
+          "“玉女巧緝遊筐”“緝筐”“堆緝脉”中的“緝”具体含义无法完全确定，此处保留原词"
+        ]
+      },
+      {
+        "id": "book029-b000046-p000-a6450ca999",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不問東酉南北向”中“酉”为原文用字，候选释读为“东、酉、南、北”，但此处“酉”应为“西”的讹写风险未标注，直接按“酉”释读存在误导；原文“最嫌壬癸不地理參皆玄機全書”是“最嫌壬癸不[缺字]，地理參皆玄機全書”，候选表述“最嫌壬癸位的格局不好”属于无依据补全缺字含义，不符合要求。"
+        ],
+        "uncertainty": [
+          "“四畔詐何處別”具体所指不详",
+          "“最嫌壬癸不”后原文有缺，语义无法补全"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5360,
+    "completion_tokens": 492,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5360,
+      "completion_tokens": 492,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

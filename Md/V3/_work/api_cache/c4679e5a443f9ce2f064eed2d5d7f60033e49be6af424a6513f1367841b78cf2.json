@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-09-25T07:48:34.685183+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c4679e5a443f9ce2f064eed2d5d7f60033e49be6af424a6513f1367841b78cf2",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000034-p000-7a6d2e2756",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000035-p000-07ee89aced",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000036-p000-7948d94716",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“以肉乘生气”未准确释读，candidate遗漏“肉”相关表述，且未明确乘生气的主体是尸骨"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000037-p000-aad1f1c702",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000038-p000-678f9ffb26",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代中文，不符合白话释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000040-p000-b61f963292",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“丘珑之骨”为风水术语，指山丘中类似骨骼的石质部分，直译为“丘陵的骨头”过于口语化且易造成误解；“是气所伴随的地方”表述不通顺，应为“气是随着它们（丘垅、冈阜）运行的”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000041-p000-31513dc2ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“心目之巧”指观察的眼力和判断的心思结合，译为“内心的巧思”不准确，遗漏了“目（观察）”的含义；原文“珑”统一写作“丘珑”的“珑”，candidate多处译为“丘陵”的“陵”，属于术语用字不统一，且未对应原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000043-p000-05ee240aad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2985,
+    "completion_tokens": 638,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2985,
+      "completion_tokens": 638,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

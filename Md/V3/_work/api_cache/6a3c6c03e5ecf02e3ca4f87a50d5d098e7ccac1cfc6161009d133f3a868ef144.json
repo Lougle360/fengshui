@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-24T01:47:52.758137+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6a3c6c03e5ecf02e3ca4f87a50d5d098e7ccac1cfc6161009d133f3a868ef144",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000114-p000-3b9e13684d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中干支“巳巳”为讹误，candidate修正为“己巳”合理，但source原文“擇日紀全”表述未准确释读，candidate直接保留“纪全 1”属于未完成现代中文转换，且“1”的含义未做标注说明"
+        ],
+        "uncertainty": [
+          "“纪全”及末尾“1”的具体含义原文未明确"
+        ]
+      },
+      {
+        "id": "book006-b000115-p000-d2e945c470",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "source中“丙成”应为“丙戌”，疑为OCR识别错误"
+        ]
+      },
+      {
+        "id": "book006-b000116-p000-3fe080ed27",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“餘日上夫直至巳酉日起甲寅日止遷歸裏北方屬象在後”存在讹误，candidate将“上夫”省略、“裏北方”改写为“北方”、“屬象”改写为“相关象数”属于无依据增改，不符合释读规则"
+        ],
+        "uncertainty": [
+          "“正非方”具体所指不详；“巳丑”疑为“己丑”，“非方”疑为方位表述讹误；“上夫”“裏北方”“屬象”的具体含义原文未明确"
+        ]
+      },
+      {
+        "id": "book006-b000117-p000-205be123e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000118-p000-acedf7b2ea",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“乙庚酉泣丰乡”“酉天”的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book006-b000119-p000-7238b85b5e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“南正二三四月爲五五六七八月爲仲數 此北正為孟三爲季孟西仲巳爲丑數此”存在残缺讹误，candidate自行补充“南方的规则”“北方的规则”“孟对应酉，仲对应巳，丑对应数”等内容属于将不确定推测写成确定事实，无原文依据；原文“二五入十一月”“五六七入月”candidate未保留原表述且无标注说明"
+        ],
+        "uncertainty": [
+          "“入十一月”“五五六七八月”“入月”等表述的具体含义，以及相关数术规则的完整指代原文未明确说明"
+        ]
+      },
+      {
+        "id": "book006-b000120-p000-99ae8d608a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“必掛細贏嫌”candidate改写为“必定会有凶险”属于无依据释义，原短语含义未明不应直接替换；“娶犯之百里敗家”candidate释为“嫁娶触犯此日会导致百里之内家道败落”不准确，原文未提及“百里之内”的范围，属于增译"
+        ],
+        "uncertainty": [
+          "“必掛細贏嫌”的具体含义原文未明确"
+        ]
+      },
+      {
+        "id": "book006-b000121-p000-f5d95ef015",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000122-p000-7604b8e58d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“乙不羞植”candidate释为“乙日不能栽种”无依据，“羞植”含义未明不应直接替换；“丁不痢頭”candidate改写为“丁日不能剃头”属于无依据猜测；“巳不破券二北並七真不經絡”candidate断句错误，将“巳”改为“己”、漏译“真不經絡”属于内容遗漏；“辛不合暫上人不嘗”candidate释为“辛日不能合药，否则药不会被服用”无依据；“且不寇帶主不還鄉”candidate误将“且”改为“丑”、“寇帶”改为“寇盗”属于无依据改字；“展不哭泣”candidate误将“展”改为“辰日”属于无依据增改；“酉不會客醉坐顛在”candidate改写为“酉日不会客，否则会醉坐颠狂”无依据；“戌不吃犬作怪上狀”candidate漏译“上狀”；“蒲可市肆服藥遭殃財神方求財之吉”candidate断句错误，释读逻辑混乱；“壬癸日正南貴神方求名趨之吉”candidate断句错误，将“贵神方求名趋吉”的属性错配给前面的财神方；locked_terms中的“水”未在该条source及candidate中出现，candidate将“水”的释义写入uncertainty属于多余内容"
+        ],
+        "uncertainty": [
+          "“羞植”“痢頭”“二北并七”“真不經絡”“合暫上人不嘗”“寇帶”“展”“顛在”“作怪上狀”“開嚴”“蒲”“正非方”等表述残缺或讹误，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2778,
+    "completion_tokens": 1383,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2778,
+      "completion_tokens": 1383,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

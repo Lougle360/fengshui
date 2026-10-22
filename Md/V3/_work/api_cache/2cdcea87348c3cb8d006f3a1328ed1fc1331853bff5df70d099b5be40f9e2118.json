@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:02:06.719404+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2cdcea87348c3cb8d006f3a1328ed1fc1331853bff5df70d099b5be40f9e2118",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000116-p000-ad6cb5570b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000117-p000-615dd3198a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000118-p000-d243f662a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000119-p000-f68454b352",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处OCR错误，如‘有生成之尤’‘定李難不悞者’‘異体度’‘廣凋’‘尨虎秋’‘牛角秋’‘桔成毬簷’‘滴斷処’‘往云脉認來’‘尤塟秉生炁’等，候选句未修正这些OCR错误，且将原文断句错误照搬，未按现代汉语规范调整断句"
+        ],
+        "uncertainty": [
+          "‘尨虎秋、牛角秋、桔成毬簷、滴斷処、往云脉認來、尤塟秉生炁’等短语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2629,
+    "completion_tokens": 333,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2629,
+      "completion_tokens": 333,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

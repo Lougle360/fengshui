@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T05:12:10.036871+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d6bd9b7ce323e10a009d6710848037baf0834a0dcdf09fe35cbe2ea09e6f36f8",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000330-p000-3a498a3e72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000333-p000-4c7397d11c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000336-p000-3ca99616ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "最后一句断句错误，原文‘姑印舊傳訛謬之最顯最粗者如六儀以六甲之何以遁三奇之何以逆順布八門之何以挨第三層穿山’语义未完整拆分，候选错误将‘第三层穿山’归入八门挨排的宾语，应为独立条目，漏译‘印’的‘印证’义项，且句末未体现原文未说完的状态"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000337-p000-83c686d8ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2288,
+    "completion_tokens": 329,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2288,
+      "completion_tokens": 329,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

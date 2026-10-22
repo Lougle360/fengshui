@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-16T09:03:52.868575+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "26c6a17ade9e80c26698e34ab96fb4a722736c153ced7d9242ce1f4f0275b2c2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001703-p000-72d8bb2ba3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "腫壓",
+          "貼卷",
+          "下離"
+        ]
+      },
+      {
+        "id": "book035-b001704-p000-b5210a06f9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文‘等穴就穴木星直殺太重又湊着前山只得揭番取堂局穿后峰爲準的等穴偏側乳 龍費力難下后面氣脈急盛前一位上等若下乳穴上氣急不穩來脈太急湊前寬后 就之等之閃殺太急’拆解为多个独立短句，并添加了‘关于...的论述’、‘文中提到’、‘另有’、‘若...则’等连接和解释性词语，这属于为形成现代汉语句子而进行的合理补充，不属于增译。但候选句将‘等穴偏側乳’处理为一个待解释的短语‘偏側乳’，而原文‘等穴偏側乳’与‘龍費力難下’是连贯描述，可能意指‘等穴（或指某种穴法）位于偏侧之乳（地形）’。候选句的断句和解释方式可能改变了原文的语法结构，存在语义风险。此外，‘前一位上等’的释读也较含糊。"
+        ],
+        "uncertainty": [
+          "揭番",
+          "湊着",
+          "偏側乳",
+          "前一位",
+          "就之等之"
+        ]
+      },
+      {
+        "id": "book035-b001705-p000-4787e28849",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句基本按原文顺序复述，并标注了多个术语‘具体所指不详’，符合要求。但存在一处可能的误译：原文‘俗謂槍頭不 下鼠尾休扦’中的‘槍頭’、‘鼠尾’是比喻，候选句直接引用而未作任何说明，虽然保留了原短语，但作为白话释读，对于这类比喻性术语，应增加‘比喻...’或‘指...’的浅显说明，或明确标注其比喻性质。目前处理方式可能导致普通读者完全无法理解。此外，‘略路玄微頗用工’释读为‘认为略路玄微頗用工’，添加了‘认为’一词，属于为形成句子而补出的谓语，可以接受，但‘略路玄微’作为标注的不明术语，整体处理尚可。"
+        ],
+        "uncertainty": [
+          "木火星",
+          "撞木一穴",
+          "卷廉",
+          "罄穴",
+          "略路玄微",
+          "出斗",
+          "聚落",
+          "官曜",
+          "曲池穴",
+          "逆穴"
+        ]
+      },
+      {
+        "id": "book035-b001708-p000-ec3cecca3d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "吞吐浮沈",
+          "脈若明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1832,
+    "completion_tokens": 627,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1832,
+      "completion_tokens": 627,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

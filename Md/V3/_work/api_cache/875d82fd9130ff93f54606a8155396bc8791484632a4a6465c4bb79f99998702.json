@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:09:41.308394+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "875d82fd9130ff93f54606a8155396bc8791484632a4a6465c4bb79f99998702",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000784-p000-dabeb1ce78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000785-p000-445bec196f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000786-p000-1b5dddb5ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000787-p000-892df0ba8d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中定义的术语“向”为建筑或穴位所朝的方位，此处将“泠向”的人名误释为该术语的含义，属于专业术语误换"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1703,
+    "completion_tokens": 233,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1703,
+      "completion_tokens": 233,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

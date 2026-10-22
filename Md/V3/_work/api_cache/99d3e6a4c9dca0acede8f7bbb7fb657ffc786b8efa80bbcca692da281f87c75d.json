@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:07:22.324000+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "99d3e6a4c9dca0acede8f7bbb7fb657ffc786b8efa80bbcca692da281f87c75d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000361-p000-1bf802764a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000362-p000-5cde24041a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000364-p000-779ce332c9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中存在多处缺字、错乱，如“休義辰聚”“禮”“木生腴地”“土屏宜出中”“巾出土”“踰生枝”“莫摸柳”“漸麗漸鐵漸精”“缺31 171”等，候选释读未明确标注这些问题，存在将残缺内容当作完整内容释读的情况"
+        ],
+        "uncertainty": [
+          "原文中存在缺字、错乱，部分内容具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000366-p000-6d8f844f8c",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处缺字、错乱，如“力愈題低小”“力不俸”“說問出何馬”“藝楊”“雙號”“木星伯”“元微”“開峽不須”“犂頭”“火蒸水降”“達生”“星部是水”“攝戊”“水木蘆鞭”“味經”“各”“抛修”“中監”“食虎榜”“蹈胙”“看作衙”等，候选释读无法准确对应原文，存在将残缺错乱内容强行释读的问题"
+        ],
+        "uncertainty": [
+          "原文存在缺字、错乱，多处内容具体所指不详，无法形成准确的释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4105,
+    "completion_tokens": 454,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4105,
+      "completion_tokens": 454,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

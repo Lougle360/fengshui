@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:12:59.828168+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "de092b1a4e9cf8cc0946e0a95ad7f360f2994bf5747a122338b1a6236b6305cd",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000614-p000-8bf8886f0f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处原文语义错乱，无法明确解读，具体所指不详",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在多处语义断裂、错漏，无法梳理出完整通顺的内容"
+        ]
+      },
+      {
+        "id": "book010-b000615-p000-b2f30b6de4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "門超接置閏法",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000616-p000-85b941de58",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处原文存在多处错漏，无法梳理出完整通顺的内容，具体所指不详",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在多处缺字、错讹，如“置閩”应为“置閏”，“芷種”语义不明，“二至還鄉”“符遇節”等内容逻辑断裂，无法形成完整文意"
+        ]
+      },
+      {
+        "id": "book010-b000617-p000-2a82c8b35f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《洪範五行詩》是论述“五行”（木、火、土、金、水五种分类及其关系体系）的著作，《造奘論》则起于半山运",
+        "confidence": "medium",
+        "uncertainty": [
+          "“造奘論”语义不明，“半山运”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1626,
+    "completion_tokens": 464,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1626,
+      "completion_tokens": 464,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

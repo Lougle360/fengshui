@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T09:56:10.850330+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "08b17522300c818baf295ae0ce90d7b9dec37a1f6d9802e7db53e4b40f4b54c4",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000419-p000-038adfb47f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "穿割、箭射是四种需要避开的风水情形。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000420-p000-c876190337",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "所谓穿，是指水流穿破明堂、截断龙臂的情形；所谓割，是指穴前没有上聚的格局，南水穿过内堂、割截脚脉的情形。也有人认为，若穴前没有多余的生气，水流逼迫山脚而过，也可称为割脚。所谓箭，是指水流急直而去，如同箭射出一般；所谓射，是指水流正对着穴心直冲，或是从左右两胁下冲来，如同箭射来一般。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000421-p000-7b86562204",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "元辰正对着穴心直出，还不能就说是凶；若外面的水流转向，损及园圃，反而会吉利。用它来界分脉气，脉气就会停止；用它来挡风，就如同有风也不会（被吹动）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处断句错乱、缺字，难以完全准确释读"
+        ]
+      },
+      {
+        "id": "book010-b000422-p000-998625da3c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "水流从穴前发源，称为元辰水。元辰水正对着穴心直出，主初年不利，但还不能就断定为凶；若有外水横拦，内部生气就会停止聚积，反而成为吉利。大概是因为用它来界分穴的脉气，脉气就会停止；用它来承托穴的风气，风气就不会被吹动。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1751,
+    "completion_tokens": 580,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1751,
+      "completion_tokens": 580,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

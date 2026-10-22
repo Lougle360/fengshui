@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T11:26:56.222490+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "280eeb0f6ff43d4700bd6a380525d942c6fae04f9bae94533a84e910d791e453",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000674-p000-c2ee60ebf3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "氯字疑为讹误",
+          "复淦六然见含义不明",
+          "当荷妙两边前含义不明",
+          "对原文语序的梳理存在推测成分"
+        ]
+      },
+      {
+        "id": "book024-b000681-p000-4f53eee76c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "欠差的具体所指不明确",
+          "松交争含义不明"
+        ]
+      },
+      {
+        "id": "book024-b000684-p000-899baf3eeb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译locked_terms“水”，原文“水木交流格”中的“水”未按照allowed_glossary的定义释读，直接保留“木”字前缺失“水”的对应释读内容"
+        ],
+        "uncertainty": [
+          "禾星硬木而交流的具体关系与含义不明确",
+          "丹旺的具体所指不明确"
+        ]
+      },
+      {
+        "id": "book024-b000695-p000-61a6e5ccb4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "青在头水方抱含义不明",
+          "出定素含义不明",
+          "凤五旁下着含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1530,
+    "completion_tokens": 330,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1530,
+      "completion_tokens": 330,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

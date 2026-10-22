@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-25T10:34:54.074518+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "be1338cfdd27a5b1153742ff6f15161577f6c013a4c44124802d73f2d725fc60",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000322-p000-483aba0990",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地為官代 作烏台”断句误读，正确断句应为“地，为官代作乌台”，对应含义为葬此地后代代出乌台官员，候选释读为“为官者可累代担任乌台之职”语序错误，不符合原文表述逻辑；原文“瓜藤之水節之有情”的“節之”被误译为“段落排布”，属于语义错译，“節之”指水流节节停蓄的状态"
+        ],
+        "uncertainty": [
+          "竜史的具体指向暂不明确"
+        ]
+      },
+      {
+        "id": "book024-b000331-p000-38d3dffe6a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“火入金城兩相戰奕後其家終不显功名或是出旗鐘後代光孫必陳亡”断句误读，正确断句应为“火入金城两相战，奕后其家终不显功名，或是出旗钟，后代光孙必陈亡”，候选将“奕后”拆解进前半句“交战对峙之后”属于错译，“奕”指累世、几代，“奕后”即几代之后；“陳亡”被误译为“阵亡”，“陳亡”指家族败亡、绝嗣，并非个人战死"
+        ],
+        "uncertainty": [
+          "光孙的具体指代暂不明确"
+        ]
+      },
+      {
+        "id": "book024-b000334-p000-d546cc0970",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“又名笑之大處一边有水一边無”断句误读，正确断句应为“又名笑之，大处一边有水一边无”，候选误将“大處”划入前半句，错误标注“又名‘笑之大’（原文此处可能存在讹误）”属于断句错误导致的误释；allowed_glossary中“三元”的定义为“以三元、九运等时序结构为核心的一类体系”，此处原文“及第至三元”的“三元”指科举三元（解元、会元、状元），与allowed_glossary收录的风水三元体系不符，候选误用术语定义，属于错译"
+        ],
+        "uncertainty": [
+          "“笑之”的具体含义暂不明确，金铭的具体指向暂不明确"
+        ]
+      },
+      {
+        "id": "book024-b000341-p000-559523ee48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000345-p000-30e5a399d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“金水重按南門”的“按”被误译为“按压”，属于语义错译，风水语境中“按”指拱护、朝向；原文“水中再色裹”的“色裹”无依据释为“彩色包裹”，属于无据增译，原文此处存在讹误/语义不明，应标注为具体所指不详，不得随意解释"
+        ],
+        "uncertainty": [
+          "水中再色裹的具体形态暂不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1525,
+    "completion_tokens": 799,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1525,
+      "completion_tokens": 799,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:27:01.121266+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7b8871ca0b24d81ef9aa41b81abbe29c015786bea73e9f5fefbef79b32045650",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002724-p000-3f816bc454",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002725-p000-0239748d4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002726-p000-f8d22d4489",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002727-p000-9aa483fdf2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将《象》曰的原文“公用射隼”误写为“王公发箭射击据于高城之上的恶隼”，属于对原文的错误改写，未严格保留原文核心表述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1767,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1767,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

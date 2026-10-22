@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-15T01:00:48.328374+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "520fa6c6cb20462a18f03545fa5336996f2c60606398abcb05415a92ec2e01ff",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000914-p000-8248104707",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "这些文字是否均为风水术语",
+          "‘鶴不’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000918-p000-05f4a7dd08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中‘手行星星’在candidate中被误写为‘手行星星。星星’，多出了一个‘星星’，属于误译或OCR识别错误。",
+          "source中‘平中字橈棹回來斬關做高山大峽開三門’是一个连贯的句子，candidate将其拆解为‘这条龙脉只去平中字，像橈棹回来斩关，做高山大峡，开三扇门’，并单独解释‘字’，这属于过度解释。根据规则，对含混短语应保留原短语并说明‘具体所指不详’，而不是将其拆解并赋予‘像’这样的比喻关系。应将‘平中字’整体视为一个含混术语处理。"
+        ],
+        "uncertainty": [
+          "‘手行星星’的具体所指",
+          "‘平中字’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000919-p000-49f8329fe1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中‘雖曰衆多勢如復’的‘復’字，candidate解释为‘但‘复’的具体含义不详’，这是正确的风险标注。但candidate在‘朝迎指正眞穴形’后断句为‘左右高低，君莫错’，而source原文是‘朝迎指正眞穴形 左右高低君莫錯’，中间并无逗号，candidate的断句属于增译，改变了原文的节奏和可能的句读。",
+          "source中‘此龍是作貴龍從枕在水邊自橫斜’，candidate译为‘此龙是作贵龙，其走势如同枕靠在水边，自行横斜’，其中将‘从枕’解释为‘如同枕靠’属于无依据的推测性扩写。根据规则，对于含混短语应保留原状并标注不确定性，而不是将其改写为明确的比喻。"
+        ]
+      },
+      {
+        "id": "book035-b000923-p000-e51333af1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格中数字和符号的具体对应关系",
+          "‘11 1’的具体含义",
+          "‘W’的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2214,
+    "completion_tokens": 537,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2214,
+      "completion_tokens": 537,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

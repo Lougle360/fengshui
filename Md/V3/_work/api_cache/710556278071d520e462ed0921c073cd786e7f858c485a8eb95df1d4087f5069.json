@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-17T04:51:11.703609+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "710556278071d520e462ed0921c073cd786e7f858c485a8eb95df1d4087f5069",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002595-p000-1b1474e30e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语序严重错乱，无法还原为通顺句子"
+        ]
+      },
+      {
+        "id": "book035-b002596-p000-d98603d259",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语序严重错乱，无法还原为通顺句子"
+        ]
+      },
+      {
+        "id": "book035-b002597-p000-0c7ebaeea7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002598-p000-8f208353a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002599-p000-43eded73ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'外氣所以止内水之母'，candidate释为'外气是内气之母'，将'内水'误换为'内气'，且'所以止'的含义未译出。",
+          "原文为'水行則瞰地水止則止'，candidate释为'水行则地气随水而行，水止则地气随水而止'，增译了'地气随水'，改变了原文结构。",
+          "原文为'水界乎外則氣止于内'，candidate释为'水界于外，则气止于内'，准确。",
+          "原文为'故凡龍行則水隨行如夫婦之相隨情諧意協亦理之自然也'，candidate释为'所以凡是龙脉行走，水就随之行走，如同夫妇相随，情意和谐，这也是自然的道理。'，准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002600-p000-78f3cc9839",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002601-p000-b25f7e0f62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾似有残缺或语序错乱"
+        ]
+      },
+      {
+        "id": "book035-b002602-p000-3ab433f8a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'哪流涌水似鱗交簇擁向外試識方來之'，candidate释为'水流涌动，似鳞交簇拥，向外试识方来之势。'，将'哪流'释为'水流'，'试识方来之'后缺字，candidate补'势'，属于合理推测，但应在uncertainty中说明。",
+          "原文为'叠顺水趨槍絕無回頭反背之勢'，candidate释为'叠顺水趋枪，绝无回头反背之势。'，'趋枪'为opaque term，应加引号或标注。",
+          "原文为'水從砂去如魚之'，candidate释为'水从砂去，如鱼之鳞'，补'鳞'字，属于合理推测，但应在uncertainty中说明。",
+          "原文为'眞龍出身其送從之砂夾畏推擁如浪之涌重重疊'，candidate未译此句，属于漏译。",
+          "原文为'不交流過堂'，candidate未译此短语，属于漏译。",
+          "原文为'滔滔向外不不聚'，candidate释为'滔滔向外，不聚。'，处理了重复的'不'，可以接受。",
+          "candidate将'真气伪气'释为'真气伪气'，保留了locked term，可以接受。"
+        ],
+        "uncertainty": [
+          "原文部分字句存在明显错乱或脱漏，如'哪流涌水'、'叠顺水趋枪'、'水從砂去如魚之'、'眞龍出身其送從之砂夾畏推擁如浪之涌重重疊'、'不交流過堂'等，译文已根据上下文逻辑进行重构，但部分细节仍存疑。"
+        ]
+      },
+      {
+        "id": "book035-b002603-p000-ddf00b7c11",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'不交流過堂橫聚環抱如弓弃廢龍虎側列如越屯伏如軍'，candidate释为'不交流过堂，横聚环抱，如弓弃。废龙虎侧列，如越屯伏，如军。'，'如弓弃'、'如越屯伏'为opaque terms，应加引号或标注。",
+          "原文为'傍有護送砂鬼送從而來'，candidate释为'傍有护送砂，鬼送从而来'，'鬼送从'为opaque term，应加引号或标注。",
+          "原文为'且至入肯之處'，candidate释为'且至入肯之处'，'入肯'为opaque term，应加引号或标注。",
+          "原文为'或彈或繞'，candidate释为'或弹或绕'，可以接受。",
+          "原文为'左砂右歸右砂左躇'，candidate释为'左砂右归，右砂左躇'，'左躇'为opaque term，应加引号或标注。",
+          "原文为'泉水朝堂群龍躡足'，candidate释为'泉水朝堂，群龙蹑足。'，可以接受。",
+          "原文为'眞龍未住其勢 逐逐而行不容'，candidate释为'真龙未住，其势逐逐而行，不容。'，'不容'后似有缺文，candidate已标注。",
+          "candidate将'真气'释为'真气'，保留了locked term，可以接受。"
+        ],
+        "uncertainty": [
+          "原文末尾'不容'后似有缺文，且部分字句（如'如弓弃'、'如越屯伏'、'鬼送从'、'入肯'、'左躇'）存在异文或错乱可能，译文已按通顺逻辑处理。"
+        ]
+      },
+      {
+        "id": "book035-b002605-p000-b0d4f8089f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2655,
+    "completion_tokens": 1577,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2655,
+      "completion_tokens": 1577,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

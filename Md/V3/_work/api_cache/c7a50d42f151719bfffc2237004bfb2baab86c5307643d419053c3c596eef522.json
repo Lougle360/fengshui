@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:54:36.029330+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c7a50d42f151719bfffc2237004bfb2baab86c5307643d419053c3c596eef522",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000006-p000-29be69d439",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000007-p000-715110a831",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“湲理”释为“湲理的奥义”无依据，“湲理”原文未明，不应随意释义；“徑”释为“径典”无依据，原文未明；“法號曰大玄室”释为“其法号称为《大玄室》”，原文未明确《大玄室》为著作名，不应加书名号；“乙如”“孝序三”所指不詳，释读时未明确标注该不确定性；“水”的释义虽符合allowed_glossary，但原文“天玉止宣揚水神之出入”中“水”指风水语境相关，释读时未明确对应术语的限定范围"
+        ],
+        "uncertainty": [
+          "“乙如”“孝序三”所指不詳"
+        ]
+      },
+      {
+        "id": "book011-b000008-p000-56ad429da6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“烏季子讓言九宜兩先生”所指不詳，释读时未明确标注该不确定性；“天中”原文未明，释读为“天中”无依据；“發編者必得纏中三卦之吉”释读逻辑模糊，未准确对应原文含义"
+        ],
+        "uncertainty": [
+          "“烏季子讓言九宜兩先生”所指不詳"
+        ]
+      },
+      {
+        "id": "book011-b000009-p000-2f74b2fb77",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“兆姓”释读不准确，原文“兆姓”指百姓，释读为“成为兆姓”不符合原意；“玄”字为原文残缺或未完成之语，释读时未明确标注该不确定性"
+        ],
+        "uncertainty": [
+          "原文末尾“玄”字為殘缺或未完成之語"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2189,
+    "completion_tokens": 513,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2189,
+      "completion_tokens": 513,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

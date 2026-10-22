@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T07:49:36.646882+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "23f0c6b556dd1535b0522ae8b79f1a6938e5741ebc9463f0f1f40a477ff7f805",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000036-p000-7948d94716",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“以肉乘生气”译写为“让尸骨承接生气”错误，此处“肉”应为“骨”的形近讹误，不得将“肉”直接替换为“尸骨”且未做标注；原文“复其既往之神，萃其已散之”未译完，存在漏译"
+        ],
+        "uncertainty": [
+          "原文结尾“已散之”后内容缺失，完整语义不明"
+        ]
+      },
+      {
+        "id": "book023-b000038-p000-678f9ffb26",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文仅有“生之法也”，无任何上下文明确指向“庇佑后代”，将“生”释为“庇佑后代”属于无依据增译，违反含混内容不得作确定事实的规则"
+        ],
+        "uncertainty": [
+          "“生之法也”的“生”具体所指无明确语境支撑，含义不明"
+        ]
+      },
+      {
+        "id": "book023-b000040-p000-b61f963292",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000041-p000-31513dc2ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1920,
+    "completion_tokens": 357,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1920,
+      "completion_tokens": 357,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

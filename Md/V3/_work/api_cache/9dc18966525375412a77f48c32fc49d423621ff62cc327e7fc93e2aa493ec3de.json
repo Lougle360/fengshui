@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T09:22:39.713133+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9dc18966525375412a77f48c32fc49d423621ff62cc327e7fc93e2aa493ec3de",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000241-p000-bdeaac8fea",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量缺漏与错乱，部分内容无法辨识，释读无法成立"
+        ],
+        "uncertainty": [
+          "原文存在大量缺漏与错乱，部分内容无法辨识"
+        ]
+      },
+      {
+        "id": "book010-b000242-p000-028b3f38f2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅存“祭自見”三字，语义残缺，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 145,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1420,
+      "completion_tokens": 145,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T16:39:33.873724+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "296a40c4cf88c3b70cc4486c9c9092bec8c501771db0b8cb8c1bff5cf736682a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000329-p000-cf110beeaf",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "⑩所谓“因时”，这里的“因”是遵循的意思，“时”指一天中的各个时辰。《尚氏学》中说：“君子终日乾乾，夕惕若”，这是说君子从清晨到傍晚，始终保持“乾”卦所要求的警惕谨慎的状态，所以称之为“因时”。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000330-p000-8490ed436c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "本节的内容是解释《乾》卦九三爻的爻辞。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000331-p000-d7e6b14e54",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "九四爻辞说“或跃在渊，无咎”，这句话是什么意思呢？孔子说：“上下无常①，并非出于邪念②；进退无恒，并非脱离众人。君子增",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在残缺，末尾语句不完整"
+        ]
+      },
+      {
+        "id": "book016-b000332-p000-78282c785f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "益道德、营修功业，是想抓住时机进取，德修业，欲及时也，故‘无咎’。”所以‘必无咎害’。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在语句重复与残缺，逻辑衔接不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1715,
+    "completion_tokens": 488,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1715,
+      "completion_tokens": 488,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

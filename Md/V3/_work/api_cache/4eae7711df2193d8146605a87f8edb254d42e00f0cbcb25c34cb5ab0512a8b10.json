@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-26T07:30:59.232113+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4eae7711df2193d8146605a87f8edb254d42e00f0cbcb25c34cb5ab0512a8b10",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000253-p000-ddd2955146",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "廖氏引语末尾“若孤”之后原文内容缺失，完整语义无法确定"
+        ]
+      },
+      {
+        "id": "book033-b000256-p000-01a9edf417",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头为“詔青通山相地之法”，未有充分依据认定“詔青”为“青乌”的讹字，擅自将其释读为“青乌子”属于无依据的确定释义，不符合术语释读规则"
+        ],
+        "uncertainty": [
+          "原文末尾“若”字后内容缺失，完整语义无法确定",
+          "“詔青”具体所指不详，无可靠证据证明为“青乌”讹字"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2241,
+    "completion_tokens": 260,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2241,
+      "completion_tokens": 260,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

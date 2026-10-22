@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-25T14:46:16.512198+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c9b64a82daad080d46a68f8a5375ef491394eb84fd819dbe641d4a5a423b1269",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000074-p000-5614598f86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“量金須用口金魚”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000075-p000-046ff41890",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“斗開人遭着”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000076-p000-a899a05631",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“中心水穴若安墳一地理參皆玄機全書○卷一 1”，候选将“一地理參皆玄機”单独拎出标注含义不详，属于断句错误，“地理參皆玄機全書”是完整书名，“一”是前面分句的残留，应修正断句，“一”字内容不明可标注，书名应直接释出“此处为《地理参皆玄机全书》卷一，页码1”，不应将书名部分单独标注含义不详。"
+        ],
+        "uncertainty": [
+          "“一”字所属前文内容缺失，具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000077-p000-bb4d915c4a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "开头内容缺失，“代便遭迍”具体所指不详",
+          "“開脛脾展翅”具体所指不详",
+          "“一媚産雙童”具体所指不详",
+          "“魚住屋”具体所指不详",
+          "“抱養人請舉”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2383,
+    "completion_tokens": 411,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2383,
+      "completion_tokens": 411,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

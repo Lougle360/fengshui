@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-26T15:05:18.570758+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c15a11f9b7632641a326a8b8644560b911aeb70dba2f8705a033b173d4f065c1",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000425-p000-cef074a6d8",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确有“其山在水日边两旁”，candidate擅自将“水日边”改为“水口”，无原文依据，不符合保守校对要求",
+          "原文表述为“看地与他何干”，candidate擅自改写为“看地时这类形相的作用和其他事物无关，主要是取它们把守水口的意象”，属于无依据增释",
+          "原文最后为“一山微”（不完整），candidate添加“还有一座山形态微，原文在此处不完整”属于自行补述，不符合保留原文原貌的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000426-p000-52de691c59",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文有“水雨旁”“游蟹呼各倒木”“王凡”“形类个一横位”“其蜃蛤”“眠大”“龟白”等存疑内容，candidate擅自改定为“水口旁”“游蟹倒木”“土宿类的砂都是天然生成”“形类不一，横布在岸边”“还有蜃蛤”“眠牛”“龟鱼”，均无原文确凿依据，属于擅改原文",
+          "candidate对原文多处术语自行增释（如“头部朝向穴场”“顾护穴场”等），超出允许的glossary范围，属于无依据添加解释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000427-p000-49de861596",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存疑表述“可请有益者也”“仇敞”“决凡”“十主只宾”等，candidate擅自改定为“是能够带来益处的”“恩星遇到仇敌”“土星包括凡案、天财”“或仅主宾客富足”，无原文依据，属于擅改",
+          "candidate自行添加“主田产丰盛”“主文运昌盛”等风水论断，原文无对应表述，属于无依据增释",
+          "原文“土同仓柜”“水如波浪之动”等表述被candidate改写为“土星的形状如同仓柜”“水星的形状像波浪涌动”，虽语义接近但擅自调整原文句式，不符合保守校对原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000428-p000-027ebd4361",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文开头“火三遭官啞瞎”“土入水一頻病麻風”等断句存在歧义，current和candidate断句方式不同（current释为“火形的山峦遭遇官鬼煞气”，candidate释为“三处火形山出现，主遭遇官非”），均无确凿原文依据",
+          "原文“多火單金貧窮徹骨二水一火勞捺染身”“今龍穴輕筆斜案偏眞畫十”等内容两版解读均存在差异，无权威版本佐证孰是孰非"
+        ],
+        "uncertainty": [
+          "原文部分表述断句歧义较大，两版解读各有合理之处，暂无证据判断哪版更准确"
+        ]
+      },
+      {
+        "id": "book002-b000429-p000-8a9b7c52d9",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“經一雙魁箭狀元峰”candidate擅自改为“还有一双魁箭状元峰”，属于擅改原文表述",
+          "原文“水星道迢又見水離鄉食天祿”candidate释为“水星山形态绵长，又有水形格局，主离乡做官”，添加了原文未提及的“主离乡做官”等论断，属于无依据增释",
+          "原文“蠻頭砂體”candidate改为“峦头砂体”，虽“蛮”可能为“峦”之误，但无确凿依据不得擅改",
+          "原文“有煩若倒地火”“倉權”“媛其矣”“五六見第者”等存疑内容，candidate自行解读为“上部宜有摆动的形态”“仓廪”“以上只是就三兄弟的情况来说的”“倘若有五六房的情况”，均无原文确凿依据，属于擅改"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7070,
+    "completion_tokens": 1252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7070,
+      "completion_tokens": 1252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

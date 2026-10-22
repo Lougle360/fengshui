@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-15T04:43:25.552277+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8ca18cb2516d05e8ee4bcfd321abe73b66640c2cca88aabe1f73640d9d8bd237",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001909-p000-94a69f89dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'護軍'，candidate 误作'护军'，应为'破军'。此为九星之一，术语错误。",
+          "原文'損高益卑'，candidate 作'减削高处、填低处'，'填低处'不准确，应为'增益低处'或'补益低处'。",
+          "原文'挺穴'，candidate 作'损伤穴气'，'挺'字有损伤、动摇之意，但'挺穴'为特定术语，应保留'挺穴'并加注或说明，直接释为'损伤穴气'属无依据扩写。",
+          "原文'消詳莫輕易'，candidate 作'不可轻易尝试'，漏译'消詳'（意为'消详'，指仔细斟酌、详察）。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001910-p000-c85cee0f8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001911-p000-0ac89462a6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文文字严重错乱，candidate 仅罗列破碎字词并说明无法辨识，符合处理原则。但'具体所指不详'的表述可接受，因原文损坏导致无法进行任何可靠的释读。"
+        ],
+        "uncertainty": [
+          "原文严重错乱，字句破碎，无法辨识完整语义",
+          "存在大量无法确认含义的破碎字词"
+        ]
+      },
+      {
+        "id": "book033-b001912-p000-e00dd8313b",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文文字严重错乱，candidate 仅罗列破碎字词并说明无法辨识，符合处理原则。但'具体所指不详'的表述可接受，因原文损坏导致无法进行任何可靠的释读。"
+        ],
+        "uncertainty": [
+          "原文严重错乱，字句破碎，无法辨识完整语义",
+          "存在大量无法确认含义的破碎字词"
+        ]
+      },
+      {
+        "id": "book033-b001913-p000-05957215ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001914-p000-a62c0f0900",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001915-p000-dba8a798cd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'楊胄吳廖賴重輩'，candidate 作'杨、胄、吴、廖、赖等重辈'，'重辈'意为重要人物或前辈，candidate 拆分后'等重辈'的表述略显生硬，但基本达意，可接受。",
+          "原文'星卦國音宗闕等說之亂直眩正者'，candidate 作'星卦国音宗阙等说之乱，直眩正者'，断句和释义基本准确。",
+          "原文'逐欵摭諸名家理論而辨明之'，candidate 作'逐款摭诸名家理论而辨明之'，'欵'通'款'，'摭'意为摘取、搜集，释义准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001916-p000-20205a9a5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001917-p000-c3ba5682ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'護軍'，candidate 误作'护军'，应为'破军'。此为九星之一，术语错误。",
+          "原文'祿文廉頗皆凶'，candidate 作'禄文廉颇皆凶'，'頗'应为'破'，指破军。此为OCR或原文错误，但candidate未指出，直接沿用'颇'，导致九星中'破军'缺失，含义错误。",
+          "原文'廉為獨火'，candidate 作'廉为独火'，'獨火'为特定术语，应保留'独火'或加引号，直接释为'独火'可接受。",
+          "原文'輔為二木弼為九土'，candidate 作'辅为二木弼为九土'，释义准确。",
+          "原文'蔡氏曰謂生氣天醫福德為三吉絕體游魂五鬼絕命本宮為五凶'，candidate 作'蔡氏说：谓生气、天医、福德为三吉，绝体、游魂、五鬼、绝命、本宫为五凶'，断句和释义准确。",
+          "原文'廉為勾陳騰蛇'，candidate 作'廉为勾陈、腾蛇'，释义准确。",
+          "原文'廉為助'，candidate 作'廉为助'，释义准确，但句子不完整，因原文如此，可接受。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4609,
+    "completion_tokens": 1213,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4609,
+      "completion_tokens": 1213,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

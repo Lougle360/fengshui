@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-16T10:51:42.633193+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5cda00aa315c89a5da98848c61cd2a76a718c8f3f2a585f64bad0bdf5a15b464",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002046-p000-1cac8acf12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘生葬’解释为‘适宜采用“生葬”’是增译，原文‘故宜生葬’是‘适宜生葬’之意，但‘生葬’本身是含混术语，候选句将其作为确定概念使用，应标注为‘生葬’具体所指不详。",
+          "将‘第一合之水’和‘第二合水’解释为‘显示应该深葬/浅葬’是增译，原文仅说‘可取...以定其淺深’，候选句赋予了其判断功能。",
+          "‘气就会从棺椁上方流过’中的‘棺椁’是增译，原文为‘放棺’。",
+          "‘导致棺椁无法接受生气的中和’中的‘中和’是增译，原文为‘不得生氣之中’。",
+          "‘主白蚁从顶部向下蛀食’中的‘顶部’是增译，原文为‘蓋’。",
+          "‘深浅的葬法不可不谨慎’漏译了‘之法’。",
+          "‘深浅得当，风水自然自成’漏译了‘得乘’的‘乘’字，应为‘深浅得乘，风水自成’。",
+          "‘正是说的这个意思’中的‘这个意思’是增译，原文未明指。"
+        ],
+        "uncertainty": [
+          "生葬",
+          "第一合之水",
+          "第二合水"
+        ]
+      },
+      {
+        "id": "book035-b002052-p000-10553a9323",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "前縮緊和寬"
+        ]
+      },
+      {
+        "id": "book035-b002053-p000-b9e6cf0029",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "正球",
+          "折架"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 395,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1205,
+      "completion_tokens": 395,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

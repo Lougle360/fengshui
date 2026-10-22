@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T12:14:25.367611+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4ac50367c74b1ac8988b8adba2caf9e582fe07cf19d663f331cecc202618e478",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000515-p000-85c75fd069",
+        "modern_text": "有人问：太极晕就是窝、钳、乳、突吗？回答说：不是窝、钳、乳、突，只是写的是钳、乳、突，这是什么说法？回答说：窝大的话，要在窝中再求晕；窝小的话，窝就是晕；突大的话，要在突中再求晕；突小的话，突就是晕。钳、乳都是长形的，不管大小，都必须求它的晕。窝是太阳，突是太阴，阴阳已老，故能卽变；钳是少阳，乳是少阴，故须转凌。",
+        "confidence": "medium",
+        "uncertainty": [
+          "故能卽变",
+          "故须转凌"
+        ]
+      },
+      {
+        "id": "book014-b000519-p000-50346cc0cd",
+        "modern_text": "畢在上弦，卽靠上弦，窩中又有層。",
+        "confidence": "low",
+        "uncertainty": [
+          "畢在上弦卽靠上弦窩中又有層"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1431,
+    "completion_tokens": 287,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1431,
+      "completion_tokens": 287,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

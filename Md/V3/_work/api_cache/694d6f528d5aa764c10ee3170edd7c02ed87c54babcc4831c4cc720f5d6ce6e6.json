@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T22:40:16.691923+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "694d6f528d5aa764c10ee3170edd7c02ed87c54babcc4831c4cc720f5d6ce6e6",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004095-p000-423cd1e3fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004096-p000-2ed0a9e0ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source是二级标题，candidate未保留标题格式，且未体现原文的引文结构，直接解释为内容不符合heading类的核对要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004097-p000-fcac618cad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004098-p000-c01597f97c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004099-p000-886e8c7fb6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source是二级标题，candidate未保留标题格式，直接释读为普通内容不符合heading类的核对要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004100-p000-6f2a4240e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004101-p000-e6cccf1ec1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文提到“七日”的含义可“参见《震》六二及《复》卦辞译注”，candidate漏译了该内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004102-p000-d34e5d34f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004103-p000-49a918e3ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004104-p000-624c9dad83",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2836,
+    "completion_tokens": 649,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2836,
+      "completion_tokens": 649,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

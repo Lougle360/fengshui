@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T21:08:37.324527+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ae195d585e7908a5d934fb2d00bebf1008bb46a948ed5743c9a6686eca0db215",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003618-p000-4bbf26a80b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文将爻辞正文和旧注混杂表述，存在断句错误：原文“初九，遇其配主，虽旬无咎，往译文初九，遇合相匹配之主，尽管两者阳德均等也不致咎害，前往必受尊尚。”实际是爻辞“初九，遇其配主，虽旬无咎，往有尚”与旧注杂糅，候选错误将“往有尚”认定为爻辞原文的一部分，且直接采用“阳德均等”作为“旬”的确定释义，未说明该释义属于注文引申，属于无依据赋予含混字词确定含义。"
+        ],
+        "uncertainty": [
+          "“旬”的具体含义原文未明确给出，“阳德均等”是传统注家的引申解释，并非唯一释义。"
+        ]
+      },
+      {
+        "id": "book016-b003619-p000-27df9672ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "上一条候选错误将“有尚”归为爻辞末尾，本条对应原文是杂糅后遗留的爻辞残段，并非“无单独可释读内容”，该判断不符合原文实际情况。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 815,
+    "completion_tokens": 313,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 815,
+      "completion_tokens": 313,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

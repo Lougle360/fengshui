@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-10-17T06:10:18.224236+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ce33d5fa635d8c09ce97678f169a213535b72818016006da6093cdb7613ceee5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002730-p000-a6095babfd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘亥聯甲巽 代 膺將相之權’，candidate将其释读为‘亥方联甲方与巽方，代代承袭将相之权’，其中‘代’字在原文中与‘膺’字之间有明显空格，可能为‘代膺’一词，意为‘代代承受/担当’。candidate的‘代代承袭’虽为合理推测，但原文结构模糊，应更保守地处理为‘代膺将相之权’并说明原文有空格或可能为‘代膺’一词。",
+          "原文‘可水平六手之 也主文中’在candidate中被处理为‘文中提到“可水平六手之 也主文中”，因原文此处残缺或错乱，具体所指不详。’ 此处理方式正确，但candidate在开头自行添加了‘文中提到’这一引导语，属于不必要的增译。应直接说明‘原文此处有“可水平六手之 也主文中”一句，因文字残缺或错乱，具体所指不详。’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002732-p000-3babbe399a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘水來出未斯 其利有成自的之 斤以大自兩星獨明旁無列宿故以寡’整体视为残缺，处理方式正确。但释读文本开头‘文中提到’属于不必要的增译。应直接说明‘原文此处有“水來出未斯...故以寡”一段，因文字残缺或错乱，含义不完整，具体所指不详。’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002735-p000-84b62f38b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘倩橄杯榻蝴鞋毗好甌黯頭離漾湖渚’处理为OCR错误或生僻比喻，并说明具体所指不详，这是正确的。但释读文本开头‘文中提到’属于不必要的增译。应直接说明‘原文此处有“倩橄杯榻...湖渚”一句，疑似文字错乱，具体所指不详。’",
+          "candidate将‘卯酉爲局池水來則主淫’释读为‘则卯酉为局池水来，主淫乱’，其中‘局池’一词含义不明，candidate将其作为整体保留并解释其影响，处理得当。但‘若水势不至直流中射，则卯酉为局池水来’这一句的逻辑连接是candidate根据文意推测补全的，原文并无明确连接词。虽然这种为形成通顺白话而进行的合理补全可以接受，但应更明确地指出这是根据上下文逻辑的推断。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 700,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1308,
+      "completion_tokens": 700,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

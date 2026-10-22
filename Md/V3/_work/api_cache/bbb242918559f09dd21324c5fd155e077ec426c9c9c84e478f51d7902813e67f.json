@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-18T05:08:43.399577+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bbb242918559f09dd21324c5fd155e077ec426c9c9c84e478f51d7902813e67f",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005530-p000-b15283a777",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005531-p000-4603ea8341",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘丙民辛’，candidate解释为‘丙方、艮方（原文误作“民”）、辛方’，将‘民’认定为‘艮’的误写并直接替换，属于无依据的修正。应保留‘民’字并标注其含义不确定。",
+          "原文为‘近勢魂七美’，candidate解释为‘近势魂魄不安；“七美”这一短语具体所指不详’，将‘魂七美’拆解为‘魂魄不安’和‘七美’，属于无依据的增译和拆分。应整体保留‘近勢魂七美’并标注其含义不确定。",
+          "原文为‘發溫煌’，candidate解释为‘发为“溫煌”（具体所指不详，可能指某种疾病）’，将‘溫煌’推测为疾病，属于将不确定解释写成可能事实。应仅标注其含义不确定，不进行推测。",
+          "原文为‘破相禍連年’，candidate解释为‘若破相则祸连年’，将‘破相’理解为前文‘破形’的延续，但原文此处‘破相’可能为独立术语，含义不确定。应标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "慚癸親",
+          "相討面",
+          "近勢魂七美",
+          "溫煌",
+          "破相"
+        ]
+      },
+      {
+        "id": "book035-b005539-p000-c6e4b48a91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "具是   后"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 387,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1450,
+      "completion_tokens": 387,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

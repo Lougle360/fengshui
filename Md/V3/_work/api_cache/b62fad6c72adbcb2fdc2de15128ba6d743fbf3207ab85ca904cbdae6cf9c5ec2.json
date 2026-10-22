@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T18:08:26.428761+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b62fad6c72adbcb2fdc2de15128ba6d743fbf3207ab85ca904cbdae6cf9c5ec2",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000991-p000-52d179fdb3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“員者粗硬俱難立穴”漏译，未提及“圆的（員者）”相关内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000992-p000-99f5074ac4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语解释误用：allowed_glossary中“穴”的释义是“风水中认为气脉聚结、适宜安葬或营建的位置”，此处释读对象是“穴法”，不应对“穴法”标注该释义，释义位置错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000993-p000-4d7e338eb0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“也理奉贊玄機全書○卷”的表述存在OCR识别误差，具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000994-p000-23c1020805",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语解释误用：allowed_glossary中“穴”的释义对应“穴”这个实体，此处释读对象是“穴法”，不应对“穴法”标注该释义，释义位置错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000995-p000-b1adc997fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大人搆出小金皆有面”误译为“大人構出小金，都有面”，“搆出”的主体是“老蚌遺珠”形的砂山/龙脉，不是“大人”，主语理解错误，且“皆有面”的主语是“小金”，释读表述易产生歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000997-p000-c3b8a3c504",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语解释误用：开头“穴法”处不应对“穴法”标注“穴”的释义；“合水”指多条水流交汇，仅标注“水”的释义不准确，且“穴”的释义重复标注过于冗余，不符合通俗释读的合理性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000999-p000-5daf9f7054",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宜坐虛向實扦之”误译为“適宜坐虛向實，應當就實處扦穴”，属于无依据增译，原文未提及“就实处扦穴”的内容，仅要求按照坐虚向实的原则扦穴"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001001-p000-500c3f9600",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语解释误用：释读对象是“穴法”，不应对“穴法”标注“穴”的释义，释义位置错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001002-p000-1e5f940167",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“反弓張的”的“的”含义未明，“兩睁畧護”应为“两脚略护”，属于原文表述或OCR识别存疑"
+        ]
+      },
+      {
+        "id": "book029-b001003-p000-d747c30ee1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语解释误用：释读对象是“穴法”，不应对“穴法”标注“穴”的释义，释义位置错误；原文“綴奠法”误写为“葬法”，原文此处是“奠法”，不应擅自替换为“葬法”"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2574,
+    "completion_tokens": 983,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2574,
+      "completion_tokens": 983,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

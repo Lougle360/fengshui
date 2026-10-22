@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T12:59:17.399376+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "63e95a3b56c61b471016c742e9612014a0426f77ec6963c9a4dc33b55b29ce1d",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000201-p000-9727bf384a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000310-p000-fc1cdc9cf4",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate删除了符合allowed_glossary规定的对“向”的合规注释：“即建筑或穴位所朝的方位”，信息完整度低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000319-p000-cbdfb107a6",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无端声称“‘三吉’具体所指不详、‘主水行生旺’含义无法确定”，且删去了原文“作为主山”“水行处于生旺的状态”“预示着”等符合原意的表述，准确性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000335-p000-7242a96bc2",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000338-p000-4219e9c968",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000342-p000-4237559819",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate删去了风水语境下“绝命”为“绝命之气”、“木星”为“木星方位”、“巨门”为“巨门星对应的山峰”的合理表述，且无端声称“木星具体所指不详”，准确性低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000348-p000-7d2ef0a30d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate删去了“兑卦对应武曲这一颗金星，安葬之后，墓主家族中会有人做到汉代名将王陵那样的上卿官职。此人独自辅佐汉家王朝，无人敢与之匹敌”的准确释义，表述笼统，信息完整度低于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000349-p000-0c37679ceb",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000352-p000-f08c52856d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000356-p000-17bff9f7b9",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3221,
+    "completion_tokens": 772,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3221,
+      "completion_tokens": 772,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

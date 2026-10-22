@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-10-15T01:14:31.988766+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3d7c0195eaeb86b03c6f235152533f768e5d484dd7cd4e419761f18f52578611",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001590-p000-55768fba1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'下抱肩 抱肩 不祥穴则见此皆主死罪囚系官灾 各'，candidate将'下抱肩 抱肩'释为'下格，名为抱肩'，但原文'下抱肩 抱肩'结构不清，可能指'下抱肩'与'抱肩'两种形态或描述，candidate简化合并为一种，可能漏译。原文末尾'各'字未译出，含义不明，但应保留或说明。",
+          "candidate将'此形景为下抱肩'释为'这种地形属于下格，名为抱肩'，其中'下格'为增译，原文仅'下抱肩'，可能为地形名称，非'下格'。",
+          "candidate将'穴则见此'释为'若在此类地形中安葬或营建，即所谓穴'，其中'安葬或营建'为合理补充，但'即所谓穴'将'穴'解释为行为，而locked_terms中'穴'为位置，此处用法可能不同，需核对原文语境。"
+        ],
+        "uncertainty": [
+          "原文'下抱肩 抱肩'具体所指不详，可能为两种形态或重复描述。",
+          "'各'字含义不明，可能指'各主其灾'或为衍文。"
+        ]
+      },
+      {
+        "id": "book033-b001591-p000-eb641f3ad4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'上格龍主風憲衙門號令軍民中格龍主犯罪被枷號贈龍主獄周死罪'，candidate将'贈龍'释为'下格龙脉'，但原文为'贈龍'，可能为'賤龍'（贱龙）之误或特定术语，candidate擅自改为'下格'，无依据。",
+          "原文'獄周死罪'，candidate释为'监狱、周死罪'，'周死罪'含义不明，可能指'周遭死罪'或'周密死罪'，candidate保留原短语但未说明歧义。"
+        ],
+        "uncertainty": [
+          "'贈龍'可能为'賤龍'（贱龙）的OCR错误或特定术语，原文未明。",
+          "'獄周死罪'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b001592-p000-29862b7e88",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001593-p000-bed27a4122",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001594-p000-c97e13d492",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'砂貴格上 陈族仙羣 案正作宜群仙簇隊者諸峰森林旌簇重疊上如峰屯蟻聚皆秀麗清奇者也亦為三千粉黛八百烟花富貴之象也'，candidate将'陈族仙羣'释为'陈族仙群'，但'陈族'可能为'陈设'或'陈列'之误，或指'陈氏家族'，candidate直接保留'陈族'未处理歧义。",
+          "原文'案正作宜群仙簇隊者'，candidate释为'案山正作宜群仙簇队之状'，其中'案山'为增译，原文仅'案'，可能指'案山'，但未明确。",
+          "原文'上如峰屯蟻聚'，candidate释为'上如峰屯，下如蚁聚'，增译'下如'，原文无'下'字。"
+        ],
+        "uncertainty": [
+          "'陈族仙羣'中'陈族'含义不明，可能为'陈设'之误或特定描述。",
+          "'案'是否指'案山'，原文未明。"
+        ]
+      },
+      {
+        "id": "book033-b001596-p000-bdcce9ec12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'上格龍主公侯國戚駙馬女妃神仙中格龍主鎮大藩巨蜀多僅從武貴賤龍主出人風流飄湯'，candidate将'賤龍'释为'下格龙脉'，但原文为'賤龍'，candidate改为'下格'，虽可能对应前文'砂賤格'，但原文未明确'賤龍'即'下格龙'，属无依据换术语。",
+          "原文'多僅從武貴'，candidate释为'多仅从武贵'，但'仅从'可能为'仪从'（仪仗随从）之误，candidate未处理歧义。",
+          "原文'飄湯'，candidate释为'飘荡'，可能为'飘荡'之误，但需标注。"
+        ],
+        "uncertainty": [
+          "'僅從'可能为'仪从'之误，原文未明。",
+          "'飄湯'可能为'飘荡'的OCR错误。"
+        ]
+      },
+      {
+        "id": "book033-b001597-p000-4d43993d5d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001598-p000-00fa174b22",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'上格龍主貴上殿捧獻觴中格龍主富歐賔客滿門'，candidate将'歐賔客'释为'欧宾客'，但'歐'可能为'嘔'（呕）或'毆'（殴）之误，或通'讴'，candidate直接保留'欧'未处理歧义。",
+          "原文'上殿捧獻觴'，candidate释为'上殿捧献觞'，含义大致正确，但'觞'为酒器，可接受。"
+        ],
+        "uncertainty": [
+          "'歐賔客'中'歐'字含义不明，可能为错字。"
+        ]
+      },
+      {
+        "id": "book033-b001599-p000-b438c2b16a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001600-p000-0b7fdd4ac3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'上格龍主富貴多墮胎淫慾'，candidate释为'上格龙脉主富贵多，但多堕胎淫欲'，其中增译'但'字，改变了原文并列关系（可能为主富贵多且堕胎淫欲）。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1903,
+    "completion_tokens": 1512,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1903,
+      "completion_tokens": 1512,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

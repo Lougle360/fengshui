@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:57:26.725844+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "59bbe58cc6c1464e68385aca5c1a0177285b5b22e33f9ebf4590a5c8121dd828",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000050-p000-28c62c1a04",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“会公”误释为“会公反复说明”，原文未提及“会公”的具体所指，属于无依据扩写；“八于”“四雒”“宗天罗经”“与维”“子母公孙”属于未明确的专名，未按要求标注为引用范围"
+        ],
+        "uncertainty": [
+          "“八于”“四雒”“宗天罗经”“与维”“子母公孙”具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000051-p000-f3953f71a8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“八干”误写为“八干”（原文为“八于”）；“法国五十居中”属于无依据的错误释读，原文未提及“法国”；“天主经”属于无依据的误换，原文未提及“天主经”；“青义心印”属于未明确的专名，未按要求标注为引用范围"
+        ],
+        "uncertainty": [
+          "“八于”“四维”“四正四隅”“四经”“双山篇”“青义心印”具体所指不详；“法国五十居中”原义存疑"
+        ]
+      },
+      {
+        "id": "book011-b000052-p000-373c88c5b7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“峒”属于未明确的专名，未按要求标注为引用范围"
+        ],
+        "uncertainty": [
+          "“峒”具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000053-p000-4c9fffd2de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1680,
+    "completion_tokens": 475,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1680,
+      "completion_tokens": 475,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:08:35.356894+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d08376801ba2ce660d522e7681dc023615d90159d6950e1ef3cfa82f803fb6a8",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000371-p000-c6327027c9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“二 00? 6005”“穷画”“刦”“憔橛”“员满”等含义不明的术语，候选释读未标注具体所指不详，直接按字面译出，存在将不确定解释写成确定事实的问题；“同又过顾”“礼劝宗还顾我”“小人案尊星不同”“闻与后人乘其气”“天星寻得穴星事入”等语句语义含混，候选释读未明确标注具体所指不详，存在将不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文中“二 00? 6005”“穷画”“刦”“憔橛”“员满”“同又过顾”“礼劝宗还顾我”“小人案尊星不同”“闻与后人乘其气”“天星寻得穴星事入”等词或语句含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000372-p000-782ff5389a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“火三”“三穴城”“甲提”“肩雁”“媾眉”等含义不明的术语，候选释读未标注具体所指不详，直接按字面译出，存在将不确定解释写成确定事实的问题；原文末尾“穴场一”为残句，候选释读未明确标注，存在将残缺内容当成完整内容的问题"
+        ],
+        "uncertainty": [
+          "原文中“火三”“三穴城”“甲提”“肩雁”“媾眉”等词含义不明，具体所指不详；原文末尾“穴场一”为残句，缺字较多"
+        ]
+      },
+      {
+        "id": "book014-b000373-p000-4bd2f6f00f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000374-p000-12ea4a0760",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4011,
+    "completion_tokens": 569,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4011,
+      "completion_tokens": 569,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

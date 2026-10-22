@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T08:29:30.641657+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f19e9794118ef42bc767afc6ddc4910f6b65af9505e39a1ebdc0a8b137447d38",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000192-p000-320c4a4f16",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对原文中‘间之驾龙就虎作案部之骑虎’‘任木之去而愈筋有也’等含混语句未标注不确定性，直接释读存在无依据扩写；将‘戊饰’‘面木’‘榆黄’‘聊面’‘明帝’‘排顺木之局’‘牙瓜’‘皎牙’‘平祥之局’‘高卷之下’等未明术语当作确定内容释读，违反规则；‘只在意颜色却不看重质地’与原文‘可但不喜肯黑耳’含义偏差，原文应为‘只看重颜色却不看重质地’"
+        ],
+        "uncertainty": [
+          "戊饰、面木、榆黄、聊面、明帝、排顺木之局、牙瓜、皎牙、平祥之局、高卷之下、间之驾龙就虎作案部之骑虎、任木之去而愈筋有也，具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000193-p000-5b774b4591",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文为OCR识别的混乱表格文本，存在大量残缺、模糊、无法辨识的内容，无法形成准确的白话释读"
+        ],
+        "uncertainty": [
+          "原文为OCR识别的残缺混乱文本，多数内容无法辨识"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4593,
+    "completion_tokens": 344,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4593,
+      "completion_tokens": 344,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

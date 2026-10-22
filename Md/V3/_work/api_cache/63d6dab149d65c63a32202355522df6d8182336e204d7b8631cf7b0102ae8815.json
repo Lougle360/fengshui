@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-18T05:05:21.483658+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "63d6dab149d65c63a32202355522df6d8182336e204d7b8631cf7b0102ae8815",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005520-p000-1b9f09c3aa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005521-p000-178dec5dae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘定出期須長壽翁’译为‘必定在长寿之年应验，家中会生出聪明俊秀的神童’，存在增译和逻辑连接错误。原文‘定出期須長壽翁’与‘家生聰俊神童子’是并列关系，意为‘必定会出长寿的老人，家中生出聪明俊秀的神童’。候选句将‘长寿翁’解释为‘长寿之年应验’，并将‘家生’的因果关系强加于前句，改变了原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005522-p000-b26931c9a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005523-p000-3d8570eabf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005524-p000-17b5f6883f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005525-p000-f054213797",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005526-p000-68db789f7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘防佛圓淨端正’中的‘防佛’应为‘仿佛’的异体或误写，候选句直接写作‘仿佛’，虽不影响理解，但属于未经说明的改动，应保留原文用字或加注说明。原文‘與郡之位’译为‘与郡的职位’含义不清，可能指‘郡守’或‘与郡相当的职位’，候选句未明确，建议保留原文或标注不确定性。原文‘當皆巨任次則是侍從 政宰臣’译为‘应当都是巨任，其次是侍从、政宰臣’，其中‘政宰臣’可能为‘执政宰臣’或‘宰相’，候选句直接拆分处理，未标注原文可能的连读或歧义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005527-p000-3713e3b909",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005528-p000-f73190c43e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005529-p000-de396e3b29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1760,
+    "completion_tokens": 628,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1760,
+      "completion_tokens": 628,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

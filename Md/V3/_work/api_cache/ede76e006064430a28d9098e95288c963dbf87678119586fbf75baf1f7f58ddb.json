@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-25T21:30:39.619893+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ede76e006064430a28d9098e95288c963dbf87678119586fbf75baf1f7f58ddb",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b001022-p000-58593844ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b001023-p000-dfdaab6306",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“惟民之一體人有陰受其川從來倚穴亦如然莫道穴居偏其四”讹误不明，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b001031-p000-bb99b3e4c2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“蔡成馀”“武可”身份存疑，可能是作者名也可能是书名组成部分",
+          "“马穴五十八”中的“马”疑似讹字，具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b001034-p000-6782252ddc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“餓減”未正确释读，候选将其改写为“只要能让气脉汇聚相通”，属于无依据调整，偏离原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b001036-p000-4fd6cec101",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“隨麻”属于未明确的术语，候选将其释为“顺着脉体”无依据，属不当增译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1892,
+    "completion_tokens": 393,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1892,
+      "completion_tokens": 393,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

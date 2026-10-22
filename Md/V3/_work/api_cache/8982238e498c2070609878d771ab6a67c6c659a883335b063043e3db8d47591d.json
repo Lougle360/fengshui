@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-23T08:42:50.828436+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8982238e498c2070609878d771ab6a67c6c659a883335b063043e3db8d47591d",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000308-p000-8901c72a00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000319-p000-cbdfb107a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘三吉若得一水长远’中的‘三吉’是含混专名，candidate将其解释为‘三吉的方位’属于无依据扩写，应保留原文短语并说明其具体所指不详。",
+          "原文‘主水行生旺’中的‘主水’是含混短语，candidate将其解释为‘主山’属于误译，应保留原文短语并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 826,
+    "completion_tokens": 169,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 826,
+      "completion_tokens": 169,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

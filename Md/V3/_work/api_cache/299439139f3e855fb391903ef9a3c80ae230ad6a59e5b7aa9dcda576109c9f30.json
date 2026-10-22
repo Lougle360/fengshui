@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-16T11:00:40.795537+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "299439139f3e855fb391903ef9a3c80ae230ad6a59e5b7aa9dcda576109c9f30",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002084-p000-685d7e2267",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文为‘葬口之生氣’，candidate译为‘葬口生气’，漏译了‘之’字，但此漏译不影响核心含义，可接受。然而，更大的问题是‘草蛇厭綫脈之微小也’的翻译。candidate译为‘草蛇厌线则是脉象微小的形态’，将‘厌线’解释为‘脉象微小的形态’，这是对‘厌线’一词的确定性解释，而‘厌线’是opaque_terms（虽然列表为空，但根据上下文，它显然是一个含混的专有名词），不应被赋予确定含义。应保留原短语并标注其含义不详。",
+          "源文‘陽耿爲暗翼宜就枕居陰處’，candidate译为‘当阳脉来势时，称为暗翼，法度上宜就枕居在阴处’。此处将‘陽耿’译为‘阳脉来势’，是确定性解释，但‘陽耿’是含混术语，不应被解释为‘阳脉’。应保留‘陽耿’原词并标注其含义不详。",
+          "源文‘故秘雲暗翼如從陽處明肩出處在子陰若生大小八個字點穴好看四應鐵正比之謂也’，candidate译为‘所以秘传云：暗翼如同从阳处生出，明肩出自阴处，若生发成大小八个字，点穴时好看四应，铁正比之，具体所指不详。’ 此处将‘出處在子陰’译为‘出自阴处’，漏译了‘子’字。‘子’可能指方位（子位，北方）或特定位置，漏译可能导致信息缺失。此外，‘铁正比之谓也’被处理为‘具体所指不详’，这是正确的风险标注，但整个句子的翻译因前述漏译和确定性解释而存在问题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002091-p000-610a331359",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "与山微巽",
+          "倒林工夫泉不同",
+          "禾锹了口",
+          "三了合角",
+          "法为凶金",
+          "合折倒棺"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 562,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1308,
+      "completion_tokens": 562,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

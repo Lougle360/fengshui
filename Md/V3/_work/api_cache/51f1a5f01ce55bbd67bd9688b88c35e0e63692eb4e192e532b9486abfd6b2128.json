@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-25T16:16:32.049204+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "51f1a5f01ce55bbd67bd9688b88c35e0e63692eb4e192e532b9486abfd6b2128",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000719-p000-c6d867e7c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘非瞽自則’被误译为‘不是瞽就是盲’，属于释读错误；‘瞽’本身即为失明之意，此处不存在并列表述，原句语义理解偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000722-p000-530f11168f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "穿術的具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 815,
+    "completion_tokens": 153,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 815,
+      "completion_tokens": 203,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 815,
+      "completion_tokens": 153,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

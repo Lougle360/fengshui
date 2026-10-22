@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T16:44:11.702273+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "824858c9a7951d5a255abe191062bdc5260051c96c2ee2aee8d1228de1312d5e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000456-p000-0ea4136902",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000457-p000-4d918a953c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确特指风水语境的“水”，按allowed_glossary的风水术语定义进行了限定性解释，属于无依据的术语误换"
+        ],
+        "uncertainty": [
+          "原文中“水”的具体所指未明，是否为风水语境相关内容存疑"
+        ]
+      },
+      {
+        "id": "book016-b000458-p000-fa8c0ef13b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b000459-p000-8430316f52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1594,
+    "completion_tokens": 266,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1594,
+      "completion_tokens": 266,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

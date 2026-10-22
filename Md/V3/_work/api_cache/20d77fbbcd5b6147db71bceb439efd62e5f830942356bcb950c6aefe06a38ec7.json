@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T08:32:17.920092+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "20d77fbbcd5b6147db71bceb439efd62e5f830942356bcb950c6aefe06a38ec7",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000228-p000-0b638dac39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000229-p000-5edaf55541",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句应为“形局也。未有吉穴而无吉案：若龙虎抱卫而主客不相应，则为花假无疑”，candidate误将“吉案”拆分，错误释为“从来没有上好的穴场却没有上好的格局”，不符合原文语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000231-p000-fff187adc2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000232-p000-fe9e1f10c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000234-p000-661d01fe20",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是“十一不具”，candidate误写为“上述十项中若有一项不具备”，数字表述与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000235-p000-109895de2c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在缺字“十中有一〔缺泥以为说”，candidate未标注缺字情况，直接释读为“十项之中若有一项缺失，就认为是这样的说法”，属于无依据补全缺损内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000236-p000-a91d2b1af5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000237-p000-be317a258f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000238-p000-601cc514f9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000240-p000-c02fbd6509",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2690,
+    "completion_tokens": 708,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2690,
+      "completion_tokens": 708,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

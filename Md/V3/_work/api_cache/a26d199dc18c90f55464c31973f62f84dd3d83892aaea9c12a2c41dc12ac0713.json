@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-09-25T00:36:38.662328+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a26d199dc18c90f55464c31973f62f84dd3d83892aaea9c12a2c41dc12ac0713",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001502-p000-0869ed8b90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001503-p000-a350c32749",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末句“讀者可自仍挨掛即初非定陰龍逆仍如有去地”存在语序错乱/脱漏，候选将“自仍挨掛”释为“自行按照挨卦的方法来判断”属于无依据推测，且未准确标注“挨掛”“陰龍逆仍”“去地”等表述的不确定风险"
+        ],
+        "uncertainty": [
+          "“挨掛”“陰龍逆仍”“去地”具体含义不明，整句语义因原文残缺无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001504-p000-9fa6ef00c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“子千卯商山龍”“水容官告”属于表述残缺/讹误，候选直接照抄保留未标注其语义不明，属于将不确定内容当作确定表述"
+        ],
+        "uncertainty": [
+          "“仲山”“子千卯商山龍”“水容官告”具体所指均不详，整句语义无法明确"
+        ]
+      },
+      {
+        "id": "book017-b001506-p000-7180450ae6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“咨雄多向支神取”存在讹误，候选将其释为“大多是向支神取象”属于无依据增译；原文“支若教于为夫婦”讹误，候选释为“若干支相配就为夫妇”属于无依据推测；locked_term“向”的含义被误释为“朝向、取象”，不符合允许的术语定义"
+        ],
+        "uncertainty": [
+          "“咨雄”“教于”具体含义不明，整句语义因原文残缺无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001507-p000-357c540705",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文中的“良”被误改为“艮”，属于字形误改，违背原文内容；2. 未将古文转换为普通读者能读懂的现代白话，不符合V3“普通读者能读懂的白话释读”的目标要求；3. locked_terms中的“水”未按allowed_glossary给出符合风水语境的通俗解释，仅保留原字"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，语义无法明确解读"
+        ]
+      },
+      {
+        "id": "book017-b001508-p000-0f0ffab859",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文包含乱码、无法识别的字符，无有效可释读内容"
+        ],
+        "uncertainty": [
+          "全文本语义不可考"
+        ]
+      },
+      {
+        "id": "book017-b001509-p000-4b352573a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量讹误、脱漏，“子改天”“十二官伝癸ms”“支先儀”“子汉为吉”“王之排法”均为不可辨认的内容，候选直接转写并强行串讲属于无依据推测"
+        ],
+        "uncertainty": [
+          "多数表述含义不明，整句语义无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001511-p000-9c03801c5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“云水未当面如当面未水之意每非說昭方未水而存大以初云”存在语序错乱，候选释为“并非是说当面没有水”属于与原文语义矛盾；“石砧天弩鬼书夜哭经”“何景平法·鬼神何必夜光”属于未明确的专名/讹误内容，候选直接保留未标注不确定风险"
+        ],
+        "uncertainty": [
+          "“石砧天弩鬼书夜哭经”“何景平法·鬼神何必夜光”具体所指不详，整句语义因原文残缺无法准确解读"
+        ]
+      },
+      {
+        "id": "book017-b001512-p000-bcc0d4e0ad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001513-p000-e19face8da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“千金難四此玄文”存在讹误，候选释为“千金难买的这个玄文”属于无依据推测；“吾休離时師不明勉強軒雖發不久即收紙”语序错乱，候选释为“我告诫后世的人，若不明白勉强行事，即使发福也不会长久就会消散”属于大量无依据增译，偏离原文可识别内容"
+        ],
+        "uncertainty": [
+          "“難四”“休離”“軒”“收紙”具体含义不明，整句语义因原文残缺无法准确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 722,
+    "completion_tokens": 148,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2402,
+      "completion_tokens": 1252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 722,
+      "completion_tokens": 148,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

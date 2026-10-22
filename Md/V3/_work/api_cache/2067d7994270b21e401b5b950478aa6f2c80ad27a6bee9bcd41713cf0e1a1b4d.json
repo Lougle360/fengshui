@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T03:31:06.944095+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2067d7994270b21e401b5b950478aa6f2c80ad27a6bee9bcd41713cf0e1a1b4d",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000097-p000-ec42a55d86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“饶减收放”释为“砂的多少、收放”无依据，“饶减”是风水专业操作术语，不得简化为砂的数量多少"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000098-p000-df135a4c1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000099-p000-171b97a2ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“三静一动”“百死一生”原文未给出具体定义，含义需结合上下文判断"
+        ]
+      },
+      {
+        "id": "book020-b000100-p000-4afa881266",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亥己贞”被误写为“亥、己”，漏译“贞”字；原文“功中取靜”应为“动中取静”，候选虽修正文字但未标注原文讹误？不，不对，原文是“功中取靜”是OCR错误？不对，看原文：“他如厚中取薄薄中取厚靜中取動功中取靜”，候选写成“动中取静”是合理修正？不对，另一个问题：原文“古人以化生腦不取象於頭而取象於亥己貞者”，候选释为“不是取象于头部，而是取象于亥、己，这种说法很有意味”，漏了“贞”，且“亥己贞”为未授权术语，不得拆分解释，应标注含义不详；还有原文“今人所稱菩薩面死驚背之說”，候选直接保留但未说明这两个术语具体所指不详？不对，再看：还有“龙虎之砂要静，内向之砂要环抱”错误，原文“龍虎要靜內向懷抱而無他顧飛騰”指龙虎砂自身内向环抱，不是“内向之砂”，属于表述不准"
+        ],
+        "uncertainty": [
+          "“亥己贞”“菩萨面”“死惊背”原文未明确定义，具体所指不详"
+        ]
+      },
+      {
+        "id": "book020-b000101-p000-92ebd5ac6a",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文“認氣雜於恐來脈豈如葬氣”语义晦涩，候选释为“认气的关键在于恐怕来脉的情况，哪里比得上葬气的重要呢”属于无依据推测，与原文语义偏差较大"
+        ],
+        "uncertainty": [
+          "原文表述有讹误或脱漏，语义无法准确判断"
+        ]
+      },
+      {
+        "id": "book020-b000102-p000-87d04b3968",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“為甚與”语义不明，候选直接释为“这是最为关键的”属于无依据增译，应标注原文表述残缺，具体含义不详"
+        ],
+        "uncertainty": [
+          "原文末尾“为甚与”语义不明，无法确定准确含义"
+        ]
+      },
+      {
+        "id": "book020-b000103-p000-8d8e88d088",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蟹艮”中的“艮”属于八卦术语，候选直接保留“蟹艮”未说明该术语具体所指不详；原文“如沒員之也月然”表述错乱，候选释为“如同缺角的圆月亮”属于无依据推测；原文“胃之及貴之”语义不明，候选直接补为“就叫做虾须水”属于无依据增译"
+        ],
+        "uncertainty": [
+          "“蟹艮”“及贵之”等原文残缺表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book020-b000104-p000-9bfbfa276a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000105-p000-b5e0b85f6a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000106-p000-1bbe77d6f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3787,
+    "completion_tokens": 1148,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3787,
+      "completion_tokens": 1148,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

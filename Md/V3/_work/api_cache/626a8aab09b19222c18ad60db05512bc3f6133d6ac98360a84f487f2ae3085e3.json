@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T10:13:18.251647+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "626a8aab09b19222c18ad60db05512bc3f6133d6ac98360a84f487f2ae3085e3",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000618-p000-f69b926a61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“孰如其肉有灵通”表述含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000619-p000-ec3fb164dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000620-p000-aa007991e5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000621-p000-cf85e7a3e6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文“君頂記”释为“你要牢牢记住”属于无依据扩写；“基辰”“纳音财局”“比和印後”等表述未明确解释，直接释读存在歧义；“兄咎”释为“兄长的灾祸”属于无依据扩写；“四柱纳音五行有制”的释读未明确“制”的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1843,
+    "completion_tokens": 326,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1843,
+      "completion_tokens": 326,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

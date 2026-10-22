@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T15:51:14.411912+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c2eeef8e591f81d52b76adfe65d39da77b03f9a32c3fd6a767fb388ecf7ea7ed",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001320-p000-f8600bde1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001321-p000-a8bcace90f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001322-p000-5f909f3ce1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001323-p000-e061e3d6cc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的「建亥の月」直接释为「冬季十月」，未保留原文标注的不确定性，属于将推测内容确定化的问题"
+        ],
+        "uncertainty": [
+          "建亥之月具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1799,
+    "completion_tokens": 248,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1799,
+      "completion_tokens": 248,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

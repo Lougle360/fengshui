@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-15T06:24:35.397101+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "44e8214cb43329b200bbaee78e2acf2fdd17bf21cccc1aaa4449b0bf296772c0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001318-p000-2fc47e1d2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘兑貪震巨斗巽廉艮武曲’，candidate将‘震巨斗’释为‘震卦对应巨斗’，但‘巨斗’是一个整体术语，不应拆开。正确的释读应为：兑对应贪狼，震对应巨斗，巽对应廉贞，艮对应武曲。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001319-p000-90cdbcdca5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘甲癸申辰離壬寅戌坎文坤祿存’，candidate将‘壬寅戌对应坎文’释为‘壬、寅、戌对应坎文’，但‘坎文’是一个整体术语，不应拆开。正确的释读应为：甲、癸、申、辰对应离卦，壬、寅、戌对应坎文，坤对应禄存。其中‘坎文’的具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001320-p000-be54cc9e99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001321-p000-577c560ee0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘貪巨祿亥震癸破輔弼九星起’，candidate将其释为‘贪、巨、禄、亥、震、癸、破、辅、弼这九星’，但‘亥’和‘癸’是天干地支，并非星名，此处可能指代特定含义或组合，不应直接列为九星之一。正确的释读应指出原文列举了九个项目，但部分项目（亥、癸）并非星名，具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001322-p000-49cde6abea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘四尺綠五尺丈六尺廉’，candidate释为‘四尺为绿，五尺为文’，但‘五尺丈’应为‘五尺文’，‘丈’字可能是衍文或误写。正确的释读应为：四尺为绿，五尺为文，六尺为廉。",
+          "原文为‘一丈又弼之類’，candidate释为‘一丈为弼，之后循环如弼之类’，但‘一丈又弼’可能指一丈之后又回到弼星，或指一丈一尺为弼（与后文乾甲山例矛盾），释读存在歧义，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘一丈又弼’的具体循环规则"
+        ]
+      },
+      {
+        "id": "book035-b001326-p000-4283865313",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1699,
+    "completion_tokens": 689,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1699,
+      "completion_tokens": 689,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

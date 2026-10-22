@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T00:15:48.683940+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "305b77bb70b5aa44c516bb2d59aa9a417c00c3b5ce828d2c5c9a929220e8e3b6",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000504-p000-b08c8c48f6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《明山宝鉴》所列十二格中出现两处「死」，属于文本讹误，候选未作标注直接沿用；原文写的是「楫」，候选前文提及《明山宝鉴》十二格时误写为「死、楫」，后续对应处却写「应、楫」，前后表述存在不一致；原文表述是「形同名异」，候选释为「形态有重合但名称各有不同」，含义偏差，「形同名异」指形态相同但名称不同，并非形态有重合。"
+        ],
+        "uncertainty": [
+          "《明山宝鉴》十二格名目存在一处重复的「死」，原文可能存在讹漏，具体正确名目暂不明确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 201,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1191,
+      "completion_tokens": 201,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

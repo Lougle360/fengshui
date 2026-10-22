@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-15T05:49:26.015461+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d56c08686eb5b7e99c20150148aca071cdb53aafbeb82a83fa8d78d6114fe881",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001248-p000-2d6cafd1d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句存在严重反义错误。原文为‘阳龙忌下息突，阴龙忌下脉窟’，候选句误写为‘阴龙忌用下息、下脉、下窟’，将‘阳龙忌下息突’错译为‘阴龙忌用下息’，并遗漏了‘阳龙忌下息突’的完整信息。",
+          "候选句存在专业术语误换。原文‘益暈間微’被解释为‘益晕法’，但‘益晕’并非allowed_glossary中的术语，且其具体含义不确定，候选句将其作为确定方法解释，属于无依据扩写。应将此作为不确定术语处理。",
+          "候选句存在数字/方位变化。原文‘八四象作基地有四法’中的‘八四象’可能为‘四象’之误，但候选句直接改为‘四象作为基地有四种法则’，未保留原文的歧义或指出可能的OCR错误。",
+          "候选句将原文中关于‘阴龙’的两处描述（‘凡就龙身作穴者乃爲陰龍’和‘再起星峰作穴者爲陰龍’）合并解释，并试图调和其矛盾，但原文可能指代不同情境或存在错误，候选句的处理方式超出了释读范围，应保留原文的歧义性。",
+          "候选句对图片内容的描述（‘图中显示：上肥下瘦...’、‘图中显示：上瘦下肥...’）是基于文字推断，但原文图片本身无法直接转化为文字描述，候选句将其作为确定事实写出，可能不准确。应指出图片内容无法直接释读。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，文字存在错位和可能的OCR错误，如‘益暈間微’、‘八四象’等。",
+          "术语‘益晕’、‘四象’在风水术数中的具体指代需结合图示，但图示内容无法直接释读。",
+          "原文关于‘阴龙’的两处描述存在逻辑矛盾，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001249-p000-d9b3753895",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001250-p000-74bded19d7",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文为极度简略的表格内容，可能为残句或特定口诀片段。候选句仅作直译，未提供任何有助于普通读者理解的释读或背景说明，不符合V3‘普通读者能读懂’的目标。由于原文损坏或信息过少，无法进行有效的白话释读。"
+        ],
+        "uncertainty": [
+          "原文内容极度简略且语义不明，无法确定其完整含义或上下文关联。"
+        ]
+      },
+      {
+        "id": "book035-b001256-p000-7f88bab5cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2626,
+    "completion_tokens": 697,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2626,
+      "completion_tokens": 697,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

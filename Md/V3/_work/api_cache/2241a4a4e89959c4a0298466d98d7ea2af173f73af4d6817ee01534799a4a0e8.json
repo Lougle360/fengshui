@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-18T11:26:55.652163+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2241a4a4e89959c4a0298466d98d7ea2af173f73af4d6817ee01534799a4a0e8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006316-p000-0e7b447250",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误换：原文‘离帮’应为二十八宿之一的‘离’宿，但‘帮’字可能为‘房’或‘方’的讹误或特定搭配，candidate直接译为‘离宿’并关联‘月鹿张星’，存在信息增译和确定性解释。原文‘张一至三’指张宿度数，candidate译为‘范围从第一至第三度’是合理的，但整体句意因前半部分问题需修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006317-p000-325bf63063",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语误换：原文‘丁柳土獐柳五至七’中，‘丁’可能指丁宿（星宿名），‘柳’指柳宿。candidate译为‘丁宿对应柳土獐星’，将‘丁’和‘柳’都处理为星宿，并建立了‘对应’关系，但原文结构更可能是指‘丁’（宿）和‘柳土獐’（星）的并列或从属关系，或‘丁’为天干。直接译为‘对应’并补出‘范围从第五至第七度’（这半句正确）存在过度解读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006318-p000-6f422e0059",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘穴剝中孚’含义不明，可能涉及卦象（剥卦、中孚卦）与风水‘穴’的结合。candidate保留了原短语并对其中的‘穴’字进行了符合allowed_glossary的注释，处理方式符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b006319-p000-26a87e1cec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘向決之咸’含义不明，可能涉及卦象（咸卦）与风水‘向’及‘决’的关系。candidate保留了原短语并对其中的‘向’字进行了符合allowed_glossary的注释，处理方式符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b006320-p000-cb62dbd2c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006321-p000-b34caf70b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "数字/干支变化：原文为‘戍子火穴’，candidate写为‘戌子火穴’。‘戍’与‘戌’字形相近但不同，前者通常为地支‘戌’的误写，但在严格核义时，应指出用字差异或视为OCR/原文问题。若按原文‘戍’则可能为‘戌’之误。candidate直接使用了‘戌’，虽符合常理，但未标注此差异。",
+          "增译：candidate在段落后补充了‘此处“穴”指...“坎”指八卦之一’的注释。虽然注释内容符合allowed_glossary，但原文并无此说明性文字。根据规则，为形成现代汉语句子而补出的浅显释义可以接受，但整段独立的、解释性的补充句子属于增译，不应出现在candidate的释读正文中。释读应限于对原文语句的白话转换。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006322-p000-50d98fe059",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006323-p000-3dd5740f71",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "增译：candidate在句后补充了‘此处“坎”指八卦之一’的注释。虽然注释内容符合allowed_glossary，但原文并无此说明性文字。根据规则，为形成现代汉语句子而补出的浅显释义可以接受，但整段独立的、解释性的补充句子属于增译，不应出现在candidate的释读正文中。释读应限于对原文语句的白话转换。",
+          "原文‘坎危月燕危四至六’结构不明，可能指坎宿、危宿、月、燕星等，candidate仅保留原句并加注释，未进行白话转换，不符合V3‘普通读者能读懂的白话释读’目标。"
+        ]
+      },
+      {
+        "id": "book035-b006324-p000-1339ac3a34",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘龟甲之这’语意不明，candidate保留了原短语并标注了不确定性，处理正确。"
+        ]
+      },
+      {
+        "id": "book035-b006325-p000-822917de6a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘癸女土蝠 女五至七’中，‘癸’可能指癸宿或天干，‘女’指女宿。candidate译为‘癸女土蝠，范围从第五至第七度。’，将‘癸女土蝠’作为一个整体处理，并补出了‘范围’，但‘女五至七’很可能特指‘女宿’的第五至第七度，而非‘癸女土蝠’的范围。candidate的译法模糊了这一点，可能导致信息错位。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1813,
+    "completion_tokens": 1272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1813,
+      "completion_tokens": 1272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

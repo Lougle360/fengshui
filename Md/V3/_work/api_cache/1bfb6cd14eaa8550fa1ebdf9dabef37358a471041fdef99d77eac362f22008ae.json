@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-24T13:46:05.401811+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1bfb6cd14eaa8550fa1ebdf9dabef37358a471041fdef99d77eac362f22008ae",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000334-p000-a75cffdc45",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000335-p000-5aa518dc62",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate增译了原文未提及的\"集部的学术\"，且将原文的\"二者\"（指经学与其他分类）的关系错误表述为\"分类或评价基准、基本原理并不相同\"，原文仅提及经学与史部子部的分类基准不同，未涉及集部的相关内容"
+        ]
+      },
+      {
+        "id": "book015-b000336-p000-7bd5caf8e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000337-p000-c90344f5c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1783,
+    "completion_tokens": 269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1783,
+      "completion_tokens": 269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

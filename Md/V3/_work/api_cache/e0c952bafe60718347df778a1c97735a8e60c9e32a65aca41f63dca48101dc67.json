@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-15T02:06:46.620064+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e0c952bafe60718347df778a1c97735a8e60c9e32a65aca41f63dca48101dc67",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001687-p000-b40c5593f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "纹讼存陞在翹麟 糧黼士居防婷"
+        ]
+      },
+      {
+        "id": "book033-b001688-p000-fdcad964ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘浮梁李侍郎祖地圗卷建陽蔡文肅公祖地鄉墓是 耳山卷屬 見砂卷沮洳水’一句，candidate将‘是 耳山卷屬 見砂卷沮洳水’整体处理为‘都属于此类。文末提到的‘山卷屬 見砂卷沮洳水’，具体所指不详。’。原文‘是’字后内容应为对前文‘尤須詳審不可一概論也’的举例说明，candidate将‘是’字后的内容全部归为‘文末提到的’，割裂了文意，属于漏译。应释读为‘例如浮梁李侍郎的祖地图卷、建阳蔡文肃公的祖地乡墓，就是（这类需要详审的例子）。文末提到的‘耳山卷屬 見砂卷沮洳水’，具体所指不详。’"
+        ],
+        "uncertainty": [
+          "耳山卷屬 見砂卷沮洳水"
+        ]
+      },
+      {
+        "id": "book033-b001690-p000-1273191108",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "牛泓猪今汗穢"
+        ]
+      },
+      {
+        "id": "book033-b001693-p000-c7be74b3b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘故爾合襟水’一句，candidate处理为‘故尔。文末提到的‘合襟水’，具体所指不详。’。‘故爾’意为‘因此’，‘合襟水’是风水术语，指穴前两水交汇或左右砂手环抱如衣襟合拢的水形。原文此处是承接上文论述乾流水的重要性，并引出‘合襟水’这一相关概念。candidate将其割裂为两个独立部分，并将‘合襟水’视为文末不详内容，属于误译和漏译。应释读为‘……最关初年祸福。因此，（下文将讨论）合襟水。’"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2000,
+    "completion_tokens": 551,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2000,
+      "completion_tokens": 551,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

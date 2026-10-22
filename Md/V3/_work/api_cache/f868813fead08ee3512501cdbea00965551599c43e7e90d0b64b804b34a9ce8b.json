@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:37:27.315520+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f868813fead08ee3512501cdbea00965551599c43e7e90d0b64b804b34a9ce8b",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000219-p000-994450235b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选释读仅对应原文零散断句，未完整覆盖原文内容，且存在对原文断句的错误拆分，如将‘霍英昭弓’‘求合若用’等零散语句直接拼接，未结合风水术语语境进行合理释读，同时存在将原文无明确含义的零散字符（如‘1’‘7’‘M’等）直接保留未处理的问题"
+        ],
+        "uncertainty": [
+          "原文存在多处断句混乱、字符混杂的情况，部分内容语义不明，无法形成完整准确的释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2601,
+    "completion_tokens": 164,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2601,
+      "completion_tokens": 164,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

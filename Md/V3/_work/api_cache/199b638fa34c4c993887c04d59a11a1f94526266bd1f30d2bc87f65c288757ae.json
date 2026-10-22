@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T12:45:43.802183+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "199b638fa34c4c993887c04d59a11a1f94526266bd1f30d2bc87f65c288757ae",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000911-p000-eafe718223",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000912-p000-b28b52b102",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语义不完整，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原文仅存残句，含义不明"
+        ]
+      },
+      {
+        "id": "book014-b000913-p000-fcf3d262c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000914-p000-6de6b241c5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1575,
+    "completion_tokens": 225,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1575,
+      "completion_tokens": 225,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

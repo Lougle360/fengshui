@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-10-04T05:00:15.820332+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "907a6f4fcc42ff56b12207d8377321f630ad75c84014d05fe8d0219dc9be269e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001401-p000-680e529a99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001402-p000-d121a4ea81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001403-p000-9460b80aca",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘塘官太守’释为‘塘官太守’并作为人名的一部分，原文‘塘官太守’可能指官职或称号，释读将其与‘名正’连成人名‘名正，塘官太守’，存在将官职误作人名的风险。",
+          "将‘未父’释为‘未父’并置于句末，含义不明，应标注不确定性。",
+          "将‘特特’释为‘特特’并修饰‘衬贴有力’，虽保留原词，但未标注其含义不明。"
+        ],
+        "uncertainty": [
+          "未父",
+          "特特"
+        ]
+      },
+      {
+        "id": "book033-b001404-p000-899ee2905c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "也里一頁口三上砂法"
+        ]
+      },
+      {
+        "id": "book033-b001408-p000-7b5fd78c99",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘渐即山之高處’释为‘渐即山之高處’并作为句子的一部分，与上文‘水之深处即山之高處’重复且逻辑不通，可能为原文衍误或OCR错误，释读未处理此问题。",
+          "将‘社未魂’、‘社未文’、‘王春’、‘办晋阳’等不明短语直接嵌入释读文本，未明确标注其含义不明或可能为讹误。",
+          "将‘人丁四盛’释为‘人丁十分兴盛’，‘四’可能为具体数字，释读改为程度副词‘十分’，改变了原意。",
+          "将‘福趾未艾’释为‘福祉未艾’，‘趾’与‘祉’字形近，可能为‘祉’之误，但释读直接改为‘福祉’而未说明。"
+        ],
+        "uncertainty": [
+          "渐即山之高處",
+          "社未魂",
+          "社未文",
+          "王春",
+          "办晋阳"
+        ]
+      },
+      {
+        "id": "book033-b001409-p000-4060cdfcbc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘上砂乃竄下臂空曠皆吉’释为‘上砂乃窜下臂空旷皆吉’，‘乃竄’可能为‘乃窜’（意为逃窜、顺窜），但释读未明确‘窜’在此处的风水含义，且与下文‘顺关门’例证衔接稍显突兀。",
+          "将‘福趾未艾’释为‘福祉未艾’，同前条，未说明用字差异。"
+        ],
+        "uncertainty": [
+          "上砂乃竄",
+          "福趾未艾"
+        ]
+      },
+      {
+        "id": "book033-b001412-p000-7df46d4443",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘重重萱疊京計其數’释为‘重重萱叠，京计其数’，‘萱叠’、‘京计’含义不明，释读未标注。",
+          "将‘狹陶公’释为‘狭陶公’，可能为‘狭陶公’（人名或称号）之误，释读未标注。",
+          "将‘如銅魚金縣鐘’释为‘如铜鱼金县钟’，‘县钟’可能为‘悬钟’之误，释读未标注。"
+        ],
+        "uncertainty": [
+          "重重萱疊京計其數",
+          "狹陶公",
+          "如銅魚金縣鐘"
+        ]
+      },
+      {
+        "id": "book033-b001414-p000-2d7d968940",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "标题‘## 格一第門捍’释为‘## 格一第门捍’，顺序和用字完全照搬，但‘格一第门捍’不符合中文标题常见语序，可能为‘第一捍门格’或类似结构的倒误，释读未尝试调整或标注可能错误。"
+        ],
+        "uncertainty": [
+          "格一第门捍"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4116,
+    "completion_tokens": 945,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4116,
+      "completion_tokens": 945,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

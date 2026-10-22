@@ -1,0 +1,135 @@
+{
+  "created_at": "2026-09-25T16:24:20.512217+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b03443be1c44743413a68f53a44b3fcae3e1c01feec22c920961c007cb8f136b",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000740-p000-6fc3acfacb",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR错乱，大量语句语义无法识别，仅能对可识别的零散文字做原样保留，无法完成完整释读"
+        ]
+      },
+      {
+        "id": "book026-b000742-p000-fef47fb7e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“周寄家歲”“蝸寄家藏”是两处独立标注，candidate误将“周寄家歲”“蝸寄家藏”合并表述为“周寄家歲、蝸寄家藏之物”，属于无依据合并理解",
+          "原文字符“d”未作标注说明"
+        ],
+        "uncertainty": [
+          "“d”“周寄家歲”含义未明"
+        ]
+      },
+      {
+        "id": "book026-b000743-p000-fb6c4cb44f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR错乱，语序混乱语义不通，仅能原样转录可识别文字，无法准确释读语义"
+        ]
+      },
+      {
+        "id": "book026-b000744-p000-d567a5bd80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“人形有三停之必”存在讹误，candidate直接保留未作风险标注",
+          "原文“寫一公頌發千倉禾是也”语义不明，candidate直接释读为连贯语句属于无依据认定",
+          "原文“翼阿最限歲”语义不明，candidate直接保留未作风险标注"
+        ],
+        "uncertainty": [
+          "“三停之必”“蘇腹”“寫一公頌發千倉禾”“柏風缺”“翼阿最限歲”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000746-p000-29929e2bf9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000747-p000-e9e2a7c005",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文OCR错乱严重，大量文字语序破碎，candidate无依据认定“书雅”是处理文本的主体、“1-”是序号，属于无依据增译",
+          "原文“變而同形”“斟形酌名之可不途而平意會隨宜而之豈”等内容语义完全不明，candidate自行组合语义属于过度解读"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR错乱，整体语义无法识别"
+        ]
+      },
+      {
+        "id": "book026-b000748-p000-3ec26cbb2e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一例而言哉”是承接上文的反问，意为“怎么能一概而论呢”，candidate误译为“举一个例子来说明”，语义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000749-p000-def5c5d9b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“惟木土金三星 蓋穴其”语序断裂，candidate直接保留为“惟木、土、金三星蓋穴其”未作风险标注",
+          "原文“剽穿家歲”语义不明，candidate直接作为确定内容保留未作风险标注"
+        ],
+        "uncertainty": [
+          "“氣巖”“天穴”“蓋穴其”“剽穿家歲”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000750-p000-3e22ef3906",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量OCR语序错乱，部分语句拼接逻辑无依据，candidate自行将破碎文字组合为连贯风水论述，多处属于无依据解读，例如“泥5即 以皆不其虚也水實地”原文语序混乱，candidate释读为“如果不是对应星气的倚靠态势，就算有穴也是泥5，都是虚而不实的。水的形态要实地朝向得当”属于过度拼接",
+          "原文“阡舍”“三淮聚衡”“轻重五都”等专有名词不在allowed_glossary范围内，candidate直接纳入释读语句未标注为含义不明"
+        ],
+        "uncertainty": [
+          "泥5、金点、阡舍、三淮聚衡、轻重五都的具体所指不详，大量OCR错乱语句语义无法确认"
+        ]
+      },
+      {
+        "id": "book026-b000751-p000-242cb87fb9",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR错乱，含杂“t”“17.”等非中文符号，语序混乱语义不通，仅能原样转录可识别文字，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3079,
+    "completion_tokens": 1157,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3079,
+      "completion_tokens": 1266,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3079,
+      "completion_tokens": 1157,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

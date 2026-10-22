@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T18:09:15.608725+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "795d79c0ac197340565aab17df4a53357567afea689d742b43d947d0842053ba",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001698-p000-d0411ce300",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "②不利于有所前往：处于“剥落”的时节，正如卦象所显示的，阳刚被削剥殆尽，阴气盛长，所以卦辞告诫“君子”不宜有所前往。《正义》说：“剥就是剥落的意思。如今阴气增长改变了阳刚的性质，刚阳之气被剥落，所以称作‘剥’。小人的势力已经增长，因此‘不利于有所前往’。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001699-p000-762b619fe3",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文《象传》说：“剥”，就是剥落的意思，譬如阴柔者浸蚀改变了阳刚的本质。“不利于有所前往”，说明小人的势力盛长。此时应当顺势抑止小人之道，这从观察卦象可以获知；君子崇尚消亡生息、盈盛亏虚的转化哲理，这是大自然的运",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001700-p000-749ef545b1",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《彖传》说：“剥”，就是剥落的意思，是阴柔改变了阳刚的性质①。不利于有所前往，是因为小人的势力在增长②。应当顺势抑止（小人之道），这是观察卦象得到的启示；君子崇尚消亡生息、盈盛亏虚的转化，这是大自然的运行规律④。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文中③的标注未对应到具体内容，保留原标注形式"
+        ]
+      },
+      {
+        "id": "book016-b001701-p000-bf964ff324",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "行规律啊！",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1671,
+    "completion_tokens": 507,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1671,
+      "completion_tokens": 507,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

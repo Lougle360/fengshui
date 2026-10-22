@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T12:38:30.319512+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b6dbe5f0c081e609a688a6828a0d5a1bc98c01a235d6a13675996155ce83bf8d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000803-p000-60ea94d871",
+        "modern_text": "案山有来历的，也会经过过峡，但大多是侧转之体，与真龙之气不同；案山气旺的，也会有结作，但与正结的情况有区别。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000804-p000-12c799d9f4",
+        "modern_text": "案山从龙砂、虎砂处转来，或者有帐幕缠护卸下后相连，没有跌落断开，即使很有力量，也只能称之为横拦；如果横向延伸，既看不到起点也看不到终点，只能称之为横障。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中‘或有帳纏卸下相連不跌斷雖甚有 指有力’存在OCR识别错误，具体损坏情况待考"
+        ]
+      },
+      {
+        "id": "book014-b000805-p000-315273b45e",
+        "modern_text": "案山高过视线，或者高过头顶，视线无法看到案上的景物，只能称之为绕障；案山低矮，被穴脚所踩，不是穴手所依托的，只能称之为遮拦。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中‘案低爲腳所躡非手所據’的语义需结合风水语境理解，具体所指待考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1768,
+    "completion_tokens": 364,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1768,
+      "completion_tokens": 364,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

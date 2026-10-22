@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-16T10:25:40.818651+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e2a8ff017035c0525b2995605922258d5cbc6a79f36f3c8e8e011296396f1974",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001934-p000-400e3e6f37",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘熊悠火’处理为短语引用，但source中‘熊悠火’与‘又非一端’相连，可能是‘熊、悠、火’三种形态的列举，candidate处理为单一短语并断开，可能改变了原文结构。",
+          "candidate将‘特降’处理为引用并标注不详，但source中‘皆为特降尊贵起伏生活’可能是一个完整描述，candidate的断句（‘文中称其为‘特降’’）可能割裂了原意。",
+          "candidate将‘畏断多无绩’处理为‘文中提到‘畏断’…多无绩’，但source中‘畏断’可能是‘畏惧断绝’之意，是描述而非专名，candidate将其作为专名引用可能不当。",
+          "candidate将‘社朝’处理为引用并标注不详，但source中‘不是神坛即社朝’可能指‘社’和‘朝’两种祭祀场所，candidate作为单一专名引用可能不当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001936-p000-19b0da50e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘砂搭相交’处理为引用并标注不详，但source中‘砂搭相交’可能是‘砂’与‘穴’或‘水’等相交的描述，candidate作为专名引用可能不当。",
+          "candidate将‘转踩’处理为引用，但source中‘转踩变换’可能是‘转换、踩踏’的动作描述，candidate作为专名引用可能不当。",
+          "candidate将‘暇须分界交砂合襟’处理为‘暇须’含义不详，但source中‘暇须’可能是‘闲暇时须要’或‘暇’为‘假’通假，candidate的断句可能错误。",
+          "candidate将‘亲身门脉’处理为引用并标注不详，但source中‘岂亲身门脉’可能是反问句，意为‘岂是亲身、门、脉（所能尽察）’，candidate作为专名引用可能不当。",
+          "candidate将‘可以繁理’处理为引用并标注不详，但source中‘繁理’可能是‘繁复处理’或‘详细推究’之意，candidate作为专名引用可能不当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001938-p000-4c788c6b8e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘这理’处理为引用并标注不详，但source中‘脉察这理’可能是‘脉要察这个道理’，candidate作为专名引用可能不当。",
+          "candidate将‘厌线’处理为引用并标注不详，但source中‘厌线直流’可能是‘压线’或‘厌胜之线’的描述，candidate作为专名引用可能不当。",
+          "candidate将‘大真不是业林，愈非大真’处理为引用并标注不详，但source中此句可能为‘大真不是业林，愈非大真’的对比描述，candidate作为晦涩句整体引用，未尝试进行保守的句意梳理（如‘真正的大脉并非…，更非…’）。",
+          "candidate将‘流脚枝条’处理为引用并标注不详，但source中‘只是流脚枝条’可能是比喻，指非主干、旁枝末节，candidate作为专名引用可能不当。",
+          "candidate将‘卸乐’处理为引用并标注不详，但source中‘卸乐’可能是‘卸落’或‘卸下乐山’之意，candidate作为专名引用可能不当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001939-p000-8d2fe0a33b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘岂脉取曲’处理为‘岂脉’具体所指不详，但source中‘岂脉’可能是‘起脉’或‘企脉’的误写，或为反问语气‘岂有脉取曲？’，candidate作为专名引用可能不当。",
+          "candidate将‘草蛇厌线’处理为引用并标注不详，但source中‘草蛇厌线’可能是‘草蛇灰线’的变体，形容脉迹隐约，candidate作为专名引用可能不当。",
+          "candidate将‘细认来脉气直易下脉真易识仰掌平坡’处理为一句并标注不详，但source中此句可能为‘细认来脉，气直易下，脉真易识，仰掌平坡’的断句，candidate未尝试进行合理的断句和浅显释义。",
+          "candidate将‘离脉义入背义之人，气仇脑入’处理为引用并标注不详，但source中此句可能为‘离脉、义入、背义之人，气仇、脑入’等术语或描述的组合，candidate作为整句晦涩处理，未尝试进行保守的术语拆分或保留原短语。",
+          "candidate将‘十二字穴名曰裁截’处理为引用并标注具体哪十二字不详，但source中可能指前文‘盖粘倚撞斩截钩坠挨送厌插’十二字（或其中部分），candidate未进行关联推测或说明。",
+          "candidate将‘放于’处理为引用并标注不详，但source中‘开井放于倒杖之法’可能是‘开井放棺，于倒杖之法’的误断，candidate作为专名引用可能不当。",
+          "candidate将‘不入既通其一，万事俱果’处理为引用并标注不详，但source中可能为‘虫蚁不入。既通其一，万事俱果’的断句，candidate断句错误导致句意晦涩。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3094,
+    "completion_tokens": 1346,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3094,
+      "completion_tokens": 1346,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

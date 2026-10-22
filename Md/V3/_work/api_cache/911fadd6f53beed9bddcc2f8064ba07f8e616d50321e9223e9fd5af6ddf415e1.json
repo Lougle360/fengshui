@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-25T04:01:22.559350+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "911fadd6f53beed9bddcc2f8064ba07f8e616d50321e9223e9fd5af6ddf415e1",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001312-p000-0f39f5e5a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“枧水”对应的释读部分，原文“水视，茶槽。”存在漏译和释义偏差，candidate直接释为“水的形态像茶槽”，未准确呈现原文表述，且“水视”含义未明确处理。",
+          "source中“贯顶脉从脑上，抽星峰不见头”存在句读误判，candidate将其断为“贯顶脉从脑上生出，星峰看不到头”属于增译，原文“抽”为动词，原句应为“贯顶脉从脑上抽，星峰不见头”，candidate的断句和补字改变了原句结构。"
+        ],
+        "uncertainty": [
+          "原文“水视”具体所指不明确，现有释读属于推测性释义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3331,
+    "completion_tokens": 218,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3331,
+      "completion_tokens": 218,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

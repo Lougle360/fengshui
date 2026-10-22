@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T17:34:42.036157+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "aa931a491e0ac6eb1e3383ad00b9077f9e66dd5f2766be5b383290f7e0bc6bd9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001090-p000-a85de7da0b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未明确说明《正义》所释的是哪一爻，释读中补出的‘初六爻’无原文依据"
+        ]
+      },
+      {
+        "id": "book016-b001091-p000-da6a58fdd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘说萌王宗传’表述存疑，释读中直接将‘萌王宗传’作为人名，未标注可能的歧义"
+        ]
+      },
+      {
+        "id": "book016-b001092-p000-f29064f1a0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘小人吉①；大人否， 译文六二，被包容并顺承尊者，小人获亨②。 得吉祥；大人否定此道，可获亨通’存在排版混乱，释读时未厘清原文结构，将‘小人吉’误释为‘小人可获吉祥’，‘大人否’误释为‘大人若否定这种做法’，与原文含义不符"
+        ],
+        "uncertainty": [
+          "原文排版混乱，‘小人吉’‘小人获亨’‘大人否’‘可获亨通’的对应关系未明确，释读存在歧义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 325,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1222,
+      "completion_tokens": 325,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

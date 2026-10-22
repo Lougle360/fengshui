@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:05:54.242683+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "240c98d6f77c0b9cf38a9e1d822a70d179bda12aea5710dab90d7d74fc619937",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000136-p000-946c73eec7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000137-p000-21acd59589",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义模糊的“尤”“尤正”“苏”“卷格”“盖送”“哭共貞”“恕按圃”等词赋予了确定含义，不符合术语使用规则"
+        ],
+        "uncertainty": [
+          "原文中“尤”“尤正”“苏”“卷格”“盖送”“哭共貞”“恕按圃”等词含义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000138-p000-9a546d19c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000139-p000-c7e3d6b252",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文文字残缺错乱，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文文字残缺错乱，无法识别具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1811,
+    "completion_tokens": 303,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1811,
+      "completion_tokens": 303,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-17T09:47:04.655314+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "abb877c97b7a830a7a7b58b4cc0bd76cd3d4871e392c1af5de40f3a423bfb7b9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003233-p000-164b7c000c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "丑指时间还是方位",
+          "归藏计的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b003235-p000-97b2b6a3b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘未坤水’指未方和坤方的水，candidate译为‘未方和坤方的水’正确，但‘以未方和坤方的水为佳’表述不准确，原文是‘未坤水为佳’，指未坤方位的水为佳，candidate的表述可能让读者误解为需要两种水。",
+          "原文‘蔽不见外阳’指遮蔽使外阳不可见，candidate译为‘遮蔽外阳，使外阳不可见’正确，但‘必须遮蔽外阳’的表述稍显绝对，原文是‘却须蔽不见外阳’，强调需要达到的效果。"
+        ]
+      },
+      {
+        "id": "book035-b003237-p000-276c540d3c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘元辰乾 流庚水出丁’存在断句和含义模糊，candidate译为‘元辰水从乾方流向庚方，在丁方数百步处’是推测性解释，但未明确标注此不确定性。原文可能指元辰水从乾方流出，经过庚方，在丁方流出数百步。candidate的译法将流向和流出点合并，可能不准确。"
+        ]
+      },
+      {
+        "id": "book035-b003240-p000-f5b8e2becc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘不合之玄親’含义不明，candidate译为‘这不符合某种玄理’是推测，但未明确标注此不确定性。‘之玄’可能指曲折蜿蜒的水流形态（如‘之玄水’），‘親’可能指亲近、关联。candidate的译法过于笼统且未保留‘之玄’这一可能术语。",
+          "原文‘寅甲乙辰龍虎齊到穴中’指寅、甲、乙、辰方位的龙虎都到达穴中，candidate译为‘寅、甲、乙、辰方位的龙虎齐到穴中’正确，但‘方位’一词可加引号或说明是风水方位。",
+          "原文‘辛酉生兑中生金有辛酉也’含义晦涩，candidate保留原文并标注不详是正确的。"
+        ]
+      },
+      {
+        "id": "book035-b003243-p000-70af1b49c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘大溪之玄直去’可能指大溪呈‘之’字形或玄曲状直去，candidate保留‘大溪之玄’并标注不详是合适的。",
+          "原文‘兼寅甲乙辰混親’含义模糊，candidate保留‘混亲’并标注不详是合适的。",
+          "原文‘龙虎齐口隐蔽’中‘齐口’可能指龙虎砂交会或闭合，candidate保留‘齐口’并标注不详是合适的。",
+          "原文‘凡水之玄賣凶相親’含义不明，candidate保留‘卖凶相’并标注不详是合适的。",
+          "原文‘吴也’可能为‘误也’之误或特定指代，candidate保留并标注不详是合适的。",
+          "candidate中‘符合此式’的‘式’指代前文某式，但前文未明确，此处翻译无误。",
+          "candidate中‘主富贵’翻译正确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1928,
+    "completion_tokens": 779,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1928,
+      "completion_tokens": 779,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

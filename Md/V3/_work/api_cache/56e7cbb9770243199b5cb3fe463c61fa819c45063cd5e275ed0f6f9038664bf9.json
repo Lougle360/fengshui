@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T17:46:59.809008+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "56e7cbb9770243199b5cb3fe463c61fa819c45063cd5e275ed0f6f9038664bf9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001333-p000-0554658e89",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001335-p000-31c342f4a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001336-p000-18b9732dd3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘贞疾’释为‘守持正固防备疾病’属于无依据扩写，原文未明确‘贞疾’的具体含义，不应擅自确定解释"
+        ],
+        "uncertainty": [
+          "‘贞疾’的具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 199,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1377,
+      "completion_tokens": 199,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

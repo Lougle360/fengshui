@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-26T12:55:49.351438+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "64ea092834e5d8870928924761f943aa60ef421ea0eaa92ec702ece37839ef37",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001408-p000-00438aff39",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001412-p000-98b8fa09b4",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate篡改原文语义：原文“君子言近而指远者，正谓理之常求，窈冥茫昧不可测度之说”被错译为“君子言语浅近而意旨深远，说的是要从常理中探求，那些幽深渺茫无法测度的说法”，偏离原意；原文“怪孔子所不语奇中焉，人皆信之矣”被错译为“怪异之事是孔子所不谈的，偶尔有应验的，人们就都相信了”，曲解原文表述；原文“然术家语涉怪诞，而或正传，古今之定理，不假葬地而响应者也”被错译为“然而术士的话多涉怪诞，就算偶尔有说中的情况，古今的定理是，福报是不靠葬地就会感应的”，擅自修改原文逻辑，丢失“正传”相关表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001418-p000-70a1df48ec",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自增改原文：原文“暴溺仆死”被篡改为“突然遭遇灾祸暴死、跌倒身亡”，无依据扩充语义；原文“与青龙无异”被增改为“和作为天神的青龙无异”，额外添加原文不存在的限定词；原文“龙之体不过数千丈”被增改为“这里所说的龙，形体不过几千丈”，添加不必要的指代表述，违反忠实原文原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001427-p000-511db10a18",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate篡改原文内容：原文“不须兴工起事”的适用主体为午宅，被擅自扩大为“子宅、午宅相关的所有事务”，违背原文表述；原文干支“己酉”被错写为“已酉”，专业术语错误；原文“动静殊致，非天从岁月神意之道也”被错译为“人无论是兴工动事还是闲居无作为，受灾的情况都各不相同，这种因太岁方位受灾的说法，并不是上天会顺从岁月神意志的道理”，添加原文不存在的“因太岁方位受灾的说法”相关表述，偏离原意"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5860,
+    "completion_tokens": 647,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5860,
+      "completion_tokens": 647,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

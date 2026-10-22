@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-15T07:26:14.795168+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5e4ccbe59eaa45184dd42753ec6a546da2f27105dd7b535dc35909658e085559",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002089-p000-7436e984f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'震辰宫'可能指'震宫'和'辰宫'两个方位，candidate仅译为'对应震宫'，漏译'辰宫'。'政尾'是opaque_term，应保留在引号内，candidate直接译为'位于政尾方位'，赋予了确定含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002090-p000-6a3b0ab915",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'乙比申房巽宮'含义不明，candidate译为'乙年与申年相合，对应巽宫'，将'比'解释为'相合'、'房'字未译，属于无依据扩写。'乙比申房'应整体视为opaque_term，保留原样并说明不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002091-p000-f1aa9d5c91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "琳类佳具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b002092-p000-71840d5193",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'離官 丙午大吉政御'，'離官'可能为'离宫'或'离官'，candidate译为'离官方位'，将'官'字作为确定含义译出不妥，应视为opaque_term。'政御'也是opaque_term，应保留在引号内。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002093-p000-d337b39630",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'水正水'含义不明，candidate译为'水正水方位（风水语境中的河流、水系及其来去形态）'，将'正水'解释为'方位'并加入括号内定义，属于无依据扩写。'水正水'应整体视为opaque_term。'丑斗庚寅'可能指'丑斗'和'庚寅'两个干支，candidate译为'丑斗庚寅年'，处理不当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002094-p000-ba6d5bd5aa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'未甲申大吉政'，'未甲申'可能指'未'、'甲申'或一个组合，candidate译为'未甲申年'，处理模糊。'坤参兑宮'可能指'坤宫'和'兑宫'，candidate译为'坤宫参兑宫'，'参'字未译或误译。'水胄四五五分兑乾宮'含义不明，candidate译为'水胄方位有四五分兑宫和乾宫'，将'胄'、'四五五分'等赋予确定含义，属于无依据扩写。source末尾'11'是页码，candidate将其融入正文译为'页码为11'，不符合白话释读要求，应单独处理或忽略。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002095-p000-8d5ccadf6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'大水五土正木七水正水'断句和含义不明，candidate译为'有大水五处，正土方位；正木七处，正水五处'，将'五土'拆解为'五处'和'正土'，并加入'方位'等解释，属于无依据扩写。'辰彰分氏申角'、'丙巳张'、'乙戊午'、'冰T'等均含义不明，candidate或拆分解释（如'乙戊午年'）或直接音译（'冰T'），处理方式不一致且多属猜测。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002096-p000-2aea5bb9dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'二辛戊子大凶'，'二辛'含义不明，candidate译为'二辛戊子年'，将'二辛'与'戊子'合并为一个年份，无依据。'丑箕癸半癸丑大凶'，'丑箕癸'、'半癸'含义不明，candidate译为'丑箕癸年属于半癸'，属于猜测性解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002097-p000-a0e97c37eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'次發乾'，'次發'含义不明，candidate译为'次发方位'，属于无依据扩写。'政難'、'三分亥'、'分'均为opaque_terms，candidate直接译为'政难方位'、'三分亥方位'、'分方位'，赋予了确定含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002098-p000-de5bea521a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'辛甲八 吉'，'辛甲八'含义不明，可能指'辛甲八年'或某种组合，candidate译为'辛甲八年吉'，处理模糊。'丁鬼丙星已張分氏分軫'中'丁鬼'、'丙星'、'已張'（可能为'己张'）含义不明，candidate直接译为方位，属于猜测。'甲 庚辰 巽'断句不明，candidate译为'甲方位；庚辰年；巽宫'，将'甲'单独译为方位无依据。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2235,
+    "completion_tokens": 1294,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2235,
+      "completion_tokens": 1294,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

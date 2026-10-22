@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-17T23:02:59.454042+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "23385e17ffe9e5c62efec756ed73b8c94a1fc6d82ab8cf5d789d5d8822057470",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004884-p000-fb233ba4dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为'第九星名为第六天罡'，但source开头是'9 第六天罡'，'9'可能指序号，但candidate将其译为'第九星'，而source中'第六天罡'是星名。此处存在数字转换错误，可能应为'第九：第六天罡'或'第九种（星）是第六天罡'。candidate的'第九星'与'第六天罡'在数字上矛盾，且未保留'9'与'第六天罡'的原文结构，易致混淆。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004885-p000-24f599df6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004888-p000-ffbf2fde0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004889-p000-c0ccc2a180",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'天望'一词，candidate未译出，直接与下文'从来形状号红旗'连接，构成漏译。'天望'可能为星名或特定术语，candidate应保留或说明未详。",
+          "source中'穴血'，candidate直译为'穴血'，但'血'在风水中有特定含义（如穴之血气），candidate未加任何说明，可能使读者困惑。应视为opaque_term处理，加引号或说明含义未详。",
+          "source中'动高脑气脉'，candidate译为'动高脑气脉'，'动高脑'含义不明，candidate未加说明，应视为opaque_term处理。",
+          "source中'左右仙宫令号偏斜怪穴头观虽别力量本同'，candidate译为'昔人名曰左右仙宫，令号偏斜怪穴，头观虽别，力量本同'。'令号'可能为'今号'之误或特定说法，candidate处理为'令号'，但未说明。且'头观'含义模糊，candidate直译，未加说明。",
+          "source中'穴宜踏逆面喜张朝'，candidate译为'穴宜踏逆面，喜张朝'。'踏逆面'、'张朝'为风水术语，candidate直译但未加任何解释，普通读者可能不解。应视为opaque_terms处理，或加简要说明。",
+          "source中'一四七位衣禄'，candidate译为'一四七位衣禄'，数字'一四七'可能指特定方位或排行，candidate未解释，应保留原样并说明含义未详。",
+          "source中'由己宫之势而行脉'，candidate译为'由己宫之势而行脉'。'己宫'为风水方位，candidate直译，但未说明是地支'巳'还是天干'己'，易与后文'巳宫'混淆。应统一或说明。",
+          "source中'坐向得巳丙午丁'，candidate译为'坐向得巳、丙、午、丁'，正确。但前文'由己宫'若为'巳宫'则更一致。",
+          "source中'生人相貌雄伟心性拗执行事秉决'，candidate译为'生人相貌雄伟，心性拗执，行事秉决'。'秉决'可能为'秉决'或'秉决断'，candidate直译，可接受，但'拗执'、'秉决'对普通读者稍显文言。",
+          "source中'寅午戌年发达'，candidate译为'寅、午、戌年发达'，正确。",
+          "source中'官至将帅'等，candidate译为'官至将帅'等，正确。",
+          "source中'初生大肚之人则气盛也至生歪头之人则气衰也'，candidate译为'初生大肚之人则气盛也，至生歪头之人则气衰也'，正确。",
+          "source中'宜作土堆'，candidate译为'宜作土堆'，正确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004891-p000-72c1c65dd6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'有四天'，candidate译为'有四种情况'，但'四天'可能为'四体'或'四类'之误，或为特定术语。candidate解释为'四种情况'，属于无依据扩写。应保留'四天'并说明未详。",
+          "source中'原来动处好安墙'，candidate译为'原来动处好安墙'。'安墙'可能指立穴或修筑，candidate直译，但'墙'字可能使读者误解。应视为opaque_term处理或加说明。",
+          "source中'形象似牛眠体'，candidate译为'形象似牛眠体'，正确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004892-p000-24f599df6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004895-p000-2ea45aafa5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'行果敢已事'，candidate译为'行果敢'，漏译'已事'。'已事'可能为'己事'（自己的事）或'巳事'（与巳相关的事），candidate遗漏。",
+          "source中'生跎背之人'，candidate译为'生跎背之人'。'跎背'可能为'驼背'，candidate直译，可接受，但用字稍异。",
+          "source中'宜作堆'，candidate译为'宜作堆'，正确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004896-p000-2ce3ed360e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004897-p000-7128437f3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'惟有少年相继入泉塋无板山上理'，candidate译为'惟有少年相继入泉塋，无板山上理'。'无板山上理'含义晦涩，candidate直译未加说明，普通读者难懂。应视为opaque_phrase处理，加引号或说明未详。",
+          "source中'不受正'，candidate译为'不受正'，含义不明，candidate未加说明。应视为opaque_term处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004898-p000-87538b2bec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4235,
+    "completion_tokens": 1646,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4235,
+      "completion_tokens": 1646,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

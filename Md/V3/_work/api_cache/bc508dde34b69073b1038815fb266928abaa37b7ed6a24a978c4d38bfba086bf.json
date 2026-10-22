@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-18T05:59:42.165412+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bc508dde34b69073b1038815fb266928abaa37b7ed6a24a978c4d38bfba086bf",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005679-p000-2d0a842462",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是连续的干支与五行状态组合，candidate将其拆解为独立的日与状态，但解读有误。例如'戊午相死'应指戊午日同时有'相'和'死'两种状态，而非'戊午日处于死气状态'。'巳未休胎死'应指巳日和未日有'休'、'胎'、'死'状态。candidate的断句和释义不准确，且'胎气在死气中'等表述是自行串联，无依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005680-p000-a09898e73b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005681-p000-0f18c143e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'氏'应为'氐'，是二十八宿之一，candidate误写为'氏'。'亢九太'释为'亢宿九度太'正确，但'角十二二'应为'角十二太'或'角十二度二'？原文'角十二二'可能有误或特殊记法，candidate直接作'角宿十二度'可能漏译了第二个'二'。建议标注原文疑有误。"
+        ],
+        "uncertainty": [
+          "原文'角十二二'的记法可能为'角十二度二'或'角十二太'，需核对。"
+        ]
+      },
+      {
+        "id": "book035-b005682-p000-3c894ba9ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005683-p000-80ad3af1e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005684-p000-d5282bfd54",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005685-p000-0a9ff90e4a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'婁十二大'应为'娄十二太'，candidate作'娄宿十二度大'，'大'通'太'，可接受，但用字不统一。'昂'应为'昴'，是二十八宿之一，candidate误写为'昂'。'嘴半'应为'觜半度'，candidate作'嘴宿半度'，'嘴'是'觜'的异写或误写，但未标注。'參九半'应为'参九半'，candidate作'参宿九度半'正确。"
+        ],
+        "uncertainty": [
+          "'嘴'宿通常写作'觜'。"
+        ]
+      },
+      {
+        "id": "book035-b005686-p000-2f00edca1b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'翌'应为'翼'，是二十八宿之一，candidate误写为'翌'。'軫'后应有度数，candidate只写'轸宿'，漏译了度数信息。原文'軫'后可能残缺，但candidate未标注不完整。"
+        ],
+        "uncertainty": [
+          "原文'軫'后可能缺失度数，释读不完整。"
+        ]
+      },
+      {
+        "id": "book035-b005687-p000-4f16678aee",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'抄'（通常为'秒'的异写，角度单位）释为'抄'，可接受，但未加说明。'一百八抄'应为'一百八度？'，原文'一百八抄'可能指一百八度？抄（秒），candidate直接作'一百八抄'未转换，易误解。'令一十二分五十抄'的'令'字可能为'另'或衍文，candidate作'令十二分五十抄'未处理。'虚星二宿'可能为'虚、张二宿'或'虚、星二宿'？candidate作'虚星二宿'含糊。'六度中间又各遇半二十五分'句意不明，candidate释为'六度中间又各遇半二十五分'未做解释，读者难懂。"
+        ],
+        "uncertainty": [
+          "'抄'是否为'秒'的异写？'一百八抄'具体度数存疑。'令'字含义不明。'虚星二宿'具体指哪两宿？'六度中间又各遇半二十五分'的具体含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b005688-p000-c4b784ee97",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1931,
+    "completion_tokens": 1074,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1931,
+      "completion_tokens": 1074,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

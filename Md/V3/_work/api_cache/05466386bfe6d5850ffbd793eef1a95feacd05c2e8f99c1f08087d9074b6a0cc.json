@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-26T07:20:17.250868+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "05466386bfe6d5850ffbd793eef1a95feacd05c2e8f99c1f08087d9074b6a0cc",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000210-p000-bbe1f298fd",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "该日文内容语义不明，无法准确翻译"
+        ]
+      },
+      {
+        "id": "book033-b000212-p000-a52e128870",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "迷入局、下闕重夢的具体表述存疑"
+        ]
+      },
+      {
+        "id": "book033-b000213-p000-b70df727f1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及庚申年载寰公出生、为癸未进士，候选将出生与中进士强行合并为同一年的事件，属于对原文语义的错误整合"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000214-p000-93e9d8982a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "尸要、東氣結咽過服北的具体表述存疑"
+        ]
+      },
+      {
+        "id": "book033-b000215-p000-2335fcc7e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅到“而其所”三个字就截止，候选额外增加了原文不存在的大段后续内容，属于严重的增译错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000216-p000-516d9d4142",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000217-p000-d5ebd1868c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "胎怎孕育的具体表述存疑"
+        ]
+      },
+      {
+        "id": "book033-b000219-p000-9451f44732",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "尸於、透迤字育、仲仲皆美的具体表述存疑"
+        ]
+      },
+      {
+        "id": "book033-b000220-p000-b4a6919dc7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000223-p000-d894d6101a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5529,
+    "completion_tokens": 611,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5529,
+      "completion_tokens": 900,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 5529,
+      "completion_tokens": 611,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

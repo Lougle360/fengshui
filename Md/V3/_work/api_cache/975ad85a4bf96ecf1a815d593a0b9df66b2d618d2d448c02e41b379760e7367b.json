@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T09:22:54.735367+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "975ad85a4bf96ecf1a815d593a0b9df66b2d618d2d448c02e41b379760e7367b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000245-p000-f440986fd6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“尨穴”“罗桎”“罗径”“天卦”的具体所指未明，释读时保留原文表述未作臆断"
+        ]
+      },
+      {
+        "id": "book010-b000247-p000-ef4e91bc5b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语义不连贯，无法形成符合逻辑的释读内容",
+          "释读仅为拆分原文零散字词，未形成有效语义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1678,
+    "completion_tokens": 174,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1678,
+      "completion_tokens": 174,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

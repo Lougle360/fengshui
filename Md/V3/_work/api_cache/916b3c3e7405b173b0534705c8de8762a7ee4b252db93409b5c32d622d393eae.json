@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T13:19:45.606615+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "916b3c3e7405b173b0534705c8de8762a7ee4b252db93409b5c32d622d393eae",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000003-p000-064b0acc68",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "囟族佳城",
+          "有物噉之",
+          "入土查序一 廷園"
+        ]
+      },
+      {
+        "id": "book027-b000005-p000-6f746d756d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "蒐嵬相依",
+          "事紀吉二 耿著"
+        ]
+      },
+      {
+        "id": "book027-b000009-p000-92896eb9b7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误将原文的书名《地理碎事》相关标注“地理碎事 寄著輯”处理为引语，原文该句是文本归属标注，并非独立引用的俗语内容；且后续“龙穴非遥……”的诗句前不应加“难道没有听说过”的衔接，该诗句是《地理碎事》辑录的内容，不属于前面所列世俗乱象的反问引语"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2843,
+    "completion_tokens": 299,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2843,
+      "completion_tokens": 299,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

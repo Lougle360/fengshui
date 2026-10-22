@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:57:05.033383+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "88d9bdfd0906ad2a20c00a9a12a8e11df481a51bdb90323e85e0a9db9750a44e",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000046-p000-9c3d792e6c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“卜世三十卜年七百”误写为“卜世三十卜年七”，漏译“百”字；将“元空”误释为“空泛地说它的流派”，与原文含义不符；将“曾公易之以看”的“看”未明确为风水术语，且“凝宗人”的释读无依据；“立向滔纳深诸元空之旨”语义不通，属于错误释读；“雌雄之妙”未按风水术语释读；“元閒”应为“元间”，释读错误；“元妙印”未明确为风水术语，且释读模糊"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000047-p000-d8d95302b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000048-p000-3f02c960a8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“天五绝”释读为“天五绝”，未明确为风水术语；“地封”应为“地卦”，释读错误；“元妙理”未明确为风水术语；“不离开坐山与来水”的“不离开”表述模糊，原文应为“不离”；“皆无张”语义未释读完整，属于漏译"
+        ],
+        "uncertainty": [
+          "原文中“地封生於子午卯雪”的“雪”字疑为“酉”字的讹误，暂按原文保留"
+        ]
+      },
+      {
+        "id": "book011-b000049-p000-d5487efa43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1997,
+    "completion_tokens": 488,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1997,
+      "completion_tokens": 488,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

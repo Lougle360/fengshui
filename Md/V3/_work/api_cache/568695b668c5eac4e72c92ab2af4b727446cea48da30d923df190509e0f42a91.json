@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T08:12:18.474335+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "568695b668c5eac4e72c92ab2af4b727446cea48da30d923df190509e0f42a91",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000093-p001-8e0a6467a7",
+        "language_hint": "mixed",
+        "kind": "html",
+        "locked_terms": [],
+        "opaque_terms": [],
+        "allowed_glossary": {},
+        "source": "<table><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr><tr><td></td><td></td><td colspan=\"6\"></td><td colspan=\"6\"></td></tr></table>",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "uncertain",
+        "modern_text": "此处表格内所有单元格均为空白，无有效可识别内容",
+        "confidence": "low",
+        "uncertainty": [
+          "表格内容完全空白，无实际信息可提取"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1458,
+    "completion_tokens": 349,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1458,
+      "completion_tokens": 349,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

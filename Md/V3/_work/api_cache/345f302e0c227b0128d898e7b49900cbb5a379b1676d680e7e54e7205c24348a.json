@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T08:54:51.651494+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "345f302e0c227b0128d898e7b49900cbb5a379b1676d680e7e54e7205c24348a",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000154-p000-670de4855e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘迦送’为‘迎送’的讹误，候选句未修正该讹误；‘泡周花’‘捣骨龙’‘萧考’‘之送’等术语，候选句未按要求标注为‘具体所指不详’，反而将‘之送’与‘之玄单独龙’混同，属于误译；‘开面而但跌断方在所有关面出张者在亦不因此一节而弃之也’一句，候选句释读存在语义偏差，未准确传达原文含义；‘有呼吸浮沉之动气者便是大富贵地如之玄单独龙是也虽似单 独而之送’一句，候选句断句错误，导致语义混乱"
+        ],
+        "uncertainty": [
+          "泡周花的具体所指不详",
+          "捣骨龙的具体所指不详",
+          "萧考的具体所指不详",
+          "之送的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1576,
+    "completion_tokens": 245,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1576,
+      "completion_tokens": 245,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-26T10:21:44.568408+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8c657637d52179b7ff80751d16bae19478e7e2890a90985a838bd5ea2e5f90d7",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000851-p000-910fcbaf83",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“初魏克政 為廣一公十以塟子”原文有阙字，candidate直接写“当初魏克政为广一公择地安葬儿子”属于把不确定内容写成确定事实；“鯉魚走走到汪坑口有人葬得着量金須用斗”candidate漏译“葬得着”，译为“有人在此安葬”语义偏差，原文是“有人能葬到（这块地）”的意思",
+          "龙脉“入局为平冈”译为“进入平地后化为平缓的山岗”错误，“入局”指龙脉进入穴场所在的局域，不是“进入平地”；“逆盘结穴”译为“盘绕而下结作穴场”错误，漏译“逆”（指龙脉逆水势结穴）的含义"
+        ],
+        "uncertainty": [
+          "原文“為廣一公十以塟子”存在阙字，具体文意不明"
+        ]
+      },
+      {
+        "id": "book033-b000852-p000-5b1ac6df55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“渴云”实为“谒云”或“谚云”类讹字，candidate译为“谶语说”无依据；“獺趕鯉魚走”candidate漏译“赶”，之前条目对应俗谚为“鲤鱼走走到汪坑口”，此处明确是“獭赶鲤鱼”，candidate未准确体现；“量金須用斗”的意思是所得财富需用斗量黄金，candidate仅直译为“量金时须用斗”未做符合语境的通俗释读，读者易误解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000853-p000-db6c96cce1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“琢玉集云”candidate误译为“《集》中说”，漏书名“琢玉”；“斜側偏 正脈真的更向明堂直明堂不背水城弓扦看産英雄”句读错误，candidate断句为“斜侧偏正的脉气真实可靠，更要看明堂是否端正，明堂不背水城弓，能看出此地会产英雄”属于误读，原文是“斜侧偏正，脉真的，更向明堂直。明堂不背水城弓，扦看产英雄”；“也里卜夏四卷三下穴法 无一”candidate译为“出自《也里卜夏》四卷三下穴法，共有一处缺漏”错误，“也里卜夏”应为OCR识别错误，“无一”是原文末尾缺字标记，不是“共有一处缺漏”的意思；“堂局真處抱身曲琢玉集云”candidate断句错误，译为“堂局真实之处，抱身弯曲如琢玉一般”完全误解原意，应是“堂局真处抱身曲。《琢玉集》云”"
+        ],
+        "uncertainty": [
+          "原文存在缺字，部分内容无法完全确认；“也里卜夏”为识别讹字，具体出处不明"
+        ]
+      },
+      {
+        "id": "book033-b000857-p000-0043dbab01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "表格内文字多为残缺或无法识别的内容，具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b000859-p000-ded9cd0433",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“え”是日文假名，candidate直接保留未标注，且“北理人”应为“北里人”？不对，原文是“北理人”，但“え”没有说明是无法识别还是日文，且candidate未明确标注该内容属于无法释读的残字或外来字符，读者无法理解其含义"
+        ],
+        "uncertainty": [
+          "原文含无法识别的字符，语义不明确"
+        ]
+      },
+      {
+        "id": "book033-b000861-p000-668a8323cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“中明堂是龍虎裡立穴要使相交會”candidate译为“中明堂是龙虎砂之内立穴的关键，要使龙虎砂相交会”属于增译，原文只是说中明堂在龙虎砂范围内，立穴要让（水/砂）相交会，未明确“是立穴的关键”；“否則失消納”译为“否则就会失却消纳之气”属于无依据增释，“消纳”是风水术语，allowed_glossary未收录，不应直接解释为“消纳之气”；“否則非失穴恐結作皆偽”译为“否则就不是真穴，恐怕会结作伪穴”语义偏差，原文是“否则就算不是失穴，恐怕整个结作都是假的”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000863-p000-6bb08748d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3765,
+    "completion_tokens": 1257,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3765,
+      "completion_tokens": 1257,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

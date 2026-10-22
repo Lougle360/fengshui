@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T17:00:45.998004+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c50182c01557c56657914409ad3ba66029d87e2a5b98e5b58959812ea9b12fb4",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000553-p000-c77fe619e0",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这段文字说明本爻的“磐桓”，就是卦辞中“勿用有攸往”的含义；“居贞”“建侯”也和卦辞的意思相同，目的是强调“屯”卦之初必须谨慎守正，广泛获取辅助力量。《象传》里的“志行正”“大得民”也表达了这个意思。《折中》引用杨万里的话说：“磐桓不进，难道真的是不想行动吗？是因为居守正道而有所等待，他的志向未尝不想推行正道。所以周公说‘居贞’，孔子说‘行正’。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000554-p000-c347ff998d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "六二，屯如，遭如①。乘马班如②，匪寇婚媾③；女子贞不字④，十年乃字⑤。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000555-p000-47f22ee0cf",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文六二，初创之时多么艰难，回复彷徨不前。乘马的人纷拥前来，但他们不是强寇而是来求婚配者；女子守持正固不急于出嫁，久待十年才缔结良缘。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000556-p000-852849ea40",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①屯如，遭如：如，是语气词；遭，读音为zhān，《释文》引用马融的说法：“是难行不进的样子”，《玉篇》解释为“转也”“移也”。这两句说明六二处于“屯难”之时，柔顺中正，能够审慎忖度。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句末尾“能审慎忖”存在残缺，缺字内容无法确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1730,
+    "completion_tokens": 554,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1730,
+      "completion_tokens": 554,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

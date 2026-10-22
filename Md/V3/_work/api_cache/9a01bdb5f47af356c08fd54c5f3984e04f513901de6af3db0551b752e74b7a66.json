@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-25T22:11:47.667176+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9a01bdb5f47af356c08fd54c5f3984e04f513901de6af3db0551b752e74b7a66",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001801-p000-8599cdebc4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001802-p000-99ea8cc9e6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "贊玄、氧生、医、汽、鬼五八等表述识别存疑，含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001803-p000-e0133bf562",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“料宮”含义不明",
+          "“匕”为识别错误，原字无法确定"
+        ]
+      },
+      {
+        "id": "book029-b001806-p000-a3b7dfb28c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“天醫卦五鬼生氣為福德生氣卦五鬼為天醫為福德卦泰用”，候选将其拆分释读为“天医卦、五鬼、生气为福德，生气卦、五鬼为天医”不符合原文断句逻辑，存在断句错误导致的语义偏差"
+        ],
+        "uncertainty": [
+          "“泰用”具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001808-p000-f6b60ed12b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“光震”为识别错误，原内容无法确定",
+          "“先震”为识别错误，原内容无法确定"
+        ]
+      },
+      {
+        "id": "book029-b001809-p000-8583858c87",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“隣富起金狼”为识别错误，原字无法完全确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2547,
+    "completion_tokens": 512,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2547,
+      "completion_tokens": 512,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T20:52:11.067175+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d4ff97d767f57586a5f8c19c6d5cdd04e6afa7f06b95330fb209d70995edfca6",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000100-p000-52893d55a5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000101-p000-91bb45d52a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000102-p000-d11bac6607",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000103-p000-5374c7d7b5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文kind标注为heading（该条目是章节标题，格式应和前后其他标题一致标注##），candidate未保留标题层级格式，且kind应为heading而非prose"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000104-p000-1af8e550cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "①②③④为原书注释，未在正文内体现具体内容"
+        ]
+      },
+      {
+        "id": "book018-b000105-p000-a712c50e47",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000106-p000-8bd742e4e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000107-p000-e8df88bf91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000108-p000-217cb6a4cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘道眼生知，不可尚矣’译为‘道眼是天生的智慧，不可崇尚了’语义偏差，‘不可尚’在此处意为（道眼的层级）是最高、难以企及的，不是‘不可崇尚’的意思"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000109-p000-32f070894b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4858,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4858,
+      "completion_tokens": 592,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-26T04:33:23.967190+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8c38d0f0ae589ef75cbc8bd172d90974cdccc47fd828ca651045997610a804b4",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000211-p000-b8791d6a5f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000212-p000-aec82dd741",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR错乱，部分字句难以确定含义"
+        ]
+      },
+      {
+        "id": "book032-b000213-p000-7459aeeba4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文未提及“渤海沿岸阴阳两路的山川形态”相关表述，属于无依据增译；原文首段“門得者祖水之以此之訣峯之山觀此 渤陰亦之則山例明星可亦向者嘴篇 海陽錯說龍作其言也以乾也乾為是”为OCR乱序文字，不能直接认定为“观察山脉走势的时候，可参考渤海沿岸阴阳两路的山川形态作为范例”的确定含义"
+        ],
+        "uncertainty": [
+          "原文存在大量语序错乱、文字拼接零散的内容，部分表述无法连贯释读"
+        ]
+      },
+      {
+        "id": "book032-b000214-p000-f64931af37",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在部分语序不通的零散内容，部分表述只能结合风水常识推导释读"
+        ]
+      },
+      {
+        "id": "book032-b000215-p000-23a84b4de6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文文字排布散乱，大量推导细节的表述无法连贯释读"
+        ]
+      },
+      {
+        "id": "book032-b000216-p000-487a95af2d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在部分零散无意义的文字，部分表述的指代对象不够明确"
+        ]
+      },
+      {
+        "id": "book032-b000217-p000-9e300e6ce4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000218-p000-64aa01a2e7",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量乱码、零散字符，多数内容无法连贯释读"
+        ]
+      },
+      {
+        "id": "book032-b000219-p000-b467cb8130",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代中文，仅直接抄录错乱的原文，不符合白话释读要求"
+        ],
+        "uncertainty": [
+          "原文存在OCR错乱，部分字句难以确定含义"
+        ]
+      },
+      {
+        "id": "book032-b000220-p000-4f3f7c8601",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾内容残缺，无法得知后续表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5137,
+    "completion_tokens": 741,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5137,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 5137,
+      "completion_tokens": 741,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

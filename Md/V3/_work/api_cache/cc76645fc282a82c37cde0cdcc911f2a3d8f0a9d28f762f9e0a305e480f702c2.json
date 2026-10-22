@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-10-15T05:57:03.560006+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cc76645fc282a82c37cde0cdcc911f2a3d8f0a9d28f762f9e0a305e480f702c2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001273-p000-e229732adb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001274-p000-8d47dcadc2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘科坎’被释读为‘科坎’，但未明确标注其含义不详，属于将不确定解释写为确定事实。原文‘铺毛展席’被直接使用，但未加引号或说明其为原文保留的含混短语。原文‘架折圆下’被直接使用，但未加引号或说明其为原文保留的含混短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001275-p000-bab60d491e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘步淮’被释读为‘步准’，属于未经说明的改动。原文‘铺毛展席’被直接使用，但未加引号或说明其为原文保留的含混短语。原文‘挨饼斜插圆下’被直接使用，但未加引号或说明其为原文保留的含混短语。原文‘尺再起星晕’被直接使用，但未加引号或说明其为原文保留的含混短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001276-p000-efe23bc7d9",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文‘汉揭高寻晕’、‘启启棺书云文葬’、‘交婧之道’、‘乐法’、‘塞桶漏’、‘用土对培其气’等含混短语被直接保留在释读句中，但未加引号或明确说明其含义不详，不符合‘普通读者能读懂的白话释读’目标。候选句基本是原文的堆砌，未进行有效的白话转换。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001278-p000-135f9c6f11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001279-p000-7e792ad4d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001281-p001-2ce1df3f2c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义不完整，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001283-p000-fde286aaa8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘折右股以盖左股’、‘脱粘’、‘南枝花’、‘近阳先发’、‘土牛歌’、‘同穴同音同向’等含混短语被直接保留在释读句中，但未加引号或明确说明其含义不详，不符合‘普通读者能读懂的白话释读’目标。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001284-p000-18ad0ecb80",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，语义不完整，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2657,
+    "completion_tokens": 720,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2657,
+      "completion_tokens": 720,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

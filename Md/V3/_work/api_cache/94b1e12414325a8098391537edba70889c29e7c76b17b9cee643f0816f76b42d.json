@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-10-18T11:54:59.351755+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "94b1e12414325a8098391537edba70889c29e7c76b17b9cee643f0816f76b42d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006458-p000-5da6963cb9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006459-p000-4a99fa4f07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006460-p000-8fafe1c534",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006461-p000-77a810cef2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文表格内容处理为连续文本，但原文表格结构（如星宿、度数、分野、五行等分列）所包含的对应关系信息在候选句中丢失，可能导致读者无法理解其原本的对应逻辑。例如，'離柳土獵柳丁一至星二' 与 '坎虛日鼠虛二至四' 及 '穴升之豐' 的对应关系不明确。'分野之次' 后的 'T' 和 '祭' 在候选句中未作任何处理，直接保留，属于未转换的符号，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，星宿、度数、分野、五行、卦变等信息的具体对应关系，以及符号'T'和'祭'的含义，原文未明。"
+        ]
+      },
+      {
+        "id": "book035-b006462-p000-c5264e7689",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006463-p000-b762d96a55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006464-p000-9433825560",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006465-p000-a7336213d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006466-p000-d6e691b6ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006467-p000-adfecc8590",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2613,
+    "completion_tokens": 595,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2613,
+      "completion_tokens": 595,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

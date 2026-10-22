@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-25T14:33:18.993990+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b66ef7d7f452c8d8251ccad967370b0b7a91ae5588f9de220855aa901e8677ca",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000388-p000-6d55fa699e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅直接保留错乱的OCR原始文字，不符合普通读者能读懂的白话释读要求；locked术语“穴”“水”“向”未按允许的术语定义做必要释读，仅原样留存"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱，多处文字残缺、语序混乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000389-p000-288a642671",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅直接保留OCR原始文字，不符合普通读者能读懂的白话释读要求"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错乱，部分文字残缺"
+        ]
+      },
+      {
+        "id": "book026-b000391-p000-f1e3e6363f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅将句末的○替换为句号后直接留存原文，不符合普通读者能读懂的白话释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000392-p000-01d8d30643",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅将句末的○替换为句号后直接留存错乱的OCR原始文字，不符合普通读者能读懂的白话释读要求"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱，多处文字残缺、语序混乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000393-p000-ba87391561",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅直接留存原文，不符合普通读者能读懂的白话释读要求；未对“消息”做符合现代汉语的释义，普通读者易误解为现代语义的“信息”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000395-p000-ce829179ae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅对原文添加了标点，未转换为现代中文，不符合普通读者能读懂的白话释读要求；“最宜细消趋避之而不知择也”存在语义矛盾，未做相应的说明或释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000398-p000-53de4a46dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自将原文中数字序号对应的零散内容补出确定含义，原文未说明“5 谢 註文氏井”的属性，候选将其释为“内容是说前述论述龙虎的内容表意有欠缺”属于无依据增译；原文未说明“周干 家”是“周干家所藏”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文中‘谢 註文氏井’表述较为零散，无法确定确切含义"
+        ]
+      },
+      {
+        "id": "book026-b000399-p000-277319663b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "仅对原文添加了标点，未转换为现代中文，不符合普通读者能读懂的白话释读要求；“失召”为OCR错乱内容，未标注说明，直接保留易误导读者"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错乱，部分文字残缺"
+        ]
+      },
+      {
+        "id": "book026-b000400-p000-3a4d262336",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅直接保留错乱的OCR原始文字，不符合普通读者能读懂的白话释读要求；locked术语“穴”未按允许的术语定义做必要释读，仅原样留存"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱，多处文字残缺、语序混乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000401-p000-24d5185dc0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文转换为现代中文，仅直接保留错乱的OCR原始文字，不符合普通读者能读懂的白话释读要求；locked术语“穴”“水”未按允许的术语定义做必要释读，仅原样留存"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱，多处文字残缺、语序混乱，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3382,
+    "completion_tokens": 1171,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3382,
+      "completion_tokens": 1171,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

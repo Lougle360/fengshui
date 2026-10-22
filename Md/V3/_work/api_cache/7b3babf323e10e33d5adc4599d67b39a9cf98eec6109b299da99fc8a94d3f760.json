@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T14:46:33.655370+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7b3babf323e10e33d5adc4599d67b39a9cf98eec6109b299da99fc8a94d3f760",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000111-p000-e31c3ff984",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000113-p000-f0b21599f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000114-p000-ae15ef0805",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句为‘綴緩作接接作地俱主絕滅’，正确断句应为‘将缀法、缓法当作接法来用，或是把接法制地（营建墓地）的方式用在不合适的场合’，均会导致绝灭，候选将‘接作地’释为‘用接法来营造墓地’虽然语义接近，但漏了前提的适用场景表述，存在歧义；另外原文‘提用之亦不發福’是指如果不按规矩、贸然提用抛接法才会不发福，候选释为‘就算这么做了也不会带来福运’与原文逻辑相反，原文是要求认诸体、察三势后正确使用才对，错误否定了正确操作的正向效果。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000117-p000-2784be83cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 394,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1553,
+      "completion_tokens": 394,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

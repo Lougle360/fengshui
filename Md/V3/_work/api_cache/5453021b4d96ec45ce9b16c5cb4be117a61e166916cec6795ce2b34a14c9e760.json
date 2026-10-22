@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:15:33.541313+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5453021b4d96ec45ce9b16c5cb4be117a61e166916cec6795ce2b34a14c9e760",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000698-p000-8256e7cdd1",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "17) 归根结底，其含义是：在约简之后，要让它们互素，对于约简后得到的数值，若该数值与等数属于异类，则对其进行约简；若该数值与等数属于同类，则不对其进行约简。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000699-p000-cc2df43a23",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "18) 原文内容为：“所谓复数，就是询问数字的末尾位数，看到位数在十以上的，就用各个数字求总等数。保留其中一位，约简其余各位，才能得到元数。两两连环求等数，约简奇数位而不约简偶数位。再用偶数位相乘，或者约简偶数位，或者约简奇数位，再用奇数位相乘。有时彼此能够约简却仍有同类数留存，就再次相减以求续等数。用续等数约简那个数，就必然再次用这个数相乘，才能得到定数。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000700-p000-2f0b1f2a81",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "19) 原文内容为：“用元数的两位求等数。用等数约简衍母，作为借数。用借数减去有，用它增益无，作为正用。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000701-p000-1c88f3029a",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "20) 请参考钱宝琮所著《秦九韶数书九章研究》（《宋元数学史论文集》，科学出版社，1966年）第73页的注释。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1714,
+    "completion_tokens": 582,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1714,
+      "completion_tokens": 582,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

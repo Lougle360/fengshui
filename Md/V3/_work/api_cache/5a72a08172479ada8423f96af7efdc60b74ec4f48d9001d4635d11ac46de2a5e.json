@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-17T16:41:07.645052+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5a72a08172479ada8423f96af7efdc60b74ec4f48d9001d4635d11ac46de2a5e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004096-p000-f4dee9d616",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004097-p000-74f695cad5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为表格结构，包含多行诗句和注释，candidate将其合并为单一连续段落，破坏了原文的视觉层次和分块逻辑，未能清晰区分‘右拖枪鬼星’的注释、‘六五’、‘六六’、‘六七’等不同编号的鬼星及其各自的诗句和注释。",
+          "存在误译：1. ‘公吏之責乃坐空亡之空邮’译为‘这属于坐空亡的空邮，贼刃之鬼也主刺配’，‘空邮’含义不明，candidate未作风险标注，直接纳入译文。2. ‘惠曰鬼解不湯’译为‘惠曰鬼解不汤’，未标注其含义不明。3. ‘发挥凶日鬼’应为‘发挥曰：此鬼’的误读或OCR错误，candidate处理为‘发挥凶日鬼’，语义不通。",
+          "存在增译：原文‘统而名之’后接‘惠曰鬼解不湯’，candidate译为‘统而名之。惠曰鬼解不汤。’并在其后自行连接了下一段关于‘六七拖刀鬼’的内容，但原文表格中这两部分并非直接连续，中间有换行和空行分隔，candidate的衔接缺乏依据。"
+        ],
+        "uncertainty": [
+          "‘空邮’、‘惠曰鬼解不湯’具体含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2008,
+    "completion_tokens": 379,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2008,
+      "completion_tokens": 379,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

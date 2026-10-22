@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-24T08:38:15.441558+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "56f4aba9a8e8714ce6ebd1d62d724ed83857fd252fc4341cc37d770caeb61320",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000223-p000-f8060bf138",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在多处将原文含混内容当作确定事实的表述，如“青龙主长房，同时荫庇女眷”“堂案主二房，同时带来财禄”等，原文未明确各房对应的具体荫庇内容；部分语句未按要求保留原文含混专名，如“牛蛾眉标”“乳炎之见”等未标注为专名，且存在明显的增译内容，如“实在太可笑了”“自长由牛秀火面”等属于无依据扩写"
+        ]
+      },
+      {
+        "id": "book008-b000224-p000-edbe2423ce",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在多处将原文含混语句直接照搬且未标注为原文保留，如“青龙财不思炎”“二房朱雀莫斜飞”等，未按要求处理含混专名，且存在语句不通顺的问题，如“伫逆唁著在朱省诏案山也”等属于未正确释读的内容"
+        ]
+      },
+      {
+        "id": "book008-b000225-p000-d71a6d752d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在多处将原文含混内容当作确定事实的表述，如“朝山之位，对应八房”等，原文未明确朝山与八房的对应关系；部分语句未按要求保留原文含混专名，如“二原之画疾”“爵江造水”等未标注为专名，且存在明显的增译内容，如“近故发，造六年亦大”等属于无依据扩写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3226,
+    "completion_tokens": 444,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3226,
+      "completion_tokens": 444,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

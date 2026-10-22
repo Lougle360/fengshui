@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-17T11:31:21.959711+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9b9eaeacc0d0e9947c392e1ca234c68c65dbcc0c0f7ff72d0ca8cc1ff2eb053e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003490-p000-d6ea77f4fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乾工"
+        ]
+      },
+      {
+        "id": "book035-b003493-p000-1931169066",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘寅甲發得好來龍申乾不親不相顧’应释读为‘寅甲方位的来龙若发得好，但申、乾方位的来龙则与之不亲近、不相顾’。候选句‘而申、乾方位的来龙则不亲近、不相顾’缺少了转折关系，且‘其餘陰水尚可達’的‘達’字未译出，应释为‘其余阴水尚可通达’。‘丑未出面一板土’的‘出面’未译，应保留原文并标注。‘寅兼甲申兼寅三分即是三宫不可取尽处当心穴宜挨’一句，候选句拆分不当且‘三分即是三宫’含义不明，应整体保留并标注为原文含混。"
+        ],
+        "uncertainty": [
+          "丑未出面一板土",
+          "天倍功曹星",
+          "阴机星",
+          "多换异姓",
+          "寅兼甲申兼寅三分即是三宫不可取尽处当心穴宜挨"
+        ]
+      },
+      {
+        "id": "book035-b003495-p000-22d0d0c0d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘就唇不可平腮弃節’一句未译，应保留原文并标注其含义不详。‘寅原離壬之長子午戌之兄申乃乾之兄也’一句，候选句将‘寅原’释为‘寅原是’并直接与‘离、壬的长子’连接，此解释缺乏依据，原文‘寅原’可能为‘寅方’或‘寅位’之误，或为特定术语，应保留原文并标注。‘禄口’应为‘禄口’，候选句误写为‘禄口’。‘用东北日期’的‘日期’可能指择日，但候选句直接释为‘东北日期’含义模糊，应保留原文并标注。"
+        ],
+        "uncertainty": [
+          "就唇不可平腮弃節",
+          "寅原",
+          "禄口",
+          "东北日期",
+          "失之"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1651,
+    "completion_tokens": 500,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1651,
+      "completion_tokens": 500,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

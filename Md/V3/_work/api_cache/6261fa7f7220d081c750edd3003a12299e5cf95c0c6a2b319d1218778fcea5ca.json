@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-09-24T01:43:15.202100+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6261fa7f7220d081c750edd3003a12299e5cf95c0c6a2b319d1218778fcea5ca",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000094-p000-5ec4f17d13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000095-p000-3f42646e5a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“財斧”为“財帛”讹写，candidate 已修正为“财帛”无问题，但原文“無量”被漏译，未体现无官者福运无量的含义；“用自然交集者”表述翻译生硬，未转换成符合现代汉语的通顺表达"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000096-p000-c1762970cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000097-p000-499fd56da7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“田委與隆”翻译为“田产与家业兴旺”不准确，“委”字含义未明确对应且无依据扩写为“家业”；原文“凶至年一一日”翻译为“一一日之内”错误，原文表述存疑不应随意确定为“一日之内”；原文“清決”翻译为“清秀”属于无依据释读，含义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000098-p000-ea0ed3291b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000099-p000-06e64c5240",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“外若主人有陰德”的“外”字被漏译；“經答謝此卽解星也”翻译生硬，未明确“答谢”对象及解星的作用逻辑，属于未完成现代中文转换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000100-p000-a1ed239de1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺漏，内容不完整"
+        ]
+      },
+      {
+        "id": "book006-b000101-p000-beaaf73c4d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“主人要與諸家曆書不同陰陽不同人口救苦經亦宅又日靈經異書莫傳與天下遇人”断句错误，翻译逻辑混乱，错误将“人口救苦经”“宅又日灵经”归为与历书并列的异书，违背原文原意"
+        ],
+        "uncertainty": [
+          "原文中“宅又日灵经”“匠人皿光之灾”等表述含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000102-p000-d029a62cb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“星玫联活”属于疑似OCR错误，candidate直接保留未做标注；“是兆自作添进人，反北方田宅财旺”翻译生硬，逻辑不通，未完成现代中文转换；“空修造兴工”含义未明确表述，读者无法理解"
+        ],
+        "uncertainty": [
+          "原文中“九天星玫联活”“权月宅”等表述含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000103-p000-d9a5f2de19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不論錢動土輿工不用十六十日”翻译错误，“不论钱”“不用十六十日”表述含义未明确，翻译生硬且存在歧义，读者无法理解"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2376,
+    "completion_tokens": 994,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2376,
+      "completion_tokens": 994,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

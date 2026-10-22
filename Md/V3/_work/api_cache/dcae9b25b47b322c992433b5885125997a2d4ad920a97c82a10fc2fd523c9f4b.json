@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-10-15T05:27:35.809021+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dcae9b25b47b322c992433b5885125997a2d4ad920a97c82a10fc2fd523c9f4b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001217-p000-5d0b1edb30",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'人多坎河下爾'释为'因为人多处于坎河之下'，将'坎河'视为确定地理概念，但原文'坎河'具体所指不明，应保留不确定性或标注为术语。",
+          "'集平明作'释为'这会令人聚集在平明时分进行劳作'，将推测（'进行劳作'）写成了事实，原文'作'含义不确定，可能指劳作、兴起或其他。"
+        ],
+        "uncertainty": [
+          "'坎河'具体指代不明，可能为术语或比喻。",
+          "'集平明作'的语法结构需结合上下文推断，'作'的具体动作不详。"
+        ]
+      },
+      {
+        "id": "book035-b001218-p000-f0ae76b500",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001219-p000-e11805ea37",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'蛟潭龍窟莫相粼'后文语义跳跃，'做駕天龍'可能为口诀或比喻，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001220-p000-ab1102800e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001221-p000-e33e8ba23b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文'山人台系母学本也五气市近 蔭受'存在明显残缺或错乱，candidate 虽直译但语义完全不通，无法构成有效的白话释读。"
+        ],
+        "uncertainty": [
+          "原文存在明显残缺或错乱，'山人台系母学本也'与'五气市近荫受'语义不明，无法准确还原。"
+        ]
+      },
+      {
+        "id": "book035-b001222-p000-317a5766a5",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "'上而之者，其以有所家之大法'释为'上而之者，其以有所家之大法'，几乎是逐字直译，未转换成通顺的现代中文，且语义不清。",
+          "'界水则上乘'释为'界水则上乘'，保留了原文的'上乘'，但'上乘'在此语境下含义不明，可能为'上升'或'停止'之误，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，'上而之者'等句语义不清，'界水则上乘'具体含义需结合上下文推断。"
+        ]
+      },
+      {
+        "id": "book035-b001224-p000-568dec612e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'剑春龙'、'坳风'等术语具体所指不详，'不主逢及'语义不完整。"
+        ]
+      },
+      {
+        "id": "book035-b001225-p000-cb2187f473",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文'避下手上手者庶幾在運占主若是虛花無朝'语义残缺，candidate 虽直译但无法构成有意义的白话句子，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文残缺，'避下手上手者'语义不明，'庶几在运占主'逻辑关系不清。"
+        ]
+      },
+      {
+        "id": "book035-b001226-p000-cf92719f6f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'第五生怕明堂跌决'释为'第五生怕明堂跌决'，保留了'第五生怕'，但未解释其指代（可能是第五条忌讳），导致现代读者难以理解。",
+          "'是破家业泄主家'释为'是破家业泄主家'，'泄主家'语义模糊，未做任何解释或标注，读者无法读懂。"
+        ],
+        "uncertainty": [
+          "'第五生怕'具体指代不明，'泄主家'语义需结合上下文推断。"
+        ]
+      },
+      {
+        "id": "book035-b001227-p000-46035e6134",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文仅'退則'两字，语义不完整，candidate 直译'退则。'无法构成任何有意义的白话释读。"
+        ],
+        "uncertainty": [
+          "原文仅两字，语义不完整，无法构成完整句子。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2258,
+    "completion_tokens": 981,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2258,
+      "completion_tokens": 981,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

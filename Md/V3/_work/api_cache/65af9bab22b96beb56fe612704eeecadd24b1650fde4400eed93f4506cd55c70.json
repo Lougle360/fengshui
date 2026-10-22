@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T00:26:00.204100+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "65af9bab22b96beb56fe612704eeecadd24b1650fde4400eed93f4506cd55c70",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001463-p000-123db43d91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“真读”具体含义不详",
+          "“二九九”未说明是否为页码，仅按原文保留表述",
+          "“转祸的祥”按原文表述保留，未自行改为“转祸为祥”"
+        ]
+      },
+      {
+        "id": "book017-b001466-p000-a3d01465ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句错误：“龙官气在牛”与“伪立癸向”是两个分句，candidate误将“牛伪”连读当作位置名，偏离原文语义"
+        ],
+        "uncertainty": [
+          "“ね口”为日文假名，具体所指不详",
+          "“牛伪”的断句错误修正后，“伪立癸向”的“伪”指违规、错误设立，不存在“牛伪”含义不明问题"
+        ]
+      },
+      {
+        "id": "book017-b001467-p000-924a717ef7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“逆充则为反今一非本文產方”释读错误：“一非本文产方”的“一”是“一概、都”的意思，“產方”candidate误释为“讨论的方位范畴”无依据；原文“山星式水星五字入中”的“式”语义未明，candidate直接沿用未标注不确定性"
+        ],
+        "uncertainty": [
+          "“山星式水星五字入中”的“式”具体含义不详",
+          "“获吟”“反今”为原文专有表述，具体所指不详",
+          "“本文產方”的“產方”具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001468-p000-dd08debeb9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“凶龍育四但砧龍却有四位是凶龍先占七宮故凶龍之中”的逻辑被错误改写，原文并非表述砧龙的四个位置是凶龙先占七宫才形成，而是说凶龙有四类，砧龙的四位属于凶龙，且凶龙先占七宫，候选释读歪曲了因果关系"
+        ],
+        "uncertainty": [
+          "“凶龍育四但砧龍却有四位是凶龍先占七宮”语义较为晦涩，断句仅为合理推测",
+          "“A龍”属于原文识别残缺内容，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001470-p000-c54c3d296d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“王吉即歷移未路以避系龍之凶”释读错误：candidate将“王吉”直接推断为“五吉”的讹误并据此释读后续内容，属于将推测当作事实，不符合标注要求",
+          "原文“方初在山謂本山在九印的十道二月得三吉用失即是反今”断句错误，candidate释读为“刚在山的位置，所谓本山在九印的十道、二月得三吉”无依据，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "“王吉”是否为“五吉”的形近讹误仅为合理推断，未作定论",
+          "“之空形学”具体所指不详，按原文表述保留",
+          "“歷移未路”“系龍”“九印的十道”“二月得三吉”语义晦涩，具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001471-p000-ce5e26a1af",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处乱码，语序混乱、语义断裂，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001472-p000-6d563631b4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“毒星法”具体所指不详",
+          "“皆不初也”的“初”具体含义不详，未自行猜测含义"
+        ]
+      },
+      {
+        "id": "book017-b001473-p000-2fff79bade",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 840,
+    "completion_tokens": 235,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2252,
+      "completion_tokens": 927,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 840,
+      "completion_tokens": 235,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

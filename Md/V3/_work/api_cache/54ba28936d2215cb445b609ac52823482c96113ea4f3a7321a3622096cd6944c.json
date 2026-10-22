@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-16T13:01:07.358638+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "54ba28936d2215cb445b609ac52823482c96113ea4f3a7321a3622096cd6944c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002350-p000-c86de722a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文字错乱，无法确知原意",
+          "‘者如蓋傳’等短语具体所指不详",
+          "‘崔州’、‘嵬县’等地名在文中的具体指代不明",
+          "‘崩洪论’的具体内容不详"
+        ]
+      },
+      {
+        "id": "book035-b002357-p000-e32082b138",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文严重错乱，无法通读",
+          "‘穴’、‘砂’、‘水’、‘向’等术语在文中的具体用法不明",
+          "文中出现的其他词汇如‘竹’、‘瑶’、‘凤’、‘藕’等具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002361-p000-cb4481bd06",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文文字错乱，无法确知原意",
+          "‘鬼’、‘前劫’、‘后劫’等概念的具体含义不明",
+          "‘炭晡山姓锈羁嚬坎禔品’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2150,
+    "completion_tokens": 343,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2150,
+      "completion_tokens": 343,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

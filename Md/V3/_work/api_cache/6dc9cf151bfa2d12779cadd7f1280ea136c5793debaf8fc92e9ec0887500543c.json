@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:03:34.043901+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6dc9cf151bfa2d12779cadd7f1280ea136c5793debaf8fc92e9ec0887500543c",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000088-p000-9e6c445175",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "存在多处OCR识别错乱的文字，如“梅有月星山”“九墨”“九关”“发E”“k=”“F”“E水第”“校子#酉”等，具体含义不详，无法准确释读"
+        ],
+        "uncertainty": [
+          "部分文字OCR识别存在错乱，具体含义不详，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3579,
+    "completion_tokens": 127,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3579,
+      "completion_tokens": 127,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

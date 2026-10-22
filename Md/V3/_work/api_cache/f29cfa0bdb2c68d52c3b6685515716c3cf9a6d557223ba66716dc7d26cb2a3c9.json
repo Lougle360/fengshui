@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T15:26:15.721242+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f29cfa0bdb2c68d52c3b6685515716c3cf9a6d557223ba66716dc7d26cb2a3c9",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001067-p000-0d859a2fe2",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《数理精蕴》上卷的洛书篇，从洛书图（图7-2）开始，接下来是关于“洛书之数”的最基础说明。那段文字是：洛书之数，以九为顶，以一为底，以三为左，以七为右，以二、四为肩，以八、六为足，五居于中央。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001070-p000-1e6230a23f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "洛书之数，戴九履一，左三右七，二四为肩，八六为足，五居其中。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001071-p000-d4c144784b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "由此可见，朱熹所撰《周易本义》卷首的洛书图说明中能看到几乎相同的文字，因此上文必定直接源自朱熹。在提及洛书的基本结构之后，接下来是以“朱子谓”引出的《易》……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾有残缺，内容不完整"
+        ]
+      },
+      {
+        "id": "book015-b001072-p001-b91f87350b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "图7-2 洛书",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1706,
+    "completion_tokens": 481,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1706,
+      "completion_tokens": 481,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

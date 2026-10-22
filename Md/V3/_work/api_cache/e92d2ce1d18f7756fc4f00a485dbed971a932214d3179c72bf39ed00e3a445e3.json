@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-26T04:29:12.597125+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e92d2ce1d18f7756fc4f00a485dbed971a932214d3179c72bf39ed00e3a445e3",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002209-p000-a81f67b7fd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原表格中“呂閩老祖地”相关记载未释读，存在漏译；原文中“江從亥脉到此平甲中”被误释为“江水从亥位脉路延伸到此处，在甲位区域地势平坦”，属于对原文断句的错误解读，原文实际应为“江从亥，脉到此平，甲中起，方土壬山丙向”；原文未提及“相关内容对应原书卷十的章目部分”，属于无依据增译；原文“谿縣山谷中墳前即生基癸向”被误拆为“位于谿县的山谷中，坟前就是生基，朝向癸位”，断句错误，应为“[王阁老祖地]在谿县山谷中，坟前即[有]生基，癸向”；原文“向出會元神仙兄第進士”被误释为“后代出了会元，同族兄弟有进士及第”，属于无依据增译，原文“神仙兄第”表述含义未明，不得臆断；原文“祖居祉在本團之東南隅左右共有二十餘托金”被错误归为阇老祖的相关内容，实际归属未明，且“二十餘托金”属于无依据拆分，原文“二十餘托”后单独有“金”字，含义不明不得合并释义；原文“呂閩老祖地”记载完全漏译"
+        ],
+        "uncertainty": [
+          "“舟兴梁”“本團”“托”“金”原文含义未明；“章”字为残字，上下文无对应含义；“神仙兄第”表述模糊，无法确定具体所指"
+        ]
+      },
+      {
+        "id": "book029-b002217-p000-442ce94203",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002220-p000-17a0b2fab2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未转换成符合普通读者阅读习惯的现代中文，“卅七”为传统数字记法，应补注为“第三十七（页/节）”或明确说明为卷十后的序号标识，不能直接照搬原文"
+        ],
+        "uncertainty": [
+          "“卅七”未明确是卷十的页码还是章节序号，原文标注信息不足"
+        ]
+      },
+      {
+        "id": "book029-b002221-p000-588a76c11e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及内容出自《地理参赞玄机全书》，属于无依据增译；原文“傳給事”是官职/人名，被误释为“传给事的”，属于语义错误，应保留“传给事（明代官职给事中，其人姓氏未载）祖地”类表述，不能曲解为动作“传给”"
+        ],
+        "uncertainty": [
+          "“傳給事”具体所指人物不详，仅可知为担任给事中官职的人物"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2081,
+    "completion_tokens": 727,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2081,
+      "completion_tokens": 751,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2081,
+      "completion_tokens": 727,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-25T05:15:49.354626+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "de3f7f5f6ecd25307526e5e5edad7daa02ea7930f8746d662d9056de99513f83",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000349-p000-b6c4b81fb2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文表述存在残损，句义不完整，candidate将残损原文补出完整确定含义，不符合释读要求；source中“十二又後天”并非指先天经盘共有十二，“少有”是残句末尾，并非指二十四山成双成对出现的情况很少，属于误读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000350-p000-eca57eed71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000351-p000-88e44f5951",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000352-p000-fde4bda8b2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“成壬”为“壬戍”形近讹误，candidate直接保留“成壬”未作说明；source中“河陋”是“何陋”形近讹误，candidate译为“实在是浅陋”属于合理释义，但需注意原文讹字情况，整体语义无偏差",
+          "source中“将氏指 蔣氏”是注文，candidate直接写“甚至有蒋氏”未标注注文属性，属于疏漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000353-p000-ce08c3b3ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000354-p000-10ef8e56a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000355-p000-acb7a63b40",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“東氣”为“來氣”形近讹误，candidate直接保留“东气”未作说明，属于误读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000356-p000-f256ffbf1b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000358-p000-2ab63c8e73",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“相盪”释为“相互激荡”不准确，风水语境中八卦相荡指八卦两两组合生成重卦的过程，此处释义有误；source中“盈編”为“盈縮”形近讹误，candidate保留“盈编”未作说明，属于误读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000359-p000-7b4a558f8f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“邱楊”指邱延翰、杨筠松，candidate译为“杨公”漏译“邱”，属于漏译；source中“適合”释为“适合”不准确，应为“恰好吻合”，属于释义偏差；source中“其子父財官，則安往而非子父財官者，這是庸陋欺世之最易見者”未转换为通顺的现代汉语，仍保留文言句式，不符合白话释读要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5460,
+    "completion_tokens": 931,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5460,
+      "completion_tokens": 931,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

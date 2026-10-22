@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T21:02:35.422139+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "46bb1a9c3697fbbcefe6e40a9d61fccc7288c4c1adecbe481c6412af4f0b780a",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001627-p000-190b979fed",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“薦福如雷會貴人祿馬尤妙”被误释为“求福之事如遇到雷、会贵人、禄马则最为适宜”，此处“雷会贵人”是固定择吉术语，不应拆分，且“薦福”为祈福、送福之意，释为“求福之事”语义偏差；2. locked_terms“向”需保留原文，不应在括号内补充释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001628-p000-7db7287276",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001629-p000-92eadf8ee4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. locked_terms“水”需保留原文，不应直接替换为风水语境下的河流含义；2. 原文“以角度從六十壬辰之八分起”被释为“以六十壬辰的八分作为起始角度”，“六十壬辰”含义未明确标注不确定性，直接按字面释读存在风险；3. 原文“坐下之關殺”被释为“坐向的关煞”，“坐下”为风水术语指坐山，释为“坐向”扩大了含义范围"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001630-p000-21283dd70c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001631-p000-e632beda26",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001632-p000-5f1c38939a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文本中“分秋”“分秒”等表述含义不明，“地理恭赞玄機全書”疑为“地理恭赞玄机全书”，暂按原文保留"
+        ]
+      },
+      {
+        "id": "book029-b001633-p000-88a4aa787b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. locked_terms“天干”“分金”“水”“向”“艮”均需保留原文，不应直接替换为对应的释义内容，仅可在必要时以括号补充说明但不得替代原术语；2. 原文“巳卯年”应为干支纪年错误，候选直接释读未标注风险；3. 原文“丑艮之宮”中“艮”被释为“八卦之一”，属于allowed_glossary范围，但不应直接插入句中替代原术语；4. 原文“宜某度中水來則吉”中“水”直接替换为风水含义，违反locked_terms保留要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001634-p000-1477e8fa68",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001635-p000-6b88de29d1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. locked_terms“艮”需保留原文，不应直接替换为“八卦之一”；2. 原文“辰吳同宮”应为“辰巽同宫”的传抄错误，候选直接按“辰吴”释读未标注风险；3. 原文“楊州”为“扬州”的古写，候选未作说明存在歧义；4. 原文“鶉火之地理恭贊玄機金書”断句错误，候选释读为“午丁同宫对应鹑火之次”属于无依据补全，应标注原文此处断裂含义不明"
+        ],
+        "uncertainty": [
+          "原文本中“地理恭赞玄機金書”疑为“地理恭赞玄机金书”，暂按原文保留；“寸九”含义不明；“辰吴”“杨州”疑为传抄讹误"
+        ]
+      },
+      {
+        "id": "book029-b001636-p000-84f6aa2466",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. locked_terms“乾”“坤”需保留原文，不应直接替换为“八卦之一”相关释义；2. 原文“次周分三河”被释为“周的分野对应三河地区”，断句错误，应为“（鹑火之）次，周分三河”，与前文“午丁同宫对应鹑火之次”衔接，候选断句偏差导致语义错误；3. 原文“鵝首之次”为“鹑首之次”的传抄错误，候选直接按“鹅首”释读未标注风险；4. 原文“亥壬同宮娵訾之次衞分并州也”与前文“申庚同宮實沈之次晉分并州”重复出现并州，候选未标注歧义"
+        ],
+        "uncertainty": [
+          "“鹅首之次”疑为“鹑首之次”的讹误；卫分并州与晋分并州重复，原文疑似有误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3454,
+    "completion_tokens": 1340,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3454,
+      "completion_tokens": 1340,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

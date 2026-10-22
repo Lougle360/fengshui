@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-25T19:53:54.103743+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4428fddf4cbfe0bb037b01e4635e76b375c1ee8fba351170bb9bf6c39bf7f10a",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000667-p000-3dc8421592",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“寫萬備不來”的具体语义无法明确"
+        ]
+      },
+      {
+        "id": "book030-b000669-p000-a8f8a73bee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“或有氏而無龍”存在OCR断读错误，候选误断为“有的情况是有龙而无虎”，与原文语义矛盾；原文“此句大非大談人不必以龍虎兩今爲拘也”释读错误，原文“大非大談”并非“这种说法非常错误，是妄谈”，而是“这不是夸大其词”的意思，属于语义反向错误"
+        ],
+        "uncertainty": [
+          "“解虎”具体所指不详",
+          "“龍虎兩今”为形近讹字，实际语义不明"
+        ]
+      },
+      {
+        "id": "book030-b000672-p000-ef0975661f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整句语义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b000674-p000-026efb2eac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“水軀勝于山龜”的“軀”“龜”疑似讹误，整句含义不明",
+          "“壬戊年”不符合干支组合规则，存在讹误",
+          "“共非巳 一”语义无法明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1877,
+    "completion_tokens": 421,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1877,
+      "completion_tokens": 421,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

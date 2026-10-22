@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-17T07:21:20.460701+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c887c446226ad26a23bfbde28eecbf6f27f5fd6b3a47e2fd26d28edfa23a89a3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002851-p000-8283c2e7db",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002852-p000-d26a890a84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'心意消息毋昏欺'，candidate译为'心意消息，不要昏乱欺骗'，将'消息'（消长、变化）误译为现代词汇'消息'，导致语义不通。'贝封字石'语义不明，candidate仅按字面转述，但未明确标注其不确定性，不符合'可以保留原短语并明确说具体所指不详'的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002853-p000-a88b946f63",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002854-p000-410a8c90d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002855-p000-b7915d7d21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002856-p000-72b08f37fd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文表格内容处理为连续段落，但部分翻译将不确定的OCR错误词汇（如'天廄'、'鄯'、'丸义'、'西兽'）直接当作确定含义译出，未保持原样或明确标注其不确定性。例如，'西兽'被译为'西兽'，但未说明此为原文用词且含义不明。这违反了'opaque_terms必须原样处在引号引用范围内，不能被候选句赋予确定含义'的原则。"
+        ],
+        "uncertainty": [
+          "原文表格内容存在大量OCR识别错误，部分词句语义不通，无法完全确定原意。"
+        ]
+      },
+      {
+        "id": "book035-b002858-p000-c274b8dcca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002859-p000-6149db98fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002862-p000-11391a1291",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002864-p000-e63bd8b2df",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'微优乾位'，candidate译为'微优乾位'，'优'字可能为'加'或'挨'的误写，但candidate未标注此不确定性，直接沿用'优'字，可能误导。原文'坤棺'，candidate译为'坤棺'并推测'可能为坤方或特定术语的误写'，但此推测性解释未明确标注为不确定，且'坤棺'作为opaque_term应原样保留在引号内，不应被赋予'坤方'等确定含义。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4131,
+    "completion_tokens": 701,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4131,
+      "completion_tokens": 701,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

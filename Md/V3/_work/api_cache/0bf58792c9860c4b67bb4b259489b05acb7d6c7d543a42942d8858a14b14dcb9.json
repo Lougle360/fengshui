@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T18:11:26.520046+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0bf58792c9860c4b67bb4b259489b05acb7d6c7d543a42942d8858a14b14dcb9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001010-p000-ea12832f62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "飛鳥就愬具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001014-p000-0b852e635f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文的“淋”直接标注为风水术语属于无依据释读，当前术语库未收录该含义，不得直接确定其属性；且原文“阴硬中珍”未做合理通顺化处理，影响普通读者理解"
+        ],
+        "uncertainty": [
+          "中珍的具体含义",
+          "淋的具体含义"
+        ]
+      },
+      {
+        "id": "book029-b001016-p000-2957e41e9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "慱金的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1128,
+      "completion_tokens": 254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

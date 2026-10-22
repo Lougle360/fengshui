@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-10-04T06:21:58.686676+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cd4275f9146c46fec3d808bfbb27351bcaab59938d474a3a5e6e926abd06d3a3",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000694-p001-45def613e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "模规罡天氧合"
+        ]
+      },
+      {
+        "id": "book028-b000695-p001-a1dbf9148e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "模规蕩瓶面"
+        ]
+      },
+      {
+        "id": "book028-b000697-p000-0fc6a5a5b8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘走马金水即走马文星’，candidate 将‘水’单独解释为‘风水语境中的河流、水系及其来去形态’，属于无依据的扩写。此处‘走马金水’是一个整体术语，不应拆分解释。且‘水’在allowed_glossary中的定义是针对特定上下文的，此处并非该语境。"
+        ],
+        "uncertainty": [
+          "模规核遊生初"
+        ]
+      },
+      {
+        "id": "book028-b000698-p000-04df4a3907",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文‘留金一體而分周圍乾净’，candidate 将‘乾净’处理为‘乾’净，并引用术语‘乾’，但此处‘乾净’很可能是一个词，意为干净、洁净，不应强行拆分。2. 原文‘外山奏密’，candidate 保留‘奏密’为不确定项，但释读中‘且外山‘奏密’’的表述，将‘奏密’当作一个已知状态描述，与后文标注其不确定矛盾，应统一为‘外山‘奏密’（具体含义不详）’。3. 原文‘國金之內’，candidate 写作‘国金’，但‘国’字在原文中为‘國’，是‘国’的繁体，应保留原字形或统一说明。4. 原文‘看此書毛髮竦然’，candidate 译为‘读到此书，令人毛发竦然’，属于合理的现代汉语转换，可以接受。"
+        ],
+        "uncertainty": [
+          "奏密",
+          "规挠",
+          "幽四",
+          "国金",
+          "感眉之患",
+          "刺床之殃",
+          "三点五点时立班班，五头六头并肩，秩秩无丛，首之上无交足之下"
+        ]
+      },
+      {
+        "id": "book028-b000699-p000-510ee5860d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文‘脉不宜好看’，candidate 译为‘脉不宜好看’，保留了原文的模糊性，但‘好看’在现代汉语中可能产生歧义，此处应明确其意为‘不宜过于显露、张扬’。2. 原文‘穴本陰又欲陽疑陰落’，candidate 断句为‘穴本属阴，又欲阳。若疑为阴落’，此断句和释义改变了原文逻辑。原文‘又欲陽疑陰落’可能是一个连贯表述，意为‘又希望是阳，又怀疑是阴落’，或存在其他断句可能。candidate 的断句和解释缺乏依据。3. 原文‘人手主見自得規樓’，candidate 译为‘人手主见，自得‘规楼’’，保留了‘规楼’的不确定性，可以接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1919,
+    "completion_tokens": 803,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1919,
+      "completion_tokens": 803,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

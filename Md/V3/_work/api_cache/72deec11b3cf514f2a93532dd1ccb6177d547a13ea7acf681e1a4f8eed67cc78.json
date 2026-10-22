@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T07:27:46.100238+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "72deec11b3cf514f2a93532dd1ccb6177d547a13ea7acf681e1a4f8eed67cc78",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002155-p000-56fd22404a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002157-p000-83d53fe1cd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002158-p000-b711b94fa0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译“淋”的含义，仅译出“冲刷”未完整对应“淋”指水流顺滴、浸淋穴场的语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002162-p000-77feb63f04",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未对“钗钳”“漏槽”“唇毡”进行说明，也未标注为含义不明，普通读者无法理解"
+        ],
+        "uncertainty": [
+          "“钗钳”“漏槽”“唇毡”为风水专名，原文未给出具体释义，具体所指需结合专业语境确定"
+        ]
+      },
+      {
+        "id": "book018-b002165-p000-c62a25149f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“杀戮军配”的“军配”被误译为“发配从军”，含义偏差；locked_terms中的“离”此处为“离开”义，不应套用allowed_glossary中“八卦之一”的释义，属于术语误用"
+        ],
+        "uncertainty": [
+          "“刑杀”的具体风水定义原文未详细阐释"
+        ]
+      },
+      {
+        "id": "book018-b002166-p000-bc77231316",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002167-p000-505a27cdbc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“卜氏”具体所指原文未明确说明"
+        ]
+      },
+      {
+        "id": "book018-b002168-p000-fb0fefd071",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002169-p000-2c95807c6d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“沙又随水而飞”的“沙”为风水术语“砂”（指穴场周边的山），此处误译为“沙砾”；locked_terms中的“离”在“失井离乡”中是“离开”义，不应套用“八卦之一”的释义，属于术语误用"
+        ],
+        "uncertainty": [
+          "“杨公”具体所指原文未明确说明"
+        ]
+      },
+      {
+        "id": "book018-b002170-p000-5ecb7bc9b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2177,
+    "completion_tokens": 820,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2177,
+      "completion_tokens": 820,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

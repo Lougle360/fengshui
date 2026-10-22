@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-26T11:57:37.894924+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ad9b7fd2f349a56fbbb739aac65aed3fdf67a658cf54688ce18d7dc1fd2bc29c",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000375-p000-90f49a95ad",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate擅自篡改原文逻辑，将“三吉平洋，三吉水来，朝平洋三吉”三个并列的前提条件错误解读为“这三种情况之下”，属于无原文依据的增义；原文“作主不宜尖射”并非特指“作为主位的山”，candidate自行限定主语不符合原文表述；原文“宜向对五凶”被改为“适宜面向五凶方位”存在偏差，“向对”指向与五凶相对而非朝向五凶本身；原文“惟三吉山高”的“惟”是“只有”之意，candidate误改为“只要”，逻辑含义完全偏离；原文“有文有武之象”被扩写为“既有文运又有武运的格局”属于无依据的引申，不符合保守校对原则。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 588,
+    "completion_tokens": 236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 588,
+      "completion_tokens": 236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

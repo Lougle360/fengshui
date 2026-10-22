@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T12:17:21.176140+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "768c3629fb49a81e2686c3ff98f0fa1d73d1e23e1c7393a04af211b53299ed8f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000566-p000-107313c5d1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的专名如‘鲁性命’‘舟出’‘染山’‘穿山服’等赋予了确定的含义，不符合要求，这些术语应保留原文的模糊性，不得自行解释"
+        ],
+        "uncertainty": [
+          "原文中‘鲁性命’‘舟出’‘染山’‘穿山服’等术语具体所指不详，释读中不应将其作为确定的概念进行解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 139,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 917,
+      "completion_tokens": 139,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

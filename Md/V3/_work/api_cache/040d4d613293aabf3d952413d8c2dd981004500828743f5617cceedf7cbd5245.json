@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-09-25T15:47:44.114790+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "040d4d613293aabf3d952413d8c2dd981004500828743f5617cceedf7cbd5245",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000639-p000-e1216f2182",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“经龍月眉 云精乃细 单随太而 洋云陰彎 域势金 為眉之比 吉太主美 半陰出女 嶺猴女之 蛛出人眉 眉贵秀也 录而美蛾 得亦堪眉”断句混乱，无法准确解读连贯含义"
+        ]
+      },
+      {
+        "id": "book026-b000640-p000-f11345b2d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文无清晰断句，排版混乱，无法解读连贯含义"
+        ]
+      },
+      {
+        "id": "book026-b000641-p000-ec200f534d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“此山居高聳出才南亥”，候选释读将“出才”断为独立表述不符合原文语境，应为“此山居高聳，出在南亥”的讹写类语义，候选错误拆分导致含义偏差"
+        ],
+        "uncertainty": [
+          "原文中“紙”“到”二字语义衔接不明",
+          "“才南亥”语义存在模糊性"
+        ]
+      },
+      {
+        "id": "book026-b000642-p000-660548dfae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“張更無價魚袋居旺官易期師是木火星辰高華而頓恕者卓棋是火皋頭開聊權而卓立者”断句混乱无法释读",
+          "“達之七卓旗之山定 梅雲端管取天生俊饑”中“七”“饑”语义不明",
+          "“賴布辰云遠半 軍之流捉 列脉 笋眩 天 美 涯清文與韓柳爭高名”排版散乱无法连贯释读"
+        ]
+      },
+      {
+        "id": "book026-b000647-p000-0bb0931cae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“武官红 紅蕪出身”具体含义不明",
+          "“其言不下然亦不切干”语义无法准确解读"
+        ]
+      },
+      {
+        "id": "book026-b000648-p000-da9df3fc87",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“木文塘存之如备路”语义不明，无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000649-p000-33cfd22177",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“銳而卓立者謂之頃鎗山”的“頃鎗”对应前文的“頓鎗”，存在形近讹写，候选未指出二者对应关系，且直接使用“顷枪山”属于未核对前文术语；原文“頃卒ち身圖者謂之頃教”的“ち”大概率是OCR识别错误或文字漫漶，候选直接判定为日文假名属于无依据认定"
+        ],
+        "uncertainty": [
+          "“酉司肩淨朝者闢之”语义模糊",
+          "“被爵”具体含义不明",
+          "“頃卒ち身圖者謂之頃教”存在识别/漫漶问题，整句语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2953,
+    "completion_tokens": 813,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2953,
+      "completion_tokens": 813,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

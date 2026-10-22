@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-18T00:57:19.066248+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0df49e1c10bc5441aad8ff08a6a3bb524b1dc37e94be0eca58b74e4f43f987c2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005099-p000-6ade0dea45",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译关键信息：'砂格八'是卷二十五的标题或主题，candidate仅译为'讲述砂格八'，未能明确其作为章节标题的性质，且未体现'格'的含义。应译为类似'《地理天机会元》卷二十五，内容为砂格八。'或'《地理天机会元》卷二十五，标题是砂格八。'"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 592,
+    "completion_tokens": 125,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 592,
+      "completion_tokens": 125,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

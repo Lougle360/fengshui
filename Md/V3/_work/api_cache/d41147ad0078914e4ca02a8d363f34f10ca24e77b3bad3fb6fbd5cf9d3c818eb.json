@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:03:12.981912+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d41147ad0078914e4ca02a8d363f34f10ca24e77b3bad3fb6fbd5cf9d3c818eb",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000508-p000-cbd08f8bfb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000509-p000-e16680c995",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000510-p000-1c93614391",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“被時”“建時”“被時”“不朵”“一炁”“己申”“己合”“小修”“共埋葬”“純杵”等表述，候选释读未明确对应原文含义，存在模糊处理；原文“吳”疑为OCR错误，候选未标注该不确定性"
+        ],
+        "uncertainty": [
+          "原文中“被時”“建時”“被時”“不朵”“一炁”“己申”“己合”“小修”“共埋葬”“純杵”等表述具体所指不明；原文“吳”疑为OCR识别错误"
+        ]
+      },
+      {
+        "id": "book010-b000511-p000-efdf278aaa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“汶”疑为“沒”的讹误，候选未标注该不确定性；原文“帰”为“歸”的异体字，候选已改为规范字，符合要求；原文“吳”疑为OCR错误，候选未标注该不确定性；原文“元桎”未明确是否为特定典籍名称，候选直接释读为《元桎》，存在无依据认定的问题"
+        ],
+        "uncertainty": [
+          "原文中“汶”疑为“沒”的讹误；原文“吳”疑为OCR识别错误；原文“元桎”具体所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2048,
+    "completion_tokens": 476,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2048,
+      "completion_tokens": 476,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

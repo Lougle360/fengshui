@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T16:48:36.592873+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "347897b8e6668966e520cbec1d2a73faf414877c97aad2925730921a55d7ea20",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000789-p000-5302f3e9ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“一惡一漢”为风水术语，具体含义未明"
+        ]
+      },
+      {
+        "id": "book026-b000791-p000-71e327c0ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000793-p000-ba786f53d7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“周多龍”义理含混，候选释读为“关于五行的相关说法繁杂，勘验龙势的关键”属于无依据推定，不符合释读规范",
+          "原文“以入不虞”含义不明，候选释读为“如果还用其他不可靠的方法”缺乏原文支撑，属于不当增译"
+        ],
+        "uncertainty": [
+          "“外從之同頭”具体含义未明"
+        ]
+      },
+      {
+        "id": "book026-b000794-p000-689473922d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“國而氣聚者”义理不明，候选直接释读为“还能聚气的”属于不当删改、无依据推定",
+          "原文“棗嫌”仅为形近疑似讹误，候选直接认定为“最嫌”并释读，未明确标注该判断属于推测范畴，存在把不确定内容当成事实的问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000798-p000-ec702c0b7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1711,
+    "completion_tokens": 419,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1711,
+      "completion_tokens": 419,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

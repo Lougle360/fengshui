@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T17:08:07.953085+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "21ac8ab7424381efbd517ee62e7f1fbfdd341a6126d1ba9dea288f69a7ca0c3a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000743-p000-2efda757ab",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：“不永所事”，意思是争讼之事不能长久持续；虽然“小有言”，但其中的是非曲直已经辨明。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000744-p000-88b6009edd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "胡炳文解释说：“起初不说‘不永讼’，而说‘不永所事’，事情刚开始的时候，还希望它不会发展成争讼。”（出自《周易本义通译》）这种说法品味玩味“事”字的细微含义，似乎有可取之处。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000745-p000-e5a5c96f83",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文九二，争讼失利，逃窜速归，那是三百户人家的小邑，居此不遭祸患。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000746-p000-9148a07b78",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "九二爻的爻辞是：“不克讼①，归而逋②，其邑人三百户，无眚③。”",
+        "confidence": "high",
+        "uncertainty": [
+          "①②③为原书注释标记，具体注释内容未在本条出现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 423,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1602,
+      "completion_tokens": 423,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

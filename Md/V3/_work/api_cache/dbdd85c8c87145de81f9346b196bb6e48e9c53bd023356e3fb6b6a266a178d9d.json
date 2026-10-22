@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-10-18T11:41:31.592980+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dbdd85c8c87145de81f9346b196bb6e48e9c53bd023356e3fb6b6a266a178d9d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006396-p000-d4966e5991",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘凡遷作六木宜用也’中的‘六木’是特定术语，candidate译为‘若用六木则适宜’将其作为确定解释，但allowed_glossary未定义‘六木’，应保留原词并标注不确定性。",
+          "原文‘巳爲龜甲之空’译为‘巳位又是龟甲之空’，‘龟甲之空’是opaque_term，应加引号引用，candidate未加引号，且未标注其含义不确定。",
+          "原文‘合作下格局’译为‘应当合作下等格局’，‘合作’在此语境下可能意为‘构成、形成’，译为‘应当合作’可能产生歧义，建议调整为‘因此构成下等格局’或类似表述，并保留‘格局’原词。"
+        ],
+        "uncertainty": [
+          "‘六木’具体所指不详。",
+          "‘龟甲之空’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b006397-p000-0a9cf31ea4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006398-p000-ef37c2e76b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006399-p000-3054e97a3c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006400-p000-0e62a0d8f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006401-p000-4a869fdd18",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006402-p000-0f598c9fae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘辛酉木向雖曰木入金鄉終是胎旺之地’译为‘虽然说是木入金乡，但终究是胎旺之地’，‘胎旺之地’是风水术语，allowed_glossary未定义，candidate将其作为确定解释，应保留原词并标注不确定性。",
+          "原文‘根本枝葉俱美’译为‘根本与枝叶都美好’，‘根本枝叶’是比喻，candidate直译可以接受，但最好加注说明其为比喻。"
+        ]
+      },
+      {
+        "id": "book035-b006403-p000-a965ddc3a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006404-p000-f745629f38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006405-p000-b49d9e0fec",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘夫郡袁州陳晉郡大’可能为‘夫郡、袁州、陈晋郡大’或存在OCR错误，candidate处理为‘东阳夫郡、袁州陈晋郡大’并标注了不确定性，可以接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1997,
+    "completion_tokens": 728,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1997,
+      "completion_tokens": 728,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

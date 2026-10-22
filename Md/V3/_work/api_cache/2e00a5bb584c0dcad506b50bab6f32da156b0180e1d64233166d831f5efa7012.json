@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-10-16T14:57:14.815601+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2e00a5bb584c0dcad506b50bab6f32da156b0180e1d64233166d831f5efa7012",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002577-p000-5eec28c5cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文OCR严重错乱，无法还原原意"
+        ]
+      },
+      {
+        "id": "book035-b002580-p000-dd899485fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘赵向午丙立裕’中的‘裕’字直接替换为‘穴’，这是无依据的改动。原文为‘立裕’，应保留原文或标注为讹字/未明。",
+          "候选句将‘庚百方’释为‘庚百方’，但原文为‘庚百方’，‘百’字可能是‘酉’或‘辛’的讹字，但候选句未标注此不确定性，直接当作确定术语使用。",
+          "候选句将‘赵生’列为未明词，但原文为‘旺龙赵生俱不忌也’，‘赵生’可能是‘朝生’或‘长生’的讹写，但候选句未对此进行任何推测或标注，处理方式不一致。",
+          "候选句将‘林入金’列为未明词，但原文为‘林入金’，‘林’字可能是‘木’的讹字，但候选句未标注此可能性。"
+        ],
+        "uncertainty": [
+          "赵向",
+          "林入金",
+          "庚百方",
+          "赵生",
+          "阴阳湘趋"
+        ]
+      },
+      {
+        "id": "book035-b002583-p000-028ca5f83e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "龙体头会于为而余能囚",
+          "氧",
+          "氟",
+          "彝",
+          "绳",
+          "潮立向"
+        ]
+      },
+      {
+        "id": "book035-b002584-p000-7bfe2c6d62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文OCR严重错乱，无法还原原意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2959,
+    "completion_tokens": 454,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2959,
+      "completion_tokens": 454,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

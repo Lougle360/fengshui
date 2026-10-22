@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-24T13:04:25.082562+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "efc1e31154b98c25cc2eb578945189de4ec315d3eb38f60a1fe9774635803d8d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001041-p000-1d53cf5212",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b001042-p000-30da8922ff",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "部分表述未明确标注歧义，如“郡水”“自水”“红隐”“药丝”“藁”“水衣”等具体所指不详，未按要求标注风险"
+        ],
+        "uncertainty": [
+          "原文中部分表述如“郡水”“自水”“红隐”“药丝”“藁”“水衣”等具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001044-p000-c1d83aa7a7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "部分表述未明确标注歧义，如“确”“镛”“体水”“书水”“离泉涉下”“抛投”“确”“卤”等具体所指不详，未按要求标注风险"
+        ],
+        "uncertainty": [
+          "原文中部分表述如“确”“镛”“体水”“书水”“离泉涉下”“抛投”“确”“卤”等具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b001045-p000-7554e073da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "部分表述未明确标注歧义，如“郡应”“荣嗟”“牛泓”等具体所指不详，未按要求标注风险"
+        ],
+        "uncertainty": [
+          "郡应",
+          "荣嗟",
+          "牛泓"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3072,
+    "completion_tokens": 435,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3072,
+      "completion_tokens": 435,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

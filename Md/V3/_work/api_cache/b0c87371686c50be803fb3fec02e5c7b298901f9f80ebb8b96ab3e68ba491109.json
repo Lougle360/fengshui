@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-18T04:00:44.462492+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b0c87371686c50be803fb3fec02e5c7b298901f9f80ebb8b96ab3e68ba491109",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005362-p000-dccba883cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将表格结构错误地描述为“第一行标题分别为...表格主体包含四组图文对照...表格第二行标题分别为...表格第三行标题分别为...”。source 的表格结构是：第一行是四个标题单元格（其中第一个和第三个跨两列），第二行是四个图片单元格，第三行是四个文字描述单元格。candidate 的描述与 source 的实际结构不符，属于对原文结构的误读和错误概括。",
+          "candidate 在描述文字内容时，对原文诗句进行了错误的断句和引用，例如“珠得法，珠中明，属转星心，一阴蟠”与 source 中的“出子祥面仕口珠黄大子雲前群中在龍詩盈贤孫案更扦穴前戲曰孫得法珠”不符，属于对原文内容的错误转录和解释。",
+          "candidate 多次使用“文中记载相关诗句与描述，如‘...’等，具体所指不详”的句式，但引用的内容并非原文诗句的准确引用，而是经过错误拼接的片段，这属于对原文内容的错误释读。",
+          "candidate 将 source 中所有文字描述单元格的内容都归类为“诗句”，但 source 原文并未明确标注所有文字都是诗，candidate 的概括缺乏依据。"
+        ],
+        "uncertainty": [
+          "source 中的文字描述部分（如“出子祥面仕口珠黄大子雲前群中在龍詩盈贤孫案更扦穴前戲曰孫得法珠”）因断句和含义不明，难以进行准确的白话释读。",
+          "表格中图片与文字的具体对应关系，以及各“形”的具体风水含义，原文未提供清晰解释。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2936,
+    "completion_tokens": 435,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2936,
+      "completion_tokens": 435,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T17:26:43.596194+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5dcaf52690b5a48b952847c5c00fd79db9c9b38eac8d9de70485e6d77c12edda",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000040-p000-2b50b8e8a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“及說開後”误译为“並講解開局的情況”，无依据，原文仅表述为相关内容附在后面，未提及“開局”含义；原文“是不發者”指代赵祖好地未得道所以不发，候选将其拆分为“一木沖霄地是個不會發跡的地方，趙祖的好地卻未得真法”逻辑拆分错误，不符合原文语义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000041-p000-afd283edd3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000043-p000-433296ce5b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“陰揚歌”被误写为“陰陽歌”，字形错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000044-p000-59d46f254f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“消砂之功”的“消砂”是风水操作术语，候选错误套用allowed_glossary中“砂”的定义来解释“消砂”，属于术语误释；原文“唐穴向 一小他”断句不当，候选补“山”无依据，原文表述模糊，不应臆断为“向一小山”；原文“發頴貴”被误写为“出了穎貴之人”，“頴”字写错且无依据增译“出了”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000045-p000-42699da288",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000046-p000-20d5d85ab5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“未砂員净”的“員”是“圓”的通假，候选保留“員淨”未转换成现代通用字，不符合白话释读要求；原文“納甲學陰佚”“上于砂太重”“乍手田水遶來”“遁水捕上”“尸強州付塢”“巳世入為”“多減可地理教人”等多处晦涩表述未做通俗化处理，仍保留原文生僻表述，未转换成现代中文；“陰陽歌十”是篇目名，候选直接融入句中，未明确标注。"
+        ],
+        "uncertainty": [
+          "“乖頭紫氣”“田龍桎催官”“納甲學陰佚”“邳制為奴”“乍手”“遁水捕上”“尸強州付塢”“巳世入為”“乾甲神巽多減”等表述具体含义未明"
+        ]
+      },
+      {
+        "id": "book030-b000047-p000-ef5a89e1f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“甲爲大于之首”存在OCR或原文讹误，候选直接保留错误表述未做标注；原文“與不哉乾元”的“不”是“大”的讹误，候选未纠正也未标注，直接保留错误表述；原文“角木峽”应为“角木蛟”（二十八宿之一），候选保留错误写法未修正也未标注；“丙下丁以在天子端門”表述晦涩，未做通俗化处理。"
+        ],
+        "uncertainty": [
+          "“大于之首”“不哉乾元”“角木峽”“丙下丁以在天子端門”“辛可文章”等表述具体所指存疑"
+        ]
+      },
+      {
+        "id": "book030-b000048-p000-824a3317e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“員净”未转换成现代通用的“圆净”；“如策”“配金欽”“探花筵祖”表述晦涩，未做通俗化处理，也未标注含义不明。"
+        ],
+        "uncertainty": [
+          "“如策”“金欽”“探花筵祖”具体含义未明"
+        ]
+      },
+      {
+        "id": "book030-b000050-p000-5f9328ffa7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“以”字语义不完整，应为原文残断"
+        ]
+      },
+      {
+        "id": "book030-b000052-p000-f17e29ca39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“餘試可”与前文“徐試可”疑似同一人名讹误，候选未标注关联；擅自增译“这里列出的篇目是”“第十一卷”，原文仅为“餘試可地星數人陰陽歌十一”，无依据认定是“第十一卷”，属于增译。"
+        ],
+        "uncertainty": [
+          "“餘試可”是否为“徐試可”讹误、“餘試可地星數人陰陽歌”具体篇目及“十一”是卷次还是篇目序号均无法考证"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 1341,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3493,
+      "completion_tokens": 1341,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

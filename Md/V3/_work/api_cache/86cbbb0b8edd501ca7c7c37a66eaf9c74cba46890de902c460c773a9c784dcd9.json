@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T20:31:38.971031+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "86cbbb0b8edd501ca7c7c37a66eaf9c74cba46890de902c460c773a9c784dcd9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001503-p000-9fb1d6dbdb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001504-p000-850cf9bbda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001505-p000-3840b5f9a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001507-p000-f49e18fbba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“阳动万物化生”，候选漏译“物”字，将“化生”简写成“生”，缩减了原文语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001508-p000-89da3d69b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001509-p000-556fabe916",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“金陰穉故次水”，候选误写为“排在火的次位”，与原文顺序不符；allowed_glossary中“水”的定义为风水语境的河流水系，此处“水”属于五行范畴，术语适用语境错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001510-p000-3069b6d574",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001511-p000-7b613c6274",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“分陰分 陽”存在空格，已按文意补全为分阴分阳"
+        ]
+      },
+      {
+        "id": "book029-b001512-p000-a5e689c423",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头混乱字符“河 一乾数涵後生天卦 大 1 艮位 块”属于OCR识别错误内容，候选直接作为有效内容释读，不符合保守释读要求"
+        ],
+        "uncertainty": [
+          "“员诬方”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b001513-p000-618250b6da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故二與四生數居之”，候选误写为“二生数、四成数居于此”，与原文“生数”的表述相悖；原文“歷北而東故六與八成数居之”（OCR误作“大”实际应为“六”，属于河图成数常识），候选未对OCR错误“大”做合理校正，直接保留“大与八成数”，存在语义错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3126,
+    "completion_tokens": 836,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3126,
+      "completion_tokens": 836,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

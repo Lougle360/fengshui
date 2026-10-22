@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-09-23T10:05:58.984972+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f6aad7ca9af54f927a93ce9ae2cc6ac756d7aea29e3b8255979ff1c45728ce73",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000244-p000-e2b4c574a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'衲曰然也常見有美峯結地而不住者有星辰不佳者反結大地 得不麻妍怕類'，candidate释读为'衲曰：確實如此。常見有美峰結地卻不住，有星辰不佳卻反結大地，這是否麻妍怕類？'。其中'得不麻妍怕類'在原文中语义不明，candidate将其处理为'這是否麻妍怕類？'，增加了'是否'这一推测性词语，但原文该短语本身含义不清，candidate的处理方式（保留原短语并加上疑问语气）符合'保留原短语并明确说“具体所指不详”“原文未明”'的规则，但此处candidate并未明确标注其不确定性，而是直接将其转化为一个疑问句，这可能导致读者误以为'麻妍怕類'是一个可理解的固定短语。应明确标注其含义不确定。",
+          "原文'答曰打心龍衲曰穿心龍'，candidate释读为'答：打心龍。衲曰：穿心龍'。'打心龍'与'穿心龍'是否为同一概念或存在差异，原文未明。candidate直接并列呈现，未作说明，可能造成混淆。应标注此处术语关系不确定。",
+          "原文'卿姒不依惡龍之辨人人易知'，candidate释读为'卿姒不依。惡龍之辨人人易知'。'卿姒不依'语义不明，candidate仅作断句，未作任何说明或保留原短语。这属于对含混短语处理不足，应明确标注其含义不确定。",
+          "原文末尾'明觀問曰龍何'，candidate补全为'明觀問：龍何為真？何為假？'。补全了问题，但原文问句不完整，candidate的补全是基于下文回答的合理推测，可以接受。但严格来说，这也是一种推测，可考虑在uncertainty中说明。"
+        ],
+        "uncertainty": [
+          "'得不麻妍怕類'含义不明。",
+          "'打心龍'与'穿心龍'的关系不明。",
+          "'卿姒不依'含义不明。"
+        ]
+      },
+      {
+        "id": "book002-b000245-p000-f4151b85c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'誰知其龍起一大勢踴起為山就在山之腳下變成撓掉一般早已溜去'，candidate释读为'誰知龍起一大勢，踴起為山，就在山之腳下變成撓掉一般，早已溜去'。此处'其龍'释为'龍'，省略了'其'，但'其'可能指代前文，省略后不影响核心语义，可接受。",
+          "原文'頓跌行走二三節開門立戶四山園抱朝案對坐砂水合法'，candidate释读为'頓跌行走二三節，開門立戶，四山園抱，朝案對坐，砂水合法'。'園抱'应为'圓抱'或'環抱'之误，candidate保留'園抱'，可接受。",
+          "原文'惟有朝山識作心毗輪'，candidate释读为'惟有朝山識作心毗輪'。'心毗輪'含义不明，candidate未作任何说明，直接保留。应标注其含义不确定。",
+          "原文'往前介去'，candidate释读为'往前介去'。'介去'含义不明，candidate未作说明。应标注其含义不确定。",
+          "原文'張不布瓜'，candidate释读为'張不布瓜'。此短语含义不明，candidate未作说明。应标注其含义不确定。",
+          "原文'有蜂腰、觸膝'，candidate释读为'有蜂腰、觸膝'。'觸膝'可能为'鶴膝'之误（因下文有'蜂腰鶴膝'），但candidate依原文保留'觸膝'，可接受，但可注明可能的讹误。",
+          "原文'辨富之大小貴之輕重生死禍福吉凶房分有龍無 美'，candidate释读为'辨富之大小、貴之輕重、生死禍福吉凶、房分。有龍無美'。断句和释读基本准确。但'有龍無美'与下文连接，candidate在此处句断，可以接受。"
+        ]
+      },
+      {
+        "id": "book002-b000246-p000-01f32c3f1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000247-p000-c3f15c4e7d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'灰線草忭尋脉眷隱隱隆隆須細認蛺絲馬 共'，candidate释读为'灰線草忭尋脈，眷隱隱隆隆，須細認。蛺絲馬跡要分明，如髮如珠是真峽，一斷一續莫離蹤。'。candidate对原文末尾不完整的'蛺絲馬 共'进行了补全和续接（根据下一条内容），这超出了本条目source的范围。本条目candidate应严格对应本条目source，不应提前补全下一条内容。应将'蛺絲馬跡要分明，如髮如珠是真峽，一斷一續莫離蹤。'删除，仅处理到'須細認'为止，并对'蛺絲馬 共'的不完整状态进行标注。"
+        ],
+        "uncertainty": [
+          "'灰線草忭'含义不明。",
+          "'蛺絲馬 共'原文不完整，含义不明。"
+        ]
+      },
+      {
+        "id": "book002-b000248-p000-6c419366c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000249-p000-c12118a449",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000250-p000-de419053e4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000251-p000-543809c3d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5474,
+    "completion_tokens": 1497,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5474,
+      "completion_tokens": 1497,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

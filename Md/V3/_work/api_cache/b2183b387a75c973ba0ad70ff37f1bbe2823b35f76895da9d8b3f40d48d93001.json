@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T18:35:43.902798+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b2183b387a75c973ba0ad70ff37f1bbe2823b35f76895da9d8b3f40d48d93001",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002045-p000-8ae07fe412",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002046-p000-a681abe192",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002047-p000-8932f18cfb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002048-p000-9577811fc4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR残缺，部分语句衔接不畅，候选释读存在语句拼接不当问题"
+        ],
+        "uncertainty": [
+          "原文存在OCR残缺，部分语句衔接不畅，已按可辨识内容整理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1659,
+    "completion_tokens": 231,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1659,
+      "completion_tokens": 231,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-18T11:43:08.142022+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "478773c74e7884661e8895eed216d3484b2b5ce7aa3469f50465ac7534d4abc2",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006406-p000-38431e74c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006407-p000-dcd8d783ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘乙亢金龍亢二至五’中，‘亢’字出现两次，candidate 译为‘乙亢金龙亢’，未能清晰处理此重复。可能指‘乙亢金龙’星宿的‘亢’宿，度数从二度至五度。candidate 的表述‘乙亢金龙亢’不符合现代中文习惯，且含义不清。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006408-p000-789f70ea7b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006410-p000-853bb7e9d0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006411-p000-343b31b63d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘辛胃土雉婁十二至胃二’，candidate 译为‘辛胃土雉娄，其度数范围从十二度至胃二度。’存在歧义。‘胃二度’可能指胃宿二度，但‘十二度’的参照系不明。candidate 未明确标注此不确定性，可能误导读者认为‘十二度’与‘胃二度’是同一宿的连续度数。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006412-p000-e9d794d4f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006413-p000-eb4b5eb460",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006414-p000-aeb6f03fbe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘向咸歸妹穴損之豫’结构简略，candidate 译为‘向卦对应咸卦与归妹卦，穴卦对应损卦与豫卦。’将‘向’和‘穴’直接解释为‘向卦’和‘穴卦’，并使用了‘对应’一词，这是对原文关系的推测性解释，超出了 allowed_glossary 中‘穴’和‘向’的定义范围，有将推测写成事实的风险。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006415-p000-5d509ce645",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006416-p000-90a8240452",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘震亢金龍角十至亢二’，candidate 译为‘震卦所属的亢金龙角，其度数范围从十度至亢二度。’存在与前述类似的问题：‘亢金龙角’的表述不清晰，且‘十度’的参照系不明。2. 原文‘戌婁金狗一至九一’，candidate 译为‘戌娄金狗，其度数范围从一度至九一度。’‘九一度’的表述异常，可能指九度或九度与一度之间，candidate 未标注此不确定性。3. 原文‘穴中孚蠱’，candidate 译为‘穴卦对应中孚卦与蛊卦。’与前述类似，将‘穴’解释为‘穴卦’并使用‘对应’一词，属于无依据的扩写。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2019,
+    "completion_tokens": 815,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2019,
+      "completion_tokens": 815,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

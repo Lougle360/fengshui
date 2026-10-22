@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T17:57:49.315716+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d33c8278d3d4c6202e85207a66ad17cef8b36e8399d82287b4b3f8b2aacf5c1c",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000934-p000-a0bf7f26e7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“就奕”的具体含义尚不明确，此处按上下文顺承语义处理"
+        ]
+      },
+      {
+        "id": "book029-b000939-p000-f54d2e07d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“迎未就去”是水神“迎来还未靠近就流去”的连贯语义，不应拆分为“迎来、未靠近、流去三种状态”，属于语义误读"
+        ],
+        "uncertainty": [
+          "“帷雄交度”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000941-p000-d774794c0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000943-p000-ac6c5776e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 274,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1369,
+      "completion_tokens": 274,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

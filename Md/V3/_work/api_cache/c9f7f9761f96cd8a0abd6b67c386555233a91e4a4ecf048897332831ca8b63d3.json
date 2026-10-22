@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-25T20:20:37.971762+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c9f7f9761f96cd8a0abd6b67c386555233a91e4a4ecf048897332831ca8b63d3",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000794-p000-9744c32ba6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000795-p000-787ef7b1db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故曰素也”对应前文中的“大四案”，candidate误作“所以叫素案”，属于漏失原文信息；原文最后“總以逆抱有情爲古”的“古”candidate释为“古制标准”缺乏依据，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“穴以有妄爲妙”的“妄”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000796-p000-e6b8fcb307",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000797-p000-309825b0c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的书名是“五斧”，candidate误作“曲水来琢五斧”，属于书名错译；原文“卷三捌砂三十六”candidate误作“卷三《捌砂三十六一》”，数字错误；原文“壠尖山秀出只消一峯兩峯用說董德彰”断句错误，candidate释读为“何必追求十分厚重的垄地、尖秀突出的山，只要有一两座峰就可发挥作用。董德彰还没遇到师父的时候”属于断句误解，原文逻辑存在偏差"
+        ],
+        "uncertainty": [
+          "“十氏”具体身份不详"
+        ]
+      },
+      {
+        "id": "book030-b000798-p000-3875997d6b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“大癇小淵”为形近讹误，此处按“大小深浅”释读"
+        ]
+      },
+      {
+        "id": "book030-b000799-p000-fadafd9784",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾内容残缺"
+        ]
+      },
+      {
+        "id": "book030-b000801-p000-1e2b7eb565",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“在此穴殊亦環頤穴後謂星豐滿業穴塲”candidate释读为“这个穴也属于环颐穴，穴后所说的星峰丰满，涵盖整个穴场”属于文意错解，原文表述含糊，无依据认定该穴为环颐穴，也无依据将“業”释为“涵盖”"
+        ],
+        "uncertainty": [
+          "原文末尾内容残缺"
+        ]
+      },
+      {
+        "id": "book030-b000803-p000-6d4a776027",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“所谓唯有朝山议佳 心是也”candidate漏失“心是也”相关表述；原文“青起偏恊”candidate释为“青气起于偏胁”无依据，属于无依据增译；原文“旺旺神員而筵”candidate按“旺神圆满而有余”释读，未明确标注该处理属于讹误推定，不符合规范"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3257,
+    "completion_tokens": 876,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3257,
+      "completion_tokens": 876,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

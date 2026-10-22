@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-09-25T16:40:45.602070+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3449b92f81b700ad83a84fdbc03b00de4fe0f456c7b5e5ad05307f9b1d2aeab8",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000568-p000-50553b63c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文断句存在争议，‘名曰假其詳’的具体表述指向存疑"
+        ]
+      },
+      {
+        "id": "book029-b000569-p000-92362a475e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘个字分明’为风水形峦术语，此处依通用风水术语义释读",
+          "原文“真宂”疑似“真穴”的通假或讹写，存在释读风险",
+          "‘水合脉尺’的具体度量标准原文未明确说明"
+        ]
+      },
+      {
+        "id": "book029-b000570-p000-e8c897c30e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“宄中心”疑似“穴中心”的通假或讹写，存在释读风险",
+          "‘饶减’为风水操作术语，此处依原文术语保留"
+        ]
+      },
+      {
+        "id": "book029-b000571-p000-2baeff3719",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“宂”疑似“穴”的通假或讹写，存在释读风险",
+          "原文“架析”为疑似讹字，释读为“架折”存在不确定性",
+          "‘饶减’‘移掇放送’为风水操作术语，依原文保留"
+        ]
+      },
+      {
+        "id": "book029-b000573-p000-2dec9fae85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及‘饶减’术语，候选释读误将未出现的内容列入uncertainty，属于多余表述"
+        ],
+        "uncertainty": [
+          "原文“其脉隱常”的“常”疑似衍字，存在释读风险",
+          "‘珠乳’为风水相关术语，依原文保留",
+          "末尾句断句存在争议，语义释读存在一定不确定性"
+        ]
+      },
+      {
+        "id": "book029-b000575-p000-1980c641ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“宂”疑似“穴”的通假或讹写，存在释读风险",
+          "‘挨借迎接’为风水操作术语，依原文保留"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2421,
+    "completion_tokens": 638,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2421,
+      "completion_tokens": 638,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-26T03:17:45.933711+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d2ad139e60d86b2d692479774b437155b8302b901faf75b5bc9021d5845d441a",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001939-p000-dada2f17ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001941-p000-4a784953bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "金盘荷兼的“兼”含义存疑",
+          "天一榦步的“榦”含义存疑"
+        ]
+      },
+      {
+        "id": "book029-b001944-p000-4c63d33d9a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“武官穴或斜或全”被误译为“武官穴形态或斜或正”，“全”无“正”含义，属于无依据臆译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001946-p000-a83b33fe38",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴惟如鎗覆磬”被误译为“穴忌讳有如枪覆磬的特征”，“惟”为讹译，此处应为禁忌类表述与上下文一致，含义偏差；原文“穴怕出身尖亥”中“尖亥”为风水专业表述，无依据译为“尖亥的形态”属于臆测"
+        ],
+        "uncertainty": [
+          "水装的“装”含义存疑",
+          "尖亥具体含义不明",
+          "如鎗覆磬的具体指向不明"
+        ]
+      },
+      {
+        "id": "book029-b001948-p000-883eca73ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2481,
+    "completion_tokens": 400,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2481,
+      "completion_tokens": 400,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

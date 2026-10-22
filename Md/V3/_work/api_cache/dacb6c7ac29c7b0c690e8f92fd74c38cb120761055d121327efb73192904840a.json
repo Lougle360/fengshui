@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-10-16T08:38:43.818163+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dacb6c7ac29c7b0c690e8f92fd74c38cb120761055d121327efb73192904840a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001582-p000-2cde9867f9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'主爲商發財秀麗主貴須下宛宛中橫木曲水亦然'，candidate释为'如果地势主掌经商发财、相貌秀丽以及地位显贵，那么必须位于宛转曲折之处，且中间横亘着弯曲的木形或曲水'，存在严重误译。原文'主爲商發財秀麗主貴'是并列的三种吉应（主商、发财、秀丽、主贵），candidate将'商發財'合并为'经商发财'，并将'秀丽'误译为'相貌秀丽'，原文'秀丽'应指山水形态秀丽。'须下宛宛中横木曲水亦然'应指穴场（或龙脉）必须位于宛转曲折的形态之下，并且中间有横木或曲水（'横木曲水'是并列关系）也同样吉利。candidate的'位于宛转曲折之处，且中间横亘着弯曲的木形或曲水'，将'横木曲水'处理为修饰关系，且增译了'弯曲的木形'，改变了原意。",
+          "'若短爲倒地貪狼長硬爲死木'，candidate释为'若形态短促，则如同倒地的贪狼星；若形态长而僵硬，则如同死木'，将'倒地贪狼'和'死木'解释为'如同'，但原文'爲'在此处应理解为'是'或'成为'，指形态短就是倒地贪狼格，形态长硬就是死木格，这是风水术语的直接指代，而非比喻。candidate的译法削弱了其作为固定格局术语的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001593-p000-8bd954815b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'水無剪火之法'，candidate释为'以及水没有克制火煞的方法'，将'水無剪火之法'作为并列的灾祸之一。但结合上下文，'主落水自縊暗啞軍賊水無剪火之法'，'水無剪火之法'更可能是对前文所述灾祸（落水、自缢、暗哑、军贼）原因或状况的补充说明，意指（因为）水没有克制火（煞）的方法（而导致这些灾祸）。candidate将其处理为独立并列项，改变了原文的语义逻辑关系。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001595-p000-dfef5963fe",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'蓋不上幷生旺也'的确切含义是解释穴名'煞会穴'的由来（大概是因为煞气聚集，而非上乘并合生旺之气），还是补充说明此穴的特征（大概不能上接并合生旺之气），原文表述较为简略，存在歧义。candidate的处理（'大概是因为不能上接并合生旺之气'）是一种合理的推测性释读，并使用了'大概'一词，符合风险标注原则。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 702,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1048,
+      "completion_tokens": 702,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

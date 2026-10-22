@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T19:29:38.446534+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "20f96934d5fa4f53fe4d738ad48c1696c7a1940a359a2dafdf105cc6b27bc199",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000575-p000-0718bc6fc5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "暑猿寒媛具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000576-p000-f8acf9d0f7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000577-p000-6b0041305e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其色焉”表意不明确，candidate直接译为“色泽莹润”属于无依据增译；“异景鸾饮”断句及含义未明，candidate译为“景致也格外奇异。鸾饮”属于擅自拆分解读，无可靠依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000578-p000-7035b04dfa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000579-p000-0852284d6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“乃龍氣華咽試可地理救人卷二 鑑水六十四弱地脉漏所致”断句应为“乃龙气华咽所致/试可地理救人卷二《鉴水六十四》：弱地脉漏所致”，candidate译为“这是龙气华咽的表现，可用于地理救人卷二的鉴水六十四篇中，属于弱地脉漏所致的情况”属于断句错误，曲解原意；“瘟墓”“焦中绝”属于专业术语，candidate未标注不确定性直接译为灾祸，表述不准确；“龙气华咽”含义未明，未做风险标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000580-p000-05048e3a57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000581-p000-766d4245ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“墓犀木爲黃泉”表述不清，candidate直接直译未标注不确定性；原文“黃泉水到豈主少亡孤寡橫禍絕嗣”是反问，意为“黄泉到来难道会主少亡……？”，但candidate后续解读未结合语境明确逻辑；“家聖氣”“墓主少七孤”“用之五尺 用之玉尺”含义不明，仅标注缺字不足，需明确指出内容无法释读"
+        ],
+        "uncertainty": [
+          "原文存在缺字及语义不明内容，“墓犀木为黄泉”“家圣气”“墓主少七孤”等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000582-p000-a185dee9ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“庚丁坤上是士黃泉”的“士”应为错字，candidate直接保留未标注；“土名邳庄在後折頭東南上三星”语义不完整，candidate仅标注缺字但未明确“三星”相关内容无法释读"
+        ],
+        "uncertainty": [
+          "原文“庚丁坤上是士黄泉”的“士”疑为错字，具体所指不详；原文末尾缺字，“东南上三星”后续内容无法确认"
+        ]
+      },
+      {
+        "id": "book030-b000584-p000-341f3181ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“憂給識司地理救人奉二蠶水六十公”表述混乱，存在疑似脱漏错讹，candidate直接直译未明确该内容无法准确释读，属于不当保留"
+        ],
+        "uncertainty": [
+          "原文存在多处缺字及讹误，“给识司地理救人奉二蚕水六十公”具体含义无法确认"
+        ]
+      },
+      {
+        "id": "book030-b000585-p000-c1793eaa9f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“見艮言夷山丁凶忌風水來”断句错误，“风水”是术语，不应拆分，candidate译为“忌讳风水（风水语境中的河流、水系及其来去形态）流入”属于概念混淆，此处“风”“水”是并列的两类影响因素，不应套用“水”的术语解释；原文“辛壬路上怕宮乾”的“宫乾”表述有误，应为“乾宫”，candidate直接保留未标注；“握瀛得擴財”“三汝藏銀”“得一位”等表述含义不明，仅标注缺字不足；原文“德足不得用之”应为“德不足不得用之”，candidate译为“德行不足的人，用它也没有益处”属于擅自补字改意"
+        ],
+        "uncertainty": [
+          "原文存在缺字及讹误，“夷山丁凶”“宫乾”“握瀛得扩财”“三汝藏银”等表述具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3363,
+    "completion_tokens": 1435,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3363,
+      "completion_tokens": 1435,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

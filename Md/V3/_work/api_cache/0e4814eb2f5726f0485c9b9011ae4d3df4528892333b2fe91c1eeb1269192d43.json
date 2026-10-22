@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-24T22:35:13.614168+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0e4814eb2f5726f0485c9b9011ae4d3df4528892333b2fe91c1eeb1269192d43",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000754-p000-9850036555",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“YYD”为无法识别的字符，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000755-p000-f0d8a0ee37",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“水柳”“二三书一”的含义无法明确，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000757-p000-1967161812",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“須當後互物習明物知其確头音義”被释读为“务必在后续的实践中明确其确切含义”，将无法识别的“互物習明物”直接释为“实践”属于无依据增译，且原文提及的“音義”在候选译文中完全遗漏"
+        ],
+        "uncertainty": [
+          "原文中“三ォ六秀”的“ォ”为无法识别的字符，具体所指不详；“確头音義”识别情况存疑"
+        ]
+      },
+      {
+        "id": "book017-b000758-p000-6365b33c2b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“凶星看在何公頭”被释读为“凶星要看在什么方位”，属于无依据释义，不应将“何公頭”直接替换为“什么方位”"
+        ],
+        "uncertainty": [
+          "原文中“水中装”的含义无法明确，具体所指不详；“何公頭”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000759-p000-4ebc057157",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000760-p000-11da9407ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“贪巨祥文廈武破輔粥”应为“贪巨禄文廉武破辅弼”，存在OCR识别误差；原文未写完，内容不完整"
+        ]
+      },
+      {
+        "id": "book017-b000761-p000-e0d80c9fc5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文含义无法明确，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000763-p000-d6f1c6f0d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在多处无法识别的讹漏字符，候选译文将“谷求室火官足龍未生它是土宅之沿未尅宅”“全宅り它尅龍若分小它”“龍主禍通”等含混内容直接释读为确定含义，属于无依据增译，不符合保守释读要求"
+        ],
+        "uncertainty": [
+          "原文讹漏较多，“室火官足龙”“土宅之沿”“全宅り它尅龍若分小它”“龍主禍通”等表述具体所指均不明确"
+        ]
+      },
+      {
+        "id": "book017-b000764-p000-9433e7e2a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“則橋後天出星上山下水”被释读为“就会出现后天出星上山下水的情形”，遗漏了原文的“橋”字；原文“是冰星得水”被释读为“这样才是星得水”，未保留“冰星”的原文表述，也未做标注；原文“山星經山”在候选译文中被遗漏"
+        ],
+        "uncertainty": [
+          "原文中“水牛装”的含义无法明确，具体所指不详；“百山足山星”的含义无法明确，具体所指不详；“橋後天出星”“冰星”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000765-p000-62fbf15905",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若以下小而論，向学若每凶星交则松元運中尔能昏稱”存在多处讹漏，候选译文直接照搬未经明确的含混表述，未做风险标注，不符合释读要求"
+        ],
+        "uncertainty": [
+          "原文中“下小”“向学”“松元运”“昏称”的含义无法明确，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2744,
+    "completion_tokens": 1108,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2744,
+      "completion_tokens": 1108,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

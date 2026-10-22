@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-26T04:26:30.852842+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fad73b1c1f9376abfdabaa7529fad585daeb1e8de0df30af0f6ac2eb9dd9a9e5",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000191-p000-e435ef83cd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将“贪巨武辅雄”误译为“贪、巨、武、辅、雄四个方位”，实际罗列的是五个星名，数量表述错误；原文“私天树老”属于含义不明的内容，候选释读直接保留未说明含义存疑，且后续“天机安在内部家族的话就能生活富贵”是对“然安在內家活當富貴”的错误拆解，原文“私天树老然安在內家活當富貴”断句混乱，候选将无依据解读为确定事实；原文“家法漢退敗”被误译为“家法就会衰落”，“漢”字未作处理且含义解读无依据；原文“并有以卦每 得 卦定吉”存在脱漏，候选直接补全为“还有以卦占算每次得卦可定吉凶”属于无依据增译，未标注原文脱漏"
+        ],
+        "uncertainty": [
+          "“私天树老”“家法漢退敗”具体所指不明，“并有以卦每 得 卦定吉”存在文字脱漏，无法准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000195-p000-2b008cb00e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量语序错乱、文字脱漏、讹误的内容，多数语句无法连贯解读，仅能辨认部分零散的挨星法相关规则片段"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1750,
+    "completion_tokens": 387,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1750,
+      "completion_tokens": 387,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

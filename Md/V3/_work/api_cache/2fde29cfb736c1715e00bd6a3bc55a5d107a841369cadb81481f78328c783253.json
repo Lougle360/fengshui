@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:24:28.036991+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2fde29cfb736c1715e00bd6a3bc55a5d107a841369cadb81481f78328c783253",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001910-p000-35507a2ff8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001912-p000-6a604d844a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文“有庆也”释为“有所庆贺”，未准确对应《象传》中“有庆”指六五居尊位能止健，自身获福、天下受惠的庆贺之义，存在释义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001913-p000-199094f2ab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001914-p000-71e1f65360",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1737,
+    "completion_tokens": 251,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1737,
+      "completion_tokens": 251,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

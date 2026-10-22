@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-26T16:10:32.577596+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b14686dd198ab625d464f1fa2c44503bf60a11e7c7f69362b08b9055714b0d7d",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000245-p000-79c96b4d69",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000254-p000-7eddcf7cee",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对原文‘亦悟人矣’理解错误，原文为术师望砂点穴是误导人，candidate错译为‘能让人醒悟’，违背原意；原文‘止札之縣’为龙脉止驻的位置，candidate称具体所指有误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000265-p000-f8feeda355",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000267-p000-b6bfe013e1",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate遗漏原文‘而不願’的语义，且无依据称微垣所指不详，风水语境中微垣为星垣术语，current表述更完整符合原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000271-p000-6c15bc6668",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000276-p000-4848d1152d",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "source为古籍卷次标题，current补充说明是标题符合出版习惯，candidate保留原文也符合古籍整理规范，两者各有适用场景，无明确优劣"
+        ]
+      },
+      {
+        "id": "book003-b000277-p000-4910981e3e",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘劉秉彥明’错误断为‘刘秉彦’，且末尾多‘声’字，违背原文人名断句；current纠正断句错误，表述更准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000283-p000-90ec5ab99f",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate未指出原文‘王富’的存疑，对原文存异内容未明确标注，不符合保守原则；current明确标注原文存疑内容，更稳妥"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000284-p000-f7d4f93870",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文‘天焉倒’误记为‘天焉倒’，对‘祿山盾’未说明存疑，表述准确性不足；current对存疑内容处理更严谨"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000288-p000-a73c067723",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将原文‘艮龍見兩兌’错误转录为‘艮龙见两方有山’，漏失‘兑’方位术语，违背原文内容"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4251,
+    "completion_tokens": 963,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4251,
+      "completion_tokens": 963,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

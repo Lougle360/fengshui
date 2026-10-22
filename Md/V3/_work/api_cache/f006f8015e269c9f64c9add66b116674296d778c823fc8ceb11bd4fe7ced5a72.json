@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T19:40:04.347557+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f006f8015e269c9f64c9add66b116674296d778c823fc8ceb11bd4fe7ced5a72",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001288-p000-c58467a7ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“男仁夫張希堯泰補論水 謝廷桂夫”存在断句错误，候选将“谢廷桂”作为观点提出者不符合原文断句逻辑，原文该句为“男仁夫张希尧泰补论水。谢廷桂夫（按文言发语词用法，应为谢廷桂所言）：水龙得之而成穴……”，候选断句导致归属偏差；原文“得之而就出乎山而配乎山者也”释读为“得水才能依附于山、与山相配合”语义偏差，原文指水龙凭借水形成穴后，出自山且与山相配；原文“顧我欲晉”的“晉”候选未释明，按语境应为“趋近、向我而来”，直接保留“晋”易造成读者困惑；原文“非司言之江湖溪潭之傍”的“司言”候选未处理，该词疑似讹误，未标注风险"
+        ],
+        "uncertainty": [
+          "“非司言之江湖溪潭之傍”中“司言”含义不明，疑似文本讹误"
+        ]
+      },
+      {
+        "id": "book029-b001289-p000-ea43a9eac7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“忽其猛”中的“猛”疑似“箍”的讹误，具体含义暂不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1783,
+    "completion_tokens": 373,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1783,
+      "completion_tokens": 373,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T10:17:03.841487+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ac209b109e34eae0f1a3a007c4226015a31dd948834a1fd2f86148945f01c9b1",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000693-p000-7471c0843b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000694-p000-f8f9f30884",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000695-p000-9794dcb44d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中的日文假名「丁ま」误写为「丁ま」（保留原写法即可，无需额外标注），且将「戊葵」误写为「戊葵」（原文为「戊癸」，属于干支误写），同时对「T」的处理未明确其为原文符号，存在推测性表述"
+        ],
+        "uncertainty": [
+          "丁ま、戊葵、寒鸦暗腥、T的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000696-p000-ec348852d4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1402,
+    "completion_tokens": 288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1402,
+      "completion_tokens": 288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-04T00:20:20.381062+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "747ec93626789ed3bfc4047c4c073b3e4d9ef94e8051b9f52f0c6ad74b733fc0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000169-p000-079d9abded",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘圖水辰元’是标题或图名，candidate将其解释为‘图中展示了“水辰元”这一内容’，属于无依据的扩写。应保留原文或说明其为图名，不应添加‘展示了...内容’的陈述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000177-p000-d2f85235fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘公雲只愛水來抱身 水口則愛其賢心葫盧侯 嬾 杯覩牀去褚蜥加地不敬中去不直不服 體亦與牛 角意同’中，‘公雲’可能为‘公云’（某人说）。candidate将‘賢心葫盧侯 嬾 杯覩牀去褚蜥加地不敬中去不直不服’整体处理为‘贤心葫芦状’及语义晦涩的句子，存在误译和漏译。‘賢心葫盧’可能指葫芦形状，但后续文字‘侯 嬾 杯覩牀去褚蜥加地不敬中去不直不服’未被有效处理，candidate仅笼统说‘语义晦涩’，但未保留原文片段或指出其不可解，且将‘体亦与牛角意同’的‘体’漏译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000179-p000-d22229fa56",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘千内必告富貴之地’中，‘千内’可能是‘于内’的讹写，candidate指出‘可能为讹字’是合理的风险标注。但原文‘若成門准不廣範全交牙截水者不甚高聳而低矮其為福終小’一句，candidate仅说‘原文语义不明，难以确切解释’，未提供任何可能的字词解释或保留原文关键短语（如‘交牙截水’），导致信息缺失。应至少保留‘交牙截水’等术语并说明其可能指水口砂交错如牙，但整句含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000183-p000-9a61047b6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1459,
+    "completion_tokens": 540,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1459,
+      "completion_tokens": 540,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

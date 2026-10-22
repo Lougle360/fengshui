@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-24T10:53:26.690056+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9853c92d59fd77ad299c1d97ecbfba5162a2c1e4dce7be2c5a778b54c0a5d9a1",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000942-p000-f135c48eeb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的\"訚门\"误释为\"訚门\"（原文为\"閒门\"？不，原文是\"訚门\"，但候选句未保留原术语的写法，且将\"伏位\"误写为\"伏位\"，同时将\"更得頻脩須原舊兮房或未路抵向大吉見碎金\"释为\"更要经常修缮，需留意原有旧宅的房舍，若未路抵向大吉，可参照《碎金》\"，存在对原文的过度解读，原文未提及\"参照《碎金》\"，\"見碎金\"应为\"見《碎金》\"的误写？不，原文是\"見碎金\"，候选句添加了原文没有的\"参照\"，属于增译"
+        ]
+      },
+      {
+        "id": "book010-b000943-p000-b0679d979a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺漏，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book010-b000944-p000-dc3af32e04",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处有缺漏，内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1317,
+    "completion_tokens": 359,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1317,
+      "completion_tokens": 359,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

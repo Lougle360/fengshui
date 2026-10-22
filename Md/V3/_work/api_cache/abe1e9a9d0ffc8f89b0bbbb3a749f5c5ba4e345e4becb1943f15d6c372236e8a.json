@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T17:43:22.559683+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "abe1e9a9d0ffc8f89b0bbbb3a749f5c5ba4e345e4becb1943f15d6c372236e8a",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000839-p000-4f051440c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000840-p000-1211102cea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“突穴頂穴有鱉裙中間突起亦安墳”的断句有误，原意为“突穴的顶穴如果有鳖裙，中间突起的地方也可以安坟”，候选误将突穴、顶穴并列处理，且“方可扦顶穴”被错误断句为“方可扦顶 / 穴不然不可葬”，原意应为“才可以在顶穴扦葬，不然就不能葬”，候选句断句错误导致逻辑偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000841-p000-68f58e0566",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000842-p000-2c70f950d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000843-p000-b9d32b9101",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“高下姚”属于未明确语义的内容，候选将其释为“高低情况要留意”属于无依据增译；“泄兩腳”原意是钳口深导致气从两脚泄漏，候选释为“泄掉两侧的气”表述模糊，未对应原文“两脚”的所指"
+        ],
+        "uncertainty": [
+          "“高下姚”具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b000844-p000-d3fd9e74d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000845-p000-11282c15b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues[": "原文“穿山金似出山金穿山葬頂出山嘴”被漏译，该句核心内容为“穿山金类似出山金，穿山金要葬在顶部，出山金要葬在嘴部”，候选未翻译此部分内容，存在漏译；“難於啚昼”的“啚昼”为“圖畫（绘图）”的形近讹字，候选释为“难以绘图”虽结果正确，但未标注原文讹误风险；“但腦突起似魚頭者頂出山”断句错误，原意是“但是顶部突起像鱼头的是穿山金，山势顺下嘴部扁齐的是出山金”，候选断句错误导致语义偏差]",
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000847-p000-e8ee5e7260",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000849-p000-fee7a96f51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“武微曲宣認月體扦角穴”存在讹字，“武微”应为“武曲”，“宣認”语义不明，候选将其释为“武曲星的形态，要顺着月体来选择角穴”属于无依据增译，未标注原文讹误及语义不明风险；“宜就頂中扦”原意是适合在顶的中间扦葬，候选简化为“适合在中间选择安葬位置”表述模糊，丢失“顶中”的限定"
+        ],
+        "uncertainty": [
+          "“武微曲宣認”具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b000850-p000-c2d0502ec1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 613,
+    "completion_tokens": 52,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1928,
+      "completion_tokens": 952,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 613,
+      "completion_tokens": 52,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

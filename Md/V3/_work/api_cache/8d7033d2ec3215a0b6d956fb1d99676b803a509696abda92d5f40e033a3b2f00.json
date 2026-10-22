@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-26T03:48:17.710395+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8d7033d2ec3215a0b6d956fb1d99676b803a509696abda92d5f40e033a3b2f00",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002051-p000-9afad4cab0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002052-p000-bdc8b59a40",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002053-p000-bad1ccca44",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文主语是山脉（承接前文论山形的语境），并非描述水的形态，候选错误调整了描述对象，与原文语义相悖"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002054-p000-fdee95667d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002055-p000-8aeb1e8af0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002056-p000-a33046da08",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“点息”“万鐫”“萦齐”均属于含义模糊的风水专类表述，候选直接将其释为“不显露”“万种镌刻之物”“萦绕整齐”缺乏依据，属于无依据确定释义"
+        ],
+        "uncertainty": [
+          "“点息”“万鐫”“萦齐”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002057-p000-b5b82ee936",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002058-p000-58034fa22e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002059-p000-bb3d8ba003",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002060-p000-40ba2c6591",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“顾我欲晋”的“晋”是靠拢、朝向的含义，候选误释为“想要晋升”，语义偏差；“晋连眷恋”无对应原文依据，属于增译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2226,
+    "completion_tokens": 701,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2226,
+      "completion_tokens": 805,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2226,
+      "completion_tokens": 701,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

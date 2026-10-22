@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-24T08:30:13.768560+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "723d7ef41543a012659578f00625235c7873b813169be73471cd5ac6e9626ce1",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000202-p000-d47f143bd5",
+        "modern_text": "原文内容残缺严重，语义不完整，无法形成准确释读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文残缺严重，语义不完整，无法形成准确释读"
+        ]
+      },
+      {
+        "id": "book008-b000203-p000-8c026d3c35",
+        "modern_text": "原文内容残缺严重，语义不明确，无法形成准确释读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文残缺严重，语义不明确，无法形成准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 147,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1218,
+      "completion_tokens": 147,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

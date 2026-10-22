@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:59:16.893521+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0d73d7047d9d893d568eb132271f79b1af00a493abb1fbf6c9544887e01b348d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000997-p000-aa7b8f7d5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000998-p001-d9bb98d9f5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文断句后的零散内容强行拼接为“行走於金階之上，寶殿之側，必有水，且與王曆之相關”，存在无依据扩写，原文未提及“行走”“與王曆之相關”的内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000999-p000-a190eb6291",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "氈兜、朝出的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book014-b001004-p000-e6010d3924",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "井、黃結的具体含义原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1925,
+    "completion_tokens": 275,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1925,
+      "completion_tokens": 275,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

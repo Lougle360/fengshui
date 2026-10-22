@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-24T21:07:11.847781+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "39a29b31c4535e8b6e3f66bb2559ccb8ec51f0b9b86ea6451cc1e86ee1afe510",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000144-p000-70717f6f9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "东方苍龙七宿原文仅存“角氏六房心尾箕”，完整构成无法确定",
+          "西方白虎七宿原文仅存“奎書四卯里嘴久”，完整构成无法确定",
+          "北方七宿原文仅存“北之武七伯斗牛此虛虚危定壁”，完整构成无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000145-p000-7ec618ace2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“水为辰星”的“水”是五星之一的水星，并非allowed_glossary中所指的“风水语境中的河流、水系及其来去形态”，属于术语误用"
+        ],
+        "uncertainty": [
+          "辰星对应北方冬令的“其德为”后内容残损，无法确定具体内容"
+        ]
+      },
+      {
+        "id": "book017-b000149-p000-c77f6878c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“陽用珍應”中“珍应”的具体含义不明",
+          "“日語月強則为相乘”的完整含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000151-p000-191bd44e9c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“協言空之學”具体所指不详",
+          "“三之九臣”具体含义不明",
+          "“厚元之山”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000154-p000-fee60ca4a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“天人獻府”具体所指不详",
+          "“澤食る用應”含日文字符，具体含义不详",
+          "“辨正真诀 二九氣之陰陽交乘是即芬禍”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2046,
+    "completion_tokens": 542,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2046,
+      "completion_tokens": 542,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

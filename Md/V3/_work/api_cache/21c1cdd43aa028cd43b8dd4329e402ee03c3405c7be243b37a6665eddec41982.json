@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T16:39:40.363463+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "21c1cdd43aa028cd43b8dd4329e402ee03c3405c7be243b37a6665eddec41982",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000331-p000-d7e6b14e54",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate未完整译出原文内容，原文末尾语句不完整，内容未呈现完毕，且“君子增”属于未完成的表述，存在漏译问题"
+        ],
+        "uncertainty": [
+          "原文末尾语句不完整，内容未呈现完毕"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 904,
+    "completion_tokens": 99,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 904,
+      "completion_tokens": 99,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

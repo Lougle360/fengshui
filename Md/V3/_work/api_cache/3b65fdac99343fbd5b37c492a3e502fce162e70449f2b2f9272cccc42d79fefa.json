@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-24T08:48:09.618719+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3b65fdac99343fbd5b37c492a3e502fce162e70449f2b2f9272cccc42d79fefa",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000263-p000-78cd5ad078",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“尊娛怒之肜”“张玉”“关错口”“鉴口”“天麟娛頰”“日月酉”“娛魁”等术语原文未明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000265-p000-ebc6e9433e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文字迹残缺、语义不通，无法准确释读",
+          "uncertainty: 原文存在大量OCR损坏或文字错乱，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR损坏或文字错乱，无法形成有效释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1752,
+    "completion_tokens": 196,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1752,
+      "completion_tokens": 196,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

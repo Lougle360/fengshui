@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-09-26T08:03:57.836941+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7ec67dfbbde24943acb7905e0fa0227a70faa692a87af2a8975eabd0fb1288c0",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000333-p000-426fced9df",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“高祖解圍於曰登”的“曰登”应为“白登”，候选误写为“白登”（注：此处原文是“曰登”，候选自行修正未标注属于问题？不对，看原文：“高祖解圍於曰登”，候选写“汉高祖在白登解围”，属于对讹字的修正但未在uncertainty里标注；另外原文“指望孫遂曰經紀”的“曰”是“營”的讹字，候选写“指望孙辈经营生计”也未标注；还有原文末尾“亦似吏也星一貞口 人二1龍法 111”属于OCR残损，候选直接照录但未标注是残损内容，另外原文“其氣象規模閑熱如此”的“閑熱”是“閑雅”或“閎曠”的讹字，候选释为“闲和雍容”属于无依据释义"
+        ],
+        "uncertainty": [
+          "原文“曰登”“指望孫遂曰經紀”“閑熱”存在讹字，未标注修正依据；末尾“星一貞口 人二1龍法 111”为OCR残损内容，未说明"
+        ]
+      },
+      {
+        "id": "book033-b000334-p000-3e4f2d94dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000335-p000-4aee2d092d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“万岭从宠”的“宠”是“拥”的形近讹字，依义改作“簇拥”",
+          "原文“口在眼前山麓间”的“口”是“只”的形近讹字，依义改作“只”",
+          "原文“广邂动放数百里山川”的“邂”是“漠”的形近讹字，依义改作“广阔”"
+        ]
+      },
+      {
+        "id": "book033-b000336-p000-f280dd4dd2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“一重远一重一山低一山”疑似有脱漏，暂按现有文句释读"
+        ]
+      },
+      {
+        "id": "book033-b000337-p000-88c469c5b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“分枝不臂劈”的“不”是“出”的形近讹字，依义改作“出臂”",
+          "原文“分枝臂服”的“服”是“辅”的形近讹字，依义改作“辅护”"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6048,
+    "completion_tokens": 686,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6048,
+      "completion_tokens": 686,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

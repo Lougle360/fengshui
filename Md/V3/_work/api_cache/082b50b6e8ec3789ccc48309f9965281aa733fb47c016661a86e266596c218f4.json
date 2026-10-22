@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T15:28:13.588602+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "082b50b6e8ec3789ccc48309f9965281aa733fb47c016661a86e266596c218f4",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001099-p000-f95f0291c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001100-p000-ae32926e34",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「周末には，疇人(天文暦算学の専門官)の子弟が官」未完整译出，候选句补译了「失去官职，分散各地」，属于无依据补全"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001101-p000-50074fac9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001102-p000-e84b7f749e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "术语「向」的释义不符合allowed_glossary规定，allowed_glossary中「向」的定义为建筑或穴位所朝的方位，候选句将「重譯向風」的「向」释为「归向」，属于术语误换"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1969,
+    "completion_tokens": 305,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1969,
+      "completion_tokens": 305,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

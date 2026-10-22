@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-18T01:45:52.447092+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "3bbc378310eeb4c7853515b9fc0a6d6cfaa81cb333bb2e58bcd049da4935519d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005155-p000-2f3adb2924",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "本表列出了多种风水格局及其对应的吉凶含义，涉及穴、水、向等要素。第一行标题分别为：格走逃、屏帶垂、格秀雙、格街御、格文赦。第二行对应各格局下的具体形态描述，如財天腦平鼻牽、財天腦平頭襄向等。第三行详细解释了每种格局的吉凶判断标准，例如“格走逃”中，若龙脉牵动、水流细弱，则主富贵；若龙脉孤立、水流直泻，则主贫贱。其他格局依此类推，分别描述了不同形态下的吉凶变化。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文表格内容存在大量OCR识别错误，部分文字难以准确辨识，如“00”、“□”等符号可能为缺字或乱码。",
+          "部分术语如“格走逃”“屏帶垂”等虽为风水专有名词，但具体所指形态在原文中描述模糊，无法完全确定其现代对应概念。",
+          "表格中部分句子结构混乱，可能存在断句错误或文字错位，导致整体逻辑难以完全还原。"
+        ]
+      },
+      {
+        "id": "book035-b005156-p000-1d75c38084",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 地理天機會元 卷二十六九星正變堂氣歌",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2424,
+    "completion_tokens": 444,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2424,
+      "completion_tokens": 444,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

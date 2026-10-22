@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-09-25T21:26:42.932234+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "879136b162684b219b51124aa5202f74bc8459ce00ef8133647c86797a4ef01c",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001658-p000-7b0b00b255",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001660-p000-3b2f221c99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001661-p000-bf5d8377ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001662-p000-5e0afecbf5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文明确提及“禹曰”，候选将“禹”误释为“大禹”，无依据将禹等同于大禹，属于无依据扩写；原文“十二夫辰”应为“十二支辰”的笔误，候选直接写作“十二支辰”未标注原文讹误风险",
+          "原文书名是《理恭贊玄機全書》，候选无依据补字为《地理恭赞玄机金书》，属于释读错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001663-p000-fa26bcf18a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“七異三辰”“異七辰三巽”中的“異”是“巽”的讹写，候选误将“異”当作独立概念进行释读，属于错译；原文“立陽何作用從辰”断句应为“立阳向，作用从辰”，候选表述“立阳何作用从辰”语序错误，语义不通"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001664-p000-a554479e4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“百二十罷”具体所指不详；“不潯坐穴”的“潯”为讹字，含义存疑"
+        ]
+      },
+      {
+        "id": "book029-b001665-p000-44741cc6c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "遁淳三的具体所指不详",
+          "应兴不应指判断山水是否应验兴发的效果，原文表述较为简略"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3310,
+    "completion_tokens": 575,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3310,
+      "completion_tokens": 1046,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3310,
+      "completion_tokens": 575,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-16T10:55:14.498883+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7866d0957528cab698e91bc54c9d8236127f39ab4153d20b3e6e4505606495b4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002068-p000-d9f224b3eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002070-p000-7ef697993a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘缘’译为‘攀缘生长’，属于无依据的扩写，原文‘柳先缘’的比喻义不明，应保留原文短语并标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘柳先缘’的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 727,
+    "completion_tokens": 122,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 727,
+      "completion_tokens": 122,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

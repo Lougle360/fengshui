@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T11:44:24.397170+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "10bac2acaecc3d785cac8b0ef920c045a4329f4382a039a07d4fa90c3aec4776",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000024-p000-5c0dd20310",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处OCR识别错误，如“笻竹”“筠竹”“杞梓”“紫霞帧”“邦媛邦翰”“捲簾一酢”“組旋乖”“仙藏”“藤蘇靈天木”“天葩熖歙緣”“花喵穴”“宋 0 3”“喳曲舌卷舌水火”“芝曲”“蠻其路”“61 术三 11”等内容，候选释读未标注这些识别错误，且部分内容未按要求保留专名的引号范围，如“瓜藤龙”“仙藏”等未加引号，不符合规则"
+        ],
+        "uncertainty": [
+          "原文多处识别错误，具体所指无法确定，如“紫霞帧”“捲簾一酢”“組旋乖”“花喵穴”等"
+        ]
+      },
+      {
+        "id": "book014-b000026-p000-629f6d5cf4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处OCR识别错误，如“大洛”“伤云逼汉”“尺欲浊为牛”“饶似辄有柄”“器同身步宗”“彻木漂床”“焚木烬木”“交牙撮仗”“三堂”“冈净眼地”“飞花旧片头”“株 2 0”“2 0”等内容，候选释读无法形成通顺合理的语义，保守释读无法成立"
+        ],
+        "uncertainty": [
+          "原文多处识别错误，具体所指无法确定，无法进行有效释读"
+        ]
+      },
+      {
+        "id": "book014-b000056-p000-f64f0f7ae3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处OCR识别错误，如“飞夺之穴”“舍花非田”“章缝”“梅花四布”“木袍星墩巾球撒珠”“精碧”“雨正结附结带结”“雨云年之此在谓皆茶”“低均花”等内容，候选释读未标注这些识别错误，且部分内容未按要求保留专名的引号范围，如“梅花龙”“飞夺之穴”等未加引号，不符合规则"
+        ],
+        "uncertainty": [
+          "原文多处识别错误，具体所指无法确定，如“飞夺之穴”“舍花非田”“章缝”“雨云年之此在谓皆茶”等"
+        ]
+      },
+      {
+        "id": "book014-b000061-p000-ca5aec4a3b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处OCR识别错误，如“背区员正公”“尺一名一字”“文星”“义全徐”“王罪尺”“朴句”“根抚秋屈袋格”等内容，候选释读无法形成通顺合理的语义，保守释读无法成立"
+        ],
+        "uncertainty": [
+          "原文多处识别错误，具体所指无法确定，无法进行有效释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4218,
+    "completion_tokens": 773,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4218,
+      "completion_tokens": 773,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

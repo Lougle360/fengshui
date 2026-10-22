@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T19:54:22.639576+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bfb0354e811d487ecfd4d98316e79980fbcbb9f6f73b94161b8d282a649a6967",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003158-p000-1fe9ede71b",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "《象传》说：‘施用削鼻截足的刑罚治理众人’，说明九五济困的心志未能有所得；‘可以渐渐摆脱困境’，这是守持刚中正直之道所致；‘利于举行祭祀’，这样就能承受神灵施降的福泽。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003159-p000-40ea154a01",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "针对九二爻辞说的“利用享祀”、九五爻辞说的“利用祭祀”两者的异同，程颐做过一番分析，可以作为参考：二爻说的是“享祀”，五爻说的是“祭祀”，大体意思都是应当秉持至诚之心，才能获得福佑。“祭”“祀”“享”三个词笼统说可以通用；如果区分开来讲，“祭”是祭祀天神，“祀”是祭祀地祇，“享”是祭祀人神。九五处于君位，所以用“祭”；九二处在下位，所以用“享”：分别对应各自身份应当使用的祭名。这段分析出自《程传》。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003160-p000-1fe0241f29",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "上六爻的爻义是：被葛藟一类的藤蔓缠住困厄，又处在动摇不安、岌岌可危的境地；此时如果能做到一有过失就生悔意、悔悟之后及时修正，那么往前行事就会获得吉祥。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文标注有两处注①②未附具体注文，相关词义的释读存在参考局限"
+        ]
+      },
+      {
+        "id": "book016-b003161-p000-f88ce17e5b",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "上六爻的译文：困在葛蔓藟藤之间，又困在摇动危坠之处；应当想一想：既然动辄后悔就要赶快悔悟，这样向（建筑或穴位所朝的方位）前进发必获吉祥。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 641,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1592,
+      "completion_tokens": 641,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

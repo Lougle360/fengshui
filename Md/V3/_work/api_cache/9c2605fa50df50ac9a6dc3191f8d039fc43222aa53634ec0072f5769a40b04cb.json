@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T10:16:32.568999+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9c2605fa50df50ac9a6dc3191f8d039fc43222aa53634ec0072f5769a40b04cb",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000680-p000-6b084fac99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000681-p000-4f4721d92c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000682-p000-d989d08dec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000683-p000-3a75744aaa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘庚成日’误写为‘庚戌日’，‘丙辛吟忌與寅日’未明确释读，‘真祥馬青人太陽陰到中’‘富亦化由吉不’等内容未准确释读，存在推测性表述"
+        ],
+        "uncertainty": [
+          "丙辛吟忌與寅日、庚成日、真祥馬青人太陽陰到中、富亦化由吉不，具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1574,
+    "completion_tokens": 291,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1574,
+      "completion_tokens": 291,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-09-24T22:57:57.715165+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "76a3266b1a8341a3d0305b16e5ecaa49290beb177d7e7ad8c7c209ec41e27926",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000910-p000-c57c5fb72b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字为“二將大鴻”，候选错写为“蒋大鸿说”，人名处理无依据；原文“谓事节乃到正俗师之伪法”错译为“事节是俗师用来标榜匡正规范的伪法”，语义颠倒，原文指事节这种内容是被俗师附会为正的伪法；原文“经非真治息也”错译为“这种说法并不符合经义的治理平息灾祸的正确方法”，偏离原文含义，原文指这类胡乱判断不是真正的平息灾祸的办法"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000913-p000-e9a7ad85ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“好二十四山及分十二位之法”属于前文批判的伪法内容，候选错译为“都在使用二十四山以及分十二位的方法”，与前文语境矛盾；原文“彼等己人人言空。お可不納”为日文表述，意为“他们现在人人都空谈，怎么能采纳呢”，候选错译为“这种情况岂可不接纳”，语义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000916-p000-82fa9dfe7e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“開之不書”错译为“都是公开传播却不记载正确内容”，无依据；原文“豐料千本以後”错译为“预料过数千个版本流传之后”，“豐料”释义无依据；原文“伪微又可翻新梯乎”是反问语气，候选译为陈述语气且“名目阶梯”释义无依据"
+        ],
+        "uncertainty": [
+          "庚代具体所指不详",
+          "一九五飞具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000919-p000-24d5ba8bb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "王行位中出一位具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b000921-p000-c686e40dd1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字为“將大治言”，候选错写为“蒋大鸿的这段论述”，人名错改；原文“則似出而如出”错译为“就是看似出位实际也属于出位”，语义无依据，原文表述模糊未明确定义；原文“此中有私為象之記之”错译为“这里面有专门的象的记录依据”，“私为”未正确体现，释义无依据"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 702,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1658,
+      "completion_tokens": 702,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

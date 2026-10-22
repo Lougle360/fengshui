@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T11:17:14.366964+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "973f85e1f8f12df41be4bbcf1771dc2ac587bf03b4738333b30a91b3c93e9dc8",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000609-p001-9b162f3626",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为风水专业术语类短语，candidate未转换为普通读者可理解的白话，仅原样保留原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000621-p001-adff4c393e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为风水专业术语，candidate仅原样保留原文，未转换为白话，也未按allowed_glossary对锁定术语\"水\"给出必要释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000626-p000-88d22c71f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000627-p000-8ba5b6b749",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为风水专业术语，candidate仅原样保留原文，未转换为白话，也未按allowed_glossary对锁定术语\"水\"给出必要释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000628-p000-738d55465d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000629-p000-a81e316ccd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source表述存在歧义，candidate仅原样保留原文断句，未转换为普通读者可理解的白话，也未对模糊内容标注不确定性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000630-p000-0ede34da13",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source为未完整的歌诀类内容，candidate仅做了断句处理，未转换为白话，也未对不明确的术语如\"屏餘水\"\"死分\"等标注不确定性，未按allowed_glossary对锁定术语\"水\"给出必要释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000631-p000-2d3fe4e8ac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对原文\"金星如仰外\"的释读无依据，原文未明确表述为\"向外仰起\"，属于无依据增译；原文\"水龍陰陽樓\"为专业术语，candidate释为\"相关说法还涉及水龙阴阳楼\"表述模糊，未做符合要求的处理"
+        ],
+        "uncertainty": [
+          "\"金星如仰外\"的具体形态所指原文未明确，\"水龍陰陽樓\"的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book024-b000632-p000-fd0fc8236c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate仅对原文做了断句处理，未转换为普通读者可理解的白话，也未按allowed_glossary对锁定术语\"水\"给出必要释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000635-p000-fb3ae45050",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文\"屢楨少年人\"释为\"家里的少年人会频繁遭遇灾祸\"无依据，属于无依据释读；原文\"春火得慇\"释为\"春天点火祭祀能得到护佑\"无依据，属于无依据增译；原文末尾\"故亦\"为未完整表述，candidate未标注该内容不完整"
+        ],
+        "uncertainty": [
+          "\"屢楨少年人\"的具体含义原文未明确，\"春火得慇\"的具体所指原文未明，原文末尾\"故亦\"后内容缺失"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1970,
+    "completion_tokens": 1008,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1970,
+      "completion_tokens": 1008,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

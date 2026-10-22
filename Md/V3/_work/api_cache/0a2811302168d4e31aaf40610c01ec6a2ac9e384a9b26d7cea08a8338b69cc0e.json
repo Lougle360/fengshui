@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T12:18:19.566146+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0a2811302168d4e31aaf40610c01ec6a2ac9e384a9b26d7cea08a8338b69cc0e",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000597-p000-36ff7495ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000598-p000-0b2e9151f3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000599-p000-692a17f9d4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文未提及的\"龙脉的骨相\"加入释读，属于无依据扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000600-p000-4ad0b651a3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺字，内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 259,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1390,
+      "completion_tokens": 259,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

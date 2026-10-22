@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T09:23:20.186806+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "440f1d74ac2ec44c2c7cb2cb8c68fdfaa7de63ccd164b3b324eab5ee64ba8400",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000252-p000-9f56f34b43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义残缺，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000253-p000-a478aeba57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义残缺，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000254-p000-d91b8f3022",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中存疑的“蜜头”释为“好的蜜头”，属于无依据扩写，应保留原文存疑状态并标注具体所指不详"
+        ],
+        "uncertainty": [
+          "原文中“蜜头”语义存疑，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000257-p000-ad931a9c93",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“十道”“上弦”语义存疑，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1912,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1912,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

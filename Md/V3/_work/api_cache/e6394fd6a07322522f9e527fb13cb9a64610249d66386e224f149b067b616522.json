@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T19:31:42.587469+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e6394fd6a07322522f9e527fb13cb9a64610249d66386e224f149b067b616522",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001278-p000-cb0308bc7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 源文所有异体字、俗写字仅做了繁简转换，未转换成可懂的现代中文：如“官负”应为“官宦”（古写形近讹误）、“第兄”应为“弟兄”、“刪正”“刪硬”的“刪”为形讹未释、“法塲少人槿”的“槿”为讹字未释、“啚”转换为“图”正确但其余讹误均未处理；2. 源文断句错误未修正：“青天第兄 聯名作状元”应为“青天弟兄联名作状元”、“火星高硬侵 天起”应为“火星高硬侵天起”、“火星千里挿 雲霄”应为“火星千里插云霄”，候选保留错误断句导致语义不通；3. 源文重复的《地理泰赞玄机全书》卷五未做标注，直接原样保留，未说明是原文重复；4. 未解释风水术语对应的通俗含义，如“作案”（做案山）、“凶砂”等未按allowed_glossary做浅显释读，普通读者无法理解"
+        ],
+        "uncertainty": [
+          "“章十士”“车书”“云汉定出勇猛忠”“池府吏为官典”“系 熖动旗山取”“法场少人槿”“火星删硬似”等短语原文存在脱漏、讹误，具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1776,
+    "completion_tokens": 377,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1776,
+      "completion_tokens": 377,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-10-18T10:10:07.838481+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9ef256a2fe0a914dae8c1b912b930f15671975e5a7dd88f150e08b529b8ee97e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006134-p000-4b1607556d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "七壬三子",
+          "角木蛟之龙未变也"
+        ]
+      },
+      {
+        "id": "book035-b006135-p000-091edd1954",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘绝音金死在子’是明确术语，candidate 未译出‘绝音金’这一概念，仅保留‘金死在子’不完整。‘开时即东方’处理为短语不详，但原文‘开时’可能指特定时辰或方位，candidate 未保留‘开时’二字。‘空内’处理为不详，但原文‘空内青石黄色土’是并列描述，candidate 拆解不当。‘穴是官’处理为不详，但原文‘穴是官官贪狼在辛巳’可能为‘穴是官，官贪狼在辛巳’，candidate 未尝试合理断句解释。‘长中吉小凶’处理为可能指房份，但未保留原文‘长中吉小凶’短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006138-p000-5789c944d6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：'丙子水自旺在天星則曰武曲金鏡局名甲位學堂格' 中 '武曲金' 与 '鏡局名甲位學堂格' 的断句关系在 candidate 中被改变。原文是 '武曲金鏡局名甲位學堂格'，candidate 将其拆分为 '武曲金' 和 '镜局名甲位学堂格'，并推测'镜局'为书名，这属于无依据的扩写和断句改变。",
+          "术语误换：'马寅' 在原文中为 '馬寅'，是'驿马在寅'的简写，candidate 解释为'可能指驿马星在寅位'，这超出了 allowed_glossary 的范围，属于对 opaque_terms 的确定化解释。应保留原文'马寅'并标注其含义不明。",
+          "反义/误译：'水雷屯是' 后接 '太玄曰'，candidate 将其与 '庚子穴吉' 连读为 '庚子穴吉，“水雷屯是”含义不明'，割裂了原文结构。原文应为 '庚子穴吉水雷屯，是太玄曰...'，意指庚子穴吉，对应水雷屯卦，这是太玄所说的。candidate 的断句导致语义混乱。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006139-p000-e0f91b212a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/结构混乱：'戊午管其地主黃土沙泥而燥者不入十六龍戊午才兑戌寅子孫坤戊辰宮鬼震' 在 candidate 中被拆解并加入了推测。原文 '戊午才兑戌寅子孫坤戊辰宮鬼震' 是'十六龙'的具体内容，candidate 将其处理为'十六龙：戊午才兑，“戌寅”原文可能为“戊寅”之误，子孙坤，戊辰官鬼震'，其中'才兑'应为'财兑'（财在兑位），candidate 未译出'财'的含义，且对'戌寅'的校勘无依据。",
+          "增译/确定化解释：'吉废' 在 candidate 中被解释为'主子孙“吉废”，具体所指不详'，但原文是'主子孫吉廢安於蹄目腸肚之上'，'吉废'很可能与'安于鼻类之上'的断句有关，candidate 的断句和解释可能不准确。应保留原文短语。",
+          "反义/误译：'開時東南應須火焚而死' 在 candidate 中处理为'“开时东南应，须火焚而死”原文含义不明'，但结合前文'主家门口舌灾祸立至'，此句可能是描述一种应验现象。candidate 的断句（'开时东南应'）可能错误，原文可能是'开时，东南应须火焚而死'，意指开启（或发作）时，东南方应有火焚之象而导致死亡。candidate 未尝试基本断句，直接归为不明，但处理方式过于简单，可能遗漏关键信息。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006140-p000-cf7faa6fcb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘甲子顺得飞’中‘顺得飞’可能为‘顺行得飞星’或类似术数操作简写，candidate 仅标注不详，未保留‘顺得飞’原短语。‘良戌才艮’中‘良戌’明显为‘庚戌’之误，candidate 指出可能为误写，但未在译文中修正或说明，导致‘良戌’仍以原样出现。‘皆八三奇宫’处理为不详，但未尝试解释‘八三奇宫’可能为‘八宫三奇’的倒装或特定名称。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006143-p000-92963bb607",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘星合马火’是明确术语，candidate 未译出，直接以‘星合马火’开头，不符合白话释读要求。‘安顿者’‘安耳者’‘安口项者’等处理为不详，但未指出这些可能是‘安于顿者’‘安于耳者’‘安于口项者’的省略，与上文‘安鼻者’句式一致。‘主发才喜废于门庭进田地’candidate 称句读不明，但未尝试合理断句如‘主发才，喜废于门庭，进田地’或类似，仅简单标注不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1708,
+    "completion_tokens": 801,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3803,
+      "completion_tokens": 967,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1708,
+      "completion_tokens": 801,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

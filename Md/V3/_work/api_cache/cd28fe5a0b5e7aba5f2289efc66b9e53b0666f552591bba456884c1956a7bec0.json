@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T10:53:18.462692+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cd28fe5a0b5e7aba5f2289efc66b9e53b0666f552591bba456884c1956a7bec0",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000938-p000-2c5c5b88dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000939-p000-86f40759e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000940-p000-94bc18527a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000941-p000-afb67cece4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“锐类此”语义模糊，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1876,
+    "completion_tokens": 209,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1876,
+      "completion_tokens": 209,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

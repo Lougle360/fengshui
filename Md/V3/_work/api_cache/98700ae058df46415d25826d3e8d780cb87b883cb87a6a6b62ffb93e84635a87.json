@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-25T18:20:06.922934+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "98700ae058df46415d25826d3e8d780cb87b883cb87a6a6b62ffb93e84635a87",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000259-p000-2b53eb077f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末句“世杵甲地二十六負”，candidate误写为“世居甲地，記在第二十六頁”，“杵”“負”均未按原文字处理，属于无依据改译；且原文“武貴祖也”未准确对应，candidate表述为“出過武貴的人家，其祖地”虽补了主语但核心信息没问题，但“世杵”“負”误译是主要问题"
+        ],
+        "uncertainty": [
+          "“世杵甲地”“二十六負”原文表述模糊，无法确定准确含义"
+        ]
+      },
+      {
+        "id": "book030-b000260-p000-300f531b71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“琢五斧”“水目簇一”具体含义未明"
+        ]
+      },
+      {
+        "id": "book030-b000261-p000-e151b23fc3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“華會元禮地”具体所指未明"
+        ]
+      },
+      {
+        "id": "book030-b000262-p000-7f286f7ca0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“二山七”candidate误释为“有二山七處”，属于无依据增译；“三十貞”误写为“第三十頁”，“二十入頁”误写为“第二十頁”，“四十百”误写为“第四十頁”，均未保留原文讹误或模糊表述，且无依据修正为确定页码；“無易”未标注不确定直接沿用，“許氏地”归属表述无依据"
+        ],
+        "uncertainty": [
+          "“暗省地”“二山七”“三十貞”“無易”“二十入頁”“四十百”等表述均含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000263-p000-e2cccf9d53",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000264-p000-ac519aa660",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“世四十二頁”candidate误释为“巨富世居人家，其祖地記在第四十二頁”，属于无依据增译；“四三萬”误写为“第四十三頁”，“四十家夏”误写为“第四十頁”，“五十入真”误写为“第五十頁”，“六十四夏”误写为“第六十四頁”，均无依据修正为确定页码；“諸鹽”未标注不确定直接沿用，“消肢地”“壽地”“半月形墻”等表述无依据确认含义"
+        ],
+        "uncertainty": [
+          "“消肢地”“四三萬”“諸鹽”“四十家夏”“五十入真”“六十四夏”等表述均含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000265-p000-cd78ac4e78",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅为书目篇目罗列，candidate无依据认定“这里所指的是《玉斧》的第二卷，名为……的篇目”，属于增译；“獅水目餘二月度”断句无依据，直接合并为篇目名称属于无依据解读"
+        ],
+        "uncertainty": [
+          "该句为书目相关内容，具体断句、篇目含义均未明"
+        ]
+      },
+      {
+        "id": "book030-b000266-p000-cb4b49cde0",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "此句原義不確定，具體所指不詳"
+        ]
+      },
+      {
+        "id": "book030-b000267-p000-f9c0ba8bc8",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "此句原義不確定，具體所指不詳"
+        ]
+      },
+      {
+        "id": "book030-b000268-p000-78f7f94ee2",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "此句原義不確定，具體所指不詳"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2205,
+    "completion_tokens": 1059,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2205,
+      "completion_tokens": 1059,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

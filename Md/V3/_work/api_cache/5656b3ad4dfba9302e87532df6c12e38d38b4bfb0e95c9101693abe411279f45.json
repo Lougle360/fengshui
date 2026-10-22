@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-10-04T01:38:15.535401+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5656b3ad4dfba9302e87532df6c12e38d38b4bfb0e95c9101693abe411279f45",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000295-p000-868f083ecd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "法穴緩急的具体含义",
+          "扦高的具体操作"
+        ]
+      },
+      {
+        "id": "book035-b000298-p000-b5fa803cc9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘顺故相后’释读为‘顺理而言，后方的’，这是无依据的扩写和解释。原文‘顺故相后’含义不明，应保留原文并标注不确定性。候选句将‘鬼名顧拖’处理为确定事实，但原文‘鬼’可能指风水中的‘鬼星’，也可能有他指，此处应视为不确定术语，需用引号引用并说明含义不详。"
+        ],
+        "uncertainty": [
+          "顺故相后的含义",
+          "鬼名顧拖的具体含义",
+          "二 山 日孝的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000309-p000-1f4acddac1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘或山有惡形當面來朝者禍速’释读为‘或者如果山上有恶形，但正面朝向而来，灾祸就会迅速降临’，其中‘但’字添加了转折关系，改变了原文的并列或选择逻辑。原文‘或……者……’结构更可能表示‘或者……的情况……’，候选句的释读不够准确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 940,
+    "completion_tokens": 319,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 940,
+      "completion_tokens": 319,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

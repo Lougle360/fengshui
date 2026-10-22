@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-26T05:48:29.189666+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b42933471cde51a2d2e6428de380ce6fbf3891c740c72627e7402d14d2a27d6f",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002596-p000-a7b783938b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source仅为“分金透地”，candidate仅对“分金”进行释读，未提及“透地”相关内容，存在漏译；且不得无依据添加对“透地”无关的额外表述，“透地”未做对应处理不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002597-p000-ee880ff0e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "丑、未与马的对应性质不明确",
+          "卯、酉与鸡的对应性质不明确",
+          "辰、戌与猪的对应性质不明确"
+        ]
+      },
+      {
+        "id": "book029-b002598-p000-a6081c09e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乾、巽与牛的对应性质不明确",
+          "癸、丁与羊的对应性质不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 262,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 976,
+      "completion_tokens": 3876,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 976,
+      "completion_tokens": 262,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

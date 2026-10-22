@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-25T14:29:08.754406+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "11bba67df6730196caabb1313599bdec7fe4b9c5aeb73e449d4ee1f6b72f06ff",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000031-p000-37f272fc68",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文最后‘故审水次之’释读为‘考察完山势之后，其次要考察水的情况’错误，与前文‘推水可以知山也’逻辑矛盾，原文意为考察完山势之后，其次要考察水的情况属于逻辑倒置，正确逻辑是通过水判断山，因此审察水是次于什么的逻辑关系释读错误，且前文‘一边水也’释读为‘只要一边有水’不准确，原文是描述山水相随的关系，并非只要有单边水的条件"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000032-p000-aa037dbf2c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘帳有十地理參皆玄機全書’释读错误，原文断句应为‘帳有十，地理參皆玄機’，‘十地理’属于误读，‘參’为古籍常见标注，不应译为‘地理相关的内容都属于玄机’，且遗漏‘帳有十’的信息"
+        ],
+        "uncertainty": [
+          "“地理參皆玄機”的具体表述细节存疑"
+        ]
+      },
+      {
+        "id": "book029-b000033-p000-1e848f4399",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“字者上也，丁字者次也”具体含义不详"
+        ]
+      },
+      {
+        "id": "book029-b000035-p000-6e8d225c54",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“但有大小輕重之寺”中“寺”为讹字，具体所指不详",
+          "“寻常出富狸參皆玄機全書”具体含义不详"
+        ]
+      },
+      {
+        "id": "book029-b000037-p000-e805aa7186",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文多处存在缺字，相关含义无法完全确定",
+          "“癭齋”具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b000040-p000-c4c9261448",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水歌住’属于OCR或原文讹误，候选直接判定‘应为水要停住’属于无依据增译，不符合判定边界中含混短语不得写成确定事实的要求；原文‘山欲来水歌住’的‘歌’字未明确为讹字，不得直接修改释义；原文‘凡點用來龍’漏译，候选释为‘但凡点穴要用来龙’属于补出错误，原文是‘凡點（穴）用來龍’，但未明确缺字的情况下补出无依据；原文‘興西東’释为‘确定东西方向’不准确，属于无依据释义"
+        ],
+        "uncertainty": [
+          "“毛異骨發雄雌”具体含义不详",
+          "“不頭失”为讹字，具体所指不详",
+          "“水歌住”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4727,
+    "completion_tokens": 757,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4727,
+      "completion_tokens": 757,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

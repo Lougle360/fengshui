@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T13:10:03.445636+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "adbdfc2101df1145f1145ec1a208680669b7d25095dce27437960bd84258be93",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b001064-p000-a58a1dc31c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "哑嗑泉",
+          "蛊狂泉",
+          "相关毒龙"
+        ]
+      },
+      {
+        "id": "book014-b001065-p000-4401aa6334",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘水因毒人及于水慣設入總名惡水十’释为‘这类水惯常被归入恶水十类之中’，存在无依据扩写，原文未明确‘这类水’的指代及‘十类’的具体所指，且‘水慣設入總名’的含义未明确"
+        ],
+        "uncertainty": [
+          "这类水"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 191,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1108,
+      "completion_tokens": 191,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

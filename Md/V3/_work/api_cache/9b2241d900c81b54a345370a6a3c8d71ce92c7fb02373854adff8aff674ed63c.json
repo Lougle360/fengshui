@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T20:42:05.279064+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9b2241d900c81b54a345370a6a3c8d71ce92c7fb02373854adff8aff674ed63c",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001542-p000-c118b1b4d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001544-p000-3597f82e51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为'乾坤以太陽太陰相合'，候选将其释为'乾对应太阳、坤对应太阴'，二者含义不符；原文'離中女少女也'漏译兑为少女的内容；原文'千左旋支右旋'误译为'支左旋、干右旋'，天干地支旋转方向相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001545-p000-655d2b2aba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'太陽一昼共四昼'表述存在讹误，候选直接按'太阳一昼，合计四昼'释读属于无依据确定，应标注原文此处存在讹误含义不明；原文'納音之干數至卦納之干'被释为'纳音的干数与卦纳的干相配'，漏译'数至'即计数从纳音干到卦纳干的步数的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001547-p000-30d6e25bca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'以少陰少四 相合'存在讹字，候选直接补为'少阴、少阳'属于无依据增译，应标注原文讹字无法确定；原文'負啚'被释为'绘制的图'无依据，应标注'负啚'具体含义不明"
+        ],
+        "uncertainty": [
+          "原文末尾有缺字，未能完整释读"
+        ]
+      },
+      {
+        "id": "book029-b001548-p000-f723fd6f23",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'八日兌永月見丁'存在讹字，候选直接改为'八日对应兑象，月亮在丁位显现'属于无依据修改，应标注此处原文讹字；原文'離象大就已成戊已土位'存在讹误，候选直接整合释读为'日中时分对应离象，戊己是土位'属于无依据确定，应标注原文讹误含义不明；原文'月每五日為一鄭震乾昏見'存在讹字，候选补为'月亮每五日为一个阶段'无依据，应标注讹字不明；原文'西南東也'候选释为'西南、东方'，但原文表述存在缺漏，应标注方位表述不完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001550-p000-715e0ba972",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001551-p000-4d833e2c65",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'出時設政邯度四方'存在讹字，候选释为'君主会设置政令，广布四方'属于无依据增译，应标注此处讹字含义不明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001552-p000-8e8bf97302",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001553-p000-bea98f7543",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'男婦暴族滅'被释为'家中男女凶暴，甚至会灭族'，漏译原文未说明灭族是因凶暴导致的逻辑，属于无依据增译逻辑；原文'主男女淫冶而敗'被释为'家中男女会因淫荡而败落'，添加了原文没有的因果关系，属于增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001554-p000-388fced33d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3942,
+    "completion_tokens": 1090,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3942,
+      "completion_tokens": 1090,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

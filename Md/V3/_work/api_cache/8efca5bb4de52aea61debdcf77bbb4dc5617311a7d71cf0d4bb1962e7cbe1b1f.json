@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-04T04:24:01.031191+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8efca5bb4de52aea61debdcf77bbb4dc5617311a7d71cf0d4bb1962e7cbe1b1f",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001347-p000-8b094e92bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译：原文‘兩邊護從重重疊疊逞奇列秀數十里外大纏大遠本身一脈清俊入首星辰尊貴成太陽金星開窩正淨融結精巧’中，‘大纏大遠’未译出。candidate仅处理为‘数十里外有大山缠绕且距离遥远’，‘大遠’（非常遥远）的强调含义丢失。",
+          "2. 反义/误译：原文‘穴前八字水交于在邊遠從右去’中，‘在邊’candidate解释为‘左侧’并标注存疑。但结合后文‘而右砂隱隱逆抱過前倒流數百步轉卯出口處有龜蛇捍門屈曲流入丁方’，水流从右侧去，且有右砂逆抱，则‘在邊’更可能指‘在（右）边’。candidate的推测性解释‘左边’与上下文逻辑不符，且将不确定写成了事实（‘译为左边’）。应直接保留‘在边’并说明所指不明，而非给出错误推测。",
+          "3. 术语/方位变化：原文‘屈曲流入丁方丁上文筆插天’，candidate译为‘屈曲流入丁方，丁方上有文笔峰直插云霄’。此处‘丁上’即丁方之上，译法准确。但需注意‘丁方’为固定方位术语，已保留。",
+          "4. 增译/事实性错误：candidate在解释‘穴中不見出’时，自行补全为‘穴中不见文笔峰显现’。原文仅说‘穴中不見出’，‘出’所指对象（是水？是砂？是气？）并未明确。candidate将其确定为‘文笔峰’，属于无依据的扩写，将推测写成了事实。应保留原文的模糊性。"
+        ],
+        "uncertainty": [
+          "原文‘在邊’具体指左边还是右边，存在歧义。",
+          "原文‘穴中不見出’中‘出’具体指代何物（水口、砂峰或其他），原文未明。"
+        ]
+      },
+      {
+        "id": "book033-b001349-p000-da086d48a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘地理人子須矢卷王’疑似OCR错误或原文残缺，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 595,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1251,
+      "completion_tokens": 595,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-09-25T07:11:28.634412+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "dbbc8afb91b6e6bfca628b7f781b981a02dbb01a5bb7a413f334c979efdef002",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000141-p000-86ebdb6a3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000142-p000-ac7eacd680",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题要求逐行核对原文，原文标题为‘## 之，岂不谬哉？’，候选将‘之，’删去，不符合标题不得改动原文表述的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000144-p000-bd58d87a1c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000145-p000-b316ab9c2c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000147-p000-343c3b0151",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000148-p000-cc5eb3c0f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文‘水十龙’（疑似OCR错误应为‘水土龙’）被误译为‘水土龙’的同时，后文增译了原文不存在的‘从生方发足，旺方到头，这就是生旺之龙，它发福必定很大’内容，属于无依据增译；2. 原文仅提及‘是从生’，候选擅自补充了后续未在该条目出现的内容，不符合释读边界要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000149-p000-858af2ef86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选释读为空，存在漏译，原文内容完整可释读，不属于无法释读的情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000150-p000-2b2e31fc7a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水土’被误译为‘风水语境中的河流、水系及其来去形态’，混淆了‘水土龙’中的‘水土’和术语‘水’的含义，属于专业术语误译；原文‘一发便’并非内容残缺，候选错误标注为原文残缺"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3328,
+    "completion_tokens": 604,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3328,
+      "completion_tokens": 427,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 3328,
+      "completion_tokens": 604,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

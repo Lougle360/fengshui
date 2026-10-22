@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T22:15:37.652258+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "eba86e9f5fb5209f6f78333e523d8049793a98689ff01ffe194a03a077e563b0",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000099-p000-ab08201b01",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000103-p000-f689a19330",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文的“五行金木水次土”讹写判定无依据，且allowed_glossary中“水”的定义为风水语境中的河流、水系，此处“金木水火土”的“水”属于五行范畴，不应单独锁定为风水术语；原文“有臣求立”属于未明确含义的表述，候选释读直接作为确定事实写出，不符合要求"
+        ],
+        "uncertainty": [
+          "“五行金木水次土”的准确写法存疑，“有臣求立”的具体含义未明"
+        ]
+      },
+      {
+        "id": "book031-b000104-p000-01caca6061",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在语序错乱，断句参照文义调整为‘雌與雄交會合玄空，雄與雌交，玄空卦內推，山與水須要明此理，水與山禍福盡相關，明玄空只在五行中，知此法不須尋納甲’，“盡湘關”为“盡相關”的讹写属于合理推测"
+        ]
+      },
+      {
+        "id": "book031-b000108-p000-094b202893",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“贫而至弼”语义不明，具体含义待考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1661,
+    "completion_tokens": 439,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1661,
+      "completion_tokens": 439,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

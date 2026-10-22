@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-23T14:47:27.128241+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "aaaebfebf48085a56c882abcc7ac9652cf5aa507a6659128c2cf4af16f068d5c",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000872-p000-a22f46f7db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘进宝逆流艮土出’解释为‘进宝之水逆流而上，从艮方位流出’，原文‘逆流艮土出’更可能指水流方向与艮土方位相逆或从艮土方位流出，候选句的‘逆流而上’可能改变了原意。",
+          "候选句将‘四个禄存流尽处’解释为‘四个禄存星之水流尽之处’，原文‘禄存’是星名，但‘四个禄存’可能指代四个方位或四种形态，候选句将其直接解释为‘星之水流’属于无依据的扩写。",
+          "候选句将‘庚辛立宅好安坟’解释为‘若在庚、辛方位立宅安坟’，原文‘庚辛’可能指庚、辛两个天干方位，但‘立宅好安坟’可能指立宅和安坟都适宜，候选句的‘若在……方位’表述将原文的肯定语气改为了条件假设，可能改变了原意。"
+        ],
+        "uncertainty": [
+          "‘金酉山金’中‘金’的具体含义",
+          "‘龙蛇大会总’中‘总’字的准确释义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 805,
+    "completion_tokens": 286,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 805,
+      "completion_tokens": 286,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

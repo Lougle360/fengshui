@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-26T05:11:10.282614+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "82b9c36f392168188c1e67646621780b80cde649937bc9dd8adcf7b555a0e0fc",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002352-p000-5686a2e56c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“肥負平聚”被误释为“肥聚、平聚”，存在字形误认导致的语义偏差；原文“觸類其餘”被释为“触类旁通，其余的情况”属于过度引申，原文未提及“旁通”含义，应保留原语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002353-p000-6c3d1d19ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002354-p000-f5d5026c34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002355-p000-44f26a8533",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“牧水”属于风水术语，未标注且无依据释为“牧水的方法”，存在术语误释风险；原文“論山立配”被误释为“判断山的立向配置的方法”，添加了原文没有的“立向”含义，属于增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002356-p000-b1cad82585",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002357-p000-82b11dd258",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“吳辛”“甲丁 吳辛木”中的“吳”为原文用字，候选未保留原字直接归为五行对应，存在误认风险；原文“坎癸申辰”后无“归入对应体系”的表述，属于无依据增译；原文末尾的“二十”是卷内页码，释为“页码二十”表述正确，但应明确是原书卷十一内的页码"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002358-p000-c228d94cf4",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "原文“水專壬寅戌夾”语义含混，候选释为“专在壬寅戌位夹合”属于无依据推测，未明确标注语义不明风险"
+        ],
+        "uncertainty": [
+          "“水專壬寅戌夾”具体含义未明，此处释读为推测性表述"
+        ]
+      },
+      {
+        "id": "book029-b002359-p000-6aa4f5c5f7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "此处“冰”“宁”二字疑为OCR识别错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book029-b002360-p000-944a142e59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002361-p000-0f0d326aca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兩丁乙 酉火”断句错误，候选误将“两丁乙”归为属火，“酉”漏归火类；原文“巽辛巳寅申辰壬”被误释为“巽辛巳寅申辰属壬”，属于无依据的五行归属判定，原文未明确“壬”为五行属性，存在语义误读"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3099,
+    "completion_tokens": 957,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3099,
+      "completion_tokens": 957,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

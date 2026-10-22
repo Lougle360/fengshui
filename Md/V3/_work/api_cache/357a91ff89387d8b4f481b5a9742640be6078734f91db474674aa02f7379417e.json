@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-18T04:23:45.274685+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "357a91ff89387d8b4f481b5a9742640be6078734f91db474674aa02f7379417e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005399-p000-a0d30838bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005400-p000-e459c75787",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005401-p000-892beb37f5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'番卦'释为'翻卦'，但原文为'番卦'，属于opaque_terms，应保留原词并引用，不应直接替换为'翻卦'。",
+          "candidate将'随局裁天'释为'随局裁断'，'天'字漏译。",
+          "candidate将'不专尼'等乱码部分直接推测为'不必完全拘泥于某种固定模式'，属于无依据扩写。对于乱码，应仅指出其导致文意无法还原，不应推测具体含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005402-p000-229098213f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005403-p000-32a1adbef0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'天曲'直接解释为'文曲'，但原文为'天曲'，属于opaque_terms，应保留原词并说明可能指文曲，而非直接认定为文曲。",
+          "candidate将'同明'直接解释为'左辅'，但原文为'同明'，属于opaque_terms，应保留原词并说明可能指辅星，而非直接认定为左辅。",
+          "candidate将'胜金卦'释为'可胜金卦'，'胜'字含义不确定，可能为'胜'或'盛'等，直接解释为'可胜'属于无依据扩写。",
+          "candidate将'宗朝五行'释为'宗朝五行可以作专用'，'宗朝'含义不明，属于opaque_terms，不应解释为'宗朝'。",
+          "candidate将'错原骨定夹'释为'防止错原骨定夹'，'错原骨定夹'为opaque_terms，不应解释其含义，仅能说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005404-p000-ef464be932",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005405-p000-3f7438ed8a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005406-p000-1b52175312",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005407-p000-11139e9bdf",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "candidate将'戊或夹乾'中的'或'推测为'戌'之误，但原文为'或'，属于不确定，不应在释读中直接改为'戌'或暗示其误。",
+          "candidate将'哭盘'推测为'晷盘'或'日晷'之误，并加入解释，属于无依据扩写。对于OCR错误，应仅指出其导致文意不明，不应推测具体为何物。",
+          "candidate将'织曰出之影'等混乱语句试图连贯解释，但原文OCR错误严重，许多句子无法成立，candidate的释读超出了保守转述的范围，属于过度解读。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误与断句混乱，导致部分句子无法准确还原"
+        ]
+      },
+      {
+        "id": "book035-b005408-p000-a766667aca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4122,
+    "completion_tokens": 872,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4122,
+      "completion_tokens": 872,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

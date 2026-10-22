@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T17:45:24.585378+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a8e2ea74b381661c19190971287e1fa7003a8398d4ef8c11faa93f325f4ba051",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001288-p000-1dcf6ccfc9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中《象》与《象传》为同一内容，候选句重复标注《象传》，且对“行师”的释读与原文“征邑国”的含义存在偏差，原文意为征讨所属的邑国，而非四旁都邑"
+        ],
+        "uncertainty": [
+          "原文中“鸣谦”的具体所指未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 857,
+    "completion_tokens": 122,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 857,
+      "completion_tokens": 122,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-10-16T08:39:24.762046+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "52277fb40974d8c70fac4cbfff7c179532d9910075927d61c1fb98b53a3d46cb",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001596-p000-2bf5ab8cc1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001603-p000-0388eeb1a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'如無潘兩角'，candidate译为'如果没有，就在两角安扦'，将'潘'字直接处理为'没有'，属于无依据的推测和改写。应保留原文'潘'字并标注其义不明。",
+          "原文'土藏金曰化氣吉也'，candidate译为'土中藏金，名叫化气，是吉兆'，将'曰'译为'名叫'，属于将原文的陈述句（说/称为）误译为命名句，语义有偏差。",
+          "原文'或土星腰長開虛窩曰水不可扦腰'，candidate译为'或者土星腰长，开有虚窝，名叫水，不可在腰部安扦'，将'曰水'译为'名叫水'，同样是将陈述误译为命名，且'水'为locked_term，此处'曰水'应理解为'称为水形'或'形成水形'，而非一个名为'水'的穴位。",
+          "原文'擔凹可穴'，candidate译为'可以安扦'，漏译了'擔凹'这一具体位置描述，应译为'在担凹处可以安穴'或保留'担凹'并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001610-p000-4cd6aacb94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1423,
+    "completion_tokens": 387,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1423,
+      "completion_tokens": 387,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

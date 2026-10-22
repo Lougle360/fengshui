@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-04T09:12:49.938485+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d050cf285df1983a116c382b5fab8c7fef5dda1509106a0b134070ccd0e5f01b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001073-p000-22ca989073",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“卷 八六貫”在candidate中被译为“卷八六贯”，但原文有空格，可能为“卷八六贯”或“卷八六贯”等，译文未保留原文可能的歧义或结构，也未标注不确定性。",
+          "原文“扒砂经非常去可む”中“む”为日文假名，candidate直接保留为“扒砂经非常去可む”，但未在uncertainty中明确标注此日文假名混入或OCR错误，也未说明其含义不明。",
+          "candidate中“九一一局”在原文中为“九一一局”，但writer_uncertainty中提及“原文‘九一一局’处文字可能有脱漏或错乱”，candidate却直接译为“九一一局”，未标注此不确定性。",
+          "candidate中“生圣生倦”在writer_uncertainty中已标注语义晦涩，但candidate直接译为“生圣生倦”，未在uncertainty中明确标注此不确定性。",
+          "candidate中“狗土”、“狗水”在writer_uncertainty中已标注疑似“够”或“需”之误，但candidate直接译为“狗土”、“狗水”，未在uncertainty中明确标注此不确定性。",
+          "candidate中“葬祸谛起处”在writer_uncertainty中已标注语义不通，但candidate直接译为“葬祸谛起处”，未在uncertainty中明确标注此不确定性。",
+          "candidate中“亦可火于砂经个也”在writer_uncertainty中已标注语义不明，但candidate直接译为“亦可火于砂经个也”，未在uncertainty中明确标注此不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001074-p000-d1f63262d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001075-p000-71776f617d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate中“穴必狗土”、“穴必狗水”的“狗”字，在writer_uncertainty中已标注疑似“够”或“需”之误，但candidate直接译为“狗土”、“狗水”，未在uncertainty中明确标注此不确定性。",
+          "candidate中“葬祸谛起处”在writer_uncertainty中已标注语义不通，但candidate直接译为“葬祸谛起处”，未在uncertainty中明确标注此不确定性。",
+          "candidate中“亦可火于砂经个也”在writer_uncertainty中已标注语义不明，但candidate直接译为“亦可火于砂经个也”，未在uncertainty中明确标注此不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001076-p000-70e4c87c80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate中“奏棺”在writer_uncertainty中已标注可能为“安棺”或特定术语，但candidate直接译为“奏棺”，未在uncertainty中明确标注此不确定性。",
+          "candidate中“失之治晕”在writer_uncertainty中已标注语义不明，但candidate直接译为“失之治晕”，未在uncertainty中明确标注此不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001077-p000-6fd6a3db96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001078-p000-85a670b30c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6005,
+    "completion_tokens": 894,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6005,
+      "completion_tokens": 894,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

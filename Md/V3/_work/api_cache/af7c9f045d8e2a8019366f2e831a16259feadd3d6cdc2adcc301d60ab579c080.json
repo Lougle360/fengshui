@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-09-25T10:21:21.456887+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "af7c9f045d8e2a8019366f2e831a16259feadd3d6cdc2adcc301d60ab579c080",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000262-p000-148bc52db0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000263-p000-80343965d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000266-p000-76b0f7e0a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000272-p000-cea332018b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“五高雲”语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book024-b000273-p000-e9bcf0ff9f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“百至小子”为语义模糊内容，candidate将其解释为“正对百至小的位置，会导致家中子弟”属于无依据释读，未按要求保留模糊性标注"
+        ],
+        "uncertainty": [
+          "原文“百至小子”语义模糊，难以准确释读",
+          "原文末尾“橫七”语义模糊，未释读"
+        ]
+      },
+      {
+        "id": "book024-b000274-p000-0b521e34a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000276-p000-dc6b598b25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“永盤經”未明确“盤經”是引用出处，candidate将其释为“此内容出自盘经”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文“盤經”语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book024-b000277-p000-99275bfa8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000282-p000-707f6e4299",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“忤逆”是形容人出现忤逆行为，candidate释为“龙、虎两方形势相忤逆”属于语义错误，将人事凶象误释为形势特征"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000283-p000-a4452e2f8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2168,
+    "completion_tokens": 678,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2168,
+      "completion_tokens": 678,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

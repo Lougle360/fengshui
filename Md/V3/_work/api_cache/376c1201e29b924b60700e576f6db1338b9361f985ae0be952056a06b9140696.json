@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T09:45:40.793891+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "376c1201e29b924b60700e576f6db1338b9361f985ae0be952056a06b9140696",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000394-p000-c55a61870f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "五户（衰、病、死、墓、徒五位）具体所指不详",
+          "三门（生、官、旺三方）具体所指不详",
+          "从有作具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000395-p000-7555a3fabf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000396-p000-04c0c09192",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文关于蜂腰的表述不完整"
+        ]
+      },
+      {
+        "id": "book010-b000397-p000-ae37e31575",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“佃嫩”释为“嫩形”、“徊”释为“回旋”、“知殊”释为“蜘蛛”、“罷”释为“罢”、“午地”释为“午地”，均属于无依据的主观释义，且“绛腰”未在原文出现，属于误加内容"
+        ],
+        "uncertainty": [
+          "原文中“佃嫩”“徊”“知殊”“罷”“午地”等表述含义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1880,
+    "completion_tokens": 348,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1880,
+      "completion_tokens": 348,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

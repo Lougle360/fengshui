@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T12:50:20.517355+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c74c67c22ee7f39a3dd0e1658cb5537d93a6bda28e247d2bcec5e253e432d229",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000919-p000-6ec7b515ec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000920-p000-31bb27c1ec",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“有石延丁”释为“有石质延伸的地方会添丁”属于无依据扩写，原文未明确“延丁”的具体含义，也未说明“石质延伸”与“添丁”的关联；将“水推裙破”释为“水势推冲裙带”属于无依据扩写，原文未提及“裙带”的具体所指"
+        ],
+        "uncertainty": [
+          "原文中“罗星”“锁水”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000921-p000-e9aa14fcc3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“不骨结”释为“不是骨结而成”属于无依据扩写，原文未明确“骨结”的具体含义；将“汉南之餘秀”释为“汉南的余秀之地”属于无依据扩写，原文未明确“餘秀”的具体所指"
+        ],
+        "uncertainty": [
+          "原文中“不骨结”含义不明，“陸法和”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000922-p000-c436d9ede3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“自作自爲”释为“自己作自己的”属于无依据扩写，原文未明确该短语的具体含义；将“非沙體”释为“并非沙体”属于无依据扩写，原文未明确“沙体”的具体所指"
+        ],
+        "uncertainty": [
+          "原文中“大物”“真脉”“沙体”的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1536,
+    "completion_tokens": 488,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1536,
+      "completion_tokens": 488,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

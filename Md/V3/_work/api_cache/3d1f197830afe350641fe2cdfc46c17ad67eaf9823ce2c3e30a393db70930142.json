@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-24T21:27:36.015873+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3d1f197830afe350641fe2cdfc46c17ad67eaf9823ce2c3e30a393db70930142",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000303-p000-f839f7a4ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“殊則己點耐抑”具体所指不明"
+        ]
+      },
+      {
+        "id": "book017-b000304-p000-55218020e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“仙鐵罷”具体所指不明",
+          "“暑雁交爹”具体所指不明"
+        ]
+      },
+      {
+        "id": "book017-b000305-p000-784e118213",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "日文假名“んそ”含义不明",
+          "“坊”此处具体所指不明"
+        ]
+      },
+      {
+        "id": "book017-b000306-p000-616aed2c00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“幹流奇支流交会”的“奇”字未做标注，释读为“与”缺少依据",
+          "将“氣界地理辨三真读 4三真读 六三”判定为“大概率是OCR识别讹误或者原文本身存在讹错”属于无依据推测，应仅标注含义不明"
+        ],
+        "uncertainty": [
+          "“氣界地理辨三真读 4三真读 六三”具体所指不明",
+          "“幹流奇支流交会”中的“奇”字语义不明"
+        ]
+      },
+      {
+        "id": "book017-b000311-p000-35afdad059",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“湖裏雁交稽言”具体所指不明",
+          "“一水從右去”与“两水相遇”逻辑矛盾，疑似原文讹误"
+        ]
+      },
+      {
+        "id": "book017-b000313-p000-d483ad746a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“水主財深山人丁”断句存在歧义，此处按“水主财，山主人丁”释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2012,
+    "completion_tokens": 572,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2012,
+      "completion_tokens": 572,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

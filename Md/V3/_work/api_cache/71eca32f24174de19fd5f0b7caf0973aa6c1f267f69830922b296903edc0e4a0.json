@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:45:38.259928+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "71eca32f24174de19fd5f0b7caf0973aa6c1f267f69830922b296903edc0e4a0",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000247-p000-03e313f913",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "原文存在大量模糊残缺的文字，部分日文假名含义不明"
+        ],
+        "uncertainty": [
+          "日文假名「作ふ」「じ」「浮」的具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2627,
+    "completion_tokens": 84,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2627,
+      "completion_tokens": 84,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

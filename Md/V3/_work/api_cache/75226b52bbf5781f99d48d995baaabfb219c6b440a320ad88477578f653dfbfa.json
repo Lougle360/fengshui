@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T07:57:47.779757+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "75226b52bbf5781f99d48d995baaabfb219c6b440a320ad88477578f653dfbfa",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000101-p000-4e973d513a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“補義”“巖”“葉”“訊惡”“曠傳”“拙支”等表述含义模糊，释读未作明确判定，保留原文模糊状态"
+        ]
+      },
+      {
+        "id": "book009-b000102-p000-d92d022522",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“地非止一處故爲大家分單”“沙下牛”“指造卷之上”等表述含义模糊，释读未作明确判定，保留原文模糊状态"
+        ]
+      },
+      {
+        "id": "book009-b000103-p000-31b16f58fd",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处OCR识别错乱，部分文字含义无法明确，释读仅按识别内容转写，未作有效释读"
+        ],
+        "uncertainty": [
+          "原文存在多处OCR识别错乱，部分文字含义无法明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2069,
+    "completion_tokens": 301,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2069,
+      "completion_tokens": 301,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-25T19:53:45.709259+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "538f06cc50056b1280ee634fdea68ca2c84b68be44598d387cd40c1ebb5d890d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001325-p000-79e98d471e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source含“山”字，candidate完全漏译；source无“方位”表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001326-p000-084869e1af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“天户巽户不为事”被误译为“不要从属于天户的巽位流向此地，否则不会带来好事”，语义完全不符；原文“十1”标注处理错误，“十1”应为序号误写，candidate写“第1条”无依据；“換妻”被误译为“休妻”，“換妻”指妻子被置换、损妻，与主动休妻含义不同；“瘋痰”释为“疯痰类疾病”不准确，应为疯癫、痰饮类病症但不影响理解可忽略，核心是前两处语义错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001327-p000-eac72be95c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source含“山”字，candidate完全漏译；source无“方位”表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001328-p000-f2df2d3320",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“佩金黑”属于无依据释读，“黑”应为“魚”的OCR讹误，candidate直接释为“佩戴金黑之物”错误；“祿存”未标注为风水术语，无对应释义也未说明，且“祿存流盡佩金魚”是常见风水口诀，此处“黑”为讹字应标注不确定，不应直接按字面释读"
+        ],
+        "uncertainty": [
+          "原文“佩金黑”疑似OCR讹误，原应为“佩金鱼”，具体所指不确定"
+        ]
+      },
+      {
+        "id": "book029-b001329-p000-0f3e8cb22b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“水裡龍神不上山”为风水专业术语，具体含义需结合对应风水理论判断"
+        ]
+      },
+      {
+        "id": "book029-b001330-p000-e14e4ab00a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001331-p000-ab2b999427",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文列表中“壬子俱是水為根”无“癸”，candidate多增“癸”字，干支对应错误；“互晉”被误译为“互相参照”，“晉”应为“參”的讹字，原文应为“互参”，candidate虽意思接近但未标注讹误风险，且干支多译属于事实错误"
+        ],
+        "uncertainty": [
+          "原文“互晉”疑似“互参”的讹字，具体含义不确定"
+        ]
+      },
+      {
+        "id": "book029-b001332-p000-9052c64f3e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001333-p000-710d021113",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“放宅墓堂前水”的“放”是放水（风水术语，指导排水流）的意思，candidate误译为“放置在住宅、坟墓堂前的水”，语义完全相反；“與玄空相最驗”漏译“合”字？不对原文是“與玄空相最驗”应为“與玄空相合最驗”的漏字，candidate补“契合”可，但“放”的翻译是核心错误；“收生入死出”表述不准确，应为“收生旺之水入，放死绝之水出”，candidate直接写“收生入死出”未释读，普通读者无法理解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001334-p000-40b45a5f5b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“艮異方”为“艮巽方”的讹字，candidate直接写“艮巽方”未标注讹误；“武曲應已酉五生人并年月”的“五”应为“丑”的OCR讹误，对应巳酉丑三合金局，candidate直接按“五”释读为“五生人”错误，属于无依据释读；“雙秀宮中丁與辛 巨門星照福來臻”未释读，但属于诗歌保留原文可接受，核心是讹字未标注和“五生人”的错误释读"
+        ],
+        "uncertainty": [
+          "原文“已酉五生人”的“五”疑似“丑”的讹字，具体所指不确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 1294,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3268,
+      "completion_tokens": 1294,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

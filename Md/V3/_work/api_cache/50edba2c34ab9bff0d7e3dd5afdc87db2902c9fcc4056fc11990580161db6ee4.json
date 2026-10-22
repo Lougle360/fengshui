@@ -1,0 +1,145 @@
+{
+  "created_at": "2026-10-17T10:45:24.289289+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "50edba2c34ab9bff0d7e3dd5afdc87db2902c9fcc4056fc11990580161db6ee4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003360-p000-fb34167bdc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003361-p000-5febd23de4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘干卦正配’，candidate译为‘干卦正配’，但‘干卦’可能为‘乾卦’之误或特定术语，此处应保留原文‘干卦’并标注不确定性。",
+          "原文‘忌丑寅氣入也’译为‘需忌讳丑、寅之气进入’，准确。但‘丑寅’为地支，candidate未明确其为‘方位之气’或‘地支之气’，可接受。",
+          "原文‘分金取辛酉氣行布’译为‘分金取辛酉气进行行布’，准确。但‘行布’为风水术语，candidate直接沿用，未作解释，符合规则。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详，可能为‘乾卦’或特定术语。"
+        ]
+      },
+      {
+        "id": "book035-b003362-p000-b2698de809",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘干卦陰陽相見’译为‘干卦阴配，阴阳相见’，‘阴配’为增译，原文无此意。应译为‘干卦配合，阴阳相见’或保留‘干卦阴阳相见’。",
+          "原文‘戌朝氣入也’译为‘需忌讳戌方之气进入’，‘朝’字未译出，可能指‘戌方朝向之气’，但candidate处理为‘戌方之气’可接受。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003363-p000-0804038f82",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘以干卦配陰陽相見而吉’译为‘以干卦配合阴阳相见，故为吉利’，准确。但‘干卦’问题同上。",
+          "原文‘午未氣入也’译为‘需忌讳午、未之气进入’，准确。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003364-p000-313c6521a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘吉純卦無若龍配兼向忌克龍入辛大發福’句意复杂，candidate译为‘若纯卦无兼向，若龙脉配合兼向则忌讳相克。龙脉入辛方大发福。’此处理将原文拆解，但‘纯卦无’含义不明，candidate解释为‘若纯卦无兼向’可能不准确。应标注原文此句含义不确定。",
+          "原文‘丑寅氣入也’译为‘需忌讳丑、寅之气进入’，准确。",
+          "原文‘分金取辛丑氣行布’译为‘分金取辛丑气进行行布’，准确。"
+        ],
+        "uncertainty": [
+          "‘吉純卦無若龍配兼向忌克龍入辛大發福’一句具体含义不详。",
+          "‘干卦’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003365-p000-3dd4063d16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘忌林術官照龍’译为‘忌讳林术官星照耀龙脉’，‘林术官’为星名，candidate直接沿用，符合规则。",
+          "原文‘甲乙撤主也’译为‘需忌讳甲、乙之气撤主’，‘撤主’含义不明，candidate直接沿用，符合规则。",
+          "原文‘分金取辛卯氣行布’译为‘分金取辛卯气进行行布’，准确。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详。",
+          "‘甲乙撤主’具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b003366-p000-ceb66136b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘羽林術官照向’译为‘羽林术官星照耀朝向’，‘羽林术官’为星名，candidate直接沿用，符合规则。",
+          "原文‘分金取辛亥啓行’译为‘分金取辛亥气进行启行’，‘启行’可能为‘行布’之误或特定步骤，candidate直接沿用，符合规则。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003367-p000-d3c70e4b2f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘亥山艮向坐坤穴取正亥脈氣貫棺左腰’译为‘坐亥山朝向艮，穴位取在坤方，以获取纯正的亥脉气，贯穿棺木左侧腰部。’准确。",
+          "原文‘地卦貪狼蓋向’译为‘地卦贪狼星覆盖朝向’，‘地卦’含义不明，candidate直接沿用，符合规则。",
+          "原文‘丙山支向坐雷穴’译为‘坐丙山支向，穴位取在雷方’，‘支向’、‘雷穴’含义不明，candidate直接沿用，符合规则。",
+          "原文末尾不完整，candidate用省略号表示，并标注不确定性，处理得当。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详。",
+          "‘地卦’具体所指不详。",
+          "‘支向’、‘雷穴’具体所指不详。",
+          "原文末尾语句不完整，可能因页面截断导致内容缺失。"
+        ]
+      },
+      {
+        "id": "book035-b003368-p000-c26728599d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003369-p000-0380c478b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘照龍少微照向干卦借配陰陽相見吉’译为‘照耀龙脉少微星，照耀朝向干卦，借配阴阳相见吉利。’此句承接上条，candidate断句为‘照耀龙脉少微星，照耀朝向干卦’，但原文‘照龍少微照向’可能指‘少微星照耀龙脉和朝向’，candidate处理可接受。",
+          "原文‘分金辛巳丙午行布注告’译为‘分金取辛巳、丙午气进行行布。注告。’准确。"
+        ],
+        "uncertainty": [
+          "‘干卦’具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3352,
+    "completion_tokens": 1508,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3352,
+      "completion_tokens": 1508,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

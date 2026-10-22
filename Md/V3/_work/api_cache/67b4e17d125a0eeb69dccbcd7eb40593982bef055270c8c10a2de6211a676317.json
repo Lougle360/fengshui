@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T04:50:20.347802+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "67b4e17d125a0eeb69dccbcd7eb40593982bef055270c8c10a2de6211a676317",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000276-p000-0cf0c6caa2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000277-p000-52a887c3a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文句读错误，原句应为“三山类从，则后人乐凿之说，姑列之以备数，实无当于地理之用”，candidate错误将“则后人乐凿”划入引号内，与原文语义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000278-p000-34d1b3ade3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“申针”为“中针”的形近讹误，candidate直接沿用错字未作说明；原文“天之宫位统于”语义未完，candidate擅自补出“一”字属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000279-p000-d1710b1f07",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开篇“一十二”语义不明，candidate直接保留未作标注；原文“天之运第层三二十四山”存在语序讹误，candidate擅自调整为“天之运行，第一層二十四山”属于无依据修正"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000280-p000-0173fe76d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开篇“行自左而右”主语承前为天，candidate擅自删去；原文末尾“其十二宫阔狭之致不”语义未完，candidate擅自补出“能像北极之下那样均匀，但以天常赤道之位均配于地平之位，其道理相通，其气自然相应”等大量无依据内容"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000281-p000-0c5928c880",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“天极并第一層二十四山”语义为“天极与第一層二十四山（的关系）”，candidate错误译为“天极并非第一層二十四山”，语义完全相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000282-p000-659d42f8e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“岁差五十一”语义未完，candidate直接保留未作标注"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000283-p000-43f43ec666",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开篇“以黄极日道之二至论则每年岁差五十一枕”未完整译出，存在漏译；原文“強圓動不息”应为“周圆运动不息”的形近讹误，candidate直接沿用错字；原文末尾“偏第一層二十四山”语义为“偏离第一層二十四山（的正位）”，candidate译为“偏於第一層二十四山”表述不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000284-p000-c32391b289",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000285-p000-b305f4ed19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“第一層二三十四山”为“第一層二十四山”的讹误，candidate直接修正未作说明"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4491,
+    "completion_tokens": 985,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4491,
+      "completion_tokens": 985,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

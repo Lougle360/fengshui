@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-25T19:32:47.609485+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d20ea2f0757b8914afc8d3d24a7f739016f97dce35cfe82dba18208f234865e6",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000588-p000-fbf21b1fb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“地理救人卷二鑑水六十六”是古籍名称及卷次篇目，候选将“地理救人”处理为《地理救人》书名正确，但原文中“則其氣識可地理救人”句的“地理救人”是功能表述，候选错误拆分原文逻辑，将该句改为“那么它的气识可用于地理相关的用途”，漏译“救人”表意，且与后续书名标注的逻辑混淆",
+          "原文“泉而沸逃”中“逃”为讹误的可能性高，候选直译“沸腾逃逸”无依据，且未做歧义标注"
+        ],
+        "uncertainty": [
+          "“疏黄”“回礬石”“气识”具体所指暂不明确"
+        ]
+      },
+      {
+        "id": "book030-b000589-p000-34d2aaa3d1",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“其寻池兴阳”“湿厚化为水滔清汨汨”的断句和具体含义暂不明确"
+        ]
+      },
+      {
+        "id": "book030-b000591-p000-620652dbcb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“氣鍾千礦”应为“氣鍾于礦”的形近讹误，候选直接译作“气聚积在千矿之中”属于无依据直译，未标注讹误风险；原文“必形掘鑿傷毀”中“形”为“有”或“出现”类讹误的可能性高，候选未做标注，且“必然会出现掘凿伤毁的情况”属于无依据扩写，原文未明确伤毁的对象"
+        ],
+        "uncertainty": [
+          "“龙胍”“于渍”“千矿”“发浅”“必形”的具体含义暂不明确"
+        ]
+      },
+      {
+        "id": "book030-b000593-p000-4b9628e928",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“形類胆外”应为“形類胆，外[?]”或“形類胆，又名胆泉”的断句讹误，候选译作“外形除了类似胆之外”属于无依据补译，错误添加了“除了……之外”的逻辑"
+        ],
+        "uncertainty": [
+          "“形类胆外”的具体表述逻辑暂不明确"
+        ]
+      },
+      {
+        "id": "book030-b000594-p000-feb0bd95d7",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "末尾的“巳”字在此处的语义暂不明确"
+        ]
+      },
+      {
+        "id": "book030-b000596-p000-1e740b15f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“泉月地中湧出”应为“泉自地中湧出”的形近讹误，候选直接译作“泉月从地中涌出”属于无依据直译，未标注讹误风险；原文“起泡瀆涕”是指泉水起泡像涕泪一样，候选错误断句为“泛起的泡沫如同渎涕”，未说明“渎涕”的字面指向，且“泉月”未做讹误标注"
+        ],
+        "uncertainty": [
+          "“泉月”“渎涕”具体所指不详；“抗州”应为“杭州”的形近讹字；“跑矣黑”“虎鬼泉”具体对应地点不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1779,
+    "completion_tokens": 883,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1779,
+      "completion_tokens": 883,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

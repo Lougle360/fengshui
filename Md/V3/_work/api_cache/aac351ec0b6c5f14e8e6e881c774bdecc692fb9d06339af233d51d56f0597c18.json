@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-04T00:57:41.416519+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "aac351ec0b6c5f14e8e6e881c774bdecc692fb9d06339af233d51d56f0597c18",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000304-p000-743d20e90c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘若有凶体不忌逅土故也’被误译为‘如果有凶体夹杂其中，也不必忌讳，这是因为文中提到‘身盡尾處得四凶意大爲威福之助’’。原文明确说‘不忌逅土’，即不忌讳逅土（一种土星），而候选句将其替换为引用另一句原文作为原因，属于专业术语误换和反义。",
+          "原文‘不及圖密格者從省文也’被解释为‘对于无法绘制细密格局的情况，文中采用了简略的文字说明’，这是对‘从省文’的推测性扩写，原文仅表示‘不及图密格者从省文也’，即‘不及图密格者从省文也’，具体所指不详，候选句将其写为确定事实。"
+        ],
+        "uncertainty": [
+          "身盡尾處得四凶意大爲威福之助"
+        ]
+      },
+      {
+        "id": "book028-b000307-p000-7f278c4d01",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘变熊不一’被处理为‘变熊不一’，具体所指不详，但候选句在引用时使用了单引号，而单引号通常用于直接引用，此处应使用双引号或明确标注为原文短语，以避免混淆。",
+          "原文‘遇多落江畔水心’被译为‘多遇落在江畔水心之地’，将‘遇多’理解为‘多遇’，但原文是‘发希遇多落江畔水心’，意为‘发福稀少，多落在江畔水心’，候选句可能漏译了‘发希’或理解有误，导致语义不完整。"
+        ],
+        "uncertainty": [
+          "变熊不一",
+          "遇多落江畔水心"
+        ]
+      },
+      {
+        "id": "book028-b000311-p000-543e5ea0f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘死骨焉’被处理为‘死骨焉’，具体所指不详，但候选句在引用时使用了单引号，而单引号通常用于直接引用，此处应使用双引号或明确标注为原文短语，以避免混淆。",
+          "原文‘无之护卫之缜审而储物之精尤甚矣’被译为‘若无护卫之缜审，而储物之精尤甚’，但原文是‘龙势之盛大无之护卫之缜审而储物之精尤甚矣’，结构含混，候选句的断句和解释（‘若无’）是推测，可能改变了原意，应保留原文短语并标注不确定。"
+        ],
+        "uncertainty": [
+          "死骨焉",
+          "无之护卫之缜审而储物之精尤甚矣"
+        ]
+      },
+      {
+        "id": "book028-b000318-p000-d538739c92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "对而仰君"
+        ]
+      },
+      {
+        "id": "book028-b000319-p000-f656ee7eff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "春瘦体薄"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2109,
+    "completion_tokens": 689,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2109,
+      "completion_tokens": 689,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-16T08:59:13.412111+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "adfcf6354fc456cf272efde61672a4eb9978c5b07ea45de144c42df5532f9a2a",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001688-p000-91173ae249",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'俗反'是注音术语，指'形'字的反切读音为'俗反'，candidate译为'读音为俗反'虽可，但'俗反'本身是术语，应保留并说明是反切注音，否则易误解为'通俗的反切'或'俗气的反切'。",
+          "原文'球之似球之似凸'语序重复，candidate处理为'形容球体凸出的部分'，但原文'不失先贤命名'与'遂失其真'是转折关系，candidate用'但后来却失去了'处理得当，但前半句'先贤以此命名'的'此'指代不明，应明确指代'形'字或'球'的命名。"
+        ],
+        "uncertainty": [
+          "'球之似球之似凸'具体所指不详，candidate已标注。"
+        ]
+      },
+      {
+        "id": "book035-b001689-p000-9a63c31828",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "'九昨事'应为'九星事'，OCR错误，candidate直接改为'九星之事'正确，但应注明原文为'九昨事'，是OCR误识。",
+          "'木者星四者则易扦'断句有误，原文应为'直者木星，四者则易扦'，candidate作'木星四'，将'四'误归入木星，且'四者'指前文土、金、火、木四星，candidate未明确。",
+          "'或扦曲之书'应为'或扦曲之处'，'书'为'处'的形误，candidate直接改为'处'正确，但应注明原文用字。",
+          "'以朝不流水來之無失主逐名始爲得穴'断句含糊，candidate处理为'以朝山不流水来为准则，没有失误，主家才能依名得穴'，但'逐名'释为'依名'略显牵强，可能指'逐个名称'或'追寻名目'，存在歧义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001691-p000-a051811a5e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001694-p000-1213e199b7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'壓離就等截鈎墜'，candidate断为'压穴、离穴、等截、钩坠'，但原文'就'字未译，可能为连接词或'就位'之意，candidate直接省略，可能漏译。",
+          "'工到其間妙深遠'，candidate译为'其中的工法妙处深远'，'工'可能指'工夫'、'工法'或'工艺'，此处释读合理。"
+        ],
+        "uncertainty": [
+          "'压离就等截钩坠'具体所指不详，candidate已标注。"
+        ]
+      },
+      {
+        "id": "book035-b001696-p000-5f26605724",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001698-p000-e95396a8f6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文'股抱肢直截長補短'极为简略，似为口诀或断句，缺乏上下文，具体所指不详。candidate保留原文，未作过度解释，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b001699-p000-3a3670efa3",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文'斷之如何勾回推斷'语意不明，似为设问或残缺句，具体所指不详。candidate处理为设问句，未作确定解释，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b001700-p000-9ad3b284d9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'官仰尾要后照星'，candidate断为'官仰尾要后照星'，但'官仰尾'可能为'官鬼'、'仰瓦'等术语组合，candidate未解释，直接保留，但作为opaque_terms处理更妥。",
+          "'杀急则脱杀'，candidate译为'杀急则脱杀'，'脱杀'是风水术语，指避开煞气，candidate未解释，但locked_terms未包含，可接受。",
+          "'星见水主'，candidate保留原文并标注语意未尽，处理得当。"
+        ],
+        "uncertainty": [
+          "原文末尾'星见水主'语意未尽，似有缺字，具体所指不详。candidate已标注。"
+        ]
+      },
+      {
+        "id": "book035-b001702-p000-212e3a2f9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2339,
+    "completion_tokens": 1127,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2339,
+      "completion_tokens": 1127,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

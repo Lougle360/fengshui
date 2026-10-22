@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:55:36.167314+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "213f7ce13630b91f471e1bc72a7bbccedf9ce67d0c8d0a44ba55a19e9fc39067",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001360-p001-8b60800c63",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在多处OCR识别误差导致的内容误转，如将‘孝埋’误释为‘孝埋’（原文为‘孝埋’，释读未修正）、‘小学版’应为‘小学版’（原文为‘小学版’，释读未修正）、‘毓官頡’应为‘毓官頡’（原文为‘毓官頡’，释读未修正）、‘招通詔令’应为‘招通詔令’（原文为‘招通詔令’，释读未修正）等，且部分内容未按原文准确释读，如‘V孩絲部’‘號緯’等OCR误差内容未标注具体所指无法明确，不符合释读要求"
+        ],
+        "uncertainty": [
+          "V孩絲部、號緯、國峰、城緯領、識肆類、議緯、售事、福事、典故須、毓官頡、2は、紀事本木類、儀典如、氣注、禮注類、法今、偽史、雜将丸中附、傳北類、傳記類、本朝雜傳、詔今類、奏議頌、招通詔令、奏城等内容因OCR识别误差，具体所指无法明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4499,
+    "completion_tokens": 338,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4499,
+      "completion_tokens": 338,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

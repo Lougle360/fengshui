@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:36:06.730378+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "be3b150122095979961f5f033f6dfd6e758db2b856fff6cf1163f49dcb0f73d7",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000855-p000-fce332cf7f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘甲李’所指未明，释读中未明确标注该不确定性"
+        ]
+      },
+      {
+        "id": "book010-b000856-p000-4a41098acb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000857-p000-a16c71fe2d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘官’误释为‘官星’，原文未明确‘官’的具体所指；‘纯命’‘霍震’‘史’等表述存在误译或未明确标注不确定性的问题，如‘霍震’‘史’应为原文讹误或未明表述，释读中未处理；‘官’的含义未明确，直接释为‘官星’无依据"
+        ],
+        "uncertainty": [
+          "原文中‘官’‘纯命’‘霍震’‘史’等表述具体所指未明"
+        ]
+      },
+      {
+        "id": "book010-b000858-p000-7dc45c8fc3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2739,
+    "completion_tokens": 323,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2739,
+      "completion_tokens": 323,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

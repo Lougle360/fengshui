@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-16T09:27:27.992583+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "be9a8083df3a01cafa165a3edff8301ad1ba482634b0a982c2f4a3175534df8b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001761-p000-395e7e44c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001762-p000-aa6b92d1e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘勾兩畔是雲頭何内可何外足堪求’，candidate译为‘两侧如同云头，不知何处为内、何处为外值得探求’，将‘何内可何外’（哪里是内，哪里是外）处理为‘不知何处为内、何处为外’，增加了不确定性，原文是设问句式，并非直接表达‘不知’。",
+          "原文‘子息漢對萬戶侯’，candidate译为‘后代子孙能对应万户侯的爵位’，‘漢對’含义不明，candidate译为‘对应’属于推测，应标注不确定性。",
+          "原文‘内下下’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘子息漢對萬戶侯’中‘漢對’的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001763-p000-9dc61b8ebd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘子陵只愛守灘頭’，candidate译为‘像严子陵只爱守在滩头’，将‘子陵’直接解释为历史人物‘严子陵’，属于无依据的扩写。应保留‘子陵’并标注不确定性。",
+          "原文‘密運等西來’，candidate译为‘密运。若气脉从西来’，将‘等’字忽略或处理为句读，改变了原文结构。‘等’字可能表示‘等待’或为其他含义，此处处理不当。",
+          "原文‘下全之’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘子陵’具体所指不详。",
+          "‘密運等’的含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001764-p000-771a00f01e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘困魚脈最爲鮮’，candidate译为‘最为鲜见’，‘鲜’字可能指‘新鲜’、‘鲜明’或‘少见’，译为‘鲜见’是其中一种推测，应标注不确定性。",
+          "原文‘少 爲’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘鲜’字在此处的确切含义不详。",
+          "‘少 爲’标注的含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001765-p000-8c711a9542",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘脈下了兒孫 著錦衣’，candidate译为‘若在此下葬，子孙将身穿锦衣’，增加了‘下葬’这一具体行为，属于无依据扩写。应更保守地译为‘在此脉下，子孙将身穿锦衣’。",
+          "原文‘沿 去’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘流神超揖’的具体含义不详。",
+          "‘沿 去’标注的含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001766-p000-86fb0af760",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘玉女愛將湖水煮’，candidate译为‘玉女爱将“水”煮’，将‘湖水’替换为术语‘水’并加引号，但根据allowed_glossary，‘水’的术语定义是‘风水语境中的河流、水系及其来去形态’，此处‘煮湖水’是具体描述，直接替换为术语‘水’并加引号，可能不准确，且改变了原文意象。应保留‘湖水’或标注不确定性。",
+          "原文‘中中’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘玉女爱将湖水煮’的具体寓意不详。",
+          "‘茵丝’的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001767-p000-98e06754df",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘莲叶围围’的具体形态不详。",
+          "文末标注‘形’的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001768-p000-084b7e46f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘回頭坐取眞龍爲官必定掌兵權’，candidate译为‘回头坐取真龙，若“向”真龙，为官必定掌兵权’，增加了‘若“向”真龙’这一条件，属于无依据扩写。应直接译为‘回头坐取真龙，为官必定掌兵权’。",
+          "原文‘多 無 味 之形’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘蜘蛛独向乡村尾’的具体寓意不详。",
+          "‘多 无 味 之形’标注的含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b001769-p000-0627e1ffb9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘牧回頭認取眞龍祖’，candidate译为‘牧回头认取真龙祖’，‘牧’字可能为‘莫’、‘没’的异体或误字，或另有含义，直接保留为‘牧’并翻译为‘牧回头’可能导致语义不通。应标注不确定性。",
+          "原文‘中’是独立标注，candidate将其并入前句，应明确其为文末独立标注。"
+        ],
+        "uncertainty": [
+          "‘牧回頭’中‘牧’字的含义不详，可能为讹字。"
+        ]
+      },
+      {
+        "id": "book035-b001770-p000-99f5fafa2b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘安堵’、‘顿枪交剑’、‘伏龙弓抱’等比喻的具体所指不详。",
+          "文末标注‘形’的具体含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2452,
+    "completion_tokens": 1444,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2452,
+      "completion_tokens": 1444,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-17T08:16:09.996547+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ad0f6ade369025142473d29d1f799c99efb750b902c0abfcbaaf10204a77bd54",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002957-p000-a77a333318",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘乾午爲天’语意不完整，candidate 将其解释为‘乾方與午方為天祿等’，添加了‘天祿’这一确定含义，属于无依据扩写。应保留原文不完整状态，或明确指出语意未完。",
+          "原文‘金井中作弊法取 火星雖起爲貴’中‘金井’是特定术语，candidate 译为‘在井中採取了作弊之法’，将‘金井’泛化为‘井’，丢失了专业术语含义。",
+          "原文‘祿馬貴人之說以龍及山之意也’意为‘祿馬貴人之說是依據龍脈及山勢的意涵而言的’，candidate 译为‘祿馬貴人之說便無從談起。這裡所說的祿馬貴人，是依據龍脈及山勢的意涵而言的’，在‘無從談起’处增译了原文没有的因果逻辑，改变了原意。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002958-p000-24933cd054",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘醫主有 無位 曰名為以見不得其海’语意不明，candidate 译为‘文中提到醫主有無位，並說名為以見不得其海’，保留了原文但未作任何处理，不符合V3‘普通读者能读懂’的目标。应指出此句原文语意不明或可能错乱。",
+          "原文‘若見艮乾巽方祿人可’语意不完整，candidate 译为‘如果見到艮、乾、巽三方的祿人，具體所指不详’，处理得当，但‘祿人’应为‘祿馬貴人’的简称，可稍作说明以利理解。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002959-p000-60c11c6610",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "該年可以如何，具體所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002960-p000-12a0bd1f8c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘或有易’語意不完整，具體所指（如易位、易變等）不明"
+        ]
+      },
+      {
+        "id": "book035-b002961-p000-bc7957b389",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002962-p000-bda17649d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘恐歲主不能盡具善耳’，candidate 译为‘恐怕歲月之主不能盡具善德’，将‘歲主’解释为‘歲月之主’属于推测，且‘善德’为增译。应保留‘歲主’并说明其具体所指不详。",
+          "原文‘形美之砂即圓尖方也’，candidate 译为‘形美之砂，即圓形、尖形、方形之砂’，处理得当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002963-p000-f1bd331ec7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002964-p000-bd78192585",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文‘若見之 壁’语意残破，candidate 译为‘如果見到之（壁）’，仅保留原词，未能形成可读的现代汉语句子，不符合V3目标。且‘之壁’可能为‘之’与‘壁’的误接，但无法确认。"
+        ],
+        "uncertainty": [
+          "原文‘若見之 壁’語意殘缺，語句不通，無法確切翻譯"
+        ]
+      },
+      {
+        "id": "book035-b002965-p000-26ff883e5f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文‘四金砂陷風一入翻棺覆樓入遭殃空國人主名自自也之然’语意错乱，candidate 完全照搬原文，未作任何释读，不符合V3目标。"
+        ],
+        "uncertainty": [
+          "原文語句殘缺或錯亂，語意不明，無法確切翻譯"
+        ]
+      },
+      {
+        "id": "book035-b002966-p000-f327c36522",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2865,
+    "completion_tokens": 1089,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2865,
+      "completion_tokens": 1089,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

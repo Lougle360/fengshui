@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:11:44.909954+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fb8d3abcbf12716427aaf339f8072894ec8277803d77d34f242df18784238922",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000170-p000-b1598dbea2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处断句混乱、语义不通的情况，候选释读对部分晦涩语句的处理未明确标注原文的模糊性，且存在将原文零散语句强行串联的问题"
+        ],
+        "uncertainty": [
+          "原文中“戎案”“分荡”“擘脉”“四准”等术语具体所指未明，候选释读未标注相关风险"
+        ]
+      },
+      {
+        "id": "book010-b000171-p000-c911d5147b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处OCR识别错误（如“尤”“尨”“佶”“欢笼”“统杞”“乱熙”等均为识别错误），候选释读未修正错误，直接按错误字符释读，导致语义不通"
+        ],
+        "uncertainty": [
+          "原文中“七十二龙”“十三真龙势”“三百六十州落”等术语具体所指未明，候选释读未标注相关风险"
+        ]
+      },
+      {
+        "id": "book010-b000172-p000-8173f80bd8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000173-p000-535bd32c3b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量无法识别的字符（如“π”“a”“1”“4”等），导致无法形成通顺的释读内容"
+        ],
+        "uncertainty": [
+          "原文中部分字符无法识别，具体语义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1926,
+    "completion_tokens": 434,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1926,
+      "completion_tokens": 434,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

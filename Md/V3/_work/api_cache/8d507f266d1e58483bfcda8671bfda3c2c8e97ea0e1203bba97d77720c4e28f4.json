@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-26T08:38:59.395087+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8d507f266d1e58483bfcda8671bfda3c2c8e97ea0e1203bba97d77720c4e28f4",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000465-p000-e31cf95c25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "第二局相关原文文字错乱，具体所指不明",
+          "师曰乾乃穴前全去也的归属与具体含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000466-p000-e73ed1938d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "惟天穴反何言穴则不惟远水求朝断句模糊，含义不明确",
+          "下關山知為亦不為雪文字错乱，含义不详",
+          "不止風相門月表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000470-p000-6263b33d61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "水口紫密具体含义不明确",
+          "平隐表意模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000472-p000-8bc304ee3f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为「大抵順局也縱有融結亦不發財生初年」，候选误写为「一般来说去水局就算有融结，初年也不会发财」，偷换了原文的「顺局」概念；原文末尾「多見前無水局亦名旱龍局」是说去水局多见前方是无水局（又名旱龙局），候选表述为「很多这类情况的前面就是无水局，也叫旱龙局」虽然语义接近，但未明确旱龙局是无水局的别名，表述不够准确"
+        ],
+        "uncertainty": [
+          "阳公云、杨公云的表述存在错乱，引述内容归属不明",
+          "是文交属于断句错误的内容，具体含义不明"
+        ]
+      },
+      {
+        "id": "book033-b000473-p000-8061ac7dab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「然亦有穴不論龍結局分三聚」，候选误写为「不过也有穴不看龙的情况，结穴的格局分为三类」，断句错误，正确断句应为「然亦有穴不论龙，结局分三聚」，候选对该句的释读存在偏差"
+        ],
+        "uncertainty": [
+          "山黃關遮具体含义不明确",
+          "車穴民是左右山橫機通文字错乱，含义不详",
+          "不有少火以相鼎含义不明",
+          "無才不人水州也文字错乱，含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2982,
+    "completion_tokens": 616,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2982,
+      "completion_tokens": 836,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2982,
+      "completion_tokens": 616,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

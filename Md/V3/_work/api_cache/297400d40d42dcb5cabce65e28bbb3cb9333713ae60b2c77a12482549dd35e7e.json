@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T23:54:41.053753+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "297400d40d42dcb5cabce65e28bbb3cb9333713ae60b2c77a12482549dd35e7e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005037-p000-1e13835e40",
+        "language": "modern_chinese",
+        "content_type": "ocr_note",
+        "action": "preserve",
+        "modern_text": "此处为系统标注：源自 doc021 PDF 第 91 页，属高风险或复杂版面的 OCR 检索信息；具体内容与排版以原页图为准。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005038-p000-a4452ad9a5",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 《地理天机会元》卷二十四：穴格（四十二）",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 245,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1202,
+      "completion_tokens": 245,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-25T05:36:55.285770+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c7347f3d6bcca99ba2db9406bc7ab9889b53919f10374d3bb93ff5572d6bc250",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001625-p000-89094e9660",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001626-p000-89c2b9202a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001627-p000-715617c859",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对locked_terms'离'的处理不符合要求，原文中'或离乡而贵'的'离'并非作为八卦术语使用，属于普通中文词汇'离开'的意思，无需匹配allowed_glossary中八卦'离'的定义，也不应作术语保留；候选释读将其译为'离开'语义正确，但规则要求locked_terms必须保留，此处术语标注存在错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001628-p000-66a082f842",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾仅到'大抵朝山虽欲其列秀献奇，又不可徒'，未完整收录后续内容，候选释读擅自增补了'贪图它的秀，导致有失穴的祸患。所以说：",
+          "坐下若无真气脉，面前空有万重山。",
+          "又说：",
+          "坐下无龙，朝对成空。",
+          "尤其应当仔细考察龙穴，而不能只把朝秀当作喜爱的对象。我曾说世人都只爱尖峰，不知地理看重真龙。龙如果不真穴不的，朝堪图画总成空。这也是崇尚根本抑制末节的意思。'等原文不存在的内容，属于严重增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001629-p000-e04b8b1324",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001630-p000-08b19799f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001631-p000-7dde0a920f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001632-p000-34de87e992",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001635-p000-5cf011bff8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001636-p000-0175ec4879",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5560,
+    "completion_tokens": 734,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5560,
+      "completion_tokens": 734,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

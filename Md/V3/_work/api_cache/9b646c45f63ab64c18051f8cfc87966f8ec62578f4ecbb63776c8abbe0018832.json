@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-15T07:18:39.826324+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9b646c45f63ab64c18051f8cfc87966f8ec62578f4ecbb63776c8abbe0018832",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002078-p000-8281e7c6b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将严重残缺错乱的原文强行解释为一套完整的“其X为Y”的对应关系，这是无依据的扩写，完全偏离了原文。原文无法构成通顺语义，应如实说明其混乱状态，而非编造释义。"
+        ],
+        "uncertainty": [
+          "原文文字严重错乱，无法进行有意义的释读。"
+        ]
+      },
+      {
+        "id": "book033-b002080-p000-6e881b67d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002081-p000-f634ff5b24",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002082-p000-94bcbf2091",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“申佛靈類名賈寸去有甲妄之背 少忠貞之氣多孤寡淫賤惡死 少忠貞之氣多孤寡聖殘惡厄 利才之不牙之官”语义混乱，候选句将其拆解并部分纳入“未龙”和“申龙”的释义中，这是无依据的。对于无法理解的段落，应明确标注其语义不明，而非强行解释。候选句对“申龙”的释义“申龙属佛灵类，名贾，去有甲妄之背...”完全是无依据的扩写。",
+          "候选句将“申龙”重复列出两次，且释义不同，逻辑混乱。原文“申龍天關主之局穴吉僅可免渦”应单独处理。"
+        ],
+        "uncertainty": [
+          "原文“申佛靈類名賈寸去有甲妄之背...”等句语义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b002083-p000-4758694845",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002085-p000-8bc2656ea4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002086-p000-97fc983f7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b002088-p000-5ffa07d6b6",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文“从放子”语义不明，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3555,
+    "completion_tokens": 632,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3555,
+      "completion_tokens": 632,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

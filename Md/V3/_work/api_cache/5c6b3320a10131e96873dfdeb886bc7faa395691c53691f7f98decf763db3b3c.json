@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-16T11:10:08.742112+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "5c6b3320a10131e96873dfdeb886bc7faa395691c53691f7f98decf763db3b3c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002135-p000-c7ecc0e601",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘都君’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b002139-p000-f3a46f91be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘氣理表’被解释为‘情况就会显现’，这是无依据的扩写。原文‘氣理表’是一个含混专名，应原样保留并说明其具体所指不详，不应将其解释为一种现象或状态。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002142-p000-8de4d53320",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘三易水’的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 836,
+    "completion_tokens": 183,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 836,
+      "completion_tokens": 183,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-26T14:56:38.201601+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1477f734e7561633d5d795b35fc8d93716b5ad6ea0cce4f06552865aa220fd36",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000330-p000-59df180417",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自添加原文无依据的解释性内容，如将“浅深之法”改为“判断葬深葬浅的方法核心在于”，“阳则气从下升”改为“属性为阳的，气从下方往上升”等，不符合保守忠实原文的要求；对原文存疑内容擅自补释，如将“穴要宜半”补为“穴位宜在腰部一半的位置”、“穴闪宜傍”补为“穴位宜闪侧傍靠”，无原文依据，属于擅改文意；将“坐穴之法”改为“点穴的方法”，术语使用不严谨；无依据修改原文表述，如将“乾灼为主”改为“以干爽明亮为好”，不符合原文术语保留要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000334-p000-2ccc7f68d5",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“货吉”“棋柳花给”“容上”等原文模糊内容均明确标注存疑，未擅自补释，忠实于原文；对原文讹误未强行臆解，表述严谨，优于current擅自补释“货吉”“棋柳花给”“容上”等存疑内容的问题"
+        ]
+      },
+      {
+        "id": "book002-b000335-p000-bf68e47dc2",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "对原文“垓上”“无风州不出”“次鄱”等模糊、讹误内容均明确标注，仅对“州”为“烟”讹误作出合理推断且明确说明，未强行臆解；优于current漏注“垓上”“州”“次鄱”等存疑内容、擅自将“州”改为“则”的问题"
+        ]
+      },
+      {
+        "id": "book002-b000337-p000-2babd6226d",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "对原文“吹墓”“毗来”“家财和敬”“術上”“谬子”“则断不何也”“言主盲宾”“缓起”等存疑内容均明确标注，仅对“術上”为“術士”讹误作出合理推断且明确说明，未擅自补释；优于current漏注上述存疑内容、擅自修改文意的问题"
+        ]
+      },
+      {
+        "id": "book002-b000342-p000-89b209bd82",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "对原文缺字的“結  一柏聯芳五 一相雨芳五成珍貴之物類者”、存疑的“文骏催官之书”“金在”等内容均明确标注，未擅自臆解；将原文残缺的“理气亦未嘗不故”合理补为“理气也未尝不重要”，符合上下文逻辑且标注相关存疑内容，优于current保留“理气亦未尝不‘故’（此处‘故’字具体所指不详）”的不通顺表述，且未改动专业术语"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7526,
+    "completion_tokens": 856,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7526,
+      "completion_tokens": 856,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

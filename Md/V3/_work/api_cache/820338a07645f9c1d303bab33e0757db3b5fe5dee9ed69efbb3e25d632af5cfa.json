@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-10-17T22:47:26.758763+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "820338a07645f9c1d303bab33e0757db3b5fe5dee9ed69efbb3e25d632af5cfa",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004844-p000-9775fe4d19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“明堂處過何須滯”中，“處過”可能指“明堂经过（某处）”或“明堂的处所经过”，candidate译为“处在此地，何须停留犹豫？”，将“处过”理解为“处在此地”，并增译了“停留犹豫”，改变了原意。应更贴近原文，如“明堂经过（某处），何须停滞不前？”或保留原文短语并说明其含义不确定。",
+          "原文“弓腳天財腦本平”中，“弓腳天財”是特定穴格名称，candidate译为“弓脚天财穴”，增译了“穴”字，虽符合语境，但原文未明确是“穴”，可能指“弓脚天财格”。根据locked_terms，此处“穴”是允许的术语，但需注意一致性。此处问题不大，但结合上一条，整体需修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004845-p000-d39e37162a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004847-p000-f60277f677",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004849-p000-37097089fd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“密平腦不宜大長長則枉死少亡”中，“密”字可能为“但”或“然”等转折词，或为“此”字之误。candidate译为“平脑不宜太长”，漏译了“密”字，且未处理其可能的转折或强调含义。应保留原文痕迹或说明。",
+          "原文“濯不破家”中，“濯”字可能为“濯”或“濯”的异体/误字，含义不明。candidate译为“不被冲破”，是推测性解释，且未标注不确定性。应保留原字并说明含义不详。",
+          "原文“東西兩到内外重回”中，“到”可能通“倒”或意为“至”。candidate译为“东西两到”，保留了原词，但未解释，可以接受。但“内外重回”译为“内外重回”，保留了原词，可以接受。整体上，对不确定字词的处理不够谨慎。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004850-p000-216be91d84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此幫爲之吉穴”中，“幫”字可能为“邦”或“旁”之误，或为“方”字。candidate译为“此帮为之吉穴”，保留了“帮”字，但未说明其可能为误字或含义不明。应标注不确定性。",
+          "原文“心性皙實”中，“皙”可能为“皙”（白）或“哲”（明智）之误，或通“析”（分析）。candidate译为“心性皙实”，保留了原字，但未说明其含义不确定。应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004852-p000-b20bedd920",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004855-p000-e09480744c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004856-p000-e2b1be0670",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“脈得坤宮之氣面民形”中，“面民形”三字难以理解，可能为“而成形”之误（与前文“脉得坤宫之气而成形”类似），或“面”为“而”，“民”为“成”之误。candidate译为“脉得坤宫之气面民形”，完全照搬，未做任何处理，导致句子不通。必须标注此处原文可能损坏或含义不明。",
+          "原文“心性拗執行事業直”中，“拗執”可能指固执、倔强。candidate译为“心性拗执”，保留了原词，可以接受。但“行事业直”译为“行事业直”，保留了原词，可以接受。整体上，对“面民形”的处理是主要问题。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4400,
+    "completion_tokens": 1049,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4400,
+      "completion_tokens": 1049,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

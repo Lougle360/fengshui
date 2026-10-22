@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T19:52:38.050899+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5dd3fa9e821509b41df6f7599610c5f200905a459c9eb1f8e7edef4db4b599d8",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003133-p000-35b6192838",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003134-p000-0c89f3ae88",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中《象》曰的内容与译文部分存在混淆，将《象》的原文、译文及《象传》的内容混同，且对‘中有庆’的释读未贴合原文表述，原文‘中有庆’是《象传》对九二爻的判断，而非‘内心秉持中正所以会有吉庆’的表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003135-p000-c403e6d799",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003136-p000-82e1375aad",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "该条目为标题类内容，候选释读额外添加了‘六三爻的爻辞为：……’的表述，属于对标题内容的冗余扩写，不符合标题类内容的释读要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 331,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1592,
+      "completion_tokens": 331,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

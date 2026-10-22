@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:37:46.374925+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bd63d0776eeaa903914603bd143ac456eb435db1bd818b27635af7bc69e51043",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000331-p000-5a4edbf476",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘次抗’‘屬阻’‘閒’‘發桑’‘閒向門水’等术语含义不明，候选释读未标注这些术语的不确定性，直接按字面拆分释读，存在将不确定内容当作确定解释的问题"
+        ],
+        "uncertainty": [
+          "‘次抗’‘屬阻’‘閒’‘發桑’‘閒向門水’具体所指原文未明，含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 141,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1260,
+      "completion_tokens": 141,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

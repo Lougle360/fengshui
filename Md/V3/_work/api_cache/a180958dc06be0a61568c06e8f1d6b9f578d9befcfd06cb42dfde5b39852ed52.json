@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T13:39:46.190960+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a180958dc06be0a61568c06e8f1d6b9f578d9befcfd06cb42dfde5b39852ed52",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000170-p000-a6cca5690f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000171-p000-a720ffd65f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000172-p000-2189ec2eff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000173-p000-b2f01b15e2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary中对‘明堂’的释义为‘穴前相对开阔、汇聚的空间’，但此处‘明堂’为古籍中特定术语，该释义不符合专业术语定义，属于误换专业术语"
+        ],
+        "uncertainty": [
+          "原文未明确‘数術’具体所指，仅为术语表述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1332,
+      "completion_tokens": 254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T08:58:33.139854+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5a6461d5e94bdd126edbc16dd38d6ea08e8c3ca5817444143edb9fba0817024a",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000096-p000-18bc9afaa1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000097-p000-7017302f58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000098-p000-cfcdaa74b1",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中部分语句存在讹误，如“四山聚也自有名漾音贤”“固弦名作拨秋桎”等，难以完全准确释读，候选释读未对讹误内容做明确标注，存在模糊处理问题"
+        ],
+        "uncertainty": [
+          "原文部分语句存在讹误，无法完全准确释读，候选释读未明确标注讹误内容"
+        ]
+      },
+      {
+        "id": "book010-b000099-p000-969120dd99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2056,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2056,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

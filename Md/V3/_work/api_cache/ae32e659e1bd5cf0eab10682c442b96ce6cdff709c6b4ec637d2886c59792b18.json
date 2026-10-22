@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-26T04:12:48.434216+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ae32e659e1bd5cf0eab10682c442b96ce6cdff709c6b4ec637d2886c59792b18",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002185-p000-4e1252a22a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "误将程廉宪祖地的出仕情况归到第一处程侍郎祖地名下：原文‘出一进士兄第四举人’是程廉宪祖地（虎形）的内容，candidate写为第一处程侍郎祖地的后人情况，对应关系错误",
+          "误将新墟吴侍郎祖地的内容归到殷尚书祖地名下：原文‘伏地狮形、徽州宋村壬小丙向、出进士五六人、此地青龙不包人多以下手空为嫌惟吴祖能用之’是新墟吴侍郎祖地的内容，candidate划到殷尚书祖地条目下，归属错误",
+          "将原文中属于唐状元祖地相关的‘平地梅花龙巽脉辛向’内容，误写为唐状元祖地本身的形局，该内容对应页面右栏另一地块，归属错误",
+          "‘程侍郎祖地有两处’表述不准确，原文共出现三次程侍郎祖地条目，存在计数错误",
+          "原文‘欽縣’应为‘歙縣’的OCR误读，candidate直接沿用‘欽縣’未做标注修正",
+          "原文‘食矩’为连续内容，candidate错误断句为‘其作為與名賢食，矩今以為仙踪’，断句错误导致语义断裂"
+        ],
+        "uncertainty": [
+          "部分文字存在OCR识别误差，如“地理泰贊玄機全書”“地理恭贊玄機全書”应为“地理参赞玄机全書”，“+六”应为“十六”，“壬小丙向”“廠州府”“鄭結穴”“二水夾畫”“侍即”“名賢食矩”等表述含义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2390,
+    "completion_tokens": 426,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2390,
+      "completion_tokens": 520,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2390,
+      "completion_tokens": 426,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

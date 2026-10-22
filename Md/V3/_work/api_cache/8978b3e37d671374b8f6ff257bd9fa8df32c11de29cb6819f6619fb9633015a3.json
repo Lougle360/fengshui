@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T17:10:39.481425+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8978b3e37d671374b8f6ff257bd9fa8df32c11de29cb6819f6619fb9633015a3",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000809-p000-3082bcc5be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“师或舆尸”的“或”是否仅指“有时”存在歧义，释读未明确标注该歧义"
+        ]
+      },
+      {
+        "id": "book016-b000810-p000-f35f77c1a8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000811-p000-f0042eae06",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文《象传》内容存在断句错误，将“大无功也”误拆为“大无来功也”，释读时未纠正该原文断句错误，且释读中“六三的军队”属于无依据扩写，原文未明确指向六三的军队"
+        ],
+        "uncertainty": [
+          "原文《象传》的断句存在讹误，释读时未处理该问题"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1341,
+      "completion_tokens": 258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

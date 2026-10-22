@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-23T10:17:08.307894+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2eb91e1316cbc393bd08ad2dd8a0e76112f1b987e71f862ad256c12b040a6895",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000280-p000-a45793b3a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000283-p000-90ec5ab99f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘成居于四維之地’的‘成居’在candidate中被直接当作术语引用并解释，但‘成居’并非locked_terms或allowed_glossary中的术语，且原文语境未明，candidate不应将其作为确定概念处理并解释为‘文中提到’。应将其视为opaque_terms处理，保留原词并标注不确定性。",
+          "原文‘王富而巳’的‘王富’，candidate推测为‘主富’之误，并以此为基础进行解释（‘则但主富而已’）。这属于将不确定的推测写成了确定事实。应保留‘王富’原词并标注存疑。",
+          "原文‘馬陷祿空虛名虛利’在candidate中被处理为‘文中還提到‘馬陷祿空’，意指虛名虛利。’，将‘馬陷祿空’作为独立引用的短语是合适的，但‘意指虛名虛利’是对其含义的确定解释，而原文‘馬陷祿空虛名虛利’本身是连贯的陈述，candidate的解释方式可能简化了原文结构，但未造成语义反转。此点可接受，但整体因前两点需修订。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000284-p000-f7d4f93870",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘艮兩缺則祿山盾乾午缺則爲天焉倒’，candidate译为‘艮方若有兩處缺陷，則祿山受損；乾與午方位若有缺陷，則天焉倒置。’。其中‘祿山盾’的‘盾’字，candidate解释为‘受損’，这是基于推测的意译。原文‘盾’字可能为‘損’之误或另有他意，但candidate未标注此不确定性，将其作为确定事实译出。",
+          "原文‘武有職而無祿主出義官反壽官卷之主 11’，candidate译为‘武官有職而無祿，主出義官，反壽官。文中最後提到‘卷之主 11’，具體所指不详。’。此处‘反壽官’的‘反’字，candidate直接译为‘反’，未做解释或标注，可能导致读者不解。‘反’在此处可能通‘返’或另有含义，candidate处理过于简略，未达到‘普通读者能读懂’的目标，需补充说明或标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000291-p000-8205cc4704",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "十四龍之年具體所指不详"
+        ]
+      },
+      {
+        "id": "book003-b000292-p000-f236928511",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘太微垣在兩南極星在丁’，candidate译为‘太微垣位於兩南，極星位於丁’。‘兩南’含义不明，可能指‘丙南’或‘午方’等，candidate直接保留‘兩南’并标注‘具體所指不详’，处理正确。但‘極星’指‘南極星’，candidate译为‘極星’略有不妥，虽未改变核心方位‘丁’，但‘南極星’是更完整的专名，宜保留或说明。",
+          "原文‘巽人經下 卷之 四’，candidate处理为‘文中最後提到‘巽人經下 卷之 四’，具體所指不详。’，将其作为独立引用短语并标注不确定，处理得当。但‘巽人’可能为‘巽入’之误或特定术语，candidate未做任何推测性说明，符合要求。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2352,
+    "completion_tokens": 921,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2352,
+      "completion_tokens": 921,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

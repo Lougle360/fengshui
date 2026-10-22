@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:04:32.416781+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c42ab8b44b48867ba3eb66e4ca9c0a387d2dd60fb437908ad509c38821de71be",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000328-p000-d6d6bbd0e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000329-p000-4e7617a22e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的“開面向內方”释为“朝向‘向’所指的方位”，与原文“向内方”的含义不符，存在误释"
+        ],
+        "uncertainty": [
+          "原文中“向”的具体所指未明确"
+        ]
+      },
+      {
+        "id": "book014-b000330-p000-32fa6cbf34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000331-p000-e29eedca02",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文末尾的“而内飲”语义不明，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文末尾的“而内飲”具体含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 300,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1304,
+      "completion_tokens": 300,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

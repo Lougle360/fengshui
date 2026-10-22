@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T03:01:04.875987+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "280ee3afd1cb6cc291bb2431b4acd089d99d17f793d6a1d9b93f0107410d7955",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b002005-p000-08c1f41eef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“素教汝”被误译为“刚才对你说过”，含义偏差，“素”是向来、平日的意思，并非“刚才”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002006-p000-53dd45650e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002007-p000-5c2e1c5bde",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "丁八二字具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b002008-p000-cf00f3e7fc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“排素死煞方”存在误读，“素”应为“索”的形近讹误？且“素死煞”无依据释读，候选直接沿用不妥；另外locked_terms要求“干支”必须保留，候选对干支的释义符合allowed_glossary，但“排素死煞方”的释读不准确"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002009-p000-352b0fd0ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“宣婦室”无依据被释为“正室”，属于无根据增译，“宣婦”具体含义不明，不能直接等同于正室"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002010-p000-7296f199e6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“致相通別主任”被释为“以免与主事之人产生隔阂”属于无依据推测，原文讹漏处未明确标注就直接给出确定释义，不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002011-p000-b77237f0d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“未附会”被误译为“还牵强附会”，语义相反；“今悸养会作經陳失遲先元迎然氣”无依据被释为“现在的‘悸养会’之说荒谬，陈失迟先元迎然之气的说法也不对”，属于无根据臆测；原文“林此義”仅标注脱漏但候选释读为“这里面的道理……”属于随意补充"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002013-p000-02b82e1651",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“干走”无依据释读，“胎美官生法B云長”“全A灰”等原文残损字符未标注就直接通顺化释读，“亚墓绳”无依据保留释义，“掌慶”应为“得庆”类讹误，候选释为“获得福庆”无问题，但残损字符处理不符合要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002015-p000-f48229de25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“分陽它”疑讹误，候选直接释为“要分阴阳”属于无根据确定释义；“夜台”是坟墓的意思，被误译为“死路”，含义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b002016-p000-2aae63fe3f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2376,
+    "completion_tokens": 988,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2376,
+      "completion_tokens": 988,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

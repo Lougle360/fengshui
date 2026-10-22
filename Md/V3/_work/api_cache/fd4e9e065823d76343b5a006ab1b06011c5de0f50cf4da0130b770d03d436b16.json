@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T02:07:59.795232+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fd4e9e065823d76343b5a006ab1b06011c5de0f50cf4da0130b770d03d436b16",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000132-p000-0044ab8372",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000133-p000-3bb62baab4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000135-p000-3e7bd21635",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“潜发沦于蒲昌，出于海水”被误释为“源头潜伏在地下流动，在蒲昌海隐没，之后再流出地面”，逻辑顺序错误，应为“（黄河源）从蒲昌海潜伏地下流出后，再从（所说的）海水处露出地表”；原文“览百川之弘北”的“弘北”为“弘壮”类讹误，candidate释为“宏大气势”虽表意通顺但未明确标注原文讹误风险；“积石宜在蒲昌海下矣”中“下”是地理方位的“下游/下方”，释读正确但无问题，前两条为核心错误"
+        ]
+      },
+      {
+        "id": "book019-b000137-p000-fae2784d55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“与漾水合，沔水即汉水”语序释读有误，正确逻辑是“（流到葭萌县东北）与沔水汇合，沔水就是汉水”，candidate误写为“和漾水汇合”，属于事实性错误；原文“径沮水成”为“径沮水戍”的讹误，candidate虽正确释为“经过沮水戍”但未标注原文讹误风险；原文“汉水又东；北合沮口”释为“在北侧汇入沮口”逻辑错误，应为“向北与沮水的入水口（沮口）汇合”，属于关系颠倒"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2771,
+    "completion_tokens": 502,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2771,
+      "completion_tokens": 502,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-10-16T09:48:06.540919+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d5b4074abcf8378a54b4c36668bef107ba38efd1b714f683a534c60640a9f152",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001813-p000-8301cb3f09",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'緋逆綝旼瓏表'为并列的opaque_terms，candidate将其解释为'形如绯逆、綝旼、瓏表'，并赋予'形如'的确定性含义，这是不允许的。应保留原词并说明其含义不详。",
+          "原文'啉如坤鎬蠅災辭滯妬覩端韶砥旅尖峰卓筆牆前起石笋朝千里石印江湖水面浮'是一长串描述，candidate将其拆解并加入'或出现'等连接词，改变了原文的并列结构，且将'坤鎬蠅災辭滯妬覩端韶砥旅'整体视为'形态'或'尖峰'，存在误译风险。应更贴近原文结构，并明确'坤鎬蠅'等为含混术语。",
+          "原文'卜氏曰印浮水面煥乎其有文章'，candidate译为'正如卜氏所言：印浮水面，文章焕炳。'，将'煥乎其有文章'译为'文章焕炳'，虽为意译，但'文章'在古文中常指文采、礼乐制度，与'印'的意象结合，此处理解和翻译存在风险，可能偏离原意。应更保守地处理此句。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001814-p000-d2dba11886",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'三爻九曲來對面'，candidate译为'水势如三爻九曲般来朝'，将'三爻九曲'解释为水势形态，这是对专业术语（可能指卦爻或特定水形）的确定性解释，超出了allowed_glossary范围。应保留原词并说明其含义不详。",
+          "原文'列土更分茅'，candidate译为'列土分茅'，虽为成语，但'更'字未译出，漏译了表示递进或强调的语气。",
+          "原文'交劍或在東西出富貴人傳說'，candidate译为'若剑水在东西方流出，则富贵人传说'，将'交劍'解释为'剑水'，这是对专业术语的确定性解释，超出了allowed_glossary范围。应保留原词。",
+          "原文'金箱玉印水中推誥軸盡成堆'，candidate译为'金箱玉印在水中推演。若水势弯曲...则诰轴成堆'，将'推'译为'推演'，并拆分句意，可能改变了原文连贯的意象。'推'可能指'出现'或'推拥'。",
+          "最后一句'得水爲先蓋水彎砂自彎抱箱印者水中教也誥軸成堆出貴多也'，candidate处理为总结性语句，但将'水中教也'译为'水中之象'，'教'字未译出，可能漏译了'法则、道理'的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001815-p000-fa77e0572c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001816-p000-b3ccba81dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末句'之之小不近近的來者水'，candidate译为'若水小不近，近的来者水，则不吉。'，这是对模糊原文的确定性解释和补充（'则不吉'），属于无依据扩写。应指出原文此句语义模糊，不宜做确定性翻译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001817-p000-5f0db097f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'干了資財旺'，candidate译为'若干了资财旺'，将'干了'理解为'如果干了'，但'干了'在古文中可能指'干涸'或另有含义，此处理解存在风险，可能误译。",
+          "原文'更有暖'，candidate译为'更有暖局'，增加了'局'字，属于增译。应保留'更有暖'并说明其含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001818-p000-3320780700",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'流神屈曲堯城門節度上將軍'，candidate译为'流神屈曲，尧城门节度上将军'，将'堯城門'与'節度上將軍'断开，但原文可能是一个连贯的名词或术语组合。断句方式改变了原文结构。",
+          "原文'與掃蕩相似有頂凸散者是掃蕩夫是燥火在七個建星内分別也'，candidate译为'与扫荡相似，有顶凸散者是扫荡。夫是燥火，在七个建星内分别也。'，将'夫是燥火'译为'夫是燥火'，'夫'作为发语词或指代未明确，直接保留可能导致现代读者不解。应说明'夫'在此处的语法作用或含义不确定。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001819-p000-ed41c3cbc1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001820-p000-bde5df22f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001821-p000-1272d1d8a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 未对 source 进行白话释读，仅为繁体转简体并加标点，不符合 V3 目标'普通读者能读懂的白话释读'。存在大量漏译，如'令漏淮水城第一要相宜'、'鹿来朽贯足资粮'、'书也者之谓人阳亦然'、'水十龙南宝谓大凤城临郎撞城也'等句均未解释其含义。"
+        ],
+        "uncertainty": [
+          "原文本身多处语义含混，如'令漏淮水城'、'鹿来朽贯足资粮'、'水十龙南宝谓大凤城临郎撞城也'等，在释读时需明确标注其具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001822-p000-2e7356f0e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'四小恬軟足錢財因是女人來販賣'，candidate译为'四小恬软足钱财，因是女人来贩卖。'，此为直译，但'恬软'、'女人来贩卖'在风水语境中的特殊含义未做任何说明。作为白话释读，应指出这些表述可能具有特定隐喻或格局含义，具体所指不详，而不是直接呈现可能引起误解的字面翻译。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 797,
+    "completion_tokens": 202,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3250,
+      "completion_tokens": 1650,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 797,
+      "completion_tokens": 202,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

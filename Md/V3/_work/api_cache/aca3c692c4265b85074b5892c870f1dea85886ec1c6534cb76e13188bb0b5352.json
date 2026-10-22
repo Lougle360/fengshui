@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T20:27:18.977473+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "aca3c692c4265b85074b5892c870f1dea85886ec1c6534cb76e13188bb0b5352",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003414-p000-bbf43e9070",
+        "language": "modern_chinese",
+        "content_type": "古文译注",
+        "action": "preserve",
+        "modern_text": "《象传》说：“雷动之时恐慌得双足畏缩难行”，说明上六未能居处适中的位置；尽管有凶险却无所咎害，是由于畏惧近邻所受的震惊而预先戒备。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003415-p000-b9fb1604ac",
+        "language": "classical_chinese",
+        "content_type": "古籍原文",
+        "action": "rewrite",
+        "modern_text": "《象传》说：“震（八卦之一）发作时人恐惧得两脚瑟缩”，这是因为没有居于适中的位置；虽然遭遇凶险但没有过错，是因为畏惧邻居受到的震动而预先做了戒备。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003416-p000-4f4a48b60e",
+        "language": "modern_chinese",
+        "content_type": "古籍注释",
+        "action": "preserve",
+        "modern_text": "注释①中未得：《正义》解释为“就相当于说‘未得中’的意思”。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003417-p000-601a5dc212",
+        "language": "modern_chinese",
+        "content_type": "古籍注释",
+        "action": "preserve",
+        "modern_text": "②畏邻戒：《正义》解释为“畏惧邻居的异动，心怀戒惧地自我戒备，才能没有过错”。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1475,
+    "completion_tokens": 455,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1475,
+      "completion_tokens": 455,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

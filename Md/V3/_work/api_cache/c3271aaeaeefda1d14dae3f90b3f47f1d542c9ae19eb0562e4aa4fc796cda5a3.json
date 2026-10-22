@@ -1,0 +1,95 @@
+{
+  "created_at": "2026-09-25T13:06:42.749938+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c3271aaeaeefda1d14dae3f90b3f47f1d542c9ae19eb0562e4aa4fc796cda5a3",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000405-p000-a30ab4da1e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000407-p000-cb75a282b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "六一三丑百見",
+          "庚年華",
+          "成兴向神全",
+          "坎官常四"
+        ]
+      },
+      {
+        "id": "book025-b000408-p000-33291f3a76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "艮同丙全山水貴"
+        ]
+      },
+      {
+        "id": "book025-b000411-p000-8e36fccbe4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "壬區",
+          "巳丑宮見",
+          "癸幸見第",
+          "癸賣之",
+          "坤龍乙"
+        ]
+      },
+      {
+        "id": "book025-b000412-p000-4c67523191",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "桥土",
+          "癸玄十",
+          "癸道十",
+          "天地石",
+          "乙卯事",
+          "乙卯夢年"
+        ]
+      },
+      {
+        "id": "book025-b000414-p000-6bef1b52b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“庚甲”属于opaque_terms，必须原样放在引号引用范围内，candidate中“六五对应‘庚甲’官鬼”虽加了引号，但原source中该处为“六五庚甲官鬼”，candidate擅自拆分表述，且未对“庚甲”做无含义标注，违反opaque_terms使用规则；source中外卦九四为“巳酉見第”吗？不，source中是“外卦九四巳酉見第六五巳未文母”，candidate写成“外卦九四对应巳酉見第”属于增译，原文无“第”字"
+        ],
+        "uncertainty": [
+          "帝子新甲",
+          "巳酉見第",
+          "荐木",
+          "庚于五",
+          "庚甲"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2347,
+    "completion_tokens": 585,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2347,
+      "completion_tokens": 585,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T12:23:56.330941+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c1f0ddcfe8a4d1e4af772e094e67605a18d2e722da7860330b488ac0bb9d02bf",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000013-p000-85e93163a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000014-p000-1b5868826e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000015-p000-d02208adf5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“偶見心賦義例”逻辑与前文衔接不畅，存在文意断裂，候选直接释读为“我偶然看到《心赋义例》”，未标注此处原文可能存在的语句残缺或语序问题，属于未说明原文含混风险"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000016-p000-9bf6fbebee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000017-p000-9147167e99",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“剃寄家盛”应为OCR识别错误，候选直接照搬未标注该内容无法释读，不符合含混内容的标注要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000018-p000-37396c3e0b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000019-p000-14cbcb81b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000020-p000-f2253bab65",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“何伯達氏後舆 全訂”语义含混，候选直接释读为“何伯达氏后续增补，全订”，缺乏依据，属于将不确定内容写成确定事实"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000021-p000-906c7d7caa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000022-p000-0e3c9f0ca2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "除保留的数字1外，其余文字错乱，无法辨识具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 891,
+    "completion_tokens": 131,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2800,
+      "completion_tokens": 658,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 891,
+      "completion_tokens": 131,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

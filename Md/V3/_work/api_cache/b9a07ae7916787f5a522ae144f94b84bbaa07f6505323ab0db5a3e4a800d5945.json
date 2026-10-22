@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T11:42:38.835662+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b9a07ae7916787f5a522ae144f94b84bbaa07f6505323ab0db5a3e4a800d5945",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000016-p000-17c667cb27",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘菜局’误释为‘类’，‘菜局’为风水术语，未按要求保留原术语，且‘菜局’的具体所指未明确，不应随意归类为‘类’；‘五行共十一集’被误释为‘五行共十一类’，属于数字误换；‘总二业’被误释为‘总共有二类’，属于语义误读；‘凡入十四集併序目共入十七葉’被误释为‘总计纳入十四类，连同序目共纳入十七页’，属于数字与内容误换；‘穴沙木次星三穴塲’被误释为‘穴、沙、木、次星、三穴、塲’，属于内容拆分错误；‘菜局’未按要求保留为opaque_terms，被赋予了不确定的含义"
+        ],
+        "uncertainty": [
+          "原文中‘菜局’‘集’‘业’等术语的具体所指未明，释读中对这些术语的处理存在不确定性"
+        ]
+      },
+      {
+        "id": "book014-b000017-p000-c17c6b72b3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘官鬼禽暗沙’‘杀’‘权宜诀’‘片’等术语未按要求保留为opaque_terms，被随意释读；‘杀’‘片’等术语的具体所指未明，释读中直接确定含义，属于推测写成事实的问题"
+        ],
+        "uncertainty": [
+          "原文中‘杀’‘片’等术语的具体所指未明，释读存在不确定性"
+        ]
+      },
+      {
+        "id": "book014-b000018-p000-0d3dc525ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中‘由家五和’的具体所指未明，释读中保留了原文表述，未强行确定含义"
+        ]
+      },
+      {
+        "id": "book014-b000019-p000-7d556887be",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2100,
+    "completion_tokens": 530,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2100,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2100,
+      "completion_tokens": 530,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

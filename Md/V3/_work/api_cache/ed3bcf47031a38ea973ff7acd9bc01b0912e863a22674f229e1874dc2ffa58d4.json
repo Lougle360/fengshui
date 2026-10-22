@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T10:41:27.426912+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ed3bcf47031a38ea973ff7acd9bc01b0912e863a22674f229e1874dc2ffa58d4",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000898-p000-b28056becc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“艮乃在牆外空處及東面之北”“乾乃在牆外空處及西面之北”的具体位置所指未明"
+        ]
+      },
+      {
+        "id": "book010-b000899-p000-9f3e7611e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000900-p000-f196af7aba",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“移煙政火”释为“没有锅灶的烟”属于无依据扩写，原文未明确该短语的具体含义，不应擅自解释"
+        ],
+        "uncertainty": [
+          "“移煙政火”的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000901-p000-bd2e5e0329",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1510,
+    "completion_tokens": 280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1510,
+      "completion_tokens": 280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

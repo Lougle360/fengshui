@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-26T10:19:23.201028+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "69226fc8b1400e2c84cf5f3edfa7b60ae7cac6e62768fea3139065da3252395c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000025-p000-aef45a2a30",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原source未提及本书为《地理天机会元》，candidate自行加入该书名属于无依据增译",
+          "原评注“俗言偏入俗耳”被误译为“俗言偏俗耳”，语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000026-p000-5100c21bbf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1555,
+    "completion_tokens": 169,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1555,
+      "completion_tokens": 169,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

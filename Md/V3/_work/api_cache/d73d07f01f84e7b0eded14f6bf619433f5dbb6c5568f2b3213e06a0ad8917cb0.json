@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-09-25T14:15:13.399077+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d73d07f01f84e7b0eded14f6bf619433f5dbb6c5568f2b3213e06a0ad8917cb0",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000336-p000-fca86f5fdb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文有“罪達無有空胡時八貴君有沙護 為穴故切忌之”，释读错误将“切忌之”的对象写成“适宜的穴”，与原文表意相反；原文“沙护”对应风水术语“砂护”（指穴周围的山体护卫），释读写为“沙护”未按通用风水术语表述",
+          "原文“流泉赤非出泉之謂也”漏译“赤”字"
+        ],
+        "uncertainty": [
+          "原文“罪達無有空胡”语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000337-p000-a6f3d3b3f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“孫單獨 恐 也元”语义模糊，释读无依据添加“说恐怕也有道理”，属于无据增译"
+        ],
+        "uncertainty": [
+          "原文“孫單獨 恐 也元”语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000338-p000-2075df6747",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000339-p000-926c7c3dd0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000340-p000-c8ce50e228",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000341-p000-606321a3a1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文多处字词属于OCR识别错误或残缺，如“品织”“竺”“鉗”“城浆”等，释读未标注识别存疑，直接沿用残缺内容进行组合释读，易误导读者；部分locked术语如“向”在释读中未按allowed_glossary的定义进行准确表述，仅模糊提“看这个‘向’”"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺、语义模糊，难以准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000342-p000-cf4b9fba59",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000343-p000-faa9df0646",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处语序断裂、字词残缺，多数短语无法明确释义"
+        ]
+      },
+      {
+        "id": "book026-b000344-p000-cb568748bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此永上而言”应为“此承上而言”的OCR错误，释读写为“承接上文”正确，但原文“有股明嚴 脉”等残缺内容未标注存疑；原文“二十”是页码还是卷内条目序号未明确，释读直接写“此处是第二十部分”属于无据判定"
+        ],
+        "uncertainty": [
+          "原文“有股明嚴 脉”语义残缺，“二十”所指（页码/条目序号）未明"
+        ]
+      },
+      {
+        "id": "book026-b000345-p000-0150043e3d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文内容多有残缺、语序混乱，多数短语无法明确释义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 965,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3144,
+      "completion_tokens": 965,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:15:37.574182+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7c39e432a643a2a1e558d42656db2a0c4ebc3d5378789a19e37d6b9dc883911f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000552-p000-706acba0e1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“暈”“頓門”“冠”“八風”等术语的具体所指未明确，释读未作确定性引申，符合要求"
+        ]
+      },
+      {
+        "id": "book014-b000553-p000-ff6a602c9a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000555-p000-ec328a662d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“見辱”疑为“見脅”的讹误，释读按原文处理，未作确定性修正"
+        ]
+      },
+      {
+        "id": "book014-b000556-p000-05d5a5c267",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“北穴”的具体所指未明确，释读将其直接译为“这个位置”，存在误译风险；“穴乳”未按术语规范处理，未保留相关术语的明确性"
+        ],
+        "uncertainty": [
+          "原文中“北穴”“穴乳”的具体含义未明，释读未标注不确定性"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 328,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1279,
+      "completion_tokens": 328,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

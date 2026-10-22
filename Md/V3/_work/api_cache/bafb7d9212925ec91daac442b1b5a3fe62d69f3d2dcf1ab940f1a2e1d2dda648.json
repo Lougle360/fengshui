@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-04T03:29:58.635530+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bafb7d9212925ec91daac442b1b5a3fe62d69f3d2dcf1ab940f1a2e1d2dda648",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001233-p000-df18ad40c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘侍即’，candidate直接译为‘侍郎’，未按writer_uncertainty中提示的‘侍即应为侍郎之误’进行风险标注，属于将推测（虽合理）写成了确定事实。应明确标注‘侍即（可能为侍郎之误）’或类似说明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001242-p000-98078e29c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘水木垂头’的具体形态不详",
+          "‘色聚’、‘色畏’中‘色’的具体指代不详",
+          "‘为又不可执经文两定穴也’中‘两’字的含义或是否为讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 230,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1235,
+      "completion_tokens": 230,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

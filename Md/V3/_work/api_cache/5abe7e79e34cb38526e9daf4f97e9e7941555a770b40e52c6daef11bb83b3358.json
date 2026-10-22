@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-09-26T12:43:57.547942+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5abe7e79e34cb38526e9daf4f97e9e7941555a770b40e52c6daef11bb83b3358",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000897-p000-1471f4cbd7",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current无依据将“山上止”“水中止”错译为“山在山上停止”“水在水中停止”，且擅自添加原文未明确的“可能指代其气”的猜测性内容，不符合保守原则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000905-p000-273c68040a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current擅自将原文“水土体”拆译为“水土的形体”，违反不得擅改原文术语的要求；“常要辅弼随”译为“常常需要辅弼相随”语义冗余"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000915-p000-ccae09ce75",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current无依据将原文“打动龙虎”错译为“打动龙脉”，篡改原文术语；“造物固自有时”译为“都是造物主自有其时”表述不准确，不符合原文语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000920-p000-026e0f6291",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate无原文依据额外增加“此处‘入手’具体所指不详”的说明，不符合“不得接受无原文依据的解释”的要求；且未明确“来与坐”具体指代的来龙、坐向，通俗性弱于current"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000922-p000-0c2b03390b",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current擅自添加原文不存在的“这是……的标题”及“‘元女’具体所指不详”的内容，原文作为书名应直接保留，无需额外冗余表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000924-p000-b5ccd685e4",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current未区分原文中“炁”“气”的用字差异，且未说明二者含义是否存疑，不够严谨；表述准确性低于candidate"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000928-p000-1e2f87a433",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "candidate虽对“三合”“向上”的注释符合术语表，但无依据擅自删去原文“看”的语境，将“来路看四生”简化为“来路要看四生”等表述略失原文严谨性；current未对术语做合规注释，二者各有不足"
+        ],
+        "uncertainty": [
+          "“四生”“四绝”“双金”的具体含义原文未明确，两版均未给出准确解释"
+        ]
+      },
+      {
+        "id": "book001-b000930-p000-f58f73652a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current未对“客水”“客砂”做符合术语表的注释，且未说明“炁”与“气”的用字差异存疑，严谨性不足"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000938-p000-97ccdf4448",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "current对多处原文术语未按允许术语表注释，且未注明“辰”“开三”“闭五”等存疑内容的含义，存在不准确表述，如将“祖宗”“父母”错译为“祖宗之气”“父母之气”，无原文依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000961-p000-9c3a20bb0c",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "current对“局正有奇”断句错误，译为“格局有正局也有奇局”无依据，且未对“龙”做合规术语注释，未明确“混一”的含义，严谨性不足"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 469,
+    "completion_tokens": 117,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5904,
+      "completion_tokens": 1037,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 469,
+      "completion_tokens": 117,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

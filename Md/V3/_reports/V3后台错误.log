@@ -1,0 +1,496 @@
+ERROR: API 请求连续失败（siliconflow）：流式响应没有返回正文内容
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2158, in run_book
+    repaired = request_json_cached(
+        state, local_model, REPAIR_SYSTEM, local_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：流式响应没有返回正文内容
+ERROR: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2158, in run_book
+    repaired = request_json_cached(
+        state, local_model, REPAIR_SYSTEM, local_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+ERROR: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2288, in run_book
+    repaired = request_json_cached(
+        state, active_repair_model, REPAIR_SYSTEM, repair_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+ERROR: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2288, in run_book
+    repaired = request_json_cached(
+        state, active_repair_model, REPAIR_SYSTEM, repair_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+ERROR: API 请求连续失败（siliconflow）：流式响应没有返回正文内容
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2288, in run_book
+    repaired = request_json_cached(
+        state, active_repair_model, REPAIR_SYSTEM, repair_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：流式响应没有返回正文内容
+ERROR: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2158, in run_book
+    repaired = request_json_cached(
+        state, local_model, REPAIR_SYSTEM, local_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+ERROR: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2288, in run_book
+    repaired = request_json_cached(
+        state, active_repair_model, REPAIR_SYSTEM, repair_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：HTTP 503: {"code":50508,"message":"System is too busy now. Please try again later.","data":null}
+ERROR: API 请求连续失败（siliconflow）：流式响应没有返回正文内容
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2288, in run_book
+    repaired = request_json_cached(
+        state, active_repair_model, REPAIR_SYSTEM, repair_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：流式响应没有返回正文内容
+ERROR: API 请求连续失败（siliconflow）：Response ended prematurely
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2211, in run_book
+    judged = request_json_cached(state, JUDGE_MODEL, JUDGE_SYSTEM, judge_payload)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1437, in request_json_cached
+    response, usage = request_json(
+                      ~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<3 lines>...
+        route=route,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1084, in request_json
+    return request_json_unlocked(
+        model, system, payload, max_tokens, route=route
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1224, in request_json_unlocked
+    raise RuntimeError(f"API 请求连续失败（{route['provider']}）：{last_error}")
+RuntimeError: API 请求连续失败（siliconflow）：Response ended prematurely
+ERROR: 预算保护触发：并行安全余量后可用预算不足，正式任务 ¥149.50，外部测试 ¥0.00，上限 ¥150.00
+Traceback (most recent call last):
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3233, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 3209, in main
+    run_all(args.start_book, args.limit_batches_per_book, args.workers)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2846, in run_all
+    completed_book = future.result()
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2743, in run_book_with_retries
+    run_book(
+    ~~~~~~~~^
+        book_no,
+        ^^^^^^^^
+        limit_batches_per_book,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        shared_state=state,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 2288, in run_book
+    repaired = request_json_cached(
+        state, active_repair_model, REPAIR_SYSTEM, repair_payload
+    )
+  File "D:\壮五福\风水项目\Md\V3\_tools\v3_pipeline.py", line 1423, in request_json_cached
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: 预算保护触发：并行安全余量后可用预算不足，正式任务 ¥149.50，外部测试 ¥0.00，上限 ¥150.00

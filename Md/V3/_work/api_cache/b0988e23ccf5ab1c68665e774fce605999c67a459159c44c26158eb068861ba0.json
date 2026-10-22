@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-25T06:38:15.607056+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b0988e23ccf5ab1c68665e774fce605999c67a459159c44c26158eb068861ba0",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000098-p000-08a41562bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文的“禄储”在candidate中漏译，仅写为“储”，遗漏了“禄”字；原文“一当以此为准”的“一”（表示完全、一律）未体现，仅译“应当以此为准”，语义有偏差；原文“乐托”为专有表述，candidate直接沿用未做标注或通俗化处理，普通读者无法理解其含义"
+        ],
+        "uncertainty": [
+          "“木秀华盖、土秀冠盖、金秀宝盖、乐托、禄储、衬贴、化生之脑、天轮之盖、太极之晕”均为风水专有表述，原文未明确解释具体形态，具体所指需结合专业语境判断"
+        ]
+      },
+      {
+        "id": "book022-b000099-p000-23099a4533",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [
+          "“凶星、有胎有化、吉曜、有精有神”均为风水术数专有术语，无对应allowed_glossary释义，candidate直接沿用原文表述，未做符合普通读者理解的释读，也未标注含义不详，属于未完成古文到现代中文的转换"
+        ],
+        "uncertainty": [
+          "“凶星、胎、化、吉曜、精、神”的具体风水含义不明确，无法确定释读是否准确"
+        ]
+      },
+      {
+        "id": "book022-b000100-p000-501a55f013",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“五星”为风水专有术语，candidate直接沿用未标注，普通读者无法理解其指代的风水五星概念；原文“直硬之木”的“木”为风水五行术语，未做标注或通俗说明，普通读者易误解为现实中的树木；原文“扫荡之水”的“水”属于风水五星范畴，并非allowed_glossary中定义的水系，术语释义误用；原文“天罡”为专有术语，candidate直接沿用未做标注，普通读者无法理解其含义"
+        ],
+        "uncertainty": [
+          "“五星、直硬之木、泡节、扫荡之水、坚块、逢胎、天罡、水窝”的具体风水含义需结合专业语境判断，原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2166,
+    "completion_tokens": 571,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2166,
+      "completion_tokens": 571,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

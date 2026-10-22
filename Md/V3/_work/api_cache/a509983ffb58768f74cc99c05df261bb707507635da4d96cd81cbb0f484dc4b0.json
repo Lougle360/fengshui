@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-09-24T12:09:15.250645+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a509983ffb58768f74cc99c05df261bb707507635da4d96cd81cbb0f484dc4b0",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000375-p000-56d4435167",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "樓極槎斜",
+          "合花"
+        ]
+      },
+      {
+        "id": "book014-b000376-p000-ea81383f9a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的‘回面張’‘鬼’‘廉’‘作住城大星座’‘反關水’‘四願無真’‘剛柔伸縮’等含混专名强行赋予风水相关含义，不符合要求，应保留原文专名并标注具体所指不详"
+        ],
+        "uncertainty": [
+          "回面張",
+          "鬼",
+          "廉",
+          "作住城大星座",
+          "反關水",
+          "四願無真",
+          "剛柔伸縮"
+        ]
+      },
+      {
+        "id": "book014-b000377-p000-cd6b0275ec",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的‘麻線椎’‘胎息’‘高金象日月’‘齋木炬火’‘燥星’‘腦飛越坎’‘廩成影光仙入’‘朽傍復凡’‘九麥’‘單提宜中紛’‘枝帳’‘博批’‘臂空’‘學旗提逆水’等含混专名强行赋予风水相关含义，不符合要求，应保留原文专名并标注具体所指不详"
+        ],
+        "uncertainty": [
+          "麻線椎",
+          "胎息",
+          "高金象日月",
+          "齋木炬火",
+          "燥星",
+          "腦飛越坎",
+          "廩成影光仙入",
+          "朽傍復凡",
+          "九麥",
+          "單提宜中紛",
+          "枝帳",
+          "博批",
+          "臂空",
+          "學旗提逆水"
+        ]
+      },
+      {
+        "id": "book014-b000382-p000-ca51b5b622",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的‘卒面’‘垤’‘岷倒星辰’‘監起’等含混专名强行赋予风水相关含义，不符合要求，应保留原文专名并标注具体所指不详"
+        ],
+        "uncertainty": [
+          "卒面",
+          "垤",
+          "岷倒星辰",
+          "監起"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2147,
+    "completion_tokens": 538,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2147,
+      "completion_tokens": 538,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

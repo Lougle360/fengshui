@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-24T23:44:41.834710+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "72464740cb0a44139dfe46d8059d1fd9968dd3efcd4bd170387081fe053b2775",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001285-p000-d334c5bcb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“第代侯王皆禁斷”被误译为“侯王皆被禁止涉足”，语义反向；原文“余今隐出在江东”主语为“余”，译文丢失主语；原文“返引雲之便化龍”被误译为“便可引云气化作龙形”，漏译“返”的含义；原文“帝草、臣帝位”被误写为“帝草、臣位”，漏译“帝”字"
+        ],
+        "uncertainty": [
+          "帝草、帝殿具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001286-p000-3743c34054",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "百乙十具体所指不详；它墓具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001288-p000-17999d0c08",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“今舍己奉佛四十今”被译为“如今舍己奉佛已有四十”，未补全语义且保留不通顺表述；原文多处OCR或原文讹误未标注，如“為答师以吴以至人亡者”“陰起佛る八提心”“返讀じ”“公都天尸”“一經占当生而”等句未说明存在文字错乱；原文“菜墳”被误写为“葬坟”（注：本条原文最后一句为另一处source，此处candidate对应本条source：原文“今舍己奉佛四十今”语义不通，译文未说明；原文“为答师以吴以至人亡者”译文简化为“为答师而亡故的”，漏译“以吴”内容；原文“陰起佛る八提心”含日文假名，译文未标注原文存在日文混入；原文“返讀じ”含日文假名，译文直接删去未标注；原文“一經占当生而”语义不完整，译文直接保留未说明"
+        ],
+        "uncertainty": [
+          "阴起佛八提心具体所指不详；浮三法具体所指不详；公都天尸具体所指不详；洋注未书之文星具体所指不详；坐巾立果具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001289-p000-550bdad547",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文含多处日文假名“っ”“7”等，译文未标注原文存在日文/乱码混入；原文“子今卯酉”被误译为“子、午、卯、酉”，多译出“午”字；原文“闭一核排”被误译为“需要逐一核对排查”，属于无依据释义，原文该短语语义不明不应补出确定含义"
+        ],
+        "uncertainty": [
+          "子见哭的具体所指不明，都天室照经中益一二六五的具体含义不明，闭一核排的具体操作含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001291-p000-ae7630d4a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "乙幸具体所指不详；语存具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001292-p000-fcfce5c0f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "解冬山具体所指不详；宝申巳宝位具体所指不详；水易每情具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001293-p000-4c22af3e10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001296-p000-bcafec1536",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文含多处日文假名“れ”“る”，译文未标注原文存在日文混入；原文“地國”被误译为“地图”，属于无依据校正；原文“人車往書”被保留为“人，车往书”，语义不通未标注；原文“形努好尔”被直接保留，未说明为原文讹误；原文“稻水口”被误译为“朝水口”，属于无依据改字"
+        ],
+        "uncertainty": [
+          "实方具体所指不详；形努好尔具体所指不详；科乖具体所指不详；水法苟凶具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001297-p000-03d9f2bef1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001299-p000-fe4d162dae",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“菜墳”被误译为“葬坟”，属于无依据改字；原文“名依此理”被简化为“依此理”，漏译“名”字；原文“清實吉名天下無”被拆为“清实吉名天下无”，未说明“清实吉”的歧义"
+        ],
+        "uncertainty": [
+          "清实吉具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2929,
+    "completion_tokens": 1268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2929,
+      "completion_tokens": 1268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

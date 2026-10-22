@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-09-24T22:58:48.862932+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "adb9f3ca1d831a14f34e85b32cefa7e79d0aae6dda87f95c5b60261890319491",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000923-p000-abaa1dc121",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000924-p000-de18228f44",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文语序混乱，‘姓除智星外排龍亦有之否第线此爾謂之出不生位’断句无明确依据，候选将‘姓除智星外’释为‘除了智星姓之外’缺乏依据，‘第线此爾’释为‘这里的次第界限’属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文语义破碎，无法准确断句和释读"
+        ]
+      },
+      {
+        "id": "book017-b000925-p000-4a72591003",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘此以排寵为天卦王向为地卦’断句错误，候选漏译‘王’字，擅自将‘王向’拆分为两个独立概念，违反原文语义"
+        ],
+        "uncertainty": [
+          "‘言空’‘排龍’‘排寵’‘王向’的具体含义未明"
+        ]
+      },
+      {
+        "id": "book017-b000926-p000-93933ea74e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘印天卦出’的‘印’被释为‘对应’属于无依据释义，且原文句末‘只须掛’确实不完整，候选未标注该残缺风险"
+        ],
+        "uncertainty": [
+          "‘安星用彗’‘抓龍出位’‘出住’含义无法确定，句末表述残缺"
+        ]
+      },
+      {
+        "id": "book017-b000927-p000-9e5d65714f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文仅为‘地理離正真读天王經內集中’，无明确动词表明是内容收录于该经书，候选释为‘相关内容记录在《地理離正真读天王經》的内集中’属于将推测写成事实"
+        ],
+        "uncertainty": [
+          "原文过于简略，无法确定具体语义，书名断句仅为推测"
+        ]
+      },
+      {
+        "id": "book017-b000929-p000-252c40ad28",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘聲星不出經’‘抑龍出位’‘龍骨不真’含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000930-p000-7dabdba9f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000931-p000-f2a83a6b4e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘巴丙、文壬、申庚寅甲’‘出一位’具体所指未明"
+        ]
+      },
+      {
+        "id": "book017-b000932-p000-761d78da01",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "‘共卦’‘抑能’含义无法确定，原文语序不通"
+        ]
+      },
+      {
+        "id": "book017-b000933-p000-48168ede68",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘八丁午皆集離卦’被释为‘丁和午都属于离卦’，漏译‘八’字，属于漏译问题；原文‘故謂之的未告位’，候选直接照搬该短语，未标注该短语语义不明的风险"
+        ],
+        "uncertainty": [
+          "‘抑龍’‘的未告位’含义无法确定，‘八丁午’疑似存在讹误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2153,
+    "completion_tokens": 906,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2153,
+      "completion_tokens": 906,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:12:04.283816+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ae0ddff70474de512a0cd03b1ae9530fc63e57d3c2fa4ae3f8200f9b99196014",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000129-p001-a866f56fa2",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量残缺、OCR识别错误及内容混乱，候选释读中多处内容无依据、与原文不符，如‘齿形的地形会结出形如剑刃的穴’‘少当诏中有阳脉的地方就是穴’等均为无依据扩写，且多处原文未明内容被强行解释，不符合古籍释读要求"
+        ],
+        "uncertainty": [
+          "原文存在大量残缺、OCR识别错误及内容混乱，多处内容无法确定准确含义，如‘少当诏中有阳脉的地方就是穴’‘补义北二苑当六上面内容较多，然三综另第一例’‘山质出脉的化生脑，三到头穴，入首处前遥赈之突池，非其……’等均为原文未明或残缺内容，无法进行准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5088,
+    "completion_tokens": 223,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5088,
+      "completion_tokens": 223,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

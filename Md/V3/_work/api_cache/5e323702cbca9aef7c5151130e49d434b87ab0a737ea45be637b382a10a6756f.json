@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T12:04:55.227513+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5e323702cbca9aef7c5151130e49d434b87ab0a737ea45be637b382a10a6756f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000337-p000-054a7bcdd3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的「小齡」释为「小的龄地」，「龄」为风水语境中未明确的专名，不应随意释为「龄地」，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "原文「小齡」具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000338-p000-10330fad5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000339-p000-67ed38b892",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000340-p000-f90a282cc4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "日文原文中「うC」为缺字，无法确认含义；「司」后缺字，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1515,
+    "completion_tokens": 307,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1515,
+      "completion_tokens": 307,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

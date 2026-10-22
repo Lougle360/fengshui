@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-24T11:43:04.474205+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2ddfc8c00a61a0306aa3b92f4e2e6747cd081080d732bea6e12ffb143704caa1",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000020-p000-54c2a8c132",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000021-p000-a984549aad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000022-p000-881c12e62c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中多处含混专名（如术花穴、令木、种行木、穿犧）未标注具体所指，候选句直接按字面释读，未体现原文的不确定性"
+        ],
+        "uncertainty": [
+          "术花穴的具体所指不详",
+          "令木的具体所指不详",
+          "种行木的具体所指不详",
+          "穿犧的具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000023-p000-40ce31aa43",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中多处含混专名（如无中仅见使、夜丫头、堂主盐 长L）未标注具体所指，候选句直接按字面释读，未体现原文的不确定性"
+        ],
+        "uncertainty": [
+          "无中仅见使，具体所指不详",
+          "夜丫头，具体所指不详",
+          "堂主盐 长L，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3470,
+    "completion_tokens": 347,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3470,
+      "completion_tokens": 347,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

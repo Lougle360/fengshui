@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-24T01:00:57.775896+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d1be3e3c262ae0f621a2466fdce16f6698b90cbe8cf4eafef8cbadb24776890b",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000819-p000-826e75e564",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是「未多坤少遇陰局」「未少坤多遇陽局」，候选释读将二者对应关系颠倒，属于反义错误；「長二兩功一齊敗」误译为「長二兩房的功績會全部敗壞」，应为长二两房一同破败；「定不瓦」误译为「會導致房屋破敗」，无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000820-p000-6ed6a14793",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000823-p000-166242a009",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "巾字所指不明确"
+        ]
+      },
+      {
+        "id": "book002-b000824-p000-c08598dda1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000825-p000-a4947285ce",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「雨女煞」候选未标注不确定性直接释读为雨女煞，存在风险；「無撻刹」未作说明直接保留，未转换为通俗表述；「當秀代代書滿箱」释为「會代代書滿箱，出秀氣之人」语序调整但含义无错，其余准确"
+        ],
+        "uncertainty": [
+          "雨女煞、無撻刹、歸元具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book002-b000831-p000-e23189b93e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有缺漏"
+        ]
+      },
+      {
+        "id": "book002-b000832-p000-00f973923e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「舉輿千不得一」误写为「舉輿千不得一」应为「堪舆者千人中找不到一个」；「消條」未释读直接保留；「雨用此法」应为「两用此法」；「件作都要之書」属于原文讹误，候选未标注风险直接保留"
+        ],
+        "uncertainty": [
+          "原文多处语句存在讹误、语序不通，部分短语含义不明，末尾有缺漏"
+        ]
+      },
+      {
+        "id": "book002-b000833-p000-a335d6e0fc",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文多处断缺、语序混乱，无法准确释读完整语义"
+        ],
+        "uncertainty": [
+          "原文多處斷缺，難以完整釋讀"
+        ]
+      },
+      {
+        "id": "book002-b000834-p000-e52fae01ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「廢富貴在何代出貴在財若干貴者官居何品丁何房絕嗣何房富秀盜何房」语句断裂，候选强行断句释读为「富貴在何代，出貴在何房，若干貴者官居何品，丁何房，絕嗣何房，富秀盜何房」不符合原文语序，存在增译和语义偏离"
+        ],
+        "uncertainty": [
+          "原文语句断裂，部分含义不明，末尾有缺漏"
+        ]
+      },
+      {
+        "id": "book002-b000835-p000-0789641b00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 982,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3752,
+      "completion_tokens": 982,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

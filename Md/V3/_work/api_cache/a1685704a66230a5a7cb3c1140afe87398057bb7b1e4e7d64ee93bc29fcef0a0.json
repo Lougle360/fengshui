@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T13:26:57.247891+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a1685704a66230a5a7cb3c1140afe87398057bb7b1e4e7d64ee93bc29fcef0a0",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000114-p000-3629a55e6a",
+        "language": "japanese",
+        "content_type": "heading",
+        "action": "translate",
+        "modern_text": "## 2.2 劉歆的目录学",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000115-p000-e23672c985",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "就董仲舒的天人学而言，术数式的思考占据了其哲学体系的本质位置，这一点已在前文述及。不过，他是否将术数学视为支撑经学的重要学术部门，目前仍不清楚。依据现存史料来看，将「数术」这一类别定位为支撑经学的不可或缺的部门，必须说始于刘歆的图书目录《七略》。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000116-p000-cc86a3dee6",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "刘歆的《七略》本身在唐末五代的战乱中散佚，并未流传至今。但在刘歆去世约六十年后，继承其学术脉络的班固取舍了《七略》的内容，编纂了《汉书·艺文志》，因此即便只是间接的，也能通过该记载窥见《七略》的书籍目录内容，了解其书籍分类法的概要。据班固、阮孝绪等人的记载，《七略》由①辑略、②六艺略、③诸子略、④诗赋略、⑤兵书略、⑥数术略或术数略、⑦方技略构成。不过在七略之中，辑略虽有多种解释，但至少不包含书籍目录，这一点是明确的。此外，六艺略以下以按类别划分的书籍目录为记述核心，这一点也毋庸置疑。因此，依据该目录书的结构来看，不得不推定《七略》作为学术分类采用了六分法，将所有书籍与学术分为六类，分别命名为六艺、诸子、诗赋、兵法、数术、方技。反过来说，《七略》与六艺之学并列，明确将数术或术数学认定为拥有独立学术体系的领域。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中「各ジャンルに対して@六芸，⑥諸子，©詩賦，@兵法，数術，f方技と命名していた」的符号标记存在错乱，已按原文提及的六类名称进行翻译"
+        ]
+      },
+      {
+        "id": "book015-b000117-p000-92ba220f46",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "如前文所述，数术或术数学是广义上与数相关的学术，以历算和占术为主要研究领域，该学术在两汉时期……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文在此处存在残缺，内容未完整记述"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2161,
+    "completion_tokens": 704,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2161,
+      "completion_tokens": 704,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

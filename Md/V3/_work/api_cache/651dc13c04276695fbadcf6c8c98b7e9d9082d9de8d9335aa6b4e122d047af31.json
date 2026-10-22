@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-25T06:04:05.524789+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "651dc13c04276695fbadcf6c8c98b7e9d9082d9de8d9335aa6b4e122d047af31",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000029-p000-34172f439a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“月论佛仙侯王相公之大结构”被误译为“凡是谈论佛仙侯王相公的大格局”，存在形近字误译，“月”应为“凡”的讹字，译文虽修正了讹字的语义，但需确认：若原文确为“月”，则译文错误；若为OCR/传抄讹作“月”实应为“凡”，则该处理需说明标注。",
+          "原文“罗目侯”属于讹字，正确应为“罗睺侯”，译文直接沿用错误表述，未做任何说明。",
+          "原文“盖无盖势，胎必不结”翻译为“如果没有盖势，胎就不会结”，未结合风水术语明确“胎”此处指胎星/穴的结作，表述过于模糊，不符合通俗释读要求。",
+          "原文“界水所会，如人之襟，领所交”被误断为“界水所汇聚的地方，如同人的衣襟与衣领相交”，原文断句应为“如人之襟领所交”，虽语义偏差不大，但断句处理不严谨。"
+        ],
+        "uncertainty": [
+          "原文“月论佛仙侯王相公之大结构”中“月”字语义存疑，是否为“凡”的传抄讹字未明确。",
+          "原文“罗目侯”是否为“罗睺”的讹写未明确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2827,
+    "completion_tokens": 350,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2827,
+      "completion_tokens": 350,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

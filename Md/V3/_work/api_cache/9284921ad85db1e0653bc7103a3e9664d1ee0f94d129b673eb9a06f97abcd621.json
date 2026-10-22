@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-23T09:39:57.510116+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9284921ad85db1e0653bc7103a3e9664d1ee0f94d129b673eb9a06f97abcd621",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000215-p000-6a3405f4fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "永本的具体含义",
+          "理當爲京職者是否确指某种格局"
+        ]
+      },
+      {
+        "id": "book003-b000218-p000-40ab075a7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘王出聪明女人’中的‘王’字，candidate 释为‘主家’，属于推测性解释，应保留原文‘王’字并标注其含义不明。",
+          "原文‘三吉六秀龍得此殊朝’中的‘殊朝’，candidate 释为‘殊胜的朝应’，属于推测性解释，应保留原文‘殊朝’并标注其含义不明。",
+          "原文‘亥聯寅甲巽庚代璧蔣相之權’中的‘代璧蔣相’，candidate 处理为‘代璧蔣相之權’整体标注不详，符合要求，但‘亥聯寅甲巽庚’被直接纳入短语，未单独说明其可能为方位组合，可补充说明。"
+        ],
+        "uncertainty": [
+          "王出聪明女人中‘王’字的含义",
+          "殊朝的具体含义",
+          "亥聯寅甲巽庚代璧蔣相之權的具体含义"
+        ]
+      },
+      {
+        "id": "book003-b000220-p000-0b09086cc7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "元辰的具体含义",
+          "白首垣星的含义",
+          "交合會王的含义",
+          "整段文字的完整逻辑"
+        ]
+      },
+      {
+        "id": "book003-b000222-p000-c169bb2260",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "內字是否为丙字之误",
+          "內字的具体方位指代"
+        ]
+      },
+      {
+        "id": "book003-b000223-p000-793bf057e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巳丙水來出武將木盛火烈其性威烈故巳兩四午三火水皆有是應’，candidate 断句为‘巳方和丙方的水来，主出武将。木盛火烈，其性质威烈，所以文中提到‘巳兩四午三火水皆有是應’’，将‘木盛火烈’与前后文割裂，并直接将其解释为‘其性质威烈’，属于将推测写成事实。原文‘木盛火烈’与‘其性威烈’的逻辑关系不明确，应标注为含义不明。",
+          "原文‘若龍體藤題’，candidate 标注为不详，符合要求。"
+        ],
+        "uncertainty": [
+          "兩四的含义",
+          "三火水的含义",
+          "若龍體藤題的含义",
+          "木盛火烈其性威烈的具体逻辑"
+        ]
+      },
+      {
+        "id": "book003-b000224-p000-e4c2295513",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "两字的含义",
+          "整句的完整语义"
+        ]
+      },
+      {
+        "id": "book003-b000227-p000-6f8309de55",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘支無下 卷之 十 午必招軍賊源流浩大而偏室武職’，candidate 释为‘原文开头‘支無下’语义不明，可能是标题或衍文。文中提到‘午必招軍賊’，若源流浩大且偏向偏房或武职之家。’ 此处将‘偏室武職’拆解并推测为‘偏向偏房或武职之家’，属于将不确定解释写成确定事实。应保留‘偏室武職’原短语并标注其含义不明。",
+          "原文‘若直射綱小’，candidate 释为‘若水直射且细小’，其中‘綱’字未译出，属于漏译。应保留‘綱’字并标注其含义不明。"
+        ],
+        "uncertainty": [
+          "支無下的含义",
+          "偏室武職的具体含义",
+          "綱字的含义"
+        ]
+      },
+      {
+        "id": "book003-b000230-p000-a7c231ee91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "蟲字的具体含义"
+        ]
+      },
+      {
+        "id": "book003-b000232-p000-462ff9d34b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘辰成丑未爲黃泉四庫水穴前若見此水必主火 王天經下 卷之二 十十十’，candidate 释为‘辰、戌、丑、未被称为黄泉四库。若在水穴前见到这种水，主‘火王’，但‘火王’的具体所指不详。天经下卷之二，页码为十十十。’ 原文为‘辰成丑未’，candidate 写为‘辰、戌、丑、未’，将‘成’改为‘戌’，属于未经说明的改动。应保留‘成’字并标注其可能为‘戌’之误。",
+          "页码‘十十十’的释读方式未明确，但作为页码信息，可以接受。"
+        ],
+        "uncertainty": [
+          "火王的具体含义",
+          "辰成丑未中‘成’字是否为‘戌’之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2573,
+    "completion_tokens": 1217,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2573,
+      "completion_tokens": 1217,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

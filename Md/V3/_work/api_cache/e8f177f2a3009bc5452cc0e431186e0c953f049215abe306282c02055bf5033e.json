@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-16T13:53:43.936193+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e8f177f2a3009bc5452cc0e431186e0c953f049215abe306282c02055bf5033e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002471-p000-ee2cd04196",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002472-p000-c8bc4b5b43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002473-p000-8e5d72354e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘壮孕’译为‘壮孕’，但结合上下文‘定主壮孕不填’及前文‘中房死绝’的凶兆，‘壮孕’可能为‘壮孕’的讹写或特定术语，指某种不利的生育状况，译为‘壮孕’未体现其负面含义，且未加风险标注。",
+          "candidate将‘不填只是不發福者’译为‘不填只是不發福者’，此句与前文逻辑断裂，可能为‘不填，只是不发福；若填……’的省略或讹误，candidate未处理此处的语义断裂或歧义。",
+          "candidate将‘标准之上与穴中之淮相登’译为‘标准之上与穴中之淮相登’，其中‘淮’为opaque_term，应保留在引号内并标注其具体所指不详，candidate未作此处理。",
+          "candidate将‘其绳须与穴淮及明堂之淮地面相平’译为‘其绳须与穴淮及明堂之淮地面相平’，同样，‘淮’应作为不透明术语处理。",
+          "candidate将‘浅深之法亦如这此’译为‘浅深之法亦如这此’，‘这此’应为‘此’或‘此等’之误，candidate未指出可能的讹误。",
+          "candidate将‘不必求合以来山所属步量之法’译为‘不必求合以来山所属步量之法’，‘步量之法’为特定测量方法，candidate未加引号或说明其为专名。",
+          "candidate将‘风火自成矣’译为‘风火自成矣’，‘风火’在风水中有特定含义，candidate未加引号或说明其为术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002474-p000-ee2cd04196",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1611,
+    "completion_tokens": 524,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1611,
+      "completion_tokens": 524,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

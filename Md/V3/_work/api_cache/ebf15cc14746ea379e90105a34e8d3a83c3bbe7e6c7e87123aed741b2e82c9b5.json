@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-10-18T11:52:31.825044+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ebf15cc14746ea379e90105a34e8d3a83c3bbe7e6c7e87123aed741b2e82c9b5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006448-p000-72fecf2661",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006449-p000-80d45c02a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘丁鬼金羊鬼一至柳癸女土蝠女二至四’，candidate释读为‘丁鬼、金羊鬼，从一至柳；癸女、土蝠女，从二至四。’。此处‘从’字为增译，原文仅用‘至’连接，表示范围。应改为‘丁鬼、金羊鬼，一至柳；癸女、土蝠女，二至四。’以更贴近原文结构。"
+        ]
+      },
+      {
+        "id": "book035-b006450-p000-bb8c0df829",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在重复字词，可能为传抄或排版错误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b006451-p000-d6bb288bf4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘癸女土蝠女五至七坎危月燕危一至三’，candidate释读为‘癸女、土蝠女，从五至七；坎（八卦之一）、危月燕，从一至三。’。此处‘从’字为增译，原文仅用‘至’连接，表示范围。应改为‘癸女、土蝠女，五至七；坎（八卦之一）、危月燕，一至三。’以更贴近原文结构。"
+        ]
+      },
+      {
+        "id": "book035-b006452-p000-471e698146",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘庚午土穴分在離宮逢火爲胎孕之地是以土入火宮逢生宜列于九八六六之春見土入火宮爲得勢對宮得庚子土向土遇水而爲才地是以土入水弱土勝宮王水土俱旺旅子根本堅固而枝葉榮故合作上格局’。candidate释读中‘宜列于九八六六之春’一句，原文‘九八六六之春’含义不明，candidate未加说明直接保留，可能造成读者困惑。应在uncertainty中标注此短语含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b006453-p000-9d0c3bcb24",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘坎虛日鼠虛七至九’，candidate释读为‘坎（八卦之一）、虚日鼠，从七至九。’。此处‘从’字为增译，原文仅用‘至’连接，表示范围。应改为‘坎（八卦之一）、虚日鼠，七至九。’以更贴近原文结构。"
+        ]
+      },
+      {
+        "id": "book035-b006454-p000-fd74f29ecf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘癸女土蝠女二至四’，candidate释读为‘癸女、土蝠女，从二至四。’。此处‘从’字为增译，原文仅用‘至’连接，表示范围。应改为‘癸女、土蝠女，二至四。’以更贴近原文结构。"
+        ]
+      },
+      {
+        "id": "book035-b006455-p000-49a9c4c0ba",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“都向”具体含义及“颐之屯”在此处的具体指涉不详，仅保留原词"
+        ]
+      },
+      {
+        "id": "book035-b006456-p000-61bf051fcf",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文表述重复或残缺，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b006457-p000-f92362c11a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“复之复”具体所指不详，仅保留原词"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1810,
+    "completion_tokens": 900,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1810,
+      "completion_tokens": 900,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

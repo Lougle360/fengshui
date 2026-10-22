@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T10:35:27.457100+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2c86f46347f60c49d8e0bf0f178d15784d67e0de9cdc474eb548e790852f6ace",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000844-p000-e138d891d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文内容零散，干支、八卦及其他字符的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000846-p000-8a3cd2587d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文内容零散，包含风水相关术语，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000849-p000-4777205685",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文存在数字重复、字符错乱问题",
+          "原文语义不明"
+        ],
+        "uncertainty": [
+          "原文内容的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1394,
+    "completion_tokens": 197,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1394,
+      "completion_tokens": 197,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

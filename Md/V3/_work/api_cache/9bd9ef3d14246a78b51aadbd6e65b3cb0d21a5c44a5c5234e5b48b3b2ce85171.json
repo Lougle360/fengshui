@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:27:51.532551+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9bd9ef3d14246a78b51aadbd6e65b3cb0d21a5c44a5c5234e5b48b3b2ce85171",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000755-p000-929131758a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "第一次揲蓍所用的數是十二，第二次揲蓍所用的數是二十四，第三次揲蓍所用的數是四，第四次揲蓍所用的數是九。以上這四位所用的數，加起來一共是四十九。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000756-p000-ea0bd5485f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "雖有這樣的記載，但答語末尾所用數的合計四十九，已明確表明了這一點。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000757-p000-3dbe5b6c8f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "另外，答語中所說的衍數及其和五十，是對「大衍之數五十」的解釋。只是衍數，是針對「兩兩互為素數」的元數一、二、三、四而言的，指的是各自揲數的積除以各揲數所得的值。",
+        "confidence": "medium",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000758-p000-81e964d056",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "若關注這五十的含義來推測秦九韶的想法，他應是認為，在五十與四十九的對立之中，隱藏著解開筮法深奧秘密的鑰匙。也就是說，他認為其中闡明了一揲、二揲、三揲、四揲這四種揲法的必要性，以及以從元數整理為定數為前提的衍數與用數的計算方法。若要使這種術數性的思考具有意義，也就是說若要從中看出不僅是附會之說，那麼對筮法與大衍之數的解釋……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾有缺字，內容不完整"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1824,
+    "completion_tokens": 607,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1824,
+      "completion_tokens": 607,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

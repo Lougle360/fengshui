@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-16T13:42:50.657572+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "49987edc9c04c1be41568ee0fe16bad0b1d654b990239d024f3c85484b72c721",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002451-p000-5ae7c48e51",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "阳爻位于下方。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002452-p000-17e4b216b2",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "rewrite",
+        "modern_text": "《地理天機會元》卷十一收录《金涵賦》第十篇。其下附有一张“八路水法之圖”，图中以表格形式列举了多种水法格局及其吉凶断语。表格内容包含：\n1. 高局人：若穴中见左右有虏砂（即尖砂），则家业可成；若铁科圳（水沟）关位得当，则山势关锁严密。\n2. 去水留绝：若定去水留绝，则人不绝但财绝；若直砂（直冲之砂）应对，则水学花条水绝，人财俱绝。\n3. 孝内乱：若区牛道孝内乱自反，若外有大江阳潮八填，则不论吉凶。\n4. 飞局：若日6飞，左山飞长子离，右山飞末子离。\n5. 仰局、返局、牵局、潜局、激局、冲局、割局、射局等格局，图中分别标注了对应的吉凶判断或特征描述，如“左右来冲主非横公事”等。\n注：表格中部分文字因OCR识别错误或原文残缺，如“RE€E福”“0日”“E6”等，具体所指不详，仅能保留原词。",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中部分文字因OCR识别错误或原文残缺，如“RE€E福”“0日”“E6”等，具体所指不详。",
+          "表格中“铁科圳”“区牛道孝”等词含义不明，未列入术语表，仅保留原词。"
+        ]
+      },
+      {
+        "id": "book035-b002453-p000-d46cfed248",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## <!-- 文档020 PDF 第 327 页：此区域因版面复杂或识别风险较高，OCR 结果仅供检索参考；具体内容与排版格式请以原始页面图像为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002455-p000-ed2be5930d",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "《地理天機會元》卷十一，篇名为《金涵賦》第十一。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2211,
+    "completion_tokens": 10000,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2211,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ],
+  "composed_from_subbatches": true
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T19:24:34.334660+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b0e67193428a05f6d81fd0f05433e5e0aeb5d8ccaddd9cd3048be82924cb69c7",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002662-p000-be1d4d3465",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：“往前将遇蹇难，归来 《象》曰：‘往蹇来连’，当位实又逢艰难”，说明六四正当本实之位，蹇难并非妄招。也①。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文存在断句混乱，“归来 《象》曰”部分表述不清，具体所指不详"
+        ]
+      },
+      {
+        "id": "book016-b002663-p000-e470bfd9ea",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①当位实：指位当其实，难非自招。《王注》说：‘得位履正，当其本实；虽遇于难，非妄所招也。’",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002664-p000-96b332c379",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "说明本爻“来连”的含义，各家说法不同。现举两例供参考：一、《集解》引用荀爽的话：“来还承五，则与至尊相连。”这是说六四与九五相连。二、朱熹说：“连于九三，合力以济。”（出自《本义》）这是说六四与九三相连。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002665-p000-d3b4667054",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "文曰：九五，行走十分艰难，友朋纷纷来 九五，大蹇，朋来①。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在断句混乱，“文九五”表述不清，“九五，大蹇，朋来①”部分重复，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1660,
+    "completion_tokens": 496,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1660,
+      "completion_tokens": 496,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

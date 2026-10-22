@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T17:32:28.352886+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ceb9f227bed67c7d562ae6ce29918f8a70d5883b3c0cb9073a802382996d23a9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001032-p000-4e5c330701",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“包荒”的具体所指未明"
+        ]
+      },
+      {
+        "id": "book016-b001033-p000-7cbaebe50c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001034-p000-69ec6af40f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001035-p000-fbcd6be8e9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“于食有福”释为“在饮食方面会有福运”属于无依据扩写，原文未限定“食”为饮食，应保留其本义相关的释读"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 244,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1309,
+      "completion_tokens": 244,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

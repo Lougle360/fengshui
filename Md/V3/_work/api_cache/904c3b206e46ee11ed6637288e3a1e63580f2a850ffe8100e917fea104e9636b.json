@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T08:17:47.825356+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "904c3b206e46ee11ed6637288e3a1e63580f2a850ffe8100e917fea104e9636b",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000128-p000-2b57945aa1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000131-p000-e34ebed7f4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“火必于气”的“火”未按allowed_glossary明确为风水术语，直接释为“火”易引发歧义；原文末尾的“az”为无意义字符，candidate未明确标注该字符无法确认含义"
+        ],
+        "uncertainty": [
+          "原文中“火”的具体所指未明确，原文末尾的“az”为无意义字符无法确认含义"
+        ]
+      },
+      {
+        "id": "book008-b000132-p000-36362e617e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book008-b000133-p000-61cbe1da5c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“水之险”未按allowed_glossary明确为风水语境中的水系相关含义，直接释为“水”易引发歧义；原文末尾的“F”为无意义字符，candidate未明确标注该字符无法确认含义"
+        ],
+        "uncertainty": [
+          "原文中“水之险”的具体所指未明确，原文末尾的“F”为无意义字符无法确认含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2296,
+    "completion_tokens": 356,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2296,
+      "completion_tokens": 356,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

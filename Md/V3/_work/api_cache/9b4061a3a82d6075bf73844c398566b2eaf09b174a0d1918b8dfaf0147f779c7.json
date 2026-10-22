@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T23:28:32.116657+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9b4061a3a82d6075bf73844c398566b2eaf09b174a0d1918b8dfaf0147f779c7",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001186-p000-a8f13a35e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“更者”未准确释读，原文语序为“候石高山鎖客之來色雲”，意为等候观测石高山处阻拦来客的云气色兆，候选将“鎖”误释为“与……相关”，语义偏差"
+        ],
+        "uncertainty": [
+          "“石高山”是否为专有地名原文未明"
+        ]
+      },
+      {
+        "id": "book017-b001191-p000-cac6775f7d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“然則何當寶山龍在後”理解错误，原句意为“那么何曾有宝山龙在后方的情况”，候选误译为“看重后方有宝山龙的格局”，语义完全相反；原文“氣之贊派及即是未龍”释读有误，“贊派”未准确对应，“未龍”错误译为“来龙”；原文“斥泥”的“泥”是拘泥义，虽“斥责拘泥于……的观点”表述尚可，但“水”未按allowed_glossary明确释为风水语境中的河流、水系及其来去形态"
+        ],
+        "uncertainty": [
+          "‘白非神朝富取仍答坦白’具体所指不明"
+        ]
+      },
+      {
+        "id": "book017-b001196-p000-e47c1cb146",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“夏有言者”不应确定释为“有夏代的人”，“夏”存在“夏季”“夏朝”等歧义，属于无依据确定释义；日文假名“れ”未做标注直接保留在释读语句中，不符合现代中文释读要求；原文“龍胎可裡白日見鬼”释读不准确，“可裡”未做合理处理，直接译为“的实貌，就如同”属于无依据增译；“向”未按allowed_glossary明确释为建筑或穴位所朝的方位"
+        ],
+        "uncertainty": [
+          "‘夏’的具体所指不明",
+          "‘れ’具体含义不明",
+          "‘公龍之能骨’具体所指不明",
+          "‘龍胎可裡白日見鬼’语句晦涩，解读存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 556,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1169,
+      "completion_tokens": 556,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

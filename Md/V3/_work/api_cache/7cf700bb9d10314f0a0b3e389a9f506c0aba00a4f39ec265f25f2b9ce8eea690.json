@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-17T09:25:32.776145+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7cf700bb9d10314f0a0b3e389a9f506c0aba00a4f39ec265f25f2b9ce8eea690",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003157-p000-d31d4887eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将表格内容概括为‘本表列出...要点’，并进行了分组转述，这属于对原文结构的改写和摘要化，不符合‘逐项比较’和‘不得接受摘要化’的要求。原文是具体的表格条目，候选文本应提供对应的白话释读，而非概括性描述。",
+          "候选文本在转述各组内容时，直接复制了原文的断句和模糊文字（如‘小发向腰穴，两俱小辛乘以山富房主，丙棺左中先脉左授’），这并非白话释读，而是对原文模糊片段的直接转录，未能完成‘普通读者能读懂的白话释读’这一核心任务。",
+          "候选文本末尾的‘注’部分，将‘乘以山’‘先脉’‘授’等术语解释为‘在风水语境中有特定含义’，但未使用allowed_glossary中的定义，且未将其置于引号内作为不透明术语处理，违反了opaque_terms的处理规则。",
+          "候选文本将原文的表格结构（通过HTML表格呈现的多组并列条目）处理为连续的段落和分组列表，改变了原文的并列、对照的呈现方式，可能丢失了原文通过表格布局传达的对应关系信息。"
+        ],
+        "uncertainty": [
+          "原文为HTML表格，包含多组图像和文字，文字部分因图像识别和古籍排版问题，存在大量断句模糊、语序错乱的情况，难以进行连贯、准确的白话释读。",
+          "原文中大量术语（如‘乘以山’、‘先脉’、‘授’、‘腰穴’等）的具体操作含义不明，超出了allowed_glossary的范围，无法进行确定性的解释。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2774,
+    "completion_tokens": 426,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2774,
+      "completion_tokens": 426,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

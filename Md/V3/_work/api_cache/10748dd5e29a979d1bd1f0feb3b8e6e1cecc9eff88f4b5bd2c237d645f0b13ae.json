@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-18T11:34:41.372191+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "10748dd5e29a979d1bd1f0feb3b8e6e1cecc9eff88f4b5bd2c237d645f0b13ae",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006356-p000-e4df067873",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006359-p000-06a9a73408",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘丑斗木犴斗十八至 未井木獬井至廿二’是典型的星宿分野或度数记录格式，意为‘丑宫斗宿（木犴）十八度至未宫井宿（木獬）二十二度’。candidate将‘斗十八至’释为‘斗宿从十八度开始’，将‘井至廿二’释为‘井宿到二十二度’，虽未改变数字，但未能准确传达‘至’字连接前后、表示一个度数范围的核心含义，且‘开始’一词的加入可能误导读者以为原文明确指出了起点。应更准确地表述为‘丑宫斗宿（木犴）十八度至未宫井宿（木獬）二十二度’或类似，以明确这是一个度数区间。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006360-p000-c4ddb077a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006362-p000-3cdf33a5f7",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文‘分野之次’后的文字‘艮册 楊杨 州州 丹号郡 未 雍 門郡原 坤’确实存在明显的错乱或OCR错误，candidate将其作为疑似错误的列表呈现，并明确指出‘具体所指不详’，处理方式符合要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 382,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1067,
+      "completion_tokens": 382,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

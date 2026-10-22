@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-25T05:07:56.509641+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5d43c47e2915fc498d72d5ec2ccb9b85df91b13cb6d0c3a2391f693c8d52c2b9",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001208-p000-f7eb4f0602",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001210-p000-23b223d9f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001211-p000-e375c1179d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001212-p000-0ae734ef39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001213-p000-d386defcf6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文边曲边直说明部分‘右直，名曰右直，名曰左仙宫，亦曰左官脚。此钳之左右不均，’存在句读问题，候选释读直接按现有断句翻译为‘左侧笔直，名为右直，也叫左仙宫，也叫左官脚。此钳的左右不均。’语义矛盾，属于对原文缺漏/讹误内容未做风险标注直接译出",
+          "原文边单边双部分首句‘廖金精名’存在断句不完整，候选直接译为‘廖金精将这种情况命名为’未补充完整也未标注原文残缺"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001215-p000-de3c3c3a10",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4141,
+    "completion_tokens": 437,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4141,
+      "completion_tokens": 437,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

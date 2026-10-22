@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-26T04:13:15.573236+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "963eceb4e8828a9c9b442262135cba4b8bc818f40a4ea1374997d3d25f94ea6a",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002185-p000-4e1252a22a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文中唐状元祖地的条目与第二处程侍郎祖地条目位置相邻，candidate将“平地梅花龙，巽脉辛向，后代出了两位御史”误归为唐状元祖地页面右栏内容，属于信息归属错误。2. 原文不存在“第三处程侍郎祖地”，candidate凭空新增条目，属于无依据增译。3. candidate误将第二处程侍郎祖地的“出二御史”同时重复归给唐状元祖地相关地块，属于信息错配。4. 原文“問以山卯龍庚向”被误译为“卯山庚向”，未注明原句表述存在歧义且“問以山”三字未处理，属于漏译兼误译。5. 原文“許閣老祖地去地理參贊玄機全書○卷十”的许阁老祖地相关内容完全漏译。"
+        ],
+        "uncertainty": [
+          "原文中“廠州府”确为OCR误读，修正为徽州府具备合理性；“壬小丙向”确为OCR误读，修正为壬山丙向符合风水术语常规表述；“里巽龍辛向”表述模糊，暂按地块龙向处理的标注符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2450,
+    "completion_tokens": 328,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2450,
+      "completion_tokens": 328,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

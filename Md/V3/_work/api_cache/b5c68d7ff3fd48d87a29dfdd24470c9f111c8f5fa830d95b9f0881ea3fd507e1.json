@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:51:02.189886+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b5c68d7ff3fd48d87a29dfdd24470c9f111c8f5fa830d95b9f0881ea3fd507e1",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000932-p000-20e925cbe1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000934-p000-82a2e9aa1c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“录问”释为“录问的光芒”无依据，属于无依据扩写；将“迟习张”释为“迟缓、习张的情况”无依据，属于无依据扩写；将“止水”释为“风水语境中的河流、水系及其来去形态”不符合allowed_glossary中“水”的定义，属于专业术语误换；原文存在缺漏，部分语句语义不完整，释读时未明确标注该不确定性"
+        ],
+        "uncertainty": [
+          "原文存在缺漏，部分语句语义不完整"
+        ]
+      },
+      {
+        "id": "book014-b000935-p000-82b7a9f084",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量残缺、错乱字符，语义难以明确，释读时未对无法明确的内容进行标注"
+        ],
+        "uncertainty": [
+          "原文存在大量残缺、错乱字符，语义难以明确"
+        ]
+      },
+      {
+        "id": "book014-b000936-p000-aa8b8ddca1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“乡重”释为“乡重”无依据，属于无依据扩写；将原文中“巉識”按“巉巖”改写，未明确标注该改写的不确定性"
+        ],
+        "uncertainty": [
+          "原文中“巉識”疑为“巉巖”的讹误，已按保守方式改写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1713,
+    "completion_tokens": 416,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1713,
+      "completion_tokens": 416,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

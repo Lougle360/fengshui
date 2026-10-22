@@ -1,0 +1,137 @@
+{
+  "created_at": "2026-09-23T08:34:03.027857+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "56dc2ccb9f631925cc1b25dc4e4c2c27b3c7bc0e4ef80ac2e63cad4249980c5a",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000287-p000-9e1fb01543",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“仲房称”指排行居中的儿子（仲房）获得称誉或显贵，candidate 译为“家中排行居中的儿子最为显贵”基本准确，但“天医仲房称”是一个完整的判断句，candidate 将其拆解为“这种格局被称为天医吉格”和“家中排行居中的儿子最为显贵”，结构上有所调整但语义未失。然而，“王家赠”译为“受到王家的恩赐”存在风险。“王家”在古文中常指帝王之家或朝廷，但此处也可能指姓氏王的人家。candidate 译为“王家”并解释为“恩赐”，属于将不确定解释写成了确定事实，且“王家”非 locked_terms 或 allowed_glossary 中的术语，不应赋予确定含义。应保留原文“王家”并说明其指代不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000288-p000-627289fa81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000290-p000-40de40e347",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000291-p000-9a3d9be5bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000292-p000-460a4a2df1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000293-p000-c0a30e02ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000294-p000-8fd25e9f0e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000297-p000-14b7b2c8a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000298-p000-d2141d23ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000299-p000-4fffed1dfc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“掩山，阴育阳施”是一个独立短语，candidate 译为“掩山之处，阴气孕育，阳气施化”，将“掩山”解释为地点，属于增译。原文“掩山”含义不明，可能是动作或状态，candidate 将其确定为地点“掩山之处”，属于将不确定解释写成了确定事实。应保留“掩山”并说明其具体所指不详。",
+          "原文“虞渊弗替”中“虞渊”是神话中日落之处，candidate 译为“虞渊的规律从未改变”，将“虞渊”引申为“虞渊的规律”，属于增译。应保留“虞渊”并说明其指神话地名，或直接译为“虞渊的规律（或作用）从未改变”但需注明此为引申义，但根据规则，更稳妥的做法是保留原词并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000300-p000-0556f6aef2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000301-p000-90191a439b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文残缺导致西方甲子至后的内容无法确定"
+        ]
+      },
+      {
+        "id": "book001-b000303-p000-db0c22f890",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“人有三精，台光灵爽，幽精三台，乃天地级”含义晦涩。candidate 译为“人也有三精，台光灵爽，幽精三台，乃是天地的等级”，将“乃天地级”解释为“乃是天地的等级”，属于推测，且“等级”一词的现代含义可能不准确。原文“级”可能指阶梯、等级或法度。candidate 的译法将不确定解释写成了确定事实。应保留原文的晦涩性，或说明“天地级”具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000304-p000-0132f152c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000305-p000-8a11302350",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4197,
+    "completion_tokens": 1167,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4197,
+      "completion_tokens": 1167,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

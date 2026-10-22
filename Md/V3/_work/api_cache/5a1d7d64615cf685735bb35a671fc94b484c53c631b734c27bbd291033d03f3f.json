@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T11:32:18.050653+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "5a1d7d64615cf685735bb35a671fc94b484c53c631b734c27bbd291033d03f3f",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000112-p000-e340fd7ddd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "四經五行中，以二龍爲地，屬木，爲陰。凡坐午、申、戌三支山的，適合收取倒左的陰水。因爲陰逆上而行，所以都是上等地。凡坐坤、壬、辛的山。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000113-p000-c141a9664f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "三山的，適合收取倒右的陽水，所以都說是下等地。陰。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在殘缺，「陰」字後內容缺失"
+        ]
+      },
+      {
+        "id": "book013-b000114-p000-e1c9c6b925",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "四經五行中，以三龍爲鬼，屬土，爲陽。凡坐卯、巳、丑三支山的，適合收取倒左的陰水。因爲陰逆上行，所以都說是上等地。凡坐百與三千維山的，適合收取倒右的陽水，所以說是下等地。火陽。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在殘缺，「官一收」「立故」「啟曰」等表述含義不明，「百與三千維」具體所指不詳"
+        ]
+      },
+      {
+        "id": "book013-b000115-p000-0032bcde50",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "山龍人四名寶臨經徵肯火孫息也，南方爲人，爲陰。四遠五行中，以四龍爲人，屬火，爲陰。凡坐西、亥、未三支山的，適合收取倒左的陰外水。因爲陰逆上而行，所以都說是上等地。凡坐要申、癸三山的，適合收取倒右的陽水，所以都說是下等地。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在殘缺，「山龍人四名寶臨經徵肯火孫息也」「陰外水」「要申」等表述含義不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1795,
+    "completion_tokens": 644,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1795,
+      "completion_tokens": 644,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

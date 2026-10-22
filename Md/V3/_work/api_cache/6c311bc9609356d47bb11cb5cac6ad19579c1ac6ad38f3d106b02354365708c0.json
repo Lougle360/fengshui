@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:10:29.362460+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6c311bc9609356d47bb11cb5cac6ad19579c1ac6ad38f3d106b02354365708c0",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000114-p000-7e083c2d8b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘水去为上御砦水’误释为‘水流出是上等的御寨水’，‘御砦水’为风水术语，释读时未保留术语属性且含义偏差；‘水来必帶四金’释读为‘水流入则必然带着四金’，未明确‘四金’为风水语境术语，存在误释风险；‘少丁之凶’释读为‘年少丁口受损的凶险’，‘少丁’为风水术语，释读时未保留术语属性，属于专业术语误换。"
+        ],
+        "uncertainty": [
+          "‘冲弦龙’‘生方’‘阴阳龙袖’‘墓方’‘真黄泉水’‘破煞倒冲’等术语具体所指未明确，原文未明。"
+        ]
+      },
+      {
+        "id": "book012-b000115-p000-89e4a95624",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘癸归艮位’具体所指未明确，原文未明。"
+        ]
+      },
+      {
+        "id": "book012-b000116-p000-b00559baa7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘食狼’‘巨门’‘贪复’等九星术语释读时未明确为风水语境术语，存在误释风险；‘乙木火局’‘天市’‘六秀’等术语释读时未明确为风水语境术语，属于专业术语误换；‘丑艮为天市为六秀’释读为‘丑艮为天市，为六秀’，未明确‘天市’‘六秀’为风水语境术语，存在含义偏差。"
+        ],
+        "uncertainty": [
+          "‘阳火龙’‘九星’‘龙神’‘食狼’‘巨门’‘贪复’‘天市’‘六秀’等术语具体所指未明确，原文未明。"
+        ]
+      },
+      {
+        "id": "book012-b000117-p000-3e3b2ad768",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘乙向’‘巽流’具体所指未明确，原文未明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 581,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1643,
+      "completion_tokens": 581,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-16T13:07:24.168890+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "181d273edcaad295041feb64de961274ea6c5856b233e6db32546a5b679140db",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002374-p000-88558d5a00",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘倒景肥后十二爲落頭’，candidate译为‘以上十二种情况称为倒景肥后，以下十二种情况称为落头。’。‘肥后’是日文地名（今日本熊本县），此处‘倒景肥后’应是一个整体术语，candidate将其拆解为‘倒景肥后’并视为一种情况，可能误译。且原文‘以上十二爲倒景肥后十二爲落頭’结构对称，意指前十二种是‘倒景肥后’，后十二种是‘落头’。candidate增译了‘以上...以下...’的对比关系，虽为形成句子，但‘肥后’的翻译是关键错误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002375-p000-6d906d1135",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文严重损坏，存在大量乱码和空格（如‘生 氣 感 O 包截也是撞 也穴 出 0 間 并 空 口 其 者 物 行 邊 龍 如 長 邊 身 短 结 穴 尺 是 其 短 氧 塊枕 之 目 田 間 螺 是 也 也 穴穴挨 穴 斜 者如 穴 者 正 人 虚 之 侧 兩 乳 斜也 枕其一 歸 手 如新足 结 穴 是 插 穴 者 不如 止人 就之 兩 肩 寫中 名 日 皎 鳳 穴 是 也也 00 钩斬 者氣 脈 逆 来 閃 歸 左 右 以 氣 也 穴 者龍 行 本 身 有氣 塊 處 以 而 其 氣 者斜 歸 左 右 手 足 番 轉 處 子 故 雲 墜 穴 者 其 也山 脈 再 起 節 如 冬 瓜 篤’）。candidate试图将其整理成连贯的现代汉语段落，但原文损坏程度过高，许多词语和句子结构无法可靠辨识（如‘落勾其土遗内’、‘短氧块枕之目田间螺’、‘钩斩者’等）。这种释读超出了‘保守释读’的边界，将大量不确定的片段强行串联并赋予含义，属于无依据扩写。应标注为uncertain。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002376-p000-3615edf557",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002377-p000-8ce8f91fc9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002378-p000-0449bd0b77",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002379-p000-16e44cceef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为口诀体，部分词句（如“问路差之毫发隔天涯”、“草蛇灰线用心攻”）为比喻性描述，现代汉语解释已尽量还原其字面含义，但具体操作细节需结合原图或上下文理解。",
+          "“包工薄荷叶”等词组在风水术语中较为生僻，此处按字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002380-p000-9d0008fc16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002381-p000-c5fd21ee57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002382-p000-39c4bfbb85",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘其单十 穴之中又各生 三 一穴 使是三十六穴’逻辑混乱，candidate译为‘其单十穴之中又各生三一穴，使是三十六穴。’。‘单十穴’含义不明，可能是‘十二穴’之误或特定术语。candidate将其作为确定事实翻译，并试图解释逻辑（‘可能指代特定计算方式’），这超出了保守释读的范围。对于此类原文表述不清且可能包含OCR错误或术语的句子，应保留原文的模糊性，或明确指出原文表述不清，而不是强行解释。",
+          "原文‘四 九 通 成 三f 一十六穴’，candidate处理为‘四九通成三十六穴’，忽略了‘三f’这个明显是‘三十’的OCR错误，直接修正为‘三十六’是合理的，但应注明原文有误。然而，由于上一条问题更严重，整体判定为revise。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002383-p000-65c63edd0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3204,
+    "completion_tokens": 1257,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3204,
+      "completion_tokens": 1257,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

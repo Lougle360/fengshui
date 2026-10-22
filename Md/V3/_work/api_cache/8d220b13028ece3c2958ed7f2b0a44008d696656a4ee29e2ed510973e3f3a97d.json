@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-04T05:30:33.956634+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8d220b13028ece3c2958ed7f2b0a44008d696656a4ee29e2ed510973e3f3a97d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000538-p000-bdeeb31712",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'而右第十六章論山水'中的'而右'未译出。'而右'可能指'以上'或'如前所述'，是章节结束的标记，不应省略。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000539-p000-8cf45cf10b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000540-p000-021d1ff3d0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "增译：原文'砂或尖利有妨'是陈述一种情况，candidate 译为'如果砂丘尖利有妨害，就应当处理'，增加了'如果...就应当处理'的因果和行动建议，属于无依据扩写。应译为'砂如果尖利，会有妨害'或类似陈述句。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000541-p000-093fb87771",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文损坏严重，断句不清（'地 有法足若生以長補中 若  相'），candidate 的推测性补全（'地势有法度，如果不足，就像生长一样加以补益，或者通过相法来调整'）缺乏足够依据，无法判断是否准确。"
+        ],
+        "uncertainty": [
+          "原文存在缺字或断句不清，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000542-p000-0b2606ba9f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文损坏严重（'泉水歸朝諸山聚會之此之大宗 之'），candidate 的补全（'泉水归聚朝拜，诸山聚会于此，这是大宗脉气的体现'）将'之此之大宗 之'强行解释为'这是大宗脉气的体现'，属于无依据的确定解释。"
+        ],
+        "uncertainty": [
+          "原文存在缺字或断句不清，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b000543-p000-42bde00ef6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文'經雲壩前明凈無適蔽宅后偏室綠樹'，candidate 译为'经云：坝前明净无遮蔽，宅后偏室绿树成荫'。其中'適蔽'可能为'遮蔽'之误，但'无適蔽'与'绿树'之间原文无标点，candidate 将其断开为两句，可能改变了原意。'绿树'后原文即结束，candidate 添加'成荫'属于增译。应更保守地译为'经云：坝前明净无遮蔽，宅后偏室绿树'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000544-p000-14356c2a53",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000545-p000-2bb056eb9c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000546-p000-80a85d0855",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000547-p000-e32e7e5607",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文损坏严重（'大居 其之后要及先在之上可不'），candidate 的推测（'大居之后要及先在之上，可不（此处原文残缺，意指大居之后要及先在之上，具体操作不详）'）无法构成有意义的现代汉语句子，且'具体操作不详'的标注方式不符合要求（应在uncertainty中说明）。"
+        ],
+        "uncertainty": [
+          "原文存在严重残缺或错乱，无法进行可靠的保守释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2138,
+    "completion_tokens": 971,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2138,
+      "completion_tokens": 971,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

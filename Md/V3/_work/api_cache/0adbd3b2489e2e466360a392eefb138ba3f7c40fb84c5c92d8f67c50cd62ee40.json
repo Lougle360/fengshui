@@ -1,0 +1,138 @@
+{
+  "created_at": "2026-09-24T21:13:23.416493+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "0adbd3b2489e2e466360a392eefb138ba3f7c40fb84c5c92d8f67c50cd62ee40",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000209-p000-06fb7d2423",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000210-p000-d1a4896045",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“勇則便为不動”表述含混，candidate直接释为“如果有勇力就会成为不动”缺乏依据，属于无据释义；原文“旁凶互異”应是“吉凶互异”，candidate误作“旁边的吉凶却各不相同”，语义偏差",
+          "原文“期的動矣”未准确释读，candidate译“就符合动的要求”与原文含义不符"
+        ],
+        "uncertainty": [
+          "“勇則便为不動”“期的動矣”原文语义含混，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000211-p000-33b58f6406",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故氏直斥之云”的“氏”未明确是前涉的特定人物，candidate作“所以有氏直接斥责”表述不严谨；原文“水努”是水势，candidate误作“水的走势”虽语义接近但原文“努”指水的冲聚态势，释读不够准确；原文末尾的“0L”是OCR识别残留，candidate不应直接保留；原文“倒杖步學”是风水专业的倒杖步量方法，candidate未做通俗转换，直接保留原短语且未标注"
+        ],
+        "uncertainty": [
+          "“故氏”具体指代何人原文未明"
+        ]
+      },
+      {
+        "id": "book017-b000212-p000-bd2196119f",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在残缺，“雍血脈以”语义不完整，无法进行准确释读"
+        ],
+        "uncertainty": [
+          "原文残缺，整体语义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000214-p000-53ea1c2caa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“來龍吾形界水而止足故佳”存在OCR讹误，candidate释为“来龙被界水所止，所以是好的”属于无据推测，应标注原文讹误；原文“水之山家血垢清”candidate误作“这就是所说的水是山家的血脉”，与原文含义不符，属于错译；allowed_glossary中“界水”无对应释义，candidate直接用“界水”并套用“水”的释义属于术语误用"
+        ],
+        "uncertainty": [
+          "“來龍吾形界水而止足故佳”“水之山家血垢清”存在讹误，具体语义不详"
+        ]
+      },
+      {
+        "id": "book017-b000215-p000-e19f06614a",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文存在多处OCR讹误，“界小”“百形”等表述语义不明，且全文残缺，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文残缺且存在讹误，整体语义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000216-p000-bdd72b48a9",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文不完整，仅为半句口诀，无法确认完整语义"
+        ],
+        "uncertainty": [
+          "原文残缺，完整语义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000217-p000-d86cebc277",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“最皆洩霜幼”存在OCR讹误，candidate释为“最能泄露奥秘”属于无据推测；原文“毗雄”应为“雌雄”，candidate直接保留讹误字；原文“山龍好水務山龍分陽”语义含混，candidate作“这就是说山龙好水，山龙分阳”属于无据释义；原文“形賢”“保何脉”“隱必在得之貴是他抑偏多”等均为OCR讹误，candidate未标注讹误直接释读，存在错译风险"
+        ],
+        "uncertainty": [
+          "原文存在多处讹误，“洩霜幼”“形賢”“路相交卯”等表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000219-p000-7a2e4ec4b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水之对官後卯”“胡宜說 hu 才ヌ L龍对山山起破軍”“れ討三义細認陰”“後誠門界れ合虞必有三文”“保何脉”等存在大量OCR讹误、日文假名残留，candidate未标注残留，且多处无据释读，如“才是龙对山”“细认阴阳”“后诚门界”等均与原文残留字符不符；原文“三文水口”“三之水口”表述含混，candidate直接套用“水口”释义属于无据释义"
+        ],
+        "uncertainty": [
+          "原文存在大量讹误和不可识别的日文假名，大部分语义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000223-p000-e295b633b4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水未者”表述含混，candidate直接保留未标注；原文“江南龍來江北於江西龍去望江東”candidate释为“江南的龙来，江北的龙去，望江东”属于漏译“於”字，语义偏差，原句是风水口诀，意为“江南来龙，结穴在江北；江西来龙，结穴望江东”，candidate释读不符合口诀含义"
+        ],
+        "uncertainty": [
+          "“水未者”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2788,
+    "completion_tokens": 1483,
+    "cached_prompt_tokens": 2360,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2788,
+      "completion_tokens": 1274,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2788,
+      "completion_tokens": 1483,
+      "cached_prompt_tokens": 2360,
+      "usage_estimated": false
+    }
+  ]
+}

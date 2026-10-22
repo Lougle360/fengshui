@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-16T13:36:28.675426+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2ab0a5d11f31e56c2d80a7d08ce920607b7ef445877d49877a6cf80b734effdc",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002434-p000-8ec0740e0a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将‘傷脈不饒而白朽生’释读为‘脉气受损且没有生机，就会生出白色的朽坏之气’，其中‘不饒’的‘饶’字有‘宽恕、饶恕’或‘丰饶’之意，此处释为‘没有生机’缺乏依据，可能偏离原意。‘脉气来得缓慢的，不宜急于下葬’是对‘脈來緩者不宜奏’的释读，但‘奏’字在风水葬法中常指‘下葬、安葬’的动作，候选句用‘急于下葬’来对应‘奏’，添加了‘急于’这层意思，属于无依据的扩写。‘脉气来得急迫的，下葬应当迟缓’是对‘脈來急者葬宜緩’的释读，基本准确，但与前句的‘急于下葬’对应，风格略显不一致。对于最后一句含混短语的处理，候选句直接引用并说明‘具体含义不详’，符合要求。"
+        ],
+        "uncertainty": [
+          "‘傷脈不饒而白朽生’中‘不饒’的确切含义。",
+          "‘脈來緩者不宜奏’中‘奏’字在此处的具体所指（虽常指下葬，但‘不宜奏’的完整含义可能有特定语境）。",
+          "‘窮陽離脈太脫應知不根蟲蟻爛棺羽陰餘氣雄收最忌湊球檐開幷’整句的具体所指。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 740,
+    "completion_tokens": 349,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 740,
+      "completion_tokens": 349,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

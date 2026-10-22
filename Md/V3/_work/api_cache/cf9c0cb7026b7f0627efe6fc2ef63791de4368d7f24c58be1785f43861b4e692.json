@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-25T13:30:42.209859+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cf9c0cb7026b7f0627efe6fc2ef63791de4368d7f24c58be1785f43861b4e692",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000187-p000-1a5a72fc5a",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量残缺、语序错乱，无法准确释读具体语义"
+        ]
+      },
+      {
+        "id": "book026-b000190-p000-0a14820ba3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“傳梅”为原文讹字，具体含义无法确定；“奴回服御愈多食有力故聖 順為貴二義作”字句残缺讹误，语义不明"
+        ]
+      },
+      {
+        "id": "book026-b000192-p000-247b6d8b7f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首句为“樓生寶賤一博一辨形不同”，候选误释为“要一辨博换、二辨形态”，属于无依据增译，原文并未提及“博换”概念"
+        ],
+        "uncertainty": [
+          "“樓生”语义不明，疑为讹误术语；“羅四九之星”的“四九”具体所指未明"
+        ]
+      },
+      {
+        "id": "book026-b000193-p000-bb7982595e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“博操”“辦”疑为讹字，原文语序与常规逻辑不同，语义存在不确定性"
+        ]
+      },
+      {
+        "id": "book026-b000198-p000-f16bcb750d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“縣”疑为讹字或通假字，语义不明确；“堯”在此处的具体含义不明；“與秋首經千尺為象百尺為”语句残缺，未记录完整内容"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2458,
+    "completion_tokens": 562,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2458,
+      "completion_tokens": 562,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

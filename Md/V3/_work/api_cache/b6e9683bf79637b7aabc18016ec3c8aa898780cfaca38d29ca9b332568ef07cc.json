@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-25T01:51:38.794984+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b6e9683bf79637b7aabc18016ec3c8aa898780cfaca38d29ca9b332568ef07cc",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b005284-p000-44fbd000e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005285-p000-2a2ac3483b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005287-p000-7111183b4b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms要求保留的“向”，根据allowed_glossary的定义是建筑或穴位所朝的方位，但此处“刘向”是人名，误将人名中的字判定为风水术语纳入locked_terms，不符合术语使用场景"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005288-p000-7f4b3a73f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms要求保留的“向”，根据allowed_glossary的定义是建筑或穴位所朝的方位，但此处“刘向”是人名，误将人名中的字判定为风水术语纳入locked_terms，不符合术语使用场景"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b005291-p000-035269a98f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms要求保留的“白虎”，根据allowed_glossary的定义是穴场或建筑右侧的形势称谓，但此处“白虎通义”是古籍书名，误将书名中的词判定为风水术语纳入locked_terms，不符合术语使用场景"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 419,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1148,
+      "completion_tokens": 2344,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1148,
+      "completion_tokens": 419,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

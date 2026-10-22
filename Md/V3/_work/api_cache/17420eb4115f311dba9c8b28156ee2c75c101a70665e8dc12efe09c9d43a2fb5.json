@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-25T17:35:42.481430+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "17420eb4115f311dba9c8b28156ee2c75c101a70665e8dc12efe09c9d43a2fb5",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000818-p000-77b1a137be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“何魯離”三字漏译，“斬関巳見前人下細看總是假”误译为“斩关之穴已为前人所识，仔细查看便知多为假穴”，与原文表意不符；原文“三箇五箇是仰高”误断为“三箇五箇是。仰高山顶出星辰”，断句错误导致语义偏差；“安右罅土穴端無價”误译为“安于右罅土穴，价值极高”，漏译“莫疑”相关逻辑",
+          "原文“體格何魯離九星乍見得人驚”被误拆为“體格何魯離”漏译+“九星乍見得人驚”单独释读，破坏原句结构"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000819-p000-36f3d3b19e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000820-p000-b32fd78147",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000821-p000-32f46d1f1d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅提及“新安 樵山李希烈”，无相关“参与相关工作”的表述，属于无依据增译",
+          "原文开头“1 卷終”是指卷三结束，候选误写为“1卷终。内容属于《地理泰赞玄机全书》中的《仙婆集》卷之四”，逻辑错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000822-p000-93e24964bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000823-p000-d6e6752959",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000824-p000-dbacc4542e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理奉贊玄機全書○卷四”重复出现两次，候选仅在末尾标注一次，漏译中间出现的标注；原文“侯氣兮脫殺奪氣兮湊入便是”被误合并为“侯气脱杀夺气，凑入便是”，断句错误导致语义偏差；“蓋枯倚撞兮”中的“蓋”漏译；“金之實兮乗其虛水之動兮察其止木直兮印鄴土厚兮穴飢”中“穴飢”误译为“穴实”，含义相反；原文末尾“二”是卷四的页码标识，候选误写为“卷四二”",
+          "原文“二五無體 地理奉贊玄機全書○卷四 兮氣因形立”断句错误，候选将“二五无体”与“兮气因形立”连读，忽略了中间的书名标注插入",
+          "原文“隱隱陰隆兮情性千里血脉凝散兮”误译为“隐隐阴气隆起，其情性千里血脉凝散”，断句错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000825-p000-78675ca0e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“熟識此篇弓奪造化之樞機不爽毫末弓憑裁之神術”中两个“弓”字漏译，表意不完整；原文“考繩池陰陽倒施兮”被误断为“考绳池之阴阳。阴阳倒施则富贵难守”，断句错误导致语义偏差"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3335,
+    "completion_tokens": 961,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3335,
+      "completion_tokens": 961,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

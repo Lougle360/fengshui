@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-04T00:31:06.839770+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "aa7b722c9195ea95eb99adafd5c75c5ca52db7231a41fb57884b916a4e579aee",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000989-p000-55a90a0311",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000992-p000-87e17c5398",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000993-p000-000ea45835",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000994-p000-dc08c275c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000995-p000-8f929497bf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘二圃具下也艮一夏口人曰二穴法’是并列或引述的短语，candidate将其处理为‘文中提到‘二圃具下也艮’，以及夏口人所说的‘二穴法’’，这属于增译，将原文不确定的短语解释为确定的引述内容。根据规则，对于此类opaque_terms，应保留原短语并说明其含义不确定，而非将其改写为确定的叙述。"
+        ],
+        "uncertainty": [
+          "二圃具下也艮",
+          "二穴法"
+        ]
+      },
+      {
+        "id": "book033-b000996-p000-734fdd5aca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘米直来脉’、‘兑统穴’、‘礼褥’等原文中可能因OCR或古籍用字生僻而难以确解的术语，直接嵌入白话释读中，未加引号或说明其含义不确定，这违反了opaque_terms的处理规则，可能误导读者以为这些是确定的术语或概念。"
+        ],
+        "uncertainty": [
+          "咸穴",
+          "米直来脉",
+          "兑统穴",
+          "礼褥"
+        ]
+      },
+      {
+        "id": "book033-b000999-p000-804fc49865",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001000-p000-dc4c4f1eef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001002-p000-6612b62aed",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文中大量因OCR错误或脱漏而难以理解的片段（如‘卿也未’、‘乡盖’、‘却此此’、‘益无及’、‘富下闪投穴’、‘应乐为证佐’、‘息交斛水’、‘略调牖朝塾诅’）直接进行了推断和补全，并整合成看似通顺的现代中文。这超出了‘释读’的范畴，属于对损坏原文的‘修复’或‘扩写’。根据规则，对于此类因原文损坏导致连保守释读都无法成立的情况，应判定为uncertain，或至少明确指出这些部分无法可靠释读，而非将其写成确定的叙述。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR识别错误和文字脱漏，导致部分句意难以完全确证。"
+        ]
+      },
+      {
+        "id": "book033-b001003-p000-6a836118a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4876,
+    "completion_tokens": 810,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4876,
+      "completion_tokens": 810,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

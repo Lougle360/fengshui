@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-18T03:51:45.848010+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "db26c1b7a1c924ccbf3529a54060cea3d8aa26ddc45abae7381e1fbc1f77cbb1",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005354-p000-4a74e3368d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将表格结构描述为‘此表展示了多种名为“形”的图式及其对应图像’，并将所有条目概括为‘图式名称’，这属于对原文结构的过度概括和改写。source 是一个复杂的表格，包含跨行跨列的单元格、图像和文字，candidate 的描述未能准确反映其布局和内容关系，属于漏译和增译。",
+          "candidate 将‘形丐乞’‘形面臥’‘形弓眠’‘形蛛蜘’等条目处理为‘第二行依次列出’，但 source 中这些条目分布在不同的单元格，且‘形丐乞’与‘形面臥’等并非严格意义上的‘依次’水平排列，描述不准确。",
+          "candidate 将表格左侧大段文字概括为‘内容为：“山形富貴患還 ... 半月角璜下中間要相著”，这段文字的具体含义不详。’ 虽然标注了不确定性，但 source 中该文字区域是跨越多行的，candidate 的概括方式丢失了原文的换行和可能的分段信息（如‘山形富貴患還’与‘星形似月卻非眞’之间可能有分隔）。",
+          "candidate 将表格右侧及下方的条目（如‘形尸伏’‘形鞍馬形’等）描述为‘还分布着其他图式名称’，并罗列出来。这同样是对表格具体结构的简化，未能准确描述这些条目在表格中的位置关系（例如，它们与左侧文字区域、上方条目以及彼此之间的行列对应关系）。",
+          "candidate 最后总结‘每个名称旁均配有对应的图像’，这虽然是事实，但 source 中图像与名称的对应关系是通过表格单元格的并置来体现的，candidate 的描述过于笼统，未能体现这种并置的具体表格结构。"
+        ],
+        "uncertainty": [
+          "表格左侧大段文字‘山形富貴患還 ... 半月角璜下中間要相著’的具体含义和与周围图式的关系不详。",
+          "部分条目名称（如‘形丐乞’、‘形鞍馬形’、‘形袍曬笠為’、‘螺柿旗’等）的准确读法和含义不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2538,
+    "completion_tokens": 516,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2538,
+      "completion_tokens": 516,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

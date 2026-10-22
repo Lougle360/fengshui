@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T03:52:08.481022+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8ff7eb68ba8110d6075c943a65fa473635f5fdc39d45d665a2de798c6b0619ae",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000147-p000-c9850f9a61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000149-p000-93cd98f210",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“丙可借巳巳可借”表述不完整，后续借取对象未明确说明"
+        ]
+      },
+      {
+        "id": "book020-b000150-p000-94842656f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000153-p000-eab4650b20",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文开篇仅为“拘泥也”，candidate自行添加了“这两段是把挨生弃死、存真去伪，凝聚承接能贯入棺木、庇荫骨骸的一线之气作为一种方法，不可”的内容，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文末尾表述不完整，后续处理方式未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2655,
+    "completion_tokens": 330,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2655,
+      "completion_tokens": 330,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

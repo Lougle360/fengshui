@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-09-25T22:02:51.091222+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "27a9c55aed7ffff3cdc1a99b923a8c4448e0e3d5b246a446b21009800351bfb7",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000034-p000-d16c387ff7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000036-p000-f99702704a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“三回”的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book031-b000037-p000-123b85088a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "对原文语义理解错误，原文“三回天地逆滿乾坤”是完整表述，并非“经过‘三回天地逆滿乾坤’的过程”，该句应释为“三回天地，逆转充满乾坤”，需调整释读逻辑"
+        ],
+        "uncertainty": [
+          "“三回”的具体所指不详",
+          "“逆滿”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book031-b000039-p000-cd5076e48b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“慶”字含义未明",
+          "“十道”的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book031-b000040-p000-cc392d9020",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“秋持”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book031-b000043-p000-0e61e600a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2144,
+    "completion_tokens": 470,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2144,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2144,
+      "completion_tokens": 447,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2144,
+      "completion_tokens": 470,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

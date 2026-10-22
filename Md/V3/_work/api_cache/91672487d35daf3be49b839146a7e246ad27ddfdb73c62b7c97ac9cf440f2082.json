@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T15:59:43.350470+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "91672487d35daf3be49b839146a7e246ad27ddfdb73c62b7c97ac9cf440f2082",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001408-p000-4cc89c9fc3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001409-p000-0e3e5d53ae",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中对应五星的‘水’错误替换为风水语境的‘水’，不符合原文中五星的指代含义，违反术语使用规则"
+        ],
+        "uncertainty": [
+          "原文中‘水’为五星之一的水星，非风水语境的‘水’"
+        ]
+      },
+      {
+        "id": "book015-b001410-p000-d7870131a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001413-p000-edc9e3b445",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分内容因排版换行导致的断句，释读时已按文意整合，未改变原意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2067,
+    "completion_tokens": 268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2067,
+      "completion_tokens": 268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-24T20:42:00.706275+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "12b9435cc12f69be311dad9723062304ac423122a6b16eee4871b3657276e768",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000053-p000-224fcad4d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000054-p000-541095fc29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000055-p000-b19da8ec25",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“粤自迁歧相洛”被误释为“选择迁徙、相度洛地”，“迁歧”是指周人迁徙到岐山的史实，此处属于史实理解错误；原文仅提“郭、卜、曾、杨、吴、廖、赖传者”，未明确这些人的具体姓名，候选擅自补出“郭璞、卜氏、曾氏、杨筠松、吴景鸾、廖瑀、赖文俊”，属于无依据增译，违反术语释读规则；原文“授吾铅王上舍梓传”被误释为“交付我铅山的王上舍刊印流传”，原文未提及“铅山”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“卜氏、曾氏”具体所指原文未明确"
+        ]
+      },
+      {
+        "id": "book018-b000056-p000-c45df16af6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000057-p000-eb6629dcb4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是二级标题，要求保留层级和原文格式，候选擅自将标题改写为说明性语句，违反kind=toc/heading类的核对规则，且原文“余鉉”被误写为“余铉”，用字错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000058-p000-93b98c92ef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000059-p000-9e1021653b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000060-p000-6749fc7e2e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“同邑”是指祝眉寿与前文作者余铉同邑，候选误释为“与作者同县”，此处“作者”指代模糊且不符合文意，且原文未提及“这篇文字是……所撰写的”的说明性表述，属于不必要的改写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000061-p000-58bc898a4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000062-p000-e0bec26b7c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“孟子谓‘比化者无使土亲肤’”被误释为“临近死亡的人，不要让泥土接触他的肌肤”，“比化者”是指死者，此处属于文意理解错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4606,
+    "completion_tokens": 833,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4606,
+      "completion_tokens": 833,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

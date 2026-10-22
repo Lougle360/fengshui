@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T18:22:15.986844+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ccd728ee29c592631aa2b7d17eb03f2e44bcb307262d463b23e6481e2542fc15",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001852-p000-55332992a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“刚而能柔”，候选释为“阳刚之性能克制柔顺”，语义与原文相反，属于专业术语误换"
+        ]
+      },
+      {
+        "id": "book016-b001853-p000-3cd0b48f07",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001854-p000-097e65eebf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001855-p000-4068d1f242",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文《象传》内容为“无妄之药，不可试也”，候选仅释为“九五‘无妄之药’，不可试用”，遗漏了原文中“不妄为而染疾却不须服用药物”的相关释读，属于漏译"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 298,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1602,
+      "completion_tokens": 298,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

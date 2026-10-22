@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-26T07:26:47.657475+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3740d6680171e28563511b0fa09ed0f1391aaba9e465deea56dbe88112a6d32b",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000239-p000-3da0465b09",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蟬蛇”被误释为“蝉动”，语义不符；原文“愛妾寵妃自收典質之狀”被误释为“爱妾宠妃会有自主收储财物的状态”，“典质”指典押借贷，并非普通收储，属于核心含义误译；原文“起有結稍”表述保留但未对应前文“肩末如弓稍”的语境，且“三者無取”被误释为“这三个依据都不符合”，实际应为“这三点都不具备（可取之处）”，含义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000240-p000-3e43a74548",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000242-p000-5c84faa9c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“開帳”“諸帳格”“龍格部”被统一替换为“开幃”“幃格”“龙脉部”，原文术语“帳”“龍格部”被擅自改动，属于专业术语误换。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000245-p000-3fe6bf99b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“至今富貴未父”存在OCR讹误，候选释为“至今富贵未衰”属于无依据补正，应当标注原文讹误、含义不明；原文“吐畧平坦”的“畧”未作风险标注，直接释为“吐出来的地方”属于无依据释义。"
+        ],
+        "uncertainty": [
+          "原文“富貴未父”疑似讹字，具体含义未明"
+        ]
+      },
+      {
+        "id": "book033-b000246-p000-321d93695c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000247-p000-e317bdc572",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000248-p000-cd4eb86765",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“自非明師耳提面”文意未完，候选擅自补出“命，就不能辨别”属于无依据增译；原文“逵迤”应为“逶迤”的讹写，候选直接释为“逶迤”未作标注；原文“高底不明”的“底”为“低”的通假，候选直接释为“高低”未作标注；原文“水刼”属于风水术语，未保留原术语也未作说明，直接沿用属于未完全释读。"
+        ],
+        "uncertainty": [
+          "原文末尾“耳提面”后有脱文，完整语义未明"
+        ]
+      },
+      {
+        "id": "book033-b000249-p000-8f57b90a98",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000250-p000-cd332678a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000251-p000-a8309f7538",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“龍勢未什”疑似讹字，候选释为“龙脉气势还未衰弱”属于无依据释义；原文“避球靂”“入簷而湊球”中的“靂”“簷”“湊球”属于风水专业术语，候选未作说明直接沿用，且“奈何性慢以其要插上急其緩性”断句错误，释读语义不通；原文“塟當避殺乘生”断句错误，应为“塟當避殺、乘生”，候选释为“塟应当避开杀乘生”属于语义误读。"
+        ],
+        "uncertainty": [
+          "原文“龍勢未什”疑似讹字，具体含义未明；“球靂”“湊球”等术语具体所指未见于允许术语表，释义为保守释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4590,
+    "completion_tokens": 1089,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4590,
+      "completion_tokens": 1089,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

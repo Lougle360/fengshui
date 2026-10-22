@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T11:10:52.593488+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1682d9e4f410f8bd84221dd88ed5278cbc5b5d4b5ff4371375240c39a1d4f655",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000118-p000-5a24c25339",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“少T”为OCR识别错误，candidate直接译为“少丁”，未标注该OCR错误；“微龙家”表述模糊，未按要求保留原短语并标注具体所指不详；“大”“六秀”未明确风水语境下的具体含义，属于未转换为现代中文的模糊表述"
+        ]
+      },
+      {
+        "id": "book012-b000119-p000-b40213a5bf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000120-p000-30633f9a67",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000121-p000-1f0aaa14dc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“华金”“么星”属于原文未明的模糊术语，candidate未标注具体所指不详；“良”“味可哂之甚也”“青愛文”“天玉汉本”“涇默師”“闈發”等表述未转换为符合现代中文的释读，存在语义模糊问题；“少丁”“救贫”等表述未按要求保留原短语并标注具体所指不详"
+        ]
+      }
+    ],
+    "uncertainty": []
+  },
+  "usage": {
+    "prompt_tokens": 1998,
+    "completion_tokens": 394,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1998,
+      "completion_tokens": 394,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

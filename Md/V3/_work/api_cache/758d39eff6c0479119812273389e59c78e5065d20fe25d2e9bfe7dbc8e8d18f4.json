@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:23:05.260584+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "758d39eff6c0479119812273389e59c78e5065d20fe25d2e9bfe7dbc8e8d18f4",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000736-p000-52585a2d9b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "子、丑、寅、辰、巳、午、未、申、酉、戍、夾；丙、甲、壬、庚、丙、甲、壬、庚、丙、甲、壬、庚；丁、レ、癸、辛、丁、乙、癸、辛、丁、レ、癸、辛；壬、庚、丙、甲、壬、庚、丙、甲、壬、庚、丙、甲；癸、辛、丁、レ、癸、辛、丁、乙、癸、辛、丁、レ；未、午、巳、辰、卯、寅、丑、子、亥、戌、酉、申；巳、午、未、申、酉、戌、夾、子、丑、寅、邱、辰；子、丑、寅、如、辰、巳、午、未、申、酉、戍、夾；申、戌、子、寅、辰、午、申、戌、子、寅、辰、午；酉、亥、丑、卯、巳、未、酉、夾、丑、卯、巳、未；戌、子、寅、辰、午、申、戌、子、寅、辰、午、申；朱雀（穴前方的形势称谓）、武流黑星、金匱、白虎（穴场或建筑右侧的形势称谓）、天拂黑星",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“夾”“邱”“如”“レ”等字符含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000737-p000-3d994ba843",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "元武陰私黑星、司命天明星、天星勾陳王勃黑星",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000738-p000-fe784bb9a2",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "王日、官日；狗守昭、天寡守日爾然；帝舍相日、民日、成徒日、隸日；宅空地寡",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“狗守昭”“天寡守日爾然”“帝舍相日”等表述含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000739-p000-e4f41339e2",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "亥、丑、卯、巳、未、酉、夾、丑、卯、巳、未、酉；手、寅、辰、午、申、戌、子、寅、辰、午、申、戌；丑、卯、巳、未、酉、亥、丑、卯、巳、未、酉、奕；寅、辰、午、申、戌、子、寅、辰、午、申、戌、子；卯、巳、未、酉、夾、丑、卯、巳、未、酉、史、丑；辰、午、申、戌、子、寅、辰、午、申、戌、子、寅；巳、未、酉、夾、丑、卯、巳、未、酉、夾、丑、卯；午、申、戌、子、寅、辰、午、申、戌、子、寅、辰；未、酉、夾、丑、卯、巳、未、酉、夾、丑、卯、巳",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“手”“奕”“史”等字符含义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 950,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1820,
+      "completion_tokens": 950,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

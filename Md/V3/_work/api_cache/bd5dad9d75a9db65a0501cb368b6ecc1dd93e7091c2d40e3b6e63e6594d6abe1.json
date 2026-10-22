@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T19:21:35.044461+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bd5dad9d75a9db65a0501cb368b6ecc1dd93e7091c2d40e3b6e63e6594d6abe1",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002584-p000-5f602e816a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "卷五",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002585-p000-1f1bb957c7",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "译文六三，似乎看见大车被拖曳难行，驾车的牛受牵制不进；又恍如自己身遭削发截鼻的酷刑。起初乖睽，终将欢合。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002586-p000-3df949fdd7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "六三，看见大车被拖曳，驾车的牛被牵制；其人遭受了“天”刑与“劓”刑。起初乖违，最终却能相合。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“天”的含义存在争议，此处按注释提及的髡发之刑处理"
+        ]
+      },
+      {
+        "id": "book016-b002587-p000-eed350d562",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "注释①：见舆曳，其牛掣；其人天且劓：曳，读音为yè，意为拖曳；掣，读音为chè，意为牵制；天，应作“而”（见“说明”），是古代的髡发之刑，即剃去罪人的鬓发；劓，读音为yì，是古代割去鼻子的刑罚。这三句选取了三种喻象，说明六三处于《睽》卦下卦的末尾，虽与上九正应却乖违难合的情状：六三阴柔失位，上下两个阳爻靠近，造成心理威胁，如同二爻在后方拖曳大车、四爻在前方牵制牛；又因上九远处于外卦的尽头，担心他对自己猜疑乃至施加惩罚，所以恍如自己身受“天”“劓”的酷刑。卦辞的主旨在于表明六三居于内卦，乖违至极，处境艰难，由此产生恐惧、疑虑。《本义》中说：“六三、上九本为正应，然而六三居于两个阳爻之间，后方被二爻拖曳，前方被四爻牵制；又处于乖违之时，上九的猜疑狠戾正深，所以又有‘髡’‘劓’的伤害。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1786,
+    "completion_tokens": 685,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1786,
+      "completion_tokens": 685,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

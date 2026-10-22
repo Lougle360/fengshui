@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T09:06:00.937487+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "faeeba0b98752f45c37dd7a557a8b28b68bcbd32551c3c9b60f43971c0cf5fd6",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000137-p000-21acd59589",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中不确定的术语如‘尤’‘尤正’‘苏’‘卷格’‘盖送’‘哭共貞’‘恕按圃’等按确定含义释读，属于无依据扩写；‘点检道’‘面飽何勞相歌’‘斜破碎浪痕高’等内容释读不符合原文语境，存在误译；‘向’的释读虽符合术语定义，但原文未明确提及‘向’的相关论述，属于增译"
+        ],
+        "uncertainty": [
+          "原文中‘尤’‘尤正’‘苏’‘卷格’‘盖送’‘哭共貞’‘恕按圃’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000139-p000-c7e3d6b252",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文文字残缺错乱，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文文字残缺错乱，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1591,
+    "completion_tokens": 263,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1591,
+      "completion_tokens": 263,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

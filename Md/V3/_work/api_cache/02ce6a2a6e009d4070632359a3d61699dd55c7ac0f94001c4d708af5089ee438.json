@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T18:53:11.047673+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "02ce6a2a6e009d4070632359a3d61699dd55c7ac0f94001c4d708af5089ee438",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002167-p000-3420248340",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未明确说明《尚氏学》中“三、四亦阳”的具体所指，属于含混表述"
+        ]
+      },
+      {
+        "id": "book016-b002168-p000-77191f9a0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002170-p000-9e7b26a49e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“似有男女交感、当以‘礼’为防之意”属于推测性解读，未明确为确定含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1669,
+    "completion_tokens": 205,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1669,
+      "completion_tokens": 205,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

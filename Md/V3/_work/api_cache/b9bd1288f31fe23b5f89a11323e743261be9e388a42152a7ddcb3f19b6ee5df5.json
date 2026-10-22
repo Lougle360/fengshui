@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-17T16:28:22.365957+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b9bd1288f31fe23b5f89a11323e743261be9e388a42152a7ddcb3f19b6ee5df5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004071-p000-ebaf13d77b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'天關地軸三十九此鬼雙全令極少左右分'，candidate释为'天關地軸星第三十九：此星若左右兩側鬼星兼備，極為罕見'，将'令極少'误译为'極為罕見'，'令'字漏译，导致语义偏差。原文'主后生出分飛走富貴兩般盡如意'，candidate释为'主後代生出分飛走之勢，富貴兩全，事事如意'，将'兩般'误译为'兩全'，'兩般'指两种，'兩全'指两者都保全，含义不同。原文'卿監壹郎承眷厚'，candidate释为'若為卿監或壹郎，則承蒙眷顧深厚'，将'壹郎'误译为'壹郎'，应为'一郎'，且'卿監'与'一郎'是并列关系，candidate处理为选择关系，不准确。原文'獨水天眷也引亦是木出文星'，candidate释为'獨得水之眷顧。若引水亦屬木，則又出文星'，将'引亦是木'误译为'引水亦屬木'，'引'字可能指'引證'或'引申'，candidate解释为'引水'，无依据。原文'日軍金發揮5'，candidate释为'朝郎日軍金發揮'，'日軍'应为'日'字与'發揮'相连，即'發揮曰'，candidate误将'日軍'连读，导致语义不通。原文'右天蓋鬼星高第文名八座陸續發揮曰此眠地'，candidate释为'右側天蓋鬼星，高第文名，八座陸續。發揮曰：此眠地'，将'陸續'误译为'陸續'，但原文'陸續'后接'發揮曰'，candidate断句不当，导致'陸續'含义不明。原文'故主文章顧名高第登科'，candidate释为'故主文章顧名高第登科'，'顧名'可能为'顧名'或'顧名'，candidate直接保留，未做解释，读者难以理解。"
+        ],
+        "uncertainty": [
+          "原文'日軍金發揮5'中'5'可能为OCR错误，具体含义不详。原文'顧名'具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004072-p000-67531853c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004075-p000-e706ba87f6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2300,
+    "completion_tokens": 652,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2300,
+      "completion_tokens": 652,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

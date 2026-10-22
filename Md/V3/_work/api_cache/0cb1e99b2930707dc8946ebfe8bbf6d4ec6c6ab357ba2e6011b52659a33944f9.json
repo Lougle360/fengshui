@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T15:51:26.757614+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0cb1e99b2930707dc8946ebfe8bbf6d4ec6c6ab357ba2e6011b52659a33944f9",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001324-p000-bdea4f9192",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001325-p000-e6c53f6607",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "未标注原文中「世経」的不确定性，将推测的逆算对象当作确定事实表述"
+        ],
+        "uncertainty": [
+          "原文中「世経」具体所指未明"
+        ]
+      },
+      {
+        "id": "book015-b001326-p000-d97e5ee19e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b001327-p000-6d95f48dbc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2165,
+    "completion_tokens": 238,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2165,
+      "completion_tokens": 238,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

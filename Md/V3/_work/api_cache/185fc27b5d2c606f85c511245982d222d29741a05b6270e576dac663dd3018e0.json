@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-18T00:34:16.870987+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "185fc27b5d2c606f85c511245982d222d29741a05b6270e576dac663dd3018e0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005080-p000-814a382054",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 此处为文档第 105 页的页眉说明：本区域为高风险或复杂版面的 OCR 检索区，具体内容与排版以原书图片为准。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005083-p000-376d9de5a1",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十五：砂格第四",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 241,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1203,
+      "completion_tokens": 241,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

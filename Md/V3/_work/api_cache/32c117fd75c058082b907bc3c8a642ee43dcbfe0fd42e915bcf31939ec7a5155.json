@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-04T01:05:49.522490+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "32c117fd75c058082b907bc3c8a642ee43dcbfe0fd42e915bcf31939ec7a5155",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000261-p000-68b730d85e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘災失其眞’释读为‘如果失去了真正的穴’属于推测性扩写，原文‘災失其眞’含义不明，应保留其不确定性。",
+          "将‘一指矚差’释读为‘仅凭一眼的注视，稍有差池’是合理的浅显释义，但‘漣合喪’的标注方式正确，整体可接受。",
+          "‘阳龙就会低一尺从而伤及穴’的表述可能造成误解，原文‘高一尺則陽龍低一尺則傷穴’结构对仗，意指‘（点穴）高一尺，则（对应的）阳龙（位置）就低一尺，从而伤穴’。候选句的因果链条表述不够清晰。"
+        ],
+        "uncertainty": [
+          "‘災失其眞’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000267-p000-1f088f8cab",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘尊指無名之尺有雲泥之昇之法或者正受或之中受在之尺而其乘之國之之加老泥之 遠’语义极度混乱，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 288,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 942,
+      "completion_tokens": 288,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

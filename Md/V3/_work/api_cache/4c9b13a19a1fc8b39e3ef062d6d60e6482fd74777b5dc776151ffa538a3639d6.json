@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:31:51.228439+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4c9b13a19a1fc8b39e3ef062d6d60e6482fd74777b5dc776151ffa538a3639d6",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000100-p000-5f035d89b4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“皆公蛇中松清豬為李東於言”“目金名天寶經為一龍”等句義模糊，未作過度解讀"
+        ]
+      },
+      {
+        "id": "book013-b000101-p000-1233bc3600",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000102-p000-c1e552f6b3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“第二斤水”疑為“第二折水”之訛，依上下文改為“第二折水”；“此位眞”“真”為異體字，統一為“真”"
+        ]
+      },
+      {
+        "id": "book013-b000103-p000-b71e7c6640",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1954,
+    "completion_tokens": 285,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1954,
+      "completion_tokens": 285,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

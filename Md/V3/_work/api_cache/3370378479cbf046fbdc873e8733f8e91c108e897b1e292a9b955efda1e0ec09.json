@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-25T16:18:56.876646+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3370378479cbf046fbdc873e8733f8e91c108e897b1e292a9b955efda1e0ec09",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000398-p000-8c421c3c7f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "停句",
+          "经护"
+        ]
+      },
+      {
+        "id": "book029-b000399-p000-a3835352b6",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文语义断裂、含义不明，候选未做符合现代汉语规范的白话释读，也未标注不确定性"
+        ],
+        "uncertainty": [
+          "原文表述残断，“把理秦贊玄被金書”语义不可考"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 876,
+    "completion_tokens": 149,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 876,
+      "completion_tokens": 149,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

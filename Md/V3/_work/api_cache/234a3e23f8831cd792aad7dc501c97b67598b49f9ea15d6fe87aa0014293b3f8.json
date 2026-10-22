@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T09:38:55.725010+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "234a3e23f8831cd792aad7dc501c97b67598b49f9ea15d6fe87aa0014293b3f8",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000347-p000-daf19c6231",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“稿福”二字无法确认，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000348-p000-7d4fcce9fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无法确认的“一水去二水去泉水奔流一脊去山：隨水不 四頭失井”等内容直接释读为确定表述，属于无依据扩写；“离”在此处并非明确的八卦指代，原文未明确对应八卦，不应直接标注为八卦之一"
+        ],
+        "uncertainty": [
+          "原文部分字符无法确认，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000349-p000-627f8be299",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“春”字无法确认，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1348,
+    "completion_tokens": 251,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1348,
+      "completion_tokens": 251,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

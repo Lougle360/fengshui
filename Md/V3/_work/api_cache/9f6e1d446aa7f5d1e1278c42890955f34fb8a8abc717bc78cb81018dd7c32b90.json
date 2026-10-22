@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-17T20:54:43.102294+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "9f6e1d446aa7f5d1e1278c42890955f34fb8a8abc717bc78cb81018dd7c32b90",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004607-p000-e1f789f69f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "标题层级或格式不完整：源文为表格结构，包含‘增圖天機會元總目’作为总标题，candidate 仅将其作为普通行处理，未体现其作为总目的独立性和层级关系。",
+          "存在漏译：源文‘撼龍經舊兼補楊教貧’中的‘兼補’二字在 candidate 中缺失，仅作‘撼龍經舊楊教貧評’，改变了原文信息。",
+          "存在错译：源文‘非仟術示易至此’在 candidate 中未作任何处理或说明，直接照搬了疑似OCR错误的‘仟術示易’，应指出原文可能有误或含义不明。",
+          "存在错译：源文‘布帛粟不可以淺淡葉’在 candidate 中未作任何处理或说明，直接照搬了疑似不通的‘布帛粟不可以淺淡葉’，应指出原文可能有误或含义不明。",
+          "存在格式问题：candidate 将源文表格中的分行内容用逗号连接，虽提高了可读性，但作为目录（kind=toc），应更严格保持原文的逐行对应和点线、页码（此处源文无页码）的呈现方式。当前处理方式可能导致信息层级模糊。"
+        ],
+        "uncertainty": [
+          "‘非仟術示易至此’含义不明，可能为‘非仙術不易至此’或‘非術士易至此’之误。",
+          "‘布帛粟不可以淺淡葉’含义不明，可能为‘布帛菽粟，不可以淺淡視’之误。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1411,
+    "completion_tokens": 381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1411,
+      "completion_tokens": 381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

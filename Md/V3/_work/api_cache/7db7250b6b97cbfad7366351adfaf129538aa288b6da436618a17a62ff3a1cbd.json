@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-15T06:59:28.900530+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "7db7250b6b97cbfad7366351adfaf129538aa288b6da436618a17a62ff3a1cbd",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002064-p000-0a1d0698b2",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "此表为古代历法中二十八宿各宿度数的对照表，列出了不同历法体系下的度数记录。表头显示历法名称包括“统天”“开禧”“会天”“授时大统”等。表格主体列出各宿名称（如角、奎、娄、胃、虚、危、室、壁等）及其在不同历法中的度数数值（如“十二度太”“九度太”“十六度少”等）。由于原始文本存在大量 OCR 识别错误（如乱码、符号错乱、数字残缺），部分具体数值无法准确还原，仅能确认表中记录了各宿在不同历法中的度数差异。",
+        "confidence": "low",
+        "uncertainty": [
+          "原始表格存在严重 OCR 识别错误，大量数字、符号和文字无法准确识别",
+          "部分历法名称和度数数值因乱码无法确认具体含义",
+          "表格结构因乱码导致行列对应关系模糊，无法完全还原原始数据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2377,
+    "completion_tokens": 308,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2377,
+      "completion_tokens": 308,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

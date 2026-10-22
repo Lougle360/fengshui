@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-25T21:23:27.511278+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "759ac78a08293713d42b5666a95198d197e517eac56b4888fc76d635a37a3708",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000979-p000-4d1820fee4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“平步上金蠱卷四”中“平步上金蠱”不属于古籍定名，candidate直接将其标注为书名《平步上金蛊》属于无依据增译；原文“乖”的含义释读为“形态偏异”无明确依据，属于无依据释义；原文“獅子乖”并非“狮子形态偏异”，candidate断句错误导致语义偏差"
+        ],
+        "uncertainty": [
+          "“恐穴国十五”具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b000986-p000-4838eeb1b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“原無所”语义不完整，candidate补译为“原本没有可取之处”属于无依据增译；原文末尾“囊”字未作释读，存在漏译"
+        ],
+        "uncertainty": [
+          "原文“原無所”语义残缺，“囊”字在此处具体含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 877,
+    "completion_tokens": 282,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 877,
+      "completion_tokens": 282,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:55:22.500283+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a99e7abac3ab11d4063e562a26822a085657d16aa0dcb855f96a08e8f19a662c",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001360-p001-8b60800c63",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "候选释读存在多处对OCR识别错误的文字进行强行解读的情况，如将‘V孩絲部’释为‘谶纬部’、‘毓官頡’释为‘职官类’、‘杂将丸中附’释为‘杂传’等，且存在将原文中无意义符号（如‘÷’‘#’‘は’‘N’）强行赋予含义的问题，同时未处理原文中‘日本朝故事’‘本朝杂传’等表述的模糊性，也未明确标注OCR错误导致的内容缺失问题。"
+        ],
+        "uncertainty": [
+          "表格中部分文字存在OCR识别错误，如‘树8论语’‘日钟研’‘烟解’‘7语’‘7孝埋’‘10÷学’‘V孩絲部’‘日號緯’‘日國峰’‘日城緯領’‘識肆類’‘議緯’‘毓官頡’‘偉記’‘杂将丸中附’‘杂俾紀類’‘机势年’‘日2转’‘日本’‘BE 山刑法類’‘《故事類’‘《霸史’‘“偽史”‘イ玉子’‘は’‘顺’‘生’‘本’‘考工’‘载 板’‘N’等，具体含义无法确定；表格最后一行仅存数字‘122’，其余内容缺失。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4567,
+    "completion_tokens": 368,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4567,
+      "completion_tokens": 368,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

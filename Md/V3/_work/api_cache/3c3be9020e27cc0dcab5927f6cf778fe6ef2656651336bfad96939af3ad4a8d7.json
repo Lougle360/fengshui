@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T20:27:20.862717+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3c3be9020e27cc0dcab5927f6cf778fe6ef2656651336bfad96939af3ad4a8d7",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003415-p000-b9fb1604ac",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《象》的释读内容错误附会为‘震（八卦之一）发作时人恐惧得两脚瑟缩’，原文‘震索索’是指震卦爻象对应的状态，并非‘震发作’；‘畏邻戒也’的‘邻’未明确对应‘邻居’，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "‘震索索’的具体所指及‘畏邻戒也’的‘邻’的含义原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 820,
+    "completion_tokens": 148,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 820,
+      "completion_tokens": 148,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

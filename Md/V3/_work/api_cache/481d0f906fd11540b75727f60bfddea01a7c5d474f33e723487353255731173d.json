@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-26T04:39:55.258202+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "481d0f906fd11540b75727f60bfddea01a7c5d474f33e723487353255731173d",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000231-p000-1ad952b4c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代中文，直接保留了文言表述，不符合白话释读要求。原文为“經逆一”，候选直接写“逆一經。”，未做任何白话转换，仅调整了语序，普通读者无法理解其含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000232-p000-6d6050d02f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为现代中文，大量直接保留原文文言及错乱字符，未做白话释读，普通读者无法读懂。同时对原文OCR错乱内容仅做了简单断句，未按照要求做保守释读或标注无法释读的部分，存在自行断句改变原文语义的风险。"
+        ],
+        "uncertainty": [
+          "原文存在大量OCR错乱、缺字，多数语句无法准确释读"
+        ]
+      },
+      {
+        "id": "book032-b000233-p000-0b19970e18",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文语序错乱、脱漏较多，部分语句语义无法完全确定，仅能根据可识别内容做大致释读"
+        ]
+      },
+      {
+        "id": "book032-b000234-p000-4f9b30dc58",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000235-p000-129e656e71",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“生人煞方斟疾病煞入生方彭死生死上煞來動財產煞臨退位損滋牲”被误译为“如果煞方处在生人的方位，要谨慎判断：疾病方面的煞星进入生方，遇到彭死、生死位上的煞星发动，就会损耗财产”，存在漏译“損滋牲”（损失牲畜）的语义，且语序调整后将财产损失的原因错误对应到彭死、生死位煞星发动，原文财产损失对应“煞來動”，牲畜损失对应“煞臨退位”，语义对应错误。"
+        ],
+        "uncertainty": [
+          "原文部分语句存在脱漏，部分民俗相关的煞位术语没有通用解释，仅根据字面逻辑梳理"
+        ]
+      },
+      {
+        "id": "book032-b000236-p000-49def5e39a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分生克对应的断语存在语序混乱，已按照常规风水断语逻辑梳理"
+        ]
+      },
+      {
+        "id": "book032-b000237-p000-45e95d80fe",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“刘”“佛”“割乡”“父世”“晨”“禹合混”“却絲”等属于错讹或术语，无通用释义，已按上下文逻辑做通顺处理"
+        ]
+      },
+      {
+        "id": "book032-b000238-p000-a3d286b350",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“族星”“擲得劉”属于错讹或术语，无通用释义，已按上下文逻辑梳理"
+        ]
+      },
+      {
+        "id": "book032-b000240-p000-19caa92be4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“步冠”“貞化”“集制卑”“雪然”“王行”“割之多”“异芳”属于错讹或术语，无通用释义，已按上下文逻辑做通顺处理"
+        ]
+      },
+      {
+        "id": "book032-b000241-p000-16e2db1146",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在脱漏和错讹，“衰林书卜民”语义不明，仅能根据可识别内容做大致释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4235,
+    "completion_tokens": 976,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4235,
+      "completion_tokens": 976,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

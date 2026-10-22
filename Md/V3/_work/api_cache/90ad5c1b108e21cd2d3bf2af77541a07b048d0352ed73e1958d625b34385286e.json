@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T19:06:06.883732+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "90ad5c1b108e21cd2d3bf2af77541a07b048d0352ed73e1958d625b34385286e",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002416-p000-57b711a841",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002417-p000-491b167c27",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002418-p000-c6e2be1e6a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘诸事得失责之于人’释为‘诸事得失都归责于他人’，与原文‘诸事得失（的责任）交付于人’的含义有偏差，属于误释；‘离明’作为八卦相关术语，未按allowed_glossary标注为‘八卦之一’，直接释为‘禀受“离明”之德’，未明确其术语属性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002419-p000-ddfd362eb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1673,
+    "completion_tokens": 278,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1673,
+      "completion_tokens": 278,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

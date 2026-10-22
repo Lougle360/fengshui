@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T09:10:02.112048+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e1a45249cd6e130c707d7148abc7b1f4ad7019d6ff503a513816e675fadea40f",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000490-p000-2989756d6c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘或从亥上经过，亦是余可类推’被误释为‘有时从亥位经过，也符合这类情况，其余情形可依此类推’，语义拆分错误，正确逻辑应为：或者从亥位经过，也是（符合吉利要求的情况），其余可以类推。"
+        ],
+        "uncertainty": [
+          "原文末尾缺损内容“生仁て曰”含义无法确定"
+        ]
+      },
+      {
+        "id": "book023-b000493-p000-9a610ec32b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000495-p000-5de88e9b1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘葬直六凶’的‘直’通‘值’，意为安葬触犯六种凶格，候选释为‘葬事遭遇六种情况即为凶兆’表述不准确，未明确是六种特定的凶的情形，且漏译‘触犯/符合’的语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000497-p000-8c1062baf3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“前见”的具体含义无法确定，存在两种解读可能"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1817,
+    "completion_tokens": 350,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1817,
+      "completion_tokens": 350,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

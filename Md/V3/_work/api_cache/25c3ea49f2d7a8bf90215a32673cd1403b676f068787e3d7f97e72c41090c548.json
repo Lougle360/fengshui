@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-17T16:46:31.212007+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "25c3ea49f2d7a8bf90215a32673cd1403b676f068787e3d7f97e72c41090c548",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004105-p000-5992bd5551",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'主左金右木則金为斷木之金木为成器之木也'，candidate释为'此星主左方为金、右方为木，金代表断绝，木代表成器'，将'斷木之金'和'成器之木'这两个特定术语简化为'断绝'和'成器'，属于专业术语误换或漏译。",
+          "source中'右诰轴鬼得重臣勋家子孙承荫满门朱紫姬妾衣锦也兩头火是也所以且方土生重为勛家重臣'，candidate释为'诰轴鬼星得重臣之勋，家子孙承荫，满门朱紫，姬妾衣锦。两头是火，土生火，故为勋家重臣'，将'且方土生重'简化为'土生火'，并改变了原文结构，属于漏译和误译。",
+          "source中'七七鬼星名圆璧圓净端然平面石丝线短小近相连'，candidate释为'七七鬼星名为圆璧，圆净端然，平面石丝线短小近相连'，将'平面石丝线'作为一个整体短语保留，但未明确其具体所指，属于含混短语未标注不确定性。",
+          "source中'位至三公鎮家国科名定主在科甲文章声价称名德'，candidate释为'位至三公，镇家国，科名定主在科甲文章，声价称名德'，将'称名德'释为'称名德'，含义不清，未做任何解释或标注，属于漏译或误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004106-p000-338e9b33a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中'解向樽前拔琵琶'句意晦涩，具体所指不详，candidate已按字面转述并标注不确定性。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1800,
+    "completion_tokens": 484,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1800,
+      "completion_tokens": 484,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

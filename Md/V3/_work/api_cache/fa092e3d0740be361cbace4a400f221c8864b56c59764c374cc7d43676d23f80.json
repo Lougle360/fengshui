@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-17T09:43:09.721080+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "fa092e3d0740be361cbace4a400f221c8864b56c59764c374cc7d43676d23f80",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003220-p000-62fc435a71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003221-p000-473099bbf0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“扦作巳丙向”意为“扦穴作巳丙向”，candidate译为“坐山为亥山，朝向为巳丙向”，虽补出“坐山为亥山”但未改变原意，可接受。但“曾获得理宗皇帝的赏识”是对“得理宗圣眷”的过度解释，原文“得理宗圣眷”指获得理宗皇帝的恩宠或眷顾，candidate将其具体化为“赏识”，虽属合理引申，但为求准确，建议调整为“获得理宗皇帝的恩宠”或“得到理宗皇帝的眷顾”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003223-p000-7dab7a6ce5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“元辰乾流直去數步”意为“元辰水从乾方直流而去，仅数步远”。candidate译为“元辰之水從乾方流去，僅數步之遙”，准确。但“若在此處築土培臂以掩護，世俗眼光看來雖似折斷”是对“築土培臂以掩俗觀若折放”的误译。原文“掩俗觀若折放”意为“掩盖世俗的观瞻，如同折放（水流）”，candidate将“折放”理解为“折断”，并添加了“虽似折断”的推测，偏离原意。建议调整为“修筑土堆以培护臂膀（指地形），以掩盖世俗的观瞻；若能（将水）折放成九曲转旋的吉位，则更佳”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003224-p000-1e70542942",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003226-p000-7d84d5a7b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003227-p000-d78ce16b4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003228-p000-c47fe33fbc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文“種艮脈貫棺左耳向丁”中“種”字可能为“種”或“塚”的异写或误写，在风水语境中常指“穴位”或“葬”，candidate译为“種艮脈貫棺”保留了“種”字，但未做解释，导致语义不明。建议标注不确定性或根据上下文推测为“穴位（或葬）在艮脉，脉气贯棺”。",
+          "2. “去訣葬其遠然諸葬或向丙或向丁在乳頭蓋授癸”一句，candidate译为“去訣葬其遠。然諸葬或向丙或向丁，在乳頭蓋授癸。”保留了原文的模糊性，但“去訣葬其遠”的断句和含义不清，可能指“离开真诀而葬在远处”或“葬得离真穴太远”。candidate的译法未做明确解释，符合保留模糊性的要求，但整体句意仍显晦涩。建议在uncertainty中说明此句含义需结合上下文推测。",
+          "3. “叩其所主曰出相眞穴在某處”一句，candidate断句为“叩問其所主。梁堯說：「出相真穴在某處。」”将“出相”理解为“出相真穴”，但“出相”可能是一个专有名词或描述性短语，含义不明。candidate将其直接纳入引语，未做额外解释，可以接受，但应在uncertainty中说明“出相”具体所指不详。"
+        ],
+        "uncertainty": [
+          "“種艮脈貫棺”中“種”字的具体含义不明，可能指穴位或葬法。",
+          "“去訣葬其遠”一句断句与含义模糊，需结合上下文理解。",
+          "“出相”一词具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003229-p000-641138dbf6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003230-p000-8fa67b8661",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003231-p000-e3925a8a9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2822,
+    "completion_tokens": 1072,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2822,
+      "completion_tokens": 1072,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T11:52:07.366099+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d6a5a25bdecd95a0f10e00849624f8acd50f2c93ba9f6cb3f5835badc8c426ce",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000215-p000-5cf3c7b63a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“曹孙省祖”“天钱社”“因果遇士”“播寡相”“论秀气秀洁太过不兴旺”等表述含义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000216-p000-9806c192de",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“猥藏”“猥藏用神到”“滋去”“槃”“浪行”“人类陪作我”“钮孙”“精金贞美岁光莹”“硕辅”“谦中互”“吹坎中”“中女同父母”“分龙大关简”“士制”“脉木烂之水止”“径生木”“形六”“不为郑”等表述存在明显的OCR识别错误，候选释读未修正错误，导致语义不通"
+        ],
+        "uncertainty": [
+          "原文中“猥藏”“猥藏用神到”“滋去”“槃”“浪行”“人类陪作我”“钮孙”“精金贞美岁光莹”“硕辅”“谦中互”“吹坎中”“中女同父母”“分龙大关简”“士制”“脉木烂之水止”“径生木”“形六”“不为郑”等表述因OCR错误导致含义不明"
+        ]
+      },
+      {
+        "id": "book014-b000218-p000-be283511a5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“火生工旺”“厠乾矢撅”“开帐慢再起”“张惟老山”“周道如何备拔涉”等表述存在OCR识别错误，候选释读未修正错误，导致语义不通"
+        ],
+        "uncertainty": [
+          "原文中“火生工旺”“厠乾矢撅”“开帐慢再起”“张惟老山”“周道如何备拔涉”等表述因OCR错误导致含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3109,
+    "completion_tokens": 504,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3109,
+      "completion_tokens": 504,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

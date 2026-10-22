@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-10-15T06:23:15.417251+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6f57703f7a13bcb02cce16b1142aceccab5e178d81d63469de1a8d22fc78c13e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001316-p000-d66166cea4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001317-p000-787a1df41b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001318-p000-2fc47e1d2d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘巨斗’，candidate译为‘巨门星’，存在术语替换。‘斗’可能指北斗或特定星宿，不宜直接替换为‘巨门’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001319-p000-90cdbcdca5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘坎文’，candidate译为‘坎卦对应文曲星’，存在增译。原文‘文’可能指文曲星，但candidate将其作为确定事实写出，未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001320-p000-be54cc9e99",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘兑丁巳丙’，candidate译为‘兑卦对应丁、巳、丙’，存在漏译。原文‘巳丙’可能指巳和丙，但candidate将‘巳丙’作为一个整体‘巳、丙’处理，未明确‘丙’是否重复或为‘丑’之误，也未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001321-p000-577c560ee0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文为‘贪发小巨发中武’，candidate译为‘贪狼星主小发，巨门星主中发，武曲星主大发’，存在增译。candidate补出了‘武曲星主大发’，但原文‘武’后文意可能不完整，此补全缺乏依据，应标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001322-p000-49cde6abea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文‘發長輔三房均平發以來脈爲主’中，‘發長輔三房’应释读为‘发长房、辅房、三房’，candidate误译为‘长房、辅星房、三房’，将‘辅’字增译为‘辅星房’，无依据。",
+          "源文‘綠五尺丈六尺’应释读为‘四尺绿，五尺文，六尺廉’，candidate误译为‘四尺对应绿（此处具体所指不详），五尺对应丈，六尺对应廉贞’，将‘文’误作‘丈’，且‘绿’虽标注不详，但‘文’未标注，整体序列错误。",
+          "源文‘九輔一丈又弼之類’应释读为‘九尺辅，一丈弼，之后循环如弼星之类’，candidate误译为‘九尺对应辅星，一丈对应弼星，之后循环如弼星之类’，将‘九輔’误译为‘九尺对应辅星’，但源文‘九輔’后接‘一丈又弼’，意指九尺为‘辅’星，一丈为‘弼’星，candidate顺序与星名对应有误。",
+          "源文‘當隨圓暈狹闊鉢可不及不可太過’中，‘鉢’字含义不明，candidate标注‘具体所指不详’正确，但将整句释读为‘应当随圆晕的狭阔程度调整，钵（此处具体所指不详）可不及，但不可太过’，将‘鉢’作为主语处理，可能误译了句子结构，源文可能意指‘尺寸宁可不足，不可超过’。",
+          "candidate中‘例如乾卦、甲山来脉’的表述，将‘乾甲山’拆分为‘乾卦、甲山’，但源文‘乾甲山’可能是一个固定术语或并列关系，拆分可能不准确。"
+        ],
+        "uncertainty": [
+          "源文‘綠’字在风水术语中无明确对应，具体所指不详。",
+          "源文‘鉢’字在风水语境中含义不明，具体所指不详。",
+          "源文‘乾甲山’的确切指代（是乾山与甲山，还是乾甲兼向等）存在歧义。"
+        ]
+      },
+      {
+        "id": "book035-b001323-p000-c04e8484b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001325-p000-4e2a523261",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001326-p000-4283865313",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘丈二巨斗’，candidate译为‘一丈二尺对应巨门星’，存在术语替换。同前，‘巨斗’不宜直接替换为‘巨门’。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 882,
+    "completion_tokens": 525,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2444,
+      "completion_tokens": 717,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 882,
+      "completion_tokens": 525,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

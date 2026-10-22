@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T21:19:50.618768+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f9d1f2c08a8eeb1c7931a0c55203783488879426aa6dece2a4a3ca88cf53191f",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001657-p000-4e880462fa",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001658-p000-7b0b00b255",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "书名断句错误，原文“地理叢珠、瀛海經、天機會元”是三部独立古籍，候选误合并为《地理叢珠》《瀛海經天機會元》两部；“羅經式徑一圍三”中“徑一圍三”是罗经样式的内容，候选误将“羅經式徑”作为书名；“現時的周尺為八寸”表述错误，原文是说周尺相当于当时的八寸，并非周尺本身长度为八寸"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001659-p000-73d4e6e889",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001660-p000-3b2f221c99",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“净水”的“水”属于普通清洁用水，并非allowed_glossary中风水语境的河流、水系含义，候选错误加注术语解释；原文“下水放針”是指向天池中加水后放置罗针，候选误断为“然後放下水，放置羅針”，语义拆分错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001661-p000-bf5d8377ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“步水”的“水”符合allowed_glossary定义，但候选将注释错误附着在“量山步水”整个短语后，且未明确“步水”是踏勘水系的动作，表述易混淆"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001662-p000-5e0afecbf5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“禹曰”是大禹所说，候选误写为“我說”；原文“十二支辰”候选误写为“十二夫辰”；原文末尾“理恭贊玄機全書”前的“也”属于正文内容，候选将“也”与书名连写，断句错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001663-p000-fa26bcf18a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“斷代何代吉”存在语序颠倒，候选调整为“斷何代吉”虽语义通顺但未标注；原文“七異三辰”“異”“辰”此处为双行龙的成分占比，候选未明确标注该表述属于风水专有占法内容，易产生歧义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001664-p000-a554479e4e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“百二十罷”语义不明，候选直接保留未标注“具体所指不详”；原文“不潯坐穴”的“潯”为讹字，候选未标注存疑；原文“龍神”是固定术语，候选误断为“坐穴不可尅龍，神順尅則吉”，拆分错误"
+        ],
+        "uncertainty": [
+          "“百二十罷”“潯”具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001665-p000-44741cc6c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“遁淳三”语义不明，候选直接保留未标注“具体所指不详”；原文“應興不應”表述含混，候选未明确说明是判断山水是否应验兴发的标准，易产生歧义"
+        ],
+        "uncertainty": [
+          "“遁淳三”具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001666-p000-c6e8cc9c7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3756,
+    "completion_tokens": 1090,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3756,
+      "completion_tokens": 1090,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

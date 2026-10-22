@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-26T03:36:42.809781+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8da7d56e812a6c43cad3a908c0d94f51c7f2cf834ca8fd887be67c4b855f2c15",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001989-p000-de7968a947",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“淺深得乗風水自成”的语义是浅深合宜能够乘纳生气，风水自然形成；候选将“乘风水”拆分断读为“就能乘風，水自然形成”，属于断句错误，违背原义",
+          "locked_terms“水”的释义应按allowed_glossary标注，无需在“乘風”后单独拆分解释“水”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001990-p000-3e13869eeb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001991-p000-d3504bda86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“則水隨”承接上文“氣行”，语义是水随气运行，候选释为“水就会随之产生”属于语义理解错误，与前文“有氣斯有水”的逻辑重复且不符合原文承接关系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001992-p000-baa16c3c67",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001993-p000-a4d137e6b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001994-p000-adb1157fdd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“丘壠之骨，岡阜之支，氣之所隨”是并列结构，指丘垅的骨脉、冈阜的支脉，都是气随附运行的载体；候选释为“丘壠的骨氣，是岡阜的支脈”属于逻辑关系错误，强加从属关系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001995-p000-5932d392a3",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“砼曰”疑為“土曰”之訛，暫按保守表達處理"
+        ]
+      },
+      {
+        "id": "book029-b001996-p000-eba5a2e6af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001997-p000-cb3b5b9216",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001999-p000-cfcab6a737",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“晉”疑為“顯”之訛，暫按保守表達處理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2118,
+    "completion_tokens": 754,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2118,
+      "completion_tokens": 754,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

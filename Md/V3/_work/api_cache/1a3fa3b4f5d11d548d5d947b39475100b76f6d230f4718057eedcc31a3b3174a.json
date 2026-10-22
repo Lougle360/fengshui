@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T18:38:34.617885+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1a3fa3b4f5d11d548d5d947b39475100b76f6d230f4718057eedcc31a3b3174a",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002070-p000-b09e15ce2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002071-p000-96c6d36351",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本未完成古文的白话释读，直接保留了原文标题，未按要求转换为现代中文释读内容"
+        ],
+        "uncertainty": [
+          "候选文本重复收录完整原文，不符合要求"
+        ]
+      },
+      {
+        "id": "book016-b002073-p000-c6c471c997",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2024,
+    "completion_tokens": 185,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2024,
+      "completion_tokens": 185,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

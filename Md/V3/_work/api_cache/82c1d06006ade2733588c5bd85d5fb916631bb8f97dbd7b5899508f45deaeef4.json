@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-17T11:18:02.843292+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "82c1d06006ade2733588c5bd85d5fb916631bb8f97dbd7b5899508f45deaeef4",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003439-p000-dd17a739fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘亥無鱗甲用心安安得眞辛’整体标注为含义不详，但原文‘堂上吉’、‘腰上眞辛’、‘追止處兩頭方見亥龍端’是明确的风水方位描述，candidate仅标注‘具体所指不详’而未进行基本释读，不符合‘普通读者能读懂的白话释读’目标。应将‘堂上吉’、‘腰上眞辛’、‘追止處’、‘亥龍端’等短语按字面意思进行通俗解释，并说明其具体所指不详。",
+          "candidate对‘堂上吉’的释读‘意指堂上吉利’是合理的，但未对‘腰上眞辛’、‘追止處’、‘亥龍端’进行类似的基本字面释读，导致信息缺失。"
+        ],
+        "uncertainty": [
+          "亥無鱗甲用心安安得眞辛"
+        ]
+      },
+      {
+        "id": "book035-b003441-p000-0ba9a2843b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘巳向巳消丁丙水’整体标注为含义不详，但‘巳向’、‘丁丙水’是明确的方位和水流术语，应进行基本释读并说明‘巳消’的具体所指不详。",
+          "candidate将‘子孫相賽看朝水’中的‘相賽’标注为含义不详，但未对‘子孫相賽’进行基本字面释读（如‘子孙相互竞赛/比较’），也未对‘看朝水’进行释读。",
+          "candidate对‘擬看金挂名時’的标注合理，但未对‘辛向無乾砂水秀’进行基本释读（如‘辛向如果没有乾方的砂水秀美’）。"
+        ],
+        "uncertainty": [
+          "巳消",
+          "子孫相賽",
+          "擬看金挂名時"
+        ]
+      },
+      {
+        "id": "book035-b003443-p000-36d257b0f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘睢陽水相親’标注为含义不详，但未对‘從城子癸地而來’进行基本释读（如‘从子、癸方位而来’）。",
+          "candidate将‘子或龍到頭’断句错误并标注为含义不详。原文应为‘或龍到頭回抱轉酉庚酉砂水向先貴后富’，‘或’是‘或者’的意思，指另一种情况。candidate误将‘子’字连上，导致语义混乱。",
+          "candidate对‘烏府名高之謂也’的标注合理，但未对‘正合金居兑位’进行基本释读（如‘正合金的属性，居于兑位’）。"
+        ],
+        "uncertainty": [
+          "睢陽水相親",
+          "烏府名高之謂也"
+        ]
+      },
+      {
+        "id": "book035-b003446-p000-08f919d87b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘穴每要裁東觀西就’整体标注为含义不详，但‘裁’、‘東觀西就’是风水点穴术语，应进行基本字面释读（如‘点穴常常要裁度、观察东西方位’）并说明具体操作不详。",
+          "candidate将‘頂脫唇正面者’标注为含义不详，但未进行基本字面释读（如‘顶部脱离、唇部正面的情况’）。",
+          "candidate将‘斬壬’、‘變右耳乾坐亥’标注为含义不详，但未对‘上亥下壬’、‘上壬下亥’、‘壬亥幷行’、‘乾亥并行’等方位组合关系进行基本释读。"
+        ],
+        "uncertainty": [
+          "穴每要裁東觀西就的具体操作",
+          "頂脫唇正面者的具体形态",
+          "斬壬的具体含义",
+          "變右耳乾坐亥的具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2093,
+    "completion_tokens": 881,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2093,
+      "completion_tokens": 881,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-18T07:08:28.500254+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "35b231760989b94d58d72cb4f70199d317ecc0a59161fc268e0672e596b06e2e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005807-p000-822f157aff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'立夏侯丑自斗七至十九艮自尾十七至斗六'中'夏侯'可能指'夏至'节气或特定名称，candidate译为'立向规则为：丑向...'，将'夏侯'省略或误译，导致信息缺失。",
+          "原文'艮自尾十七至斗六'，candidate译为'艮（八卦之一）向从尾宿十七度至斗六度'，增加了'向'字，但原文'艮'后直接接'自'，可能指艮方或艮卦，加'向'字属于增译，且未在allowed_glossary中定义'艮'为'向'。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005808-p000-b2bf2b9d93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005809-p000-ad1f80c0b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005810-p000-9a26e7d02d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005811-p000-0f73583516",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005812-p000-087c622517",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'玄夏節'，candidate译为'此处对应玄夏节'，但'玄夏节'为opaque_terms，不应被赋予'对应'的确定含义，应保留原文并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005813-p000-5961195e65",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005814-p000-df50647de4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'八十和發古十七抄半'，candidate译为'八十和发古十七抄半'并标注'疑似有缺字或错乱'，但'和发古'为opaque_terms，不应被直接写入译文，应保留在引号内或明确标注为原文引用。",
+          "原文'午向...止于至中氣'，candidate译为'此处对应中气'，但'于至中气'可能为'于夏至中气'或特定节气，candidate简化可能导致信息不准确。",
+          "原文'丁向...止小暑節'，candidate译为'此处对应小暑节'，但'小暑節'可能为节气名，candidate处理可接受，但需注意'節'与'气'的区别，原文为'節'。",
+          "原文'未向自井十一到二十四度'，candidate译为'起始于井宿十一度至二十四度'，但原文'到'可能为'至'，且未说明是否包含起止度内的'剩余分数'，candidate可能遗漏了'内剩'等分数信息。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005815-p000-a4a04cfd5f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'參水四度'，candidate译为'参水四度'，但'水'为locked_terms，在allowed_glossary中定义为'风水语境中的河流、水系及其来去形态'，此处'参水'可能为星宿名（参宿属水）或特定术语，candidate未保留'水'的锁定状态或说明其可能含义。",
+          "原文'井十芳内四址六分八十七抄'，candidate译为'井宿十度内剩余的四址六分八十七抄'，'十芳'可能为'十度'的误写，'四址'可能为'四十'的误写，candidate直接音译可能导致数字错误。",
+          "原文'辛向'、'庚向'等，candidate均译为'辛向'、'庚向'并加注'建筑或穴位所朝的方位'，但原文可能指天干方位，candidate处理可接受，但需注意一致性。",
+          "原文'三縫二針用法'，candidate译为'文中最后提到“三缝二针用法”'，但未解释其含义，属于保留原文引用，可接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005816-p000-dc2ba8d99b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2918,
+    "completion_tokens": 1052,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2918,
+      "completion_tokens": 1052,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

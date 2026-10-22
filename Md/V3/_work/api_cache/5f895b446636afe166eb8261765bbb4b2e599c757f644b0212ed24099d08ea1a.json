@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-24T20:51:00.394078+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5f895b446636afe166eb8261765bbb4b2e599c757f644b0212ed24099d08ea1a",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000070-p000-a9883cc939",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000072-p000-f8795081c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000073-p000-b641d685d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“裕”字含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000074-p000-68f3813973",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文中的“子”“牛”“卒”字，且将原文“日子癸”“日卯乙”的“日”字改作“曰”无依据，删改原文内容不当"
+        ],
+        "uncertainty": [
+          "原文“日子癸、日卯乙、曰牛丁、曰酉卒”表述存在讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000075-p000-c98c30462a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000076-p000-2d942f63f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文“乾”后的“言”、“艮”后的“今”，删改原文内容不当；未标注“乾言”含义不明"
+        ],
+        "uncertainty": [
+          "“乾言”“艮今”“坤巾”含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000077-p000-e499494191",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文“0”为不明字符，“不離”后缺字"
+        ]
+      },
+      {
+        "id": "book017-b000078-p000-4eea9d6cdd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“庚甲”属于locked_terms，同时为opaque_terms，必须原样保留在引号内，不得拆分解释；原文“第陽名”释为“第一类阳名”无依据，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“庚甲”“馬壬”“第陽名”具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000079-p000-faafe9d8f8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“筮阴”含义不明"
+        ]
+      },
+      {
+        "id": "book017-b000080-p000-34ea436d78",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "在已标注“定互仍”含义不明的情况下，将其释为“确定互变的规则”属于无依据确定释读，与风险标注矛盾；将“陽精陰”释为“阳化为阴的精义”无原文依据，属于增译"
+        ],
+        "uncertainty": [
+          "原文“定互仍”“陽精陰”含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1784,
+    "completion_tokens": 861,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1784,
+      "completion_tokens": 861,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

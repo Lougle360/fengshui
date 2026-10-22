@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T07:24:54.132844+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5d6f335c9123c554fdd0b54c8f49dcb710398592cb6025dcb4c85fffe92cfc09",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000174-p000-38948f3de3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中生、旺、墓所对应的十二地支（亥、卯、未、卯、亥、未、午、寅、戌）误译为月份（亥月、卯月、未月、卯月、亥月、未月、午月、寅月、戌月），属于概念错译，不符合风水术语中生旺墓对应地支位的常规表意",
+          "原文中“阴运而用”被误写为“阴动而用”，“阳运而动”被误写为“阳动而动”，表述错误，改变了原文的语义",
+          "原文“阴阳互藏其宅”被简化为“阴阳相互潜藏”，丢失了“其宅”的核心表意，属于信息漏译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1800,
+    "completion_tokens": 218,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1800,
+      "completion_tokens": 218,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

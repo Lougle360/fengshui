@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-18T11:36:29.933803+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f9f02eb90e82893aad3b94c59f726e9b7c9b28a0e3ed60e9fda526e357b73c99",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006366-p000-7a4caa4f36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "向井之節"
+        ]
+      },
+      {
+        "id": "book035-b006374-p000-b28b0dd89e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“九八中之生氣”的释读“九八格局中的生气类别”是未经允许的确定性解释，原文“九八中”含义不明，应保留为“九八中”并标注不确定性。",
+          "“庚申木向”释读为“庚申木向”正确，但后续“木气进入金宫”的“金宫”是推测，原文“木入金宮”的“金宮”可能指申的五行属性，但“宫”的术语含义未定义，应标注不确定性。",
+          "“临穴为穴”的释读“这被称为临穴”不准确，原文“雖曰臨穴爲穴”意为“虽然说是临穴（即穴本身）”，candidate处理模糊。",
+          "“向中不足而木爲全美”的释读“由于‘向’这一方位的不足，导致木气无法达到完美”存在反义风险，原文“向中不足而木爲全美”字面是“向中不足而木为全美”，可能意指“向”不足但“木”本身完美，candidate解读相反。"
+        ],
+        "uncertainty": [
+          "九八中",
+          "金宮",
+          "臨穴爲穴",
+          "向中不足而木爲全美"
+        ]
+      },
+      {
+        "id": "book035-b006375-p000-7511770789",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“财气之这们”是原文明显讹误或特殊术语，candidate直接引用并加“所谓”处理可以接受，但未在uncertainty中标注，需补充。",
+          "“九八中之生氣六六之春意”的释读“九八格局中的生气或六六格局中的春意”是未经允许的确定性解释，“九八中”“六六”含义不明，应保留原词并标注不确定性。",
+          "“坐財氣之穴對臨官向貴足爲美”的释读“坐财气之穴、对临官向的格局虽然富贵充足”将“贵足”拆解为“富贵充足”是增译，原文“向贵足”可能为“向贵足”或“向贵”与“足”的组合，含义不确定，应保守处理。"
+        ],
+        "uncertainty": [
+          "财气之这们",
+          "九八中",
+          "六六",
+          "向贵足"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 571,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1201,
+      "completion_tokens": 571,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

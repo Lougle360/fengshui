@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:35:43.325571+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ba83ec51b767e7c6eca64ca46baeeed0e752ab09d221924764176c8fb1439645",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000850-p000-c1c03b7993",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分组合表述如\"熏谷番\"\"音霫紫\"\"羔羅\"\"音舊\"等具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000852-p000-fb833b4798",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR识别错乱的内容，多处文字无法确认准确含义，如\"展\"\"已申点\"\"酒郊午\"\"丑成\"\"寅申色\"等，具体所指不详"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错乱的内容，多处文字无法确认准确含义，如\"展\"\"已申点\"\"酒郊午\"\"丑成\"\"寅申色\"等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000853-p000-54c78d716d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR识别错乱的内容，多处文字无法确认准确含义，如\"紫谷羅善熏百\"\"真\"\"翼\"\"见\"等，具体所指不详"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错乱的内容，多处文字无法确认准确含义，如\"紫谷羅善熏百\"\"真\"\"翼\"\"见\"等，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000854-p000-e3b3eab15f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中\"冬重復\"\"四林\"\"李明\"等内容无法确认准确含义，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2196,
+    "completion_tokens": 458,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2196,
+      "completion_tokens": 458,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

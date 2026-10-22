@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T14:08:04.397442+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c7fb7ab81521bcc41d9fa04e10831874fe08e06e0bb0b5914563629baf5783bf",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000565-p000-84a2508863",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "满足上述条件的话，当然会存在唯一的解，但对于满足该条件的一般联立同余式，具体应该如何求解呢？接下来，我想稍微思考一下这个解法14)。",
+        "confidence": "high",
+        "uncertainty": [
+          "14)的具体含义未明确说明"
+        ]
+      },
+      {
+        "id": "book015-b000566-p000-a3c5d3db6b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "关于那个算法，首先要将各个模$m_i$分别分解为素因数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000568-p000-9ac335f89a",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "接下来，将那个素因数化后的$x^5>τ$，分解为一系列同余式。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中$x^5>τ$的含义不明确"
+        ]
+      },
+      {
+        "id": "book015-b000573-p000-8c5a2dc587",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "如果将出现素因数$p_1φ$的所有同余式都收集起来，就……",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在残缺，内容不完整；$p_1φ$的含义不明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 388,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1641,
+      "completion_tokens": 388,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

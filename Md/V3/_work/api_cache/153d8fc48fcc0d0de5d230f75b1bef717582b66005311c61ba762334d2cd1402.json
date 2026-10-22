@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T10:59:41.137834+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "153d8fc48fcc0d0de5d230f75b1bef717582b66005311c61ba762334d2cd1402",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000078-p000-a26ab4c985",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book011-b000079-p000-9a733df4d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book011-b000080-p000-9302ed45f1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"王尺\"应为\"玉尺\"，候选译文中误写为\"王尺\"，属于专业术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000081-p000-9f9a46fdc5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "莲神青心印卷上兰具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1908,
+    "completion_tokens": 255,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1908,
+      "completion_tokens": 255,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

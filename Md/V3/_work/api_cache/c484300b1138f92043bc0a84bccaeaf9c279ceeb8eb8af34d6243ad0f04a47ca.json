@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-17T11:45:51.035388+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c484300b1138f92043bc0a84bccaeaf9c279ceeb8eb8af34d6243ad0f04a47ca",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003538-p000-243284d7ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003539-p000-30648119d4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巽巳丙龍兩樣砂’指巽、巳、丙三个方位的龙脉，配合两种砂形。候选句‘巽、巳、丙这三个方位的龙脉，若配合两种砂形’正确，但后续‘其中巽方砂多且亥方高耸’是增译，原文‘巽多亥聳’是并列关系，指巽方砂多、亥方高耸，并未限定亥方是巽方砂的一部分。‘巳丙幷行如見卯比巽富貴一般家’候选句解释为‘巳、丙两方龙脉并行，见到卯方砂形，则巽方主富，其富贵程度与前述相当’，将‘比巽’解释为‘与巽方相比’或‘与前述相当’可能不准确，原文‘比巽’可能指‘与巽方一样’或‘比较巽方’。‘家宅论水法’是增译，原文‘論水’是标题或另起话题，不应并入前句。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003540-p000-a8ae9b08e6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003541-p000-b05c2e5105",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘巽水每要一面出帶巳亦能出貴人’候选句释为‘巽方水若只从一面流出并带有巳方，也能出贵人’，‘带有巳方’含义模糊，可能指水流经巳方或包含巳方水。‘丙水發宜從左出若還帶午不爲眞’候选句释为‘丙方水发福适宜从左方流出。若还带有午方，则不为真’，‘发福’是增译。‘曾楊郭卻同心’候选句释为‘曾、杨、郭三派却同心’，将‘曾楊郭’认定为三派，但allowed_glossary未包含此定义，应视为不确定人物或流派，需标注不确定性。‘上巳丙下巽或短只要有節明白即斬去巳丙就巽節點穴’候选句释为‘上巳、丙下巽，或者短促，只要有节，明白即斩去巳、丙，就在巽节点穴’，‘或者短促’是增译，原文‘或短’可能指砂水短促或其他，但候选句未明确标注不确定性。‘下辰上巽即斬辰就巽略帶些辰’候选句释为‘下辰上巽，即斩辰，就巽略带些辰’，正确。"
+        ],
+        "uncertainty": [
+          "‘曾楊郭’具体所指不详，可能是流派或人物。"
+        ]
+      },
+      {
+        "id": "book035-b003542-p000-1a43e9da56",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003543-p000-e7fabb811e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003544-p000-a44b36e7d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003545-p000-30f254b2d1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003546-p000-24cd78362f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘木無坤水顯功名’候选句释为‘木无坤水，显功名’，‘木’可能指巽木或其他，但候选句未解释‘木’的所指，直接保留‘木’字可能导致读者困惑，应标注不确定性。‘艮逢亥水人財旺亥見艮朝官祿勞’候选句释为‘艮逢亥水，人财旺；亥见艮朝，官禄劳’，‘官禄劳’含义模糊，候选句保留原短语，但未说明可能指官禄劳累或官禄显赫，需标注不确定性。‘壬癸戌兼銀甲親貴不朝京’候选句释为‘壬、癸、戌兼，银甲亲贵不朝京’，‘银甲’可能指财富或具体事物，候选句未解释，应标注不确定性。"
+        ],
+        "uncertainty": [
+          "‘木’具体所指不详，可能指巽木或其他五行属性。",
+          "‘官禄劳’含义不明，可能指官禄显赫或官禄劳累。",
+          "‘银甲’具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b003547-p000-78f8c3066a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2175,
+    "completion_tokens": 1136,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2175,
+      "completion_tokens": 1136,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

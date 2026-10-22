@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T09:03:39.308183+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0ebc951d7bbab9015419aa71df39e143428404c80fc9e51585b03340095f5a74",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000134-p000-bfd1465fd5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "九个星辰史变位的‘史’字具体所指不详",
+          "‘燮臂’‘平腦’等术语具体所指不详",
+          "‘拨砂’的具体含义需结合allowed_glossary确认",
+          "‘金精’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000135-p000-3858f35c08",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘校脚’‘直剥’‘思謠’等术语具体所指不详，释读中未标注相关不确定说明",
+          "‘山家’的具体含义需结合allowed_glossary确认，释读中未标注相关不确定说明"
+        ],
+        "uncertainty": [
+          "‘校脚’‘直剥’‘思謠’等术语具体所指不详",
+          "‘山家’的具体含义需结合allowed_glossary确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1892,
+    "completion_tokens": 262,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1892,
+      "completion_tokens": 262,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

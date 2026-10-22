@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-25T07:59:00.079080+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "77541f689f5e847d4a4dd61ca5aa595e02a532c6fa87253a42495956bdaa2bd4",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002273-p000-666176b468",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读中将“形合则阴蓄于内，其气沉，故属阴”误写为“形合则阴蓄于内，其气沉，故属阳”，与原文含义相反",
+          "原文“司马头陀”在释读中一处误写为“司马陀头”，专有名称用字错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002275-p000-db3a03ce15",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3176,
+    "completion_tokens": 227,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3176,
+      "completion_tokens": 227,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-25T13:39:45.354966+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "751f57b5c471824fdab7b30343d8c0c70622a038f67a5bbb9ea116943fab5b13",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000210-p000-d406b7f22f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000213-p000-6c22ae41c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文里的“已撥砂經”被误写为《拨砂经》，遗漏了原文开头的“已”字；“王賦維云”是《王赋》说的意思，不是《王赋维》，误将“维”算入书名；locked_terms中的“砂”应按照allowed_glossary的定义明确为风水语境下的穴场周围护卫山丘/地形，此处直接保留“土星”等表述未对“砂”做对应释读；原文“若星辰為大方正則出極品之貴而不圃于牛 也已”断句错误，候选将“也已”的“已”归入后面的经名，属于断句失误导致的内容错置；“低小收民侯”未做通俗化处理，普通读者无法理解含义；“似乎太构”直接保留未说明是原文表述存疑，易让读者误解为释读内容"
+        ],
+        "uncertainty": [
+          "“其形豐屬”的具体含义、“豐屬”所指的星体形态不明",
+          "“集為書報”中“集”的准确语义、“書報”的具体所指不明",
+          "“旺中畜與田圖也”中“田圖”的具体含义不明",
+          "“不圃于牛也”中“圃于牛”的具体含义不明",
+          "“低小收民侯”中“收民侯”的具体语义不明",
+          "“其形故其應”一句存在脱文，原有内容已不可考",
+          "“發雷而不止為文星”中“發雷”是实指自然现象还是风水术语的指代不明",
+          "“土為則星”中“則星”是否为专有星名、具体含义不明",
+          "“似乎太构”中“太构”的准确语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 508,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1303,
+      "completion_tokens": 508,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-04T06:39:52.393806+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "cf03751d2b7a955083b780ebf02b09e4141b2549fece87986bfca1e881e0cbe4",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000748-p000-e5e71a2725",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'两颡护鼻脉者，月也'是一个整体描述'脉'的句子，candidate将其拆解，将'两颡护鼻脉者，月也'错误地归入对'峡'的解释中，导致语义错乱。",
+          "candidate将'脉者月也'解释为'但‘月也’具体所指不详'，但source中'脉者月也'是明确的定义（脉就像月亮），candidate将其处理为不确定的注释，属于误译。",
+          "candidate将'脉尽处可乘，峡尽处莫穴'释为'在气脉终结的地方可以乘用，而在峡的终结之处则不可安穴'，其中'乘'字在风水术语中通常指'乘气'，candidate译为'乘用'不够准确，应使用更专业的表述或保留'乘'字并加注。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 767,
+    "completion_tokens": 235,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 767,
+      "completion_tokens": 235,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

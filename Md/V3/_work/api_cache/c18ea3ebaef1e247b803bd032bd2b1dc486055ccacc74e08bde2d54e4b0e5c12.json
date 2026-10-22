@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-15T01:22:18.446077+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c18ea3ebaef1e247b803bd032bd2b1dc486055ccacc74e08bde2d54e4b0e5c12",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000946-p000-7f794cada9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“又爲之樓瘠爲也”应释读为“也称为楼瘠（瘠，指瘦瘠）”，candidate将“瘠爲也”拆解为“山体瘦瘠的称为也”，并将“也”字单独处理为术语，属于误译。原文“瘠”是“楼”的修饰或补充说明，并非独立形态。“也”是句末语气词，不是风水术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000947-p000-98ad6ed9c3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. “狐疑來處尖踪迹”释为“狐疑之处，来路尖细，踪迹难寻”属于增译和推测。原文“狐疑”可能指山形令人疑惑，“尖踪迹”指尖细的踪迹，但candidate将“狐疑”和“踪迹难寻”作为确定事实写出，不妥。应保留原文短语的模糊性。",
+          "2. “生下生上需细细寻觅”与原文“上生下生細尋覓”不符，原文是“上生下生”，candidate颠倒了顺序。"
+        ]
+      },
+      {
+        "id": "book035-b000948-p000-5284f5807b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“所以说上生下下需细细寻觅”与原文“故曰上生下生細尋覓”不符。candidate多写了一个“下”字，且“上生下生”是并列关系，不应改为“上生下下”。"
+        ]
+      },
+      {
+        "id": "book035-b000949-p000-82fc02b074",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾部分文字严重错乱，语义不通，candidate已标注不确定性。"
+        ]
+      },
+      {
+        "id": "book035-b000950-p000-40971b1d8d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000951-p000-f9e35a7f5b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000952-p000-40fe2bf3ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000953-p000-0c6eb2dbae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000954-p000-86dbf1d850",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. “奶阳乱五行”中的“奶阳”是opaque_terms，candidate未加引号或说明，直接写入释文，不妥。",
+          "2. “坎山来龙作午丁”释文直接保留，但“坎”“午丁”是方位术语，locked_terms中只有“坎”，未包含“午丁”，但此处为直接引用，可接受。问题在于“却把地罗差使转”中的“地罗”是opaque_terms，candidate未加引号或说明。",
+          "3. “旨空亡歇灭地”中的“旨”可能是“只”或“指”的误写，candidate直接保留“旨”字，未做说明，可能导致读者困惑。"
+        ]
+      },
+      {
+        "id": "book035-b000955-p000-0b8bd5acd5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. “他同贪狼鬼星必尖中”释为“他同贪狼鬼星必尖中”是照抄，未做白话转换。应释读为“其他与贪狼类似的鬼星，形状必定是尖的”。",
+          "2. “撑住在后最为纱”中的“纱”含义不明，是opaque_terms，candidate未加引号或说明。",
+          "3. “贪作天样”中的“天样”含义不明，是opaque_terms，candidate未加引号或说明。",
+          "4. “凡正弼星作鬼如围屏”释文直接保留，但“正弼星”术语未在glossary中定义，且“正弼”可能为“左辅右弼”的简称，candidate未做说明。",
+          "5. “官不离乡任何受”释文直接保留，语义不通，可能是原文有误，candidate未做任何说明。",
+          "6. “明堂里面停猪水”中的“猪水”是opaque_terms，candidate未加引号或说明。",
+          "7. “曲御皆马蹄”释为“曲御皆马蹄”，是照抄，未做白话转换。“御皆”可能是“御街”之误，candidate未做说明。",
+          "8. “水汤归左位长公起，汤归在荇小分兴”释文直接保留，语义模糊，“水汤”“荇”等词含义不明，是opaque_terms，candidate未加引号或说明。",
+          "9. “鬼山作向磺龙作正龙”中的“磺龙”是opaque_terms，candidate未加引号或说明。",
+          "10. “玉盘赐将金盘相”释文直接保留，语义不明，是opaque_terms，candidate未做说明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5507,
+    "completion_tokens": 1277,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5507,
+      "completion_tokens": 1277,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-15T15:06:16.982369+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ef75a8fa517041b51e71063fe7d7e0b48b83f739d1d5d9c6e724cca5c3b7d498",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002161-p000-bcaadf90a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中为‘戌龍入首左落穴辛向乙宜挨右加酉取庚戊正氣貫左耳’，candidate将‘庚戊’释为‘庚戊正气’，但‘庚戊’应为‘庚戌’之误或特定组合，释读未处理此差异。",
+          "source中‘分金縣酒 宜醉酒醉’，candidate释为‘分金涉及‘县酒’，原文称‘宜醉酒醉’，但‘县酒’与‘宜醉酒醉’的具体所指不详’，但‘县酒’与‘宜醉酒醉’在source中为并列或连续描述，candidate将其拆分为‘涉及’和‘原文称’可能改变了原文结构，且‘宜醉酒醉’可能为‘宜醉县酒’之误或特定术语，释读未明确标注此不确定性。",
+          "candidate中‘当穴位坐辛向乙时’补出主语‘穴位’可接受，但‘宜向右挨靠并加酉位’中‘加酉位’可能简化了‘加酉’的含义，需确认是否准确。"
+        ],
+        "uncertainty": [
+          "‘庚戊’是否为‘庚戌’之误或特定术语。",
+          "‘分金縣酒 宜醉酒醉’的具体含义和结构。"
+        ]
+      },
+      {
+        "id": "book033-b002162-p000-ffe51b4e16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中为‘第一宜坐平向乙穴乾龍入首左落穴辛向乙宜挨右微加戌取丁亥正氣貫左耳’，candidate将‘坐平向乙’释为‘坐平向乙’，但推测‘可能为‘辛’字之误或指特定平位’，然而source中后文明确为‘穴辛向乙’，因此‘坐平’很可能为‘坐辛’之误，candidate的推测虽标注但未直接指出错误，且释读中仍保留‘坐平向乙’可能误导读者。",
+          "source中‘分金兼酒’，candidate释为‘分金涉及‘兼酒’，但‘兼酒’的具体所指不详’，可接受，但需注意‘兼酒’可能为术语或误字。",
+          "candidate中‘当穴位坐辛向乙时’补出主语可接受，但source中前句为‘穴辛向乙’，后句为‘宜挨右微加戌’，candidate将‘穴辛向乙’并入后句作为条件，可能合理，但需确保逻辑连贯。"
+        ],
+        "uncertainty": [
+          "‘坐平’是否为‘坐辛’之误。",
+          "‘兼酒’的具体含义。"
+        ]
+      },
+      {
+        "id": "book033-b002165-p000-cee29c4bc4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source开头为‘ンま 第曰’，candidate推测‘指第四种情况’，但‘第曰’可能为‘第四’之误或日文标记，candidate将推测写成事实，违反了‘不得把推测写成事实’的规则，应标注为不确定。",
+          "source中‘分金源甲 誼庠柳酒’，candidate释为‘分金涉及‘源甲’，原文称‘谊庠柳酒’，但‘谊庠柳酒’的具体所指不详’，但‘源甲’与‘谊庠柳酒’在source中为并列或连续描述，candidate将其拆分为‘涉及’和‘原文称’可能改变了原文结构，且‘谊庠柳酒’可能为误字或特定术语，释读未明确标注此不确定性。",
+          "candidate中‘宜挨靠白虎方’释读了‘挨白虎’，可接受，但需注意‘白虎’为locked_term，已保留。"
+        ],
+        "uncertainty": [
+          "‘ンま 第曰’的具体含义。",
+          "‘分金源甲 誼庠柳酒’的具体含义和结构。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1618,
+    "completion_tokens": 876,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1618,
+      "completion_tokens": 876,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

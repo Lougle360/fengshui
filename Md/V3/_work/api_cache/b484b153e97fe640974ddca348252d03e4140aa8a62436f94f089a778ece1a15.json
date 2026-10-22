@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-15T01:20:48.253454+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b484b153e97fe640974ddca348252d03e4140aa8a62436f94f089a778ece1a15",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001601-p000-aa49dcbbdf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘抱有砂者’中的‘抱有’未译出，candidate仅译为‘有砂’。",
+          "反义/误译：原文‘擅禮’意为‘擅长礼仪’，candidate译为‘擅于虚礼’，增加了贬义色彩，改变了原意。",
+          "增译：candidate中‘且此人’为无依据添加。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001602-p000-edc4c685c8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘富里貴’中的‘里’字未译出。",
+          "误译：原文‘男淫女溫’中的‘溫’字，candidate译为‘温顺’，与原意不符，此处‘溫’可能通‘媪’或指‘淫媪’，与‘男淫’对应，指女性淫乱。",
+          "误译：原文‘賤龍主揭妓’中的‘揭妓’，candidate译为‘主掌妓女’，‘揭’字未译出，可能指‘揭发’或‘从事’妓女相关事务。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001603-p000-b0875208b3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/合并：表格内容被大幅合并和省略，未逐项对应翻译。例如，表格第一行‘接錢之砂乃要下砂逆水方是樓錢主進’与‘錦被進不與諸山連接…’是两段描述，candidate合并为一句，且‘樓錢’未译。",
+          "误译：原文‘樓錢主進’中的‘樓錢’，candidate译为‘接钱’，未体现‘楼’字。‘錦被’未译出。",
+          "误译：原文‘兩格龍主坐寶得財因親發達’中的‘兩格’，candidate未译，且整句漏译。",
+          "误译：原文‘賤龍主多接病是非括括’中的‘括括’未译，整句含义不明。",
+          "误译：原文‘堆錢山不必泥兩頭有辨索之狀因形定’未译。",
+          "误译：原文‘楚终’、‘班’、‘书 風’、‘中中 代’、‘K口’、‘WIN’、‘一格’、‘色家也’、‘二格’等表格中的标记或疑似OCR残留字符，candidate未处理或仅部分提及（如‘1 格’），且处理方式不一致。",
+          "误译：原文‘臥 1 牛 上 宣居’、‘口間’、‘宜居’、‘中中 代 虎 探頭’、‘中 駱 院’等位置标记或疑似标题，candidate未译或误译。",
+          "误译：原文‘上格龍王田連阡陌’中的‘王’字，candidate译为‘主’，正确，但前后文‘上格龍王書雙全’中的‘王書’未译，candidate直接写为‘上格龙主双全’。",
+          "误译：原文‘中格龍主言而多牛馬之字’含义不明，candidate直译，未标注不确定性。",
+          "误译：原文‘賤龍主出人為冠盜’中的‘冠盜’，candidate译为‘冠盗’，应为‘寇盗’。",
+          "结构混乱：表格内容被重新组织成一段连贯文字，丢失了原文的并列、对照结构。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2080,
+    "completion_tokens": 900,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2080,
+      "completion_tokens": 900,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

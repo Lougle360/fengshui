@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-10-17T22:27:50.272629+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d16ebc554a36ddffbabbdfc8b0e3ae025f99fae77ce262700974c8fad0bf1a5d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004796-p000-4c666fc362",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 术语误换：原文'正 ∂ 貴人馬上勢軒昂'，candidate译为'若脑顶圆润，则象征贵人骑马'。'正 ∂'应为'正体'或'正格'，candidate将'正'字与'脑顶圆润'关联，改变了原文结构。",
+          "2. 漏译：原文'煞亦主貴'，candidate译为'煞气也主贵'，但漏译了'乃雙妻雙生騎坐鞍馬至驗'中的'至驗'（非常灵验）。",
+          "3. 数字/方位变化：原文'坐向得丑未艮坤'，candidate译为'坐向若得丑、未、艮、坤'，顺序和内容一致，但原文'丑未艮坤'可能指丑未、艮坤两组，candidate处理为四个独立方位，此处理可接受，但需注意。",
+          "4. 推测为事实：原文'得事權直'，candidate译为'得事权直'，'直'字含义不明，candidate未加说明，直接保留，可能误导。",
+          "5. 术语误换：原文'主治坑治'，candidate译为'主治坑治'，但'坑治'为专业术语，candidate未加解释或保留原词，直接使用，可能造成理解困难。",
+          "6. 术语误换：原文'掌治茶盤市舶'，candidate译为'掌治茶盘、市舶'，'茶盘'、'市舶'为专业术语，candidate未加解释。",
+          "7. 术语误换：原文'錢谷之官'，candidate译为'钱谷之官'，未加解释。",
+          "8. 术语误换：原文'商賣'，candidate译为'商贾'，可接受。",
+          "9. 漏译：原文'初生敦厚'，candidate译为'初生敦厚'，但漏译了后文'之人則氣盛也至生耳聾之人則氣衰也'，此句在下一段，但candidate未连接。"
+        ]
+      },
+      {
+        "id": "book035-b004797-p000-89a54c300d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004799-p000-a03173a12a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译/误译：原文'之人則氣盛也至生耳聾之人則氣衰也此星高者多爲馬上貴人形低者名爲天幻飲泉形'，candidate译为'生人若气盛，则多生耳聪之人；若气衰，则多生耳聋之人。此星高者多为马上贵人形，低者名为天幻饮泉形。'。原文'之人則氣盛也至生耳聾之人則氣衰也'结构不完整，candidate补全为'生人若气盛...若气衰...'，属于合理补足。但'耳聪'是candidate推测，原文只有'耳聾'，可能指气盛生正常（非聋）之人，气衰生聋人。candidate的'耳聪'是增译且无依据。"
+        ]
+      },
+      {
+        "id": "book035-b004800-p000-22d4df1a26",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 术语误换：原文'量金斗'，candidate译为'量金斗'，未加解释。",
+          "2. 术语误换：原文'撞脈有玄微腦'，candidate译为'撞脉有玄微'，漏译'腦'字。",
+          "3. 数字/组合误译：原文'有一腳轉金一腳轉木水火土者'等描述变格的句子，candidate翻译为'其中有一脚转金、一脚转木水火土的；有一脚转水、一脚转金木火木的；有一脚转木、一脚转金水土火的；有一脚转土、一脚转金水木火的；有一脚转金木水土的。'。原文列举了几种组合，但candidate的翻译在组合上可能不准确，例如'金木水火土'是五行，原文可能是列举一脚转某行，另一脚转其他几行的组合，candidate直接拼接，可能误解了原文的列举方式。",
+          "4. 术语误换：原文'宜下閃殺穴'、'宜下厭殺穴'，candidate译为'宜下闪杀穴'、'宜下厌杀穴'，未加解释。",
+          "5. 术语误换：原文'聞斧就脈'，candidate译为'闻斧就脉'，未加解释。",
+          "6. 术语误换：原文'蘸玄'，candidate译为'蘸玄'，未加解释。",
+          "7. 漏译：原文'至生口乞之人則氣衰也'，candidate译为'至生口乞之人则气衰也'，'口乞'可能为'乞丐'或讹字，candidate未处理。",
+          "8. 术语误换：原文'權貨之職'，candidate译为'权货之职'，未加解释。",
+          "9. 术语误换：原文'天紀躡雲形'，candidate译为'天纪蹑云形'，未加解释。"
+        ]
+      },
+      {
+        "id": "book035-b004801-p000-dd2c52aece",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004804-p000-272e52990a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004805-p000-6037716bdb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 术语误换：原文'懸乳'，candidate译为'悬乳'，未加解释。",
+          "2. 术语误换：原文'斑馬乘蹬'，candidate译为'斑马乘蹬'，未加解释。",
+          "3. 术语误换：原文'穿土乘土穴'、'垂金窒開土取金'、'帶火乘木'、'生水'、'夾木'等，candidate直接使用，未加解释。",
+          "4. 数字/术语误译：原文'可下三八'，candidate译为'可下三八'，含义不明，candidate未加说明。",
+          "5. 术语误换：原文'玄武垂頭'，candidate译为'玄武垂头'，未加解释。",
+          "6. 术语误换：原文'天圈'，candidate译为'天圈'，未加解释。",
+          "7. 术语误换：原文'五氣分形，三穴下穴'，candidate译为'五气分形，三穴下穴'，未加解释。",
+          "8. 术语误换：原文'堂塞'、'水冲'，candidate译为'堂塞'、'水冲'，未加解释。",
+          "9. 方位误译：原文'坐向得丑退未坤'，candidate译为'坐向得丑、退、未、坤'，'退'可能为'艮'之误或特定术语，candidate直接保留，未处理。",
+          "10. 术语误换：原文'江溱'，candidate译为'江溱'，未加解释。",
+          "11. 术语误换：原文'田驛'，candidate译为'田驿'，未加解释。",
+          "12. 术语误换：原文'皙直'，candidate译为'皙直'，可能为'耿直'之误，candidate未处理。",
+          "13. 术语误换：原文'權貨之職'，candidate译为'权货之职'，未加解释。",
+          "14. 术语误换：原文'驊騮乘鐙形'，candidate译为'骅骝乘蹬形'，未加解释。"
+        ]
+      },
+      {
+        "id": "book035-b004806-p000-101ce9c8bf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004807-p000-aa61efd86e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "1. 原文不完整：原文在'穿'字后戛然而止，candidate翻译到'穿'字止，并标注了不确定性。但candidate的翻译'双脑大财有二体，其脚一长一短者为正格也，穿。'中，'穿'字无法构成完整语义，且'双脑大财'应为'双脑天财'。由于原文损坏，无法进行完整、准确的释读。"
+        ]
+      },
+      {
+        "id": "book035-b004808-p000-dd2c52aece",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5405,
+    "completion_tokens": 2115,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5405,
+      "completion_tokens": 2115,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

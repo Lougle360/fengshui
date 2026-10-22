@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-18T08:36:47.656795+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8d414daf3e8010cc4381cdddb99fbd58dc70372c6c5760767106fe6a160cbf68",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005999-p000-ebea0a99b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006000-p000-c2b25f9809",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006001-p000-ad4a2b23ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“北上癸未向才中”结构不明，candidate 释为“辛未向北方，癸未向中央”是推测性断句和解释，原文并未明确“辛未向”和“癸未向”分别对应“北”和“中”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006002-p000-0a3916f1c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“丙申火山五坤五申”含义不明，candidate 释为“第五爻为坤，第五爻为申”是推测，原文并未明确“五坤五申”指爻位。",
+          "原文“木過三代當時吉二代之人不用疑”含义模糊，candidate 释为“木气旺盛，三代当时吉利；二代之人无需怀疑”是推测性解释，原文“木過三代”可能指木星过宫或某种木属性周期，并非确定指“木气旺盛”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006003-p000-5e05431d7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006004-p000-d7c7b01814",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006005-p000-30eb46100b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006006-p000-576232e906",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006007-p000-52e6a35280",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006008-p000-b7a88358fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“朝人出貴去平平中長小吉”等句结构不明，candidate 释为“朝人出贵，去平平，中长短吉”是推测性断句和解释，原文“中長小吉”等组合含义不清。",
+          "原文“不坤射去不妨”含义不明，candidate 按字面直译，但“不坤射去”可能为术语或误字，释读未能澄清。",
+          "原文“余度不家來去木度大凶”含义不明，candidate 断句为“余度不家。来去木度大凶”，但“不家”含义不清，释读未能澄清。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2609,
+    "completion_tokens": 759,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2609,
+      "completion_tokens": 759,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

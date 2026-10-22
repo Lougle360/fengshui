@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-04T04:48:46.904392+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ee8d857b44cb8daef97fedd288db8212a41866ad75e1d7a9941028dc44221620",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000601-p000-849bf772e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'氣卷二 七十相也'释读为'气脉是卷曲聚结的，文中还提到“氣卷二 七十相也”，其中“七十相”的具体所指不详'，这是错误的。原文'氣卷二 七十相也'是文本标记，表示'气'这一主题在卷二第七十相，不应被释读为描述气脉状态的句子。candidate将其混入正文解释，属于误译。",
+          "candidate将'蘇礪'释为'形状似“苏砺”'，并列为不确定项。原文'蘇礪'应为'粗砺'或'粗糙'之意，candidate将其作为专有名词保留并加引号，处理不当，应直接释为'粗糙'或'形状粗糙'。",
+          "candidate将'如涵如亂'释为'如混乱不堪'，'涵'字漏译。'涵'在此处可能指'包含'、'沉浸'或'水泽'，与'乱'并列，candidate未处理。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000602-p000-1d7e4ba8e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'食水欲清飲水欲當'释为'食用的水希望清澈，饮用的水希望得当'，并将'當'解释为'得当'。原文'當'后接'清原泉之謂也常滿聚之謂也'，'當'应为'常'之误或通假，指'经常'、'恒常'。candidate的解释偏离了原文结构。",
+          "candidate增译了'文中分别解释为“清，原泉之谓也；常，满聚之谓也”'，这是对原文'清原泉之謂也常滿聚之謂也'的拆解，但原文是连续陈述，candidate的表述方式使其像后加的注释，且'常'与'潮'的对应关系是candidate的推测，不应作为确定解释写出。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000603-p000-c6ee7b514e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'出造自然有常'释为'这样排泄自然有常'，'造'字漏译。'出造'可能指'出恭'（排泄）或泛指'输出'，candidate仅用'排泄'对应，不完整。",
+          "candidate将'必出潘蕩之輩拒諫銑非才智過人'释为'必然产生放荡之辈；文中提到“拒諫銑非才智過人”，此短语的具体所指不详'。此处断句和释读有误。'潘蕩'可能为'放荡'，'拒諫銑非'可能为'拒谏饰非'（拒绝规劝，掩饰错误）。candidate未识别出这个成语，处理不当。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000605-p000-dc887085ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'穴初必滅力終必如五吉成立福澤如故'释为'穴初时必灭，但最终力量如同五吉成立，福泽如故'。原文'滅力'可能为'减力'或'力灭'，但candidate的'穴初时必灭'表述过于绝对，且'如五吉成立'的'如'可能是'如果'或'如同'，candidate选择'如同'，但结合上下文，更可能是'如果五吉成立'。释读不准确。",
+          "candidate将'不能I- 率引'释为'不能率引'，忽略了'I-'可能为OCR错误或原文损坏。应标注原文可能有缺损。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000607-p000-006938fb8e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'濫濫起於蕭墻'中'濫濫'的具体含义不确定，可能为'祸乱'、'泛滥'或为衍文。",
+          "'婢妾佛於閨闘'中'佛'字的具体含义不确定，可能通'悖'（悖逆）或为误字。",
+          "'外欠尅處是也內欠燥肉是也'中'燥肉'的具体风水含义不确定。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2139,
+    "completion_tokens": 1014,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2139,
+      "completion_tokens": 1014,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

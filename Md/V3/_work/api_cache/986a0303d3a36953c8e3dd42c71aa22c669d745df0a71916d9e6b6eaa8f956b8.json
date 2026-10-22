@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T09:35:01.133626+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "986a0303d3a36953c8e3dd42c71aa22c669d745df0a71916d9e6b6eaa8f956b8",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003175-p000-e501d7101c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘辛 向小貴 巽’释读为‘若朝向辛方，则主小贵；至于末尾出现的‘巽’字，原文未明确说明其吉凶含义’。原文‘辛 向小貴 巽’结构为‘辛向小贵，巽向...’，candidate将‘巽’字单独剥离解释，改变了原文的并列结构，属于误译。原文应理解为‘辛向主小贵，巽向...’，但‘巽’向的吉凶判断原文缺失或未明。candidate的释读方式不准确。",
+          "candidate将‘扶 扶亥’解释为‘原文中‘扶 扶亥’这一短语的具体所指不详，且文字疑似有误’。此处理方式符合opaque_terms原则，但‘扶 扶亥’可能为‘扶亥’之误，candidate直接引用原文短语并标注不确定性，可以接受。然而，结合第一点问题，整体仍需修订。"
+        ],
+        "uncertainty": [
+          "‘扶 扶亥’的具体所指及文字准确性",
+          "‘巽’向的吉凶判断原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 807,
+    "completion_tokens": 280,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 807,
+      "completion_tokens": 280,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

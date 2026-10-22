@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-10-16T08:35:55.900345+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "252e407653c7612be32b326661fa6989c61324e1948cdebb8df99c64951e7b32",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001571-p000-f6e222dd6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘曲直木者節穴動處是水’中，‘節穴動處’的释读存在偏差。candidate将其解释为‘气脉‘穴’位中关节处有动态水流的地方’，但原文‘節穴’可能指‘穴’的关节/关键部位，‘動處’指动态之处，整体是描述‘曲直木’的特征，而非直接定义‘曲直木’就是‘穴’中有水。candidate的释读将‘穴’作为核心位置，可能过度引申。且‘可下主文章富貴’的‘可下’指可以在此处下葬，candidate译为‘适宜安葬’可以接受，但整体句意因前半部分偏差而需调整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001572-p000-26b5bf6612",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘主爲商發財求有力處下乃金木節也’的断句与释读有误。原文可能意为：（这种格局）主经商发财。若寻求地势有力之处下葬，便是‘金木节’。candidate将‘求有力處下’释为‘若选择地势有力之处安葬’尚可，但将‘乃金木節也’译为‘便属于‘金木节’的格局’时，未明确‘金木节’是一个专有名词（opaque_terms），应保持引用或标注不确定性。此外，‘勢若低小主貴欹側爲文曲水不結穴’中，‘欹側’指倾斜、侧歪，candidate译为‘水流倾斜’可以，但‘不結穴’指此处不形成/不结穴，candidate译为‘且此处不形成‘穴’位’准确。"
+        ],
+        "uncertainty": [
+          "‘金木节’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b001573-p000-5b772adbd0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘主出繼自縊少亡若可剪不見火殺可凡木火產夾處剪之’的断句与释读有误。‘若可剪不見火殺’可能意为：如果（地形）可以修剪，且不见‘火杀’（煞气），那么……。candidate译为‘如果地形可以修剪且不见‘火杀’’尚可。但‘可凡木火產夾處剪之’的‘可’可能是‘可以’或‘适宜’，‘木火產夾處’指木与火产气相夹之处。candidate译为‘那么凡是木与火产气相夹之处皆可修剪’基本合理，但‘产气’为增译。‘此爲八字腳冲天火無殺須下凸’中，‘八字腳’和‘冲天火’都是opaque_terms，candidate直接使用并解释‘若是‘冲天火’且无煞气’，但原文‘冲天火無殺’可能指‘冲天火’这种格局若无煞气，candidate的释读方向可以，但将不确定的术语作为确定事实写出，不符合要求。"
+        ],
+        "uncertainty": [
+          "‘八字脚’、‘冲天火’的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b001574-p000-ff4f3e4b09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001575-p000-23f11432a3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘漲天水一名展帳水主大富貴聰明中格之星小貴若低小美女聰明不 生金木主游蕩風聲’存在脱字或模糊处。‘不 生金木’可能为‘不生金木’（中间有空格或损坏）。candidate译为‘若此水不生金木之气’是合理的推测。但‘中格之星小貴’可能指若是中等格局的星体（指涨天水形态），则主小贵。candidate译为‘若是中等格局的星体，则主小贵’可以接受。整体释读基本准确，但‘美女聪明’后的句读和‘不生金木’的处理存在基于推测的补全，需在uncertainty中注明。"
+        ],
+        "uncertainty": [
+          "原文‘不 生金木’处可能有脱文或歧义，释读‘若此水不生金木之气’为推测"
+        ]
+      },
+      {
+        "id": "book035-b001578-p000-b84da9e95e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水星架金’是一个专有名词或格局名称。candidate译为‘文中提到‘水星架金’这一格局’，增加了‘文中提到’和‘这一格局’，属于增译。应更直接地处理，例如保留原词并稍作说明，或直接译为‘水星架金（格局）’，但不得赋予其超出原文的确定解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001581-p000-1ea86396dd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "同上一项，原文‘水星架木’是一个专有名词或格局名称。candidate译为‘文中提到‘水星架木’这一格局’，属于不必要的增译。应更直接地处理。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1647,
+    "completion_tokens": 1186,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1647,
+      "completion_tokens": 1186,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

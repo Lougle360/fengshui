@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:37:47.127358+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "29a23485601ec61fb0604d421f9ad10979f8130fc39c8393efaff6390e425827",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000869-p000-e6572c1eea",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "丙寅、丙戌九六、九六三、丙申，1司",
+        "confidence": "low",
+        "uncertainty": [
+          "原文末尾的「1司」含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000870-p000-acddfcb4fe",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "丁 五八 丁未三",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000871-p000-e8a2134081",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "戊辰三、辰六三戊實台、戊子、二八4、至八",
+        "confidence": "low",
+        "uncertainty": [
+          "原文中的「戊實台」含义不明，「二八4」的数字格式存疑"
+        ]
+      },
+      {
+        "id": "book010-b000872-p000-c3b748c44d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "己巳七四、10日、己卯二会、己丑三ん六、己酉六、己未、九三六、六ミ九",
+        "confidence": "low",
+        "uncertainty": [
+          "原文中的「三ん六」「六ミ九」字符含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1527,
+    "completion_tokens": 356,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1527,
+      "completion_tokens": 356,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

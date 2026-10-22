@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T01:22:52.069992+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "964c4869b926877b309a899275129e66aa281ded0be7e5abff001a1935b2233c",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001326-p000-ef5953c22b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“夫救火以水”中的“水”解释为“风水语境中的水系”属于误释，此处“水”就是日常灭火所用的水，不属于风水术语范畴，不符合allowed_glossary中“水”的适用语境要求。",
+          "原文“更与求乞胡”的“求乞胡”被误译为“求乞胡人”，应为“向胡人求乞”，语序理解错误。",
+          "原文“进不敢定祸福于卜相”被误译为“进不敢在占卜相宅上确定祸福”，缩小了“卜相”的范围，“卜相”包含占卜、相地等多类术数，并非仅指相宅。"
+        ],
+        "uncertainty": [
+          "原句开头“京。”孤立出现，前后文不足，具体所指不明",
+          "原句“食不消，以黄丸为”存在缺字，具体含义无法完整确定",
+          "原句“而缺三字之所弃”存在三字缺漏，无法补全释义"
+        ]
+      },
+      {
+        "id": "book001-b001329-p000-e788ed4d1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文“向墨子立公神之情”中的“向”判定为locked_terms“建筑或穴位所朝的方位”属于误释，此处“向”是“从前、往昔”的意思，不属于allowed_glossary中“向”的术语适用范畴。",
+          "“幽明”属于locked_terms及opaque_terms，不得随意翻译为“一同协调”，应原样保留在引号中并标注“具体所指不详”，当前释读违规赋予了该词确定含义。",
+          "原文“今不辞同有鬼”被误译为“现在我不否认和有鬼论有相同的立场”，表述不准确，应为“现在我不避讳认同有鬼的观点”。",
+          "原文“武王阏祷之命”的“阏”被误译为“停止”，“阏”在此处是“阻断、拒绝”的意思，语义理解偏差。"
+        ],
+        "uncertainty": [
+          "原文“观物干微”为形近讹字，应为“观物于微”",
+          "原文“以求其”“缺齐契于董生耶”两处存在缺字，无法完整释义",
+          "原文“钧疾页祷不同”为形近讹字，应为“均疾而祷不同”",
+          "“幽明”为opaque_terms，具体所指不详",
+          "原文末尾“故吉”为未完结内容，后续文字缺失"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4428,
+    "completion_tokens": 595,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4428,
+      "completion_tokens": 595,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-15T19:51:00.501934+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "82858fe25ce63a9c536208cd8163e8c5aee843443ba77c23f12af4ada029ef0b",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002379-p000-e98a731e3f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "以下山向布局不利：壬山丙向（坐壬向丙）从子位起算；子山午向犯三杀；癸山丁向犯杀；丑山未向犯三杀；寅山申向犯傍阴；甲山庚向犯浮天；巳山亥向犯伏官；丙山壬向犯坐杀；午山子向犯符地；丁山癸向犯傍阴。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文断句混乱，部分术语如'三殺'、'傍陰'、'浮天'、'伏官'、'坐殺'、'符地'在风水术数中含义复杂，此处仅按原文结构直译，具体吉凶判定需结合原书上下文"
+        ]
+      },
+      {
+        "id": "book033-b002380-p000-45b70d21c0",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "四月、五月、六月（巳月、午月、未月）大利山向：巳山亥向；小利山向：丑山未向、癸山丁向、艮山坤向、辰山戌向、巽山乾向、丙山壬向、坤山艮向。不利山向：甲山寅向。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文'四五肽八'疑似OCR识别错误，结合上下文推测为'四月、五月、六月'或'巳月'相关，但无法确证；'三'字孤立，无法确定归属；部分山向组合与常见风水逻辑不符，可能原文有缺漏或错乱"
+        ]
+      },
+      {
+        "id": "book033-b002381-p000-f1f3dd142f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "大利山向：寅山申向（二、三、四、五、六月）、坤山艮向（二、三、四月）；小利山向：子山午向、丑山未向、甲山庚向、乙山辛向、辰山戌向、戌山辰向。不利山向：壬山丙向（犯杀、天空）、癸山丁向（犯杀）、艮山坤向（犯阴符）、卯山酉向（多退）、巽山乾向（犯阴符）、巳山亥向（犯三般）、丙山壬向（犯螃府）。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文'二三四肌'疑似'二三四'之误；'螃府'、'三般'等术语含义不明，无法确证具体所指；'1.1uL'为明显OCR乱码，已忽略；部分山向组合逻辑不清，可能原文有缺漏"
+        ]
+      },
+      {
+        "id": "book033-b002382-p000-a1aa070025",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "不利山向：辛山乙向（犯向杀）、戌山辰向（犯空净天）、乾山巽向（犯年克）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文'符 地 官'位置模糊，可能属于前句或后句，但无法确定归属；'年尅'指年份相克，具体年份未指明"
+        ]
+      },
+      {
+        "id": "book033-b002383-p000-41db0491d4",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "大利山向：巳山亥向（五、二、四、一、二、八、乾山巽向十、月）；小利山向：未详；不利山向：辰山戌向（犯年克）、壬山丙向（犯巽山乾向、傍阴、年封、年克）、坤山艮向（犯年克）、申山寅向（犯官符、年封天）、庚山甲向（犯空杀克）、甲山庚向（犯年克、空杀克）、乙山辛向（犯坐杀）、酉山卯向（未详）。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文'五二 四 一 二x 八 乾 山巽十 月'断句混乱，数字与卦名混杂，无法确定具体月份或组合；'年封'、'官符'、'空杀克'等术语含义不明；'问'字孤立，可能为误入或残缺；整体结构严重错乱，部分信息无法还原"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1998,
+    "completion_tokens": 1249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1998,
+      "completion_tokens": 1249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

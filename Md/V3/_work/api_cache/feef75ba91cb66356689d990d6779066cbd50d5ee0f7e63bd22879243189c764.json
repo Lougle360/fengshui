@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-25T06:33:52.297070+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "feef75ba91cb66356689d990d6779066cbd50d5ee0f7e63bd22879243189c764",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000081-p000-c25a32abcc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source开头“花味总居心之类是也”被误译为“花味这类事物总居于中心位置”，原句是说具有花味的事物归类为属于心的类属，此处与后文风水内容语境不符，属于漏解背景且语义错译。",
+          "source中“宜脱脉以乘之”被误译为“适宜依附脉络来乘载它”，“脱脉”的含义未准确体现，原义是离开脉脊的位置乘受生气，并非依附脉络。",
+          "source中“两宫齐到中乘平”被误断为“两宫齐到的情况属于中乘平气”，原句“中乘平”是动宾结构，指在中间位置乘纳平气，并非中乘平气是所属类别。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000082-p000-ee5a0fbf7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“乐托”为风水专属术语，原文未给出明确释义，暂保留原词"
+        ]
+      },
+      {
+        "id": "book022-b000083-p000-daf35b6ea1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“不无脱去本来之势而傍罗城”被误译为“这些龙脉并非完全脱去本来的走势，而是傍依罗城”，“不无”是“难免、多有”的意思，此处语义译反，应为多有脱去本来走势而傍依罗城的情况。",
+          "source中“入首之处无面目”被误译为“入首的地方没有合适的朝向”，“无面目”是指龙脉入首处没有符合结穴要求的正面形态，并非没有合适朝向。",
+          "source中“向方之处则无情”被误译为“向方的地方又没有情致”，风水语境中“无情”是指朝向方位的山水形势不拱抱、不呼应，并非普通的没有情致。"
+        ],
+        "uncertainty": [
+          "“乐托”“罗城”“水城”“禄储峰”为风水专属术语，原文未给出明确释义，暂保留原词"
+        ]
+      },
+      {
+        "id": "book022-b000084-p000-ea22cf0c0c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“认气须要百死一生”被误译为“辨认气的时候需要经历百死一生的过程”，“百死一生”在风水语境中是指在众多死气、脉气衰败的情况中辨别出唯一有生气的脉气，并非指辨认的过程要经历生死风险。",
+          "“三静一动”为风水专属术语，未明确说明其具体所指，也未标注不确定性，不符合含混术语的释读要求。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2838,
+    "completion_tokens": 676,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2838,
+      "completion_tokens": 676,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

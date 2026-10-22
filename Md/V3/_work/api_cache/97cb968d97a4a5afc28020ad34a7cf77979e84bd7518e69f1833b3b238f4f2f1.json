@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-18T05:45:28.473939+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "97cb968d97a4a5afc28020ad34a7cf77979e84bd7518e69f1833b3b238f4f2f1",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005628-p000-771ba456ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘来本音’在candidate中被直接当作一个术语使用，但并未明确标注为不确定或原文引用。根据opaque_terms规则，此类含混专名应原样处在引号引用范围内，不能被赋予确定含义。candidate中‘依据太岁所定的‘来本音’所属的五行’的表述，暗示了‘来本音’是一个确定的概念，这属于无依据扩写。",
+          "candidate对‘上元年用天’的处理基本符合规则（指出具体所指不详），但前半句‘文中提到‘上元年用天’’的表述稍显突兀，因原文是连续语句。更稳妥的释读应整体处理该句，明确‘上元年用天’是原文引用的短语，其含义不确定。"
+        ],
+        "uncertainty": [
+          "来本音",
+          "上元年用天"
+        ]
+      },
+      {
+        "id": "book035-b005632-p000-0457d12862",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "前十四百数",
+          "三百五十四数",
+          "自有见数",
+          "表格中数值与文字的对应关系可能因原文混乱而不准确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 275,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 990,
+      "completion_tokens": 275,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

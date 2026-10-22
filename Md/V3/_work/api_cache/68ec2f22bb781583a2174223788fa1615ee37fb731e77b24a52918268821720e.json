@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:08:17.406067+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "68ec2f22bb781583a2174223788fa1615ee37fb731e77b24a52918268821720e",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000074-p000-4450aa75ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000075-p000-4d8492809e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘衰方管局巨門星學堂水到發聰明少年及第文章貴人旺年高金滿盈出入起居乘聖焉宴遊歌舞王壺傾旺局七宜來則吉去須灣曲更留情’的内容过度解读，原文未提及‘归巨门星管辖’‘得到皇帝的恩宠’‘帝王赐予的酒壶’等内容，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "巨门星、学堂水、贵人旺年、王壶、旺局具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000076-p000-3ce45a5012",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000077-p000-073b15338c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "地尸、官显水、囊心印续编具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 328,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1331,
+      "completion_tokens": 328,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

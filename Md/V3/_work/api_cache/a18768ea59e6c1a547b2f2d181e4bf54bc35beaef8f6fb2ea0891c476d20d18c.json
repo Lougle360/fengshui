@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-24T21:45:06.675255+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a18768ea59e6c1a547b2f2d181e4bf54bc35beaef8f6fb2ea0891c476d20d18c",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000446-p000-325c7f6bf9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“義至”属于原文异写，暂按文意释为对应"
+        ]
+      },
+      {
+        "id": "book017-b000448-p000-7b205bc131",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文核心动作是“向天心学十道”，候选误将“向”独立解释为方位，违背原句语义，且allowed_glossary中“向”为方位的释义仅适用于对应语境，此处强行套用导致含义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000451-p000-8cbd559ac2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“裁星曲流神”为风水术语，此处按文意释为相关专有概念"
+        ]
+      },
+      {
+        "id": "book017-b000454-p000-c90aaa121a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“不禮面不謂胸不斜み”“卯因れ陰氣一節”混杂日文假名，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000455-p000-79f075df81",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "本段为OCR识别错乱内容，无可靠释读依据"
+        ]
+      },
+      {
+        "id": "book017-b000456-p000-8107d664f8",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "本句原文语义残缺，无可靠释读依据"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1591,
+    "completion_tokens": 445,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1591,
+      "completion_tokens": 445,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-09-26T07:04:29.849667+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "341fc29d523c8ca957ee2d0f878a1b03297e9f8b070271245c4f7cf833705851",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000147-p000-4b9d40e07b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语义为正龙过峡后前去结作县治，正龙的左枝分落，而候选将其误译为正龙过峡后前往结作县治左侧的枝脉，与原文逻辑不符",
+          "原文“復辭樓下殿開帳磊落”未完整释读，仅保留原文短语，未转换为通俗白话"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000148-p000-b1ac5ee325",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000150-p000-1a822c4fe4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000151-p000-31766f91c4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“大凡木星不下當頭此地左右兩穴虛中正合倚仗塟法張子微謂之天鼻穴”断句错误，候选误译为“大凡木星不下当头，此地左右两穴虚中正合倚仗，葬法张子微称之为天鼻穴”，正确语义应为一般木星穴不葬在当头位置，此地左右两穴虚中，正符合倚仗葬法，张子微称这种穴为天鼻穴，候选断句导致语义不通",
+          "原文“風得水”为漏译，完整应为“藏风得水”，候选直接照搬错误表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000152-p000-758914dfd8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其龍與縣龍共祖不悉迷分龍後開帳出脈”断句错误，候选误译为“其龙脉与县龙共祖，不悉迷分，龙后开帐出脉”，语义不通，该部分原文存在讹误，应标注不确定性，不应强行释读",
+          "“翰沐學士”应为“翰林學士”，候选已修正，不属于问题"
+        ],
+        "uncertainty": [
+          "“不悉迷分”原文语义不明"
+        ]
+      },
+      {
+        "id": "book033-b000153-p000-ef15afae12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头讹误部分无“有关乾、坤的相关记载内容”的明确语义，候选擅自增译，属于无依据扩写",
+          "原文“後出南字公儀”语义不明，候选直接认定为“南字公仪”是人名，属于将不确定内容写为确定事实",
+          "原文“至今富貴未父”仅可标注语义不明，候选自行推测为“没有衰落”，未明确标注是推测，不符合要求"
+        ],
+        "uncertainty": [
+          "原文开头部分文字有讹误，语义难以完全释读",
+          "原文“未父”语义不明",
+          "“南字公儀”具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000155-p000-5aef7f2893",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000156-p000-e2b7063947",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“高底不明”应为“高低不明”，候选直接照搬“高底”未作修正也未标注，属于未转换为规范现代中文",
+          "“峻增”为“峻嶒”的讹误，候选照搬未作说明",
+          "原文“自非明師耳提面”为不完整语句，候选直接照搬未标注语义残缺"
+        ],
+        "uncertainty": [
+          "原文末尾“自非明師耳提面”语义不完整"
+        ]
+      },
+      {
+        "id": "book033-b000157-p000-2e7f723b02",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为通俗白话，仅保留原文句式，不符合“普通读者能读懂的白话释读”要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000158-p000-26ffadac83",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“以前拖平地為禍褥”候选误译为“以前拖平地为祸福”，属于词义错译，与原文语义相悖",
+          "原文存在“有也”“什”“球靂”“要插上”等多处讹误，候选直接照搬未标注，且多处语句未转换为通顺白话，部分语义不通"
+        ],
+        "uncertainty": [
+          "“有也”“什”“球靂”“要插上”等表述原文语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5201,
+    "completion_tokens": 1132,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5201,
+      "completion_tokens": 1132,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

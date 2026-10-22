@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-10-16T10:51:00.742090+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c8d6a73dcd6605350b4b90c25ff4750ffc6f698a421403d5896b97dd93a05f9e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002044-p000-2c9106f293",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002045-p000-5428e02798",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002046-p000-1cac8acf12",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘生葬’为特定术语，candidate解释为‘采用生葬法’属于无依据扩写，应保留原词或标注其含义不确定。原文‘第一合之水’、‘第二合水’为风水术语，candidate直接解释为‘第一合水’、‘第二合水’并赋予确定含义，不符合opaque_terms处理规则，应保留原词并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002047-p000-5ceab753a9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002048-p000-d65894bc0b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002049-p000-cf49a59ae2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002050-p000-01a70b3302",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002051-p000-af35883822",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002052-p000-10553a9323",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘前縮緊和寬’含义模糊，candidate解释为‘前缩是紧还是宽’并作为确定事实陈述，属于将不确定解释写为确定事实。应保留原短语并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002053-p000-b9e6cf0029",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘正球’、‘折架’为风水术语，candidate直接解释为‘正球’、‘折架’并作为确定概念使用，属于无依据扩写。应保留原词并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2004,
+    "completion_tokens": 555,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2004,
+      "completion_tokens": 555,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

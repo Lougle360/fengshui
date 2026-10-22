@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-04T03:12:46.105622+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c3031b071ff716d8fb0030ed3f7dc3789dc68a0203ccade40d83674ab6866864",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001210-p000-b0ab2302b1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001211-p000-8a818c3e52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001212-p000-a16830277f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处语意未完，推测后文应接具体宜忌条件"
+        ]
+      },
+      {
+        "id": "book033-b001213-p000-52cc01c840",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001214-p000-23d76f2fb1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将‘大氏奇形升全穴口白尾神列忍得尾真更真上决直千金’等混乱文字直接释读为‘大氏云：奇形升全，穴口白尾，神列忍得尾真，更真上决直千金’，并称‘依字面勉强释读’。这超出了保守释读的边界，应明确指出原文错乱，无法确解，而非尝试释读。",
+          "候选句对‘识得裁穴却无……’的处理（加省略号并说明原文混乱）是恰当的，但后半部分处理不当。"
+        ],
+        "uncertainty": [
+          "原文此段文字存在严重错乱，部分词句难以确解"
+        ]
+      },
+      {
+        "id": "book033-b001215-p000-41615894ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001216-p000-53333914eb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001217-p000-0b14412d02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001218-p000-482a0baa39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001219-p000-ca4783a8c6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将‘画改去’、‘NA’等混乱文字直接释读为‘画改去’、‘NA'等’，并称‘依字面勉强释读’。这超出了保守释读的边界，应明确指出原文错乱，无法确解，而非尝试释读。",
+          "候选句对‘论之不耻富杞于又穿虽见宜要从变处识精全指节不偏际妨为中出之龙在定故足是飞气不此取人宇亦皆于芦花袅水东西点未必条条着地’等混乱文字的释读，同样超出了保守边界，应整体标注为无法确解。"
+        ],
+        "uncertainty": [
+          "原文此段后半部分文字混乱，存在大量错字、缺字及无法确解的语句"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5702,
+    "completion_tokens": 759,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5702,
+      "completion_tokens": 759,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

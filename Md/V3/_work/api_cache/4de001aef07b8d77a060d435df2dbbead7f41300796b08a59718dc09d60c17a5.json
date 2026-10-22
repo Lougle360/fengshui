@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-10-15T15:25:31.329278+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4de001aef07b8d77a060d435df2dbbead7f41300796b08a59718dc09d60c17a5",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b002212-p000-6b49fa70d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘寅宛見’含义不明，候选句已标注"
+        ]
+      },
+      {
+        "id": "book033-b002215-p000-cad0ea8469",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘庚的禄在甲’与原文‘庚禄甲’不符，原文‘庚禄甲’可能指庚禄在申（甲为天干，此处疑为方位代指或误写），候选句直接释为‘在甲’属反义或误译。",
+          "候选句‘丁和巳的禄在丁’与原文‘丁巳祿居丁’不符，原文表述存疑，但候选句将其解释为确定事实（丁和巳的禄在丁），属于将不确定解释写成事实。应保留原文短语并标注其含义不确定。"
+        ],
+        "uncertainty": [
+          "原文‘丁巳祿居丁’含义不明"
+        ]
+      },
+      {
+        "id": "book033-b002218-p000-af0956f5d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句‘如中山寅水之类’中的‘中山’疑为‘申山’的OCR识别错误或原文误写，但候选句未加标注，直接使用‘中山’，可能导致读者误解。应标注此处原文可能存疑。",
+          "候选句将‘二皆通’解释为‘文末提到“二皆通”，但具体所指不详’，此处理恰当，但‘文末’一词略显多余，可简化为‘原文提到“二皆通”’。"
+        ],
+        "uncertainty": [
+          "原文‘二皆通’含义不明",
+          "原文‘中山’可能为‘申山’之误"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1437,
+    "completion_tokens": 392,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1437,
+      "completion_tokens": 392,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

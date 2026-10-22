@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-09-25T15:11:24.611606+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b9e45d0c70074388c28348767fd41cf15088ff81015a4d0f10568d550af85a2d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b000146-p000-bb5f1860a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source末尾“尋宗尋嫡更尋批理參皆玄機金書○卷一”存在断句错误，candidate误将“尋批理參”当作专名，正确断句应为“尋宗尋嫡更尋蹤，理參皆玄機，金書卷一”，导致该部分释读不符合原文语义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b000147-p000-be1cc48032",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "揆上",
+          "邽正",
+          "分貪"
+        ]
+      },
+      {
+        "id": "book029-b000148-p000-29f9de90f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“此龍多向南方澹北上衆山驚”断句有误，candidate误释为“这种龙的向多朝南，水势向北流淌”，“澹”为原文残损或讹字，无依据将“北上”关联为水势，属于无依据增译"
+        ],
+        "uncertainty": [
+          "澹"
+        ]
+      },
+      {
+        "id": "book029-b000149-p000-5951c56e2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "声萊匕",
+          "典磚城"
+        ]
+      },
+      {
+        "id": "book029-b000155-p000-50496d5a69",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中“然後生出六曜星貪武巨文廡祿輔”的“廡”为讹字，candidate误将其替换为“廉贞”，六曜星通常不含辅星，此处属于专业术语误增；source“五換六移出宰”被误释为“经过五次六次变换之后就能出将入相”，“出宰”指出任地方长官，并非“出将入相”，属于语义误译"
+        ],
+        "uncertainty": [
+          "欹亥"
+        ]
+      },
+      {
+        "id": "book029-b000156-p000-6b0fc8dab6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4688,
+    "completion_tokens": 582,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4688,
+      "completion_tokens": 582,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

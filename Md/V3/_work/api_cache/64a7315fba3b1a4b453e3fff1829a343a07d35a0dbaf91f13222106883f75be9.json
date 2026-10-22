@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T16:40:47.198742+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "64a7315fba3b1a4b453e3fff1829a343a07d35a0dbaf91f13222106883f75be9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000366-p000-4c8e1e679e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000369-p000-154404c926",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将《乾》卦的六爻释为‘六条龙’，不符合allowed_glossary中‘龙’的定义，属于专业术语误换"
+        ],
+        "uncertainty": [
+          "原文‘时乘六龙’的具体所指，因allowed_glossary未明确对应语境的解释，存在歧义"
+        ]
+      },
+      {
+        "id": "book016-b000370-p000-24cce218c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1439,
+    "completion_tokens": 232,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1439,
+      "completion_tokens": 232,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

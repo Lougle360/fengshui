@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-26T04:42:45.156839+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1e4702dc96db4e2218bd6eefe746c1951af8f4a984bc3a78866b8c11428466c2",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002241-p000-34b29864e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002242-p000-fc8afdfeb9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“出父子進士狀元官至禮部尚書子封新建伯”，候选将“父子进士状元”拆分为“父子进士，其中状元官至礼部尚书”缺乏依据，属于过度解读；原文“姚縣”与“餘姚”同属一地，候选重复表述为“位於餘姚縣，在姚縣”存在冗余且不符合原文语义逻辑；原文“柳家均”应为“柳家埠”类地名，候选直接沿用未标注，且原文未明确状元所属父子辈，候选认定为父系官至尚书属于无依据增译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002244-p000-3d0146fc86",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“壅十二年”并非“壅葬十二年”，“壅”在此处指培土修整，候选误译；原文“辛酉生探花公當時塟高一穴”应理解为辛酉年出生的探花公当初安葬在较高的穴位，候选表述通顺但“壅葬”属于术语误译；原文“雷雨送下一穴”释为“雷雨冲下另一穴”语义通顺无问题。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002246-p000-ec44d908c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002247-p000-256b06640c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兄第進士”应为“兄弟进士”，即兄弟二人皆中进士，候选释为“其兄弟中了進士”漏译“第”所对应的“及弟、中式”语义，且缩小了原文所指范围，原文是兄弟多人登科，并非仅单个兄弟中进士。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002249-p000-b217ae8547",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002250-p000-f01d560e11",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理恭贊玄機全書”应为“地理參贊玄機全書”，候选误写书名；原文“魏文靖公租地”应为“魏文靖公祖地”，候选修正正确，但原文“亦腰壬古記”属于断句错误，候选将“腰壬”拆分为“也有腰（此处具体所指不详）”“壬古記”属于断句失误，正确断句应为“亦腰金。古記：”，原文“腰”后脱“金”字，候选断句错误导致语义不通；原文“金釵斜挿鬢雙筆倒垂峰養男為宰相養女配三公”断句应为“金釵斜挿鬢，雙筆倒垂峰。養男為宰相，養女配三公。”候选断句错误，将“峰”与下文连读导致语义错误。"
+        ],
+        "uncertainty": [
+          "魏文靖公祖地相关内容存在缺字，“亦腰”处原文脱漏文字，部分语义无法完全确定"
+        ]
+      },
+      {
+        "id": "book029-b002251-p000-49f9998db2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002254-p000-97044f6f8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002255-p000-c1e1f275c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“酉辛龍轉亥辛入首巽向加辰”候选释为“巽（八卦之一）向（建筑或穴位所朝的方位），加辰巽巳丙水”属于断句错误，正确断句应为“巽向加辰，巽巳丙水朝入”，候选将“加辰”与水系表述连读，破坏了坐向的完整语义，“巽向加辰”是坐向的具体度数偏移，属于风水专业术语表述，候选断句失误导致术语结构错误。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2878,
+    "completion_tokens": 1200,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2878,
+      "completion_tokens": 1200,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

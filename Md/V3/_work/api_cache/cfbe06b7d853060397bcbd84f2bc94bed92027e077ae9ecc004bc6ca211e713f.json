@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-25T09:21:41.986010+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cfbe06b7d853060397bcbd84f2bc94bed92027e077ae9ecc004bc6ca211e713f",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002506-p000-c7832e008a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002507-p000-f5579436ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms「震」被释读为‘威势如霜，震撼人心’，未按要求保留原术语，且allowed_glossary明确「震」为八卦之一，此处释读不符合术语规范；原文「克池」应为「亢池」的形近误写，candidate已校正为「亢池」，符合文意，不属于误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002508-p000-06da3d3362",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms「向」此处是描述键闭星的朝向形态，不属于allowed_glossary中「建筑或穴位所朝的方位」的适用场景，应保留原表述；locked_terms「明堂」此处是星占语境中的星区对应明堂星官，不属于allowed_glossary中「穴前相对开阔、汇聚的空间」的适用场景，不应套用风水释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002511-p000-3ce86962a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms「龙」此处是指四象中的苍龙星象，不属于allowed_glossary中「风水中山脉、地势及气脉的来势和行度」的适用场景，不应套用风水释义；locked_terms「水」此处是指天江星对应的水事、水旱灾害范畴，不属于allowed_glossary中「风水语境中的河流、水系及其来去形态」的适用场景，不应套用风水释义；原文「大江」应为「天江」的形近误写，candidate已校正为「天江」，符合文意，不属于误译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2493,
+    "completion_tokens": 523,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2493,
+      "completion_tokens": 523,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

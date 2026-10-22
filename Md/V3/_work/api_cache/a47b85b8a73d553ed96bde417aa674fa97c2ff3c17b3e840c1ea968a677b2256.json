@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-23T08:44:22.103892+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a47b85b8a73d553ed96bde417aa674fa97c2ff3c17b3e840c1ea968a677b2256",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000115-p000-3c7209a906",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000119-p000-944e18ef91",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘壬癸來自兌庚’中‘兌庚’为两个方位（兑方、庚方）的并列，candidate译为‘来自兑方，庚金’将‘庚’解释为‘庚金’，改变了原文结构，属于专业术语误换或增译。",
+          "原文‘坎水迎歸寅卯’中‘寅卯’为两个方位（寅方、卯方）的并列，candidate译为‘寅卯方位’虽可接受，但‘领气之神’的翻译‘领气之神’未加引号或说明，可能使读者误以为是确定的神祇，建议处理为‘被称为‘领气之神’的格局’或类似表述，以明确其为术语或特定称谓。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 855,
+    "completion_tokens": 234,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 855,
+      "completion_tokens": 234,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

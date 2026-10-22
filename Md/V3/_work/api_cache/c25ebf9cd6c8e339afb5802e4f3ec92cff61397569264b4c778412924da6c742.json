@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-17T05:00:58.381670+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c25ebf9cd6c8e339afb5802e4f3ec92cff61397569264b4c778412924da6c742",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002606-p000-921d7075d6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘多止 主而不簡而不而不之不來之不如法入’存在严重错乱，语义断裂，无法准确释读"
+        ]
+      },
+      {
+        "id": "book035-b002612-p000-9e2171a76f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘人首京’解释为‘龙脉出身之处（文中‘人首京’三字语意不明）’，这是将不确定的原文片段（可能为‘入首’之误）进行了推测性解释，应改为直接引用原文并说明其含义不明。",
+          "候选句将‘八幹四’解释为‘八幹四’之上，但原文为‘八幹四之上’，‘八幹四’本身是一个不完整的术语，候选句未明确标注其含义不明，而是直接将其作为术语使用。",
+          "候选句将‘然天千水亦有清周之’解释为‘天干之水也有清浊之分’，其中‘清周’可能为‘清浊’之误，但候选句未标注此不确定性。",
+          "候选句将‘萬水盡從天上去群龍須向地中作’解释为‘万水尽从天上去，群龙须向地中作’，这是正确的引用，但后续‘这是将天地分开而言，不谈吉凶，因为这是秘密’是对原文‘以天地分之而不言吉凶蓋秘之也’的释读，可以接受。",
+          "候选句对‘賴氏曰’之后的大段错乱文字处理得当，说明了其无法通读，并列举了部分片段。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2094,
+    "completion_tokens": 375,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2094,
+      "completion_tokens": 375,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

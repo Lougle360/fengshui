@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T03:15:30.234993+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5bda83b5770dd861621ed443cf372e1f7c8ddf390c5c368b43e30997b4b3ef44",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001067-p000-e68b292def",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001070-p000-5ccad5e58d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“下碌”未作释读，也未标注为不明术语，普通读者无法理解含义；“买舍为易之”释为“买下渔人的房舍来替换这块地”表述不准确，原文是通过买渔人房舍的方式置换该地，不是单纯用房舍换地，存在表意偏差"
+        ],
+        "uncertainty": [
+          "“下碌”具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book018-b001073-p000-360a99c69f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2439,
+    "completion_tokens": 252,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2439,
+      "completion_tokens": 252,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

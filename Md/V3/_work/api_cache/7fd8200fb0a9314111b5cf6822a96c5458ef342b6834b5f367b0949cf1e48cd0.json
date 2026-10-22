@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:40:31.616613+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7fd8200fb0a9314111b5cf6822a96c5458ef342b6834b5f367b0949cf1e48cd0",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002128-p000-2540481c8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002129-p000-fdb6812193",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate漏译了原文中括号内的（居尊获助，终将）吉祥的相关说明，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002130-p000-28060d0448",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b002131-p000-85b418705c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1737,
+    "completion_tokens": 226,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1737,
+      "completion_tokens": 226,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

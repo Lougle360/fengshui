@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-25T10:10:05.377873+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "62ba4711716e3617a1438c6087f50cc0d8b0c2083bc9c2a61af7881dfc9edae6",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b003215-p000-6d9c965e85",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "董氏口诀中“更主儿孙多寿天”为误译，原文是“更主儿孙多寿夭”，存在字义反向错误，“寿夭”指短寿，“寿天”无此表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003219-p000-3878056b26",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003220-p000-5715c247c2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003221-p000-8bb34458b3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b003223-p000-fc759e33d9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原条目为二级标题“地理人子须知卷二十七”，候选将标题改写为说明性语句，不符合kind=heading需保留原标题内容及属性的要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4314,
+    "completion_tokens": 376,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4314,
+      "completion_tokens": 376,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

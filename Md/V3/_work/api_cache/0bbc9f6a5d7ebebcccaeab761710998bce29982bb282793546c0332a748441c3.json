@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-10-04T04:40:37.169764+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0bbc9f6a5d7ebebcccaeab761710998bce29982bb282793546c0332a748441c3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000490-p000-c250898238",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“文笔乃冲天火星”的确切含义是“文笔星就是冲天火星”还是“文笔星属于冲天火星”，原文存在歧义。"
+        ]
+      },
+      {
+        "id": "book035-b000491-p000-f3ab60669a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“攀奉”一词可能为“攀捧”或“攀拱”之误，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000494-p000-947e1f48e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘及四墓宫主有敎服之事’译为‘因为四墓宫主掌孝服之事’，但原文‘及’是连接词，意为‘以及’，并非表示原因。此句与前句‘孝帽若臨太墓勿謂無凶’是并列关系，而非因果关系。",
+          "candidate将‘孝帽山斜伸兩帶如在面前’译为‘孝帽山斜伸出的两条带状山体，就像在面前一样’，但原文此句与‘及四墓宫主有敎服之事’是并列的，共同描述‘孝帽’的特征或影响，candidate将其处理为对前句的解释，改变了原文结构。"
+        ],
+        "uncertainty": [
+          "“敎服”可能为“孝服”之误，指丧事；“两带”指两条带状山体，具体形态不详。"
+        ]
+      },
+      {
+        "id": "book035-b000500-p000-2899e2c9dc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘四山其中一山’译为‘四山之中有一山特别突出’，但原文此短语与‘小人中君子鶴立鷄群’是连在一起的，意为‘四山之中有一山（如鹤立鸡群）’，candidate将其拆分为两个独立句子，并添加了‘文中还提到’的过渡，改变了原文的连贯性。",
+          "candidate将‘咄峨者堤則帆中嶠好也’处理为独立晦涩短语并标注不详，但原文此句与‘君子中小人蓬生麻內’及后文‘惡者是君子中小人也’在结构上可能有关联，candidate的断句和解释可能割裂了原文逻辑。"
+        ],
+        "uncertainty": [
+          "“咄峨者堤則帆中嶠好也”原文断句和词义晦涩，无法可靠释读。"
+        ]
+      },
+      {
+        "id": "book035-b000502-p000-3044b7bae0",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“热弱”在风水术语中不常见，可能为“孱弱”或“弱”之误；中间一段文字严重错乱，无法释读。"
+        ]
+      },
+      {
+        "id": "book035-b000504-p000-65b4e37b0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“是生之者而有主不  有自之是”原文明显脱漏或错乱，无法确定其确切含义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1730,
+    "completion_tokens": 707,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1730,
+      "completion_tokens": 707,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

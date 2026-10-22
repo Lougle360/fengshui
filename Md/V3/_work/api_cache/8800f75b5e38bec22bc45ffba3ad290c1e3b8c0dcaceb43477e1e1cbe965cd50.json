@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:38:40.695246+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8800f75b5e38bec22bc45ffba3ad290c1e3b8c0dcaceb43477e1e1cbe965cd50",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000226-p000-11023c7d0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量残缺、错乱的字句，无法完整释读"
+        ],
+        "uncertainty": [
+          "表格内零散语句多为风水口诀或论述，因原文残缺错乱，无法完整通顺释读，仅能确认部分内容与风水格局、吉凶判断相关"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2957,
+    "completion_tokens": 101,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2957,
+      "completion_tokens": 101,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

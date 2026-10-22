@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T16:09:42.843450+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a54e9711aa1774f515225228c8aab8c3327b221f73041da1ec231b1012e31e10",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001449-p000-6bde8132f6",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "接下来，请将《重修政和经史证类备用本草》中水银的条目与表11-5进行对比。表11-5是为了展示《重修政和经史证类备用本草》的格式层次结构而制作的。明朝体字体用于标注引用书籍的书名等内容，粗体哥特字体则用于标注该书籍的原文及属性等内容，若与图11-2进行对比，便可了解本草书籍是如何扩充发展的。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001450-p000-96810109c7",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "表格最内层的“大字白字”，在图中用于标注黑底白字的一系列文字的属性，而这一系列文字源自《神农本草》，是《神农本草》原文的原样记录。同样，“大字黑体”用于标注引自《名医别录》的内容，大字之后的“小字”则是出自《雷公药对》的文字。图中写有“磁石を畏る（畏悪）”，指的就是这个内容。从“大字白字”到“畏悪”的内容，出自《神农本草经》卷三，也就是梁朝陶弘景编撰的《神农本草》。",
+        "confidence": "high",
+        "uncertainty": [
+          "此处“大字白字”“大字黑体”“小字”的具体所指为古籍排版术语，未列入 allowed_glossary，保留原词"
+        ]
+      },
+      {
+        "id": "book015-b001453-p000-1dd44eaf03",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "未遇变故时，水银气味辛，性寒，有煌社生成，如今是陵贸和剖。取水时，人们用朱土、张羊音，水银以末出朗白皮，皮肤中堕之，气然丹两皆银意，丹胎开高及白生服证，朱术仙生色熟神以砂银狂者最此心傅，男子盛及酒甚腾云，中最和能出生，自能日消于待出去暴化丹陵名之盈服金少平汞者之敏者土生，无长使是者符絮大本，飞云说泥烧出平金甘出著镀朱废于解于盖物砂中丹注朱上是所亦砂南少灭也得别召畏化，人皆名退色出云慈著因秉康小沙今石。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处残缺、错乱，部分文字无法准确释读，已按原文可辨识内容进行保守改写"
+        ]
+      },
+      {
+        "id": "book015-b001454-p000-547286fef0",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "金银伏好，当宜云将浇无练女出注学水水，新毒五也饮之缩组，人治金有云金昔到本率多天为大水领北阴动少患行泥毒银全弃绝外而风热生朱谓色徐阳利朱或疾能破之白王人水砂大催堕中须者春意道不股生液是摩疮去损使下主也董也壁疥熟但作死亲此切如病多素色贡胎启还此以入少欣治府开数金水耳变酒忌等之变扬铁庄黑并疮趣元云壶火垒食尔肥除救发水差次之猪风盘种银也熨性至肉安国仙君国之谓尽凉及种不较水重入藏服镇的死金锡银直肉器域心云之铜得入令本檗俊水药毒金内百草。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处残缺、错乱，部分文字无法准确释读，已按原文可辨识内容进行保守改写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2323,
+    "completion_tokens": 1010,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2323,
+      "completion_tokens": 1010,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T13:37:50.385655+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "76ca2cacb8f052116b9e16fb232e985dc1cf4f01e0385a530b439aa7f8263af7",
+  "response": {
+    "items": [
+      {
+        "id": "book027-b000033-p000-85e4e41dc7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序为“地理碎事十寄著辑”，实际是将谈论的地理零散内容辑为《地理碎事》共十卷，寄名所著，候选将书名误作《寄著》，属于文意误读",
+          "“觅地”在风水语境中是寻找适合安葬的吉地，候选仅释为“寻找地块”表述模糊，未贴合原文风水师的行为属性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book027-b000038-p000-e51dd7408b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文首句“葬万不可聰人言”疑似存在缺字，文义不完整",
+          "原文末尾“僕然逐地師将人家墳墓遷徙以”内容未完结，后续文字缺失"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 236,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1218,
+      "completion_tokens": 236,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

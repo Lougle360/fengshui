@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T14:15:05.112408+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "91dc9b3bf89c3e59d51cadefd46069186a7c48516ca75e5c1b82e60f21429537",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000684-p000-81dab8ed03",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "5) 原文内容为：有人报案称自家米铺被盗，丢失一斛三萝米，萝都装满了，记不清具体数量。现在左壁的萝剩下一合米，中间的篱剩下一升四合米，右壁的萝剩下一合米。后来抓获盗贼共甲乙丙三人。甲说当夜摸到马杓，在左壁的篱里舀米装进布袋；乙说踢到木履，在中间的篱里舀米装进袋；丙说摸到漆椀，在右边的篱里舀米装进袋。他们把米拿回家食用，时间久了就记不清丢失的具体数量了。搜查到三个器具，马杓的容量是一升九合，木履的容量是一升七合，漆椀的容量是一升二合。想知道丢失的米数，以及追查赃物后判决时三名盗贼各应承担多少罪责。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000685-p000-b7f49a3fe3",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "6) 算法说明：用大衍之法来求解。列出三个器具的容量作为元数，依次求它们的最大公约数，约简后得到定母；将定母相乘得到衍母；分别用定母约简衍母，得到衍数；各衍数分别除以定母取余数，得到奇数；用奇数和定母按照大衍之法求得乘率；用乘率乘以衍数，得到用数；接着分别用各处剩下的米数乘以对应的用数，相加得到总数；总数除以衍母取余数，余数就是每个篱里的米数；再分别用各处剩下的米数减去这个余数，得到的差值就是甲乙丙各自盗窃的米数；将三人盗窃的米数相加，就是总共丢失的米数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000686-p000-9cfe839e0c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "7) 整数a、b的最大公约数用(a, b)来表示。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000688-p000-b142e0485f",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "9) 仅当(n, m) = 1时，r_{k-1} = 1。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原公式符号的含义需结合上下文数学知识确认，此处仅按符号字面对应翻译"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1827,
+    "completion_tokens": 672,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1827,
+      "completion_tokens": 672,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-10-17T17:01:49.298999+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ced3b3d9f5e1f30d587437badad8c379887ab7771a1f5ebf29e514f054175ffc",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004128-p000-97d0dc0857",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "页码标注错误。source中“百十二鬼名流沙沙出主”所在行末尾有页码“53”，candidate将其置于开头作为整段页码，但后续内容（百十三至百十六）在source中并无页码“53”的标记，candidate未说明此页码仅对应百十二鬼星部分。",
+          "漏译“患”和“华”字。source中“百十五鬼名蚩尤”前有“患”字，“百十六鬼名曰一星尖”前有“华”字，candidate完全未提及。这些可能是标记或分类符号，但漏译属于不完整。",
+          "术语处理不当。source中“钓轴旌铖”在candidate中被处理为“象征‘钓轴旌铖’，具体所指不详”，这符合opaque_terms的处理方式。但source中后续有解释“秉柜轴而坐庙堂出則賜旌毓而专征代”，candidate释读为“在朝堂之上掌管典籍，出外则受赐旌旗，专掌征伐”，这实际上是对“柜轴”和“旌毓”的明确解释，超出了仅保留原短语并标注不详的边界，属于无依据的扩写。应将此解释移除或明确标注为推测。",
+          "数字/名称不准确。source中为“百十六鬼名曰一星尖”，candidate释读为“名为白芒”，但source中“曰”后可能为“白芒”，candidate直接补全为“白芒”而未标注原文模糊，存在风险。且后续解释中明确提到“白芒一星名”，candidate处理为“名为白芒”尚可，但最好标注原文为“曰一星尖”。",
+          "存在轻微增译。如“若人得此星”、“能飞黄腾达”等补充，虽为形成句子，但“能飞黄腾达”略显主观扩写。",
+          "结构信息丢失。source以表格形式呈现，candidate改为纯文本叙述，丢失了原文的并列分栏结构信息，但鉴于kind=html且目标为白话释读，此问题可接受。主要问题在于页码、标记漏译和术语的过度解释。"
+        ],
+        "uncertainty": [
+          "原文‘钓轴旌铖’具体所指，candidate给出了明确解释，但依据不足，应保留原短语并标注不详。",
+          "原文‘曰一星尖’可能为‘白芒一星尖’的省略，candidate直接补全为‘白芒’，存在OCR误读或补全的风险。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2501,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2501,
+      "completion_tokens": 592,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

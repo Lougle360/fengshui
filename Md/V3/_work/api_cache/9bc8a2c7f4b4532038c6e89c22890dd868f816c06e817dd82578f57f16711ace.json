@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-25T09:04:47.033691+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9bc8a2c7f4b4532038c6e89c22890dd868f816c06e817dd82578f57f16711ace",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002869-p000-48534ff396",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002873-p000-a5d14d5e3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文幕外贵人对应原文内容中误写为'模外贵人'，属于形近字错误，与源文术语不一致"
+        ],
+        "uncertainty": [
+          "侍讲贵人条目原文语序混乱，‘忌外，如人在帘幕外立也’的具体指向不明确",
+          "马上贵人条目‘星辰清加’原文表述残缺，含义不明",
+          "模外贵人（应为幕外贵人）条目原文仅存‘木星在水星数重山’，内容不全"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2887,
+    "completion_tokens": 217,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2887,
+      "completion_tokens": 217,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T11:52:43.801416+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "17f99c0466a6bee628f74b941124570a9df358f8d497d9bd13d36d4f0c83d30f",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000227-p000-60d6c93520",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000228-p000-8565cc9516",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book014-b000229-p000-1eee35ef4a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文含混的短语\"奇文大才\"\"精所\"\"谓然\"\"足其休因\"\"00\"等直接释为确定含义，未标注其具体所指不详或原文未明"
+        ],
+        "uncertainty": [
+          "奇文大才，具体所指不详",
+          "精所，具体所指不详",
+          "谓然，具体所指不详",
+          "足其休因，具体所指不详",
+          "00，原文未明具体含义"
+        ]
+      },
+      {
+        "id": "book014-b000231-p000-2e948dfa0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2909,
+    "completion_tokens": 305,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2909,
+      "completion_tokens": 305,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

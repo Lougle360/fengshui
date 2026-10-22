@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-24T21:44:40.587379+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "112c0c5f747b924efb27be0c6961eb45068f52d34ffd74d043acc921c14369e2",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000446-p000-325c7f6bf9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“義至”未准确释读，“独缺而藏正氣”释读为“只是唯独缺少并藏纳正气”逻辑矛盾，与原文含义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000447-p000-51e87cb09f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000448-p000-7b205bc131",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“向”的定义为建筑或穴位所朝的方位，候选句将“向”释为“朝向、向……学习”的动词义，不符合术语规定，属于专业术语误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000450-p000-ba7e066b77",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“十送”释读无依据，“伝穴”属于未转换的日文汉字，“尺主尽切氏云”释读错误，原文句末“0”属于OCR识别残留，不应保留"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000451-p000-8cbd559ac2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将古文转换为通顺的现代中文，普通读者无法理解“裁星曲流神，识别吉来”的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000453-p000-56c5cbdda7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“裁底”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000454-p000-c90aaa121a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不禮面不謂胸不斜み”“卯因れ陰氣一節”中的日文假名未作处理，不属于正常中文；“未尽幼说”释读错误，原文“心眼指夏”已明确是《心眼指要》的OCR错误，候选句既保留错误写法又在uncertainty中将“心眼指夏”列为不详内容，属于矛盾；allowed_glossary已明确“震”是八卦之一，uncertainty中不应将“震”列为所指不详的内容"
+        ],
+        "uncertainty": [
+          "“洗竹初”“姓播公”“卯因れ”“陰氣一節”等内容具体所指不详，按原文保留"
+        ]
+      },
+      {
+        "id": "book017-b000455-p000-79f075df81",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“之言之顏從未未見吾者者暇当易詳”属于OCR识别错乱，候选句释读为“所说的道理，我从未见过”无依据，属于无根据推测"
+        ],
+        "uncertainty": [
+          "原文OCR识别错乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b000456-p000-8107d664f8",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文语义不明，无法形成有效释读"
+        ],
+        "uncertainty": [
+          "“神任他平地與者”语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000457-p000-67c21d09be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“平漢龍書”断句错误，应为“《平漢龍書》”，候选句误拆为“平旷之地，《汉龙书》”；原文“其理一级”释读为“对应的寻穴道理是一样的”无依据；原文句末“0”属于OCR识别残留，不应保留"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2381,
+    "completion_tokens": 1042,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2381,
+      "completion_tokens": 1042,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

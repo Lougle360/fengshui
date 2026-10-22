@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T20:39:11.586294+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d6be799018bfd56abcfd6f2cfe7b2b67f62b56a0df387f1718ab9bcd61d9e3b8",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001514-p000-8458d76345",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001515-p000-87076fea68",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在缺字错乱，如“自一 而萬参天两地參伍錯綜左旋右歸變化無窮也總觀其 啚負象太極分觀其象中一太極別陰陽偶兩儀也”部分断句及文字存在歧义，已按可辨识内容保守改写"
+        ]
+      },
+      {
+        "id": "book029-b001516-p000-dbf45852eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“二八少陰居東南”被误释为“二少阴居东南”，漏失数字“八”，语义不完整"
+        ],
+        "uncertainty": [
+          "原文存在缺字错乱，如“陰居西兆象啚右畔陽極陰生自卷一六除啚象天春夏陽秋冬陰東南少陽西北太陰亦乾始坤成之意也”部分断句及文字存在歧义，已按可辨识内容保守改写"
+        ]
+      },
+      {
+        "id": "book029-b001517-p000-2a12866239",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001519-p000-34563e1b18",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "圖極太佐卦天先具体含义不明，xF内容无法识别"
+        ]
+      },
+      {
+        "id": "book029-b001521-p000-4998a36afb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“伏羲氏畫卦本畫也而為文字之祖”被释读为“伏羲氏画卦，本是作为文字的始祖”，漏译“本画也”的含义，语义有遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001522-p000-9ca433cdbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“離王”实为“離三”的笔误，释读正确但未标注原文讹误风险；原文“山川章木”被释为“山川草木”，“章”字未说明是否为讹字；原文“八外象成”被释为“八种卦象由此形成”，补入原文未有的“八卦相错”表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001523-p000-b7500aa2ac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文标题为“後天卦位太極圖”（倒读），被误译为“先天卦位图”，“後天”与“先天”语义相反，属于严重误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001526-p000-bea2d7e70d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“次序之說與圖”语义未完整，释读为“次序之说与河图无关”属于无依据增译；原文末尾“卷七 八”被释为“卷七八”，属于无依据合并标注，应保留原文标注形式并说明可能为页码或卷次标识"
+        ],
+        "uncertainty": [
+          "原文存在缺字错乱，如“文王演易所以發明先天之用也演演於蓍蓍以六畫成象觀變成占與一經次序之義了不相關次序之說與圖地理恭贊玄機全書 卷七 八”部分断句及文字存在歧义，已按可辨识内容保守改写"
+        ]
+      },
+      {
+        "id": "book029-b001527-p000-dededefa7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3818,
+    "completion_tokens": 1062,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3818,
+      "completion_tokens": 1062,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

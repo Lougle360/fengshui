@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-24T08:18:10.831414+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "03c0a5e1ef4e8002adbf1fe81b980e9406a7ea02690807b9618a94c5916a26b2",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000134-p000-54ccbc88fd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的推测性表述（如‘看似有动静之别’‘虚银之类似根而非根’）确定为事实，属于无依据扩写；对‘應歸曾至’‘暗則故’等含混短语未标注具体所指不详，违反风险标注要求；部分术语未按allowed_glossary释义，如‘穴’未采用风水气脉聚结位置的定义，且存在语句不通顺问题（如‘心遇阳而旺’‘暗則故’）"
+        ],
+        "uncertainty": [
+          "應歸曾至的具體所指不详",
+          "暗則故的具體所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1682,
+    "completion_tokens": 183,
+    "cached_prompt_tokens": 1336,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1682,
+      "completion_tokens": 183,
+      "cached_prompt_tokens": 1336,
+      "usage_estimated": false
+    }
+  ]
+}

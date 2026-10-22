@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:05:04.775273+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b5181f51ab07c7b68efc81d74c77316bd26088052182e13aec61ab59ce290eef",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000518-p000-8f24dbcda7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "甲对应北极，乙对应京师，天项上甲乙两点相距五十度五分；丙丁为赤道，戊为太阳，甲戊为夏至时太阳的位置，太阳距北极六十六度三十分，也就是戊己的余量；戊庚为高弧，庚辛为太阳的位置，辛的经度距午位七度三十分，也就是庚乙辛角。用弧三角形法（见前文）求得戊甲乙角为二度二十六分，也就是丙已弧。方法见考：太阳距午赤道度变时得十分，用这个数值减去午正时刻，得到午初三刻五分为太阳到达午方的时刻；用这个数值加午正时刻，得到午正初刻十分为太阳到达丁方的时刻。其余情况可依照此方法推算。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000519-p000-4b69736036",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "太阳到方时刻表",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000521-p000-209c283152",
+        "language": "mixed",
+        "content_type": "html",
+        "action": "preserve",
+        "modern_text": "<details data-ocr-status=\"unverified\">\n<summary>机器 OCR（密集表格，保留供搜索；未经逐格校勘）</summary>",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000522-p000-fd238eb35b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "地平方位对应癸丑、艮（八卦之一）、寅、甲、卯、乙、辰、巽、己、丙、午、丁、未、坤（八卦之一）、申、庚、酉、辛、戌、乾（八卦之一）、亥、壬、冬。分：500898002064001，卡3。与6刻3、初231、初131、初1122222、初1332、初至时初正正正初正初正正正初正初正初正正初初正初正初初。壬子、子、壬、丑、丑、寅、寅、卯、辰、己、己、午、午、未、未、申、酉、戌、亥、子。4902354、101、11001、101、o、0刻3、初231、初132、初1221、初1331、初寒雪时初正正正初正初正正正初正初正初正初切初正初正初初。王子、子、于、丑、丑、寅、寅、卯、辰、己、己、午、午、未、未、申、酉、戌、戌、交、庚、弟、大小。分：414160564344231、10、0011100、一、九日五九四初正正初初正初初正正初正初正初正初初正正初正正。地平方位对应癸丑、艮（八卦之一）、寅、甲、卯、乙、辰、巽、己、丙、午、丁、未、坤（八卦之一）、申、庚、酉、辛、戌、乾（八卦之一）、亥，主立立分：390532948941、16726353256、1、00年子、王、丑、丑、月、寅、卯、卯、辰、巳、年、午、未、未、申、酉、酉、戊、寅、亥、寅、17646783469227892984两霸分：00刻3131、初132、初132332、初13、初2332、切水降时。王子、子、丑、丑、寅、寅、卯、辰、辰、己、己、午、午、未、未、申、申、甲、酉、戊、戊、灾、庚、王、二。188773、7o、0、0313、初321、初12、初22、初蟄露时。SECEECEEEREEEEEGEE、王子、子、丑、丑、寅、寅、卯、辰、己、己。",
+        "confidence": "medium",
+        "uncertainty": [
+          "部分日文原文存在OCR识别错乱，部分内容语义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2152,
+    "completion_tokens": 1188,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2152,
+      "completion_tokens": 1188,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

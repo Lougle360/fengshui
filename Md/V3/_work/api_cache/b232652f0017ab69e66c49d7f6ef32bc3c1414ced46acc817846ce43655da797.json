@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T09:27:11.038544+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b232652f0017ab69e66c49d7f6ef32bc3c1414ced46acc817846ce43655da797",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000303-p000-f28fa164f4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的‘血昧’确定为‘血脉流贯’的前提，属于无依据的扩写；‘当取料’未按原文标注的不确定性处理，直接释读为‘当取料’，未明确其含义不确定；‘必要从後棄也’未按原文标注的不确定性处理，直接释读为‘必要从后弃也’，未明确其含义不确定；‘脉侧’‘漫骨穴’未按原文标注的不确定性处理，直接释读为确定的穴位名称，未明确其含义不确定"
+        ],
+        "uncertainty": [
+          "原文中‘当取料’含义不确定；原文中‘必要从後棄也’含义不确定；原文中‘血昧’含义不确定；原文中‘脉侧’含义不确定；原文中‘漫骨穴’含义不确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 224,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1071,
+      "completion_tokens": 224,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-09-25T01:39:08.772391+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6b5553642faa464f3dfe005ababe48830e457f9d2039eb5fa20d990a1c558804",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000829-p000-3ddfe92edd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000830-p000-c3eca85edf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文首句为“微州汪侍 即祖 地”，候选误写为“徽州汪侍的祖地”，存在形近字错误与擅自补字；源文“金视银槽”含义不确定，候选未标注风险直接沿用，属于无依据认定；源文“张氏下一地合此格”前原接“最忌槽中太深，钳”，候选将“钳槽，俗呼金视银槽，亦曰玉箸夹馒头”错误置于合钳合格条件段落内，语序调整导致语义逻辑不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000831-p000-c96cf39fea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000833-p000-0f5012c9ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000834-p000-82dc97f032",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000837-p000-1cd363afd7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000838-p000-0455dd396f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000839-p000-d3c1db7646",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文仅到“复扦闪”即止，候选擅自补出“乳之上，才得到正穴”，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000840-p000-eaae724474",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000841-p000-d6719a602c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4337,
+    "completion_tokens": 700,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4337,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4337,
+      "completion_tokens": 700,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

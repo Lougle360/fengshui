@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T10:14:15.746969+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "0510b8d6d64384337b20851437f1084721318e4cf419f5f0c24c474785cb0d4c",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000631-p000-be3a57bb20",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘千寅’‘兄’‘四基’的讹误及含义标注为确定事实，未按要求标注为不确定或存疑"
+        ],
+        "uncertainty": [
+          "四基具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000632-p000-65ff83bc3d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘凢’‘束方’的讹误标注为确定事实，未按要求标注为不确定或存疑"
+        ],
+        "uncertainty": [
+          "贞吉在术数语境中的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 175,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1404,
+      "completion_tokens": 175,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

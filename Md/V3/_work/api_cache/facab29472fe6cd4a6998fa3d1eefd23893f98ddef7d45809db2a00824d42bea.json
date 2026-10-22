@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T18:03:28.437361+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "facab29472fe6cd4a6998fa3d1eefd23893f98ddef7d45809db2a00824d42bea",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001554-p000-743bae7b48",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary中术语\"向\"的定义为建筑或穴位所朝的方位，此处释为\"靠近\"，属于专业术语误换"
+        ],
+        "uncertainty": [
+          "allowed_glossary中术语\"向\"的定义为建筑或穴位所朝的方位，此处原文中\"向\"的含义与该术语定义不符，需调整释读以匹配术语定义或明确说明此处\"向\"的含义与allowed_glossary中的术语定义不同"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 950,
+    "completion_tokens": 146,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 950,
+      "completion_tokens": 146,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

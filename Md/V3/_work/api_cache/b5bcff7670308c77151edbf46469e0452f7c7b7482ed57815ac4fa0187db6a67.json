@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T01:23:41.903705+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "b5bcff7670308c77151edbf46469e0452f7c7b7482ed57815ac4fa0187db6a67",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001330-p000-6321dbb032",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“类禍祈祷”为专有祭祀术语，不应直接保留；“公民之相”原文为“公侯之相”，属于专有术语误换；locked_terms中的“离”作为八卦术语，译文中“这是一个离娄也”未按要求保留“离”的术语属性，“离娄”为古代明视者称谓，此处不能直接直译；locked_terms中的“龙”对应“隆准龙颜”的“龙”，错误使用了allowed_glossary中的风水“龙”的释义，此处“龙颜”指帝王/公侯相貌，不属于风水术语，属于术语误用；译文中“一只羊的栏圈，客人到来时就有人死”翻译错误，原文“一栏之羊，宾至而有死者”指同一栏的羊，有客人来就有羊死去，属于语义错译；原文末尾“严备自”为残句，译文无端补出“像老虎还是能追上他，占卜没有什么用处。还说能成就相命。如果说单豹占卜后得以脱身，本来就没有遭遇虎灾的相，占卜就是虚妄的话。如果说凡是有命的人，都应当通过占卜来成就，那么世上有终身不占卜的人，都失去相命而短命吗？如果说占卜也是相命的一部分，那么占卜是相命中的一种，怎么能说用来成就相命呢？像这样，不知道占卜筮草应当和相命相通相成，还是不应当各自独立进行。”属于超出原文字数的无依据增译，违反译介规则。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001331-p000-f6e29356c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“龙”对应“龙颜”的“龙”，错误使用了allowed_glossary中的风水“龙”的释义，此处“龙颜”指公侯相貌，不属于风水术语，属于术语误用；译文中“一定是说让懂相术的人闭目向前”翻译错误，原文“必谓当吉人之瞑目而前”指应当是吉人不自觉地前往，属于语义错译；“由此说来，不是人验证住宅，也可以明白”翻译错误，原文“非从人而征宅，亦成人明矣”意为不是由人来验证住宅，而是住宅能成就人，属于义理反译；原文末尾“吉宅缺”为残句，译文仅标注省略即可，无错误，但前文错误需修正。"
+        ],
+        "uncertainty": [
+          "原文此处有缺字，无法确认具体内容"
+        ]
+      },
+      {
+        "id": "book001-b001332-p000-80c025fdfb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4719,
+    "completion_tokens": 681,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4719,
+      "completion_tokens": 681,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

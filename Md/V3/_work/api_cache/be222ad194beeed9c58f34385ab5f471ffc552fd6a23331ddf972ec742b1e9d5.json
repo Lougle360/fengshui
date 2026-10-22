@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-25T19:55:14.748545+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "be222ad194beeed9c58f34385ab5f471ffc552fd6a23331ddf972ec742b1e9d5",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000679-p000-4fe5cb226e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000680-p000-831f6a7041",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文后半段有残缺"
+        ]
+      },
+      {
+        "id": "book030-b000681-p000-b2a031e00e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文后半段有残缺"
+        ]
+      },
+      {
+        "id": "book030-b000683-p000-7ee8cfd449",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000684-p000-900224370a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000686-p000-6b151490b7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“举右知左”被误译为“由此可知右边的形势，聚气的情况”，语义完全偏离原文；原文的“聚”属于《玉斧》卷三“机砂十六”的标题前缀内容，不应拆分到上文释义中"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000687-p000-189d8b47fe",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“一砂”是泛指砂体，candidate将其与“龙、虎”并列作三类事物，属于误读；原文“开收之”被误译为“收聚”，漏译“开”的含义；原文“乘之”被误译为“放弃不用”，属于语义反转，风水中“乘”是利用、取用的意思，此处应为“不能因为水流顺流就贸然取用”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000688-p000-92e1a0782b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“冠冕”属于风水形势术语，不能直接译为“冠冕堂皇”，此处属于无依据的通俗化解释，应保留原词并标注含义不明或作保守释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000689-p000-5439879ce6",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明"
+        ]
+      },
+      {
+        "id": "book030-b000691-p000-07882c254d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文语义零散，不成完整语句"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2191,
+    "completion_tokens": 719,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2191,
+      "completion_tokens": 719,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

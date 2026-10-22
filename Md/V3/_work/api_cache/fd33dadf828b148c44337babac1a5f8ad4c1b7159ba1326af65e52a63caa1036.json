@@ -1,0 +1,114 @@
+{
+  "created_at": "2026-09-25T18:21:08.989230+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fd33dadf828b148c44337babac1a5f8ad4c1b7159ba1326af65e52a63caa1036",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000269-p000-c75749d276",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000270-p000-3bf1e3f0ef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾的「書」字被漏译",
+          "「發其同課」释为「發起同課」缺乏依据，原文「其」的指代未明",
+          "「愛蒙暨庠哀士勢王」含义不明，未标注不确定性，直接作为参与参订的主体属于无依据认定"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000271-p000-1cb22d5396",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000272-p000-8aac954bda",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000273-p000-331ad05ffb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「故舊得地氣或於或後」释为「因此舊時認為地氣有時在龍前，有時在龍後」无依据，原文未提及「龍前龍後」，属于增译",
+          "原文「不能自玉」释为「不能自己顯現」无依据，「自玉」含义不明，未标注不确定性",
+          "原文「人善承之則吉賜廟人不善承之則内則以其易故也」释读错误，漏译「賜廟」，「內則」含义不明，未标注不确定性，直接释为「帶來災禍」属于无依据认定",
+          "原文「周易言吉凶海吝生乎動」的「海吝」应为「悔吝」的讹写，candidate直接释为「悔吝」未标注原文讹误风险",
+          "原文「亦垣動」「不恂其何雁入首時而轉紇」「又入棘巽」「用一卯龍有砂水見于乾多者」等残损、语义不明部分，未标注不确定性，直接释读属于无依据认定"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000274-p000-0961db01a2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000275-p000-e30d5c02b7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000277-p000-01d5b50279",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「有砂水聚干漸由者」释为「有砂水聚在漸位的情況」无依据，「漸由」含义不明，未标注不确定性",
+          "原文「忌者爲四爲爾」释为「忌的就會帶來災禍、凶運」无依据，「四爲爾」含义不明，未标注不确定性",
+          "原文「天施功飛夫倡婦隨」释为「天施地生、夫唱婦隨」无依据，「功飛」含义不明，属于增译",
+          "原文「而之近遠可十」释为「由此可以判斷龍脈的遠近」无依据，漏译「可十」，含义不明未标注",
+          "原文「改吉人曰」的「改吉人」身份不明，未标注不确定性"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000278-p000-efc824cb85",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000279-p000-3256390186",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头「一鑑水論分合」被认定为《一鑑水論》书名属于无依据，原文未明确是书名",
+          "原文「合前合後及兩傍氣止水交」释为「要等到前水汇合、后水汇合，加上两侧气止、水交汇的情况都满足」属于增译，原文未提及「都满足」的条件，属于无依据补充"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3420,
+    "completion_tokens": 1085,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3420,
+      "completion_tokens": 1085,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

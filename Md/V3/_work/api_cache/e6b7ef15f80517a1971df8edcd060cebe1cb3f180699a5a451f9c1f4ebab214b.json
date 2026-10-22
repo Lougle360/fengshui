@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-17T18:18:03.295134+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e6b7ef15f80517a1971df8edcd060cebe1cb3f180699a5a451f9c1f4ebab214b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004315-p000-b2423b16cb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘又是相公居職位武因大德有成功’中，‘武因’应为‘武臣’之误（OCR或原文讹误），candidate将其作为不确定短语‘武因’处理，未指出可能为‘武臣’之误，导致语义不通。",
+          "原文‘更無夷秋龍實伏立穴安堵得此眞’中，‘夷秋’应为‘夷狄’或‘夷酋’之讹（OCR或原文讹误），candidate将其作为不确定短语‘夷秋’处理，未指出可能为‘夷狄’之误，导致语义不通。",
+          "原文‘安堵’是‘安居’、‘安定’之意，并非含义不明，candidate标注为‘含义不明’属于误判。",
+          "原文‘林源出幕官’中，‘林源’应为‘林泉’之误（OCR或原文讹误），指山林泉石，常代指隐居或与官场相对的环境，candidate将其作为不确定短语‘林源’处理，未指出可能为‘林泉’之误，导致语义不通。",
+          "candidate将‘拜笏案’解释为‘风水术语，指案山形状’，属于超出allowed_glossary的无依据扩写。",
+          "candidate在解释‘御屏’时，将原文描述‘四角分明在目中’释读为‘清晰可见于眼中’，属于可接受的浅显释义，但整体因多处关键术语误译和未处理讹误，需修订。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 849,
+    "completion_tokens": 359,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 849,
+      "completion_tokens": 359,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

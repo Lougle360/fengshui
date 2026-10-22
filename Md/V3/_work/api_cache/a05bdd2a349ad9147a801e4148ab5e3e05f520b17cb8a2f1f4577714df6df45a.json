@@ -1,0 +1,185 @@
+{
+  "created_at": "2026-09-23T10:31:50.059825+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "a05bdd2a349ad9147a801e4148ab5e3e05f520b17cb8a2f1f4577714df6df45a",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000314-p000-cc370e30e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000315-p000-6d14f00590",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘八曜卽坎龍坤兌震居猴異雞乾馬兌殘頭艮虎離術曜之 尅制之煞也’为八曜的具体解释，candidate释为‘所谓八曜，即指坎龙、坤兑、震居猴、巽鸡、乾马、兑残头、艮虎、离术，这些是曜煞克制之煞。’其中‘坤兑’、‘震居猴’、‘巽鸡’、‘兑残头’、‘离术’等组合的断句和对应关系存在歧义，且原文‘異雞’（异鸡）被释为‘巽鸡’，‘離術’（离术）被释为‘离术’，这些是opaque_terms，不应被赋予确定的八卦对应关系。candidate将其作为确定解释写出，不符合要求。应保留原文组合短语，并说明其具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000316-p000-18c2d862c8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000317-p000-97953192b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000318-p000-b0d5f67420",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000319-p000-6dfe28ae57",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾‘土入经下 卷之 九’疑似为卷次或出处标记，非正文内容，此处保留原意但语意稍显突兀。"
+        ]
+      },
+      {
+        "id": "book003-b000320-p000-68d58c0cd7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000321-p000-ac22efe425",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000322-p000-800832b7e6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘依月砂狀蛾眉而斜是低長臥屍砂低小長直頭 高頭低者是也’是对两种砂形的描述。candidate释为‘依月砂，形状如蛾眉而斜，是低长卧尸砂；低小长直、头高头低，是卧尸砂。’此释读将‘依月砂’与‘卧尸砂’的描述混在一起，且‘依月砂’本身是opaque_terms，不应被赋予‘偃月砂’的确定含义。应更清晰地分开描述，并保留‘依月砂’原词。",
+          "原文‘不容死扛屍 則主刑戮’语义晦涩。candidate释为‘立刻主害人，不容死扛；尸则主刑戮。’其中‘不容死扛’含义不明，candidate直接采用，未加说明。应指出此短语具体所指不详。"
+        ],
+        "uncertainty": [
+          "原文‘死扛’一词在风水语境中较为生僻，可能为‘死扛’或特定术语，此处依字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000323-p000-f826fd2ef8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000324-p000-992e156c67",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘曜地逢刀武則陣下又則罪戮’语义不通顺，可能为传抄错误。candidate释为‘而曜地逢刀武，则阵下又则罪戮。’此释读基本直译，未对明显不通之处进行风险标注或说明。应指出原文此句可能存疑或传抄有误。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000325-p000-7ac20fd483",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "‘乙展交加’具体所指不详，可能为特定术语或排版异体，此处保留原词。"
+        ]
+      },
+      {
+        "id": "book003-b000326-p000-d82883744e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘不飄孟鉢藩坤申爲僧尼乞丐’语义断裂。candidate释为‘立应不飘。孟钵藩坤申，为僧尼乞丐。’此释读将‘不飘’与‘孟钵藩’作为独立短语处理，但未说明其含义不明。‘不飘’、‘孟钵藩’是opaque_terms，不应被当作普通词汇释读。应指出这些短语具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘不飘’、‘孟钵藩’等词在风水语境中含义不明，可能为特定术语或传抄讹误，此处依字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000327-p000-ae4d6edca6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000328-p000-b7f2e95f7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000329-p000-be4e2d22c0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘更葫蘆砂見千其方則藥不離口矣’中‘千其方’语义不明。candidate释为‘更葫芦砂见千其方’，直接沿用，未加说明。应指出‘千其方’具体所指不详。",
+          "原文‘恐驁蘇之稱’中‘驁蘇’语义不明。candidate释为‘恐骜苏之称’，直接沿用，未加说明。应指出‘骜苏’具体所指不详。"
+        ],
+        "uncertainty": [
+          "‘千其方’、‘骜苏’等词在风水语境中含义不明，可能为特定术语或传抄讹误，此处依字面直译，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book003-b000330-p000-0bc6c5deae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000331-p000-957e4bc0c1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000332-p000-009b7d75b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book003-b000333-p000-da21fd3751",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4309,
+    "completion_tokens": 1583,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4309,
+      "completion_tokens": 1583,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

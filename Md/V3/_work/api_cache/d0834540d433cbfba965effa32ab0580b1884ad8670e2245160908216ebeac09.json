@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-04T06:31:56.752491+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d0834540d433cbfba965effa32ab0580b1884ad8670e2245160908216ebeac09",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001500-p000-9ef356b517",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为表格，candidate将其合并为连续段落，丢失了原文的并列结构（如‘格貴1.2’、‘貴砂’、‘煮砂’等标题及分栏信息）。",
+          "‘簾慎遺人’、‘披疑貴人’、‘木里’、‘慎外貴人’等opaque_terms在candidate中未加引号或明确标注为原文未明，而是直接作为确定术语使用。",
+          "‘中格龍陞朝侍從及駙馬妃后儀矣長’一句，candidate释为‘中格龍陞朝侍從及駙馬、妃后儀矣長’，‘儀矣長’含义不明，candidate未标注不确定性。",
+          "‘上格龍主道壽惟帳’一句，candidate释为‘上格龍主道壽惟帳’，含义不明，candidate未标注不确定性。",
+          "‘中格龍主典大藩方向重臣’一句，candidate释为‘中格龍主典大藩、方向重臣’，‘方向重臣’含义不明，candidate未标注不确定性。",
+          "‘賤龍主維職’一句，‘維職’含义不明，candidate未标注不确定性。",
+          "‘中格龍主完名全節、高壽’一句，原文为‘完名全節高壽’，candidate添加顿号分隔，属于可接受的浅显释义，但需注意。"
+        ],
+        "uncertainty": [
+          "原文为表格格式，释读为段落时，部分对应关系可能不精确。"
+        ]
+      },
+      {
+        "id": "book033-b001502-p000-eb568cf342",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001503-p000-3d7586b589",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘上 馬 宜正格 上砂貴 貴人 宜水口’结构松散，candidate将其整合为‘上馬宜正格。上砂貴貴人，宜在水口。’，将‘上砂貴貴人’连读，可能改变了原文的断句和含义。原文可能意指‘上砂貴’和‘貴人’是并列或修饰关系。",
+          "‘為王’含义不明，candidate未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001504-p000-c2f2e4e11b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "‘人貴門龍宜素’一句，candidate按字面译出并标注了不确定性，符合要求。",
+          "‘文武金才’一句，candidate按字面译出并标注了不确定性，符合要求。"
+        ],
+        "uncertainty": [
+          "‘人貴門龍宜素’及‘文武金才’等表述较为晦涩，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b001505-p000-875cdf3510",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘中格龍主典大藩及當多才座僕馬尼；主文馬及木匠。’，candidate释为‘中格龍主典大藩及當多才座僕馬尼；主文馬及木匠。’，将‘主文馬及木匠’与前文并列，但原文‘主文馬及木匠’前无主语，可能指代不明或为另一条目的开始。candidate未处理此结构歧义。",
+          "‘當多才座僕馬尼’、‘主文馬’等词义不明，candidate虽标注了不确定性，但释读为‘當多才座僕馬尼’和‘主文馬’仍属猜测，应更明确地指出原文可能错漏或不可解。"
+        ],
+        "uncertainty": [
+          "原文‘當多才座僕馬尼’及‘主文馬’等词义不明，可能是特定术语或严重错漏。"
+        ]
+      },
+      {
+        "id": "book033-b001506-p000-2bcd5728d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001507-p000-c77e0c99a0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001508-p000-0423aa9691",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3528,
+    "completion_tokens": 994,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3528,
+      "completion_tokens": 994,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

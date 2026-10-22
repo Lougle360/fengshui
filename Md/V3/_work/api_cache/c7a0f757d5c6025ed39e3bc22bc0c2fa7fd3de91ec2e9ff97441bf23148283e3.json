@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-04T04:45:00.487969+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c7a0f757d5c6025ed39e3bc22bc0c2fa7fd3de91ec2e9ff97441bf23148283e3",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000507-p000-2f84b66717",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000508-p000-f18c82344e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'看塡宅之旁草木馮'，candidate 释为'可以作為判斷填宅旁吉凶的先兆'，将'塡宅'（可能指填塞或修建宅地）和'草木馮'（可能指草木凭借/依凭）的含义进行了推测性扩写，超出了保守释读范围。应保留原文含混短语并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000509-p000-2357c27098",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文'須防東屈西伸最怕左牽右拽'，candidate 补出主语'水'，但原文并未明确指水，可能指山形或其他，此属无依据扩写。2. 原文'議之建于 前二后乃頗盛寺豈足爲嫌此忌來水邊及虎頭'，candidate 释读为'關於此忌諱的議論，若建於前方，後方氣勢頗盛，寺廟本身不足為嫌；此忌諱主要針對「水」邊及虎頭方位。'，将'前二后'推测为'前者，後'，并将'寺豈足爲嫌'的'寺'认定为'寺廟'，均属推测，且将不确定解释写成了确定事实。应保留原文的断裂状态并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000510-p000-8b2b19c61c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'古木擅場驚見雷霆之擊 此言妖邪或穴古豕之中或伏'，candidate 释为'古木在場中受驚，見到雷霆擊打，這是說妖邪或「穴」位於古豕之中，或伏藏於此。'，将'擅場'释为'在場中受驚'不准确（'擅場'通常指压倒全场或占据场地），且将'或伏'后文缺失的内容直接补为'于此'，属无依据扩写。应更保守地处理断裂语句。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000511-p000-f82606c07c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "诸耻柱馆耦之事"
+        ]
+      },
+      {
+        "id": "book035-b000512-p000-0798ce4368",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000513-p000-6d5473a7d9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文'泣者主生災'，candidate 将其并入前句，释为'「水」流凄涼悲切、如哭泣之聲，主生災禍。'，此处理可以接受，但需注意这是对原文的整合。2. 原文'母有 內之 也'，candidate 释为'母有內之也'并保留，但未明确标注其含义不明，应将其列为不确定性内容。"
+        ],
+        "uncertainty": [
+          "母有 內之 也"
+        ]
+      },
+      {
+        "id": "book035-b000514-p000-3384effa4f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在大量疑似OCR错误或日文混杂的片段（如'山才之訂君少事ネ留心四顧'、'叱頗之磊有幷民人于禍可不成散'），candidate 选择完全照录而不做任何释读，这不符合V3目标'普通读者能读懂的白话释读'。对于这种严重损坏的文本，应尝试进行最保守的、基于可识别部分的释读，或直接判定为无法释读。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000516-p000-dd7582846f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "三十六六六法",
+          "两而非服穴之未非有矣",
+          "道明而不而也",
+          "十氏主贵之矣",
+          "之两明三十次法可"
+        ]
+      },
+      {
+        "id": "book035-b000517-p000-9f541cf8e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "之以滅蜜國謂之滅蜜經"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2598,
+    "completion_tokens": 1107,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2598,
+      "completion_tokens": 1107,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-25T03:19:28.866288+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e68cf7d9c43dc959c737d3c5f5908cfa31373c9ba050a3531d230c1213f55287",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000067-p000-2b4cebb446",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book020-b000068-p000-90b0105c9f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文表述为“或左或右或前或腰”，候选误增“或后”，属于内容添加错误",
+          "原文“此一體而不分者也”，候选误译为“这就是同一形体却有不同的情况”，与原文含义相反"
+        ],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book020-b000069-p000-fad312c6f4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“以其有氣而無氣也”存在文意矛盾，候选直接释为“因为它有气却没有固定的形”属于无依据增译，应标注原文存疑",
+          "原文“帶飽而不開面”，候选误译为“带着饱满却不展开”，“开面”为风水术语，不应省略，可保留原词并标注含义待考",
+          "原文“論氣者須於觀之得力”，候选误译为“论断气的人必须在观察时能有所领悟”，未准确对应原文含义，“得力”无依据替换为“有所领悟”"
+        ],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现",
+          "“以其有氣而無氣也”原文表述存在矛盾，含义待考",
+          "“開面”为风水专名，具体含义未明"
+        ]
+      },
+      {
+        "id": "book020-b000070-p000-7bf691f633",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000071-p000-c9767edcf5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蓋帳不開龍不窠”，候选误译为“因为帐不开，龙就不会停留”，“窠”无依据替换为“停留”，属于释读错误",
+          "原文“泥九不滿”，候选保留“泥九”，但原文应为“泥丸”，属于未修正可识别的形近讹字，也未标注讹误"
+        ],
+        "uncertainty": [
+          "“龍不窠”的“窠”此处用作动词，具体含义待考",
+          "“泥九”应为“泥丸”的形近讹字"
+        ]
+      },
+      {
+        "id": "book020-b000072-p000-b463223112",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“輪暈之說何昉乎”，候选误译为“轮晕的说法起源于哪里呢”，“昉”为“起始”义，但此处属于无依据增译，原文仅提及轮晕之说，未询问起源，应改为“轮晕的说法是怎么来的呢”或保留原义，不应直接释为“起源于哪里”",
+          "原文“若非蓋帳之龍不為純陰必為孤露”，候选误译为“如果不是有盖帐的龙，不是纯阴就是孤露”，风水语境中无盖帐的龙应为纯阳或杂气，此处“不为纯阴”翻译错误，与原文含义相反"
+        ],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现"
+        ]
+      },
+      {
+        "id": "book020-b000073-p000-5ffabfa02d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“故龍之結束氣處不可不細”，候选译为“因此龙的结束气之处，不能不仔细”，句子成分残缺，属于未完成现代中文转换，应补为“因此龙的束气之处，不能不仔细辨认”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000074-p000-d72d487803",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现",
+          "“五星靈城精義”表述突兀，疑似引用书名或篇章名，具体所指不详"
+        ]
+      },
+      {
+        "id": "book020-b000075-p000-15b9edcf41",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文此处残缺，内容未完整呈现",
+          "“撞火木”“水土豈能粘”含义晦涩，上下文不足无法准确释读"
+        ]
+      },
+      {
+        "id": "book020-b000076-p000-06e6530508",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4060,
+    "completion_tokens": 1114,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4060,
+      "completion_tokens": 1114,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

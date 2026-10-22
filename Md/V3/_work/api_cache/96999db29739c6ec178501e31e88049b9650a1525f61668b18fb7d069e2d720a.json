@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T09:17:53.963723+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "96999db29739c6ec178501e31e88049b9650a1525f61668b18fb7d069e2d720a",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000193-p000-07e2cc35e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000194-p000-49b0f5ea5d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "这句话过于简略，语义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000195-p000-0dc2ad918c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在断句错乱、文字残缺的情况，候选释读对残缺内容的处理未明确标注，存在将残缺内容按完整内容释读的风险"
+        ],
+        "uncertainty": [
+          "原文存在断句错乱、文字残缺的情况，部分内容语义模糊，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1349,
+    "completion_tokens": 238,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1349,
+      "completion_tokens": 238,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

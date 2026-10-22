@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T11:09:28.352841+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "af14cc41133af787361ce918ce8875b8b47b1b8df984d4bde21647700f3b0b9e",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000098-p000-04bd2e1665",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000099-p000-a0a8088eef",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000100-p000-3fe9daa07a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000101-p000-8956e7ac9c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "释读不完整，未明确“论述却过于”的具体所指，原文“論交而太過”应为论述交合（或交媾）之事却过于（过度），释读过于简略模糊"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 243,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1221,
+      "completion_tokens": 243,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

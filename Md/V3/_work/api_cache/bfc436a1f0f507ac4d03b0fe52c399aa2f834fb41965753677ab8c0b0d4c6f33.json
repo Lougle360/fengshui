@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T08:27:17.439171+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bfc436a1f0f507ac4d03b0fe52c399aa2f834fb41965753677ab8c0b0d4c6f33",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000214-p000-5de554acef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原句开头的两类主体，原句是“有的像龙、有的像鸾鸟”，候选误写为“（龙）有的像鸾鸟”，歪曲了原句并列喻体的结构"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000215-p000-b52f11b2e8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000216-p000-65cad7d343",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000218-p000-157fc1d01e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000219-p000-db67b9a4cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000221-p000-929f27b239",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000222-p000-60aea3bb80",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译原文的“纳诸圹中”，候选仅写“容纳于其中”，未明确是收纳到墓穴之中；“一部精神”未完整体现指整体精神气场的含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000224-p000-9bd31d9e43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000225-p000-a792d2fecd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000227-p000-226d1aa553",
+        "verdict": "uncertain",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“虎”属于风水专业术语，未在allowed_glossary中给出定义，候选的表述未明确此处“龙虎”是风水地形的特定指代，普通读者可能误解为动物；“主客”具体指风水语境中的哪类地形主体原文未明确说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2568,
+    "completion_tokens": 648,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2568,
+      "completion_tokens": 648,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

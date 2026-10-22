@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:53:39.190240+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d73612fadec3cda0422c813c6aa27aa35e4e1577566b8b7492b6af0247dc842d",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000930-p000-61a46daf3b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「一十二十四卦」应为「一千二十四卦」，候选译文中误写为「一十二十四卦」；原文部分卦名、数字对应关系混乱，候选未标注该不确定性"
+        ],
+        "uncertainty": [
+          "原文中部分卦名、数字对应关系混乱，具体所指无法确定"
+        ]
+      },
+      {
+        "id": "book015-b000931-p000-aa2423d297",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中「陽圗」应为「陽圖」，候选译文中误写为「陽圗」；原文部分卦名、数字对应关系混乱，候选未标注该不确定性"
+        ],
+        "uncertainty": [
+          "原文中部分卦名、数字对应关系混乱，具体所指无法确定"
+        ]
+      },
+      {
+        "id": "book015-b000932-p000-3c247b4e4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000933-p000-9195af67bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1946,
+    "completion_tokens": 344,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1946,
+      "completion_tokens": 344,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

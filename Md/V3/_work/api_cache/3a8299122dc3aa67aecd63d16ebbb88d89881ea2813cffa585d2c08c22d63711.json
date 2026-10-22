@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-09-24T17:32:15.833990+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3a8299122dc3aa67aecd63d16ebbb88d89881ea2813cffa585d2c08c22d63711",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001028-p000-f71fc9be90",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中《说文》的内容是“冯，无舟渡河也”，候选误写为“渊，无舟渡河也”，属于原文引用错误"
+        ]
+      },
+      {
+        "id": "book016-b001029-p000-6de4e90fde",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001030-p000-ca858e3f08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001031-p000-fd16ff88a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1884,
+    "completion_tokens": 233,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1884,
+      "completion_tokens": 233,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

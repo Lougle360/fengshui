@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T19:34:55.039846+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "05d3e7b83e3e3c88e4e2f0658ee771d74bb075bc194300e113511e7a8cbc2ddc",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002837-p000-b530be336f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在断句、文字讹误，候选释读未对应原文的错误情况，且将原文讹误内容强行释读为通顺内容，不符合原文实际状态"
+        ],
+        "uncertainty": [
+          "原文中‘受益至多应该努力施有于之平险的事务’存在断句、文字讹误，具体所指需结合《象传》原文进一步确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 838,
+    "completion_tokens": 125,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 838,
+      "completion_tokens": 125,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

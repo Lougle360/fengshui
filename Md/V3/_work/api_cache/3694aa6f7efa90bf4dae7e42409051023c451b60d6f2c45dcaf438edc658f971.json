@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-04T11:59:35.554314+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "3694aa6f7efa90bf4dae7e42409051023c451b60d6f2c45dcaf438edc658f971",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000836-p000-c1b2000677",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文‘顺冯而直淫去而无亦土之情此’被简化为‘若顺其势而直去，淫去而无亦土之情，此乃原文所述’，未能完整传达原文结构，且‘顺冯’未译出，‘此’的指代未处理。",
+          "反义/误译：原文‘皆鬼’被释为‘皆属鬼’，但结合上下文‘势如流水生入皆鬼’，‘鬼’可能指‘鬼气’或凶煞，但candidate未明确标注此不确定性，直接当作确定事实陈述。",
+          "增译：candidate添加了‘这是游走缓慢的龙脉’作为对‘游慢之龙也’的解释，虽属浅显释义，但原文‘游慢’可能指‘游荡缓慢’，candidate的‘游走’可接受，但整体释读因上述问题需修订。"
+        ],
+        "uncertainty": [
+          "‘鬼’具体指代不详，可能指凶煞之气",
+          "‘淫’指水流漫溢还是过度不详",
+          "‘无亦土之情’具体含义不详",
+          "‘顺冯’含义不详"
+        ]
+      },
+      {
+        "id": "book035-b000838-p000-5f149b5b82",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "candidate将极度错乱的原文片段逐一列出并说明‘具体所指及逻辑关系不详’，符合处理OCR损坏或原文混乱文本的规范，未进行无依据的连贯释读或扩写。"
+        ],
+        "uncertainty": [
+          "原文文字极度错乱，无法连贯释读",
+          "所列短语的具体含义均不详"
+        ]
+      },
+      {
+        "id": "book035-b000839-p000-1f45157f48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘寅、申、巳、亥’与‘四势’的具体对应关系原文未详加解释"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1690,
+    "completion_tokens": 460,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1690,
+      "completion_tokens": 460,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

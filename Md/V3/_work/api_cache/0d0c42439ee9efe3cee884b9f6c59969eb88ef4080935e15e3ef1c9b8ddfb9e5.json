@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-10-15T03:56:20.593121+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "0d0c42439ee9efe3cee884b9f6c59969eb88ef4080935e15e3ef1c9b8ddfb9e5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001104-p000-1090b0198d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'于官为东宫属僚为外成潙幸臣为推恩为任子为京官'，candidate译为'在官职上属于东宫属僚，在外成事上属于受宠幸的臣子，在推恩任子上属于京官'，将'外成'与'潙幸臣'拆开并增译'在外成事上'，改变了原文并列列举官职/身份的结构。'潙'可能是'为'的异体或误字，应保留原文的并列关系。'推恩'、'任子'是古代选官制度，candidate合并为'推恩任子'并解释为'属于京官'，属于无依据的扩写和确定化解释。",
+          "原文'于家为漬白'，candidate译为'在家庭上表现为清白'。'漬'字可能为'清'的异体或误字，但原文用字不同，应标注不确定性。",
+          "原文'好由庚酉辛乾乐庚丙壬'，candidate译为'经由庚、酉、辛、乾方位为吉，以庚、丙、壬为乐'。'好由'应指喜好、吉利经由这些方位，candidate的'经由...为吉'表述不够准确。'乐'指这些方位带来安乐，candidate的'以...为乐'表述稍显别扭。"
+        ],
+        "uncertainty": [
+          "'漬白'的'漬'字具体含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b001105-p000-3114208cb5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'于官为侍臣为佐贰为暮目'，candidate译为'在官职上属于侍臣、佐贰或幕僚'。'暮目'应为'幕目'，即'幕僚'，但candidate将'或'字加入，改变了原文并列列举的关系。",
+          "原文'好亥竺子癸'，candidate译为'喜好亥、竺、子、癸'。writer_uncertainty已标注'竺'字不明，但candidate正文未作任何标注，直接列出，应像处理其他opaque_terms一样，在正文中明确标注其不确定性。",
+          "原文'乐寅申巳亥'，candidate译为'以寅、申、巳、亥为乐'。'乐'指这些方位带来安乐，candidate的'以...为乐'表述稍显别扭。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001107-p000-2d0e61f909",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'于官为转连为抗治为市舶为权货'，candidate译为'在官职上属于转连、抗治、市舶、权货'。'转连'、'抗治'、'权货'含义不明，candidate未作任何标注，直接当作确定官职列出，属于无依据的确定化解释。应标注这些术语具体所指不详。",
+          "原文'乐辰戈丑未'，candidate译为'以辰、戈、丑、未为乐'。writer_uncertainty已标注'戈'字不明，但candidate正文未作任何标注，直接列出，应明确标注其不确定性。",
+          "原文'国表正寅位'，candidate处理正确，在正文中说明'具体所指不详'，并在uncertainty中列出。",
+          "原文'于家为安康为双妾为双生为蓄子孙为足财畜为多奴婢'，candidate拆分为'在家庭上表现为安康，在妾室上表现为双妾，在生育上表现为双生，在蓄养子孙上表现为足财畜，在奴婢上表现为众多'。将'蓄子孙'与'足财畜'合并为'在蓄养子孙上表现为足财畜'，改变了原文的并列结构。'足财畜'可能指充足的财产和牲畜，candidate的译法不够清晰。"
+        ],
+        "uncertainty": [
+          "'转连'、'抗治'、'权货'具体所指不详。",
+          "'戈'字含义不明。",
+          "'足财畜'具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1881,
+    "completion_tokens": 946,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1881,
+      "completion_tokens": 946,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

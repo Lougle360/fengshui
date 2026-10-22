@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T12:02:43.193435+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f2e12972f7371791eb76f7c9129d7f63f4f98bc615cc89ac77cb57cb887d3571",
+  "response": {
+    "items": [
+      {
+        "id": "book024-b000876-p000-8c5df5d297",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文漏译“箭财”表述，存在信息遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000878-p000-3446b1f0ad",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未完成古白话文转换，仅直接抄录原文，不符合普通读者读懂的释读要求"
+        ],
+        "uncertainty": [
+          "原文语义模糊，部分内容难以明确解读"
+        ]
+      },
+      {
+        "id": "book024-b000879-p000-6efe020cf0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地贝凶殃”表述漏译，且原文“北”字未作合理处理，存在信息遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000881-p000-65f3796b11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000883-p000-65996bd75c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未完成古白话文转换，仅直接抄录原文，不符合普通读者读懂的释读要求；“穴”属于locked_terms且allowed_glossary有对应释义，未补充释义"
+        ],
+        "uncertainty": [
+          "原文语义模糊，部分内容难以明确解读"
+        ]
+      },
+      {
+        "id": "book024-b000884-p000-2856340e05",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000889-p000-5648838e68",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000890-p000-144923b436",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000892-p000-ff34412731",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“葵”字未作合理处理，存在信息缺失；原文“投自溢”应为“投水自缢”类含义，释作“投水自尽”虽偏差不大但原文表述对应性不足，且漏译“信行男”前的“一”相关表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book024-b000895-p000-0037931fb7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未完成古白话文转换，仅直接抄录原文，不符合普通读者读懂的释读要求"
+        ],
+        "uncertainty": [
+          "原文语义模糊，部分内容难以明确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2237,
+    "completion_tokens": 720,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2237,
+      "completion_tokens": 720,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-26T03:16:25.259573+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "872a6c3599c9663b1e2647dc5bed76acd08ccecbbef9f7fe9c0a75e36f2762bc",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001939-p000-dada2f17ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“官水去长流御街”指官水往御街方向长流，候选释为“官水长流如御街”存在语义偏差，改变了原句“水去（流向）”的含义，且误将“御街”作为水流形态的喻体，不符合原文表述"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001940-p000-b5105d624b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001941-p000-4a784953bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“文官長流束甲”前缺“水”字，属于原文断句遗漏，候选直接保留表述不严谨；“天一榦步”释为“天一斡步”无依据，“榦”的含义存疑，不应直接改写为“斡”；“文官穴金盤荷兼”中“兼”字未释读，候选直接补“形”属于无依据增译"
+        ],
+        "uncertainty": [
+          "“金盤荷兼”的“兼”具体所指不明，“天一榦步”含义不详"
+        ]
+      },
+      {
+        "id": "book029-b001942-p000-82308de2dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001943-p000-8810bb1361",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001944-p000-4c63d33d9a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“武官穴頃旗出陣”候选释为“武官穴出阵时顿旗”存在错误，“頃旗”为风水相关术语表述，不应擅自改写为“出阵时顿旗”，属于无依据增译且改变原义"
+        ],
+        "uncertainty": [
+          "“頃旗出陣”具体所指不明，“水红旗印信”含义不详"
+        ]
+      },
+      {
+        "id": "book029-b001945-p000-e12b07240a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001946-p000-a83b33fe38",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“穴怕臨墳水装”候选释为“穴怕临坟水注”错误，“装”不应擅自改为“注”；原文“穴惟 如鎗覆磬”断句错误，应为“穴怕如枪覆磬”，候选将“怕”写为“惟”属于讹误；原文“穴怕斜口乂砂怕石露牙”断句错误，候选断为“穴怕斜口乂砂，怕石露牙”不符合原句“穴怕XX，砂怕XX”的并列结构，断句偏差导致语义错误"
+        ],
+        "uncertainty": [
+          "“壁上挂灯”“水装”“斜口乂”“如枪覆磬”“鬼神秽厌”“寺观坐古”“火城交剑”具体所指需结合风水专业语境进一步确认"
+        ]
+      },
+      {
+        "id": "book029-b001947-p000-6aeec1d4cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001948-p000-883eca73ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“久後少見孫”候选释为“久后少见子孙”属于无依据增译，原文仅为“少見孫”，不应补“子”字；“朝者怕偃”未明确主语，属于释读不清晰，结合上下文应为“朝砂怕偃”，但候选未作说明也未补全必要信息，普通读者无法理解"
+        ],
+        "uncertainty": [
+          "“朝者怕偃”的“朝”具体指朝砂还是其他不明，“角瓜”“落灯”“富不坚”“扦”的含义普通读者可能不理解，未作必要说明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2677,
+    "completion_tokens": 1134,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2677,
+      "completion_tokens": 1134,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

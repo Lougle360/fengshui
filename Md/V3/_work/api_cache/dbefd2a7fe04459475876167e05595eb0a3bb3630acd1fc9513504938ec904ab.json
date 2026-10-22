@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-17T17:18:03.307126+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dbefd2a7fe04459475876167e05595eb0a3bb3630acd1fc9513504938ec904ab",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004147-p000-12a1f10233",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘其貴出者謂無’释为‘其中尊贵者出现，被称为无’，此释读与原文‘鬼之说有二其貴出者謂無’的常见理解不符。原文可能意指‘鬼’的说法有两种，其中一种（或指‘贵出’者）被称为‘无’。候选句的释读未能准确传达此意，且‘尊贵者出现’的表述缺乏依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004148-p000-4d98b36fa8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004149-p000-35e165794e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文严重错乱，候选句进行了大篇幅的推测性重构，超出了‘保守释读’的边界。虽然标注了不确定性，但大量内容（如‘鬼多则气散，若鬼少则气聚’、‘鬼说耗类’意指鬼多则耗泄生气等）是译者基于风水理论的推测，原文的错乱排列无法支持这些具体解释。"
+        ],
+        "uncertainty": [
+          "原文排列错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b004150-p000-9088131dc2",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文排列错乱，候选句试图串联出逻辑，但‘观察鬼怪奇异之形，在于其脉所在’、‘因为鬼是依据五行之形来定名的，所以其形不定’等释读，是将零散字句强行组合并赋予确定含义，缺乏原文支持。"
+        ],
+        "uncertainty": [
+          "原文排列错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b004151-p000-112413796b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004152-p000-78e7a6c94a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将‘古今伸纵全’释为‘古今皆通，纵论全篇’，属于过度意译。‘伸纵’在此语境下含义不明，可能指‘伸展纵横’或‘详细论述’，但‘纵论全篇’是译者添加的解释。应更保守地处理，或标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004153-p000-43f1b6b000",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004154-p000-7f2847bd4f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文严重错乱，候选句进行了大篇幅的推测性重构，如‘鬼情交会于地’、‘鬼是地之证’、‘鬼之吉凶，在于其是否得地之理’等，都是基于风水理论的推测，原文的错乱字句无法支持这些具体论述。"
+        ],
+        "uncertainty": [
+          "原文严重错乱，无法进行可靠的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b004155-p000-7eb871570c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004156-p000-04b35a66df",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将‘鬼不可中指作外客也’释为‘鬼不可中指作外客也’，保留了‘中指’这一不明表述，但未做任何说明。根据上下文，此处‘中指’很可能为‘中位’、‘中气’或‘中间’之误。候选句直接照搬，未进行必要的风险标注或合理推测，导致释读不通。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2953,
+    "completion_tokens": 940,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2953,
+      "completion_tokens": 940,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

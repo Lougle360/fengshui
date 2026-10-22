@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:37:33.001615+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "192f152def8200968645778f370cbf4a87b4341612b082b0ea68fddd76351201",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000859-p000-493668b3b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中部分干支、卦象的对应关系未明确，释读按原文顺序整理，具体含义依语境确定"
+        ]
+      },
+      {
+        "id": "book010-b000860-p000-d72174eb61",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将‘坎珂’释为‘坎’字属于无依据的推测，原文‘珂’字未明确为衍文或讹误，不应直接删除或替换"
+        ],
+        "uncertainty": [
+          "原文中‘坎珂’含义存疑，‘珂’字疑为衍文或讹误，已按‘坎’字保留并保守处理"
+        ]
+      },
+      {
+        "id": "book010-b000861-p000-83253aa117",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000862-p000-e1310f6ca4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "表格中部分内容的对应关系存疑，已按原表结构及可辨识内容整理"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 310,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2031,
+      "completion_tokens": 310,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

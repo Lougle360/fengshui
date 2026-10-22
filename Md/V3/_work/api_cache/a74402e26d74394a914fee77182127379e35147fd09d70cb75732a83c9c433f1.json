@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-25T03:37:10.014374+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a74402e26d74394a914fee77182127379e35147fd09d70cb75732a83c9c433f1",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000109-p000-4e7bb6dd14",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“小明”二字未译出，存在漏译；原文“此亦形穴之所不相者”释为“这类地势不符合形穴的常规标准”表述欠准，“不相”应是不具备形穴的典型形貌特征，此处表述虽无错但未准确对应原文语义倾向；原文“一惟會其精神所聚之意”的“一惟”译为“只”虽可，但未体现出古人唯一的判断依据的意味，不过属于可接受范围，主要问题是末尾漏译“小明”"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000110-p000-18d30b0b59",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“溪風掃來”被误释为“溪水冲刷、风直吹进来”，存在语义拆分错误，“溪风”是指溪边吹来的风，并非溪水冲刷；原文末尾“氣正”二字未译完，存在漏译；原文“下脈處雖亦有來龍發到”译为“下脉处虽然也有来龙延伸到前方”表述不够准确，“发至”是来龙延伸到此处的意思，不过整体偏差不大，核心问题是“溪风”误译和末尾漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000114-p000-0eb0166b54",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“局而宽圆”为笔误，应为“局面宽圆”，属于候选文本录入错误；原文“而非幹中之幹”被误写为“而非干脉中的主千”，存在错别字，“主千”应为“主干”；原文“樂吒”属于未明确的风水术语，候选未标注所指不详，存在无依据保留风险；原文末尾“譬如都邑”未译完，存在漏译"
+        ],
+        "uncertainty": [
+          "化生之恼具体所指不详",
+          "乐吒具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2258,
+    "completion_tokens": 508,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2258,
+      "completion_tokens": 508,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

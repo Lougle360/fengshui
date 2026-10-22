@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-24T06:53:17.062271+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6911f337caf55b5acf697f2d8241e2d3bde6f1f77e9e65965511547ca981e4f2",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001427-p000-511db10a18",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“不须兴工起事”的主语是子宅、午宅相关所有兴工，不是仅“居于午宅的人”；原文“已酉”被误写为“己酉”，干支用字错误；原文“动静殊致”指人动静（兴工/空居）受灾程度不同，不是太岁“动态和静态状态下造成的影响各不相同”；原文“非天从岁月神意之道也”释读错误，原义是“（这种因太岁方位受灾的说法）并不是上天会顺从岁月神意志的道理”，候选释读逻辑偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001430-p000-fa9a60a7c0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“病不安嬖，幸乳母野王君主圣舍”断句错误，正确断句为“病不安，嬖幸乳母野王君王圣舍”，候选错误添加“安帝宠爱的”“太子曾前往暂住”，属于无依据增译，篡改了原文语义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001432-p000-85d02680de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "佇廊的具体建筑形制不详"
+        ]
+      },
+      {
+        "id": "book001-b001433-p000-20da8f2108",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“坎”是指土坑、凹陷，allowed_glossary中“坎：八卦之一”不适用于此处语境，候选虽未直接解释坎，但此处坎并非八卦术语，属于术语适配错误；原文“浮屠泓师与张说市宅”是泓师为张说相看/购置住宅，不是“一同购置住宅”，语义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001434-p000-352ba93a16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“坎陷”的“坎”是凹陷义，allowed_glossary中“坎：八卦之一”不适用于此处语境，术语适配错误；原文“疮痛”应为“疮痏”（疮伤），候选直接沿用“疮痛”未做符合现代汉语的通顺处理，且释义偏差。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001435-p000-9b56414415",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“五害”具体所指原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2637,
+    "completion_tokens": 713,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2637,
+      "completion_tokens": 713,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

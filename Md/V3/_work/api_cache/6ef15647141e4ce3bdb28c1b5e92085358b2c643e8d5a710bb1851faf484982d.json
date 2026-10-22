@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T12:19:06.673107+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6ef15647141e4ce3bdb28c1b5e92085358b2c643e8d5a710bb1851faf484982d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000614-p000-639e5799b0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000615-p000-ab8c07cb0f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000617-p000-703f3d9c56",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文中\"暈巾\"疑为OCR讹误，无法确定其准确含义，暂按推测改写"
+        ],
+        "uncertainty": [
+          "原文\"暈巾\"的准确含义无法确定"
+        ]
+      },
+      {
+        "id": "book014-b000618-p000-5ffb9791b8",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR残缺错乱，部分文字难以完全辨识，改写内容存在推测成分"
+        ],
+        "uncertainty": [
+          "原文存在OCR残缺错乱，部分文字无法准确辨识"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1265,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

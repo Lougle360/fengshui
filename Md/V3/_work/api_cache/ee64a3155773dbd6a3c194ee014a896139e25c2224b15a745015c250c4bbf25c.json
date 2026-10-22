@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-24T12:14:47.552509+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ee64a3155773dbd6a3c194ee014a896139e25c2224b15a745015c250c4bbf25c",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000520-p000-c9a0d98b13",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘隱陛’并非‘隐伏如城堞’，‘陛’指台阶，此处‘隱陛’应指隐于台阶状地形，‘讀主’应为‘讀書’，‘川’应为‘點穴’，候选句存在误改原文字词的问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000522-p000-2ec6ac452c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘艮水’指八卦艮对应的水势，候选句释为‘八卦之艮对应的水势’虽符合术语定义，但‘如如箭’并非‘都要顺应自然’，‘如如’为‘如同’之意，‘提盆如盆中財水’释读有误，‘提盆’指平势如提水之盆，‘財水’指聚财之水，候选句存在误释"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000526-p000-80881e3a74",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 332,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1442,
+      "completion_tokens": 332,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

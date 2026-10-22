@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:59:25.004387+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c089076f8ffa70062d577ffe3240c0a6a635171dc18ae38452820cc1e5594b2b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000105-p000-f416809afa",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate存在断句错误，如‘迎是隨卷先出來’‘戒隨迎朝來聚集’‘衛是護尤’‘虎皆在衛中救’‘只將四者撥前秋’等句的断句不符合原文语义逻辑，且‘秋’‘井’‘護尤’‘虎’等原文未明确的术语被直接释读，未标注不确定性"
+        ],
+        "uncertainty": [
+          "原文中‘典’‘秋’‘井’‘護尤’‘虎’等术语具体所指不详，原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 166,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1025,
+      "completion_tokens": 166,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

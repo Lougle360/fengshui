@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-26T14:31:10.311154+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3fef237e1350ac9c12eb7ae2b2d500d36d322fa9d30ba8f2e9fe39791e69bf75",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000070-p000-5c25ecde8d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文未解释“七鬯”为祭祀用秬鬯，candidate添加无依据解释；2. 原文“与戌言”无证据表明“言”为“合”讹误，candidate推测无依据；3. 原文“吕后如之府”无证据表明“如”为OCR讹误、“吕后”为星宿名，candidate推测无依据；4. 原文“口月”无明确OCR讹误证据，candidate直接判定为“日月”不符合保守原则；5. 原文“天子希政之言”无证据表明是“发布政教号令的处所”，candidate添加无依据解释；6. 原文“曰之方”candidate未按要求保留存疑说明，解释无依据。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000072-p000-c496880117",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“占巽向”未提及“占”是风水术语，candidate添加无依据解释；2. 原文“十前”无证据表明为庚向或辛向讹误，candidate推测无依据；3. 原文“西向”无证据表明为酉向，candidate直接判定不符合保守原则；4. 原文“恶入来了”candidate改为“恶煞来犯”无原文依据；5. 原文“祸咎绳门”candidate改为“灾祸接连到来”属于无依据意译，违背原文表述；6. 原文“身上红红县绿”candidate改为“红绿斑驳”属于无依据意译，不准确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000073-p000-ec7f4371fb",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文开头无“乙木”二字，candidate擅自添加无依据；2. 原文“四卜岁”无明确OCR讹误证据，candidate直接判定为“四十岁”不符合保守原则；3. 原文“有生育乎无生育乎”candidate改为反问句并添加“当然不能生育”的主观判断，违背原文；4. 原文“阴水上”无证据表明为“阴水去”形误，candidate直接判定无依据；5. 原文“自损大”为残缺，candidate擅自补为“自损三千”无原文依据，违背保守原则；6. 原文“铜函经”未标注书名号的依据，candidate添加书名号无明确支持。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000075-p000-14561f091d",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“大阳”无明确证据为“太阳”，candidate直接判定不符合保守原则；2. 原文“天下绵花朝亭布广贤女多贞”无证据表明“绵花”为“棉花”通假、“朝亭”为“朝廷”讹误，candidate的解释和补全无原文依据，属于擅自添加内容。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000081-p000-46724dba5e",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文“辰在地支五位之尊”是指位次尊贵，candidate改为“排第五位，地位尊贵”语义偏差；2. 原文“大開帳嘆”candidate改为“大开帐幕”不准确，“嘆”字存疑未说明；3. current提及“极小者数星”属于错误添加，但candidate也未准确反映原文“小則數十 下”的残缺情况，且current对缺漏的说明更符合保守原则。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000083-p000-4847eb026a",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "1. 原文“巽人也”candidate解释为“是入的意思”符合巽卦卦义，无明显错误；2. 对原文残缺字“口”“巾”“父”的存疑说明符合要求，未擅自改定；3. 对“其尾”的存疑说明符合保守原则；4. 整体表述更通顺，未添加无依据的解释，专业术语未改动。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 7666,
+    "completion_tokens": 1169,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 7666,
+      "completion_tokens": 1169,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

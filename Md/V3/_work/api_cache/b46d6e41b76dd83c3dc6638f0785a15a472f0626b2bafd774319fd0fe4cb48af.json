@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-16T12:30:27.000561+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b46d6e41b76dd83c3dc6638f0785a15a472f0626b2bafd774319fd0fe4cb48af",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002294-p000-4b62ea1307",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "反义：原文‘贪巨鬼星为上贵，廉破终须作武臣’意为贪狼、巨门作为鬼星是上等贵格，廉贞、破军则终为武臣。candidate误译为‘廉贞、破军二星若作为鬼星出现，上格者主大贵，中格者终须成为武职官员’，将‘廉破’的限定条件错解为‘上格者’，并增译了‘中格者’，导致核心含义错误。",
+          "漏译：原文‘其外皆为紫客’后接‘若无官曜势须轻’，candidate将‘其外皆为紫客’处理为‘其余情况多被视为‘紫客’’，但未译出‘其外’（除此之外）的承接关系，且将‘若无官曜势须轻’独立成句，割裂了与上文的逻辑。",
+          "增译/误译：原文‘救贫治乱非关数’的‘数’在allowed_glossary中无定义，candidate处理为‘并非单纯由‘数’决定’并标注不确定，符合规则。但‘具体所指不详’的标注方式（置于句末）略显生硬，可优化为更自然的融入。"
+        ],
+        "uncertainty": [
+          "紫客",
+          "数"
+        ]
+      },
+      {
+        "id": "book035-b002300-p000-fefa06ad94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "六吉星",
+          "比星",
+          "辰星",
+          "太华星"
+        ]
+      },
+      {
+        "id": "book035-b002303-p000-0f9cee44b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译/误译：原文‘杨分把作真金宝’中‘杨分’为opaque_term，candidate直接保留并标注不确定，符合规则。但‘时师晓得六吉星’后接‘安穴不得吴凡人’，candidate将‘吴凡人’处理为不确定专名并标注，但未译出‘安穴不得’（安穴不能/不得）的完整动作，导致句子不完整。",
+          "误译：原文‘须用朝对后山别’意为需要朝向并与后山区别/分别，candidate译为‘须用朝对后山分别’，语义含混。‘四兽才有身荣显’意为四兽（砂）具备才能身荣显达，candidate译为‘四兽才有身荣显’，保留了原文短语但未形成完整白话句。",
+          "误译：原文‘曾知不合六吉星’中‘曾知’可能为‘曾公（文辿）知道’或泛指‘曾经知道’，candidate保留‘曾知’未译，导致‘曾知不合六吉星’句意不明。‘穴空迁定人丁绝’中‘迁定’candidate标注不确定，但‘穴空’（穴位落空）未译出，且整句逻辑断裂。",
+          "增译：原文‘要识曾杨直口诀’中‘曾杨直’为opaque_term，candidate处理为不确定并标注，符合规则。但‘官星曜气齐脱出’译为‘官星曜气齐脱出’是直译，未形成通俗白话句。"
+        ],
+        "uncertainty": [
+          "吴凡人",
+          "杨分",
+          "曾杨直口诀",
+          "迁定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1856,
+    "completion_tokens": 850,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1856,
+      "completion_tokens": 850,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

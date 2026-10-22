@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-25T06:37:39.419605+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5de3c55a1a69a4104557d4c0f5cd7ffd38ba6a7ac239f7b104f4446683f30d5c",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000095-p000-35f733a42d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000096-p000-abf6c06a61",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book022-b000097-p000-86233882e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中两处“百里之干”“千万里之干”被误写为“百里之于”“千万里之于”，后续“始收于万里之形胜”也属于错漏，与原文数字、语义不符；原文“富不侔乎敌国”意为富足程度和诸侯国相当，候选释为“富足程度比不上敌国”属于反义错译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2731,
+    "completion_tokens": 240,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2731,
+      "completion_tokens": 240,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

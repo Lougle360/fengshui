@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T11:00:17.004618+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bedbb2006baa53b3b3495d218b3dc466dea323b0ea0c420675aa8d411918257a",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000087-p000-076fbf2449",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘戌未王庚’的‘王’字原义不详，候选释读为‘戌未、王庚属土为真’，未标注该字的歧义，属于将不确定解释写成确定事实；‘小五行之山去生向尅向者共有土山’语义不通，候选释读存在逻辑混乱；‘著用此十四山制化’中‘著’为原文讹误，候选未标注，属于未处理原文讹误；‘十何眼神灵如鬼也’语义不明，候选释读未明确其含混性；‘悠场’应为‘悠扬’，候选未纠正该讹误；‘四十四进神’与前文‘十四山’表述冲突，候选未处理该矛盾；‘小云看尋一分’未完成释读，属于漏译"
+        ],
+        "uncertainty": [
+          "原文中‘戌未王庚’的‘王’字原义不详；‘十何眼神灵如鬼也’具体所指不详；‘小云看尋一分’未完成释读"
+        ]
+      },
+      {
+        "id": "book011-b000089-p000-292407218a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘乏青心印’的‘乏’字原义不详，候选释读为‘乏青心印’，未标注该字的歧义，属于将不确定解释写成确定事实"
+        ],
+        "uncertainty": [
+          "原文中‘乏青心印’的‘乏’字原义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1658,
+    "completion_tokens": 381,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1658,
+      "completion_tokens": 381,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

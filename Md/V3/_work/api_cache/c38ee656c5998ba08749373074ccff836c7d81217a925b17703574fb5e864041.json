@@ -1,0 +1,188 @@
+{
+  "created_at": "2026-09-23T15:07:03.023814+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c38ee656c5998ba08749373074ccff836c7d81217a925b17703574fb5e864041",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000911-p000-3d056b04b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000912-p000-1539d3b08a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“安葬脉脉”应为“安葬脉”或“葬脉”，原文为“葬脉岂如葬气”，candidate 重复了“脉”字，属误译。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000913-p000-c417dae1e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000914-p000-cfb45f2df5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000915-p000-ccae09ce75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“造物主”是明确的现代宗教/哲学概念，原文“造物”在此语境下更可能指自然造化或天地运行，candidate 将其具体化为“造物主”，属于无依据的扩写。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000916-p000-820b25c6c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 在标题后添加了破折号和解释性文字“——运用卦、数、方位、时间等关系判断吉凶的方法”。虽然 allowed_glossary 中有“理气”的定义，但 V3 目标是为普通读者提供白话释读，而非在标题行直接插入术语定义。这属于增译，且改变了原文的简洁格式。应仅保留标题“## 理气篇”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000917-p000-7a09792e6f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000918-p000-2f49c050ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000919-p000-2ee3020e41",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000920-p000-026e0f6291",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“取由辨”和“取由分”是原文的固定短语，candidate 将其释读为“取用由辨来定”和“取用由分来定”，将“辨”和“分”动词化并补出“来定”，虽意图明确，但“辨”和“分”在此更可能指“辨别”和“区分”这两个动作本身，而非决定“取用”的主体。释读不够准确，有增译之嫌。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000921-p000-8f3cc5cf34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000922-p000-0c2b03390b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source 是书名和卷名，candidate 将其处理为一句陈述句“这是...的标题”，并添加了对“元女”的说明。这改变了原文的性质（从标题/出处信息变为叙述），属于增译。对于此类信息性文字，应保持原样或仅做必要的格式转换，不应添加解释性语句。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000923-p000-c544702505",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000924-p000-b5ccd685e4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘炁有乘本脉而不容他杂者，气有借傍脉而可隔山取者，炁有合初分脉而不为遥远者，炁有串渡峡脉而不为邀截者’，candidate将四个‘炁’统一译为‘气’，但原文第一、三、四句用‘炁’，第二句用‘气’，存在用字差异。candidate未保留或说明此差异，可能导致读者忽略原文可能存在的细微区分。",
+          "原文‘龙气无尺寸之移，受气有腰耳之异’，candidate译为‘龙脉之气在尺寸上不会移动，但受气的位置却有腰与耳的差异’。‘龙气’与‘受气’的‘气’原文相同，candidate将前者译为‘龙脉之气’，后者译为‘受气的位置’，虽为形成现代句子而补足，但‘受气’译为‘受气的位置’属于增译，原文‘受气’本身即指接受气的位置或穴位，此增译未改变核心含义，可接受。但‘龙气无尺寸之移’译为‘在尺寸上不会移动’略显生硬，更贴近的释读可为‘龙脉之气不会移动分毫’或‘龙脉之气的位置固定不移’。不过当前译文基本达意，风险较低。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000925-p000-f015f246dc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000926-p000-54c8add618",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000927-p000-19930954bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000928-p000-1e2f87a433",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘四生’、‘四绝’、‘双金’是风水术数中的专有术语，含义特定。candidate将其释读为‘四生之位’、‘四绝之位’、‘双金之位’，虽然补出‘之位’以形成完整句子，但‘四生’等词本身是opaque_terms（未在allowed_glossary中定义），candidate的译法（‘四生之位’）可能暗示了确定的空间位置，而原文仅说‘看四生’等，并未明确是‘之位’。更稳妥的释读应保留原词并说明其模糊性，例如‘观察四生（具体所指不详）’。当前译法有将不确定解释写成确定事实的风险。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000929-p000-171f19c518",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000930-p000-f58f73652a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘客水客砂，尚可招邀取炁’，candidate译为‘客水与客砂，尚可招引以取气’。‘招邀’译为‘招引’可以接受，但‘取炁’译为‘取气’，原文用‘炁’，candidate统一为‘气’，未保留或说明用字差异。",
+          "原文‘真夫真妇，犹嫌半路相逢’，candidate译为‘真夫与真妇，若在半路相逢仍嫌不配’。‘不配’是增译，原文‘嫌’是嫌弃、忌讳之意，未明确说‘不配’。更贴近的释读可为‘真夫与真妇，也忌讳在半路相逢’。",
+          "原文‘阴用阳朝，阳用阴应，合之固眷属一家’，candidate译为‘阴气需用阳气来朝应，阳气需用阴气来回应，二者相合便是一家眷属’。将‘阴’、‘阳’具体化为‘阴气’、‘阳气’属于增译，原文‘阴’、‘阳’可能指阴宅、阳宅，或阴阳二气，此处是opaque_terms。candidate的译法将其确定为‘阴气’、‘阳气’，有将不确定解释写成确定事实的风险。更稳妥的释读应保留‘阴’、‘阳’的模糊性，例如‘阴需用阳来朝，阳需用阴来应’。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1989,
+    "completion_tokens": 1042,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3988,
+      "completion_tokens": 1186,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1989,
+      "completion_tokens": 1042,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

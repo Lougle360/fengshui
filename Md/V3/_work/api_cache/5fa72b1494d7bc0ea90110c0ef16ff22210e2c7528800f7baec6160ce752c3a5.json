@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-10-16T09:09:07.617997+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "5fa72b1494d7bc0ea90110c0ef16ff22210e2c7528800f7baec6160ce752c3a5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001723-p000-361ed1290d",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "表格内容涉及风水中的直年、斜牵、水法及火类形态等判断。其中提到：斜牵到肋时，若斜直牵水最难抵挡，无论顺逆推演皆不吉祥；若寄居死路或遭遇亡盗，子孙终将难以离开故乡。火类形态中，楷书人字入字类若为双火边有边无则为单火，左长右幼先败名，对应廉贞星。斜流称为火焰张天，此水统流祸患必然；会导致官非、破田、家业衰退，遭遇瘟疫火灾，不论年份如何。水如急泻呈草玄形，来水之玄屈同圆形，去水之玄屈曲圆形；穴前流水似生蛇，来水难逢但去水亦佳。若逢直龙安正宍，子孙名誉播金华。横平一字名为主，公位均，长中吉，次中小吉；土星为吉又为殃，仰覆之中仔细详。横遇吉凶相半至，散弯深处有龙藏。仰覆殊余额中有名。金土安城仰书凶，此为反跳卷廉同；若还龙贵逢斯火，到底儿孙撤骨穷。去水留泥不留格，曲直两字局中评。水卷山飞水走永无回路，死刑名横祸来，任是石崇金玉富也须消，冷如厌。穴前最怕水流长，内有交流水不妨，况有真金藏，内前山换作护郎。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文表格结构复杂且存在OCR识别错误（如'律博(0S交出孙创'、'D'等乱码），部分文字含义难以确证，译文基于上下文逻辑进行保守重构。",
+          "'正宍'、'撤骨穷'、'冷如厌'等词句在风水典籍中无明确通解，此处按字面及语境直译，具体所指不详。",
+          "'图'字在表格中孤立出现，无法确定其具体指代内容。"
+        ]
+      },
+      {
+        "id": "book035-b001724-p000-00130b6001",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 地理天机会元 卷六 五星传变 十五",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001725-p000-e03e00ee88",
+        "language": "classical_or_modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "箭断外城分类取",
+        "confidence": "low",
+        "uncertainty": [
+          "原文'箭断外城分类取'语义不明，可能是残句或术语缩写，无法确定完整含义，仅保留原词并说明其可能指代某种分类取法。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1998,
+    "completion_tokens": 804,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1998,
+      "completion_tokens": 804,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

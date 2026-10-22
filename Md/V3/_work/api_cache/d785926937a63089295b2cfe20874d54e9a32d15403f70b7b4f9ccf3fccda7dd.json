@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-18T04:48:35.371918+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d785926937a63089295b2cfe20874d54e9a32d15403f70b7b4f9ccf3fccda7dd",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005463-p000-8ec0a0c50a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句对原文的断句和释读存在多处错误，导致语义混乱。例如，原文'未坤申庚同屈指'被拆解为'未、坤、申、庚同位，屈指计算'，但'同屈指'很可能是一个整体短语，指代某种推算方法或星宿，不应拆开。'酉辛乾亥四个文'被释读为'酉、辛、乾、亥为四个文'，但原文'四个文'可能指'文曲星'的四个位置，候选句的表述不够清晰。'亥壬子爲三個武'同理。'癸爲右緋'被释为'癸为右緋'，但'右緋'是opaque_term，候选句在正文中直接推测'可能是右弼的异写或误字'，这属于将不确定解释写入了确定的事实性描述，应仅保留在uncertainty标注中。'丑巨門寅甲卯乙四兼辰艮巽兩位是破軍'的释读结构混乱，未能清晰对应原文的列举和'四兼'、'兩位'等计数关系。'丙午丁巳祿存兼金木火山同仿此'被释为'丙、午、丁、巳禄存兼金木火山同仿此'，'兼金木火山同仿此'的含义未解，但候选句在正文中直接说'含义也不清晰'，这属于将uncertainty标注混入了正文释读，应仅保留在uncertainty字段。"
+        ],
+        "uncertainty": [
+          "实廉具体所指不详",
+          "同屈指的具体含义不详",
+          "文和武可能分别指文曲星和武曲星，但原文未加说明",
+          "右緋具体所指不详",
+          "兼金木火山同仿此的具体含义不详"
+        ]
+      },
+      {
+        "id": "book035-b005465-p000-7a1c418e98",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "二見可能是二星的误写，具体所指不详",
+          "廉文隶去含义不明",
+          "兮为文言虚词",
+          "两相后可能缺字",
+          "丙E、壬刻等疑似OCR错误，具体所指不详",
+          "袜绝可能是误写",
+          "九长星对应关系原文未明确说明"
+        ]
+      },
+      {
+        "id": "book035-b005466-p000-80e7f02d51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 564,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1738,
+      "completion_tokens": 564,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

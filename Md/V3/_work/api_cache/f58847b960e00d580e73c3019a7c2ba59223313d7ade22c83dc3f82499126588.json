@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-09-25T14:01:11.364035+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f58847b960e00d580e73c3019a7c2ba59223313d7ade22c83dc3f82499126588",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000535-p000-8fba8044e5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“寡招著尅妻”被误断为“寡妇招赘、克妻”，“著”字含义未释读，且无依据将“招”释为招赘；原文“蜚設魁第”被误写为“得中魁第”，“蜚設”含义未释读；原文“其方有降是木笏画工道士離宮”被断句为“其方有降是木笏，画工、道士离宫”，无依据将“离宫”单独断为画工道士的状态，且“降是木笏”含义未作标注"
+        ],
+        "uncertainty": [
+          "“峰侵云汉”“马上金堦”“龙边天门”“厚丙巽龙”“内丁卯巽龙”“察天甲水”“蜚設魁第”“降是木笏”具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000536-p000-7777ea95c4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“铅弹子甫星水法”“七七贞”具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000538-p000-86b14e944e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“亦多絕粟貴行生貢”被直接保留未作通俗释读，且未标注“绝粟贵”“行生贡”的含义；原文“出人遊湯水盛黃腫落水去主逃竄”被断为“出人游汤；水盛，主黄肿；落水去，主逃窜”，“游汤”含义未标注，“落水去”无依据释为“水落去”类含义，存在断句歧义未说明"
+        ],
+        "uncertainty": [
+          "“绝粟贵”“行生贡”“游汤”具体所指不详"
+        ]
+      },
+      {
+        "id": "book025-b000539-p000-468ccee039",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在多处OCR或原文讹误内容，如“扁艮八聚”“骊发”“肓聋之忠”“君 大 同力金 若卽立戌同力金”“有而声见成水如荒壁”等内容，candidate未明确标注原文存在讹误难以释读，仅直接照搬部分短语，未做符合“普通读者能读懂”的处理；原文“主慄奕持名”“主瘋育虎傷”“祿瞎聾尅卯龍”等内容断句错误，将“尅”归属到下一句“卯龙”前，不符合原文语义；原文“出少亡悖逆不忠之以有尸山路死”被断为“少亡、悖逆、不忠，若有尸山路死”，断句错误，“之以有尸”含义未释读也未标注"
+        ],
+        "uncertainty": [
+          "原文存在多处讹误、缺字，“长生水”“师巫持名”“慄奕持名”“扁艮八聚”“骊发”“同力金”“贪狼水石”“肓聋之忠”等具体所指均不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2410,
+    "completion_tokens": 793,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2410,
+      "completion_tokens": 655,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2410,
+      "completion_tokens": 793,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

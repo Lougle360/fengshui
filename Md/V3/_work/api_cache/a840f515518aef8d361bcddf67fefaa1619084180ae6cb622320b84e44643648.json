@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T17:27:34.044494+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a840f515518aef8d361bcddf67fefaa1619084180ae6cb622320b84e44643648",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000918-p000-194a2d8ca9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将原文未提及的“离”（八卦之一）强行关联，原文仅为“结发夫妻反目离异”的表述，未出现“离”的相关内容，属于无依据扩写；且错误添加了“这里的‘离’是八卦之一”的内容，与原文无关"
+        ],
+        "uncertainty": [
+          "原文中“结发夫妻反目离异”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book016-b000920-p000-cb7ce2f952",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate错误添加了原文未提及的“这里的‘离’是八卦之一”的内容，属于无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 210,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1002,
+      "completion_tokens": 210,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

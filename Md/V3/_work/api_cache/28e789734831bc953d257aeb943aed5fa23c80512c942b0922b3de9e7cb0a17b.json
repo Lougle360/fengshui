@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T21:35:35.488284+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "28e789734831bc953d257aeb943aed5fa23c80512c942b0922b3de9e7cb0a17b",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b001047-p000-c1702f161a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b001048-p000-c01cd5b61e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“四訣正求輿架折窟狹用正濶用求”断句错误，四诀应为正、求、舆、架、折、窟、狭用？不对，原文是四诀，candidate列了四个，但后文“正濶用求”被改成“宽处用正，窄处用求”，哦不对，原文“宿象開井有四訣正求輿架折窟狹用正濶用求”candidate断成“四项要诀：正求、舆架、折窟、狭用。宽处用正，窄处用求”属于无依据拆分断句，不符合原文结构；另外原文“賔形狹小縣夾虛雨棺則正打葬之無屍”candidate直译“宾形狭小则县夹虚雨棺，就正打葬之，无尸”未将未释读的模糊表述说明是原文不清，还有“眞氣邽書聚中”“傅布水”“曲折冰出去”均未标注是原文模糊或讹误，直接保留导致读者无法理解；原文“瘡若平淺”的“瘡”是讹字，candidate直接漏译，未说明。"
+        ],
+        "uncertainty": [
+          "原文多处存在字迹模糊、讹误，如“县夹虚雨棺”“真气邽书”“傅布水”“曲折冰出去”“瘡”等具体语义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b001049-p000-2add44e1af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b001050-p000-bd2f39d135",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b001051-p001-bc0866fd21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文多处字迹模糊，语句语义不通，难以完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b001052-p000-cffae20977",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“突象開并有四法”后续内容candidate列出侯併、斜插等8个名目，与前文“四法”矛盾，属于无依据断句，未说明原文存在缺漏或讹误；“架起故棺法”的“故”字无依据保留，未说明是原文讹误；“因左卷四鼎穴六十三”未标注语义不明，直接直译导致读者困惑。"
+        ],
+        "uncertainty": [
+          "原文多处字迹模糊，“四法”对应的具体名目、“故棺法”“左卷四鼎穴六十三”等语义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b001054-p000-b4f954f2fe",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文多处字迹模糊，语句语义不通，难以完全准确释读"
+        ]
+      },
+      {
+        "id": "book030-b001057-p000-2b339c7ae1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b001059-p001-4e19db1c00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文语义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book030-b001061-p000-cfd27f4a25",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2436,
+    "completion_tokens": 1211,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2436,
+      "completion_tokens": 1211,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

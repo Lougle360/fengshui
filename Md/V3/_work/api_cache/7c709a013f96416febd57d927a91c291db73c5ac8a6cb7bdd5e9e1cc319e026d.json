@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-24T11:44:50.376975+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7c709a013f96416febd57d927a91c291db73c5ac8a6cb7bdd5e9e1cc319e026d",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000062-p000-01fa487236",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘玉鞭天一’‘起王方’‘丝征’‘段鞭’‘范拟’等术语未按要求标注为‘opaque_terms’，且释读时未明确说明这些术语具体所指不详，存在将不确定解释写成确定事实的问题；‘如售六’语义不明，释读未处理该歧义；‘段鞭马骤牛鞭’断句错误，原文应为‘段鞭、马骤、牛鞭’，释读误将‘段鞭’与‘马骤牛鞭’连为一体"
+        ],
+        "uncertainty": [
+          "‘玉鞭天一’‘起王方’‘丝征’‘段鞭’‘范拟’等术语具体所指不详；‘如售六’语义不明"
+        ]
+      },
+      {
+        "id": "book014-b000064-p000-13b6c8aa8a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘方命式’‘喝形’等术语未按要求标注为‘opaque_terms’，释读时未明确说明这些术语具体所指不详，存在将不确定解释写成确定事实的问题；‘雅俗吉凶的差别有天渊之别’中‘吉凶’未对应原文‘吉四’的表述，存在漏译"
+        ],
+        "uncertainty": [
+          "‘方命式’‘喝形’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000067-p000-b32a1633af",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘乾’未按要求标注为‘opaque_terms’，释读时未明确说明该术语具体所指不详；‘风功气散’语义不明，释读未处理该歧义；‘山胃亦谷初中老尽以成一局’‘来歉’等语句语义不通，释读未处理该歧义；‘木火都兼立眠’表述模糊，未明确对应原文‘木火皆兼立眠’的含义；‘妙木则山也，仅情唐过牛矣’语义不通，释读未处理该歧义"
+        ],
+        "uncertainty": [
+          "‘乾’具体所指不详；‘风功气散’语义不明；‘山胃亦谷初中老尽以成一局’‘来歉’‘妙木则山也，仅情唐过牛矣’等语句语义不通"
+        ]
+      },
+      {
+        "id": "book014-b000071-p000-750be94fbb",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文末尾残缺，部分语句语义不通，无法进行准确释读"
+        ],
+        "uncertainty": [
+          "原文末尾残缺；部分语句语义不通，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3776,
+    "completion_tokens": 643,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3776,
+      "completion_tokens": 643,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-26T03:53:42.124383+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "778ac9b567f93f7a109af33c945390b69484a5131c2d93b8f99de3c98199b67a",
+  "response": {
+    "items": [
+      {
+        "id": "book032-b000086-p000-e4de7e0a7e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "文本语序混乱、多处脱漏，整体含义无法确定"
+        ]
+      },
+      {
+        "id": "book032-b000093-p000-e9f144149a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文未提及“星曜的排布”，属于无依据增译；原文仅提及“挨”，未明确指向“挨星的相关内容”，属于将不确定内容写为确定事实"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book032-b000094-p000-515d500c15",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分专有术语的具体指向未明确，部分语句语序较为晦涩，部分规则细节无法精准释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1777,
+    "completion_tokens": 255,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1777,
+      "completion_tokens": 255,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

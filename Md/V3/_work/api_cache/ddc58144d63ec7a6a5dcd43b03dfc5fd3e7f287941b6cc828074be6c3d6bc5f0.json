@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T09:44:48.495621+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ddc58144d63ec7a6a5dcd43b03dfc5fd3e7f287941b6cc828074be6c3d6bc5f0",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000378-p000-ed61f1ca6b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“中聚之地以秋下聚之地以水”的表述存在歧义，释读为“中聚之地以秋为準，下聚之地以水为準”未明确“秋”的具体所指"
+        ]
+      },
+      {
+        "id": "book010-b000379-p000-3eb1340fca",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“羊洋”“神前佛浚”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000380-p000-25da74e24c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000381-p000-73a51dec80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1985,
+    "completion_tokens": 255,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1985,
+      "completion_tokens": 255,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

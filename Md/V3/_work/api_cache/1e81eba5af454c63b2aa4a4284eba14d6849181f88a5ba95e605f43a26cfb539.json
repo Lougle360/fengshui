@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:06:16.169581+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1e81eba5af454c63b2aa4a4284eba14d6849181f88a5ba95e605f43a26cfb539",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001625-p000-fb6a948a9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001626-p000-8225d4d465",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001627-p000-801d518c13",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在排版混乱，将“上九，何校灭耳，凶①”与译文内容错误合并，候选句未保留原文的注释序号①，且未区分原文的卦爻原文与释文，存在内容混淆问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001628-p000-be569c6ff2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1661,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1661,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

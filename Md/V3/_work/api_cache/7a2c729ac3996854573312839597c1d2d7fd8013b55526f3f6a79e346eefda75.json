@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-17T19:57:19.041686+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7a2c729ac3996854573312839597c1d2d7fd8013b55526f3f6a79e346eefda75",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004519-p000-27bfea6c2a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004520-p000-35b99afada",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004521-p000-3157f87547",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘吉便須塡前開一小窩囊取四水’中，‘吉’字可能修饰‘西方位’，意为‘西方位吉’，candidate将其处理为‘这是吉利的，但需要...’，将‘吉’与后续动作连接，改变了原文的语法结构，可能导致因果或条件关系误读。",
+          "原文‘下深車開作牛唇明堂高作對面一臂遮定不見火腳’断句和含义不明，candidate释读为‘使穴下深车开作牛唇状；若明堂过高，则需在对面筑起一臂来遮挡，使火脚不可见’，将‘深车开作牛唇’和‘明堂高作对面一臂’作为两个并列或条件句处理，并加入了‘若...则...’的逻辑关系，属于无依据的扩写和确定化解释。",
+          "原文‘我歹生了作官曜’存在明显讹误，candidate释读为‘若穴后生出官曜’，将不确定的‘我歹生了’直接解释为‘穴后生出’，缺乏依据。",
+          "原文‘兄下地先明堂陰陽何處’中，‘兄’字可能为讹字，candidate释读为‘下地时’，直接省略了‘兄’字，未做任何说明，属于漏译。",
+          "原文‘山若流水不合山頭謂之水犯殺’中，‘山若流水不合’意为‘山与流水不合’，candidate释读为‘山势与流水不合’，基本正确，但后续‘山头被称为水犯杀’的‘山头’一词，原文为‘山頭’，可能指山体或穴位所在的山头，candidate的译法略显生硬，但尚可接受。主要问题在于前几点。"
+        ],
+        "uncertainty": [
+          "‘下深車開作牛唇’、‘我歹生了’、‘兄’等词句存在明显讹误或特定术语，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004522-p000-dc6a183c42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004523-p000-0f5ffa65de",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004524-p000-c452b6f9c0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘頗簾無今遠一改正無茲’存在明显讹误，candidate释读为‘颇为疏漏，如今远已改正无误’，并标注了不确定性。但‘远已改正无误’中的‘远’字，可能是‘远’（繁体‘遠’）的讹字或另有含义，candidate将其作为‘已’的修饰词（‘远已’），属于推测性解释，且未在uncertainty中明确标注此具体推测点。应将此推测也列为不确定性。",
+          "原文‘但恐后有遺書之恨也’中，‘后’指‘后世’，candidate释为‘后世’，正确。但‘遺書之恨’意为‘遗失书籍的遗憾’，candidate释为‘遗书之恨’，保留了原短语，可以接受。"
+        ]
+      },
+      {
+        "id": "book035-b004525-p000-8304bbfbce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004526-p000-4ef3e0f161",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分诗句（如‘点检须从恕’、‘僧道微’、‘庄出为轻’等）语义晦涩，可能存在传抄讹误或特定术语，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b004527-p000-0896589aa0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004528-p000-4f31a7fe6c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文部分诗句（如‘连无居二分’、‘无三第四开脚’、‘八士一形真’等）语义晦涩，可能存在传抄讹误或特定术语，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3834,
+    "completion_tokens": 1118,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3834,
+      "completion_tokens": 1118,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

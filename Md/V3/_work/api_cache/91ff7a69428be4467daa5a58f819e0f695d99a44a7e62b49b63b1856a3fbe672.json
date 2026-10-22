@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T20:23:27.192517+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "91ff7a69428be4467daa5a58f819e0f695d99a44a7e62b49b63b1856a3fbe672",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003358-p000-abe95a95ef",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "《震》（八卦之一）卦象征雷声震动：可以带来亨通。震雷突然袭来时万物都惶恐畏惧，之后谨慎行事就能保住福分，于是能收获欢声笑语；君主的教令如同震雷一般能惊传到百里之外，宗庙祭祀因此能长久延续不曾断绝。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003359-p000-289298f2b9",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "说笑的声音接连不断；雷声震惊了百里范围，主持祭祀的人却没有洒掉手中舀香酒的勺具。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文仅保留爻辞片段，未说明③、④注释内容，“哑哑”“匕鬯”的含义依据通行周易注解推导，不排除原文有其他释义的可能"
+        ]
+      },
+      {
+        "id": "book016-b003360-p000-dce56667fe",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "注释①：震（八卦之一）是卦名，上下卦都是震（☳），象征“雷声震动”。按：“震”的意象是雷，它的含义是动（参见《说卦传》），这个比喻意又可以用来比拟“教令威严”。《集解》引用郑玄的说法：“震对应雷。雷是催动万物的气；雷发出声响，就像君主发布政教来触动国中百姓，所以把这个卦叫做‘震’。”《正义》记载：“震是动的意思，这是象征雷的卦，代表天的威严震动万物，所以用‘震’作为卦名。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003361-p000-b8330d0ae3",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "注释②：亨，是指雷的威力震动万物，让万物都警觉畏惧，所以可以带来“亨通”的结果。《正义》记载：“震既能够用威力震动万物，没有不感到惊惧的；以威严让万物惊惧，那么万物都会整齐有序，因为有所畏惧而获得通顺的发展，所以震卦具备‘亨’的德性。”",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1612,
+    "completion_tokens": 658,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1612,
+      "completion_tokens": 658,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:14:59.971961+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cf83bc17ef1b41330dd7292015ec29ab592a47076a3e896d9ae158a4691d5ed5",
+  "response": {
+    "items": [
+      {
+        "id": "book012-b000162-p000-1aafb81950",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book012-b000163-p000-e729a9cb2b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“缓阿囊心印庙编倒杖”误释为“平分缓阿囊心印庙编倒杖”，属于无依据增译；“乾滋判”未按术语保留，擅自拆分释读，不符合术语处理规则"
+        ],
+        "uncertainty": [
+          "乾滋判、缓阿囊心印庙编的具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000164-p000-6aec63a386",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“中正对撞随势哉成”误释为“中正对撞，顺着地势形成合适的形态”，属于无依据增译；“迎扩放送”未保留原表述，擅自释读，不符合术语处理规则"
+        ],
+        "uncertainty": [
+          "阴到、阳到、金鱼界合、迎扩放送的具体所指不详"
+        ]
+      },
+      {
+        "id": "book012-b000165-p000-626c7c3369",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1416,
+    "completion_tokens": 340,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1416,
+      "completion_tokens": 340,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

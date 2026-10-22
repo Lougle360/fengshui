@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T15:55:03.640197+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8473be4420e59545fdd361b0cff8bf04e3c89573d2320b65df0411bc5420e3e7",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001360-p000-aa5f4a2927",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文表格存在大量OCR识别错误、文字缺漏错乱、行列对应关系不明确的问题，候选释读未修正此类错误，且无法梳理四部分类源流脉络，不符合准确释读要求"
+        ],
+        "uncertainty": [
+          "表格中多处文字无法确认准确含义，如“2道”“信引”“2近”等；部分文字缺漏或错乱，如“2道家 t”“16夭文占书类”等；表格行列对应关系不明确，无法完全梳理四部分类源流脉络"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 8717,
+    "completion_tokens": 161,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 8717,
+      "completion_tokens": 161,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

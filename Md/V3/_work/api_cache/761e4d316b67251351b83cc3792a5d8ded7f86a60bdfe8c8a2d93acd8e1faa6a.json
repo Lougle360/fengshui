@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T10:05:15.473177+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "761e4d316b67251351b83cc3792a5d8ded7f86a60bdfe8c8a2d93acd8e1faa6a",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000518-p000-8f24dbcda7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000519-p000-4b69736036",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000521-p000-209c283152",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book010-b000522-p000-fd238eb35b",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文为OCR识别的密集表格内容，存在大量识别错误（如将“巽”误识别为“昊”、“亥”误识别为“主”、“艮”误识别为“于”、“小雪”误识别为“寒雪”、“惊蛰”误识别为“蟄露”、“巽”误识别为“弟”等），且部分数字、干支、短语含义未明，无法准确释读"
+        ],
+        "uncertainty": [
+          "部分数字、干支及短语的具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2548,
+    "completion_tokens": 317,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2548,
+      "completion_tokens": 317,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

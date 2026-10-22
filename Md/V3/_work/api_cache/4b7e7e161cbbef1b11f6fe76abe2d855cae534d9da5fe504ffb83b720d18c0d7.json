@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T17:53:46.274098+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4b7e7e161cbbef1b11f6fe76abe2d855cae534d9da5fe504ffb83b720d18c0d7",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001411-p000-d904d3c0bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001412-p000-971c771015",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001413-p000-53cb7b3b3d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中未明确的“甲”字释为“甲日”，属于无依据的扩写"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001414-p000-ae436848fc",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“弊乱”与前句首字“蛊”指“治乱”义不尽同"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1904,
+    "completion_tokens": 269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1904,
+      "completion_tokens": 269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

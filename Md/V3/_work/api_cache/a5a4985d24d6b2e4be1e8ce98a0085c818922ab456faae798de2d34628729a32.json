@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T19:55:47.780070+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a5a4985d24d6b2e4be1e8ce98a0085c818922ab456faae798de2d34628729a32",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003174-p000-dbfb4fcfe0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003175-p000-f2893eefbf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b003176-p000-2456e2caff",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中泛指井水的\"水\"，错误替换为allowed_glossary中限定的\"风水语境中的河流、水系及其来去形态\"，属于专业术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003177-p000-b36469dbc0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1669,
+    "completion_tokens": 237,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1669,
+      "completion_tokens": 237,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

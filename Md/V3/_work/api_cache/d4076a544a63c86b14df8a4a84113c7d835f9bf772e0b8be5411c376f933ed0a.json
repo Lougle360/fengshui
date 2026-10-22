@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-26T08:58:39.595422+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d4076a544a63c86b14df8a4a84113c7d835f9bf772e0b8be5411c376f933ed0a",
+  "response": {
+    "items": [
+      {
+        "id": "book034-b000255-p000-5cf18f232e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文结尾处的“余类推”是指其余月份的方位排布以此类推，并非“其余年份以此类推”，此处存在语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book034-b000256-p000-89e404397c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“二十四炁六官周”的“六官”应为“六宫”，候选保留错误表述；原文“夏至處暑霜降後九六三星逆行水”的“水”属于locked_terms，候选遗漏未保留；原文“乙丑入自”存在讹误，候选直接释为“乙丑日为入中宫”属于无依据增译；原文结尾的“處”字是未竟内容，候选未标注缺漏"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 281,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1128,
+      "completion_tokens": 281,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

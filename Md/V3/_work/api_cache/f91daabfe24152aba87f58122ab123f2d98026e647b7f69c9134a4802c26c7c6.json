@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-18T01:14:26.087053+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "f91daabfe24152aba87f58122ab123f2d98026e647b7f69c9134a4802c26c7c6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005115-p000-bed16050d8",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "本表列举了多种不吉利的地形形态及其对应的风水术语。第一行标题分别为：指叠、走反、碎破、案横。右侧大段文字说明：以下图示多有失真，涉及丧星流荡、祸席象星连帽、下财仰绵罗格、帛面衫贵遍名酸砂诸银马主州带玉生堂俊解子宝伟曰弟剑不仰风最宜面流佳正扫辈主案荡小宜名罗贵旁曰衫龙出银骏贱得带马主小富走遭贵贵风等术语与断语，具体所指不详。表格主体以图文对照形式展示各类凶形：\n1. 大粗、飞斜狭、逼、特（配图示）。\n2. 弱瘦、穴压直、强案（配图示）。\n3. 缩短、头昂射、尖（配图示）。\n4. 碎破、面摆落、插大、粗（配图示）。\n5. 狭逼、腰断竞、斗弱、粗（配图示）。\n6. 强直、肋露陷、低缩、短（配图示）。\n以上各形态均配有对应图像，用以说明穴场或砂体在形态上的缺陷，如粗大、斜飞、逼压、破碎、短缩、尖射、腰断、肋露等，皆属不吉之象。",
+        "confidence": "medium",
+        "uncertainty": [
+          "右侧大段文字内容杂乱，包含大量术语与断语，部分字词可能因 OCR 识别错误或原文残缺导致语义不明，具体所指不详。",
+          "部分术语如“丧星流荡”“祸席象星连帽”等未列入 allowed_glossary，无法确认其确切含义，仅保留原词。",
+          "图像内容无法直接转译为文字，仅能依据图像旁标注的术语进行描述性说明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 515,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3845,
+      "completion_tokens": 515,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

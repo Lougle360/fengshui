@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:58:38.887173+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "86c49f724bda1218eb9b1cae27d299a85ac7677d5766af1688b8f2e950f23104",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000098-p000-cfcdaa74b1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中对‘四山聚也自有名漾音贤’‘固弦名作拨秋桎’的处理未明确标注为原文未明的内容，存在将不确定内容当作确定释读的问题；部分语句如‘穴若正时秋效用，不正自飞动’‘真尤藏伏，穴唯寻惟秋识’‘倖心拨秋之法’等释读不通顺，存在语义模糊的问题；‘水神流散’未结合风水术语明确为‘水的形态流散’，‘秋卫’未明确为‘秋（此处指护卫穴场的相关地形，原文未明具体所指）’，存在术语释读不明确的问题"
+        ],
+        "uncertainty": [
+          "‘四山聚也自有名漾音贤’原文未明具体含义；‘固弦名作拨秋桎’原文未明具体含义；‘秋卫’原文未明具体所指；‘倖心’原文未明具体含义；‘真尤’原文未明具体含义；‘徊把前秋别’原文未明具体含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 278,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1256,
+      "completion_tokens": 278,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

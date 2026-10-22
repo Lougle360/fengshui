@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T01:41:49.099998+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "41bed6f69ee1c3de344a6e6a8f74a298507347014e2edcd6266d6c607fc41d79",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000074-p000-e7ef4f2521",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "专业术语误译：将原文干支中的‘巳卯’误写为‘己卯’，干支字形出现错误",
+          "专业术语误译：原文忌讳条目‘黑天賊’被拆分为‘黑天贼’，断句错误导致术语拆分",
+          "专业术语误译：原文忌讳条目‘水隔、四廢’被合并为‘水隔四废’，断句错误导致两个独立术语被合并",
+          "locked_terms使用错误：未按allowed_glossary对locked_terms‘玄武’‘水’作出符合风水语境的释义，仅原样保留术语未对应释读要求"
+        ],
+        "uncertainty": [
+          "原文“開年月”的具体指向未明确，“天地豐”的含义未标注存疑"
+        ]
+      },
+      {
+        "id": "book006-b000079-p000-0cab41fa98",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句错误：“二德合、天善、金堂、玉堂”被错误合并为“二德合天善金堂”，“後續世三合、成目”被错误合并为“玉堂後續世、三合成目”，多个独立择日术语被错误拼接",
+          "专业术语误译：原文“水裏破”被遗漏，未纳入忌讳条目",
+          "locked_terms使用错误：未按allowed_glossary对locked_terms‘三合’‘水’‘坎’作出符合风水语境的释义",
+          "漏译：原文末尾“擇日紀全”仅释为“整段内容属择日相关的记载”，未完整传达原文语义"
+        ],
+        "uncertainty": [
+          "“离II楚牀”“造猛奄同是桔榫”“水庫空黃道”“平足日”“焦坎”的具体所指未明确标注存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 463,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1120,
+      "completion_tokens": 463,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

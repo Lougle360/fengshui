@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T00:04:31.887886+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2a3568baefcd482518825eafe79465eee10fc0af5b3379f9bda078eac495d3bf",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001387-p000-20824e9415",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001390-p000-9524d210d4",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“虎飞”形容真龙的具体形态原文未详细说明",
+          "“水城居曲”的“居曲”具体指代的水的形态细节不详",
+          "“摇身归当朝”的具体含义不明确",
+          "“旗鼓马”具体所指的风水物象未明",
+          "“下後離納著營衣”的完整含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001392-p000-0a9d5c50d6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“将大鸿”误写为“蒋大鸿”，属于无依据改字",
+          "原文“六龍虎分死非其病也”释读时错误拆分原文断句，将“山龍石言直龍之”擅自调整为“山龙、石龙、直龙的”，违背原文表述"
+        ],
+        "uncertainty": [
+          "“此即主指山龍石言直龍之六龍虎分死非其病也”的准确断句与完整含义无法确定",
+          "“乘努而省似分飛”的“省”具体含义不明",
+          "“日曜氣正真龍零氣皆露之勇也”的完整表意不清晰",
+          "“他卿”具体所指不详",
+          "“离仰砂”的具体定义原文未详细说明"
+        ]
+      },
+      {
+        "id": "book017-b001393-p000-ed7403537e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“反多砂”具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book017-b001395-p000-3dd7fdae99",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "日文假名“由れる”的含义无法确定",
+          "“向卜近不方”的具体含义不明",
+          "“一龙店死”具体所指不详",
+          "日文假名“にれ”的含义无法确定",
+          "“本以亦为人”语义无法解读",
+          "“水星”作为风水术语的具体含义不在允许释义词表范围内，未作释义"
+        ]
+      },
+      {
+        "id": "book017-b001397-p000-480ac92e9f",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“沙奴鎖穴”的具体含义无法确定",
+          "“出中九由來朝六經揚豬蒼斗詩”的完整表意完全不明"
+        ]
+      },
+      {
+        "id": "book017-b001399-p000-08d2bbd5a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是“都天室照經”，候选误写为“都天宝照經”，属于专有名词用字错误",
+          "原文“一二八七”未明确是页码，候选擅自认定为“对应的页码是一二八七”，属于把不确定内容写成确定事实"
+        ],
+        "uncertainty": [
+          "“帝戲ち”包含日文假名，具体含义不详",
+          "“一二八七”的属性（页码/卷次/其他编号）未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2354,
+    "completion_tokens": 800,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2354,
+      "completion_tokens": 800,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

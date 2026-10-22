@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T03:45:42.500669+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7d6606e52fb3c5c1b359fd96a70ec5e1f51e1279e56b368a4eb148669415ee1d",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000793-p000-934d55c89f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000794-p000-d10f8821d2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000795-p000-5b259f3ea3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000796-p000-ad5c20d21f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘必于尽处结穴，方为龙尽气钟’的逻辑被误译，原意是‘（这类人）认为必须在龙脉尽头结穴，才算得上是龙尽气钟’，候选写成了‘必然会在大龙的尽头结穴，才认为是龙尽气钟’，动作主体的行为逻辑偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000797-p000-6812e508d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘停驿龙歇穴’‘斩关腰结’‘牵前扯后’原文未给出明确释义，候选保留原术语表述符合要求"
+        ]
+      },
+      {
+        "id": "book019-b000798-p000-c74a7a0707",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘下手’‘托乐’‘缠护’‘案’‘曜’‘鬼’‘毡’等风水专名未在allowed_glossary中，候选保留原表述符合要求"
+        ]
+      },
+      {
+        "id": "book019-b000799-p000-b49bf6aeb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000800-p000-105ba030bb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000801-p000-629c372139",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000803-p000-8048dbd3df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4277,
+    "completion_tokens": 652,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4277,
+      "completion_tokens": 652,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

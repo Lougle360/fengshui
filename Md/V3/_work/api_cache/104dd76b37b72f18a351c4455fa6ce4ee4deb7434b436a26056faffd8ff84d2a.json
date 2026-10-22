@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T23:30:43.138589+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "104dd76b37b72f18a351c4455fa6ce4ee4deb7434b436a26056faffd8ff84d2a",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001209-p000-8cba182502",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“空之微”无对应上下文参考，具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001213-p000-292abcd8c3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“抑龙”没有可参考的明确释义，仅保留原词"
+        ]
+      },
+      {
+        "id": "book017-b001218-p000-c75777e7a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“每一定穴れ口官一相对位置”的“れ”为讹误字，候选擅自将此处解读为“和水口、官星”属于无依据增译，原文未提及“官星”相关表述",
+          "原文“伪以公蔣章二氏乃說山形水形则的其所蔽矣”被错误释读为“有人错误地认为蒋、章二氏所讲的山形、水形的相关内容，是被他们自身的认知局限而得出的结论”，含义与原文偏差，原文是说公、蒋、章三人只谈论山形水形是被蒙蔽了，并非他人对这二人的观点判断有误",
+          "原文提及“王星混杂”，候选未对“王星”未明含义作出风险标注，属于漏注"
+        ],
+        "uncertainty": [
+          "原文“每一定穴れ口官一相对位置”存在语序或文字讹误，仅按字面逻辑梳理，细节含义无法完全确定",
+          "“王星”无对应释义参考，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 390,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1200,
+      "completion_tokens": 390,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

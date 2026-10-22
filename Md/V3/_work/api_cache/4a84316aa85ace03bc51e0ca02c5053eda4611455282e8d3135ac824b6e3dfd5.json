@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:21:20.177669+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4a84316aa85ace03bc51e0ca02c5053eda4611455282e8d3135ac824b6e3dfd5",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000214-p000-aef0b2714b",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "平坦的坟地最不适合人居住，若有多处坎（八卦之一）、柳树，就会有乌鸦聚集，导致人口伤亡，子孙后代会做怪异的梦。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文存在多处脱漏、错讹，“乌人”“长厥”“作见”等表述含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000215-p000-1f38a894bd",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "道路冲射宅门也不合适，这种说法是对还是错？凡是建造住宅，忌讳道路直冲宅门，必须让道路迂曲，从逆水边（风水语境中的河流、水系及其来去形态）进入才好。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000216-p000-51613dd45c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "流水若冲射宅屋背面，会导致家人离散、家财退散；宅边常有流水潺湲，会招致丧祸。内午为正，内晚为夕，初朝……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾有缺漏，“内午”“内晚”“初朝”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000217-p000-75c9653126",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "蛟潭龙窟不要怜惜，阴盛必定会导致孤贫。其余全局的相关内容，歌诀中已有详细记载，此篇仅作补充。",
+        "confidence": "medium",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1617,
+    "completion_tokens": 516,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1617,
+      "completion_tokens": 516,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

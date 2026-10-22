@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-15T02:29:56.855788+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7a38efc65e8d2f35c7b68cad21a10a7bf1c7e90325254ee0723e2ac986efc842",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001044-p000-7d607ad148",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“基山釜土”是风水术语，candidate 译为“基山和釜土”并解释为“辨认不清”，属于对 opaque_terms 的确定化解释，不符合规则。应保留原词并标注不确定性。",
+          "“务龙败气焉知休”中的“务”可能是“勿”或“无”的讹误，candidate 译为“务必要知道”是将其当作肯定词，可能改变了原意。",
+          "“背泪如仇儀”的“泪”可能是“戾”或“戾”的讹字，candidate 译为“背泪如同仇敌，仪态便不端正”是推测性解释，且“仪态便不端正”为增译。"
+        ],
+        "uncertainty": [
+          "“基山釜土”具体所指不详。",
+          "“务龙败气”的“务”字可能有误，原文含义不确定。",
+          "“背泪”的“泪”字可能有误，原文含义不确定。"
+        ]
+      },
+      {
+        "id": "book035-b001045-p000-0b7ab2b9c7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“狮道眠安垄豁然”是含混短语，candidate 译为“狮道眠安垄豁然的道理”并作为确定事实陈述，违反了对 opaque_terms 的处理规则。",
+          "“经站”含义不明，candidate 译为“没有经站”未做任何解释或标注，属于漏译或处理不当。应标注其不确定性。"
+        ],
+        "uncertainty": [
+          "“狮道眠安垄豁然”具体所指不详。",
+          "“经站”具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b001046-p000-b00e5cf5c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在大量对含混术语的确定化解释，违反规则。例如：“星峰”译为“星峰”但未标注其风水术语的特定含义（虽然后文有解释，但作为整体审查，应指出其作为术语未明确解释）；“枝龙”、“主干龙脉”是对“枝”、“幹”的现代术语替换，但未在 allowed_glossary 中定义，属于未经允许的术语转换。",
+          "“文破祿廉多作關”中的“文破祿廉”是星峰名，candidate 译为“文曲、破军、禄存、廉贞”是确定化解释，且未在 allowed_glossary 中定义。",
+          "“剥相公侯立可断”中的“剥相”含义不明，candidate 直接译为“剥相公侯”并作为确定事实，属于对 opaque_terms 的确定化解释。",
+          "“钩铃垂脚向垣口”中的“钩铃”含义不明，candidate 直接保留并纳入句子，未标注不确定性。",
+          "“北面重重尊圣头”中的“圣头”含义不明，candidate 直接译为“圣头”未做处理。",
+          "“穴里避风如过贱”的“过贱”可能是“避箭”或讹字，candidate 译为“避贱”是推测。",
+          "“莫令穴缺衩风吹”的“衩风”含义不明，candidate 直接译为“衩风吹”未做处理。",
+          "“溜牙”含义不明，candidate 直接译为“溜牙”未做处理。",
+          "“纱何观”可能为“如何观”之误，candidate 保留“纱何观”未做处理。",
+          "“官东拜舞袖”中的“官东”含义不明，candidate 直接译为“官东”未做处理。",
+          "“加然有袖穴不见”句意不通，candidate 强行串联翻译，可能曲解。",
+          "“官不离乡任何受”句意不通，candidate 翻译牵强。",
+          "“枝龙山富是”句意不通，candidate 翻译为“便是枝龙山富是”难以理解。",
+          "“尖戴亦尝有此言”中的“尖戴”含义不明，candidate 直接保留未处理。",
+          "“千里对侯居此地”中的“对侯”可能为“封侯”之误，candidate 译为“对侯”是推测。",
+          "“主干龙脉尽在江阴填”中的“江阴填”含义不明，candidate 直接译为“江阴填”未处理。",
+          "“东南公海天中尊”含义不明，candidate 直接翻译未处理。",
+          "整体上，candidate 将大量古文术语和含混表述转换成了看似通顺的现代中文，但许多转换缺乏依据，属于无依据扩写或误译，未能达到“保守释读”的要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4983,
+    "completion_tokens": 1097,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4983,
+      "completion_tokens": 1097,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

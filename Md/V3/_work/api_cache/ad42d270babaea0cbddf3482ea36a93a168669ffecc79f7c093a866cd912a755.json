@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-25T01:09:36.851303+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "ad42d270babaea0cbddf3482ea36a93a168669ffecc79f7c093a866cd912a755",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001570-p000-81f6471343",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“逆谁府大鴻”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001572-p000-58ba84be1d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“永石断六有幼静”具体含义不详",
+          "“一壮一水一徵龙卯”具体含义不详",
+          "“三二三”是否为页码无法确认",
+          "“平砂玉天辨伪”疑似原文讹误，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001575-p000-dd5b45d21e",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“累氣即街龍脈堂”具体含义不详",
+          "“ハま”为日文残留，未译"
+        ]
+      },
+      {
+        "id": "book017-b001576-p000-61584162b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“水墮山而仍州陸水而行也”的断句错误，candidate断为“水堕山而仍州，沿着陆水流动”不符合原文语序，属于对讹误内容的不当拆分"
+        ],
+        "uncertainty": [
+          "“今失言龍”的具体语义存在疑问",
+          "“水柔欣質”中的“欣”疑似衍字，暂保留原文表述",
+          "“水涼仍之道”具体含义不详",
+          "“水墮山而仍州陸水而行也”中“墮山”“仍州”的具体含义无法确认"
+        ]
+      },
+      {
+        "id": "book017-b001577-p000-3e1f6709be",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“山之者脈似從止”存在脱文，语义不完整，无法准确释读"
+        ]
+      },
+      {
+        "id": "book017-b001579-p000-9a9ec6b044",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“山自高而鸟，切巾尔從之自窝而卑”存在讹误，语义不明确",
+          "“大淫”具体所指不详",
+          "“我其士概”语义不明",
+          "“妙八水”具体所指不详",
+          "“未水之勿派”具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2223,
+    "completion_tokens": 655,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2223,
+      "completion_tokens": 655,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

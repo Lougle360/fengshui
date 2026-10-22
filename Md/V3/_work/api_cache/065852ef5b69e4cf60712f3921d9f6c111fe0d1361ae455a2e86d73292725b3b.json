@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T08:32:15.394454+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "065852ef5b69e4cf60712f3921d9f6c111fe0d1361ae455a2e86d73292725b3b",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000213-p000-6dff212d64",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的“编录也没有不正取的”等内容进行了无依据的扩写，不符合原文语义；将“声正宗卷之下”的标注位置错误，原文中该内容为书名卷次，并非方位相关内容；对“特皋酉”“县水款”的处理未明确标注为不确定，且存在无依据的解读"
+        ],
+        "uncertainty": [
+          "特皋酉，具体所指不详",
+          "县水款，具体所指不详",
+          "声正宗卷之下，具体所指不详"
+        ]
+      },
+      {
+        "id": "book008-b000214-p000-a6d3d7b0ad",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "对原文中“苑坤贝黑雪之山”“黄泉面余”“木交”“劳者水”“滇数”“朔梅”“关镇”等不确定术语进行了无依据的解读，将推测内容当作确定事实；对“之玄”的解读错误，原文中“之玄”指水势曲折，并非“幽”的意思；对“曜杀”的解读无依据；对“相辨”的解读不符合原文语义；对“木交则风止脉止而气凝”的解读错误，原文中“木交”指特定风水术语，并非简单的木相交"
+        ],
+        "uncertainty": [
+          "苑坤贝黑雪之山，具体所指不详",
+          "黄泉面余，具体所指不详",
+          "木交，具体所指不详",
+          "劳者水，具体所指不详",
+          "滇数，具体所指不详",
+          "朔梅，具体所指不详",
+          "关镇，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1928,
+    "completion_tokens": 433,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1928,
+      "completion_tokens": 433,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

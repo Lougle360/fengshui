@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-17T13:26:42.859258+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "fc88fabf12af08a4d1e7c71480e8a862eee1c75eae25efee960957966f77dd72",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003770-p000-ad2c275c85",
+        "language": "mixed",
+        "content_type": "html_table",
+        "action": "rewrite",
+        "modern_text": "《發揮》篇說：這條龍脈是金星奇格，左右交互夾拱，格外顯貴，可以預知將出掌理絲綸（指掌管文書機要）的大貴人，擔任內相之職。然而，如果沒有脈絡帶連屬，就不能稱為「金鎖甲」，只能稱為「帶匱庫」或「暗庫」。如果還有其他貴氣龍脈，必須兩旁有衛托，否則只能主富貴雙全；若無其他貴氣，則僅為巨富之龍。若攢甲，則脈絡總要分明，交互停當，不偏不斜，其脈帶水流為斷，這才是真正的「金鎖甲」。其形狀如同貴人所穿的金甲，故能出將入相，其力量甚至超過正穿心。兩旁若有衛托，則極清極貴，心繡舒開，障自是。否則，龍氣既正，天造地設，也有無纏衛者，況可以極其清貴？否則清貴不能至極。今附：今人所為穿心者，乃蜈蚣節也。正穿橫闕，或展于腳，自為纏衛。蜈蚣足短，必上衛而后倍于后土。中生金稟氣渾厚，而又手傍勻，所以清貴。若非土生金，亦須帶水。若金自生生旺，是無根本，不足借也。無土而帶水，尤為清秀，但不宜中金，則謂之無化氣，無根本也。一過雲車落釵穴，案有牙梳，天梯美女，五星九星，四神八將，俱令富貴極。龍雖是橫入手，腳停勻，亦貴富也。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文表格結構混亂，部分文字（如「Loccecce 金」、「关数关」）疑似 OCR 識別錯誤，無法確認原義，故在釋讀中略去或保守處理。",
+          "「金鎖甲」、「帶匱庫」、「暗庫」等術語雖在 locked_terms 中，但原文未提供定義，故僅保留原詞，未添加括號解釋。",
+          "「攢甲」、「正穿心」、「蜈蚣節」等術語在原文中出現，但 allowed_glossary 未提供解釋，故僅保留原詞，未添加括號解釋。",
+          "「一過雲車落釵穴，案有牙梳，天梯美女，五星九星，四神八將」等句，原文語意斷裂，可能為殘句或排版錯亂，釋讀時僅按字面轉述，未做推斷。"
+        ]
+      },
+      {
+        "id": "book035-b003771-p000-5280a6932c",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 地理天機會元 卷十九玉髓經 十",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1960,
+    "completion_tokens": 802,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1960,
+      "completion_tokens": 802,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

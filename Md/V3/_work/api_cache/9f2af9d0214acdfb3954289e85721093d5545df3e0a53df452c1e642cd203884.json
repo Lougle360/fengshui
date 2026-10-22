@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T11:39:47.960968+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9f2af9d0214acdfb3954289e85721093d5545df3e0a53df452c1e642cd203884",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000151-p000-a13d57e739",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘丙向’释为‘建筑或穴位所朝的方位为丙位’，虽符合allowed_glossary中‘向’的定义，但原文未明确‘丙向’是建筑或穴位的朝向，属于无依据扩写；将‘水流吳出’释为‘水流向“吳”流出’，未明确‘吳’为原文未明的专名，未标注风险"
+        ],
+        "uncertainty": [
+          "原文‘水流吳出’的‘吳’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 161,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 977,
+      "completion_tokens": 161,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

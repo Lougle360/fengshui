@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-17T23:45:22.488723+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "ed72f6bf128445b86fae6e95aaffbfaabda78a895888b0786b939be38ed11dd9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005019-p000-aa33a0a99f",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 此处为文档第 85 页的版式说明：该页属于高风险或复杂版面，OCR 结果仅供检索参考；具体内容与排版格式以原始页面图像为准。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005020-p000-823d9e8bc8",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《地理天机会元》卷二十四，讲述穴格，为第三十九部分。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 249,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1203,
+      "completion_tokens": 249,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

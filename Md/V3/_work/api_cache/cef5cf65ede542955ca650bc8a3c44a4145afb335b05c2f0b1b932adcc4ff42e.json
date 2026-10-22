@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T01:35:50.158091+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cef5cf65ede542955ca650bc8a3c44a4145afb335b05c2f0b1b932adcc4ff42e",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001701-p000-2e4686fd70",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“如的坎官子山赞起百”“亲二”“馆三”“景四”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001702-p000-f9ddf25d1a",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“3”“吴力鼎”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001704-p000-7316eda64a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“王行”为“五行”讹误，候选误保留“五行”含义时前半部分错将“王行”等同于“五行”，且原文“之使天地之生竣不不化取其一，二公其四矣”存在OCR讹误，候选释读无依据，“丢弃其四”不符合原文残损表述的严谨性"
+        ],
+        "uncertainty": [
+          "原文“生竣不不化”“二公其四”表述残损，具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001705-p000-3b1c67b059",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文中“空王行”“未育笔”“一七必美七”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001706-p000-f2d97a5f04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b001707-p000-9cddaf7f51",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“空”“南公玉尺”“仙人秘客”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001709-p000-49cbb14aea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“垂大水八”“屆方全地不產冬材魚方流地不空生良生”存在OCR讹误，候选自行拆分出“某方”属于无依据增译，且将“鱼方流地”拆分表述不符合原文残损状态的保守释读要求"
+        ],
+        "uncertainty": [
+          "原文“垂大水八”“屆方”“魚方流地”“生良生”表述残损，具体含义不详"
+        ]
+      },
+      {
+        "id": "book017-b001710-p000-6dbfdfe907",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“以后性言之”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001711-p000-1aafbcd38a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“公玉尺”表述模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b001712-p000-2a8b61a4c6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理辨亡真诀 平砂玉天辨伪 三五五生殺之氣不可以方隅限也”并非是该两部书“提到”的内容，属于无依据增译；原文“蒼物”释为“青色的草木”不准确，“蒼物”泛指万物；“方隅”释为“方位边角”不准确，“方隅”指方位、方向；原文“一廬”“第物背落”“屈北”“書落”存在讹误，候选释读无充分依据"
+        ],
+        "uncertainty": [
+          "原文“一廬”“第物背落”“屈北”“書落”表述模糊，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2566,
+    "completion_tokens": 1036,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2566,
+      "completion_tokens": 1036,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

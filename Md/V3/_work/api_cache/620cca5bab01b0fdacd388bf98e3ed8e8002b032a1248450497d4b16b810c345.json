@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T22:03:23.679236+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "620cca5bab01b0fdacd388bf98e3ed8e8002b032a1248450497d4b16b810c345",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003882-p000-ca2d59ddef",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将爻辞对应的古文含义转换为普通读者可读懂的现代白话，仅完整引用了原文，不符合白话释读的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003885-p000-a78f29c1c8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将《象》文的含义转换为普通读者可读懂的现代白话，仅保留了原文表述，不符合白话释读的要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 758,
+    "completion_tokens": 176,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 758,
+      "completion_tokens": 176,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

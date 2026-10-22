@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T14:56:08.760522+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a5000b5ac20f63d79950d906a10cc1275e4d65aa040b6139b890879899cb4325",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000934-p000-72582dbb11",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000935-p000-ecb91e4451",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文既济阴图的内容是「地の十六卦を以て天の十六卦を和し」，候选句误译为「以地の十六卦对应天之十六卦」，与原文含义不符"
+        ],
+        "uncertainty": [
+          "図6-18",
+          "図6-19"
+        ]
+      },
+      {
+        "id": "book015-b000936-p000-da927f3a01",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000937-p000-5054141b91",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "否否～姤恒",
+          "泰泰～復益"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3356,
+    "completion_tokens": 301,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3356,
+      "completion_tokens": 301,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

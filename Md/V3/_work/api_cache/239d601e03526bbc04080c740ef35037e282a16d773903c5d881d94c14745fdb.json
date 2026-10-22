@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:10:38.128053+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "239d601e03526bbc04080c740ef35037e282a16d773903c5d881d94c14745fdb",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001735-p000-0267ae5840",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001736-p000-ed4bc83ff6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中“无不 译文六五，像贯串一排鱼一样引领众利①”的内容，未完整呈现原文的释读信息，存在内容缺失"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001737-p000-2985737193",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001738-p000-74ad9f3578",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1982,
+    "completion_tokens": 261,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1982,
+      "completion_tokens": 261,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

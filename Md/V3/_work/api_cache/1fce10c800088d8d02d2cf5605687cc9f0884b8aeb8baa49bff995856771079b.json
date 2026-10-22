@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-17T05:56:43.596526+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1fce10c800088d8d02d2cf5605687cc9f0884b8aeb8baa49bff995856771079b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002698-p000-1db354b25d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002699-p000-f29eb7405b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘朕地之人心通人天道有明乎地之天之’一句，candidate 将其解释为‘是为了区分天地之道；人心相通，人道的天道有明，地上的天道也有明’，这属于无依据的扩写和确定化解释。根据规则，对于这种语序混乱、含义不明的原文，candidate 应保留原短语并明确标注‘具体所指不详’，而不是将其解释为确定的含义。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002700-p000-41f7a7719e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002701-p000-a8b8b45f2c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文‘相帝人丁來木水來長有之道出水合天明人所 客息以玄實爲化 生之化户故也’断句与词义模糊，部分字词（如‘相帝’、‘客息’）在风水语境中具体所指不详，译文采用保守直译并标注了不确定性，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b002702-p000-8d129abbc2",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘乙木酉金爲火巽木申金訣 曰...’部分句式紧凑且术语密集，‘字得’一词在上下文中具体含义需结合口诀理解，译文保留原意并尝试理顺逻辑，符合处理原则。"
+        ]
+      },
+      {
+        "id": "book035-b002703-p000-0a390e801b",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在严重断句错乱及可能的衍文（如‘5道’、‘蔡巳’），部分句子（如‘我复我’、‘生我入来欲来交我情’）语义晦涩，具体所指不详，译文在保留原词基础上尽量理顺逻辑，并标注了不确定性，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b002704-p000-c95c20a994",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘欧济’、‘敢此四句’等词义在风水语境中较为特殊，‘敢’字在此处可能为‘盖’或语气词，译文保留原词并尝试解释其逻辑关系，符合处理原则。"
+        ]
+      },
+      {
+        "id": "book035-b002705-p000-b4f687c6bb",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文‘非书智其执能知之’、‘鲁有义玄’等句断句与词义模糊，‘太瑣’可能指过于琐碎，具体所指不详，译文采用保守表达并标注了不确定性，符合要求。"
+        ]
+      },
+      {
+        "id": "book035-b002706-p000-177343c760",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘参天地饭神’、‘罪法象家’等表述较为晦涩，‘饭神’可能为‘奉神’或特定术语，具体所指不详，译文保留原词并尝试理顺逻辑，符合处理原则。"
+        ]
+      },
+      {
+        "id": "book035-b002707-p000-c880516749",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3703,
+    "completion_tokens": 811,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3703,
+      "completion_tokens": 811,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T10:58:55.194253+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9eb2951366627ab74b8b70cca72191810f76eb1dee598742c651d949826794ff",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000066-p000-d5111b075e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文断句及部分术语含义模糊，保守整理如上"
+        ]
+      },
+      {
+        "id": "book011-b000067-p000-8e0466a4e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000068-p000-def33b4fc1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000069-p000-7fd187606d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“李子舉獸師傳”“莫所蓮從”“林正之者”等表述含义模糊，保守整理如上"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2030,
+    "completion_tokens": 268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2030,
+      "completion_tokens": 268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

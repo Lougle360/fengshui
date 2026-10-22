@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-10-18T05:17:49.561107+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "65e1c4c60cbd062f0ff9c52107c1aff754f2925dad2836a7bf1ba7fd6817d3ad",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005563-p000-3acccbbdce",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "夏至、小暑、大暑、立秋这四个节气属于上元；处暑、白露、秋分、寒露这四个节气属于中元；霜降、立冬、小雪、大雪这四个节气属于下元。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005564-p000-6d6a56cfcc",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "冬至、惊蛰、清明、立夏、大暑、处暑、秋分、大雪这些节气被归为天元。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“大署”应为“大暑”，“處署”应为“处暑”，系OCR识别误差，已按节气常识修正"
+        ]
+      },
+      {
+        "id": "book035-b005565-p000-062ab95afa",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "此处指地元局。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005566-p000-d46d4fbfbb",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "小寒、立春、谷雨、小满、小暑、立秋、小雪这些节气被归为天无元。",
+        "confidence": "medium",
+        "uncertainty": [
+          "“天无元”一词在常见术数体系中极为罕见，原文可能为“天元”之误，但依据规则不擅自修改术语，仅如实转述"
+        ]
+      },
+      {
+        "id": "book035-b005567-p000-fb3b373247",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "此处指人元局。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005568-p000-c827d19c1c",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "大寒、雨水、春分、芒种、夏至、白露、寒露、立冬这些节气属于人元。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005569-p000-2fb5c99ab7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "此处标题为八卦年数生成数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005570-p000-ef85f83620",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "天一生水，地六成之；地二生火，天七成之；天三生木，地八成之；地四生金，天九成之；天五生土，地十成之。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文“天五生上”应为“天五生土”，系“土”字误作“上”，依据五行生成数常识修正"
+        ]
+      },
+      {
+        "id": "book035-b005571-p000-ba7c962940",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "此处指下格局。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005572-p000-1cc1230e42",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "郡邑官员上任之地、行官符之处、馆驿、堂前经过赐给府第的堂前、祭祀天地神祗社稷祈祝的场所、堂前神庙、宅第，皆以前堂为巨庶院落；以及未曾经过第宅之家、已经升任执政的屋宇，若没有中堂，则看天井；中堂不论横直，都以中堂为准。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文“巨庶院洛”语义不明，可能为“巨庶院落”之误，但无法确证；“不曾經第之家”与“已升執政屋宇”之间的逻辑关系及“堂前神廟堵宅”中“堵”字含义不清，故译文采用保守表述，保留原意结构"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1971,
+    "completion_tokens": 1349,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1971,
+      "completion_tokens": 1349,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

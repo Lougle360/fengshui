@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-17T23:43:43.250085+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "f190aae8c8aafee0ee91802bacdb90d363a2924661ee7867d80cc8ec65638a9e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005013-p000-4353b4eaa5",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "本表为风水形法图解，按太阴、太阳等星体分类，逐列展示不同穴形特征、格法变化及吉凶断语。第一列（太阴第三号）：穴形似兽兼虫，悬乳低员，格法为木出金变，穴向需在平地现平处突中安面，尺量定位；第二列（太阴开口）：格法为水出火变，指叠右，食细右，格正；第三列（太阴第二号）：穴形如兔，最堪扦，开口形如伏心半月规，格法为木水变，格正，次会纽左，金垂，胆张右；第四列（太阳）：格法为木土变，富贵永绵延，真穴如何剖正，格正，格正，男贵女为妃，格正，膀张左，作出栏杆没骨时人喝；第五列（太阳平西）：格法为木夹水转水出，格次，声价满皇州格；第六列（太阳第九号）：状似金盘平面，人言形，格正，火带火转土转火出，拳摇右。图中各列对应不同穴形格法，需结合图像与文字综合判断。",
+        "confidence": "high",
+        "uncertainty": [
+          "部分图像内容无法直接转化为文字描述，仅能根据图像位置与文字对应关系推断其含义。",
+          "“格正”“格次”“格变”等术语在表中多次出现，具体指代需结合上下文判断，此处保留原词。",
+          "“悬乳低员”“伏心半月规”等穴形描述为专业术语，未列入 allowed_glossary，故保留原词。",
+          "“作出栏杆没骨时人喝”一句语义模糊，可能为口诀或隐语，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4720,
+    "completion_tokens": 511,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4720,
+      "completion_tokens": 511,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

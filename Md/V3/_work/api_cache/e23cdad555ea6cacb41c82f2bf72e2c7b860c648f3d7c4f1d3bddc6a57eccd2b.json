@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-25T00:55:31.428721+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e23cdad555ea6cacb41c82f2bf72e2c7b860c648f3d7c4f1d3bddc6a57eccd2b",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000669-p000-2e580a2af0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "古歌原文‘须知点穴难’被误译写为‘须知点穴虽’，属于文字错误",
+          "‘掘窝虽顶’的译文‘挖掘窝穴虽然在顶部’语义不通，原文‘虽’为‘即’的讹写？原句‘勉强安扦，掘窝即顶’是说勉强安插扦位，挖掘窝穴就挖到了山顶，此处翻译逻辑错误",
+          "‘注死骨’被译为‘安置死者’，表述不准确，原文是指安放逝者骨骸",
+          "‘相山骨髓’属于风水书名类专名，应加书名号标注为《相山骨髓》",
+          "‘四十字铜人、空山、赤图、寸金’均为穴法相关的专名/书名，应加引号区分，避免读者误解为普通描述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5017,
+    "completion_tokens": 226,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5017,
+      "completion_tokens": 226,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

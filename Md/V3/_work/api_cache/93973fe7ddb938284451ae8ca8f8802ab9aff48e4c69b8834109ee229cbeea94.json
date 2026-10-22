@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-09-25T18:43:27.585765+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "93973fe7ddb938284451ae8ca8f8802ab9aff48e4c69b8834109ee229cbeea94",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001139-p000-2081072a04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001142-p000-d1870f9ce9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001143-p000-412b242785",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文句读应为《火法按缀塟法 平吞盆坐 大梵梭》《析地理奉赞玄机全书》○卷四，候选将“大梵梭”独立断出属于无依据拆分，且未说明“火法按缀塟法”“平吞盆坐”“大梵梭”“析地理奉赞玄机全书”均为未明确释义的专有名称，存在过度断句问题"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001144-p000-df56793b64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“属”的具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001145-p000-3775cabefc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“左右低靈鼓面有石”候选断为“如果左右地势低灵，鼓面有石头”错误，“低靈”属于无依据释义，原句应为“左右低、灵鼓面有石”，“灵鼓”是对应前文“仙人棒鼓”的相关表述，候选擅自拆分断句并对“低灵”作无依据解释"
+        ],
+        "uncertainty": [
+          "“浴瓜不树”的具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001146-p000-9f41e0c22d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001148-p000-1d04968dd9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“旋螺開劈”“燕窩中作”均为葬法名称，候选将其释为“采用旋螺开劈法”“在燕窝中作业”不准确，“在燕窝中作业”属于望文生义，未明确“燕窝”是风水地形术语，且原文未明确分为两类葬法，属于无依据增译分类表述"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1794,
+    "completion_tokens": 677,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1794,
+      "completion_tokens": 677,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

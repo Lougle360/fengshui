@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T15:49:49.476601+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "618041467d0acae975cd6af4ff822afa2871ee2f8fbabc63c253f487a8807bbd",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001299-p000-a1af43587e",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中国历代的度量衡学者大体上都将《汉书》中王莽、刘歆的体系视为最为完备的制度，基本都遵循该体系。所谓“黄钟柜黍”的学说，是以黄钟律管作为原器，以秬黍作为辅助媒介，来统一构建度量衡单位体系的定型化理论。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001300-p000-21865d3113",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《汉书·律历志》对度制的组织作了如下记述：“度即分、寸、尺、丈、引，是测量长短的工具，源自黄钟的长度。取北方计算用的标准大秬黍，测量九十粒黍的总长度，即为黄钟的长度（九十粒合九寸）。以一粒黍为一分，十分为一寸，十寸为一尺，十尺为一丈，十丈为一引，由此确定五度。”以黄钟管长为九寸，由此确定了五个长度单位。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001301-p000-e44185842b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "五量——五个容量单位，是以黄钟管的容积八百一十立方分为一龠来制定的。“量即龠、合、升、斗、斛，是测量多少的工具，源自黄钟律管（龠）。其容积由度的数值确定（一龠等于八百一十立方分），相当于装满一千二百粒北方计算用的标准大秬黍至黄钟律管上部，再以井戸水将上部调至水平时的容积。将该龠的容量作为一合，十合为一升，十升为一斗，十斗为一斛，由此形成五量。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001302-p000-6041cf2772",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "刘歆从黄钟的重量，也就是同一律管中装入的一千二百粒秬黍的重量，推导出五权——五个重量单位。“权即铢、两、斤、钧、石，是使秤的衡（秤杆）保持水平以知晓轻重的工具，源自黄钟的重量。一龠装入一千二百粒黍，这些秬黍的重量为十二铢。将其加倍为一两，也就是二十四铢为一两，十六两为一斤，三十斤为一钧，四钧为一石。……由此形成五权。”另外，权指的是秤的砝码。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2261,
+    "completion_tokens": 761,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2261,
+      "completion_tokens": 761,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

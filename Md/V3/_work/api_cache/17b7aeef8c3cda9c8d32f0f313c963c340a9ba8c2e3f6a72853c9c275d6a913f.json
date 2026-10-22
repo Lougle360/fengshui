@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T19:50:07.496528+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "17b7aeef8c3cda9c8d32f0f313c963c340a9ba8c2e3f6a72853c9c275d6a913f",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003101-p000-028719c1c7",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "①爻辞“冥升，利于不息之贞”：这句话说的是上六爻以阴爻的身份处在《升》卦的终点，位居坤（八卦之一，卦象及五行、方位依原文语境确定）阴的极致位置，有昏昧到极点却仍然不断上升的意象；所以应当持守“贞”的原则永不停息，不能轻率地胡乱行动，也不能擅自担当主导事物的角色。《王注》中说：“处在《升》卦的极致位置，是不断前进不会停止的状态；一直前进不停息，所以即使在昏昧的状态下也还在上升。因此把这种特性用在永不停息地守持正道上是可以的，要是用在充当事物的主导者上就会有损失。（注：原文中此处的“升”阮刻本写作“贞”，这里依据《校勘记》的考证修改为“升”）”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003102-p000-ddb1e80d9f",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处为残句，可辨认的内容为：（某事物）到了极致仍然上升的发展趋势必然会消减。",
+        "confidence": "low",
+        "uncertainty": [
+          "本句为上下文断开的残句，句首主语缺失，完整含义无法确定"
+        ]
+      },
+      {
+        "id": "book016-b003103-p000-c0d215698a",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：昏昧却仍然上升的状态出现在最上位，意味着运势会消减，无法保持富足。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003104-p000-4ceaeb3f1d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "上六爻处在“上升”到极点必然转向反面的时段，本来是有凶灾过错的；但爻辞却说“利于不息之贞”，实际是从正面给出告诫和勉励，也就是来知德所说的“为占卜的人打开了向善的门路”，该说法出自《来氏易注》。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 594,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1562,
+      "completion_tokens": 594,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

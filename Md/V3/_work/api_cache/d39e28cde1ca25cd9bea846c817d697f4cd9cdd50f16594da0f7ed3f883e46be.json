@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-09-25T12:56:41.858247+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d39e28cde1ca25cd9bea846c817d697f4cd9cdd50f16594da0f7ed3f883e46be",
+  "response": {
+    "items": [
+      {
+        "id": "book025-b000393-p000-44c9eb3f45",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首部分“分同丁紀巳”无对应释读，存在漏译",
+          "原文卦名是“澤風大過”，释读中错误拆分表述为“澤風大過是震（八卦之一）”，逻辑错误，震为八卦名，泽风大过是六十四卦卦名，二者不存在等同关系"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000394-p000-e7d42606bb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“四九三辛酉”释读为“九三為辛酉”漏译“四”字",
+          "原文“母九五丁四言兒上大丁未妻才火風鼎”断句错误，释读误将“火”划分为上爻对应项，实际“火风鼎”是完整卦名，导致卦名释读错误，写成“風鼎”遗漏“火”字",
+          "原文“內卦初六辛丑十九二年玄官鬼九三年酉”断句错误，释读拆分逻辑不符合易学文本常规表述，存在语义拆分偏差"
+        ],
+        "uncertainty": [
+          "丁四、十九二年、九三年酉等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000395-p000-634a95c458",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“鬼涕”具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book025-b000396-p000-569fa746f5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000397-p000-d618538e91",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "率五、事亥、華酉等表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000398-p000-fafea4bcc8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“上六庚戌事”释读为“六為庚戌”漏译“上”字，上六是六十四卦爻位固定术语，不可遗漏"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000399-p000-8356b33896",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“九二年亥交每”释读为“九二年亥爻”，误将“交每”写作“爻”，无依据篡改原文内容，且存在漏译"
+        ],
+        "uncertainty": [
+          "九二年亥交每表述含义不明"
+        ]
+      },
+      {
+        "id": "book025-b000400-p000-f0eab534b2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book025-b000401-p000-4a2d792399",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“上九丙寅兄第坤向乙全地風升”断句错误，释读误将“地”划分为上九对应项，实际“地风升”是完整卦名，导致卦名释读错误，写成“風升”遗漏“地”字",
+          "原文“九五丙子爻冊上九丙寅”断句错误，释读为“六五是丙子爻，册上九丙寅”，错误将“册”和“上九”连读，“上九”是爻位，应单独对应丙寅",
+          "原文“保雲宮”释写为“保云宫”属于正常繁简转换，无问题；但原文“大五蔡等文帝”释读无依据拆分，存在表述偏差"
+        ],
+        "uncertainty": [
+          "辛凡、九季玄文、率酉刻、癸五大五蔡等文帝这些短语具体所指不详",
+          "兄第是否为“兄弟”的讹写无法确定",
+          "去、册、上废四的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book025-b000402-p000-a041b69302",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字“維”无对应释读，存在漏译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2112,
+    "completion_tokens": 1023,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2112,
+      "completion_tokens": 1023,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

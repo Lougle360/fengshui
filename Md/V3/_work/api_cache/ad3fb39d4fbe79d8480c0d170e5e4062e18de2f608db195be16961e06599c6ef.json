@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T13:27:50.396945+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ad3fb39d4fbe79d8480c0d170e5e4062e18de2f608db195be16961e06599c6ef",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000126-p000-f48e0afa9d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000128-p000-16c70df5f8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中「『七略』の二重の六部分類がまったく等しく（フラクタル構造をもち）」的「フラクタル構造をもち」（具有分形结构）这一关键限定信息"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000129-p000-c5e4379fd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000131-p000-5789e3437e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2129,
+    "completion_tokens": 267,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2129,
+      "completion_tokens": 267,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

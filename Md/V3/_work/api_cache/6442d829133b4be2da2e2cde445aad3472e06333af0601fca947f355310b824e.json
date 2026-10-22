@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-26T09:18:53.631722+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6442d829133b4be2da2e2cde445aad3472e06333af0601fca947f355310b824e",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000609-p000-b4cc6d933c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000610-p000-dc9063de01",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文存在OCR缺字错乱，部分内容语义无法完全确认"
+        ]
+      },
+      {
+        "id": "book033-b000613-p000-9b6c127007",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000614-p000-17ad706438",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000615-p000-b3ef261b97",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译“証”字，原文“証佐分曉”被误写为“佐分晓”，导致语义不全",
+          "原文“大最突面光圓”语序调整错误，应为“大突最喜面光圆”，候选表述“大最突面光圆”语义不通",
+          "“排苦”属于未释读的古文生僻表述，未作通俗转换或标注"
+        ],
+        "uncertainty": [
+          "外星而突之为形、凑簷避毬、凑毬避簷等风水专业表述未明确说明含义，普通读者可能难以理解"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3161,
+    "completion_tokens": 424,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3161,
+      "completion_tokens": 424,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

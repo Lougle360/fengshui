@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T19:47:14.912997+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "35a9806e435bad7bf1f934619d6b92f6b8ed2c68accb0014d5b6d2b0a553f7b0",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003081-p000-8ea42a4e42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "关于“虚”的含义存在两种不同解释，原文未明确确定唯一结论"
+        ]
+      },
+      {
+        "id": "book016-b003082-p000-d7ea41062f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "译文存在表述歧义，“空疑虑”语义模糊，未准确对应原文《象传》的“无所疑也”"
+        ],
+        "uncertainty": [
+          "原句“空疑虑”的具体含义存疑，未明确对应原文的准确释读"
+        ]
+      },
+      {
+        "id": "book016-b003083-p000-65f01daca3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003084-p000-b683c1fbe5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1762,
+    "completion_tokens": 258,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1762,
+      "completion_tokens": 258,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

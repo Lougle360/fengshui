@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-18T04:41:57.851345+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "69ec23f33016362ce068c2ad04a65aff98c8e32e55deb857f3f3ec209cae8569",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005449-p000-0660bb2d28",
+        "language": "mixed",
+        "content_type": "table",
+        "action": "rewrite",
+        "modern_text": "《地理天機會元》卷三十记载卦例七。其起例方法为：将贪狼、巨门、禄存、文曲、廉贞、武曲、破军、左辅、右弼九星，根据八山（乾、坤、震、巽、坎、艮、兑、艮）所对应的星曜，依次排入中宫，然后顺飞九宫。其中贪狼、巨门、武曲、左辅为吉星，其余星曜皆为凶星。此法称为“天父卦”。\n\n表格中列出了不同坐向（如乾、震、兑、坎、坤、艮、巽等）对应的卦象变化及吉凶判断。例如，乾山对应离卦，震山对应离卦，兑山对应兑卦等。表格还标注了定局、生、天医、本宫等风水术语，以及艮与坎之间、巽与坤之间、离与兑之间、乾与震之间等方位关系。\n\n起例的具体规则是：从七变（即七曜变化）的对宫起贪狼星。例如，乾山七变对应离卦，离卦与震卦相对，则从震卦上起贪狼星。另有捷法，即从间宫起贪狼星。此卦例源自天父卦的七变规律，用于确定坐穴的吉凶，若判断为绝命或五鬼，则需参考福德卦进行参详。",
+        "confidence": "medium",
+        "uncertainty": [
+          "表格中部分星曜与方位的对应关系因排版复杂，需结合原图确认",
+          "七变的具体计算逻辑在原文中未完全展开，此处依据上下文推断"
+        ]
+      },
+      {
+        "id": "book035-b005450-p000-972d76daad",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## <!-- 文档021 PDF第231页：高风险/复杂版面OCR供检索；内容与排版以原页图为准。 -->",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005452-p000-7ba13bba1d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《地理天機會元》卷三十记载卦例八。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1996,
+    "completion_tokens": 688,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1996,
+      "completion_tokens": 688,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-26T05:19:56.391023+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c169333665467e83454b5707f4501089fc8245e3e75dbde6b9c991f5c5c3389d",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002372-p000-bd93b9d22a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002373-p000-6652661fe4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002374-p000-044f47c596",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译“繩路”（原文提到立穴处是繩路小水，候选未提及该表述）"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002375-p000-c3c7a36912",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“其鳴在翌下脇陽自左鳴陰日右鳴”中“日”应为“自”的讹写，候选译作“胁部的阳在左侧鸣叫，阴在右侧鸣叫”属于无依据释读，应保留原句含混性或标注讹误；“趙左”应为“趋左”的讹写，候选虽译作“趋向左方”符合语境，但未明确标注原文讹字风险"
+        ],
+        "uncertainty": [
+          "“胁阳自左鸣、阴自右鸣”的具体风水指代含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b002376-p000-96aec1518f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002377-p000-2a037a0ade",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“送八口”应为“送入口”的讹写，候选虽译作“送入口中”符合语境，但未标注讹误；原文“地理參贊玄機全書○卷十一”候选书名写错为《地理参赞玄机全書》，漏字不符原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002378-p000-15a14f83fa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“兩砂相聞”应为“兩砂相閡（或相近讹字）”，候选译作“两条砂相互靠近”属于无依据推定，应标注原文词义不明；“開口鋪陽出唇”属于风水专有表述，候选直接沿用未说明属于术语，且无释义也未标注含义不明"
+        ],
+        "uncertainty": [
+          "“相闻”“开口铺阳出唇”的具体含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b002379-p000-70feec5bbd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“且貞其行又橫”候选拆分作“藏在脐旁，而且蟹的行动是横向的”属于断句错误，应为“且贞，其行又横”，“贞”指蟹的脐部端正，候选误将“贞”的属性归到脐的位置描述；原文“星面”属于风水专有术语，候选未标注含义不明直接沿用；“水之左明右明則穴見矣”候选译作“水的左侧或右侧明亮，这样穴位就确定了”属于过度释读，“见”是显现不是确定，“明”的具体含义也未明确"
+        ],
+        "uncertainty": [
+          "“星面”“水之左明右明”的具体风水指代含义原文未明"
+        ]
+      },
+      {
+        "id": "book029-b002380-p000-fd5a9165f0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文书名是“地理奉贊玄機全書”，候选错写为“《地理参赞玄机全书》”，首字讹改不符合原文"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002381-p000-eb794c60c9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句错误，“余姚奚觉道人吕元、虎林惺菴主人杜诗”，候选错将“虎林”归到吕元的名字里，拆成“吕元虎、林惺菴”，人名断句完全错误；“評運”应为“評註/評閱”类讹字，候选译作“评阅”虽合理但未标注原文讹误；“參與相關工作”属于模糊增译，原文仅列人名及身份，未说明具体工作，属于无依据扩写"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3160,
+    "completion_tokens": 1194,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3160,
+      "completion_tokens": 1194,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

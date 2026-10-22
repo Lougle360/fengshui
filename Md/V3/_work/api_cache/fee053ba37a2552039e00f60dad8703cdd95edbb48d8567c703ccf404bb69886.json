@@ -1,0 +1,74 @@
+{
+  "created_at": "2026-09-25T14:06:45.251086+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "fee053ba37a2552039e00f60dad8703cdd95edbb48d8567c703ccf404bb69886",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000009-p000-b5b02e9e39",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若崩洪又豈可棄脉藏水裏有水爲之庇覆”存在断句歧义，candidate将其解读为“又怎么能舍弃气脉、选择将穴藏在水里呢？有水为它遮蔽覆盖”，属于无依据判定为反问语气，原文可断为“若崩洪，又岂可不弃脉？藏水里，有水为之庇覆”，candidate将不确定的断句解读写成确定事实，且额外添加了原文没有的“所以这种情况是可以安葬的”结论，原文仅说明气脉潜运的原理，未明确给出可葬的论断，属于增译错误"
+        ],
+        "uncertainty": [
+          "“阶处”“崩洪”的具体风水含义原文未明"
+        ]
+      },
+      {
+        "id": "book028-b000010-p000-e5f118a028",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘抓’为风水专业术语，具体所指暂不明确",
+          "“曉薄”“碏礪嵯峨”的精确含义暂无可靠依据"
+        ]
+      },
+      {
+        "id": "book028-b000012-p000-5ecac35e69",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“迄重營以沙水甚美”中的“沙”应为风水术语“砂”，candidate误写为“沙”，违反locked_terms保留要求；原文“彼此之性情意棘恊和”中的“意棘”被误译为“性情意趣有差异”，属于术语理解错误，“意棘”的具体含义虽不明确，但不应随意释读为“意趣有差异”；原文“仰天一壺”“曠野夷關”未做明确标注即直接释读为“仰对青天的一壶”“旷野平地的关口”，属于无依据释义，应标注为含义不详"
+        ],
+        "uncertainty": [
+          "“四凶”“邊將侯助”“內寺尊榮”的具体风水格局含义原文未明",
+          "“仰天一壺”“曠野夷關”“意棘”的具体所指暂不明确"
+        ]
+      },
+      {
+        "id": "book028-b000016-p000-267922aa64",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "正形著复于星地面上",
+          "亦谓之無",
+          "特微体卑形",
+          "四圃可指",
+          "著复",
+          "山弦",
+          "四圃",
+          "贴"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2083,
+    "completion_tokens": 618,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2083,
+      "completion_tokens": 618,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

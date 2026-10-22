@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:56:49.238166+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "2e4bc41ce36a5aaf43af4e995ab4437836c45e49bcd7a8514843e86441337361",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000042-p000-7e19a55cf2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000043-p000-7780a6c835",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文模糊表述“澤羽二水”“陰陽流水”“卜年卜”直接释为“河洛泽羽二水交汇于乾位，嵩山与阴阳流水的位置，之后占卜年份”，未标注这些表述含义模糊的情况，存在把不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文“澤羽二水”“陰陽流水”“卜年卜”等表述含义模糊，具体所指不详"
+        ]
+      },
+      {
+        "id": "book011-b000044-p000-b11d2358ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000045-p000-b957bb0d60",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文模糊表述“元室”“朱催”直接释为确定含义，未标注这些表述含义模糊的情况，存在把不确定解释写成确定事实的问题"
+        ],
+        "uncertainty": [
+          "原文“元室”“朱催”等表述含义模糊，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1562,
+    "completion_tokens": 376,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1562,
+      "completion_tokens": 376,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

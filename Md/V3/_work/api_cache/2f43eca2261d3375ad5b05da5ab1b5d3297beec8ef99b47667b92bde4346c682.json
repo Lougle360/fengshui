@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-04T08:39:46.071421+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2f43eca2261d3375ad5b05da5ab1b5d3297beec8ef99b47667b92bde4346c682",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000996-p000-c6f56b0852",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'平烽忌窩觀此二段則乎門可突可寫不此疑矣'，candidate 将'平烽'译为'平坡地形'，将'乎門'译为'平坡地形'，缺乏依据，属于对 opaque_terms 的过度解释。'可突可寫'译为'是应该选择突起的穴还是凹陷的穴'，'寫'字含义不明，译文将其确定为'凹陷的穴'，属于将不确定解释写成事实。",
+          "原文'低落之穴退讓而下體勢雖張一眞隱約宜下突穴穴'，candidate 译为'如果地势低洼，穴场退让而下，虽然体势张开，但真气隐约难寻，适宜下突穴'，其中'一眞隱約'译为'真气隐约难寻'，'一眞'含义不明，译文将其确定为'真气'，属于将不确定解释写成事实。",
+          "原文'低落勢又窩蔵則保合未固胎結未兒謂之忌寫'，candidate 译为'如果地势低洼且又呈窝藏之状，则气脉保合未固，胎结未成，这就称为忌讳的窝穴'，其中'胎結未兒'译为'胎结未成'，'兒'字含义不明，译文将其确定为'成'，属于将不确定解释写成事实。",
+          "原文'突低 A 低突可塟 低 法當忌粘 高'，candidate 译为'对于低处，应当忌讳采用粘穴法，而应选突起之处安葬'，原文存在 OCR 错误和断句不清，译文进行了大幅度的逻辑重构，超出了保守释读的范围。"
+        ],
+        "uncertainty": [
+          "原文存在多处 OCR 识别错误和断句不清，如'平烽'、'乎門'、'寫不此疑'、'一眞'、'胎結未兒'、'突低 A 低突可塟'等，导致原文含义难以确证。"
+        ]
+      },
+      {
+        "id": "book028-b000997-p000-46b9bfac79",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000998-p000-dbd2ed50ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001000-p000-db158169cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'政禍則一得是傳者可以此爲拘哉'，candidate 译为'政祸则一，得此穴者，难道可以拘泥于此而认为所有情况都如此吗？'，将'政禍則一'译为'政祸则一'，含义不明，且将'得是傳者'译为'得此穴者'，'傳'字含义不明，译文将其确定为'穴'，属于将不确定解释写成事实。"
+        ],
+        "uncertainty": [
+          "原文'政禍則一得是傳者'断句及含义在 OCR 残缺下存在歧义。"
+        ]
+      },
+      {
+        "id": "book028-b001002-p000-2ef0b552f0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001003-p000-8ff9bdf27a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001004-p000-3bce9a0125",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'堂氣包歲外砂聳應實爲眞穴'，candidate 译为'堂气包岁外，砂耸应，实为真穴'，其中'包歲外'译为'包岁外'，含义不明，译文未作任何解释或标注，属于漏译或未处理 opaque_terms。",
+          "原文'過脉閃而之他'，candidate 译为'过脉闪而之他'，含义不明，译文未作任何解释或标注，属于漏译或未处理 opaque_terms。"
+        ],
+        "uncertainty": [
+          "原文'包岁外'、'过脉闪而之他'等表述在 OCR 下可能存在文字讹误，含义难以确证。"
+        ]
+      },
+      {
+        "id": "book028-b001006-p000-521468ddaf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001007-p000-aa87eb7517",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'細砍盎新求其親切'，candidate 译为'细砍审视，求其亲切'，其中'細砍'、'盎新'含义不明，译文将'盎新'译为'审视'，缺乏依据，属于将不确定解释写成事实。",
+          "原文'若是四凶多爲飛腫'，candidate 译为'若是四凶多，多为飞肿'，其中'飛腫'含义不明，译文未作任何解释或标注，属于漏译或未处理 opaque_terms。"
+        ],
+        "uncertainty": [
+          "原文'细砍'、'盎新'、'飞肿'等词在 OCR 下可能存在识别偏差，含义难以确证。"
+        ]
+      },
+      {
+        "id": "book028-b001008-p000-75f7f5b829",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3360,
+    "completion_tokens": 1217,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3360,
+      "completion_tokens": 1217,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

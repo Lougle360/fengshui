@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T09:26:51.312306+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "4e4a17bbe360589f4b67e5c424c5a7e6277bfe37bf6a534816831e7fcb76ac4e",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000296-p000-dc2eb0d999",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "穴（风水中认为气脉聚结、适宜安葬或营建的位置）的优先顺序为癸位。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000298-p000-d4972b969a",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 穴倚——也优先参考卷中关于长长（具体所指不详）的内容",
+        "confidence": "medium",
+        "uncertainty": [
+          "原句中“长长”含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000299-p000-0f19694d2b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "所谓“倚”，是倚靠的意思。山水的态势形成中间聚结的格局，观察人穴（风水中认为气脉聚结、适宜安葬或营建的位置）的关隘处，脉气来得急促直硬，不能顺着直下的方向定穴，土牛（具体所指不详）的腴厚之处，オキ………（此处缺字）说血脉顺行的人很少会死亡，应当顺着脉气的偏移来安放棺木，比如左逆传就挨靠左侧，逆转就换右侧，偏移三分。尤经（具体所指不详）说，尤左穴右正同，必须折转脉气，如选右侧就折转右股，选左侧亦然，要靠定来脉，不能脱离穴位，后方要有来势，这种方法叫做南枝花近阳，先带土牛歌说，同穴同音同向的道理要知晓，尤其要从那一边来，兴闪煞穴相同。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“オキ”为日文假名，含义不明；“土牛”“尤经”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000302-p000-18ad0ecb80",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "穴撞也是（具体所指不详）。",
+        "confidence": "low",
+        "uncertainty": [
+          "原句“穴撞亦”语义残缺，含义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1716,
+    "completion_tokens": 611,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1716,
+      "completion_tokens": 611,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

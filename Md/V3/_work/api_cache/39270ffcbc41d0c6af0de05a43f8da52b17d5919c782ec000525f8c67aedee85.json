@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-18T08:24:02.474368+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "39270ffcbc41d0c6af0de05a43f8da52b17d5919c782ec000525f8c67aedee85",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005959-p000-479744798b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘巳 未 酉’译为‘地支涉及‘巳’、‘未’、‘酉’’，但原文‘巳 未 酉’前有‘属火’，后接‘离卦’，这很可能是一个完整的纳甲装卦信息，即兑宫或乾宫（属火）的世爻在巳、未、酉等，候选句的译法割裂了关联，且未体现‘属火’与‘离卦’的归属关系，属于漏译关键逻辑。",
+          "候选句将‘亥 丑 卯’单独列出，但原文中它们与‘八世 八 八 八應 八 八 六世’紧密排列，这很可能表示亥、丑、卯是另一组卦的地支，并与爻位（八、六）和世应（世、應）相关。候选句仅说‘具体排列逻辑原文未详述’，未能将地支与爻位、世应信息作为一个整体进行描述，导致信息关联丢失。",
+          "候选句将‘乙五丙四丁三’译为‘乙五丙四三’，漏译了‘丁’字，属于数字/干支变化错误。",
+          "候选句将‘甲午山行龍丙午向才上’译为‘甲午山行龍’，朝向为‘丙午向’，并注明‘才上’。‘行龍’是风水术语，指龙脉的行走，候选句直接保留‘行龍’而未作任何解释，不符合‘普通读者能读懂’的目标，应进行浅显释义。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 956,
+    "completion_tokens": 375,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 956,
+      "completion_tokens": 375,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

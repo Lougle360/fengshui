@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-09-25T22:20:00.233891+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c08cca2d8d1d83c29cc399e9c78be4ebf2af223291f7a2226936353f30f77f3f",
+  "response": {
+    "items": [
+      {
+        "id": "book031-b000155-p000-7f29fa487a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000156-p000-8753b59bdd",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“春罡秋冬”，candidate误作“春夏秋冬”，存在文字错改"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000158-p000-3034a53ef6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000159-p000-f60f2f72a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“生入尅出”，candidate漏译“生”字，写作“入尅出”，内容不完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000161-p000-13a9825aec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“顺行火金木土水步火土金水木”，candidate仅保留“顺行的顺序是火、土、金、水、木”，漏译“火金木土水”部分，内容不完整；原文“尅出者坎 坎位顺行”，candidate合并表述为“尅是顺行坎位”，虽语义近似但漏写重复的“坎”字表述，且原文“一生入一尅出，生入者离宫逆步，尅出者坎位顺行”，candidate写作“入是逆步离宫，尅是顺行坎位”，漏写“生”字，属于漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000162-p000-e8c2735fc9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000163-p000-9d9682d3ff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“合凶合吉合祥稀”，candidate误作“合凶合吉合祥瑞”，“稀”字含义未体现，属于误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000164-p000-b10f4d60ec",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此诀最秋催福”，candidate误作“这个诀最能催福”，“秋”字未释读且未标注，存在漏译；原文“亦极容易拳”，candidate漏译“拳”字，内容不完整"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000165-p000-dadb3ad066",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book031-b000166-p000-e6f10d903a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“此期事事可用”，candidate误作“这个图事事都可以使用”，“期”字含义无依据替换为“图”，属于误译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2526,
+    "completion_tokens": 836,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2526,
+      "completion_tokens": 836,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

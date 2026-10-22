@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:07:26.290854+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "603b7ded6c2bfbebd551a1298bf510a0dd445128e886ddd876dea812f141e832",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000535-p000-17c67a9715",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘犯之罔為術士者’误释为‘犯了这些，就会被术士看作是应当遵循的准则’，与原文含义相悖；‘俸用兼全’应为‘福用兼全’的误释；‘還擇之理莫揚公造命千金歌即’未完整译出，存在漏译"
+        ],
+        "uncertainty": [
+          "原文中‘罔為術士者’具体所指存疑，释读需结合上下文进一步明确"
+        ]
+      },
+      {
+        "id": "book010-b000536-p000-3b5671c341",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中‘造藥’误释为‘造药’，结合上下文应为‘造命’的误写，属于专业术语误换"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000537-p000-0d1dcec7c2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘成以斗首為主’误释为‘或以斗首为主’，与原文含义不符；‘實有陳論’未明确释读，存在模糊处理；‘庶乎刻擇可奪神功矣’中‘刻擇’应为‘選擇’的误写，属于漏译与误释"
+        ],
+        "uncertainty": [
+          "原文中‘斗首’‘吊替’等术语的具体含义存疑，释读需结合风水术数专业知识进一步明确"
+        ]
+      },
+      {
+        "id": "book010-b000538-p000-f0cd7572cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2152,
+    "completion_tokens": 430,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2152,
+      "completion_tokens": 430,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

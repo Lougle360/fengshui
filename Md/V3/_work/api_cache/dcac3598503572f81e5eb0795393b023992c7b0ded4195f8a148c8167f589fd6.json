@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T12:15:12.820909+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dcac3598503572f81e5eb0795393b023992c7b0ded4195f8a148c8167f589fd6",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000541-p000-a927a28323",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处原文为“在不悉圗”，具体所指不详",
+        "confidence": "low",
+        "uncertainty": [
+          "“在不悉圗”具体所指不详"
+        ]
+      },
+      {
+        "id": "book014-b000542-p000-d232d40d72",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "在山顶下方的位置，名为钗头穴，有凑檐、规入两种方法",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000543-p000-842755800d",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "晕在钳中，就是穴中，名为衔珠穴，其上方有水",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000544-p000-0d37f3cefb",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "最在口，就是穴口，晕稍稍隆起，各玉节夹蚀头，也有晕低平、堆土成坟的，发福情况相同；其上方有水来，不怕有分消、暗消两种方法，也……",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文末尾残缺，内容未完整呈现"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1645,
+    "completion_tokens": 426,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1645,
+      "completion_tokens": 426,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

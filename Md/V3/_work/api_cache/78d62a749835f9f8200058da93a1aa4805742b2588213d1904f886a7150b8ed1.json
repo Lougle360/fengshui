@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-24T01:11:13.297511+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "78d62a749835f9f8200058da93a1aa4805742b2588213d1904f886a7150b8ed1",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001316-p000-43325f4966",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms'向'被错误认定为人名用字，未按照allowed_glossary中'向是建筑或穴位所朝的方位'的定义释读，原文'理宗、高祖、周元肃王向祗'并非指周元肃王名为向祗，候选释读此处语义完全错误。",
+          "source中'术家云斯文不坠，可谓好奇'的断句与释读错误：原文是术家评价朱熹葬用悬棺法是'斯文不坠'的表现，且该做法可谓好奇，候选将'可谓好奇'的评价主体错位，语义偏差。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 185,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1015,
+      "completion_tokens": 185,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

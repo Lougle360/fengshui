@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-10-18T03:46:13.357858+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "2495c6fbcf107cd804aafd49f1e5eb89fe2494bc4ceb9ac38e5d67d279a9af95",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005344-p000-3ce5948987",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为一系列风水喝形术语的罗列，candidate试图将其串联成连贯叙述，但多处处理不当，导致语义扭曲或增译。例如，将‘龟穴在肩上蛇七寸王字 垂锅钓鳖’释读为‘龟穴位于山肩，蛇穴在蛇身七寸处，王字形地形中垂下的锅状或钓鳖状地形是穴’，原文‘王字’与‘垂锅钓鳖’是并列的喝形名称，并非‘王字形地形中垂下的锅状或钓鳖状地形’。‘平面金水金龟格上通露来者是穴’被释为‘平面金水金龟格中，上方露出且来龙清晰的是穴’，其中‘来龙清晰’为无依据扩写。‘生 蛇形储软侯嗣 中 惊蛇出草 者是 上岭死 死纪 街 蟠蛇形...’等部分，原文是带评注（如‘生’、‘死’、‘中’、‘上’）的喝形名称列表，candidate将其处理为‘文中提到...中间是...上方山岭主死...’等叙述，严重改变了原文的并列列举结构，并错误地将‘纪’、‘街’等字纳入描述。‘散吹同前’被直接保留，未作任何处理。‘侧 0 下水鱼鱼鼓浪’中的‘0’被释为‘文中还提到数字0’，但原文此处‘0’可能是分隔符或误植，candidate的处理不恰当。大量opaque_terms在candidate中被直接引用，但释读文本本身并未将其作为不确定术语处理，而是试图将其融入叙述，造成混乱。整体上，candidate未能忠实反映原文作为术语罗列的性质，进行了大量无依据的串联和解释。"
+        ],
+        "uncertainty": [
+          "原文为大量风水喝形术语，部分术语含义不明，其排列逻辑（如‘生’、‘死’、‘中’、‘上’等标注）亦不清晰，难以进行连贯的现代白话释读。"
+        ]
+      },
+      {
+        "id": "book035-b005345-p000-a3b7641fb5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2399,
+    "completion_tokens": 521,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2399,
+      "completion_tokens": 521,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

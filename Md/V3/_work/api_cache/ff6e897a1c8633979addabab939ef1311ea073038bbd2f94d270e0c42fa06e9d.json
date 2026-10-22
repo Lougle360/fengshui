@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T13:59:13.597042+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ff6e897a1c8633979addabab939ef1311ea073038bbd2f94d270e0c42fa06e9d",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000462-p000-df5726695d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "中国剩余定理就是这个定理。中国剩余定理这个名称的由来，是因为18、19世纪时欧拉（1707-1783）、高斯（1777-1855）等人重新发现了上述定理，之后传教士将其与《孙子算经》中的解法相符的情况传到了西方，于是该定理开始被称为中国剩余定理，或是中国人的剩余定理、孙子定理等。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文中存在无法识别的特殊符号“$\\dot { \\xi } \\dot { \\eta } \\dot { \\bar { \\mathbf { \\xi } } } .$”，具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000463-p000-f008d5350c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "另一方面，中国剩余定理与秦九韶的大衍术极为相似。若要说明两者在术语用法上的对应关系，",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000465-p000-5a118d0f96",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "可以这样表述。顺便说一下，大衍术主要由两种计算方法构成，分别名为总数术和求一术；其中大衍求一术是确定乘率$x_i$的计算方法，大衍总数术是计算总和$\\begin{array} { r } { \\sum x _ { i } m _ { 1 } \\cdots m _ { i - 1 } m _ { i + 1 } \\cdots m _ { k } r _ { i } } \\end{array}$的方法。另外，解的存在条件是“模数两两互素”，这是因为必须求出乘率。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中存在无法识别的特殊符号“$\\boldsymbol { \\dot { \\zeta } }$”“$\\boldsymbol { \\dot { \\mathsf { L } } }$”“$z$ o”，具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000466-p000-77e85e6fa3",
+        "language": "japanese",
+        "content_type": "heading",
+        "action": "translate",
+        "modern_text": "## 2 秦九韶的大衍术",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1907,
+    "completion_tokens": 604,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1907,
+      "completion_tokens": 604,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

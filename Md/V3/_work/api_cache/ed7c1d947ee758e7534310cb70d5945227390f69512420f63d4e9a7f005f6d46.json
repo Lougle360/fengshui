@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-24T19:29:45.306879+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ed7c1d947ee758e7534310cb70d5945227390f69512420f63d4e9a7f005f6d46",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b002753-p000-4b21dd4e4a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002754-p000-81229a2d92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b002755-p000-ef4354906a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将“尚合志也”释为“符合与尊上的心志合一的原则”，原文未明确“尚”指“尊上”，属于无依据扩写"
+        ],
+        "uncertainty": [
+          "“尚”的具体所指原文未明"
+        ]
+      },
+      {
+        "id": "book016-b002756-p000-d19994e036",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 259,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1599,
+      "completion_tokens": 259,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

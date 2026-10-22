@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-10-04T11:48:05.418099+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6572324ff4ed8b45986fe9653e1ea876ff31682e97e7002d67d26a0eefdb922b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000807-p000-3af24de5f4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“班 又深曲此之爲濟豈有不結呼泄之”在candidate中被处理为“又云：山势深曲，这才是济世之象，难道会有不结穴而泄气的情况吗？”，其中“班”字被忽略，且“此之爲濟”被译为“这才是济世之象”，存在增译和推测。“呼泄之”译为“泄气的情况吗”是合理的推测，但整体处理过于顺畅，掩盖了原文的混乱。",
+          "原文“沉”字在candidate中完全缺失，属于漏译。"
+        ],
+        "uncertainty": [
+          "原文存在断句混乱及疑似衍文（如“班”、“沉”），部分字句语意不明。"
+        ]
+      },
+      {
+        "id": "book035-b000808-p000-dcebe61f09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "整段文字残缺错乱，无法通顺理解。candidate 的处理方式（描述现状）是恰当的。"
+        ]
+      },
+      {
+        "id": "book035-b000809-p000-72478bb2f7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“或葬巳得穴而淺奢壓反滅刑”译为“或者虽然找到了穴却安葬得浅薄、奢侈、压迫，反而导致灾祸”，其中“巳”字被当作“已”处理，但原文为“巳”，可能为“已”或“己”的异体或误写，直接译为“找到了穴”属于推测。",
+          "candidate将“亡者無益存者受渦逼下者陰謀暗毒只顧自己父母填萬不通”译为“死者无法受益，生者却遭受逼迫。下葬者阴险毒辣，只顾自己，导致父母坟墓无法通达。”其中“渦”字可能为“祸”之误，译为“逼迫”不准确。“填萬不通”译为“坟墓无法通达”是推测，原文“填萬”含义不明。"
+        ],
+        "uncertainty": [
+          "穴吉葬凶与弃巳",
+          "烟狱嬋髒师砺岩抛尸",
+          "淺奢壓反滅刑",
+          "渦逼",
+          "填萬不通"
+        ]
+      },
+      {
+        "id": "book035-b000812-p000-4f63d1d442",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅四字，语意高度浓缩，具体操作细节不详。candidate 的释读是合理的浅显解释。"
+        ]
+      },
+      {
+        "id": "book035-b000813-p000-882d1424bc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000814-p000-50ee5d5eda",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将“乘金乃取上面員暈 分 處是也即 個字之義”译为“乘金，是指取上面圆晕之处”，并补充“即‘金’、‘水’、‘土’、‘木’四个字的含义”，这是对原文残缺部分的推测性补充，且“四个字的含义”在原文中并无明确对应。",
+          "candidate将“饑如 與木 會工 與 金會 必 剪弃其火 而 取 金 )”译为“如果其他质气与木相会，必须剪弃火气而取金气；如果与金相会，必须剪弃火气而取金气。”，逻辑重复且混乱，未能清晰对应原文的残缺结构。",
+          "candidate将“金實必乘其 虚太 動 必 止 土厚 必 穴 其 硬 必 卻其 節 亦通”译为“金气实盛，必须乘其虚处；土气厚重，必须穴其硬处；木气过动，必须止其节处。这也是通理。”，其中“太 動 必 止”被归为“木气”，是推测，原文并未明确。"
+        ],
+        "uncertainty": [
+          "原文存在大量断句混乱、缺字及疑似衍文，具体原字所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b000816-p000-c997cc5f13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "真六不有吉而后即庄作也"
+        ]
+      },
+      {
+        "id": "book035-b000817-p000-616d5970d9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量缺字、断句混乱，无法构成完整句意，无法进行有效白话释读。candidate 的处理方式（描述现状）是恰当的。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2432,
+    "completion_tokens": 1119,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2432,
+      "completion_tokens": 1119,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

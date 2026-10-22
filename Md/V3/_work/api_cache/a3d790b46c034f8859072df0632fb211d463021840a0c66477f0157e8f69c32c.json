@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-24T20:21:23.784765+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a3d790b46c034f8859072df0632fb211d463021840a0c66477f0157e8f69c32c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003333-p000-826d8f156b",
+        "modern_text": "《象传》说：“鼎器耳部变异”，《象》曰：“鼎耳革”，这说明失其义，九三有失虚中之宜。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003336-p000-74e2596b08",
+        "modern_text": "九四，鼎折足，覆公谏，其形渥，凶。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文中“覆公谏”的“谏”疑似讹字，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 181,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1227,
+      "completion_tokens": 181,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

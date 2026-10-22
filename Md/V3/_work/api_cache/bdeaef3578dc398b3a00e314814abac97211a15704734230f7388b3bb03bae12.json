@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T14:26:51.468852+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bdeaef3578dc398b3a00e314814abac97211a15704734230f7388b3bb03bae12",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000740-p000-52bb57de2b",
+        "modern_text": "对基本解法18进行了展开。同时将该解法命名为大衍术，把$m_i$称为定数或定母，所有定数的乘积$m_1 m_2 \\cdots m_k$称为衍母，衍母除以定数所得的值$\\mathcal{D} m_1 \\cdots m_{i-1} m_{i+1} \\cdots m_k$称为衍数，把$x_i$称为乘率，衍数乘以乘率所得的$x_i m_1 \\cdots m_{i-1} m_{i+1} \\cdots m_k$称为用数，余数乘以用数后相加得到的$x_1 m_2 m_3 \\cdots m_k r_1 + \\cdots + x_k m_1 m_2 \\cdots m_{k-1} r_k$被命名为总数。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000743-p000-cc5466b3ec",
+        "modern_text": "求出相关数值后，进行了基本解法的运算。即依次求出衍母为12，衍数为12、12、4、3，再从满足$12 x_1 \\equiv 1 (\\mathrm{mod}\\ 1)$、$12 x_2 \\equiv 1 (\\mathrm{mod}\\ 1)$、$4 x_3 \\equiv 1 (\\mathrm{mod}\\ 3)$、$3 x_4 \\equiv 1 (\\mathrm{mod}\\ 4)$的乘率1、1、1、3与衍数中，求出用数12、12、4、9，",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000745-p000-a2f90256e8",
+        "modern_text": "最终得到了结果。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1945,
+    "completion_tokens": 468,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1945,
+      "completion_tokens": 468,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

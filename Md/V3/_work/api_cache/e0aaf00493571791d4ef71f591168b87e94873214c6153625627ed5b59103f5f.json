@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-09-24T16:13:29.850552+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e0aaf00493571791d4ef71f591168b87e94873214c6153625627ed5b59103f5f",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001552-p000-3cdbb67ff1",
+        "language_hint": "japanese",
+        "kind": "prose",
+        "locked_terms": [],
+        "opaque_terms": [],
+        "allowed_glossary": {},
+        "source": "術数学の研究は，暦算（と易学）をのぞいて，いまだ途に就いたばかりであり，個々の優れた研究はあっても，総体として蓄積が十分でない。また研究書は特殊な出版物からなり，入手がむずかしいものもある。個人的に手にいれることができたものにかぎるが，未来の研究者の参考に供するため，術数学を主題としたもしくはそれを総体として分析したところのある研究書（単行本）をあげておく。",
+        "action": "translate",
+        "modern_text": "关于术数学的研究，除了历法计算与易学之外，目前才刚刚起步；虽然有不少优秀的单项研究，但整体上的积累还不够充分。另外，相关研究书籍属于特殊出版物，有些很难获取。以下仅列出我个人能够获取到的、以术数学为主题或对其整体进行过分析的研究类单行本，供未来的研究者参考。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001553-p000-4dcf3609ba",
+        "language_hint": "japanese",
+        "kind": "prose",
+        "locked_terms": [
+          "五行",
+          "水",
+          "水口"
+        ],
+        "opaque_terms": [],
+        "allowed_glossary": {
+          "五行": "木、火、土、金、水五种分类及其关系体系",
+          "水": "风水语境中的河流、水系及其来去形态",
+          "水口": "水流出入一地或局势收束的位置"
+        },
+        "source": "三浦国雄『術数書の基礎的文献学的研究——主要術数文献解題』（科学研究費補助金研究成果報告書，正編，2007。続編，2009）\n武田時昌編『陰陽五行のサイエンス思想編』（京都大学人文科学研究所，2011）\n大野祐司『戦国秦漢出土術数文献の基礎的研究』(北海道大学出版会，2014)水口拓寿『儒学から見た風水宋から清に至る言説史』(風響社，2016)池田知久・水口拓寿編『中国伝統社会における術数と思想』(汲古書院2016)",
+        "action": "translate",
+        "modern_text": "三浦国雄《术数书的基础文献学研究——主要术数文献解题》（科学研究费补助金研究成果报告书，正编，2007年；续编，2009年）\n武田时昌编《阴阳五行的科学思想编》（京都大学人文科学研究所，2011年）\n大野祐司《战国秦汉出土术数文献的基础研究》（北海道大学出版会，2014年）\n水口拓寿《从儒学视角看风水宋至清的言说史》（风响社，2016年）\n池田知久、水口拓寿编《中国传统社会中的术数与思想》（汲古书院，2016年）",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001555-p000-28cbba5b3a",
+        "language_hint": "classical_or_modern_chinese",
+        "kind": "prose",
+        "locked_terms": [],
+        "opaque_terms": [],
+        "allowed_glossary": {},
+        "source": "張永堂編『館蔵中国術数書目初編』(国立精華大学歴史研究所，1992)",
+        "action": "rewrite",
+        "modern_text": "张永堂编纂《馆藏中国术数书目初编》（国立清华大学历史研究所，1992年）",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001556-p000-31940aadd0",
+        "language_hint": "classical_or_modern_chinese",
+        "kind": "prose",
+        "locked_terms": [],
+        "opaque_terms": [],
+        "allowed_glossary": {},
+        "source": "趙益『古典術数文献述論稿』(中華書局，2005)",
+        "action": "rewrite",
+        "modern_text": "赵益《古典术数文献述论稿》（中华书局，2005年）",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1913,
+    "completion_tokens": 1152,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1913,
+      "completion_tokens": 1152,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

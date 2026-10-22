@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-17T23:59:47.813415+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b0c3dedba66e89c9d2890bda8ebfda16bd00e120784639a276bcc1733cd33e6c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005046-p000-8b4735dc42",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将表格内容整合为一段连贯的叙述，并添加了大量解释性连接词和背景说明（如“此表展示了...”、“表头部分包含...”、“表身部分列举了...”、“所有图示均对应...，需结合口诀与格位判断其吉凶”），这属于无依据的扩写和增译。原文是表格结构，包含分散的术语、诗句和“格正/格變”标签，并非一个逻辑连贯的段落。候选句的整合方式改变了原文的呈现形式和信息结构。",
+          "候选句将“穴向動中生格此法休尋突正”解释为“穴向動中生格此法休尋突正”，这并非白话释读，而是直接复制了原文。",
+          "候选句将“乳在側遺生 丑中還有好”解释为“乳在側遺生丑中還有好”，同样只是复制原文，未进行白话释读。",
+          "候选句将“左雙右單”、“指叠左”、“扳”、“單左雙右”、“提單右”等术语解释为“用于描述穴形的左右单双、提扳动作”，这是对专业术语的推测性解释，超出了允许的释读范围。原文并未明确这些术语的具体含义。",
+          "候选句将“格正”和“格變”解释为“吉凶格位”或“吉凶判断”，这是推测。原文仅标注“格正”或“格變”，其具体含义（如是否代表吉凶）并未明确说明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3644,
+    "completion_tokens": 371,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3644,
+      "completion_tokens": 371,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

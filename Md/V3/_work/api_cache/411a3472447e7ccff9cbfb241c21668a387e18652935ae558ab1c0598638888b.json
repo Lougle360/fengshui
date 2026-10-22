@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-10-04T06:38:31.988093+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "411a3472447e7ccff9cbfb241c21668a387e18652935ae558ab1c0598638888b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000622-p000-e764d4a95a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "四水与二水的数量矛盾",
+          "蔽让的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000623-p000-b4315c172b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "出与没的概念矛盾",
+          "师尽也等字句错乱"
+        ]
+      },
+      {
+        "id": "book035-b000627-p000-a06fbbce4e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "候选句将原文‘穴前后一分合’简化为‘穴前后有一分合’，虽补‘有’字，但‘穴前后’与‘穴前’含义不同，此处理可能改变了原文的方位描述。候选句对‘二发合礼貌珑’的处理是‘严重错乱’，但原文此句应为‘起主至龍虎所交二發合禮貌瓏至三水交會三分合’，候选句将其重构为‘起主至龙虎所交处为二合，至三水交会处为三分合’，这已超出‘保留原短语并标注不详’的保守原则，属于对错乱原文的推测性重组，应避免。"
+        ],
+        "uncertainty": [
+          "二发合礼貌珑等字句错乱"
+        ]
+      },
+      {
+        "id": "book035-b000629-p000-5e6f02bbd1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "嵊用烁锢等字句错乱",
+          "未于曰等字句错乱",
+          "这们自差等字句错乱",
+          "水蚁之忠等字句错乱",
+          "吕之阴而义随所等字句错乱"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2214,
+    "completion_tokens": 427,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2214,
+      "completion_tokens": 427,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

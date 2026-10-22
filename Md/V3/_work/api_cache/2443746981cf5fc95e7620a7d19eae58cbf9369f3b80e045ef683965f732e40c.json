@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-09-24T22:06:19.416981+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2443746981cf5fc95e7620a7d19eae58cbf9369f3b80e045ef683965f732e40c",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003899-p000-5e9c00d877",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003900-p000-d86008c46d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003901-p000-50c0477fe1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003902-p000-974dbef45a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003903-p000-9480d1d83d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003904-p000-92ea425628",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003905-p000-9d68b42895",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003906-p000-4353f6170b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003907-p000-aa92e383ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003908-p000-ad5672e92b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文为《象》曰的卦象辞表述，候选擅自增加了“对节卦的解释是”的冗余表述，且原文无“受此启发”“作为准则”“裁断评定”“确定任用标准”等无依据增译内容，属于擅自扩充原文未提及的含义。2. locked_terms“水”对应的allowed_glossary明确为风水语境中河流、水系及其来去形态，候选仅释为“水”，未符合术语解释要求，且此处语境为《周易》象辞的“泽上有水”，属于卦象取象，不应额外添加任用相关的无依据内容。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3173,
+    "completion_tokens": 709,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3173,
+      "completion_tokens": 709,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

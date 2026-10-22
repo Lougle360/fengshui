@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-10-18T07:57:32.112246+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c6f6c5f03b1d76028db86149009193a8a0efdd3f7887b424de030711a8b7de32",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005899-p000-c0c1deee32",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'剩心四五度'，candidate保留'剩'字并标注'可能为乘或胜之误'，符合处理要求。",
+          "原文'人荼家零'，candidate保留'荼'字并标注可能含义，符合处理要求。",
+          "原文'主换姓疯疾脚病房痊浮沉绝长败中'，candidate保留原短语并标注断句和含义模糊，符合处理要求。",
+          "原文'小未亦吉'，candidate保留'小未'并标注可能指代，符合处理要求。"
+        ]
+      },
+      {
+        "id": "book035-b005904-p000-1d84a6a8ae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'危月燕管忆其山'，candidate保留'管忆'并标注可能为'管辖'或'记'之误，符合处理要求。",
+          "原文'主不不败则绝'，candidate指出原文可能有衍文，符合处理要求。",
+          "原文'佗腰曲背'，candidate保留'佗'并标注可能为'驼'之误，符合处理要求。",
+          "原文'结气活落年'，candidate标注含义不明，符合处理要求。",
+          "原文'若得龙病穴不敢长久一 败'，candidate保留原句并标注断句和含义模糊，符合处理要求。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2550,
+    "completion_tokens": 396,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2550,
+      "completion_tokens": 396,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

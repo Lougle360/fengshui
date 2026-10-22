@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-25T03:22:56.026980+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d1225dc8b6eb9c01000a8184a42d52224bc7401a3803933f22985358040d6aa7",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001096-p000-2b40865233",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source里的文字是零散的标注，没有明确显示是《莆田萧负外祖地绘图·地理人子须知》的正式题名，candidate将零散文字直接合并认定为书名属于无依据增译，原文未明确说明这些文字的性质，不能直接断定为出处书名"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001099-p000-2c9fddc03f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001105-p000-ba16c168a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文阴穴对应的开茔要求是宜深不宜浅，阳穴对应的是宜浅不宜深，candidate将二者的开茔深浅要求写反了，属于核心语义错误；另外原文表述为「泡中有突、窟中有突」，candidate错写为「泡中有泡」，也属于表述错误"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1674,
+    "completion_tokens": 311,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1674,
+      "completion_tokens": 311,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

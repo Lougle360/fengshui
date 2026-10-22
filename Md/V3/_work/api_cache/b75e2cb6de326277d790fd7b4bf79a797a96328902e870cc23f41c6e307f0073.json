@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-04T01:16:08.144823+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b75e2cb6de326277d790fd7b4bf79a797a96328902e870cc23f41c6e307f0073",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001076-p000-99b8564148",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“庚”字具体指代方位还是形状，原文未明"
+        ]
+      },
+      {
+        "id": "book033-b001077-p000-f4d556265b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“能宗”在原文中为“隨能宗”，candidate 将其解释为“大小随能宗（具体所指不详）”，但“能宗”并非 allowed_glossary 中的术语，且 candidate 在括号内添加了“具体所指不详”，这属于对不确定术语的明确风险标注，符合规则，可以接受。然而，candidate 将“虚可步龙审穴”解释为“虚可步龙审穴（具体所指不详）”，但“虚可”并非原文中的独立术语，而是“虚可步龙审穴”这个短语的一部分。candidate 的处理方式是将整个短语视为不确定，并标注“具体所指不详”，这符合对含混短语的处理规则。因此，本项应判为 accept。但需注意，candidate 将“愚按”译为“我（愚）按”，虽补出主语，但“愚”是作者自称，译为“我”即可，加括号注释“愚”略显冗余，但不算错误。整体释读准确、完整、通俗，无无依据扩写。"
+        ],
+        "uncertainty": [
+          "“能宗”具体所指不详",
+          "“虚可步龙审穴”具体含义不详"
+        ]
+      },
+      {
+        "id": "book033-b001080-p000-94e7cb29e3",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文OCR损坏严重，大部分内容无法识别，candidate 仅能辨认出片段并推测大意，无法进行连贯、准确的释读。符合 uncertain 的判定边界。"
+        ],
+        "uncertainty": [
+          "原文OCR损坏严重，大部分内容无法识别",
+          "“五患”具体所指不详",
+          "“蜀阴”等词义不明",
+          "“培利氧”等词义不明",
+          "“云气先曰可本水季说地”等句义不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1905,
+    "completion_tokens": 525,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1905,
+      "completion_tokens": 525,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

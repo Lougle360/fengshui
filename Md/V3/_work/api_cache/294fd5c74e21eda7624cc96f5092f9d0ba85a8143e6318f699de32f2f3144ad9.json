@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-26T04:37:55.236692+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "294fd5c74e21eda7624cc96f5092f9d0ba85a8143e6318f699de32f2f3144ad9",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002236-p000-4a5382963b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "万尚书祖地的位置信息混淆：原文万尚书祖地仅标注“去去”，位置未明确，而“在无锡县西北”属于秦布政祖地的内容，candidate误将二者合并；“庚龙艮向出父子兄馆（疑为‘官’）进士”“亥脉丙向案甚近出兄弟进士”均为秦布政祖地的内容，被错误归入万尚书祖地条目",
+          "茅状元祖地的属性信息张冠李戴：原文“坤龙癸向，穴旁皆为竖立之石”是茅状元祖地的特征，candidate误将其归于徐国公祖地条目",
+          "“父子兄馆”原文残损，candidate直接写“出父子兄弟皆为馆职”属于无依据增译，未标注该内容存疑",
+          "薛副宪祖地的内容被错误拆分到秦顾二尚书祖地条目下，原文秦顾二尚书祖地与薛副宪祖地是两个独立条目，candidate混淆了所属关系",
+          "部分缺漏信息标注有误：原文秦布政祖地有明确的位置、龙向、出贵记录，并非“相关信息未完全记录”；茅状元祖地有明确的位置与龙向穴旁特征，并非“相关信息未完全记录”；朱少保祖地明确记载“卯龙转巽作乙山辛向，出父子进士”，并非“相关信息未完全记录”",
+          "万尚书祖地原文单元格仅存“萬尚書祖地去去”，无其他明确信息，candidate补入的所有属性均为其他条目内容，属于严重错配"
+        ],
+        "uncertainty": [
+          "表格部分单元格存在文字残缺、语序错乱、条目归属模糊的问题，部分内容（如“父子兄馆”“五耻世去”“田田市#”等）无法识别准确含义",
+          "万尚书祖地、薛副宪祖地部分内容残缺，具体信息无法完整确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2164,
+    "completion_tokens": 468,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2164,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2164,
+      "completion_tokens": 468,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

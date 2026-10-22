@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-23T09:10:41.776796+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "04f2cf77b0956d9ff4456b65378853685cd6e3c9b097cd4625fe8deeeff6559c",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000175-p000-310054f865",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘主尺经下 卷之’是书名和卷次，candidate 译为‘这是《尺经》下卷的内容’属于增译，且将‘主’字遗漏。应保留书名原样，或按原文结构处理。",
+          "原文‘贪富贵则弃生朝庇啚嗣续则背旺迎生’是并列结构，candidate 处理为‘如果…就会…；如果…就会…’的假设句式，改变了原文的陈述语气，属于不必要的句式转换。",
+          "‘庇啚’是opaque_terms，candidate 将其放入引号并说明‘具体所指不详’是正确做法，但‘文中提到的‘庇啚嗣续’这一短语’表述不准确，原文是‘庇啚嗣续’作为‘朝’的宾语，并非一个独立短语。"
+        ]
+      },
+      {
+        "id": "book003-b000176-p000-114a0e675b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘来木方位’中的‘木’字，candidate 在uncertainty中标注可能为‘水’之误，但在正文中直接译为‘仔细考察‘木’的方位’，这属于将不确定的推测写入了确定的事实。应直接保留‘木’字并说明其含义不确定。",
+          "‘伤公救贫之卫’中的‘卫’字，candidate 译为‘卫护之法’，属于无依据的扩写。‘伤公救贫’可能指代特定人物或方法，但allowed_glossary未定义，应保留原词或说明其指代不详。",
+          "‘向乘之’的‘乘’，candidate 译为‘乘载’，可以接受，但‘让‘向’乘载相应之气’的表述略显生硬。"
+        ]
+      },
+      {
+        "id": "book003-b000179-p000-27684ec3c5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘来会旺听明之子方生而旺去冲生’一句，candidate 断句和释读为‘来水会合旺位，听命于明堂之子方，生位与旺位相合；去水冲破生位’，这属于大幅度的推测性断句和增译，原文并无‘听命于’、‘相合’等含义。",
+          "‘肚去．生富贵之期骤至’一句，candidate 将‘肚去’单独列出说明不详，但将‘生富贵之期骤至’与后文‘而生如破旺’连接，割裂了原文结构。原文‘肚去’后为句号或分隔，应独立处理。",
+          "‘生水逆流绅五人经下卷之二’一句，candidate 将‘绅五人经下卷之二’拆开，将‘绅五人’忽略，仅处理为‘这是《人经》下卷之二的内容’，属于漏译和擅自更改书名。‘绅五人经’应作为一个整体书名处理。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 695,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1419,
+      "completion_tokens": 695,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

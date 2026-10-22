@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T16:46:02.770276+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cba97f5d1359deb524d50a08e514ffef7d57da236283fe0744041767dc45abdb",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000473-p000-b4fb47f216",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“龙战于野”的“龙”按allowed_glossary释为风水相关的气脉来势行度，但此处为《周易》象辞语境，该术语释义适配性存疑"
+        ]
+      },
+      {
+        "id": "book016-b000474-p000-de10d4d51b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“龙战”的“龙”按allowed_glossary释为风水相关的气脉来势行度，但此处为《周易》爻辞语境，该术语释义适配性存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 187,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1127,
+      "completion_tokens": 187,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

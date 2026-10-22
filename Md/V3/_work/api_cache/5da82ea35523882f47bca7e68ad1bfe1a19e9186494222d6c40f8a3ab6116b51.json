@@ -1,0 +1,123 @@
+{
+  "created_at": "2026-09-26T10:27:01.512301+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5da82ea35523882f47bca7e68ad1bfe1a19e9186494222d6c40f8a3ab6116b51",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000054-p000-7b5a683857",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语序混乱，候选对文本重构无依据，存在多处误读：原文‘能同分雖 宗 百 分 骸 祖九 窮之 幹 同 不枝同’属于残断乱序内容，候选擅自梳理为‘能同的分支虽同属百骸之祖，穷尽九数的枝干，虽同根却不同枝’属于无依据释读；原文‘露妍 媸 而 易見 之 口 則异譬之 或隱 微 而 雖山 見 但行 隴 后 龍难 窮 正联 出之百化 出沒 之 因 則 人顯 明 晦 總 逃 目 中 矣’部分语序断裂，候选将‘正联出自百化’‘人能明辨晦明’等无中生有的含义写入释读，不符合原文残缺乱序的实际情况"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000055-p000-5699b90c0b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处残缺错乱，无法确定确切含义"
+        ]
+      },
+      {
+        "id": "book035-b000057-p000-48fdb534af",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文最后‘或吉寫或结’存在讹误，候选误写为‘或吉或结’，且未标注此处原文讹误不明的情况；locked_terms‘穴’‘入首’释读符合要求"
+        ],
+        "uncertainty": [
+          "原文‘或吉寫或结’存在讹误，具体含义不明"
+        ]
+      },
+      {
+        "id": "book035-b000058-p000-951a098968",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000059-p000-00cd36882a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘北囚于東’属于风水专业表述，候选未说明其具体所指，直接保留原短语但未标注不确定性；原文反问语气释读正确"
+        ],
+        "uncertainty": [
+          "‘北囚于东’的具体含义原文未明确说明"
+        ]
+      },
+      {
+        "id": "book035-b000060-p000-b5e5c8c564",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头‘地人杰氣化形生’应为‘地灵人杰’类表述，候选误读为‘地因人杰’；原文重复表述的‘有氣斯有形有化斯有生’，候选误增‘有形就有化’的语义，不符合原文表述；原文‘霆夭’为‘寿夭’讹误，候选直接改为‘寿夭’未标注原文讹误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000061-p000-220447c277",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000062-p000-a7a8f5e68a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头‘之所從來番其形勢之所止聚’的主语是生气/龙脉，候选擅自将主语改为‘水’，与原文不符；locked_terms‘水’的语境适用正确，但主语误读导致整体含义偏差；原文‘使親體得以弃之’为‘安之’类讹误，候选改为‘得以安葬’未标注原文讹误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000063-p000-d283962cc2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "kind为heading类型，候选应直接保留标题原文含义，不得擅自扩写为解释性语句，正确释读应为‘地理天机会元卷一 雪心赋’"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b000065-p000-a29a4c2e1c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头‘乎洞下聚而上散’存在残断，候选擅自补为‘洞下聚气而上散’无依据；原文‘灑’字含义不明，候选释为‘倾斜处’属于无依据推断；locked_terms‘穴’释读符合要求"
+        ],
+        "uncertainty": [
+          "原文开头‘乎洞下聚而上散’存在残断，‘灑’字具体所指不明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2324,
+    "completion_tokens": 1137,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2324,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2324,
+      "completion_tokens": 1137,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T17:54:31.861992+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "3d157468add50686d967c5e6d23f20cd06981b557c8fd7ba41f703661b53dc38",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001436-p000-cbd4faa816",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001437-p000-f095f47ecc",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在重复内容（两次出现“九三”），候选句未处理该重复，且遗漏了原文中“小有悔，无大咎”的完整表述，仅保留了部分内容，存在信息缺失"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001438-p000-26328461c0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book016-b001439-p000-5751864343",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 253,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1404,
+      "completion_tokens": 253,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

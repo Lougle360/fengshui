@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T15:08:55.937785+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "585b89df82f45eccdeb4db1b3d1202764644512579c81fc737d8dbb6e11cca88",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000956-p000-2597317662",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“水石音开浊”“火石音发浊”“土石音收浊”的表述直接释读为“水石音开浊”等，未按allowed_glossary对“水”“坤”等术语进行规范释义，且未标注原文中“■(d)”的具体所指不详的风险"
+        ],
+        "uncertainty": [
+          "原文中“■(d)”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000957-p000-1b73887109",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000958-p000-5a6a3cce30",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000959-p000-e187a1e2ff",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1912,
+    "completion_tokens": 284,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1912,
+      "completion_tokens": 284,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

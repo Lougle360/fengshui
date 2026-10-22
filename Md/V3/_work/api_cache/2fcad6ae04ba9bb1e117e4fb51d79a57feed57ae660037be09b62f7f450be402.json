@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-25T16:38:21.480061+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2fcad6ae04ba9bb1e117e4fb51d79a57feed57ae660037be09b62f7f450be402",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000769-p000-ac1ea54453",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“臘”“辞”等字因原文讹误含义不明",
+          "“城辭明堂前與龍虎山脚也”无法准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000770-p000-9989e41f35",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“衡破如茶傳竹覘然”整体含义无法明确释读",
+          "“信道浙灭并师号”含义不明"
+        ]
+      },
+      {
+        "id": "book026-b000772-p000-76f836d6e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000775-p000-90399cb626",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“木淵落”被误释为“树木凋零坠落”，“淵”字未合理处理，此处原文或存在讹误，应标注无法准确释读，不应直接释为凋零",
+          "原句“甚明以宜分作而段今姑仍之”存在讹误，直接释为“分段逻辑原本很清晰，应该拆分段落”缺乏依据，属于无依据推定含义"
+        ],
+        "uncertainty": [
+          "“甚明以宜分作而段今姑仍之”存在讹误，准确含义无法确定",
+          "“木淵落”存在讹误，准确含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000776-p000-f7535d2d00",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“黨崩倫”存在讹误，具体含义不明",
+          "“財龍神尅剥”因原文语序或讹误，准确含义无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1777,
+    "completion_tokens": 475,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1777,
+      "completion_tokens": 475,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

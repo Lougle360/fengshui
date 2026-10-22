@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-17T18:12:40.000969+00:00",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "Qwen/Qwen3.5-35B-A3B",
+  "request_sha256": "d00d9203fee5ef318111aca2e24961de78e522ea692bc6433fab2271ad6cdd0d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004288-p000-2805b92701",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此段文字因 OCR 识别严重错乱、字迹残缺且语义断裂，无法还原为通顺的原文，故无法提供准确的白话释读。文中虽夹杂“穴”“砂”“水”“向”“曜”“龙”“虎”等风水术语，但上下文逻辑完全缺失，具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文存在大量严重 OCR 识别错误，导致语义断裂",
+          "无法确定原文的完整句读和逻辑关系",
+          "无法确认具体术语在上下文中的确切含义",
+          "部分文字可能为衍文或错字，无法进行有效改写"
+        ]
+      },
+      {
+        "id": "book035-b004289-p000-74265d9573",
+        "language": "modern_chinese",
+        "content_type": "heading",
+        "action": "preserve",
+        "modern_text": "## 地理天機會元卷二十 曜星總論 四十五",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3249,
+    "completion_tokens": 345,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3249,
+      "completion_tokens": 345,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

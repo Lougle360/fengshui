@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T03:26:42.119420+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "4209969350e8dffddc0c15436a9d802b15852a864c03910035804994461d326b",
+  "response": {
+    "items": [
+      {
+        "id": "book020-b000087-p000-2c1350a7ac",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句及含义理解错误：原句“宜乗其氣出洞之龍氣直而吐宜乗其餘”的正确断句应为“没水之牛，氣仰而吹，宜乗其氣；出洞之龍，氣直而吐，宜乗其餘”，候选错误地将“出洞之龍”归到上句，误译为“应当趁着它的气出洞之时”；原句“精華內釀之氣如果宜葬其骨”中“如果”是“如同果实”之意，候选误将“如果”按现代汉语连词理解，译为“精华内蕴的气如果适宜”，完全偏离原文含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000088-p000-38ab539466",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“其氣從沈緩而僅浮不宜緩乘其為緩來”断句理解错误：原意为“这股气从沉缓而来，只是浮于地表，不适合过缓地乘受，因为它是缓来的气”，候选误译为“这股气从沉缓转为仅浮，不宜缓慢乘气”，未准确传达原句因果及气的状态；“來不來坦中裁住不住坪中取”释读错误，原句是固定风水口诀“来不来，坦中裁；住不住，坪中取”，候选断句错误译为“所说的来不来，在平坦中裁住；不住，在平坦中取”，表述不通顺且不符合原文结构"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000089-p000-5a9da76ab9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000090-p000-3be9df7a29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000091-p000-129e26c882",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000092-p000-596f9f5d6b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾未翻译完全，source末句是“其細如繩其直如矢其急如瀑布其”，候选自行补出了原文没有的“斜如反弓，就是急遽斜反而为阴”内容，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000093-p000-7887dcbfb0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source末句为“譬如人之相見有卑於我而畏敬我”，候选自行补出了原文没有的“有和我同等而亲爱我的，他们的面目虽各不同，但都有一股喜喜欢欢、雍雍肃肃的意思”内容，属于无依据增译，该部分内容属于下一段落，不应并入本条释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000094-p000-3e5139ec22",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“是故精盛則結血虛則受一以陽為主也”释读不完整，候选直接简化为“所以以阳为主”，遗漏了“精盛则结、血虚则受”的原文内容；source末句为“又如人之既”，候选自行补出了原文没有的“死，母血先败，父骨犹存，其能收纳天地之气而荫生后人的，全在父骨，也是以阳为主”内容，该部分属于下一段落，不应并入本条释读，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book020-b000095-p000-8cd46bf744",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“先2. 1  大 21m”属于OCR识别错误或原文损坏，含义不明"
+        ]
+      },
+      {
+        "id": "book020-b000096-p000-c154617fec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4265,
+    "completion_tokens": 1080,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4265,
+      "completion_tokens": 1090,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 4265,
+      "completion_tokens": 1080,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

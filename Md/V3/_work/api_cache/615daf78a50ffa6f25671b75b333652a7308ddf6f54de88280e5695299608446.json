@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T10:38:10.061281+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "615daf78a50ffa6f25671b75b333652a7308ddf6f54de88280e5695299608446",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000877-p000-bfc86c0616",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的“3D”“零”“丑”“女男”“寄灵”等表述直接释读为确定含义，且“兴乾30八”的数字对应关系未明确标注不确定性，存在无依据扩写问题"
+        ],
+        "uncertainty": [
+          "原文中“3D”“零”“丑”“女男”“寄灵”等表述含义不明，“兴乾30八”的数字对应关系无法确定"
+        ]
+      },
+      {
+        "id": "book010-b000878-p000-a47a07d2a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000879-p000-33144a8169",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000880-p000-7b6f724ec4",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文语句零散、多处表述含义不明，无法梳理出完整通顺的语义，释读内容存在无依据的拼接"
+        ],
+        "uncertainty": [
+          "原文语句零散、多处表述含义不明，无法梳理出完整通顺的语义，仅按原顺序保留可辨识的卦名及零散术语"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1729,
+    "completion_tokens": 380,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1729,
+      "completion_tokens": 380,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

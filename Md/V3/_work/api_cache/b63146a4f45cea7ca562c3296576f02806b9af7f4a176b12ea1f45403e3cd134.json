@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-17T06:20:55.589401+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b63146a4f45cea7ca562c3296576f02806b9af7f4a176b12ea1f45403e3cd134",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002749-p000-cf9c7493cd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'丙遇民食萬鐘之 再逢乾其同拱聲名王謝爲為俸兩函 足百乎之 再 是凡 萬鐘繞財富足百貨與傷再見乾巽'断句混乱，candidate进行了大量重组和增补，如'丙火日主遇到民食万钟的格局'、'如同王谢家族般声名显赫'、'俸禄丰厚足以满足百人之需'、'主大富大贵'，这些解释缺乏原文直接对应，属于无依据扩写。",
+          "'民食万钟'、'万钟绕财'等opaque_terms未被引用保留，而是被赋予了确定含义。",
+          "'乾巽'为locked_terms，但candidate在最后一句将其拆解为'乾卦与巽卦'，虽未改变含义，但原文'再见乾巽'可能指乾巽组合，拆分需谨慎。"
+        ],
+        "uncertainty": [
+          "原文断句混乱，语义不明，难以进行准确的白话释读。"
+        ]
+      },
+      {
+        "id": "book035-b002750-p000-e52cfa9d96",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002751-p000-3a24b01c3d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅四字，语意不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002752-p000-c0719855b1",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate'丙午丁秀拔疑局占乎魁元大任，惟得之乎共见虽科第未中卷元也者，再本馆等。'几乎是逐字直译，未形成通顺的现代汉语句子，不符合V3'普通读者能读懂'的目标。对于这种严重错乱的原文，应明确标注无法通顺释读，或仅对可识别部分进行有限解释。"
+        ],
+        "uncertainty": [
+          "原文断句严重错乱，语义不通，无法准确重构完整句意。"
+        ]
+      },
+      {
+        "id": "book035-b002753-p000-ebf7f2369f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002754-p000-24e249c410",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002756-p000-4046938f9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002757-p000-693c817a99",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'四金八憶之方'，candidate处理为'四金八忆之方'并加注'八忆'疑似'八煞'之误。但'八忆'本身是opaque_term，应原样保留在引号内，或明确标注'原文作'八忆'，疑为'八煞'之误'，而不是直接改写为'八曜'（虽然下文解释了八曜）。",
+          "原文'坤免震猴巽鷄乾馬兌坎艮虎離豬之尖卦氣'，candidate处理为'坤免震猴巽鸡乾马兑坎艮虎离猪之尖卦气'。'坤免'、'兑坎'连写可能为术语或误写，candidate未做任何标注，直接转写。应保留原样或标注疑误。"
+        ],
+        "uncertainty": [
+          "原文'八忆'、'坤免'、'兑坎'等词疑似有误，具体所指待考。"
+        ]
+      },
+      {
+        "id": "book035-b002758-p000-782048e264",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate'三前见之主出又所年'、'东风之者诸是地'、'必主妇徐氏曰'等处，几乎是逐字直译，语义不通，未形成可读的现代中文句子。对于这种明显错乱的句子，应明确标注其不可解，而非简单罗列。",
+          "'予午柳酒方位'疑似'子午卯酉方位'之误，candidate未做任何标注或修正说明。",
+          "'沐浴之木局同仓方是火局内卯方是金酉方是'，candidate直接引用，未尝试进行任何断句或解释，导致句子完全不可读。应尝试进行最低限度的通顺化处理或明确标注混乱。"
+        ],
+        "uncertainty": [
+          "原文多处断句混乱，语义不明，如'三前见之主出又所年'、'东风之者诸是地'等，具体所指不详。'予午柳酒'、'沐浴之木局同仓方是火局内卯方是金酉方是'等句可能含有术语或误字，难以准确解读。"
+        ]
+      },
+      {
+        "id": "book035-b002759-p000-3c32997a6a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate对原文后半段'的害主人不乙辰交加水路未免恳河之尸入两有非道的破以有不朔何手之出者自之於能见之'进行了几乎逐字的直译，结果完全不可读，不符合'普通读者能读懂'的要求。对于这种严重损坏的文本，应明确标注无法释读，或仅对前半段可读部分进行释读。"
+        ],
+        "uncertainty": [
+          "原文后半段语义严重不通，疑似大量缺字或错乱，无法准确重构。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4207,
+    "completion_tokens": 1272,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4207,
+      "completion_tokens": 1272,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

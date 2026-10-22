@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-10-15T04:39:10.513954+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "67633cff82c25e3312fd2e44733aa5fbf2d5b699793ca4935ff965e2205351c9",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001900-p000-0f31dfe8af",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001901-p000-22a42dfca2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001902-p000-14770755da",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘善水者亦能覆舟耳’，candidate译为‘善于驾驭水的人也能让船翻覆’，将‘善水者’（善于游泳/水性好的人）误译为‘善于驾驭水的人’，语义有偏差。原文‘渠魁大盜’译为‘大盗魁首’准确，但‘渠魁’本指首领，可接受。‘登山口訣’译为‘登门求取口诀’，‘山’字漏译，应为‘登山求取口诀’或‘登山传授口诀’。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001903-p000-f272140098",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘垣夷’被candidate保留为‘垣夷’，但根据上下文及引用的《葬经》原文‘藏于涸燥者宜浅，藏于坦夷者宜深’，此处‘垣夷’应为‘坦夷’的异写或讹误。candidate未指出此差异或提供说明，可能导致读者困惑。原文‘二謝鄭洪妖及顧衝諸人’，candidate作‘二谢、郑洪、妖及顾冲等人’，其中‘妖’字可能为‘姚’或其他人名讹误，candidate未标注此不确定性。原文‘司馬陀頭’（后文为‘司馬頭陀’），candidate统一为‘司马头陀’，可接受。原文‘興化漳泉閣棺只浮於土’，candidate作‘兴化、漳泉一带，棺木只浮于土面’，‘閣棺’（搁棺）译为‘棺木只浮于土面’不够准确，应为‘棺木只是搁置在土面上’或‘浅浮安葬’。原文‘土深者僅以一年入地’，candidate作‘土深者仅以一年入地’，‘一年’可能为‘一尺’或‘一寸’之误，candidate未标注此数字不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001904-p000-fac29de35b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001905-p000-02587cf11d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘善天廖公之言曰’，candidate作‘善天廖公之言曰’。根据古籍常见称谓，应为‘廖金精’（廖瑀），此处‘善天’可能为‘金精’或‘廖公’之误，candidate未标注此专名不确定性。原文‘要求純悞’，candidate作‘要求纯悞’，‘悞’通‘误’，但‘纯悞’费解，可能为‘纯美’或‘纯全’之误，candidate未标注此文本疑点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001906-p000-470f53e68c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001907-p000-089f6e28eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘黔作鯨姞註云’，candidate作‘黔作鲸姞注云’。‘黔作鲸姞’含义不明，可能为人名或文本讹误，candidate未标注此opaque_terms。原文‘九州土壞不同’，candidate作‘九州土坏不同’，‘土坏’应为‘土壤’之误，candidate未校正或标注。原文‘毗齡及但人子厝親’，candidate作‘毗陵及但人子厝亲’，‘毗齡’可能为‘毗陵’（地名），‘但’字费解，可能为‘凡’或‘世’之误，candidate未标注此文本疑点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001908-p000-85c560f2f2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘又十良期以宅宮之不使少有後’，candidate作‘又择良期以宅之，不使稍有后悔’。原文‘十’字应为‘择’（擇）之讹误，candidate已意译校正，可接受。但‘宅宮’译为‘宅之’，漏译‘宫’字，且‘宅宫’可能指墓穴宫位，candidate释义不够完整。原文‘地理人子須矢卷六下 三十 日之悔可也’，candidate作‘可也’。此处为原文夹杂的卷次页码信息（‘地理人子須矢卷六下 三十’），candidate完全删除，属于漏译。此类信息在kind=prose中若为原文一部分，应保留或说明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5316,
+    "completion_tokens": 1158,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5316,
+      "completion_tokens": 1158,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

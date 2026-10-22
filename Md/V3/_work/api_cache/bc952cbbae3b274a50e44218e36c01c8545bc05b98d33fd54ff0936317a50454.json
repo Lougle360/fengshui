@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-24T21:41:22.767027+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bc952cbbae3b274a50e44218e36c01c8545bc05b98d33fd54ff0936317a50454",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000394-p000-eb7a0671d8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文语义理解错误，原文意为下文说的玄十法都由本节统摄论述，所以（玄十法）是讲体用的，候选将“故说体用”的主语错认为是下文，与原文含义相反"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book017-b000395-p000-46542ff950",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“滅龍身行志止”的具体操作指向暂不明确"
+        ]
+      },
+      {
+        "id": "book017-b000399-p000-78981e4e37",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“仍奇止”“巒頸”的具体含义不详，“是不和”的表述暂无法确定准确语义"
+        ]
+      },
+      {
+        "id": "book017-b000400-p000-815225c3fb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文含有的日文假名“る”“っ”疑似讹误，暂按上下文表意补全为合理表述"
+        ]
+      },
+      {
+        "id": "book017-b000401-p000-a9c11f2f3a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“不百偏”中“百”字的表意无法确定，疑似原文讹误"
+        ]
+      },
+      {
+        "id": "book017-b000403-p000-a36896c1a9",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“擇明坐”“每後天”“不可緣”“方後八尺不宜辨 \\_之音雜”的具体含义均暂无法确定"
+        ]
+      },
+      {
+        "id": "book017-b000404-p000-8b92c7517f",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "“由抑龍”的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1775,
+    "completion_tokens": 588,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1775,
+      "completion_tokens": 588,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

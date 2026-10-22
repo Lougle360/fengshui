@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-10-15T03:43:57.406366+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "7c7337670e9ff1e21eda4e8f95fe205a3da63f0331a955a77ff583f0b2b17c54",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b001837-p000-e14e4f5b31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'沟血'，释读为'沟洫'，但原文用字存疑。",
+          "原文'晴野'，释读为'旷野'，但原文用字存疑。",
+          "原文'不净回'，释读为'不潆回'，但原文用字存疑。",
+          "原文'堂真'，释读为'堂局'，但原文用字存疑。",
+          "原文'公解'，释读为'公廨'，但原文用字存疑。"
+        ]
+      },
+      {
+        "id": "book033-b001838-p000-ea152fc9eb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'伯穴小穴小'，释读为'怕穴小'，但未标注不确定性，且'伯'字未处理。",
+          "原文'轮奂'，释读为'轮奂'，但未标注其在此处可能另有含义的不确定性。",
+          "原文'小维容君莫爱'，释读为'小穴容君莫爱'，但未标注此推测及原文含义不明。",
+          "原文'廖天云'，释读为'廖氏云'，但未标注原文用字存疑。",
+          "原文'军下污湿'，释读为'卑下污湿'，但未标注原文用字存疑。",
+          "原文'水海湲'，释读为'水潺湲'，但未标注原文用字存疑。",
+          "原文'须要垂'，句子不完整，释读未处理此缺漏，也未标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b001842-p000-7ea36f87e9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'山服'，释读为'山脉'，但原文用字存疑。",
+          "原文'汾阳'，释读为'汾河'或地名，但具体所指不详。"
+        ]
+      },
+      {
+        "id": "book033-b001844-p000-646851a009",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文'土王'，释读为'土旺'或'土王用事'，但具体所指不详。",
+          "原文'景冈美则侯厥后'，含义不明，释读保留原句。",
+          "原文'景冈同一测'，含义不明，释读保留原句。"
+        ]
+      },
+      {
+        "id": "book033-b001846-p000-b69ac34601",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'从事'，释读为'从事'，但未标注其可能为'从师'之误或含义不明。",
+          "原文'已见召才非国典'，含义不明，释读未标注不确定性。",
+          "原文'谬客'，释读为'谬客'，但未标注其可能为'谬讹'之误或含义不明。",
+          "原文'钟宫与终徵'，释读为'钟宫与终徵'，但未标注其涉及音律，具体所指不详。",
+          "原文'平洋可无各'，释读为'平洋可无各'，但未标注'各'字可能为'咎'之误或含义不明。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5515,
+    "completion_tokens": 813,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5515,
+      "completion_tokens": 813,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

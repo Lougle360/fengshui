@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-10-04T02:30:58.519696+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b83fb7cf0dda6db77700cb7573392f474ae11078fb14ed09536080ef9de99490",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000422-p000-c63d672066",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "肯"
+        ]
+      },
+      {
+        "id": "book028-b000426-p000-db34de37cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘九變穴星若莊重揣好吉塟所止也’中的‘揣好’被直接引用，未作任何解释或标注，可能导致读者困惑。应标注其含义不详。",
+          "原文‘若正星尊大撐立之體使形或有虧兼或不全只可爲龍格也’中的‘使’字，candidate译为‘使形体或有亏缺或不全’，将‘使’理解为‘致使’，但此处‘使’更可能为‘假使、即使’之意，属于反义风险。"
+        ],
+        "uncertainty": [
+          "揣好"
+        ]
+      },
+      {
+        "id": "book028-b000427-p000-c3a05e017a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘岑出者奏 傍出者從 角出者從岑廓弦陷 腰軟界缺 墜一腳就而爲窩與 而爲窩與 澤而爲窩凭高仰高 循皮摘芽 與垂珠倒不同 不同 氣不同砂’，candidate释读为‘从岑出的是奏，从旁出的是从，从角出的是从。文中提到“岑廓弦陷”、“腰软界缺”等形。坠落一脚而成为窝的，与“与而为窝与”、“泽而为窝”、“凭高仰高”、“循皮摘芽”以及“与垂珠倒”不同，这些情况“气不同砂”，具体所指不详。’ 此段原文结构混乱，candidate的断句和释义存在多处推测，如将‘奏’、‘从’视为名词，将‘与’视为短语的一部分，均缺乏依据，未能忠实反映原文的含混性，属于过度解释。",
+          "原文‘圓不能蓋止智者會焉’，candidate释读为‘“圆不能盖止智者会焉”，具体所指不详。’ 此处‘蓋止’可能为‘蓋此’之误或特定术语，candidate直接引用而未作任何处理，对于普通读者而言仍是不明所以的短语，未能完成‘转换成现代中文’的目标，应尝试更清晰的表述，如‘“圆不能盖止智者会焉”一句，具体含义不明。’"
+        ]
+      },
+      {
+        "id": "book028-b000428-p000-afae519280",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "开口身矮脚飞脑",
+          "坐脚浑而敏",
+          "天财身矮脑",
+          "耸势立"
+        ]
+      },
+      {
+        "id": "book028-b000430-p000-552b41c260",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "弃木就金远克也",
+          "合处朱"
+        ]
+      },
+      {
+        "id": "book028-b000431-p000-6ccb499e51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "所葬也",
+          "以可"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2905,
+    "completion_tokens": 735,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2905,
+      "completion_tokens": 735,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

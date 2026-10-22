@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-26T05:25:44.620078+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "173f02f11bbbcb635a6921681a434ac7df9987537556e1505779a0737b4d3dfc",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002414-p000-600a65bcbf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "慶平可朋具体所指不详，原文未明"
+        ]
+      },
+      {
+        "id": "book029-b002417-p000-bceb8cf995",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“地理秦贊玄機金書卷十二”是整段文本的出处，应标注在整段开头或末尾，不应插入在第二条和第三条龙的规则之间，打乱原文条目顺序",
+          "原文“各吉方山”是总述，不应扩写为“以上为各吉方山的相关要求”，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002420-p000-f090810211",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“四神山子邱乾吳”的断句无依据，将“四神山”的组成判定为“子邱、乾吴”属于无确定依据的释读，应保留原文表述并标注具体所指不详",
+          "错误将“乾”的释义拆分到“四神山”的成分里，混淆了专名和术语释义"
+        ],
+        "uncertainty": [
+          "子邱乾吳具体所指不详，原文未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1423,
+    "completion_tokens": 360,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1423,
+      "completion_tokens": 360,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

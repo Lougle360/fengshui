@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-10-18T05:04:28.386168+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "ab1b2bafd4963b61e993ed3cb6f3ffda8acb506b951278bd33f5d0c34a69d4ab",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005515-p000-fdea8790a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'此位流神任去來'中的'流神'，candidate译为'水流'，存在专业术语误换。'流神'在风水术数中通常指流动的气或神煞，不直接等同于'水流'。",
+          "原文'功業成名居上號'，candidate译为'功業成名並位居上號'，'上號'在此处可能指上等名次或高位，译为'位居上號'不够清晰，且'號'字未译出。",
+          "原文'文章有用作經魁'，candidate译为'文章方面可用作經魁'，'經魁'是科举术语，指经义考试的第一名，此处释读不够明确。",
+          "原文'倉中殼粟陣成腐庫内金'，candidate处理为'原文語意不完整，具體所指不详'，这是正确的风险标注，但前半句的释读已存在多处问题。"
+        ],
+        "uncertainty": [
+          "'倉中殼粟陣成腐庫内金'一句，原文可能为'倉中殼粟陣成腐，庫内金...'，意指仓库中的谷物堆积腐烂，库房内的金银...，但确实不完整，candidate的处理方式可以接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 661,
+    "completion_tokens": 299,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 661,
+      "completion_tokens": 299,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

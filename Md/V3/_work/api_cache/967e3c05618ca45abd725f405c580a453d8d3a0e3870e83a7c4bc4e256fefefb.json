@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-23T13:31:02.834591+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "967e3c05618ca45abd725f405c580a453d8d3a0e3870e83a7c4bc4e256fefefb",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000780-p000-1bb1efd21a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 '转兑缺。辛入亥流' 断句为 '转至兑方缺。辛入亥流'，改变了原文的句读和含义。原文 '转兑缺' 可能是一个独立的短语或术语，不应随意拆分。",
+          "candidate 在结尾处添加了 '纷纭' 一词，但 source 中 '纷纭。' 是下一段的开头，属于下一句。此处属于错误连接，导致本段结尾增译。",
+          "candidate 将 '丁丙巽流震入艮' 释为 '丁丙巽流震入艮'，并解释为 '是太阳正格，主贵仙眷'。但原文中 '丁丙巽流震入艮' 与 '太阳正格贵仙眷' 是并列的两句，candidate 将其处理为解释关系，可能改变了原文的并列结构。不过，考虑到 V3 目标为白话释读，这种将并列句处理为解释性语句的做法，如果语义未变，尚可接受。但结合其他问题，整体判定为 revise。"
+        ],
+        "uncertainty": [
+          "三阴二合并四气，九曲三叉俱富贵",
+          "二辰并辅癸",
+          "御街金格",
+          "游魂阴枢丙也",
+          "阴枢丙也。南极丁也",
+          "天潢天关申也"
+        ]
+      },
+      {
+        "id": "book001-b000781-p000-43fef88124",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 开头 '纷纭复杂' 中的 '复杂' 是增译。source 中 '纷纭。' 是承接上段末尾 '总免祸刑遭' 的，应直接连接。candidate 的处理割裂了原文的连贯性，并增加了未有的内容。",
+          "candidate 将 '天潢天命水朝坟' 释为 '文中提到“天潢天命水朝坟”，主敌国豪富真无伦比'。此处将原文直接作为引语处理是合适的，但 '主' 字的添加使解释变得确定。原文是陈述句，candidate 的 '主' 字有将其转化为判断的倾向，虽影响不大，但结合其他问题，整体需修订。",
+          "candidate 将 '阴光癸也。牵牛丑也。人冢内' 释为 '文中提到“阴光癸也。牵牛丑也”，若入人冢内'。此处将 '人冢内' 与前文割裂，并添加了 '若' 字，改变了原文的语法结构。原文 '阴光癸也。牵牛丑也。人冢内' 可能是并列或递进关系，candidate 的处理可能不准确。"
+        ],
+        "uncertainty": [
+          "天潢天命水朝坟",
+          "阴光癸也。牵牛丑也",
+          "天机甲也。天棓寅也",
+          "阳闽兑也",
+          "亢娄辰戌"
+        ]
+      },
+      {
+        "id": "book001-b000782-p000-b7b247eb94",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000783-p000-c179250b9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000784-p000-06f23332b5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000785-p000-c2dcfeb003",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000786-p000-2173f39831",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000787-p000-66db09f974",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000788-p000-e5252dbf93",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6184,
+    "completion_tokens": 991,
+    "cached_prompt_tokens": 6144,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6184,
+      "completion_tokens": 10000,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 6184,
+      "completion_tokens": 991,
+      "cached_prompt_tokens": 6144,
+      "usage_estimated": false
+    }
+  ]
+}

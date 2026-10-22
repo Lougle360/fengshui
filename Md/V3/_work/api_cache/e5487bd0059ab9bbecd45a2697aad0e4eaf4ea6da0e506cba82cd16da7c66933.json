@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-09-25T09:46:58.031049+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e5487bd0059ab9bbecd45a2697aad0e4eaf4ea6da0e506cba82cd16da7c66933",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002602-p000-fe9b1a3e52",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文结尾存在脱漏，脱漏部分无法补全",
+          "“亦有全力”据文意校改为“亦无全力”，属于推测校改"
+        ]
+      },
+      {
+        "id": "book018-b002604-p000-1c403c3c75",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“离山”中的“离”为八卦之一，为规定保留的术语"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2466,
+    "completion_tokens": 155,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2466,
+      "completion_tokens": 155,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-25T08:19:23.464225+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7d852d8ba550b5134268a33cb34f57aa46424bb87170d3af11dc7aa7d46d6d96",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b002588-p000-ed27cfeb04",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002594-p000-c5e55922a9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文歌诀断句应为“人刦当从向上求，面前空阔要远朝。如无远朝，是犯人刦。有水特来砂横抱，信知人刦小为妖。”候选将“如无远朝是犯人刦”合并为一句，改动了原文断句结构，与原文表述不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b002595-p000-7a13b1b45a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2323,
+    "completion_tokens": 245,
+    "cached_prompt_tokens": 1848,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2323,
+      "completion_tokens": 160,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2323,
+      "completion_tokens": 245,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    }
+  ]
+}

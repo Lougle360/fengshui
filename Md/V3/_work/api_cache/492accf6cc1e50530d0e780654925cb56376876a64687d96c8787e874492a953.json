@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T09:56:29.693235+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "492accf6cc1e50530d0e780654925cb56376876a64687d96c8787e874492a953",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000423-p000-eb1b772703",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000424-p000-ee8c746adb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘坡朐’未被准确释读，且‘被胎’的释读存在重复，原文‘全胎’‘保胎’‘被胎’各有对应描述，释读中‘全胎’重复出现，‘坡朐’未明确对应原文含义，‘被胎’的释读未贴合原文‘顽金孤罡’等描述，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文中‘坡朐’的具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000425-p000-b17eafea8f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘登高作心’的‘心’字含义不明，释读未标注该歧义，直接释读为‘登高作心’，未明确其不确定性"
+        ],
+        "uncertainty": [
+          "原文‘登高作心’中‘心’字含义不明"
+        ]
+      },
+      {
+        "id": "book010-b000426-p000-dd6d4185e0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘豈之不妨多加客土’的‘豈之’释读为‘若无妨’，存在推测性释义，未明确原文含义的不确定性；‘鄭若’未被准确释读，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文‘豈之’的具体含义不详；原文‘鄭若’的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1806,
+    "completion_tokens": 408,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1806,
+      "completion_tokens": 408,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

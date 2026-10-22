@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T14:14:44.203343+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "008caf56ce9607b58d7b788df55dff94b7086724c7879424eb09d0ccdf6878e7",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000673-p000-013b3e430c",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "得以求得。如此一来，嘉泰甲子年的上元积年"
+      },
+      {
+        "id": "book015-b000675-p000-03acee44bd",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "是这样算定的。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000676-p000-c8bb820a16",
+        "language": "classical_chinese",
+        "content_type": "heading",
+        "action": "rewrite",
+        "modern_text": "## 小结",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000677-p000-b855f7b41d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "总而言之，秦九韶凭借大衍求一术的发明，完成了自《孙子算经》以来的中国剩余定理，还去掉了算法中要求互素的条件，对其进行了扩展。可以说，秦九韶对同余式的理解确实极为深刻，且涉及多个方面，这绝非夸张之语。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1509,
+    "completion_tokens": 261,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1601,
+      "completion_tokens": 168,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1509,
+      "completion_tokens": 261,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

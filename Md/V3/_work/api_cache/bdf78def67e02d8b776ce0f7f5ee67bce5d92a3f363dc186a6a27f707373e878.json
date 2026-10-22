@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-17T08:20:43.529831+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bdf78def67e02d8b776ce0f7f5ee67bce5d92a3f363dc186a6a27f707373e878",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002972-p000-dd23c96552",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘若方有亦子貴金更爲第一’推测性补足为‘若方有砂’，并解释为‘亦主子贵，更为第一’，缺乏原文依据，属于无依据扩写。原文‘金’字未处理，直接忽略。",
+          "candidate将‘韓柳歐穌’解释为‘韩愈、柳宗元、欧阳修、苏轼’，但‘穌’字与‘轼’不符，且原文未明确指代，此解释超出了allowed_glossary范围，属于将不确定解释写成事实。",
+          "candidate将‘亲御翰’解释为‘亲受皇帝御笔题赐’，原文‘亲御翰’含义较泛，此解释为具体化，属于增译。",
+          "candidate将‘砂水 應位潮秀者主貴陽璇水潮文筆起’断句并释读为‘若砂与水在应位处潮涌且秀丽，主显贵。阳璇水潮起文笔’，原文‘主貴陽璇水潮文筆起’应整体理解，candidate的断句和释读改变了原文结构，可能导致语义偏差。"
+        ],
+        "uncertainty": [
+          "原文‘若方有亦子貴金更爲第一’文句不通，含义不明。",
+          "‘韓柳歐穌’具体指代人物存在异体或讹写可能。"
+        ]
+      },
+      {
+        "id": "book035-b002974-p000-56dc39db14",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘四神八將 三陽水潮歸鬼鄉義門壽考同休光 輝也’整合为‘指’字句（‘四神八将、三阳水潮归鬼乡、义门寿考同休光辉’），属于无依据改写原文结构。原文为并列或解释语气，应贴近原文释读。",
+          "candidate将‘洋洋流能充蒲之意’直接嵌入，并标注‘具体含义不明’，但未将其作为opaque_term处理，且‘充蒲之意’对现代读者而言依然费解，未进行有效释读。",
+          "candidate将‘理姑繅系白如雪’标注为‘具体所指不详’，但未将其作为opaque_term处理，且未说明原文存在此短语。",
+          "candidate将‘陰樞丙也南極丁也’释读为‘阴枢指丙方，南极指丁方’，但原文‘陰樞南極水洋洋’中‘陰樞南極’可能指代方位或星名，candidate的释读将不确定解释写成了事实。"
+        ]
+      },
+      {
+        "id": "book035-b002976-p000-bd308fb837",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘天漢天命水潮玉敵國富豪直無倫’释读为‘天汉天命水潮，文中提到“玉敵國富豪直無倫”，但“玉敌国”对现代读者而言含义不明，此短语具体所指不详。’，但‘天漢天命水潮’本身也是术语，candidate未进行任何释读，直接保留，不符合V3目标。",
+          "candidate将‘天庚二方有水者主 艮之事無論總比者’释读为‘天庚二方有水者主艮之事，文中提到“无论总比者”，但“艮之事”、“总比者”均未解释，直接嵌入读者无法理解，这些术语或短语在上下文中含义不明。’，但‘天庚’、‘艮之事’、‘总比者’均为术语或含混短语，candidate未进行任何释读或标注为opaque_term，直接嵌入，导致读者无法理解。",
+          "candidate将‘三軍 總莫之宮也’释读为‘三军总莫之宫也，文中提到“三军总莫之宫也”，直译且费解，此句具体所指不详。’，但‘總莫之宮’含义不明，candidate未进行任何释读，直接保留，不符合V3目标。",
+          "candidate将‘震庚有峰入雲表英雄將相麾三軍’释读为‘震庚有峰入云表，英雄将相麾三军。’，但‘震庚’为方位术语，candidate未进行任何释读，直接保留，不符合V3目标。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2029,
+    "completion_tokens": 967,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2029,
+      "completion_tokens": 967,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

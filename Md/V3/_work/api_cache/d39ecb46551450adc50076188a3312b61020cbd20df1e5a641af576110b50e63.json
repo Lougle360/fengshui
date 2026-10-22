@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-10-04T05:41:51.426879+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "d39ecb46551450adc50076188a3312b61020cbd20df1e5a641af576110b50e63",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000548-p000-fd57e03e80",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "翻云神—氣廳浙柳靈幽陰相觸",
+          "神廁 麒棚成籬潁而障風",
+          "鎭地户而塞水",
+          "期又解美矣"
+        ]
+      },
+      {
+        "id": "book035-b000549-p000-c14bcafe19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘寸王’释读为‘寸金’，这是无依据的推测。原文‘寸土惜如寸王’中的‘王’可能是‘玉’或‘金’的讹字，但候选句直接写为‘寸金’，属于将不确定解释写成事实。应保留原文‘寸王’并标注其含义不详。"
+        ],
+        "uncertainty": [
+          "鄗黠階儲饋醋版大又得",
+          "冰之所驟"
+        ]
+      },
+      {
+        "id": "book035-b000551-p000-d9e454e614",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "政 人自基山 所以長世 也",
+          "檉以驕離 馴綉峨順麟艇好馳眾"
+        ]
+      },
+      {
+        "id": "book035-b000553-p000-9d552c5451",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘郭亚’认定为郭璞（字景纯），这是将不确定的专名（原文为‘郭亞’）直接等同于历史人物，属于无依据的扩写。应保留‘郭亚’并标注其具体所指不详。"
+        ],
+        "uncertainty": [
+          "淮則楚也之 般也 也里禽易医段應絵知申著葬經授青囊九景純之術幾于神玄妙莫測",
+          "精紗",
+          "瞽心",
+          "抑郭生卜前"
+        ]
+      },
+      {
+        "id": "book035-b000557-p000-51bc7cbeb1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘淮绳’释读为‘淮绳’，但未解释其含义，且‘淮绳’可能为‘准绳’之误。作为白话释读，对于这种疑似错字或专业术语，应指出其可能为‘准绳’并标注不确定性，而不是直接照搬。候选句对‘杂婁’、‘故以雜’的处理方式（标注不详）是正确的，但对‘淮绳’的处理不完整。"
+        ],
+        "uncertainty": [
+          "尽信畜不如无书",
+          "杂婁之目",
+          "故以雜"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2103,
+    "completion_tokens": 664,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2103,
+      "completion_tokens": 664,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

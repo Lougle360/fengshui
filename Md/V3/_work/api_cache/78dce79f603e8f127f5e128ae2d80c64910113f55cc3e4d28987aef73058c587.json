@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T17:27:54.531048+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "78dce79f603e8f127f5e128ae2d80c64910113f55cc3e4d28987aef73058c587",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000925-p000-79e386945c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中项安世所说的‘血惕’误释为‘血惧’，与原文含义不符；未保留原文中‘血’字的两种解读（马融认为当作‘恤’、项安世按本字读）的明确区分，存在语义偏差"
+        ],
+        "uncertainty": [
+          "原文中‘血’字的两种解读均为可备一说的观点，释读时未明确标注相关风险"
+        ]
+      },
+      {
+        "id": "book016-b000926-p000-ccc17f8875",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在缺漏错乱，释读时未明确说明相关情况，且对原文的整理存在一定的不确定性"
+        ],
+        "uncertainty": [
+          "原文存在缺漏错乱，已按可辨识内容整理"
+        ]
+      },
+      {
+        "id": "book016-b000927-p000-1ded99bdae",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000928-p000-c756284c03",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1693,
+    "completion_tokens": 317,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1693,
+      "completion_tokens": 317,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

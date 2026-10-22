@@ -1,0 +1,102 @@
+{
+  "created_at": "2026-09-26T14:45:28.889048+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "baff6e21f3da0ed4ca9e9b70bd28a20b55a42753f07c391954133fa029694c6a",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000254-p000-bcb5467aea",
+        "winner": "uncertain",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "擅自增加无原文依据的解释：原文“必結大地”被候选解释为“一定会结成大地，这里的「大地」通常指风水格局宏大的穴位”，属于额外增释；原文“通向水動”被改为“朝向水动的地方”，未保留原文表述；原文“又有門戶穴結地心”被错误断为“还有门戶穴结在地心”，原文是“结地心”非“结地”，current此处断句错误但候选同样未准确对应；原文“微露毛春”current遗漏，候选补出但增加不必要的解释性表述。",
+          "部分术语处理不当：allowed_glossary未包含“大地”的解释，属于无依据增释。"
+        ],
+        "uncertainty": [
+          "候选补出了current遗漏的“毛春”相关内容，但存在多处无依据增释和原文表述改动，两版各有得失。"
+        ]
+      },
+      {
+        "id": "book002-b000255-p000-d5bf423057",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000257-p000-1c7e6c3f4e",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000261-p000-dec3a8b9cb",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000263-p000-ce6030a6e3",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000264-p000-bd15a143e0",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000266-p000-01b1b17df3",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000268-p000-1160a045e4",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book002-b000270-p000-18bad4aaa7",
+        "winner": "candidate",
+        "candidate_verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6030,
+    "completion_tokens": 941,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6030,
+      "completion_tokens": 941,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

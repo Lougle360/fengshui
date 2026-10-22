@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-26T13:41:59.282021+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "1efc6498e4bb68256a7c5498eab0bc6acafb1aa896c908ee01a93bc2f8351ad3",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001330-p000-6321dbb032",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文“类禳祈祷”，candidate错误保留原字“类禍祈祷”，属于术语误写；2. 原文“隆准龙颜，公侯之相”，candidate错写为“公民之相”，违背原文表述；3. 原文“陷当生于众险”，candidate错写为“命里本该存活的人”，与原文语境不符；4. 原文“此一离娄也”，candidate将“离娄”曲解为“离娄相关的说法”，且不符合术语解释规范。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001337-p000-3d7aaa311b",
+        "winner": "uncertain",
+        "candidate_verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "两版内容完全一致，无明显差异，无法判断优劣。"
+        ]
+      },
+      {
+        "id": "book001-b001375-p000-a62d8e14e8",
+        "winner": "current",
+        "candidate_verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate删除了原文中“一抔之壤代指墓穴”的合理补充，不够通俗，不利于读者理解语境。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5339,
+    "completion_tokens": 344,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5339,
+      "completion_tokens": 344,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

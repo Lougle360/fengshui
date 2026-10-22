@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-25T05:41:33.113098+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "cbf5c21ffee7d111a820e6988e4b8894d8dfbddc26e3e81654363aad740df996",
+  "response": {
+    "items": [
+      {
+        "id": "book021-b000114-p000-11613fa12f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000115-p000-3c7ba53c82",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000116-p000-2ceba328f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“假如近从东来，入此宅住后更修拓西方”是指人近期从东方来到此宅居住，候选误译为“从东方来的气”，存在含义偏差；原文“致营域”未准确释读，候选译为“经营产业”无明确依据；原文“余方移转及上官往来”的“上官”指赴任、上官府办事，候选译为“官员往来”存在含义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000117-p000-96b3e05dfb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“正月二月三月不得东”是指不得在东方修造动土，候选仅译为“不能向东”，表意模糊，未明确对应修造的语境；原文“犯帝车杀父”等表述是指会害父、害母等，候选直译为“会杀父”等不符合风水术语的通常表意，容易产生误解"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book021-b000118-p000-c2b1513e2a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句应为“月生气与天道、月德合，其吉；路犯月死气之位，为有凶灾”，候选断句错误，将“其吉路犯”拆分错误，导致“路犯月死气”的适用范围被不当限定为路途触犯，实际上“路”在此处指修造道路等相关行为，原文未限定仅路途触犯才会有凶灾"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2847,
+    "completion_tokens": 505,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2847,
+      "completion_tokens": 505,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

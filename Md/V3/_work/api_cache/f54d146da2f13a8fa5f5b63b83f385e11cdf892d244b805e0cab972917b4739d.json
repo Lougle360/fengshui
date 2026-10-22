@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-10-16T13:30:26.439000+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f54d146da2f13a8fa5f5b63b83f385e11cdf892d244b805e0cab972917b4739d",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002407-p000-9408ed06b0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文'陽龍下丁陽龍絕陰龍下了陰龍滅'中'丁'与'了'字形相近，但candidate统一译为'丁位'，可能混淆了原文的区分。'丁'可能指方位（天干丁位），'了'可能指'了结'或另一含义，需核对原文字形。",
+          "'山家撞鐘念佛'译为'若山家如撞钟般，需念佛超度'，将比喻性描述解释为具体行为'需念佛超度'，属于无依据扩写。应保留原文比喻，或标注其含义不确定。",
+          "'捕換水穴'译为'通过捕换水穴'，'捕换'含义不明，candidate未标注不确定性。",
+          "'紫氣穴'、'蕩面'、'水穴'等术语未在allowed_glossary中定义，candidate直接使用并赋予确定含义，应保持原样或引用说明。",
+          "'龍離好穴不足'译为'龙脉离开好穴'，'不足'未译出，可能漏译。"
+        ],
+        "uncertainty": [
+          "'丁'与'了'的具体所指需核对原文。'捕換'、'撞鐘念佛'的确切含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b002408-p000-f0e269710b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002409-p000-deeddfb233",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'木陽也不宜重見木穴'译为'木行龙脉若再见到木穴'，'木陽'可能指'木星属阳'，candidate释为'木行龙脉'，简化了阴阳属性，但尚可接受。",
+          "'蘆輕龍'译为'芦轻龙'，未在allowed_glossary中定义，candidate直接使用并解释为'出状元的概率极高'，属于无依据扩写。应保持原样或标注含义不确定。",
+          "'出狀元及第拜相入朝'译为'出状元的概率极高，能及第拜相入朝'，增加了'概率极高'的推测，原文为陈述事实。应直译为'出状元及第，拜相入朝'。"
+        ],
+        "uncertainty": [
+          "'蘆輕龍'的具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b002410-p000-568296c96c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002411-p000-6715a8040e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002412-p000-0e757a7746",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "'水星不宜下水穴'译为'水星不宜下水穴'，保留了'水穴'，但未在allowed_glossary中定义'水星'，candidate直接使用。'水星'可能指五行星体或山形，应标注不确定性。",
+          "'侍流军贼'译为'侍流、军贼'，'侍流'含义不明，candidate未标注不确定性。",
+          "'土穴平面是也'译为'土穴以平面为是'，释义合理，但'平面'具体形态未明，可接受。"
+        ],
+        "uncertainty": [
+          "'水星'、'侍流'的具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002413-p000-9c88a22a3b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002414-p000-f707367d2f",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文'出命云'语义不明，具体所指不详。"
+        ]
+      },
+      {
+        "id": "book035-b002415-p000-5000d670cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002416-p000-e457b16fa9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2330,
+    "completion_tokens": 949,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2330,
+      "completion_tokens": 949,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

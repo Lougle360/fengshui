@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:10:18.121163+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "8adc4de3ad999eb6ee4e363f4a72e41e8ff7e07dae592d7a61a3697fe2bcbbf3",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000124-p000-dc743d53e3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中无依据的数字‘2’‘11’‘一節’纳入释读，属于无依据扩写；未保留原文中‘浦漢穴法’‘三龍’‘毬簷’等未被allowed_glossary收录的专名，违反术语处理规则；对原文中残缺文字的表述模糊，未明确标注具体残缺位置"
+        ],
+        "uncertainty": [
+          "原文存在部分文字残缺或辨识不清的情况"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2483,
+    "completion_tokens": 144,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2483,
+      "completion_tokens": 144,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

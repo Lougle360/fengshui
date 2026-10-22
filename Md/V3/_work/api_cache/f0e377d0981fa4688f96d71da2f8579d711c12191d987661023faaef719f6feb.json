@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T16:36:29.246936+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f0e377d0981fa4688f96d71da2f8579d711c12191d987661023faaef719f6feb",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000753-p000-bca0f5b3d8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000754-p000-8bc22f3dde",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量错乱残缺，仅能辨认部分零散内容，大部分语句含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000756-p000-a617b1d0cc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“流水生人皆鬼斷法云龍虎山飲飛田周實盡不”被误译为“添注：流水环绕的地方，出生的人都会成为鬼类。断法说：龙、虎二砂的形态如同飞田周实，都不可取用”，此处“飲飛田周實盡不”属于原文残缺，未标注残缺就直接释读为“形态如同飞田周实，都不可取用”属于无依据推定；“兇銀之徒”属于原文错讹，应标注为原文不清，不应直接释为“凶恶之徒”"
+        ],
+        "uncertainty": [
+          "原文末尾“管見云擊”存在残缺，具体所指不详",
+          "原文“龍虎山飲飛田周實盡不”存在残缺，含义无法完全确定",
+          "“兇銀之徒”原文存在错讹，所指不明"
+        ]
+      },
+      {
+        "id": "book026-b000757-p000-6cb5536141",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000759-p000-7cd271d2c2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“主出人縣如楚裏王之夢巫山神也”中“縣”为错字，不应直接释为“主出人如楚襄王梦见巫山神女之事”，应标注原文存在错讹；原文“尖金生絕案可言生男育女說家門”被误译为“可生男育女，兴旺家门”，原文无“兴旺”含义，属于增译"
+        ],
+        "uncertainty": [
+          "原文“主出人縣如楚裏王之夢巫山神也”存在错讹，部分含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000760-p000-ddbb469c2f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000761-p000-19405ababf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在错乱残缺，仅能辨认部分零散内容，大部分语句含义无法确定"
+        ]
+      },
+      {
+        "id": "book026-b000763-p000-c914c4f410",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“周寄家歲文筆若坐懸針切宜謹畏”被误拆为“为周寄家所藏。文中说，文笔若如同悬针”，属于断句错误；“孝惰”“舊天大星”“常混李服”“大篡指辰戌丑未之官”均属于原文错乱，未标注不明就直接释读属于无依据推定"
+        ],
+        "uncertainty": [
+          "原文存在部分错乱，“孝惰”“舊天大星”“常混李服”“大篡”等表述含义无法完全确定"
+        ]
+      },
+      {
+        "id": "book026-b000765-p000-fa397e6313",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾有残缺"
+        ]
+      },
+      {
+        "id": "book026-b000767-p000-73b1cf9f2f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文错乱严重，候选释读多处属于无依据拼接，比如“山如同……，是真山”“若其中有小人”“若其中有君子”等表述均无原文对应依据，属于过度臆测"
+        ],
+        "uncertainty": [
+          "原文存在错乱残缺，无法完整释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3236,
+    "completion_tokens": 999,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3236,
+      "completion_tokens": 999,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

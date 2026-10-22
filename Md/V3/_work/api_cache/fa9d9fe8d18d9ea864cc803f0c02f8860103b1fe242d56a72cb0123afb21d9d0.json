@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-24T10:12:33.218579+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fa9d9fe8d18d9ea864cc803f0c02f8860103b1fe242d56a72cb0123afb21d9d0",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000600-p000-13f508ac24",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "将原文中含义不明的短语“天置四旺大然粟”“堂旺”“天界地天思天泣贯索耗”等未明确解释的内容保留原样，符合要求；释读中补出了必要的连接词使语句通顺，未改变原文含义；对“四旺”“四旺煞”“四旺之宫”等不确定的术语保留了原文表述并在uncertainty中列出，符合要求。"
+        ],
+        "uncertainty": [
+          "莫先君则犯四旺",
+          "天置四旺大然粟",
+          "堂旺",
+          "四旺",
+          "四旺煞",
+          "四旺之宫"
+        ]
+      },
+      {
+        "id": "book010-b000602-p000-6f29f1b55e",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处残缺，语义不连贯，无法准确解读，故判定为uncertain。"
+        ],
+        "uncertainty": [
+          "原文存在多处残缺，语义不连贯，无法准确解读，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 267,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1820,
+      "completion_tokens": 267,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

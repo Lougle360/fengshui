@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-25T06:43:26.618696+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "3e4c4ae319482a83c3632600cf648ab5ce611aa126967acf85354b5fc77b8e54",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b001928-p000-2b91758e02",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文是二级标题，候选未保留二级标题格式，且将标题内容改写为陈述句，不符合heading类文本的释读要求",
+          "原标题第一个术语是「星戲」（二字连读），候选误拆为「星、戏水金」，术语拆分错误"
+        ],
+        "uncertainty": [
+          "「星戲」「水金」「卯作庚」「艮龍轉」均为风水专业隐语，具体指向未明"
+        ]
+      },
+      {
+        "id": "book018-b001929-p000-e8810a90b0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「杜侍即」是「杜侍御」的形近讹字？不对，是原文的「即」候选改作「御」，未标注依据，属于无据改字"
+        ],
+        "uncertainty": [
+          "原文「杜侍即」的「即」疑为讹字，具体所指待考"
+        ]
+      },
+      {
+        "id": "book018-b001930-p000-9ed9909f8a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾「可為妄動之戎」的「戎」是「戒」的形近讹字，候选释为「警戒」正确但未标注原字讹误？不对，是「戎」本义是兵器、军旅，无警戒义，候选直接改写为「警戒」未说明原字疑讹，属于无据改译",
+          "原文「乃間塘取土」的「間」候选释为「挖」无依据，「間」此处疑为「闢」或「鑿」的讹字，或通「澗」？不对，原句是「因左臂積凹乃間塘取土以培之」，候选译「於是挖塘取土來填補」，「間」无挖义，属于误译"
+        ],
+        "uncertainty": [
+          "「間塘」的「間」字含义存疑，疑为讹字"
+        ]
+      },
+      {
+        "id": "book018-b001932-p000-749b8c86cb",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001933-p000-73935fc8d5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「在旬月间」候选译为「在短短幾個月內」错误，「旬月」指十天到一个月左右，不是几个月",
+          "原文「嘗與道學之轍」候选译为「曾與道學之輩往來」错误，「與道學之轍」指跻身道学行列、认同道学主张，不是往来"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001935-p000-e3b16a2c34",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾「大抵真是天池，則其水自然」句未完结，属于原文残断"
+        ]
+      },
+      {
+        "id": "book018-b001936-p000-5d8572459d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001937-p000-b375465f3b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选将「脉」写作异体字「脈」，不符合现代中文规范，应使用简体字「脉」"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001938-p000-4558cc3d78",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b001939-p000-748ae3c86a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文「文公三子：墊、野、在」的「野」候选后文又写作「埜」，前后不一致，原文此处「野」是「埜」的异体字，应统一表述并标注，且候选译「朱野」后又作「朱埜」，属于前后矛盾"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4384,
+    "completion_tokens": 1111,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4384,
+      "completion_tokens": 1111,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

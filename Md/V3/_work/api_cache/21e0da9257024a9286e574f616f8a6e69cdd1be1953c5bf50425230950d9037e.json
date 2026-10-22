@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-17T08:44:33.762249+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "21e0da9257024a9286e574f616f8a6e69cdd1be1953c5bf50425230950d9037e",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002998-p000-fae2d8059e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'抱城绕穴'译为'水流环绕着城郭并贴近穴'，'城'字被具体化为'城郭'，但原文可能指'城'（如罗城、水城）这一风水术语，而非现代意义的城郭。'朝天关角'译为'朝向关隘角位'，'关角'可能指水口关锁的方位或形态，译为'关隘角位'过于具体化。'用地自来之合水美民'译为'用地自然能汇聚美好的水，使百姓安乐'，'美民'释为'使百姓安乐'属于增译，原文可能仅指'水美民'（水美则民安）这一风水观念。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002999-p000-a7b9965fff",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'不犯阴阳混亲'译为'不违背阴阳相混的亲情原则'，'混亲'释为'相混的亲情'属于无依据的扩写，可能指阴阳混杂或交媾。'亦主谓金门之贵也'译为'这也主掌着金门显贵的运势'，'金门'可能为特定术语（如方位、星名或门类），译为'金门显贵'过于具体化。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003000-p000-9573a13fd8",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本存在大量无法识别的字符组合（如'池亥仙栋髓人豨记炳跡稱杯'），candidate将其整体处理为'具体所指不详'，但在此之前将'眞龍迢迢穴奇巧到頭僞氣非純完'译为'真龙脉绵延遥远，其结穴之处奇特巧妙；若到头时气脉不纯不整，则非真穴'，此部分释读尚可。然而，后续'反如翻弓直如箭流非吉位家貧寒 而不合度者樂得鼻龍決主絕謂反引直游 害謂水城反跳如翻弓之狀又直流去如箭矢之直者又來去'在candidate中被完全忽略，未作任何处理，属于严重漏译。整体而言，原文损坏严重，无法进行连贯的保守释读。"
+        ],
+        "uncertainty": [
+          "原文存在大量无法断句或语义不明的字符组合，且关键描述段落被遗漏，无法准确还原原意。"
+        ]
+      },
+      {
+        "id": "book035-b003001-p000-80f0be0e21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "周月"
+        ]
+      },
+      {
+        "id": "book035-b003002-p000-fc4536cc48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003008-p000-0b85e3ae64",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将'之水槍處雄雄公 公養老看雌雄'译为'水流冲击之处，雄雄之气旺盛；公养老时观察雌雄'，'雄雄公'和'公养老'的断句和解释缺乏依据，可能为'雄雄，公养老看雌雄'或存在OCR错误。'巽名山本靜以動爲生'译为'雌雄即指阴阳、动静。山本静，以动为生气'，将'巽'处理为'动静'的误字或直接忽略，但'巽'是locked_term，应保留并标注不确定性。'刑四死之雌爲蟠水也'译为'刑四死之雌为蟠水'，未作解释，保留了原文的含混性，可以接受。'此水直之頃爲陰此雌雄也'译为'此水直之顷为阴，此即雌雄之理'，'顷'可能指'顷刻'或'顷'（面积单位），释为'顷'（时间）可能不准确。'主實氣水而成餘出鎖水口'译为'主实气水而成。其余出锁水口'，断句和含义模糊，但candidate处理为保留原文短语，可以接受。'深害也'译为'深害也'，未作解释，保留了原文，可以接受。"
+        ],
+        "uncertainty": [
+          "巽",
+          "雄雄公 公養老",
+          "刑四死之雌",
+          "此水直之頃",
+          "主實氣水而成餘出鎖水口",
+          "深害也"
+        ]
+      },
+      {
+        "id": "book035-b003009-p000-4ef62d024f",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "source文本严重错乱，存在大量疑似OCR错误、字符缺失和顺序颠倒（如'E 即''云不俟''梆公''血水不金于故看全于'等）。candidate试图将片段词汇重组为连贯句子，但结果基本是原文的杂乱拼接，未能形成可理解的现代中文释读，且多处逻辑断裂，无法达到V3目标'普通读者能读懂的白话释读'。"
+        ],
+        "uncertainty": [
+          "原文段落严重错乱，无法进行有意义的保守释读。"
+        ]
+      },
+      {
+        "id": "book035-b003010-p000-8729da888a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4010,
+    "completion_tokens": 1219,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4010,
+      "completion_tokens": 1219,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

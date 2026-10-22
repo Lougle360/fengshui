@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-25T17:03:37.045482+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f9d172585c5faa98602e5bd7bbc8cbe79ee0279602479790bfa8dfdbe4900bce",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000855-p000-90d3d84d03",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000856-p000-4d1a2bbd96",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在大量文字错乱、顺序颠倒问题，候选释读无依据地将错乱文字整理为“雪心赋直解、蔡氏正解等神解类典籍”“真伪、四病、牧堂、春香堂、郭璞所著、景纯所论、地学相关内容、寄家经、家注、理术、基址、囊中之物”等确定内容，属于将不确定推测写成事实；还额外添加了原文不存在的“多是从学之人不察其由来，遂将本文所……”表述，属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文文字严重错乱，无法准确辨认断句及完整语义"
+        ]
+      },
+      {
+        "id": "book026-b000857-p000-c76b23d90e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“5 氏”属于辨识不清的字符，候选将其释为“5氏的相关说法”无依据；原文“多y是昆寫註齋之詞”存在OCR识别错漏，候选认定为“昆写斋的注文”属于无依据的确定解读；原文仅说“遂将本文所”，是未完成的语句，候选补出“就把这些注文混入了原文之中”属于无依据增译"
+        ],
+        "uncertainty": [
+          "原文有字符识别错误、脱漏，无法完整准确释读"
+        ]
+      },
+      {
+        "id": "book026-b000858-p000-43d5d7a6fa",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾存在缺字，无法完整释读"
+        ]
+      },
+      {
+        "id": "book026-b000860-p000-c315a5e5a6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000861-p000-c6016b8318",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“姓數句”的“姓”属于错讹或脱漏字符，候选直接保留并释为“‘姓’等几句”不准确；原文“向 在書之真爲當解也”存在语序错乱，候选释为“向的选择贵在合乎正道，书里的真实含义应当自己去体悟”，其中“向的选择贵在合乎正道”属于无依据增译，不符合术语释义要求；原文“1 则不 ；得 則會之君徒盡信也書之所言而 如 之 無書之為愈矣”“2 执 之 不通 明号 能”均为错乱脱漏内容，候选释为“1的内容没有记载；如果能领会其中的真意就不会只拘泥于书本，要是只会完全相信书上的记载，反而还不如没有书更好”“2的内容如果拘泥不通，即使有明确的名号也无法运用”属于过度补译，将不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "原文有多处文字脱漏、语序错乱，“姓數句乃簡言以司而陳迹”“方書え可泥也”等表述存在文字漫漶，部分含义难以完全确定；1、2位置的具体内容已缺失"
+        ]
+      },
+      {
+        "id": "book026-b000862-p000-fb51bf0485",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“廿三千家註纂”表述模糊，候选直接释为“是从两千三百家注本中纂集而成”属于无依据的确定解读，“廿三”是否指两千三百无法确认"
+        ],
+        "uncertainty": [
+          "“廿三千家註纂”具体含义未明，无法确定“廿三”的所指"
+        ]
+      },
+      {
+        "id": "book026-b000863-p000-dcc002d32e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000864-p000-1f408907f2",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在缺字、错乱，无法完整释读"
+        ]
+      },
+      {
+        "id": "book026-b000865-p000-9845e0ab99",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2614,
+    "completion_tokens": 1119,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2614,
+      "completion_tokens": 1119,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

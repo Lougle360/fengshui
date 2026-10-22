@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T11:47:09.592210+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "bdae851d8d279f6e2a3291300996aa4355fa273677089d9700b687008c312109",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000172-p000-c5713caa7b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文中“火星或或八六合八六七 八爲十”部分存在识别错乱，语义难以明确，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文中“火星或或八六合八六七 八爲十”部分存在识别错乱，语义难以明确，无法准确释读"
+        ]
+      },
+      {
+        "id": "book014-b000173-p000-0ae3217f8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文末尾“圗丁左 火二”部分存在识别残缺，语义难以明确，无法准确释读"
+        ],
+        "uncertainty": [
+          "原文末尾“圗丁左 火二”部分存在识别残缺，语义难以明确，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 222,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1177,
+      "completion_tokens": 222,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

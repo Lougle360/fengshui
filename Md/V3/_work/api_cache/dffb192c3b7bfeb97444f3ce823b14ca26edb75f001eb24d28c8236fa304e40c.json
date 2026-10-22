@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-03T23:32:25.641829+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "dffb192c3b7bfeb97444f3ce823b14ca26edb75f001eb24d28c8236fa304e40c",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000171-p000-0f7a5173e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000172-p000-fca9f20ea5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000173-p000-84116b0a66",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘三两之性’具体所指不详，此处仅按字面转述"
+        ]
+      },
+      {
+        "id": "book028-b000174-p000-32c8947374",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000175-p000-d8bec5b9a3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000176-p000-ce66c2e5f9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘贵富夕远’按字面转述，但‘夕远’语义不明，应明确标注为讹误或不可解，而非直接作为有效信息输出。",
+          "candidate将‘中亦扒砂’按字面转述，但‘扒砂’在此处语义不明，应明确标注为含义不详。",
+          "candidate将‘疑卷一’作为正文释读，但此三字更可能是篇末题记或标记，与正文内容无关，应单独处理或标注其性质。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000177-p000-e976e5299b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文为孤立短句，缺乏上下文，具体含义不详"
+        ]
+      },
+      {
+        "id": "book028-b000178-p000-c9aed4a011",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000179-p000-54c7cfc732",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘以我哈我之道’按字面转述，但此句语义不通，明显有误，应明确标注为讹误或不可解，而非作为有效信息输出。",
+          "candidate将‘贵体微也’按字面转述，但前文逻辑跳跃，应明确标注其含义不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000180-p000-811bf065b4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "candidate将‘肯后厌其止也’按字面转述，但‘肯后’语义不通，应明确标注为讹误或不可解。",
+          "candidate将‘愈土能导气之意’按字面转述，但‘愈土’与前文逻辑断裂，应明确标注其含义不详。",
+          "candidate将‘穴离止而气未止也’按字面转述，但语义模糊，应明确标注其具体所指不详。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2830,
+    "completion_tokens": 685,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2830,
+      "completion_tokens": 685,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

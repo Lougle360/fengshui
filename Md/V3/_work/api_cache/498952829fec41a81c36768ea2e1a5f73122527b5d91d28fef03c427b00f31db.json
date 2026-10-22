@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T10:00:25.599464+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "498952829fec41a81c36768ea2e1a5f73122527b5d91d28fef03c427b00f31db",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000476-p000-5d4b9cdba0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文的‘吞葜’误写为‘吞葜’（原文为‘吞葜’，此处未按原文保留）；‘浮即堆金莫’未保留原文表述，擅自释读；‘就浅宮葵之’未保留原文表述；‘午地’‘富弦’‘土葵’未按要求标注为不确定内容，擅自释读；‘塘’未按风水术语‘水’的定义释读，误作普通水塘；‘浚壙掘突’未准确释读，‘突’为风水术语，此处未明确；‘不熬則脫炁者也’未保留原文，擅自删除"
+        ],
+        "uncertainty": [
+          "南墉、土葵、富弦、午地、浮即堆金莫、就浅宮葵之、不熬則脫炁者也"
+        ]
+      },
+      {
+        "id": "book010-b000477-p000-08d12d87b9",
+        "verdict": "revise",
+        "confidence": "low",
+        "issues": [
+          "原文断句混乱，释读时擅自拆分，将‘類腹’‘顙’等未明确的术语强行归类，未保留原文的模糊性；‘脣脐目尾類腹三吉三凶角耳腰足鼻脇四凶二吉’未按原文保留，擅自解读"
+        ],
+        "uncertainty": [
+          "脣脐目尾類腹三吉三凶角耳腰足鼻脇四凶二吉"
+        ]
+      },
+      {
+        "id": "book010-b000479-p000-4b623084eb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "‘土葬其飢’‘水葬其湧’‘岂可稷而粘’‘水星盖脑则坡’未按要求标注为不确定内容，擅自释读；‘巽法’‘星体’未按要求标注为不确定内容，擅自释读；‘不熬則脫炁者也’未保留原文，擅自标注为具体所指不详"
+        ],
+        "uncertainty": [
+          "巽法、星体、土葬其飢、水葬其湧、岂可稷而粘、水星盖脑则坡、不熬則脫炁者也"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1892,
+    "completion_tokens": 535,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1892,
+      "completion_tokens": 535,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

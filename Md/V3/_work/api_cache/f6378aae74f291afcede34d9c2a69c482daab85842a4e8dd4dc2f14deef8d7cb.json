@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-18T04:16:38.511013+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "f6378aae74f291afcede34d9c2a69c482daab85842a4e8dd4dc2f14deef8d7cb",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005373-p000-c4b33a3d28",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将原文中明确、具体的‘形’局名称（如‘形釵金内匣’）概括为‘多种以动物或器物形态命名的风水‘形’局’，属于不恰当的概括和摘要化，未能准确、完整地传递原文信息。",
+          "候选句将原文中与每个‘形’局一一对应的、具有特定含义的口诀（如‘便康中但要四各匣好幕間取圍圍樣内詩安牙穴油案包看金日梳腻裹釵’）笼统地描述为‘含义隐晦、断句不清的口诀文字’，并举例两个短语，这未能完整反映原文结构。原文中每个‘形’局下都附有独立的、成段的、内容不同的口诀文字，候选句的处理方式遗漏了这些口诀与具体‘形’局的对应关系，也未能完整列出所有口诀内容（即使是作为示例）。",
+          "候选句最后总结‘文中仅能确认其中包含‘穴’‘水’等风水术语，但无法将其串联成连贯的、具有确定操作指导意义的现代文描述’，这属于对原文内容的推测性总结，而非对原文内容的忠实释读。释读任务应呈现原文内容，而非判断其是否可解读。"
+        ],
+        "uncertainty": [
+          "原文口诀文字确实存在断句和含义不清的问题，但这是原文固有的状态，候选句对此的标注是合理的。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2384,
+    "completion_tokens": 343,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2384,
+      "completion_tokens": 343,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

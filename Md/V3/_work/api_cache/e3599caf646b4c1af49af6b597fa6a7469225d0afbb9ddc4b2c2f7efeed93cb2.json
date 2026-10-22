@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-25T04:41:11.788913+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e3599caf646b4c1af49af6b597fa6a7469225d0afbb9ddc4b2c2f7efeed93cb2",
+  "response": {
+    "items": [
+      {
+        "id": "book036-b000588-p000-c0c0a9e240",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book036-b000593-p000-8025de86c2",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“好話源頭”未得到准确对应，释读自行将其解读为“所谓的好地源头，正是源于这种完整的气息”属于无依据增译，同时未明确标注该短语的不确定性，违反含混术语处理规则"
+        ],
+        "uncertainty": [
+          "“好話源頭”具体所指不详"
+        ]
+      },
+      {
+        "id": "book036-b000594-p000-fe50874190",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“自氣應無大地”的释读为“如果气息感应不佳，就不会形成大的吉地”属于无依据的确定解读，未明确标注该句断句和含义的争议，且将“好話來短去長少真”解读为“来脉短、去脉长的地少有真正的吉地”属于自行补充了原文未提及的“脉”的相关概念，属于增译"
+        ],
+        "uncertainty": [
+          "“自氣應無大地”断句和确切含义存在争议",
+          "“好話來短去長少真”具体所指不详"
+        ]
+      },
+      {
+        "id": "book036-b000595-p000-308a4f9575",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 427,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1137,
+      "completion_tokens": 427,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

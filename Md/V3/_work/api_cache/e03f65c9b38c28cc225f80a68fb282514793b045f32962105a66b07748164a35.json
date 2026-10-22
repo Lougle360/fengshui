@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-10-04T04:33:48.033009+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e03f65c9b38c28cc225f80a68fb282514793b045f32962105a66b07748164a35",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000592-p000-b494e85afc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘祖宗凌錄支幹必雄席雄偉之餘自有許多收用氣象’被整体视为一个含混短语并标注‘具体所指不详’，但candidate在释读时，将‘凌錄’单独摘出标注，而将‘祖宗…支幹…’等部分进行了释义（‘祖宗…支幹…’被释为‘文中提到…’），这超出了‘保留原短语并明确说具体所指不详’的边界，属于对含混内容的无依据扩写。应整体保留该短语并标注其含义不明。",
+          "‘本辰’在writer_uncertainty中列出，但candidate释读为‘本辰之气’并直接使用，未做任何不确定性标注。这属于把不确定解释写成确定事实。",
+          "‘五吉四凶’在原文中未明确其具体所指，candidate直接使用‘五吉四凶的影映’，未做不确定性标注。",
+          "‘先弓、纽绘’为opaque_terms，但未在locked_terms或opaque_terms列表中列出。根据规则，此类含混专名应原样处在引号引用范围内，不能被赋予确定含义。candidate将其释为‘像先弓、纽绘之类’，属于无依据解释。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000593-p000-4053691869",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "‘蕃法’在writer_uncertainty中列出，但candidate释读为‘蕃法之土’并直接使用，未做任何不确定性标注。",
+          "‘学气’在writer_uncertainty中列出，但candidate释读为‘学气荡浪缺形’并直接使用，未做任何不确定性标注。",
+          "‘卷三六八关’在writer_uncertainty中列出，但candidate释读为‘窝卷三六八关’并直接使用，未做任何不确定性标注。",
+          "‘圆金转处’含义不明，candidate未做标注。",
+          "‘称本展’含义不明，candidate未做标注。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000596-p000-d5aa750836",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘砂经 卷二 六九妙參贊之權’被整体视为一个含混短语。candidate将其部分内容（‘妙參贊之權’）标注为‘具体所指不详’，而将‘卷二 六九’解释为‘疑似页码混入’。这属于对含混内容的无依据推测和拆分解释，应整体保留该短语并标注其含义不明。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000597-p000-6869e1640e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘成星’具体所指不详。",
+          "‘莱之太刻’具体所指不详。",
+          "‘灸药’在风水语境中含义不明。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2172,
+    "completion_tokens": 675,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2172,
+      "completion_tokens": 675,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

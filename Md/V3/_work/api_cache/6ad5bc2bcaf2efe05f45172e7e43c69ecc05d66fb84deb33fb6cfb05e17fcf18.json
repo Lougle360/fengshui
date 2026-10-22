@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-10-17T23:37:29.193441+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "6ad5bc2bcaf2efe05f45172e7e43c69ecc05d66fb84deb33fb6cfb05e17fcf18",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b004977-p000-274724f7ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“惟喜賭博然龍眞穴正水聚山朝決不破家”一句，candidate译为“惟喜赌博（此处具体所指不详）。如果龙真穴正、水聚山朝，绝不会破家”。原文“然”字表示转折，意为“但是”，candidate将其处理为句号，割裂了转折关系，导致语义不连贯。应译为“（叠指）惟喜赌博，但是，如果龙真穴正、水聚山朝，绝不会破家”。",
+          "“此星本蔭一四七位衣祿”译为“此星原本荫庇一、四、七位的衣禄”。“一四七位”是风水术语，指特定方位或房分，candidate未加引号或说明，可能使读者误以为是普通数字。应处理为opaque_term或加注说明其术语性质。",
+          "“坐向得亥壬子癸皆爲氣旺形應好傍大溪這側喜居萬山之間”译为“坐向得亥、壬、子、癸，都是气旺形应。好傍大溪，这侧喜居万山之间”。“这侧”指代不明，原文“這側”可能指“大溪之侧”，candidate处理为独立句子，衔接生硬。建议调整为“好傍大溪之侧，喜居万山之间”。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004978-p000-a1d7077e90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004979-p000-9e8c7f1670",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“淫亂聚家囊形細如蚯蚓不可作穴”译为“其形如囊，细如蚯蚓，不可作穴”。此处存在漏译和误译。“淫亂聚家囊”是形容误用此星导致的后果（淫乱、家财聚敛如囊？），candidate只译了“形如囊”，漏掉了“淫亂聚家”的含义，且将“聚家囊”拆解为“其形如囊”也不准确。应整体处理为opaque_term或明确标注其含义不详。",
+          "“此與單股金水相似誤扦者其禍與正體掃蕩星穴一同”译为“这与单股金水相似，误扦者，其祸与正体扫荡星穴相同”。“一同”译为“相同”准确，但“正体扫荡星穴”在上下文中未定义，candidate未加说明，可能造成读者困惑。建议加注说明“正体扫荡星”指未经转化的凶星形态。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004980-p000-8adf6bb211",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘官至薄使合中格者官至都’，candidate 释读为‘官至薄使；合中格，官至都监；合下格，官至亲职。’存在严重增译。原文只提到‘薄使’和‘都’，并未提及‘都监’和‘亲职’。candidate 将‘都’字扩展为‘都监’，并凭空添加了‘合下格，官至亲职’这一整句，属于无依据扩写。",
+          "原文‘行事紅密’被释读为‘行事红密（此处具体所指不详）’。虽然标注了不确定性，但‘红密’在古汉语中并非常见或明确的术语，candidate 直接将其作为现代汉语词汇‘红密’使用，未作任何解释或保留原貌，这可能导致读者误解。应将其作为不透明术语处理，例如用引号标注或说明‘原文为‘红密’，含义不明’。",
+          "原文‘梆倒落於水口’被释读为‘梆倒落于水口’。‘梆倒’是opaque_term，candidate 未将其置于引号内或明确标注其含义不明，直接作为普通词汇使用，不符合处理不透明术语的要求。"
+        ],
+        "uncertainty": [
+          "‘红密’具体含义不详。",
+          "‘梆倒’具体形态不详。",
+          "‘薄使’具体官职不详。",
+          "原文‘官至都’的‘都’具体指何种官职不详。"
+        ]
+      },
+      {
+        "id": "book035-b004982-p000-713bb4ff4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004984-p000-325a121397",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“初生皺面之人則出地多生無指之人制未”译为“初生皱面之人，则气盛；至生无指之人，则气衰”。原文存在明显残缺和错乱（“出地多生”、“制未”），candidate根据上下文逻辑进行了大幅补全和改写（补出“气盛”、“气衰”），这超出了保守释读的边界，属于无依据的扩写。应更保守地处理，如：“初生皱面之人，则……（原文‘出地多生无指之人制未’，语意不明）”，并标注原文残缺。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004985-p000-b9e420d0ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“有一邊變巧一邊粗戀者革人名曰析拳”译为“有一边变巧、一边粗恋者，革人名为析拳”。“粗戀”、“革人”含义不明，candidate未加引号或说明，直接音译。应处理为opaque_terms。",
+          "“四其薄弱”译为“四其薄弱（推测为‘气脉薄弱’之意，但原文如此，保留原意）”。candidate的推测性解释（“气脉薄弱”）未在allowed_glossary中，不应写入。应直接标注“原文‘四其薄弱’语意不明”。",
+          "“開口爲馮”译为“开口为冯（此处具体所指不详）”。“冯”字含义不明，candidate处理正确，标注了不确定性。",
+          "“也主江湖營駝大發大旺人丁”译为“也主江湖营驼，大发大旺人丁”。“营驼”含义不明，candidate未加引号或说明。应处理为opaque_term。",
+          "“至生跎背之人則氣衰也”译为“至生跎背之人，则气衰”。“跎背”指驼背，candidate未加引号或说明。应处理为opaque_term或加注。",
+          "“宜作金堆”译为“宜作金堆”。“金堆”具体形制不详，candidate未加引号或说明。应处理为opaque_term。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004986-p000-22a9842160",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004987-p000-8e257d8808",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“有一此星元只作蛇形”译为“有一种此星，原本只作蛇形”。原文语序混乱，candidate进行了调整和补全（“有一种”），这属于合理的语序调整以形成通顺白话，可以接受。但“元只作”译为“原本只作”准确。",
+          "“昔名”后内容缺失，candidate标注“（此处原文残缺，具体所指不详）”，处理正确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b004988-p000-e255e41819",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "source为“燥擺左”，candidate直接复制为“燥摆左”。这明显是OCR错误或原文损坏导致的无法理解的片段，无法进行任何有意义的释读。应判定为uncertain。"
+        ],
+        "uncertainty": [
+          "原文‘燥摆左’语义不明，可能是残缺的标题、批注或错乱文字，无法进行有效释读。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 394,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5050,
+      "completion_tokens": 1822,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 1398,
+      "completion_tokens": 394,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

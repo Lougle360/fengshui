@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-25T08:44:37.280611+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "66cbcef0d6eccab4dd6f95d9f52082ec6dd2daf6e3b75f7eaab70b6389ca455d",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000273-p000-4cd084a6de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "引用《神宝经》原文句读错误，原文为“三合三分见穴土，乘金之义；两片两翊，察相水印木之情”，候选将其误断为“三合三分见穴土，乘金之义两片两。翊察相水印木之情”，导致原文语义割裂。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000281-p000-2573ff185f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“五上四备”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2076,
+    "completion_tokens": 178,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2076,
+      "completion_tokens": 178,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

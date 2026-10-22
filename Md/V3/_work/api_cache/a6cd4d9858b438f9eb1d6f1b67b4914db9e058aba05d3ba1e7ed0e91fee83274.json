@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-09-24T10:30:19.764015+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "a6cd4d9858b438f9eb1d6f1b67b4914db9e058aba05d3ba1e7ed0e91fee83274",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000765-p000-2cd51a7edf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "「夾未年」的「夾」字具体含义不详"
+        ]
+      },
+      {
+        "id": "book010-b000766-p000-968bbc243c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中「亥如未年在如」的「如」字释为「如位」，属于无依据的确定解释，原文未明确该字含义，不应擅自赋予具体方位含义"
+        ],
+        "uncertainty": [
+          "「亥如未年」的「如」字具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1526,
+    "completion_tokens": 172,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1526,
+      "completion_tokens": 172,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

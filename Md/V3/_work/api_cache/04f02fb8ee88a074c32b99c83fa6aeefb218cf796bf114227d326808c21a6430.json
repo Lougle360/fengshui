@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-18T09:25:52.331045+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "04f02fb8ee88a074c32b99c83fa6aeefb218cf796bf114227d326808c21a6430",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006072-p000-e35e305891",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文‘主侯卿相’中的‘主’可能指‘王’，此处按‘王侯’理解",
+          "原文‘翌’应为星宿名‘翼’，此处按‘翼’理解",
+          "原文‘已’应为‘巳’，此处已修正"
+        ]
+      },
+      {
+        "id": "book035-b006075-p000-b09a0e6820",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘火命人从之’释为‘火命人依从此山龙脉’属于无依据的扩写，原文‘从之’含义不明，应保留原文短语并说明不确定。",
+          "将‘死气龙’直接解释为‘风水术语’不够准确，应明确标注为‘原文‘死气龙’具体所指不详’。"
+        ],
+        "uncertainty": [
+          "原文‘癸亥水山七亥三壬’具体分金线位含义不详，仅知为风水术语"
+        ]
+      },
+      {
+        "id": "book035-b006076-p000-db343c844d",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文‘免曰兔管局’语义不明，具体所指不详",
+          "原文‘室下一度’指室宿的下一度，此处已解释"
+        ]
+      },
+      {
+        "id": "book035-b006078-p000-a6b666c4ca",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘世五马’解释为‘指太守或高官’属于无依据的扩写，应保留原文短语并说明不确定。",
+          "将‘流神且华宿度’中的‘且’解释为‘疑为‘宜’或‘旦’之讹’属于推测，应直接标注‘原文‘且’字含义不明’。",
+          "将‘水神台’解释为‘具体所指不详’是正确的，但‘此则吉，反此则凶矣’的翻译未明确‘此’指代‘水神台’，可能导致歧义。建议调整为‘水神台（具体所指不详），若符合此格局则吉，反之则凶。’"
+        ],
+        "uncertainty": [
+          "原文‘印度’疑为‘印绶度’或‘印星度’之讹或简称，具体所指不详",
+          "原文‘人合此经宿’语义不明，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2677,
+    "completion_tokens": 519,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2677,
+      "completion_tokens": 519,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

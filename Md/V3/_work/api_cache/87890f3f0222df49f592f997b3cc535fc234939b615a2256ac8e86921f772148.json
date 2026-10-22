@@ -1,0 +1,105 @@
+{
+  "created_at": "2026-10-16T10:34:00.090567+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "87890f3f0222df49f592f997b3cc535fc234939b615a2256ac8e86921f772148",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001974-p000-920fb4dccd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001975-p000-519d5f1ac1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001976-p000-98e4bf3e05",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'三陰脈章第四'是章节标题，candidate处理为正文的一部分，未体现其标题性质。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001977-p000-c7d0dc9c09",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001978-p000-1cdf8e3af0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001979-p000-e855bdfc76",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001980-p000-18f78126e0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001981-p000-978170f07b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001982-p000-31e2243389",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001983-p000-52385b33e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'幷爲全'释读为'都算作全吉之象'，属于无依据的扩写和定性。原文仅陈述'露脊節包硬瑰'这些形态'幷爲全'，未明确是'全吉'。应保守处理，如'都算作完整/齐全的形态'或保留原文短语并说明含义不确定。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 579,
+    "completion_tokens": 41,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1895,
+      "completion_tokens": 479,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 579,
+      "completion_tokens": 41,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

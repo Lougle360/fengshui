@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-25T07:52:34.047881+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8fa2c9e43f0981a49294de099a356c84a79039de51ddb4898ca03de259af7ed6",
+  "response": {
+    "items": [
+      {
+        "id": "book023-b000057-p000-608a7505e7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000059-p000-c958548a29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000060-p000-ef3ff089a8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“朝乐官曜”被误拆为“朝山、乐官、曜星”，“朝山”属于locked_terms，原文此处未出现“朝山”表述，属于术语误增；原文“数士里”应为“数十里”属OCR错误可修正，但将“朝乐”擅自改为“朝山”不符合原文；原文末尾“此言支珑之气盛者如此”，candidate写为“这说的是支龙气旺盛时的情况”，将“支珑”改为“支龙”，与原文表述不符",
+          "原文明确标注“各有〔缺作自「缺]”，candidate仅标注[缺]，未如实说明原文缺字的标注状态，且擅自将“尽其力量”释为“充分发挥其作用”，原文“力量”指气的力量，释义无依据"
+        ],
+        "uncertainty": [
+          "原文存在OCR错乱，“朝乐官曜”具体所指不明，“高珑”“支珑”的“珑”是否为“垄/陇”的通假字不明确"
+        ]
+      },
+      {
+        "id": "book023-b000062-p000-4d2e51cd8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000064-p000-de85ffc70b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "writer_uncertainty标注“已按上下文保守补全”，但candidate末尾保留“所以说平坦之地应当”，并未补全，标注与内容不符；原文“强刚而沉下”“弱柔而浮上”表述符合原文，但未说明原文末尾缺漏的具体情况"
+        ],
+        "uncertainty": [
+          "原文末尾缺漏，后续内容不完整"
+        ]
+      },
+      {
+        "id": "book023-b000066-p000-59b032e537",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000068-p000-7d92676e31",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book023-b000069-p000-563f8497ba",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“金银炉底”属于未被allowed_glossary收录的专名，candidate释为“金银炉底的方法”属于无依据赋予确定含义，违反opaque_terms相关规则，应保留原文短语并标注具体所指不详；原文“求之”指求深浅尺度，candidate释为“求葬地”属于语义偏差"
+        ],
+        "uncertainty": [
+          "“九星白法”“金银炉底”具体所指不明"
+        ]
+      },
+      {
+        "id": "book023-b000070-p000-3093383e02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3024,
+    "completion_tokens": 913,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3024,
+      "completion_tokens": 913,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

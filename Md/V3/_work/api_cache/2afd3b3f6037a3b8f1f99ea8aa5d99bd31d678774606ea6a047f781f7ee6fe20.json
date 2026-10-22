@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-25T04:12:28.523592+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2afd3b3f6037a3b8f1f99ea8aa5d99bd31d678774606ea6a047f781f7ee6fe20",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b001002-p000-72780285ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001003-p000-b550890a36",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001004-p000-ba32893207",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘倒木圆挎’含义未明，候选将其释为‘倒木般圆润舒展’属于无依据确定释义"
+        ],
+        "uncertainty": [
+          "‘倒木圆挎’具体所指不详"
+        ]
+      },
+      {
+        "id": "book019-b001005-p000-03b4be1ad2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001006-p000-de1ab00cd9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘势若之玄’是指走势像‘之’‘玄’二字的曲折形态，候选简化为‘如同之字形’存在语义漏失"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001007-p000-612bf16dd7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001008-p000-a3625bc805",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文描述的是五星中水星在不同地形的形态，属于风水形法的星峰概念，并非实际河流。候选误用allowed_glossary中针对实际水系的‘水’的释义，属于专业概念混淆；原文‘山泡曲滟’指高山水星的峰头泡状起伏、形态屈曲光润，候选误释为‘山泡曲折荡漾’，把星峰形态错解为水体状态；原文‘波浪晕界’指平地水星的形态如波浪晕痕般有分界，候选释为‘波浪形成界限’同样混淆了星峰与实际水体的概念"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001009-p000-04d75f0e08",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001010-p000-9794a9f481",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文此处描述的是五星中火星的形态，‘得水相连’的‘水’指五星中的水星形峰，并非实际河流。候选误用allowed_glossary中实际水系的释义，属于专业概念混淆"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b001011-p000-7c06627de3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2114,
+    "completion_tokens": 754,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2114,
+      "completion_tokens": 856,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2114,
+      "completion_tokens": 754,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

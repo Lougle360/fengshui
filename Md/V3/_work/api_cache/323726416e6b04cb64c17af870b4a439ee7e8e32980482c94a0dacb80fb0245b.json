@@ -1,0 +1,119 @@
+{
+  "created_at": "2026-09-25T12:57:12.338167+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "323726416e6b04cb64c17af870b4a439ee7e8e32980482c94a0dacb80fb0245b",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000123-p000-a2bc4e4a43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“澄高佛紛實主莫遣主開賓不顧孤首”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000124-p000-4c6c963116",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“前者呼後者應”被误释为“前方的形势呼应后方的态势”，两者语义相反，应是前方呼、后方应；原文“淨舞”被误释为“灵动飞舞”，不符合原文字面含义；原文末尾“千”字漏译，未说明原文存在残损"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000125-p000-93d4f16275",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“左青如能山也”被误释为“左侧是青龙山”，属于无依据推断，原文未明确提及“青龙”术语；原文“從送而要 主萬士前徒謂侍伏小 千卒者送青從左为 矣唯有薄龍敛之尊 純唯畔纏欲落青也 所聽後之其下寵○ 谓命者山蜒氣些言 若無即叠蜘則混主 居異應叠白善谅况 而焉與梅震颤紫相 候則大扶欲之顺待 若嚴照重馴神貴右 揽坐探類自人 西氣些列是加之白 有象施面也百登虎 也雄今面至倍堂恬 出餐朝于阳而 號堂前經左款 西如後而右济萬千矣”部分属于缺字、语序混乱的残损内容，candidate强行释读成通顺语句，属于将不确定内容写成确定事实；locked_terms中的“震”未按要求保留原术语，原文“震颤”的“震”被直接融入普通释读未标注"
+        ],
+        "uncertainty": [
+          "原文残缺严重，多处语句难以释读，部分内容无法确认"
+        ]
+      },
+      {
+        "id": "book026-b000126-p000-db1fe293d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000128-p000-9db93d5fb8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文大量混乱残句未标注“具体所指不详”或“原文语序/内容残缺”，直接整句罗列未作通俗化处理，不符合V3“普通读者能读懂的白话释读”要求；“故即中由要承”被误释为“所以，从核心的关键来看”，属于无依据推断"
+        ],
+        "uncertainty": [
+          "原文残缺严重，多处语句难以释读，部分内容无法确认"
+        ]
+      },
+      {
+        "id": "book026-b000129-p000-0a26c7368d",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“世基 周宇家數”未作风险标注，“家数”属于未给出确定释义的专名，不应直接保留未作说明，违反术语处理规则"
+        ],
+        "uncertainty": [
+          "“世基”“周宇家数”具体所指不详"
+        ]
+      },
+      {
+        "id": "book026-b000130-p000-f6bc6990b6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文属于语序混乱、缺字严重的残损内容，candidate直接整句罗列未作通俗化处理，也未明确标注多数内容无法释读，不符合V3要求；“愚击枝有董”等无意义残句未标注“具体所指不详”"
+        ],
+        "uncertainty": [
+          "原文有残缺，部分语句难以完全释读"
+        ]
+      },
+      {
+        "id": "book026-b000131-p000-aa27ea8642",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“若疑心經則意盡于是矣”被误释为“如果心存疑虑，那么经义就尽在其中了”，漏译“心经”核心表述，且曲解原意，原意应为“如果要查考《心经》相关内容，要义都在这里”；原文“水志有三”被误释为“水的态势有三种”，“志”字含义无依据推断；原文“子息朝金殿”被释为“子孙登上高位”属于无依据增译，allowed_glossary无对应释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000134-p000-73dd99e4e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000135-p000-7b83945308",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "直接保留古文未转换成现代中文，不符合V3“普通读者能读懂的白话释读”要求，该句出自《诗经》，意为“占卜说此地吉祥，最终确实会有善果”，应作通俗释读"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2902,
+    "completion_tokens": 1233,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2902,
+      "completion_tokens": 1233,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

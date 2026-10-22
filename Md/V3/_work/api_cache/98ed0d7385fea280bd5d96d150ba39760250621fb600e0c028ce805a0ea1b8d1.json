@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-25T18:30:13.804246+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "98ed0d7385fea280bd5d96d150ba39760250621fb600e0c028ce805a0ea1b8d1",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b001119-p000-1fb9eb3d90",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头的“心”字被漏译",
+          "原文“審潯水”被误释为“仔细审察水”，漏译“潯”字",
+          "原文“穴法她塟法”表述未准确对应，候选重复“穴法是安葬的方法”存在冗余且未处理原文的“她”字讹误",
+          "原文“衆僧拜斗”后未完整承接原文语义，错误将“大劈取水棒盆而坐衆僧拜斗”断为“大劈取水如同棒盆之形，宜坐于此处，如同众僧拜斗之状”，属于无依据增译释义"
+        ],
+        "uncertainty": [
+          "原文中“8088”含义不明",
+          "原文“她”字疑似讹误，含义不明",
+          "原文“穴法她塟法蟹眼坐”语义表述残缺，具体所指不明"
+        ]
+      },
+      {
+        "id": "book029-b001120-p000-820bd321a0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“卷四二仙對奕”被错误断为“卷四二，仙對奕”，卷次应为“卷四”，“二仙對奕”是内容开头，卷次断句错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001121-p000-b879223af8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“量塟法”被误释为“是安葬的方法”，“量”字漏译且无依据将“量塟法”等同于一般安葬方法"
+        ],
+        "uncertainty": [
+          "“橫坐穿空浴瓜不樹”为风水专业术语，具体操作与含义未明"
+        ]
+      },
+      {
+        "id": "book029-b001122-p000-b93a00f53a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001123-p000-cc91967f16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“蓋塟法”被误释为“是安葬的方法”，“蓋”字漏译且无依据将“蓋塟法”等同于一般安葬方法"
+        ],
+        "uncertainty": [
+          "“啣珠”为风水专业术语，具体含义未明"
+        ]
+      },
+      {
+        "id": "book029-b001124-p000-10e2ca0d5a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“無合穴亦不成頂”被误释为“没有合穴，也不成頂”，语义断句错误，应为“无合，穴亦不成，顶平有窝”",
+          "原文“穴法撞塟法”被错误处理为“穴法是安葬的方法”，“撞”字漏译",
+          "原文“穴法拋塟法”被误释为“穴法是拋安葬的方法”，语序错误且语义不通，应为“穴法中的拋葬法”",
+          "原文“下出平土如稠”的“稠”字未作风险标注，疑似OCR讹误",
+          "原文“杆之”应为“扦之”的识别错误，未作说明"
+        ],
+        "uncertainty": [
+          "原文中“M”含义不明",
+          "“淋頭”“棒盆”“掩閣垂鈴”“天罡”“蚌壘”“開罡幙垂御屏”等术语具体含义未明"
+        ]
+      },
+      {
+        "id": "book029-b001125-p000-d88832fbee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾“蜿”字疑似OCR识别残缺，语义不完整"
+        ]
+      },
+      {
+        "id": "book029-b001126-p000-664d49ce09",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“逆杆之”的“杆”为“扦”的OCR识别错误，未作说明"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b001127-p000-3580c54a4d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文仅有“穴法蓋”三字，语义残缺，具体含义不明"
+        ]
+      },
+      {
+        "id": "book029-b001128-p000-a7420aad6a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“蒸窠坐”为风水专业术语，具体含义未明"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2506,
+    "completion_tokens": 1118,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2506,
+      "completion_tokens": 1118,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

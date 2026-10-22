@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:50:35.965438+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6a36bdebacf6401bde7cd41f7c0b57093f0fdcefd7f4206a24fc0758b92f71da",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000273-p000-eb631e42d5",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [
+          "表格内存在多处OCR识别错乱的字符，如“u和E”“办略”“洋方”“鼠自位”“T不派”“炒配1”“ME”“础大”“志密RN”“ゅ作”“HE”“儿EK”“器胶”等，无法确认其准确含义"
+        ],
+        "uncertainty": [
+          "原文中部分内容因OCR识别错乱导致语义不明，如“众酉之齐整”“鬼换大取小小取大”等表述，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3258,
+    "completion_tokens": 165,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3258,
+      "completion_tokens": 165,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

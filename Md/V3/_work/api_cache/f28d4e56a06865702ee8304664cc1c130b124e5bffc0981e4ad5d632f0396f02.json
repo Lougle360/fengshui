@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-09-24T08:32:54.305723+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f28d4e56a06865702ee8304664cc1c130b124e5bffc0981e4ad5d632f0396f02",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000216-p000-ec046463af",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在多处与原文含义不符的错误，如将‘中男发祸’误释为‘中易发’，‘木法如此’误释为‘光定例地然’，‘不必屑屠于此’误释为‘不必屑屠于此以生彼此较量之心’，‘水自穴下搆正宗’未准确释读，且存在多处语义不通的表述"
+        ],
+        "uncertainty": [
+          "原文中‘左劝而长与市翻而匆吉’‘木法如此’‘不必屑屠于此’等表述含义不明，释读时未标注相关风险"
+        ]
+      },
+      {
+        "id": "book008-b000217-p000-b83fa81268",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文多处残缺、字迹模糊，释读内容语义不通，无法形成合理的释读"
+        ],
+        "uncertainty": [
+          "原文多处残缺、字迹模糊，无法形成通顺合理的释读"
+        ]
+      },
+      {
+        "id": "book008-b000218-p000-7b2acd1acb",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文多处字迹模糊、残缺，表格内部分内容无法准确对应"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4952,
+    "completion_tokens": 343,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4952,
+      "completion_tokens": 343,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

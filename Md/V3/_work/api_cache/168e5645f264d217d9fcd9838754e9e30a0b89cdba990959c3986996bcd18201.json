@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T09:19:57.741995+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-122B-A10B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "168e5645f264d217d9fcd9838754e9e30a0b89cdba990959c3986996bcd18201",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000206-p000-8a52a17799",
+        "modern_text": "此处原文OCR识别存在错乱，无法准确释读。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000208-p000-9513599d50",
+        "modern_text": "文中提到‘因甚頻見瘟疫’，‘孤曜帶黃赤’，‘宅前戒用孫曜為案’，‘左右出主出人為僧帶黃赤石’，这些短语的具体所指不详。",
+        "confidence": "low",
+        "uncertainty": [
+          "因甚頻見瘟疫",
+          "孤曜帶黃赤",
+          "宅前戒用孫曜為案",
+          "左右出主出人為僧帶黃赤石"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 189,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1274,
+      "completion_tokens": 189,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

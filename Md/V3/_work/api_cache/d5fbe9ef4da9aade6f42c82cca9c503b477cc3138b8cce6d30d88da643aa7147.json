@@ -1,0 +1,75 @@
+{
+  "created_at": "2026-09-26T06:27:12.312191+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d5fbe9ef4da9aade6f42c82cca9c503b477cc3138b8cce6d30d88da643aa7147",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000089-p000-d0896fec51",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "杨公言论的释读存在错误：原文杨公的表述是“大抵山形雖在山地有精光屬土次體魄在地光在天識得星光直精故為地學奚直俯察地理已哉又須仰觀天文始盡其奧”，候选错误地将“奚直俯察地理已哉又須仰觀天文始盡其奧”划入杨公言论范围，该部分是作者的论述，不属于杨公引文；此外对杨公言论的释读语序、语义均存在偏差，原文“山有精光属土，次体魄在地，光在天，识得星光直精”的含义未被准确传达。",
+          "原文“推行教化”属于无依据增译，原文仅为“出政行令”，没有教化相关表述。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000090-p000-a8215a95c7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "左侧图注部分文字存在OCR识别混乱，仅保留可识别的有效内容"
+        ]
+      },
+      {
+        "id": "book033-b000091-p000-2cb683e0e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“泰階六符輔治北斗以主公昌報華尾陰相宫元翼”的释读错误，候选写“泰階六符辅佐北斗，对应相关星象”属于无依据释义，且无理由单独摘出“斗前年内月階”“一月”标注不明，应整体标注零散星象内容所指不详即可，不应局部无依据释义。"
+        ],
+        "uncertainty": [
+          "文中大量零散星象关联表述具体所指不详"
+        ]
+      },
+      {
+        "id": "book033-b000092-p000-d3e29ed63b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“華益”为“华盖”的误写，候选直接沿用“華益”未按正确术语释读；原文“直朝射入紫垣氣”未释读完整，仅用省略号处理不当，应标注内容不完整或尽力释读。"
+        ],
+        "uncertainty": [
+          "左侧图注文字存在OCR识别混乱，无法准确释读"
+        ]
+      },
+      {
+        "id": "book033-b000093-p000-a6f95ce6e3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“須矢”为“须知”的形近讹字，候选应释读为《地理人子须知》卷一，不应直接写“須矢”。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4127,
+    "completion_tokens": 690,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4127,
+      "completion_tokens": 690,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T14:26:28.607092+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1058cae360480658bec8351d16315b7329f93443a984d699e6bda4eaaa3c0329",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000727-p000-70175e897e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000728-p000-5cdf624650",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book015-b000730-p000-be7b00763d",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在缺字，无法确认完整含义，候选句未体现该情况"
+        ],
+        "uncertainty": [
+          "原文存在缺字，无法确认完整含义"
+        ]
+      },
+      {
+        "id": "book015-b000732-p000-73eb54cbdd",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文包含特殊符号，候选句未体现该部分内容，无法确认完整含义"
+        ],
+        "uncertainty": [
+          "原文包含特殊符号，无法确认完整含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1523,
+    "completion_tokens": 268,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1523,
+      "completion_tokens": 268,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T13:42:10.870915+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b6e527395150e2b3e1c78c00061ad1311a7b0ae3e01a18e816aad78b968a7e9e",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000236-p000-6a25c4ee2b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "首先是《皇极经世书》，它由两部分构成：一部分是邵雍亲自撰写的62篇观物篇，另一部分是他的弟子记录邵雍生平言论的1篇观物外篇。其中观物篇又分为三个部分：34篇历年表、16篇声音表，以及12篇论述内容（即观物内篇）。这部书最大的特点在于，涉及历年与声音的数表占全书的八成以上，这也是它被称为“物理学”的原因。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000237-p000-4d0d437e40",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "《皇极经世书》的历年表，以元（129600年）、会（10800年）、运（360年）、世（30年）这四个时间单位，记录了从气的生成到消亡，宇宙、地球与人类的宏大历史。例如尧帝即位一事，根据邵雍的推算，发生在第一元第六会第三十运第八世的第十一年（经世历64661年=公元前2357年）。",
+        "confidence": "high",
+        "uncertainty": [
+          "原文此处“経世暦”后缺具体内容"
+        ]
+      },
+      {
+        "id": "book015-b000238-p000-1ce0a9ba5d",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "元、会、运、世，分别是依据日（太阳）、月（太阴）、星（少阳）、辰（少阴）的运行确定的时间计量单位，由十二（十二支）与十（十干）的简单组合构成。另一方面，声音表依据邵雍自己制定的汉字字音的两个要素——112个天声（韵母与声调）和152个地音（声母与等位），列出了所有存在的汉字字音（与反切法类似）。数表体系遵循数字本身的逻辑，并非以易的理论为依据。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000239-p000-4c0d15dc57",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "朱熹、蔡元定等人将邵雍列为北宋六子之一，提升了他在道学上的重要地位，但这并非因为邵雍的历年学或音声学，而是因为他们高度评价了观物外篇中体现的先天易学。不过先天易学最大的特征，在于易卦按照太极（1）→两仪（2）→四象（4）→八卦（8）→16→32→六十四卦（64）的顺序发展，也就是2的等比数列，而这一看似明显的规律，实则不过是数字本身的自主展开，并非直接以易的法则为依据。因此可以说，邵雍对易的解读，与汉、唐时期的术数学一样，是基于运用数理对易学进行的重构（数→易）。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2312,
+    "completion_tokens": 834,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2312,
+      "completion_tokens": 834,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

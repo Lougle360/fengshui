@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-16T13:16:25.140987+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "4f1598d59f6b3eb5066b34a53fee958b8b36246f7791c7f9e3eb4c0fc128d302",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002392-p000-53661db707",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "末尾符号的具体含义",
+          "该段落是否仅为标题片段"
+        ]
+      },
+      {
+        "id": "book035-b002394-p000-49e4c328bd",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文文字疑似存在严重脱漏或错误，导致语意断裂，无法进行有效的白话释读。候选句仅能指出原文存在错误和提及‘穴’字，但无法构成对原文的释读。"
+        ],
+        "uncertainty": [
+          "原文是否存在OCR识别错误",
+          "‘鰥蜞沐仍’等词的具体含义",
+          "‘掃火獻離轉處’的完整句意"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 850,
+    "completion_tokens": 167,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 850,
+      "completion_tokens": 167,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

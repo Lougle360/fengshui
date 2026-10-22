@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-25T02:04:45.081093+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "adecfa198155fa60b0766c285ec3a6a5769cb1ecc3fe3587015771c5f286fe12",
+  "response": {
+    "items": [
+      {
+        "id": "book019-b000114-p000-b88ee548cc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000116-p000-44b5048131",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000117-p000-40457de431",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000118-p000-0ce3d291fc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000119-p000-8004742275",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原标题为二级标题《中国三大干龙总览之图》，候选未保留原标题格式与原文表述，擅自增加“风水”表述并将术语解释直接并入标题，不符合kind=heading时需逐行核对原标题的要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000121-p000-e967ac7181",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000122-p000-cf28f36367",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“西河之上流，其脊以东之水则东流而为桑干、幽冀”断句错误，候选误将“西河之上流”归属前句，实际应为“山脊以西的水向西流入龙门、西河的上游；山脊以东的水向东流形成桑干河，流经幽冀地区”，候选错把“幽冀”当成水系，与实际“幽冀是地域”的含义不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000124-p000-f01530712e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000125-p000-956e6332ee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book019-b000126-p000-0ab3917b21",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5166,
+    "completion_tokens": 699,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5166,
+      "completion_tokens": 699,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

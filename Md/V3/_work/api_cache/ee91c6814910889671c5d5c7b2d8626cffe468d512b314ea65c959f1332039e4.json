@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T13:58:35.037318+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "ee91c6814910889671c5d5c7b2d8626cffe468d512b314ea65c959f1332039e4",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000436-p000-645c7f9e78",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "算法如下：若按3个一组计数余2，就取140；若按5个一组计数余3，就取63；若按7个一组计数余2，就取30。将这些数相加得到233，用这个数减去210，所得结果就是要求的数值。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000437-p000-bc5d1fe28b",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "若按3个一组计数余1，就取70；若按5个一组计数余1，就取21；若按7个一组计数余1，就取15。若这些数的和在106以上，就减去105的倍数，所得结果就是要求的数值。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000439-p000-9a4ba23895",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "这类不定方程问题现在被称为联立一次同余式，用高斯记号表示的话，对于物的数量X来说，",
+        "confidence": "medium",
+        "uncertainty": [
+          "此处“ガウスの記号”具体所指不详"
+        ]
+      },
+      {
+        "id": "book015-b000441-p000-bbbb31b4ff",
+        "language": "japanese",
+        "content_type": "prose",
+        "action": "translate",
+        "modern_text": "可以写成如下形式。",
+        "confidence": "high",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1734,
+    "completion_tokens": 476,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1734,
+      "completion_tokens": 476,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

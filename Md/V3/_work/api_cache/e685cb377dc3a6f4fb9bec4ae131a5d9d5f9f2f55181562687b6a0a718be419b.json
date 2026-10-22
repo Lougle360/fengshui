@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-24T08:06:41.455386+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e685cb377dc3a6f4fb9bec4ae131a5d9d5f9f2f55181562687b6a0a718be419b",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000117-p000-4eeefdce86",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在多处OCR识别错乱导致的语义不通，如“老乂”“丙有低千”“脑七脑九”“五脑七脑九雁”“雌簿砂”“旧屯穴之进”“无分合界水可凭”等表述无法准确释读；部分语句存在漏译、误译，如“牵述多而特降少者”“平冈龙以收放盘”“冀之穴情父”等内容未准确释读；“其眉自我之大八字一统，单下豁闲每眉”“边下三台五县七属九临，俱自内分间西”等语句语义不明，释读不准确"
+        ],
+        "uncertainty": [
+          "部分文字存在OCR识别错乱，如“盖A”“关”“F”“+1”等无法确认含义，“老乂”“丙有低千”“脑七脑九”“五脑七脑九雁”“雌簿砂”等表述具体所指不详，“旧屯穴之进”“无分合界水可凭”等语句语义不通，无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4188,
+    "completion_tokens": 289,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4188,
+      "completion_tokens": 289,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

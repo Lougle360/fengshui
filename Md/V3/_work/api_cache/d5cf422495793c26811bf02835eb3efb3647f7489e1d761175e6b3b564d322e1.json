@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-26T05:47:00.414641+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "d5cf422495793c26811bf02835eb3efb3647f7489e1d761175e6b3b564d322e1",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002592-p000-53da93815b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002593-p000-2345a02a3b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002594-p000-3e095e9b1d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002595-p000-c5230426d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002596-p000-a7b783938b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "未将原文术语转换为普通读者可读懂的现代汉语，仅保留原文原句，不符合白话释读要求"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002597-p000-ee880ff0e7",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅罗列干支和对应动物，未明确表述为生肖对应关系，候选将未明确的对应逻辑写成确定事实，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002598-p000-a6081c09e9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文仅罗列干支、卦名和对应动物，未提及方位对应关系，候选自行添加方位、拆分对应逻辑，与原文表述不符，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002599-p000-b4875910ea",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文中“晨”应为“辰”，候选未修正该形近字误读且直接释为“晨方位”，属于术语误读；原文“尾虛晨長”的“晨”无方位含义，自行归类为方位属于无依据释义"
+        ],
+        "uncertainty": [
+          "原文中“子二父九財九官八休一”等数理的具体所指未明"
+        ]
+      },
+      {
+        "id": "book029-b002600-p000-69709fcc7a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book029-b002601-p000-c3a4673a55",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 630,
+    "completion_tokens": 78,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2128,
+      "completion_tokens": 655,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 630,
+      "completion_tokens": 78,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

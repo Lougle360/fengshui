@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-24T08:51:58.912157+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "cf167c43d9d9d8de7d4bdaf44b92db6be00f1693a05b8086129a5c1f6f200cc4",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000143-p000-0e1b4839ca",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book009-b000144-p000-a16c7e1757",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": []
+      },
+      {
+        "id": "book009-b000145-p000-a1ea5260f4",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处残缺，候选释读中补入了原文未有的内容，如“兄弟姊妹相若而来，两边护从少的，不得夸龙长面多”等，属于无依据扩写"
+        ]
+      },
+      {
+        "id": "book009-b000146-p000-e04df390ee",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文存在多处残缺，候选释读中补入了原文未有的内容，如“兄弟姊妹相若而来，两边护从少的，不得夸龙长面多”等，属于无依据扩写"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4496,
+    "completion_tokens": 292,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4496,
+      "completion_tokens": 292,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

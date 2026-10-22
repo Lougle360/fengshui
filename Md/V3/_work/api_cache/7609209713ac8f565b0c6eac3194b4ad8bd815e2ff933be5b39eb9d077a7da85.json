@@ -1,0 +1,125 @@
+{
+  "created_at": "2026-09-25T17:53:39.572962+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "7609209713ac8f565b0c6eac3194b4ad8bd815e2ff933be5b39eb9d077a7da85",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000161-p000-a6fdeb9b83",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“專龍三十四”被误译为“三十四種抱如燕窩形的地勢”，属于语义错解；原文“一千稱高數尺一手稱低數尺便止得循高教尺者蚤甚”漏译且讹改，“蚤甚”未译，“循高教尺”含义译错；原文“周落匕”漏译；原文“楊柳枝便有發有也”漏译“不”的语义，应为“有发有不发”；原文“祖以蔭長房”“祖按蔭仲房”“仲房之保子”译法错误，“按蔭”应为“荫护”类含义，“保子”应为“子孙”讹写未校正；原文末句“安葬的地就會分”语义不通，原文“便分”后缺文，应标注未竟含义"
+        ],
+        "uncertainty": [
+          "原文“周落匕”“循高教尺者蚤甚”“祖按蔭”所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000162-p000-0845d28f6c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句文字爲「宇个革菜芬」，無法辨認含義"
+        ]
+      },
+      {
+        "id": "book030-b000163-p000-1770cf43dd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000164-p000-15094c2a3a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "“朔主”为不明身份称谓，直接译为“朔主说”未标注身份不详，属于无依据确定表述"
+        ],
+        "uncertainty": [
+          "“朔主”具体身份未明"
+        ]
+      },
+      {
+        "id": "book030-b000166-p000-6cd6471791",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“壽七三十五”语义不明，直接译为“壽數爲七、三十五”属于无依据确定释义，未标注含义不详"
+        ],
+        "uncertainty": [
+          "“壽七三十五”具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000168-p001-ed643c4e42",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原句文字爲「字个仄芽蓁」，無法辨認含義"
+        ]
+      },
+      {
+        "id": "book030-b000171-p000-5d062aceb8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在重复讹写“打動周姓穴點局外不與”“枝何益之有”，译文中未删除冗余重复内容，且“全身打動周姓的穴”语义不通，原文“全身打動”含义不明未标注；locked_terms要求“穴”必须保留，译文中擅自将“穴”替换为释义内容，违反locked_terms规则"
+        ],
+        "uncertainty": [
+          "“全身打動”具体含义不明"
+        ]
+      },
+      {
+        "id": "book030-b000172-p000-0c332d39e2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“梧禍枝”语义不明，直接保留未标注含义不详；locked_terms要求“穴”必须保留，译文中擅自将“穴”替换为释义内容，违反locked_terms规则"
+        ],
+        "uncertainty": [
+          "“梧禍枝”具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000174-p000-c3c020d01b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“眄堂”“窺蕩”“土手”“巳黃”“百前逆水”“巳第七尋龍”“逆水而土”均为风水不明术语，未标注含义不详，部分译法无依据；locked_terms要求“穴”“明堂”“坎”“分金”必须保留，译文中擅自将上述术语替换为释义内容，违反locked_terms规则；原文“龍氣克乘”误译为“龍氣乘堂局又正”，语义错误；原文“巳第七尋龍”被误译为“巳是尋龍”，数字讹改"
+        ],
+        "uncertainty": [
+          "“眄堂”“窺蕩”“土手”“巳黃”“百前逆水”“巳第七”“逆水而土”具体所指不明"
+        ]
+      },
+      {
+        "id": "book030-b000175-p000-adb16ad198",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms要求“穴”必须保留，译文中擅自将“穴”替换为释义内容，违反locked_terms规则"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2742,
+    "completion_tokens": 1254,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2742,
+      "completion_tokens": 1254,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

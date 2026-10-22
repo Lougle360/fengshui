@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-09-24T12:45:30.698730+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "607c22ad27a3d3d5302f97b4c5ce1097728548e02c3746e031c9f2b15f32e183",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000905-p000-d70c101e4c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“不刧不洩不洩不結”释为“不被‘刧’、不被‘洩’，不被‘洩’就不会结作”，存在语义重复且未明确“刧”“洩”的具体含义，违反了对含混术语需标注“具体所指不详”的要求；将“注之所惡”释为“都是‘注之所惡’”，未明确其具体所指，违反了对含混短语需标注的要求"
+        ],
+        "uncertainty": [
+          "“注之所惡”具体所指不详",
+          "“刧”“洩”的具体含义不详"
+        ]
+      },
+      {
+        "id": "book014-b000909-p000-fcaf997dec",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在OCR识别错乱，部分字句无法准确释读，无法形成准确的白话释读"
+        ],
+        "uncertainty": [
+          "原文存在OCR识别错乱，部分字句无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1282,
+      "completion_tokens": 273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

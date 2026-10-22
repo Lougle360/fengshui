@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-24T08:30:30.762066+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "d7b0a2749da5c1aa585925a614dbcff1755e26dd88f63be20f1b3b70abe0718b",
+  "response": {
+    "items": [
+      {
+        "id": "book008-b000204-p000-6bda9e22d6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文存疑的‘夢’‘禹’‘枚’‘兒’‘驟’等字强行释读为‘需’‘瓦’‘天然’‘也’‘骤’，属于无依据的推测性改写；将‘火離’误释为‘火形’，不符合原文表述；‘正宗猛之下’释读为‘正宗猛势之下的地形’，属于无依据扩写；未标注原文存在的OCR残缺问题，违反释读规则"
+        ],
+        "uncertainty": [
+          "原文部分文字存在OCR识别残缺，‘夢’‘禹’‘枚’‘兒’‘驟’等字存疑，‘火離’‘乾龍’‘正宗猛勢’等表述具体所依语境需结合上下文判断"
+        ]
+      },
+      {
+        "id": "book008-b000205-p000-2f67238986",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文存疑的‘貝穴’‘左領右渴’‘明堂貞’‘尚偏側’‘護焉耳’‘邊南邊下勢’‘庫小凶爲布基簾’‘木口不緊也’‘一也順去而略無進闡也’‘金下言海發之自’‘明攸言堂不者爲假’‘自肯之情’‘不可以不義也’‘無以僧於穴’‘關面以相向面無反背之弩’等表述强行释读为确定含义，属于无依据的推测性改写；未标注原文存在的OCR识别或断句问题，违反释读规则"
+        ],
+        "uncertainty": [
+          "原文中‘貝穴’‘左領右渴’‘戶無關向順’‘明堂貞’‘尚偏側’‘護焉耳’‘邊南邊下勢’‘左領爲左據’‘庫小凶爲布基簾’‘木口不緊也’‘一也順去而略無進闡也’‘砂之眞假在乎情’‘金下言海發之自’‘明攸言堂不者爲假’‘自肯之情’‘不可以不義也’‘界合爲火之確証’‘木爲之而非砂’‘無以僧於穴’‘關面以相向面無反背之弩’等表述存在OCR识别或断句问题，部分文字含义存疑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2117,
+    "completion_tokens": 586,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2117,
+      "completion_tokens": 586,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

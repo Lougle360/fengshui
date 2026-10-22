@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-09-24T08:54:37.659842+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "758977c8696c98e624be28971000ca6cc203c645bace48d185e6507d0a0d4192",
+  "response": {
+    "items": [
+      {
+        "id": "book009-b000147-p001-3512bac7c3",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“學帳胥之結自有觀不及正龍”“將近龍盡財後龍喻卸凈畫”表述模糊，candidate未标注这些模糊内容，且存在“不比其他”的无依据扩写"
+        ],
+        "uncertainty": [
+          "原文中“學帳胥之結自有觀不及正龍”表述模糊，具體所指不詳；“將近龍盡財後龍喻卸凈畫”未完整釋讀，具體含義不詳"
+        ]
+      },
+      {
+        "id": "book009-b000148-p000-3e46998ea7",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "存在重複段落，candidate未按要求保留原文順序，且“陰陽峽卽雄峽也”相關表述具體所指不詳，candidate未标注"
+        ],
+        "uncertainty": [
+          "原文中“不洋”應為“不詳”，“蓋非過河”含義不詳；“陰陽峽卽雄峽也”相關表述具體所指不詳；存在重複段落，已按原文順序保留"
+        ]
+      },
+      {
+        "id": "book009-b000153-p000-46d9b345fb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“貼春”“甸開正面”“扯博者便井為可據”表述具體所指不詳，candidate未标注；嫩峽、老峽的判定標準釋讀存在偏差，具體含義不詳"
+        ],
+        "uncertainty": [
+          "原文中“貼春”“甸開正面”“扯博者便井為可據”表述具體所指不詳；原文中嫩峽、老峽的判定標準釋讀存在偏差，具體含義不詳"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3744,
+    "completion_tokens": 487,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3744,
+      "completion_tokens": 487,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

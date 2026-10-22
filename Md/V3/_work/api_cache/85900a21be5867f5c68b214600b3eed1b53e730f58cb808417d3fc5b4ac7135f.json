@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-25T19:37:44.783882+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "85900a21be5867f5c68b214600b3eed1b53e730f58cb808417d3fc5b4ac7135f",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000608-p000-92e9debeb6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“清澈奸色蘇香水碧香”被误释为“水色清澈又夹带奸邪之气，或是水呈碧色且有香气”，语义理解错误；原文“陰陽山水無再犯”被误释为“对应的阴阳山水格局不会再有重复的好地了”，含义偏差；原文“可地理焚卷二鑑水六十八”被误释为“就可确定地脉的优劣。以上内容出自《地理焚卷二·鉴水六十八》”，断句错误，“可”后承接的是卷名内容，属于无依据拆分"
+        ],
+        "uncertainty": [
+          "城门水的具体所指需结合风水语境进一步确认"
+        ]
+      },
+      {
+        "id": "book030-b000610-p000-60bf1228db",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“于一生物必雨乃以河浴爲洋”被无依据释为“但凡化生万物，必然需要阴阳交合，因此以河的走势纳入洋的格局”，属于脱离原文的主观增译；原文“妾可以人見參之”被误释为“怎么能用人的主观见识去掺杂干预”，“妾”为讹字未标注直接臆测含义；原文“吾師又賓催官之源”被误释为“我的老师又探究《催官篇》的本源”，“賓”字含义无依据臆测；原文“太素濬其賣于前”的疑似释义属于无依据的主观推断，未按要求保留原短语标注不明"
+        ],
+        "uncertainty": [
+          "“于一生物必雨乃以河浴爲洋”断句存疑，“寄頭”“太素濬其賣”“頓玉容 經木七十”均存在讹误或脱漏，具体含义不明",
+          "“朱于”疑似“朱子”的讹写，暂无更多依据确认"
+        ]
+      },
+      {
+        "id": "book030-b000611-p000-87c39c8da2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "开头“公大有禪丁民生而喜師爲顛氏之功臣”断句与专名含义均无法确认"
+        ]
+      },
+      {
+        "id": "book030-b000615-p000-2d9c446160",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“斌方旦楊始肯”无足够上下文支撑释义"
+        ]
+      },
+      {
+        "id": "book030-b000616-p000-f9c0ba8bc8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“趙溥功成”无足够上下文支撑释义"
+        ]
+      },
+      {
+        "id": "book030-b000617-p000-a71eff82e2",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“男張延楨貞木”无足够上下文支撑释义"
+        ]
+      },
+      {
+        "id": "book030-b000618-p000-a051da9060",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“張延禮聖木”无足够上下文支撑释义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2669,
+    "completion_tokens": 847,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2669,
+      "completion_tokens": 847,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

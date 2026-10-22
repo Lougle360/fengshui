@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-10-18T11:25:03.434926+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "bd233d6784618af4c0d3777d6f56292b86a22a795695427b25fac1c97cc83c7c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006306-p000-3d29744e19",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'癸青則齊郡 水 穴'结构为'癸青则齐郡 水 穴'，是并列或描述关系。candidate释为'癸水方位呈现青色，对应齐郡地区，此处涉及水势与穴位的关联'，将'癸青'解释为'癸水方位呈现青色'属于无依据扩写，且'关联'一词为添加。应保守释读为'癸青则齐郡，水，穴'，或说明原文为并列项，具体关系不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006307-p000-3dd5740f71",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006308-p000-e0b3354b35",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006309-p000-52f418c995",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'子 青州安樂縣癸 青州 齊郡向'结构为'子 青州安乐县癸 青州 齐郡向'，可能是'子（对应）青州安乐县癸（水），青州齐郡向'。candidate释为'子方位对应青州安乐县癸水，青州齐郡的向位在此'，将'癸'直接解释为'癸水'属于allowed_glossary之外的确定解释，且'在此'为添加。应保守释读为'子（对应）青州安乐县癸，青州齐郡向'，并说明'癸'具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006310-p000-424ad7ec4b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006311-p000-897259ad49",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'離幫月鹿張四至六'，'幫'字可能为'房'或'昴'等星宿名之误，或为特定术语。candidate释为'离卦对应月鹿星宿和张星宿'，将'幫'直接替换为'张星宿'，属于无依据的确定解释。应保守释读为'离卦对应月鹿星宿和某星宿（原文为'幫'），其度数范围在四至六之间'，并指出'幫'字具体所指不详。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006312-p000-6c97630073",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 原文'丙子水穴公在坎宮'，'公'字可能为'位'或'居'之误，或为特定称谓。candidate直接译为'丙子水穴位于坎宫'，省略了'公'字，属于漏译。2. 原文'對宮得丙午水向爲胎孚之地'，'胎孚'可能为'胎养'或'胎息'等风水术语之异写。candidate直接译为'胎孚之地'并解释为'胎孚之地'，未说明此术语含义不明。3. 原文'水向居火宮爲財氣而水旺子子既在九八之宮'，candidate断句为'水旺于子。子既在九八之宫'，将'水旺子子'处理为'水旺于子'并重复'子'，改变了原文结构，且'于'为添加。应更保守地处理原文的重复和术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006313-p000-9a19eb95cf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b006314-p000-cf5aefbb6a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文包含非中文字符'J e'，具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b006315-p000-4585d780ee",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'丁梁州河西郡向水有井'，结构可能是'丁（对应）梁州河西郡，向、水、有井'。candidate释为'丁梁州河西郡的向位与水势，此处有井'，将'向水'解释为'向位与水势'并添加'此处'，属于增译。应保守释读为'丁（对应）梁州河西郡，涉及向、水，并有井'，或说明原文为并列项。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 1079,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1848,
+      "completion_tokens": 1079,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

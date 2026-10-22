@@ -1,0 +1,117 @@
+{
+  "created_at": "2026-09-24T01:18:18.024170+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "8055c883e7a914d0e68979980dcc640df33e20106d7795c34d013db36a136c0f",
+  "response": {
+    "items": [
+      {
+        "id": "book006-b000034-p000-a6a30ba5cf",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文开头的「之亥」未被翻译，存在漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000035-p000-fc384e909c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文「免全」被误译为「需避开全忌之日」，含义相反；「同安」未作明确说明却直接和「明堂」组合，属于无依据释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000036-p000-5f54f71832",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000037-p000-4d78c83aee",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000038-p000-7e1231c847",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文「神在忌神鬼隔」被误译为「要让神位避开忌神鬼」，语义偏离；「自漢創自馬寺」多译出「白」字，源文无「白」的表述，属于无依据增译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000039-p000-75098a6b5e",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "部分干支组合含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000040-p000-763982a6d5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book006-b000041-p000-3e18242ed8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文「渡日絕全」被误译为「忌渡日绝全」，属于无依据增加「忌」的语义"
+        ],
+        "uncertainty": [
+          "部分干支组合含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000042-p000-5e9bdbca9b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "部分干支组合含义不明，具体所指不详"
+        ]
+      },
+      {
+        "id": "book006-b000043-p000-7bce777a0c",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "庚山戊下的具体含义不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 666,
+    "completion_tokens": 62,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2181,
+      "completion_tokens": 758,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 666,
+      "completion_tokens": 62,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

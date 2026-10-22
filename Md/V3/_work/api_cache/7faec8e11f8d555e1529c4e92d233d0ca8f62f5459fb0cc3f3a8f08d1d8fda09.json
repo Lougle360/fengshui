@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-24T10:16:24.586655+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7faec8e11f8d555e1529c4e92d233d0ca8f62f5459fb0cc3f3a8f08d1d8fda09",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000676-p000-b739ae716b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘二千天星辰’‘二千天星’等表述的‘二千’直接释为‘对应’，属于无依据扩写，未明确‘二千’的具体所指；‘戌丑未為地曜’‘壬子癸庚二日’的对应关系释读模糊，未明确原文的逻辑关联"
+        ],
+        "uncertainty": [
+          "‘二千天星辰’‘二千天星’‘二千’的具体所指不详；‘戌丑未為地曜’‘壬子癸庚二日’的对应关系原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000677-p000-bb6db18aed",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘二千天星’的‘二千’直接释为‘对应’，属于无依据扩写，未明确‘二千’的具体所指；‘寅部向’的‘部’字未明确释读，‘甲寅卯二日’的对应关系释读模糊"
+        ],
+        "uncertainty": [
+          "‘二千天星’‘二千’的具体所指不详；‘寅部向’的‘部’字含义原文未明；‘甲寅卯二日’的对应关系原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000678-p000-ff0e671c5f",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘二千天星’的‘二千’直接释为‘对应’，属于无依据扩写，未明确‘二千’的具体所指；‘巳午句地翟’的‘句’‘翟’字释读错误，原文应为‘地曜’，‘巳午’与‘地曜’的对应关系释读模糊"
+        ],
+        "uncertainty": [
+          "‘二千天星’‘二千’的具体所指不详；‘巳午句地翟’的‘句’‘翟’字含义原文未明；‘巳午’与‘地曜’的对应关系原文未明"
+        ]
+      },
+      {
+        "id": "book010-b000679-p000-691368286e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘正阴府尅山颠’的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1309,
+    "completion_tokens": 544,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1309,
+      "completion_tokens": 544,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-09-24T09:19:59.595853+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "10749567a8f269a85fa5dbc62fe4c4b85273f7946eb13f9c13e3b64f3e24c938",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000206-p000-8a52a17799",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [
+          "原文OCR识别存在错乱，无法准确释读"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000208-p000-9513599d50",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "因甚頻見瘟疫",
+          "孤曜帶黃赤",
+          "宅前戒用孫曜為案",
+          "左右出主出人為僧帶黃赤石"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 146,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1007,
+      "completion_tokens": 146,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

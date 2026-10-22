@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T18:26:20.685302+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "fe53bbb22211e2c6caace7f36d74fc4fabe8ad7588fc80051054439fa9df6dde",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001953-p000-e24892d196",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "preserve",
+        "modern_text": "《象传》说：“十年之久不可施展才用”，说明六三与“颐养”正道大相违逆。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001954-p000-f24ed248e6",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "《象传》说：“十年之久不可施展才用”，是因为六三的行事原则与正道严重相悖。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001955-p000-ddaeb43c98",
+        "language": "modern_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "这说明六三的“求养”行为是不正当的，但爻辞仍有劝勉他自我反省的意思。郑汝谐在《东谷易翼传》中说：“‘十年勿用，无攸利’，是对他的告诫；因为他有过多欲望、妄动的心思，所以用自我反省的道理来启示他，这就是创作《周易》的本意。”",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001956-p000-e83755b397",
+        "language": "mixed",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "译文：六四颠倒向下求获颐养（再用来养人），吉祥；就像老虎眈眈注视，迫切求（此处原文残缺，后续内容未显示）。",
+        "confidence": "medium",
+        "uncertainty": [
+          "原文后续内容残缺，无法完整释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1644,
+    "completion_tokens": 434,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1644,
+      "completion_tokens": 434,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

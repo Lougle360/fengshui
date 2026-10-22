@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T20:12:22.906182+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c043ef78cfee91074f9b1d7fa23ab5d988ff966dd2624320518f7a765ee8bb2d",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003287-p000-1656bc27ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003288-p000-6a91f436f5",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将allowed_glossary中定义为建筑或穴位所朝方位的“向”，错误套用到“小人革面”的“面”上，原文及allowed_glossary均未提及“面”指“向”，此处属于无依据的误释"
+        ],
+        "uncertainty": [
+          "“小人革面”的“面”具体所指存在歧义，原文及allowed_glossary未明确其含义"
+        ]
+      },
+      {
+        "id": "book016-b003289-p000-86eea8c459",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003290-p000-989260ad9f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2009,
+    "completion_tokens": 279,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2009,
+      "completion_tokens": 279,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

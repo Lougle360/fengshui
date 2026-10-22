@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-09-24T21:43:57.233525+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "43df95f575507a6b3531b5becf30d5ded22e234c28c7360128063b072d258a0a",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000438-p000-fa4dd93b29",
+        "modern_text": "此处原文存在多处文字错乱，无法进行有效释读。",
+        "confidence": "low",
+        "uncertainty": [
+          "整段原文文字错乱，无法确认其具体含义"
+        ]
+      },
+      {
+        "id": "book017-b000440-p000-45f7850ff9",
+        "modern_text": "此处原文存在多处OCR识别错误，包括“城L門”“淫玫諾”“男說”等均为识别乱码，内容已无法准确释读；原文提及的相关典籍包括《地理辨正真诀》、“青書與語”、“九三”、中州法玄空學相关内容因上文有缺失，无法明确具体含义。其中玄空指结合时间、空间和星数推演的一类风水体系。",
+        "confidence": "low",
+        "uncertainty": [
+          "“城L門”“淫玫諾”“男說”均为OCR识别乱码，无法确认其含义",
+          "“青書與語”“九三”“中州法玄空學今學例”相关内容因原文乱码无法准确释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 269,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1198,
+      "completion_tokens": 269,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

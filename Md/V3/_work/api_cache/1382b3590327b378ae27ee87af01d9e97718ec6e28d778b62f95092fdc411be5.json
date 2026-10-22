@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-10-04T11:18:50.816840+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1382b3590327b378ae27ee87af01d9e97718ec6e28d778b62f95092fdc411be5",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000713-p000-a052e1429c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文'土 金也 生 也'存在歧义，candidate将其明确释读为'土与金的关系是相生，金由土所生'，将'也'字处理为判断，并补充了'关系'，这超出了保守释读的范围，可能将原文的并列或等同关系误读为相生关系。",
+          "源文'天 地 理 也之 先永有 土'语意不明，candidate释为'天地之理在于，先有土'，将'先永有'直接确定为'先有'，并添加了'在于'这一逻辑连接，属于无依据的确定化处理。",
+          "源文'蓋粗而 未藏 經 也'，candidate释为'这其实是粗浅而未深究经义的说法'，将'未藏經'解释为'未深究经义'，属于对不明确短语的确定性扩写。"
+        ],
+        "uncertainty": [
+          "'土 金也 生 也'结构残缺，可能表示'土就是金，是生的'，也可能表示'土生金'。",
+          "'天 地 理 也之 先永有 土'语意不明，'先永有'可能为'先有'或'永远先有'。",
+          "'乾 茂 坤内 隱而 聚見 乎生水'结构破碎，'乎'字可能表示'于'或引出对象。",
+          "'蓋粗而 未藏 經 也'中'未藏 經'含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b000714-p000-cf0254050a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文'以 氏 水 流 則外而氣氣丘 中'结构混乱，candidate将其重组为'水流则外气流动，而气在丘中凝聚'，并添加了'流动'、'凝聚'等动词，属于对无法确解原文的无依据扩写和重构。"
+        ],
+        "uncertainty": [
+          "'以 氏'无法理解，原文可能残缺或误写。",
+          "'水 流 則外而氣氣丘 中'结构混乱，具体含义不详。"
+        ]
+      },
+      {
+        "id": "book035-b000716-p000-99b3a3ba54",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "源文'氏 元  之 于而有 中 所  侯 之 所 也'语意不明，candidate将其简化为'侯之所也，元之所也'并添加句号分隔，改变了原文的语序和可能的语法结构，属于无依据的改写。"
+        ],
+        "uncertainty": [
+          "'氏 元  之 于而有 中 所  侯 之 所 也'语意不明，无法确解。"
+        ]
+      },
+      {
+        "id": "book035-b000717-p000-ba25a4475b",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'除試可曰'极可能是误写，疑为人名加'曰'，如'邱延翰曰'。",
+          "原文残缺，语意未尽。"
+        ]
+      },
+      {
+        "id": "book035-b000723-p000-a06136b1df",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "'夫氣竺乎地中'中'竺'字可能为'聚'或'藏'之误。",
+          "'七有其有气'完全无法理解，可能是严重错乱或误字，具体所指不详。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2124,
+    "completion_tokens": 927,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2124,
+      "completion_tokens": 927,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

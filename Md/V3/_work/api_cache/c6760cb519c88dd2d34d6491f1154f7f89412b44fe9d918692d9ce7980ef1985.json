@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-10-16T10:38:08.951631+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c6760cb519c88dd2d34d6491f1154f7f89412b44fe9d918692d9ce7980ef1985",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001985-p000-9428e0e811",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘架折葬之’释为‘采用架折之法’是合理的，但‘架折’本身是opaque_terms，应加引号或说明其含义不确定。",
+          "将‘暇须’释为‘暇须之处’并推测为讹误，属于对不确定术语的过度解释，应直接保留原词并标注不确定。",
+          "将‘湊檐’释为‘凑近檐口’并推测‘檐’指代不明，属于对不确定术语的过度解释，应直接保留原词并标注不确定。",
+          "将‘移掇、放送’释为‘移掇、放送的方法’，但这两个词是opaque_terms，应加引号或说明其含义不确定。",
+          "将‘升降之法皆矣’释为‘升降的具体法则，文中至此皆已提及’，但原文‘皆矣’可能表示‘都完备了’或‘都讲完了’，释读为‘皆已提及’不够准确。",
+          "最后一句对‘若’字的解释属于增译，原文仅有一个‘若’字，candidate添加了‘似乎表示假设或引出下文，原文在此处未完’，这是超出原文的推测。"
+        ],
+        "uncertainty": [
+          "‘架折’具体所指不详",
+          "‘暇须’具体所指不详",
+          "‘湊檐’具体所指不详",
+          "‘移掇’、‘放送’具体所指不详",
+          "‘升降之法’的具体内容不详",
+          "句末‘若’字的后续内容不详"
+        ]
+      },
+      {
+        "id": "book035-b001990-p000-8fd1781a53",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘純陽陰脈取’的具体含义及语法结构不详"
+        ]
+      },
+      {
+        "id": "book035-b001992-p000-f5a4bf7724",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将‘坪结’、‘窠结’、‘仰结’释为‘这三种结穴形态’，属于对opaque_terms的过度解释，应直接保留原词并标注不确定。",
+          "将‘球’释为‘球状突起’，属于对opaque_terms的过度解释，应直接保留原词并标注不确定。",
+          "将‘珠乳’释为‘珠乳’，但未加引号或说明其含义不确定，应明确标注为不确定术语。",
+          "将‘挨借迎接之法’释为‘挨借迎接的方法’，但‘挨借’是opaque_terms，应加引号或说明其含义不确定。"
+        ],
+        "uncertainty": [
+          "‘坪结’、‘窠结’、‘仰结’的具体形态特征不详",
+          "‘球’在此处指代的具体地形特征不详",
+          "‘珠乳’的具体所指不详",
+          "‘挨借’具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 626,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1291,
+      "completion_tokens": 626,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

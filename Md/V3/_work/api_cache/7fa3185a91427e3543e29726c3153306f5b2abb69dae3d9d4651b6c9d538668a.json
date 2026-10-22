@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T09:37:51.832358+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "7fa3185a91427e3543e29726c3153306f5b2abb69dae3d9d4651b6c9d538668a",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000332-p000-851429ba9e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000333-p000-a5c7fb6b72",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000335-p000-b2cd765a90",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000336-p000-65af7bfb3d",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原句仅存孤立术语，具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 205,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1191,
+      "completion_tokens": 205,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T08:58:17.293966+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b8b0b05f325e74aa858348516761e23d9048c85d04619a69668457b8933e66de",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000092-p000-2f01461f76",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘外氣不橫郎’的‘郎’为讹字，candidate释为‘外氣就不會橫行’属于无依据的推测性解释，未标注原文讹误情况；‘番身轉面’‘去多潮不怕八風搖合’属于原文未明的含混短语，candidate直接按字面释读为确定含义，存在风险；‘棺易敢也’的‘敢’为讹字，candidate释为‘棺槨就容易損壞’属于无依据的推测性解释，未标注原文讹误情况"
+        ],
+        "uncertainty": [
+          "‘外氣不橫郎’的具体含义因原文讹误无法确定；‘番身轉面’‘去多潮不怕八風搖合’的具体所指原文未明；‘棺易敢也’的具体含义因原文讹误无法确定"
+        ]
+      },
+      {
+        "id": "book010-b000093-p000-a5c62815fd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000094-p000-5cc0023d81",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000095-p000-fb02cac94f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1649,
+    "completion_tokens": 384,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1649,
+      "completion_tokens": 384,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

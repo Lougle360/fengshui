@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-26T08:39:44.091041+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "12cbee220ab9e45e945c68e56ddc6375d0b9bd44a1de796e619cc1d2e197f861",
+  "response": {
+    "items": [
+      {
+        "id": "book033-b000474-p000-c6ea075146",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“虽沽荣不而九重之森嚴子官之擁護與夫百辟來朝萬邦納貢於己何有”存在讹读，候选将其释为“虽只是博取虚名，却能身处九重宫阙的森严之中，有子官拥护，还有百官朝见、万国进贡的排场。即便自身并无多少作为”不符合原文语义，原文此处应为“虽然能获得荣耀，但九重的森严、子官的拥护、百官朝见、万邦纳贡这些和自身是没有关系的”",
+          "原文“接天颜之咫尺依日月之光辉”被遗漏未译",
+          "原文“得而与”释义错误，“与”此处应为参与、与之同列的意思，候选释为“与百官的富足相比”语义错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000475-p000-d8224e7c43",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000476-p000-efc4378296",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“五七十里”候选误作“五六十里”，数字错误",
+          "原文末尾“卜聚局”疑似原文讹误，候选直接释为“需占卜选择合适的聚局”属于无依据增译，原文此处语义不明不应强行释义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000477-p000-ab566c6657",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“五七里”候选误作“五六里”，数字错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000478-p000-d5c2e6a961",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000479-p000-ede8c2ff59",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头“也里人子頁知”明确属于讹误无法释读，候选直接将其接入后文内容认定为“这部分内容属于《地理人子须知》卷二下的龙法目”属于无依据推断，应当标注讹误部分无法释读，不得强行确定语义"
+        ],
+        "uncertainty": [
+          "开头的“也里人子頁知”具体指代不明，疑为刻写讹误"
+        ]
+      },
+      {
+        "id": "book033-b000480-p000-cf4373c322",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000481-p000-760cd629ba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000483-p000-20f5500acb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“艮有以也”候选释为“艮卦的道理也就在这里”属于无依据增译，“艮有以也”应为“确实是有道理的”，不应强行关联艮卦含义",
+          "原文“在地在成形”存在衍字，应为“在地成形”，候选直接释为“在地上形成形迹”未标注原文疑似讹误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book033-b000484-p000-a89ed2dd02",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2688,
+    "completion_tokens": 886,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2688,
+      "completion_tokens": 886,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

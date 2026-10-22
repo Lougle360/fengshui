@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-24T20:11:18.769023+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "029d1a0b3e314742fb6e4fa6d85e26a84cca20788c8afeb9964914c164da8ade",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003271-p000-92147f0660",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003273-p000-41eee8b2e0",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文仅为引述的《象》曰内容添加了原文未有的释义“变革的举措经三次施行都取得了成效”，属于无依据扩写，不符合要求"
+        ],
+        "uncertainty": [
+          "原文“革言三就”具体所指未明，候选释读的“变革的举措经三次施行都取得了成效”无依据支撑"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 884,
+    "completion_tokens": 173,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 884,
+      "completion_tokens": 173,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

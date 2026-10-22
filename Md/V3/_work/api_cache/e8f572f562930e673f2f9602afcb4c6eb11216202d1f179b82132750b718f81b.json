@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-10-04T08:54:52.832544+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e8f572f562930e673f2f9602afcb4c6eb11216202d1f179b82132750b718f81b",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b001039-p000-83f981e714",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b001041-p000-131b1fde84",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘精生水方可為金’释读为‘需看其是否由水气生发而成’，这是对原文‘精生水’这一特定术语的确定解释，超出了允许的浅显释义范围，且未标注不确定性。原文‘精生水’含义不明，应保留原文或标注不确定性。候选句将‘头必圆方可为木’释读为‘需看其头部是否圆润’，这是对原文‘头必圆’的合理浅显释义，可以接受。"
+        ],
+        "uncertainty": [
+          "‘精生水’的具体含义不详"
+        ]
+      },
+      {
+        "id": "book028-b001043-p000-4f5b9d15e1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选句将‘粘寸腳築一皆高’释读为‘在‘粘寸脚’处筑起（具体所指不详），高度要适宜’，其中‘高度要适宜’是对‘一皆高’的推测性解释，原文‘一皆高’含义不明，不宜直接释为‘高度要适宜’，应保留原文或明确标注其含义不确定。候选句将‘人穴之前不見前砂腳下文亂山麓而止見砂頭之清’释读为‘使人入穴之前看不见前砂的脚部，下方的乱山麓止于砂脚之下，只看见砂头清秀’，其中‘下方的乱山麓止于砂脚之下’是对‘下文亂山麓而止’的增译，原文‘而止’的主语或逻辑关系不明确，此释读有过度解释之嫌。"
+        ],
+        "uncertainty": [
+          "‘粘寸腳’、‘周或’、‘一皆高’、‘下文亂山麓而止’的具体所指或逻辑关系不详"
+        ]
+      },
+      {
+        "id": "book028-b001047-p000-cd9a8af351",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘吉拳’的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1702,
+    "completion_tokens": 559,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1702,
+      "completion_tokens": 559,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

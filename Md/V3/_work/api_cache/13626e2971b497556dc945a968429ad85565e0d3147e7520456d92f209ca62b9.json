@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T10:42:15.323874+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "13626e2971b497556dc945a968429ad85565e0d3147e7520456d92f209ca62b9",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000910-p000-f2396c311c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“壯火門”“灶卦五事”“七鍋火門”“兌”“生氣命”等术语的具体所指未明，释读未作确定性解读，符合要求"
+        ]
+      },
+      {
+        "id": "book010-b000911-p000-558bb1a948",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“有巽命夫配坎命生氣妻生五于後悞改灶之火門向”存在断句歧义，候选句将“生五于”释为“生了五个儿子”，但原文未明确“五于”的具体所指，属于无依据的确定性解读；“大坤”表述模糊，候选句释为“改了灶、大门的坤向”，未明确“大坤”的具体含义，存在语义模糊问题"
+        ],
+        "uncertainty": [
+          "原文中“大坤”的具体所指未明，释读未作明确界定"
+        ]
+      },
+      {
+        "id": "book010-b000912-p000-6d9bae9085",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文“又一窶婦苦夫客不歸師為改延年灶何而歸”存在OCR识别错误，“何”应为“向”，候选句未修正该错误，且将“延年灶向”释为“延年灶的向”，未明确“延年灶”的具体所指，属于无依据的确定性解读"
+        ],
+        "uncertainty": [
+          "原文中“延年灶”的具体所指未明，释读未作明确界定"
+        ]
+      },
+      {
+        "id": "book010-b000913-p000-081671aeec",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文中“灶君絳衣玄剋”“五鬼方”“六煞命”“伏位命”等术语的具体所指未明，释读未作确定性解读，符合要求"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2828,
+    "completion_tokens": 507,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2828,
+      "completion_tokens": 507,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

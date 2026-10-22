@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-10-18T11:39:42.246160+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "605d6b1f0db93c3ea7f7f4662be0dd2bf8f92cb94939ec83a98ed176db3a3c11",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b006387-p000-57535c9679",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "九八六六之春",
+          "合作中格局"
+        ]
+      },
+      {
+        "id": "book035-b006390-p000-3753aa3215",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘辛酉 冀州清河 冀州中 山郡向蒙這冀’，candidate将‘冀州中 山郡’释读为‘位于冀州中部’，并处理为‘文中提到...’，这改变了原文的并列结构，可能遗漏了‘中山郡’这一地名信息。原文结构可能是‘辛酉（对应）冀州清河、（冀州）中山郡，向蒙這冀’。candidate的释读不准确且不完整。"
+        ],
+        "uncertainty": [
+          "山郡向蒙這冀"
+        ]
+      },
+      {
+        "id": "book035-b006391-p000-7dc641cddf",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "兑卯日鷄昴六至八"
+        ]
+      },
+      {
+        "id": "book035-b006394-p000-68b0ec7b51",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "辛酉 舞州州常山郡"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 289,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1166,
+      "completion_tokens": 289,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

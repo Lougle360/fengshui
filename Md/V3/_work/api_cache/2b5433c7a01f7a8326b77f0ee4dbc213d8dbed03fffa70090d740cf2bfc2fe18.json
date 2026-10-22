@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-09-24T01:18:35.200262+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "2b5433c7a01f7a8326b77f0ee4dbc213d8dbed03fffa70090d740cf2bfc2fe18",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001326-p000-ef5953c22b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文首字“京。”未译出，存在漏译",
+          "“先子”被误译为“先父”，“先子”泛指前代贤人而非自家父亲，属于术语误读",
+          "原文“食不消，以黄丸为”存在缺字，候选未标注缺漏直接补“治疗”，属于无依据增译",
+          "原文“更与求乞胡”未完整译出，存在漏译",
+          "locked_terms“水”被用作普通救火的水，违反allowed_glossary中“水”为风水语境水系的定义，属于术语误用",
+          "“得无半非冢宅耶”译为“难道不是几乎没有一处符合标准的住宅吗”语义相反，原句意为“难道还有一半不是住宅吉凶的作用吗”",
+          "原文“而缺三字之所弃”漏译缺字标注，候选直接补“否定古人”属于无依据增译"
+        ],
+        "uncertainty": [
+          "“京。”上下文关联不明确，暂无法确定具体所指",
+          "“求乞胡”具体含义未明",
+          "原文两处缺字无法确认原义"
+        ]
+      },
+      {
+        "id": "book001-b001327-p000-ed593bfc73",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001328-p000-2e6daf07b6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001329-p000-e788ed4d1a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "“观物干微”应为“观物于微”的形近讹字，候选未标注讹误直接译“在细微之处观察事物”虽语义通顺但未说明文本问题",
+          "原文“以求其，然则足下得不为托心无鬼，缺齐契于董生耶”漏译缺字标注，候选直接补全语句属于无依据增译",
+          "“钧疾页祷不同”应为“均疾而祷不同”的形近讹字，候选误译为“商汤、周王的祈祷不同”，属于语义错译",
+          "“遇噎溺而迁怒”应为“因噎废食、遇溺迁怒”的省写，候选漏译“噎”的对应语义，属于漏译",
+          "opaque_terms“幽明”未加引号直接使用，且未按要求标注，违反术语规则",
+          "locked_terms“向”被译为“从前”，违反allowed_glossary中“向”为建筑朝向的定义，属于术语误用",
+          "原文末尾“故吉”为未完结内容，候选未标注断句/缺漏，属于遗漏文本状态说明"
+        ],
+        "uncertainty": [
+          "“幽明”具体所指不详，原文未明",
+          "原文两处缺字、末尾未完结部分无法确认原义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4244,
+    "completion_tokens": 683,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4244,
+      "completion_tokens": 683,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

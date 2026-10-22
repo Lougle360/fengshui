@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-25T06:41:03.210455+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "a9ffc733921183ffe3877b23125900f831c1e812e3e62d21852550999af2cc61",
+  "response": {
+    "items": [
+      {
+        "id": "book022-b000101-p000-9136cf9b1a",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "裁判模型未返回可验证的 items 结构"
+        ],
+        "uncertainty": [
+          "未完成独立核义，保留候选并进入复核台账"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2317,
+    "completion_tokens": 450,
+    "cached_prompt_tokens": 1848,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2317,
+      "completion_tokens": 463,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2317,
+      "completion_tokens": 502,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 2317,
+      "completion_tokens": 450,
+      "cached_prompt_tokens": 1848,
+      "usage_estimated": false
+    }
+  ],
+  "transparent_fallback": true
+}

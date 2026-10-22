@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-10-04T01:48:38.571986+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "988c34225c4aa6184d7eb505b9fca107fcc3280db5063dca557e8f23a2965802",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000389-p000-8a4d91f7d2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "存在漏译：原文‘乱中有治治处融结堂局不见扒砂经 卷二站高而成穴’被拆解和意译，丢失了‘堂局不见扒砂’与‘经 卷二站高而成穴’之间的直接联系，且‘经 卷二’应为《扒砂经》卷二，候选句处理为‘文中提到...并引用...’不够准确，可能导致读者误解。",
+          "存在增译：原文‘一山一流合观金掌为力故重’含义较为含混，候选句将其解释为‘若将一座山与一条水流结合起来观察，会发现“金掌”在此处起到了关键作用，因此显得尤为重要’，这超出了保守释读的范围，将推测写成了事实。对于‘金掌’这类opaque_terms，应保留在引号内并说明其含义不确定，而非直接断言其‘起到了关键作用’。"
+        ],
+        "uncertainty": [
+          "‘相蕨’具体所指不详，候选句已标注。",
+          "‘金掌’具体所指不详，候选句未明确标注其不确定性，而是进行了推测性解释。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 794,
+    "completion_tokens": 273,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 794,
+      "completion_tokens": 273,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

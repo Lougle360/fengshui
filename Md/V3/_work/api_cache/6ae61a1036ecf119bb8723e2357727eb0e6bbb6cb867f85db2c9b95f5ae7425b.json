@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-24T10:09:13.490405+00:00",
+  "provider": "volcengine-ark",
+  "model": "Qwen/Qwen3.5-35B-A3B",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "6ae61a1036ecf119bb8723e2357727eb0e6bbb6cb867f85db2c9b95f5ae7425b",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000583-p000-f22494aef1",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "玉带，指的是风水语境中的河流、水系及其来去形态呈弯曲环抱的样子。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000584-p000-12a65924ed",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "金，指的是小巧的金星，其在秋气时节对应龙穴的形态，如同贵人佩戴的玉带一般。",
+        "confidence": "high",
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000585-p000-4468629291",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "uncertain",
+        "modern_text": "此处原文为“0○本市真然”，具体所指不详，无法准确释读。",
+        "confidence": "low",
+        "uncertainty": [
+          "原文“0○本市真然”含义不明，无法确定具体所指"
+        ]
+      },
+      {
+        "id": "book010-b000586-p000-59a9f57b21",
+        "language": "classical_chinese",
+        "content_type": "prose",
+        "action": "rewrite",
+        "modern_text": "人宅本命、天罡、四旺，若遇煞而吉，无需进行修造或制化。",
+        "confidence": "medium",
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1547,
+    "completion_tokens": 410,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1547,
+      "completion_tokens": 410,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

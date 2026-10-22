@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-09-25T14:35:27.274737+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "efa7c91c74bb49112f488efd2dc05c2f2ffc0b7a93cfcbbb158d1d839dad4846",
+  "response": {
+    "items": [
+      {
+        "id": "book026-b000388-p000-6d55fa699e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱内容，多数表述无法明确含义"
+        ]
+      },
+      {
+        "id": "book026-b000389-p000-288a642671",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary未收录“开杀”“九星双臂”“元辰”等术语，候选将其作为确定含义释读，不符合术语使用规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000391-p000-f1e3e6363f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000392-p000-01d8d30643",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary未收录“龙形山势”“虎形山势”“东宫”“西宫”等术语，候选将其作为确定含义释读，不符合术语使用规则"
+        ],
+        "uncertainty": [
+          "存在大量OCR识别错乱内容，部分表述无法明确含义"
+        ]
+      },
+      {
+        "id": "book026-b000393-p000-ba87391561",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book026-b000395-p000-ce829179ae",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "allowed_glossary未收录“龙”“虎”对应的地形类定义，候选将其确定为“龙、虎类地形”释读，不符合术语使用规则"
+        ],
+        "uncertainty": [
+          "原文存在语序错乱，梳理后的语义为推断结果"
+        ]
+      },
+      {
+        "id": "book026-b000399-p000-277319663b",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文表述为“故所註亦不甚失召其中有未達老則學識之未至也”，候选将“失召”单独判定为OCR错乱，但未说明“未達老”同样存在错乱问题，且自行将“老”推断为“地方”，属于无依据增译"
+        ],
+        "uncertainty": [
+          "“失召”“未達老”均存在文字错乱，无法确认原字及含义"
+        ]
+      },
+      {
+        "id": "book026-b000400-p000-3a4d262336",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱内容，多数表述无法明确含义"
+        ]
+      },
+      {
+        "id": "book026-b000401-p000-24d5185dc0",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量OCR识别错乱内容，多数表述无法明确含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2955,
+    "completion_tokens": 787,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2955,
+      "completion_tokens": 787,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

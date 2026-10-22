@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T15:28:58.934537+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "f116348cca245ae4f2b982d3a52989ee3894ea74f5418580c6273dcefbb6f7a7",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b001111-p000-ba309fac8e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001112-p000-181f5282a1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001113-p000-c6193ff23e",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将雍正帝御制序中引文的后半句“这就是图书开启《易》《范》之先的缘由”直接作为现代汉语表述，未保留原文的引述格式，且“图书”“《易》《范》”未按要求处理，属于对古文的直接释读但不符合术语处理规范"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b001114-p000-c8bb820a16",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2464,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2464,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-23T08:57:41.418836+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "71dadaad336d4b9ec41dc8b6bd242a0dbc10240e5362ad65750c70dc62bad994",
+  "response": {
+    "items": [
+      {
+        "id": "book003-b000156-p000-abc18ed8a5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "漏译：原文末尾有“再玉尺經 卷二」 十二”，candidate 译为“再如《玉尺经》卷二第十二。”，但原文“再”字可能为“在”或“载”之误，或表示“另外”，candidate 译为“再如”无依据，且“第十二”与原文“十二”对应，但原文“十二”可能指页码或条目，candidate 直接译为“第十二”可能不准确。",
+          "专业术语误换：原文“八水四金五行”，candidate 译为“八水、四金五行”，将“八水四金”拆分为“八水、四金”可能改变了原意（可能指八种水、四种金的五行属性，或“八水四金”是一个整体术语）。",
+          "数字变化：原文“三百六十五度”，candidate 译为“三百六十五度”，正确，但需注意古法度数与现代度数的差异，candidate 未说明。",
+          "把推测写成事实：原文“仙日穿山渾天甲子圓布三百六十五度按二十八宿分金過度配五行所屬是名星度五行”，candidate 处理为“文中提到‘仙日穿山渾天甲子圓布三百六十五度按二十八宿分金過度配五行所屬是名星度五行’，具体所指不详。”，但将原文直接引用并说“具体所指不详”是合适的，不过candidate在引用时未完全保留原文格式（如“仙日”可能为“仙曰”），且后续解释“在用于立穴配向时”等是基于此引文的推测，但未明确标注为推测，可能被视为事实性解释。"
+        ],
+        "uncertainty": [
+          "“仙日”可能为“仙曰”的误写或特定术语，原文未明",
+          "“八水四金”的具体含义未明",
+          "“木見金爲剋出”中的“出”字含义未明",
+          "“再玉尺經 卷二」 十二”的准确含义和结构未明"
+        ]
+      },
+      {
+        "id": "book003-b000159-p000-763d4f6417",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“父见丁”疑似“兑见丁”之误，原文未明",
+          "“两方”可能指“丙方”或“特定两方”，candidate 译为“左右两方”为合理推测，但原文未明确"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1752,
+    "completion_tokens": 626,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1752,
+      "completion_tokens": 626,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

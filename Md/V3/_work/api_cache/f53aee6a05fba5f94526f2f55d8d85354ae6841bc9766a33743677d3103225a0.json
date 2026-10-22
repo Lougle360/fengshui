@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-09-25T18:06:08.928158+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f53aee6a05fba5f94526f2f55d8d85354ae6841bc9766a33743677d3103225a0",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b000213-p000-f93b5ab687",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文末尾是“最難取”，候选释读为“最容易选取”，意思完全相反；且原文“允四”未作释读，存在漏译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000214-p000-079970b421",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“武甫”对应四灵应为“武辅”，候选写“武甫”有误；原文“出軍出賊”的“軍”指从军为兵或出武将，候选直接写“出军队”不符合现代汉语表达；原文“定紬凶紬吉者之去取”的“紬”属通假，候选释为“确定辨别吉凶的标准”有误，应为确定吉凶对象的取舍"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000215-p000-18de172fe3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文断句混乱，候选释读多处篡改原意：“六個吉神落若穿金水 士星辰最勿救人貧”断句应为“六个吉神落，若穿金水、土星，辰最勿，救人贫”，候选错误拆分理解；“孤亦有如六九個燥火”断句错误，候选强行合并表述；“揚舊亦有好穴”的“揚舊”应为“扫荡”（原文“插蕩”“裁蕩”对应），候选释为“旧有的”有误；大量风水专有概念未正确释读，存在多处漏译和误译"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000216-p000-3bfb4ba007",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“貪中有康文有弼”的“康”应为“狼”（贪狼星），候选误写为“辅”；原文“閒斷大弱成雄”候选释为“闲断大弱变成雄”表述模糊，未准确说明是行龙中间断、看似弱实则成雄势；“間星”统一写为“闲星”需标注，但此处核心是贪狼星对应错误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000217-p000-0280ba7e86",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000218-p000-9093fd1a16",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“問龍是的便向此中定”候选释读有误，应为“判断龙是否正确，就从这里确定”；“死烟包入砂磧果然十里百里無從山獨自單行少收拾無從山便不好了”断句错误，候选理解为“就算方圆十里、百里，也没有从山独自单行、缺少收拾的地方”完全颠倒原意，原文是说困弱的龙无气力，像死烟包入砂碛，果真十里百里都没有随从山，独自单行、没有收束，没有从山就不好；“到處鄉材可尋覓”的“鄉材”应为“吉地”，候选释为“找到人才”完全错误；“非止謙一開星”断句错误，候选释读无依据；“貨堅廢結”“賈雙全”“人丁太魯太謙局”等术语未保留或标注，错误释为“货坚废”“有贾双全”“人丁太鲁太谦局”，属于无依据臆测"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000219-p000-db4586781c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000220-p000-e8e293de38",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000221-p000-53d666ca4e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book030-b000222-p000-389e40b3da",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [
+          "原文仅“愍久漸發地誰”六字，语义不完整，无法准确释读，候选自行补充“能做到呢”属于无依据增译"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 830,
+    "completion_tokens": 53,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3228,
+      "completion_tokens": 1198,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 830,
+      "completion_tokens": 53,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

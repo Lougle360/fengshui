@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-24T01:02:48.762791+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "c28690264a804a986a46d8c8ab5f0876f480e43aaa3b99f4048908bb6bb0083b",
+  "response": {
+    "items": [
+      {
+        "id": "book002-b000819-p000-826e75e564",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "定不瓦含义不明"
+        ]
+      },
+      {
+        "id": "book002-b000825-p000-a4947285ce",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "雨女煞具体所指不详",
+          "无挞刹具体所指不详"
+        ]
+      },
+      {
+        "id": "book002-b000832-p000-00f973923e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为“不可不知地”，候选误写为“也不能懂风水地理”，与原文语义完全相反",
+          "原文“各省無處不漸見消條”，候选表述为“各省的风水行业都日渐萧条”，属于无依据增译，消条具体所指未明确标注",
+          "原文“君其旋踵動手洗鉗水與向雨用此法以誤人”，候选漏译“洗鉗”相关内容，且将“雨用”误读为“两者都用”",
+          "原文“風憑皆是假的”翻译有误，未准确处理此处语义",
+          "原文“何序”未在候选中对应提及",
+          "原文“故爲眞寶故作翻卦爲納”的“納”未完整释读，候选补“甲”属于无依据增译"
+        ],
+        "uncertainty": [
+          "消条具体含义不明",
+          "件作都要之书为原文讹误，具体所指不明"
+        ]
+      },
+      {
+        "id": "book002-b000833-p000-a335d6e0fc",
+        "verdict": "uncertain",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在多处断缺、语序混乱，整体语义无法准确确定"
+        ]
+      },
+      {
+        "id": "book002-b000834-p000-e52fae01ad",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“廢富貴在何代出貴在財若干貴者官居何品丁何房絕嗣何房富秀盜何房”存在语句断裂，无法准确解读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2708,
+    "completion_tokens": 518,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2708,
+      "completion_tokens": 518,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

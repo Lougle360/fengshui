@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-24T22:29:06.477981+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5fcd83b3b47eb1c2d15b1b99565bfbee3e8caf3550a8a1286f4db2c1cda76171",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004033-p000-33ddfb3451",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004034-p000-54d881b26c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004035-p000-98661e8165",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004036-p000-7ffbf479ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文注明朱熹言论出自《朱子语类》，应将“《朱子语类》”放在引文后的括号内，标注为（《朱子语类》），当前将其单独放在句末格式有误"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004037-p000-461feb3924",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004039-p000-e077622b13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004040-p000-88e02f2066",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“向”被定义为“建筑或穴位所朝的方位”，但此处“向上”的“向”是表示方向的普通用词，与规则要求的locked_terms定义不符，存在术语误用"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004041-p000-b5fb21289f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004042-p000-445c3cdf30",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2353,
+    "completion_tokens": 616,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2353,
+      "completion_tokens": 616,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

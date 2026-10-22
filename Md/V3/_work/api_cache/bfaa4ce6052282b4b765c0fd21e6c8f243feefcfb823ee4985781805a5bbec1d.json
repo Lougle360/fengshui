@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-09-25T08:07:11.517556+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "bfaa4ce6052282b4b765c0fd21e6c8f243feefcfb823ee4985781805a5bbec1d",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b002297-p000-3d8e2b4c67",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b002299-p000-f10ad647de",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文存在脱漏的“木绝申而亥、卯、局”，候选释读未明确标注原文脱漏，直接表述为“对应亥、卯相关的局”属于无依据增译；末尾额外添加“歌诀里‘死墓绝乡水去长’的意思是，死、墓、绝对应的方位流出的水形态悠长”属于原文无对应内容的无依据释读，违反释读规则"
+        ],
+        "uncertainty": [
+          "“长长帝旺俱高耸”的“长长”具体含义不详",
+          "原文“木绝申而亥、卯、局”存在脱漏，缺失内容无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4411,
+    "completion_tokens": 246,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4411,
+      "completion_tokens": 246,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

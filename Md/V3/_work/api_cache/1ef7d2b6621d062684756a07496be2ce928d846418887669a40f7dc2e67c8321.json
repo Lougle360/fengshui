@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T11:46:47.786363+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "1ef7d2b6621d062684756a07496be2ce928d846418887669a40f7dc2e67c8321",
+  "response": {
+    "items": [
+      {
+        "id": "book014-b000131-p000-d1af34723e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book014-b000132-p000-df43a9f1c9",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "释读中存在对原文的过度概括，如将原文各类风水形态的列举简化为对应官职、身份的关联，不符合原文对水形的细致描述；部分原文的数字、符号（如06、o）未按标注的不确定性处理，直接混入释读内容；部分术语释读模糊，如“边备”“锦被锦袍任横纵”等未结合风水语境准确释读，存在脱离原文含义的引申"
+        ],
+        "uncertainty": [
+          "原文标注的不确定性内容（06、o）未在释读中明确标注，直接保留或混入正文"
+        ]
+      },
+      {
+        "id": "book014-b000134-p000-ae472105e9",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在严重OCR识别错乱，释读内容与原文含义完全不符，无法准确理解原文"
+        ],
+        "uncertainty": [
+          "文字存在严重OCR识别错乱，无法准确理解原文含义"
+        ]
+      },
+      {
+        "id": "book014-b000167-p000-e4ffc3273e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5134,
+    "completion_tokens": 352,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 5134,
+      "completion_tokens": 352,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

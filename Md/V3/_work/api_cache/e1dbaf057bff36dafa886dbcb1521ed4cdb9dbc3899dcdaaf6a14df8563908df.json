@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-24T21:38:12.854305+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e1dbaf057bff36dafa886dbcb1521ed4cdb9dbc3899dcdaaf6a14df8563908df",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b003827-p000-e9ad5ce2c9",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003829-p000-0c233197a5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003830-p000-40e8bc6371",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003832-p000-ccb921e832",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003833-p000-216c8d684f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003834-p000-512a21db29",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003835-p000-a02280aefc",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b003836-p000-9fa32eeb75",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为层级是heading的卦辞条目，包含原文卦形符号①②，候选擅自修改为释读文本，未保留原heading格式、原文内容及对应注释标记，不符合kind=toc/heading的核对要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2533,
+    "completion_tokens": 493,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2533,
+      "completion_tokens": 493,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

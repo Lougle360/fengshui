@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-23T09:12:44.418557+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "b0709fc66048d43b2f68bd17a8e2ff48c2fa8cdac16e754595d706125fe899fa",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000389-p000-fc7d783b7b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b000393-p000-e7e00148b1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'巽卯水入主寿者，贫而禄者夭'结构为'主寿者贫而禄者夭'，意为'主长寿者贫穷，而有官禄者夭折'。候选句'主寿者贫而禄者夭'断句不清，未能明确传达这种对比关系，易造成误解。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 869,
+    "completion_tokens": 151,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 869,
+      "completion_tokens": 151,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

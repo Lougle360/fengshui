@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-10-15T02:12:45.347834+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "40348db35045c85d61e4e67cd516f99e058eac670d710fbb9279d11620a86279",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b001014-p000-9e74feb2c1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'峰巒突儿亂石風不然破碎連基鑒也作竹稿馬鞭勢 也作兵戈與繩索'，candidate释为'其峰峦突兀，乱石嶙峋，若非如此，便是破碎连绵。其形态如同竹稿、马鞭，又似兵戈与绳索。'。原文'儿'字疑为'兀'或'兀'之误，但candidate直接处理为'突兀'，未标注原文可能的讹误或异体字。'基鑒'一词未译出，含义不明，candidate直接跳过，应标注。'竹稿'应为'竹篙'，candidate未标注此用字差异。",
+          "原文'入穴葫蘆塊然若'，candidate释为'穴中葫芦状的山体突兀而立'。'塊然'意为'浑然一体、完整的样子'，candidate译为'突兀而立'，语义有偏差。",
+          "原文'當代兒錄見銷鑠'，candidate释为'当世儿孙将遭销蚀'。'錄'字未译出，可能为'禄'之误，candidate直接处理为'儿孙'，未标注此疑点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001015-p000-70febe7cf3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001016-p000-461fb291ab",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'輔弼常隨七星轉多在明堂左右見'，candidate释为'辅星常随七星转动，多在明堂左右出现。'。原文为'輔弼'，指左辅、右弼两星，candidate简化为'辅星'，丢失了'弼'星信息。",
+          "原文'有時脫體熊清波形勢間作東圈面'，candidate释为'有时脱体，熊清波形势间作，东圈面或见龟蛇，或见鱼。'。'熊清波'、'东圈面'为opaque_terms，candidate未加引号引用，直接作为普通描述，赋予了不确定的专名以确定含义。",
+          "原文'在輔屬金石弼屬水'，candidate释为'在辅属金，石弼属水'。原文'石弼'疑为'右弼'之误，candidate未标注此疑点。",
+          "原文'關閉天門地戶膚之非是'，candidate释为'关闭天门地户，肤之非是。'。'肤之非是'语义不明，candidate虽在uncertainty中标注，但在释读正文中仍直接保留，未加引号或说明，可能误导读者以为这是一个可理解的固定短语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001017-p000-9a2c5a019b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001018-p000-6d3e0beb13",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001019-p000-08b0a10eed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001020-p000-780e41223f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'七星變化無穹亟身樣相同人未織'，candidate释为'七星变化无穷，亟身样相同，人未织。'。'無穹'应为'無窮'，candidate译为'无穷'正确，但未标注用字差异。'亟身样相同'语义不明，candidate直接保留，未加引号或说明其为难以确定含义的短语。",
+          "原文'四維八斡十二枝'，candidate释为'四维八斡十二枝'。'八斡'疑为'八幹'之误，candidate未标注此疑点。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001021-p000-cd89bbe405",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001022-p000-fcbb42fda1",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'雌雄慶會值千金形穴分明似掌心'，candidate释为'雌雄二气相会合的吉地价值千金，其形穴分明清晰，如同人的掌心纹路一般；'。释读准确。",
+          "原文'更得朝巒幷秀水爲官世代眾人欽'，candidate释为'若再得朝拜的山峦一同秀丽，且水势作为官星环绕，则能福泽后代，令众人钦敬。'。原文'爲官'可能指'水'的形态或位置具有'官星'的属性，candidate将其解释为'水势作为官星环绕'，属于对专业术语的推测性解释，但未标注此解释的不确定性。",
+          "原文'雌雄不會不勞看 任爾時師道好山下后令人家退落朝城不對盡虛閉'，candidate释为'倘若雌雄二气不能会合，便无需劳烦观看；任凭当时的风水师声称技艺高超，若山后没有真穴，也会导致人家运程退落，朝拜的城池不对，最终全是虚闭之局。'。原文'下后'疑为'下后'（点穴之后）或'下后'（葬后），candidate译为'山后没有真穴'，属于无依据的扩写和猜测，改变了原意。'朝城'释为'朝拜的城池'，也属推测，原文可能指'朝山'与'城郭'，或泛指朝对之山势。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b001023-p000-dc28ee42a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2620,
+    "completion_tokens": 1469,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2620,
+      "completion_tokens": 1469,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

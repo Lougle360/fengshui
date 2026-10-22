@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T18:16:52.611275+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "dad9afdf0c85c3b3b456c6a0a52cf82d90e53962f778bc54de48c5f4e6a1860b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001823-p000-80458623e3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001824-p000-9fd9c94fd5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "将原文中作为卦名的‘离’误释为‘天命’相关内容，违反术语使用规则，allowed_glossary中‘离’为八卦之一，不得随意替换含义"
+        ],
+        "uncertainty": [
+          "原文中‘天’‘天命’的表述存在歧义，具体所指未明"
+        ]
+      },
+      {
+        "id": "book016-b001825-p000-efa90d88b8",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘外、健，指乾居外卦；内、动，指震居内卦’误释为‘八卦之一的离居外卦’，违反术语使用规则，allowed_glossary中‘乾’‘震’为八卦之一，不得替换为‘离’"
+        ],
+        "uncertainty": [
+          "原文中‘一索’的具体含义未明，仅为孔氏的特定解释，未明确为通用卦理"
+        ]
+      },
+      {
+        "id": "book016-b001826-p000-04ec1c2900",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 345,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1589,
+      "completion_tokens": 345,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

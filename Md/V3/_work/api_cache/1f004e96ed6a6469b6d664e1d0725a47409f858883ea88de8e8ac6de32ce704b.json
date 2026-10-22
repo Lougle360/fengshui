@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-17T06:26:47.493754+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "1f004e96ed6a6469b6d664e1d0725a47409f858883ea88de8e8ac6de32ce704b",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b002771-p000-83502f8425",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'端正則子孫必正大端厚欹斜例向則子孫陰佞魂惡'，candidate译为'如果地势端正，那么子孙必然品行端正、厚重；如果地势倾斜，朝向不正，那么子孙往往阴险狡诈、魂魄邪恶。'。此处'正大端厚'与'陰佞魂惡'是并列的四个词，candidate将'正大端厚'合并译为'品行端正、厚重'，将'陰佞魂惡'译为'阴险狡诈、魂魄邪恶'，虽为意译，但基本对应，可接受。主要问题在于'例向'，这是一个opaque_term，candidate将其解释为'朝向不正'，属于无依据扩写。应保留原文'例向'，并说明其含义不确定。",
+          "原文'觀地之形象以及其龍氣之秀否便可以知其家之子孫如砂員了孫而后知之也'，candidate译为'只要观察地形的形象以及龙气是否秀气，就可以知道这个家族的子孙情况。'。此处'如砂員了孫而后知之也'被完全漏译。'砂員'可能指砂的形态或人员，但属于opaque_term，candidate应指出原文此句含义不明，而非省略。"
+        ],
+        "uncertainty": [
+          "'例向'具体所指不详。",
+          "'如砂員了孫而后知之也'一句含义不明。"
+        ]
+      },
+      {
+        "id": "book035-b002772-p000-5979e67b06",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b002776-p000-314e83c76b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'目錄批點書法最上乘者用二圈上乘者一點一圈中乘者一圈末剩者則用一二點覽者須知別妍媸爲是'，candidate译为'目录中的批点书法有如下标准：最上乘的用两个圈，上乘的用一点加一个圈，中乘的用一圈，剩下的则用一二点。读者需要知道，通过这种方式来辨别优劣才是正理。'。此处'末剩者則用一二點'，candidate译为'剩下的则用一二点'，'一二点'是'一点或两点'，candidate译为'一二点'（可能被理解为'一两点'，即少量），但原文明确是'一二點'，即'一点或两点'，翻译不够精确。",
+          "原文'撼龍經舊兼補楊救貧'，candidate译为'《撼龙经》旧兼补杨救贫篇'。此处'舊兼補'可能指旧本并补充了杨救贫的内容，candidate处理为篇名的一部分，可以接受。但评语'窮天極地非仟術示易至此'，candidate译为'穷尽天地之理，若非仟术示易至此'。'仟術示易'是opaque_term，candidate直接音译并保留，但未做任何说明，应指出其含义不明。",
+          "原文'五星舊集 廖金精 評 布帛粟不可以淺淡葉'，candidate译为'收录《五星》旧集，由廖金精评，评语称“布帛粟不可以浅淡叶”，具体所指不详。'。此处'布帛粟不可以淺淡葉'，candidate处理为引用的评语并标注'具体所指不详'，符合要求。但'五星'是书名，candidate加了书名号，可以接受。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2016,
+    "completion_tokens": 841,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2016,
+      "completion_tokens": 841,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

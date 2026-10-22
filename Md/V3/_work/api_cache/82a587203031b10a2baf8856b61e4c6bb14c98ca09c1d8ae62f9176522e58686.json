@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-04T03:18:20.736763+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "82a587203031b10a2baf8856b61e4c6bb14c98ca09c1d8ae62f9176522e58686",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000378-p000-d86bf62142",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“洋淨悠悠”的具体含义"
+        ]
+      },
+      {
+        "id": "book035-b000379-p000-a26a7ad279",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘水外水橫棟弓員努潢 關東如弓之彎炮主發福久遠’结构不明，candidate将其拆解为‘水之外有横水，形状如同弓弩张开，主发福久远。关东如弓之弯炮主发福久远’，并标注后者不详。但原文可能是一个整体描述，candidate的断句和释义可能改变了原文结构，且‘关东’一词未保留。",
+          "‘随龙相之外’的‘相’字未译出，candidate直接处理为‘随龙相之外’，但‘相’可能指形貌或格局，此处释义不完整。"
+        ],
+        "uncertainty": [
+          "‘关东如弓之弯炮主发福久远’的确切含义",
+          "‘随龙相之外’中‘相’的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b000381-p000-ae281c4db0",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文‘天間地軸可驗富貴之速運用不中也之行在者正逃來而不見也了者必所’文句不通，疑似有严重脱漏或OCR错误。candidate的释读（‘文中提到天間地軸，可以验证富贵来得快慢……行之者正逃来而不见，了者必所’）是基于无法确认的原文进行的推测，无法成立保守释读。"
+        ],
+        "uncertainty": [
+          "原文文意不明，无法进行可靠释读"
+        ]
+      },
+      {
+        "id": "book035-b000386-p000-087ebebd62",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "‘外貌不足而因相有余’的具体含义",
+          "‘亦可非長補而用之或可外朝之今水乎’的具体所指"
+        ]
+      },
+      {
+        "id": "book035-b000387-p000-fe70d079f6",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文‘穴不識怪只愛左右包者強此與俗人無以异多是葬在盧花里虛花左右’，candidate释为‘穴不识怪，只爱左右包者强，这与俗人无异，多是葬在卢花里虚花左右’。其中‘穴不识怪’的‘怪’字未译出，可能指‘怪穴’或‘奇异之处’，释义不完整。",
+          "‘多是葬在盧花里虛花左右’的释读‘多是葬在卢花里虚花左右’保留了‘卢花’，但未明确其作为opaque_term处理，也未加引号，可能误导读者以为这是一个确定的地名或术语。"
+        ],
+        "uncertainty": [
+          "‘卢花’的具体含义",
+          "‘穴不識怪只愛左右包者強’的完整含义",
+          "‘多是葬在盧花里虛花左右’的具体所指"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1784,
+    "completion_tokens": 680,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1784,
+      "completion_tokens": 680,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

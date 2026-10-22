@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-24T11:19:38.847644+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "b4133e65c9ad7b83a6c6cc4a17f6fc204f7a7710c6942a6d5a35cc33da706660",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000031-p000-d67938a896",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘假加庚西’‘假加庚西’‘假加庚西’等表述存在错乱，候选句将‘假加庚西’误写为‘假设加上庚酉’，属于对原文错乱表述的不当改写；‘全再酉木甲卯’‘火內’‘曹’等含义不明的术语未按要求标注为‘具体所指不详’，直接进行了释义，不符合规则"
+        ],
+        "uncertainty": [
+          "原文中‘全再酉木甲卯’‘火內’‘曹’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000032-p000-e5bd171100",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘分丑方’‘张神’‘燕方’‘空应’‘曰庚生位’‘予癸旺位’‘八室’‘辰巽’等含义不明的术语未按要求标注为‘具体所指不详’，直接进行了释义，不符合规则；‘假加庚西’‘假加庚西’‘假加庚西’等表述存在错乱，候选句未按保守方式处理，属于不当改写"
+        ],
+        "uncertainty": [
+          "原文中‘分丑方’‘张神’‘燕方’‘空应’‘曰庚生位’‘予癸旺位’‘八室’‘辰巽’等术语具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000033-p000-459ef159df",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book013-b000034-p000-373ea3b201",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中‘四币’‘绯紫’‘妄天’等含义不明的术语未按要求标注为‘具体所指不详’，直接进行了释义，不符合规则；‘二丁四幣’‘人長妄天’等表述存在错乱，候选句未按保守方式处理，属于不当改写"
+        ],
+        "uncertainty": [
+          "原文中‘四币’‘绯紫’‘妄天’等术语具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1943,
+    "completion_tokens": 543,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1943,
+      "completion_tokens": 543,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

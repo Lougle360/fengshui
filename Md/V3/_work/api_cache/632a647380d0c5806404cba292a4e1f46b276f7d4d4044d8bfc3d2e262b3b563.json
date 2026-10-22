@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-24T11:33:38.490966+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "632a647380d0c5806404cba292a4e1f46b276f7d4d4044d8bfc3d2e262b3b563",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000132-p000-78c1958b7d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000133-p000-1f707667bd",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"尽节三龙位上若当凶三十絲根宗四位得位人織曰庫有錢與指\"一句语义晦涩，候选释读未明确其确切含义，且存在表述混乱问题"
+        ],
+        "uncertainty": [
+          "原文中\"尽节三龙位上若当凶三十絲根宗四位得位人織曰庫有錢與指\"一句语义晦涩，难以完全明确其确切含义"
+        ]
+      },
+      {
+        "id": "book013-b000134-p000-452854c588",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"卒金\"\"坤巾\"\"伐与\"\"川前局\"\"臾主榮覺\"等表述语义晦涩，候选释读未明确其确切含义；原文末尾存在残缺，候选释读未体现内容不完整的情况"
+        ],
+        "uncertainty": [
+          "原文中\"卒金\"\"坤巾\"\"伐与\"\"川前局\"\"臾主榮覺\"等表述语义晦涩，难以完全明确其确切含义；原文末尾存在残缺，内容不完整"
+        ]
+      },
+      {
+        "id": "book013-b000135-p000-050eece05d",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中\"通井\"\"八首\"\"满局\"\"七通人达\"\"天王经心迹\"等表述语义晦涩，候选释读未明确其确切含义"
+        ],
+        "uncertainty": [
+          "原文中\"通井\"\"八首\"\"满局\"\"七通人达\"\"天王经心迹\"等表述语义晦涩，难以完全明确其确切含义"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2665,
+    "completion_tokens": 490,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2665,
+      "completion_tokens": 490,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

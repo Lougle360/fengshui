@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T09:10:50.855340+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "93d2dd53123764d1fb4314d7be6de68de2dfef39b6ec30fbc04301e754665be4",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000152-p000-24848e1e74",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“八北”“法德”“四猪”“吉二”“四郎”具体所指不详"
+        ]
+      },
+      {
+        "id": "book010-b000153-p000-e22ba27439",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文关于穴的形态描述存在残缺"
+        ]
+      },
+      {
+        "id": "book010-b000154-p000-85ffa3402c",
+        "verdict": "accept",
+        "confidence": "low",
+        "issues": [],
+        "uncertainty": [
+          "原文存在大量残缺错乱，难以完整释读"
+        ]
+      },
+      {
+        "id": "book010-b000156-p000-81e033ecc1",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“地轴”“天肉”“金水脑”等具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 290,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1901,
+      "completion_tokens": 290,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

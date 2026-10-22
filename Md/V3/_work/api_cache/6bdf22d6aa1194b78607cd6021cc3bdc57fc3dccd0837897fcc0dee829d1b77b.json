@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-26T04:20:40.844337+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "6bdf22d6aa1194b78607cd6021cc3bdc57fc3dccd0837897fcc0dee829d1b77b",
+  "response": {
+    "items": [
+      {
+        "id": "book029-b002206-p000-46ae27b5f9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 源文中倪进士祖地的「第三頂賕扦」，候选误写为「最后在第三顶的位置安葬」，遗漏未释读的「賕」字且未做不确定性标注。2. 源文中程进士祖地的「直削從右邊架青龍扦」，候选擅自补出未在allowed_glossary中的「青龙位」术语并给出确定表述，不符合要求。3. 源文中潘尚书祖地仅标注「虎形」，候选未说明信息缺省情况；且将属于潘尚书祖地的「进士十二人一尚书三侍郎馀皆腰金」内容错误归类到汪天官祖地的虎形记载下，归属错误。4. 源文中的「直出方發」候选误写为「改为直向」，含义偏差；「久不麼」候选误写为「长久没有发迹」，「麼」为原文残字，无依据判定为「发迹」相关含义。",
+          "uncertainty=[",
+          "顶賕",
+          "咬虱穴",
+          "青龙扦",
+          "腰金",
+          "原松句",
+          "久不麼",
+          "直出"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1570,
+    "completion_tokens": 297,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1570,
+      "completion_tokens": 297,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

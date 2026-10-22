@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T21:09:18.239941+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "396fdf4f4c6d50d75b2afea70eae5b6338d7e6c80b3a62bef86bb62efbbcc41a",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000194-p000-67bded800a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000195-p000-1befa6e333",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000196-p000-31a753e05b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "allowed_glossary中“向”的定义为风水语境下建筑或穴位所朝的方位，此处原文“太尊只向三公明”属于天文星象描述，candidate译为“太尊只向三公的方向明亮”错误使用了风水语境的“向”定义，不符合原文语境"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book018-b000197-p000-c1d733f95b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“天帝受厘告功之室也”被误译为“天帝接受厘告、记录功绩的地方”，“受厘”是指祭祀后接受神所赐的福胙，“告功”是臣子向天帝报告功绩，此处释读不符合原义；“郎将虎贲居左右”为《步天歌》原文内容，candidate额外给“虎贲”加引号无依据，且opaque_terms要求“虎贲”原样保留在引号内的前提是赋予确定含义时，此处为原文引用无需额外加引号"
+        ],
+        "uncertainty": [
+          "“虎贲”具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3512,
+    "completion_tokens": 428,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3512,
+      "completion_tokens": 428,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

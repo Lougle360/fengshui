@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-24T13:48:05.170927+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e6ba25a864fc971cf1c835f0e6db0a1ddeb261522bcac0cf4d0a7f60f2003086",
+  "response": {
+    "items": [
+      {
+        "id": "book015-b000350-p000-9a8b0e3b92",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book015-b000351-p000-ca9b2262cb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中“中国術数学史”释为“中国术数学史”，但原文未明确“术数学”的具体所指，且原文核心是梳理中国历算学的发展脉络，此处释读存在偏离原文核心的问题"
+        ],
+        "uncertainty": [
+          "原文中“術数学”的具体所指未明确，释读为“术数学史”可能存在歧义"
+        ]
+      },
+      {
+        "id": "book015-b000352-p000-5a31073617",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文中“乾象天”的“乾”依allowed_glossary释为八卦之一，卦象及五行、方位依原文语境确定，此处释读符合要求"
+        ]
+      },
+      {
+        "id": "book015-b000353-p000-57119c2c2b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "locked_terms中的“向”被释为“建筑或穴位所朝的方位”，但此处“刘向”是人名，属于误换专业术语，不符合allowed_glossary的应用要求"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2230,
+    "completion_tokens": 357,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2230,
+      "completion_tokens": 357,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

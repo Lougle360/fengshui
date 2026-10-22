@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-10-17T10:41:23.119195+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "93b580e9e5e9a1199bcdc98c19e70787b0beac79ca55ad4a9a8c6d518a42c39c",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b003350-p000-c176982941",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'坐坤穴穴挨右加辛半分'，candidate译为'坐坤穴，穴位位置向右偏移并加入辛位半分'，'加入辛位'表述不准确，原文'加辛半分'指在辛的方向上增加半分（可能是分金或线度），并非'加入辛位'。",
+          "原文'使兑氣正貫左耳少微照龍天市照向'，candidate译为'使兑卦之气正对左耳，稍作照射龙脉，天市星照射向首'。'稍作照射'是对'少微'的误译，'少微'是星名，应保留为'少微星'。",
+          "原文'坐人卦武曲向地卦貪狼'，candidate译为'坐山对应人卦的武曲星，向首对应地卦的贪狼星'。'人卦'、'地卦'是特定术语，candidate直接解释为'坐山对应'、'向首对应'，可能简化了原文的复杂对应关系，存在信息丢失风险。",
+          "原文'兑兼庚辛之中皆吉氣故吉'，candidate译为'兑山兼庚辛之中位，都是吉气，所以吉利'。'兼庚辛之中'指兑山兼庚或兼辛的中间线度，candidate的'中位'表述不够精确。"
+        ],
+        "uncertainty": [
+          "'坐人卦武曲向地卦貪狼'的具体对应关系（如人卦、地卦指代什么）原文未明，candidate的解读是一种推测。"
+        ]
+      },
+      {
+        "id": "book035-b003351-p000-ce5a11d7d3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'巳上七穴'，candidate译为'巳山以上的七个穴位'。'巳上'可能指上文列举的七个穴位，也可能指'巳山'方位的穴位。结合上下文（前一条为兑山艮向，后一条为艮山辛向），'巳上'更可能指'以上'（即上文所述），而非'巳山'。此处存在关键误译。",
+          "原文'取坐虛穴下之法'，candidate译为'取坐虚穴下的法则'。'坐虚穴下'是风水术语，candidate未作任何解释或保留原词，直接放入句中，可能导致读者不解。应标注为不确定或保留原词。",
+          "原文'潢池聚氣'，candidate译为'潢池之气'。'潢池'可能为特定术语或地名，candidate未作说明，直接使用，可能导致误解。"
+        ]
+      },
+      {
+        "id": "book035-b003352-p000-c7fdee4b0f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b003353-p000-3d53e966be",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'天定貪狼蓋龍巨門蓋向'，candidate译为'天定武曲星盖龙，巨门星盖向'。此处将'貪狼'误译为'武曲'，是明显的反义或术语误换。",
+          "原文'干卦借配陰陽相見爲吉也'，candidate译为'干卦借配阴阳相见为吉'。'干卦'应为'乾卦'，可能是原文用字或OCR问题，但candidate未修正或说明。"
+        ]
+      },
+      {
+        "id": "book035-b003354-p000-73f9d4b271",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'干卦正配陰陽相見吉也'，candidate译为'干卦正配阴阳相见为吉'。'干卦'应为'乾卦'，candidate未修正或说明。",
+          "原文'巳午氣入也'，candidate译为'巳午气进入'。此句是解释'凶'的原因，candidate将其作为独立短句，衔接略显生硬，且'进入'什么未说明。"
+        ]
+      },
+      {
+        "id": "book035-b003355-p000-a86a2eed44",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'天定武曲蓋龍少微照龍南極照穴'，candidate译为'天定武曲星盖龙，少微星照龙，南极星照穴'。准确。",
+          "原文'但龍穴相間八宮氣遠力輕'，candidate译为'但龙与穴相间八宫，气远力轻'。准确。",
+          "原文'以干卦正配陰陽相見爲吉'，candidate译为'以干卦正配阴阳相见为吉'。'干卦'应为'乾卦'。",
+          "原文'兑脈分金收辛酉氣行布注者爲佳'，candidate译为'兑脉分金收辛酉气进行布气排列，注者更佳'。'注者'含义不明，candidate未解释，直接使用。"
+        ]
+      },
+      {
+        "id": "book035-b003356-p000-3252c5b960",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'取巽氣關斧貫棺右耳'，candidate译为'取巽气关斧贯穿棺木，从右耳进入'。'关斧'是风水术语，形容气脉形态，candidate未作解释，直接使用。",
+          "原文'惜非陰陽相見純卦無配'，candidate译为'可惜不是阴阳相见的纯卦无配'。'纯卦无配'含义不明，candidate未解释。",
+          "原文'蓋行龍入丙發福非常陰陽相見故也'，candidate译为'盖行龙入丙发福非常，是因为阴阳相见'。此句逻辑（'盖'表示原因）与前半句'惜非...'似乎矛盾，candidate的翻译未处理此矛盾，可能原文有误或理解有歧义。"
+        ]
+      },
+      {
+        "id": "book035-b003357-p000-f4d6daa07a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'忌林術官照向'，candidate译为'忌林术官照向'。'林术官'可能是星名或神煞名，candidate未作解释，直接使用。"
+        ]
+      },
+      {
+        "id": "book035-b003358-p000-ffea45efaa",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'巳上五穴'，candidate译为'巳山以上的五个穴位'。同第二条，'巳上'更可能指'以上'，而非'巳山'。关键误译。",
+          "原文'無所加饒'，candidate译为'没有额外增加饶让'。'加饶'是风水点穴中的调整手法，candidate的翻译基本达意。",
+          "原文'但放棺内首尾均氣爲佳'，candidate译为'但将棺木放入内，使首尾气机均匀为佳'。'放棺内'可能指棺木在穴中的放置位置或方式，candidate的翻译是一种合理的推测。",
+          "原文'更兌山丙向辛山丁向皆系右腰受氣便非卦氣正配向忌克龍以此不用'，candidate译为'更兼兑山丙向、辛山丁向，都系右腰受气，便非卦气正配，向忌克龙，因此不用'。准确。",
+          "原文'巳山艮向支龍力輕兑山巳向曜星不吉克卦初爻丁巳爲曜'，candidate译为'巳山艮向，支龙力轻；兑山巳向，曜星不吉，克卦初爻丁巳为曜'。准确。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3131,
+    "completion_tokens": 1713,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3131,
+      "completion_tokens": 1713,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

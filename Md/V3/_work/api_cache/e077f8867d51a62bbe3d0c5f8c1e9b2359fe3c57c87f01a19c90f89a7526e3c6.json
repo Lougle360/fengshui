@@ -1,0 +1,146 @@
+{
+  "created_at": "2026-10-18T08:09:26.416938+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e077f8867d51a62bbe3d0c5f8c1e9b2359fe3c57c87f01a19c90f89a7526e3c6",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005926-p000-582db4d1e0",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'七辰三巽'的'七辰'未译出，candidate直接译为'七辰中的第三辰'，但'七辰'在此处可能是一个特定术语或划分，不应省略。'七辰三巽'整体结构未清晰传达。",
+          "source中'看他入朝九星奇'，candidate译为'看它朝拜入局时九星奇特'，'入朝'在此处可能指九星进入特定宫位或格局，'朝拜入局'的译法不够准确，且'奇'译为'奇特'略显随意。",
+          "source中'土命人登科文書幷行長小先發'，candidate译为'土命人可登科及第，文书功名并行，长房与小儿房先发达'。'文书'与'功名'并列是增译，原文'文书'可能指文书运或特定事项。'长小'译为'长房与小儿房'是具体化推测，原文可能泛指长幼或特定房份，但未明确。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005927-p000-2517847dd3",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'星日馬管局其山'，candidate译为'星宿中的星日马星掌管此山的气局'，'管局'译为'掌管此山的气局'是合理的释义，但'星日马'是一个星宿名，应保持为专名，不宜拆解为'星宿中的星日马星'。",
+          "source中'若得葉度 吉水坐落得吉穴者'，candidate译为'若得叶度吉水，坐落得吉穴'。'叶度'可能是一个术语或误字，candidate未加引号或说明，直接当作专名使用，存在风险。",
+          "source中'法死落水自縊天傷絕嗣塡方進舍'，candidate译为'法死、落水、自缢、天伤、绝嗣等灾祸，填方进舍的凶事'。'法死'可能指刑死或非正常死亡，译为'法死'保留原词但未解释，可接受。'填方进舍'可能指过继、入赘等，译为'填方进舍的凶事'并归入'灾祸'，是合理的概括。",
+          "source中'分毫六差'，candidate译为'分毫六差'，保留原词但未解释，可能指细微差错，但'六差'含义不明，candidate未标注不确定性。",
+          "source中'一合三分乙在其中'，candidate译为'一合三分，乙在其中'，保留原词但未解释，含义不明，candidate未标注不确定性。",
+          "source中'神宜女虛危水火金度中來去吉參井水火金 度吉'，candidate译为'神宜女、虚、危、水、火、金度中来去吉。参、井、水、火、金度吉'。断句和罗列基本正确，但'水、火、金度'可能指五行属性而非星宿，candidate未明确区分。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005928-p000-9e6095b7ed",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005929-p000-b2e8c4d05e",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'已已木山七巽三辰'，candidate译为'已巳木山对应七巽中的第三辰'。'已已'应为'己巳'或'巳巳'的笔误，但candidate沿用'已巳'，未纠正。'七巽三辰'结构同第一项，'七巽'未译出。",
+          "source中'文章代代及第三位皆均'，candidate译为'文章代代及，第三位皆均'。断句可疑，可能应为'文章代代及第，三位皆均'，意指科举及第，且三房均发。candidate的断句和翻译不通顺。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005931-p000-380c7562b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'尾火虎管局其山'，candidate译为'尾火虎星管局此山'。同前，'尾火虎'是星宿名，应保持为专名。",
+          "source中'斷定天亡折傷孤寡惡疾八難臨門二代不絕必見雙生后主敗絕'，candidate译为'但断定天亡折伤，孤寡恶疾，八难临门，二代不绝，必见双生，后主败绝'。'二代不绝'可能指灾祸延续两代不绝，或第二代不灭绝，candidate译为'二代不绝'保留原词，但含义模糊，未标注不确定性。",
+          "source中'長房塡房過舍异姓同居'，candidate译为'长房填房过舍，异姓同居'。'填房过舍'可能指过继、入赘等，candidate保留原词，可接受。",
+          "source中'縱龍穴好生是吉宿度及水神吉'，candidate译为'纵然龙穴好，生是吉宿度及水神吉'。'生是'可能为'生时'或'生成'之误，或为'生'（生气）与'是'（正确）的组合，candidate直译不通，应标注不确定性。",
+          "source中'辛巳畢犯關煞亦凶'，candidate译为'辛巳毕犯关煞，亦凶'。'毕'可能指毕宿，candidate未加引号或说明。",
+          "source中'流神宜奎一至奎七度中去'，candidate译为'流神宜奎宿一至奎宿七度中去'。补充'宿'字可接受。",
+          "source中'尾金度朝入吉'，candidate译为'尾金度朝入吉'。'尾金度'可能指尾宿的金属性度，candidate保留原词，可接受。",
+          "source中'斗畢火度中來去大凶'，candidate译为'斗、毕火度中来去大凶'。断句正确。",
+          "source中'此山坐金不吉不可坐穴'，candidate译为'此山坐金不吉，不可坐穴'。'坐金'可能指坐山五行属金，candidate保留原词，可接受。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005932-p000-9c03273db5",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005933-p000-a5c00a8003",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'辛已金山正巽'，candidate译为'辛巳金山，正巽'。'辛已'应为'辛巳'笔误，candidate未纠正。",
+          "source中'若是大富逢金位應多殼 粟旺門風'，candidate译为'若是大富逢金位，应多壳粟旺门风'。'壳粟'可能指粮食财富，candidate保留原词，可接受。",
+          "source中'此星貴則親臨九族官則七代顯隆若是星辰失度一代便敗或見雙生男女富貴有'，candidate断句为'此星贵则亲临九族，官则七代显隆。若是星辰失度，一代便败，或见双生男女。富贵有昂日鸡管局。'。原文'富貴有'后直接接'昂日鷄管局'，candidate的断句合理，但'富贵有'语义不完整，可能为'富贵有/无'或'富贵有准'等，candidate未标注不确定性。",
+          "source中'昂日鷄管局其山'，candidate译为'富贵有昂日鸡管局。其山'。将'昂日鸡'与上文连接，但原文可能为'昂日鸡管局其山'，candidate断句可商榷，但整体影响不大。",
+          "source中'金山行木度爲才帛'，candidate译为'金山行木度为才帛'。'才帛'通'财帛'，candidate保留'才帛'，可接受。",
+          "source中'先中榮華小均發'，candidate译为'先中荣华小均发'。'先中'可能指先发中兴或房份，含义不明，candidate未标注不确定性。",
+          "source中'正坐乙穴爲 上吉及后關煞半吉半凶'，candidate译为'正坐乙穴为上吉，及后关煞半吉半凶'。'乙穴'可能指甲乙方位或特定穴位，candidate保留原词，可接受。",
+          "source中'宜坐昂日軫十二度至十六度'，candidate译为'宜坐昂日轸十二度至十六度'。'昂日'可能指昂宿，'轸'为轸宿，candidate连接在一起可能为'昂日轸'或'昂、轸'，存在歧义，未标注不确定性。",
+          "source中'或者以卦論巽山見酉爲曜 星不取殊不知曜與官星同位又辛祿居酉又得昂宿木度中峰山奇秀或尖圓向之出官富貴不'，candidate译为'或者以卦论，巽山见酉为曜星不取，殊不知曜与官星同位，又辛禄居酉，又得昂宿木度中峰山奇秀或尖圆向之，出官富贵。'。原文末尾'富貴不'可能未完，candidate未标注句子不完整。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005934-p000-a45943cb7c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005935-p000-1bddd528eb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate 将 source 中的‘習坐心三四度中’误译为‘习坐心三四度中’，‘习’字应为‘若’或‘如’字之误，导致语义不通。",
+          "candidate 将 source 中的‘臣胃昂畢三宿’误译为‘臣胃昂毕三宿’，‘臣’字应为‘氐’字之误，导致星宿名错误。",
+          "candidate 将 source 中的‘女虛度中’误译为‘女虚度中’，‘女’字应为‘女’（女宿）无误，但‘虚’字应为‘危’字之误，导致星宿名错误。",
+          "candidate 将 source 中的‘參井度中去凶來亦半吉’误译为‘参井度中去凶，来亦半吉’，原文‘去凶’后应为‘来亦半吉’，candidate 断句有误，导致语义不完整。",
+          "candidate 将 source 中的‘參宿土度中來’误译为‘参宿土度中来’，原文‘參宿土度中來’应为‘参宿土度中来’，candidate 无误，但需注意‘參’字为‘参’的异体字。",
+          "candidate 将 source 中的‘唯忌火度來去大凶’误译为‘唯忌火度来去，大凶’，原文无误，但需注意‘火度’指火星所临的度数。",
+          "candidate 整体未将古文转换为现代白话文，不符合 V3 目标‘普通读者能读懂的白话释读’的要求。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005936-p000-ab5463562a",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source中'癸巳水山 五巽五色'，candidate译为'癸巳水山，五巽（八卦之一）五色'。'五巽五色'可能指五分巽位、五种颜色或特定划分，candidate保留原词，但未解释'五色'，应标注不确定性。",
+          "source中'此龍喜怒不常富貴不水白屋公卿能使公卿絕滅中小貴水命福祿命金平平'，candidate译为'此龙喜怒不常，富贵不水，白屋公卿能使公卿绝灭。中小贵水命，福禄命金平平。'。'富贵不水'可能为'富贵不久'或'富贵不永'之误，candidate直译'不水'不通，应标注不确定性。'水命'、'命金'为命理术语，candidate保留，可接受。"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 948,
+    "completion_tokens": 386,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 4447,
+      "completion_tokens": 2897,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 948,
+      "completion_tokens": 386,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

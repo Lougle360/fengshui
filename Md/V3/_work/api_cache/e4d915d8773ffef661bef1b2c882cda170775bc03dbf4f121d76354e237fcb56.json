@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-04T00:41:46.488722+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "e4d915d8773ffef661bef1b2c882cda170775bc03dbf4f121d76354e237fcb56",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b000225-p000-7f3ebdbe9b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文的释读存在多处无依据的扩写和推测。原文‘仿佛高低依稀遠抱他一十者病水明服可年矣又于道地走再其何者直再限道何者真年民能 則穴可 定矣’文字错乱，candidate却将其解释为‘文中描述地形仿佛有高低起伏，又依稀像是远处环抱’、‘推测可能涉及地形高低与水系环绕的关系’、‘若“穴”可定，则需明辨“水”之来去与道之界限’。这些解释在原文中没有明确依据，属于过度解读。正确的做法应是明确指出原文错乱，无法连贯理解，并保留原文中可辨识的术语（如‘穴’、‘水’）和结构（如‘則穴可 定矣’）。"
+        ],
+        "uncertainty": [
+          "原文文字错乱，整体语意无法连贯"
+        ]
+      },
+      {
+        "id": "book035-b000230-p000-348662b5a2",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate对原文的释读存在增译和逻辑重构。原文‘四家則有止則或孤須求護托是軍山爾穆謂之明處市須永兩走允猶之山或稱水來護托者’语意不通，candidate将其处理为‘则四家之说虽有止则或显孤绝，必须寻求护托。文中提到“是军山尔穆谓之明处市须永两走允犹之山或称水来护托者”……’。前半句‘四家之说虽有止则或显孤绝’是对‘四家則有止則或孤’的过度解释，原文并未明示‘之说’或‘显’。后半句直接引用原文短语是正确的，但整体处理方式未能严格遵循‘只负责判错’的原则，而是进行了整合和解释。对于此类语意不通的段落，更合适的做法是直接指出其含义不详，并完整引用或分段处理，避免添加连接词和推测性解释。"
+        ],
+        "uncertainty": [
+          "‘是军山尔穆谓之明处市须永两走允犹之山或称水来护托者’的具体含义不详",
+          "‘四家則有止則或孤’的具体逻辑关系不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 529,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1076,
+      "completion_tokens": 529,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-24T23:32:18.528293+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "9d2b828840f2a8541a0ba7f23bd64aee06ad5a41c2ceabe1b7449691f0242fd1",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b001227-p000-dd1b0d00d3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“费仁寻”具体所指不明"
+        ]
+      },
+      {
+        "id": "book017-b001228-p000-015717d0c6",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“つ定壬”“莫ね美錯王馬壬”存在OCR识别误差，具体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001232-p000-ab9017c93b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“諶日庄子癸同富則王奇壬为差差错”整体含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001233-p000-dd36fe0976",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“今丁天元官”“半穴乾坤艮巽宫”“山中官”的准确含义不明"
+        ]
+      },
+      {
+        "id": "book017-b001234-p000-fcdc6b9f6f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“申已定人元”未明确为“申巳对应人元”，属于将不确定的断句推测写为确定事实；原文“日地元 官”未明确为“寅辰戌丑未对应地元宫”，属于无依据的断句释读"
+        ],
+        "uncertainty": [
+          "原文“申已定人元寅辰戌丑未日地元”的表述存在断句争议，人元、地元对应的具体干支划分需结合相关语境确认"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1641,
+    "completion_tokens": 460,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1641,
+      "completion_tokens": 460,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

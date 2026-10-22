@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-24T22:53:06.719455+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "328745552e5ebbd1a5c043434250c4c932e7fb19ca683da56419fa86f155a1b1",
+  "response": {
+    "items": [
+      {
+        "id": "book017-b000873-p000-2fc80ce24b",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文“元圍猴星”含义无依据，allowed_glossary未收录该术语，candidate直接沿用并默认其为既定风水术语，属于无依据释读",
+          "原文“然設始可說分天機安在內”中的“分”字被漏译，candidate表述为“体悟到天机安在内的道理”与原文不符"
+        ],
+        "uncertainty": [
+          "“元圍猴星”具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000875-p000-390353b25a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文存在日文假名“へ”，含义不明",
+          "“紅出”为字形错乱，无法释读",
+          "“舉出正向丑向星局之例由到即可紅出在内外之”表述错乱，无法完整释读"
+        ]
+      },
+      {
+        "id": "book017-b000881-p000-a13ebe538f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "“午”“十二午”为字形讹误，准确表述不详",
+          "“甲子れ”中“れ”为日文假名，含义不明",
+          "“卯”“车”为字形讹误，准确表述不详",
+          "“寒全水”表述错乱，具体所指不详"
+        ]
+      },
+      {
+        "id": "book017-b000882-p000-947cf9fd20",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "开头“ハ”为日文假名，含义不明",
+          "“ハ通之初卯”内容错乱，无法释读"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1968,
+    "completion_tokens": 460,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1968,
+      "completion_tokens": 460,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

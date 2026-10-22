@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-09-23T11:09:58.122077+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "c644b73c47f17d072970f02a6b8b3db2bcf88f8475de5bd9fcca9a090ef0e03e",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b000621-p000-9543a6c749",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将'势莫穹'释读为'地势便无法形成穹隆饱满的格局'，属于无依据的扩写。原文'势莫穹'含义较为模糊，可能指气势无法达到高远、盛大或圆满的状态，但'穹隆饱满'是具体化的现代描述，超出了allowed_glossary的范围，且原文并未提供此依据。",
+          "candidate将'帝辇帝都并帝禄，帝宫帝阙后当空'处理为陈述句'文中提到...这些帝王相关事物的后方都应当是空的'，但原文是并列的四个名词短语加一个结论，其逻辑关系（是举例还是比喻）存在歧义。candidate的释读方式（'文中提到...'）将原文的并列结构改写为引述和总结，改变了原文的表述风格和可能的修辞意图，虽未严重歪曲核心信息（后方当空），但属于不必要的句式转换，且'文中提到'是增译。"
+        ],
+        "uncertainty": [
+          "'势莫穹'的具体含义不确定，可能指气势不宏大、不圆满或无法高耸。",
+          "'帝辇、帝都、帝禄、帝宫、帝阙'在此处的具体所指和比喻关系不明确，是泛指帝王居所、车驾、俸禄，还是特指某种风水形局，原文未详。"
+        ]
+      },
+      {
+        "id": "book001-b000624-p000-0f40fc617c",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'是双金射坟，避得是仙人'释读为'如果是双金射向坟墓，能够避开它的人，就被称为仙人'，将'避得是仙人'理解为'能够避开它的人，就被称为仙人'，属于推测性解释，原文并未明确说'被称为'。更保守的释读应为'能够避开的，是仙人'或'能避开的，堪称仙人'，表示难度极高。"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 672,
+    "completion_tokens": 322,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 812,
+      "completion_tokens": 445,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    },
+    {
+      "prompt_tokens": 672,
+      "completion_tokens": 322,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-09-25T21:29:03.050156+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "e9d5be0960082be58c26590229ecba455b006e980e733dec7219c3db627d2bed",
+  "response": {
+    "items": [
+      {
+        "id": "book030-b001008-p000-1d3cab50bc",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“六背坎方”的“六”未作处理，漏译相关内容"
+        ],
+        "uncertainty": [
+          "“藥護穴塲所”存在讹误，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b001011-p000-dae17d66be",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“發斗第”“消仰”“青頌聯過甲”“爵位不甚青頌”“實青不善終”“蘆訣”“丁營祿”“可幸邾依六文餘可情力輕了”“张元不應之故”“欵尺之高文許之大”均存在残缺或讹误，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b001012-p000-0d264c857a",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "“侗憑據”“筩去”“清不青”“左手虎日一叚皆迷伷”“憑慷”均存在讹误，具体含义无法确定"
+        ]
+      },
+      {
+        "id": "book030-b001014-p000-f2326be3a4",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source原文“獲說墜瓮”被误译为“各种说法纷繁”，属于无依据释义；source中“地理拔人”的“拔”存在讹误可能，candidate直接认定为书名《地理拔人》不妥，原文末尾“可地理拔人卷四點六五十四”存在残损，candidate直接认定为“相关内容记载于《地理拔人》卷四，页码为點六五十四”属于把不确定内容写为确定事实"
+        ],
+        "uncertainty": [
+          "“貴有王夫”存在讹误，具体含义无法确定；“或乘以喻”中“喻”具体所指不详；“不可因消納中趨避太過而脫却龍氣不可以無意而省幹旋之法又不可以有意而失自然之誠可”存在残缺，部分语义无法完全确定；“獲說墜瓮”“地理拔人”“點六五十四”存在讹误或残损，具体含义、所指无法确定"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2662,
+    "completion_tokens": 578,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2662,
+      "completion_tokens": 578,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

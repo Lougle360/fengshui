@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T11:26:31.830805+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "984d1c4602e8546cecfa368ef876282619660c156432b3565c63fd97c9b740b6",
+  "response": {
+    "items": [
+      {
+        "id": "book013-b000084-p000-5ef7c6ea3a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000085-p000-9f34856e0a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": []
+      },
+      {
+        "id": "book013-b000086-p000-e6cc52041c",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“旆”“捍门”的具体所指不详，候选释读未标注该歧义，存在风险"
+        ],
+        "uncertainty": [
+          "原文中“旆”“捍门”的具体所指不详"
+        ]
+      },
+      {
+        "id": "book013-b000087-p000-406b60e799",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "原文中“旆”“捍门”的具体所指不详，候选释读未标注该歧义，存在风险"
+        ],
+        "uncertainty": [
+          "原文中“旆”“捍门”的具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2409,
+    "completion_tokens": 301,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2409,
+      "completion_tokens": 301,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T18:26:13.925123+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "9d405cee15ca7486676dd6b488f520ad932dbe6f6a470ca4d7cb33459121afc9",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b001949-p000-9b709f195c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001950-p000-572dc7b609",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "漏译原文中“守持正固”的表述，将“贞凶”的含义与“十年勿用”“无攸利”的逻辑关系混淆，未准确对应原文的爻辞释读结构"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001951-p000-07a080703e",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b001952-p000-3a9a190aad",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1498,
+    "completion_tokens": 274,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1498,
+      "completion_tokens": 274,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

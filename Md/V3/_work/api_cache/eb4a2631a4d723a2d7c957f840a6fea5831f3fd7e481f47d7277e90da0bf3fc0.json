@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-18T06:47:10.819384+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "eb4a2631a4d723a2d7c957f840a6fea5831f3fd7e481f47d7277e90da0bf3fc0",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005755-p000-b9917418b7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005756-p000-9df7d558a6",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文'秋是之 有公所外其中服之'语义不明，candidate 将其处理为'秋是之，有公所外其中服之。'并加注'此处具体所指不详'。但'秋是之'、'有公所外其中服之'本身是原文的断句，candidate 将其作为现代汉语句子呈现，并添加了'附录四法心镜：'，这属于无依据的增译。应直接说明原文语义不明，或保留原文短语并标注不确定性。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005757-p000-52e1a801f5",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 术语误换：原文'武风起祖'，candidate 写作'武曲起祖'。'武风'与'武曲'是不同术语，不能随意替换。\n2. 术语误换：原文'巨门孜路'，candidate 写作'巨门孜路'（保留了'孜'），但后文'孜路'与'入路'并用，candidate 在释读中未统一或说明，且'孜'字义不详，应作为opaque_term处理。\n3. 术语误换：原文'已山'，candidate 写作'已山'（保留），但注释中提到'可能为巳山'，这属于推测，不应在释读中暗示。应直接保留'已山'。\n4. 数字/干支变化：原文'震庚行龙'，candidate 写作'震庚行龙'（正确）。但后文'出百者'，candidate 写作'出百者'（保留），'百'可能为'面'之误，但candidate未标注此不确定性。\n5. 漏译：原文'欠去公竟'，candidate 写作'欠去公竟。'并加注'语义不明'，但'欠去公竟'本身是原文结尾，candidate 将其作为句子的一部分，未明确其与正文的割裂感或可能的衍文/结尾标记性质。"
+        ],
+        "uncertainty": [
+          "'孜路'、'出百'、'欠去公竟'等词句语义不明"
+        ]
+      },
+      {
+        "id": "book035-b005758-p000-f25899c0a7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005759-p000-5f2566a163",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005760-p000-02f6f57fc8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 术语误换：原文'良又次之'，candidate 写作'良又次之'（保留'良'），但注释中提到'通常作艮'。在释读正文中直接使用'良'，可能误导读者认为这是一个标准八卦术语。应作为opaque_term处理，或明确指出原文用字。\n2. 术语误换/误译：原文'方爲兑当'，candidate 写作'方为兑当'。'兑当'可能是一个特定术语或'恰当'之误，candidate 未标注此不确定性，直接作为'兑当'使用。\n3. 术语误换：原文'推其卦無明'，candidate 写作'推其卦无明'。'无明'可能为'爻象'或其它术语之误，或为'无'和'明'两个概念，candidate 未标注此不确定性。\n4. 增译：原文'相夫朝海棋辰之道'，candidate 写作'相夫朝海棋辰之道'。'相夫'可能为'相其'或'相于'之误，candidate 未标注此不确定性。\n5. 增译：原文'上載深操'，candidate 写作'上载深，操'。断句和释义有主观性，未标注不确定性。"
+        ],
+        "uncertainty": [
+          "'良'、'兑当'、'卦无明'、'相夫'、'棋辰'、'天禽'、'地兽'等词句在上下文中具体所指不详"
+        ]
+      },
+      {
+        "id": "book035-b005761-p000-bc51fb01bd",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005762-p000-ff6bec9233",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译/残缺处理不当：原文结尾'乾...'明显残缺，candidate 写作'乾...'并结束。但前文'四神之山，坤艮在近，乾'语义不完整，candidate 未在译文中明确标注此处原文残缺，导致句子不完整。\n2. 术语误换/未处理：原文'爲謂勞欲見離戰乾沒坤之道'，candidate 写作'为谓劳欲，见离战乾，没坤之道'。'劳欲'、'见离战乾'、'没坤'等词组语义不明，candidate 未将其作为opaque_terms处理或标注不确定性。\n3. 术语误换/未处理：原文'故尊晏曰'，candidate 写作'故尊晏曰'。'尊晏'可能为人名或特定称谓，candidate 未标注不确定性。\n4. 术语误换/未处理：原文'撤丙金弯高印'等一系列短语，candidate 直接保留，但未说明这些是风水术语或具体所指不详，容易让读者困惑。"
+        ],
+        "uncertainty": [
+          "原文后半段残缺，'乾'之后内容缺失。'尊晏'、'撤丙'、'金弯高印'、'亥华'、'红旗'、'华表'、'天节天肇'、'御待'等词组语义不明"
+        ]
+      },
+      {
+        "id": "book035-b005763-p000-ae2d6afd8f",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book035-b005764-p000-05f284363f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 漏译/残缺处理不当：原文结尾'其陽局僅有'明显残缺，candidate 写作'其阳局仅有...'并结束。未在译文中明确标注此处原文残缺。\n2. 术语误换/未处理：原文'合御街侯鱼上格'，candidate 写作'合御街侯鱼上格'。'御街侯鱼'可能为特定格局名称，candidate 未标注不确定性。\n3. 术语误换/未处理：原文'得龍脈龠度者'，candidate 写作'得龙脉龠度者'。'龠度'可能为'节度'或'钥度'之误，或为特定术语，candidate 未标注不确定性。\n4. 术语误换/未处理：原文'以山音生旺休衰論之'，candidate 写作'以山音生旺休衰论之'。'山音'可能指山家或方位五行，candidate 未标注不确定性。"
+        ],
+        "uncertainty": [
+          "原文结尾'其阳局仅有'残缺。'御街侯鱼'、'龠度'、'山音'等词在上下文中具体所指不详"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 6103,
+    "completion_tokens": 1740,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 6103,
+      "completion_tokens": 1740,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

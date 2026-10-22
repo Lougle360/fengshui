@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-10-18T01:47:38.933699+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "18d7f26ba243b147d5035490b31815489193a6c1f36fe8bbd1d4f10b3b2a7cb9",
+  "response": {
+    "items": [
+      {
+        "id": "book035-b005158-p000-34c5fb3598",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "候选文本将表格内容概括为连续叙述，丢失了原文表格的并列结构和具体对应关系。原文是表格，每列有独立的名称和解说，候选文本将其合并为对‘格抱双’等的解释，但原文中‘金怀左’等是独立的格局名称，并非‘格抱双’的穴形。",
+          "候选文本对‘解曰’内容的释读存在大量增译和推测，将原文简略、对仗的断语（如‘解曰：锁金怀左，得阳大气白，宽平之形，最宜旺相，主富贵攸久’）扩展为包含多种条件（‘若…若…’）的复杂叙述，改变了原文的表述方式，并可能添加了原文没有的细节。",
+          "候选文本将‘罡天头裹’等术语直接等同于‘格抱双’等，但原文表格中它们是并列的，候选文本的概括方式可能混淆了原文的层级或对应关系。",
+          "候选文本第二部分的概括（‘第二行数据对应…’）同样存在上述问题，将表格内容过度概括和推测性连接。",
+          "候选文本未保留原文中可能存在的OCR错误标记（如‘A国’、‘xηL’、‘+4大’等），也未在释读中说明这些是原文的不可读部分。"
+        ],
+        "uncertainty": [
+          "原文表格结构复杂，部分文字可能因OCR或排版导致难以准确断句和对应。",
+          "‘阳大气白’、‘局金图’等短语含义不明，候选文本未作说明而直接使用。",
+          "‘罡天头裹’、‘罡天鼻牵’等术语的具体风水意象难以确定。"
+        ]
+      },
+      {
+        "id": "book035-b005167-p000-a4567a0fc4",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2488,
+    "completion_tokens": 485,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2488,
+      "completion_tokens": 485,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

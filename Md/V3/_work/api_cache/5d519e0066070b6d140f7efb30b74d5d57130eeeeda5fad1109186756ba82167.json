@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-25T00:26:12.572214+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "5d519e0066070b6d140f7efb30b74d5d57130eeeeda5fad1109186756ba82167",
+  "response": {
+    "items": [
+      {
+        "id": "book018-b000548-p000-55a8afe1b9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "1. 左侧单元格OCR错字“首人龍潜”“节入能田”未标注说明，直接沿用错误字形，未向读者提示原表格文字存在识别讹误；2. 最后一行左侧对应文字应为“回龙入首”相关，释文直接对应“回龙”，未说明左侧“节入能田”是OCR识别错误，存在信息衔接断层；3. 第一行释文将原表格“首入龍直”直接判定为“直龍入首”属于排版问题，该结论属于无依据推测，原文未明确是排版问题，不应作为事实表述。"
+        ],
+        "uncertainty": [
+          "左侧第三行“昔入龍飛登穴不知高穴前鞏坦此格乃上聚”、第四行“首人龍潜”、第五行“节入能田”均存在OCR识别讹误，具体原文字形待核"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2423,
+    "completion_tokens": 251,
+    "cached_prompt_tokens": 1336,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2423,
+      "completion_tokens": 251,
+      "cached_prompt_tokens": 1336,
+      "usage_estimated": false
+    }
+  ]
+}

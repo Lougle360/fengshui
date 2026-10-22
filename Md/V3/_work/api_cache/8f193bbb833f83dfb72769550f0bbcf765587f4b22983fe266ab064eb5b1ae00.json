@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-10-04T03:25:05.743050+00:00",
+  "provider": "siliconflow",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "deepseek-ai/DeepSeek-V3.2",
+  "request_sha256": "8f193bbb833f83dfb72769550f0bbcf765587f4b22983fe266ab064eb5b1ae00",
+  "response": {
+    "items": [
+      {
+        "id": "book028-b000510-p000-96f6d50e0d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "本榦",
+          "募莖",
+          "小金之尼"
+        ]
+      },
+      {
+        "id": "book028-b000511-p000-0d1fcbaaba",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "嫌鈞",
+          "转皮"
+        ]
+      },
+      {
+        "id": "book028-b000514-p000-3314d936ea",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "腌臍"
+        ]
+      },
+      {
+        "id": "book028-b000515-p000-6554ab4150",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘五星落頭’是一个术语或标题，candidate仅说‘文中提到了’，未进行释读，不符合‘普通读者能读懂的白话释读’目标。应尝试解释或说明其可能指代的内容，或明确标注为未解术语。"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book028-b000516-p000-bb069506c7",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "量金使斗",
+          "出人生離",
+          "长病人有"
+        ]
+      },
+      {
+        "id": "book028-b000517-p000-a96299d689",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "女滛可醜"
+        ]
+      },
+      {
+        "id": "book028-b000518-p000-fb27289e83",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "candidate将‘进财卷二大有紫衣中書高貴長久 大有紫衣中書富貴長久’释读为‘如果水星无口，则进财。文中还提到‘卷二’、‘大有’、‘紫衣中书’等词，称其主高贵长久或富贵长久’。原文‘进财卷二’可能是一个整体（如‘进财卷二’或‘进财，卷二’），candidate将其拆分为‘进财’和‘卷二’，并处理为独立提及的词语，可能改变了原文的句读和结构，存在漏译或误译风险。"
+        ],
+        "uncertainty": [
+          "蛇伤",
+          "牛关",
+          "扛尸落水",
+          "卷二",
+          "大有",
+          "紫衣中书"
+        ]
+      },
+      {
+        "id": "book028-b000519-p000-1fdffc2616",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "定否",
+          "鬼寨",
+          "倒地少有",
+          "大言",
+          "蓄积长久"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1920,
+    "completion_tokens": 556,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1920,
+      "completion_tokens": 556,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

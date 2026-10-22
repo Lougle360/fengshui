@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-24T17:29:00.274805+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "987dd119085b67a7ea078ab459d451b174245bad3c2d9edb77f2ce95c86eeeda",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b000937-p000-35741ecc39",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000938-p000-b5013e529d",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000939-p000-05b168e857",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b000940-p000-aa714a998a",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "locked_term '向' 未按 allowed_glossary 定义处理，原文未出现该术语，属于误引入"
+        ],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2225,
+    "completion_tokens": 253,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 2225,
+      "completion_tokens": 253,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

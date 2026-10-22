@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-24T11:04:44.180995+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "e8773812e29ecbadadd61e42668210c516e3f89388b791e4ca24a1b5f3a0e7df",
+  "response": {
+    "items": [
+      {
+        "id": "book011-b000143-p000-582d7d6a50",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000144-p000-77aac26175",
+        "verdict": "accept",
+        "confidence": "medium",
+        "issues": [],
+        "uncertainty": [
+          "原文末尾残缺，语义不完整"
+        ]
+      },
+      {
+        "id": "book011-b000145-p000-f128d6fbfb",
+        "verdict": "revise",
+        "confidence": "medium",
+        "issues": [
+          "将原文中‘阳关山陷因阵亡阳开申砂也’释为‘阳关山陷对应阵亡，阳开指的是申砂’，属于对原文含混表述的主观确定解释，无依据将‘阳开’对应申砂，违反术语解释规则"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book011-b000146-p000-e53b8d0037",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1613,
+    "completion_tokens": 264,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1613,
+      "completion_tokens": 264,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

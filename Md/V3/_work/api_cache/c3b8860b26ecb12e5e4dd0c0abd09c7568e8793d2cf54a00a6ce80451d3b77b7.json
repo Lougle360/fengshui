@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-24T09:56:15.732248+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-mini-260428",
+  "request_sha256": "c3b8860b26ecb12e5e4dd0c0abd09c7568e8793d2cf54a00a6ce80451d3b77b7",
+  "response": {
+    "items": [
+      {
+        "id": "book010-b000419-p000-038adfb47f",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文为‘穿割、箭射四凶合避’，候选句将‘四凶’误释为‘穿割、箭射四种情形’，漏译‘四凶’的核心含义，且未体现‘合避’的要求，存在语义偏差"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000420-p000-c876190337",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book010-b000421-p000-7b86562204",
+        "verdict": "uncertain",
+        "confidence": "low",
+        "issues": [
+          "原文存在多处断句混乱、字符残缺（如‘脉 自。 止。 以0 之。 風 則。 如風不’），候选句的释读存在主观补全，不符合原文残缺的实际情况"
+        ],
+        "uncertainty": [
+          "原文存在字符残缺，部分内容无法准确释读"
+        ]
+      },
+      {
+        "id": "book010-b000422-p000-998625da3c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1541,
+    "completion_tokens": 320,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 1541,
+      "completion_tokens": 320,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

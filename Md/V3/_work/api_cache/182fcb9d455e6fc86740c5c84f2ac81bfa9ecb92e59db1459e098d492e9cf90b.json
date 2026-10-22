@@ -1,0 +1,101 @@
+{
+  "created_at": "2026-09-24T23:20:11.266230+00:00",
+  "provider": "volcengine-ark",
+  "model": "doubao-seed-2-0-pro-260215",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "182fcb9d455e6fc86740c5c84f2ac81bfa9ecb92e59db1459e098d492e9cf90b",
+  "response": {
+    "items": [
+      {
+        "id": "book016-b004476-p000-7baea48338",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source最后一句原文为“爻也者，效天著也”，此处存在原文脱漏，candidate将其译为“爻，是仿效天下事物的变动”，而对应完整原文应为“爻也者，效天下之动者也”“吉凶生而悔吝著也”，candidate无依据补入“变动”义，且漏译“著”相关内容，与给定source不符"
+        ],
+        "uncertainty": [
+          "source此处“效天著也”存在明显脱讹，无法准确释读完整含义"
+        ]
+      },
+      {
+        "id": "book016-b004477-p000-cf0d017447",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004478-p000-69a21397ac",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004479-p000-e446410ee3",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004480-p000-882baeed3b",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004481-p000-ae7556e876",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "source语义为“以上内容说明是第三章”，candidate译为“以上是第三章的说明”，含义颠倒，与原文不符"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004482-p000-b965258325",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004483-p000-d952bb3e48",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004484-p000-ac845583b8",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book016-b004485-p000-34cef612f1",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3757,
+    "completion_tokens": 637,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3757,
+      "completion_tokens": 637,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}

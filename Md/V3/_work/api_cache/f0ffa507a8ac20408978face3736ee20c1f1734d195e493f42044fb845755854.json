@@ -1,0 +1,109 @@
+{
+  "created_at": "2026-09-24T01:44:14.259065+00:00",
+  "provider": "volcengine-ark",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "remote_model": "doubao-seed-2-0-pro-260215",
+  "request_sha256": "f0ffa507a8ac20408978face3736ee20c1f1734d195e493f42044fb845755854",
+  "response": {
+    "items": [
+      {
+        "id": "book001-b001368-p000-8d40832ba9",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文开头‘不但如是而已’意为‘不只是这样罢了’，候选译为‘并非如此’，语义相反；原文‘以为不知何人之计’是说（这些人贪求巧取的行为）反倒成了不知道给什么人做的算计，候选译为‘想方设法算计，以为是别人的计谋’语义理解错误，不符合原文逻辑"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001369-p000-4b2ddec248",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001370-p000-55472eaf8c",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": [
+          "原文未竟，缺字无法确认"
+        ]
+      },
+      {
+        "id": "book001-b001371-p000-80f2a160f8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘后世二标准’表述有误，应为‘后世的标准’，原文此处无‘两大’的语义，属于无依据增译；原文‘为其得为以尽，其必诚必信之道者’意为‘做自己能做的来尽力，秉持那一定要诚恳一定要守信的原则’，候选调整语序后未改变核心含义可接受，但‘两大标准’属于无依据添加"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001372-p000-b4ce8430fb",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘死葬以礼祭之，以礼敛手足，形还之葬，与葬以天下一也’断句理解有误，正确语义是‘下葬依照礼，祭祀依照礼，收殓好手足形体，归葬入土，和用天下通礼安葬是一样的’，候选增译了三次‘要依照礼制’，属于不必要的重复释义且改变原文语句逻辑；原文‘致严于庙，以尽人鬼之情’是‘在宗庙祭祀上极为严谨，来尽到人和鬼神之间的情理’，候选译为‘以此尽到对祖先的敬意’属于过度释义，无依据"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001373-p000-f997c359d7",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001374-p000-1ac3383687",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘夫道不足以公天下，法不足以关后世，而垂训者未之闻也’意为‘道不能够公行于天下，法不能够流传后世，这样还能垂示教训的，从来没有听说过’，候选译为‘那些不能公正对待天下、不能约束后世、也没有流传下来的法则，我们就不必谈论了’语义完全理解错误，和原文含义相反；原文‘辟如有病不治，常得中医’是‘比如有病不刻意求治，通常能达到中等医生的治疗效果’，候选译为‘比如生病不请高明的医生，常得到普通医生的治疗’属于理解错误，添加了原文没有的‘不请高明的医生’语义；原文中‘砂’属于locked_terms，候选未保留‘砂’原样，直接和‘砂砾’合并未按照要求使用术语解释，违反locked_terms规则"
+        ],
+        "uncertainty": [
+          "原文残缺，缺字无法确认"
+        ]
+      },
+      {
+        "id": "book001-b001375-p000-a62d8e14e8",
+        "verdict": "revise",
+        "confidence": "high",
+        "issues": [
+          "原文‘一杯之壤’是‘一捧土’的意思，这里指代墓穴，候选保留‘一杯之土’属于错字，应为‘一抔之土’，且未明确释义导致读者容易误解为‘一杯’的量词含义"
+        ],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001376-p000-e661649534",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      },
+      {
+        "id": "book001-b001377-p000-9c0e647e5a",
+        "verdict": "accept",
+        "confidence": "high",
+        "issues": [],
+        "uncertainty": []
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3427,
+    "completion_tokens": 1132,
+    "cached_prompt_tokens": 0,
+    "usage_estimated": false
+  },
+  "usage_calls": [
+    {
+      "prompt_tokens": 3427,
+      "completion_tokens": 1132,
+      "cached_prompt_tokens": 0,
+      "usage_estimated": false
+    }
+  ]
+}
