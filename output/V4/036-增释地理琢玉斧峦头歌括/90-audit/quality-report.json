@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-26T16:20:48.477859+00:00",
+  "book": "增释地理琢玉斧峦头歌括",
+  "edition_scope": "full_reader_edition_source_pages_1_80",
+  "source_pages_total": 80,
+  "grade": "B",
+  "grade_label": "readable_with_backend_ledger",
+  "semantic_audit": {
+    "status": "passed_with_ledger",
+    "page_level_visual_coverage": 80,
+    "reader_facing_uncertainty_markers": 9
+  },
+  "structural_audit": {
+    "status": "passed",
+    "blocks_each_stage": 80,
+    "raw_html_tags": 0,
+    "internal_pipeline_messages": 0
+  },
+  "models": [
+    "Qwen/Qwen3-VL-32B-Instruct",
+    "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "Qwen/Qwen3.5-122B-A10B",
+    "PaddlePaddle/PaddleOCR-VL-1.5"
+  ],
+  "publication": {
+    "pdf": "60-publication/增释地理琢玉斧峦头歌括·现代白话版.pdf",
+    "pdf_pages": 67,
+    "pdf_bytes": 38688218,
+    "pdf_sha256": "F1D2D59CBFC81F70296F17A96705B021C392D00A3690497298825E062C33F900",
+    "modern_markdown": "60-publication/modern-reading.md",
+    "rendered_pages_inspected": 67,
+    "visual_defects_found": 0,
+    "source_comparison_markdown": "60-publication/source-comparison.md",
+    "source_comparison_pdf": "60-publication/增释地理琢玉斧峦头歌括·原文对照版.pdf",
+    "source_comparison_pdf_pages": 92,
+    "source_comparison_pdf_bytes": 86547564,
+    "source_comparison_pdf_sha256": "B8092E43B7B26482DA432C4780E41550744D6EB79BB4E87DD8D4A87BB15655B3",
+    "visual_inspection_method": "all-page contact review plus full-resolution representative pages"
+  },
+  "limitations": [
+    "The available source PDF ends mid-discussion; the missing continuation is explicitly disclosed and is not reconstructed.",
+    "Reader-facing notes identify high-risk pages; detailed OCR and collation evidence remains in the backend audit ledger."
+  ],
+  "edition_label": "现代白话版",
+  "target_reader": "现代普通读者",
+  "source_pdf": {
+    "path": "D:\\壮五福\\风水项目\\Docs\\地学古本-明代\\增释地理琢玉斧峦头歌括 张九仪.pdf",
+    "sha256": "A8905DFF46683B57B0BF695C8263C0A098B4EF0106E571564F6A1C898B970A06",
+    "bytes": 6399616,
+    "physical_pages": 80,
+    "page_accounting": {
+      "physical_pages": 80,
+      "included_content": 79,
+      "blank_or_noncontent": 1,
+      "excluded": 0,
+      "unreadable": 0
+    }
+  },
+  "uncertainty_ledger": {
+    "records": 85,
+    "by_severity": {
+      "medium": 37,
+      "low": 26,
+      "high": 22
+    },
+    "by_status": {
+      "open": 73,
+      "resolved_nonbody": 12
+    },
+    "reader_facing_markers": 9
+  },
+  "cost": {
+    "amount_rmb": null,
+    "status": "historical_run_not_metered_in_workspace",
+    "v4_migration_incremental_cost_rmb": 0
+  },
+  "validation": {
+    "validated_at": "2026-09-26T16:22:19.228450+00:00",
+    "contract_validator": {
+      "status": "passed",
+      "counts": {
+        "source": 80,
+        "normalized": 80,
+        "modernized": 80,
+        "edited": 80
+      },
+      "errors": []
+    },
+    "publication_auditor": {
+      "status": "passed",
+      "official_pdf": "60-publication\\增释地理琢玉斧峦头歌括·现代白话版.pdf",
+      "errors": [],
+      "warnings": []
+    },
+    "official_reader_visual_review": {
+      "status": "passed",
+      "rendered_pages": 67,
+      "method": "all-page contact review and full-resolution review of cover, credits, TOC, figures, body, glossary, and closing page",
+      "defects": 0
+    },
+    "source_comparison_visual_review": {
+      "status": "passed",
+      "rendered_pages": 92,
+      "method": "all-page contact review plus full-resolution review of structured audit-note pages",
+      "defects": 0
+    },
+    "publication_root_pdf_files": [
+      "增释地理琢玉斧峦头歌括·原文对照版.pdf",
+      "增释地理琢玉斧峦头歌括·现代白话版.pdf"
+    ]
+  }
+}
