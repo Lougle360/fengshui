@@ -1,0 +1,499 @@
+{
+  "generated_at": "2026-09-18T08:27:31.757097+00:00",
+  "book": "002 入地眼全书",
+  "policy": "pending items must be checked against the scan; uncertain readings remain unresolved",
+  "summary": {
+    "priority_pages": 26,
+    "routes": {
+      "mixed_layout_visual_review": 10,
+      "ocr_text_visual_review": 11,
+      "pure_image_visual_review": 5
+    },
+    "residual_header_lines": 0,
+    "existing_model_candidates": 8,
+    "auto_applicable_model_candidates": 0
+  },
+  "priority_pages": [
+    {
+      "pdf_page": 5,
+      "book_page": 1,
+      "risk_level": "critical",
+      "risk_score": 11,
+      "risk_reasons": [
+        "文本极少",
+        "平均置信度一般",
+        "低置信字符较多",
+        "含标题结构",
+        "书籍边界页"
+      ],
+      "characters": 21,
+      "route": "ocr_text_visual_review",
+      "status": "partially_resolved",
+      "crop_images": [
+        "pdf-0005-full.jpg"
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "book_page": 13,
+      "risk_level": "critical",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高",
+        "多处竖排文本"
+      ],
+      "characters": 687,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0017-top.jpg",
+        "pdf-0017-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 32,
+      "book_page": 28,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 593,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0032-top.jpg",
+        "pdf-0032-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 33,
+      "book_page": 29,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "平均置信度一般",
+        "低置信字符较多",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 676,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0033-top.jpg",
+        "pdf-0033-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 34,
+      "book_page": 30,
+      "risk_level": "critical",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高",
+        "多处竖排文本"
+      ],
+      "characters": 773,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0034-top.jpg",
+        "pdf-0034-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 35,
+      "book_page": 31,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "平均置信度一般",
+        "低置信字符较多",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 665,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0035-top.jpg",
+        "pdf-0035-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 58,
+      "book_page": 54,
+      "risk_level": "critical",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高",
+        "多处竖排文本"
+      ],
+      "characters": 647,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0058-top.jpg",
+        "pdf-0058-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 59,
+      "book_page": 55,
+      "risk_level": "critical",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高",
+        "多处竖排文本"
+      ],
+      "characters": 666,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0059-top.jpg",
+        "pdf-0059-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "book_page": 77,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高"
+      ],
+      "characters": 719,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0081-top.jpg",
+        "pdf-0081-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 97,
+      "book_page": 93,
+      "risk_level": "critical",
+      "risk_score": 9,
+      "risk_reasons": [
+        "平均置信度一般",
+        "低置信字符较多",
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 624,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0097-top.jpg",
+        "pdf-0097-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 100,
+      "book_page": 96,
+      "risk_level": "critical",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高",
+        "多处竖排文本"
+      ],
+      "characters": 653,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0100-top.jpg",
+        "pdf-0100-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 104,
+      "book_page": 100,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 415,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0104-top.jpg",
+        "pdf-0104-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 105,
+      "book_page": 101,
+      "risk_level": "critical",
+      "risk_score": 11,
+      "risk_reasons": [
+        "文本密度明显偏低",
+        "平均置信度一般",
+        "低置信字符较多",
+        "含图片/表格/图示",
+        "多处竖排文本"
+      ],
+      "characters": 144,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0105-top.jpg",
+        "pdf-0105-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 106,
+      "book_page": 102,
+      "risk_level": "critical",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度一般",
+        "低置信字符较多",
+        "含图片/表格/图示",
+        "多处竖排文本"
+      ],
+      "characters": 399,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0106-top.jpg",
+        "pdf-0106-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 110,
+      "book_page": 106,
+      "risk_level": "high",
+      "risk_score": 7,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符较多",
+        "多处竖排文本"
+      ],
+      "characters": 469,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0110-top.jpg",
+        "pdf-0110-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 121,
+      "book_page": 117,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "平均置信度一般",
+        "低置信字符较多",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 585,
+      "route": "ocr_text_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0121-top.jpg",
+        "pdf-0121-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 133,
+      "book_page": 129,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 516,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0133-top.jpg",
+        "pdf-0133-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 140,
+      "book_page": 136,
+      "risk_level": "critical",
+      "risk_score": 9,
+      "risk_reasons": [
+        "文本密度明显偏低",
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 207,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0140-top.jpg",
+        "pdf-0140-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 146,
+      "book_page": 142,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 379,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0146-top.jpg",
+        "pdf-0146-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 151,
+      "book_page": 147,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "平均置信度一般",
+        "含图片/表格/图示",
+        "多处竖排文本"
+      ],
+      "characters": 334,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0151-top.jpg",
+        "pdf-0151-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 154,
+      "book_page": 150,
+      "risk_level": "high",
+      "risk_score": 6,
+      "risk_reasons": [
+        "含图片/表格/图示",
+        "含标题结构",
+        "多处竖排文本"
+      ],
+      "characters": 256,
+      "route": "mixed_layout_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0154-top.jpg",
+        "pdf-0154-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 155,
+      "book_page": 151,
+      "risk_level": "critical",
+      "risk_score": 11,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示"
+      ],
+      "characters": 0,
+      "route": "pure_image_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0155-top.jpg",
+        "pdf-0155-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 156,
+      "book_page": 152,
+      "risk_level": "critical",
+      "risk_score": 11,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示"
+      ],
+      "characters": 0,
+      "route": "pure_image_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0156-top.jpg",
+        "pdf-0156-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 157,
+      "book_page": 153,
+      "risk_level": "critical",
+      "risk_score": 11,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示"
+      ],
+      "characters": 0,
+      "route": "pure_image_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0157-top.jpg",
+        "pdf-0157-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 163,
+      "book_page": 159,
+      "risk_level": "critical",
+      "risk_score": 11,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示"
+      ],
+      "characters": 0,
+      "route": "pure_image_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0163-top.jpg",
+        "pdf-0163-bottom.jpg"
+      ]
+    },
+    {
+      "pdf_page": 166,
+      "book_page": 162,
+      "risk_level": "critical",
+      "risk_score": 10,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "书籍边界页"
+      ],
+      "characters": 0,
+      "route": "pure_image_visual_review",
+      "status": "pending",
+      "crop_images": [
+        "pdf-0166-top.jpg",
+        "pdf-0166-bottom.jpg"
+      ]
+    }
+  ],
+  "residual_headers": [],
+  "model_candidate_screen": {
+    "corrections": 8,
+    "classifications": {
+      "reject_identical": 4,
+      "reject_or_manual": 3,
+      "reject_whitespace_only": 1
+    }
+  }
+}

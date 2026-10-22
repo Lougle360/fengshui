@@ -1,0 +1,786 @@
+{
+  "generated_at": "2026-09-18T08:12:49.549031+00:00",
+  "source_documents": 23,
+  "source_pages": 6677,
+  "logical_books": 36,
+  "logical_book_pages_risk_scored": 6397,
+  "excluded_collection_pages_risk_scored": 22,
+  "duplicate_source_pages_inheriting_identical_page_results": 258,
+  "duplicate_mapping": {
+    "kept": "doc017",
+    "excluded": "doc018",
+    "reason": "两个源 PDF 的 SHA-256 完全相同，仅保留一个逻辑书输出"
+  },
+  "accounted_source_pages": 6677,
+  "coverage_complete": true,
+  "excluded_pages": [
+    {
+      "book_page": 1,
+      "pdf_page": 1,
+      "page_idx": 0,
+      "characters": 0,
+      "cjk_ratio": 0.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": null,
+      "minimum_confidence": null,
+      "low_confidence_ratio": null,
+      "block_count": 1,
+      "block_types": {
+        "image": 1
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 0,
+      "text_preview": "",
+      "doc_id": "doc002",
+      "excluded_reason": "合刊封面、出版信息与公共前言",
+      "risk_score": 13,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示",
+        "书籍边界页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 120.0,
+        "q10_chars": 85.6,
+        "q90_chars": 413.6
+      }
+    },
+    {
+      "book_page": 2,
+      "pdf_page": 2,
+      "page_idx": 1,
+      "characters": 120,
+      "cjk_ratio": 0.5,
+      "latin_ratio": 0.1083,
+      "weird_characters": 0,
+      "long_latin_runs": 1,
+      "mean_confidence": 0.9391,
+      "minimum_confidence": 0.602,
+      "low_confidence_ratio": 0.025,
+      "block_count": 5,
+      "block_types": {
+        "text": 5
+      },
+      "vertical_blocks": 1,
+      "wide_blocks": 1,
+      "text_preview": "1996-2000年(“九五”)國家重點圖書出版規劃元吴郡庠刻本《通鑑總類》扉頁背面所鈐「五福五代堂古稀天子寶」，方8.1cm×8.1cm，「八微老念之寶」，方8.2cmx8.2cm'「太上皇帝之寶」'方8.1cm×8.1cm。堂古福山啤有",
+      "doc_id": "doc002",
+      "excluded_reason": "合刊封面、出版信息与公共前言",
+      "risk_score": 2,
+      "risk_reasons": [
+        "含竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "low",
+      "cohort_stats": {
+        "median_chars": 120.0,
+        "q10_chars": 85.6,
+        "q90_chars": 413.6
+      }
+    },
+    {
+      "book_page": 3,
+      "pdf_page": 3,
+      "page_idx": 2,
+      "characters": 77,
+      "cjk_ratio": 0.987,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.991,
+      "minimum_confidence": 0.967,
+      "low_confidence_ratio": 0.0,
+      "block_count": 4,
+      "block_types": {
+        "text": 4
+      },
+      "vertical_blocks": 4,
+      "wide_blocks": 0,
+      "text_preview": "故宮博物院編入地眼全書新刻石函平砂玉尺經全書真機新刊地理五經四書解義郭朴葬經新鐫京版工師雕斲正式魯班經匠家鏡新刻法師選擇紀全靈驅解法洞明真言秘書（秘訣仙機",
+      "doc_id": "doc002",
+      "excluded_reason": "合刊封面、出版信息与公共前言",
+      "risk_score": 6,
+      "risk_reasons": [
+        "文本密度明显偏低",
+        "多处竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "high",
+      "cohort_stats": {
+        "median_chars": 120.0,
+        "q10_chars": 85.6,
+        "q90_chars": 413.6
+      }
+    },
+    {
+      "book_page": 4,
+      "pdf_page": 4,
+      "page_idx": 3,
+      "characters": 487,
+      "cjk_ratio": 0.6366,
+      "latin_ratio": 0.0349,
+      "weird_characters": 0,
+      "long_latin_runs": 4,
+      "mean_confidence": 0.9664,
+      "minimum_confidence": 0.912,
+      "low_confidence_ratio": 0.0,
+      "block_count": 11,
+      "block_types": {
+        "text": 10,
+        "title": 1
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 9,
+      "text_preview": "圖書在版編目(CIP)數據水龍經/(晉)郭璞撰.-影印木.-海口：海南出版社，2000.10(故宫珍本叢刊)本書與“地理四彈子/(南唐)何令通撰”等18種書合訂ISBN7-80645-742-9I.水…Ⅱ.郭…Ⅲ.風水-中國-古代Ⅳ.Z12",
+      "doc_id": "doc002",
+      "excluded_reason": "合刊封面、出版信息与公共前言",
+      "risk_score": 5,
+      "risk_reasons": [
+        "连续拉丁字符较多",
+        "含标题结构",
+        "书籍边界页",
+        "卷首页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 120.0,
+        "q10_chars": 85.6,
+        "q90_chars": 413.6
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 346,
+      "page_idx": 345,
+      "characters": 180,
+      "cjk_ratio": 0.8333,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.936,
+      "minimum_confidence": 0.77,
+      "low_confidence_ratio": 0.0778,
+      "block_count": 11,
+      "block_types": {
+        "text": 8,
+        "title": 3
+      },
+      "vertical_blocks": 11,
+      "wide_blocks": 0,
+      "text_preview": "入地眼全書目錄新刻石函平砂玉尺經全書真機目錄原犀頁……平砂玉尺繩序……玉尺纏卷一上………玉尺經卷一下…新刊地理五經四書解巖郭朴葬經目錄郭朴葬經卷一新鐫京板工師雕正式魯班經匠家鏡目錄魯班羅卷之一………二七九拳班羅巻之二……………………二九七拳",
+      "doc_id": "doc002",
+      "excluded_reason": "合刊总目录",
+      "risk_score": 5,
+      "risk_reasons": [
+        "含标题结构",
+        "多处竖排文本",
+        "书籍边界页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 180.0,
+        "q10_chars": 180.0,
+        "q90_chars": 180.0
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 1,
+      "page_idx": 0,
+      "characters": 0,
+      "cjk_ratio": 0.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": null,
+      "minimum_confidence": null,
+      "low_confidence_ratio": null,
+      "block_count": 1,
+      "block_types": {
+        "image": 1
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 0,
+      "text_preview": "",
+      "doc_id": "doc003",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 13,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示",
+        "书籍边界页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 122.0,
+        "q10_chars": 42.0,
+        "q90_chars": 374.0
+      }
+    },
+    {
+      "book_page": 2,
+      "pdf_page": 2,
+      "page_idx": 1,
+      "characters": 122,
+      "cjk_ratio": 0.4672,
+      "latin_ratio": 0.1557,
+      "weird_characters": 0,
+      "long_latin_runs": 3,
+      "mean_confidence": 0.9208,
+      "minimum_confidence": 0.57,
+      "low_confidence_ratio": 0.0328,
+      "block_count": 5,
+      "block_types": {
+        "text": 5
+      },
+      "vertical_blocks": 1,
+      "wide_blocks": 1,
+      "text_preview": "1996-2000年(“九五”)國家重點圖書出版规劃KESH古福元吴郡庠刻本《通鑑總類》扉頁背面所鈴「五福五代堂古稀天子寶」，方8.1cmx8.1cm，「八微耄念之寶」，方8.2cmx8.2cm'「太上皇帝之寶」'方8.1cm×8.1cm°",
+      "doc_id": "doc003",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 3,
+      "risk_reasons": [
+        "连续拉丁字符较多",
+        "含竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 122.0,
+        "q10_chars": 42.0,
+        "q90_chars": 374.0
+      }
+    },
+    {
+      "book_page": 3,
+      "pdf_page": 3,
+      "page_idx": 2,
+      "characters": 22,
+      "cjk_ratio": 1.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.9995,
+      "minimum_confidence": 0.999,
+      "low_confidence_ratio": 0.0,
+      "block_count": 2,
+      "block_types": {
+        "text": 1,
+        "title": 1
+      },
+      "vertical_blocks": 1,
+      "wide_blocks": 0,
+      "text_preview": "青囊心印地理黑囊經地理正宗臆解地學海南出版社",
+      "doc_id": "doc003",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 8,
+      "risk_reasons": [
+        "文本极少",
+        "含标题结构",
+        "含竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 122.0,
+        "q10_chars": 42.0,
+        "q90_chars": 374.0
+      }
+    },
+    {
+      "book_page": 4,
+      "pdf_page": 4,
+      "page_idx": 3,
+      "characters": 437,
+      "cjk_ratio": 0.5973,
+      "latin_ratio": 0.0389,
+      "weird_characters": 0,
+      "long_latin_runs": 4,
+      "mean_confidence": 0.9577,
+      "minimum_confidence": 0.917,
+      "low_confidence_ratio": 0.0,
+      "block_count": 12,
+      "block_types": {
+        "text": 12
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 11,
+      "text_preview": "圖書在版編目(CIP)數據水龍經/(晉)郭璞撰.-影印本.-海口:海南出版社,2000.10(故宫珍本叢刊)木吉與“地理四彈子/(南唐)何令通撰”等18種書合訂ISBN7-80645-742-9I.水…Ⅱ.郭…Ⅲ.風水-中國-古代Ⅳ.Z12",
+      "doc_id": "doc003",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 4,
+      "risk_reasons": [
+        "连续拉丁字符较多",
+        "书籍边界页",
+        "卷首页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 122.0,
+        "q10_chars": 42.0,
+        "q90_chars": 374.0
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 526,
+      "page_idx": 525,
+      "characters": 287,
+      "cjk_ratio": 0.7666,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.9145,
+      "minimum_confidence": 0.61,
+      "low_confidence_ratio": 0.1603,
+      "block_count": 12,
+      "block_types": {
+        "text": 5,
+        "title": 7
+      },
+      "vertical_blocks": 11,
+      "wide_blocks": 0,
+      "text_preview": "地理正宗臆解目錄原犀頁地理臆解序…正宗臆解自序凡例……地理正宗原序五地理正宗卷之上…地理正宗卷之中地理正宗卷之下七〇地理指迷篇臆解目錄指迷臆解自序……………………………一〇九地理臆解引言………一〇指迷騰解凡例一地理指迷篇篇目……………………",
+      "doc_id": "doc003",
+      "excluded_reason": "合刊总目录",
+      "risk_score": 8,
+      "risk_reasons": [
+        "平均置信度一般",
+        "低置信字符较多",
+        "含标题结构",
+        "多处竖排文本",
+        "书籍边界页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 287.0,
+        "q10_chars": 287.0,
+        "q90_chars": 287.0
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 167,
+      "page_idx": 166,
+      "characters": 431,
+      "cjk_ratio": 0.8817,
+      "latin_ratio": 0.0626,
+      "weird_characters": 0,
+      "long_latin_runs": 2,
+      "mean_confidence": 0.9993,
+      "minimum_confidence": 0.992,
+      "low_confidence_ratio": 0.0,
+      "block_count": 3,
+      "block_types": {
+        "text": 2,
+        "title": 1
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 2,
+      "text_preview": "中国古代文化全阅读ZhongGuoGuDaiWenHua2uanYueDu中国古代文化博大精深、源远流长，是世界文化最重要的组成部分之一。我们在编选这套丛书的过程中，以精益求精的态度、披沙拣金的方式，对中国古代文化进行了一次全方位的彻底梳理",
+      "doc_id": "doc012",
+      "excluded_reason": "丛书广告与数据库尾页",
+      "risk_score": 3,
+      "risk_reasons": [
+        "含标题结构",
+        "书籍边界页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 234.0,
+        "q10_chars": 76.4,
+        "q90_chars": 391.6
+      }
+    },
+    {
+      "book_page": 2,
+      "pdf_page": 168,
+      "page_idx": 167,
+      "characters": 37,
+      "cjk_ratio": 0.1351,
+      "latin_ratio": 0.5405,
+      "weird_characters": 0,
+      "long_latin_runs": 1,
+      "mean_confidence": 0.9995,
+      "minimum_confidence": 0.999,
+      "low_confidence_ratio": 0.0,
+      "block_count": 3,
+      "block_types": {
+        "text": 3
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 3,
+      "text_preview": "[GeneralInformation]书名=宅经SS号=12067475",
+      "doc_id": "doc012",
+      "excluded_reason": "丛书广告与数据库尾页",
+      "risk_score": 8,
+      "risk_reasons": [
+        "文本极少",
+        "书籍边界页",
+        "卷首页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 234.0,
+        "q10_chars": 76.4,
+        "q90_chars": 391.6
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 1,
+      "page_idx": 0,
+      "characters": 0,
+      "cjk_ratio": 0.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": null,
+      "minimum_confidence": null,
+      "low_confidence_ratio": null,
+      "block_count": 1,
+      "block_types": {
+        "image": 1
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 0,
+      "text_preview": "",
+      "doc_id": "doc013",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 13,
+      "risk_reasons": [
+        "无可用OCR文本",
+        "含图片/表格/图示",
+        "书籍边界页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 92.0,
+        "q10_chars": 51.2,
+        "q90_chars": 377.6
+      }
+    },
+    {
+      "book_page": 2,
+      "pdf_page": 2,
+      "page_idx": 1,
+      "characters": 92,
+      "cjk_ratio": 0.4674,
+      "latin_ratio": 0.163,
+      "weird_characters": 0,
+      "long_latin_runs": 1,
+      "mean_confidence": 0.9232,
+      "minimum_confidence": 0.539,
+      "low_confidence_ratio": 0.0217,
+      "block_count": 4,
+      "block_types": {
+        "text": 4
+      },
+      "vertical_blocks": 1,
+      "wide_blocks": 0,
+      "text_preview": "H古M福元吴郡庠刻本《通鑑總類》扉頁背面所鈴「五福五代堂古稀天子寶」，方8.1cm×8.1cm，「八微耄念之寶」，方8.2cmx8.2cm'「太上皇帝之寶」，方8.1cm×8.1cm。",
+      "doc_id": "doc013",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 5,
+      "risk_reasons": [
+        "文本密度明显偏低",
+        "含竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 92.0,
+        "q10_chars": 51.2,
+        "q90_chars": 377.6
+      }
+    },
+    {
+      "book_page": 3,
+      "pdf_page": 3,
+      "page_idx": 2,
+      "characters": 41,
+      "cjk_ratio": 1.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.9979,
+      "minimum_confidence": 0.986,
+      "low_confidence_ratio": 0.0,
+      "block_count": 6,
+      "block_types": {
+        "text": 6
+      },
+      "vertical_blocks": 6,
+      "wide_blocks": 0,
+      "text_preview": "故宮博物院編水龍經地理四彈子雪心賦直解金精廖公秘授地學心法正傳畫筴扒砂經海南出版社",
+      "doc_id": "doc013",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 6,
+      "risk_reasons": [
+        "文本密度明显偏低",
+        "多处竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "high",
+      "cohort_stats": {
+        "median_chars": 92.0,
+        "q10_chars": 51.2,
+        "q90_chars": 377.6
+      }
+    },
+    {
+      "book_page": 4,
+      "pdf_page": 4,
+      "page_idx": 3,
+      "characters": 449,
+      "cjk_ratio": 0.6102,
+      "latin_ratio": 0.0379,
+      "weird_characters": 0,
+      "long_latin_runs": 4,
+      "mean_confidence": 0.9564,
+      "minimum_confidence": 0.899,
+      "low_confidence_ratio": 0.0,
+      "block_count": 12,
+      "block_types": {
+        "text": 12
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 11,
+      "text_preview": "圖書在版編目(CIP)數據水龍經/(晉)郭璞撰.-影印木.-海口:海南出版社，2000.10(故宫珍本叢刊)本書與“地理四彈子/(南唐)何令通撰”等18種書合訂ISBN7-80645-742-9I.水…Ⅱ.郭…Ⅲ.風水-中國-古代Ⅳ.Z12",
+      "doc_id": "doc013",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 4,
+      "risk_reasons": [
+        "连续拉丁字符较多",
+        "书籍边界页",
+        "卷首页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 92.0,
+        "q10_chars": 51.2,
+        "q90_chars": 377.6
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 529,
+      "page_idx": 528,
+      "characters": 788,
+      "cjk_ratio": 0.7119,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.9039,
+      "minimum_confidence": 0.61,
+      "low_confidence_ratio": 0.0977,
+      "block_count": 14,
+      "block_types": {
+        "text": 10,
+        "title": 4
+      },
+      "vertical_blocks": 9,
+      "wide_blocks": 0,
+      "text_preview": "水龍經目錄水龍經序……………………一水龍經第一卷總論……水龍羅卷一……………………………三水龍經卷二…………………………一九水龍經卷三烤論……三三水龍經卷三目次………………三四水龍經卷三……………三四水龍經卷四總論……四九水龍經卷四目錄……",
+      "doc_id": "doc013",
+      "excluded_reason": "合刊总目录",
+      "risk_score": 6,
+      "risk_reasons": [
+        "平均置信度一般",
+        "含标题结构",
+        "多处竖排文本",
+        "书籍边界页"
+      ],
+      "risk_level": "high",
+      "cohort_stats": {
+        "median_chars": 788.0,
+        "q10_chars": 788.0,
+        "q90_chars": 788.0
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 1,
+      "page_idx": 0,
+      "characters": 18,
+      "cjk_ratio": 1.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.9015,
+      "minimum_confidence": 0.693,
+      "low_confidence_ratio": 0.1667,
+      "block_count": 2,
+      "block_types": {
+        "image": 1,
+        "title": 1
+      },
+      "vertical_blocks": 1,
+      "wide_blocks": 0,
+      "text_preview": "故珎菜宫本刊地理參贊玄機僊婆集等二種",
+      "doc_id": "doc014",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 15,
+      "risk_reasons": [
+        "文本极少",
+        "平均置信度一般",
+        "低置信字符较多",
+        "含图片/表格/图示",
+        "含标题结构",
+        "含竖排文本",
+        "书籍边界页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 60.5,
+        "q10_chars": 19.8,
+        "q90_chars": 334.30000000000007
+      }
+    },
+    {
+      "book_page": 2,
+      "pdf_page": 2,
+      "page_idx": 1,
+      "characters": 97,
+      "cjk_ratio": 0.4639,
+      "latin_ratio": 0.1856,
+      "weird_characters": 0,
+      "long_latin_runs": 2,
+      "mean_confidence": 0.9191,
+      "minimum_confidence": 0.524,
+      "low_confidence_ratio": 0.0825,
+      "block_count": 4,
+      "block_types": {
+        "text": 4
+      },
+      "vertical_blocks": 1,
+      "wide_blocks": 0,
+      "text_preview": "KESH堂店M福周元吴郡庠刻本《通鑑總類》扉頁背面所鈴「五福五代堂古稀天子寶」，方8.1cm×8.1cm，「八微耄念之寶」，方8.2cmx8.2cm'「太上皇帝之寶」'方8.1cm×8.1cm。",
+      "doc_id": "doc014",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 6,
+      "risk_reasons": [
+        "文本密度明显偏低",
+        "平均置信度一般",
+        "含竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "high",
+      "cohort_stats": {
+        "median_chars": 60.5,
+        "q10_chars": 19.8,
+        "q90_chars": 334.30000000000007
+      }
+    },
+    {
+      "book_page": 3,
+      "pdf_page": 3,
+      "page_idx": 2,
+      "characters": 24,
+      "cjk_ratio": 1.0,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.9976,
+      "minimum_confidence": 0.997,
+      "low_confidence_ratio": 0.0,
+      "block_count": 2,
+      "block_types": {
+        "text": 1,
+        "title": 1
+      },
+      "vertical_blocks": 2,
+      "wide_blocks": 0,
+      "text_preview": "故宮博物院編地理琢玉斧巒頭歌括地理參贊玄機僊婆集",
+      "doc_id": "doc014",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 9,
+      "risk_reasons": [
+        "文本极少",
+        "含标题结构",
+        "多处竖排文本",
+        "卷首页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 60.5,
+        "q10_chars": 19.8,
+        "q90_chars": 334.30000000000007
+      }
+    },
+    {
+      "book_page": 4,
+      "pdf_page": 4,
+      "page_idx": 3,
+      "characters": 436,
+      "cjk_ratio": 0.5986,
+      "latin_ratio": 0.039,
+      "weird_characters": 0,
+      "long_latin_runs": 4,
+      "mean_confidence": 0.9587,
+      "minimum_confidence": 0.901,
+      "low_confidence_ratio": 0.0,
+      "block_count": 12,
+      "block_types": {
+        "text": 12
+      },
+      "vertical_blocks": 0,
+      "wide_blocks": 11,
+      "text_preview": "圖書在版編目(CIP)數據水龍經/(晉)郭璞撰.-影印本.-海口：海南出版社，2000.10(故宫珍本叢刊)木書與“地理四彈子/(南唐)何令通撰”等18種書合訂ISBN7-80645-742-9I.水…Ⅱ.郭…Ⅲ.風水-中國-古代Ⅳ.Z12",
+      "doc_id": "doc014",
+      "excluded_reason": "合刊封面与出版信息",
+      "risk_score": 4,
+      "risk_reasons": [
+        "连续拉丁字符较多",
+        "书籍边界页",
+        "卷首页"
+      ],
+      "risk_level": "medium",
+      "cohort_stats": {
+        "median_chars": 60.5,
+        "q10_chars": 19.8,
+        "q90_chars": 334.30000000000007
+      }
+    },
+    {
+      "book_page": 1,
+      "pdf_page": 458,
+      "page_idx": 457,
+      "characters": 141,
+      "cjk_ratio": 0.5816,
+      "latin_ratio": 0.0,
+      "weird_characters": 0,
+      "long_latin_runs": 0,
+      "mean_confidence": 0.8269,
+      "minimum_confidence": 0.593,
+      "low_confidence_ratio": 0.5532,
+      "block_count": 4,
+      "block_types": {
+        "text": 2,
+        "title": 2
+      },
+      "vertical_blocks": 2,
+      "wide_blocks": 0,
+      "text_preview": "地理参贊玄機僊婆集目錄參費玄機僊婆序……一………………………………………………………三一五之国九二卷之五一八卷之六下……一五一卷之八一九〇卷之十一……………………………………二六一卷之十二……………………………………………二七二僊婆集後序…",
+      "doc_id": "doc014",
+      "excluded_reason": "合刊总目录",
+      "risk_score": 11,
+      "risk_reasons": [
+        "平均置信度偏低",
+        "低置信字符占比高",
+        "含标题结构",
+        "多处竖排文本",
+        "书籍边界页"
+      ],
+      "risk_level": "critical",
+      "cohort_stats": {
+        "median_chars": 141.0,
+        "q10_chars": 141.0,
+        "q90_chars": 141.0
+      }
+    }
+  ]
+}
