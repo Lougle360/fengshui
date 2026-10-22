@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1980">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+    text { font-family: 'JetBrains Mono', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    .title { fill:#f8fafc; font-size:25px; font-weight:700; }
+    .subtitle { fill:#94a3b8; font-size:13px; }
+    .region-title { font-size:13px; font-weight:700; }
+    .name { fill:#f8fafc; font-size:15px; font-weight:700; text-anchor:middle; }
+    .desc { fill:#cbd5e1; font-size:11px; text-anchor:middle; }
+    .small { fill:#94a3b8; font-size:10px; }
+    .label { font-size:10px; font-weight:700; }
+    .note-title { fill:#f8fafc; font-size:14px; font-weight:700; }
+    .note { fill:#cbd5e1; font-size:11px; }
+  </style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34d399"/>
+    </marker>
+    <marker id="arrow-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#fb7185"/>
+    </marker>
+  </defs>
+
+  <rect width="1500" height="1980" fill="#0f172a"/>
+  <rect width="1500" height="1980" fill="url(#grid)"/>
+
+  <text x="50" y="45" class="title">第一本《青囊海角经》：V2 → V3 实际转换流程</text>
+  <text x="50" y="72" class="subtitle">关键事实：V3 没有重新看整本 PDF，而是以已经 OCR/视觉校对过的 V2 Markdown 为输入</text>
+
+  <!-- Regions -->
+  <rect x="50" y="100" width="1400" height="420" rx="14" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="9,5"/>
+  <text x="70" y="125" fill="#fbbf24" class="region-title">上游：扫描 PDF → V2 保真文本</text>
+  <rect x="50" y="550" width="1400" height="1030" rx="14" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="9,5"/>
+  <text x="70" y="575" fill="#22d3ee" class="region-title">V3：逐块白话释读、自动审校、断点保存</text>
+  <rect x="50" y="1610" width="1400" height="300" rx="14" fill="none" stroke="#34d399" stroke-width="1.5" stroke-dasharray="9,5"/>
+  <text x="70" y="1635" fill="#34d399" class="region-title">成书与验收：只有整本完整才进入 V3 根目录</text>
+
+  <!-- Main connectors first -->
+  <path d="M750 205 L750 245" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 325 L750 365" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 445 L750 590" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 670 L750 715" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 785 L750 835" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 915 L750 965" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 1035 L750 1080" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 1160 L750 1205" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <path d="M750 1275 L750 1325" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <path d="M750 1405 L750 1450" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <path d="M750 1520 L750 1660" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <path d="M750 1740 L750 1780" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+  <!-- Bypass branch -->
+  <path d="M805 750 L1065 750" stroke="#94a3b8" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <path d="M1205 810 L1205 1365 L930 1365" stroke="#94a3b8" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+  <text x="840" y="738" fill="#94a3b8" class="label">否：图片/书名/来源等</text>
+
+  <!-- Local repair branch -->
+  <path d="M805 1000 L1065 1000" stroke="#fb7185" stroke-width="1.8" marker-end="url(#arrow-rose)"/>
+  <path d="M1205 960 C1205 900 960 900 930 875" stroke="#fb7185" stroke-width="1.8" fill="none" stroke-dasharray="5,4" marker-end="url(#arrow-rose)"/>
+  <text x="845" y="988" fill="#fb7185" class="label">失败</text>
+
+  <!-- Judge repair branch -->
+  <path d="M805 1240 L1065 1240" stroke="#fb7185" stroke-width="1.8" marker-end="url(#arrow-rose)"/>
+  <path d="M1205 1200 C1205 1140 980 1140 930 1120" stroke="#fb7185" stroke-width="1.8" fill="none" stroke-dasharray="5,4" marker-end="url(#arrow-rose)"/>
+  <text x="842" y="1228" fill="#fb7185" class="label">修订/存疑且仍有修复额度</text>
+
+  <!-- Incomplete branch -->
+  <path d="M805 1485 L1120 1485" stroke="#fbbf24" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <path d="M1270 1450 L1270 900 L930 875" stroke="#fbbf24" stroke-width="1.6" fill="none" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <text x="842" y="1473" fill="#fbbf24" class="label">否：从缓存断点继续</text>
+
+  <!-- Opaque masks and boxes -->
+  <rect x="570" y="145" width="360" height="60" rx="28" fill="#0f172a"/>
+  <rect x="570" y="145" width="360" height="60" rx="28" fill="rgba(59,130,246,0.3)" stroke="#60a5fa" stroke-width="1.8"/>
+  <text x="750" y="171" class="name">扫描 PDF</text>
+  <text x="750" y="190" class="desc">《青囊海角经》原始影像</text>
+
+  <rect x="570" y="245" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="245" width="360" height="80" rx="8" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.6"/>
+  <text x="750" y="276" class="name">MinerU OCR 与版面恢复</text>
+  <text x="750" y="299" class="desc">识别正文、标题、图片、阅读顺序</text>
+
+  <rect x="570" y="365" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="365" width="360" height="80" rx="8" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.6"/>
+  <text x="750" y="396" class="name">V2 逐页视觉校对</text>
+  <text x="750" y="419" class="desc">图像初审 → 独立裁决 → 保守回写 / 复核台账</text>
+
+  <rect x="570" y="470" width="360" height="72" rx="8" fill="#0f172a"/>
+  <rect x="570" y="470" width="360" height="72" rx="8" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.7"/>
+  <text x="750" y="499" class="name">V2 Markdown + 书内图片</text>
+  <text x="750" y="522" class="desc">这是 V3 的直接输入；V3 不再次逐页看 PDF</text>
+
+  <rect x="570" y="590" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="590" width="360" height="80" rx="8" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.7"/>
+  <text x="750" y="620" class="name">按 Markdown 块切分并生成稳定 ID</text>
+  <text x="750" y="643" class="desc">原文 SHA-256 绑定，避免错配与重复计费</text>
+
+  <g transform="translate(750,750)">
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="#0f172a"/>
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.6"/>
+    <text y="-3" class="name" font-size="12">需要白话化？</text>
+    <text y="16" class="desc">translatable</text>
+  </g>
+
+  <rect x="570" y="835" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="835" width="360" height="80" rx="8" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.7"/>
+  <text x="750" y="866" class="name">写作模型生成白话释读</text>
+  <text x="750" y="889" class="desc">Qwen3.5-35B；每批 ≤20 块、≤2200 字</text>
+
+  <g transform="translate(750,1000)">
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="#0f172a"/>
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.6"/>
+    <text y="-5" class="name" font-size="12">本地硬校验</text>
+    <text y="15" class="desc">术语 / 数字 / 漏译</text>
+  </g>
+
+  <rect x="1065" y="955" width="280" height="90" rx="8" fill="#0f172a"/>
+  <rect x="1065" y="955" width="280" height="90" rx="8" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1.7"/>
+  <text x="1205" y="988" class="name">修复模型改稿</text>
+  <text x="1205" y="1011" class="desc">Qwen3.5-122B</text>
+  <text x="1205" y="1029" class="desc">只修已指出的问题</text>
+
+  <rect x="570" y="1080" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="1080" width="360" height="80" rx="8" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.7"/>
+  <text x="750" y="1111" class="name">独立语义核义</text>
+  <text x="750" y="1134" class="desc">DeepSeek-V3.2；裁判只判错，不直接改稿</text>
+
+  <g transform="translate(750,1240)">
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="#0f172a"/>
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.6"/>
+    <text y="-5" class="name" font-size="12">语义通过？</text>
+    <text y="15" class="desc">accept</text>
+  </g>
+
+  <rect x="1065" y="1195" width="280" height="90" rx="8" fill="#0f172a"/>
+  <rect x="1065" y="1195" width="280" height="90" rx="8" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1.7"/>
+  <text x="1205" y="1228" class="name">修复后再核义</text>
+  <text x="1205" y="1251" class="desc">仍不确定则保守保留</text>
+  <text x="1205" y="1269" class="desc">并写入待复核台账</text>
+
+  <rect x="570" y="1325" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="1325" width="360" height="80" rx="8" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.7"/>
+  <text x="750" y="1356" class="name">结果 JSONL + API 缓存</text>
+  <text x="750" y="1379" class="desc">断点续跑；存原文哈希、模型、判定、存疑项</text>
+
+  <g transform="translate(750,1485)">
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="#0f172a"/>
+    <polygon points="0,-35 55,0 0,35 -55,0" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.6"/>
+    <text y="-5" class="name" font-size="12">1,375 块齐全？</text>
+    <text y="15" class="desc">全书完成门</text>
+  </g>
+
+  <rect x="1065" y="710" width="280" height="100" rx="8" fill="#0f172a"/>
+  <rect x="1065" y="710" width="280" height="100" rx="8" fill="rgba(30,41,59,0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="1205" y="744" class="name">原样保留</text>
+  <text x="1205" y="767" class="desc">图片、书名、来源、空标题等</text>
+  <text x="1205" y="786" class="desc">第一本共 82 个块</text>
+
+  <rect x="1120" y="1445" width="300" height="80" rx="8" fill="#0f172a"/>
+  <rect x="1120" y="1445" width="300" height="80" rx="8" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="1270" y="1476" class="name">断点续跑</text>
+  <text x="1270" y="1499" class="desc">成功块不重做；失败批次退避重试</text>
+
+  <rect x="570" y="1660" width="360" height="80" rx="8" fill="#0f172a"/>
+  <rect x="570" y="1660" width="360" height="80" rx="8" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.7"/>
+  <text x="750" y="1691" class="name">拼成一本 V3 Markdown</text>
+  <text x="750" y="1714" class="desc">白话正文 + 可展开原文 + 原图 + 存疑提示</text>
+
+  <rect x="570" y="1780" width="360" height="80" rx="28" fill="#0f172a"/>
+  <rect x="570" y="1780" width="360" height="80" rx="28" fill="rgba(59,130,246,0.3)" stroke="#60a5fa" stroke-width="1.8"/>
+  <text x="750" y="1811" class="name">硬校验通过 → 正式成品</text>
+  <text x="750" y="1834" class="desc">覆盖率、原文哈希、图片、标题、术语全部验收</text>
+
+  <!-- Side notes -->
+  <rect x="90" y="605" width="390" height="190" rx="10" fill="#0f172a"/>
+  <rect x="90" y="605" width="390" height="190" rx="10" fill="rgba(76,29,149,0.35)" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="115" y="638" class="note-title">第一本的规模</text>
+  <text x="115" y="670" class="note">• 结构块：1,457</text>
+  <text x="115" y="697" class="note">• 需白话化：1,375</text>
+  <text x="115" y="724" class="note">• 需处理文本：108,546 字符</text>
+  <text x="115" y="751" class="note">• 不走 API 的媒体/元数据块：82</text>
+  <text x="115" y="778" class="note">• 每个结果绑定稳定 ID + 原文 SHA-256</text>
+
+  <rect x="90" y="1180" width="420" height="335" rx="10" fill="#0f172a"/>
+  <rect x="90" y="1180" width="420" height="335" rx="10" fill="rgba(136,19,55,0.35)" stroke="#fb7185" stroke-width="1.7"/>
+  <text x="115" y="1214" class="note-title">你怀疑“走弯路”——有依据</text>
+  <text x="115" y="1247" class="note">1. 最初做了提示词、模型与裁判基准试验</text>
+  <text x="115" y="1275" class="note">   这些提高了安全性，但没有直接产出整本书。</text>
+  <text x="115" y="1311" class="note">2. 古文块采用“写作 + 独立核义 + 必要修复”</text>
+  <text x="115" y="1339" class="note">   一个块可能产生 2–4 次模型调用，速度较慢。</text>
+  <text x="115" y="1375" class="note">3. 后来同时推进第 1、2、3 本</text>
+  <text x="115" y="1403" class="note">   总吞吐提高，但第一本更晚出现完整成品。</text>
+  <text x="115" y="1439" class="note">4. 部分草稿不是实时重渲染</text>
+  <text x="115" y="1467" class="note">   所以草稿显示的进度落后于 JSONL 断点。</text>
+  <text x="115" y="1498" fill="#fb7185" font-size="11" font-weight="700">结论：主要绕在“过度稳妥的多模型审校”，不是 OCR。</text>
+
+  <rect x="980" y="1648" width="430" height="225" rx="10" fill="#0f172a"/>
+  <rect x="980" y="1648" width="430" height="225" rx="10" fill="rgba(136,19,55,0.35)" stroke="#fb7185" stroke-width="1.7"/>
+  <text x="1005" y="1682" class="note-title">当前实际状态（核验时点）</text>
+  <text x="1005" y="1716" class="note">• 有效完成：462 / 1,375（33.6%）</text>
+  <text x="1005" y="1744" class="note">• 尚缺：913 块</text>
+  <text x="1005" y="1772" class="note">• 正式 V3 成品：0 本</text>
+  <text x="1005" y="1800" class="note">• 旧草稿：208 个成稿块、1,167 个待处理标记</text>
+  <text x="1005" y="1828" fill="#fb7185" font-size="11" font-weight="700">所以第一本尚未“转好”；现在看到的只是中间态。</text>
+  <text x="1005" y="1854" class="small">注：有效完成数按稳定 ID + 原文哈希重新核验。</text>
+
+  <!-- Arrow labels -->
+  <text x="765" y="820" fill="#34d399" class="label">是</text>
+  <text x="765" y="1064" fill="#34d399" class="label">通过</text>
+  <text x="765" y="1308" fill="#34d399" class="label">接受 / 保守记录</text>
+  <text x="765" y="1645" fill="#34d399" class="label">是</text>
+
+  <!-- Footer legend -->
+  <circle cx="90" cy="1940" r="6" fill="#fbbf24"/><text x="105" y="1944" class="small">V2 OCR/保真</text>
+  <circle cx="250" cy="1940" r="6" fill="#22d3ee"/><text x="265" y="1944" class="small">V3 转换</text>
+  <circle cx="400" cy="1940" r="6" fill="#34d399"/><text x="415" y="1944" class="small">正常通过路径</text>
+  <circle cx="585" cy="1940" r="6" fill="#fb7185"/><text x="600" y="1944" class="small">返修 / 弯路 / 风险</text>
+</svg>
