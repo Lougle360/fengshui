@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-27T00:41:16.083919+00:00",
+  "book": "增释地理琢玉斧峦头歌括",
+  "edition_scope": "full_reader_edition_source_pages_1_80",
+  "source_pages_total": 80,
+  "grade": "B",
+  "grade_label": "readable_with_visible_ledger",
+  "semantic_audit": {
+    "status": "passed_with_ledger",
+    "page_level_visual_coverage": 80,
+    "reader_facing_uncertainty_appendix": true,
+    "modernized_and_edited_layers_distinct": true
+  },
+  "structural_audit": {
+    "status": "passed",
+    "blocks_each_stage": 80,
+    "raw_html_tags": 0,
+    "internal_pipeline_messages": 0,
+    "toc_link_annotations": 98
+  },
+  "models": [
+    "Qwen/Qwen3-VL-32B-Instruct",
+    "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "Qwen/Qwen3.5-122B-A10B",
+    "PaddlePaddle/PaddleOCR-VL-1.5"
+  ],
+  "publication": {
+    "pdf": "60-publication/增释地理琢玉斧峦头歌括·现代白话版-99项复核版.pdf",
+    "pdf_pages": 67,
+    "pdf_bytes": 38721216,
+    "pdf_sha256": "3E28131B0E2F88E3A9A2BE480E4F6C473528EE2B7883EF4158CBE06BEB467ECA",
+    "modern_markdown": "60-publication/modern-reading.md",
+    "rendered_pages_programmatically_checked": 67,
+    "rendered_pages_visually_inspected": 68,
+    "visual_review": "90-audit/visual-review.json",
+    "programmatic_visual_candidates": [
+      {
+        "type": "extracted_line_start_punctuation",
+        "pages": [
+          {
+            "pdf_page": 6,
+            "samples": [
+              "，去水是否收束，这些都是"
+            ]
+          },
+          {
+            "pdf_page": 7,
+            "samples": [
+              "”“天马”。这些名称只是"
+            ]
+          },
+          {
+            "pdf_page": 19,
+            "samples": [
+              "，再比较大小、聚散、高低"
+            ]
+          },
+          {
+            "pdf_page": 29,
+            "samples": [
+              "’：九种孤曜的名称大多不",
+              "、浦江张氏鹤爪形二进士地"
+            ]
+          },
+          {
+            "pdf_page": 33,
+            "samples": [
+              "，出典大藩。"
+            ]
+          },
+          {
+            "pdf_page": 40,
+            "samples": [
+              "；中等命格的龙主多为皇亲"
+            ]
+          },
+          {
+            "pdf_page": 47,
+            "samples": [
+              "，再使用本书术语。"
+            ]
+          },
+          {
+            "pdf_page": 48,
+            "samples": [
+              "；左右山形复杂时，回看“",
+              "’的总体含义可读。"
+            ]
+          },
+          {
+            "pdf_page": 49,
+            "samples": [
+              "，不作续补。"
+            ]
+          },
+          {
+            "pdf_page": 50,
+            "samples": [
+              "，水指江河溪涧及其流向。",
+              "，穴前不过分泄散，水流不",
+              "”“从祖山分水”等说法。"
+            ]
+          },
+          {
+            "pdf_page": 56,
+            "samples": [
+              "，不受直冲和割裂。",
+              "，不能算真正有情。"
+            ]
+          },
+          {
+            "pdf_page": 57,
+            "samples": [
+              "，而是通过定穴、定向和分",
+              "”。"
+            ]
+          },
+          {
+            "pdf_page": 65,
+            "samples": [
+              "，不是现代家庭结构的通用"
+            ]
+          }
+        ]
+      }
+    ],
+    "visual_defects_found": 0,
+    "visual_defects": []
+  },
+  "limitations": [
+    "The source PDF ends mid-discussion; the reading edition closes at the last complete recoverable thought.",
+    "Page-level source evidence is complete; source coordinates remain page-level where reliable region coordinates were unavailable.",
+    "OCR and collation uncertainties are retained in the audit ledger and summarized in a reader-facing appendix."
+  ]
+}

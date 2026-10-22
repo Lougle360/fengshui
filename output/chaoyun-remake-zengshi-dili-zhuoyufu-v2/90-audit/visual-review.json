@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-09-26T16:30:00Z",
+  "reviewer": "Codex visual audit",
+  "pdf_pages": 68,
+  "pages_inspected": "1-68",
+  "method": [
+    "Rendered every PDF page at 64 dpi and inspected five 4-by-4 contact sheets",
+    "Inspected the line-start-punctuation candidates at larger size",
+    "Checked cover, front matter, TOC, text pages, figure pages, glossary and final page"
+  ],
+  "programmatic_candidates_adjudicated": [6, 19, 29, 33, 40, 42, 47, 48, 50, 51, 57, 58, 66],
+  "confirmed_defects": [],
+  "notes": [
+    "The PDF text extractor reports punctuation that is visually hung at the previous line edge as if it began the next extracted line; rendered-page inspection did not confirm those candidates.",
+    "No blank overflow page or extreme-whitespace text-only page remains.",
+    "Image-heavy pages intentionally retain white space so the historical plate and its reading note remain together."
+  ]
+}

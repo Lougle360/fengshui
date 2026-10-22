@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-25T05:23:54.793127+00:00",
+  "book": "增释地理琢玉斧峦头歌括（张九仪）",
+  "source_pdf_sha256": "a8905dff46683b57b0bf695c8263c0a098b4ef0106e571564f6a1c898b970a06",
+  "grade": "C",
+  "grade_label": "assisted_draft",
+  "pages": 80,
+  "segments_total": 722,
+  "segments_translatable": 373,
+  "segments_judged": 373,
+  "verdicts": {
+    "accept": 322,
+    "revise": 40,
+    "uncertain": 11
+  },
+  "uncertain_or_nonaccept_records": 154,
+  "ocr_residual_segments_preserved_in_comparison": 200,
+  "source_images_packaged": 110,
+  "paid_api_used": true,
+  "models": [
+    "doubao-seed-2-0-mini-260428",
+    "doubao-seed-2-0-pro-260215",
+    "Qwen/Qwen3-VL-32B-Instruct"
+  ],
+  "vision_reconstruction": {
+    "successful_pages": 10,
+    "scope": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "status": "partial_due_to_provider_timeouts"
+  },
+  "publication": {
+    "modern_markdown": "60-publication/modern-reading.md",
+    "source_comparison_markdown": "60-publication/source-comparison.md",
+    "pdf": "60-publication/modern-reading.pdf",
+    "pdf_bytes": 63570621,
+    "pdf_sha256": "91ba7bba98153d7594ff5673bb52a77ac8fea800da5c5f90fde6998eb326165d"
+  },
+  "limitations": [
+    "The full book is readable but the source OCR still contains material errors and fragmented lines.",
+    "The direct full-page visual reconstruction completed only ten pages before repeated provider timeouts.",
+    "This edition is an assisted reading draft, not an authoritative critical edition."
+  ]
+}

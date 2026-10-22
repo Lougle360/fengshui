@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "book_id": "a8905dff46683b57",
+  "updated_at": "2026-09-25T05:23:54.793127+00:00",
+  "grade": "C",
+  "stages": {
+    "intake": {"status": "passed", "pages": 80},
+    "diagnosis": {"status": "passed_with_ledger", "route": "scan_vertical_cjk_mixed_diagrams"},
+    "source": {"status": "passed_with_ledger", "segments": 722, "ocr_residual_segments": 200},
+    "normalized": {"status": "passed_with_ledger"},
+    "modernized": {"status": "passed_with_ledger", "segments_required": 373, "segments_completed": 373},
+    "edited": {"status": "passed_with_ledger"},
+    "publication": {"status": "passed_with_ledger", "pdf_pages": 161}
+  },
+  "models": [
+    "doubao-seed-2-0-mini-260428",
+    "doubao-seed-2-0-pro-260215",
+    "Qwen/Qwen3-VL-32B-Instruct"
+  ],
+  "limitations": [
+    "Direct full-page visual reconstruction completed ten of eighty pages before repeated provider timeouts.",
+    "The publication is an assisted reading draft, not an authoritative critical edition."
+  ]
+}
