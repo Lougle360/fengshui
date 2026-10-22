@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "status": "in_progress",
+  "description": "对无法用参考文本页首锚点表达的扫描结构作显式覆盖；每项必须有原图证据，程序不得自行推断。",
+  "merge_reference_segments": [
+    {
+      "reference_segment_index": 300,
+      "source_pages": [28, 29],
+      "target_page": 28,
+      "evidence_image": "20-source/pages/P000028.jpg",
+      "evidence_region": [58, 88, 594, 929],
+      "status": "visually_confirmed_page_assignment",
+      "reviewed_at": "2026-09-28T08:55:00-07:00",
+      "reason": "参考正文末句‘玩味，则知景纯之心法矣’完整见于扫描第28页；第29页仅续本版专有旧注。自动算法误把‘味，则知……’切到第29页，须整体归回第28页。"
+    }
+  ]
+}

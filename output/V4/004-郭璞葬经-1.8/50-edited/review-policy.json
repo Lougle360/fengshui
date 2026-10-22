@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "minimum_full_passes": 3,
+  "required_stable_passes": 2,
+  "pass_scope": "全书每一章、目录、正文、术语表与必要后记，按最终阅读顺序逐页通读",
+  "restart_rule": "任何正文、术语、目录或版式修改都会使旧通读哈希失效，并从修改后的稿件重新累计稳定轮次",
+  "methods": [
+    "第一轮检查读者是否真正读懂每章在说什么，并逐项修改",
+    "第二轮检查忠实性、章节连续性、术语首次出现与上下文解释，并逐项修改",
+    "第三轮检查最终PDF的目录、页码、层级、列表、密度和逐页阅读连续性",
+    "若第三轮仍发现阻断问题，继续循环；至少连续两轮没有新阻断问题才可申请发布"
+  ],
+  "status": "passed",
+  "completed_full_passes": 3,
+  "stable_final_passes": 2,
+  "manuscript_sha256": "f324af290aad963652134f4508af64b4e5fbaf032ea2aa8bce19c5758cb7d392"
+}

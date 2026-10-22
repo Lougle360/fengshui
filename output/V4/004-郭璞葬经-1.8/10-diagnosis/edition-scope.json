@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "workflow_schema_version": "1.9",
+  "status": "locked",
+  "locked_at": "2026-09-27T12:00:00-07:00",
+  "delivery_mode": "ordinary_reader",
+  "completeness_claim": "full_source_content",
+  "user_requirement": "交付忠于原著、供普通读者连续阅读的完整白话文版；经文与底本注文均不得静默删去，过程导读版保留但不进入最终读者正文。",
+  "source_components": [
+    {
+      "component_id": "C-MAIN",
+      "kind": "main_text",
+      "label": "《葬经》经文",
+      "required_in_release": true,
+      "planned_destination": "final_reader"
+    },
+    {
+      "component_id": "C-COMMENTARY",
+      "kind": "commentary",
+      "label": "五经四书解义本注文",
+      "required_in_release": true,
+      "planned_destination": "final_reader"
+    },
+    {
+      "component_id": "C-FURNITURE",
+      "kind": "paratext",
+      "label": "页眉、卷次与原书页码",
+      "required_in_release": false,
+      "planned_destination": "evidence_only"
+    }
+  ],
+  "process_edition_retained": true,
+  "final_reader_rule": "最终正文只保留完成阅读所需的书名、目录、经文白话、注文白话和术语表；制作说明、审核证据、流程语言留在过程版与审计目录。"
+}

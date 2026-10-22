@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.1",
+  "review_round": "v19b-cross-page-rebuild",
+  "page_id": "P000029",
+  "source_image": "20-source/pages/P000029.jpg",
+  "high_resolution_evidence": "20-source/pages/P000029.jpg",
+  "review_evidence_images": ["90-audit/review-images/P000029-text-enhanced-5x.png"],
+  "image_dimensions": [655, 968],
+  "review_status": "candidate_blocks_complete",
+  "review_note": "第29页两块全部逐图核准：左侧版心为‘郭朴塟經 卷一’，右侧五栏接续第28页末‘或棄自家之吉地而’，至‘以留待福人之來也’结束。旧OCR的‘圓／蹉此／巳／畱’已按底本纠正为‘圖／蹉跎／已／留’。",
+  "blocks": [
+    {
+      "candidate_id": "P000029-C001",
+      "candidate_text_sha256": "32c36fedf3a2dfd96c543d140c563f872fda697d8bd7914846242a7da828b2d2",
+      "bbox": [315, 88, 360, 220],
+      "bbox_status": "visually_measured",
+      "verified_source_text": "郭朴塟經 卷一",
+      "text_status": "scan_verified",
+      "promotion_status": "accepted",
+      "evidence": "页内左侧版心竖题，‘卷一’位于鱼尾下。"
+    },
+    {
+      "candidate_id": "P000029-C002",
+      "candidate_text_sha256": "076a4e5999c95ad67e390e12bea645d381d567ce9a88362ac73b1198870dd416",
+      "bbox": [438, 88, 630, 489],
+      "bbox_status": "visually_measured",
+      "verified_source_text": "反別圖塟於非地者或信庸師謬言以不合宗廟而不用者或雖已得地視為不急之務樂蹉跎致誤者若此之類終弗能塟也或雖已塟而不能通作用截剪之法或不識真穴而自家謬遷是又穴吉而塟凶變應怪見以留待福人之來也",
+      "text_status": "scan_verified",
+      "promotion_status": "accepted",
+      "continues_from_previous_page": true,
+      "evidence": "右侧五栏自右至左逐字核准；首字接第28页末‘而’，末句‘以留待福人之來也’收卷。"
+    }
+  ]
+}

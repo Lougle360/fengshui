@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "workflow_schema_version": "1.7",
+  "book_id": "2741569487652745",
+  "updated_at": "2026-09-27T00:46:00-07:00",
+  "stages": {
+    "intake": {
+      "status": "passed",
+      "physical_pages": 86,
+      "parent_page_range": [
+        167,
+        252
+      ],
+      "source_sha256": "27415694876527459467de0efa11becb613aac99d504dbd9a86a680959f71421",
+      "parent_source_sha256": "a07cd8bc1b77321eaf293882969fb819484693c70ea802c0e87ad4e9de93bd60",
+      "paid_cost_rmb": 0
+    },
+    "diagnosis": {
+      "status": "passed_with_ledger",
+      "pages_routed": 86,
+      "all_pages_visually_reviewed": 86,
+      "representative_pages_verified": 15,
+      "embedded_text_pages": 0,
+      "poor_pages": [
+        86
+      ],
+      "paid_cost_rmb": 0
+    },
+    "source": {
+      "status": "passed_with_ledger",
+      "physical_pages": 86,
+      "page_images": 86,
+      "blocks": 665,
+      "accepted_corrections": 43,
+      "unresolved_candidates": 129,
+      "v2_markdown_12char_shingle_coverage": 0.9995,
+      "tool": "Qwen3-VL page proof + V2 two-pass audit + MinerU layout + full-page images",
+      "paid_cost_rmb": 0,
+      "evidence": "20-source/source-reconstruction-report.json"
+    },
+    "normalized": {
+      "status": "passed",
+      "blocks": 665,
+      "change_records": 8453,
+      "operation_counts": {
+        "script_conversion": 8453,
+        "punctuation": 0,
+        "whitespace": 0
+      },
+      "tool": "OpenCC t2s + conservative typography",
+      "paid_cost_rmb": 0,
+      "evidence": "30-normalized/normalization-report.json"
+    },
+    "book_understood": {
+      "status": "passed",
+      "evidence": "40-modernized/book-understanding.md",
+      "summary": "通读86个物理页后，确立由审势到审向的连续判断链，并区分可观察地貌、传统解释与残缺边界"
+    },
+    "reader_designed": {
+      "status": "passed",
+      "evidence": "50-edited/editorial-plan.md",
+      "summary": "读者版采用主阅读编、逐页参考编、书本专属术语与逐图指引的三层结构"
+    },
+    "sample_accepted": {
+      "status": "passed",
+      "evidence": "50-edited/production-plan.json",
+      "review_cycle": "RC0002",
+      "summary": "全新独立读者完成主旨、迁移、证据分层和实际看图四项任务；RC0001因未实际打开图像明确作废"
+    },
+    "modernized": {
+      "status": "passed_with_ledger",
+      "legacy_candidate": "40-modernized/blocks.jsonl",
+      "reason": "665个来源区块全部进入最终读者稿；残缺与疑字继续由统一疑点账本约束"
+    },
+    "edited": {
+      "status": "passed",
+      "reason": "P000050-B007与P000056-B010按用户裁决降级为仅保留原图、不承担教学证明；示意图和编号映射已退出最终稿",
+      "evidence": "50-edited/reader-acceptance-report.json"
+    },
+    "publication": {
+      "status": "passed",
+      "reason": "RC0008最终读者回归、疑点闭环、98页视觉证明与正式PDF发布审计均已通过；正式文件已原子安装。",
+      "evidence": "90-audit/release-binding.json",
+      "official_pdf": "60-publication/平砂玉尺经·现代白话版.pdf",
+      "pages": 98,
+      "sha256": "71db279972ced0c465ab577a324353dac54a70dbc8253c7a57f8291db7a1cb02"
+    },
+    "source_adjudicated": {
+      "status": "passed_with_ledger",
+      "candidates": 455
+    },
+    "reader_revised": {
+      "status": "passed",
+    "reason": "RC0008完成全书读者会话、三轮回归及最终定向复核。",
+    "evidence": "50-edited/review-history/RC0008/final-reader-pass.json"
+    },
+    "final_adjudicated": {
+    "status": "passed_with_ledger",
+    "reason": "456项候选均有裁定与闭环证据；191项中等影响材料疑点保留披露，高影响开放项为0。",
+    "evidence": "90-audit/uncertainty-release-review.json"
+    }
+  },
+  "current_stage": "publication",
+  "tools": [
+    "Poppler pdftoppm",
+    "pypdf",
+    "MinerU evidence reuse",
+    "chaoyun-pdf-diagnoser"
+  ]
+}

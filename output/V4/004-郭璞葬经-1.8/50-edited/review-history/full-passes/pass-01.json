@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "reviewer_run_id": "pass-01-reader-comprehension-v20",
+  "reviewed_at": "2026-09-29T16:51:47.542197+00:00",
+  "manuscript_sha256": "f324af290aad963652134f4508af64b4e5fbaf032ea2aa8bce19c5758cb7d392",
+  "status": "passed",
+  "sections_covered": [
+    "现代白话版",
+    "目录",
+    "内篇一",
+    "内篇二",
+    "内篇三",
+    "内篇四",
+    "外篇一",
+    "杂篇一",
+    "术语表"
+  ],
+  "findings": [
+    {
+      "issue_id": "R20-001",
+      "severity": "major",
+      "status": "resolved",
+      "problem": "反复出现的“经文/旧注”标签打断阅读，也使跨页拆开的古注看起来像无所属内容。",
+      "resolution": "改为原经粗体、古注缩进；把157个古注来源块按连续关系合并成143个显示组，逐组归回上一段原经。"
+    }
+  ],
+  "new_blocking_issues": [],
+  "open_blocking_issues": [],
+  "transcript": "50-edited/review-history/full-passes/pass-01.md",
+  "transcript_sha256": "e7eda8aa6ee58209e548f21846d0faf0fa349f8518a0e4d25b438909d5d9e389",
+  "checks": {
+    "mapped_final_reader_blocks": 306,
+    "total_source_mappings": 307,
+    "process_chatter": false,
+    "empty_reader_blocks": 0
+  }
+}

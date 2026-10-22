@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "status": "closed",
+  "description": "扫描页起始文字的人工对图锁。只有逐页看见的文字才可写入；程序据此覆盖自动跨页切分。",
+  "boundaries": [
+    {
+      "page": 1,
+      "starts_with": "內篇一",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000001.jpg",
+      "evidence_region": [250, 88, 360, 489],
+      "reviewed_at": "2026-09-28T09:10:00-07:00",
+      "review_note": "扫描第1页以‘內篇一’卷题开篇，随后为‘葬者乘生氣也’，对应全书规范文本起点。"
+    },
+    {
+      "page": 2,
+      "starts_with": "萬物同出一源",
+      "visible_scan_text": "萬物同出一原",
+      "scan_variant_for_anchor": "萬物同出一原",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000002.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T09:10:00-07:00",
+      "review_note": "扫描第2页上版最右栏接续父母子孙同气注文，作‘萬物同出一原’；参考本作‘一源’，只用于分页定位，底本‘原’字另行保留。"
+    },
+    {
+      "page": 3,
+      "starts_with": "父母遺骨藏于融會之地",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000003.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T09:25:00-07:00",
+      "review_note": "扫描第3页上版最右栏由‘父母遺骨藏於融會之地’接续上页注文，未另起新段。"
+    },
+    {
+      "page": 4,
+      "starts_with": "丘壟之骨岡阜之支氣之所隨",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000004.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T09:25:00-07:00",
+      "review_note": "扫描第4页上版由‘丘壠之骨，岡阜之支，氣之所隨’完整起篇，对应‘內篇二’后的首条经文。"
+    },
+    {
+      "page": 5,
+      "starts_with": "而其深者猶有聚",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000005.jpg",
+      "evidence_region": [555, 88, 594, 489],
+      "reviewed_at": "2026-09-27T10:14:15-07:00",
+      "review_note": "扫描第5页上半版最右栏由‘而其深者猶有聚’起，前页止于‘雖零散’。"
+    },
+    {
+      "page": 6,
+      "starts_with": "氣本無體假土為體",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000006.jpg",
+      "evidence_region": [555, 88, 594, 489],
+      "reviewed_at": "2026-09-27T10:20:00-07:00",
+      "review_note": "扫描第6页上半版最右栏由‘氣本無體假土為體’起，承接第5页‘有氣斯有水’。"
+    },
+    {
+      "page": 7,
+      "starts_with": "言其髣彿耳",
+      "visible_scan_text": "言其彷彿也矣",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000007.jpg",
+      "evidence_region": [555, 88, 594, 489],
+      "reviewed_at": "2026-09-27T10:22:00-07:00",
+      "review_note": "扫描第7页上版最右栏承接第6页末字‘特’，可见文字为‘言其彷彿也矣’；starts_with 仅用于定位校勘参考中的对应位置。"
+    },
+    {
+      "page": 8,
+      "starts_with": "經曰形止氣蓄化生萬物",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000008.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "leading_source_only_text": "也",
+      "leading_source_only_status": "attached_and_scan_verified",
+      "reviewed_at": "2026-09-27T10:27:00-07:00",
+      "review_note": "扫描第8页正文由‘經曰形止氣蓄化生萬物’起；其前另见一‘也’字，疑承上页‘猶萬金之富’，已单独登记，不能静默丢弃。"
+    },
+    {
+      "page": 9,
+      "starts_with": "山者勢險而有也法葬其所會",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000009.jpg",
+      "evidence_region": [327, 88, 594, 489],
+      "leading_source_only_text": "葬依法選穴其中則亡者安存者福永吉而無凶也以上言支已下言壠",
+      "leading_source_only_status": "attached_and_scan_verified",
+      "reviewed_at": "2026-09-28T00:15:00-07:00",
+      "review_note": "扫描第9页先续第8页注文，随后才见‘山者势险而有也’经文；校勘参考省略了该续注，已单独登记。"
+    },
+    {
+      "page": 10,
+      "starts_with": "或種作開墾",
+      "visible_scan_text": "入首或種作耕墾界斷乾流",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000010.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "leading_source_only_text": "入首",
+      "leading_source_only_status": "attached_and_scan_verified",
+      "scan_variant_for_anchor": "或種作耕墾",
+      "following_source_only_text": "界斷乾流",
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T06:40:00-07:00",
+      "review_note": "扫描第10页上版最右栏起于‘入首或種作耕墾界斷乾流’；校勘参考相应处为‘或種作開墾’，故只用参考词组定位分页，底本异文和专有文字另行保留，不能被参考覆盖。"
+    },
+    {
+      "page": 11,
+      "starts_with": "所當避也",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000011.jpg",
+      "evidence_region": [555, 88, 594, 489],
+      "reviewed_at": "2026-09-28T06:40:00-07:00",
+      "review_note": "扫描第11页上版最右栏由‘所當避也’起，承接第10页末句‘皆在’；随后底本独有经文‘是以君子奪神功改天命’已由残留项结构化插回。"
+    },
+    {
+      "page": 12,
+      "starts_with": "氣因土行而石山不可葬也",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000012.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T06:55:00-07:00",
+      "review_note": "扫描第12页上版最右栏完整起于‘氣因土行而石山不可葬也’，第11页则止于前一条注文末句，未把此经文误切回上页。"
+    },
+    {
+      "page": 13,
+      "starts_with": "若水之波",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000013.jpg",
+      "evidence_region": [555, 88, 594, 489],
+      "reviewed_at": "2026-09-28T06:55:00-07:00",
+      "review_note": "扫描第13页上版最右栏由‘若水之波’起；第12页止于‘故遠若自天而來也’，跨页结构与底本一致。"
+    },
+    {
+      "page": 14,
+      "starts_with": "之副廳堂",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000014.jpg",
+      "evidence_region": [555, 88, 594, 489],
+      "reviewed_at": "2026-09-28T07:10:00-07:00",
+      "review_note": "扫描第14页上版最右栏从上页注文的‘之副廳堂’继续，随后才进入‘龍虎抱衛，主客相迎’；不得把续注误切到第13页或把经文提前。"
+    },
+    {
+      "page": 15,
+      "starts_with": "故支葬其額城葬其麓",
+      "visible_scan_text": "故支葬其巔壠葬其麓",
+      "scan_variant_for_anchor": "故支葬其巔壠葬其麓",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000015.jpg",
+      "evidence_region": [480, 88, 594, 489],
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T07:10:00-07:00",
+      "review_note": "扫描第15页上版由完整经文‘故支葬其巔，壠葬其麓’起；校勘参考作‘額／城’，只用于定位，底本‘巔／壠’必须保留。"
+    },
+    {
+      "page": 16,
+      "starts_with": "筻口鳥跡生龜死鱉",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000016.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T07:25:00-07:00",
+      "review_note": "扫描第16页上版最右栏继续第15页‘乘金相水，穴土印木’注文中的穴法名目，自‘筻口鳥跡，生龜死鱉’续入；自动切到‘無風路’会漏掉本页前半段，现已纠正。"
+    },
+    {
+      "page": 17,
+      "starts_with": "形如負峙有城中峙法葬其止",
+      "visible_scan_text": "形如負扆有壠中峙法葬其止",
+      "scan_variant_for_anchor": "形如負扆有壠中峙法葬其止",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000017.jpg",
+      "evidence_region": [480, 88, 594, 489],
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T07:25:00-07:00",
+      "review_note": "扫描第17页由完整经文‘形如負扆，有壠中峙，法葬其止’起；校勘参考作‘負峙／城’，只作定位，底本字样另行保留。"
+    },
+    {
+      "page": 18,
+      "starts_with": "天地之氣噫則為風",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000018.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T07:40:00-07:00",
+      "review_note": "扫描第18页上版最右栏从‘天地之氣，噫則為風’开始，完整进入上一页末经文的注文；跨页点已按底本固定。"
+    },
+    {
+      "page": 19,
+      "starts_with": "土無氣脈上緊下虛",
+      "visible_scan_text": "土無氣脈上聚下虛",
+      "scan_variant_for_anchor": "土無氣脈上聚下虛",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000019.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T07:40:00-07:00",
+      "review_note": "扫描第19页上版由‘土無氣脈，上聚下虛’接续上一页‘夫幹如聚粟’注文；参考本作‘上緊’，只用于定位，底本‘上聚’单独保留。"
+    },
+    {
+      "page": 20,
+      "starts_with": "形勢反此法當破死",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000020.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T07:55:00-07:00",
+      "review_note": "扫描第20页上版由‘形勢反此，法當破死’起，承接第19页白虎注文后另起经文。"
+    },
+    {
+      "page": 21,
+      "starts_with": "山囚水流虜王滅候",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000021.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T07:55:00-07:00",
+      "review_note": "扫描第21页上版直接由‘山囚水流，虜王滅候’起；参考本在第20页末与此句之间多出的段落已登记为本底本未见，禁止自动补入。"
+    },
+    {
+      "page": 22,
+      "starts_with": "雜篇",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000022.jpg",
+      "evidence_region": [58, 88, 594, 489],
+      "leading_source_only_text": "貧富貴賤禍福者爭赴慕而信用之雖聰明之士亦不免其所愚弄智者觀之則其謬妄有不可掩焉者蓋信蔡氏之所謂佞邪詭譎為不巫也今故詳述其弊使後之習斯術者不可不慎復使後之葬者知從子平斷驗小數之無補而必求地理正宗之良師則於孝子仁人之用心少有鑒焉云耳",
+      "leading_source_only_status": "structured_and_scan_verified",
+      "reviewed_at": "2026-09-28T08:10:00-07:00",
+      "review_note": "扫描第22页先续第21页参考本未载的辨伪长注，随后见‘雜篇’卷题及‘占山之法’正文。分页锚点只定位卷题，页首专有注文已单独登记，不得丢弃。"
+    },
+    {
+      "page": 23,
+      "starts_with": "横窜直播",
+      "visible_scan_text": "橫竄直播行度不調",
+      "scan_variant_for_anchor": "橫竄直播",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000023.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T08:10:00-07:00",
+      "review_note": "扫描第23页上版由‘勢如驚蛇’注文‘橫竄直播，行度不調’起；原先把上一页经文末字‘國’拆到本页，现归回第22页。参考本作‘横窜直播’，仅用于定位。"
+    },
+    {
+      "page": 24,
+      "starts_with": "形如灰囊灾舍焚仓",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000024.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "reviewed_at": "2026-09-28T08:25:00-07:00",
+      "review_note": "扫描第24页上版由‘形如灰囊，災舍焚倉’完整起篇，未承接第23页注文。"
+    },
+    {
+      "page": 25,
+      "starts_with": "逆者凶势吉形凶尤可希一日之福",
+      "visible_scan_text": "形逆則凶",
+      "leading_source_only_text": "形",
+      "leading_source_only_status": "attached_to_page25_opening_commentary",
+      "scan_variant_for_anchor": "逆則凶",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000025.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "source_specific_status": "transcribed_and_scan_verified",
+      "reviewed_at": "2026-09-28T08:25:00-07:00",
+      "review_note": "扫描第25页接续上页注文，页首可见‘形逆則凶’；校勘参考相应处为‘逆者凶’，只用于定位，底本多出的‘形’及‘則／者’异文另行保留。"
+    },
+    {
+      "page": 26,
+      "starts_with": "盖穴有三吉葬直六凶天光下临地德上载",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000026.jpg",
+      "evidence_region": [58, 88, 594, 489],
+      "leading_source_only_text": "無位而配合於中官中爲太極而分陰陽段人心形勢也而其法又何異於刻舟求首乎日月爲太極心明則長辨罰妍彈而洞達陰陽首也玉鄙裡重迂類市非小見信語央非出於景純識者尺者目也目乃心之準絕心清則目明體月而俎必能辦之則真僞自見矣克心測之而目度之也故程子言視爲之則則亦",
+      "leading_source_only_status": "visually_transcribed_as_structured_leading_commentary",
+      "reviewed_at": "2026-09-28T08:40:00-07:00",
+      "review_note": "扫描第26页先有参考本未载的方位、太极与心目辨识旧注，随后才进入‘蓋穴有三吉，葬有六凶’。页首旧注已经逐图转录并签收，不由参考覆盖。"
+    },
+    {
+      "page": 27,
+      "starts_with": "凭福恃势为四凶",
+      "occurrence": 1,
+      "evidence_image": "20-source/pages/P000027.jpg",
+      "evidence_region": [518, 88, 594, 489],
+      "leading_source_only_text": "也",
+      "leading_source_only_status": "attached_to_page27_opening_with_previous_commentary_note",
+      "reviewed_at": "2026-09-28T08:40:00-07:00",
+      "review_note": "扫描第27页先以‘也’字收束第26页末句‘是不量力度德’，随即起‘憑福恃勢為四凶’；参考本多出的‘然此亦不可泥’已隔离。"
+    }
+  ]
+}

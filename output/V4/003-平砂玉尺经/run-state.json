@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "book_id": "2741569487652745",
+  "updated_at": "2026-09-27T04:56:21.636307+00:00",
+  "stages": {
+    "intake": {
+      "status": "passed",
+      "physical_pages": 86,
+      "parent_page_range": [
+        167,
+        252
+      ],
+      "source_sha256": "27415694876527459467de0efa11becb613aac99d504dbd9a86a680959f71421",
+      "parent_source_sha256": "a07cd8bc1b77321eaf293882969fb819484693c70ea802c0e87ad4e9de93bd60",
+      "paid_cost_rmb": 0
+    },
+    "diagnosis": {
+      "status": "passed_with_ledger",
+      "pages_routed": 86,
+      "all_pages_visually_reviewed": 86,
+      "representative_pages_verified": 15,
+      "embedded_text_pages": 0,
+      "poor_pages": [
+        86
+      ],
+      "paid_cost_rmb": 0
+    },
+    "source": {
+      "status": "passed_with_ledger",
+      "physical_pages": 86,
+      "page_images": 86,
+      "blocks": 665,
+      "accepted_corrections": 43,
+      "unresolved_candidates": 129,
+      "v2_markdown_12char_shingle_coverage": 0.9995,
+      "tool": "Qwen3-VL page proof + V2 two-pass audit + MinerU layout + full-page images",
+      "paid_cost_rmb": 0,
+      "evidence": "20-source/source-reconstruction-report.json"
+    },
+    "normalized": {
+      "status": "passed",
+      "blocks": 665,
+      "change_records": 8453,
+      "operation_counts": {
+        "script_conversion": 8453,
+        "punctuation": 0,
+        "whitespace": 0
+      },
+      "tool": "OpenCC t2s + conservative typography",
+      "paid_cost_rmb": 0,
+      "evidence": "30-normalized/normalization-report.json"
+    },
+    "modernized": {
+      "status": "passed_with_ledger",
+      "blocks": 665,
+      "repair_queue_segments": 0,
+      "mapping_counts": {
+        "short_source_label_retained": 63,
+        "v3_segment_anchor": 569,
+        "nontext": 33
+      },
+      "paid_calls_made_by_import": 0,
+      "evidence": "40-modernized/modernization-report.json"
+    },
+    "edited": {
+      "status": "passed_with_ledger",
+      "blocks": 665,
+      "figures": 33,
+      "evidence": "50-edited/editorial-report.json"
+    },
+    "publication": {
+      "status": "passed",
+      "grade": "B",
+      "candidate": "60-publication/candidates/平砂玉尺经·现代白话版-candidate.pdf",
+      "official_pdf": "60-publication/平砂玉尺经·现代白话版.pdf",
+      "pdf_pages": 96,
+      "rendered_pages_inspected": 96,
+      "evidence": "90-audit/release-binding.json"
+    },
+    "source_adjudicated": {
+      "status": "passed_with_ledger",
+      "candidates": 455
+    },
+    "reader_revised": {
+      "status": "passed",
+      "cycle": "RC0001",
+      "applied_revisions": 1,
+      "evidence": "50-edited/reader-acceptance-report.json"
+    },
+    "final_adjudicated": {
+      "status": "passed_with_ledger",
+      "open_material": 191,
+      "high_impact": 0
+    }
+  },
+  "current_stage": "delivery",
+  "tools": [
+    "Poppler pdftoppm",
+    "pypdf",
+    "MinerU evidence reuse",
+    "chaoyun-pdf-diagnoser"
+  ]
+}

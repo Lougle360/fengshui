@@ -1,0 +1,926 @@
+{
+  "schema_version": "1.0",
+  "renderer": "PyMuPDF 1.28.2",
+  "manuscript_sha256": "090ea0a735c968caddb083fdbf520f1d403e12395a0f52dc5542eeaac9316169",
+  "markdown_sha256": "090ea0a735c968caddb083fdbf520f1d403e12395a0f52dc5542eeaac9316169",
+  "pdf_sha256": "57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13",
+  "assets": {
+    "assets/figures/P000050-B007.jpg": "baeb3dd504a2fa2e77cb973a045d68ee3bf4f66334cba17ca8aac456d6f4e0f7",
+    "assets/figures/P000052-B007.jpg": "e18805b4d094054b5f97c203c4b33d467b61ae9ff34a2fe45b844799ddbc7a2d",
+    "assets/figures/P000052-B008.jpg": "7832a654aee13b4cd1806f6416cc3b74b8652d6394ce337b0cf827a0b8fc3df0",
+    "assets/figures/P000053-B008.jpg": "99e6b4e579268f6dc5e4fb2e3f804057888bc70c977a4e73ba5a9957380d720e",
+    "assets/figures/P000054-B011.jpg": "0b0a4d4ebdbee840143925f7ee357142782bfdc81e1b867d1084a3f5005f1b77",
+    "assets/figures/P000054-B012.jpg": "4c350d8f5f515232cd901b5d289f37c521da785dac6e245db2377595b432628c",
+    "assets/figures/P000055-B007.jpg": "4cb4846b7c72cb5391e92f97065762f45c53889d37bf67787e998c6ad58c794f",
+    "assets/figures/P000055-B008.jpg": "3a690e22cc9d1fc1124de9ed26a399f3127cfe18b8876f28ed46a823c124ff55",
+    "assets/figures/P000056-B010.jpg": "b9f1c5f67b1ba85344e31c61078dc859b7e8f3eee2190bacf60549334d9c1ff4",
+    "assets/figures/P000056-B011.jpg": "bfafd2aeb91e4b92479f75c578b3f8a05e78735985343906ea516118f1556d0a",
+    "assets/figures/P000057-B001.jpg": "56f7ae261997b346aeae5cc8e74d557984b841105bbb2ec5914eaae14f0d2668",
+    "assets/figures/P000058-B007.jpg": "93ee5aa8faf9570da540147f7f0cff3b7d91e837f99cc7150cb295a73c65c11d",
+    "assets/figures/P000058-B008.jpg": "bd1698ec4e3b8f7aab48430fad5efb169e6d416bc5f3d9b3585043f5c11dec8d",
+    "assets/figures/P000058-B009.jpg": "eaefd7a11728792904d4ce4e4ee0612a39d2963f3ab2c837163a4e5f5f0fa6ac",
+    "assets/figures/P000058-B010.jpg": "d9735a279fbbe086096dae10146476b07f6643de15fdb7cffbd171065f6c58b2",
+    "assets/figures/P000059-B001.jpg": "d63a33c7afe8803465160c2fa575ba68d934ec67c8314343fc34b2c85fdab8d7",
+    "assets/figures/P000060-B005.jpg": "5e6aa215a78f2ce536e563d6317558e3eb7b3988a2823d8a0486bd30f91b002a",
+    "assets/figures/P000061-B008.jpg": "aa5c0227c3abac456ef392c8ccb7899d5a75a05e0ac24c287574b4ad70cca7fb",
+    "assets/figures/P000061-B009.jpg": "0cd3a8f1a2f2387252c9c3f91ef777990f1df95f8bee84f3a64dd733f5d9dbab",
+    "assets/figures/P000062-B004.jpg": "04e684a143b328bd6f60b8c5ce5eb54b2ea83d54ba7614e22a5813deb9ce1ecc",
+    "assets/figures/P000062-B005.jpg": "c82bde36d562a9d7155a96db49c9b5f2aabb388896df5d7555079307eeab0fb2",
+    "assets/figures/P000062-B006.jpg": "87a81cec2fa5dd7d01a4f5f1df9fea188f8259ce550b83df3f0d7cde21c13838",
+    "assets/figures/P000063-B002.jpg": "5cd7925eb2ae36bdb501b8cb7e6fd99d07bf992eceb1104754c9419f8fbc964f",
+    "assets/figures/P000064-B007.jpg": "d430cd2bf90d2dc96046974f85ecf8418a1554c405123d8786cc117ffa14c9be",
+    "assets/figures/P000064-B008.jpg": "70b3e6527df0fabc8b5fb62413775ea97c2ccf2cceae93f65b27c4c2e5acb29e",
+    "assets/figures/P000065-B003.jpg": "58ed3a9531ec88fc78cae366463a161ae68a5959e4273d998aa29ba8b4a9fcbf",
+    "assets/figures/P000065-B004.jpg": "3b3b787df855174a69c1715b7e920a592fc49648344eeefccc56c1ace8599aea",
+    "assets/figures/P000065-B005.jpg": "6c36a7c91bab2352ff968a81897913f80168ca81a76bda7f3b7d795b3872fb33",
+    "assets/figures/P000066-B006.jpg": "bd0513caee8764a82014df306a57ac57e36f63ebe57115fc374e8d8db45e713e",
+    "assets/figures/P000066-B007.jpg": "c48f74f08fbfde336d56d7fc991d456fb7f050e74b284fbfc3594abf14e0f4fb",
+    "assets/figures/P000067-B008.jpg": "a4b80853b220db6ccd4901df8126cf388401c08cc8f2a39f01a36d341df5e2f0",
+    "assets/figures/P000067-B009.jpg": "acd51a1935e4528b6f7fddbfe345c83ba30761892111764e88a767ff314034ba",
+    "assets/figures/P000086-B001.jpg": "af36f8d11cf182912846d1d2c4c42941519d4bf2672182ca0cb340856b97af17"
+  },
+  "page_reviews": [
+    {
+      "page": 1,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0001.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0001；复核 contact sheet-01。封面题名、版本标识与版面留白清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 2,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0002.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0002；复核 contact sheet-01。版权与阅读说明清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 3,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0003.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0003；复核 contact sheet-01。目录、页码与内部链接清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 4,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0004.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0004；复核 contact sheet-01。导读、阅读方法与卷次导航清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 5,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0005.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0005；复核 contact sheet-02。导读、阅读方法与卷次导航清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 6,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0006.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0006；复核 contact sheet-02。导读、阅读方法与卷次导航清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 7,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0007.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0007；复核 contact sheet-02。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 8,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0008.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0008；复核 contact sheet-02。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 9,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0009.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0009；复核 contact sheet-03。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 10,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0010.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0010；复核 contact sheet-03。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 11,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0011.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0011；复核 contact sheet-03。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 12,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0012.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0012；复核 contact sheet-03。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 13,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0013.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0013；复核 contact sheet-04。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 14,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0014.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0014；复核 contact sheet-04。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 15,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0015.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0015；复核 contact sheet-04。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 16,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0016.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0016；复核 contact sheet-04。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 17,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0017.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0017；复核 contact sheet-05。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 18,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0018.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0018；复核 contact sheet-05。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 19,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0019.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0019；复核 contact sheet-05。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 20,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0020.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0020；复核 contact sheet-05。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 21,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0021.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0021；复核 contact sheet-06。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 22,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0022.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0022；复核 contact sheet-06。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 23,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0023.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0023；复核 contact sheet-06。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 24,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0024.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0024；复核 contact sheet-06。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 25,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0025.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0025；复核 contact sheet-07。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 26,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0026.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0026；复核 contact sheet-07。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 27,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0027.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0027；复核 contact sheet-07。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 28,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0028.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0028；复核 contact sheet-07。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 29,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0029.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0029；复核 contact sheet-08。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 30,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0030.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0030；复核 contact sheet-08。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 31,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0031.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0031；复核 contact sheet-08。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 32,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0032.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0032；复核 contact sheet-08。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 33,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0033.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0033；复核 contact sheet-09。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 34,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0034.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0034；复核 contact sheet-09。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 35,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0035.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0035；复核 contact sheet-09。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 36,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0036.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0036；复核 contact sheet-09。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 37,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0037.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0037；复核 contact sheet-10。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 38,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0038.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0038；复核 contact sheet-10。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 39,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0039.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0039；复核 contact sheet-10。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 40,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0040.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0040；复核 contact sheet-10。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 41,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0041.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0041；复核 contact sheet-11。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 42,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0042.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0042；复核 contact sheet-11。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 43,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0043.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0043；复核 contact sheet-11。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 44,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0044.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0044；复核 contact sheet-11。正文层级、行距、页边距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 45,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0045.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0045；复核 contact sheet-12。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 46,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0046.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0046；复核 contact sheet-12。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 47,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0047.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0047；复核 contact sheet-12。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 48,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0048.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0048；复核 contact sheet-12。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 49,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0049.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0049；复核 contact sheet-13。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 50,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0050.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0050；复核 contact sheet-13。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 51,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0051.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0051；复核 contact sheet-13。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 52,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0052.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0052；复核 contact sheet-13。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 53,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0053.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0053；复核 contact sheet-14。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 54,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0054.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0054；复核 contact sheet-14。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 55,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0055.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0055；复核 contact sheet-14。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 56,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0056.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0056；复核 contact sheet-14。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 57,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0057.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0057；复核 contact sheet-15。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 58,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0058.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0058；复核 contact sheet-15。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 59,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0059.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0059；复核 contact sheet-15。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 60,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0060.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0060；复核 contact sheet-15。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 61,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0061.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0061；复核 contact sheet-16。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 62,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0062.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0062；复核 contact sheet-16。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 63,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0063.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0063；复核 contact sheet-16。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 64,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0064.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0064；复核 contact sheet-16。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 65,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0065.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0065；复核 contact sheet-17。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 66,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0066.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0066；复核 contact sheet-17。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 67,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0067.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0067；复核 contact sheet-17。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 68,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0068.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0068；复核 contact sheet-17。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 69,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0069.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0069；复核 contact sheet-18。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 70,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0070.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0070；复核 contact sheet-18。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 71,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0071.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0071；复核 contact sheet-18。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 72,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0072.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0072；复核 contact sheet-18。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 73,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0073.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0073；复核 contact sheet-19。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 74,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0074.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0074；复核 contact sheet-19。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 75,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0075.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0075；复核 contact sheet-19。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 76,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0076.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0076；复核 contact sheet-19。正文、古图清晰度、图题与阅读提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 77,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0077.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0077；复核 contact sheet-20。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 78,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0078.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0078；复核 contact sheet-20。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 79,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0079.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0079；复核 contact sheet-20。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 80,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0080.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0080；复核 contact sheet-20。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 81,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0081.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0081；复核 contact sheet-21。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 82,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0082.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0082；复核 contact sheet-21。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 83,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0083.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0083；复核 contact sheet-21。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 84,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0084.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0084；复核 contact sheet-21。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 85,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0085.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0085；复核 contact sheet-22。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 86,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0086.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0086；复核 contact sheet-22。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 87,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0087.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0087；复核 contact sheet-22。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 88,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0088.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0088；复核 contact sheet-22。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 89,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0089.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0089；复核 contact sheet-23。后段正文、层级、行距与页码清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 90,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0090.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0090；复核 contact sheet-23。残损原页图、保守释读与不确定性提示清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 91,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0091.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0091；复核 contact sheet-23。阅读收束与正文闭合清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 92,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0092.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0092；复核 contact sheet-23。术语表条目、释义、出处与分页清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 93,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0093.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0093；复核 contact sheet-24。术语表条目、释义、出处与分页清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 94,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0094.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0094；复核 contact sheet-24。术语表条目、释义、出处与分页清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 95,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0095.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0095；复核 contact sheet-24。术语表条目、释义、出处与分页清晰，无乱码、裁切、重叠或非预期空白。"
+    },
+    {
+      "page": 96,
+      "image": "90-audit/proofs/57d923f8df39a45b4fffa9f223c04c81d30f39e8d66756a3a903e89a89938e13/page-0096.png",
+      "status": "passed",
+      "issues": [],
+      "reviewer": "codex-visual-proof-review",
+      "evidence": "逐页检查 proof page-0096；复核 contact sheet-24。术语表条目、释义、出处与分页清晰，无乱码、裁切、重叠或非预期空白。"
+    }
+  ],
+  "navigation": [
+    {
+      "heading": "平砂玉尺经",
+      "target_page": 1,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 1 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "现代白话版",
+      "target_page": 1,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 1 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "版权与阅读说明",
+      "target_page": 2,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 2 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "目录",
+      "target_page": 3,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 3 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "本书介绍",
+      "target_page": 4,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 4 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "怎样读这本书",
+      "target_page": 5,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 5 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "原书卷次结构（编者据卷题重建）",
+      "target_page": 6,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 6 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷首：序与版本说明",
+      "target_page": 7,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 7 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷一·审势篇：从大势到水与气的关系",
+      "target_page": 8,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 8 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷二·审气篇：五行、方位与盛衰",
+      "target_page": 19,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 19 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷三：寻龙与砂形的识别",
+      "target_page": 30,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 30 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷四·审穴篇：入首、护砂与图式",
+      "target_page": 38,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 38 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷五·审砂篇：生死、收束与水口",
+      "target_page": 77,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 77 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "卷六·审向篇：纳水、消水与立向",
+      "target_page": 84,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 84 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "阅读收束：把形势与传统解释分开",
+      "target_page": 91,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 91 页标题一致；第 3 页目录链接跳转至该页。"
+    },
+    {
+      "heading": "本书术语表",
+      "target_page": 92,
+      "link_page": 3,
+      "status": "passed",
+      "evidence": "书签题名与第 92 页标题一致；第 3 页目录链接跳转至该页。"
+    }
+  ]
+}

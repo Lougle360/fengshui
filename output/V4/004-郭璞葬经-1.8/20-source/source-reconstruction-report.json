@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.9",
+  "book_id": "b74dc8e8ce97bab8",
+  "generated_at": "2026-09-29T08:24:21.129524+00:00",
+  "status": "passed_with_ledger",
+  "physical_pages": 29,
+  "page_images": 29,
+  "candidate_blocks": 309,
+  "source_blocks": 307,
+  "accepted_source_blocks": 307,
+  "rejected_duplicate_blocks": 2,
+  "pending_visual_review": 0,
+  "stale_page_review_bindings": [],
+  "reference_only_omissions": [
+    {
+      "id": "REF-OMIT-P020-P021-001",
+      "canonical_character_count": 541,
+      "canonical_sha256": "0b231e0f9655225e4ad6ff65d56735d70eaf745fc27ae7cf23fb04afd7ad5646",
+      "status": "visually_confirmed_reference_only",
+      "scan_page_before": 20,
+      "scan_page_after": 21
+    },
+    {
+      "id": "REF-OMIT-P026-P027-001",
+      "canonical_character_count": 6,
+      "canonical_sha256": "abf4c7f3ee6e62ae61fddfaa34c5d2abc44b80ecbaf643e0f9d58e2918484b79",
+      "status": "visually_confirmed_reference_only",
+      "scan_page_before": 26,
+      "scan_page_after": 27
+    }
+  ],
+  "source_only_residual_rows": [
+    "book004-b000060-p000-32984c16f6",
+    "book004-b000068-p000-167dbfbd52",
+    "book004-b000099-p000-901cdf60a3",
+    "book004-b000103-p000-035078a6da",
+    "book004-b000104-p000-69e2768c84",
+    "book004-b000130-p000-8e96235deb",
+    "book004-b000132-p000-caa88920c4",
+    "book004-b000133-p000-32c36fedf3",
+    "book004-b000134-p000-076a4e5999"
+  ],
+  "multi_region_blocks": 18,
+  "blocks_sha256": "a04175e39da5df983cf8512e0cfd306c197cc074cfb2875099229975839370fe",
+  "source_md_sha256": "99445de052efca994d543f39c10cb0dd64dfff48ff1f42051ceb36a4cceccecc",
+  "candidate_audit_sha256": "40869fa0fe7225799c7b1f2580b8c8ad223930fd4ee8c198fb47159955f04554",
+  "rejected_candidates": [
+    {
+      "candidate_id": "P000014-C019",
+      "source_page": 14,
+      "reason": "该块把第13页末注、第14页全页正文及版心OCR再次拼接，扫描页不存在独立对应区域；真实文字已由C001—C018逐块覆盖。"
+    },
+    {
+      "candidate_id": "P000018-C005",
+      "source_page": 18,
+      "reason": "该候选是旧OCR对C003下版尾段‘石之類是也……而後為的確’的重复切块；扫描页不存在另一独立注文，真实文字已由C003完整覆盖。"
+    }
+  ]
+}

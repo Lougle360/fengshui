@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "status": "in_progress",
+  "description": "登记校勘参考中存在、但连续扫描页明确未见的文字。这里只阻止参考文字混入底本候选，不删除或改写扫描本内容。",
+  "omissions": [
+    {
+      "id": "REF-OMIT-P020-P021-001",
+      "after_scan_text": "此水之未盛",
+      "resumes_with": "山囚水流虜王滅候",
+      "scan_page_before": 20,
+      "scan_page_after": 21,
+      "evidence_before": "20-source/pages/P000020.jpg",
+      "evidence_after": "20-source/pages/P000021.jpg",
+      "status": "visually_confirmed_reference_only",
+      "reviewed_at": "2026-09-28T07:55:00-07:00",
+      "reason": "扫描第20页末止于‘此水之未盛’，下一连续扫描页第21页直接起于‘山囚水流，虜王滅候’。参考本夹有‘小流合大流’至‘山來水回’等段，本底本未见，不得借参考补入。"
+    },
+    {
+      "id": "REF-OMIT-P026-P027-001",
+      "after_scan_text": "是不量力度德也",
+      "resumes_with": "凭福恃势为四凶",
+      "scan_page_before": 26,
+      "scan_page_after": 27,
+      "evidence_before": "20-source/pages/P000026.jpg",
+      "evidence_after": "20-source/pages/P000027.jpg",
+      "status": "visually_confirmed_reference_only",
+      "reviewed_at": "2026-09-28T08:40:00-07:00",
+      "reason": "扫描第26页末止于‘是不量力度德’，第27页先续一‘也’字，随即进入‘憑福恃勢為四凶’。参考本夹入的‘然此亦不可泥’在连续扫描中未见，禁止补入。"
+    }
+  ]
+}

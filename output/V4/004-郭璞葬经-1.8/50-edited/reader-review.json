@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.2",
+  "cycle_id": "RC0020",
+  "mode": "manuscript",
+  "input_snapshot": "50-edited/review-history/RC0020/input-before-reader-layout.md",
+  "input_sha256": "3ee71747fbdbd61f06ea2c7fe50a95694e90ed9635fa468bfd2c41b5497060b6",
+  "target_reader": "现代普通读者",
+  "reviewer": "codex-reader-regression-v20",
+  "dimensions": {
+    "introduction_promise": {
+      "verdict": "passed",
+      "findings": []
+    },
+    "prerequisites": {
+      "verdict": "passed",
+      "findings": []
+    },
+    "navigation": {
+      "verdict": "passed",
+      "findings": []
+    },
+    "continuity": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR0020-001",
+          "problem": "重复标签、跨页分块和半句省略使部分古注看似没有对应原经。"
+        }
+      ]
+    },
+    "terminology": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR0020-002",
+          "problem": "核心术语的“例”只是模板句，没有用正文实例帮助普通读者理解。"
+        }
+      ]
+    },
+    "examples_and_figures": {
+      "verdict": "passed",
+      "findings": []
+    },
+    "redundancy_and_pacing": {
+      "verdict": "passed",
+      "findings": []
+    },
+    "source_editor_trust": {
+      "verdict": "passed",
+      "findings": []
+    },
+    "closure_and_lookup": {
+      "verdict": "passed",
+      "findings": []
+    }
+  },
+  "blocking_issues": [
+    "RR0020-001",
+    "RR0020-002"
+  ]
+}

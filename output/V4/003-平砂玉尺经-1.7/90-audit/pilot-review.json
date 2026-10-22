@@ -1,0 +1,98 @@
+{
+  "kind": "chapter_trial",
+  "workflow_version": "1.6",
+  "source_pdf_sha256": "27415694876527459467de0efa11becb613aac99d504dbd9a86a680959f71421",
+  "selection_reason": "P41同时包含跨块残句、版刻题署、术语讹误和可由同书后文互证的引文，是本书疑损处理的代表性难章。",
+  "risk_coverage": "覆盖OCR讹误、跨块连续性、保守披露、同书内证改正和普通读者可读性。",
+  "limitations": "该试验只证明P41及所用流程经过真实失败—修订—回归循环，不替代其余章节的整书复核。",
+  "sample_block_ids": [
+    "P000041-B001",
+    "P000041-B002",
+    "P000041-B003",
+    "P000041-B004",
+    "P000041-B005",
+    "P000041-B006",
+    "P000041-B007",
+    "P000041-B008",
+    "P000041-B012"
+  ],
+  "candidate_ids": [
+    "UC-MOD-00166",
+    "UC-MOD-00167",
+    "UC-MOD-00168",
+    "UC-MOD-00169",
+    "UC-MOD-00170",
+    "UC-MOD-00171",
+    "UC-MOD-00172",
+    "UC-MOD-00173",
+    "UC-MOD-00174"
+  ],
+  "before": {
+    "path": "50-edited/delivery-edit/previous-98fb10744948.md",
+    "sha256": "98fb107449482bf88564beaae58c0d838f66f20a14fe46866002644143d1f548",
+    "quote": "<!-- source:P000041-B007 -->"
+  },
+  "after": {
+    "path": "50-edited/modern-reading.md",
+    "sha256": "ccb7d9b8361d91f5c22566a558503eddc7d372b035d84317c81127a48e495be3",
+    "quote": "万水尽从天上去，群龙须向地中行"
+  },
+  "cases": [
+    {
+      "candidate_id": "UC-MOD-00166",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_confirmed，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00167",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_confirmed，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00168",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_structural，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00169",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_structural，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00170",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_structural，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00171",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_structural，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00172",
+      "result": "residual",
+      "evidence": "P41盲读逐项复核；当前决定为open_material，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00173",
+      "result": "residual",
+      "evidence": "P41盲读逐项复核；当前决定为open_material，最终稿保留必要边界或已完成修复。"
+    },
+    {
+      "candidate_id": "UC-MOD-00174",
+      "result": "verified",
+      "evidence": "P41盲读逐项复核；当前决定为resolved_confirmed，最终稿保留必要边界或已完成修复。"
+    }
+  ],
+  "status": "passed",
+  "new_errors": [],
+  "elapsed_seconds": 557,
+  "cost": 0.0,
+  "cost_unit": "USD",
+  "producer": "codex-editorial-producer",
+  "producer_run_id": "producer-root-book003-final-1.7",
+  "review_record": {
+    "path": "90-audit/pilot-review-record.json",
+    "sha256": "4f841617c515f5f8c71991dc67c490736f3f8eaf41c18f03dbbabbeda7dccad8"
+  }
+}

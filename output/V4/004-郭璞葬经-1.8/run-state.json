@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "workflow_schema_version": "1.9",
+  "book_id": "b74dc8e8ce97bab8",
+  "updated_at": "2026-09-29T08:39:22.561571+00:00",
+  "stages": {
+    "intake": {
+      "status": "passed",
+      "physical_pages": 29,
+      "parent_page_range": [
+        253,
+        281
+      ],
+      "paid_cost_rmb": 0
+    },
+    "diagnosis": {
+      "status": "passed",
+      "pages_routed": 29,
+      "all_pages_visually_reviewed": 29,
+      "figures": 0,
+      "paid_cost_rmb": 0
+    },
+    "source": {
+      "status": "passed_with_ledger",
+      "pages": 29,
+      "blocks": 307,
+      "rejected_duplicate_blocks": 2,
+      "pending_visual_review": 0,
+      "evidence": "20-source/source-reconstruction-report.json",
+      "paid_cost_rmb": 0
+    },
+    "source_adjudicated": {
+      "status": "passed_with_ledger",
+      "evidence": "90-audit/uncertainty-adjudication.jsonl"
+    },
+    "normalized": {
+      "status": "passed",
+      "blocks": 307,
+      "change_records": 4037,
+      "evidence": "30-normalized/normalization-report.json",
+      "paid_cost_rmb": 0
+    },
+    "book_understood": {
+      "status": "passed",
+      "evidence": "40-modernized/book-understanding.md"
+    },
+    "reader_designed": {
+      "status": "passed",
+      "evidence": "50-edited/editorial-plan.md"
+    },
+    "sample_accepted": {
+      "status": "passed",
+      "evidence": "50-edited/production-plan.json"
+    },
+    "modernized": {
+      "status": "passed",
+      "blocks": 307,
+      "evidence": "40-modernized/blocks.jsonl"
+    },
+    "edited": {
+      "status": "passed",
+      "blocks": 307,
+      "evidence": "50-edited/blocks.jsonl"
+    },
+    "reader_revised": {
+      "status": "passed",
+      "full_passes": 3,
+      "stable_final_passes": 2,
+      "evidence": "50-edited/reader-acceptance-report.json"
+    },
+    "final_adjudicated": {
+      "status": "passed_with_ledger",
+      "evidence": "90-audit/uncertainty-release-review.json"
+    },
+    "publication": {
+      "status": "revoked",
+      "revoked_at": "2026-09-27T15:30:00Z",
+      "reason": "Workflow audit found incomplete source scope, invalid source-reader mapping, insufficient reader-review cycles, and reader-hostile PDF layout.",
+      "evidence": "90-audit/release-binding.json",
+      "pdf": "60-publication/郭璞葬经（五经四书解义本）·现代白话版.pdf",
+      "pages": 13,
+      "sha256": "a975590fe9b7f2e09a1076192e7f0100f24de44b0b95b12452ee8d80ac9dcad1"
+    }
+  },
+  "current_stage": "publication"
+}

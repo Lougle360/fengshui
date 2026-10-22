@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "kind": "chapter_trial",
+  "workflow_version": "1.6",
+  "source_pdf_sha256": "b74dc8e8ce97bab8d7f8aded39b966d934747ab0c96c95eca264a4b19e6c1684",
+  "selection_reason": "支垄、得水藏风和相对深浅是全书概念依赖最密集的代表性难段。",
+  "risk_coverage": [
+    "OCR疑字",
+    "支垄区分",
+    "得水藏风",
+    "相对深浅"
+  ],
+  "limitations": "样章不覆盖全部杂篇礼制，由307块忠实性复核和三轮整书通读补足。",
+  "before": {
+    "path": "50-edited/process-edition/modern-reading.md",
+    "sha256": "ae43e3fae8138db8e44f3be32e121491f45cc2e4501847719bbf9bc6ad651b34",
+    "quote": "# 郭璞葬经（五经四书解义本）过程对照版"
+  },
+  "after": {
+    "path": "50-edited/modern-reading.md",
+    "sha256": "f324af290aad963652134f4508af64b4e5fbaf032ea2aa8bce19c5758cb7d392",
+    "quote": "个别字形仍有疑义时，本版保留底本文字，不以参考文本强行替换。"
+  },
+  "candidate_ids": [
+    "U-004-001-01",
+    "U-004-004-01"
+  ],
+  "sample_block_ids": [
+    "P000004-B001",
+    "P000005-B001"
+  ],
+  "cases": [
+    {
+      "candidate_id": "U-004-001-01",
+      "result": "residual",
+      "evidence": "疑字保留在审计台账；读者稿依视觉核准底本保守转述并明示处理原则。"
+    },
+    {
+      "candidate_id": "U-004-004-01",
+      "result": "residual",
+      "evidence": "疑字保留在审计台账；读者稿依视觉核准底本保守转述并明示处理原则。"
+    }
+  ],
+  "status": "passed",
+  "new_errors": [],
+  "elapsed_seconds": 1240,
+  "cost": 0,
+  "cost_unit": "RMB",
+  "producer": "codex-editorial-producer-v19",
+  "producer_run_id": "book004-final-production-v19-20260929",
+  "review_record": {
+    "path": "90-audit/pilot-review-record.json",
+    "sha256": "9bb4b91a050c7a014917b8c97e8bbf332f2e755a03fa47a876a971bbce641006"
+  }
+}

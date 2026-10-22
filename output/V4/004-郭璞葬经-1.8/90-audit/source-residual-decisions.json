@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "status": "closed",
+  "description": "旧OCR与校勘参考差异较大的行必须逐项裁决；程序不得仅凭长度比自动塞入正文。",
+  "decisions": [
+    {
+      "candidate_id": "book004-b000034-p000-6b6f4f7f8d",
+      "decision": "reject_as_duplicate_ocr_merge",
+      "evidence_page": 5,
+      "reason": "该行把本页‘夫土者……’经文与前一条‘阴阳之气……’注文倒序合并，内容已由正式结构块覆盖，不是扫描本新增文字。"
+    },
+    {
+      "candidate_id": "book004-b000060-p000-32984c16f6",
+      "decision": "retain_as_structured_transcription",
+      "evidence_page": 11,
+      "evidence_image": "20-source/pages/P000011.jpg",
+      "evidence_region": [58, 89, 594, 488],
+      "duplicate_prefix_omitted": "所當避也",
+      "reason": "第11页上版右起第一栏先续上页注文“所當避也”，继而出现校勘参考漏收的经文“是以君子奪神功改天命”，其后为该句注文。不得把经文随整行旧OCR降为页末未对齐注文。",
+      "fragments": [
+        {
+          "source_text": "是以君子奪神功改天命",
+          "component_id": "C-MAIN",
+          "structural_role": "body",
+          "insert_before_reference_segment_index": 85,
+          "scan_transcription_status": "visually_confirmed",
+          "promotion_status": "pending_visual_review",
+          "evidence_region": [518, 89, 594, 488]
+        },
+        {
+          "source_text": "上文所謂乗審釋避全憑眼力之巧工力之具趨全避缺增高益下微妙在智触類而長玄通陰陽切奪造化及夫穴塲一應作用裁剪放送之法皆是也陳希夷曰聖人執其樞機秘其妙用運之於巳行之於世天命可移也神功可奪也曆數可變也道不虛行存乎其人耳",
+          "component_id": "C-COMMENTARY",
+          "structural_role": "commentary",
+          "insert_before_reference_segment_index": 85,
+          "scan_transcription_status": "ocr_requires_manual_transcription",
+          "promotion_status": "pending_visual_review",
+          "evidence_region": [58, 89, 518, 488]
+        }
+      ]
+    },
+    {
+      "candidate_id": "book004-b000068-p000-167dbfbd52",
+      "decision": "retain_for_manual_transcription",
+      "evidence_page": 13,
+      "reason": "第13—14页逐图审核已覆盖该旧OCR材料：真实经注均逐块签收，整页重复拼接伪块P000014-C019有据拒绝。"
+    },
+    {
+      "candidate_id": "book004-b000099-p000-901cdf60a3",
+      "decision": "retain_for_manual_transcription",
+      "evidence_page": 18,
+      "reason": "第18页逐图审核已覆盖该材料：P000018-C003完整保留土石五色长注，P000018-C005确认为尾段重复OCR伪块并拒绝。"
+    },
+    {
+      "candidate_id": "book004-b000103-p000-035078a6da",
+      "decision": "retain_for_manual_transcription",
+      "evidence_page": 21,
+      "reason": "第21页逐图审核已将该底本专有辨伪注文转录为P000021-C003并签收。"
+    },
+    {
+      "candidate_id": "book004-b000104-p000-69e2768c84",
+      "decision": "retain_for_manual_transcription",
+      "evidence_page": 21,
+      "reason": "第21页逐图审核已将该底本专有辨伪注文转录为P000021-C004并签收。"
+    },
+    {
+      "candidate_id": "book004-b000130-p000-8e96235deb",
+      "decision": "retain_as_structured_transcription",
+      "evidence_page": 26,
+      "evidence_image": "20-source/pages/P000026.jpg",
+      "reason": "第26页在三吉六凶正文之前先承接第25页土圭、方位与八卦形势长注；旧OCR把该续文与本页正文交叉合并。现依原图只保留续文，并插在参考段283之前，避免整页重复。",
+      "fragments": [
+        {
+          "source_text": "無位而配合於中官中為太極而分陰陽段人心形勢也而其法又何異於刻舟求劍乎日月為太極心明則長辨妍媸而洞達陰陽者也玉尺者目也目乃心之準絕心清則目明體月而俎必能辨之則真偽自見矣以心測之而目度之也故程子言視為之則則亦準繩也如此說則於理無悖若必以二者為實有之物則於風水之正宗無與焉蓋謂可執文而泥象之也塟乾者勢欲起伏而長形欲闊厚而方塟坤者勢欲連辰而不傾形欲廣厚而長平塟艮者勢欲委蛇而順形欲高峙而峻塟巽者勢欲峻而秀形欲銳而雄塟震者勢欲緩而起形欲聳而峨塟離者勢欲馳而窮形欲起而崇塟兌者勢欲天來而坡垂形欲方廣而平夷塟坎者勢欲曲折而長形欲秀直而昂此六八卦之山必欲合如是之形勢然後為吉也天下山川行度千變萬化豈有一定之式何莫不欲起伏而長闊厚而方又豈獨乾之一山欲其然是哉此蓋自地理正宗有關方位之非是而尚形勢以為宗者故襲篇上下悉以形勢為說然卒",
+          "component_id": "C-COMMENTARY",
+          "structural_role": "commentary_unaligned",
+          "insert_before_reference_segment_index": 283,
+          "scan_transcription_status": "visually_confirmed",
+          "promotion_status": "pending_visual_review",
+          "evidence_region": [8, 88, 630, 489]
+        }
+      ]
+    },
+    {
+      "candidate_id": "book004-b000132-p000-caa88920c4",
+      "decision": "retain_as_structured_transcription",
+      "evidence_page": 28,
+      "evidence_image": "20-source/pages/P000028.jpg",
+      "reason": "第28页旧OCR把上版卷尾辨伪注、参考末句和其后的问答长注按横向行交叉拼接。现依原图拆成参考末句前、后两个本版专有注文；漫漶字以□明示，不以参考文本或语意猜补。",
+      "fragments": [
+        {
+          "source_text": "來者多□真以信為也且世有此書俗傳□□然葬經二十篇止存其八而復有此雜篇□□為附益也觀其文義多不順其曰地有□□者即世俗擇生旺辨衰墓之說也其曰□□及震離坎兌乾坤艮巽與夫塟乾塟坤之□□世俗擇吉龍論分金之說也其曰則方位□□者即世俗格地量山涉水之說也其曰□□朔神迎鬼避陰陽差錯歲時之乖者即世俗□□年月之說也下篇比之上篇尤為謬然悉無□□氏之文皆後人依倣而作之者無足病意錦囊一書其大概專以生氣為主即太極為之體也其次分而為支壠即陰陽為之用也又其次曰風水曰止聚曰形勢曰骨脈又其次則驗文理之秀異明作用之利宜學者當熟讀",
+          "component_id": "C-COMMENTARY",
+          "structural_role": "commentary_unaligned",
+          "insert_before_reference_segment_index": 300,
+          "scan_transcription_status": "visually_confirmed_with_marked_unreadable",
+          "promotion_status": "pending_visual_review",
+          "continues_from_previous_page": true,
+          "evidence_region": [205, 88, 630, 489]
+        },
+        {
+          "source_text": "或問曰是開闢以來山川定位不復遷易古今塟者不為少矣奈何吉地尚有存者得非古人反不及今人乎余曰造物之巧妙不容言人不可以分毫致力其能塟吉地者在乎輻輳方可地理書曰主有福壽良師輻輳主者當衰首師授疑凡世之卜塟者莫不欲皆得吉地行地理者亦莫不欲皆扦吉穴此人之常情然卒未聞有能百中而中其一二者緣輳之未契與時節之未至故若神物護持而不肯輕與人也是故前輩以積德為謀地之本謀也又當以擇術為先然主故當擇術而術亦當擇主則彼此之擇夫豈易哉古語云世有楊曾方識郭朴今術之侶朴者固少而世人之識朴者亦無有也然亦未可遽謂斯道絕而不傳中間又豈無能盡朴之術者也但人自不識耳目其術驗於身後後之視今亦如今之視昔又詎知異日之不為朴乎但事之不可不深謀而術之不可不精擇也又常論之凡術之造乎而妙者造物常多見惡而亦常憚之而體其洩□□山川融結□□其則隱而不見故於事常相背馳不相輻輳是以吉地多存於世間良師罕遇於知已有若於冥冥之中使之然也而百計圖之而不可得或得之而有他故或棄自家之吉地而",
+          "component_id": "C-COMMENTARY",
+          "structural_role": "commentary_unaligned",
+          "insert_after_reference_segment_index": 300,
+          "scan_transcription_status": "visually_confirmed_with_marked_unreadable",
+          "promotion_status": "pending_visual_review",
+          "continues_to_next_page": true,
+          "evidence_region": [8, 88, 630, 918]
+        }
+      ]
+    },
+    {
+      "candidate_id": "book004-b000133-p000-32c36fedf3",
+      "decision": "retain_for_manual_transcription",
+      "evidence_page": 29,
+      "reason": "第29页逐图审核确认其为卷尾版心，已作为C-FURNITURE的P000029-C001签收并只作证据层文字。"
+    },
+    {
+      "candidate_id": "book004-b000134-p000-076a4e5999",
+      "decision": "retain_for_manual_transcription",
+      "evidence_page": 29,
+      "reason": "扫描末页材料已逐图转录为P000029-C002并签收，作为底本专有注文进入正式原文层。"
+    }
+  ]
+}
