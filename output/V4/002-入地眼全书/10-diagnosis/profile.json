@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "book_id": "7b1e85fdcd0dedd8",
+  "diagnosed_at": "2026-09-26T14:04:00.838997+00:00",
+  "status": "passed_with_ledger",
+  "source": {
+    "path": "D:\\壮五福\\风水项目\\output\\V4\\002-入地眼全书\\00-intake\\source.pdf",
+    "sha256": "7b1e85fdcd0dedd8111684de1c4dc56d8bc8ce67db256b0c54b39c4218d69c33",
+    "bytes": 47031483,
+    "physical_pages": 162,
+    "parent_page_range": [
+      5,
+      166
+    ],
+    "encrypted": false,
+    "corrupt": false,
+    "embedded_text_pages": 0,
+    "embedded_text_characters": 0
+  },
+  "page_accounting": {
+    "included_content": 162,
+    "blank_or_noncontent": 0,
+    "excluded": 0,
+    "unreadable": 0
+  },
+  "page_kind_counts": {
+    "scan": 162
+  },
+  "scan_quality_counts": {
+    "good": 1,
+    "fair": 157,
+    "poor": 4
+  },
+  "layout_families": [
+    "vertical_large_title",
+    "vertical_multi_column_classical_prose",
+    "diagrams_and_formula_like_tables",
+    "damaged_or_low_contrast_scan"
+  ],
+  "language_families": [
+    "lzh",
+    "zh-Hant"
+  ],
+  "representative_verified_pages": [
+    1,
+    2,
+    5,
+    6,
+    28,
+    50,
+    80,
+    93,
+    99,
+    104,
+    124,
+    136,
+    143,
+    152,
+    159,
+    161,
+    162
+  ],
+  "complex_pages": [
+    5,
+    28,
+    93,
+    99,
+    100,
+    101,
+    102,
+    104,
+    105,
+    124,
+    125,
+    126,
+    127,
+    129,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    159
+  ],
+  "proposed_routes": [
+    "layout_ocr_vertical_zh",
+    "visual_verify_column_order",
+    "preserve_figures",
+    "independent_visual_check",
+    "page_image_verification"
+  ],
+  "known_limits": [
+    "The source has no text layer; all 162 pages require image-grounded reconstruction.",
+    "The parent scan is low resolution and several diagram-heavy or bleed-through pages require conservative transcription.",
+    "Four V3 segments were falsely language-routed as Japanese because OCR noise introduced kana-like glyphs; V4 routes them as damaged classical Chinese evidence.",
+    "V2 retained 1688 conservative non-applied candidates across the parent scan; Book 002 candidates remain ledger items unless independently verified."
+  ],
+  "reuse_inventory": {
+    "v2_markdown": "Md/V2/002 入地眼全书.md",
+    "v2_visual_audit": "Md/V2/_reports/documents/doc002.audit.json",
+    "v3_segments": "Md/V3/_work/segments/book002.jsonl",
+    "v3_results": "Md/V3/_work/results/book002.jsonl",
+    "v3_declared_segments": 870,
+    "v3_declared_translatable_segments": 795,
+    "policy": "Reuse only after parent-page offset and source-text evidence match the V4 reconstruction."
+  },
+  "all_page_visual_audit": {
+    "rendered_pages": 162,
+    "contact_sheets": [
+      "10-diagnosis\\all-page-visual-audit\\sheet-01.jpg",
+      "10-diagnosis\\all-page-visual-audit\\sheet-02.jpg",
+      "10-diagnosis\\all-page-visual-audit\\sheet-03.jpg",
+      "10-diagnosis\\all-page-visual-audit\\sheet-04.jpg",
+      "10-diagnosis\\all-page-visual-audit\\sheet-05.jpg"
+    ],
+    "automatic_blank_like_pages": [],
+    "status": "passed",
+    "confirmed_at": "2026-09-26T14:04:58.010331+00:00",
+    "reviewed_pages": 162,
+    "blank_or_noncontent_pages": [],
+    "unreadable_pages": [],
+    "findings": [
+      "All 162 pages belong to 入地眼全书 and contain included title, front matter, text, or figures.",
+      "Pages 151-153 and 162 contain low-contrast, bleed-through, or damaged scan evidence and require ledger-backed reconstruction."
+    ]
+  },
+  "cost_estimate": {
+    "paid_calls_used_for_diagnosis": 0,
+    "paid_repair_budget_pending_source_and_v3_reuse_audit": true
+  },
+  "recommended_grade_ceiling_at_diagnosis": "B",
+  "grade_ceiling_reason": "Recoverable complete scan with bounded damage and diagram/OCR uncertainty requiring a ledger."
+}

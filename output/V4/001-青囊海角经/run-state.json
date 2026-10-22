@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "book_id": "99b2edc10753c8c5",
+  "updated_at": "2026-09-27T03:15:48.262868+00:00",
+  "stages": {
+    "intake": {
+      "status": "passed",
+      "physical_pages": 216,
+      "source_sha256": "99b2edc10753c8c5e32f7dbba6d88b9e6fc9cea0fa1eea16012e841c9b5e22b9",
+      "paid_cost_rmb": 0
+    },
+    "diagnosis": {
+      "status": "passed_with_ledger",
+      "pages_routed": 216,
+      "representative_pages_verified": 17,
+      "embedded_text_pages": 0,
+      "paid_cost_rmb": 0
+    },
+    "source": {
+      "status": "passed_with_ledger",
+      "blocks": 1600
+    },
+    "normalized": {
+      "status": "passed",
+      "blocks": 1600
+    },
+    "modernized": {
+      "status": "passed_with_ledger",
+      "blocks": 1600,
+      "manual_semantic_repairs": 30,
+      "open_material": 221
+    },
+    "edited": {
+      "status": "passed_with_ledger",
+      "blocks": 1600,
+      "source_toc_pages_represented": 10,
+      "reader_risk_pages": 35,
+      "glossary_terms": 65,
+      "high_impact_open": 0,
+      "manual_classical_passages_modernized": 7
+    },
+    "publication": {
+      "status": "revised_pdf_ready_official_install_blocked_by_file_lock",
+      "pdf_pages": 198,
+      "scope_pages": 216,
+      "open_material": 162,
+      "high_impact": 0,
+      "visual_audit": "passed",
+      "visual_pages_inspected": 198,
+      "visual_defects_found": 0,
+      "revised_pdf": "60-publication/青囊海角经·现代白话版（现代风水爱好者修订版）.pdf",
+      "blocked_official_path": "60-publication/青囊海角经·现代白话版.pdf"
+    },
+    "source_reconstruction": {
+      "status": "passed_with_ledger",
+      "updated_at": "2026-09-26T11:32:09.314747+00:00",
+      "physical_pages": 216,
+      "page_images": 216,
+      "blocks": 1600,
+      "accepted_corrections_reapplied": 112,
+      "manual_visual_page_boundary_corrections": 1,
+      "unresolved_candidates": 61,
+      "v2_markdown_12char_shingle_coverage": 0.9683,
+      "tool": "build_source_layer.py + existing Qwen3-VL two-pass audit + MinerU",
+      "cost": 0,
+      "evidence": "20-source/source-reconstruction-report.json"
+    },
+    "normalization": {
+      "status": "passed",
+      "updated_at": "2026-09-26T11:32:09.909151+00:00",
+      "blocks": 1600,
+      "change_records": 274,
+      "operation_counts": {
+        "script_conversion": 219,
+        "punctuation": 55,
+        "whitespace": 0
+      },
+      "tool": "opencc-python-reimplemented 0.1.7 + conservative typography rules",
+      "cost": 0,
+      "evidence": "30-normalized/normalization-report.json"
+    },
+    "modernization": {
+      "status": "completed",
+      "updated_at": "2026-09-26T13:45:34.359676+00:00",
+      "blocks": 1600,
+      "mapping_counts": {
+        "v3_exact": 1501,
+        "nontext": 50,
+        "v3_nontranslatable": 3,
+        "modern_metadata": 42,
+        "cross_page_split": 2,
+        "fuzzy_suffix": 2
+      },
+      "repair_queue_segments": 0,
+      "paid_calls_made": 0,
+      "evidence": "40-modernized/modernization-report.json"
+    },
+    "editing": {
+      "status": "completed",
+      "updated_at": "2026-09-26T16:22:54.176137+00:00",
+      "blocks": 1600,
+      "pages": 216,
+      "uncertainty_records": 501,
+      "evidence": "50-edited/blocks.jsonl"
+    },
+    "delivery": {
+      "status": "blocked_by_official_pdf_file_lock"
+    },
+    "source_adjudicated": {
+      "status": "passed_with_ledger",
+      "candidates": 501
+    },
+    "final_adjudicated": {
+      "status": "passed_with_ledger",
+      "open_material": 162,
+      "high_impact": 0
+    }
+  },
+  "tools": [
+    "Poppler pdftoppm",
+    "pypdf",
+    "chaoyun-pdf-diagnoser"
+  ],
+  "current_stage": "publication",
+  "grade": "B"
+}

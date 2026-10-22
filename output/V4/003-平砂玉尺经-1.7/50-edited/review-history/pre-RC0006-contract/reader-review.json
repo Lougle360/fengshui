@@ -1,0 +1,453 @@
+{
+  "schema_version": "1.2",
+  "cycle_id": "RC0003",
+  "mode": "manuscript",
+  "input_snapshot": "50-edited/review-history/RC0003/input.md",
+  "input_sha256": "d06315281a40f7d511cdc71cfdb5d79c1ad7f61123cfbdfc3e6c5e6bbdce2bc5",
+  "target_reader": "对传统地理古籍感兴趣、无术数基础的现代普通读者",
+  "reviewer": "/root/whole_book_reader_17",
+  "reviewer_kind": "model",
+  "tasks_file": "50-edited/review-history/RC0003/tasks.json",
+  "responses_file": "50-edited/review-history/RC0003/reader-responses.json",
+  "provenance_file": "50-edited/review-history/RC0003/provenance.md",
+  "dimensions": {
+    "introduction_promise": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "第12行说本版分成“两层”，但第72—74行实际又要求按观察层、解释层、疑文层三层阅读；“两层”指篇章结构、“三层”指证据结构，普通读者容易误以为前后矛盾，建议在第12行直接说明两种“层”不是同一维度。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第4行封面式写法直接列“元·刘秉忠述；明·刘基解；赖从谦发挥”，而第84—90行才说明只能视为传本题署。重要的作者不确定性不应等到后文才出现，建议第4行即标成“传本题署”。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第8、31—44行对核心问题和判断链承诺清楚，且正文总体按此展开；问题不是主线缺失，而是开篇的证据限定还未完全前置。"
+        }
+      ]
+    },
+    "prerequisites": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "普通读者在第138行以后很快连续遇到入首、交媾、三合、纳甲、生旺、曜煞等词，而可用的统一术语表放在第3170行之后，缺少“先读哪些词”的前置入口。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第一编只说不必背组合，但没有给出最小前置示意，例如二十四山盘、来水/去水相对参照和长生阶段顺序；第二章因此仍需要读者已有术数基础。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议在第16—25行目录后增加一页“最低阅读准备”，只列龙、砂、水、穴、明堂、水口、二十四山及观察参照，不必扩成完整教材。"
+        }
+      ]
+    },
+    "navigation": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "第16—25行目录只有编、章级，没有物理页索引、图式清单或术语链接；正文长达3481行，回查某幅图或某个术语成本很高。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "各物理页标题能保持原书顺序，这是优点；但多处连续页只有页码，没有页内主题小标题，尤其第二章和第四章很难快速定位。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议目录增加六章起止、图式索引和术语表锚点，并在术语条目反向链接首次解释段，而不仅列原文区块号。"
+        }
+      ]
+    },
+    "continuity": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "第一编的六步链连贯，但逐页释文中卷次、页码、残字和长段讹文频繁直接插进叙述，例如第1914、1931、2434、3144—3150行，普通读者会不断失去当前论题。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第1292行开始第三章由“寻龙行止”突然转入大量方位峰砂与人物福祸断语，和章题的主问题连接较弱；第1584行第四章又继续大量方位分类，章节边界不够稳定。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议每个物理页先用一两句说明“本页接着解决什么”，再放释文；无法连读的残片集中到明确的疑文框，不要与主叙述同段。"
+        }
+      ]
+    },
+    "terminology": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "第3174—3471行术语表的“含义—作用—勿混淆”结构很好，龙、砂、水、穴、入首、住结等核心词可以支撑复述。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "正文仍保留大量没有进入词表、也没有稳定解释的关键词，如关峡、正受/斜受/中受、案山、龙虎、城门、迎神/送神、鬼劫、曜煞；这些词直接影响图和操作理解。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第2652行出现“笔直逼仄为阴，平坦开阔为阴”，同句两端都判阴，明显可能有讹误或误译，应标疑并核查，否则会破坏术语体系。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议把真正参与判断链的二级术语补入附录，纯残字和一次性怪词继续留在疑文层。"
+        }
+      ]
+    },
+    "examples_and_figures": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "各图均附读图顺序和证据边界，且多能说明这幅图解决的是收束、分气、斜受还是朝应，编辑意图明确。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "实际打开的P000050-B007和P000056-B010都很窄、墨迹重，小字大多不可辨；现有提示可以防止猜字，却没有叠加箭头、编号或简图帮助普通读者确认“来脉、拟穴、回护、外泄”分别在哪里。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第1948行称先找“中央收束区”，但原图没有现代编号；第2204行要求辨腰肋分支，原图圈注与粗线混杂，普通读者不一定能独立复现编辑判断。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议保留原图，同时另配一张明确标为编辑示意的线稿，只标可见轮廓和阅读顺序，不恢复模糊文字。"
+        }
+      ]
+    },
+    "redundancy_and_pacing": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "“水交砂会—回护—分泄”主旨在第一编、第三章、第四章、第五章多次重复，理论上有递进，但正文常以近似句式重新解释，缺少明确的“本次新增判断”。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第二章从第590—1140行连续堆叠方位吉凶、房分、疾病和人物断语，远长于普通读者理解四套分类工具所需篇幅，节奏明显失衡。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "每幅图后完全相同的证据边界句反复出现二十余次，保证一致性但阅读机械；可在章首统一声明，单图只补充特有边界。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议逐页释文保留完整性，同时增加可折叠的“主线摘要/传统断语/疑文”分区，让普通读者不会被完整保留拖垮。"
+        }
+      ]
+    },
+    "source_editor_trust": {
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "积极方面：第14、74、82、90行明确区分传统断语、现代事实和文本疑点；大量残字被诚实标为不详，图注也反复禁止猜补，这显著提高可信度。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "主要问题是有些释文一边说“具体所指不详”，一边仍给出较完整的现代因果或操作解释，读者难判断哪些来自清晰原文、哪些是编者顺句推测，例如第1928—1931、2434、3070行。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "第4行作者题署的确定语气与第90行的谨慎说明不一致，削弱源流可信度。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "建议对每段使用稳定标签：直译可确认、据上下文暂释、原文残缺不可操作；尤其不要让“可能”解释与确定规则处在同一语气级别。"
+        }
+      ]
+    },
+    "closure_and_lookup": {
+      "verdict": "passed",
+      "findings": [
+        {
+          "revision_id": "RR000001",
+          "problem": "第3170—3471行术语表覆盖主线所需核心词，第3474—3481行六问能检验读者是否理解水痕、停聚候选、砂的相对关系、四套分类、立向顺序和证据分层。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "结尾能把读者带回全书判断链，而不是停在卷末残图或残缺公式上，这一点完成度较高。"
+        },
+        {
+          "revision_id": "RR000001",
+          "problem": "仍可改进的是增加术语互见和图式索引，但不妨碍结尾承担复述与自测功能。"
+        }
+      ]
+    }
+  },
+  "glossary_samples": [
+    {
+      "term": "砂",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-001"
+      ],
+      "answer_quote": "“砂”是穴场周围的小丘、土脊或高地在整局中的角色。左右砂回头包向明堂、挡住堂气直泄，是一种护持；从来脉腰肋分出后斜飞远去、把整体牵散，是一种外泄。所以同一形状换了朝向和位置，名称可能不同。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "龙",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-002"
+      ],
+      "answer_quote": "“龙”是可连续追踪的山脉、土脊或地势来路，操作上要追它的起处、行进、入首与是否停止。它不是传说中的动物；书中的动物词多是形态记忆法。它也不能直接等同于现代地质构造，因为这里是一套传统形势分类，没有现代地质测量和验证含义。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "气",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-003"
+      ],
+      "answer_quote": "作者把土形当作气所依附的形体，把水流当作气在地表的外显线索：水随地势行，水交或受界时便被解释为地下气可能停聚。这里的气是解释地势生发、运行、收束的传统理论对象，不是书中用仪器直接测出的压力、能量或其他物理量，因此不能借现代术语把它包装成已测量事实。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "水",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-004"
+      ],
+      "answer_quote": "观察层的水是河、沟、浅涧、积水和排水痕迹，可以看其方向、会合、分流；解释层则把这些现象当作气行、气止的证据。只见到水并不等于见穴：水可能仍直走或散流，即使交会，也还要确认来脉连续、入首清楚、左右砂回护而无劫泄。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "水神",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-005"
+      ],
+      "answer_quote": "“水神”不是神秘水体，而是把水的来去放进传统方位、五行和吉凶系统后的称呼。遇到它应先还原成：水从哪里朝局而来，在哪里会合，向哪里流去，哪个位置构成水口，以及它与来脉、明堂的相对关系。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "穴",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-006"
+      ],
+      "answer_quote": "“穴”是判断链在收束区域内得到的具体取点结果。单有平整地面、漂亮头面、某一条水沟、两水偶然相交、一个圆丘或某个方位标签，都不足以独立定穴；至少还需来脉、入首、界水和护砂等关系互相印证。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "行龙",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-007"
+      ],
+      "answer_quote": "行龙是地势还在向前传递和延伸，住结是它停止并形成局部收束，两者相反。一种明显的仍行形态，是水与砂同向向外推进，水分散不蓄、砂头不回顾堂局。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "入首",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-008"
+      ],
+      "answer_quote": "入首是整条来脉接近结穴区的最后一段，不是源头也不是穴本身。取点要判断真正连续的气脉究竟从中、左或右进入；若入首被伪脉、劫砂或分水混淆，就可能把好看的假落点当真，正如第2466—2470和2578—2586行所警告的那样。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "住结",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-009"
+      ],
+      "answer_quote": "住结要看水在局部交会或回环、砂头回顾、左右前后形成围合、来脉在入首处被界定等证据是否同指一处。地面平整只说明坡度小，既可能是气聚的平坡，也可能是一片没有边界和收束的“蛮皮”，所以不够。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "合襟",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-010"
+      ],
+      "answer_quote": "合襟表示两股水或界水在局部会拢，是地势可能停止的证据。反例：两浅沟在一处汇合，但上游土脊并无连续来路，左右支砂又向外斜飞，合流后水仍从敞开的缺口直泄；这时有合襟，却缺少来脉、护持和关锁，不能直接定穴。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "界水",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-011"
+      ],
+      "answer_quote": "界水强调水相对土脉所处的位置和作用，不是所有经过的水。它可在外侧隔断一条土脉，约束来势不横散，或在入首、肩窝一带把偏散的气势兜收进局。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "明堂",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-012"
+      ],
+      "answer_quote": "明堂是穴前相对开敞、承接和观察水势的空间。来水是否真正到堂、在堂前怎样会合，去水从哪一侧退出并形成何种水口，都是在这个相对空间内判断，而不是建筑中的厅堂。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "水口",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-013"
+      ],
+      "answer_quote": "水口是整局水流出入、汇束的关键位置，必须结合上游来水、明堂合流、外围关锁和去水一起看；任意岸边缺口不算。它在审向前提供水从哪里进入、向哪里泄出以及整局是否闭合的信息，是确定向的必要输入。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "来水",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-014"
+      ],
+      "answer_quote": "来水以拟穴或明堂为参照，指朝这个局部空间流入的水。地图上游只是河网的绝对上下游概念；同一条河在不同穴场或局部观察点上，可能分别构成侧过、来或去，不能简单等同。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "去水",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-015"
+      ],
+      "answer_quote": "去水从堂局流出，能显示堂气向哪里外泄以及收束出口即水口所在；若直射敞开，书中倾向判为泄散。它和来水使用同一个参照中心，都是相对于拟穴或堂局而言。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "护砂",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-016"
+      ],
+      "answer_quote": "一处砂只有在相对来脉或穴场向内回抱、遮护、关拦时才成为护砂。即使离穴很近，若它背向堂局、从腰肋斜飞、切破主体或把水引向外侧，也可能是劫砂或鬼砂。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "劫砂",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-017"
+      ],
+      "answer_quote": "护砂把关系收回来，劫砂则从来脉腰肋分出并把整体扯散。头面端正只说明末端局部好看；若途中已有支砂分走、来路被隔断，力量没有连续送到拟穴，整体仍被破坏。第2172—2206行及“劫龙分气”图正说明这一点。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "鬼砂",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-018"
+      ],
+      "answer_quote": "用可观察语言说，鬼砂是支形斜向外飞、向后逃、倒插主体，或水砂穿切主脉且不回护堂局。“鬼”是传统解释和负面评价层的标签；先能确认的是外斜、穿破、分散这些形态关系。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "朝应",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-019"
+      ],
+      "answer_quote": "中心脉络不清时，可以比较前方山体和左右砂究竟共同朝向哪一处，再反向检查那一点是否接上真实来脉。朝应是“某形体朝向并响应某穴场”的关系，观察中心变了，朝应对象也会变，所以不是固定山名。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "朝山",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-020"
+      ],
+      "answer_quote": "朝山通常在穴前较远处，提供正面响应和方向校验；近前护砂更贴近穴场，主要负责左右包合或关拦。混杂宽平地形中，中部、边角都可能像穴，第2496—2528行因此用远处朝山与左右护砂是否同指一处来排除假落点。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "玄武",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-021"
+      ],
+      "answer_quote": "玄武标示穴后承担靠护的地势关系；回龙、水缠玄武和退后取穴的讨论都用它说明后方。它是传统方位/形势名，不是有一只神兽实体伏在地上。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    },
+    {
+      "term": "向",
+      "plain_enough": true,
+      "context_specific": true,
+      "example_helpful": true,
+      "issue": null,
+      "task_ids": [
+        "FULL-TERM-022"
+      ],
+      "answer_quote": "向要在来龙与入首已辨、穴位成立、来去水和水口明确、砂水关系复核之后，才用来协调这些输入与传统分类。若先任意定向再要求地形迁就，正文第1846—1858行所批评的移山塞水、强就卦例问题就会出现，因此向是综合输出而非起点。",
+      "evidence": "独立读者未复制词条原句，能解释该词在判断链中的作用、区别或反例。"
+    }
+  ],
+  "blocking_issues": [
+    "RR000001"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-27T01:11:45.849154+00:00",
+  "book": "青囊海角经",
+  "edition_scope": "full_reader_edition_source_pages_1_216",
+  "source_pages_total": 216,
+  "grade": "C",
+  "grade_label": "assisted_draft_under_semantic_repair",
+  "semantic_audit": {
+    "status": "blocked_by_high_impact_open_items",
+    "page_level_visual_coverage": 216,
+    "reader_facing_uncertainty_markers": 70
+  },
+  "structural_audit": {
+    "status": "passed",
+    "blocks_each_stage": 1600,
+    "raw_html_tags": 0,
+    "internal_pipeline_messages": 0
+  },
+  "models": [
+    "Qwen/Qwen3-VL-32B-Instruct",
+    "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "Qwen/Qwen3.5-122B-A10B",
+    "PaddlePaddle/PaddleOCR-VL-1.5"
+  ],
+  "publication": {
+    "pdf": "60-publication/青囊海角经·现代白话版.pdf",
+    "pdf_pages": 195,
+    "pdf_bytes": 8879538,
+    "pdf_sha256": "08996A5E6609031CE3673D33A3A6125B845203AC26B9DA69F4095B1714465C0F",
+    "modern_markdown": "60-publication/modern-reading.md",
+    "rendered_pages_inspected": 195,
+    "visual_defects_found": 0
+  },
+  "uncertainty_ledger": {
+    "candidate_records": 501,
+    "open_material_records": 221,
+    "by_reader_impact": {
+      "high": 59,
+      "medium": 42,
+      "low": 120
+    }
+  },
+  "uncertainty_summary": {
+    "candidates": 501,
+    "adjudications": 501,
+    "active_adjudications": 501,
+    "open_material": 221
+  },
+  "limitations": [
+    "The edition has rebuilt source hierarchy, reader aids, and uncertainty separation, but high-impact translation findings remain open.",
+    "This release is an assisted draft and must not be represented as publication-ready until semantic repair and independent review close the high-impact items."
+  ]
+}

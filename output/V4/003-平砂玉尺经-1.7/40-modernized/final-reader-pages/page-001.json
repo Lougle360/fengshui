@@ -1,0 +1,78 @@
+{
+  "page": 1,
+  "prompt_sha256": "f43547bbbc0145a1076a3ca37d3e0148d185818555ccd81bfaf311edbb56c200",
+  "writer_model": "doubao-seed-2-0-pro-260215",
+  "judge_model": "doubao-seed-2-0-pro-260215",
+  "blocks": [
+    {
+      "block_id": "P000001-B001",
+      "text": "刘文成公汇解",
+      "verdict": "passed",
+      "issues": []
+    },
+    {
+      "block_id": "P000001-B002",
+      "text": "平砂玉尺经",
+      "verdict": "passed",
+      "issues": []
+    },
+    {
+      "block_id": "P000001-B003",
+      "text": "附郭璞葬经",
+      "verdict": "corrected",
+      "issues": [
+        "将异体字“塟”规范为通用字“葬”，未改动原意"
+      ]
+    },
+    {
+      "block_id": "P000001-B004",
+      "text": "择日全纪秘诀仙机",
+      "verdict": "corrected",
+      "issues": [
+        "将异体字“僊”规范为通用字“仙”，未改动原意"
+      ]
+    },
+    {
+      "block_id": "P000001-B005",
+      "text": "鲁班造福经",
+      "verdict": "passed",
+      "issues": []
+    },
+    {
+      "block_id": "P000001-B006",
+      "text": "汇贤斋藏《平沙玉尺经》序：国师文成公察知金陵有旺气，率先率领一众儒士辅佐明主，在滁阳开创基业，在应天建立都城，紫荆【此处原文残损，语义不明】",
+      "verdict": "corrected",
+      "issues": [
+        "删除擅自添加的“本”“的序言记载”等冗余表述，保留原文残损边界，避免随意释读缺损内容"
+      ]
+    }
+  ],
+  "usage": {
+    "writer": [
+      {
+        "completion_tokens": 299,
+        "prompt_tokens": 976,
+        "total_tokens": 1275,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    ],
+    "judge": [
+      {
+        "completion_tokens": 313,
+        "prompt_tokens": 574,
+        "total_tokens": 887,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    ]
+  }
+}

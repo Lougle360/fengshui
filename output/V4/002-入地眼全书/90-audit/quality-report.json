@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-26T15:46:57.870863+00:00",
+  "book": "入地眼全书",
+  "edition_label": "现代白话版",
+  "target_reader": "现代普通读者",
+  "edition_scope": "full_reader_edition_source_pages_1_162",
+  "source_pages_total": 162,
+  "grade": "B",
+  "grade_label": "readable_with_backend_ledger",
+  "source_pdf": {
+    "path": "00-intake/source.pdf",
+    "parent_source_path": "D:\\壮五福\\风水项目\\Docs\\地学-经典\\410.入地眼全书+玉尺经+葬经+鲁班经+选择纪全+秘诀仙机.pdf",
+    "parent_page_range_inclusive": [
+      5,
+      166
+    ],
+    "sha256": "7B1E85FDCD0DEDD8111684DE1C4DC56D8BC8CE67DB256B0C54B39C4218D69C33",
+    "bytes": 47031483,
+    "physical_pages": 162,
+    "page_accounting": {
+      "physical_pages": 162,
+      "included_content": 162,
+      "blank_or_noncontent": 0,
+      "excluded": 0,
+      "unreadable": 0
+    }
+  },
+  "semantic_audit": {
+    "status": "passed_with_ledger",
+    "page_level_visual_coverage": 162,
+    "source_page_visual_coverage": "162/162",
+    "v3_traceability": "795/795",
+    "repair_queue_segments": 0,
+    "bounded_uncertainty_segments": 109,
+    "mapped_canonical_character_percent": 98.724
+  },
+  "structural_audit": {
+    "status": "passed",
+    "blocks_each_stage": 903,
+    "source_identity_match": true,
+    "normalization_change_records": 17271,
+    "raw_html_tags": 0,
+    "internal_pipeline_messages": 0
+  },
+  "uncertainty_ledger": {
+    "records": 613,
+    "path": "90-audit/uncertain-items.jsonl",
+    "reader_facing_page_markers": true
+  },
+  "models": {
+    "source_and_prior_collation": [
+      "Qwen/Qwen3-VL-32B-Instruct",
+      "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "Qwen/Qwen3.5-122B-A10B",
+      "PaddlePaddle/PaddleOCR-VL-1.5"
+    ],
+    "v4_paid_repair_and_judging": [
+      "doubao-seed-2-0-pro-260215"
+    ]
+  },
+  "publication": {
+    "pdf": "60-publication/入地眼全书·现代白话版.pdf",
+    "pdf_pages": 170,
+    "pdf_bytes": 14733147,
+    "pdf_sha256": "8A70A5D8D2BE7D3AB2AAF3B200686A5E52893460CE1D651FACA2FB5E56428A0B",
+    "modern_reader": {
+      "path": "60-publication/入地眼全书·现代白话版.pdf",
+      "pages": 170,
+      "bytes": 14733147,
+      "sha256": "8A70A5D8D2BE7D3AB2AAF3B200686A5E52893460CE1D651FACA2FB5E56428A0B"
+    },
+    "source_comparison": {
+      "path": "60-publication/入地眼全书·原文对照版.pdf",
+      "pages": 351,
+      "bytes": 73116305,
+      "sha256": "5BA75A535E6A134F1E41A9A6DAA57A3B74DAB72EF0E5AF0A5CE9C225F4F0056D"
+    },
+    "modern_markdown": "60-publication/modern-reading.md",
+    "source_comparison_markdown": "60-publication/source-comparison.md",
+    "rendered_pages_inspected": 170,
+    "source_comparison_rendered_pages_inspected": 351,
+    "total_release_pages_inspected": 521,
+    "render_failures": 0,
+    "blank_like_pages": 0,
+    "visual_defects_found": 0,
+    "visual_inspection_method": "all-page contact review plus full-resolution review of cover, opening pages, representative body pages, the repaired page 306, and closing pages"
+  },
+  "cost": {
+    "paid_calls_authorized": true,
+    "status": "included_in_shared_v3_meter; book-specific attribution unavailable",
+    "shared_project_meter_snapshot_rmb": 92.749105,
+    "shared_project_hard_cap_rmb": 150.0
+  },
+  "validation": {
+    "validated_at": "2026-09-26T15:46:58.658230+00:00",
+    "contract_validator": {
+      "status": "passed",
+      "counts": {
+        "source": 903,
+        "normalized": 903,
+        "modernized": 903,
+        "edited": 903
+      },
+      "errors": []
+    },
+    "publication_auditor": {
+      "status": "passed",
+      "official_pdf": "60-publication\\入地眼全书·现代白话版.pdf",
+      "errors": [],
+      "warnings": []
+    },
+    "official_reader_visual_review": {
+      "status": "passed",
+      "rendered_pages": 170,
+      "defects": 0
+    },
+    "source_comparison_visual_review": {
+      "status": "passed",
+      "rendered_pages": 351,
+      "defects": 0
+    },
+    "publication_root_pdf_files": [
+      "入地眼全书·原文对照版.pdf",
+      "入地眼全书·现代白话版.pdf"
+    ]
+  },
+  "limitations": [
+    "The source contains damaged, missing, and ambiguous passages; these are preserved conservatively and linked to the audit ledger.",
+    "Detailed OCR and collation uncertainties remain available in the backend audit ledger and are marked by source page in the comparison edition.",
+    "Page 162 has no recoverable source text; its page image and an explicit non-recoverable marker are retained in the comparison edition."
+  ],
+  "evidence": {
+    "source_reconstruction": "20-source/source-reconstruction-report.json",
+    "normalization": "30-normalized/normalization-report.json",
+    "modernization": "40-modernized/modernization-report.json",
+    "editorial": "50-edited/editorial-report.json",
+    "render_audit": "90-audit/rendered-pdf-audit/render-audit.json",
+    "source_report_sha256": "7B477F2E9886576220BBE5A47CD0C07E486F1E23F95A06E600B61827CBD7231E",
+    "source_blocks": 903,
+    "source_manifest_sha256": "7B1E85FDCD0DEDD8111684DE1C4DC56D8BC8CE67DB256B0C54B39C4218D69C33"
+  }
+}

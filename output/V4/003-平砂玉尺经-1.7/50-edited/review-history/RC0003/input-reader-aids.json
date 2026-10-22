@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.0",
+  "target_reader": "对传统地理古籍感兴趣、无术数基础的现代普通读者",
+  "introduction": {
+    "markdown_heading": "先把整本书讲明白",
+    "sections": {
+      "what_this_book_is": "这是一部以平原、平洋地形为难题，串联审势、审气、寻龙、审穴、审砂和审向的传统堪舆汇编。它既保存形态观察，也叠加阴阳五行和吉凶推演。",
+      "who_should_read": "本版面向没有罗盘和术数基础、但希望真正知道原书在解决什么问题的普通读者。",
+      "reader_value": "读者将学会复述全书判断链，在图文中辨认来脉、水交、护砂与外泄，并区分可观察地形、传统解释和残缺疑文。",
+      "contents_and_structure": "全书不是六堆术语：审势找来路，水交辨行止，寻龙审穴找落点，审砂复核周围关系，审气和审向再把结果放进方位系统。",
+      "distinctive_features": "最独特之处是把山地观察缩小到平原微地形：高一尺可作山看，低一尺可作水看，并用大量图式比较收与泄。",
+      "historical_and_textual_context": "现存书页题署刘秉忠述、刘基解、赖从谦发挥，又混有序、赋、引书、卷题和后加评说；题署可确认，统一作者身份不可据此确认。",
+      "how_to_read": "先读主阅读编，掌握势—行止—穴—砂—分类—向；再按需要进入逐页释文。看图先找来路、水线和收束，不先猜吉凶。",
+      "limitations_and_cautions": "扫描本有错版、脱文、卷标混入正文与模糊图字。福祸、子嗣、疾病、职业和品行断语只作为传统观念呈现。",
+      "edition_method": "主阅读编由编辑重组并明确标注；逐页参考保留全部665个区块的现代释文或图像位置；术语逐条绑定首次原文，疑处不猜补。"
+    },
+    "evidence": [
+      {
+        "claim": "现存题署刘秉忠述、刘基解、赖从谦发挥。",
+        "block_ids": [
+          "P000003-B001",
+          "P000003-B002"
+        ],
+        "source_pages": [
+          3
+        ],
+        "editorial_sources": []
+      },
+      {
+        "claim": "水交知止、高低微差是平原判断枢纽。",
+        "block_ids": [
+          "P000008-B001",
+          "P000009-B001",
+          "P000009-B002"
+        ],
+        "source_pages": [
+          8,
+          9
+        ],
+        "editorial_sources": []
+      },
+      {
+        "claim": "全书篇章包含审势、审气、审穴、审砂和审向。",
+        "block_ids": [
+          "P000003-B003",
+          "P000018-B001",
+          "P000041-B006",
+          "P000068-B002",
+          "P000076-B001"
+        ],
+        "source_pages": [
+          3,
+          18,
+          41,
+          68,
+          76
+        ],
+        "editorial_sources": []
+      }
+    ]
+  },
+  "glossary": {
+    "markdown_heading": "本书术语表",
+    "entries": [
+      {
+        "term": "砂",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "穴场周围的小丘、土脊或高地。",
+        "contextual_definition": "本书不是孤立看一座小山，而是看它相对来脉、穴和水流是在护、朝、截还是泄。",
+        "first_occurrence": {
+          "page_id": "P000001",
+          "block_id": "P000001-B002",
+          "source_page": 1,
+          "quote": "平砂玉尺經"
+        },
+        "usage_example": "在本书的判断链里，先按“穴场周围的小丘、土脊或高地。”理解“砂”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "不要理解成沙粒；‘砂’是关系性的地形称谓。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "龙",
+        "tier": "core",
+        "aliases": [
+          "龍"
+        ],
+        "plain_definition": "连续延伸的山脉、地势或土脉来路。",
+        "contextual_definition": "全书先追龙从哪里来，再判断它是否停住；它是判断链的主线。",
+        "first_occurrence": {
+          "page_id": "P000003",
+          "block_id": "P000003-B007",
+          "source_page": 3,
+          "quote": "山龍之散見於地雖有千萬之多而其龍脉之來皆出於崑崙按搜異錄及地志啚吉崑"
+        },
+        "usage_example": "在本书的判断链里，先按“连续延伸的山脉、地势或土脉来路。”理解“龙”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "不是神话动物，也不宜直接等同现代地质构造。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "气",
+        "tier": "core",
+        "aliases": [
+          "氣"
+        ],
+        "plain_definition": "原书解释地势生发、运行与停聚的传统概念。",
+        "contextual_definition": "作者借水和土形推测气的行止，再据此讨论穴与向。",
+        "first_occurrence": {
+          "page_id": "P000001",
+          "block_id": "P000001-B006",
+          "source_page": 1,
+          "quote": "序國師文成公知旺氣在金陵而首率群儒以輔之而滁陽開基應天定鼎紫荊"
+        },
+        "usage_example": "在本书的判断链里，先按“原书解释地势生发、运行与停聚的传统概念。”理解“气”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "它是理论概念，不能冒充可直接测量的现代物理量。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "水",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "河流、水沟、浅涧及低洼排水痕迹。",
+        "contextual_definition": "既是可观察对象，又被作者当成气的外在证据；这两层必须分开。",
+        "first_occurrence": {
+          "page_id": "P000004",
+          "block_id": "P000004-B001",
+          "source_page": 4,
+          "quote": "龍之地一百四十七水穴三十六其間産忠貞育英才出聖君賢相者七百二十穴聚精"
+        },
+        "usage_example": "在本书的判断链里，先按“河流、水沟、浅涧及低洼排水痕迹。”理解“水”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "看到水不等于已经找到穴，还要看来路、交会和周围砂形。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "水神",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "本书对水流及其来去作用的术语化称呼。",
+        "contextual_definition": "‘神’不表示另有一条神秘河流，而是把水放进传统方位和吉凶系统后的称谓。",
+        "first_occurrence": {
+          "page_id": "P000006",
+          "block_id": "P000006-B010",
+          "source_page": 6,
+          "quote": "得以行于地中矣故水神流動之處可以驗氣之出入流於東則山氣之東行可見矣無"
+        },
+        "usage_example": "在本书的判断链里，先按“本书对水流及其来去作用的术语化称呼。”理解“水神”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "先还原为具体来水、去水和水口，再读传统判断。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "穴",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "作者认为地势停聚、可以取用的具体点位。",
+        "contextual_definition": "它是来脉、水交和砂形共同指向的输出，不是看到一块平地就可命名。",
+        "first_occurrence": {
+          "page_id": "P000004",
+          "block_id": "P000004-B001",
+          "source_page": 4,
+          "quote": "之地一百四十七水穴三十六其間産忠貞育英才出聖君賢相者七百二十穴聚精拔"
+        },
+        "usage_example": "在本书的判断链里，先按“作者认为地势停聚、可以取用的具体点位。”理解“穴”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "点位判断与其后富贵人丁推断不是同一层证据。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "行龙",
+        "tier": "core",
+        "aliases": [
+          "行龍"
+        ],
+        "plain_definition": "一条地势从起处向前延伸的过程。",
+        "contextual_definition": "用来描述‘仍在走’的状态，与住结相对。",
+        "first_occurrence": {
+          "page_id": "P000004",
+          "block_id": "P000004-B001",
+          "source_page": 4,
+          "quote": "分勢施生東南巳巽行龍出身行十一萬九千六百五十里人海結帝之都三起龍之地"
+        },
+        "usage_example": "在本书的判断链里，先按“一条地势从起处向前延伸的过程。”理解“行龙”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "行龙是连续关系，不是单看某一座峰。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "入首",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "来脉接近结穴区域的末段。",
+        "contextual_definition": "卷四尤其重视这一段是否清楚、端正、有无伪脉或分泄。",
+        "first_occurrence": {
+          "page_id": "P000004",
+          "block_id": "P000004-B004",
+          "source_page": 4,
+          "quote": "行龍實爲坤申之氣入首故燕冀至靑兗之地義一坤甲結穴自右轉為坎局左顧爲兌"
+        },
+        "usage_example": "在本书的判断链里，先按“来脉接近结穴区域的末段。”理解“入首”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "它不是整条龙的起点，也不是穴位本身。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "住结",
+        "tier": "core",
+        "aliases": [
+          "住結",
+          "住扎"
+        ],
+        "plain_definition": "地势在某处停止延伸并形成收束。",
+        "contextual_definition": "本书用水交、砂回头和局部围合作为住结证据。",
+        "first_occurrence": {
+          "page_id": "P000009",
+          "block_id": "P000009-B003",
+          "source_page": 9,
+          "quote": "有微茫之跡龍脉有住結故雖溝潦亦有交合龍微茫之分合考沖潦之去處而眞龍自"
+        },
+        "usage_example": "在本书的判断链里，先按“地势在某处停止延伸并形成收束。”理解“住结”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "地势平整或形状好看不等于已经住结。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "合襟",
+        "tier": "core",
+        "aliases": [
+          "合衿",
+          "交襟"
+        ],
+        "plain_definition": "两股水或界水在局部会合、收拢。",
+        "contextual_definition": "它是作者判断龙是否停住的关键证据之一。",
+        "first_occurrence": {
+          "page_id": "P000008",
+          "block_id": "P000008-B001",
+          "source_page": 8,
+          "quote": "穴水7---F不合衿則龍脉未止龍脉不止則氣行未住故尋龍定穴必于水交之"
+        },
+        "usage_example": "在本书的判断链里，先按“两股水或界水在局部会合、收拢。”理解“合襟”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "合襟只是候选证据，还要核对来路和砂形。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "界水",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "划分或约束土脉边界的水流、水沟。",
+        "contextual_definition": "作者用它判断一条地势是否被隔断、约束或收拢。",
+        "first_occurrence": {
+          "page_id": "P000007",
+          "block_id": "P000007-B001",
+          "source_page": 7,
+          "quote": "仙日東南水聚之處界水倒右有震穴界水倒左觀衆水之交衿而雄雌乃見向北流有"
+        },
+        "usage_example": "在本书的判断链里，先按“划分或约束土脉边界的水流、水沟。”理解“界水”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "界水强调位置作用，不等于所有经过的水。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "明堂",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "穴前相对开敞、承接水势的空间。",
+        "contextual_definition": "来水是否到堂、如何会合和流出，常在这里观察。",
+        "first_occurrence": {
+          "page_id": "P000020",
+          "block_id": "P000020-B004",
+          "source_page": 20,
+          "quote": "囚而或符官旺水聚明堂則龍穴雖凶而外氣清吉亦能財或得長生之水氣流至局前"
+        },
+        "usage_example": "在本书的判断链里，先按“穴前相对开敞、承接水势的空间。”理解“明堂”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "它不是建筑里的厅堂；范围需结合本局地形。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "水口",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "一局水流出入或收束的关键位置。",
+        "contextual_definition": "卷六常先据水口判断来去水，再谈立向。",
+        "first_occurrence": {
+          "page_id": "P000013",
+          "block_id": "P000013-B002",
+          "source_page": 13,
+          "quote": "丑上出水是見庚壬水口而非其偶謂之陽差陽差則傷男丙寅龍用乙氣來合乃爲陰"
+        },
+        "usage_example": "在本书的判断链里，先按“一局水流出入或收束的关键位置。”理解“水口”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "水口不是任意河岸缺口，也不能脱离整局单看。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "来水",
+        "tier": "core",
+        "aliases": [
+          "水來",
+          "來水"
+        ],
+        "plain_definition": "朝向堂局流入的水。",
+        "contextual_definition": "作者用它判断哪些方位之气被带入。",
+        "first_occurrence": {
+          "page_id": "P000007",
+          "block_id": "P000007-B001",
+          "source_page": 7,
+          "quote": "女也龍盡水合雖方來水自東南合者氣脉水交媾情意巳在震巽雄交會猶男女合而"
+        },
+        "usage_example": "在本书的判断链里，先按“朝向堂局流入的水。”理解“来水”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "‘来’以穴场或堂局为参照，不等于地图上的上游方向。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "去水",
+        "tier": "core",
+        "aliases": [
+          "水去"
+        ],
+        "plain_definition": "从堂局流出的水。",
+        "contextual_definition": "它帮助判断何处泄出、水口在哪里。",
+        "first_occurrence": {
+          "page_id": "P000009",
+          "block_id": "P000009-B001",
+          "source_page": 9,
+          "quote": "必有所歸而微茫之水去留亦足以察其龍脉之行止凡水必歸趨于卑下而低窪之處"
+        },
+        "usage_example": "在本书的判断链里，先按“从堂局流出的水。”理解“去水”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "‘去’同样以局部观察点为参照。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "护砂",
+        "tier": "core",
+        "aliases": [
+          "護砂"
+        ],
+        "plain_definition": "对来脉或穴场形成包合、护持的砂形。",
+        "contextual_definition": "它可从左右或后方回抱，使作者认为来势没有外泄。",
+        "first_occurrence": {
+          "page_id": "P000067",
+          "block_id": "P000067-B002",
+          "source_page": 67,
+          "quote": "時師不知却見左右護砂緊促應案整齊便從落脉畫處點之是棄其亥氣而取僞脉自"
+        },
+        "usage_example": "在本书的判断链里，先按“对来脉或穴场形成包合、护持的砂形。”理解“护砂”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "护持要看朝向关系，不是离穴近就算护砂。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "劫砂",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "从来脉腰肋分出、把整体关系扯散的支砂。",
+        "contextual_definition": "卷四图式用它解释为什么头面端正仍可能不结。",
+        "first_occurrence": {
+          "page_id": "P000056",
+          "block_id": "P000056-B004",
+          "source_page": 56,
+          "quote": "氣入路不清越隔與劫砂二者俱是凶惡決不可下古人所謂菩薩由者正此龍也言龍"
+        },
+        "usage_example": "在本书的判断链里，先按“从来脉腰肋分出、把整体关系扯散的支砂。”理解“劫砂”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "与护砂的区别在于是否回护堂局，而不只在形状尖圆。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "鬼砂",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "斜飞、外逃或穿破主体、不能回护的支形。",
+        "contextual_definition": "原书把它视为分散来气的负面形态。",
+        "first_occurrence": {
+          "page_id": "P000033",
+          "block_id": "P000033-B014",
+          "source_page": 33,
+          "quote": "大鬼砂頭淨藏而來如鋪氊之狀必使到頭釋交砂會陰陽配合後融結真穴否則一片"
+        },
+        "usage_example": "在本书的判断链里，先按“斜飞、外逃或穿破主体、不能回护的支形。”理解“鬼砂”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "‘鬼’是传统评价标签；先描述可见的外斜、穿破再谈评价。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "朝应",
+        "tier": "core",
+        "aliases": [
+          "朝應"
+        ],
+        "plain_definition": "前方或周围形态朝向、响应穴场的关系。",
+        "contextual_definition": "当中心脉络不清时，作者用朝应帮助反推穴位。",
+        "first_occurrence": {
+          "page_id": "P000014",
+          "block_id": "P000014-B007",
+          "source_page": 14,
+          "quote": "亥戍而進各因陰陽朝應以爲願逆之法正所謂二十四山分願逆詔天經下春之十"
+        },
+        "usage_example": "在本书的判断链里，先按“前方或周围形态朝向、响应穴场的关系。”理解“朝应”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "朝应是相对关系，不是某个固定山名。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "朝山",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "穴前较远、与穴场形成朝向关系的山体。",
+        "contextual_definition": "卷四末在脉络混杂时用前方朝山辅助校验。",
+        "first_occurrence": {
+          "page_id": "P000065",
+          "block_id": "P000065-B002",
+          "source_page": 65,
+          "quote": "何方有情經云唯氣朝山識幸心後看來脉前看朝山以爲準的刖萬無一矢矣又有乳"
+        },
+        "usage_example": "在本书的判断链里，先按“穴前较远、与穴场形成朝向关系的山体。”理解“朝山”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "朝山通常比近前案山更远，不能混成一个概念。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "玄武",
+        "tier": "core",
+        "aliases": [],
+        "plain_definition": "穴后承担靠护关系的地势。",
+        "contextual_definition": "回龙、退后取穴等讨论中，它用于标示穴后方。",
+        "first_occurrence": {
+          "page_id": "P000021",
+          "block_id": "P000021-B003",
+          "source_page": 21,
+          "quote": "祖廻龍地最要水纏玄武則氣力乃鍾不然後氣脫去反不爲美"
+        },
+        "usage_example": "在本书的判断链里，先按“穴后承担靠护关系的地势。”理解“玄武”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "这里是方位/形势称谓，不是在讲神兽实体。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "向",
+        "tier": "core",
+        "aliases": [
+          "立向",
+          "作向"
+        ],
+        "plain_definition": "穴位或营建对象最后确定的朝向。",
+        "contextual_definition": "本书强调先辨来龙、水口和砂水，再用向协调分类。",
+        "first_occurrence": {
+          "page_id": "P000013",
+          "block_id": "P000013-B004",
+          "source_page": 13,
+          "quote": "祉雖發亦輕可認水立向有千向上消息則客水登堂亦能致吉"
+        },
+        "usage_example": "在本书的判断链里，先按“穴位或营建对象最后确定的朝向。”理解“向”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "‘向’不是一开始任意选择的答案。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "二十四山",
+        "tier": "supporting",
+        "aliases": [],
+        "plain_definition": "把周天细分为二十四个方位单位的体系。",
+        "contextual_definition": "用于标记来龙、来水、去水和坐向。",
+        "first_occurrence": {
+          "page_id": "P000014",
+          "block_id": "P000014-B007",
+          "source_page": 14,
+          "quote": "爲願逆之法正所謂二十四山分願逆詔天經下春之十"
+        },
+        "usage_example": "在本书的判断链里，先按“把周天细分为二十四个方位单位的体系。”理解“二十四山”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "它是传统罗盘坐标，不等于二十四座实际山峰。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "三合",
+        "tier": "supporting",
+        "aliases": [],
+        "plain_definition": "把若干地支和相关干维编成一组的传统分类。",
+        "contextual_definition": "本书用木、火、金、水四组联系龙、水与向。",
+        "first_occurrence": {
+          "page_id": "P000018",
+          "block_id": "P000018-B002",
+          "source_page": 18,
+          "quote": "艮巽隸于四維之方三合以亥卯未屬木而乾甲丁從之巳酉丑屬金而巽庚癸從之寅"
+        },
+        "usage_example": "在本书的判断链里，先按“把若干地支和相关干维编成一组的传统分类。”理解“三合”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "它是特定术数规则，不是日常说的‘三者合一’。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "纳甲",
+        "tier": "supporting",
+        "aliases": [
+          "納甲"
+        ],
+        "plain_definition": "把八卦与天干等相配的传统方法。",
+        "contextual_definition": "卷四用它讨论龙与向的正配、借配。",
+        "first_occurrence": {
+          "page_id": "P000018",
+          "block_id": "P000018-B003",
+          "source_page": 18,
+          "quote": "經云從氣者是也乾納甲而爲金巽納辛而爲本艮納丙而爲火兌納丁而爲金坤納乙"
+        },
+        "usage_example": "在本书的判断链里，先按“把八卦与天干等相配的传统方法。”理解“纳甲”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "纳甲与三合是不同分类工具，原书会并用和变通。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "十二长生",
+        "tier": "supporting",
+        "aliases": [
+          "長生",
+          "十二宮"
+        ],
+        "plain_definition": "用长生、沐浴、冠带、临官、帝旺等十二阶段表示盛衰的系统。",
+        "contextual_definition": "作者据它把来龙和水分成生旺休囚死绝。",
+        "first_occurrence": {
+          "page_id": "P000018",
+          "block_id": "P000018-B003",
+          "source_page": 18,
+          "quote": "方而生氣配於水神長生于坤旺于子而無正位用水火木金爲四經五行如筮家之妙"
+        },
+        "usage_example": "在本书的判断链里，先按“用长生、沐浴、冠带、临官、帝旺等十二阶段表示盛衰的系统。”理解“十二长生”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "这里的‘生死’多是分类状态，不是对眼前生物的描述。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "生旺休囚",
+        "tier": "supporting",
+        "aliases": [
+          "生旺休廢"
+        ],
+        "plain_definition": "对五行之气由强到弱的传统状态分类。",
+        "contextual_definition": "它把观察到的方向关系转成吉凶推演。",
+        "first_occurrence": {
+          "page_id": "P000018",
+          "block_id": "P000018-B003",
+          "source_page": 18,
+          "quote": "古人之深一意也推生旺休廢以明陰陽消長之理而孤虛旺相亦於此而可知矣"
+        },
+        "usage_example": "在本书的判断链里，先按“对五行之气由强到弱的传统状态分类。”理解“生旺休囚”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "这属于术数解释层，不能由地形外观独立证实。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "三吉六秀",
+        "tier": "supporting",
+        "aliases": [],
+        "plain_definition": "原书对若干被视为清贵秀美方位或来龙的合称。",
+        "contextual_definition": "卷三、卷四用它讨论峰峦、来龙和向的配合。",
+        "first_occurrence": {
+          "page_id": "P000026",
+          "block_id": "P000026-B013",
+          "source_page": 26,
+          "quote": "官祿秀水王榮貴若三吉六秀特朝到堂却從向前官旺方流出主子孫科甲而不善終"
+        },
+        "usage_example": "在本书的判断链里，先按“原书对若干被视为清贵秀美方位或来龙的合称。”理解“三吉六秀”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "不同传统对具体名单未必完全一致，应按本书上下文读。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "双山",
+        "tier": "supporting",
+        "aliases": [
+          "雙山"
+        ],
+        "plain_definition": "把相邻干维与地支合成十二组的方位法。",
+        "contextual_definition": "原书在卦气或三合需要变通时使用。",
+        "first_occurrence": {
+          "page_id": "P000019",
+          "block_id": "P000019-B001",
+          "source_page": 19,
+          "quote": "敬仙曰若午龍從雙山三合作戍向或艮向者多不玉尺經卷二一"
+        },
+        "usage_example": "在本书的判断链里，先按“把相邻干维与地支合成十二组的方位法。”理解“双山”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "‘双’指方位成组，不是两座实山。",
+        "confidence": "confirmed"
+      },
+      {
+        "term": "分金",
+        "tier": "supporting",
+        "aliases": [],
+        "plain_definition": "在既有方位内继续细分坐向度数的方法。",
+        "contextual_definition": "卷二、卷六把它与六十龙、星度等更细规则相连。",
+        "first_occurrence": {
+          "page_id": "P000023",
+          "block_id": "P000023-B004",
+          "source_page": 23,
+          "quote": "十五度按二十八宿分金過度配五行所屬是名星度五行用之如立穴配向如穴坐火"
+        },
+        "usage_example": "在本书的判断链里，先按“在既有方位内继续细分坐向度数的方法。”理解“分金”，再看它怎样参与来路、收束或方位判断。",
+        "related_terms": [],
+        "common_confusions": "原文多处残缺，不应从本版补造精确操作表。",
+        "confidence": "confirmed"
+      }
+    ],
+    "excluded_inventory_terms": []
+  }
+}

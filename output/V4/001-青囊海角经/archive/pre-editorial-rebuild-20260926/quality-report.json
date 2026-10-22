@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-26T16:23:29.728895+00:00",
+  "book": "青囊海角经",
+  "edition_label": "现代白话版",
+  "target_reader": "现代普通读者",
+  "edition_scope": "full_reader_edition_source_pages_1_216",
+  "grade": "B",
+  "grade_label": "readable_with_backend_ledger",
+  "source_pdf": {
+    "path": "D:\\壮五福\\风水项目\\Docs\\地学-经典\\《青囊海角经》四库存目 青囊汇刊2 (晋)郭璞著 郑同校2017.pdf",
+    "sha256": "99B2EDC10753C8C5E32F7DBBA6D88B9E6FC9CEA0FA1EEA16012E841C9B5E22B9",
+    "bytes": 25710188,
+    "physical_pages": 216,
+    "page_accounting": {
+      "physical_pages": 216,
+      "included_content": 215,
+      "blank_or_noncontent": 1,
+      "excluded": 0,
+      "unreadable": 0
+    }
+  },
+  "semantic_audit": {
+    "status": "passed_with_ledger",
+    "source_page_visual_coverage": "216/216",
+    "v3_traceability": "1375/1375",
+    "repair_queue_segments": 0,
+    "bounded_uncertainty_segments": 96
+  },
+  "structural_audit": {
+    "status": "passed",
+    "blocks_each_stage": 1600,
+    "source_identity_match": true,
+    "normalization_change_records": 274,
+    "raw_html_tags": 0,
+    "internal_pipeline_messages": 0
+  },
+  "uncertainty_ledger": {
+    "records": 501,
+    "path": "90-audit/uncertain-items.jsonl",
+    "reader_facing_page_markers": true
+  },
+  "models": {
+    "source_and_prior_collation": [
+      "Qwen/Qwen3-VL-32B-Instruct",
+      "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "Qwen/Qwen3.5-122B-A10B",
+      "PaddlePaddle/PaddleOCR-VL-1.5"
+    ],
+    "v4_paid_repair_and_judging": [
+      "doubao-seed-2-0-mini-260428",
+      "doubao-seed-2-0-pro-260215"
+    ]
+  },
+  "publication": {
+    "modern_reader": {
+      "path": "60-publication/青囊海角经·现代白话版.pdf",
+      "pages": 196,
+      "bytes": 8874899,
+      "sha256": "B9ADE5FAE38C6970F2AEF26D832756AF562B0193D07F47618F37D08F744DEB3C"
+    },
+    "source_comparison": {
+      "path": "60-publication/青囊海角经·原文对照版.pdf",
+      "pages": 497,
+      "bytes": 36942208,
+      "sha256": "4DF04C98F1D681C3BDFD031900E1961B66CA72758DFAC7579BF4E64A56ED0E7C"
+    },
+    "modern_markdown": "60-publication/modern-reading.md",
+    "source_comparison_markdown": "60-publication/source-comparison.md",
+    "rendered_pages_inspected": 196,
+    "source_comparison_rendered_pages_inspected": 497,
+    "total_release_pages_inspected": 693,
+    "render_failures": 0,
+    "blank_like_pages": 0,
+    "visual_defects_found": 0,
+    "visual_inspection_method": "all-page contact review plus full-resolution review of cover, credits, TOC, representative body pages, figures, and closing pages"
+  },
+  "cost": {
+    "paid_calls_authorized": true,
+    "status": "included_in_shared_v3_meter; book-specific attribution unavailable",
+    "shared_project_meter_snapshot_rmb": 90.568581,
+    "shared_project_hard_cap_rmb": 150.0
+  },
+  "validation": {
+    "validated_at": "2026-09-26T16:23:29.728895+00:00",
+    "contract_validator": {
+      "status": "passed",
+      "counts": {
+        "source": 1600,
+        "normalized": 1600,
+        "modernized": 1600,
+        "edited": 1600
+      },
+      "errors": []
+    },
+    "publication_auditor": {
+      "status": "passed",
+      "errors": [],
+      "warnings": []
+    },
+    "official_reader_visual_review": {
+      "status": "passed",
+      "rendered_pages": 196,
+      "defects": 0
+    },
+    "source_comparison_visual_review": {
+      "status": "passed",
+      "rendered_pages": 497,
+      "defects": 0
+    },
+    "publication_root_pdf_files": [
+      "青囊海角经·原文对照版.pdf",
+      "青囊海角经·现代白话版.pdf"
+    ]
+  },
+  "limitations": [
+    "The source contains damaged, missing, and ambiguous passages; these are preserved conservatively and linked to the audit ledger.",
+    "Detailed OCR and collation uncertainties remain available in the backend audit ledger and are marked by source page in the comparison edition."
+  ],
+  "evidence": {
+    "source_reconstruction": "20-source/source-reconstruction-report.json",
+    "normalization": "30-normalized/normalization-report.json",
+    "modernization": "40-modernized/modernization-report.json",
+    "render_audit": "90-audit/rendered-pdf-audit/render-audit.json",
+    "source_report_sha256": "684B815B8B8277EA132AE263639D6817FA61CC7B10DD23D30025AD33DDE4FB31",
+    "source_blocks": 1600,
+    "source_manifest_sha256": "99B2EDC10753C8C5E32F7DBBA6D88B9E6FC9CEA0FA1EEA16012E841C9B5E22B9"
+  }
+}

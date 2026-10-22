@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "review_id": "RC0006",
+  "reviewer_kind": "model",
+  "reviewer_execution_role": "/root/reference_only_regression",
+  "manuscript_file": "50-edited/modern-reading.md",
+  "manuscript_sha256": "949397f41d8dbf6af9a141e0933e7cad67050f095498e23b73b50e906236b753",
+  "manuscript_line_count": 4364,
+  "tasks_file": "50-edited/review-history/RC0006/tasks.json",
+  "tasks_sha256": "f3ef6984a0f87baf8b2e808a033defee63bbc10bc8de2dc7cf15a1e57ba8c439",
+  "responses_file": "50-edited/review-history/RC0006/reader-responses.json",
+  "responses_sha256": "f6fff35dcd30fb21466a51979e2c2bcee3ae0a1908059a6c1ea9c702af91bb59",
+  "assessments_file": "50-edited/review-history/RC0006/assessments.json",
+  "assessments_sha256": "c1c5fb52523a010592a0ec5df981ed70de07da3138b59bbff285a0527163aa94",
+  "provenance_file": "50-edited/review-history/RC0006/provenance.md",
+  "provenance_sha256": "97319575a17d0f4b65f7da958f62c6aec7f4da9ed44982de0713a0a23a275b9d",
+  "task_summary": {
+    "total": 31,
+    "passed": 31,
+    "needs_revision": 0,
+    "blocked": 0
+  },
+  "dimensions": [
+    {
+      "dimension": "reader_positioning_and_scope",
+      "status": "passed",
+      "evidence": "终稿 41-59 行明确普通读者、学习结果、传本与科学边界、主阅读编/逐页参考的分工。读者能在进入密集正文前知道应学什么、哪些结论不能作现代事实。"
+    },
+    {
+      "dimension": "central_model_and_judgment_chain",
+      "status": "passed",
+      "evidence": "终稿 61-76 行把核心难题和六步链讲清；FULL-FRONT-001、FULL-CH1-001、FULL-CH3-001、FULL-CH6-001 均能不靠标题复述方法和先后关系。"
+    },
+    {
+      "dimension": "navigation_and_structure",
+      "status": "passed",
+      "evidence": "目录、六章地图、章首问题/抓手、86个页级新增判断及末尾主题/图式/疑文索引形成多层导航。第二编被明确定位为对照查阅编，不要求普通读者连续硬读，缓解了篇幅负担。"
+    },
+    {
+      "dimension": "chapter_continuity_and_whole_book_comprehension",
+      "status": "passed",
+      "evidence": "章节间能连成审势→行止→审穴→审砂→审气/审向的完整关系；31项回答覆盖卷首、六章、闭卷复述和22个核心词，没有只停留在两幅图或个别页。"
+    },
+    {
+      "dimension": "terminology_and_cognitive_load",
+      "status": "passed",
+      "evidence": "终稿先给八个核心词，再以“定义/作用/不要混淆/来源/相关词”统一展开术语。FULL-CH2-001 和 FULL-CLOSE-001 能区分二十四山、三合、纳甲、十二长生。限制是第二编后半仍高度术语密集，适合作为参考层而非连续入门读物；多条“本书用例”措辞较模板化，但不妨碍本轮核心任务作答。"
+    },
+    {
+      "dimension": "application_and_examples",
+      "status": "passed",
+      "evidence": "第一编的浅沟/微高地演练提供最小应用模型，任务回答还能迁移到陌生农田场景，并为合襟构造反例、为砂的护泄关系给出具体判断，说明概念可以被使用而非只被背诵。"
+    },
+    {
+      "dimension": "figure_reading_and_visual_evidence_boundary",
+      "status": "passed",
+      "evidence": "实际打开 P000054-B011 和 P000056-B011。前者支持斜来与正受分离，后者支持多重倒插/穿破导致外泄；回答未从模糊小字恢复方位、穴位或公式。稿中对 P000050-B007、P000056-B010 等不可教学证明图另有明确存档边界。"
+    },
+    {
+      "dimension": "source_editor_and_traditional_claim_separation",
+      "status": "passed",
+      "evidence": "开篇、卷首与全书提示持续区分现存题署、编辑重组、可观察形态、传统吉凶解释和现代事实。FULL-PREFACE-001、FULL-TERM-003、004、018 的回答表明这些层次没有被混同。"
+    },
+    {
+      "dimension": "uncertainty_handling_and_closure",
+      "status": "passed",
+      "evidence": "疑损页逐段标注不可恢复精确方位/数字/操作规则，附录列出疑文页；卷六与卷末残图保持边界。末尾六问能闭合主线并检验水交、砂关系、分类系统、立向顺序和证据分层。"
+    }
+  ],
+  "overall": {
+    "status": "passed",
+    "conclusion": "对绑定哈希的1.7终稿，31项预设任务全部可由文本和实际图像边界作答，九个读者维度均达到模型回归通过。该稿已经让普通读者先掌握可复述的全书模型，再把逐页译文作为证据型参考；图式和疑文未被过度解释。",
+    "strengths": [
+      "六步判断链与三层证据边界稳定，能贯穿六章。",
+      "章首抓手、页级新增判断、术语表和三类索引共同降低长篇查阅成本。",
+      "图式说明把观察顺序、解决的问题和不可猜补内容明确分开。",
+      "题署、传统吉凶和现代事实之间的边界清楚。"
+    ],
+    "non_blocking_limitations": [
+      "第二编保留大量疑损、传统断语和密集方位组合，普通读者若连续通读仍会有高负担；本版已将其定位为对照查阅层。",
+      "核心术语表多处“本书用例”采用统一模板，例子的具体场景性不强，但定义、作用和防混淆信息足以支撑本轮任务。",
+      "本结论来自独立模型执行，不是人类阅读实验，不能证明人类独立性或真实人群理解率。"
+    ],
+    "blocking_issues": [],
+    "publication_claim_limit": "本审阅只证明绑定终稿的模型读者理解回归；不证明OCR/译义忠实性、PDF渲染、出版包完整性或人类读者验收。"
+  }
+}

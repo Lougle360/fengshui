@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "review_id": "RC0007",
+  "review_type": "affected_regression",
+  "reviewer_kind": "model",
+  "producer_execution_id": "root-editorial-RC0007-59dd008c",
+  "reviewer_execution_id": "reference-only-regression-RC0007-59dd008c",
+  "baseline_review_id": "RC0006",
+  "baseline_review_type": "independent_full_read",
+  "baseline_manuscript_sha256": "949397f41d8dbf6af9a141e0933e7cad67050f095498e23b73b50e906236b753",
+  "manuscript_file": "50-edited/modern-reading.md",
+  "manuscript_sha256": "59dd008c96da587aafdbafd854f6e24455ba1859c05fd79194cf3ead33a0ac05",
+  "manuscript_line_count": 4364,
+  "tasks_file": "50-edited/review-history/RC0007/tasks.json",
+  "tasks_sha256": "f3ef6984a0f87baf8b2e808a033defee63bbc10bc8de2dc7cf15a1e57ba8c439",
+  "responses_file": "50-edited/review-history/RC0007/reader-responses.json",
+  "responses_sha256": "f6fff35dcd30fb21466a51979e2c2bcee3ae0a1908059a6c1ea9c702af91bb59",
+  "assessments_file": "50-edited/review-history/RC0007/assessments.json",
+  "assessments_sha256": "67877fa540d7fbaa1404d1cd0a66bfdf0f4ef52360b422fb79f3f35ec3e8bcc4",
+  "provenance_file": "50-edited/review-history/RC0007/provenance.md",
+  "provenance_sha256": "89c58a6f9142844379314b0fc7f3a43b22d33113954ddfcc18c15e5af79f5bf6",
+  "diff_verification": {
+    "method": "Replaced the RC0007 source-anchor line with the recorded RC0006 line in memory and hashed the reconstructed byte stream.",
+    "reconstructed_sha256": "949397f41d8dbf6af9a141e0933e7cad67050f095498e23b73b50e906236b753",
+    "matches_baseline": true,
+    "changed_lines": [3462],
+    "change": "The glossary entry for 砂 now anchors its first source to P000007-B001 body usage instead of P000001-B002 title usage.",
+    "semantic_scope": "source_traceability_only"
+  },
+  "task_summary": {
+    "total": 31,
+    "passed": 31,
+    "needs_revision": 0,
+    "blocked": 0,
+    "directly_checked_unaffected": ["FULL-CLOSE-001", "FULL-TERM-001"],
+    "not_affected": 29
+  },
+  "dimensions": [
+    {
+      "dimension": "reader_positioning_and_scope",
+      "status": "passed",
+      "regression_basis": "No changed byte falls in the positioning, audience, learning outcome or scope material. RC0006 findings remain bound to identical text."
+    },
+    {
+      "dimension": "central_model_and_judgment_chain",
+      "status": "passed",
+      "regression_basis": "The central problem, six-step chain and three evidence layers are unchanged; the anchor repair does not alter any link in the model."
+    },
+    {
+      "dimension": "navigation_and_structure",
+      "status": "passed",
+      "regression_basis": "Line count, headings, task ranges, table of contents, page-level guides and indexes are unchanged."
+    },
+    {
+      "dimension": "chapter_continuity_and_whole_book_comprehension",
+      "status": "passed",
+      "regression_basis": "All six chapters and their connections are byte-identical to the RC0006 full-reading manuscript; only one glossary provenance line changed."
+    },
+    {
+      "dimension": "terminology_and_cognitive_load",
+      "status": "passed",
+      "regression_basis": "The 砂 definition, role, example, warning and related terms are unchanged. Moving its first-source anchor from title to body usage improves traceability without increasing terminology burden."
+    },
+    {
+      "dimension": "application_and_examples",
+      "status": "passed",
+      "regression_basis": "No application example changed. The RC0006 answers' field scenario, 合襟 counterexample and protection/leakage examples remain supported."
+    },
+    {
+      "dimension": "figure_reading_and_visual_evidence_boundary",
+      "status": "passed",
+      "regression_basis": "No figure, image reference, caption, route or boundary changed. RC0006's actually opened image evidence remains applicable; RC0007 does not claim a second image review."
+    },
+    {
+      "dimension": "source_editor_and_traditional_claim_separation",
+      "status": "passed",
+      "regression_basis": "The only change is a more appropriate body-text source anchor for 砂. The observation/traditional-explanation/editorial boundaries are otherwise unchanged and the repair strengthens source traceability."
+    },
+    {
+      "dimension": "uncertainty_handling_and_closure",
+      "status": "passed",
+      "regression_basis": "No doubt marker, damaged-text boundary, closing question or answer changed. The anchor correction introduces no new uncertainty in the term's meaning."
+    }
+  ],
+  "overall": {
+    "status": "passed",
+    "conclusion": "RC0007 passes the affected regression. The sole verified manuscript change corrects the first-source anchor for 砂 and does not alter the term definition, whole-book model, figures, tasks or any of the 31 retained RC0006 answers.",
+    "claim_boundary": "This is evidence that RC0006's independent full-reading answers remain valid for the RC0007 manuscript. It is not a second fresh blind read and does not add a second independent-reader acceptance event.",
+    "blocking_issues": [],
+    "limitations": [
+      "The regression verifies semantic non-impact and record binding, not the OCR fidelity of P000007-B001 against its scan.",
+      "It does not prove human comprehension, PDF rendering or publication-package completeness."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-27T03:15:48.244165+00:00",
+  "book": "青囊海角经",
+  "edition_scope": "full_reader_edition_source_pages_1_216",
+  "source_pages_total": 216,
+  "grade": "B",
+  "grade_label": "modern_reader_edition_with_traceable_ledger",
+  "semantic_audit": {
+    "status": "passed_with_ledger",
+    "page_level_visual_coverage": 216,
+    "reader_facing_uncertainty_markers": 35
+  },
+  "structural_audit": {
+    "status": "passed",
+    "blocks_each_stage": 1600,
+    "raw_html_tags": 0,
+    "internal_pipeline_messages": 0
+  },
+  "models": [
+    "Qwen/Qwen3-VL-32B-Instruct",
+    "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "Qwen/Qwen3.5-122B-A10B",
+    "PaddlePaddle/PaddleOCR-VL-1.5"
+  ],
+  "publication": {
+    "pdf": "60-publication/青囊海角经·现代白话版（现代风水爱好者修订版）.pdf",
+    "pdf_pages": 198,
+    "pdf_bytes": 8864535,
+    "pdf_sha256": "A72EAC98E7057215631928B2C322A0D5D3E9CBF87177B72A7A68C678F6D06B1A",
+    "modern_markdown": "60-publication/modern-reading.md",
+    "rendered_pages_inspected": 198,
+    "visual_defects_found": 0,
+    "visual_audit": "passed"
+  },
+  "uncertainty_ledger": {
+    "candidate_records": 501,
+    "open_material_records": 162,
+    "by_reader_impact": {
+      "high": 0,
+      "medium": 42,
+      "low": 120
+    }
+  },
+  "uncertainty_summary": {
+    "candidates": 501,
+    "adjudications": 560,
+    "active_adjudications": 501,
+    "open_material": 162
+  },
+  "limitations": [
+    "Medium- and low-impact textual uncertainties remain in the traceable ledger and do not support unique restoration.",
+    "Traditional claims are presented as historical ideas, not as modern scientific conclusions."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "workflow_schema_version": "1.7",
+  "book_id": "2741569487652745",
+  "created_at": "2026-09-26T23:05:00-07:00",
+  "bindings": {
+    "20-source/blocks.jsonl": "42bb8456b2182bba7f1f8805a525a48fd4eddbe2d3aad44ac095a76c4cf85aa7",
+    "30-normalized/blocks.jsonl": "024f905a392c520b96dfca620859f88e77fdff17aedaeb183e6db11009415cea",
+    "40-modernized/book-understanding.md": "0ba5a7e8a419e0134a9e28efc498823b2b0d503a9651d9261d1707a7d9171df5",
+    "50-edited/editorial-plan.md": "32a8288518a8708022f5f9785336fc00de9170bcf6516bc0f38c4d4a09b81d62",
+    "50-edited/sample/reader-sample.md": "8191d515539ed9e66f6662c2744066d42b60a4da40ea0dc8e7292f04b05c9d48",
+    "50-edited/assets/figures/P000052-B007.jpg": "e18805b4d094054b5f97c203c4b33d467b61ae9ff34a2fe45b844799ddbc7a2d"
+  },
+  "sample_selection": {
+    "block_ids": [
+      "P000006-B005",
+      "P000006-B006",
+      "P000006-B007",
+      "P000006-B008",
+      "P000006-B009",
+      "P000006-B010",
+      "P000008-B001",
+      "P000008-B002",
+      "P000009-B001",
+      "P000009-B002",
+      "P000009-B003",
+      "P000052-B006",
+      "P000052-B007"
+    ],
+    "reason": "样章覆盖全书枢纽命题‘由水察势、由交会判断行止’，并把核心术语、反例、证据分层和陌生地形迁移放在同一连续单元中。",
+    "figures_applicable": true,
+    "figure_reason": "原书有33个内容图；P000052-B007的长砂、坐穴与鬼砂关系可同时检验实际看图、内收/外泄区分及模糊字边界。",
+    "covered_difficulties": [
+      "龙、气、水、砂、穴、合襟等核心术语的首次解释",
+      "可观察地貌与传统气论、吉凶推断的证据分层",
+      "平原微高差和微小水痕的尺度转换",
+      "水交候选证据与来路、砂形交叉验证",
+      "实际原图中的护持与外泄关系",
+      "图中文字模糊时不猜补"
+    ],
+    "deferred_difficulties": [
+      "二十四山、三合、纳甲与十二长生的系统关系",
+      "审向卷中残缺方位公式的逐条裁决",
+      "其余32幅图的逐图阅读指引",
+      "全书核心术语首次出处和跨章一致性复核"
+    ]
+  },
+  "blocking_questions": [],
+  "sample_review": {
+    "status": "passed",
+    "reviewer_kind": "model",
+    "producer_execution_id": "codex-primary-20260926-chaoyun-17-sample-producer",
+    "reviewer_execution_id": "/root/sample_reader_image_17",
+    "manuscript_file": "50-edited/sample/reader-sample.md",
+    "manuscript_sha256": "8191d515539ed9e66f6662c2744066d42b60a4da40ea0dc8e7292f04b05c9d48",
+    "tasks_file": "50-edited/sample/tasks.json",
+    "tasks_sha256": "e0a40e0ad4309f8a3c6a4329104ca1a54f2ad140bbb6683416460fa3fd23f16d",
+    "responses_file": "50-edited/sample/responses.json",
+    "responses_sha256": "54eae3c76081d443e5ba39926281536bf4aa3b666dc2d08eaeeb6f767e2cf699",
+    "assessments_file": "50-edited/sample/assessments.json",
+    "assessments_sha256": "081eb7e77f1294417c07b9cf1ce0c55abdd4902af4cea7e4f1a3f2161a56191a",
+    "provenance_file": "50-edited/sample/provenance.md",
+    "provenance_sha256": "34e5eb488e75394e64abc9805de20ec95e7273b2e0328c1c3f60fdcae0a3232e",
+    "task_exemptions": {},
+    "notes": "RC0001因读者未实际打开图像而不计通过，保存在review-history；RC0002由全新读者实际查看样章、任务与原图后完成。"
+  }
+}
