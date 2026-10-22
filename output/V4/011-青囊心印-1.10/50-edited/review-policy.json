@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "minimum_full_passes": 3,
+  "required_stable_passes": 2,
+  "required_methods": [
+    "manuscript_reader",
+    "source_fidelity",
+    "final_pdf_reader"
+  ],
+  "rule": "Continue until all blocking issues close and the final two complete passes find no new blockers."
+}

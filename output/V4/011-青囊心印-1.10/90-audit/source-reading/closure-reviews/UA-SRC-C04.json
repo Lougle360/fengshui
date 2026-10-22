@@ -1,0 +1,45 @@
+{
+  "adjudication_id": "UA-SRC-C04",
+  "candidate_ids": [
+    "UC000027",
+    "UC000033",
+    "UC000036",
+    "UC000042",
+    "UC000043"
+  ],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-source-closure-independent-UA-SRC-C04-r1",
+  "closure_sha256": "a9a9e4ab81754a30d029f2c1c4197cc0bdf0443df4720eb6af83cc533ab08180",
+  "status": "failed",
+  "fidelity_evidence": [
+    {
+      "path": "90-audit/source-reading/pages-008-010-independent.md",
+      "sha256": "25bf1acdf2cbae135e1282ee47bb101ddbd64fa27dacf1150e164742c2bb5671",
+      "quote": "2026-09-29，独立执行 `/root/qingnang_source_004_007` 的续任务。遵循已完整阅读的 source-reconstructor/SKILL.md、reconstruction-policy.md、uncertainty-adjudicator/SKILL.md、closure-and-trial.md。本次重新完整读取 pages-008-009.json、pages-010.json；实际 view_image 查看三张 native 原图，又将每页上、下半内存裁切放大逐列核对，额外放大 P9 其金言曰、P10 经句及分疏处。未使用通行经文或文意补字；没有写入源输入或 ledger，没有产生通过结论或 closure。"
+    }
+  ],
+  "reader_evidence": [
+    {
+      "path": "20-source/transcription-inputs/pages-008-009.json",
+      "sha256": "883124809df05652b8303256411c8de448e08daac908c41542b8c8e039626bf5",
+      "quote": "其金言曰我乃卜",
+      "finding": "本执行读取并比较真实current与after快照，确认对应源文/证据范围。尚无白话及读者稿，须在生成后复核，不声明已完成下游验收。"
+    }
+  ],
+  "checks": {
+    "minimal_replay": true,
+    "current_equals_after_bytes": true,
+    "all_referenced_hashes_match": true,
+    "evidence_quotes_present": true,
+    "source_validator": {
+      "valid": true,
+      "source_blocks": 279,
+      "errors": []
+    }
+  },
+  "findings": [
+    "UC000027删卷题序、UC000033璧→秘、UC000042李→季、UC000043补言以及UC000036的營/論/東更正均与独立页审相符。",
+    "UC000036的候选excerpt还明确包含其金；独立报告写金仍按底本候选保留。该候选整体被关闭，且UA-SRC-O04未包含它；无法用其余已更正字覆盖该残余疑读。需保留/分组其残余问题而非整个ID关闭。"
+  ],
+  "limits": "有限source closure审核；不是全书无误或发布证明。未改ledger或源文；failed项不得作为成功closure绑定。"
+}

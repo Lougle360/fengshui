@@ -1,0 +1,42 @@
+{
+  "adjudication_id": "UA-SRC-C01",
+  "candidate_ids": [
+    "UC000004"
+  ],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-source-closure-independent-UA-SRC-C01-r1",
+  "closure_sha256": "edd30d8e3b8c169a3ca6cc0226140cdb5fd4f0c7a1af8da8ff48b70cb956a45a",
+  "status": "failed",
+  "fidelity_evidence": [
+    {
+      "path": "90-audit/source-reading/pages-001-003-independent.md",
+      "sha256": "389b18dcec594ae47760186f7c50ad66822319ca3189057c51e290259f659b7c",
+      "quote": "审核日期：2026-09-29。执行：独立子任务 `/root/qingnang_preface_source_review`。本记录是实际图文比对意见，不是正式 closure、阶段 pass 或全书验收。"
+    }
+  ],
+  "reader_evidence": [
+    {
+      "path": "20-source/transcription-inputs/pages-001-003.json",
+      "sha256": "2e085a4c28604c513c857e5a7ecc289edd7ca1186804c59ca34db688857cc939",
+      "quote": "性命之旨亦旣孜孜矻矻",
+      "finding": "本执行读取并比较真实current与after快照，确认对应源文/证据范围。尚无白话及读者稿，须在生成后复核，不声明已完成下游验收。"
+    }
+  ],
+  "checks": {
+    "minimal_replay": true,
+    "current_equals_after_bytes": true,
+    "all_referenced_hashes_match": true,
+    "evidence_quotes_present": true,
+    "source_validator": {
+      "valid": true,
+      "source_blocks": 279,
+      "errors": []
+    }
+  },
+  "findings": [
+    "UC000004仅涉及亦后补旣；独立页审明确独立字位与39字列数，当前补字吻合。",
+    "该候选kind=glyph且本次唯一实质动作是恢复漏字；当前status=resolved_structural不符合Skill对可见读法确认使用resolved_confirmed的区分。需修正决策分类后重绑digest。",
+    "UC000001/2/3仍由UA-SRC-O01保留open_material，未见将覃等剩余疑读关闭。"
+  ],
+  "limits": "有限source closure审核；不是全书无误或发布证明。未改ledger或源文；failed项不得作为成功closure绑定。"
+}

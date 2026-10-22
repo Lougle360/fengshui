@@ -1,0 +1,47 @@
+{
+  "adjudication_id": "UA-SRC-C05",
+  "candidate_ids": [
+    "UC000037",
+    "UC000040",
+    "UC000044",
+    "UC000045",
+    "UC000046"
+  ],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-source-closure-independent-UA-SRC-C05-r1",
+  "closure_sha256": "d3ec580736fed052e4e3127f9833fcf3d4f1aff7f3b99c83829ff41f0b3e88c4",
+  "status": "failed",
+  "fidelity_evidence": [
+    {
+      "path": "90-audit/source-reading/pages-008-010-independent.md",
+      "sha256": "25bf1acdf2cbae135e1282ee47bb101ddbd64fa27dacf1150e164742c2bb5671",
+      "quote": "2026-09-29，独立执行 `/root/qingnang_source_004_007` 的续任务。遵循已完整阅读的 source-reconstructor/SKILL.md、reconstruction-policy.md、uncertainty-adjudicator/SKILL.md、closure-and-trial.md。本次重新完整读取 pages-008-009.json、pages-010.json；实际 view_image 查看三张 native 原图，又将每页上、下半内存裁切放大逐列核对，额外放大 P9 其金言曰、P10 经句及分疏处。未使用通行经文或文意补字；没有写入源输入或 ledger，没有产生通过结论或 closure。"
+    }
+  ],
+  "reader_evidence": [
+    {
+      "path": "20-source/transcription-inputs/pages-010.json",
+      "sha256": "6cf21ba1cd90bf3b0bd7de0dc6bc48ce47a4c1a712e81b7be9fd06cf21b4b0a0",
+      "quote": "有人會得其中意",
+      "finding": "本执行读取并比较真实current与after快照，确认对应源文/证据范围。尚无白话及读者稿，须在生成后复核，不声明已完成下游验收。"
+    }
+  ],
+  "checks": {
+    "minimal_replay": true,
+    "current_equals_after_bytes": true,
+    "all_referenced_hashes_match": true,
+    "evidence_quotes_present": true,
+    "source_validator": {
+      "valid": true,
+      "source_blocks": 279,
+      "errors": []
+    }
+  },
+  "findings": [
+    "通、祖及漏印/會/疏的实际更正均与独立页审相符。",
+    "UC000037候选还包含元空等法、法每一，独立页审明确两处印迹仍不清；只改逼→通不能闭合整个候选。",
+    "UC000040候选包含讀取陰陽福與宗；独立页审明确讀取尚未唯一确认。祖和會的更正不能关闭讀取残疑。",
+    "UA-SRC-O05只含UC000038/39/41，未保留UC000037/40上述残余，故不得签passed。"
+  ],
+  "limits": "有限source closure审核；不是全书无误或发布证明。未改ledger或源文；failed项不得作为成功closure绑定。"
+}

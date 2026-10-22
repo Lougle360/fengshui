@@ -1,0 +1,46 @@
+{
+  "adjudication_id": "UA-SRC-C02",
+  "candidate_ids": [
+    "UC000009",
+    "UC000019",
+    "UC000020",
+    "UC000021",
+    "UC000023"
+  ],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-source-closure-independent-UA-SRC-C02-r1",
+  "closure_sha256": "132e6960a7ec15a6275d5100219f6deffc75824bb4db73c1e8142773d226c67f",
+  "status": "passed",
+  "fidelity_evidence": [
+    {
+      "path": "90-audit/source-reading/pages-004-007-independent.md",
+      "sha256": "e4ca7bb3778e12e4cb129086c63080908ba24f73f2e59001c8578c4b3a6ef969",
+      "quote": "执行：2026-09-29，独立子任务 `/root/qingnang_source_004_007`。本次完整读取两个 transcription-input JSON，实际用 view_image 查看四张 native.jpeg 全图，并以内存裁切放大逐列复查 P4 上下、P5 上下、P6 下、P7 上下区。坐标均为原始图像像素，矩形为定位范围而非精确字形分割。没有改写源文或 ledger，没有生成通过状态或 closure。本笔记是发现记录，不能替代注册、修改回放、下游检查及正式独立 closure review。"
+    }
+  ],
+  "reader_evidence": [
+    {
+      "path": "20-source/transcription-inputs/pages-004-005.json",
+      "sha256": "c83d33e8a90e496e20b618d301f24fef292491aa8d43f6757cc80a234e31c277",
+      "quote": "計幸同硯席",
+      "finding": "本执行读取并比较真实current与after快照，确认对应源文/证据范围。尚无白话及读者稿，须在生成后复核，不声明已完成下游验收。"
+    }
+  ],
+  "checks": {
+    "minimal_replay": true,
+    "current_equals_after_bytes": true,
+    "all_referenced_hashes_match": true,
+    "evidence_quotes_present": true,
+    "source_validator": {
+      "valid": true,
+      "source_blocks": 279,
+      "errors": []
+    }
+  },
+  "findings": [
+    "UC000019李→季、UC000020驗→證、UC000009葦→幸均与独立页审具体字形及位置一致，当前输入已落盘。",
+    "UC000021只确认漏录小字堪已独立保存，不确认其校改对象；新块notes仍称功能未定，不将堪二次塞回正文。",
+    "UC000023只确认浦陽后不应串接右侧孤字；孤字另存unknown。UC000007署名字形、UC000010窟舉及UC000024彌/殷等仍在UA-SRC-O02，不顺带关闭。"
+  ],
+  "limits": "有限source closure审核；不是全书无误或发布证明。未改ledger或源文；failed项不得作为成功closure绑定。"
+}

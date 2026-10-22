@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "workflow_schema_version": "1.10",
+  "status": "locked",
+  "locked_at": "2026-09-29T20:32:36-07:00",
+  "lock_reason": "22页首次转录和独立对图已覆盖全部既定内容类型；固定全内容交付范围，不等于源文或语义验收通过。未授权任何内容性删减。",
+  "user_quotes": ["好，继续找一本有代表性的书，练练手", "设定目标，一次改好"],
+  "delivery_mode": "ordinary_reader",
+  "completeness_claim": "full_source_content",
+  "user_requirement": "沿用普通读者白话版方向，先以新书检验更新后的流程。保留书内原有的序、正文和说明，不交付导读本冒充白话本。",
+  "source_components": [
+    {"component_id":"C-PREFACES","kind":"preface","label":"原书序、小引及自述","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-EDITORIAL","kind":"preface","label":"原书例言","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-MAIN-UPPER","kind":"main_text","label":"卷上短句","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-NOTES-UPPER","kind":"commentary","label":"卷上注释","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-MAIN-LOWER","kind":"main_text","label":"青囊奥语心印卷下短句","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-NOTES-LOWER","kind":"commentary","label":"卷下注释","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-TABLE","kind":"table","label":"第16页子午卯酉比较表","required_in_release":true,"planned_destination":"final_reader"},
+    {"component_id":"C-FURNITURE","kind":"paratext","label":"书口、重复页眉及叶码","required_in_release":false,"planned_destination":"evidence_only"}
+  ],
+  "exclusions_authorized": [],
+  "process_edition_retained": true,
+  "scope_boundary": "仅本次切片22页；其后另题《青囊心印续编》的独立书目不在切片中。",
+  "final_reader_rule": "以自然白话和适度视觉层次保持原句与解释的关系，不反复印制经文、旧注标签；保留所有内容性材料及确有必要的疑处提示。"
+}

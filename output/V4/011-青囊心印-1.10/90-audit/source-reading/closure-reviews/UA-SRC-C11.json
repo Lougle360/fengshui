@@ -1,0 +1,47 @@
+{
+  "adjudication_id": "UA-SRC-C11",
+  "candidate_ids": [
+    "UC000122"
+  ],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-source-closure-independent-UA-SRC-C11-r1",
+  "closure_sha256": "bff0cbf3daa8c92b9318853953d78a648af20cd2fb0c65aa4cfc65af8df5f695",
+  "status": "passed",
+  "fidelity_evidence": [
+    {
+      "path": "90-audit/source-reading/pages-019-020-independent.md",
+      "sha256": "59c617ff3ce347a7960d59dac35f4048c77f49509547d22755a526df7bcd9b31",
+      "quote": "2026-09-29；独立执行 `/root/qingnang_source_004_007`。完整读取pages-019-020.json，实际view_image查看两页native图及P000019/P000020各自upper-detail、lower-detail四张图，全列对照。遵循已完整读取的源文重建、疑点裁决Skill及reconstruction-policy、closure-and-trial。未改源文/ledger，未签通过。block_id按输入数组页内一基序号；坐标为原native图的定位范围。"
+    },
+    {
+      "path": "90-audit/source-reading/coordinate-replay-check.md",
+      "sha256": "1abf9f69836c3801939df2d9f5f489f777f196cdaf1f1b92231fc91c11e6971f",
+      "quote": "UC000122 / P000019-B018"
+    }
+  ],
+  "reader_evidence": [
+    {
+      "path": "20-source/transcription-inputs/pages-019-020.json",
+      "sha256": "2219169cd5ec4675599bf85d0ef3e270fc44928c3404714c020ebb9818e12d1d",
+      "quote": "明元空只在五行中知此理不必尋納甲",
+      "finding": "本执行读取并比较真实current与after快照，确认对应源文/证据范围。尚无白话及读者稿，须在生成后复核，不声明已完成下游验收。"
+    }
+  ],
+  "checks": {
+    "minimal_replay": true,
+    "current_equals_after_bytes": true,
+    "all_referenced_hashes_match": true,
+    "evidence_quotes_present": true,
+    "source_validator": {
+      "valid": true,
+      "source_blocks": 279,
+      "errors": []
+    }
+  },
+  "findings": [
+    "仅裁决UC000122：P19-B018 bbox/唯一region为[610,787,652,1230]，错误右邻region已删除；coordinate-replay-check已有实际对图，文字当次未变。",
+    "从早期页稿到current的快照包含其他更正，回放成立不代表这些候选被本项关闭。UC000091/92/94–101/106/107仍列UA-SRC-O11；UC000093另属已有UA000002外部实物校勘，非本项授权重复关闭。",
+    "工作底本B018仍为知此理；本记录只认可坐标归属，不把此前原图褪印视为自行可读。"
+  ],
+  "limits": "有限source closure审核；不是全书无误或发布证明。未改ledger或源文；failed项不得作为成功closure绑定。"
+}

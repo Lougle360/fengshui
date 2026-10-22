@@ -1,0 +1,41 @@
+{
+  "adjudication_id": "UA000002",
+  "candidate_ids": ["UC000093"],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-independent-uc000093-replay-r2-20260929",
+  "closure_sha256": "8711d43beb43f6fab000ac90a36c4d47ee019ed2f25be088c22d82648f6fa471",
+  "status": "passed",
+  "prior_review": {
+    "run_id": "qingnang-independent-uc000093-20260929T212228-0700",
+    "status": "failed",
+    "closure_sha256": "d3157cc4a9f10259793368ed166205a2de7b2bf5b9540b9a609fa14e2bec8018",
+    "record_sha256_before_update": "9b1f7fcc1be77552f2c12ab69b56b286ee6b98edf93fcf3badbb18e8f1afbd06",
+    "reason": "旧change仅替换55字正文，未包含after快照内notes更改及uncertain_regions删除，真实精确回放失败。该失败历史保留；本轮仅重核新change，不抹除旧结论。"
+  },
+  "scope": "UA000002 only; actual visual evidence, correction replay, current source projection and source validator; no other candidate adjudicated",
+  "fidelity_evidence": [
+    {"path": "20-source/pages/P000019.native.jpeg", "sha256": "4799292dcf4fb8bef6e436abb5a01505fe2b03dc68646eebb04ccc64149504e8", "region": [610,787,827,1343], "finding": "实际查看；B010、褪印B011、B018三段相邻。工作底本自身不能唯一恢复B011全部损字；B018可见知此理。"},
+    {"path": "90-audit/external-evidence/p38-collation/pdf-038-left-text-3x.png", "sha256": "ac60bd9ee4eb4263b75b6f57e35c3c2c6fc3e98f2d6455e4406a58e48b51d78e", "region": [0,0,1248,1655], "finding": "实际查看外部实物图；山與水段后连续出现玉尺云注文，再接明元空经句。正文可逐字读必選坐、發福后跨列失坐、不可不知也。外部后经句为知此法，不同于工作底本，未据此覆改。"}
+  ],
+  "reader_evidence": [
+    {"path": "20-source/transcription-inputs/pages-019-020.json", "sha256": "2219169cd5ec4675599bf85d0ef3e270fc44928c3404714c020ebb9818e12d1d", "quote": "玉尺云欲觀坐穴之吉凶須看水神之出入則龍與水得雌雄交會合元空之理必選坐以收龍水之生旺得坐則發福失坐則禍起不可不知也", "finding": "当前输入与blocks及source.md一致，得坐/失坐相反条件保持；后续白话与读者稿尚不存在，仅50-edited/review-policy.json，不虚称已验读者稿。"},
+    {"path": "20-source/source.md", "sha256": "e89bca6e6bc9a30ee98140efd6c7ea92e14ad66bc80042933715ca625c18c648", "quote": "明元空只在五行中知此理不必尋納甲", "finding": "源文投影保留工作底本知此理，未移植外部知此法。"}
+  ],
+  "findings": [
+    {"item": "理□坐→理必選坐", "result": "visually_supported_by_collation", "reason": "外部图中注文第二列理后清楚接必選坐，与前后龍與水及以收龍水之生旺连续；工作底本损处无可见相反读法。此为注明外部旁证的校勘，不是声称原底本已变清晰。"},
+    {"item": "發福矣坐→發福失坐", "result": "visually_supported_by_collation", "reason": "外部第二列末得坐則發福，次列首失坐則禍起；失字独立清楚。"},
+    {"item": "不知□→不知也", "result": "visually_supported_by_collation", "reason": "外部同列末不可不知也，末也完整可读，随后另列明元空。"},
+    {"item": "B018 text and commentary targets", "result": "verified", "reason": "当前input/blocks B018均为明元空只在五行中知此理不必尋納甲；B011 target=B010，B012/B014 target=B018，未跨经注覆盖。"},
+    {"item": "file hashes and current snapshot", "result": "verified", "reason": "closure input/output/current及两份evidence引用哈希均实际匹配；current与output逐字节相等。"},
+    {"item": "closure.change exact replay", "result": "verified", "reason": "本轮重新读取最新UA000002，start_offset=4153,end_offset=4627,before_chars=474,after_chars=241。实际执行确认input[start:end]==before，且input[:start]+after+input[end:]==output；新连续差异包含正文、notes及uncertain_regions删除。current与output逐字节相等，所有引用hash真实匹配。未修改源文结论。"},
+    {"item": "build_source projection", "result": "verified_read_only", "reason": "实际读取build_source.py，不重跑写入。B011 input text=blocks source_text=decision after；依构建器逐块标题/源文投影算法重算source.md，全文精确一致。"},
+    {"item": "source validator", "result": "verified", "reason": "本轮实际重跑validate_workspace.py workspace --stage source，exit=0，valid=true，source=279，warnings=[]，errors=[]；与独立执行的精确回放分开记录，不以结构校验替代图证。"}
+  ],
+  "input_hashes": {
+    "20-source/blocks.jsonl": "9bd99d45ef18b56d210c838fa0b88a918f5cd226423d6797ee325737ce5a5e1c",
+    "build_source.py": "ca5f4e9e3e939d86fdd953c213f51c2595e7a03c762b528097d57d5802062673",
+    "90-audit/source-reading/snapshots/uc000093-collation/pages-019-020.before.json": "790db550a94ac7435dea95e8b05e88322ff906bdbba18bba51ad9b3f03268638",
+    "90-audit/source-reading/snapshots/uc000093-collation/pages-019-020.after.json": "2219169cd5ec4675599bf85d0ef3e270fc44928c3404714c020ebb9818e12d1d"
+  },
+  "limitations": "本次passed仅针对UA000002的三项外部实物旁证校勘及已修复的精确回放合同。前轮实际查看的两张图、源文字结论及投影文件hash均未改变；本轮为有新change输入的有限重核。工作底本本身仍有褪印，此处通过依赖明确注明的外部旁证而非底本单独可读。白话和读者稿尚未生成，后续须重新核对得坐/失坐条件及校勘披露。不判其他候选，不宣称全书无误或出版通过。"
+}

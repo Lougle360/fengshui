@@ -1,0 +1,47 @@
+{
+  "adjudication_id": "UA-SRC-C07",
+  "candidate_ids": [
+    "UC000121"
+  ],
+  "reviewer": "Codex independent subagent /root/qingnang_source_004_007",
+  "run_id": "qingnang-source-closure-independent-UA-SRC-C07-r1",
+  "closure_sha256": "978b6e8f56b3b81fb84334e082c1c16a4121d08d892aa0b9c720f324f162d099",
+  "status": "passed",
+  "fidelity_evidence": [
+    {
+      "path": "90-audit/source-reading/pages-013-014-independent.md",
+      "sha256": "9384dce3ee1f69f167627084af0c488001022e1461b4b1328af4b2c8c47b612e",
+      "quote": "2026-09-29，执行 `/root/qingnang_source_004_007` 续任务。完整读取 pages-013-014.json，实际 view_image 查看两页 native 图，并逐页上下半叶各做2倍内存裁切，核对全部列。沿用已完整读取的 source-reconstructor 与 uncertainty-adjudicator 及其 reconstruction-policy、closure-and-trial 要求。没有修改源输入、ledger；没有签 pass 或 closure。"
+    },
+    {
+      "path": "90-audit/source-reading/coordinate-replay-check.md",
+      "sha256": "1abf9f69836c3801939df2d9f5f489f777f196cdaf1f1b92231fc91c11e6971f",
+      "quote": "UC000121 / P000013-B010"
+    }
+  ],
+  "reader_evidence": [
+    {
+      "path": "20-source/transcription-inputs/pages-013-014.json",
+      "sha256": "c0a3f0a595e675acf84fe2cce10ae8695256537254af99ff7e4842e335a57e94",
+      "quote": "沐浴宜靜來則多淫庫方宜去來則翻起俱為不得位而成凶",
+      "finding": "本执行读取并比较真实current与after快照，确认对应源文/证据范围。尚无白话及读者稿，须在生成后复核，不声明已完成下游验收。"
+    }
+  ],
+  "checks": {
+    "minimal_replay": true,
+    "current_equals_after_bytes": true,
+    "all_referenced_hashes_match": true,
+    "evidence_quotes_present": true,
+    "source_validator": {
+      "valid": true,
+      "source_blocks": 279,
+      "errors": []
+    }
+  },
+  "findings": [
+    "仅裁决UC000121：P13-B010 bbox现为[699,795,914,1341]，包含原漏第五列；已完成coordinate-replay-check实际对图和文字不变复核。",
+    "该closure从更早页稿至current的跨度含其他改字，数学回放成立；这些其他候选UC000053–66仍在UA-SRC-O07，不能据大范围快照顺带闭合。",
+    "早期pages-013-014-independent不是本坐标修复的最终证据；本独立记录另绑定后续coordinate-replay-check的实际审查，限定只确认图框。"
+  ],
+  "limits": "有限source closure审核；不是全书无误或发布证明。未改ledger或源文；failed项不得作为成功closure绑定。"
+}

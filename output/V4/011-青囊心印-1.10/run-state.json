@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "workflow_schema_version": "1.10",
+  "book_id": "403c38290cc4f3dd",
+  "updated_at": "2026-09-30T05:28:00+00:00",
+  "stages": {
+    "intake": {
+      "status": "passed",
+      "evidence": "source-manifest.json hash matches preserved 22-page PDF; 22 original JPEG streams extracted",
+      "verified_at": "2026-09-30T02:10:05.555265+00:00"
+    },
+    "diagnosis": {
+      "status": "running",
+      "layout_pages_inspected": 22,
+      "source_pages_word_accepted": 0,
+      "evidence": "10-diagnosis/inspection-notes.md",
+      "trial": "10-diagnosis/trial/",
+      "limitation": "opening trial does not replace complete chapter trial, full source coverage, or formal sample acceptance",
+      "source_transcription_pages": 22,
+      "source_transcription_blocks": 279,
+      "next_action": "Complete independent correction replay, source uncertainty adjudication and source gate; full page transcription is not accepted source."
+    },
+    "source": {
+      "status": "running",
+      "structural_validator": "passed",
+      "semantic_acceptance": false,
+      "evidence": "90-audit/external-evidence/p38-collation/UC000093-collation-note.md",
+      "resolved_input_gap": "UI-UC000093 closed by UA000002 with external physical collation evidence and independent closure review",
+      "remaining_unadjudicated_candidates": 121,
+      "next_action": "Finish formal adjudication of the remaining 121 source candidates and regenerate the open-item projection. Do not advance to bulk modernization or publication before the source gate is semantically accepted."
+    },
+    "source_adjudicated": {
+      "status": "pending"
+    },
+    "normalized": {
+      "status": "pending"
+    },
+    "book_understood": {
+      "status": "pending"
+    },
+    "reader_designed": {
+      "status": "pending"
+    },
+    "reader_units_built": {
+      "status": "pending"
+    },
+    "sample_accepted": {
+      "status": "pending"
+    },
+    "modernized": {
+      "status": "pending"
+    },
+    "edited": {
+      "status": "pending"
+    },
+    "reader_revised": {
+      "status": "pending"
+    },
+    "final_adjudicated": {
+      "status": "pending"
+    },
+    "publication": {
+      "status": "pending"
+    }
+  },
+  "current_stage": "source"
+}
