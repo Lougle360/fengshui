@@ -1,0 +1,161 @@
+
+######## ai_record  (total 3164, sampled 50)
+- defect_id=D02417 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 原文说“日万木尽从王人上去”，其中“王人”含义不明，具体所指不详。群龙须向地中行进，这是就局取裁，凭借外气来确立朝向。原文记载“拨龙入入干”，此处“入入干”可能存在衍文或讹误，具体所指存疑，将龙移入地支，用来区分天清地浊的意象。这是召摄外气，纳入局中，转祸为福的权宜方法。
+    reason: 命中：具体所指不详
+- defect_id=D01153 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 入地眼全书卷九向法  ||  after: 入地眼全书卷九向法
+- defect_id=D01827 | record_kind=doubt | category=工具缺陷 | subcategory=字形修订无法回写 | outcome=unresolved | found_at=原文重建与复核
+    text: 若陰遇陽而非其類號曰陽差陽見陰而失其偶名爲陰錯
+    reason: similarity_below_0_92；too_many_changed_characters；原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。
+- defect_id=D00175 | record_kind=doubt | category=忠实性 | subcategory=漏译 | outcome=fixed | found_at=白话转换自检
+    text: 夫水，气之母。有气斯有水，气因水而生，水因气而化。水气升上得合乎天，而云是也；水气降下得合乎地，而雨是也。虽高山不能绝，虽石陇不能无。古云：“土者石之肉，石者土之骨，水者石之血脉也。”惟缓为吉，惟柔为良，逢刚不畏，遇柔得朋。原夫就体而来，谓之随龙，墓之主也。左右从宾而至，谓之拱揖；前后循环而抱，谓之绕城；左右如弓而伏，
+    reason: 漏译/误译：原文'虽石陇不能无'，candidate译为'虽然石陇也不能没有'，'石陇'是opaque_terms，candidate未加引号或说明，直接使用。；术语误换/扩写：原文'之元'（出现两次），candidate均直接译为'之元'，未加引号或说明。'之元'是opaque_terms。；术语误换/扩写：原文'元辰合变'，candidate译为'元辰合变'，未加引号或说明。'元辰合变'是op
+    before: 水，是气的母亲。有气才有水，气因水而生，水因气而化。水气升上合乎天，就是云；水气降下合乎地，就是雨。虽然高山不能隔绝，虽然石陇也不能没有。古语说：土是石头的肉，石是土的骨，水是石头  ||  after: 水是气的母体。有气才有水，气凭借水而生，水顺着气而化。水气上升与天相合，就形成云；水气下降与地相合，就形成雨。即使是高山也不能隔绝水的存在，即使是“石陇”也不能没有水，具体所指不详
+- defect_id=D02236 | record_kind=doubt | category=释读缺口 | subcategory=错字未校正直接进入译文 | outcome=closed_unchanged | found_at=白话转换自检
+    text: 文中提到木龙借配壬，虽然交媾不真且夹流出异，但也带有秀气。如果砂法符合格局，完全能够催发富贵。如果内堂的腮水从甲卯乙方位流来，遇到丙午方位右转到戌，反向朝向午丙，经“趙巽”方位合流出异，“趙巽”具体所指不详。这种情况是外木虽然不符合法度，但
+    reason: 赵巽合流出异；丽力；艮万；1轮自动修复后核义模型仍建议修订，已保守记录。；趙巽的具体所指；麗力的具体所指；艮萬的具体所指；步行的含义，疑为原文讹误；趙巽、麗力、艮萬、步行原文无明确释义，存疑符合要求；该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。
+- defect_id=D02154 | record_kind=doubt | category=释读缺口 | subcategory=残句或切断 | outcome=closed_unchanged | found_at=白话转换自检
+    text: 砂头短折的情况，坐穴后方不能有横水截断来脉导致气折；脉短而曲折的话，气反而会急疾不和，所以砂头短折的情况，怕腰部出现截断曲折。如果砂头来势有三四里或者五里长，中间必须要有曲折转关、博换过峡，可能是三重也可能是四重，比如亥气进入艮位，艮气还归
+    reason: 原文'就旺方木'后文残缺，candidate补全为'局結穴'，此处保留原词并标注推测；'砂頭短折'中的'短折'可能指形态短促曲折，而非折断，需结合上下文理解；'砂頭短折'的具体形态和'腰截曲折'的确切含义存在一定模糊性。；'各立門面以分泄其英靈'的'分泄'在此处的具体吉凶含义需结合更大语境判断。；1轮自动修复后核义模型仍建议修订，已保守记录。；“腰截曲折”是否指被水截断存疑；“亥龍入卯就旺方木”原
+- defect_id=D01720 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 如果格局破碎，会导致吐血或痨病，小年多有损耗。若见到蛇形火象、酉方龙脉，或者巳方的水或风直冲射入，会引发杀身、丧家、刑狱等灾祸。丑方龙脉若遇二水多杀，文中提到‘裁理叶金鸡怡蛇害’，这一短语具体含义不详。若巳向遇到巽方的水多，会导致退败；若是巽向遇到巳方的水，则人口受灾。山向克制水，灾祸较轻缓；水克制向，重祸会迅速到来。
+    reason: 命中：含义不详
+- defect_id=D00529 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: 四孟双行龙，四生。寅甲、禄。申庚，日月。巳丙、禄。亥壬。荫。乙辛丁癸全吉，乾坤艮巽次吉。
+    reason: '四孟'、'四生'、'禄'、'日月'、'荫'等具体所指不详。；'四孟'、'四生'、'禄'、'日月'、'荫'等具体所指不详。
+- defect_id=D02939 | record_kind=doubt | category=识别 | subcategory=疑字待定 | outcome=unresolved | found_at=原文重建与复核
+    text: ‘證之’二字墨色较淡，结合字形和句义暂定。
+- defect_id=D02694 | record_kind=correction | category=识别 | subcategory=错字 | outcome=fixed | found_at=原文重建与复核
+    text: 俱從穴干位上起長生 → 俱從天干位上起長生
+    before: 俱從穴干位上起長生  ||  after: 俱從天干位上起長生
+- defect_id=D02988 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: 此处“考仁”具体所指不详
+    before: None  ||  after: 恭下貴人，指的是華蓋之下有木星的風水形勢。華蓋、寶冠、恭三基的所指不同，對應的吉凶卻無差異。若龍格屬上格，主任侍從、臺諫官之職；若屬中格，主出鎮大藩；若屬賤格，主為僧、考仁。
+- defect_id=D01536 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 《易经》说：丑居东北，文中提到“以入白今宫”，此句不通，“白今宫”疑为“北辰宫”或“紫微宫”之误，具体所指不详。贪狼一星在紫微之北，下照丑地。在天为四金，在时为四季。然而天市垣中“天机一入地眼，卷一天星，十”，这一短语的具体所指不详。
+    reason: 命中：具体所指不详
+- defect_id=D01646 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 明堂中间最好要像窝一样，穴后要谨防出现仰瓦的形态。再观察前方的官星和后方的鬼星，就能知道穴是不是虚花假穴。神坛适合建在水口位置，罗星切忌出现在正前方。需要忌讳的是水尾源头的位置，需要避开的是大路江边的区域。龙逆水，水流到左侧，穴就依龙而定；虎逆水，水流到右侧，穴就依虎而定。文中提到“柑施左单提雄狱水到左则穴在右点右单提
+    reason: 命中：具体所指不详
+- defect_id=D00719 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 武曲星对应的山体圆润厚实，没有倾斜偏侧的形态，要寻找如同顿鼓、悬钟一样端正的形态作为标准。文中提到“沐卵连珠列垒生”，具体所指不详。文中又提到“半月炤珠穿水脉”，具体所指不详。形态低微的武曲星如同倒扣的锅或者倒扣的船，也如同金盘、月晕吐出泉水的样子。出现“老蚌吐珠”形态的龙脉最为珍贵，也有像新月出海、悬挂银钩的形态。武
+    reason: 命中：具体所指不详
+- defect_id=D01935 | record_kind=doubt | category=忠实性 | subcategory=其他翻译疑点 | outcome=unresolved | found_at=白话转换自检
+    text: 河源的左侧，从寅、甲、卯、乙方位开始，正当震卦的首位，龙脉由此落脉起帐，延伸出一万四千里，形成兰花嶂；再延伸三万三千七百一十六里，形成乔黎山；再延伸一万九千里，进入榆莱山，经过西域羌胡地区，向南经过幕西首山，行走一万二千二百五十里进入中国，
+    reason: candidate将“主尺經”直接改为“《玉尺经》”，但原文为“主尺經”，locked_terms和allowed_glossary中均未授权此改动。应保留原文“主尺經”或明确标注为原文如此。；candidate将“震之首落脉起帳”释为“正当震卦的首位，龙脉由此落脉起帐”，其中“正当震卦的首位”是对“當震之首”的明确解释，但原文“震之首”可能指震方（东方）的起始位置，也可能指震卦的卦首，存在歧义。
+- defect_id=D02020 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: 主人经卷三上
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.；该记录是短题签保留或图式结构说明，不是未决正文释义。
+- defect_id=D01617 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 四面被水环绕的地方叫做圩头。如果站在圩上却看不见四周的水流，那么就算地的结聚格局宏大，也不能算作圩。圩地结穴的方法有三种：第一种是「大圩白下」，具体所指不详；第二种是「漾则独行」，具体所指不详；第三种是「六圩盘龙」，具体所指不详。所谓大圩包小圩，要么是一个大圩开口包裹着内部的「小埒」，「小埒」具体所指不详；要么是两个大
+    reason: 命中：具体所指不详
+- defect_id=D00202 | record_kind=doubt | category=术语 | subcategory=术语含义待定 | outcome=closed_unchanged | found_at=白话转换自检
+    text: 德刑；地无万卉，无以成乎岁功。阴阳相胜之妙，根于日月去天地之远近。日月临地之近，万物感阳和以生。日月去地之远，万卉得阴凝以藏。
+    reason: 德刑；属于审校评论或表达建议，不是未辨原文。
+- defect_id=D02732 | record_kind=doubt | category=识别 | subcategory=漏字 | outcome=not_defect | found_at=原文重建与复核
+    text: 得生旺交歸墓
+    reason: 独立图审旺与交之间有互，需补。；第017-018页逐图校勘已完成；这些候选对应的文字、漏字、角色或坐标更正均已落入当前输入，未把未决字顺带判定。
+    before: 得生旺交歸墓  ||  after: 得生旺互交歸墓
+- defect_id=D03023 | record_kind=doubt | category=释读缺口 | subcategory=残句或切断 | outcome=unresolved | found_at=白话转换自检
+    text: 原文後半部分殘缺，無法確認完整內容
+    before: None  ||  after: 此地固然喜愛水（风水语境中的河流、水系及其来去形态）的衛身，但還要人立穴（风水中认为气脉聚结、适宜安葬或营建的位置）的場地力量足以勝過水，藏風聚氣，沒有飄蕩的嫌疑，則有地……
+- defect_id=D00860 | record_kind=correction | category=结构 | subcategory=跨页重复 | outcome=fixed | found_at=原文重建与复核
+    text: 跨页重复：上一页尾部与下一页开头重复 2418 字，已删除重复部分
+    reason: The following physical page contains the same long visible prefix; duplicate tail removed from the prior page without semantic inference.
+    before: 煞向難滿三十年全家死得乾淨還是先生乎對頭乎獨不知書云坤山艮向寅水入煞帶廉貞血滿腸一宜立子向若見回龍顧祖鄙身逆勢結穴者壬子癸三方水朝向先發三房右水到左次發長房後發  ||  after: None
+- defect_id=D02560 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: “禁止之尚”语义不明
+    reason: 原页若干字仍难逐字确定；最终读者文本只保留可稳妥说明的文意，不把猜字写成定论。；原页若干字仍难逐字确定；最终读者文本只保留可稳妥说明的文意，不把猜字写成定论。
+- defect_id=D02763 | record_kind=doubt | category=识别 | subcategory=疑字待定 | outcome=unresolved | found_at=原文重建与复核
+    text: 男物媾精
+    reason: 引文男女/男物的字形尚未核定，底本不能由通行易文替代。；第008-009页复核后仍有刻痕、墨损或字形不能唯一裁决；保留底本可见录文，白话阶段不得靠通行本或理论补造，并在最终稿逐项核查读者影响。
+- defect_id=D00473 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: 五凶外起，反主权官。甲卯乙起，位列三台。兑丙丁耸，翰苑文明。壬癸离峦，高秀联科。甲第干起高峦，位极尊崇。坤如圭璧，名登天榜。坤起旌峰，必握兵权。
+    reason: 五凶外起的具体所指不详；甲第乾起高峦的具体形态所指不详；五凶外起的具体所指不详；甲第乾起高峦的具体形态所指不详
+- defect_id=D01437 | record_kind=doubt | category=释读缺口 | subcategory=错字未校正直接进入译文 | outcome=unresolved | found_at=白话转换自检
+    text: 吹墓的具体所指不详；毗来的具体所指不详；“吹墓”具体所指不详。；“毗来”具体所指不详。；“和敬”具体所指不详。；“謬子”具体所指不详。；“以斷坟則以下穴斷坟則斷不何也”语句不通。；“言主盲賓”具体所指不详。；“富秀地”具体所指不详。；“缓起”具体所指不详。；1轮自动修复后核义模型仍建议修订，已保守记录。；吹墓；毗来；和
+    before: 凡吹墓有三不可改者一開壞見龜蛇生氣物則不可改二土中有溫煖氣或乳氣或如霧不可改三紫藤交合棺亦不可改毗來有五不祥宜速改之一塚無故白陷二塚上草木姑死三淫亂風聲六畜死絕四男女忤逆顛狂刼盜五  ||  after: 文中提到“吹墓”有三种情况不可以迁改：一是开挖墓圹的时候见到龟、蛇等有生气的生物，就不可以改葬；二是土中有温暖的气，或者像乳的气，或者像雾的气，不可以改葬；三是有紫藤缠绕交合在棺上
+- defect_id=D00079 | record_kind=correction | category=识别 | subcategory=错字 | outcome=fixed | found_at=原文重建与复核
+    text: ‘己’字结构清晰，与‘已’字形差异明显，扫描图中为‘己’，非‘已’
+    before: 已亥水入，诸房均福。酉庚水入，文武全才，  ||  after: 己亥水入，诸房均福。酉庚水入，文武全才，
+- defect_id=D01126 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 入地服全书卷九  ||  after: 入地服全书卷九
+- defect_id=D02170 | record_kind=doubt | category=释读缺口 | subcategory=错字未校正直接进入译文 | outcome=closed_unchanged | found_at=白话转换自检
+    text: 之夺之，彼无心而何济？生入、克入，情既去而复永。神流出，势不可用。我虽生之，不以为德；我虽克之，不以为怨。所谓彼无心而何济。然水神流出，文中提到的“变不可面”具体所指不详，而其情则不可失。我固不能为彼若何，而彼之情则不忘乎我。势欲去，而生我
+    reason: 变不可面；'变不可面'具体所指不详，可能为'变不可回'或'势不可回'之误。；该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。
+- defect_id=D02136 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=closed_unchanged | found_at=白话转换自检
+    text: 亥龍起頂，單行落脈到頭，一路俱係亥脈，文中提到‘臨穴處都王人經 卷之四 三十六’，但此段具體所指不详。
+    reason: 臨穴處都王人經 卷之四 三十六；该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。
+- defect_id=D02863 | record_kind=doubt | category=忠实性 | subcategory=漏译 | outcome=unresolved | found_at=白话转换自检
+    text: “不拘”后原文无后续内容，具体指代的限制范围不明确；1轮自动修复后核义模型仍建议修订，已保守记录。
+    reason: source开头“法眞龍藏倖穴難尋”漏译“法真”二字，“法真”未在释读中体现；原文“惟砂识倖心用砂定穴”误译，“识倖心”的含义未完整传递，现译仅保留“识别佳穴的位置”，漏失“倖心”相关表述；source开头“法眞龍藏倖穴難尋”漏译“法真”二字，“法真”未在释读中体现；原文“惟砂识倖心用砂定穴”误译，“识倖心”的含义未完整传递，现译仅保留“识别佳穴的位置”，漏失“倖心”相关表述
+    before: None  ||  after: 真龙所藏的佳穴难以寻找，只有通过砂才能识别佳穴的位置；凭借砂来确定穴的位置，不拘。
+- defect_id=D02725 | record_kind=doubt | category=识别 | subcategory=漏字 | outcome=fixed | found_at=原文重建与复核
+    text: 陰陽元妙
+    reason: 独立逐列查看发现经句末印漏录，需扩展原块坐标包含全字。；第010页逐图校勘已完成；这些候选对应的文字、漏字、角色或坐标更正均已落入当前输入，未把未决字顺带判定。
+    before: 此是陰陽元妙  ||  after: 此是陰陽元妙印
+- defect_id=D03152 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 等到代管登阳的事务时，在渚生中寻访得到。此处“渚生”具体所指不详。
+    reason: 命中：具体所指不详
+- defect_id=D01907 | record_kind=doubt | category=工具缺陷 | subcategory=字形修订无法回写 | outcome=unresolved | found_at=原文重建与复核
+    text: 其死絕趨其旺生則龍氣清和結穴秀麗故右而左轉入首者爲陽龍自左而右轉入首者爲陰龍陰陽二氣俱得生旺不犯死絕吉如甲卯入首者木氣也自午巽而至爲陰木自乾亥壬子癸丑而至爲陽木陰木生于午陽木生于亥俱得生氣出身若犯兌坤二方出身則龍脉發源巳先絕矣縱雖到頭得局護
+    reason: whitespace_only；原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。
+- defect_id=D02998 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: ‘損貞木’的具体含义暂不明确；“損貞木”的具体含义暂不明确
+    before: None  ||  after: 男子张延损贞木相关内容。
+- defect_id=D00999 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 丑宫天星  ||  after: 丑宫天星
+- defect_id=D02112 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=closed_unchanged | found_at=白话转换自检
+    text: 震方和庚方奋武，关于正南和西于坎方、离方的关系，原文表述模糊，具体所指不详。若震方和庚方二峰起秀，又得坎龙结局，穴乘其气，再得南方离方高声一峰，且乾、坤、艮、巽各方起旗山、鼓阁、军屯，‘韩列’重重密布者，主出天下英豪，横行四方。凡见此地，不
+    reason: ‘正南西于坎離’句读和含义模糊；‘韩列’具体所指不详；‘正南西于坎離’句读和含义模糊；‘韩列’具体所指不详；该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。
+- defect_id=D01771 | record_kind=correction | category=识别 | subcategory=标点误识 | outcome=fixed | found_at=原文重建与复核
+    text: ‘乙丙交’‘趨戌’‘辛壬會’‘聚辰’‘斗牛’‘納丁庚’‘金羊’‘收癸甲’等字形清晰，标点缺失，补全句读符合古籍排版习惯。
+    before: 乙丙交而趨戌辛壬會而聚辰斗牛納丁庚之氣金羊收癸甲之靈  ||  after: 乙丙交而趨戌，辛壬會而聚辰，斗牛納丁庚之氣，金羊收癸甲之靈。
+- defect_id=D02670 | record_kind=correction | category=识别 | subcategory=错字 | outcome=fixed | found_at=原文重建与复核
+    text: 如朱未之忠烈公 → 如宋末文忠烈公
+    before: 如朱未之忠烈公  ||  after: 如宋末文忠烈公
+- defect_id=D01039 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 怪穴点法  ||  after: 怪穴点法
+- defect_id=D02639 | record_kind=correction | category=结构 | subcategory=版面坐标错位 | outcome=fixed | found_at=原文重建与复核
+    text: 版面坐标截短或错位，文字未变，修正坐标
+    before: {"bbox": [610, 787, 698, 1230], "regions": [[610, 787, 652, 1230], [650, 984, 698, 1169]]}  ||  after: {"bbox": [610, 787, 652, 1230], "regions": [[610, 787, 652, 1230]]}
+- defect_id=D03078 | record_kind=text_scan | category=读者层 | subcategory=流程用语混入正文 | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: > **释读存疑：** “州獨以為石然”语义不明；“相 格宇甚好”存在文字脱漏讹误，含义不详；原文多处语序混乱，涉及“以不坐立的非人可以走過東走過西我要撥他請用何法可以得他動也”“前字大誤前可正說得朱崔朝察砂”“但見一砂靜始穴壞”等内容无法准确解读；“66. 000”“0”为OCR识别乱码；“朱崔”应为“朱雀”讹误
+    reason: 命中：OCR
+- defect_id=D02612 | record_kind=progress_log | category=识别 | subcategory=参考本与底本差异 | outcome=fixed | found_at=原文重建与复核
+    text: 2026-09-28 20:10：第13页二十四条候选正文与旧注全部完成逐图签收，依底本纠正“若懷萬寶而燕息”“若具萬膳而絜齊”“若橐之鼓”“若龍若鸞”“天光發新”等参考候选错字；页末注文续第14页。累计量取114块、逐字核准104块，失效绑定为0，回归测试通过。
+- defect_id=D01049 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 红是廉贞黄巨门  ||  after: 红是廉贞黄巨门
+- defect_id=D01618 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 空旷的平地之中，如果四周有水浇灌，同时田埂层层叠叠像浪涛涌动的，都按照龙来论断。判断这类龙的方法有三种：第一种叫拱来，形状像初升的月亮，两角向下，「发宜」而来，「发宜」具体所指不详，一直延伸到结穴的地方，横向变成弯曲田埂的位置就是真地。第二种叫收来，形状也像初月，两角向上，缓缓而来，势态如「叠源」，「叠源」具体所指不详
+    reason: 命中：具体所指不详
+- defect_id=D00853 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: 《九天元女青囊海角经》。文中提到“元女”，具体所指不详。
+    reason: 命中：具体所指不详
+- defect_id=D01299 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: “悔涧”具体所指不详；“人丁殿”中的“殿”字含义不明；“寡姞”具体所指不详；‘悔涧’具体所指不详。；‘人丁殿’中的‘殿’字含义不明。；‘寡姞’具体所指不详。
+    before: 萬里茫茫一片天空悔澗話難言財耗消散人丁殿單身寡姞哭皇天  ||  after: 万里茫茫一片天空，悔涧话难言。财耗消散，人丁“殿”（原文用字，含义不明），单身寡姞哭皇天。
+- defect_id=D01765 | record_kind=correction | category=识别 | subcategory=多字 | outcome=fixed | found_at=原文重建与复核
+    text: ‘艮凶’为‘長凶’之误，‘艮’字形与‘長’相似；‘矩’为‘短’之误，‘短’为常见字；‘凢’为‘凡’之误，字形清晰；‘塟’为‘葬’之异体，古籍常用，保留；‘食一’字形清晰，暂不改。
+    before: 生氣短而死氣艮凶多吉少死氣短而生氣長福重凡來龍身生旺之氣長而入首死絕之氣矩則君遷之時必致生禍及至龍步行運到生此之處食一能發福故吉多而凶少凢龍身死絕之氣長而入一首生旺之氣短則初塟雖吉  ||  after: 生氣短而死氣長凶多吉少死氣短而生氣長福重凡來龍身生旺之氣長而入首死絕之氣短則君遷之時必致生禍及至龍步行運到生此之處食一能發福故吉多而凶少凡龍身死絕之氣長而入首生旺之氣短則初塟雖吉而
+- defect_id=D03061 | record_kind=text_scan | category=读者层 | subcategory=流程用语混入正文 | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: - 纯扫描件，无文字层；采用本地 MinerU OCR。
+    reason: 命中：OCR
+- defect_id=D01247 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: 頻求斜勢正安正勢斜捕融樅分征直龍却向橫中撞宇橫龍却向直中接黻生雜；欲餘止而毗；歷煞騎龍，高下自無內；相從肉煞穴宜用；歷煞騎龍高下自無內；本地硬校验仍未通过，已记录供后续自动处理或人工核对。；鋤欣鶴鮮眺斷精蹤縣隸錄；1祖蠢
+    before: 不可以無意而省幹旋之力又不可以有意而失自然之用盡此四不可之功則點穴不差矣故再可噬切記切記龍勢趨左則左爲生氣龍勢趨右則右爲生氣不趨處爲死氣右龍順來逆受龍逆來順受頻求斜勢正安正勢斜捕融  ||  after: 既不能在没有意念的情况下忽略斡旋之力的运用，也不能因刻意造作而失去自然的作用。若能尽到这四种“不可”的功夫，点穴就不会出错，因此必须再三警诫，切切记牢。若龙势趋向左边，左边便是生气
+- defect_id=D01116 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 瀑泉袁秦开树庭黄中楷  ||  after: 瀑泉袁秦开树庭黄中楷

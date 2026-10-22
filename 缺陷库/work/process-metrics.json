@@ -1,0 +1,233 @@
+{
+ "V4/001-青囊海角经": {
+  "adjudication_rationale": {
+   "rows": 560,
+   "distinct_rationale": 192,
+   "top": [
+    {
+     "text": "属于审校评论或表达建议，不是未辨原文。",
+     "count": 277
+    },
+    {
+     "text": "The high-impact translation risk was repaired conservatively against the normali",
+     "count": 59
+    },
+    {
+     "text": "古文或日文与候选文本高度相同，没有完成可验证的白话化或中译。；本地硬校验仍未通过，已记录供后续自动处理或人工核对。",
+     "count": 13
+    }
+   ],
+   "file": "V4/001-青囊海角经/90-audit/uncertainty-adjudication.jsonl"
+  },
+  "candidate_reason": {
+   "rows": 501,
+   "distinct_reason": 317,
+   "top": [
+    {
+     "text": "元女",
+     "count": 76
+    },
+    {
+     "text": "1轮自动修复后核义模型仍建议修订，已保守记录。",
+     "count": 22
+    },
+    {
+     "text": "本地硬校验仍未通过，已记录供后续自动处理或人工核对。",
+     "count": 21
+    }
+   ]
+  }
+ },
+ "V4/003-平砂玉尺经": {
+  "fidelity_review": {
+   "blocks": 665,
+   "passed": 665,
+   "distinct_checks_text": 1,
+   "distinct_evidence_text": 86,
+   "file": "V4/003-平砂玉尺经/90-audit/fidelity-review.json"
+  },
+  "adjudication_rationale": {
+   "rows": 455,
+   "distinct_rationale": 60,
+   "top": [
+    {
+     "text": "该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。",
+     "count": 195
+    },
+    {
+     "text": "原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。",
+     "count": 123
+    },
+    {
+     "text": "该记录是短题签保留或图式结构说明，不是未决正文释义。",
+     "count": 63
+    }
+   ],
+   "file": "V4/003-平砂玉尺经/90-audit/uncertainty-adjudication.jsonl"
+  },
+  "candidate_reason": {
+   "rows": 455,
+   "distinct_reason": 285,
+   "top": [
+    {
+     "text": "Short heading/contributor label did not receive a unique V3 segment anchor; norm",
+     "count": 63
+    },
+    {
+     "text": "old_text_not_uniquely_located",
+     "count": 49
+    },
+    {
+     "text": "similarity_below_0_92",
+     "count": 12
+    }
+   ]
+  }
+ },
+ "V4/003-平砂玉尺经-1.7": {
+  "fidelity_review": {
+   "blocks": 665,
+   "passed": 665,
+   "distinct_checks_text": 1,
+   "distinct_evidence_text": 1,
+   "file": "V4/003-平砂玉尺经-1.7/90-audit/fidelity-review.json"
+  },
+  "adjudication_rationale": {
+   "rows": 456,
+   "distinct_rationale": 61,
+   "top": [
+    {
+     "text": "该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。",
+     "count": 195
+    },
+    {
+     "text": "原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。",
+     "count": 123
+    },
+    {
+     "text": "该记录是短题签保留或图式结构说明，不是未决正文释义。",
+     "count": 63
+    }
+   ],
+   "file": "V4/003-平砂玉尺经-1.7/90-audit/uncertainty-adjudication.jsonl"
+  },
+  "candidate_reason": {
+   "rows": 456,
+   "distinct_reason": 286,
+   "top": [
+    {
+     "text": "Short heading/contributor label did not receive a unique V3 segment anchor; norm",
+     "count": 63
+    },
+    {
+     "text": "old_text_not_uniquely_located",
+     "count": 49
+    },
+    {
+     "text": "similarity_below_0_92",
+     "count": 12
+    }
+   ]
+  }
+ },
+ "V4/004-郭璞葬经-1.8": {
+  "fidelity_review": {
+   "blocks": 307,
+   "passed": 307,
+   "distinct_checks_text": 1,
+   "distinct_evidence_text": 1,
+   "file": "V4/004-郭璞葬经-1.8/90-audit/fidelity-review.json"
+  },
+  "pdf_reader_review": {
+   "pages": 28,
+   "distinct_after_removing_page_numbers": 4,
+   "status": "passed",
+   "file": "V4/004-郭璞葬经-1.8/90-audit/pdf-reader-review.json"
+  },
+  "adjudication_rationale": {
+   "rows": 29,
+   "distinct_rationale": 2,
+   "top": [
+    {
+     "text": "原页若干字仍难逐字确定；最终读者文本只保留可稳妥说明的文意，不把猜字写成定论。",
+     "count": 28
+    },
+    {
+     "text": "307个来源块均已进入现行白话层并绑定最终读者锚点，旧版裁切风险不再存在。",
+     "count": 1
+    }
+   ],
+   "file": "V4/004-郭璞葬经-1.8/90-audit/uncertainty-adjudication.jsonl"
+  },
+  "candidate_reason": {
+   "rows": 86,
+   "distinct_reason": 1,
+   "top": [
+    {
+     "text": "",
+     "count": 86
+    }
+   ]
+  }
+ },
+ "V4/011-青囊心印-1.10": {
+  "adjudication_rationale": {
+   "rows": 25,
+   "distinct_rationale": 25,
+   "top": [
+    {
+     "text": "原图中部大片褪印，涉及坐穴、水神出入及得失坐条件的连续字组不能唯一读取；缺字数不明。主执行与真实独立图审均未获得能复原该段的新增影像。候选文字保留，不猜补，不以",
+     "count": 1
+    },
+    {
+     "text": "上海图书馆藏另一实物扫描在同段前后连续保留B010、B011、B018三个相邻单元，可逐列校明工作底本褪印处；只修正本段有实物旁证的字，不用外部本覆盖其他异文。",
+     "count": 1
+    },
+    {
+     "text": "第001-003页逐图校勘已完成；这些候选对应的文字、漏字、角色或坐标更正均已落入当前输入，未把未决字顺带判定。",
+     "count": 1
+    }
+   ],
+   "file": "V4/011-青囊心印-1.10/90-audit/uncertainty-adjudication.jsonl"
+  },
+  "candidate_reason": {
+   "rows": 122,
+   "distinct_reason": 122,
+   "top": [
+    {
+     "text": "原图暂倾向子，初试曾误断为予；学习对象及句读尚待裁决，不凭语义改字。",
+     "count": 1
+    },
+    {
+     "text": "首次转录曾疑首字，独立复核看图支持拜与詩；保留发现史，待源文冻结后做正式裁决，不制造已关闭状态。",
+     "count": 1
+    },
+    {
+     "text": "留、覃图面初录候选，独立复核仍对覃保留疑问；不得仅按研精覃思常见词认定。",
+     "count": 1
+    }
+   ]
+  }
+ },
+ "chaoyun-remake-zengshi-dili-zhuoyufu-v2": {
+  "adjudication_rationale": {
+   "rows": 100,
+   "distinct_rationale": 6,
+   "top": [
+    {
+     "text": "依据原页字形、成组对举、上下文或异体字规则复核后，可作确定处理。",
+     "count": 36
+    },
+    {
+     "text": "复核确认属于跨页续文、版面关系、编者说明或完整性提示，不是未识读正文。",
+     "count": 23
+    },
+    {
+     "text": "复核确认属于馆藏章、页边墨迹或非正文标记，不应计作正文缺失。",
+     "count": 18
+    }
+   ],
+   "file": "chaoyun-remake-zengshi-dili-zhuoyufu-v2/90-audit/uncertainty-adjudication.jsonl"
+  }
+ }
+}

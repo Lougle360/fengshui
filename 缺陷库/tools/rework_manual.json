@@ -1,0 +1,101 @@
+[
+ {
+  "workspace": "V4/004-郭璞葬经-1.8",
+  "description": "编辑方案把“旧注不进最终正文、另存过程版”定为交付范围，并据此发布了只含核心经文的 B 级 PDF；后来确认完整白话版必须包含古注，方案、理解报告和样章全部重做，旧 PDF 撤销。",
+  "category": "范围", "subcategory": "交付范围定错",
+  "caused_at": "诊断与编辑设计", "found_at": "发布后复查", "severity": "影响原意", "rework_cost": "撤销成品",
+  "evidence": "V4/004-郭璞葬经-1.8/90-audit/quality-report.md:7 ; V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:27 ; V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:48"
+ },
+ {
+  "workspace": "V4/004-郭璞葬经-1.8",
+  "description": "自动跨页切分出错，第5页长注被归入第4页；候选块从 359 重建为 327，此后又在 326、313、311、309 之间多次校正。",
+  "category": "结构", "subcategory": "跨页切分",
+  "caused_at": "原文重建", "found_at": "逐页结构复核", "severity": "影响原意", "rework_cost": "下游重做",
+  "evidence": "V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:132 ; V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:134"
+ },
+ {
+  "workspace": "V4/004-郭璞葬经-1.8",
+  "description": "严重自动切分错误：第16页上半版会被整体漏掉，第17页页首经文被切走。",
+  "category": "结构", "subcategory": "跨页切分",
+  "caused_at": "原文重建", "found_at": "逐页结构复核", "severity": "影响原意", "rework_cost": "下游重做",
+  "evidence": "V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:123"
+ },
+ {
+  "workspace": "V4/004-郭璞葬经-1.8",
+  "description": "网络参考文本在第20—21页之间多出 541 字底本没有的文字，险些混入底本原文。",
+  "category": "识别", "subcategory": "参考本污染",
+  "caused_at": "原文重建", "found_at": "逐页结构复核", "severity": "影响原意", "rework_cost": "下游重做",
+  "evidence": "V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:121"
+ },
+ {
+  "workspace": "V4/004-郭璞葬经-1.8",
+  "description": "第28页旧 OCR 横向交叉拼接，竖排顺序被打乱，需按原书重构为三块；卷尾末句被自动算法切到第29页。",
+  "category": "结构", "subcategory": "阅读顺序",
+  "caused_at": "原文重建", "found_at": "逐页结构复核", "severity": "影响原意", "rework_cost": "局部修正",
+  "evidence": "V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:57 ; V4/004-郭璞葬经-1.8/90-audit/当前工作进度.md:117"
+ },
+ {
+  "workspace": "V4/004-郭璞葬经-1.8",
+  "raw_kind": "release_archive",
+  "description": "发布历史中保留了 11 个作废或中间版本，目录名分别为 invalid、rejected、revoked、stale-manuscript、pending、pre-final、pre-glossary-contract、layout-pass-1、layout-pass-2、navigation-pass-1、reader-layout-pre-v20，说明成品经历了术语、排版、导航、读者版式等多轮返工，并出现过稿件与 PDF 不一致。作废原因未写入文件，以上分类据目录名推断。",
+  "category": "出版", "subcategory": "成品反复作废",
+  "caused_at": "审核出版", "found_at": "出版校验与复查", "severity": "影响阅读", "rework_cost": "撤销成品",
+  "evidence": "V4/004-郭璞葬经-1.8/90-audit/release-history/"
+ },
+ {
+  "workspace": "V4/003-平砂玉尺经-1.7",
+  "description": "1.5 版质量报告评为 B 级、声明“达到普通读者正式交付门槛”，但被用户退回；随后升级到 1.7 重新制作。退回的具体原因没有写入工作记录。",
+  "category": "质量门失效", "subcategory": "通过但被退回",
+  "caused_at": "审核出版", "found_at": "用户验收", "severity": "影响阅读", "rework_cost": "撤销成品",
+  "evidence": "V4/003-平砂玉尺经-1.7/90-audit/release-history/legacy-1.5-user-rejected/quality-report.md"
+ },
+ {
+  "workspace": "V4/003-平砂玉尺经-1.7",
+  "description": "独立前向试读不通过：普通读者无法复述东北、西南、震、兑之间的判别步骤，缺少方位参照、层次解释和“合衿”的解释。",
+  "category": "读者层", "subcategory": "解释不足",
+  "caused_at": "阅读编辑", "found_at": "独立试读", "severity": "影响阅读", "rework_cost": "下游重做",
+  "evidence": "skill-upgrades/超云Skill-1.7升级说明.md:51"
+ },
+ {
+  "workspace": "V4/003-平砂玉尺经-1.7",
+  "description": "1.7 术语验证在已交付过的《平砂玉尺经》中发现 25 个术语错误（可能多个来自同一根因）。",
+  "category": "术语", "subcategory": "术语解释不合格",
+  "caused_at": "阅读编辑", "found_at": "Skill 升级校验", "severity": "影响阅读", "rework_cost": "下游重做",
+  "evidence": "skill-upgrades/超云Skill-1.7升级说明.md:39"
+ },
+ {
+  "workspace": "V4/001-青囊海角经",
+  "description": "B 级成品（含 196 页白话版和 497 页对照版）交付后又做了两次整体重建：先是编辑层重建，再是面向风水爱好者重做，中间版本一度降为 C 级（语义修订中）。",
+  "category": "读者层", "subcategory": "目标读者与编辑定位重做",
+  "caused_at": "阅读编辑", "found_at": "交付后复查", "severity": "影响阅读", "rework_cost": "撤销成品",
+  "evidence": "V4/001-青囊海角经/archive/pre-editorial-rebuild-20260926/quality-report.md ; V4/001-青囊海角经/archive/pre-modern-enthusiast-v3-20260926/90-audit__quality-report.md"
+ },
+ {
+  "workspace": "V4/001-青囊海角经",
+  "description": "第三轮语义修复找到 59 条高影响翻译问题，其中 56 个块实际改写；这些问题在此前已评 B 级的版本中存在。",
+  "category": "忠实性", "subcategory": "高影响翻译错误",
+  "caused_at": "白话转换", "found_at": "交付后语义修复", "severity": "影响原意", "rework_cost": "下游重做",
+  "evidence": "V4/001-青囊海角经/90-audit/semantic-repair-v3.json"
+ },
+ {
+  "workspace": "chaoyun-full-zengshi-dili-zhuoyufu",
+  "description": "《琢玉斧》整本初版仅 10/80 页视觉重建成功，底层 OCR 风险未消除，只能评 C 级；此后又做了重制、重制 v2 和 V4 迁移三轮。",
+  "category": "识别", "subcategory": "识别质量不足导致整本重做",
+  "caused_at": "原文重建", "found_at": "质量报告", "severity": "影响原意", "rework_cost": "撤销成品",
+  "evidence": "chaoyun-full-zengshi-dili-zhuoyufu/90-audit/quality-report.md"
+ },
+ {
+  "workspace": "V4/011-青囊心印-1.10",
+  "description": "正文与原注分界、多目标注释、第16页表格和跨页接续需要修复；更正回放又发现 P13B10、P19B18 两处坐标错误。",
+  "category": "归属", "subcategory": "经注分界与注释目标",
+  "caused_at": "原文重建", "found_at": "独立源文复核", "severity": "影响原意", "rework_cost": "局部修正",
+  "evidence": "V4/011-青囊心印-1.10/CURRENT.md:9"
+ },
+ {
+  "workspace": "V4/011-青囊心印-1.10",
+  "description": "第19页下半褪印段无法从底本辨认，最终借助另一部上海图书馆藏本才校明。",
+  "category": "识别", "subcategory": "漫漶不可辨",
+  "caused_at": "底本条件", "found_at": "原文重建", "severity": "影响原意", "rework_cost": "局部修正",
+  "evidence": "V4/011-青囊心印-1.10/CURRENT.md:14"
+ }
+]

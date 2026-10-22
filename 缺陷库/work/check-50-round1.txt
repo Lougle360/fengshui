@@ -1,0 +1,153 @@
+
+######## ai_record  (total 3186, sampled 50)
+- defect_id=D01896 | record_kind=doubt | category=工具缺陷 | subcategory=字形修订无法回写 | outcome=unresolved | found_at=原文重建与复核
+    text: None
+    reason: old_text_not_uniquely_located；原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。
+- defect_id=D01661 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D02583 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    reason: 原页若干字仍难逐字确定；最终读者文本只保留可稳妥说明的文意，不把猜字写成定论。；原页若干字仍难逐字确定；最终读者文本只保留可稳妥说明的文意，不把猜字写成定论。
+- defect_id=D02989 | record_kind=doubt | category=识别 | subcategory=疑字待定 | outcome=unresolved | found_at=原文重建与复核
+    text: None
+    reason: 「荅」字形似「答」，但古籍中或為「荅」之異體或訛字，疑為「答」或「荅」，保留原字。
+- defect_id=D00911 | record_kind=doubt | category=忠实性 | subcategory=其他翻译疑点 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    before: 易曰坎陷也習坎有手維心亨行有尙位居正北雨以潤之而枯槁滋息時令仲冬曰勞乎坎以終歲勤動慰勞於斯一陽藏蓄而休息也冬至天帝回歸北極於子垣太陽復命告功於丑所壬癸輔子坎正冬之令也萬物歸藏帝既慰  ||  after: 《易经》说：坎代表陷，文中引用“坎陷也习坎有手维心亨行有尙”，但“有手维心亨”这一表述不通，疑为“有孚维心亨”之误，原文未明。坎位居正北，雨水滋润万物使枯槁复苏。时令在仲冬，称为“
+- defect_id=D02765 | record_kind=doubt | category=识别 | subcategory=漫漶不可辨 | outcome=unresolved | found_at=原文重建与复核
+    text: None
+    reason: 序文局部破损，若干字组仅为可见候选，需要独立逐列核对。；第008-009页复核后仍有刻痕、墨损或字形不能唯一裁决；保留底本可见录文，白话阶段不得靠通行本或理论补造，并在最终稿逐项核查读者影响。
+- defect_id=D01261 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 庚向辛水  ||  after: 庚向辛水
+- defect_id=D02621 | record_kind=progress_log | category=结构 | subcategory=跨页切分 | outcome=fixed | found_at=原文重建与复核
+    text: None
+- defect_id=D02056 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.；该记录是短题签保留或图式结构说明，不是未决正文释义。
+- defect_id=D02920 | record_kind=doubt | category=流程噪音 | subcategory=无问题也登记 | outcome=not_defect | found_at=原文重建与复核
+    text: None
+- defect_id=D02946 | record_kind=doubt | category=结构 | subcategory=跨页接续 | outcome=not_defect | found_at=原文重建与复核
+    text: None
+    reason: 复核确认属于跨页续文、版面关系、编者说明或完整性提示，不是未识读正文。
+- defect_id=D02638 | record_kind=progress_log | category=识别 | subcategory=参考本与底本差异 | outcome=fixed | found_at=原文重建与复核
+    text: None
+- defect_id=D01715 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：含义不详
+- defect_id=D00091 | record_kind=correction | category=识别 | subcategory=错字 | outcome=fixed | found_at=原文重建与复核
+    text: None
+    before: 寅申已亥龙乙辛丁癸乾坤艮巽  ||  after: 寅申巳亥龙乙辛丁癸乾坤艮巽
+- defect_id=D00205 | record_kind=doubt | category=忠实性 | subcategory=模型判定需修订（未说明原因） | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: 含义未定专名未作为原词引用：元女；本地硬校验仍未通过，已记录供后续自动处理或人工核对。；属于审校评论或表达建议，不是未辨原文。
+- defect_id=D02321 | record_kind=text_scan | category=结构 | subcategory=版心页眉混入正文 | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：房分公位以及生旺墓三方，配合孟仲季来断吉凶，方法注疏见前文。如孟为长子，长生当长房旺人丁，若生水先到堂，主先发长房人丁；仲为仲子，帝旺管中房财禄，若旺水先到堂，主先发中房财禄；生水先到先人丁，旺水先到先发官禄，这是缓急先后之应的区别。其余土入经下卷之六
+- defect_id=D02898 | record_kind=doubt | category=忠实性 | subcategory=增译或无依据扩写 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    reason: 将“陽”生硬译为“阳相关内容”属于无依据解释，未结合上下文标注风险；将“陽”生硬译为“阳相关内容”属于无依据解释，未结合上下文标注风险
+    before: None  ||  after: 阳相关内容，搜寻吉利的地，我因此也动了念头。
+- defect_id=D03073 | record_kind=doubt | category=释读缺口 | subcategory=错字未校正直接进入译文 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    before: None  ||  after: 真假何以辨，龙之行止何以辨，此二药，世人既知。
+- defect_id=D01134 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 大  ||  after: 大
+- defect_id=D01913 | record_kind=doubt | category=工具缺陷 | subcategory=字形修订无法回写 | outcome=unresolved | found_at=原文重建与复核
+    text: None
+    reason: whitespace_only；原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。
+- defect_id=D03101 | record_kind=text_scan | category=读者层 | subcategory=流程用语混入正文 | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：OCR
+- defect_id=D02394 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D01761 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D00110 | record_kind=correction | category=识别 | subcategory=错字 | outcome=fixed | found_at=原文重建与复核
+    text: None
+    before: 曰：“盛衰有相寻之理，天地亦有终穷之时，此适逢其会焉耳。非葬地之故也。有违礼而火化、水化，其祖宗无葬地，亦或有昌达者矣。则何居昔之善择形胜以建都，比崩遂葬于是者，莫如尧、舜、禹、汤  ||  after: 曰：‘盛衰有相寻之理，天地亦有终穷之时，此适逢其会焉耳。非葬地之故也。有违礼而火化、水化，其祖宗无葬地，亦或有昌达者矣。则何居？昔之善择形胜以建都，比崩遂葬于是者，莫如尧、舜、禹、
+- defect_id=D00164 | record_kind=doubt | category=忠实性 | subcategory=模型判定需修订（未说明原因） | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: 本地硬校验仍未通过，已记录供后续自动处理或人工核对。；属于审校评论或表达建议，不是未辨原文。
+- defect_id=D02038 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.；该记录是短题签保留或图式结构说明，不是未决正文释义。
+- defect_id=D00347 | record_kind=doubt | category=术语 | subcategory=术语含义待定 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: 尖方圆动直；行时逶曲递；流行停四望；归八方形变；异秘内神背；幽关迎阳明；属于审校评论或表达建议，不是未辨原文。
+- defect_id=D00727 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D02513 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D02183 | record_kind=doubt | category=释读缺口 | subcategory=残句或切断 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: 原文'就旺方木'后文残缺，candidate补全为'局結穴'，此处保留原词并标注推测；'砂頭短折'中的'短折'可能指形态短促曲折，而非折断，需结合上下文理解；'砂頭短折'的具体形态和'腰截曲折'的确切含义存在一定模糊性。；'各立門面以分泄其英靈'的'分泄'在此处的具体吉凶含义需结合更大语境判断。；1轮自动修复后核义模型仍建议修订，已保守记录。；“腰截曲折”是否指被水截断存疑；“亥龍入卯就旺方木”原
+- defect_id=D01431 | record_kind=doubt | category=释读缺口 | subcategory=错字未校正直接进入译文 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    before: 尋龍先尋祖與宗不辨祖宗何足語太山高從是眞龍 踢躍奔騰誰可比龍脈自大祖而下有遠神有太宗 有少視少宗以至父母去穴近者關禍福亦近去穴遠 者禍福亦遠故論祖者以少祖爲主而不必推極其 遠者以龍  ||  after: 寻找龙脉首先要寻找祖山和宗山，如果不能分辨祖宗，就不值得谈论风水。原文“太山高从是真龙”中的“从是”具体所指不详，山势踢跃奔腾，没有能与之相比的。龙脉从大祖山往下延伸，有远神、太宗
+- defect_id=D00315 | record_kind=doubt | category=术语 | subcategory=术语含义待定 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: 天医的具体所指；属于审校评论或表达建议，不是未辨原文。
+- defect_id=D01539 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：无法释读
+- defect_id=D02763 | record_kind=doubt | category=识别 | subcategory=漫漶不可辨 | outcome=unresolved | found_at=原文重建与复核
+    text: None
+    reason: 郢正候选需核实，不先凭熟悉典故增加具体含义。；第006-007页复核后仍有刻痕、墨损或字形不能唯一裁决；保留底本可见录文，白话阶段不得靠通行本或理论补造，并在最终稿逐项核查读者影响。
+- defect_id=D01320 | record_kind=doubt | category=释读缺口 | subcategory=术语或短语所指不详 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    before: 祿存土龍行九紫離丙午丁三方丙龍陽火見祿存土 手  ||  after: 禄存土龙行经九紫、离、丙、午、丁三方。文中提到“丙龙阳火见禄存土手”，但“禄存土手”这一短语的具体所指不详，原文在此处结束。
+- defect_id=D00265 | record_kind=doubt | category=忠实性 | subcategory=模型判定需修订（未说明原因） | outcome=unresolved | found_at=白话转换自检
+    text: None
+    reason: allowed_glossary中明确‘龙’指风水中山脉、地势及气脉的来势和行度，‘青龙’指穴场或建筑左侧的形势称谓，但原文此处论述太岁为天神，与青龙类比，属于非风水语境，释读未明确该段中龙、青龙非风水术语，可能造成读者误解；原文中‘暴溺仆死’释为‘突然溺水跌倒而死’不准确，‘暴溺’应为突然遭遇疫气、灾祸而死的含义，此处翻译误将‘溺’释为溺水；1轮自动修复后核义模型仍建议修订，已保守记录。；all
+- defect_id=D01652 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D00189 | record_kind=doubt | category=忠实性 | subcategory=模型判定需修订（未说明原因） | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: 已丙的具体含义；龙神照的具体含义；1轮自动修复后核义模型仍建议修订，已保守记录。；已丙；属于审校评论或表达建议，不是未辨原文。
+- defect_id=D00996 | record_kind=doubt | category=忠实性 | subcategory=模型判定需修订（未说明原因） | outcome=unresolved | found_at=白话转换自检
+    text: None
+    before: 曠坂之中有四畔水澆而見田塍疊疊如浪湧者俱作龍論其法有三一曰拱來形如初月兩角向下發宜而來直至結穴之處橫變曲塍之所爲眞一曰收來亦如初月雨角向上軟軟而來勢如疊源直至方板不動之處爲眞一曰龍  ||  after: 空旷的平地之中，如果四周有水浇灌，同时田埂层层叠叠像浪涛涌动的，都按照龙来论断。判断这类龙的方法有三种：第一种叫拱来，形状像初升的月亮，两角向下，「发宜」而来，「发宜」具体所指不详
+- defect_id=D00029 | record_kind=correction | category=识别 | subcategory=标点误识 | outcome=fixed | found_at=原文重建与复核
+    text: None
+    before: 《癸辛杂识》：赵节斋之父国公祖墓在括苍青田，以地本一蜀人所定，约三年复来，已而见者皆言其中有水，当谋改厝。启之未毕，而前人至，见之曰：“水自有之，无害也。”既启穴，水绿色，以盏勺饮  ||  after: 《癸辛杂识》：赵节斋之父国公祖墓在括苍青田，以地本一蜀人所定，约三年复来，已而见者皆言其中有水，当谋改厝。启之未毕，而前人至，见之曰：‘水自有之，无害也。’既启穴，水绿色，以盏勺饮
+- defect_id=D02072 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.；该记录是短题签保留或图式结构说明，不是未决正文释义。
+- defect_id=D01141 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.
+    before: 行龙结荷花形  ||  after: 行龙结荷花形
+- defect_id=D01822 | record_kind=doubt | category=工具缺陷 | subcategory=字形修订无法回写 | outcome=unresolved | found_at=原文重建与复核
+    text: None
+    reason: similarity_below_0_92；too_many_changed_characters；原页曾提出字形修订，但旧定位不足以安全回写；现代版保守保留并提示读者核对原页。
+- defect_id=D02097 | record_kind=doubt | category=流程噪音 | subcategory=非正文短标签被登记 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: Short heading/contributor label did not receive a unique V3 segment anchor; normalized source wording is retained.；该记录是短题签保留或图式结构说明，不是未决正文释义。
+- defect_id=D02232 | record_kind=doubt | category=释读缺口 | subcategory=错字未校正直接进入译文 | outcome=not_defect | found_at=白话转换自检
+    text: None
+    reason: “少有城”是否为“少有成”或“少有城郭”之误；1轮自动修复后核义模型仍建议修订，已保守记录。；“少有城”疑似存在脱文，文意不全，具体所指不详；该段已在二次修复与独立复判中接受；旧工作记录保留作历史证据，不再投射为读者未决项。
+- defect_id=D00412 | record_kind=doubt | category=术语 | subcategory=术语含义待定 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    reason: 之元；九天飞锡；播元风；应若逢空；原文在‘清净’处戛然而止，candidate 也以‘清净’结尾，但原文可能未完。candidate 未标注此不确定性。；之元；九天飞锡；播元风；应若逢空；原文在‘清净’处戛然而止，candidate 也以‘清净’结尾，但原文可能未完。candidate 未标注此不确定性。
+- defect_id=D00830 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D03048 | record_kind=doubt | category=释读缺口 | subcategory=残句或切断 | outcome=unresolved | found_at=白话转换自检
+    text: None
+    before: None  ||  after: 溝渠、田洫、浜頭的水（风水语境中的河流、水系及其来去形态），要让它汇聚得规整明净，光润洁净地映照穴（风水中认为气脉聚结、适宜安葬或营建的位置），如果……
+- defect_id=D03166 | record_kind=text_scan | category=释读缺口 | subcategory=终稿残留“所指不详” | outcome=in_final_text | found_at=终稿扫描（本次）
+    text: None
+    reason: 命中：具体所指不详
+- defect_id=D02535 | record_kind=doubt | category=忠实性 | subcategory=其他翻译疑点 | outcome=not_defect | found_at=reader_revision
+    text: None
+    reason: 307个来源块均已进入现行白话层并绑定最终读者锚点，旧版裁切风险不再存在。；独立忠实性复核确认最终稿在修复五土四备、五官四项、僭上逼下和四势双义后与来源相容。
